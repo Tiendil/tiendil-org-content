@@ -1,0 +1,73 @@
+title = "Emergent blog"
+subtitle = "Essays about game development, thinking and books"
+author = "Aliaksei Yaletski (Tiendil)"
+
+[[menu]]
+type = "article"
+name = "About Me"
+slug = 'about'
+
+[[menu]]
+type = "blog"
+name = "Blog"
+
+[[menu]]
+type = "article"
+name = "Projects"
+slug = "projects"
+
+[[menu]]
+type = "feed"
+name = "RSS"
+
+[[menu]]
+type = "external"
+name = "GitHub"
+url = "https://github.com/Tiendil"
+
+[tags_translations]
+theory = "theory"
+practice = "practice"
+development = "development"
+gamedev = "gamedev"
+society = "society"
+books = "books"
+game-designe = "game designe"
+thinking = "thinking"
+futurology = "futurology"
+evolution = "evolution"
+open-source = "open source"
+python = "Python"
+monetization = "monetization"
+neural-networks = "neural networks"
+business = "business"
+systems = "systems"
+the-tale = "the-tale.org"
+state = "state"
+economics = "economics"
+procedural-content-generation = "procedural content generation"
+reflection = "reflection"
+mmo = "MMO"
+psychology = "psychology"
+exocortex = "exocortex"
+backend = "backend"
+education = "education"
+tarantoga = "Tarantoga"
+blog = "blog"
+concepts = "concepts"
+tests = "tests"
+habrahabr = "habr.ru"
+rust = "Rust"
+julia = "Julia"
+jupyter-notebooks = "Jupyter notebooks"
+movies = "movies"
+geography = "geography"
+feeds-fun = "feeds.fun"
+interesting = "interesting posts"
+best = "best posts"
+world-builders = "World Builders"
+
+[theme_translations]
+tags_filter_header = 'Found essays:'
+last_posts_header = 'Last essays'
+article_similar_header = 'Read next'

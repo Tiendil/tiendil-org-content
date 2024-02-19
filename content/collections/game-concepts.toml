@@ -1,0 +1,6 @@
+id = "game-concepts"
+required_tags = ["gamedev", "concepts"]
+order = "desc"
+
+[css_for_tags]
+best = "brigid-important-link"

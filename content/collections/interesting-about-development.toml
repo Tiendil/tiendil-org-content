@@ -1,0 +1,7 @@
+id = "interesting-about-development"
+required_tags = ["development", "interesting"]
+excluded_tags = ["concepts", "books", "gamedev", "thinking"]
+order = "desc"
+
+[css_for_tags]
+best = "brigid-important-link"

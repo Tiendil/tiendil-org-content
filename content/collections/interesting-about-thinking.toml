@@ -1,0 +1,7 @@
+id = "interesting-about-thinking"
+required_tags = ["thinking", "interesting"]
+excluded_tags = ["books"]
+order = "desc"
+
+[css_for_tags]
+best = "brigid-important-link"

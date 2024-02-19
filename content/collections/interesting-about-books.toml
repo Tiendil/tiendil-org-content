@@ -1,0 +1,7 @@
+id = "interesting-about-books"
+required_tags = ["books", "interesting"]
+# excluded_tags = ["concepts"]
+order = "desc"
+
+[css_for_tags]
+best = "brigid-important-link"
