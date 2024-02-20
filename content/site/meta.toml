@@ -1,5 +1,6 @@
-# url = "https://tiendil.org"
-url = "http://0.0.0.0:8000"
+# TODO: move to env?
+url = "https://tiendil.org"
+# url = "http://0.0.0.0:8000"
 default_language = 'en'
 allowed_languages = ['en', 'ru']
 posts_per_page = 5
