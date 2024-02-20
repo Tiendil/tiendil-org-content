@@ -33,13 +33,13 @@ trio = ["trio (>=0.23)"]
 
 [[package]]
 name = "brigid"
-version = "0.2.0"
+version = "0.2.1"
 description = "Static site generator."
 optional = false
 python-versions = ">=3.12,<4.0"
 files = [
-    {file = "brigid-0.2.0-py3-none-any.whl", hash = "sha256:0dabd0c6156373ff612af4efa55cc0fa53b82f4a901c508a015706bddf1c13cf"},
-    {file = "brigid-0.2.0.tar.gz", hash = "sha256:f6aa21df993ee177ef76eebce6a4895610231d843303c995dfe34748e2fb5ed4"},
+    {file = "brigid-0.2.1-py3-none-any.whl", hash = "sha256:bb51aa5f0c8026461d2c4a884abf257b8071184b03287a85d6ef68ddab68381d"},
+    {file = "brigid-0.2.1.tar.gz", hash = "sha256:e437a84e5da596060b437ab0d1c15056849a4d9af64e3454ddf19a4f943e0fec"},
 ]
 
 [package.dependencies]
@@ -1044,4 +1044,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "22daa457acb9ca45afe8009ddcd5e2377ecdb2a90a111b6e5e439689632933b4"
+content-hash = "cb51d09c8c9d91e2d1bc9293746c508527975ec53c8dac58e93d3db8d4a14df3"
