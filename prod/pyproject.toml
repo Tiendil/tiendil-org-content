@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "prod_tiendil_org"
+version = "0.1"
+description = "prod tiendi.org blog"
+repository = "https://github.com/Tiendil/tiendil-org-content"
+authors = ["Aliaksei Yaletski (Tiendil) <a.eletsky@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+brigid = "^0.2.0"
