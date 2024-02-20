@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "local_tiendil_org"
+version = "0.1"
+description = "local tiendi.org blog"
+repository = "https://github.com/Tiendil/tiendil-org-content"
+authors = ["Aliaksei Yaletski (Tiendil) <a.eletsky@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+uvicorn = {extras = ["standard"], version = "0.*"}
+brigid = "^0.2.0"
