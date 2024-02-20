@@ -8,4 +8,5 @@ authors = ["Aliaksei Yaletski (Tiendil) <a.eletsky@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.12"
 
+uvicorn = "^0.27.1"
 brigid = "^0.2.0"
