@@ -24,6 +24,6 @@ You can find more about me:
 
 This is my first blog post in English, but not the first one in general. I have blogged in Russian for a long time and have always wanted to share my thoughts with the English-speaking world. At last, I found some time to adapt my blog, and here we are!
 
-Most of the future posts will be bilingual (will be in two versions: in English and in Russian). Also, with time, I'll translate my most interesting old posts.
+Most of the future posts will be bilingual (English & Russian). Also, with time, I'll translate my most interesting old posts.
 
 Once again, nice to meet you! Feel free to contact me by any means.
