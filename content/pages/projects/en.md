@@ -28,6 +28,13 @@ A news reader with tags and neural networks. Available online, self-hosted if de
 - You create rules like `elon-musk & twitter => score -100500`, `procedural-content-generation & hentai => score +13`.
 - In the interface, you sort news by interest and read only the most interesting for you.
 
+### Brigid
+
+- GitHub: [github.com/tiendil/brigid](https://github.com/tiendil/brigid)
+- PyPI: [pypi.org/project/brigid](https://pypi.org/project/brigid/)
+
+The engine on which this site runs.
+
 ### The Tale
 
 _Russian language only :-(_

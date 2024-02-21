@@ -27,6 +27,13 @@ seo_image = ""
 - Вы создаёте правила в духе `elon-musk & twitter => score -100500`, `procedural-content-generation & hentai => score +13`.
 - В интерфейсе сортируете новости по интересности и читаете только самые-самые именно для вас.
 
+### Brigid
+
+- GitHub: [github.com/tiendil/brigid](https://github.com/tiendil/brigid)
+- PyPI: [pypi.org/project/brigid](https://pypi.org/project/brigid/)
+
+Движок на котором работает этот сайт.
+
 ### Сказка
 
 - Сайт: [the-tale.org](https://the-tale.org/)
