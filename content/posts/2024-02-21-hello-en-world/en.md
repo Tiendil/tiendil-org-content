@@ -13,7 +13,7 @@ My name is Aliaksei, but feel free to call me Tiendil — it is my nickname for 
 A few words about me:
 
 - By occupation, I am a software developer, mostly backend, mainly in Python.
-- For most of my career, I worked in game development on big projects and own indie games.
+- For most of my career, I've been working in game development on big projects and own indie games.
 - I like playing games, reading books, and writing long-reads about partially complex topics.
 
 You can find more about me:
