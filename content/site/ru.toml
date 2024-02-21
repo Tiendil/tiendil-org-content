@@ -28,7 +28,7 @@ name = "RSS"
 [[menu]]
 type = "external"
 name = "Telegram"
-url = "https://t.me/tiendil_org"
+url = "https://t.me/tiendil_org_ru"
 
 [[menu]]
 type = "external"
