@@ -27,6 +27,11 @@ url = "https://t.me/tiendil_org_en"
 
 [[menu]]
 type = "external"
+name = "Discord"
+url = "https://discord.gg/2JNHAV7uMP"
+
+[[menu]]
+type = "external"
 name = "GitHub"
 url = "https://github.com/Tiendil"
 
