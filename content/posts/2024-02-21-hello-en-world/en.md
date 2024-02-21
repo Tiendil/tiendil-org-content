@@ -14,7 +14,7 @@ A few words about me:
 
 - By occupation, I am a software developer, mostly backend, mainly in Python.
 - For most of my career, I worked in game development on big projects and own indie games.
-- I like playing games, reading books, and writing long-reads about games, books, and thinking.
+- I like playing games, reading books, and writing long-reads about partially complex topics.
 
 You can find more about me:
 
