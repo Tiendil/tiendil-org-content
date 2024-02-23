@@ -33,6 +33,8 @@ seo_image = ""
 - Первый вариант опроса предполагал перемешивание вариантов ответа для каждого респондента (гуглу имеет такую опцию), но после тестирования на знакомых убрал, эту фичу. Во многих вопросах варинаты идут в какой-то логичной последовательности, перемешивание заставляет людей прыгать между противоположными частями области значений вопроса, путая и принося страдания.
 - Первый вариант опроса был куда страшнее, особенно в секции историй. Полностью переработал после теста на знакомых.
 
+В целом, этап предварительного тестирования опроса — обязательная штука.
+
 ### Ошибки при составлении опроса
 
 По итогам распространения опроса и предварительной обработки данных нашёл несколько существенных ошибок.
@@ -43,6 +45,7 @@ seo_image = ""
 4. В том же вопросе стоило явно указать видео сервисы (YouTube, Twitch, etc.).
 5. Вопросе про стиль сюжета забыл добавить вариант «horror».
 6. В вопросе о стиле мира забыл добавить вариант свободногшо ответа — было бы интересно узнать мысли людей.
+7. Некоторые вопросы, которые предполагались как вопросы о стратегических играх, были сформулированы как вопросы об играх в целом. Это путало респондентов. В будущем надо быть вниательныее.
 
 ## Поиск респондентов
 
@@ -124,7 +127,6 @@ caption = "Статистика рекламы на Reddit"
 
 В вопрос `Maximum size of your news agency` добавлен вариант `small_or_automanage` для ответов в духе «если с атоматизацией, то большой размер, иначе маленький», и «если будет большой размер, нужна автоматизация, чтобы защититься от микроменеджмента».
 
-
 ### Очистка
 
 Задачу очистки — убрать некорректные наборы данных — анкеты, заполненные безответственно, в шутку или сознательно неправильно.
@@ -141,7 +143,19 @@ caption = "Статистика рекламы на Reddit"
 - Слишком большой или слишком малый возраст (2 года, 100 лет).
 - Чрезмерно шутливые или агресивные ответы («продаю наркотики», расистские высказывания).
 
+### Примечания
 
+Варианты со свободным ответом значительно усложняют обработку данных, но полезны — указывают на упущения, дают интересные инсайты и в целом читать их интересно.
+
+## Ответы на некоторые вопросы
+
+# - answer to: "What's the need for magic elements? Do you think the kind of people interested in news will be interested as much in magical fantasy?"
+# - answer to: "/vst/ is a terrible place to advertise on, just so you know. "
+# - answer to: "Just in relation to the ""realistic journalism"", are we on about like current rag journos, or actual journos? the ones making it on the RSF website after getting shot by Iraqi militiamen, instead of the other journalists using a 10 second social media clip to try and get people throwing bricks at police vans.
+# mention: "make this game such that it inspire the real journalists to do there jobs properly"
+# mention: "I work at a news agency for real. I'll make sure to follow this project."
+# mention: "I know nothing of what you're making but answering the questions made me imagine something for myself" <-- this was my intention
+# - answer: about ai generated art in the ads
 
 ------------------
 
@@ -157,3 +171,24 @@ caption = "Статистика рекламы на Reddit"
 - не добавил вопрос для отслеживания откуда человек пришёл
 - мультиварианты не анализировались
 - спасибо жене за кросвалидацию очистки данных
+
+
+# Post:
+# - calcualte persent of "other" answers
+# - say thanks for "other" answers
+
+
+# Suggestions
+# nice work count: 9
+# good luck count: 86
+# waiting for the game count: 38
+# intrigues with concept / greate idea: 36
+
+# hire as a game tester (3)
+# will be glad to give more feedback
+# insite on types of channels
+# translate in spanish (or franch) (but no contacts)
+
+# TODO: count editors/journalists from suggestions
+
+# in general, very positive comments
