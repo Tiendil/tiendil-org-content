@@ -21,7 +21,7 @@ seo_image = ""
 ## Опрос
 
 /// details | Оригинальный опросник
-    <!-- open: false -->
+    open: false
 
 --8<-- "./original_survey.md"
 ///
