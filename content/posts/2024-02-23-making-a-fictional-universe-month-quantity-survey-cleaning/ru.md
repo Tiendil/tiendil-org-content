@@ -49,6 +49,8 @@ seo_image = ""
 
 ## Поиск респондентов
 
+<!-- TODO: i'm not a social man -->
+
 Так как в любом случае игра будет делаться (если будет), в первую очередь, для англоязычной аудитории (самая большая из доступных), опрос таргетировался на англоговорящих людей и места где их можно найти.
 
 Анкета активно распространялась в:
@@ -147,15 +149,41 @@ caption = "Статистика рекламы на Reddit"
 
 Варианты со свободным ответом значительно усложняют обработку данных, но полезны — указывают на упущения, дают интересные инсайты и в целом читать их интересно.
 
-## Ответы на некоторые вопросы
+## Ответы и комментарии на некоторые «свободные ответы»
 
-# - answer to: "What's the need for magic elements? Do you think the kind of people interested in news will be interested as much in magical fantasy?"
-# - answer to: "/vst/ is a terrible place to advertise on, just so you know. "
-# - answer to: "Just in relation to the ""realistic journalism"", are we on about like current rag journos, or actual journos? the ones making it on the RSF website after getting shot by Iraqi militiamen, instead of the other journalists using a 10 second social media clip to try and get people throwing bricks at police vans.
-# mention: "make this game such that it inspire the real journalists to do there jobs properly"
-# mention: "I work at a news agency for real. I'll make sure to follow this project."
-# mention: "I know nothing of what you're making but answering the questions made me imagine something for myself" <-- this was my intention
-# - answer: about ai generated art in the ads
+Поскольку контактов респондентов я не собирал, хочу ответить на пару вопросов, которые задали в свободных ответах.
+
+
+> What's the need for magic elements? Do you think the kind of people interested in news will be interested as much in magical fantasy?
+
+Магические элементы могут быть нужны, чтобы снизись сложность проработки мира. Делать реалистический sci-fi мир сложно, особенно для игр, когда интересность взаимодействия с миров начинает конфликтовать с реалистичностью его отображения. Магические элементы помогают сгладить эти противоречия.
+
+> "/vst/ is a terrible place to advertise on, just so you know.
+
+У меня не было задачи продвижения чего-либо, так как нечего продвигать.
+
+В остальном, Результаты говорят, что `/vst/` — отличное место, чтобы получить обратную связь.
+
+> Just in relation to the ""realistic journalism"", are we on about like current rag journos, or actual journos? the ones making it on the RSF website after getting shot by Iraqi militiamen, instead of the other journalists using a 10 second social media clip to try and get people throwing bricks at police vans.
+
+Я думаю, реалистичное отображение журналистики должно включать оба варианта. Конечно, можно уделять разное внимание разным аспектам этой профессии, и мне хотелось бы глубже копнуть в крутую опасную журналистику. Но если говорить о реалистичном отображении, то надо показывать оба варианта и их взаимодействие.
+
+> I know nothing of what you're making but answering the questions made me imagine something for myself"
+
+Так и задумывалось.
+
+- Первая часть анкеты — техническая и чёткая, её можно оформлять сухо.
+- Вторая часть анкеты про опыт, который люди хотят получать от игр, опыт не может быть «сухим», «бездушным». Поэтому формулировки должны пробуждать фантазию, заставлять представлять «а как бы оно было, если бы». Надеюсь у меня получилось.
+
+> make this game such that it inspire the real journalists to do there jobs properly
+
+и
+
+> I work at a news agency for real. I'll make sure to follow this project.
+
+Было достаточно много подобных комментарев. На мой взгляд это круто, значит я что-то насчупал.
+
+##
 
 ------------------
 
