@@ -224,3 +224,6 @@
 # redirects to cv
 "/ru/cv" = "https://tiendil-curriculum-vitae.s3.eu-central-1.amazonaws.com/cv_alexey_yeletski_ru.pdf"
 "/en/cv" = "https://tiendil-curriculum-vitae.s3.eu-central-1.amazonaws.com/cv_aliaksei_yaletski_en.pdf"
+
+# new redirects
+"/ru/posts/making-a-fictional-universe-month-quantity-survey" = "/ru/posts/making-a-fictional-universe-quantity-survey"
