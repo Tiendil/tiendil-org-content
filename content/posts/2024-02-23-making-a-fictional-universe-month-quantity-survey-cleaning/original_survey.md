@@ -13,8 +13,6 @@ Cleaned, anonymized results will be published in [GitHub repo](https://github.co
 
 Thank you for your time and support!
 
-----
-
 ### Section 1: A few words about you
 
 #### Gender
@@ -48,8 +46,6 @@ Thank you for your time and support!
 
 - yes
 - no
-
-----
 
 ### Section 2: Your game experience
 
@@ -136,8 +132,6 @@ I play very casually <-> I focus all my attention on a game
 [linear scale  1..10]
 
 absolutely not <-> absolutely yes
-
-----
 
 ### Section 3: I am the chief editor
 
@@ -237,8 +231,6 @@ I'm not interested in this <-> There is nothing better than good intrigue
 
 I prefer focusing on other things <-> I will place every table at the right place
 
-----
-
 ### Section 4: Storytelling
 
 Journalism is all about stories. What stories do you want to see?
@@ -289,8 +281,6 @@ All stories are "black and white" <-> All stories are shades of gray
 - Depressing
 - Inspirational
 - Dull
-
-----
 
 ### Section 5: Finish
 
