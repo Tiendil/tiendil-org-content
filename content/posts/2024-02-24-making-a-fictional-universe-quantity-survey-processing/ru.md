@@ -162,6 +162,16 @@ barPlot('plot-strategy-games', groupMapper(strategyGamesGroups), groupIds(strate
 
 <div id="plot-strategy-games"></div>
 
+### Откуда узнаёте о новых играх
+
+<script type="text/javascript">
+barPlot('plot-know-about-games', groupMapper(knowAboutGamesGroups), groupIds(knowAboutGamesGroups));
+</script>
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-know-about-games"></div>
+
 <!-- footer -->
 
 ---8<--- "./filters_initialization.html"
