@@ -178,7 +178,62 @@ const likeInGamesGroups = [{id: 'achievements',
                             addToFilter: true,
                             predicate: (row) => row['q_like_in_games#what_if_scenarious'] == 1}];
 
-// q_like_in_games#achievements	q_like_in_games#changing_game_world	q_like_in_games#collecting	q_like_in_games#creating_strategies	q_like_in_games#customizing	q_like_in_games#exploring	q_like_in_games#looting	q_like_in_games#messing_with_game_rules	q_like_in_games#overcoming_challenges	q_like_in_games#risking	q_like_in_games#roleplaying	q_like_in_games#solving_puzzles	q_like_in_games#story	q_like_in_games#what_if_scenarious
+const newsChannelsTypes = [{id: 'augmented_reality',
+                            name: 'Augmented reality',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#augmented_reality'] == 1},
+                           {id: 'chats',
+                            name: 'Chats',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#chats'] == 1},
+                           {id: 'magic_creatures',
+                            name: 'Magic creatures',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#magic_creatures'] == 1},
+                           {id: 'magic_devices',
+                            name: 'Magic devices',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#magic_devices'] == 1},
+                           {id: 'mobile_application',
+                            name: 'Mobile application',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#mobile_application'] == 1},
+                           {id: 'neural_implants',
+                            name: 'Neural implants',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#neural_implants'] == 1},
+                           {id: 'news_in_vr',
+                            name: 'News in VR',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#news_in_vr'] == 1},
+                           {id: 'online_radio',
+                            name: 'Online radio',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#online_radio'] == 1},
+                           {id: 'social_networks',
+                            name: 'Social networks',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#social_networks'] == 1},
+                           {id: 'traditional_newspaper',
+                            name: 'Traditional newspaper',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#traditional_newspaper'] == 1},
+                           {id: 'traditional_radio',
+                            name: 'Traditional radio',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#traditional_radio'] == 1},
+                           {id: 'traditional_tv',
+                            name: 'Traditional TV',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#traditional_tv'] == 1},
+                           {id: 'web_portal',
+                            name: 'Web portal',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#web_portal'] == 1},
+                           {id: 'youtube',
+                            name: 'Youtube',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#youtube'] == 1}];
 
 
 function filterAll(row) {
@@ -293,6 +348,15 @@ for (let likeInGamesId in likeInGamesGroups) {
     }
     filters[likeInGamesGroup.id] = {name: 'Like: ' + likeInGamesGroup.name,
                                     filter: likeInGamesGroup.predicate};
+}
+
+for (let newsChannelsTypeId in newsChannelsTypes) {
+    let newsChannelsType = newsChannelsTypes[newsChannelsTypeId];
+    if (!newsChannelsType.addToFilter) {
+        continue;
+    }
+    filters[newsChannelsType.id] = {name: 'News: ' + newsChannelsType.name,
+                                    filter: newsChannelsType.predicate};
 }
 
 var fullData = null;

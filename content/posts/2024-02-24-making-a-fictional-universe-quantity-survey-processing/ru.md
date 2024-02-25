@@ -216,15 +216,25 @@ barPlot('plot-rpg-elements', mapRPGElements, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 
 ---8<--- "./filter_selectors.html"
 
-<div id="plot-news-channels"></div>
+<div id="plot-news-channels-essential"></div>
 
 <script type="text/javascript">
 
-function mapNewsChannels(row) {
+function mapNewsChannelsEssential(row) {
     return row['q_multiple_channels_esential'];
 }
 
-barPlot('plot-news-channels', mapNewsChannels, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+barPlot('plot-news-channels-essential', mapNewsChannelsEssential, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
+
+### Каналы распространения новостей
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-news-channels-types"></div>
+
+<script type="text/javascript">
+barPlot('plot-news-channels-types', groupMapper(newsChannelsTypes), groupIds(newsChannelsTypes));
 </script>
 
 <!-- footer -->
@@ -235,6 +245,9 @@ barPlot('plot-news-channels', mapNewsChannels, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 
 <!-- TODO: effort vs playing_strategies -->
 <!-- TODO: scatter plot X vs Y -->
+<!-- TODO: на фильтры добавить количество элементов выборки -->
 
 <!-- Insites: effort влияет на предпочтения -->
 <!-- множество каналов важны для тех, кто задрачивает и играет в стратегии много-->
+<!-- Каналы распространения новостей по возрастам -->
+<!-- Любители магии любят РПГ, но не любят напрягаться -->
