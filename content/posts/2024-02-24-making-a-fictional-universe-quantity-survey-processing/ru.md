@@ -63,6 +63,26 @@ barPlot('plot-occupation', mapOccupation, occupationGroupIds);
 
 <div id="plot-occupation"></div>
 
+## Разработчики игр
+
+<script type="text/javascript">
+
+function mapIsGameDev(row) {
+  return row['q_is_game_developer'];
+}
+
+const isGameDeveGroupIds = [
+'no',
+'yes',
+];
+
+barPlot('plot-is-game-developer', mapIsGameDev, isGameDeveGroupIds);
+</script>
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-is-game-developer"></div>
+
 <!-- footer -->
 
 ---8<--- "./filters_initialization.html"
