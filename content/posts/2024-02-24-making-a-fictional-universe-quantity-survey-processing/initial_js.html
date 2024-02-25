@@ -574,6 +574,9 @@ var fullData = null;
 var filterA = 'all';
 var filterB = 'adults (30-39)';
 
+var heatmapFilterA = 'q_world_style';
+var heatmapFilterB = 'q_plot_style';
+
 // TODO: do something with the file path
 // TODO: move to the bottom of the page?
 Papa.parse("/static/posts/making-a-fictional-universe-quantity-survey-processing/2024_02_23_cleaned_data.csv", {
@@ -724,8 +727,7 @@ function barPlot(selector, map, barsOrder) {
 
         var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
 
-        // TODO: optimize redraw
-        Plotly.newPlot(selector, data, layout, config);
+        Plotly.react(selector, data, layout, config);
     });
 }
 
@@ -837,8 +839,7 @@ function scatterpolarPlot(selector, mode) {
 
         var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
 
-        // TODO: optimize redraw
-        Plotly.newPlot(selector, data, layout, config);
+        Plotly.react(selector, data, layout, config);
     });
 
 }

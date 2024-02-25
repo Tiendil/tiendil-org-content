@@ -15,7 +15,7 @@
 
  fillFilters();
 
- function selectFilterA(value) {
+ function selectFilterA(value, skipEvent) {
    filterA = value;
    var selects = document.querySelectorAll('.plot-filter-a');
 
@@ -23,10 +23,12 @@
      select.value = filterA;
    }
 
-   document.dispatchEvent(redrawPlots);
+   if (skipEvent != 'skip-event') {
+     document.dispatchEvent(redrawPlots);
+   }
  }
 
- function selectFilterB(value) {
+ function selectFilterB(value, skipEvent) {
    filterB = value;
    var selects = document.querySelectorAll('.plot-filter-b');
 
@@ -34,10 +36,109 @@
      select.value = filterB;
    }
 
-   document.dispatchEvent(redrawPlots);
+    if (skipEvent != 'skip-event') {
+      document.dispatchEvent(redrawPlots);
+    }
  }
 
- selectFilterA(filterA);
- selectFilterB(filterB);
+ function collectQuestionsVariants() {
+   const questions = {};
+
+   const rowExample = fullData[0];
+
+   for (let key in rowExample) {
+     if (key.includes('#')) {
+       const parts = key.split('#');
+
+       if (!(parts[0] in questions)) {
+         questions[parts[0]] = {type: 'multichoice',
+                                values: []};
+       }
+
+       if (!questions[parts[0]].values.includes(parts[1])) {
+         questions[parts[0]].values.push(parts[1])
+       }
+       continue;
+     }
+
+     // TODO: add custom groups
+     if (key == 'q_age') {
+       continue;
+     }
+
+     if (key == '') {
+       continue;
+     }
+
+     if (['q_gender', 'q_occupation', 'q_is_game_developer', 'q_concurrent_agencies', 'q_max_agency_size'].includes(key)) {
+
+       const values = [];
+
+       fullData.forEach(row => {
+         if (!values.includes(row[key])) {
+           values.push(row[key]);
+         }
+       });
+
+       questions[key] = {type: 'category',
+                         values: values};
+       continue;
+     }
+
+     questions[key] = {type: 'numeric',
+                       values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]};
+   }
+
+   return questions;
+ }
+
+ const heatmapQuestions = collectQuestionsVariants();
+
+ function fillHeatmapFilters() {
+   var selects = document.querySelectorAll('.plot-heatmap-filter');
+
+   for (var select of selects) {
+
+     for (var key in heatmapQuestions) {
+       var option = document.createElement('option');
+       option.value = key;
+       option.text = key;  // TODO
+       select.appendChild(option);
+     }
+   }
+ }
+
+ fillHeatmapFilters();
+
+ function selectHeatmapFilterA(value, skipEvent) {
+   heatmapFilterA = value;
+   var selects = document.querySelectorAll('.plot-heatmap-filter-a');
+
+   for (var select of selects) {
+     select.value = heatmapFilterA;
+   }
+
+    if (skipEvent != 'skip-event') {
+      document.dispatchEvent(redrawPlots);
+    }
+ }
+
+ function selectHeatmapFilterB(value, skipEvent) {
+   heatmapFilterB = value;
+   var selects = document.querySelectorAll('.plot-heatmap-filter-b');
+
+   for (var select of selects) {
+     select.value = heatmapFilterB;
+   }
+
+    if (skipEvent != 'skip-event') {
+      document.dispatchEvent(redrawPlots);
+    }
+ }
+
+ selectFilterA(filterA, 'skip-event');
+ selectFilterB(filterB, 'skip-event');
+ selectHeatmapFilterA(heatmapFilterA, 'skip-event');
+ selectHeatmapFilterB(heatmapFilterB);
 
 </script>

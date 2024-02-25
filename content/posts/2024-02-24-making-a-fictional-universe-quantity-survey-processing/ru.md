@@ -400,46 +400,28 @@ scatterpolarPlot('plot-radar-average', 'median');
 
 ### Тепловая карта
 
+TODO: this heatmap may be wrong or missinterpreted
+TODO: age is missed here
+
+TODO: only first filter works here
+
+---8<--- "./filter_selectors.html"
+
+TODO: describe selectors
+
+<!-- TODO: add id or name attributes -->
+<div class="plot-heatmap-filters-group">
+    <select class="plot-heatmap-filter plot-heatmap-filter-a" onchange="selectHeatmapFilterA(this.value)">
+    </select>
+
+    <select class="plot-heatmap-filter plot-heatmap-filter-b" onchange="selectHeatmapFilterB(this.value)">
+    </select>
+</div>
+
 <div id="plot-heatmap"></div>
 
 <script type="text/javascript">
 
-
-function collectQuestionsVariants() {
-    const questions = {};
-
-    const rowExample = fullData[0];
-
-    for (let key in rowExample) {
-        if (key.includes('#')) {
-            const parts = key.split('#');
-
-            if (!(parts[0] in questions)) {
-                questions[parts[0]] = {type: 'category',
-                                       values: []};
-            }
-
-            if (!questions[parts[0]].values.includes(parts[1])) {
-                questions[parts[0]].values.push(parts[1])
-            }
-            continue;
-        }
-
-        // TODO: add custom groups
-        if (key == 'q_age') {
-            continue;
-        }
-
-        if (key == '') {
-            continue;
-        }
-
-        questions[key] = {type: 'numeric',
-                          values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]};
-    }
-
-    return questions;
-}
 
 function heatmapPlot(selector) {
     document.addEventListener('redrawPlots', (e) => {
@@ -455,10 +437,10 @@ function heatmapPlot(selector) {
 
         const dataA = fullData.filter(filters[filterA].filter);
 
-        xDimension = 'q_world_style';
-        yDimension = 'q_plot_style';
+        xDimension = heatmapFilterA;
+        yDimension = heatmapFilterB;
 
-        const questions = collectQuestionsVariants();
+        const questions = heatmapQuestions;
 
         const z = [];
 
@@ -474,7 +456,7 @@ function heatmapPlot(selector) {
             const indexes = []
 
             q = questions[question]
-            if (q.type == 'category') {
+            if (q.type == 'multichoice') {
                 for (let i in q.values) {
                     const variant = q.values[i];
 
@@ -486,6 +468,16 @@ function heatmapPlot(selector) {
 
             if (q.type == 'numeric') {
                 indexes.push(row[question] - 1);
+            }
+
+            if (q.type == 'category') {
+                for (let i in q.values) {
+                    const variant = q.values[i];
+
+                    if (row[question] == variant) {
+                        indexes.push(i);
+                    }
+                }
             }
 
             if (indexes.length == 0) {
@@ -553,8 +545,7 @@ function heatmapPlot(selector) {
 
         var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
 
-        // TODO: optimize redraw
-        Plotly.newPlot(selector, data, layout, config);
+        Plotly.react(selector, data, layout, config);
     });
 }
 
