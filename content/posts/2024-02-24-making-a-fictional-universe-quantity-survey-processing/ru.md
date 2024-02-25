@@ -33,22 +33,6 @@ barPlot('plot-gender', mapGender, ['male', 'female', 'non_binary_other', 'prefer
 ## Возраст
 
 <script type="text/javascript">
-function mapAge(row) {
-
-    if (row['q_age'] == null) {
-        return 'N/A';
-    }
-
-    for (let ageId in ageGroups) {
-        let ageGroup = ageGroups[ageId];
-
-        if (ageGroup.min <= row['q_age'] && row['q_age'] <= ageGroup.max) {
-            return ageGroup.id;
-        }
-    }
-
-    console.log('Unknown age:', row['q_age']);
-}
 
 barPlot('plot-age', mapAge, ageGroupIds);
 
