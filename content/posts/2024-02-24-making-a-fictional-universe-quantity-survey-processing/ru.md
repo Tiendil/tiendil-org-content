@@ -9,6 +9,7 @@ seo_image = ""  # туду
 <!-- TODO: image -->
 
 <!-- TODO: intro -->
+<!-- TODO: исходники вопросов в предыдущем посте -->
 
 Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro
 
@@ -237,9 +238,21 @@ barPlot('plot-news-channels-essential', mapNewsChannelsEssential, [1, 2, 3, 4, 5
 barPlot('plot-news-channels-types', groupMapper(newsChannelsTypes), groupIds(newsChannelsTypes));
 </script>
 
-<!-- footer -->
+### Реализм журналистики
 
----8<--- "./filters_initialization.html"
+---8<--- "./filter_selectors.html"
+
+<div id="plot-journalism-realism"></div>
+
+<script type="text/javascript">
+
+function mapJournalismRealism(row) {
+    return row['q_realistic_work'];
+}
+
+barPlot('plot-journalism-realism', mapJournalismRealism, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
+
 
 <!-- TODO Tatget audience filter: adult, playing PC, employed -->
 
@@ -249,5 +262,10 @@ barPlot('plot-news-channels-types', groupMapper(newsChannelsTypes), groupIds(new
 
 <!-- Insites: effort влияет на предпочтения -->
 <!-- множество каналов важны для тех, кто задрачивает и играет в стратегии много-->
+<!-- реализм журналистики важен для тех, кто задрачивает и играет в стратегии много-->
 <!-- Каналы распространения новостей по возрастам -->
 <!-- Любители магии любят РПГ, но не любят напрягаться -->
+
+<!-- footer -->
+
+---8<--- "./filters_initialization.html"

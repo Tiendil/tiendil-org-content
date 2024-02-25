@@ -321,6 +321,18 @@ const filters = {
         name: 'Multiple channels: not important',
         filter: (row) => row['q_multiple_channels_esential'] <= 4
     },
+    'journalismRealimsFull': {
+        name: 'Journalism realism: full',
+        filter: (row) => row['q_realistic_work'] >= 8
+    },
+    'journalismRealismPartial': {
+        name: 'Journalism realism: partial',
+        filter: (row) => row['q_realistic_work'] >= 5 && row['q_realistic_work'] <= 7
+    },
+    'journalismRealismNotImportant': {
+        name: 'Journalism realism: not important',
+        filter: (row) => row['q_realistic_work'] <= 4
+    },
 };
 
 for (let ageId in ageGroups) {
