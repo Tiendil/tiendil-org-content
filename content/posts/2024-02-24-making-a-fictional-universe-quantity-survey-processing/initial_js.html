@@ -47,11 +47,6 @@ const ageGroups = [{id: 'children (0-12)',
                     addToFilter: false,
                     predicate: (row) => row['q_age'] == null}];
 
-const ageGroupIds = ageGroups.map(function(group) {
-    return group.id;
-});
-ageGroupIds.push('N/A');
-
 const strategyGamesGroups = [{id: '4x',
                               name: '4X',
                               addToFilter: true,
@@ -84,7 +79,6 @@ const strategyGamesGroups = [{id: '4x',
                               name: 'Tycoon',
                               addToFilter: true,
                               predicate: (row) => row['q_strategy_games_like#tycoon'] == 1}];
-
 
 const knowAboutGamesGroups = [{id: 'advertising',
                                name: 'Advertising',
@@ -126,6 +120,65 @@ const knowAboutGamesGroups = [{id: 'advertising',
                                name: 'Video services',
                                addToFilter: false,
                                predicate: (row) => row['q_know_about_new_games#video_services'] == 1}];
+
+const likeInGamesGroups = [{id: 'achievements',
+                            name: 'Achievements',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#achievements'] == 1},
+                           {id: 'changing_game_world',
+                            name: 'Changing game world',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#changing_game_world'] == 1},
+                           {id: 'collecting',
+                            name: 'Collecting',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#collecting'] == 1},
+                           {id: 'creating_strategies',
+                            name: 'Creating strategies',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#creating_strategies'] == 1},
+                           {id: 'customizing',
+                            name: 'Customizing',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#customizing'] == 1},
+                           {id: 'exploring',
+                            name: 'Exploring',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#exploring'] == 1},
+                           {id: 'looting',
+                            name: 'Looting',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#looting'] == 1},
+                           {id: 'messing_with_game_rules',
+                            name: 'Messing with game rules',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#messing_with_game_rules'] == 1},
+                           {id: 'overcoming_challenges',
+                            name: 'Overcoming challenges',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#overcoming_challenges'] == 1},
+                           {id: 'risking',
+                            name: 'Risking',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#risking'] == 1},
+                           {id: 'roleplaying',
+                            name: 'Roleplaying',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#roleplaying'] == 1},
+                           {id: 'solving_puzzles',
+                            name: 'Solving puzzles',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#solving_puzzles'] == 1},
+                           {id: 'story',
+                            name: 'Story',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#story'] == 1},
+                           {id: 'what_if_scenarious',
+                            name: 'What if scenarious',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#what_if_scenarious'] == 1}];
+
+// q_like_in_games#achievements	q_like_in_games#changing_game_world	q_like_in_games#collecting	q_like_in_games#creating_strategies	q_like_in_games#customizing	q_like_in_games#exploring	q_like_in_games#looting	q_like_in_games#messing_with_game_rules	q_like_in_games#overcoming_challenges	q_like_in_games#risking	q_like_in_games#roleplaying	q_like_in_games#solving_puzzles	q_like_in_games#story	q_like_in_games#what_if_scenarious
 
 
 function filterAll(row) {
@@ -177,6 +230,18 @@ const filters = {
         name: 'Playing strategies: no',
         filter: (row) => row['q_play_strategy_games'] <= 4
     },
+    'effortInGamesAlot': {
+        name: 'Effort in games: a lot',
+        filter: (row) => row['q_playing_effort'] >= 8
+    },
+    'effortInGamesSome': {
+        name: 'Effort in games: some',
+        filter: (row) => row['q_playing_effort'] >= 5 && row['q_playing_effort'] <= 7
+    },
+    'effortInGamesNo': {
+        name: 'Effort in games: no',
+        filter: (row) => row['q_playing_effort'] <= 4
+    }
 };
 
 for (let ageId in ageGroups) {
@@ -195,6 +260,15 @@ for (let strategyGameId in strategyGamesGroups) {
     }
     filters[strategyGameGroup.id] = {name: 'Games: ' + strategyGameGroup.name,
                                      filter: strategyGameGroup.predicate};
+}
+
+for (let likeInGamesId in likeInGamesGroups) {
+    let likeInGamesGroup = likeInGamesGroups[likeInGamesId];
+    if (!likeInGamesGroup.addToFilter) {
+        continue;
+    }
+    filters[likeInGamesGroup.id] = {name: 'Like: ' + likeInGamesGroup.name,
+                                    filter: likeInGamesGroup.predicate};
 }
 
 var fullData = null;

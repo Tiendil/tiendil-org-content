@@ -185,8 +185,23 @@ function mapPlayingEffort(row) {
 barPlot('plot-playing-effort', mapPlayingEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
+### Что вам нравится в играх больше всего
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-like-in-games"></div>
+
+<script type="text/javascript">
+barPlot('plot-like-in-games', groupMapper(likeInGamesGroups), groupIds(likeInGamesGroups));
+</script>
+
 <!-- footer -->
 
 ---8<--- "./filters_initialization.html"
 
 <!-- TODO Tatget audience filter: adult, playing PC, employed -->
+
+<!-- TODO: effort vs playing_strategies -->
+<!-- TODO: scatter plot X vs Y -->
+
+<!-- Insites: effort влияет на предпочтения -->
