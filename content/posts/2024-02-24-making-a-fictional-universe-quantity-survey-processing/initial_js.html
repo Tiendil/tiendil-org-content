@@ -2,7 +2,7 @@
 <!-- TODO: if moved, how to turn on optionally? -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.33.1/plotly.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
 
 
 <script type="text/javascript">
@@ -673,6 +673,7 @@ function barPlot(selector, map, barsOrder) {
         data = [{
             'x': dataA.values,
             'y': dataA.percents,
+            'textposition': "none",
             'text': toText(dataA.percents, dataA.counts),
             'hoverinfo': 'text',
             'name': filters[filterA].name,
@@ -680,6 +681,7 @@ function barPlot(selector, map, barsOrder) {
         },{
             'x': dataB.values,
             'y': dataB.percents,
+            'textposition': "none",
             'text': toText(dataB.percents, dataB.counts),
             'hoverinfo': 'text',
             'name': filters[filterB].name,
