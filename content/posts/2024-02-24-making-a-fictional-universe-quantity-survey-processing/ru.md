@@ -400,8 +400,10 @@ scatterpolarPlot('plot-radar-average', 'median');
 
 ### Тепловая карта
 
+TODO: WE NEED TWO HEATMAPS, что-то удобно смотреть на ненормированной мапе, что-то — на нормированной?
 TODO: this heatmap may be wrong or missinterpreted
 TODO: age is missed here
+TODO: normed on number records with sign from column
 
 TODO: only first filter works here
 
@@ -487,16 +489,43 @@ function heatmapPlot(selector) {
             return indexes;
         }
 
+        const columnSizes = {};
+
         dataA.forEach(function(row){
             const xIndexs = extractIndexes(xDimension, row);
             const yIndexs = extractIndexes(yDimension, row);
 
             for (let x of xIndexs) {
+                if (!(x in columnSizes)) {
+                    columnSizes[x] = 0;
+                }
+
+                // TODO: is this correct
+                columnSizes[x] += 1;
+
+
                 for (let y of yIndexs) {
                     z[y][x] += 1
                 }
             }
         });
+
+        // norm z on column sizes
+        for (let i in questions[yDimension].values) {
+            for (let j in questions[xDimension].values) {
+
+                if (xDimension == yDimension && i == j) {
+                    z[i][j] = 0;
+                }
+
+                else if (columnSizes[j] != 0 && columnSizes[j] != null) {
+                    z[i][j] /= columnSizes[j];
+                }
+                else {
+                    z[i][j] = 0;
+                }
+            }
+        }
 
         var data = [
             {
@@ -529,10 +558,12 @@ function heatmapPlot(selector) {
             barmode: 'group',
             // annotations: annotations,
             xaxis: {
-                dtick: 1
+                dtick: 1,
+                title: xDimension
             },
             yaxis: {
-                dtick: 1
+                dtick: 1,
+                title: yDimension
             },
             legend: {
                 orientation: 'h',
