@@ -259,6 +259,7 @@ barPlot('plot-journalism-realism', mapJournalismRealism, [1, 2, 3, 4, 5, 6, 7, 8
 <!-- TODO: effort vs playing_strategies -->
 <!-- TODO: scatter plot X vs Y -->
 <!-- TODO: на фильтры добавить количество элементов выборки -->
+<!-- TODO: корреялция топовых выборов в вопросах с мультивыбором -->
 
 <!-- Insites: effort влияет на предпочтения -->
 <!-- множество каналов важны для тех, кто задрачивает и играет в стратегии много-->
