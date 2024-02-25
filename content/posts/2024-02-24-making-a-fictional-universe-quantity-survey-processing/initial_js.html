@@ -102,7 +102,7 @@ for (let ageId in ageGroups) {
     if (!ageGroup.addToFilter) {
         continue;
     }
-    filters[ageGroup.id] = {name: ageGroup.name, filter: _constructAgeGroupFilter(ageGroup)};
+    filters[ageGroup.id] = {name: 'Age: ' + ageGroup.name, filter: _constructAgeGroupFilter(ageGroup)};
 }
 
 var fullData = null;
@@ -164,19 +164,36 @@ function barPlot(selector, map, barsOrder) {
         const dataA = getPlotData(fullData, filters[filterA].filter, map, barsOrder);
         const dataB = getPlotData(fullData, filters[filterB].filter, map, barsOrder);
 
+        function toText(percents, counts) {
+            return percents.map((x, i) => x.toString() + '% count: ' + counts[i].toString());
+        }
+
         data = [{
             'x': dataA.values,
             'y': dataA.percents,
+            'text': toText(dataA.percents, dataA.counts),
+            'hoverinfo': 'text',
             'name': filters[filterA].name,
             'type': 'bar'
         },{
             'x': dataB.values,
             'y': dataB.percents,
+            'text': toText(dataB.percents, dataB.counts),
+            'hoverinfo': 'text',
             'name': filters[filterB].name,
             'type': 'bar'
         }];
 
-        Plotly.newPlot(selector, data, {barmode: 'group'});
+        var layout = {
+            barmode: 'group',
+            xaxis: {
+            },
+            yaxis: {
+                title: 'percent'
+            }
+        };
+
+        Plotly.newPlot(selector, data, layout);
     });
 }
 
