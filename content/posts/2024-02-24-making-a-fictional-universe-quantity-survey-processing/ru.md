@@ -49,8 +49,19 @@ Papa.parse("/static/posts/making-a-fictional-universe-quantity-survey-processing
 ## Пол
 
 <script type="text/javascript">
+    // TODO: remove unnecessary buttons from plotly plot
+// TODO: display percents near the counts, where it makes sense
+
 function filterAll(row) {
   return true;
+}
+
+function filterGameDevelopers(row) {
+  return row['q_is_game_developer'] === 'yes';
+}
+
+function filterPlayers(row) {
+  return row['q_is_game_developer'] === 'no';
 }
 
 function mapGender(row) {
@@ -75,14 +86,24 @@ function getPlotData(data, filter, map) {
           };
 }
 
+// TODO: log for gender
 document.addEventListener('redrawPlots', (e) => {
-    const dataToPlot = getPlotData(fullData, filterAll, mapGender);
+    const dataA = getPlotData(fullData, filterAll, mapGender);
+    const dataB = getPlotData(fullData, filterPlayers, mapGender);
+
     data = [{
-        'x': dataToPlot.values,
-        'y': dataToPlot.counts,
+        'x': dataA.values,
+        'y': dataA.counts,
+        'name': 'A',
+        'type': 'bar'
+    },{
+        'x': dataB.values,
+        'y': dataB.counts,
+        'name': 'B',
         'type': 'bar'
     }];
-    Plotly.newPlot('plot-gender', data);
+
+    Plotly.newPlot('plot-gender', data, {barmode: 'group'});
 });
 
 </script>
