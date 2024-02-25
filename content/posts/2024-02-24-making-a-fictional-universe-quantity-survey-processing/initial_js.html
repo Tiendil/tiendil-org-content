@@ -361,6 +361,18 @@ const filters = {
         name: 'Relationships effort: no',
         filter: (row) => row['q_relationships_effort'] <= 4
     },
+    'officeEffortAlot': {
+        name: 'Office effort: a lot',
+        filter: (row) => row['q_office_effort'] >= 8
+    },
+    'officeEffortSome': {
+        name: 'Office effort: some',
+        filter: (row) => row['q_office_effort'] >= 5 && row['q_office_effort'] <= 7
+    },
+    'officeEffortNo': {
+        name: 'Office effort: no',
+        filter: (row) => row['q_office_effort'] <= 4
+    },
 };
 
 for (let ageId in ageGroups) {

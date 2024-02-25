@@ -10,7 +10,6 @@ seo_image = ""  # туду
 
 <!-- TODO: intro -->
 <!-- TODO: исходники вопросов в предыдущем посте -->
-<!-- TODO: все числовые шкалы делились на 3 группы -->
 <!-- В целом, куча стереотипов подтверждается, можете сами посчёлкать -->
 
 Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro
@@ -321,6 +320,21 @@ function mapRelationshipsEffort(row) {
 barPlot('plot-relationships-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
+### Управление офисом
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-office-effort"></div>
+
+<script type="text/javascript">
+
+function mapRelationshipsEffort(row) {
+    return row['q_office_effort'];
+}
+
+barPlot('plot-office-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
+
 
 <!-- TODO Tatget audience filter: adult, playing PC, employed -->
 
@@ -336,6 +350,7 @@ barPlot('plot-relationships-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 
 <!-- размер важен для тех, кто хочет играть во много стратегий -->
 <!-- Каналы распространения новостей по возрастам -->
 <!-- Любители магии любят РПГ, но не любят напрягаться -->
+<!-- Офис сильно коррелирует с бюджетом -->
 <!-- Первое большое разделение: несколько конкурентов vs много конкурентов -->
 <!-- Второй большое разделение: размер агентства -->
 
@@ -343,6 +358,12 @@ barPlot('plot-relationships-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 
 <!-- Противоречие: молоды хотят больше агентств, постаршке хотят поменьше -->
 
 <!-- TODO: сделать несколько селекторов чисто по механикам Игра 1, Игра 2, Игра 3, etc. -->
+
+<!-- Шкалы -->
+<!-- Некоторые шкалы может быть правильнее разбить по-другому -->
+<!-- Или предложить другую общую шкалу разбиения, более детальную -->
+<!-- TODO: все числовые шкалы делились на 3 группы -->
+<!-- TODO: под графиками шкал рисовать ещё один график для обобщённых групп -->
 
 <!-- footer -->
 
