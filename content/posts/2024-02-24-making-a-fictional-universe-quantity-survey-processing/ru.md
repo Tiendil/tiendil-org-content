@@ -83,6 +83,56 @@ barPlot('plot-is-game-developer', mapIsGameDev, isGameDeveGroupIds);
 
 <div id="plot-is-game-developer"></div>
 
+## Играю на
+
+<script type="text/javascript">
+
+function mapPlayingOn(row) {
+    const groups = [];
+
+    if (row['q_playing_on#consoles'] ) {
+        groups.push('consoles');
+    }
+
+    if (row['q_playing_on#mobile_consoles'] ) {
+        groups.push('mobile_consoles');
+    }
+
+    if (row['q_playing_on#mobile_devices'] ) {
+        groups.push('mobile_devices');
+    }
+
+    if (row['q_playing_on#pc'] ) {
+        groups.push('pc');
+    }
+
+    if (row['q_playing_on#tv'] ) {
+        groups.push('tv');
+    }
+
+    if (row['q_playing_on#virtual_reality'] ) {
+        groups.push('virtual_reality');
+    }
+
+    return groups;
+}
+
+const playingOnGroupIds = [
+'pc',
+'consoles',
+'mobile_consoles',
+'mobile_devices',
+'tv',
+'virtual_reality'
+];
+
+barPlot('plot-playing-on', mapPlayingOn, playingOnGroupIds);
+</script>
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-playing-on"></div>
+
 <!-- footer -->
 
 ---8<--- "./filters_initialization.html"

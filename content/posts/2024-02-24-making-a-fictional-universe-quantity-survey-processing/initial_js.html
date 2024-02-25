@@ -130,8 +130,8 @@ for (let ageId in ageGroups) {
 
 var fullData = null;
 
-var filterA = 'gameDevelopers';
-var filterB = 'players';
+var filterA = 'all';
+var filterB = 'adults (30-39)';
 
 // TODO: do something with the file path
 // TODO: move to the bottom of the page?
@@ -149,6 +149,11 @@ Papa.parse("/static/posts/making-a-fictional-universe-quantity-survey-processing
 function getPlotData(data, filter, map, uniqueValues) {
     var filteredData = data.filter(filter);
     var mappedData = filteredData.map(map);
+
+    // if mappedData contains multiple groups per row, flatten it
+    if (mappedData[0] instanceof Array) {
+        mappedData = mappedData.flat();
+    }
 
     // print error if mappedData contains item not from uniqueValues
     mappedData.forEach(function(value) {
