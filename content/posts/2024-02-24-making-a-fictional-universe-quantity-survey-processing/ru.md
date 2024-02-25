@@ -12,6 +12,8 @@ seo_image = ""  # туду
 <!-- TODO: исходники вопросов в предыдущем посте -->
 <!-- В целом, куча стереотипов подтверждается, можете сами посчёлкать -->
 <!-- Это не всеобъемлющий очёт, только базовые закономерности, игровая площадка -->
+<!-- TODO: переформулировать заголовки в более конкретные -->
+<!-- TODO: перевод названий груп -->
 
 Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro
 
@@ -371,6 +373,29 @@ barPlot('plot-moral-complexity', mapMoralComplexity, [1, 2, 3, 4, 5, 6, 7, 8, 9,
 
 <script type="text/javascript">
 barPlot('plot-world-style', groupMapper(worldStyleGroups), groupIds(worldStyleGroups));
+</script>
+
+
+## Некоторые корреляции
+
+### Радар медиан предпочтений
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-radar-median"></div>
+
+<script type="text/javascript">
+scatterpolarPlot('plot-radar-median', 'median');
+</script>
+
+### Радар средних предпочтений
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-radar-average"></div>
+
+<script type="text/javascript">
+scatterpolarPlot('plot-radar-average', 'median');
 </script>
 
 
