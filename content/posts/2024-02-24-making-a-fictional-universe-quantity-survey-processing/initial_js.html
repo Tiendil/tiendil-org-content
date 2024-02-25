@@ -25,6 +25,40 @@ function filterPlayers(row) {
     return row['q_is_game_developer'] === 'no';
 }
 
+const ageGroups = [{id: 'children (0-12)',
+                    name: 'Children (0-12)',
+                    min: 0,
+                    max: 12},
+                   {id: 'teens (13-19)',
+                    name: 'Teens (13-19)',
+                    min: 13,
+                    max: 19},
+                   {id: 'young adults (20-29)',
+                    name: 'Young adults (20-29)',
+                    min: 20,
+                    max: 29},
+                   {id: 'adults (30-39)',
+                    name: 'Adults (30-39)',
+                    min: 30,
+                    max: 39},
+                   {id: 'middle-aged adults (40-49)',
+                    name: 'Middle-aged adults (40-49)',
+                    min: 40,
+                    max: 49},
+                   {id: 'older adults (50-59)',
+                    name: 'Older adults (50-59)',
+                    min: 50,
+                    max: 59},
+                   {id: 'seniors (60+)',
+                    name: 'Seniors (60+)',
+                    min: 60,
+                    max: 100500}];
+
+const ageGroupIds = ageGroups.map(function(group) {
+    return group.id;
+});
+ageGroupIds.push('N/A');
+
 const filters = {'all': {name: 'All', filter: filterAll},
                  'gameDevelopers': {name: 'Game developers', filter: filterGameDevelopers},
                  'players': {name: 'Players', filter: filterPlayers}};
@@ -47,15 +81,16 @@ Papa.parse("/static/posts/making-a-fictional-universe-quantity-survey-processing
     }
 });
 
-function getPlotData(data, filter, map) {
+function getPlotData(data, filter, map, uniqueValues) {
     var filteredData = data.filter(filter);
     var mappedData = filteredData.map(map);
 
-    var uniqueValues = Array.from(new Set(mappedData));
-
-    uniqueValues.sort();
-
-    console.log(uniqueValues);
+    // print error if mappedData contains item not from uniqueValues
+    mappedData.forEach(function(value) {
+        if (!uniqueValues.includes(value)) {
+            console.error('Value ' + value + ' not in uniqueValues');
+        }
+    });
 
     const counts = uniqueValues.map(function(value) {
         return mappedData.filter(function(x) {
@@ -76,7 +111,7 @@ function getPlotData(data, filter, map) {
 }
 
 // TODO: remove unnecessary buttons from plotly plot
-function barPlot(selector, map) {
+function barPlot(selector, map, barsOrder) {
 
     document.addEventListener('redrawPlots', (e) => {
 
@@ -84,8 +119,8 @@ function barPlot(selector, map) {
             return;
         }
 
-        const dataA = getPlotData(fullData, filters[filterA].filter, map);
-        const dataB = getPlotData(fullData, filters[filterB].filter, map);
+        const dataA = getPlotData(fullData, filters[filterA].filter, map, barsOrder);
+        const dataB = getPlotData(fullData, filters[filterB].filter, map, barsOrder);
 
         data = [{
             'x': dataA.values,

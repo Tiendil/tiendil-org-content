@@ -23,7 +23,7 @@ function mapGender(row) {
   return row['q_gender'];
 }
 
-barPlot('plot-gender', mapGender);
+barPlot('plot-gender', mapGender, ['male', 'female', 'non_binary_other', 'prefer_not_to_say']);
 </script>
 
 ---8<--- "./filter_selectors.html"
@@ -34,28 +34,24 @@ barPlot('plot-gender', mapGender);
 
 <script type="text/javascript">
 function mapAge(row) {
-    //  return row['q_age'];
 
     if (row['q_age'] == null) {
         return 'N/A';
     }
 
-    let lowerBound = Math.floor(row['q_age'] / 5) * 5;
-    let upperBound = lowerBound + 4;
+    for (let ageId in ageGroups) {
+        let ageGroup = ageGroups[ageId];
 
-    let lowerBoundStr = String(lowerBound).padStart(2, '0');
-    let upperBoundStr = String(upperBound).padStart(2, '0');
-
-    let group = `${lowerBoundStr}-${upperBoundStr}`;
-
-    if (group == '0-4') {
-        console.log(row);
+        if (ageGroup.min <= row['q_age'] && row['q_age'] <= ageGroup.max) {
+            return ageGroup.id;
+        }
     }
 
-    return group;
+    console.log('Unknown age:', row['q_age']);
 }
 
-barPlot('plot-age', mapAge);
+barPlot('plot-age', mapAge, ageGroupIds);
+
 </script>
 
 ---8<--- "./filter_selectors.html"
