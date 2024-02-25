@@ -306,6 +306,21 @@ function mapBudgetEffort(row) {
 barPlot('plot-budget-effort', mapBudgetEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
+### Управление отношениями
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-relationships-effort"></div>
+
+<script type="text/javascript">
+
+function mapRelationshipsEffort(row) {
+    return row['q_relationships_effort'];
+}
+
+barPlot('plot-relationships-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
+
 
 <!-- TODO Tatget audience filter: adult, playing PC, employed -->
 

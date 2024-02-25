@@ -349,6 +349,18 @@ const filters = {
         name: 'Budget effort: no',
         filter: (row) => row['q_budget_effort'] <= 4
     },
+    'relationshipsEffortAlot': {
+        name: 'Relationships effort: a lot',
+        filter: (row) => row['q_relationships_effort'] >= 8
+    },
+    'relationshipsEffortSome': {
+        name: 'Relationships effort: some',
+        filter: (row) => row['q_relationships_effort'] >= 5 && row['q_relationships_effort'] <= 7
+    },
+    'relationshipsEffortNo': {
+        name: 'Relationships effort: no',
+        filter: (row) => row['q_relationships_effort'] <= 4
+    },
 };
 
 for (let ageId in ageGroups) {
