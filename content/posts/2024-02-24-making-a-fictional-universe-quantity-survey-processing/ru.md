@@ -271,6 +271,24 @@ function mapCompetitors(row) {
 barPlot('plot-competitors', mapCompetitors, ['single', 'few', 'the_more_the_better', 'N/A']);
 </script>
 
+### Максимальный размер новостного агентства
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-maximum-size"></div>
+
+<script type="text/javascript">
+
+function mapMaxSize(row) {
+    if (row['q_max_agency_size'] == null) {
+        return 'N/A';
+    }
+    return row['q_max_agency_size'];
+}
+
+barPlot('plot-maximum-size', mapMaxSize, ['up_to_10', 'up_to_25', 'up_to_50', 'up_to_100', 'bureaucratic_empire', 'small_or_automanage', 'N/A']);
+</script>
+
 
 <!-- TODO Tatget audience filter: adult, playing PC, employed -->
 
@@ -282,9 +300,11 @@ barPlot('plot-competitors', mapCompetitors, ['single', 'few', 'the_more_the_bett
 <!-- Insites: effort влияет на предпочтения -->
 <!-- множество каналов важны для тех, кто задрачивает и играет в стратегии много-->
 <!-- реализм журналистики важен для тех, кто задрачивает и играет в стратегии много-->
+<!-- размер важен для тех, кто хочет играть во много стратегий -->
 <!-- Каналы распространения новостей по возрастам -->
 <!-- Любители магии любят РПГ, но не любят напрягаться -->
 <!-- Первое большое разделение: несколько конкурентов vs много конкурентов -->
+<!-- Второй большое разделение: размер агентства -->
 
 <!-- Гипотеза: аудитория упарывающихся стратегов -->
 <!-- Противоречие: молоды хотят больше агентств, постаршке хотят поменьше -->

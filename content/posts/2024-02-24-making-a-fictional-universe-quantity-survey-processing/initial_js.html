@@ -236,18 +236,6 @@ const newsChannelsTypes = [{id: 'augmented_reality',
                             predicate: (row) => row['q_channels#youtube'] == 1}];
 
 
-function filterAll(row) {
-    return true;
-}
-
-function filterGameDevelopers(row) {
-    return row['q_is_game_developer'] === 'yes';
-}
-
-function filterPlayers(row) {
-    return row['q_is_game_developer'] === 'no';
-}
-
 const filters = {
     'all': {
         name: 'All',
@@ -340,6 +328,14 @@ const filters = {
     'competitorsAlot': {
         name: 'Competitors: a lot',
         filter: (row) => row['q_concurrent_agencies'] == 'the_more_the_better'
+    },
+    'agencySizeRelativlySmall': {
+        name: 'Agency size: relativly small — <= 50',
+        filter: (row) => ['up_to_10', 'up_to_25', 'up_to_50', 'small_or_automanage'].includes(row['q_max_agency_size'])
+    },
+    agencySizeRelativlyBig: {
+        name: 'Agency size: relativly big — > 50',
+        filter: (row) => ['up_to_100', 'bureaucratic_empire', 'small_or_automanage'].includes(row['q_max_agency_size'])
     },
 };
 
