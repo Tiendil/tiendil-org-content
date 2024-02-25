@@ -20,6 +20,10 @@ Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla
 
 ### Пол
 
+---8<--- "./filter_selectors.html"
+
+<div id="plot-gender"></div>
+
 <script type="text/javascript">
 function mapGender(row) {
   return row['q_gender'];
@@ -28,21 +32,21 @@ function mapGender(row) {
 barPlot('plot-gender', mapGender, ['male', 'female', 'non_binary_other', 'prefer_not_to_say']);
 </script>
 
----8<--- "./filter_selectors.html"
-
-<div id="plot-gender"></div>
-
 ### Возраст
-
-<script type="text/javascript">
-    barPlot('plot-age', groupMapper(ageGroups), groupIds(ageGroups));
-</script>
 
 ---8<--- "./filter_selectors.html"
 
 <div id="plot-age"></div>
 
+<script type="text/javascript">
+    barPlot('plot-age', groupMapper(ageGroups), groupIds(ageGroups));
+</script>
+
 ### Занятость
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-occupation"></div>
 
 <script type="text/javascript">
 
@@ -61,11 +65,11 @@ const occupationGroupIds = [
 barPlot('plot-occupation', mapOccupation, occupationGroupIds);
 </script>
 
+### Разработчики игр
+
 ---8<--- "./filter_selectors.html"
 
-<div id="plot-occupation"></div>
-
-### Разработчики игр
+<div id="plot-is-game-developer"></div>
 
 <script type="text/javascript">
 
@@ -81,13 +85,13 @@ const isGameDeveGroupIds = [
 barPlot('plot-is-game-developer', mapIsGameDev, isGameDeveGroupIds);
 </script>
 
----8<--- "./filter_selectors.html"
-
-<div id="plot-is-game-developer"></div>
-
 ##  Игровой опыт
 
 ### Играю на
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-playing-on"></div>
 
 <script type="text/javascript">
 
@@ -133,14 +137,13 @@ const playingOnGroupIds = [
 barPlot('plot-playing-on', mapPlayingOn, playingOnGroupIds);
 </script>
 
----8<--- "./filter_selectors.html"
-
-<div id="plot-playing-on"></div>
-
 ### Играю в стратегии
 
-<script type="text/javascript">
+---8<--- "./filter_selectors.html"
 
+<div id="plot-play-strategies"></div>
+
+<script type="text/javascript">
 function mapPlayStrategies(row) {
     return row['q_play_strategy_games'];
 }
@@ -148,29 +151,39 @@ function mapPlayStrategies(row) {
 barPlot('plot-play-strategies', mapPlayStrategies, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
----8<--- "./filter_selectors.html"
-
-<div id="plot-play-strategies"></div>
-
 ### В какие стратегии играете
-
-<script type="text/javascript">
-barPlot('plot-strategy-games', groupMapper(strategyGamesGroups), groupIds(strategyGamesGroups));
-</script>
 
 ---8<--- "./filter_selectors.html"
 
 <div id="plot-strategy-games"></div>
 
+<script type="text/javascript">
+barPlot('plot-strategy-games', groupMapper(strategyGamesGroups), groupIds(strategyGamesGroups));
+</script>
+
 ### Откуда узнаёте о новых играх
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-know-about-games"></div>
 
 <script type="text/javascript">
 barPlot('plot-know-about-games', groupMapper(knowAboutGamesGroups), groupIds(knowAboutGamesGroups));
 </script>
 
+### Сколько усилий вкладываете в игру
+
 ---8<--- "./filter_selectors.html"
 
-<div id="plot-know-about-games"></div>
+<div id="plot-playing-effort"></div>
+
+<script type="text/javascript">
+function mapPlayingEffort(row) {
+    return row['q_playing_effort'];
+}
+
+barPlot('plot-playing-effort', mapPlayingEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
 
 <!-- footer -->
 
