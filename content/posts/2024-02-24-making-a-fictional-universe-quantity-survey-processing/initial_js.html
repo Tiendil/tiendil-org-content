@@ -106,17 +106,29 @@ const filters = {
         name: 'Players',
         filter: (row) => row['q_is_game_developer'] === 'no'
     },
-    'occupation_employment': {
+    'occupationEmployment': {
         name: 'Occupation: Employment',
         filter: (row) => row['q_occupation'] === 'employment'
     },
-    'occupation_student': {
+    'occupationStudent': {
         name: 'Occupation: Student',
         filter: (row) => row['q_occupation'] === 'student'
     },
-    'occupation_other': {
+    'occupationOther': {
         name: 'Occupation: Other',
         filter: (row) => !['employment', 'student'].includes(row['q_occupation'])
+    },
+    'playingStrategiesAlot': {
+        name: 'Playing strategies: a lot',
+        filter: (row) => row['q_play_strategy_games'] >= 8
+    },
+    'playingStrategiesSometimes': {
+        name: 'Playing strategies: sometimes',
+        filter: (row) => row['q_play_strategy_games'] >= 5 && row['q_play_strategy_games'] <= 7
+    },
+    'playingStrategiesNo': {
+        name: 'Playing strategies: no',
+        filter: (row) => row['q_play_strategy_games'] <= 4
     },
 };
 
@@ -225,6 +237,7 @@ function barPlot(selector, map, barsOrder) {
         var layout = {
             barmode: 'group',
             xaxis: {
+                dtick: 1
             },
             yaxis: {
                 title: 'percent'

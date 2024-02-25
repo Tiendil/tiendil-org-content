@@ -16,7 +16,9 @@ Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla
 
 ---8<--- "./initial_js.html"
 
-## Пол
+## Соцдем
+
+### Пол
 
 <script type="text/javascript">
 function mapGender(row) {
@@ -30,7 +32,7 @@ barPlot('plot-gender', mapGender, ['male', 'female', 'non_binary_other', 'prefer
 
 <div id="plot-gender"></div>
 
-## Возраст
+### Возраст
 
 <script type="text/javascript">
 barPlot('plot-age', mapAge, ageGroupIds);
@@ -40,7 +42,7 @@ barPlot('plot-age', mapAge, ageGroupIds);
 
 <div id="plot-age"></div>
 
-## Занятость
+### Занятость
 
 <script type="text/javascript">
 
@@ -63,7 +65,7 @@ barPlot('plot-occupation', mapOccupation, occupationGroupIds);
 
 <div id="plot-occupation"></div>
 
-## Разработчики игр
+### Разработчики игр
 
 <script type="text/javascript">
 
@@ -83,7 +85,9 @@ barPlot('plot-is-game-developer', mapIsGameDev, isGameDeveGroupIds);
 
 <div id="plot-is-game-developer"></div>
 
-## Играю на
+##  Игровой опыт
+
+### Играю на
 
 <script type="text/javascript">
 
@@ -133,6 +137,24 @@ barPlot('plot-playing-on', mapPlayingOn, playingOnGroupIds);
 
 <div id="plot-playing-on"></div>
 
+
+### Играю в стратегии
+
+<script type="text/javascript">
+
+function mapPlayStrategies(row) {
+    return row['q_play_strategy_games'];
+}
+
+barPlot('plot-play-strategies', mapPlayStrategies, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-play-strategies"></div>
+
 <!-- footer -->
 
 ---8<--- "./filters_initialization.html"
+
+<!-- TODO Tatget audience filter: adult, playing PC, employed -->
