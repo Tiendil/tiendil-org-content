@@ -17,43 +17,73 @@ const redrawPlots = new CustomEvent('redrawPlots', {
 const ageGroups = [{id: 'children (0-12)',
                     name: 'Children (0-12)',
                     addToFilter: false,
-                    min: 0,
-                    max: 12},
+                    predicate: (row) => row['q_age'] <= 12},
                    {id: 'teens (13-19)',
                     name: 'Teens (13-19)',
                     addToFilter: true,
-                    min: 13,
-                    max: 19},
+                    predicate: (row) => row['q_age'] >= 13 && row['q_age'] <= 19},
                    {id: 'young adults (20-29)',
                     name: 'Young adults (20-29)',
                     addToFilter: true,
-                    min: 20,
-                    max: 29},
+                    predicate: (row) => row['q_age'] >= 20 && row['q_age'] <= 29},
                    {id: 'adults (30-39)',
                     name: 'Adults (30-39)',
                     addToFilter: true,
-                    min: 30,
-                    max: 39},
+                    predicate: (row) => row['q_age'] >= 30 && row['q_age'] <= 39},
                    {id: 'middle-aged adults (40-49)',
                     name: 'Middle-aged adults (40-49)',
                     addToFilter: true,
-                    min: 40,
-                    max: 49},
+                    predicate: (row) => row['q_age'] >= 40 && row['q_age'] <= 49},
                    {id: 'older adults (50-59)',
                     name: 'Older adults (50-59)',
                     addToFilter: true,
-                    min: 50,
-                    max: 59},
+                    predicate: (row) => row['q_age'] >= 50 && row['q_age'] <= 59},
                    {id: 'seniors (60+)',
                     name: 'Seniors (60+)',
                     addToFilter: false,
-                    min: 60,
-                    max: 100500}];
+                    predicate: (row) => row['q_age'] >= 60},
+                   {id: 'N/A',
+                    name: 'N/A',
+                    addToFilter: false,
+                    predicate: (row) => row['q_age'] == null}];
 
 const ageGroupIds = ageGroups.map(function(group) {
     return group.id;
 });
 ageGroupIds.push('N/A');
+
+const strategyGamesGroups = [{id: '4x',
+                              name: '4X',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#4x'] == 1},
+                             {id: 'city_builders',
+                              name: 'City builders',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#city_builders'] == 1},
+                             {id: 'decision_driven',
+                              name: 'Decision driven',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#decision_driven'] == 1},
+                             {id: 'grand_strategies',
+                              name: 'Grand strategies',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#grand_strategies'] == 1},
+                             {id: 'roguelike',
+                              name: 'Roguelike',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#roguelike'] == 1},
+                             {id: 'rts',
+                              name: 'RTS',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#rts'] == 1},
+                             {id: 'tactics',
+                              name: 'Tactics',
+                              addToFilter: false,
+                              predicate: (row) => row['q_strategy_games_like#tactics'] == 1},
+                             {id: 'tycoon',
+                              name: 'Tycoon',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#tycoon'] == 1}];
 
 function filterAll(row) {
     return true;
@@ -65,32 +95,6 @@ function filterGameDevelopers(row) {
 
 function filterPlayers(row) {
     return row['q_is_game_developer'] === 'no';
-}
-
-function mapAge(row) {
-
-    if (row['q_age'] == null) {
-        return 'N/A';
-    }
-
-    for (let ageId in ageGroups) {
-        let ageGroup = ageGroups[ageId];
-
-        if (ageGroup.min <= row['q_age'] && row['q_age'] <= ageGroup.max) {
-            return ageGroup.id;
-        }
-    }
-
-    console.log('Unknown age:', row['q_age']);
-}
-
-function _constructAgeGroupFilter(groupId) {
-    return function(row) {
-        if (mapAge(row) == groupId) {
-            return true;
-        }
-        return false;
-    };
 }
 
 const filters = {
@@ -137,7 +141,17 @@ for (let ageId in ageGroups) {
     if (!ageGroup.addToFilter) {
         continue;
     }
-    filters[ageGroup.id] = {name: 'Age: ' + ageGroup.name, filter: _constructAgeGroupFilter(ageGroup.id)};
+    filters[ageGroup.id] = {name: 'Age: ' + ageGroup.name,
+                            filter: ageGroup.predicate};
+}
+
+for (let strategyGameId in strategyGamesGroups) {
+    let strategyGameGroup = strategyGamesGroups[strategyGameId];
+    if (!strategyGameGroup.addToFilter) {
+        continue;
+    }
+    filters[strategyGameGroup.id] = {name: 'Games: ' + strategyGameGroup.name,
+                                     filter: strategyGameGroup.predicate};
 }
 
 var fullData = null;
@@ -157,6 +171,29 @@ Papa.parse("/static/posts/making-a-fictional-universe-quantity-survey-processing
         document.dispatchEvent(redrawPlots);
     }
 });
+
+
+function groupMapper(groups) {
+    return function(row) {
+        const resultGroups = [];
+
+        for (let groupIndex in groups) {
+            const group = groups[groupIndex];
+
+            if (group.predicate(row)) {
+                resultGroups.push(group.id);
+            }
+        }
+
+        return resultGroups;
+    };
+}
+
+function groupIds(groups) {
+    return groups.map(function(group) {
+        return group.id;
+    });
+}
 
 function getPlotData(data, filter, map, uniqueValues) {
     var filteredData = data.filter(filter);
