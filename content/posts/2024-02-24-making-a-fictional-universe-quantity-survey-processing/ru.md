@@ -347,6 +347,21 @@ barPlot('plot-office-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9
 barPlot('plot-shades-of-genre', groupMapper(shadesOfGenreGroups), groupIds(shadesOfGenreGroups));
 </script>
 
+### Сложность моральных вопросов
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-moral-complexity"></div>
+
+<script type="text/javascript">
+
+function mapMoralComplexity(row) {
+    return row['q_morale_complexity'];
+}
+
+barPlot('plot-moral-complexity', mapMoralComplexity, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
+
 
 <!-- TODO Tatget audience filter: adult, playing PC, employed -->
 

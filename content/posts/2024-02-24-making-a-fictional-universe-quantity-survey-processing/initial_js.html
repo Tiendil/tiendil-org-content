@@ -427,6 +427,18 @@ const filters = {
         name: 'Office effort: no',
         filter: (row) => row['q_office_effort'] <= 4
     },
+    'moralComplexityAlot': {
+        name: 'Moral complexity: a lot',
+        filter: (row) => row['q_morale_complexity'] >= 8
+    },
+    'moralComplexitySome': {
+        name: 'Moral complexity: some',
+        filter: (row) => row['q_morale_complexity'] >= 5 && row['q_morale_complexity'] <= 7
+    },
+    'moralComplexityNo': {
+        name: 'Moral complexity: no',
+        filter: (row) => row['q_morale_complexity'] <= 4
+    },
 };
 
 for (let ageId in ageGroups) {
