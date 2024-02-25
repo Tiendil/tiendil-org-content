@@ -290,6 +290,80 @@ const shadesOfGenreGroups = [{id: 'action',
                               predicate: (row) => row['q_plot_style#urban_legends'] == 1}];
 
 
+const worldStyleGroups = [{id: 'bright',
+                           name: 'Bright',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#bright'] == 1},
+                          {id: 'colorful',
+                           name: 'Colorful',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#colorful'] == 1},
+                          {id: 'complex',
+                           name: 'Complex',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#complex'] == 1},
+                          {id: 'dark',
+                           name: 'Dark',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#dark'] == 1},
+                          {id: 'dark_humorous',
+                           name: 'Dark humorous',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#dark_humorous'] == 1},
+                          {id: 'depressing',
+                           name: 'Depressing',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#depressing'] == 1},
+                          {id: 'dull',
+                           name: 'Dull',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#dull'] == 1},
+                          {id: 'dystopian',
+                           name: 'Dystopian',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#dystopian'] == 1},
+                          {id: 'gray',
+                           name: 'Gray',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#gray'] == 1},
+                          {id: 'happy',
+                           name: 'Happy',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#happy'] == 1},
+                          {id: 'humorous',
+                           name: 'Humorous',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#humorous'] == 1},
+                          {id: 'imaginative',
+                           name: 'Imaginative',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#imaginative'] == 1},
+                          {id: 'inspirational',
+                           name: 'Inspirational',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#inspirational'] == 1},
+                          {id: 'polite',
+                            name: 'Polite',
+                            addToFilter: true,
+                           predicate: (row) => row['q_world_style#polite'] == 1},
+                          {id: 'realistic',
+                            name: 'Realistic',
+                            addToFilter: true,
+                           predicate: (row) => row['q_world_style#realistic'] == 1},
+                            {id: 'sarcastic',
+                                name: 'Sarcastic',
+                             addToFilter: true,
+                             predicate: (row) => row['q_world_style#sarcastic'] == 1},
+                            {id: 'simple',
+                             name: 'Simple',
+                             addToFilter: true,
+                             predicate: (row) => row['q_world_style#simple'] == 1},
+                          {id: 'utopian',
+                            name: 'Utopian',
+                            addToFilter: true,
+                           predicate: (row) => row['q_world_style#utopian'] == 1}];
+
+
 const filters = {
     'all': {
         name: 'All',
@@ -484,6 +558,15 @@ for (let shadesOfGenreId in shadesOfGenreGroups) {
     }
     filters[shadesOfGenreGroup.id] = {name: 'Genre: ' + shadesOfGenreGroup.name,
                                      filter: shadesOfGenreGroup.predicate};
+}
+
+for (let worldStyleId in worldStyleGroups) {
+    let worldStyleGroup = worldStyleGroups[worldStyleId];
+    if (!worldStyleGroup.addToFilter) {
+        continue;
+    }
+    filters[worldStyleGroup.id] = {name: 'World style: ' + worldStyleGroup.name,
+                                   filter: worldStyleGroup.predicate};
 }
 
 var fullData = null;

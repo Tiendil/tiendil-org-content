@@ -362,6 +362,16 @@ function mapMoralComplexity(row) {
 barPlot('plot-moral-complexity', mapMoralComplexity, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
+### Стиль мира
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-world-style"></div>
+
+<script type="text/javascript">
+barPlot('plot-world-style', groupMapper(worldStyleGroups), groupIds(worldStyleGroups));
+</script>
+
 
 <!-- TODO Tatget audience filter: adult, playing PC, employed -->
 
