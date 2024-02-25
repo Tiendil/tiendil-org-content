@@ -195,6 +195,21 @@ barPlot('plot-playing-effort', mapPlayingEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 barPlot('plot-like-in-games', groupMapper(likeInGamesGroups), groupIds(likeInGamesGroups));
 </script>
 
+### Отношение к RPG элементам в играх
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-rpg-elements"></div>
+
+<script type="text/javascript">
+
+function mapRPGElements(row) {
+    return row['q_rpg_elements'];
+}
+
+barPlot('plot-rpg-elements', mapRPGElements, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
+
 <!-- footer -->
 
 ---8<--- "./filters_initialization.html"

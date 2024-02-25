@@ -241,7 +241,19 @@ const filters = {
     'effortInGamesNo': {
         name: 'Effort in games: no',
         filter: (row) => row['q_playing_effort'] <= 4
-    }
+    },
+    'likeRPGElementsAlot': {
+        name: 'Like RPG elements: a lot',
+        filter: (row) => row['q_rpg_elements'] >= 8
+    },
+    'likeRPGElementsSome': {
+        name: 'Like RPG elements: some',
+        filter: (row) => row['q_rpg_elements'] >= 5 && row['q_rpg_elements'] <= 7
+    },
+    'likeRPGElementsNo': {
+        name: 'Like RPG elements: no',
+        filter: (row) => row['q_rpg_elements'] <= 4
+    },
 };
 
 for (let ageId in ageGroups) {
