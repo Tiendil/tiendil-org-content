@@ -376,7 +376,7 @@ barPlot('plot-world-style', groupMapper(worldStyleGroups), groupIds(worldStyleGr
 </script>
 
 
-## Некоторые корреляции
+## Некоторые инструменты
 
 ### Радар медиан предпочтений
 
@@ -396,6 +396,170 @@ scatterpolarPlot('plot-radar-median', 'median');
 
 <script type="text/javascript">
 scatterpolarPlot('plot-radar-average', 'median');
+</script>
+
+### Тепловая карта
+
+<div id="plot-heatmap"></div>
+
+<script type="text/javascript">
+
+
+function collectQuestionsVariants() {
+    const questions = {};
+
+    const rowExample = fullData[0];
+
+    for (let key in rowExample) {
+        if (key.includes('#')) {
+            const parts = key.split('#');
+
+            if (!(parts[0] in questions)) {
+                questions[parts[0]] = {type: 'category',
+                                       values: []};
+            }
+
+            if (!questions[parts[0]].values.includes(parts[1])) {
+                questions[parts[0]].values.push(parts[1])
+            }
+            continue;
+        }
+
+        // TODO: add custom groups
+        if (key == 'q_age') {
+            continue;
+        }
+
+        if (key == '') {
+            continue;
+        }
+
+        questions[key] = {type: 'numeric',
+                          values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]};
+    }
+
+    return questions;
+}
+
+function heatmapPlot(selector) {
+    document.addEventListener('redrawPlots', (e) => {
+
+        if (fullData === null) {
+            return;
+        }
+
+        if (!(filterA in filters)) {
+            console.error('Unknown filterA:', filterA);
+            return;
+        }
+
+        const dataA = fullData.filter(filters[filterA].filter);
+
+        xDimension = 'q_world_style';
+        yDimension = 'q_plot_style';
+
+        const questions = collectQuestionsVariants();
+
+        const z = [];
+
+        for (let i in questions[yDimension].values) {
+            z.push([]);
+
+            for (let j in questions[xDimension].values) {
+                z[z.length-1].push(0);
+            }
+        }
+
+        function extractIndexes(question, row) {
+            const indexes = []
+
+            q = questions[question]
+            if (q.type == 'category') {
+                for (let i in q.values) {
+                    const variant = q.values[i];
+
+                    if (row[`${question}#${variant}`] == 1) {
+                        indexes.push(i);
+                    }
+                }
+            }
+
+            if (q.type == 'numeric') {
+                indexes.push(row[question] - 1);
+            }
+
+            if (indexes.length == 0) {
+                console.log('something goes wrong');
+            }
+
+            return indexes;
+        }
+
+        dataA.forEach(function(row){
+            const xIndexs = extractIndexes(xDimension, row);
+            const yIndexs = extractIndexes(yDimension, row);
+
+            for (let x of xIndexs) {
+                for (let y of yIndexs) {
+                    z[y][x] += 1
+                }
+            }
+        });
+
+        var data = [
+            {
+                z: z,
+                x: questions[xDimension].values,
+                y: questions[yDimension].values,
+                type: 'heatmap'
+            }
+        ];
+
+        const annotations = [];
+
+        for ( var i = 0; i < questions[yDimension].values.length; i++ ) {
+            for ( var j = 0; j < questions[yDimension].values.length; j++ ) {
+                var currentValue = z[i][j];
+
+                var result = {
+                    xref: 'x1',
+                    yref: 'y1',
+                    x: questions[xDimension].values[j],
+                    y: questions[yDimension].values[i],
+                    text: z[i][j],
+                    showarrow: false,
+                };
+                annotations.push(result);
+            }
+        }
+
+        var layout = {
+            barmode: 'group',
+            // annotations: annotations,
+            xaxis: {
+                dtick: 1
+            },
+            yaxis: {
+                dtick: 1
+            },
+            legend: {
+                orientation: 'h',
+                x: 0.5, // Centers the legend horizontally
+                xanchor: 'center', // Uses the center of the legend as the anchor point
+                y: 1.1, // Positions the legend above the chart
+                yanchor: 'bottom' // Uses the bottom of the legend to position it relative to the chart
+            }
+        };
+
+        var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
+
+        // TODO: optimize redraw
+        Plotly.newPlot(selector, data, layout, config);
+    });
+}
+
+heatmapPlot('plot-heatmap');
+
 </script>
 
 
