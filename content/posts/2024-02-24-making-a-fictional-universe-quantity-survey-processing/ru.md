@@ -74,16 +74,22 @@ function getPlotData(data, filter, map) {
 
   var uniqueValues = Array.from(new Set(mappedData));
 
-  counts = uniqueValues.map(function(value) {
+  const counts = uniqueValues.map(function(value) {
     return mappedData.filter(function(x) {
       return x === value;
     }).length;
   });
 
+
+  const percents = counts.map(function(count) {
+      return (count / filteredData.length * 100).toFixed(2);
+  });
+
   return {
       values: uniqueValues,
-      counts: counts
-          };
+      counts: counts,
+      percents: percents
+  };
 }
 
 // TODO: log for gender
@@ -93,12 +99,12 @@ document.addEventListener('redrawPlots', (e) => {
 
     data = [{
         'x': dataA.values,
-        'y': dataA.counts,
+        'y': dataA.percents,
         'name': 'A',
         'type': 'bar'
     },{
         'x': dataB.values,
-        'y': dataB.counts,
+        'y': dataB.percents,
         'name': 'B',
         'type': 'bar'
     }];
