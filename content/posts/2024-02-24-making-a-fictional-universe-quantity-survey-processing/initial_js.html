@@ -53,6 +53,10 @@ function getPlotData(data, filter, map) {
 
     var uniqueValues = Array.from(new Set(mappedData));
 
+    uniqueValues.sort();
+
+    console.log(uniqueValues);
+
     const counts = uniqueValues.map(function(value) {
         return mappedData.filter(function(x) {
             return x === value;

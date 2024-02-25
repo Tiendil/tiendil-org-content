@@ -30,6 +30,36 @@ barPlot('plot-gender', mapGender);
 
 <div id="plot-gender"></div>
 
+## Возраст
+
+<script type="text/javascript">
+function mapAge(row) {
+    //  return row['q_age'];
+
+    if (row['q_age'] == null) {
+        return 'N/A';
+    }
+
+    let lowerBound = Math.floor(row['q_age'] / 5) * 5;
+    let upperBound = lowerBound + 4;
+
+    let lowerBoundStr = String(lowerBound).padStart(2, '0');
+    let upperBoundStr = String(upperBound).padStart(2, '0');
+
+    let group = `${lowerBoundStr}-${upperBoundStr}`;
+
+    if (group == '0-4') {
+        console.log(row);
+    }
+
+    return group;
+}
+
+barPlot('plot-age', mapAge);
+</script>
+
 ---8<--- "./filter_selectors.html"
+
+<div id="plot-age"></div>
 
 ---8<--- "./filters_initialization.html"
