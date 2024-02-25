@@ -749,7 +749,8 @@ function scatterpolarPlot(selector, mode) {
         const dataA = fullData.filter(filters[filterA].filter);
         const dataB = fullData.filter(filters[filterB].filter);
 
-        const theta = ['q_play_strategy_games',
+        const theta = ['q_age',
+                       'q_play_strategy_games',
                        'q_playing_effort',
                        'q_playing_effort',
                        'q_multiple_channels_esential',
@@ -768,9 +769,11 @@ function scatterpolarPlot(selector, mode) {
             const r = [];
 
             for (let i = 0; i < theta.length; i++) {
-                const thetaValues = values(data, theta[i]);
+                var thetaValues = values(data, theta[i]);
+                const max = Math.max(...thetaValues);
+                thetaValues = thetaValues.map(x => x / max);
                 thetaValues.sort((a, b) => a - b);
-                r.push(thetaValues[Math.floor(thetaValues.length / 3 * 2)]);
+                r.push(thetaValues[Math.floor(thetaValues.length / 2)]);
             }
 
             return {
@@ -787,7 +790,9 @@ function scatterpolarPlot(selector, mode) {
             const r = [];
 
             for (let i = 0; i < theta.length; i++) {
-                const thetaValues = values(data, theta[i]);
+                var thetaValues = values(data, theta[i]);
+                const max = Math.max(...thetaValues);
+                thetaValues = thetaValues.map(x => x / max);
                 r.push(thetaValues.reduce((a, b) => a + b, 0) / thetaValues.length);
             }
 
