@@ -210,6 +210,23 @@ function mapRPGElements(row) {
 barPlot('plot-rpg-elements', mapRPGElements, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
+## Механики игры
+
+### Количество каналов распространения новостей
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-news-channels"></div>
+
+<script type="text/javascript">
+
+function mapNewsChannels(row) {
+    return row['q_multiple_channels_esential'];
+}
+
+barPlot('plot-news-channels', mapNewsChannels, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
+
 <!-- footer -->
 
 ---8<--- "./filters_initialization.html"
@@ -220,3 +237,4 @@ barPlot('plot-rpg-elements', mapRPGElements, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 <!-- TODO: scatter plot X vs Y -->
 
 <!-- Insites: effort влияет на предпочтения -->
+<!-- множество каналов важны для тех, кто задрачивает и играет в стратегии много-->
