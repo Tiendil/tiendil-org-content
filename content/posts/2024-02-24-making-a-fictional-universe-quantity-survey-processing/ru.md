@@ -335,6 +335,18 @@ function mapRelationshipsEffort(row) {
 barPlot('plot-office-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
+## Истории
+
+### Оттенки жанров и сюжетов
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-shades-of-genre"></div>
+
+<script type="text/javascript">
+barPlot('plot-shades-of-genre', groupMapper(shadesOfGenreGroups), groupIds(shadesOfGenreGroups));
+</script>
+
 
 <!-- TODO Tatget audience filter: adult, playing PC, employed -->
 
@@ -358,12 +370,15 @@ barPlot('plot-office-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9
 <!-- Противоречие: молоды хотят больше агентств, постаршке хотят поменьше -->
 
 <!-- TODO: сделать несколько селекторов чисто по механикам Игра 1, Игра 2, Игра 3, etc. -->
+<!-- Сделать несколько селекторов по историям -->
 
 <!-- Шкалы -->
 <!-- Некоторые шкалы может быть правильнее разбить по-другому -->
 <!-- Или предложить другую общую шкалу разбиения, более детальную -->
 <!-- TODO: все числовые шкалы делились на 3 группы -->
 <!-- TODO: под графиками шкал рисовать ещё один график для обобщённых групп -->
+
+<!-- Тупо посчитать корреляцию многовариантных ответов -->
 
 <!-- footer -->
 

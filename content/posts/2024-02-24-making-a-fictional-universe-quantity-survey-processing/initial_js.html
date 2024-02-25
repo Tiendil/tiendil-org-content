@@ -236,6 +236,60 @@ const newsChannelsTypes = [{id: 'augmented_reality',
                             predicate: (row) => row['q_channels#youtube'] == 1}];
 
 
+const shadesOfGenreGroups = [{id: 'action',
+                              name: 'Action',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#action'] == 1},
+                             {id: 'adventure',
+                              name: 'Adventure',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#adventure'] == 1},
+                             {id: 'conspirology',
+                              name: 'Conspirology',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#conspirology'] == 1},
+                             {id: 'cyberpunk',
+                              name: 'Cyberpunk',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#cyberpunk'] == 1},
+                             {id: 'documentary',
+                              name: 'Documentary',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#documentary'] == 1},
+                             {id: 'fairy_tale',
+                              name: 'Fairy tale',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#fairy_tale'] == 1},
+                             {id: 'fantasy',
+                              name: 'Fantasy',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#fantasy'] == 1},
+                             {id: 'historic',
+                              name: 'Historic',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#historic'] == 1},
+                             {id: 'mystery',
+                              name: 'Mystery',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#mystery'] == 1},
+                             {id: 'noir',
+                              name: 'Noir',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#noir'] == 1},
+                             {id: 'paranormal',
+                              name: 'Paranormal',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#paranormal'] == 1},
+                             {id: 'scifi',
+                              name: 'Scifi',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#scifi'] == 1},
+                             {id: 'urban_legends',
+                              name: 'Urban legends',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#urban_legends'] == 1}];
+
+
 const filters = {
     'all': {
         name: 'All',
@@ -409,6 +463,15 @@ for (let newsChannelsTypeId in newsChannelsTypes) {
     }
     filters[newsChannelsType.id] = {name: 'News: ' + newsChannelsType.name,
                                     filter: newsChannelsType.predicate};
+}
+
+for (let shadesOfGenreId in shadesOfGenreGroups) {
+    let shadesOfGenreGroup = shadesOfGenreGroups[shadesOfGenreId];
+    if (!shadesOfGenreGroup.addToFilter) {
+        continue;
+    }
+    filters[shadesOfGenreGroup.id] = {name: 'Genre: ' + shadesOfGenreGroup.name,
+                                     filter: shadesOfGenreGroup.predicate};
 }
 
 var fullData = null;
