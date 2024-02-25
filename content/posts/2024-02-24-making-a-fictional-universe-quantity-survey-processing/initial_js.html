@@ -1,0 +1,102 @@
+<!-- TODO: move to brigid config? -->
+<!-- TODO: if moved, how to turn on optionally? -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.33.1/plotly.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script type="text/javascript">
+
+const redrawPlots = new CustomEvent('redrawPlots', {
+    detail: {
+        message: "redraw plots",
+    }
+});
+
+function filterAll(row) {
+    return true;
+}
+
+function filterGameDevelopers(row) {
+    return row['q_is_game_developer'] === 'yes';
+}
+
+function filterPlayers(row) {
+    return row['q_is_game_developer'] === 'no';
+}
+
+const filters = {'all': {name: 'All', filter: filterAll},
+                 'gameDevelopers': {name: 'Game developers', filter: filterGameDevelopers},
+                 'players': {name: 'Players', filter: filterPlayers}};
+
+var fullData = null;
+
+var filterA = 'gameDevelopers';
+var filterB = 'players';
+
+// TODO: do something with the file path
+// TODO: move to the bottom of the page?
+Papa.parse("/static/posts/making-a-fictional-universe-quantity-survey-processing/2024_02_23_cleaned_data.csv", {
+    download: true,
+    header: true,
+    dynamicTyping: true,
+    skipEmptyLines: true,
+    complete: function(results) {
+        fullData = results.data;
+        document.dispatchEvent(redrawPlots);
+    }
+});
+
+function getPlotData(data, filter, map) {
+    var filteredData = data.filter(filter);
+    var mappedData = filteredData.map(map);
+
+    var uniqueValues = Array.from(new Set(mappedData));
+
+    const counts = uniqueValues.map(function(value) {
+        return mappedData.filter(function(x) {
+            return x === value;
+        }).length;
+    });
+
+
+    const percents = counts.map(function(count) {
+        return (count / filteredData.length * 100).toFixed(2);
+    });
+
+    return {
+        values: uniqueValues,
+        counts: counts,
+        percents: percents
+    };
+}
+
+// TODO: remove unnecessary buttons from plotly plot
+function barPlot(selector, map) {
+
+    document.addEventListener('redrawPlots', (e) => {
+
+        if (fullData === null) {
+            return;
+        }
+
+        const dataA = getPlotData(fullData, filters[filterA].filter, map);
+        const dataB = getPlotData(fullData, filters[filterB].filter, map);
+
+        data = [{
+            'x': dataA.values,
+            'y': dataA.percents,
+            'name': filters[filterA].name,
+            'type': 'bar'
+        },{
+            'x': dataB.values,
+            'y': dataB.percents,
+            'name': filters[filterB].name,
+            'type': 'bar'
+        }];
+
+        Plotly.newPlot(selector, data, {barmode: 'group'});
+    });
+}
+
+</script>

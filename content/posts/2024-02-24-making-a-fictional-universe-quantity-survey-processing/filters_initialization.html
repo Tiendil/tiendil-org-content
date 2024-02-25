@@ -1,0 +1,43 @@
+<script type="text/javascript">
+ function fillFilters() {
+   var selects = document.querySelectorAll('.plot-filter');
+
+   for (var select of selects) {
+
+     for (var key in filters) {
+       var option = document.createElement('option');
+       option.value = key;
+       option.text = filters[key].name;
+       select.appendChild(option);
+     }
+   }
+ }
+
+ fillFilters();
+
+ function selectFilterA(value) {
+   filterA = value;
+   var selects = document.querySelectorAll('.plot-filter-a');
+
+   for (var select of selects) {
+     select.value = filterA;
+   }
+
+   document.dispatchEvent(redrawPlots);
+ }
+
+ function selectFilterB(value) {
+   filterB = value;
+   var selects = document.querySelectorAll('.plot-filter-b');
+
+   for (var select of selects) {
+     select.value = filterB;
+   }
+
+   document.dispatchEvent(redrawPlots);
+ }
+
+ selectFilterA(filterA);
+ selectFilterB(filterB);
+
+</script>
