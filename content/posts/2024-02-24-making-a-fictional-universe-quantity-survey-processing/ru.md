@@ -137,7 +137,6 @@ barPlot('plot-playing-on', mapPlayingOn, playingOnGroupIds);
 
 <div id="plot-playing-on"></div>
 
-
 ### Играю в стратегии
 
 <script type="text/javascript">
@@ -152,6 +151,51 @@ barPlot('plot-play-strategies', mapPlayStrategies, [1, 2, 3, 4, 5, 6, 7, 8, 9, 1
 ---8<--- "./filter_selectors.html"
 
 <div id="plot-play-strategies"></div>
+
+### В какие стратегии играете
+
+<script type="text/javascript">
+
+function mapStrategyGames(row) {
+    const groups = [];
+
+    const mapping = {
+        'q_strategy_games_like#4x': '4x',
+	'q_strategy_games_like#city_builders': 'city_builders',
+	'q_strategy_games_like#decision_driven': 'decision_driven',
+	'q_strategy_games_like#grand_strategies': 'grand_strategies',
+	'q_strategy_games_like#roguelike': 'roguelike',
+	'q_strategy_games_like#rts': 'rts',
+	'q_strategy_games_like#tactics': 'tactics',
+	'q_strategy_games_like#tycoon': 'tycoon'
+    }
+
+    for (const key in mapping) {
+        if (row[key]) {
+            groups.push(mapping[key]);
+        }
+    }
+
+    return groups;
+}
+
+const strategyGamesGroupIds = [
+    '4x',
+    'city_builders',
+    'decision_driven',
+    'grand_strategies',
+    'roguelike',
+    'rts',
+    'tactics',
+    'tycoon'
+];
+
+barPlot('plot-strategy-games', mapStrategyGames, strategyGamesGroupIds);
+</script>
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-strategy-games"></div>
 
 <!-- footer -->
 
