@@ -33,13 +33,36 @@ barPlot('plot-gender', mapGender, ['male', 'female', 'non_binary_other', 'prefer
 ## Возраст
 
 <script type="text/javascript">
-
 barPlot('plot-age', mapAge, ageGroupIds);
-
 </script>
 
 ---8<--- "./filter_selectors.html"
 
 <div id="plot-age"></div>
+
+## Занятость
+
+<script type="text/javascript">
+
+function mapOccupation(row) {
+  return row['q_occupation'];
+}
+
+const occupationGroupIds = [
+'employment',
+'sabbatical',
+'unemployed',
+'student',
+'volunteering'
+];
+
+barPlot('plot-occupation', mapOccupation, occupationGroupIds);
+</script>
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-occupation"></div>
+
+<!-- footer -->
 
 ---8<--- "./filters_initialization.html"

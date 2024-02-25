@@ -93,16 +93,39 @@ function _constructAgeGroupFilter(groupId) {
     };
 }
 
-const filters = {'all': {name: 'All', filter: filterAll},
-                 'gameDevelopers': {name: 'Game developers', filter: filterGameDevelopers},
-                 'players': {name: 'Players', filter: filterPlayers}};
+const filters = {
+    'all': {
+        name: 'All',
+        filter: (row) => true
+    },
+    'gameDevelopers': {
+        name: 'Game developers',
+        filter: (row) => row['q_is_game_developer'] === 'yes'
+    },
+    'players': {
+        name: 'Players',
+        filter: (row) => row['q_is_game_developer'] === 'no'
+    },
+    'occupation_employment': {
+        name: 'Occupation: Employment',
+        filter: (row) => row['q_occupation'] === 'employment'
+    },
+    'occupation_student': {
+        name: 'Occupation: Student',
+        filter: (row) => row['q_occupation'] === 'student'
+    },
+    'occupation_other': {
+        name: 'Occupation: Other',
+        filter: (row) => !['employment', 'student'].includes(row['q_occupation'])
+    },
+};
 
 for (let ageId in ageGroups) {
     let ageGroup = ageGroups[ageId];
     if (!ageGroup.addToFilter) {
         continue;
     }
-    filters[ageGroup.id] = {name: 'Age: ' + ageGroup.name, filter: _constructAgeGroupFilter(ageGroup)};
+    filters[ageGroup.id] = {name: 'Age: ' + ageGroup.name, filter: _constructAgeGroupFilter(ageGroup.id)};
 }
 
 var fullData = null;
@@ -158,6 +181,16 @@ function barPlot(selector, map, barsOrder) {
     document.addEventListener('redrawPlots', (e) => {
 
         if (fullData === null) {
+            return;
+        }
+
+        if (!(filterA in filters)) {
+            console.error('Unknown filterA:', filterA);
+            return;
+        }
+
+        if (!(filterB in filters)) {
+            console.error('Unknown filterB:', filterA);
             return;
         }
 
