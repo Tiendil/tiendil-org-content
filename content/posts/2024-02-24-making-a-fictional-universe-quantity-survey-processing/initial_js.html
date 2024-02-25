@@ -333,9 +333,21 @@ const filters = {
         name: 'Agency size: relativly small — <= 50',
         filter: (row) => ['up_to_10', 'up_to_25', 'up_to_50', 'small_or_automanage'].includes(row['q_max_agency_size'])
     },
-    agencySizeRelativlyBig: {
+    'agencySizeRelativlyBig': {
         name: 'Agency size: relativly big — > 50',
         filter: (row) => ['up_to_100', 'bureaucratic_empire', 'small_or_automanage'].includes(row['q_max_agency_size'])
+    },
+    'budgetEffortAlot': {
+        name: 'Budget effort: a lot',
+        filter: (row) => row['q_budget_effort'] >= 8
+    },
+    'budgetEffortSome': {
+        name: 'Budget effort: some',
+        filter: (row) => row['q_budget_effort'] >= 5 && row['q_budget_effort'] <= 7
+    },
+    'budgetEffortNo': {
+        name: 'Budget effort: no',
+        filter: (row) => row['q_budget_effort'] <= 4
     },
 };
 

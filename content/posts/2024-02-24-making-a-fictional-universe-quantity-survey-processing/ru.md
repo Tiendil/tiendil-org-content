@@ -10,6 +10,8 @@ seo_image = ""  # туду
 
 <!-- TODO: intro -->
 <!-- TODO: исходники вопросов в предыдущем посте -->
+<!-- TODO: все числовые шкалы делились на 3 группы -->
+<!-- В целом, куча стереотипов подтверждается, можете сами посчёлкать -->
 
 Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro
 
@@ -289,6 +291,21 @@ function mapMaxSize(row) {
 barPlot('plot-maximum-size', mapMaxSize, ['up_to_10', 'up_to_25', 'up_to_50', 'up_to_100', 'bureaucratic_empire', 'small_or_automanage', 'N/A']);
 </script>
 
+### Управление бюджетом новостного агентства
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-budget-effort"></div>
+
+<script type="text/javascript">
+
+function mapBudgetEffort(row) {
+    return row['q_budget_effort'];
+}
+
+barPlot('plot-budget-effort', mapBudgetEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
+
 
 <!-- TODO Tatget audience filter: adult, playing PC, employed -->
 
@@ -296,6 +313,7 @@ barPlot('plot-maximum-size', mapMaxSize, ['up_to_10', 'up_to_25', 'up_to_50', 'u
 <!-- TODO: scatter plot X vs Y -->
 <!-- TODO: на фильтры добавить количество элементов выборки -->
 <!-- TODO: корреялция топовых выборов в вопросах с мультивыбором -->
+<!-- TODO: adult 30-39 — странная группа, у неё предпочтения противоположны двум соседним -->
 
 <!-- Insites: effort влияет на предпочтения -->
 <!-- множество каналов важны для тех, кто задрачивает и играет в стратегии много-->
