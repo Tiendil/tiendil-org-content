@@ -401,8 +401,13 @@ scatterpolarPlot('plot-radar-average', 'median');
 ### Тепловая карта
 
 TODO: WE NEED TWO HEATMAPS, что-то удобно смотреть на ненормированной мапе, что-то — на нормированной?
+
+TODO: skip/hide columns which has not anough data
+
 TODO: this heatmap may be wrong or missinterpreted
+
 TODO: age is missed here
+
 TODO: normed on number records with sign from column
 
 TODO: only first filter works here
