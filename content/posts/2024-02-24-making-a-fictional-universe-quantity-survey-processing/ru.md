@@ -253,6 +253,24 @@ function mapJournalismRealism(row) {
 barPlot('plot-journalism-realism', mapJournalismRealism, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
+### Количество соперничающих новостных агентств
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-competitors"></div>
+
+<script type="text/javascript">
+
+function mapCompetitors(row) {
+    if (row['q_concurrent_agencies'] == null) {
+        return 'N/A';
+    }
+    return row['q_concurrent_agencies'];
+}
+
+barPlot('plot-competitors', mapCompetitors, ['single', 'few', 'the_more_the_better', 'N/A']);
+</script>
+
 
 <!-- TODO Tatget audience filter: adult, playing PC, employed -->
 
@@ -266,6 +284,12 @@ barPlot('plot-journalism-realism', mapJournalismRealism, [1, 2, 3, 4, 5, 6, 7, 8
 <!-- реализм журналистики важен для тех, кто задрачивает и играет в стратегии много-->
 <!-- Каналы распространения новостей по возрастам -->
 <!-- Любители магии любят РПГ, но не любят напрягаться -->
+<!-- Первое большое разделение: несколько конкурентов vs много конкурентов -->
+
+<!-- Гипотеза: аудитория упарывающихся стратегов -->
+<!-- Противоречие: молоды хотят больше агентств, постаршке хотят поменьше -->
+
+<!-- TODO: сделать несколько селекторов чисто по механикам Игра 1, Игра 2, Игра 3, etc. -->
 
 <!-- footer -->
 

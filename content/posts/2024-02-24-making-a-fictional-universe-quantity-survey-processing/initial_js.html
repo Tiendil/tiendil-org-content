@@ -333,6 +333,14 @@ const filters = {
         name: 'Journalism realism: not important',
         filter: (row) => row['q_realistic_work'] <= 4
     },
+    'competitorsFew': {
+        name: 'Competitors: few',
+        filter: (row) => row['q_concurrent_agencies'] == 'few'
+    },
+    'competitorsAlot': {
+        name: 'Competitors: a lot',
+        filter: (row) => row['q_concurrent_agencies'] == 'the_more_the_better'
+    },
 };
 
 for (let ageId in ageGroups) {
