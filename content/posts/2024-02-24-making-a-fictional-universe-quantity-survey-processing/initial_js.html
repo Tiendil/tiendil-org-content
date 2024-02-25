@@ -703,7 +703,25 @@ function barPlot(selector, map, barsOrder) {
             }
         };
 
-        Plotly.newPlot(selector, data, layout);
+        var config = {
+            toImageButtonOptions: {
+                format: 'png', // one of png, svg, jpeg, webp
+                filename: '${selector}-${filterA}-${filterB}',
+                scale: 1
+            },
+            displayModeBar: true,
+            modeBarButtonsToRemove: [
+                'zoom2d', 'pan2d', 'select2d', 'lasso2d', 'zoomIn2d', 'zoomOut2d', 'autoScale2d',
+                'zoom3d', 'pan3d', 'orbitRotation', 'tableRotation', 'handleDrag3d',
+                'resetCameraDefault3d', 'resetCameraLastSave3d', 'hoverClosest3d',
+                'hoverClosestCartesian', 'hoverCompareCartesian',
+                'zoomInGeo', 'zoomOutGeo', 'resetGeo', 'hoverClosestGeo',
+                'hoverClosestGl2d', 'hoverClosestPie', 'toggleHover', 'resetViews', 'sendDataToCloud', 'toggleSpikelines', 'resetViewMapbox'
+                ]
+        }
+
+        // TODO: optimize redraw
+        Plotly.newPlot(selector, data, layout, config);
     });
 }
 

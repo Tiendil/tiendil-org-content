@@ -11,6 +11,7 @@ seo_image = ""  # туду
 <!-- TODO: intro -->
 <!-- TODO: исходники вопросов в предыдущем посте -->
 <!-- В целом, куча стереотипов подтверждается, можете сами посчёлкать -->
+<!-- Это не всеобъемлющий очёт, только базовые закономерности, игровая площадка -->
 
 Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro
 
