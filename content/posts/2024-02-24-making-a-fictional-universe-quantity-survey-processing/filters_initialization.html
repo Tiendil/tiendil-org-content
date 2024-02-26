@@ -232,4 +232,184 @@
 
  document.dispatchEvent(redrawPlots);
 
+ function renderTable(selector, headers, data) {
+   const table = document.createElement('table');
+   table.style.width = '100%';
+   table.setAttribute('border', '1');
+
+   const thead = document.createElement('thead');
+   const headerRow = document.createElement('tr');
+
+   headers.forEach(headerText => {
+     const header = document.createElement('th');
+     header.textContent = headerText;
+     headerRow.appendChild(header);
+   });
+
+   thead.appendChild(headerRow);
+
+   table.appendChild(thead);
+
+   const tbody = document.createElement('tbody');
+
+   data.forEach(row => {
+     const tr = document.createElement('tr');
+     row.forEach((cell, index) => {
+       const td = document.createElement('td');
+       if (Array.isArray(cell)) {
+         td.innerHTML = cell.join('<br>');
+       } else {
+         td.textContent = cell;
+       }
+       tr.appendChild(td);
+     });
+     tbody.appendChild(tr);
+   });
+   table.appendChild(tbody);
+
+   const container = document.querySelector(selector);
+   container.innerHTML = '';
+   container.appendChild(table);
+ }
+
+ function tableFinalGroups(selector) {
+   const dimensions = [['hard', 'core', 'casual'],
+                       ['agencySizeRelativlySmall', 'agencySizeRelativlyBig'],
+                       ['competitorsFew', 'competitorsAlot']];
+
+   const groups = {};
+
+   // initialize storage
+
+   for (let effort of dimensions[0]) {
+     for (let agencySize of dimensions[1]) {
+       for (let competitors of dimensions[2]) {
+         groups[`${effort}-${agencySize}-${competitors}`] = {
+           total: 0,
+           dimensions: {
+             effort: effort,
+             agencySize: agencySize,
+             competitors: competitors
+           },
+           plotStyle: {},
+           worldStyle: {}
+         }
+       }
+     }
+   }
+
+   // collect statistics
+   fullData.forEach(row => {
+     const key = [];
+
+     for (let dimension of dimensions) {
+       for (let filterKey of dimension) {
+         if (filters[filterKey].filter(row)) {
+           key.push(filterKey);
+           break;
+         }
+       }
+     }
+
+     const groupKey = key.join('-');
+
+     if (!(groupKey in groups)) {
+       return;
+     }
+
+     groups[groupKey].total += 1;
+
+     for (let key in row) {
+
+       if (row[key] != 1) {
+         continue;
+       }
+
+       if (!key.includes('#')) {
+         continue;
+       }
+
+       const parts = key.split('#');
+
+       const question = parts[0];
+       const value = parts[1];
+
+       const group = groups[groupKey];
+
+       if (question == 'q_plot_style') {
+         if (!(value in group.plotStyle)) {
+           group.plotStyle[value] = 0;
+         }
+         group.plotStyle[value] += 1;
+       }
+
+       if (question == 'q_world_style') {
+         if (!(value in group.worldStyle)) {
+           group.worldStyle[value] = 0;
+         }
+         group.worldStyle[value] += 1;
+       }
+     }
+
+     groups[groupKey].plotStyle
+   });
+
+   // format data
+
+   const table = [];
+
+   const rowIndex = 0;
+
+   function selectTopN(styles, n) {
+      const sorted = Object.keys(styles).sort((a, b) => styles[b] - styles[a]);
+
+      const result = [];
+
+      for (let i = 0; i < n; i++) {
+        if (i >= sorted.length) {
+          break;
+        }
+
+        result.push(`${sorted[i]}: ${styles[sorted[i]]}`);
+      }
+
+      return result;
+   }
+
+   const n = 5;
+
+   for (let effort of dimensions[0]) {
+     for (let agencySize of dimensions[1]) {
+       for (let competitors of dimensions[2]) {
+         const groupKey = `${effort}-${agencySize}-${competitors}`;
+         const group = groups[groupKey];
+
+         table.push([effort,
+                     agencySize,
+                     competitors,
+                     group.total,
+                     selectTopN(group.worldStyle, n),
+                     selectTopN(group.plotStyle, n)]);
+       }
+     }
+   }
+
+   function transpose(array) {
+     // Check if the input array is empty
+     if(array.length === 0) {
+       return [];
+     }
+
+     // Transpose the array
+     return array[0].map((_, colIndex) => array.map(row => row[colIndex]));
+   }
+
+   renderTable(selector,
+               ['effort', 'agency size', 'competitors', 'size', 'world style', 'plot style'],
+               table);
+ }
+
+ /* TODO: move into the main file? */
+ tableFinalGroups('#table-final-groups');
+
 </script>

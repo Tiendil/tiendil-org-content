@@ -492,6 +492,15 @@ heatmapPlot('plot-heatmap-absolute', 'absolute');
 heatmapPlot('plot-heatmap-norm', 'norm');
 </script>
 
+## Финальные группы
+
+<div id="table-final-groups"></div>
+
+<!-- TODO: move js here? -->
+<script type="text/javascript">
+
+</script>
+
 
 <!-- TODO Tatget audience filter: adult, playing PC, employed -->
 
