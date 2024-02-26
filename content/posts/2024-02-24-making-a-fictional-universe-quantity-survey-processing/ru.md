@@ -14,6 +14,7 @@ seo_image = ""  # туду
 <!-- Это не всеобъемлющий очёт, только базовые закономерности, игровая площадка -->
 <!-- TODO: переформулировать заголовки в более конкретные -->
 <!-- TODO: перевод названий груп -->
+<!-- TODO: данных откровенно мало. Их хватает, чтобы видеть общие закономерности, но смотреть глубоко не получается. -->
 
 Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro
 

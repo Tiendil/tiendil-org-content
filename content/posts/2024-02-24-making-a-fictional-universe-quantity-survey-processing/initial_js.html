@@ -384,17 +384,17 @@ const filters = {
         name: 'Occupation: Other',
         filter: (row) => !['employment', 'student'].includes(row['q_occupation'])
     },
-    'playingStrategiesAlot': {
-        name: 'Playing strategies: a lot',
-        filter: (row) => row['q_play_strategy_games'] >= 8
+    'playingStrategiesHardcore': {
+        name: 'Playing strategies: hard [9..10]',
+        filter: (row) => row['q_play_strategy_games'] >= 9
     },
-    'playingStrategiesSometimes': {
-        name: 'Playing strategies: sometimes',
-        filter: (row) => row['q_play_strategy_games'] >= 5 && row['q_play_strategy_games'] <= 7
+    'playingStrategiesCore': {
+        name: 'Playing strategies: core [7..8]',
+        filter: (row) => row['q_play_strategy_games'] >= 7 && row['q_play_strategy_games'] <= 8
     },
-    'playingStrategiesNo': {
-        name: 'Playing strategies: no',
-        filter: (row) => row['q_play_strategy_games'] <= 4
+    'playingStrategiesCasual': {
+        name: 'Playing strategies: casual [5..6]',
+        filter: (row) => row['q_play_strategy_games'] >= 5 && row['q_play_strategy_games'] <= 6
     },
     'effortInGamesAlot': {
         name: 'Effort in games: a lot',
@@ -509,6 +509,13 @@ const filters = {
         filter: (row) => row['q_morale_complexity'] <= 4
     },
 };
+
+// for (let i = 0; i < 11; i++) {
+//     filters['playingStrategies' + i] = {
+//         name: 'Playing strategies: ' + i,
+//         filter: (row) => row['q_play_strategy_games'] === i
+//     };
+// }
 
 for (let ageId in ageGroups) {
     let ageGroup = ageGroups[ageId];
