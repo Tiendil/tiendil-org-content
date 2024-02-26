@@ -825,4 +825,164 @@ function scatterpolarPlot(selector, mode) {
 
 }
 
+
+function heatmapPlot(selector) {
+    document.addEventListener('redrawPlots', (e) => {
+
+        if (fullData === null) {
+            return;
+        }
+
+        if (!(filterA in filters)) {
+            console.error('Unknown filterA:', filterA);
+            return;
+        }
+
+        const dataA = filters[filterA].values;
+
+        xDimension = heatmapFilterA;
+        yDimension = heatmapFilterB;
+
+        const questions = heatmapQuestions;
+
+        const z = [];
+
+        for (let i in questions[yDimension].values) {
+            z.push([]);
+
+            for (let j in questions[xDimension].values) {
+                z[z.length-1].push(0);
+            }
+        }
+
+        function extractIndexes(question, row) {
+            const indexes = []
+
+            q = questions[question]
+            if (q.type == 'multichoice') {
+                for (let i in q.values) {
+                    const variant = q.values[i];
+
+                    if (row[`${question}#${variant}`] == 1) {
+                        indexes.push(i);
+                    }
+                }
+            }
+
+            if (q.type == 'numeric') {
+                indexes.push(row[question] - 1);
+            }
+
+            if (q.type == 'category') {
+                for (let i in q.values) {
+                    const variant = q.values[i];
+
+                    if (row[question] == variant) {
+                        indexes.push(i);
+                    }
+                }
+            }
+
+            if (indexes.length == 0) {
+                console.log('something goes wrong');
+            }
+
+            return indexes;
+        }
+
+        const columnSizes = {};
+
+        dataA.forEach(function(row){
+            const xIndexs = extractIndexes(xDimension, row);
+            const yIndexs = extractIndexes(yDimension, row);
+
+            for (let x of xIndexs) {
+                if (!(x in columnSizes)) {
+                    columnSizes[x] = 0;
+                }
+
+                // TODO: is this correct
+                columnSizes[x] += 1;
+
+
+                for (let y of yIndexs) {
+                    z[y][x] += 1
+                }
+            }
+        });
+
+        const minAllowedColumnSize = 10;
+
+        // norm z on column sizes
+        for (let i in questions[yDimension].values) {
+            for (let j in questions[xDimension].values) {
+
+                if (xDimension == yDimension && i == j) {
+                    z[i][j] = 0;
+                }
+
+                else if (columnSizes[j] != null && columnSizes[j] >= minAllowedColumnSize ) {
+                    z[i][j] /= columnSizes[j];
+                }
+                else {
+                    z[i][j] = null;
+                }
+            }
+        }
+
+        var data = [
+            {
+                z: z,
+                x: questions[xDimension].values,
+                y: questions[yDimension].values,
+                type: 'heatmap'
+            }
+        ];
+
+        const annotations = [];
+
+        for ( var i = 0; i < questions[yDimension].values.length; i++ ) {
+            for ( var j = 0; j < questions[yDimension].values.length; j++ ) {
+                var currentValue = z[i][j];
+
+                var result = {
+                    xref: 'x1',
+                    yref: 'y1',
+                    x: questions[xDimension].values[j],
+                    y: questions[yDimension].values[i],
+                    text: z[i][j],
+                    showarrow: false,
+                };
+                annotations.push(result);
+            }
+        }
+
+        var layout = {
+            barmode: 'group',
+            // annotations: annotations,
+            plot_bgcolor: "black",
+            xaxis: {
+                dtick: 1,
+                title: xDimension
+            },
+            yaxis: {
+                dtick: 1,
+                title: yDimension
+            },
+            legend: {
+                orientation: 'h',
+                x: 0.5, // Centers the legend horizontally
+                xanchor: 'center', // Uses the center of the legend as the anchor point
+                y: 1.1, // Positions the legend above the chart
+                yanchor: 'bottom' // Uses the bottom of the legend to position it relative to the chart
+            }
+        };
+
+        var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
+
+        Plotly.react(selector, data, layout, config);
+    });
+}
+
+
 </script>

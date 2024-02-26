@@ -100,6 +100,10 @@
        continue;
      }
 
+     if (key == null) {
+       continue;
+     }
+
      if (['q_gender', 'q_occupation', 'q_is_game_developer', 'q_concurrent_agencies', 'q_max_agency_size'].includes(key)) {
 
        const values = [];
