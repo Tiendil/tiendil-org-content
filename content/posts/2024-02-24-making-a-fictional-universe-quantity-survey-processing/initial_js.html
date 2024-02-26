@@ -377,6 +377,24 @@ const filters = {
         name: 'All',
         filter: (row) => true
     },
+    'gameIteration1': {
+        name: 'Game: iteration 1',
+        filter: (row) => {
+            if (!(filters['hard'].filter(row) || filters['core'].filter(row))) {
+                return false;
+            }
+
+            if (!filters['agencySizeRelativlySmall'].filter(row)) {
+                return false
+            }
+
+            if (!filters['competitorsFew'].filter(row)) {
+                return false;
+            }
+
+            return true;
+        }
+    },
     'male': {
         name: 'Male',
         filter: (row) => row['q_gender'] === 'male'
