@@ -42,9 +42,9 @@
      select.value = filterB;
    }
 
-    if (skipEvent != 'skip-event') {
-      document.dispatchEvent(redrawPlots);
-    }
+   if (skipEvent != 'skip-event') {
+     document.dispatchEvent(redrawPlots);
+   }
  }
 
  function collectQuestionsVariants() {
@@ -129,9 +129,9 @@
      select.value = heatmapFilterA;
    }
 
-    if (skipEvent != 'skip-event') {
-      document.dispatchEvent(redrawPlots);
-    }
+   if (skipEvent != 'skip-event') {
+     document.dispatchEvent(redrawPlots);
+   }
  }
 
  function selectHeatmapFilterB(value, skipEvent) {
@@ -142,14 +142,16 @@
      select.value = heatmapFilterB;
    }
 
-    if (skipEvent != 'skip-event') {
-      document.dispatchEvent(redrawPlots);
-    }
+   if (skipEvent != 'skip-event') {
+     document.dispatchEvent(redrawPlots);
+   }
  }
 
  selectFilterA(filterA, 'skip-event');
  selectFilterB(filterB, 'skip-event');
  selectHeatmapFilterA(heatmapFilterA, 'skip-event');
- selectHeatmapFilterB(heatmapFilterB);
+ selectHeatmapFilterB(heatmapFilterB, 'skip-event');
+
+ document.dispatchEvent(redrawPlots);
 
 </script>
