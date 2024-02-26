@@ -440,17 +440,17 @@ const filters = {
         name: 'Channels: not important [1..6]',
         filter: (row) => row['q_multiple_channels_esential'] <= 6
     },
-    'journalismRealimsFull': {
-        name: 'Journalism realism: full',
-        filter: (row) => row['q_realistic_work'] >= 8
+    'journalismRealimsHard': {
+        name: 'Journalism realism: hard [9..10]',
+        filter: (row) => row['q_realistic_work'] >= 9
     },
-    'journalismRealismPartial': {
-        name: 'Journalism realism: partial',
-        filter: (row) => row['q_realistic_work'] >= 5 && row['q_realistic_work'] <= 7
+    'journalismRealismCore': {
+        name: 'Journalism realism: core [7..8]',
+        filter: (row) => row['q_realistic_work'] >= 7 && row['q_realistic_work'] <= 8
     },
-    'journalismRealismNotImportant': {
-        name: 'Journalism realism: not important',
-        filter: (row) => row['q_realistic_work'] <= 4
+    'journalismRealismCasual': {
+        name: 'Journalism realism: casual [1..6]',
+        filter: (row) => row['q_realistic_work'] <= 6
     },
     'competitorsFew': {
         name: 'Competitors: few',
