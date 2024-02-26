@@ -379,6 +379,67 @@ barPlot('plot-moral-complexity', mapMoralComplexity, [1, 2, 3, 4, 5, 6, 7, 8, 9,
 barPlot('plot-world-style', groupMapper(worldStyleGroups), groupIds(worldStyleGroups));
 </script>
 
+## Мета группы
+
+### Hardcore игроки
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-meta-hard"></div>
+
+<script type="text/javascript">
+
+function mapMetaHard(row) {
+    return row['m_hard'];
+}
+
+barPlot('plot-meta-hard', mapMetaHard, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
+
+### Core игроки
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-meta-core"></div>
+
+<script type="text/javascript">
+
+function mapMetaCore(row) {
+    return row['m_core'];
+}
+
+barPlot('plot-meta-core', mapMetaCore, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
+
+### Casual игроки
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-meta-casual"></div>
+
+<script type="text/javascript">
+
+function mapMetaCasual(row) {
+    return row['m_casual'];
+}
+
+barPlot('plot-meta-casual', mapMetaCasual, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+</script>
+
+### Группы по увлечённости
+
+---8<--- "./filter_selectors.html"
+
+<div id="plot-meta-effort"></div>
+
+<script type="text/javascript">
+
+function mapMetaEffort(row) {
+    return row['m_effort'];
+}
+
+barPlot('plot-meta-effort', mapMetaEffort, ['casual', 'core', 'hard']);
+</script>
 
 ## Некоторые инструменты
 

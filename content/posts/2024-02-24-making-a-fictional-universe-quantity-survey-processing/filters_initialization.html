@@ -15,6 +15,45 @@
    fullData.push(obj);
  }
 
+ // enrich data
+
+ fullData.forEach(row => {
+   const metaGroups = {m_hard: 0,
+                       m_core: 0,
+                       m_casual: 0};
+
+   for (let filterKey in filters) {
+     const filter = filters[filterKey];
+
+     if ('metaGroupPoints' in filter && filter.filter(row)) {
+       for (groupKey in filter.metaGroupPoints) {
+         if (!(groupKey in metaGroups)) {
+           console.log('Unknown group key: ' + groupKey);
+         }
+
+         metaGroups[groupKey] += filter.metaGroupPoints[groupKey];
+       }
+     }
+
+     if (metaGroups.m_core >= metaGroups.m_hard && metaGroups.m_core >= metaGroups.m_casual) {
+       row['m_effort'] = 'core';
+     } else if (metaGroups.m_casual >= metaGroups.m_hard && metaGroups.m_casual > metaGroups.m_core) {
+       row['m_effort'] = 'casual';
+     } else if (metaGroups.m_hard > metaGroups.m_core && metaGroups.m_hard > metaGroups.m_casual) {
+       row['m_effort'] = 'hard';
+     } else {
+       console.error('Unknown meta effort group');
+     }
+
+     for (let groupKey in metaGroups) {
+       row[groupKey] = metaGroups[groupKey];
+     }
+   }
+
+ });
+
+ // fill filters
+
  function applyFilters() {
    for (var key in filters) {
      filters[key].values = fullData.filter(filters[key].filter);

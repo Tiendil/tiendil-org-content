@@ -13,6 +13,19 @@ const redrawPlots = new CustomEvent('redrawPlots', {
 });
 
 // TODO: translate
+const metaEffortGroups = [{id: 'hard',
+                           name: 'Hardcore Players',
+                           addToFilter: true,
+                           predicate: (row) => row['m_effort'] == 'hard'},
+                          {id: 'core',
+                           name: 'Core Players',
+                           addToFilter: true,
+                           predicate: (row) => row['m_effort'] == 'core'},
+                          {id: 'casual',
+                           name: 'Casual Players',
+                           addToFilter: true,
+                           predicate: (row) => row['m_effort'] == 'casual'}];
+
 const ageGroups = [{id: 'children (0-12)',
                     name: 'Children (0-12)',
                     addToFilter: false,
@@ -394,63 +407,78 @@ const filters = {
     },
     'playingStrategiesHardcore': {
         name: 'Playing strategies: hard [9..10]',
-        filter: (row) => row['q_play_strategy_games'] >= 9
+        filter: (row) => row['q_play_strategy_games'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
     },
     'playingStrategiesCore': {
         name: 'Playing strategies: core [7..8]',
-        filter: (row) => row['q_play_strategy_games'] >= 7 && row['q_play_strategy_games'] <= 8
+        filter: (row) => row['q_play_strategy_games'] >= 7 && row['q_play_strategy_games'] <= 8,
+        metaGroupPoints: {'m_core': 1}
     },
     'playingStrategiesCasual': {
         name: 'Playing strategies: casual [1..6]',
-        filter: (row) => row['q_play_strategy_games'] <= 6
+        filter: (row) => row['q_play_strategy_games'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
     },
     'effortInGamesHardcore': {
         name: 'Effort in games: hard [9..10]',
-        filter: (row) => row['q_playing_effort'] >= 9
+        filter: (row) => row['q_playing_effort'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
     },
     'effortInGamesCore': {
         name: 'Effort in games: core [7..8]',
-        filter: (row) => row['q_playing_effort'] >= 7 && row['q_playing_effort'] <= 8
+        filter: (row) => row['q_playing_effort'] >= 7 && row['q_playing_effort'] <= 8,
+        metaGroupPoints: {'m_core': 1}
     },
     'effortInGamesCasual': {
         name: 'Effort in games: casual [1..6]',
-        filter: (row) => row['q_playing_effort'] <= 6
+        filter: (row) => row['q_playing_effort'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
     },
     'likeRPGElementsHardcore': {
         name: 'Like RPG: hardcore [9..10]',
-        filter: (row) => row['q_rpg_elements'] >= 9
+        filter: (row) => row['q_rpg_elements'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
     },
     'likeRPGElementsCore': {
         name: 'Like RPG: core [7..8]',
-        filter: (row) => row['q_rpg_elements'] >= 7 && row['q_rpg_elements'] <= 8
+        filter: (row) => row['q_rpg_elements'] >= 7 && row['q_rpg_elements'] <= 8,
+        metaGroupPoints: {'m_core': 1}
     },
     'likeRPGElementsCasual': {
         name: 'Like RPG: casual [1..6]',
-        filter: (row) => row['q_rpg_elements'] <= 6
+        filter: (row) => row['q_rpg_elements'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
     },
-    'multipleChannelsImportant': {
-        name: 'Channels: important [9..10]',
-        filter: (row) => row['q_multiple_channels_esential'] >= 9
+    'multipleChannelsHardcore': {
+        name: 'Channels: hard [9..10]',
+        filter: (row) => row['q_multiple_channels_esential'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
     },
-    'multipleChannelsWillBeGood': {
-        name: 'Channels: will be good [7..8]',
-        filter: (row) => row['q_multiple_channels_esential'] >= 7 && row['q_multiple_channels_esential'] <= 8
+    'multipleChannelsCore': {
+        name: 'Channels: core [7..8]',
+        filter: (row) => row['q_multiple_channels_esential'] >= 7 && row['q_multiple_channels_esential'] <= 8,
+        metaGroupPoints: {'m_core': 1}
     },
-    'multipleChannelsNotImportant': {
-        name: 'Channels: not important [1..6]',
-        filter: (row) => row['q_multiple_channels_esential'] <= 6
+    'multipleChannelsCasual': {
+        name: 'Channels: casual [1..6]',
+        filter: (row) => row['q_multiple_channels_esential'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
     },
     'journalismRealimsHard': {
         name: 'Journalism realism: hard [9..10]',
-        filter: (row) => row['q_realistic_work'] >= 9
+        filter: (row) => row['q_realistic_work'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
     },
     'journalismRealismCore': {
         name: 'Journalism realism: core [7..8]',
-        filter: (row) => row['q_realistic_work'] >= 7 && row['q_realistic_work'] <= 8
+        filter: (row) => row['q_realistic_work'] >= 7 && row['q_realistic_work'] <= 8,
+        metaGroupPoints: {'m_core': 1}
     },
     'journalismRealismCasual': {
         name: 'Journalism realism: casual [1..6]',
-        filter: (row) => row['q_realistic_work'] <= 6
+        filter: (row) => row['q_realistic_work'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
     },
     'competitorsFew': {
         name: 'Competitors: few',
@@ -470,58 +498,79 @@ const filters = {
     },
     'budgetEffortHardcore': {
         name: 'Budget effort: hard [9..10]',
-        filter: (row) => row['q_budget_effort'] >= 9
+        filter: (row) => row['q_budget_effort'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
     },
     'budgetEffortCore': {
         name: 'Budget effort: core [7..8]',
-        filter: (row) => row['q_budget_effort'] >= 7 && row['q_budget_effort'] <= 8
+        filter: (row) => row['q_budget_effort'] >= 7 && row['q_budget_effort'] <= 8,
+        metaGroupPoints: {'m_core': 1}
     },
     'budgetEffortCasual': {
         name: 'Budget effort: casual [5..6]',
-        filter: (row) => row['q_budget_effort'] <= 6 && row['q_budget_effort'] >= 5
+        filter: (row) => row['q_budget_effort'] <= 6 && row['q_budget_effort'] >= 5,
+        metaGroupPoints: {'m_casual': 1}
     },
     'budgetEffortHyperCasual': {
         name: 'Budget effort: hyper casual [1..4]',
-        filter: (row) => row['q_budget_effort'] <= 4
+        filter: (row) => row['q_budget_effort'] <= 4,
+        metaGroupPoints: {'m_casual': 1}
     },
     'relationshipsEffortHardcore': {
         name: 'Relationships effort: hard [9..10]',
-        filter: (row) => row['q_relationships_effort'] >= 9
+        filter: (row) => row['q_relationships_effort'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
     },
     'relationshipsEffortCore': {
         name: 'Relationships effort: core [7..8]',
-        filter: (row) => row['q_relationships_effort'] >= 7 && row['q_relationships_effort'] <= 8
+        filter: (row) => row['q_relationships_effort'] >= 7 && row['q_relationships_effort'] <= 8,
+        metaGroupPoints: {'m_core': 1}
     },
     'relationshipsEffortCasual': {
         name: 'Relationships effort: casual [1..6]',
-        filter: (row) => row['q_relationships_effort'] <= 6
+        filter: (row) => row['q_relationships_effort'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
     },
     'officeEffortHardcore': {
         name: 'Office effort: hard [9..10]',
-        filter: (row) => row['q_office_effort'] >= 9
+        filter: (row) => row['q_office_effort'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
     },
     'officeEffortCore': {
         name: 'Office effort: core [7..8]',
-        filter: (row) => row['q_office_effort'] >= 7 && row['q_office_effort'] <= 8
+        filter: (row) => row['q_office_effort'] >= 7 && row['q_office_effort'] <= 8,
+        metaGroupPoints: {'m_core': 1}
     },
     'officeEffortCasual': {
         name: 'Office effort: casual [1..6]',
-        filter: (row) => row['q_office_effort'] <= 6
+        filter: (row) => row['q_office_effort'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
     },
     'moralComplexityHardcore': {
         name: 'Moral complexity: hard [9..10]',
-        filter: (row) => row['q_morale_complexity'] >= 9
+        filter: (row) => row['q_morale_complexity'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
     },
     'moralComplexityCore': {
         name: 'Moral complexity: core [7..8]',
-        filter: (row) => row['q_morale_complexity'] >= 7 && row['q_morale_complexity'] <= 8
+        filter: (row) => row['q_morale_complexity'] >= 7 && row['q_morale_complexity'] <= 8,
+        metaGroupPoints: {'m_core': 1}
     },
     'moralComplexityCasual': {
         name: 'Moral complexity: casual [1..6]',
-        filter: (row) => row['q_morale_complexity'] <= 6
+        filter: (row) => row['q_morale_complexity'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
     },
 };
 
+for (let metaEffortId in metaEffortGroups) {
+    let metaEffortGroup = metaEffortGroups[metaEffortId];
+    if (!metaEffortGroup.addToFilter) {
+        continue;
+    }
+    filters[metaEffortGroup.id] = {name: 'Effort: ' + metaEffortGroup.name,
+                                   filter: metaEffortGroup.predicate};
+}
 
 for (let ageId in ageGroups) {
     let ageGroup = ageGroups[ageId];
