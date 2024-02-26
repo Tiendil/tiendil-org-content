@@ -494,10 +494,17 @@ heatmapPlot('plot-heatmap-norm', 'norm');
 
 ## Финальные группы
 
-<div id="table-final-groups"></div>
+### Все выделенные группы
 
-<!-- TODO: move js here? -->
-<script type="text/javascript">
+<div id="table-final-groups-raw"></div>
+
+### Определённые ключевые группы
+
+<div id="table-final-groups-basic"></div>
+
+### Группы итераций
+
+<div id="table-final-groups-iterations"></div>
 
 </script>
 

@@ -272,26 +272,71 @@
    container.appendChild(table);
  }
 
+ /* TODO: two tables: orginal & final */
+ /* TODO: раскраска базовой таблицы: что с чем объединяем */
+
+ const finalGroupsRaw = [{name: 'hard+small+few',
+                          filters: [['hard', 'agencySizeRelativlySmall', 'competitorsFew']]},
+                         {name: 'hard+small+alot',
+                          filters: [['hard', 'agencySizeRelativlySmall', 'competitorsAlot']]},
+                         {name: 'hard+big+few',
+                          filters: [['hard', 'agencySizeRelativlyBig', 'competitorsFew']]},
+                         {name: 'hard+big+alot',
+                          filters: [['hard', 'agencySizeRelativlyBig', 'competitorsAlot']]},
+                         {name: 'core+small+few',
+                          filters: [['core', 'agencySizeRelativlySmall', 'competitorsFew']]},
+                         {name: 'core+small+alot',
+                          filters: [['core', 'agencySizeRelativlySmall', 'competitorsAlot']]},
+                         {name: 'core+big+few',
+                          filters: [['core', 'agencySizeRelativlyBig', 'competitorsFew']]},
+                         {name: 'core+big+alot',
+                          filters: [['core', 'agencySizeRelativlyBig', 'competitorsAlot']]},];
+
  /* Unity with heuristics
     - we do not interested in casual players, because they are smallest group and generally do not part of the core community
     - we targe core audience (it is the biggest) and try to take hardcore players as well (they are bigger than casual and often make a core of the community) => it is a good idea to unite core & hard groups with the same mechanics
     - => we unite "hard+small+few" and "core+small+few". They are biggest groyps in hard and core categories, have common preferences
     - => second polus is "hard+big+alot" and "core+big+alot". They have good correlation on mechanics, but not ideal correlation on the world style and plot style. But I think it is artifact of the small sample size.
+    - Note: we do not care about of the world/plot styles takes to little part of the group (for now). After we choose the mechanics, we'll select a few style grouyps for each and this will be our target audience.
+    - => we unite "hard+big+few" and "core+big+few". They have good correlation of mechanics and world style.
+    - сочетание small+alot — парадоксально, не имеет особого смысла (это видно и по количеству респондентов, поэтому не будем считать его базовой группой. Позже, мы сможем добавить их в выборку для самого позитиваного случая (когда мы сделали игру для всех режимов).
   */
- const finalGroups = [{name: '(core|hard)+small+few',
-                       filters: [['hard', 'agencySizeRelativlySmall', 'competitorsFew'],
-                                 ['core', 'agencySizeRelativlySmall', 'competitorsFew']]},
-                      {name: 'hard+small+alot',
-                       filters: [['hard', 'agencySizeRelativlySmall', 'competitorsAlot']]},
-                      {name: 'hard+big+few',
-                       filters: [['hard', 'agencySizeRelativlyBig', 'competitorsFew']]},
-                      {name: '(core|hard)+big+alot',
-                       filters: [['hard', 'agencySizeRelativlyBig', 'competitorsAlot'],
-                                 ['core', 'agencySizeRelativlyBig', 'competitorsAlot']]},
-                      {name: 'core+small+alot',
-                       filters: [['core', 'agencySizeRelativlySmall', 'competitorsAlot']]},
-                      {name: 'core+big+few',
-                       filters: [['core', 'agencySizeRelativlyBig', 'competitorsFew']]}];
+
+
+ const finalGroupsBasic = [{name: '(core|hard)+small+few',
+                            filters: [['hard', 'agencySizeRelativlySmall', 'competitorsFew'],
+                                      ['core', 'agencySizeRelativlySmall', 'competitorsFew']]},
+                           {name: '(core|hard)+big+few',
+                            filters: [['hard', 'agencySizeRelativlyBig', 'competitorsFew'],
+                                      ['core', 'agencySizeRelativlyBig', 'competitorsFew']]},
+                           {name: '(core|hard)+big+alot',
+                            filters: [['hard', 'agencySizeRelativlyBig', 'competitorsAlot'],
+                                      ['core', 'agencySizeRelativlyBig', 'competitorsAlot']]}];
+
+ /* - Следовательно, надо начинать с  '(core|hard)+small+few', наращивать функциональность через '(core|hard)+big+few' и заканчивать на '(core|hard)+big+alot' Это даже соответствует здравому смыслу.
+    - обратим внимание, что когда/если мы дойдём до последнего шага, то автоматом ключатся группы small+alot.
+  */
+
+ const finalGroupsIterations = [{name: '(core|hard)+small+few',
+                                 filters: [['hard', 'agencySizeRelativlySmall', 'competitorsFew'],
+                                           ['core', 'agencySizeRelativlySmall', 'competitorsFew']]},
+                                {name: '(core|hard)+(small|big)+few',
+                                 filters: [['hard', 'agencySizeRelativlySmall', 'competitorsFew'],
+                                           ['core', 'agencySizeRelativlySmall', 'competitorsFew'],
+                                           ['hard', 'agencySizeRelativlyBig', 'competitorsFew'],
+                                           ['core', 'agencySizeRelativlyBig', 'competitorsFew']]},
+                                {name: '(core|hard)+(small|big)+(few|alot)',
+                                 filters: [
+                                   ['hard', 'agencySizeRelativlySmall', 'competitorsFew'],
+                                   ['hard', 'agencySizeRelativlySmall', 'competitorsAlot'],
+                                   ['hard', 'agencySizeRelativlyBig', 'competitorsFew'],
+                                   ['hard', 'agencySizeRelativlyBig', 'competitorsAlot'],
+                                   ['core', 'agencySizeRelativlySmall', 'competitorsFew'],
+                                   ['core', 'agencySizeRelativlySmall', 'competitorsAlot'],
+                                   ['core', 'agencySizeRelativlyBig', 'competitorsFew'],
+                                   ['core', 'agencySizeRelativlyBig', 'competitorsAlot']]}];
+
+ /* we could see, that resulted groups have mostly equal popular game preferences, world & plot styles */
 
  function isFinalGroupSuitable(group, row) {
    for (let filtersSet of group.filters) {
@@ -312,9 +357,9 @@
    return false;
  }
 
- function tableFinalGroups(selector) {
+ function tableFinalGroups(selector, tableGroups) {
 
-   for (let group of finalGroups) {
+   for (let group of tableGroups) {
      group.total = 0;
      group.plotStyle = {};
      group.worldStyle = {};
@@ -327,7 +372,7 @@
 
      const foundGroups = [];
 
-     for (let group of finalGroups) {
+     for (let group of tableGroups) {
        if (!isFinalGroupSuitable(group, row)) {
          continue;
        }
@@ -395,24 +440,24 @@
    const rowIndex = 0;
 
    function selectTopN(styles, n) {
-      const sorted = Object.keys(styles).sort((a, b) => styles[b] - styles[a]);
+     const sorted = Object.keys(styles).sort((a, b) => styles[b] - styles[a]);
 
-      const result = [];
+     const result = [];
 
-      for (let i = 0; i < n; i++) {
-        if (i >= sorted.length) {
-          break;
-        }
+     for (let i = 0; i < n; i++) {
+       if (i >= sorted.length) {
+         break;
+       }
 
-        result.push(`${sorted[i]}: ${styles[sorted[i]]}`);
-      }
+       result.push(`${sorted[i]}: ${styles[sorted[i]]}`);
+     }
 
-      return result;
+     return result;
    }
 
-   const n = 7;
+   const n = 5;
 
-   for (let group of finalGroups) {
+   for (let group of tableGroups) {
      table.push([group.name,
                  group.total,
                  selectTopN(group.likeInGames, n),
@@ -436,6 +481,8 @@
  }
 
  /* TODO: move into the main file? */
- tableFinalGroups('#table-final-groups');
+ tableFinalGroups('#table-final-groups-raw', finalGroupsRaw);
+ tableFinalGroups('#table-final-groups-basic', finalGroupsBasic);
+ tableFinalGroups('#table-final-groups-iterations', finalGroupsIterations);
 
 </script>
