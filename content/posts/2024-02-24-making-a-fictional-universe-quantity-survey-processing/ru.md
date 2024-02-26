@@ -432,9 +432,6 @@ heatmapPlot('plot-heatmap-norm', 'norm');
 
 <!-- TODO Tatget audience filter: adult, playing PC, employed -->
 
-<!-- TODO: effort vs playing_strategies -->
-<!-- TODO: scatter plot X vs Y -->
-<!-- TODO: на фильтры добавить количество элементов выборки -->
 <!-- TODO: корреялция топовых выборов в вопросах с мультивыбором -->
 <!-- TODO: adult 30-39 — странная группа, у неё предпочтения противоположны двум соседним -->
 

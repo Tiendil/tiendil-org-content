@@ -16,7 +16,7 @@ const redrawPlots = new CustomEvent('redrawPlots', {
 const ageGroups = [{id: 'children (0-12)',
                     name: 'Children (0-12)',
                     addToFilter: false,
-                    predicate: (row) => row['q_age'] <= 12},
+                    predicate: (row) => row['q_age'] != null && row['q_age'] <= 12},
                    {id: 'teens (13-19)',
                     name: 'Teens (13-19)',
                     addToFilter: true,
@@ -878,6 +878,16 @@ function heatmapPlot(selector, kind) {
                     const variant = q.values[i];
 
                     if (row[question] == variant) {
+                        indexes.push(i);
+                    }
+                }
+            }
+
+            if (q.type == 'age') {
+                for (let i in ageGroups) {
+                    const group = ageGroups[i];
+
+                    if (group.predicate(row)) {
                         indexes.push(i);
                     }
                 }

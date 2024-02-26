@@ -91,8 +91,15 @@
        continue;
      }
 
-     // TODO: add custom groups
      if (key == 'q_age') {
+       const values = [];
+
+       ageGroups.forEach(group => {
+         values.push(group.id);
+       });
+
+       questions[key] = {type: 'age',
+                         values: values};
        continue;
      }
 
@@ -101,6 +108,10 @@
      }
 
      if (key == null) {
+       continue;
+     }
+
+     if (key == 'null') {
        continue;
      }
 
