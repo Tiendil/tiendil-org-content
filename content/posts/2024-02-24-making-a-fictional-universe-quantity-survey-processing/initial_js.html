@@ -364,6 +364,14 @@ const filters = {
         name: 'All',
         filter: (row) => true
     },
+    'male': {
+        name: 'Male',
+        filter: (row) => row['q_gender'] === 'male'
+    },
+    'female': {
+        name: 'Female',
+        filter: (row) => row['q_gender'] === 'female'
+    },
     'gameDevelopers': {
         name: 'Game developers',
         filter: (row) => row['q_is_game_developer'] === 'yes'
