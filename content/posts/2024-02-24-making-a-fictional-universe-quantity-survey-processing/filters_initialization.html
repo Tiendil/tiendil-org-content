@@ -293,6 +293,7 @@
                           filters: [['core', 'agencySizeRelativlyBig', 'competitorsAlot']]},];
 
  /* Unity with heuristics
+    - we analyze only fans of strategy games (core & hard players in strategies)
     - we do not interested in casual players, because they are smallest group and generally do not part of the core community
     - we targe core audience (it is the biggest) and try to take hardcore players as well (they are bigger than casual and often make a core of the community) => it is a good idea to unite core & hard groups with the same mechanics
     - => we unite "hard+small+few" and "core+small+few". They are biggest groyps in hard and core categories, have common preferences
@@ -367,7 +368,14 @@
    }
 
    // collect statistics
-   fullData.forEach(row => {
+
+   const data = fullData.filter(row => {
+     // filter only fans of strategy games
+     return (filters['playingStrategiesHardcore'].filter(row) ||
+             filters['playingStrategiesCore'].filter(row));
+   });
+
+   data.forEach(row => {
      const key = [];
 
      const foundGroups = [];
