@@ -378,10 +378,15 @@ const filters = {
         filter: (row) => true
     },
     'gameIteration1': {
-        name: 'Game: iteration 1',
-        filter: (row) => {
-            if (!(filters['hard'].filter(row) || filters['core'].filter(row))) {
-                return false;
+      name: 'Game: iteration 1',
+      filter: (row) => {
+        if (!(filters['playingStrategiesHardcore'].filter(row) ||
+              filters['playingStrategiesCore'].filter(row))) {
+          return false;
+        }
+
+          if (!(filters['hard'].filter(row) || filters['core'].filter(row))) {
+            return false;
             }
 
             if (!filters['agencySizeRelativlySmall'].filter(row)) {
@@ -395,11 +400,57 @@ const filters = {
             return true;
         }
     },
-    'male': {
-        name: 'Male',
-        filter: (row) => row['q_gender'] === 'male'
+    'gameIteration2': {
+        name: 'Game: iteration 2',
+      filter: (row) => {
+        if (!(filters['playingStrategiesHardcore'].filter(row) ||
+              filters['playingStrategiesCore'].filter(row))) {
+          return false;
+        }
+
+        if (!(filters['hard'].filter(row) || filters['core'].filter(row))) {
+          return false;
+          }
+
+          if (!(filters['agencySizeRelativlySmall'].filter(row) || filters['agencySizeRelativlyBig'].filter(row))) {
+            return false
+          }
+
+          if (!filters['competitorsFew'].filter(row)) {
+            return false;
+          }
+
+          return true;
+        }
     },
-    'female': {
+    'gameIteration3': {
+        name: 'Game: iteration 3',
+      filter: (row) => {
+        if (!(filters['playingStrategiesHardcore'].filter(row) ||
+              filters['playingStrategiesCore'].filter(row))) {
+          return false;
+        }
+
+        if (!(filters['hard'].filter(row) || filters['core'].filter(row))) {
+          return false;
+          }
+
+          if (!(filters['agencySizeRelativlySmall'].filter(row) || filters['agencySizeRelativlyBig'].filter(row))) {
+            return false
+          }
+
+          if (!(filters['competitorsFew'].filter(row) || filters['competitorsAlot'].filter(row))) {
+            return false;
+          }
+
+          return true;
+        }
+    },
+   'male': {
+     name: 'Male',
+     filter: (row) => row['q_gender'] === 'male'
+   },
+   'female': {
         name: 'Female',
         filter: (row) => row['q_gender'] === 'female'
     },
