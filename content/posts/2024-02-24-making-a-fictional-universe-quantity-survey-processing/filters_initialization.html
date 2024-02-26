@@ -272,86 +272,120 @@
    container.appendChild(table);
  }
 
- function tableFinalGroups(selector) {
-   const dimensions = [['hard', 'core', 'casual'],
-                       ['agencySizeRelativlySmall', 'agencySizeRelativlyBig'],
-                       ['competitorsFew', 'competitorsAlot']];
+ /* Unity with heuristics
+    - we do not interested in casual players, because they are smallest group and generally do not part of the core community
+    - we targe core audience (it is the biggest) and try to take hardcore players as well (they are bigger than casual and often make a core of the community) => it is a good idea to unite core & hard groups with the same mechanics
+    - => we unite "hard+small+few" and "core+small+few". They are biggest groyps in hard and core categories, have common preferences
+    - => second polus is "hard+big+alot" and "core+big+alot". They have good correlation on mechanics, but not ideal correlation on the world style and plot style. But I think it is artifact of the small sample size.
+  */
+ const finalGroups = [{name: '(core|hard)+small+few',
+                       filters: [['hard', 'agencySizeRelativlySmall', 'competitorsFew'],
+                                 ['core', 'agencySizeRelativlySmall', 'competitorsFew']]},
+                      {name: 'hard+small+alot',
+                       filters: [['hard', 'agencySizeRelativlySmall', 'competitorsAlot']]},
+                      {name: 'hard+big+few',
+                       filters: [['hard', 'agencySizeRelativlyBig', 'competitorsFew']]},
+                      {name: '(core|hard)+big+alot',
+                       filters: [['hard', 'agencySizeRelativlyBig', 'competitorsAlot'],
+                                 ['core', 'agencySizeRelativlyBig', 'competitorsAlot']]},
+                      {name: 'core+small+alot',
+                       filters: [['core', 'agencySizeRelativlySmall', 'competitorsAlot']]},
+                      {name: 'core+big+few',
+                       filters: [['core', 'agencySizeRelativlyBig', 'competitorsFew']]}];
 
-   const groups = {};
+ function isFinalGroupSuitable(group, row) {
+   for (let filtersSet of group.filters) {
+     let found = true;
 
-   // initialize storage
-
-   for (let effort of dimensions[0]) {
-     for (let agencySize of dimensions[1]) {
-       for (let competitors of dimensions[2]) {
-         groups[`${effort}-${agencySize}-${competitors}`] = {
-           total: 0,
-           dimensions: {
-             effort: effort,
-             agencySize: agencySize,
-             competitors: competitors
-           },
-           plotStyle: {},
-           worldStyle: {}
-         }
+     for (let filterKey of filtersSet) {
+       if (!filters[filterKey].filter(row)) {
+         found = false;
+         break;
        }
      }
+
+     if (found) {
+       return true;
+     }
+   }
+
+   return false;
+ }
+
+ function tableFinalGroups(selector) {
+
+   for (let group of finalGroups) {
+     group.total = 0;
+     group.plotStyle = {};
+     group.worldStyle = {};
+     group.likeInGames = {};
    }
 
    // collect statistics
    fullData.forEach(row => {
      const key = [];
 
-     for (let dimension of dimensions) {
-       for (let filterKey of dimension) {
-         if (filters[filterKey].filter(row)) {
-           key.push(filterKey);
-           break;
-         }
+     const foundGroups = [];
+
+     for (let group of finalGroups) {
+       if (!isFinalGroupSuitable(group, row)) {
+         continue;
        }
+
+       foundGroups.push(group);
      }
 
-     const groupKey = key.join('-');
-
-     if (!(groupKey in groups)) {
+     if (foundGroups.length == 0) {
+       /* console.log(foundGroups.length, row['m_effort'], row['q_max_agency_size'], row['q_concurrent_agencies']);
+        * console.error('There should be exactly one suitable group'); */
        return;
      }
 
-     groups[groupKey].total += 1;
+     for (let group of foundGroups) {
 
-     for (let key in row) {
+       group.total += 1;
 
-       if (row[key] != 1) {
-         continue;
-       }
+       for (let key in row) {
 
-       if (!key.includes('#')) {
-         continue;
-       }
-
-       const parts = key.split('#');
-
-       const question = parts[0];
-       const value = parts[1];
-
-       const group = groups[groupKey];
-
-       if (question == 'q_plot_style') {
-         if (!(value in group.plotStyle)) {
-           group.plotStyle[value] = 0;
+         if (row[key] != 1) {
+           continue;
          }
-         group.plotStyle[value] += 1;
-       }
 
-       if (question == 'q_world_style') {
-         if (!(value in group.worldStyle)) {
-           group.worldStyle[value] = 0;
+         if (!key.includes('#')) {
+           continue;
          }
-         group.worldStyle[value] += 1;
+
+         const parts = key.split('#');
+
+         const question = parts[0];
+         const value = parts[1];
+
+         /* if (value == null || value == 'null' || value == '') {
+          *   continue;
+          * } */
+
+         if (question == 'q_plot_style') {
+           if (!(value in group.plotStyle)) {
+             group.plotStyle[value] = 0;
+           }
+           group.plotStyle[value] += 1;
+         }
+
+         if (question == 'q_world_style') {
+           if (!(value in group.worldStyle)) {
+             group.worldStyle[value] = 0;
+           }
+           group.worldStyle[value] += 1;
+         }
+
+         if (question == 'q_like_in_games') {
+           if (!(value in group.likeInGames)) {
+             group.likeInGames[value] = 0;
+           }
+           group.likeInGames[value] += 1;
+         }
        }
      }
-
-     groups[groupKey].plotStyle
    });
 
    // format data
@@ -376,22 +410,14 @@
       return result;
    }
 
-   const n = 5;
+   const n = 7;
 
-   for (let effort of dimensions[0]) {
-     for (let agencySize of dimensions[1]) {
-       for (let competitors of dimensions[2]) {
-         const groupKey = `${effort}-${agencySize}-${competitors}`;
-         const group = groups[groupKey];
-
-         table.push([effort,
-                     agencySize,
-                     competitors,
-                     group.total,
-                     selectTopN(group.worldStyle, n),
-                     selectTopN(group.plotStyle, n)]);
-       }
-     }
+   for (let group of finalGroups) {
+     table.push([group.name,
+                 group.total,
+                 selectTopN(group.likeInGames, n),
+                 selectTopN(group.worldStyle, n),
+                 selectTopN(group.plotStyle, n)]);
    }
 
    function transpose(array) {
@@ -405,7 +431,7 @@
    }
 
    renderTable(selector,
-               ['effort', 'agency size', 'competitors', 'size', 'world style', 'plot style'],
+               ['name', 'size', 'like in games', 'world style', 'plot style'],
                table);
  }
 
