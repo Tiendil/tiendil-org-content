@@ -913,53 +913,50 @@ function heatmapPlot(selector) {
 
         const minAllowedColumnSize = 10;
 
+        const normZ = [];
+
         // norm z on column sizes
         for (let i in questions[yDimension].values) {
+            const row = [];
+            normZ.push(row);
+
             for (let j in questions[xDimension].values) {
 
                 if (xDimension == yDimension && i == j) {
-                    z[i][j] = 0;
+                    row.push(0);
                 }
 
                 else if (columnSizes[j] != null && columnSizes[j] >= minAllowedColumnSize ) {
-                    z[i][j] /= columnSizes[j];
+                    row.push(z[i][j] / columnSizes[j]);
                 }
                 else {
-                    z[i][j] = null;
+                    row.push(null);
                 }
             }
         }
 
+        const text = [];
+
+        for ( var i = 0; i < questions[yDimension].values.length; i++ ) {
+            text.push([]);
+            for ( var j = 0; j < questions[xDimension].values.length; j++ ) {
+                text[i].push(`${(normZ[i][j]*100).toFixed(2)}% count: ${z[i][j]} / ${columnSizes[j]}`);
+            }
+        }
+
+
         var data = [
             {
-                z: z,
+                z: normZ,
                 x: questions[xDimension].values,
                 y: questions[yDimension].values,
+                text: text,
                 type: 'heatmap'
             }
         ];
 
-        const annotations = [];
-
-        for ( var i = 0; i < questions[yDimension].values.length; i++ ) {
-            for ( var j = 0; j < questions[yDimension].values.length; j++ ) {
-                var currentValue = z[i][j];
-
-                var result = {
-                    xref: 'x1',
-                    yref: 'y1',
-                    x: questions[xDimension].values[j],
-                    y: questions[yDimension].values[i],
-                    text: z[i][j],
-                    showarrow: false,
-                };
-                annotations.push(result);
-            }
-        }
-
         var layout = {
             barmode: 'group',
-            // annotations: annotations,
             plot_bgcolor: "black",
             xaxis: {
                 dtick: 1,
