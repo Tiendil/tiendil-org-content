@@ -401,8 +401,8 @@ const filters = {
         filter: (row) => row['q_play_strategy_games'] >= 7 && row['q_play_strategy_games'] <= 8
     },
     'playingStrategiesCasual': {
-        name: 'Playing strategies: casual [4..6]',
-        filter: (row) => row['q_play_strategy_games'] >= 4 && row['q_play_strategy_games'] <= 6
+        name: 'Playing strategies: casual [1..6]',
+        filter: (row) => row['q_play_strategy_games'] <= 6
     },
     'effortInGamesHardcore': {
         name: 'Effort in games: hard [9..10]',
@@ -416,17 +416,17 @@ const filters = {
         name: 'Effort in games: casual [1..6]',
         filter: (row) => row['q_playing_effort'] <= 6
     },
-    'likeRPGElementsAlot': {
-        name: 'Like RPG elements: a lot',
-        filter: (row) => row['q_rpg_elements'] >= 8
+    'likeRPGElementsHardcore': {
+        name: 'Like RPG: hardcore [9..10]',
+        filter: (row) => row['q_rpg_elements'] >= 9
     },
-    'likeRPGElementsSome': {
-        name: 'Like RPG elements: some',
-        filter: (row) => row['q_rpg_elements'] >= 5 && row['q_rpg_elements'] <= 7
+    'likeRPGElementsCore': {
+        name: 'Like RPG: core [7..8]',
+        filter: (row) => row['q_rpg_elements'] >= 7 && row['q_rpg_elements'] <= 8
     },
-    'likeRPGElementsNo': {
-        name: 'Like RPG elements: no',
-        filter: (row) => row['q_rpg_elements'] <= 4
+    'likeRPGElementsCasual': {
+        name: 'Like RPG: casual [1..6]',
+        filter: (row) => row['q_rpg_elements'] <= 6
     },
     'multipleChannelsImportant': {
         name: 'Multiple channels: important',
@@ -519,9 +519,9 @@ const filters = {
 };
 
 // for (let i = 0; i < 11; i++) {
-//     filters['playingStrategies' + i] = {
-//         name: 'Playing strategies: ' + i,
-//         filter: (row) => row['q_play_strategy_games'] === i
+//     filters['rpgElements' + i] = {
+//         name: 'Like RPG elements: ' + i.toString(),
+//         filter: (row) => row['q_rpg_elements'] === i
 //     };
 // }
 
