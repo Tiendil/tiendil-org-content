@@ -409,34 +409,18 @@ TODO: only first filter works here
 #### Абсолютная
 
 ---8<--- "./filter_selectors.html"
+---8<--- "./heatmap_filter_selectors.html"
 
 TODO: describe selectors
-
-<!-- TODO: add id or name attributes -->
-<div class="plot-heatmap-filters-group">
-    <select class="plot-heatmap-filter plot-heatmap-filter-a" onchange="selectHeatmapFilterA(this.value)">
-    </select>
-
-    <select class="plot-heatmap-filter plot-heatmap-filter-b" onchange="selectHeatmapFilterB(this.value)">
-    </select>
-</div>
 
 <div id="plot-heatmap-absolute"></div>
 
 #### Нормированная на количество в колонке
 
 ---8<--- "./filter_selectors.html"
+---8<--- "./heatmap_filter_selectors.html"
 
 TODO: describe selectors
-
-<!-- TODO: add id or name attributes -->
-<div class="plot-heatmap-filters-group">
-    <select class="plot-heatmap-filter plot-heatmap-filter-a" onchange="selectHeatmapFilterA(this.value)">
-    </select>
-
-    <select class="plot-heatmap-filter plot-heatmap-filter-b" onchange="selectHeatmapFilterB(this.value)">
-    </select>
-</div>
 
 <div id="plot-heatmap-norm"></div>
 
