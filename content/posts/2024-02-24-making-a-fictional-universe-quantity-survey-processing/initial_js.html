@@ -1,6 +1,5 @@
 <!-- TODO: move to brigid config? -->
 <!-- TODO: if moved, how to turn on optionally? -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
 
@@ -236,11 +235,7 @@ const newsChannelsTypes = [{id: 'augmented_reality',
                             predicate: (row) => row['q_channels#youtube'] == 1}];
 
 
-const shadesOfGenreGroups = [{id: 'action',
-                              name: 'Action',
-                              addToFilter: true,
-                              predicate: (row) => row['q_plot_style#action'] == 1},
-                             {id: 'adventure',
+const shadesOfGenreGroups = [{id: 'adventure',
                               name: 'Adventure',
                               addToFilter: true,
                               predicate: (row) => row['q_plot_style#adventure'] == 1},
@@ -458,11 +453,11 @@ const filters = {
         filter: (row) => row['q_concurrent_agencies'] == 'the_more_the_better'
     },
     'agencySizeRelativlySmall': {
-        name: 'Agency size: relativly small — <= 50',
+        name: 'Agency size: ~small <= 50',
         filter: (row) => ['up_to_10', 'up_to_25', 'up_to_50', 'small_or_automanage'].includes(row['q_max_agency_size'])
     },
     'agencySizeRelativlyBig': {
-        name: 'Agency size: relativly big — > 50',
+        name: 'Agency size: ~big > 50',
         filter: (row) => ['up_to_100', 'bureaucratic_empire', 'small_or_automanage'].includes(row['q_max_agency_size'])
     },
     'budgetEffortAlot': {
@@ -571,25 +566,12 @@ for (let worldStyleId in worldStyleGroups) {
 
 var fullData = null;
 
+// TODO: choose better defaults
 var filterA = 'all';
 var filterB = 'adults (30-39)';
 
 var heatmapFilterA = 'q_world_style';
 var heatmapFilterB = 'q_plot_style';
-
-// TODO: do something with the file path
-// TODO: move to the bottom of the page?
-Papa.parse("/static/posts/making-a-fictional-universe-quantity-survey-processing/2024_02_23_cleaned_data.csv", {
-    download: true,
-    header: true,
-    dynamicTyping: true,
-    skipEmptyLines: true,
-    complete: function(results) {
-        fullData = results.data;
-        document.dispatchEvent(redrawPlots);
-    }
-});
-
 
 function groupMapper(groups) {
     return function(row) {
@@ -613,8 +595,7 @@ function groupIds(groups) {
     });
 }
 
-function getPlotData(data, filter, map, uniqueValues) {
-    var filteredData = data.filter(filter);
+function getPlotData(filteredData, map, uniqueValues) {
     var mappedData = filteredData.map(map);
 
     // if mappedData contains multiple groups per row, flatten it
@@ -683,8 +664,8 @@ function barPlot(selector, map, barsOrder) {
             return;
         }
 
-        const dataA = getPlotData(fullData, filters[filterA].filter, map, barsOrder);
-        const dataB = getPlotData(fullData, filters[filterB].filter, map, barsOrder);
+        const dataA = getPlotData(filters[filterA].values, map, barsOrder);
+        const dataB = getPlotData(filters[filterB].values, map, barsOrder);
 
         function toText(percents, counts) {
             return percents.map((x, i) => x.toString() + '% count: ' + counts[i].toString());
@@ -748,8 +729,8 @@ function scatterpolarPlot(selector, mode) {
             return;
         }
 
-        const dataA = fullData.filter(filters[filterA].filter);
-        const dataB = fullData.filter(filters[filterB].filter);
+        const dataA = filters[filterA].values;
+        const dataB = filters[filterB].values;
 
         const theta = ['q_age',
                        'q_play_strategy_games',

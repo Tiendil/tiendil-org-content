@@ -442,7 +442,7 @@ function heatmapPlot(selector) {
             return;
         }
 
-        const dataA = fullData.filter(filters[filterA].filter);
+        const dataA = filters[filterA].values;
 
         xDimension = heatmapFilterA;
         yDimension = heatmapFilterB;
@@ -624,4 +624,5 @@ heatmapPlot('plot-heatmap');
 
 <!-- footer -->
 
+---8<--- "./csv_data.html"
 ---8<--- "./filters_initialization.html"

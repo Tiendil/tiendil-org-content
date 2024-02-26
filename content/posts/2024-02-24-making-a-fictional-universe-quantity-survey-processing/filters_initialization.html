@@ -1,4 +1,28 @@
 <script type="text/javascript">
+
+ // parse raw data into objects
+ headers = rawData[0];
+ fullData = [];
+
+ for (let i = 1; i < rawData.length; i++) {
+   let row = rawData[i];
+   let obj = {};
+
+   for (let j = 0; j < headers.length; j++) {
+     obj[headers[j]] = row[j];
+   }
+
+   fullData.push(obj);
+ }
+
+ function applyFilters() {
+   for (var key in filters) {
+     filters[key].values = fullData.filter(filters[key].filter);
+   }
+ }
+
+ applyFilters();
+
  function fillFilters() {
    var index = 0;
 
@@ -13,7 +37,7 @@
      for (var key in filters) {
        var option = document.createElement('option');
        option.value = key;
-       option.text = filters[key].name;
+       option.text = `${filters[key].name} [size: ${filters[key].values.length}]`;
        select.appendChild(option);
      }
    }
