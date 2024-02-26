@@ -158,6 +158,8 @@ barPlot('plot-play-strategies', mapPlayStrategies, [1, 2, 3, 4, 5, 6, 7, 8, 9, 1
 
 ### В какие стратегии играете
 
+TODO: tactics мало, т.к. она был в others только
+
 ---8<--- "./filter_selectors.html"
 
 <div id="plot-strategy-games"></div>
@@ -398,19 +400,13 @@ scatterpolarPlot('plot-radar-median', 'median');
 scatterpolarPlot('plot-radar-average', 'median');
 </script>
 
-### Тепловая карта
-
-TODO: WE NEED TWO HEATMAPS, что-то удобно смотреть на ненормированной мапе, что-то — на нормированной?
-
-TODO: data skipped for columns with less than 10 records
-
-TODO: this heatmap may be wrong or missinterpreted
+### Тепловые карты
 
 TODO: age is missed here
 
-TODO: normed on number records with sign from column
-
 TODO: only first filter works here
+
+#### Абсолютная
 
 ---8<--- "./filter_selectors.html"
 
@@ -425,10 +421,28 @@ TODO: describe selectors
     </select>
 </div>
 
-<div id="plot-heatmap"></div>
+<div id="plot-heatmap-absolute"></div>
+
+#### Нормированная на количество в колонке
+
+---8<--- "./filter_selectors.html"
+
+TODO: describe selectors
+
+<!-- TODO: add id or name attributes -->
+<div class="plot-heatmap-filters-group">
+    <select class="plot-heatmap-filter plot-heatmap-filter-a" onchange="selectHeatmapFilterA(this.value)">
+    </select>
+
+    <select class="plot-heatmap-filter plot-heatmap-filter-b" onchange="selectHeatmapFilterB(this.value)">
+    </select>
+</div>
+
+<div id="plot-heatmap-norm"></div>
 
 <script type="text/javascript">
-heatmapPlot('plot-heatmap');
+heatmapPlot('plot-heatmap-absolute', 'absolute');
+heatmapPlot('plot-heatmap-norm', 'norm');
 </script>
 
 

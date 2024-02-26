@@ -826,7 +826,7 @@ function scatterpolarPlot(selector, mode) {
 }
 
 
-function heatmapPlot(selector) {
+function heatmapPlot(selector, kind) {
     document.addEventListener('redrawPlots', (e) => {
 
         if (fullData === null) {
@@ -944,10 +944,18 @@ function heatmapPlot(selector) {
             }
         }
 
+        var zData = null;
+
+        if (kind === 'norm') {
+            zData = normZ;
+        } else {
+            zData = z;
+        }
+
 
         var data = [
             {
-                z: normZ,
+                z: zData,
                 x: questions[xDimension].values,
                 y: questions[yDimension].values,
                 text: text,
@@ -965,13 +973,6 @@ function heatmapPlot(selector) {
             yaxis: {
                 dtick: 1,
                 title: yDimension
-            },
-            legend: {
-                orientation: 'h',
-                x: 0.5, // Centers the legend horizontally
-                xanchor: 'center', // Uses the center of the legend as the anchor point
-                y: 1.1, // Positions the legend above the chart
-                yanchor: 'bottom' // Uses the bottom of the legend to position it relative to the chart
             }
         };
 
