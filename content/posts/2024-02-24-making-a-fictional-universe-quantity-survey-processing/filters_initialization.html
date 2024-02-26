@@ -1,8 +1,14 @@
 <script type="text/javascript">
  function fillFilters() {
+   var index = 0;
+
    var selects = document.querySelectorAll('.plot-filter');
 
    for (var select of selects) {
+
+     // set id for select
+     select.id = 'plot-filter-' + index;
+     index++;
 
      for (var key in filters) {
        var option = document.createElement('option');
@@ -95,9 +101,14 @@
  const heatmapQuestions = collectQuestionsVariants();
 
  function fillHeatmapFilters() {
+   var index = 0;
+
    var selects = document.querySelectorAll('.plot-heatmap-filter');
 
    for (var select of selects) {
+
+     select.id = 'plot-heatmap-filter-' + index;
+     index++;
 
      for (var key in heatmapQuestions) {
        var option = document.createElement('option');
