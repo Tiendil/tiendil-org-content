@@ -496,38 +496,32 @@ const filters = {
         name: 'Relationships effort: casual [1..6]',
         filter: (row) => row['q_relationships_effort'] <= 6
     },
-    'officeEffortAlot': {
-        name: 'Office effort: a lot',
-        filter: (row) => row['q_office_effort'] >= 8
+    'officeEffortHardcore': {
+        name: 'Office effort: hard [9..10]',
+        filter: (row) => row['q_office_effort'] >= 9
     },
-    'officeEffortSome': {
-        name: 'Office effort: some',
-        filter: (row) => row['q_office_effort'] >= 5 && row['q_office_effort'] <= 7
+    'officeEffortCore': {
+        name: 'Office effort: core [7..8]',
+        filter: (row) => row['q_office_effort'] >= 7 && row['q_office_effort'] <= 8
     },
-    'officeEffortNo': {
-        name: 'Office effort: no',
-        filter: (row) => row['q_office_effort'] <= 4
+    'officeEffortCasual': {
+        name: 'Office effort: casual [1..6]',
+        filter: (row) => row['q_office_effort'] <= 6
     },
-    'moralComplexityAlot': {
-        name: 'Moral complexity: a lot',
-        filter: (row) => row['q_morale_complexity'] >= 8
+    'moralComplexityHardcore': {
+        name: 'Moral complexity: hard [9..10]',
+        filter: (row) => row['q_morale_complexity'] >= 9
     },
-    'moralComplexitySome': {
-        name: 'Moral complexity: some',
-        filter: (row) => row['q_morale_complexity'] >= 5 && row['q_morale_complexity'] <= 7
+    'moralComplexityCore': {
+        name: 'Moral complexity: core [7..8]',
+        filter: (row) => row['q_morale_complexity'] >= 7 && row['q_morale_complexity'] <= 8
     },
-    'moralComplexityNo': {
-        name: 'Moral complexity: no',
-        filter: (row) => row['q_morale_complexity'] <= 4
+    'moralComplexityCasual': {
+        name: 'Moral complexity: casual [1..6]',
+        filter: (row) => row['q_morale_complexity'] <= 6
     },
 };
 
-// for (let i = 0; i < 11; i++) {
-//     filters['rpgElements' + i] = {
-//         name: 'Like RPG elements: ' + i.toString(),
-//         filter: (row) => row['q_rpg_elements'] === i
-//     };
-// }
 
 for (let ageId in ageGroups) {
     let ageGroup = ageGroups[ageId];
