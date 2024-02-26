@@ -393,20 +393,20 @@ const filters = {
         filter: (row) => row['q_play_strategy_games'] >= 7 && row['q_play_strategy_games'] <= 8
     },
     'playingStrategiesCasual': {
-        name: 'Playing strategies: casual [5..6]',
-        filter: (row) => row['q_play_strategy_games'] >= 5 && row['q_play_strategy_games'] <= 6
+        name: 'Playing strategies: casual [4..6]',
+        filter: (row) => row['q_play_strategy_games'] >= 4 && row['q_play_strategy_games'] <= 6
     },
-    'effortInGamesAlot': {
-        name: 'Effort in games: a lot',
-        filter: (row) => row['q_playing_effort'] >= 8
+    'effortInGamesHardcore': {
+        name: 'Effort in games: hard [9..10]',
+        filter: (row) => row['q_playing_effort'] >= 9
     },
-    'effortInGamesSome': {
-        name: 'Effort in games: some',
-        filter: (row) => row['q_playing_effort'] >= 5 && row['q_playing_effort'] <= 7
+    'effortInGamesCore': {
+        name: 'Effort in games: core [7..8]',
+        filter: (row) => row['q_playing_effort'] >= 7 && row['q_playing_effort'] <= 8
     },
-    'effortInGamesNo': {
-        name: 'Effort in games: no',
-        filter: (row) => row['q_playing_effort'] <= 4
+    'effortInGamesCasual': {
+        name: 'Effort in games: casual [1..6]',
+        filter: (row) => row['q_playing_effort'] <= 6
     },
     'likeRPGElementsAlot': {
         name: 'Like RPG elements: a lot',
