@@ -15,6 +15,7 @@ seo_image = ""  # туду
 <!-- TODO: переформулировать заголовки в более конкретные -->
 <!-- TODO: перевод названий груп -->
 <!-- TODO: данных откровенно мало. Их хватает, чтобы видеть общие закономерности, но смотреть глубоко не получается. -->
+<!-- Казуальные группы объедены с «не интересуюсь», т.к. во второй вообще не набирается выборка, а казуальные группы малы. -->
 
 Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro Bla-bla-bla some intro
 

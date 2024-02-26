@@ -429,16 +429,16 @@ const filters = {
         filter: (row) => row['q_rpg_elements'] <= 6
     },
     'multipleChannelsImportant': {
-        name: 'Multiple channels: important',
-        filter: (row) => row['q_multiple_channels_esential'] >= 8
+        name: 'Channels: important [9..10]',
+        filter: (row) => row['q_multiple_channels_esential'] >= 9
     },
     'multipleChannelsWillBeGood': {
-        name: 'Multiple channels: will be good',
-        filter: (row) => row['q_multiple_channels_esential'] >= 5 && row['q_multiple_channels_esential'] <= 7
+        name: 'Channels: will be good [7..8]',
+        filter: (row) => row['q_multiple_channels_esential'] >= 7 && row['q_multiple_channels_esential'] <= 8
     },
     'multipleChannelsNotImportant': {
-        name: 'Multiple channels: not important',
-        filter: (row) => row['q_multiple_channels_esential'] <= 4
+        name: 'Channels: not important [1..6]',
+        filter: (row) => row['q_multiple_channels_esential'] <= 6
     },
     'journalismRealimsFull': {
         name: 'Journalism realism: full',
