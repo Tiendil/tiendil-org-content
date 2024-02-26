@@ -484,17 +484,17 @@ const filters = {
         name: 'Budget effort: hyper casual [1..4]',
         filter: (row) => row['q_budget_effort'] <= 4
     },
-    'relationshipsEffortAlot': {
-        name: 'Relationships effort: a lot',
-        filter: (row) => row['q_relationships_effort'] >= 8
+    'relationshipsEffortHardcore': {
+        name: 'Relationships effort: hard [9..10]',
+        filter: (row) => row['q_relationships_effort'] >= 9
     },
-    'relationshipsEffortSome': {
-        name: 'Relationships effort: some',
-        filter: (row) => row['q_relationships_effort'] >= 5 && row['q_relationships_effort'] <= 7
+    'relationshipsEffortCore': {
+        name: 'Relationships effort: core [7..8]',
+        filter: (row) => row['q_relationships_effort'] >= 7 && row['q_relationships_effort'] <= 8
     },
-    'relationshipsEffortNo': {
-        name: 'Relationships effort: no',
-        filter: (row) => row['q_relationships_effort'] <= 4
+    'relationshipsEffortCasual': {
+        name: 'Relationships effort: casual [1..6]',
+        filter: (row) => row['q_relationships_effort'] <= 6
     },
     'officeEffortAlot': {
         name: 'Office effort: a lot',
