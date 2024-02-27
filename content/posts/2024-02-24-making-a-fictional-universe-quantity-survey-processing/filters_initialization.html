@@ -493,4 +493,64 @@
  tableFinalGroups('#table-final-groups-basic', finalGroupsBasic);
  tableFinalGroups('#table-final-groups-iterations', finalGroupsIterations);
 
+ function collectSlicePictures(data) {
+
+   const slices = ['q_like_in_games', 'q_plot_style', 'q_world_style'];
+   /* const slices = ['q_like_in_games', 'q_plot_style', 'q_world_style']; */
+
+   groups = {};
+
+   data.forEach(row => {
+     const values = {};
+
+     for (let key in row) {
+       for (let slice of slices) {
+         if (!key.startsWith(slice)) {
+           continue;
+         }
+
+         if (row[key] != 1) {
+           continue;
+         }
+
+         const parts = key.split('#');
+
+         if (!(slice in values)) {
+           values[slice] = [];
+         }
+
+         values[slice].push(parts[1]);
+       }
+     }
+
+     for (let likes of values['q_like_in_games']) {
+       for (let plot of values['q_plot_style']) {
+         for (let world of values['q_world_style']) {
+           const key = `${likes}#${plot}#${world}`;
+
+           if (!(key in groups)) {
+             groups[key] = {total: 0,
+                            likes: likes,
+                            plot: plot,
+                            world: world};
+           }
+
+           groups[key].total += 1;
+         }
+       }
+     }
+   });
+
+   //sort groups by total
+   const sorted = Object.keys(groups).sort((a, b) => groups[b].total - groups[a].total);
+
+   const result = sorted.map(key => groups[key]);
+
+   console.log(result);
+
+   /* return result; */
+ }
+
+ collectSlicePictures(fullData.filter(filters['gameIteration1'].filter));
+
 </script>
