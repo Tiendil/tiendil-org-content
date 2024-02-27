@@ -10,7 +10,16 @@ const redrawPlots = new CustomEvent('redrawPlots', {
     detail: {
         message: "redraw plots",
     }
-});
+ });
+
+function T(text) {
+   if (!(text in translations)) {
+       console.error('Unknown translation:', text);
+     return text;
+   }
+
+   return translations[text];
+}
 
 // TODO: translate
 const metaEffortGroups = [{id: 'hard',
@@ -447,11 +456,11 @@ const filters = {
         }
     },
    'male': {
-     name: 'Male',
+     name: 'Gender: Male',
      filter: (row) => row['q_gender'] === 'male'
    },
    'female': {
-        name: 'Female',
+        name: 'Gender: Female',
         filter: (row) => row['q_gender'] === 'female'
     },
     'gameDevelopers': {
@@ -693,7 +702,13 @@ for (let worldStyleId in worldStyleGroups) {
     }
     filters[worldStyleGroup.id] = {name: 'World style: ' + worldStyleGroup.name,
                                    filter: worldStyleGroup.predicate};
-}
+ }
+
+ // translate filters
+ for (let filterId in filters) {
+   let filter = filters[filterId];
+   filter.name = T(filter.name);
+ }
 
 var fullData = null;
 
