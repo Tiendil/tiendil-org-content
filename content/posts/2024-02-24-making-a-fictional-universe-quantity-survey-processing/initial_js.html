@@ -814,11 +814,11 @@ function barPlot(selector, map, barsOrder) {
         const dataB = getPlotData(filters[filterB].values, map, barsOrder);
 
         function toText(percents, counts) {
-            return percents.map((x, i) => x.toString() + '% count: ' + counts[i].toString());
+            return percents.map((x, i) => x.toString() + ' ' + T('% count:') + ' ' + counts[i].toString());
         }
 
         data = [{
-            'x': dataA.values,
+            'x': dataA.values.map(T),
             'y': dataA.percents,
             'textposition': "none",
             'text': toText(dataA.percents, dataA.counts),
@@ -826,7 +826,7 @@ function barPlot(selector, map, barsOrder) {
             'name': filters[filterA].name,
             'type': 'bar'
         },{
-            'x': dataB.values,
+            'x': dataB.values.map(T),
             'y': dataB.percents,
             'textposition': "none",
             'text': toText(dataB.percents, dataB.counts),
@@ -841,7 +841,7 @@ function barPlot(selector, map, barsOrder) {
                 dtick: 1
             },
             yaxis: {
-                title: 'percent'
+                title: T('percents')
             },
             legend: {
                 orientation: 'h',
