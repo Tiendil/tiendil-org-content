@@ -1,5 +1,16 @@
 <script type="text/javascript">
 
+ function transpose(array) {
+   // Check if the input array is empty
+   if(array.length === 0) {
+     return [];
+   }
+
+   // Transpose the array
+   return array[0].map((_, colIndex) => array.map(row => row[colIndex]));
+ }
+
+
  // parse raw data into objects
  headers = rawData[0];
  fullData = [];
@@ -473,16 +484,6 @@
                  selectTopN(group.plotStyle, n)]);
    }
 
-   function transpose(array) {
-     // Check if the input array is empty
-     if(array.length === 0) {
-       return [];
-     }
-
-     // Transpose the array
-     return array[0].map((_, colIndex) => array.map(row => row[colIndex]));
-   }
-
    renderTable(selector,
                ['name', 'size', 'like in games', 'world style', 'plot style'],
                table);
@@ -493,7 +494,7 @@
  tableFinalGroups('#table-final-groups-basic', finalGroupsBasic);
  tableFinalGroups('#table-final-groups-iterations', finalGroupsIterations);
 
- function collectSlicePictures(data) {
+ function tableGroupSlices(selector, data) {
 
    const slices = ['q_like_in_games', 'q_plot_style', 'q_world_style'];
    /* const slices = ['q_like_in_games', 'q_plot_style', 'q_world_style']; */
@@ -546,11 +547,65 @@
 
    const result = sorted.map(key => groups[key]);
 
-   console.log(result);
+   const n = 20;
 
-   /* return result; */
+   console.log(result.length);
+
+   const resultSlice = result.slice(0, n);
+
+   const table = [];
+
+   for (let group of resultSlice) {
+     table.push([group.likes, group.world, group.plot, group.total]);
+   }
+
+   renderTable(selector,
+               ['likes in game', 'world', 'plot ', 'size'],
+               table);
  }
 
- collectSlicePictures(fullData.filter(filters['gameIteration1'].filter));
+ tableGroupSlices('#table-iteration-1-slices', fullData.filter(filters['gameIteration1'].filter));
+
+ function tableGroupMetaSlice() {
+
+   const data = fullData.filter(filters['gameIteration1'].filter);
+
+   const expectedAnswers = {
+     'q_like_in_games': ['exploring', 'story', 'creating_strategies', 'roleplaying', 'changing_game_world'],
+     'q_plot_style': ['scifi', 'cyberpunk', 'noir', 'conspirology', 'urban_legends'],
+     'q_world_style': ['dark_humorous', 'dystopian', 'complex', 'realistic', 'imaginative']};
+
+   let counter = 0;
+
+   data.forEach(row => {
+     const answers = {};
+
+     for (let groupId in expectedAnswers) {
+       answers[groupId] = 0;
+
+       for (let answer of expectedAnswers[groupId]) {
+         if (row[`${groupId}#${answer}`] == 1) {
+           answers[groupId] += 1;
+         }
+       }
+
+     }
+
+     const border = 2;
+
+     for (let groupId in expectedAnswers) {
+       if (answers[groupId] < border) {
+         return;
+       }
+     }
+     console.log(row);
+     counter += 1;
+   });
+
+   console.log('meta group for iteration 1 size:', counter);
+
+ }
+
+ tableGroupMetaSlice();
 
 </script>
