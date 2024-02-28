@@ -472,7 +472,7 @@
          break;
        }
 
-       result.push(`${sorted[i]}: ${styles[sorted[i]]}`);
+       result.push(`${T(sorted[i])}: ${styles[sorted[i]]}`);
      }
 
      return result;
@@ -489,7 +489,7 @@
    }
 
    renderTable(selector,
-               ['name', 'size', 'like in games', 'world style', 'plot style'],
+               [T('name'), T('size'), T('like in games'), T('world style'), T('plot style')],
                table);
  }
 
