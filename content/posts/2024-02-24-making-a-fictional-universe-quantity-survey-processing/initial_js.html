@@ -704,8 +704,13 @@ for (let shadesOfGenreId in shadesOfGenreGroups) {
                                      filter: shadesOfGenreGroup.predicate};
  }
 
-for (let shadesOfGenreId in shadesOfGenreGroups) {
-    let shadesOfGenreGroup = shadesOfGenreGroups[shadesOfGenreId];
+ filters['notAboutFuture'] = {
+   name: '* Genre: Not about future',
+   filter: (row) => row['q_plot_style#scifi'] != 1 && row['q_plot_style#cyberpunk'] != 1
+ }
+
+ for (let shadesOfGenreId in shadesOfGenreGroups) {
+        let shadesOfGenreGroup = shadesOfGenreGroups[shadesOfGenreId];
     if (!shadesOfGenreGroup.addToFilter) {
         continue;
     }
@@ -1136,7 +1141,7 @@ function heatmapPlot(selector, kind) {
         for ( var i = 0; i < questions[yDimension].values.length; i++ ) {
             text.push([]);
             for ( var j = 0; j < questions[xDimension].values.length; j++ ) {
-                text[i].push(`${(normZ[i][j]*100).toFixed(2)}% count: ${z[i][j]} / ${columnSizes[j]}`);
+                text[i].push(`${(normZ[i][j]*100).toFixed(2)}% ${T("count")}: ${z[i][j]} / ${columnSizes[j]}`);
             }
         }
 
@@ -1152,8 +1157,8 @@ function heatmapPlot(selector, kind) {
         var data = [
             {
                 z: zData,
-                x: questions[xDimension].values,
-                y: questions[yDimension].values,
+                x: questions[xDimension].values.map(T),
+                y: questions[yDimension].values.map(T),
                 text: text,
                 type: 'heatmap'
             }
