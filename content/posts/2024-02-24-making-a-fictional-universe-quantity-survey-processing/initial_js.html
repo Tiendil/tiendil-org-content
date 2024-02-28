@@ -790,7 +790,7 @@ function getPlotData(filteredData, map, uniqueValues) {
     // print error if mappedData contains item not from uniqueValues
     mappedData.forEach(function(value) {
         if (!uniqueValues.includes(value)) {
-            console.error('Value ' + value + ' not in uniqueValues');
+          console.log('Value ' + value + ' not in uniqueValues');
         }
     });
 
@@ -839,12 +839,12 @@ function barPlot(selector, map, barsOrder) {
         }
 
         if (!(filterA in filters)) {
-            console.error('Unknown filterA:', filterA);
+            console.log('Unknown filterA:', filterA);
             return;
         }
 
         if (!(filterB in filters)) {
-            console.error('Unknown filterB:', filterA);
+            console.log('Unknown filterB:', filterA);
             return;
         }
 
@@ -1090,8 +1090,9 @@ function heatmapPlot(selector, kind) {
                 }
             }
 
-            if (indexes.length == 0) {
-                console.log('something goes wrong');
+          if (indexes.length == 0) {
+            /* it is ok for some data */
+              /* console.log('something goes wrong'); */
             }
 
             return indexes;
