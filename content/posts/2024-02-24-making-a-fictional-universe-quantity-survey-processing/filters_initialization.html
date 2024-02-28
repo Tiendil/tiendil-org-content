@@ -87,7 +87,7 @@
      for (var key in filters) {
        var option = document.createElement('option');
        option.value = key;
-       option.text = `${filters[key].name} [size: ${filters[key].values.length}]`;
+       option.text = `${filters[key].name} [${T("size")}: ${filters[key].values.length}]`;
        select.appendChild(option);
      }
    }
