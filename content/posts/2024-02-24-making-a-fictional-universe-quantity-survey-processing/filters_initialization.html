@@ -165,6 +165,13 @@
        continue;
      }
 
+     if (key == 'm_effort') {
+       // separate if just to ensure correct order
+       questions[key] = {type: 'category',
+                         values: ['casual', 'core', 'hard']};
+       continue;
+     }
+
      if (['q_gender', 'q_occupation', 'q_is_game_developer', 'q_concurrent_agencies', 'q_max_agency_size'].includes(key)) {
 
        const values = [];
