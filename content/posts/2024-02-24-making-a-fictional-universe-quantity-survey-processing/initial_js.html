@@ -893,13 +893,20 @@ function scatterpolarPlot(selector, mode) {
             return data.map(row => row[column]);
         }
 
+        function fullValues(column) {
+            return fullData.map(row => row[column]);
+        }
+
         function dimensionMedian(data, column) {
             // r should containt median for each column from theta
             const r = [];
 
             for (let i = 0; i < theta.length; i++) {
                 var thetaValues = values(data, theta[i]);
-                const max = Math.max(...thetaValues);
+
+                // we should nor to the maximum from all data, not from current data
+                const max = Math.max(...fullValues(theta[i]));
+
                 thetaValues = thetaValues.map(x => x / max);
                 thetaValues.sort((a, b) => a - b);
                 r.push(thetaValues[Math.floor(thetaValues.length / 2)]);
@@ -919,10 +926,13 @@ function scatterpolarPlot(selector, mode) {
             const r = [];
 
             for (let i = 0; i < theta.length; i++) {
-                var thetaValues = values(data, theta[i]);
-                const max = Math.max(...thetaValues);
-                thetaValues = thetaValues.map(x => x / max);
-                r.push(thetaValues.reduce((a, b) => a + b, 0) / thetaValues.length);
+              var thetaValues = values(data, theta[i]);
+
+              // we should nor to the maximum from all data, not from current data
+              const max = Math.max(...fullValues(theta[i]));
+
+              thetaValues = thetaValues.map(x => x / max);
+              r.push(thetaValues.reduce((a, b) => a + b, 0) / thetaValues.length);
             }
 
             return {

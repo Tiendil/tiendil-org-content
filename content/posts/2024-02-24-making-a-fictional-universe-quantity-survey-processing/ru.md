@@ -664,7 +664,7 @@ scatterpolarPlot('plot-radar-median', 'median');
 <div id="plot-radar-average"></div>
 
 <script type="text/javascript">
-scatterpolarPlot('plot-radar-average', 'median');
+scatterpolarPlot('plot-radar-average', 'average');
 </script>
 
 ### Тепловые карты
