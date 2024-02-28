@@ -543,11 +543,11 @@
    const table = [];
 
    for (let group of resultSlice) {
-     table.push([group.likes, group.world, group.plot, group.total]);
+     table.push([T(group.likes), T(group.world), T(group.plot), group.total]);
    }
 
    renderTable(selector,
-               ['likes in game', 'world', 'plot ', 'size'],
+               [T('likes in game'), T('world'), T('plot'), T('size')],
                table);
  }
 
@@ -593,6 +593,6 @@
 
  }
 
- tableGroupMetaSlice();
+ /* tableGroupMetaSlice(); */
 
 </script>
