@@ -671,25 +671,23 @@ scatterpolarPlot('plot-radar-average', 'average');
 
 По аналогии с радарами, две тепловые карты, чтобы смотреть корреляцию
 
-TODO: age is missed here
+### Абсолютное количество респондентов
 
-TODO: only first filter works here
-
-#### Абсолютная
+Ячейка отображает количество респондентов из выборки с сочетанием выборов из колонки и строки.
 
 ---8<--- "./filter_selectors_single.html"
 ---8<--- "./heatmap_filter_selectors.html"
-
-TODO: describe selectors
 
 <div id="plot-heatmap-absolute"></div>
 
-#### Нормированная на количество в колонке
+### Доля респондентов
+
+Ячейка отображает долю респондентов из строки по отношению к количеству респондентов в колонке.
+
+Это позволяет смотреть, например, долю любителей sci-fi среди любителей разных жанров стратегий.
 
 ---8<--- "./filter_selectors_single.html"
 ---8<--- "./heatmap_filter_selectors.html"
-
-TODO: describe selectors
 
 <div id="plot-heatmap-norm"></div>
 
