@@ -675,10 +675,19 @@ for (let likeInGamesId in likeInGamesGroups) {
     }
     filters[likeInGamesGroup.id] = {name: 'Like: ' + likeInGamesGroup.name,
                                     filter: likeInGamesGroup.predicate};
-}
+ }
 
-for (let newsChannelsTypeId in newsChannelsTypes) {
-    let newsChannelsType = newsChannelsTypes[newsChannelsTypeId];
+ for (let likeInGamesId in likeInGamesGroups) {
+    let likeInGamesGroup = likeInGamesGroups[likeInGamesId];
+    if (!likeInGamesGroup.addToFilter) {
+        continue;
+    }
+   filters['not' + likeInGamesGroup.id] = {name: 'Not Like: ' + likeInGamesGroup.name,
+                                           filter: (row) => !likeInGamesGroup.predicate(row)};
+ }
+
+ for (let newsChannelsTypeId in newsChannelsTypes) {
+   let newsChannelsType = newsChannelsTypes[newsChannelsTypeId];
     if (!newsChannelsType.addToFilter) {
         continue;
     }
@@ -693,15 +702,34 @@ for (let shadesOfGenreId in shadesOfGenreGroups) {
     }
     filters[shadesOfGenreGroup.id] = {name: 'Genre: ' + shadesOfGenreGroup.name,
                                      filter: shadesOfGenreGroup.predicate};
-}
+ }
 
-for (let worldStyleId in worldStyleGroups) {
-    let worldStyleGroup = worldStyleGroups[worldStyleId];
-    if (!worldStyleGroup.addToFilter) {
+for (let shadesOfGenreId in shadesOfGenreGroups) {
+    let shadesOfGenreGroup = shadesOfGenreGroups[shadesOfGenreId];
+    if (!shadesOfGenreGroup.addToFilter) {
         continue;
     }
-    filters[worldStyleGroup.id] = {name: 'World style: ' + worldStyleGroup.name,
-                                   filter: worldStyleGroup.predicate};
+   filters['not' + shadesOfGenreGroup.id] = {name: 'Not Genre: ' + shadesOfGenreGroup.name,
+                                             filter: (row) => !shadesOfGenreGroup.predicate(row)};
+ }
+
+ for (let worldStyleId in worldStyleGroups) {
+   let worldStyleGroup = worldStyleGroups[worldStyleId];
+   if (!worldStyleGroup.addToFilter) {
+     continue;
+   }
+   filters[worldStyleGroup.id] = {name: 'World style: ' + worldStyleGroup.name,
+                                  filter: worldStyleGroup.predicate};
+ }
+
+
+ for (let worldStyleId in worldStyleGroups) {
+   let worldStyleGroup = worldStyleGroups[worldStyleId];
+   if (!worldStyleGroup.addToFilter) {
+     continue;
+   }
+   filters['not' + worldStyleGroup.id] = {name: 'Not World style: ' + worldStyleGroup.name,
+                                          filter: (row) => !worldStyleGroup.predicate(row)};
  }
 
  // translate filters
