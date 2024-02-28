@@ -387,7 +387,7 @@ const filters = {
         filter: (row) => true
     },
     'gameIteration1': {
-      name: '* Game: iteration 1',
+      name: '* Game: group 1',
       filter: (row) => {
         if (!(filters['playingStrategiesHardcore'].filter(row) ||
               filters['playingStrategiesCore'].filter(row))) {
@@ -410,7 +410,7 @@ const filters = {
         }
     },
     'gameIteration2': {
-        name: '* Game: iteration 2',
+        name: '* Game: group 2',
       filter: (row) => {
         if (!(filters['playingStrategiesHardcore'].filter(row) ||
               filters['playingStrategiesCore'].filter(row))) {
@@ -421,7 +421,7 @@ const filters = {
           return false;
           }
 
-          if (!(filters['agencySizeRelativlySmall'].filter(row) || filters['agencySizeRelativlyBig'].filter(row))) {
+          if (!filters['agencySizeRelativlyBig'].filter(row)) {
             return false
           }
 
@@ -433,7 +433,7 @@ const filters = {
         }
     },
     'gameIteration3': {
-        name: '* Game: iteration 3',
+        name: '* Game: group 3',
       filter: (row) => {
         if (!(filters['playingStrategiesHardcore'].filter(row) ||
               filters['playingStrategiesCore'].filter(row))) {
@@ -444,11 +444,11 @@ const filters = {
           return false;
           }
 
-          if (!(filters['agencySizeRelativlySmall'].filter(row) || filters['agencySizeRelativlyBig'].filter(row))) {
+          if (!filters['agencySizeRelativlyBig'].filter(row)) {
             return false
           }
 
-          if (!(filters['competitorsFew'].filter(row) || filters['competitorsAlot'].filter(row))) {
+          if (!filters['competitorsAlot'].filter(row)) {
             return false;
           }
 
