@@ -307,18 +307,6 @@
                          {name: T('core+big+alot'),
                           filters: [['core', 'agencySizeRelativlyBig', 'competitorsAlot']]},];
 
- /* Unity with heuristics
-    - we analyze only fans of strategy games (core & hard players in strategies)
-    - we do not interested in casual players, because they are smallest group and generally do not part of the core community
-    - we targe core audience (it is the biggest) and try to take hardcore players as well (they are bigger than casual and often make a core of the community) => it is a good idea to unite core & hard groups with the same mechanics
-    - => we unite "hard+small+few" and "core+small+few". They are biggest groyps in hard and core categories, have common preferences
-    - => second polus is "hard+big+alot" and "core+big+alot". They have good correlation on mechanics, but not ideal correlation on the world style and plot style. But I think it is artifact of the small sample size.
-    - Note: we do not care about of the world/plot styles takes to little part of the group (for now). After we choose the mechanics, we'll select a few style grouyps for each and this will be our target audience.
-    - => we unite "hard+big+few" and "core+big+few". They have good correlation of mechanics and world style.
-    - сочетание small+alot — парадоксально, не имеет особого смысла (это видно и по количеству респондентов, поэтому не будем считать его базовой группой. Позже, мы сможем добавить их в выборку для самого позитиваного случая (когда мы сделали игру для всех режимов).
-  */
-
-
  const finalGroupsBasic = [{name: T('(core|hard)+small+few'),
                             filters: [['hard', 'agencySizeRelativlySmall', 'competitorsFew'],
                                       ['core', 'agencySizeRelativlySmall', 'competitorsFew']]},
@@ -328,10 +316,6 @@
                            {name: T('(core|hard)+big+alot'),
                             filters: [['hard', 'agencySizeRelativlyBig', 'competitorsAlot'],
                                       ['core', 'agencySizeRelativlyBig', 'competitorsAlot']]}];
-
- /* - Следовательно, надо начинать с  '(core|hard)+small+few', наращивать функциональность через '(core|hard)+big+few' и заканчивать на '(core|hard)+big+alot' Это даже соответствует здравому смыслу.
-    - обратим внимание, что когда/если мы дойдём до последнего шага, то автоматом ключатся группы small+alot.
-  */
 
  const finalGroupsIterations = [{name: T('(core|hard)+small+few'),
                                  filters: [['hard', 'agencySizeRelativlySmall', 'competitorsFew'],
@@ -501,7 +485,6 @@
  function tableGroupSlices(selector, data) {
 
    const slices = ['q_like_in_games', 'q_plot_style', 'q_world_style'];
-   /* const slices = ['q_like_in_games', 'q_plot_style', 'q_world_style']; */
 
    groups = {};
 

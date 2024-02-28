@@ -498,10 +498,15 @@ const filters = {
         filter: (row) => row['q_play_strategy_games'] <= 6,
         metaGroupPoints: {'m_casual': 1}
     },
-    'effortInGamesHardcore': {
-        name: 'Effort in games: hard [9..10]',
-        filter: (row) => row['q_playing_effort'] >= 9,
-        metaGroupPoints: {'m_hard': 1}
+   'playingStrategiesActivly': {
+     name: 'Playing strategies activly [7..10]',
+     filter: (row) => row['q_play_strategy_games'] >= 7,
+   },
+
+   'effortInGamesHardcore': {
+     name: 'Effort in games: hard [9..10]',
+     filter: (row) => row['q_playing_effort'] >= 9,
+     metaGroupPoints: {'m_hard': 1}
     },
     'effortInGamesCore': {
         name: 'Effort in games: core [7..8]',
