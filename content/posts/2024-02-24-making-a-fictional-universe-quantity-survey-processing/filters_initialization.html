@@ -277,7 +277,7 @@
        if (Array.isArray(cell)) {
          td.innerHTML = cell.join('<br>');
        } else {
-         td.textContent = cell;
+         td.innerHTML = cell;
        }
        tr.appendChild(td);
      });
@@ -290,21 +290,21 @@
    container.appendChild(table);
  }
 
- const finalGroupsRaw = [{name: 'hard+small+few',
+ const finalGroupsRaw = [{name: T('hard+small+few'),
                           filters: [['hard', 'agencySizeRelativlySmall', 'competitorsFew']]},
-                         {name: 'hard+small+alot',
+                         {name: T('hard+small+alot'),
                           filters: [['hard', 'agencySizeRelativlySmall', 'competitorsAlot']]},
-                         {name: 'hard+big+few',
+                         {name: T('hard+big+few'),
                           filters: [['hard', 'agencySizeRelativlyBig', 'competitorsFew']]},
-                         {name: 'hard+big+alot',
+                         {name: T('hard+big+alot'),
                           filters: [['hard', 'agencySizeRelativlyBig', 'competitorsAlot']]},
-                         {name: 'core+small+few',
+                         {name: T('core+small+few'),
                           filters: [['core', 'agencySizeRelativlySmall', 'competitorsFew']]},
-                         {name: 'core+small+alot',
+                         {name: T('core+small+alot'),
                           filters: [['core', 'agencySizeRelativlySmall', 'competitorsAlot']]},
-                         {name: 'core+big+few',
+                         {name: T('core+big+few'),
                           filters: [['core', 'agencySizeRelativlyBig', 'competitorsFew']]},
-                         {name: 'core+big+alot',
+                         {name: T('core+big+alot'),
                           filters: [['core', 'agencySizeRelativlyBig', 'competitorsAlot']]},];
 
  /* Unity with heuristics
@@ -319,13 +319,13 @@
   */
 
 
- const finalGroupsBasic = [{name: '(core|hard)+small+few',
+ const finalGroupsBasic = [{name: T('(core|hard)+small+few'),
                             filters: [['hard', 'agencySizeRelativlySmall', 'competitorsFew'],
                                       ['core', 'agencySizeRelativlySmall', 'competitorsFew']]},
-                           {name: '(core|hard)+big+few',
+                           {name: T('(core|hard)+big+few'),
                             filters: [['hard', 'agencySizeRelativlyBig', 'competitorsFew'],
                                       ['core', 'agencySizeRelativlyBig', 'competitorsFew']]},
-                           {name: '(core|hard)+big+alot',
+                           {name: T('(core|hard)+big+alot'),
                             filters: [['hard', 'agencySizeRelativlyBig', 'competitorsAlot'],
                                       ['core', 'agencySizeRelativlyBig', 'competitorsAlot']]}];
 
@@ -333,15 +333,15 @@
     - обратим внимание, что когда/если мы дойдём до последнего шага, то автоматом ключатся группы small+alot.
   */
 
- const finalGroupsIterations = [{name: '(core|hard)+small+few',
+ const finalGroupsIterations = [{name: T('(core|hard)+small+few'),
                                  filters: [['hard', 'agencySizeRelativlySmall', 'competitorsFew'],
                                            ['core', 'agencySizeRelativlySmall', 'competitorsFew']]},
-                                {name: '(core|hard)+(small|big)+few',
+                                {name: T('(core|hard)+(small|big)+few'),
                                  filters: [['hard', 'agencySizeRelativlySmall', 'competitorsFew'],
                                            ['core', 'agencySizeRelativlySmall', 'competitorsFew'],
                                            ['hard', 'agencySizeRelativlyBig', 'competitorsFew'],
                                            ['core', 'agencySizeRelativlyBig', 'competitorsFew']]},
-                                {name: '(core|hard)+(small|big)+(few|alot)',
+                                {name: T('(core|hard)+(small|big)+(few|alot)'),
                                  filters: [
                                    ['hard', 'agencySizeRelativlySmall', 'competitorsFew'],
                                    ['hard', 'agencySizeRelativlySmall', 'competitorsAlot'],
@@ -481,7 +481,7 @@
    const n = 5;
 
    for (let group of tableGroups) {
-     table.push([group.name,
+     table.push([group.name.replace(/\+/g, '<br/>'),
                  group.total,
                  selectTopN(group.likeInGames, n),
                  selectTopN(group.worldStyle, n),
@@ -489,7 +489,7 @@
    }
 
    renderTable(selector,
-               [T('name'), T('size'), T('like in games'), T('world style'), T('plot style')],
+               [T('group'), T('size'), T('like in games'), T('world style'), T('plot style')],
                table);
  }
 

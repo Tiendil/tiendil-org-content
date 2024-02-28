@@ -715,7 +715,7 @@ heatmapPlot('plot-heatmap-norm', 'norm');
 
 ### Все выделенные группы
 
-<div id="table-final-groups-raw"></div>
+<div id="table-final-groups-raw" class=""></div>
 
 ### Определённые ключевые группы
 
