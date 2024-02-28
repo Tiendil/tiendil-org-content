@@ -526,9 +526,15 @@ barPlot('plot-office-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9
 
 ## Истории
 
-Четвёртая секция —
+Четвёртая секция — предпочтения в историях, образе мира и сюжетов.
+
+Посмотрите на эти графики через выборки разных возростов. Отличия будут хорошо заметны.
 
 ### Оттенки жанров и сюжетов
+
+```
+Choose up to four shades of the plot/genre style you prefer the most.
+```
 
 ---8<--- "./filter_selectors.html"
 
@@ -539,6 +545,10 @@ barPlot('plot-shades-of-genre', groupMapper(shadesOfGenreGroups), groupIds(shade
 </script>
 
 ### Сложность моральных вопросов
+
+```
+How complex should morale questions be in the game world?
+```
 
 ---8<--- "./filter_selectors.html"
 
@@ -555,6 +565,10 @@ barPlot('plot-moral-complexity', mapMoralComplexity, [1, 2, 3, 4, 5, 6, 7, 8, 9,
 
 ### Стиль мира
 
+```
+How do you want to see the world in the game of a modern news agency with some magic and sci-fi technology? Choose up to six options.
+```
+
 ---8<--- "./filter_selectors.html"
 
 <div id="plot-world-style"></div>
@@ -563,9 +577,11 @@ barPlot('plot-moral-complexity', mapMoralComplexity, [1, 2, 3, 4, 5, 6, 7, 8, 9,
 barPlot('plot-world-style', groupMapper(worldStyleGroups), groupIds(worldStyleGroups));
 </script>
 
-## Мета группы
+## Группы игроков по хардкорности
 
-### Hardcore игроки
+Принцип разделения игроков по группам `Hard`, `Core`, `Casual` описан в начале поста.
+
+### Распределение игроков по очкам `Hard` группы
 
 ---8<--- "./filter_selectors.html"
 
@@ -580,7 +596,7 @@ function mapMetaHard(row) {
 barPlot('plot-meta-hard', mapMetaHard, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### Core игроки
+### Распределение игроков по очкам `Core` группы
 
 ---8<--- "./filter_selectors.html"
 
@@ -595,7 +611,7 @@ function mapMetaCore(row) {
 barPlot('plot-meta-core', mapMetaCore, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### Casual игроки
+### Распределение игроков по очкам `Casual` группы
 
 ---8<--- "./filter_selectors.html"
 
@@ -610,7 +626,7 @@ function mapMetaCasual(row) {
 barPlot('plot-meta-casual', mapMetaCasual, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### Группы по увлечённости
+### Распределение игроков по группам
 
 ---8<--- "./filter_selectors.html"
 
@@ -625,9 +641,13 @@ function mapMetaEffort(row) {
 barPlot('plot-meta-effort', mapMetaEffort, ['casual', 'core', 'hard']);
 </script>
 
-## Некоторые инструменты
+## Радары
 
-### Радар медиан предпочтений
+Радарные графики позволяют проще смотреть общую картину выборки.
+
+Оси радаров — числовые вопросы + возраст. Все ответы нормированы в интервал `[0, 1]`.
+
+### Медианы предпочтений
 
 ---8<--- "./filter_selectors.html"
 
@@ -637,7 +657,7 @@ barPlot('plot-meta-effort', mapMetaEffort, ['casual', 'core', 'hard']);
 scatterpolarPlot('plot-radar-median', 'median');
 </script>
 
-### Радар средних предпочтений
+### Средние предпочтения
 
 ---8<--- "./filter_selectors.html"
 
@@ -756,6 +776,7 @@ heatmapPlot('plot-heatmap-norm', 'norm');
 <!-- Туду, посмотреть противоположность топовой атмосфере -->
 <!-- Долго думал включать в срезы механики или не включать. Решил включать т.к. игра — это сложная сильно связанная система. -->
 <!-- На самом деле, 8.5% — это оптимистичный прогноз, если всё сдеано круто и точно порпали в срез. Скорее будет в 2-3 раза меньше -->
+<!-- TODO: проверить q_age на радарных графиках -->
 
 <!-- footer -->
 
