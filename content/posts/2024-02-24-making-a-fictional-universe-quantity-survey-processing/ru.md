@@ -189,12 +189,12 @@ function mapIsGameDev(row) {
   return row['q_is_game_developer'];
 }
 
-const isGameDeveGroupIds = [
+const isGameDevGroupIds = [
 'no',
 'yes',
 ];
-т
-barPlot('plot-is-game-developer', mapIsGameDev, isGameDeveGroupIds);
+
+barPlot('plot-is-game-developer', mapIsGameDev, isGameDevGroupIds);
 </script>
 
 ##  Игровой опыт
@@ -667,7 +667,9 @@ scatterpolarPlot('plot-radar-median', 'median');
 scatterpolarPlot('plot-radar-average', 'average');
 </script>
 
-### Тепловые карты
+## Тепловые карты
+
+По аналогии с радарами, две тепловые карты, чтобы смотреть корреляцию
 
 TODO: age is missed here
 
@@ -675,7 +677,7 @@ TODO: only first filter works here
 
 #### Абсолютная
 
----8<--- "./filter_selectors.html"
+---8<--- "./filter_selectors_single.html"
 ---8<--- "./heatmap_filter_selectors.html"
 
 TODO: describe selectors
@@ -684,7 +686,7 @@ TODO: describe selectors
 
 #### Нормированная на количество в колонке
 
----8<--- "./filter_selectors.html"
+---8<--- "./filter_selectors_single.html"
 ---8<--- "./heatmap_filter_selectors.html"
 
 TODO: describe selectors
@@ -777,6 +779,7 @@ heatmapPlot('plot-heatmap-norm', 'norm');
 <!-- Долго думал включать в срезы механики или не включать. Решил включать т.к. игра — это сложная сильно связанная система. -->
 <!-- На самом деле, 8.5% — это оптимистичный прогноз, если всё сдеано круто и точно порпали в срез. Скорее будет в 2-3 раза меньше -->
 <!-- TODO: проверить q_age на радарных графиках -->
+<!-- remove all console output -->
 
 <!-- footer -->
 

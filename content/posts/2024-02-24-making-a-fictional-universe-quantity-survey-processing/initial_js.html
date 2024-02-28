@@ -889,6 +889,9 @@ function scatterpolarPlot(selector, mode) {
                        'q_morale_complexity',
                        'q_relationships_effort'];
 
+
+        const translatedTheta = theta.map(T);
+
         function values(data, column) {
             return data.map(row => row[column]);
         }
@@ -913,11 +916,11 @@ function scatterpolarPlot(selector, mode) {
             }
 
             return {
-                type: 'scatterpolar',
-                r: r,
-                theta: theta,
-                fill: 'toself',
-                name: column
+              type: 'scatterpolar',
+              r: r,
+              theta: translatedTheta,
+              fill: 'toself',
+              name: column
             };
         }
 
@@ -936,11 +939,11 @@ function scatterpolarPlot(selector, mode) {
             }
 
             return {
-                type: 'scatterpolar',
-                r: r,
-                theta: theta,
-                fill: 'toself',
-                name: column
+              type: 'scatterpolar',
+              r: r,
+              theta: translatedTheta,
+              fill: 'toself',
+              name: column
             };
         }
 
