@@ -1,0 +1,1191 @@
+<!-- TODO: move to brigid config? -->
+<!-- TODO: if moved, how to turn on optionally? -->
+
+<script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
+
+
+<script type="text/javascript">
+
+const redrawPlots = new CustomEvent('redrawPlots', {
+    detail: {
+        message: "redraw plots",
+    }
+ });
+
+function T(text) {
+   if (!(text in translations)) {
+       console.error('Unknown translation:', text);
+     return text;
+   }
+
+   return translations[text];
+}
+
+const metaEffortGroups = [{id: 'hard',
+                           name: 'Hardcore Players',
+                           addToFilter: true,
+                           predicate: (row) => row['m_effort'] == 'hard'},
+                          {id: 'core',
+                           name: 'Core Players',
+                           addToFilter: true,
+                           predicate: (row) => row['m_effort'] == 'core'},
+                          {id: 'casual',
+                           name: 'Casual Players',
+                           addToFilter: true,
+                           predicate: (row) => row['m_effort'] == 'casual'}];
+
+const ageGroups = [{id: 'children (0-12)',
+                    name: 'Children (0-12)',
+                    addToFilter: false,
+                    predicate: (row) => row['q_age'] != null && row['q_age'] <= 12},
+                   {id: 'teens (13-19)',
+                    name: 'Teens (13-19)',
+                    addToFilter: true,
+                    predicate: (row) => row['q_age'] >= 13 && row['q_age'] <= 19},
+                   {id: 'young adults (20-29)',
+                    name: 'Young adults (20-29)',
+                    addToFilter: true,
+                    predicate: (row) => row['q_age'] >= 20 && row['q_age'] <= 29},
+                   {id: 'adults (30-39)',
+                    name: 'Adults (30-39)',
+                    addToFilter: true,
+                    predicate: (row) => row['q_age'] >= 30 && row['q_age'] <= 39},
+                   {id: 'middle-aged adults (40-49)',
+                    name: 'Middle-aged adults (40-49)',
+                    addToFilter: true,
+                    predicate: (row) => row['q_age'] >= 40 && row['q_age'] <= 49},
+                   {id: 'older adults (50-59)',
+                    name: 'Older adults (50-59)',
+                    addToFilter: true,
+                    predicate: (row) => row['q_age'] >= 50 && row['q_age'] <= 59},
+                   {id: 'seniors (60+)',
+                    name: 'Seniors (60+)',
+                    addToFilter: false,
+                    predicate: (row) => row['q_age'] >= 60},
+                   {id: 'N/A',
+                    name: 'N/A',
+                    addToFilter: false,
+                    predicate: (row) => row['q_age'] == null}];
+
+const strategyGamesGroups = [{id: '4x',
+                              name: '4X',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#4x'] == 1},
+                             {id: 'city_builders',
+                              name: 'City builders',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#city_builders'] == 1},
+                             {id: 'decision_driven',
+                              name: 'Decision driven',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#decision_driven'] == 1},
+                             {id: 'grand_strategies',
+                              name: 'Grand strategies',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#grand_strategies'] == 1},
+                             {id: 'roguelike',
+                              name: 'Roguelike',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#roguelike'] == 1},
+                             {id: 'rts',
+                              name: 'RTS',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#rts'] == 1},
+                             {id: 'tactics',
+                              name: 'Tactics',
+                              addToFilter: false,
+                              predicate: (row) => row['q_strategy_games_like#tactics'] == 1},
+                             {id: 'tycoon',
+                              name: 'Tycoon',
+                              addToFilter: true,
+                              predicate: (row) => row['q_strategy_games_like#tycoon'] == 1}];
+
+const knowAboutGamesGroups = [{id: 'advertising',
+                               name: 'Advertising',
+                               addToFilter: false,
+                               predicate: (row) => row['q_know_about_new_games#advertising'] == 1},
+                              {id: 'coworkers',
+                               name: 'Coworkers',
+                               addToFilter: false,
+                               predicate: (row) => row['q_know_about_new_games#coworkers'] == 1},
+                              {id: 'do_not_search',
+                               name: 'Do not search',
+                               addToFilter: false,
+                               predicate: (row) => row['q_know_about_new_games#do_not_search'] == 1},
+                              {id: 'free_search',
+                               name: 'Free search',
+                               addToFilter: false,
+                               predicate: (row) => row['q_know_about_new_games#free_search'] == 1},
+                              {id: 'friends',
+                               name: 'Friends',
+                               addToFilter: false,
+                               predicate: (row) => row['q_know_about_new_games#friends'] == 1},
+                              {id: 'game_stores',
+                               name: 'Game stores',
+                               addToFilter: false,
+                               predicate: (row) => row['q_know_about_new_games#game_stores'] == 1},
+                              {id: 'personalized_news',
+                               name: 'Personalized news',
+                               addToFilter: false,
+                               predicate: (row) => row['q_know_about_new_games#personalized_news'] == 1},
+                              {id: 'social_networks',
+                               name: 'Social networks',
+                               addToFilter: false,
+                               predicate: (row) => row['q_know_about_new_games#social_networks'] == 1},
+                              {id: 'specialized_sites',
+                               name: 'Specialized sites',
+                               addToFilter: false,
+                               predicate: (row) => row['q_know_about_new_games#specialized_sites'] == 1},
+                              {id: 'video_services',
+                               name: 'Video services',
+                               addToFilter: false,
+                               predicate: (row) => row['q_know_about_new_games#video_services'] == 1}];
+
+const likeInGamesGroups = [{id: 'achievements',
+                            name: 'Achievements',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#achievements'] == 1},
+                           {id: 'changing_game_world',
+                            name: 'Changing game world',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#changing_game_world'] == 1},
+                           {id: 'collecting',
+                            name: 'Collecting',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#collecting'] == 1},
+                           {id: 'creating_strategies',
+                            name: 'Creating strategies',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#creating_strategies'] == 1},
+                           {id: 'customizing',
+                            name: 'Customizing',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#customizing'] == 1},
+                           {id: 'exploring',
+                            name: 'Exploring',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#exploring'] == 1},
+                           {id: 'looting',
+                            name: 'Looting',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#looting'] == 1},
+                           {id: 'messing_with_game_rules',
+                            name: 'Messing with game rules',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#messing_with_game_rules'] == 1},
+                           {id: 'overcoming_challenges',
+                            name: 'Overcoming challenges',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#overcoming_challenges'] == 1},
+                           {id: 'risking',
+                            name: 'Risking',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#risking'] == 1},
+                           {id: 'roleplaying',
+                            name: 'Roleplaying',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#roleplaying'] == 1},
+                           {id: 'solving_puzzles',
+                            name: 'Solving puzzles',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#solving_puzzles'] == 1},
+                           {id: 'story',
+                            name: 'Story',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#story'] == 1},
+                           {id: 'what_if_scenarious',
+                            name: 'What if scenarious',
+                            addToFilter: true,
+                            predicate: (row) => row['q_like_in_games#what_if_scenarious'] == 1}];
+
+const newsChannelsTypes = [{id: 'augmented_reality',
+                            name: 'Augmented reality',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#augmented_reality'] == 1},
+                           {id: 'chats',
+                            name: 'Chats',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#chats'] == 1},
+                           {id: 'magic_creatures',
+                            name: 'Magic creatures',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#magic_creatures'] == 1},
+                           {id: 'magic_devices',
+                            name: 'Magic devices',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#magic_devices'] == 1},
+                           {id: 'mobile_application',
+                            name: 'Mobile application',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#mobile_application'] == 1},
+                           {id: 'neural_implants',
+                            name: 'Neural implants',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#neural_implants'] == 1},
+                           {id: 'news_in_vr',
+                            name: 'News in VR',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#news_in_vr'] == 1},
+                           {id: 'online_radio',
+                            name: 'Online radio',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#online_radio'] == 1},
+                           {id: 'social_networks',
+                            name: 'Social networks',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#social_networks'] == 1},
+                           {id: 'traditional_newspaper',
+                            name: 'Traditional newspaper',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#traditional_newspaper'] == 1},
+                           {id: 'traditional_radio',
+                            name: 'Traditional radio',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#traditional_radio'] == 1},
+                           {id: 'traditional_tv',
+                            name: 'Traditional TV',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#traditional_tv'] == 1},
+                           {id: 'web_portal',
+                            name: 'Web portal',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#web_portal'] == 1},
+                           {id: 'youtube',
+                            name: 'Youtube',
+                            addToFilter: true,
+                            predicate: (row) => row['q_channels#youtube'] == 1}];
+
+
+const shadesOfGenreGroups = [{id: 'adventure',
+                              name: 'Adventure',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#adventure'] == 1},
+                             {id: 'conspirology',
+                              name: 'Conspirology',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#conspirology'] == 1},
+                             {id: 'cyberpunk',
+                              name: 'Cyberpunk',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#cyberpunk'] == 1},
+                             {id: 'documentary',
+                              name: 'Documentary',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#documentary'] == 1},
+                             {id: 'fairy_tale',
+                              name: 'Fairy tale',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#fairy_tale'] == 1},
+                             {id: 'fantasy',
+                              name: 'Fantasy',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#fantasy'] == 1},
+                             {id: 'historic',
+                              name: 'Historic',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#historic'] == 1},
+                             {id: 'mystery',
+                              name: 'Mystery',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#mystery'] == 1},
+                             {id: 'noir',
+                              name: 'Noir',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#noir'] == 1},
+                             {id: 'paranormal',
+                              name: 'Paranormal',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#paranormal'] == 1},
+                             {id: 'scifi',
+                              name: 'Scifi',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#scifi'] == 1},
+                             {id: 'urban_legends',
+                              name: 'Urban legends',
+                              addToFilter: true,
+                              predicate: (row) => row['q_plot_style#urban_legends'] == 1}];
+
+
+const worldStyleGroups = [{id: 'bright',
+                           name: 'Bright',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#bright'] == 1},
+                          {id: 'colorful',
+                           name: 'Colorful',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#colorful'] == 1},
+                          {id: 'complex',
+                           name: 'Complex',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#complex'] == 1},
+                          {id: 'dark',
+                           name: 'Dark',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#dark'] == 1},
+                          {id: 'dark_humorous',
+                           name: 'Dark humorous',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#dark_humorous'] == 1},
+                          {id: 'depressing',
+                           name: 'Depressing',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#depressing'] == 1},
+                          {id: 'dull',
+                           name: 'Dull',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#dull'] == 1},
+                          {id: 'dystopian',
+                           name: 'Dystopian',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#dystopian'] == 1},
+                          {id: 'gray',
+                           name: 'Gray',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#gray'] == 1},
+                          {id: 'happy',
+                           name: 'Happy',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#happy'] == 1},
+                          {id: 'humorous',
+                           name: 'Humorous',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#humorous'] == 1},
+                          {id: 'imaginative',
+                           name: 'Imaginative',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#imaginative'] == 1},
+                          {id: 'inspirational',
+                           name: 'Inspirational',
+                           addToFilter: true,
+                           predicate: (row) => row['q_world_style#inspirational'] == 1},
+                          {id: 'polite',
+                            name: 'Polite',
+                            addToFilter: true,
+                           predicate: (row) => row['q_world_style#polite'] == 1},
+                          {id: 'realistic',
+                            name: 'Realistic',
+                            addToFilter: true,
+                           predicate: (row) => row['q_world_style#realistic'] == 1},
+                            {id: 'sarcastic',
+                                name: 'Sarcastic',
+                             addToFilter: true,
+                             predicate: (row) => row['q_world_style#sarcastic'] == 1},
+                            {id: 'simple',
+                             name: 'Simple',
+                             addToFilter: true,
+                             predicate: (row) => row['q_world_style#simple'] == 1},
+                          {id: 'utopian',
+                            name: 'Utopian',
+                            addToFilter: true,
+                           predicate: (row) => row['q_world_style#utopian'] == 1}];
+
+
+const filters = {
+    'all': {
+        name: 'All',
+        filter: (row) => true
+    },
+    'gameIteration1': {
+      name: '* Game: group 1',
+      filter: (row) => {
+        if (!(filters['playingStrategiesHardcore'].filter(row) ||
+              filters['playingStrategiesCore'].filter(row))) {
+          return false;
+        }
+
+          if (!(filters['hard'].filter(row) || filters['core'].filter(row))) {
+            return false;
+            }
+
+            if (!filters['agencySizeRelativlySmall'].filter(row)) {
+                return false
+            }
+
+            if (!filters['competitorsFew'].filter(row)) {
+                return false;
+            }
+
+            return true;
+        }
+    },
+    'gameIteration2': {
+        name: '* Game: group 2',
+      filter: (row) => {
+        if (!(filters['playingStrategiesHardcore'].filter(row) ||
+              filters['playingStrategiesCore'].filter(row))) {
+          return false;
+        }
+
+        if (!(filters['hard'].filter(row) || filters['core'].filter(row))) {
+          return false;
+          }
+
+          if (!filters['agencySizeRelativlyBig'].filter(row)) {
+            return false
+          }
+
+          if (!filters['competitorsFew'].filter(row)) {
+            return false;
+          }
+
+          return true;
+        }
+    },
+    'gameIteration3': {
+        name: '* Game: group 3',
+      filter: (row) => {
+        if (!(filters['playingStrategiesHardcore'].filter(row) ||
+              filters['playingStrategiesCore'].filter(row))) {
+          return false;
+        }
+
+        if (!(filters['hard'].filter(row) || filters['core'].filter(row))) {
+          return false;
+          }
+
+          if (!filters['agencySizeRelativlyBig'].filter(row)) {
+            return false
+          }
+
+          if (!filters['competitorsAlot'].filter(row)) {
+            return false;
+          }
+
+          return true;
+        }
+    },
+   'male': {
+     name: 'Gender: Male',
+     filter: (row) => row['q_gender'] === 'male'
+   },
+   'female': {
+        name: 'Gender: Female',
+        filter: (row) => row['q_gender'] === 'female'
+    },
+    'gameDevelopers': {
+        name: 'Game developers',
+        filter: (row) => row['q_is_game_developer'] === 'yes'
+    },
+    'players': {
+        name: 'Players',
+        filter: (row) => row['q_is_game_developer'] === 'no'
+    },
+    'occupationEmployment': {
+        name: 'Occupation: Employment',
+        filter: (row) => row['q_occupation'] === 'employment'
+    },
+    'occupationStudent': {
+        name: 'Occupation: Student',
+        filter: (row) => row['q_occupation'] === 'student'
+    },
+    'occupationOther': {
+        name: 'Occupation: Other',
+        filter: (row) => !['employment', 'student'].includes(row['q_occupation'])
+    },
+    'playingStrategiesHardcore': {
+        name: 'Playing strategies: hard [9..10]',
+        filter: (row) => row['q_play_strategy_games'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
+    },
+    'playingStrategiesCore': {
+        name: 'Playing strategies: core [7..8]',
+        filter: (row) => row['q_play_strategy_games'] >= 7 && row['q_play_strategy_games'] <= 8,
+        metaGroupPoints: {'m_core': 1}
+    },
+    'playingStrategiesCasual': {
+        name: 'Playing strategies: casual [1..6]',
+        filter: (row) => row['q_play_strategy_games'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
+    },
+   'playingStrategiesActivly': {
+     name: 'Playing strategies activly [7..10]',
+     filter: (row) => row['q_play_strategy_games'] >= 7,
+   },
+
+   'effortInGamesHardcore': {
+     name: 'Effort in games: hard [9..10]',
+     filter: (row) => row['q_playing_effort'] >= 9,
+     metaGroupPoints: {'m_hard': 1}
+    },
+    'effortInGamesCore': {
+        name: 'Effort in games: core [7..8]',
+        filter: (row) => row['q_playing_effort'] >= 7 && row['q_playing_effort'] <= 8,
+        metaGroupPoints: {'m_core': 1}
+    },
+    'effortInGamesCasual': {
+        name: 'Effort in games: casual [1..6]',
+        filter: (row) => row['q_playing_effort'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
+    },
+    'likeRPGElementsHardcore': {
+        name: 'Like RPG: hardcore [9..10]',
+        filter: (row) => row['q_rpg_elements'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
+    },
+    'likeRPGElementsCore': {
+        name: 'Like RPG: core [7..8]',
+        filter: (row) => row['q_rpg_elements'] >= 7 && row['q_rpg_elements'] <= 8,
+        metaGroupPoints: {'m_core': 1}
+    },
+    'likeRPGElementsCasual': {
+        name: 'Like RPG: casual [1..6]',
+        filter: (row) => row['q_rpg_elements'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
+    },
+    'multipleChannelsHardcore': {
+        name: 'Channels: hard [9..10]',
+        filter: (row) => row['q_multiple_channels_esential'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
+    },
+    'multipleChannelsCore': {
+        name: 'Channels: core [7..8]',
+        filter: (row) => row['q_multiple_channels_esential'] >= 7 && row['q_multiple_channels_esential'] <= 8,
+        metaGroupPoints: {'m_core': 1}
+    },
+    'multipleChannelsCasual': {
+        name: 'Channels: casual [1..6]',
+        filter: (row) => row['q_multiple_channels_esential'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
+    },
+    'journalismRealimsHard': {
+        name: 'Journalism realism: hard [9..10]',
+        filter: (row) => row['q_realistic_work'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
+    },
+    'journalismRealismCore': {
+        name: 'Journalism realism: core [7..8]',
+        filter: (row) => row['q_realistic_work'] >= 7 && row['q_realistic_work'] <= 8,
+        metaGroupPoints: {'m_core': 1}
+    },
+    'journalismRealismCasual': {
+        name: 'Journalism realism: casual [1..6]',
+        filter: (row) => row['q_realistic_work'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
+    },
+    'competitorsFew': {
+        name: 'Competitors: few',
+        filter: (row) => row['q_concurrent_agencies'] == 'few'
+    },
+    'competitorsAlot': {
+        name: 'Competitors: a lot',
+        filter: (row) => row['q_concurrent_agencies'] == 'the_more_the_better'
+    },
+    'agencySizeRelativlySmall': {
+        name: 'Agency size: ~small [..50]',
+        filter: (row) => ['up_to_10', 'up_to_25', 'up_to_50', 'small_or_automanage'].includes(row['q_max_agency_size'])
+    },
+    'agencySizeRelativlyBig': {
+        name: 'Agency size: ~big [51..]',
+        filter: (row) => ['up_to_100', 'bureaucratic_empire', 'small_or_automanage'].includes(row['q_max_agency_size'])
+    },
+    'budgetEffortHardcore': {
+        name: 'Budget effort: hard [9..10]',
+        filter: (row) => row['q_budget_effort'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
+    },
+    'budgetEffortCore': {
+        name: 'Budget effort: core [7..8]',
+        filter: (row) => row['q_budget_effort'] >= 7 && row['q_budget_effort'] <= 8,
+        metaGroupPoints: {'m_core': 1}
+    },
+    'budgetEffortCasual': {
+        name: 'Budget effort: casual [5..6]',
+        filter: (row) => row['q_budget_effort'] <= 6 && row['q_budget_effort'] >= 5,
+        metaGroupPoints: {'m_casual': 1}
+    },
+    'budgetEffortHyperCasual': {
+        name: 'Budget effort: hyper casual [1..4]',
+        filter: (row) => row['q_budget_effort'] <= 4,
+        metaGroupPoints: {'m_casual': 1}
+    },
+    'relationshipsEffortHardcore': {
+        name: 'Relationships effort: hard [9..10]',
+        filter: (row) => row['q_relationships_effort'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
+    },
+    'relationshipsEffortCore': {
+        name: 'Relationships effort: core [7..8]',
+        filter: (row) => row['q_relationships_effort'] >= 7 && row['q_relationships_effort'] <= 8,
+        metaGroupPoints: {'m_core': 1}
+    },
+    'relationshipsEffortCasual': {
+        name: 'Relationships effort: casual [1..6]',
+        filter: (row) => row['q_relationships_effort'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
+    },
+    'officeEffortHardcore': {
+        name: 'Office effort: hard [9..10]',
+        filter: (row) => row['q_office_effort'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
+    },
+    'officeEffortCore': {
+        name: 'Office effort: core [7..8]',
+        filter: (row) => row['q_office_effort'] >= 7 && row['q_office_effort'] <= 8,
+        metaGroupPoints: {'m_core': 1}
+    },
+    'officeEffortCasual': {
+        name: 'Office effort: casual [1..6]',
+        filter: (row) => row['q_office_effort'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
+    },
+    'moralComplexityHardcore': {
+        name: 'Moral complexity: hard [9..10]',
+        filter: (row) => row['q_morale_complexity'] >= 9,
+        metaGroupPoints: {'m_hard': 1}
+    },
+    'moralComplexityCore': {
+        name: 'Moral complexity: core [7..8]',
+        filter: (row) => row['q_morale_complexity'] >= 7 && row['q_morale_complexity'] <= 8,
+        metaGroupPoints: {'m_core': 1}
+    },
+    'moralComplexityCasual': {
+        name: 'Moral complexity: casual [1..6]',
+        filter: (row) => row['q_morale_complexity'] <= 6,
+        metaGroupPoints: {'m_casual': 1}
+    },
+};
+
+for (let metaEffortId in metaEffortGroups) {
+    let metaEffortGroup = metaEffortGroups[metaEffortId];
+    if (!metaEffortGroup.addToFilter) {
+        continue;
+    }
+    filters[metaEffortGroup.id] = {name: '* Players: ' + metaEffortGroup.name,
+                                   filter: metaEffortGroup.predicate};
+}
+
+for (let ageId in ageGroups) {
+    let ageGroup = ageGroups[ageId];
+    if (!ageGroup.addToFilter) {
+        continue;
+    }
+    filters[ageGroup.id] = {name: 'Age: ' + ageGroup.name,
+                            filter: ageGroup.predicate};
+}
+
+for (let strategyGameId in strategyGamesGroups) {
+    let strategyGameGroup = strategyGamesGroups[strategyGameId];
+    if (!strategyGameGroup.addToFilter) {
+        continue;
+    }
+    filters[strategyGameGroup.id] = {name: 'Games: ' + strategyGameGroup.name,
+                                     filter: strategyGameGroup.predicate};
+}
+
+for (let likeInGamesId in likeInGamesGroups) {
+    let likeInGamesGroup = likeInGamesGroups[likeInGamesId];
+    if (!likeInGamesGroup.addToFilter) {
+        continue;
+    }
+    filters[likeInGamesGroup.id] = {name: 'Like: ' + likeInGamesGroup.name,
+                                    filter: likeInGamesGroup.predicate};
+ }
+
+ for (let likeInGamesId in likeInGamesGroups) {
+    let likeInGamesGroup = likeInGamesGroups[likeInGamesId];
+    if (!likeInGamesGroup.addToFilter) {
+        continue;
+    }
+   filters['not' + likeInGamesGroup.id] = {name: 'Not Like: ' + likeInGamesGroup.name,
+                                           filter: (row) => !likeInGamesGroup.predicate(row)};
+ }
+
+ for (let newsChannelsTypeId in newsChannelsTypes) {
+   let newsChannelsType = newsChannelsTypes[newsChannelsTypeId];
+    if (!newsChannelsType.addToFilter) {
+        continue;
+    }
+    filters[newsChannelsType.id] = {name: 'News: ' + newsChannelsType.name,
+                                    filter: newsChannelsType.predicate};
+}
+
+for (let shadesOfGenreId in shadesOfGenreGroups) {
+    let shadesOfGenreGroup = shadesOfGenreGroups[shadesOfGenreId];
+    if (!shadesOfGenreGroup.addToFilter) {
+        continue;
+    }
+    filters[shadesOfGenreGroup.id] = {name: 'Genre: ' + shadesOfGenreGroup.name,
+                                     filter: shadesOfGenreGroup.predicate};
+ }
+
+ filters['notAboutFuture'] = {
+   name: '* Genre: Not about future',
+   filter: (row) => row['q_plot_style#scifi'] != 1 && row['q_plot_style#cyberpunk'] != 1
+ }
+
+ for (let shadesOfGenreId in shadesOfGenreGroups) {
+        let shadesOfGenreGroup = shadesOfGenreGroups[shadesOfGenreId];
+    if (!shadesOfGenreGroup.addToFilter) {
+        continue;
+    }
+   filters['not' + shadesOfGenreGroup.id] = {name: 'Not Genre: ' + shadesOfGenreGroup.name,
+                                             filter: (row) => !shadesOfGenreGroup.predicate(row)};
+ }
+
+ for (let worldStyleId in worldStyleGroups) {
+   let worldStyleGroup = worldStyleGroups[worldStyleId];
+   if (!worldStyleGroup.addToFilter) {
+     continue;
+   }
+   filters[worldStyleGroup.id] = {name: 'World style: ' + worldStyleGroup.name,
+                                  filter: worldStyleGroup.predicate};
+ }
+
+
+ for (let worldStyleId in worldStyleGroups) {
+   let worldStyleGroup = worldStyleGroups[worldStyleId];
+   if (!worldStyleGroup.addToFilter) {
+     continue;
+   }
+   filters['not' + worldStyleGroup.id] = {name: 'Not World style: ' + worldStyleGroup.name,
+                                          filter: (row) => !worldStyleGroup.predicate(row)};
+ }
+
+ // translate filters
+ for (let filterId in filters) {
+   let filter = filters[filterId];
+   filter.name = T(filter.name);
+ }
+
+var fullData = null;
+
+var filterA = 'all';
+var filterB = 'adults (30-39)';
+
+var heatmapFilterA = 'q_world_style';
+var heatmapFilterB = 'q_plot_style';
+
+function groupMapper(groups) {
+    return function(row) {
+        const resultGroups = [];
+
+        for (let groupIndex in groups) {
+            const group = groups[groupIndex];
+
+            if (group.predicate(row)) {
+                resultGroups.push(group.id);
+            }
+        }
+
+        return resultGroups;
+    };
+}
+
+function groupIds(groups) {
+    return groups.map(function(group) {
+        return group.id;
+    });
+}
+
+function getPlotData(filteredData, map, uniqueValues) {
+    var mappedData = filteredData.map(map);
+
+    // if mappedData contains multiple groups per row, flatten it
+    if (mappedData[0] instanceof Array) {
+        mappedData = mappedData.flat();
+    }
+
+    // print error if mappedData contains item not from uniqueValues
+    mappedData.forEach(function(value) {
+        if (!uniqueValues.includes(value)) {
+          console.log('Value ' + value + ' not in uniqueValues');
+        }
+    });
+
+    const counts = uniqueValues.map(function(value) {
+        return mappedData.filter(function(x) {
+            return x === value;
+        }).length;
+    });
+
+
+    const percents = counts.map(function(count) {
+        return (count / filteredData.length * 100).toFixed(2);
+    });
+
+    return {
+        values: uniqueValues,
+        counts: counts,
+        percents: percents
+    };
+}
+
+function createPlotlyConfig(filename) {
+    var config = {
+        toImageButtonOptions: {
+            format: 'png', // one of png, svg, jpeg, webp
+            filename: filename,
+            scale: 1
+        },
+        modeBarButtonsToRemove: [
+            'zoom2d', 'pan2d', 'select2d', 'lasso2d', 'zoomIn2d', 'zoomOut2d', 'autoScale2d',
+            'zoom3d', 'pan3d', 'orbitRotation', 'tableRotation', 'handleDrag3d',
+            'resetCameraDefault3d', 'resetCameraLastSave3d', 'hoverClosest3d',
+            'hoverClosestCartesian', 'hoverCompareCartesian',
+            'zoomInGeo', 'zoomOutGeo', 'resetGeo', 'hoverClosestGeo',
+            'hoverClosestGl2d', 'hoverClosestPie', 'toggleHover', 'resetViews', 'sendDataToCloud', 'toggleSpikelines', 'resetViewMapbox'
+        ]
+    }
+}
+
+function barPlot(selector, map, barsOrder) {
+
+    document.addEventListener('redrawPlots', (e) => {
+
+        if (fullData === null) {
+            return;
+        }
+
+        if (!(filterA in filters)) {
+            console.log('Unknown filterA:', filterA);
+            return;
+        }
+
+        if (!(filterB in filters)) {
+            console.log('Unknown filterB:', filterA);
+            return;
+        }
+
+        const dataA = getPlotData(filters[filterA].values, map, barsOrder);
+        const dataB = getPlotData(filters[filterB].values, map, barsOrder);
+
+        function toText(percents, counts) {
+            return percents.map((x, i) => x.toString() + ' ' + T('% count:') + ' ' + counts[i].toString());
+        }
+
+        data = [{
+            'x': dataA.values.map(T),
+            'y': dataA.percents,
+            'textposition': "none",
+            'text': toText(dataA.percents, dataA.counts),
+            'hoverinfo': 'text',
+            'name': filters[filterA].name,
+            'type': 'bar'
+        },{
+            'x': dataB.values.map(T),
+            'y': dataB.percents,
+            'textposition': "none",
+            'text': toText(dataB.percents, dataB.counts),
+            'hoverinfo': 'text',
+            'name': filters[filterB].name,
+            'type': 'bar'
+        }];
+
+        var layout = {
+            barmode: 'group',
+            xaxis: {
+                dtick: 1
+            },
+            yaxis: {
+                title: T('percents')
+            },
+            legend: {
+                orientation: 'h',
+                x: 0.5, // Centers the legend horizontally
+                xanchor: 'center', // Uses the center of the legend as the anchor point
+                y: 1.1, // Positions the legend above the chart
+                yanchor: 'bottom' // Uses the bottom of the legend to position it relative to the chart
+            }
+        };
+
+        var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
+
+        Plotly.react(selector, data, layout, config);
+    });
+}
+
+function scatterpolarPlot(selector, mode) {
+    document.addEventListener('redrawPlots', (e) => {
+
+        if (fullData === null) {
+            return;
+        }
+
+        if (!(filterA in filters)) {
+            console.error('Unknown filterA:', filterA);
+            return;
+        }
+
+        if (!(filterB in filters)) {
+            console.error('Unknown filterB:', filterA);
+            return;
+        }
+
+        const dataA = filters[filterA].values;
+        const dataB = filters[filterB].values;
+
+        const theta = ['q_age',
+                       'q_play_strategy_games',
+                       'q_playing_effort',
+                       'q_playing_effort',
+                       'q_multiple_channels_esential',
+                       'q_realistic_work',
+                       'q_budget_effort',
+                       'q_office_effort',
+                       'q_morale_complexity',
+                       'q_relationships_effort'];
+
+
+        const translatedTheta = theta.map(T);
+
+        function values(data, column) {
+            return data.map(row => row[column]);
+        }
+
+        function fullValues(column) {
+            return fullData.map(row => row[column]);
+        }
+
+        function dimensionMedian(data, column) {
+            // r should containt median for each column from theta
+            const r = [];
+
+            for (let i = 0; i < theta.length; i++) {
+                var thetaValues = values(data, theta[i]);
+
+                // we should nor to the maximum from all data, not from current data
+                const max = Math.max(...fullValues(theta[i]));
+
+                thetaValues = thetaValues.map(x => x / max);
+                thetaValues.sort((a, b) => a - b);
+                r.push(thetaValues[Math.floor(thetaValues.length / 2)]);
+            }
+
+            return {
+              type: 'scatterpolar',
+              r: r,
+              theta: translatedTheta,
+              fill: 'toself',
+              name: column
+            };
+        }
+
+        function dimensionAverage(data, column) {
+            // r should containt average for each column from theta
+            const r = [];
+
+            for (let i = 0; i < theta.length; i++) {
+              var thetaValues = values(data, theta[i]);
+
+              // we should nor to the maximum from all data, not from current data
+              const max = Math.max(...fullValues(theta[i]));
+
+              thetaValues = thetaValues.map(x => x / max);
+              r.push(thetaValues.reduce((a, b) => a + b, 0) / thetaValues.length);
+            }
+
+            return {
+              type: 'scatterpolar',
+              r: r,
+              theta: translatedTheta,
+              fill: 'toself',
+              name: column
+            };
+        }
+
+        var dimension = null;
+
+        if (mode === 'median') {
+            dimension = dimensionMedian;
+        } else {
+            dimension = dimensionAverage;
+        }
+
+        var data = [
+            dimension(dataA, filters[filterA].name),
+            dimension(dataB, filters[filterB].name)
+        ];
+
+        var layout = {
+            barmode: 'group',
+            xaxis: {
+                dtick: 1
+            },
+            yaxis: {
+                dtick: 1
+            },
+            legend: {
+                orientation: 'h',
+                x: 0.5, // Centers the legend horizontally
+                xanchor: 'center', // Uses the center of the legend as the anchor point
+                y: 1.1, // Positions the legend above the chart
+                yanchor: 'bottom' // Uses the bottom of the legend to position it relative to the chart
+            }
+        };
+
+        var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
+
+        Plotly.react(selector, data, layout, config);
+    });
+
+}
+
+
+function heatmapPlot(selector, kind) {
+    document.addEventListener('redrawPlots', (e) => {
+
+        if (fullData === null) {
+            return;
+        }
+
+        if (!(filterA in filters)) {
+            console.error('Unknown filterA:', filterA);
+            return;
+        }
+
+        const dataA = filters[filterA].values;
+
+        xDimension = heatmapFilterA;
+        yDimension = heatmapFilterB;
+
+        const questions = heatmapQuestions;
+
+        const z = [];
+
+        for (let i in questions[yDimension].values) {
+            z.push([]);
+
+            for (let j in questions[xDimension].values) {
+                z[z.length-1].push(0);
+            }
+        }
+
+        function extractIndexes(question, row) {
+            const indexes = []
+
+            q = questions[question]
+            if (q.type == 'multichoice') {
+                for (let i in q.values) {
+                    const variant = q.values[i];
+
+                    if (row[`${question}#${variant}`] == 1) {
+                        indexes.push(i);
+                    }
+                }
+            }
+
+            if (q.type == 'numeric') {
+                indexes.push(row[question] - 1);
+            }
+
+            if (q.type == 'category') {
+                for (let i in q.values) {
+                    const variant = q.values[i];
+
+                    if (row[question] == variant) {
+                        indexes.push(i);
+                    }
+                }
+            }
+
+            if (q.type == 'age') {
+                for (let i in ageGroups) {
+                    const group = ageGroups[i];
+
+                    if (group.predicate(row)) {
+                        indexes.push(i);
+                    }
+                }
+            }
+
+          if (indexes.length == 0) {
+            /* it is ok for some data */
+              /* console.log('something goes wrong'); */
+            }
+
+            return indexes;
+        }
+
+        const columnSizes = {};
+
+        dataA.forEach(function(row){
+            const xIndexs = extractIndexes(xDimension, row);
+            const yIndexs = extractIndexes(yDimension, row);
+
+            for (let x of xIndexs) {
+                if (!(x in columnSizes)) {
+                    columnSizes[x] = 0;
+                }
+
+                columnSizes[x] += 1;
+
+
+                for (let y of yIndexs) {
+                    z[y][x] += 1
+                }
+            }
+        });
+
+        const minAllowedColumnSize = 10;
+
+        const normZ = [];
+
+        // norm z on column sizes
+        for (let i in questions[yDimension].values) {
+            const row = [];
+            normZ.push(row);
+
+            for (let j in questions[xDimension].values) {
+
+                if (xDimension == yDimension && i == j) {
+                    row.push(0);
+                }
+
+                else if (columnSizes[j] != null && columnSizes[j] >= minAllowedColumnSize ) {
+                    row.push(z[i][j] / columnSizes[j]);
+                }
+                else {
+                    row.push(null);
+                }
+            }
+        }
+
+        const text = [];
+
+        for ( var i = 0; i < questions[yDimension].values.length; i++ ) {
+            text.push([]);
+            for ( var j = 0; j < questions[xDimension].values.length; j++ ) {
+                text[i].push(`${(normZ[i][j]*100).toFixed(2)}% ${T("count")}: ${z[i][j]} / ${columnSizes[j]}`);
+            }
+        }
+
+        var zData = null;
+
+        if (kind === 'norm') {
+            zData = normZ;
+        } else {
+            zData = z;
+        }
+
+
+        var data = [
+            {
+                z: zData,
+                x: questions[xDimension].values.map(T),
+                y: questions[yDimension].values.map(T),
+                text: text,
+                type: 'heatmap'
+            }
+        ];
+
+        var layout = {
+            barmode: 'group',
+            plot_bgcolor: "black",
+            xaxis: {
+                dtick: 1,
+                title: T(xDimension)
+            },
+            yaxis: {
+                dtick: 1,
+                title: T(yDimension)
+            }
+        };
+
+        var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
+
+        Plotly.react(selector, data, layout, config);
+    });
+}
+
+
+</script>
