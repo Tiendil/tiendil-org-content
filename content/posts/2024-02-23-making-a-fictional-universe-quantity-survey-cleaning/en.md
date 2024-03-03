@@ -51,43 +51,42 @@ Also, for example, initially I turned on option to shuffle the answer options fo
 
 ### Made mistakes
 
+I the process of collecting and processing the data I found a few mistakes made while preparing the survey.
 
-В процессе сбора и обработки данных нашёл несколько ошибок.
+1. I didn't add the question `Where did you come from?` — it would have been useful for analyzing the effectiveness of the survey distribution.
+2. In the question `Which kind of strategy games do you like the most?` I missed several options:
+    - tactics (including rpg with tactical battles)
+    - tower defense
+    - autobattlers (or is it also tactics?)
+    - wargames (and this?)
+    - automatization (Factorio, Satisfactory, etc.)
 
-1. Не добавил вопрос «откуда пришли в анкету» — пригодился бы для анализа эффективности её распространения.
-2. В вопросе `Which kind of strategy games do you like the most?` упустил несколько вариантов:
-     - тактика (включая rpg с тактическими боями)
-     - tower defense
-     - autobattlers (или это тоже тактика?)
-     - wargames (а это?)
-     - automatization (Factorio, Satisfactory, etc.)
+    Also, people often mentioned RPG, but I'm not sure if it makes sense to include such an answer in the strategy games survey.
 
-     Люди часто упоминали RPG, но не уверен, что их имеет смысл относить к стратегиям.
+3. In the question `How do you know about new games to play?` I missed the option "game stores". After analyzing the answers, I got the impression that there should be an option for each store (Steam, GoG, Epic, Google Play, etc.). Maybe even an option for each particular feature of the stores (recommendations, tags, home page).
+4. In the same question, it was worth explicitly specifying video services (YouTube, Twitch, etc.).
+5. In the question `Choose up to four shades of the plot/genre style you prefer the most` I forgot to add the "horror" option.
+6. In the question `How do you want to see the world in the game?` I forgot to add "other" option with a free text field. It would be interesting to read.
+7. Some questions, which were supposed to be about strategy games, were formulated as questions about games in general. This confused some people. In the future, I will be more careful.
 
-3. В вопросе `How do you know about new games to play?` забыл вариант «магазины игр». После анализа ответов, сложилось впечатление, что надо давать по варианту на каждый магазин (Steam, GoG, Epic, Google Play, etc.). Возможно, даже на разные фичи магазинов (рекомендации, теги, главная страница).
-4. В том же вопросе стоило явно указать видео сервисы (YouTube, Twitch, etc.).
-5. В вопросе `Choose up to four shades of the plot/genre style you prefer the most` забыл добавить вариант «horror».
-6. В вопросе `How do you want to see the world in the game..` забыл добавить «свой вариант ответа», было бы интересно почитать.
-7. Некоторые вопросы, которые предполагались как вопросы о стратегических играх, сформулированы как вопросы об играх в целом. Это путало респондентов. В будущем буду внимательнее.
+## Search for respondents
 
-## Поиск респондентов
+I'm not a social person, participate only in a few communities. So it was difficult, but I tried :-)
 
-Я человек не социальный, мало в каких группах состою. Поэтому было сложно, но я старался :-)
+Because the game will be made (if it will be made) primarily for an English-speaking audience (the largest of the accessible for me), the survey was targeted at English-speaking people and places where they can be found.
 
-Так как игра будет делаться (если будет), в первую очередь, для англоязычной аудитории (самая большая из доступных), опрос нацеливался на англоговорящих людей и места, где их можно найти.
+I actively distributed the survey in:
 
-Анкету активно распространял в:
-
-- Reddit: subreddits + реклама
+- Reddit: subreddits + ads (single ad post)
 - Discord
 - Facebook
 - 4chan `/vst/`
-- Fido — попросил знакомого
-- По личным контактам: Telegram, форум «Сказки», знакомые, LinkedIn.
+- Fido — asked a friend
+- By personal contacts: Telegram, forum of my pet-project-game, acquaintances, LinkedIn.
 
-С учётом правил сообществ, конечно.
+Of course, with respect to the rules of the communities. I hope I didn't break any of them.
 
-Список площадок, где размещал анкету, шарить не буду, дабы не провоцировать спам. В любом случае, для ваших целей, скорее всего, надо искать другие сообщества.
+I will not share the list of groups where I placed the survey to avoid spamming. In any case, for your purposes, you probably need to look for other communities.
 
 ### Впечатления
 
