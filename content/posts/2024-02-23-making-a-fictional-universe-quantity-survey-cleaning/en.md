@@ -47,7 +47,7 @@ Preliminary testing of the survey is a must-have.
 
 The first version of the survey was a bit scary, especially in the stories section => it was completely reworked.
 
-Also, for example, initially I turned on option to shuffle the answers for each respondent (Google Forms has such feature), but after testing on friends, I turned it off. The options usually go in some logical order (for example, in descending order of realism), shuffling makes people constantly jump between semantically opposite parts of answers space. This leads to confusion and suffering.
+Also, for example, initially I turned on the option to shuffle answers in questions (Google Forms has such feature), but after testing on friends, I turned it off. The answers usually go in some logical order (for example, in descending order of realism), shuffling makes people constantly jump between semantically opposite parts of answers space. This leads to confusion and suffering of respondents, no one needs this.
 
 ### Made mistakes
 
