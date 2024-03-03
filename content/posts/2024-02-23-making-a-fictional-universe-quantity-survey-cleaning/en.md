@@ -88,59 +88,59 @@ Of course, with respect to the rules of the communities. I hope I didn't break a
 
 I will not share the list of groups where I placed the survey to avoid spamming. In any case, for your purposes, you probably need to look for other communities.
 
-### Впечатления
+### Impressions
 
-К сожалению, не додумался добавить вопрос «откуда пришли в анкету», поэтому эффективность разных каналов оцениваю на глаз.
+Unfortunately, I didn't think to add the question `Where did you come from?` to the survey, so I evaluate the effectiveness of different channels by eye.
 
-Сообщества на форумах рулят! Reddit — крутой, 4chan — даже круче :-)
+Communities on forums rule! Reddit — cool, 4chan — even cooler :-)
 
-На Reddit у многих subreddits в правилах явно указан запрет на опросы, но есть и те, где разрешено. Обычно, они более специализированные.
+On Reddit, many subreddits explicitly prohibit surveys in their rules, but there are those where it is allowed. Usually, they are more specialized.
 
-От 4chan ждал подставы, игнора или чего-нибудь нейтрального. Был приятно удивлён положительной реакцией. «На хуй», конечно, разок послали, но так, что я даже слезу ностальгии пустил.
+From 4chan I expected a setup, ignore, or something neutral. I was pleasantly surprised by the positive reaction. Of course, they sent me "to hell" once or twice, but in such a way that I even shed a tear of nostalgia.
 
-Facebook скорее мёртв.
+Facebook is more dead than alive.
 
-Discord огорожен и очень недружественен к любым ссылкам. Полон попсовых серваков. Но можно найти хорошие ламповые сообщества с отзывчивыми модераторами, большое им спасибо за работу.
+Discord is fenced off and very unfriendly to any links. Full of pop servers. But you can find good cozy communities with responsive moderators, many thanks to them for their work.
 
-Как искать чаты/группы для раскидывания анкеты в Telegram я не понял :-D
+I didn't understand how to search for chats/groups for distributing the survey in Telegram :-D
 
-Посмотрел на форумы и чаты Steam — они скорее мертвы.
+I looked at Steam forums and chats — they look like dead.
 
-Инфлюэнсерам, стримерам не писал.
+I didn't write to influencers, streamers.
 
-### Реклама на Reddit
+### Advertising on Reddit
 
-Запускал как страховку — боялся не набрать достаточное количество респондентов. Достаточность мерил на глаз, статистических расчётов не делал.
+I launched an add on Reddit as an isnsurance — I was afraid of not getting enough respondents.
 
 <!-- TODO: link to a vision documents post -->
-<!-- Так как текстовые посты на Reddit нельзя продвигать с оплатой за клик, пришлось взять [картинку из vision-документов]{post:making-a-fictional-universe-month-2}. -->
+Because Reddit does not allow promoting text posts with pay-per-click, I had to take an AI-generated image from one of my vision documents for the game.
 
-Таргетировал на конкретные большие subreddits, где не мог сделать пост по правилам сообществ.
+I targeted large computer-games-related subreddits where I couldn't make a post according to the their rules.
 
-Результат превзошёл ожидания. Теперь это мой [самый залайканый пост на Reddit](https://www.reddit.com/user/Tiendil/comments/1aklobf/im_making_a_game_where_you_play_as_the_chief/) — 58 лайков :-D
+The result exceeded expectations. Now this is my [most upvoted post on Reddit](https://www.reddit.com/user/Tiendil/comments/1aklobf/im_making_a_game_where_you_play_as_the_chief/) — 58 upvotes :-D Actually, I'm not sure if I should be proud of it, should make more of not-ad original posts.
 
-Навскидку, реклама привела от 30% до 50% респондентов. С ценой за ответ ~1$ плюс-минус. Но, как можно видеть по статистике, переходов на анкету было значительно больше, чем заполненных анкет — много людей отваливается.
+Of the top of my head, the ad brought from 30% to 50% of the respondents. With a price per answer of ~1$ plus or minus. But, as you can see from the statistics, the number of clicks on the post was significantly higher than the number of filled in surveys — many people drop out.
 
 /// brigid-images
 src = "./images/reddit-ads-statistics.png"
-caption = "Статистика рекламы на Reddit"
+caption = "Reddit ads statistics"
 ///
 
-Что я вынес из опыта рекламы:
+What I learned from the advertising experience:
 
-- Реклама с включёнными комментариями рулит, если вы готовы на них отвечать. Обязательная опция для инди разработчиков. Это даже пользователи в комментариях отмечали.
-- К ИИ арту, сделанному с минимальным старанием, люди относятся понимающе. Но есть небольшая доля негативных комментариев на эту тему.
-- Цена за клик удивительно низкая (?), что круто.
-- По-моему, пара человек зафоловила меня по итогам рекламного поста.
-- Буду пользоваться дальше.
+- Advertising with turned on comments rocks, if you are ready to answer them. A must-have option for indie developers. Even users in the comments noted this.
+- People understand and ok with the AI-generated art if it is made with some effort. But there is a small fraction of negative comments on this topic.
+- The price per click is surprisingly low (?), which is cool.
+- It seems to me that a couple of people followed me after the ad post.
+- I will continue to use Reddit ads.
 
-## Методика очистки данных
+## Data cleaning methodology
 
-Хочу поблагодарить всех, кто выбирал свободный вариант ответа и писал свои мысли. Я все их прочитал и сделал кучу заметок!
+First of all, I want to thank everyone who chose the free answer option and wrote their thoughts. I read them all and made a bunch of notes!
 
-На момент закрытия анкеты было получено 363 ответа. После нормализации и очистки данных осталось 304.
+At the moment of closing the survey, 363 answers were received. After normalization and cleaning, 304 remained.
 
-Ссылка на очищенные обезличенные (анонимизированные) данные будет в конце поста.
+The link to the cleaned anonymized data will be at the end of the post.
 
 ### Нормализация
 
