@@ -144,13 +144,13 @@ The link to the cleaned anonymized data will be at the end of the post.
 
 ### Normalization
 
-The goal of normalization is to prepare the data for analysis, remove ambiguities, and bring it to standard formats.
+The goal of normalization is to prepare the data for analysis, remove ambiguities, and bring values to standard formats.
 
 - All answers were converted to standard text or numeric values.
 - All columns with multiple choice answers were split into independent columns, one column per answer, with values 1 and 0.
 - All column names were replaced with identifiers:
-  - `q_<short_question_id>` for a question with a single answer.
-  - `q_<short_question_id>#<short_answer_id>` for each answer option in a multiple choice question.
+    - `q_<short_question_id>` for a question with a single answer.
+    - `q_<short_question_id>#<short_answer_id>` for each answer option in a multiple choice question.
 - Free answers with the meaning "all of the above", "can't choose", "nothing from the above" were interpreted as "nothing is chosen".
 - Free answers that were writing from game developer's point of view were ignored. The survey was about personal preferences in games, not about the right way to make games.
 - Some free answers could be converted into several predefined ones. This was not done because there was no time to write code, and there were only 6 such answers.
@@ -181,7 +181,7 @@ All answers not equal to `Yes` and `7` were excluded from the final sample.
 In addition, the following questionnaires were excluded:
 
 - Too large or too small age of a respondent (2 years, 100 years).
-- Too jocular or too aggressive free answers (`I sell drugs`, racist statements, etc.).
+- Too jocular or too aggressive free answers ("I sell drugs", racist statements, etc.).
 
 ### Notes
 
@@ -189,9 +189,9 @@ The questions with free answers significantly complicate data processing, but ar
 
 Most of the filled in surveys were removed from the cleaned data because of the question `Are you answering this survey with honesty?`.
 
-## Some answers and comments on some "free answers"
+## My answers and comments on some "free answers"
 
-Because I were not collecting contacts of the respondents, I want to answer a couple of questions that were asked in the free answers.
+Because I was not collecting contacts of the respondents, I want to answer a couple of questions that were asked in the free answers. And add some comments.
 
 > What's the need for magic elements? Do you think the kind of people interested in news will be interested as much in magical fantasy?
 
