@@ -183,19 +183,19 @@ In addition, the following questionnaires were excluded:
 - Too large or too small age of a respondent (2 years, 100 years).
 - Too jocular or too aggressive free answers (`I sell drugs`, racist statements, etc.).
 
-### Примечания
+### Notes
 
-Варианты со свободным ответом значительно усложняют обработку данных, но полезны — указывают на упущения, дают интересные инсайты, читать их интересно.
+The questions with free answers significantly complicate data processing, but are useful — they point out omissions, give interesting insights, and are interesting to read.
 
-Большинство респондентов отсеялось по вопросу о честности: `Are you answering this survey with honesty?`.
+Most of the filled in surveys were removed from the cleaned data because of the question `Are you answering this survey with honesty?`.
 
-## Ответы и комментарии на некоторые «свободные ответы»
+## Some answers and comments on some "free answers"
 
-Поскольку контактов респондентов я не собирал, хочу ответить на пару вопросов, которые задали в свободных ответах.
+Because I were not collecting contacts of the respondents, I want to answer a couple of questions that were asked in the free answers.
 
 > What's the need for magic elements? Do you think the kind of people interested in news will be interested as much in magical fantasy?
 
-Магические элементы могут быть нужны, чтобы снизить сложность проработки мира. Делать реалистический sci-fi мир сложно. Особенно для игр, когда интересность взаимодействия с миров начинает конфликтовать с реалистичностью его отображения. Магические элементы помогают сгладить эти противоречия.
+Magic elements can be required to reduce the complexity of world building. Making a realistic sci-fi world is really hard. Especially for games, when the fun of interacting with the world starts to conflict with the realism of its representation. Magic elements help to smooth out these contradictions.
 
 > "/vst/ is a terrible place to advertise on, just so you know.
 
