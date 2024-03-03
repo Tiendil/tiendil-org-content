@@ -51,7 +51,7 @@ Also, for example, initially I turned on the option to shuffle answers in questi
 
 ### Made mistakes
 
-I the process of collecting and processing the data I found a few mistakes made while preparing the survey.
+In the process of collecting and processing the data I found a few mistakes made while preparing the survey.
 
 1. I didn't add the question `Where did you come from?` — it would have been useful for analyzing the effectiveness of the survey distribution.
 2. In the question `Which kind of strategy games do you like the most?` I missed several options:
@@ -61,12 +61,12 @@ I the process of collecting and processing the data I found a few mistakes made 
     - wargames (and this?)
     - automatization (Factorio, Satisfactory, etc.)
 
-    Also, people often mentioned RPG, but I'm not sure if it makes sense to include such an answer in the strategy games survey.
+    Also, people often mentioned RPG, but I'm not sure if it makes sense to include such an answer as a separate variant of strategy games.
 
 3. In the question `How do you know about new games to play?` I missed the option "game stores". After analyzing the answers, I got the impression that there should be an option for each store (Steam, GoG, Epic, Google Play, etc.). Maybe even an option for each particular feature of the stores (recommendations, tags, home page).
 4. In the same question, it was worth explicitly specifying video services (YouTube, Twitch, etc.).
 5. In the question `Choose up to four shades of the plot/genre style you prefer the most` I forgot to add the "horror" option.
-6. In the question `How do you want to see the world in the game?` I forgot to add "other" option with a free text field. It would be interesting to read.
+6. In the question `How do you want to see the world in the game?` I forgot to add "other" option with a free text field. It would be interesting to read answers in it.
 7. Some questions, which were supposed to be about strategy games, were formulated as questions about games in general. This confused some people. In the future, I will be more careful.
 
 ## Search for respondents
@@ -81,7 +81,7 @@ I actively distributed the survey in:
 - Discord
 - Facebook
 - 4chan `/vst/`
-- Fido — asked a friend
+- Fido — asked a friend to write there
 - By personal contacts: Telegram, forum of my pet-project-game, acquaintances, LinkedIn.
 
 Of course, taking into account the rules of the communities.
