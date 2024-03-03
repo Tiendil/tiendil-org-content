@@ -1,8 +1,8 @@
 ---
-title = "Cleaning the results of the strategy players survey"
+title = "Cleaning up the results of the strategy players survey"
 tags = [ "practice", "development", "gamedev", "game-designe", "open-source", "world-builders"]
 published_at = "2024-02-23T12:00:00+00:00"
-description = "Cleaning the results of the survey about strategy games. Describing the methodology of data collection and processing. Publishing cleaned data."
+description = "Cleaning up the results of the survey about strategy games. Describing the methodology of data collection and processing. Publishing cleaned data."
 seo_image = "./images/cover.png"
 ---
 
@@ -39,7 +39,7 @@ The exact copy of the original survey: questions, answer options, comments. For 
 
 The scales in the questions are of the same size: 1..10. This helps respondents and me to less often switch brain between different gradations of the assessment. Plus, there will be less mistakes in data processing due to typos and copy-paste.
 
-In the questions with multiple choices, the number of choices was limited to 1/3 of the available ones. There is no deep idea behind 1/3, I just choose the standard rule based on logic: "1/2 is too much, 1/4 is too little" — a matter of taste.
+In multiple-choice questions, the number of selectable options was limited to a 1/3 of the available ones. There is no deep idea behind 1/3, I just choose the standard rule based on logic: "1/2 is too much, 1/4 is too little" — a matter of taste.
 
 ### Validating the survey on friends
 
@@ -71,7 +71,7 @@ I the process of collecting and processing the data I found a few mistakes made 
 
 ## Search for respondents
 
-I'm not a social person, participate only in a few communities. So it was difficult, but I tried :-)
+I am not very social and a member of only a few communities. So it was difficult, but I tried :-)
 
 Because the game will be made (if it will be made) primarily for an English-speaking audience (the largest of the accessible for me), the survey was targeted at English-speaking people and places where they can be found.
 
@@ -84,7 +84,7 @@ I actively distributed the survey in:
 - Fido — asked a friend
 - By personal contacts: Telegram, forum of my pet-project-game, acquaintances, LinkedIn.
 
-Of course, with respect to the rules of the communities. I hope I didn't break any of them.
+Of course, taking into account the rules of the communities.
 
 I will not share the list of groups where I placed the survey to avoid spamming. In any case, for your purposes, you probably need to look for other communities.
 
@@ -134,7 +134,7 @@ What I learned from the advertising experience:
 - It seems to me that a couple of people followed me after the ad post.
 - I will continue to use Reddit ads.
 
-## Data cleaning methodology
+## Cleaning up methodology
 
 First of all, I want to thank everyone who chose the free answer option and wrote their thoughts. I read them all and made a bunch of notes!
 
@@ -162,14 +162,14 @@ To the question `How do you know about new games to play?` the options `game_sto
 
 To the question `Maximum size of your news agency` the option `small_or_automanage` was added for answers in the spirit of "if with automation, then large size, otherwise small", and "if it will be large, automation is required to protect me from micromanagement".
 
-### Cleaning
+### Cleaning up
 
 /// brigid-images
 src = "./images/honesty.png"
 caption = "Surprisingly many people are not ready to honestly answer questions."
 ///
 
-The goal of cleaning is to remove incorrect data sets — questionnaires filled in poorly in jest or deliberately. Of course, it is impossible to determine how a person treated the survey with 100% accuracy. But it is possible, using heuristics, to select questionnaires that were most likely filled in poorly.
+The goal of cleaning up is to remove incorrect data sets — questionnaires filled in poorly in jest or deliberately. Of course, it is impossible to determine how a person treated the survey with 100% accuracy. But it is possible, using heuristics, to select questionnaires that were most likely filled in poorly.
 
 For this, the following questions were added:
 
@@ -224,7 +224,7 @@ and
 
 > I work at a news agency for real. I'll make sure to follow this project.
 
-These are a lot of such comments. I'm very pleased to read them, it means that I'm on the right track.
+These are a lot of such comments. In my opinion, this is cool; it means I've hit on something interesting.
 
 ## Some fan statistics
 
@@ -246,6 +246,6 @@ The cleaned anonymized (depersonalized) data can be found in the [repository](ht
 
 ## Conclusion
 
-Thank you to everyone who took the time to fill in the survey, and to all moderators who allowed me to place the survey in their communities.
+Thank you to all survey participants, and to the moderators who interacted with me and shared the links.
 
 Special thanks to my wife — [Yuliya](https://burankova.org/) — for checking my work on data cleaning.
