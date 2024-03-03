@@ -82,7 +82,7 @@ I actively distributed the survey in:
 - Facebook
 - 4chan `/vst/`
 - Fido — asked a friend to write there
-- By personal contacts: Telegram, forum of my pet-project-game, acquaintances, LinkedIn.
+- By personal contacts: Telegram, forum of my pet-project-game, friends, LinkedIn.
 
 Of course, taking into account the rules of the communities.
 
@@ -136,7 +136,7 @@ What I learned from the advertising experience:
 
 ## Cleaning up methodology
 
-First of all, I want to thank everyone who chose the free answer option and wrote their thoughts. I read them all and made a bunch of notes!
+First of all, I want to thank everyone who chose the free answer options and wrote their thoughts. I read them all and made a bunch of notes!
 
 At the moment of closing the survey, 363 answers were received. After normalization and cleaning, 304 remained.
 
