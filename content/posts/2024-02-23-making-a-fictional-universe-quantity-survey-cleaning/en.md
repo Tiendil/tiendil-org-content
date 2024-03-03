@@ -199,53 +199,53 @@ Magic elements can be required to reduce the complexity of world building. Makin
 
 > "/vst/ is a terrible place to advertise on, just so you know.
 
-У меня не было задачи продвижения чего-либо, так как пока нечего продвигать.
+I didn't have a goal to promote anything, as there is nothing to promote yet.
 
-В остальном, результаты говорят, что `/vst/` — отличное место, чтобы получить обратную связь. Хорошее, отзывчивое сообщество со своей культурой.
+In general, the results say that `/vst/` is a great place to get feedback. A good, responsive community with its own culture.
 
 > Just in relation to the ""realistic journalism"", are we on about like current rag journos, or actual journos? the ones making it on the RSF website after getting shot by Iraqi militiamen, instead of the other journalists using a 10 second social media clip to try and get people throwing bricks at police vans.
 
-Думаю, реалистичное отображение журналистики должно включать оба варианта.
+I think a realistic representation of journalism should include both poles.
 
-Конечно, можно уделять разное внимание аспектам этой профессии, но если говорить о реалистичном отображении, то надо показывать все стороны.
+Of course, we may pay different attention to different aspects of this profession, but if we are talking about a realistic representation, then we need to show all sides.
 
-Лично мне хотелось бы глубже копнуть в крутую опасную журналистику, но это сложная штука, требует много труда и налагает определённую ответственность. Посмотрим.
+Personally, I would like to dig deeper into cool dangerous journalism, but this is a difficult thing, requires a lot of work, and imposes a certain responsibility. We'll see how it goes.
 
 > I know nothing of what you're making but answering the questions made me imagine something for myself"
 
-Так и задумывалось.
+That's exactly what I wanted to achieve.
 
-- Первая часть анкеты — техническая и чёткая, её можно оформлять сухо.
-- Вторая часть анкеты про опыт, который люди хотят получать от игр. Опыт не может быть «сухим», «бездушным». Поэтому формулировки должны пробуждать фантазию, заставлять представлять «а как бы оно было, если бы». Надеюсь у меня получилось.
+- The first part of the survey is technical and clear, it can be formalized dryly.
+- The second part of the survey is about the experience that people want to get from the game. The experience cannot be "dry", "soulless". Therefore, the formulations should awaken the imagination, make you imagine "what if it was like this". I hope I succeeded.
 
 > make this game such that it inspire the real journalists to do there jobs properly
 
-и
+and
 
 > I work at a news agency for real. I'll make sure to follow this project.
 
-Много подобных комментариев. На мой взгляд это круто, значит я что-то нащупал.
+These are a lot of such comments. I'm very pleased to read them, it means that I'm on the right track.
 
-## Небольшая фановая статистика
+## Some fan statistics
 
-После подсчёта и группировки ответов из последней секции, появились такие результаты:
+After counting and grouping the answers from the last section of the survey, the following results appeared:
 
-- Пожеланий удачи: 86
-- Жду игру: 38
-- Интересный концепт: 36
-- Отличный опрос: 9
-- Готов быть тестером: 3
-- Оставлено ников для добавления в credits: 289 ~ 80% отвечавших
-- Оставлено ответов на вопрос `Write here anything you want to add`: 203 ~ 56%
+- Wishes of good luck: 86
+- Waiting for the game: 38
+- Interesting concept: 36
+- Great idea: 9
+- Ready to be a beta tester: 3
+- Left nicknames for adding to credits: 289 ~ 80% of respondents
+- Left answers to the question `Write here anything you want to add`: 203 ~ 56%
 
-Все комментарии очень позитивные.
+All comments are very positive.
 
-## Очищенные данные
+## Cleaned data
 
-Очищенные обезличенные (анонимизированные) данные можно найти в [репозитории](https://github.com/Tiendil/world-builders-2023/tree/main/quantity-research).
+The cleaned anonymized (depersonalized) data can be found in the [repository](https://github.com/Tiendil/world-builders-2023/tree/main/quantity-research).
 
-## Заключение
+## Conclusion
 
-Спасибо всем участникам опроса, всем модераторам, которые со мной общались и шарили ссылки.
+Thank you to everyone who took the time to fill in the survey, and to all moderators who allowed me to place the survey in their communities.
 
-Отдельное спасибо жене — [Юле](https://burankova.org/) — за проверку моей работы по очистке данных.
+Special thanks to my wife — [Yuliya](https://burankova.org/) — for checking my work on data cleaning.
