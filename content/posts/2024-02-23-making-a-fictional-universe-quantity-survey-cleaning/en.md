@@ -142,25 +142,25 @@ At the moment of closing the survey, 363 answers were received. After normalizat
 
 The link to the cleaned anonymized data will be at the end of the post.
 
-### Нормализация
+### Normalization
 
-Задача нормализации — подготовить данные к анализу, убрать неоднозначности, привести к стандартным форматам.
+The goal of normalization is to prepare the data for analysis, remove ambiguities, and bring it to standard formats.
 
-- Все ответы приведены к стандартным текстовым или числовым значениям.
-- Все колонки ответов с выбором нескольких вариантов разбиты на независимые колонки, по колонке на вариант, со значениями 1 и 0.
-- Все названия колонок заменены на идентификаторы:
-  - `q_<short_question_id>` для вопроса с одним вариантом ответа.
-  - `q_<short_question_id>#<short_answer_id>` для каждого варианта ответа в вопросе с выбором нескольких ответов.
-- Все свободные ответы со смыслом «всё из перечисленного», «не могу выбрать», «ничего из перечисленного» трактуются как «ничего не выбрано».
-- Свободные ответы, написанные с позиции разработчика игр, игнорировались, так как ожидается именно личное мнение о том что нравится, а не профессиональное «как правильно делать».
-- Некоторые свободные ответы можно было конвертировать в несколько предопределённых. Это не делалось, так как нет времени писать код, а таких ответов только 6.
-- Для всех остальных свободных ответов выбирался наиболее близкий вариант из предложенных в вопросе вариантов. В некоторых случаях добавлялся новый вариант ответа. Например, в случае тактических игр.
+- All answers were converted to standard text or numeric values.
+- All columns with multiple choice answers were split into independent columns, one column per answer, with values 1 and 0.
+- All column names were replaced with identifiers:
+  - `q_<short_question_id>` for a question with a single answer.
+  - `q_<short_question_id>#<short_answer_id>` for each answer option in a multiple choice question.
+- Free answers with the meaning "all of the above", "can't choose", "nothing from the above" were interpreted as "nothing is chosen".
+- Free answers that were writing from game developer's point of view were ignored. The survey was about personal preferences in games, not about the right way to make games.
+- Some free answers could be converted into several predefined ones. This was not done because there was no time to write code, and there were only 6 such answers.
+- For all other free answers, the closest option from the predefined ones was chosen. In some cases, a new answer option was added. For example, in the question about strategy games, the option `tactics` was added.
 
-В вопрос `Which kind of strategy games do you like the most? Select up to four items.` добавлен вариант `tactics`.
+To the question `Which kind of strategy games do you like the most? Select up to four items.` the option `tactics` was added.
 
-В вопрос `How do you know about new games to play?` добавлены варианты: `game_stores`, `video_services`, `free_search` (в Google), `do_not_search` (никогда не ищу).
+To the question `How do you know about new games to play?` the options `game_stores`, `video_services`, `free_search` (in Google), `do_not_search` (never search) were added.
 
-В вопрос `Maximum size of your news agency` добавлен вариант `small_or_automanage` для ответов в духе «если с автоматизацией, то большой размер, иначе маленький», и «если будет большой размер, нужна автоматизация, чтобы защититься от микроменеджмента».
+To the question `Maximum size of your news agency` the option `small_or_automanage` was added for answers in the spirit of "if with automation, then large size, otherwise small", and "if it will be large, automation is required to protect me from micromanagement".
 
 ### Очистка
 
