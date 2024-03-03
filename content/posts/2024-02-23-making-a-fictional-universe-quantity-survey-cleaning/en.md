@@ -162,26 +162,26 @@ To the question `How do you know about new games to play?` the options `game_sto
 
 To the question `Maximum size of your news agency` the option `small_or_automanage` was added for answers in the spirit of "if with automation, then large size, otherwise small", and "if it will be large, automation is required to protect me from micromanagement".
 
-### Очистка
+### Cleaning
 
 /// brigid-images
 src = "./images/honesty.png"
-caption = "Поразительно много людей не готовы честно отвечать на вопросы."
+caption = "Surprisingly many people are not ready to honestly answer questions."
 ///
 
-Задача очистки — убрать некорректные наборы данных — анкеты, заполненные плохо в шутку или сознательно. Конечно, нельзя на 100% определить, как человек относился к заполнению анкеты. Но можно, с помощью эвристик, выбрать анкеты, которые с большой вероятностью заполнены плохо.
+The goal of cleaning is to remove incorrect data sets — questionnaires filled in poorly in jest or deliberately. Of course, it is impossible to determine how a person treated the survey with 100% accuracy. But it is possible, using heuristics, to select questionnaires that were most likely filled in poorly.
 
-Для этого были добавлены вопросы:
+For this, the following questions were added:
 
-- `Are you answering this survey with honesty?` — вопрос на внимательность, выявление неуверенных респондентов, шутников. Кроме того, ответив верно на этот вопрос респондент берёт на себя обязательство отвечать верно в будущем. Добавил немного психологии :-)
-- `Are you still with us? Select the correct answer for 2+5 =` — отсеиваем заснувших или прокликивающих респондентов. Странно, но тут было значительно меньше неправильных ответов, чем в первом вопросе.
+- `Are you answering this survey with honesty?` — a question for attentiveness, identifying uncertain respondents, jokers. In addition, by answering this question correctly, the respondent takes on the obligation to answer correctly in the future. Added a little psychology :-)
+- `Are you still with us? Select the correct answer for 2+5 =` — weeded out sleeping or mindlessly clicking respondents. Strangely, there were significantly fewer incorrect answers here than in the first question.
 
-Все ответы не равные `Yes` и `7` приводили к исключению анкеты из итоговой выборки.
+All answers not equal to `Yes` and `7` were excluded from the final sample.
 
-Кроме того, исключались следующие анкеты:
+In addition, the following questionnaires were excluded:
 
-- Слишком большой или слишком малый возраст (2 года, 100 лет).
-- Чрезмерно шутливые или агрессивные свободные ответы («продаю наркотики», расистские высказывания, etc.).
+- Too large or too small age of a respondent (2 years, 100 years).
+- Too jocular or too aggressive free answers (`I sell drugs`, racist statements, etc.).
 
 ### Примечания
 
