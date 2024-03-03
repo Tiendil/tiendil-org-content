@@ -1,52 +1,56 @@
 ---
-title = "Чистим результаты опроса игроков в стратегии"
+title = "Cleaning the results of the strategy players survey"
 tags = [ "practice", "development", "gamedev", "game-designe", "open-source", "world-builders"]
 published_at = "2024-02-23T12:00:00+00:00"
-description = "Чистим результаты опроса о стратегических играх. Описываю методику сбора и обработки данных. Публикую очищенные данные."
+description = "Cleaning the results of the survey about strategy games. Describing the methodology of data collection and processing. Publishing cleaned data."
 seo_image = "./images/cover.png"
 ---
 
 /// brigid-images
 src = "./images/cover.png"
-caption = "Опрос был нацелен на любителей стратегических игр, удалось попасть достаточно точно."
+caption = "The survey was targeted at the fans of strategy games. It seems, I was able to find audience quite accurately."
 ///
 
-Недавно просил вас [пройти опрос о стратегических играх]{post:making-a-fictional-universe-quantity-survey}.
+Recently I asked you to fill in a survey about strategy games.
 
-Спасибо всем, кто уделил этому время. Пора делиться результатами.
+Thank you to everyone who took the time to do this. It's time to share the results.
 
-Было заполнено 363 анкеты. После нормализации и очистки данных осталось 304.
+363 respondents filled in the survey. 304 answers remained after data normalization and cleaning.
 
-Будет два поста:
+There will be two posts:
 
-- Этот — о методике сбора и обработки данных, их очистке. Будут пошарены очищенные данные.
-- Следующий — [об анализе результатов]{post:making-a-fictional-universe-quantity-survey-processing}.
+- This one — about the methodology of data collection and processing, and their cleaning. Cleaned data will be shared.
+- The next one — about the analysis of the results.
+
+<!-- TODO: add link to the processing post -->
 
 <!-- more -->
 
-## Опрос
+## The survey
 
-/// details | Оригинальный опросник
+/// details | The original survey
     open: false
 
-Точная копия оригинального опроса: вопросы, варианты ответов, комментарии. Для истории.
+The exact copy of the original survey: questions, answer options, comments. For history.
 
 --8<-- "./original_survey.md"
 ///
 
-Шкалы в вопросах одинакового размера: 1..10. Благодаря этому респондентам и разработчику не надо переключать мозг между градациями оценки. Плюс, при обработке данных делаешь меньше ошибок из-за опечаток и копипасты.
 
-В вопросах с множественным выбором количество выбираемых вариантов было ограничено в 1/3 от доступных. Глубокой идеи за 1/3 нет, просто выбрал стандартное правило по соображению «1/2 — много, 1/4 — мало» — вкусовщина.
+The scales in the questions are of the same size: 1..10. This helps respondents and me to less often switch brain between different gradations of the assessment. Plus, there will be less mistakes in data processing due to typos and copy-paste.
 
-### Проверка опроса на знакомых
+In the questions with multiple choices, the number of choices was limited to 1/3 of the available ones. There is no deep idea behind 1/3, I just choose the standard rule based on logic: "1/2 is too much, 1/4 is too little" — a matter of taste.
 
-Предварительное тестирование опроса — обязательная штука.
+### Validating the survey on friends
 
-Первый вариант опроса был страшненьким, особенно в секции историй — она была полностью переработана.
+Preliminary testing of the survey is a must-have.
 
-Также, например, было включено перемешивание вариантов ответа для каждого респондента (Google Forms даёт такую опцию), но после тестирования отключил его. Варианты обычно идут в какой-то логичной последовательности (например, в порядке убывания реалистичности), перемешивание заставляет людей прыгать между противоположными частями области значений вопроса. Это приводит к путанице и страданиям.
+The first version of the survey was a bit scary, especially in the stories section => it was completely reworked.
 
-### Допущенные ошибки
+Also, for example, initially I turned on option to shuffle the answer options for each respondent (Google Forms has such feature), but after testing on friends, I turned it off. The options usually go in some logical order (for example, in descending order of realism), shuffling makes people constantly jump between semantically opposite parts of answers space. This leads to confusion and suffering.
+
+### Made mistakes
+
 
 В процессе сбора и обработки данных нашёл несколько ошибок.
 
@@ -109,7 +113,8 @@ Discord огорожен и очень недружественен к любы�
 
 Запускал как страховку — боялся не набрать достаточное количество респондентов. Достаточность мерил на глаз, статистических расчётов не делал.
 
-Так как текстовые посты на Reddit нельзя продвигать с оплатой за клик, пришлось взять [картинку из vision-документов]{post:making-a-fictional-universe-month-2}.
+<!-- TODO: link to a vision documents post -->
+<!-- Так как текстовые посты на Reddit нельзя продвигать с оплатой за клик, пришлось взять [картинку из vision-документов]{post:making-a-fictional-universe-month-2}. -->
 
 Таргетировал на конкретные большие subreddits, где не мог сделать пост по правилам сообществ.
 
