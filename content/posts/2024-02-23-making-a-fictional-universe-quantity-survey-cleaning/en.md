@@ -112,8 +112,7 @@ I didn't write to influencers, streamers.
 
 I launched an add on Reddit as an isnsurance — I was afraid of not getting enough respondents.
 
-<!-- TODO: link to a vision documents post -->
-Because Reddit does not allow promoting text posts with pay-per-click, I had to take an AI-generated image from one of my vision documents for the game.
+Because Reddit does not allow promoting text posts with pay-per-click, I had to take an AI-generated image from my [vision document for the game]{post:@choose-nearest-language:making-a-fictional-universe-month-2}.
 
 I targeted large computer-games-related subreddits where I couldn't make a post according to the their rules.
 
