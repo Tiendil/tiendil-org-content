@@ -71,32 +71,32 @@ Groupped samples from qualitative questions:
 - Competitors: few, a lot; other options are too few to be interpreted in any way.
 - Agency size: small ("up to 10", "up to 25", "up to 50", "small or automation"), big ("up to 100", "bureaucratic empire", "small or automation"). Note that respondents who chose "small or automation" go to both groups. This option was added based on the results of processing free responses.
 
-**Note:**
-**Обратите внимание**, несмотря на группировку некоторых ответов, на соответствующих графиках они разделены. Если в вопросе было 10 вариантов ответов, столько колонок вы и увидите на графике.
+**Note**, despite some answers are grouped, they are still separated on the corresponding charts. If there were 10 answer options in the question, you will see 10 columns on the chart.
 
-### Игроки: hard, core, casual
+### Players: hard, core, casual
 
-После долгой медитации на графики по количественным вопросам, пришёл к выводу, что всех игроков можно разделить на три группы (очевидные постфактум):
+After a long meditation on the charts for quantitative questions, I came to the conclusion that all players can be divided into three groups (obvious post factum):
 
-- `Hard` — самые отъявленные любители стратегий, выкручивают всё на максимум: сложность, отыгрыш, размер мира, менеджмент, etc.
-- `Core` — преданные любители стратегий, играют много, любят стратегии, но без крайностей.
-- `Casual` — все остальные.
+- `Hard` — the biggest of strategies: push everything to the maximum: complexity, role-playing, world size, management, etc.
+- `Core` — dedicated strategy lovers: play a lot, love strategies, but without extremes.
+- `Casual` — all the rest.
 
-Количественных вопросов много. Очевидно, не каждый человек будет выбирать ответы специфичные только для одной группы. Чтобы явно разделить респондентов по группам сделал следующее:
+Quantitative questions are many. Obviously, not every person will choose answers specific only to one group. To clearly separate respondents into groups, I did the following:
 
-- Разбил ответы в каждом количественном вопросе на три группы: `Hard`, `Core`, `Casual`.
-- Для каждого респондента посчитал, сколько раз он попал в каждую из групп.
-- Каждому респонденту назначил группу, в которую он попал чаще всего.
-- Если количество попаданий было одинаковым, то группа выбиралась в порядке приоритета: `Core`, `Casual`, `Hard`.
+- Divided the answers in each quantitative question into three groups: `Hard`, `Core`, `Casual`.
+- For each respondent, I counted how many times they fell into each group.
+- For each respondent, I assigned a group they fell into most often.
+- When the number of "points" was the same, the group was chosen in the order of priority: `Core`, `Casual`, `Hard`.
 
-Вы можете посмотреть группы в выборках `* Игроки: <тип>`. Есть интересные различия. Например:
+You can see the groups in the samples `* Players: <type>`. There are interesting differences. For example:
 
-- `Core` игроки значительно больше любят жанр городских легенд, чем `Hard`, а последние больше любят документалистику, конспирологию и нуар.
-- Хардкорщиков больше среди молодёжи, а с возрастом стратеги слегка успокаиваются. Но, скорее всего, просто не могут упарываться в игры из-за работы и семьи.
-- Хардкорщики считают, что несколько каналов распространения информации, для агентства, буквально обязательны. `Core` игроки считают это важным элементом, но не принципиальным. С реализмом журналистики та же ситуация.
-- `Core` игроки предпочтут управлять небольшим агентством, `Hard` — строить бюрократическую империю.
+- `Core` players prefer the urban legends genre significantly more than `Hard` players, who in turn favor documentaries, conspiracy theories, and noir more.
+- There are more `Hard` players among the youth, and, with age, strategy lovers "calm down" a bit. But, most likely, they just can't spend the same amount of time on games because of work and family.
+- `Hard` players believe that several channels of information distribution are literally mandatory for the news agency. `Core` players consider this an important element, but not essential. The same situation with the realism of journalism.
+- `Core` players prefer to manage a small agency, `Hard` players — to build a bureaucratic empire.
 
-## Общие закономерности
+## General trends
+
 
 Удалось попасть в любителей стратегий на PC, что хорошо.
 
