@@ -6,8 +6,6 @@ description = "In this post you will find an interactive dashboard to explore th
 seo_image = "./images/cover.jpg"
 ---
 
-<!-- TODO: forgot to research playing platform -->
-
 /// brigid-images
 src = "./images/cover.jpg"
 caption = "Looking at the survey data and trying to find something useful."
