@@ -707,41 +707,41 @@ heatmapPlot('plot-heatmap-absolute', 'absolute');
 heatmapPlot('plot-heatmap-norm', 'norm');
 </script>
 
-## Как может выглядеть игра и целевая аудитория
+## What the game and the target audience could look like
 
-У меня получилось найти 3 более-менее чётких характеристики игроков:
+I managed to find three more or less clear characteristics of players:
 
-- По вовлечённости в игру: `Hard`, `Core`, `Casual`.
-- По предпочитаемому размеру агентства: `маленькое`, `большое`.
-- По предпочитаемому количеству конкурентов: `мало`, `много`.
+- By involvement in the game: `Hard`, `Core`, `Casual`.
+- By preferred size of the agency: `small`, `big`.
+- By preferred number of competitors: `few`, `many`.
 
-Выделить группы по механикам, миру и сюжетам не получилось.
+I couldn’t manage to identify groups based on mechanics, world, and plots, but that doesn’t mean they don’t exist.
 
-Поэтому попробуем посмотреть на комбинации характеристик и их самые популярные предпочтения.
+So, let's try to look at the combinations of characteristics and their most popular preferences.
 
-### Все выделенные группы
+### All possible groups
 
-Смотреть будем только на игроков, которые активно играют в стратегии (фанатов стратегий, ответивших 7 и более на соответствующий вопрос). Их большинство в опросе, смотрите фильтр «Играю в стратегии: активно [7..10]».
+We will look only at players who actively play strategies (fans of strategies who answered 7 or more to the corresponding question). They are the majority in the survey, see the filter "Play strategies: actively [7..10]".
 
-`Casual` игроков я исключил почти сразу — это самая маленькая группа (по сравнению с `Hard` и `Core`) и интерпретируется скорее как «все осальные». Плюс, делать игру одновременно и для `Hard`, и для `Casual` — сложно, а хардкорщики намного более интересная группа, особенно в плане работы с сообществом.
+`Casual` players were excluded almost immediately — this is the smallest group (compared to `Hard` and `Core`) and is iterpreted more as "all the rest". Plus, making a game for both `Hard` and `Casual` players at the same time is difficult, and hardcore players are much more interesting, especially in terms of working with the community.
 
-В итоге получилось 8 групп.
+As a result, we have 8 groups.
 
 <div id="table-final-groups-raw" class=""></div>
 
-### Объединим группы
+### Uniting groups
 
-Делать игру для `Hard` аудитории рисковано и сложно. На мой взгляд, разумнее делать для `Core` (тем более она больше) и по возможности захватывать `Hard`.
+Making a game for a `Hard` audience is risky and difficult. In my opinion, it is more reasonable to make a game for `Core` (especially since it is larger) and, if possible, capture `Hard` players.
 
-Можно обратить внимание, что предпочтения `Hard` и `Core` игроков близки для одинаковых размеров агентств и количества конкурентов. Поэтому можно объединять их в одну группу.
+You can notice that the preferences of `Hard` and `Core` players are close for the same sizes of agencies and the number of competitors. Therefore, they can be combined into one group.
 
-Сочетание свойств «маленькое агентство» + «много конкурентов» выглядит странным с точки зрения геймплея. Это же видно по размерам итоговых групп, поэтому, на мой взгляд, его можно убрать из рассмотрения.
+The combination of the properties "small agency" + "many competitors" looks strange in terms of gameplay. This is also could be seen from the sizes of the final groups, so, in my opinion, it can be removed from consideration.
 
-В итоге у нас получится три типа возможной игры.
+As a result, we will have three types of possible games.
 
-Посмотреть их свойства можно по фильтрам «* Игра: <номер группы>».
+You may see the properties of the groups using the filters "Game: <group number>".
 
-В целом, общая картина предпочтений в механиках, мире и сюжете понятна, но есть нюанс, на который мы посмотрим чуть ниже.
+The whole picture of preferences in mechanics, world, and plot is clear, but there is a nuance, which we will look at below.
 
 <div id="table-final-groups-basic"></div>
 
