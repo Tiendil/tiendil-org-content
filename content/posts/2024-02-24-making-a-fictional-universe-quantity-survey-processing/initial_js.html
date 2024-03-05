@@ -470,11 +470,27 @@ const filters = {
         name: 'Players',
         filter: (row) => row['q_is_game_developer'] === 'no'
     },
-    'occupationEmployment': {
-        name: 'Occupation: Employment',
-        filter: (row) => row['q_occupation'] === 'employment'
+   'playOnPC': {
+     name: 'Play on: PC',
+     filter: (row) => row['q_playing_on#pc'] === 1
+   },
+   'playOnConsoles': {
+     name: 'Play on: Consoles',
+     filter: (row) => row['q_playing_on#consoles'] === 1
+   },
+   'playOnMobileDevices': {
+     name: 'Play on: Mobile devices',
+     filter: (row) => row['q_playing_on#mobile_devices'] === 1
+   },
+    'playOnMobileConsoles': {
+      name: 'Play on: Mobile consoles',
+      filter: (row) => row['q_playing_on#mobile_consoles'] === 1
     },
-    'occupationStudent': {
+   'occupationEmployment': {
+     name: 'Occupation: Employment',
+     filter: (row) => row['q_occupation'] === 'employment'
+   },
+   'occupationStudent': {
         name: 'Occupation: Student',
         filter: (row) => row['q_occupation'] === 'student'
     },
