@@ -490,7 +490,8 @@ function mapBudgetEffort(row) {
 barPlot('plot-budget-effort', mapBudgetEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### Управление отношениями
+
+### Relationship management
 
 ```
 How much effort do you want to put into managing relationships between the agency and everyone outside?
@@ -515,7 +516,7 @@ barPlot('plot-relationships-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 
 How much effort do you want to put into managing the office of your news agency?
 ```
 
-- Моя трактовка: офис нужен, но управлять им можно по-разному.
+- My interpretation: the office is required, but it may be managed in different ways.
 
 ---8<--- "./filter_selectors.html"
 
@@ -530,17 +531,17 @@ function mapRelationshipsEffort(row) {
 barPlot('plot-office-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-## Истории
+## Stories
 
-Четвёртая секция — предпочтения в историях, образе мира и сюжетов.
+The fourth section of the survey — preferences in stories, world image, and plots.
 
-Посмотрите на эти графики через выборки разных возростов. Отличия будут хорошо заметны.
+Look at these charts across samples of different ages. The differences will be clearly noticeable.
 
-К сожалению, выделить чёткие группы предпочтений не получилось. Возможно, проблема в формулировке вопроса, надо было на каждый тип сюжета и мира делать отдельную количественную шкалу. Но это существенно раздуло бы опрос, что могло сократить количество ответов. Небольшая выборка тоже играет свою роль.
+Unfortunately, I couldn't clearly identify groups of preferences. Maybe the problem is in the phrasing of the question; perhaps, it would be better to make a separate quantitative scale for each type of plot and world. However, this would significantly expand the survey and, therefore, reduce the number of responses. A small sample soze also plays a role.
 
-Я добавил один кастомный фильтр: «* Жанр: не про будущее» — респонденты, которые не выбирали «научную фантастику» или «киберпанк» в предпочитаемых жанрах.
+I added one custom filter: `* Genre: Not about the future` — respondents who did not choose "science fiction" or "cyberpunk" in the preferred genres.
 
-### Оттенки жанров и сюжетов
+### Shades of genres and plots
 
 ```
 Choose up to four shades of the plot/genre style you prefer the most.
@@ -554,7 +555,7 @@ Choose up to four shades of the plot/genre style you prefer the most.
 barPlot('plot-shades-of-genre', groupMapper(shadesOfGenreGroups), groupIds(shadesOfGenreGroups));
 </script>
 
-### Сложность моральных вопросов
+### Complexity of moral questions
 
 ```
 How complex should morale questions be in the game world?
@@ -573,7 +574,7 @@ function mapMoralComplexity(row) {
 barPlot('plot-moral-complexity', mapMoralComplexity, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### Стиль мира
+### Style of the world
 
 ```
 How do you want to see the world in the game of a modern news agency with some magic and sci-fi technology? Choose up to six options.
@@ -587,11 +588,11 @@ How do you want to see the world in the game of a modern news agency with some m
 barPlot('plot-world-style', groupMapper(worldStyleGroups), groupIds(worldStyleGroups));
 </script>
 
-## Группы игроков по хардкорности
+## Groups of players by hardcoreness
 
-Принцип разделения игроков по группам `Hard`, `Core`, `Casual` описан в начале поста.
+How I divided players into groups `Hard`, `Core`, `Casual` is described at the beginning of the post.
 
-### Распределение игроков по очкам `Hard` группы
+### Distribution of players by points of `Hard` group
 
 ---8<--- "./filter_selectors.html"
 
@@ -606,7 +607,7 @@ function mapMetaHard(row) {
 barPlot('plot-meta-hard', mapMetaHard, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### Распределение игроков по очкам `Core` группы
+### Distribution of players by points of `Core` group
 
 ---8<--- "./filter_selectors.html"
 
@@ -621,7 +622,7 @@ function mapMetaCore(row) {
 barPlot('plot-meta-core', mapMetaCore, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### Распределение игроков по очкам `Casual` группы
+### Distribution of players by points of `Casual` group
 
 ---8<--- "./filter_selectors.html"
 
@@ -636,7 +637,7 @@ function mapMetaCasual(row) {
 barPlot('plot-meta-casual', mapMetaCasual, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### Распределение игроков по группам
+### Distribution of players by groups
 
 ---8<--- "./filter_selectors.html"
 
@@ -651,13 +652,13 @@ function mapMetaEffort(row) {
 barPlot('plot-meta-effort', mapMetaEffort, ['casual', 'core', 'hard']);
 </script>
 
-## Радары
+## Radar charts
 
-Радарные графики позволяют проще смотреть общую картину выборки.
+Radar charts make it easier to see the overall picture of the sample.
 
-Оси радаров — количественные вопросы (включая возраст). Все ответы нормированы в интервал `[0, 1]`.
+The axes of the radars are quantitative questions (including age). All answers are normalized to the interval `[0, 1]`.
 
-### Медианы предпочтений
+### Medians of preferences
 
 ---8<--- "./filter_selectors.html"
 
@@ -667,7 +668,7 @@ barPlot('plot-meta-effort', mapMetaEffort, ['casual', 'core', 'hard']);
 scatterpolarPlot('plot-radar-median', 'median');
 </script>
 
-### Средние предпочтения
+### Averages of preferences
 
 ---8<--- "./filter_selectors.html"
 
@@ -677,24 +678,24 @@ scatterpolarPlot('plot-radar-median', 'median');
 scatterpolarPlot('plot-radar-average', 'average');
 </script>
 
-## Тепловые карты
+## Heatmaps
 
-По аналогии с радарами, две тепловые карты, чтобы смотреть корреляцию
+By analogy with radars, two heatmaps to look at the correlations.
 
-### Абсолютное количество респондентов
+### Absolute number of respondents
 
-Ячейка отображает количество респондентов из выборки с сочетанием выборов из колонки и строки.
+A cell displays the number of respondents from the sample with a combination of choices from the column and row.
 
 ---8<--- "./filter_selectors_single.html"
 ---8<--- "./heatmap_filter_selectors.html"
 
 <div id="plot-heatmap-absolute"></div>
 
-### Доля респондентов
+### Propotions of respondents
 
-Ячейка отображает долю респондентов из строки по отношению к количеству респондентов в колонке.
+A cell displays the number of respondents from the sample with a combination of choices from the column and row normalized to the number of respondents who chose an answer from the column.
 
-Это позволяет смотреть, например, долю любителей sci-fi среди любителей разных жанров стратегий.
+This allows you to look, for example, at the share of sci-fi fans among fans of different genres of strategies.
 
 ---8<--- "./filter_selectors_single.html"
 ---8<--- "./heatmap_filter_selectors.html"
