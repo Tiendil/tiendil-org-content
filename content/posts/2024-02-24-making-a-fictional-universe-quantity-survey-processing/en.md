@@ -48,27 +48,30 @@ To some charts I added very subjective comments: what to look at, what conclusio
 
 To make reading charts easier, for each chart I added the corresponding question from the survey.
 
-## Выборки
+## Samples
 
-**Обязательно смотрите на размеры выборок перед интерпретацией графика.** Размер выборки указан в квадратных скобках в конце её названия.
+You could find select boxes with samples at the top of each chart.
 
-Выборки переключаются глобально: замена в одном месте приведёт к замене во всех графиках. То есть на всех графиках вы всегда будете видеть сравнение одних и тех же выборок. Удобно выбирать группы людей и проходить по посту сверху вниз, смотря как они отличаются по различным критериям.
+**Be sure to look at the sizes of the samples before interpreting the chart.** The sizes are displayed in square brackets at the end of the sample name.
 
-Я старался именовать выборки понятно, но, на всякий случай, держите перед собой копию оригинального опроса.
+Samples are switched globally: choosing a sample in one place will lead to a change in all charts. That is, you will always see a comparison of the same samples on every chart. It is convenient to choose groups of people and go through the post from top to bottom, looking at how they differ across criteria.
 
-Какие выборки есть:
+I tried to name the samples clearly, but just in case, keep a copy of the original survey in front of you.
 
-- Для каждого варианта ответа на качественный вопрос есть фильтр. За исключением некоторых вопросов, которые будут указаны далее.
-- Для вопросов с предпочтениями в играх, стиле мира и сюжетов, кроме фильтров «люблю Х», сделаны фильтры «не фанат X».
-- Ответы на количественные вопросы сгруппированы, чтобы упростить анализ. Попавшие в группу значения указаны в квадратных скобках. Например `[1..6]`.
-- Есть несколько искусственных выборок. Их названия начинаются с `*`. Такие выборки описаны в отдельных главах.
+What samples are there:
 
-Сгруппированные выборки из качественных вопросов:
+- For each qualitative question, there is a filter. Except for some questions, which will be mentioned later.
+- For questions about preferences in games, style of the world, and style of the plot, besides the filters "I like X", there are filters "not a fan of X".
+- Answers to quantitative questions are grouped to simplify analysis. Values that fall into the group are indicated in square brackets. For example `[1..6]`.
+- There are several artificial samples. Their names begin with `*`. These samples are described in separate chapters.
 
-- Занятость: работаю, студент, другое (все остальные варианты)
-- Конкуренты: мало, много; остальных вариантов слишком мало.
-- Размер агентства: маленький («до 10», «до 25», «до 50», «маленькое или автоматизация»), большое («до 100», «бюрократическая имерия», «маленькое или автоматизация»). Обратите вниамние, респонденты с выбором «маленькое или автоматизация» попадают в обе группы. Это вариант добавлен по итогам обработки свободных ответов.
+Groupped samples from qualitative questions:
 
+- Occupation: employment, student, other (all other options).
+- Competitors: few, a lot; other options are too few to be interpreted in any way.
+- Agency size: small ("up to 10", "up to 25", "up to 50", "small or automation"), big ("up to 100", "bureaucratic empire", "small or automation"). Note that respondents who chose "small or automation" go to both groups. This option was added based on the results of processing free responses.
+
+**Note:**
 **Обратите внимание**, несмотря на группировку некоторых ответов, на соответствующих графиках они разделены. Если в вопросе было 10 вариантов ответов, столько колонок вы и увидите на графике.
 
 ### Игроки: hard, core, casual
