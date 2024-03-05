@@ -13,9 +13,9 @@ caption = "Looking at the survey data and trying to find something useful."
 
 Recently I conducted a survey about the preferences of strategy players.
 
-In the previous post we [cleaned up the data]{post:making-a-fictional-universe-quantity-survey-cleaning}, and in this one we will try to find something in them.
+In the previous post, we [cleaned up the data]{post:making-a-fictional-universe-quantity-survey-cleaning}, and in this one, we will try to find insights within it.
 
-In this post you will find an interactive dashboard with a bunch of charts, where you can compare two samples of your choice. There are many samples — for every taste and color, so you may click for a long time — share the patterns you find in [Telegram](https://t.me/tiendil_org_en) and [Discord](https://discord.gg/2JNHAV7uMP).
+In this post you will find an interactive dashboard with a bunch of charts, where you can compare two samples of your choice. There are many samples — for every taste and color, so feel free to explore and share the patterns you find on [Telegram](https://t.me/tiendil_org_en) and [Discord](https://discord.gg/2JNHAV7uMP)
 
 But be careful with the conclusions. There is little data, in some cases very little. For example, the difference in the sizes between the samples of male and female respondents is about tenfold => you should be very careful in interpreting the differences between them.
 
