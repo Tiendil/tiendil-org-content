@@ -6,6 +6,8 @@ description = "In this post you will find an interactive dashboard to explore th
 seo_image = "./images/cover.jpg"
 ---
 
+<!-- TODO: forgot to research playing platform -->
+
 /// brigid-images
 src = "./images/cover.jpg"
 caption = "Looking at the survey data and trying to find something useful."
@@ -283,7 +285,7 @@ barPlot('plot-play-strategies', mapPlayStrategies, [1, 2, 3, 4, 5, 6, 7, 8, 9, 1
 Which kind of strategy games do you like the most? Select up to four items.
 ```
 
-- Колонка «тактика» маленькая, так как я забыл указать этот вариант в анкете и в неё посчитаны только те, кто не поленился и указал это предпочтение текстом в свободном ответа. То есть любителей тактики много и это большой недостаток собранных данных.
+- The column "tactics" is small, because I forgot to specify this option in the survey and only those who did not bother to specify this preference in the free response are counted in it. So, there are many fans of tactics and this is a big drawback of the collected data.
 
 ---8<--- "./filter_selectors.html"
 
@@ -293,7 +295,7 @@ Which kind of strategy games do you like the most? Select up to four items.
 barPlot('plot-strategy-games', groupMapper(strategyGamesGroups), groupIds(strategyGamesGroups));
 </script>
 
-### Откуда узнаёте о новых играх
+### Sources of new games
 
 ```
 How do you know about new games to play?
@@ -307,7 +309,7 @@ How do you know about new games to play?
 barPlot('plot-know-about-games', groupMapper(knowAboutGamesGroups), groupIds(knowAboutGamesGroups));
 </script>
 
-### Сколько усилий вкладываете в игру
+### Playing effort
 
 ```
 How much effort do you usually spend while playing?
@@ -325,14 +327,14 @@ function mapPlayingEffort(row) {
 barPlot('plot-playing-effort', mapPlayingEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### Что вам нравится в играх больше всего
+### Like in games
 
 ```
 What do you like in games the most? Choose up to five items.
 ```
 
-- Неожиданно для меня, стратеги больше всего любят «исследование мира», а «создание игровых стратегий» только на втором месте. Для себя я трактую это как «разведку карты и разбирательство со свойствами игровых объектов и механиками», но было бы здорово копнуть глубже. Возможно, «исследование» надо разделить на несколько более конкретных предпочтений.
-- Также неожиданно для меня, в лидерах «история» и «отыгрывание роли».
+- Unexpectedly for me, strategy fans like to explore the world the most, and creating game strategies is only in the second place. For myself, I interpret "world exploration" as "map exploration and dealing with the properties of game objects and mechanics", but it would be great to dig deeper. Maybe "exploration" should be divided into several more specific preferences.
+- Also unexpectedly for me, "story" and "roleplaying" are in the leaders.
 
 ---8<--- "./filter_selectors.html"
 
@@ -342,13 +344,13 @@ What do you like in games the most? Choose up to five items.
 barPlot('plot-like-in-games', groupMapper(likeInGamesGroups), groupIds(likeInGamesGroups));
 </script>
 
-### Отношение к RPG элементам в играх
+### RPG elements
 
 ```
 I like RPG elements in strategy games: character progress, stories, personal abilities, etc.
 ```
 
-- Похоже, RPG элементы — обязательный элемент современных стратегий.
+- It looks like RPG elements are a mandatory element of modern strategies.
 
 ---8<--- "./filter_selectors.html"
 
@@ -363,11 +365,11 @@ function mapRPGElements(row) {
 barPlot('plot-rpg-elements', mapRPGElements, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-## Механики игры
+## Game mechanics
 
-Третья секция — ожидаемые механики (от игры про новостное агентство).
+The third section of the survey — expected mechanics (from the game about the news agency).
 
-### Количество каналов распространения новостей
+### Amount of channels to spread news
 
 ```
 In the old times, if you were to release a newspaper, you only release a newspaper. In our times, you should publish news in chats, tweet about them, record TikToks, make videos on YouTube, and so on.
@@ -388,7 +390,7 @@ function mapNewsChannelsEssential(row) {
 barPlot('plot-news-channels-essential', mapNewsChannelsEssential, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### Каналы распространения новостей
+### Preferred channels of news distribution
 
 ```
 Choose up to five channels of news distribution you would like to see in the game in the first place
@@ -402,7 +404,7 @@ Choose up to five channels of news distribution you would like to see in the gam
 barPlot('plot-news-channels-types', groupMapper(newsChannelsTypes), groupIds(newsChannelsTypes));
 </script>
 
-### Реализм журналистики
+### Journalistic realism
 
 ```
 How realistic should be shown the work of news agencies and journalists? Including all nuances.
@@ -421,7 +423,7 @@ function mapJournalismRealism(row) {
 barPlot('plot-journalism-realism', mapJournalismRealism, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### Количество соперничающих новостных агентств
+### Competitors
 
 ```
 How many concurrent news agencies should be in the game?
@@ -443,13 +445,13 @@ function mapCompetitors(row) {
 barPlot('plot-competitors', mapCompetitors, ['single', 'few', 'the_more_the_better', 'N/A']);
 </script>
 
-### Максимальный размер новостного агентства
+### Maximum size of your news agency
 
 ```
 Maximum size of your news agency. How many people (journalists, photographs, investigators, etc) do you want to manage?
 ```
 
-- На этом вопросе видно чёткое разделение между двумя вариантами игр. Утрируя, про «маленькое ламповое агентство» и про «международную корпорацию новостей».
+- We can see a clear division between two game variants on this question. Exaggerating, "game about a small cozy agency" and "game about an international news corporation".
 
 ---8<--- "./filter_selectors.html"
 
@@ -467,13 +469,13 @@ function mapMaxSize(row) {
 barPlot('plot-maximum-size', mapMaxSize, ['up_to_10', 'up_to_25', 'up_to_50', 'up_to_100', 'bureaucratic_empire', 'small_or_automanage', 'N/A']);
 </script>
 
-### Управление бюджетом новостного агентства
+### Budget management
 
 ```
 How much effort do you want to put into managing the budget of your news agency?
 ```
 
-- Это, пожалуй, вопрос с самыми размазанными по шкале ответами. Я трактую это как «никто не хочет возиться с бюджетами» и «хотим играть в журналистику, а не в бухгалтерию».
+- This is probably the question with the most spread-out answers on the scale. I interpret this as "some budget is required, but no one knows in what form it should be" and "we want to play journalism, not accounting".
 
 ---8<--- "./filter_selectors.html"
 
