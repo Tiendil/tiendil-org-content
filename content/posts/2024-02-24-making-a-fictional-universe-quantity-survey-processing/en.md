@@ -783,7 +783,7 @@ Unfortunately, I couldn't dig up anything interesting about the plot and the sty
 
 One more time, thank you to all survey participants, and to the moderators who interacted with me and shared the link to the survey.
 
-Special thanks to my wife — [Yulia](https://burankova.org/) — for her advices. But all the mistakes in the code and conclusions are mine :-)
+Special thanks to my wife — [Yulia](https://burankova.org/) — for her advice. But all the mistakes in the code and conclusions are mine :-)
 
 <!-- footer -->
 
