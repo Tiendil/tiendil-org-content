@@ -1,5 +1,5 @@
 ---
-titla = "Preferences of strategy players"
+title = "Preferences of strategy players"
 tags = [ "practice", "development", "gamedev", "game-designe", "open-source", "world-builders"]
 published_at = "2024-02-24T12:00:00+00:00"
 description = "In this post you will find an interactive dashboard to explore the preferences of strategy players."
@@ -77,8 +77,8 @@ Groupped samples from qualitative questions:
 
 After a long meditation on the charts for quantitative questions, I came to the conclusion that all players can be divided into three groups (obvious post factum):
 
-- `Hard` — the biggest of strategies: push everything to the maximum: complexity, role-playing, world size, management, etc.
-- `Core` — dedicated strategy lovers: play a lot, love strategies, but without extremes.
+- `Hard` — the biggest fans of strategies: push everything to the maximum: complexity, role-playing, world size, management, etc.
+- `Core` — dedicated strategy fans: play a lot, like strategies, but without extremes.
 - `Casual` — all the rest.
 
 Quantitative questions are many. Obviously, not every person will choose answers specific only to one group. To clearly separate respondents into groups, I did the following:
@@ -91,31 +91,30 @@ Quantitative questions are many. Obviously, not every person will choose answers
 You can see the groups in the samples `* Players: <type>`. There are interesting differences. For example:
 
 - `Core` players prefer the urban legends genre significantly more than `Hard` players, who in turn favor documentaries, conspiracy theories, and noir more.
-- There are more `Hard` players among the youth, and, with age, strategy lovers "calm down" a bit. But, most likely, they just can't spend the same amount of time on games because of work and family.
+- There are more `Hard` players among the youth, and, with age, strategy fans "calm down" a bit. But, most likely, they just can't spend the same amount of time on games because of work and family.
 - `Hard` players believe that several channels of information distribution are literally mandatory for the news agency. `Core` players consider this an important element, but not essential. The same situation with the realism of journalism.
 - `Core` players prefer to manage a small agency, `Hard` players — to build a bureaucratic empire.
 
-## General trends
+## General thoughts
 
+I managed to target PC strategy fans, which is good.
 
-Удалось попасть в любителей стратегий на PC, что хорошо.
+My hypothesis about the difference between game developers and players was not confirmed. There are no significant differences between the groups.
 
-Моя гипотеза о разнице между разработчиками игр и игроками не подтвердилась. Существенных отличий между группами не обнаружил.
+I don't see significant differences between fans of different genres of strategies.
 
-Существенных отличий между любителями разных жанров стратегий не обнаружил.
-
-Неожиданно для меня, стратеги сильно позитивно относятся к ролевым элементам.
+Unexpectedly for me, strategy fans are very positive about role-playing elements.
 
 <!-- more -->
 
----8<--- "./translations_ru.html"
+---8<--- "./translations_en.html"
 ---8<--- "./initial_js.html"
 
-## Основные характеристики респондентов
+## Main characteristics of the respondents
 
-Первая секция анкеты.
+The first section of the survey.
 
-### Пол
+### Gender
 
 ```
 Gender
@@ -133,7 +132,7 @@ function mapGender(row) {
 barPlot('plot-gender', mapGender, ['male', 'female', 'non_binary_other', 'prefer_not_to_say']);
 </script>
 
-### Возраст
+### Age
 
 ```
 Age
