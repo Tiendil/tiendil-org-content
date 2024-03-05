@@ -20,7 +20,7 @@ Thank you to everyone who took the time to do this. It's time to share the resul
 There will be two posts:
 
 - This one — about the methodology of data collection and processing, and their cleaning. Cleaned data will be shared.
-- The next one — about the analysis of the results.
+- The next one — about the [analysis of the results]{post:making-a-fictional-universe-quantity-survey-processing}.
 
 <!-- TODO: add link to the processing post -->
 
@@ -245,6 +245,6 @@ The cleaned anonymized (depersonalized) data can be found in the [repository](ht
 
 ## Conclusion
 
-Thank you to all survey participants, and to the moderators who interacted with me and shared the links.
+Thank you to all survey participants, and to the moderators who interacted with me and shared the link to the survey.
 
 Special thanks to my wife — [Yuliya](https://burankova.org/) — for checking my work on data cleaning.

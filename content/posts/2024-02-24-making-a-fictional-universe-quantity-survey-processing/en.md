@@ -39,10 +39,10 @@ The code for data processing can be found right in the sources of this page. Or 
 
 ## The structure of the dashboard
 
-The post can be divided into several parts:
+The post consists of a few parts:
 
 - Bar charts for each question, with the ability to compare two samples on them. In all charts, the Y-axis is percentages, the absolute values will be shown in the tooltips.
-- A pair of radar charts to look at the quantitative properties of the samples. They can also be used to compare two samples.
+- A pair of radar charts to look at the quantitative properties of the samples. They also can be used to compare two samples.
 - A pair of heat maps to look at correlations.
 - My thoughts on the target audience for the game, based on the data.
 
@@ -69,9 +69,9 @@ What samples are there:
 
 Groupped samples from qualitative questions:
 
-- Occupation: employment, student, other (all other options).
-- Competitors: few, a lot; other options are too few to be interpreted in any way.
-- Agency size: small ("up to 10", "up to 25", "up to 50", "small or automation"), big ("up to 100", "bureaucratic empire", "small or automation"). Note that respondents who chose "small or automation" go to both groups. This option was added based on the results of processing free responses.
+- **Occupation**: employment, student, other (all other options).
+- **Competitors**: few, a lot; other options are too few to be interpreted in any way.
+- **Agency size**: small ("up to 10", "up to 25", "up to 50", "small or automation"), big ("up to 100", "bureaucratic empire", "small or automation"). Note that respondents who chose "small or automation" go to both groups. This answer variant was added based on the results of processing free responses.
 
 **Note**, despite some answers are grouped, they are still separated on the corresponding charts. If there were 10 answer options in the question, you will see 10 columns on the chart.
 
@@ -83,14 +83,14 @@ After a long meditation on the charts for quantitative questions, I came to the 
 - `Core` — dedicated strategy fans: play a lot, like strategies, but without extremes.
 - `Casual` — all the rest.
 
-Quantitative questions are many. Obviously, not every person will choose answers specific only to one group. To clearly separate respondents into groups, I did the following:
+There are many quantitative questions. Obviously, not every person will choose answers specific only to one group. To clearly separate respondents into groups, I did the following:
 
 - Divided the answers in each quantitative question into three groups: `Hard`, `Core`, `Casual`.
 - For each respondent, I counted how many times they fell into each group.
 - For each respondent, I assigned a group they fell into most often.
 - When the number of "points" was the same, the group was chosen in the order of priority: `Core`, `Casual`, `Hard`.
 
-You can see the groups in the samples `* Players: <type>`. There are interesting differences. For example:
+You can find the groups in the samples `* Players: <type>`. There are interesting differences. For example:
 
 - `Core` players prefer the urban legends genre significantly more than `Hard` players, who in turn favor documentaries, conspiracy theories, and noir more.
 - There are more `Hard` players among the youth, and, with age, strategy fans "calm down" a bit. But, most likely, they just can't spend the same amount of time on games because of work and family.
@@ -140,8 +140,8 @@ barPlot('plot-gender', mapGender, ['male', 'female', 'non_binary_other', 'prefer
 Age
 ```
 
-- By experimenting with the samples, you can observe 'logical' changes in preferences with age.
-- The `Adults (30-39)` group clearly deviates from the trend in some samples. Maybe it's the midlife crisis hitting, reality check time, or just some
+- By selecting different samples, you can observe "expected" changes in preferences with age.
+- The `Adults (30-39)` group clearly deviates from the trends in some samples. Maybe it's the midlife crisis hitting, reality check time, or just some
 wonky data.
 
 ---8<--- "./filter_selectors.html"
@@ -285,7 +285,7 @@ barPlot('plot-play-strategies', mapPlayStrategies, [1, 2, 3, 4, 5, 6, 7, 8, 9, 1
 Which kind of strategy games do you like the most? Select up to four items.
 ```
 
-- The column "tactics" is small, because I forgot to specify this option in the survey and only those who did not bother to specify this preference in the free response are counted in it. So, there are many fans of tactics and this is a big drawback of the collected data.
+The column "tactics" is small, because I forgot to specify this option in the survey and only those who did not bother to specify this preference in the free response are counted in it. So, there are many fans of tactics and this is a big drawback of the collected data.
 
 ---8<--- "./filter_selectors.html"
 
@@ -350,7 +350,7 @@ barPlot('plot-like-in-games', groupMapper(likeInGamesGroups), groupIds(likeInGam
 I like RPG elements in strategy games: character progress, stories, personal abilities, etc.
 ```
 
-- It looks like RPG elements are a mandatory element of modern strategies.
+It looks like RPG elements are a mandatory element of modern strategies.
 
 ---8<--- "./filter_selectors.html"
 
@@ -451,7 +451,7 @@ barPlot('plot-competitors', mapCompetitors, ['single', 'few', 'the_more_the_bett
 Maximum size of your news agency. How many people (journalists, photographs, investigators, etc) do you want to manage?
 ```
 
-- We can see a clear division between two game variants on this question. Exaggerating, "game about a small cozy agency" and "game about an international news corporation".
+We can see a clear division between two game variants on this question. Exaggerating, "game about a small cozy agency" and "game about an news corporation".
 
 ---8<--- "./filter_selectors.html"
 
@@ -475,7 +475,7 @@ barPlot('plot-maximum-size', mapMaxSize, ['up_to_10', 'up_to_25', 'up_to_50', 'u
 How much effort do you want to put into managing the budget of your news agency?
 ```
 
-- This is probably the question with the most spread-out answers on the scale. I interpret this as "some budget is required, but no one knows in what form it should be" and "we want to play journalism, not accounting".
+This is probably the question with the most spread-out answers on the scale. I interpret this as "some budget is required, but no one knows in what form it should be" and "we want to play journalism, not accounting".
 
 ---8<--- "./filter_selectors.html"
 
@@ -516,7 +516,7 @@ barPlot('plot-relationships-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 
 How much effort do you want to put into managing the office of your news agency?
 ```
 
-- My interpretation: the office is required, but it may be managed in different ways.
+My interpretation: the office is required, but it may be managed in different ways.
 
 ---8<--- "./filter_selectors.html"
 
@@ -537,7 +537,7 @@ The fourth section of the survey — preferences in stories, world image, and pl
 
 Look at these charts across samples of different ages. The differences will be clearly noticeable.
 
-Unfortunately, I couldn't clearly identify groups of preferences. Maybe the problem is in the phrasing of the question; perhaps, it would be better to make a separate quantitative scale for each type of plot and world. However, this would significantly expand the survey and, therefore, reduce the number of responses. A small sample soze also plays a role.
+Unfortunately, I couldn't clearly identify groups of preferences. Maybe the problem is in the phrasing of the question; perhaps, it would be better to make a separate quantitative scale for each type of plot and world. However, this would significantly expand the survey and, therefore, reduce the number of responses. A small sample size also plays a role.
 
 I added one custom filter: `* Genre: Not about the future` — respondents who did not choose "science fiction" or "cyberpunk" in the preferred genres.
 
@@ -654,7 +654,7 @@ barPlot('plot-meta-effort', mapMetaEffort, ['casual', 'core', 'hard']);
 
 ## Radar charts
 
-Radar charts make it easier to see the overall picture of the sample.
+Radar charts make it easier to see the overall picture of the samples.
 
 The axes of the radars are quantitative questions (including age). All answers are normalized to the interval `[0, 1]`.
 
@@ -693,7 +693,7 @@ A cell displays the number of respondents from the sample with a combination of 
 
 ### Propotions of respondents
 
-A cell displays the number of respondents from the sample with a combination of choices from the column and row normalized to the number of respondents who chose an answer from the column.
+A cell displays the number of respondents from the sample with a combination of choices from the column and row divided by the number of respondents who chose an answer from the column.
 
 This allows you to look, for example, at the share of sci-fi fans among fans of different genres of strategies.
 
@@ -721,9 +721,9 @@ So, let's try to look at the combinations of characteristics and their most popu
 
 ### All possible groups
 
-We will look only at players who actively play strategies (fans of strategies who answered 7 or more to the corresponding question). They are the majority in the survey, see the filter "Play strategies: actively [7..10]".
+We will look only at players who actively play strategies (fans of strategies who answered 7 or more to the corresponding question). They are the majority in the survey, see the filter `Play strategies: actively [7..10]`.
 
-`Casual` players were excluded almost immediately — this is the smallest group (compared to `Hard` and `Core`) and is iterpreted more as "all the rest". Plus, making a game for both `Hard` and `Casual` players at the same time is difficult, and hardcore players are much more interesting, especially in terms of working with the community.
+I excluded `Casual` players almost immediately — this is the smallest group (compared to `Hard` and `Core`) and is iterpreted more as "all the rest". Plus, making a game for both `Hard` and `Casual` players at the same time is difficult, and hardcore players are much more interesting, especially in terms of working with the community.
 
 As a result, we have 8 groups.
 
@@ -735,15 +735,15 @@ Making a game for a `Hard` audience is risky and difficult. In my opinion, it is
 
 You can notice that the preferences of `Hard` and `Core` players are close for the same sizes of agencies and the number of competitors. Therefore, they can be combined into one group.
 
-The combination of the properties "small agency" + "many competitors" looks strange in terms of gameplay. This is also could be seen from the sizes of the final groups, so, in my opinion, it can be removed from consideration.
+The combination of the properties "small agency" + "many competitors" looks strange in terms of gameplay. This is also could be seen from the sizes of the groups, so, in my opinion, it can be removed from consideration.
 
 As a result, we will have three types of possible games.
 
-You may see the properties of the groups using the filters "Game: <group number>".
-
-The whole picture of preferences in mechanics, world, and plot is clear, but there is a nuance, which we will look at below.
+You may see the properties of the groups using the filters `* Game: <group number>`.
 
 <div id="table-final-groups-basic"></div>
+
+The whole picture of preferences in mechanics, world, and plot is clear, but there is a nuance, which we will look at below.
 
 ### Development sequence / feature scaling
 
@@ -753,7 +753,6 @@ If we make a game about a small agency and a few competitors, everything goes we
 
 If, after that, we find a way to tweak the interface and balance to make interacting with numerous competitors convenient, then, once again, we will reach a new audience."
 
-But this is very strong theorizing and a very big "if". I think such luck is unlikely. But, just for fun, here are the tables with the combined groups (or stages of development). You can also notice that the last group will include players who we excluded from consideration by the groups "small agency" + "many competitors".
 But this is heavy theorizing and a very big "if". I think such luck is unlikely. But, just for fun, here are the tables with the combined groups (or stages of development). It's also worth noting that the last group will include players whom we excluded from consideration by the "small agency" + "many competitors" groups.
 
 <div id="table-final-groups-iterations"></div>
@@ -772,7 +771,6 @@ Here are the 20 largest slices out of 2162 possible.
 
 It's clear that nothing is clear :-) Yes, there is a general picture, but it's like an average across the hospital. If we look at specific slices, they are quite different and evenly distributed.
 
-Formally, we can say that we will focus on "strategists who like to explore the world and want to do it in the setting of conspiratorial black humor". Then we will say that our most-target-target audience is `21/243` (`Core` + `Hard` strategists) ~ `8.5%` of strategy fans.
 Formally, we can say that we will target "strategists who enjoy exploring the world and want to do so in a setting of conspiratorial black humor'. Then, we can state that our most-targeted audience is `21/243` (`Core` + `Hard` strategists), which is approximately `8.5%` of strategy players.
 
 In other words, this is a highly optimistic upper limit, the achievement of which will depend on the game's quality."
@@ -784,6 +782,8 @@ But this is already on the border of magical thinking, in my opinion.
 Overall, I am pleased with the results. I've clarified who are my players, which mechanics to focus on, and the approximate style of the world. And I've resolved some other questions.
 
 Unfortunately, I couldn't dig up anything interesting about the plot and the style of the world. Maybe I'll return to this data later.
+
+One more time, thank you to all survey participants, and to the moderators who interacted with me and shared the link to the survey.
 
 Special thanks to my wife — [Yulia](https://burankova.org/) — for her advices. But all the mistakes in the code and conclusions are mine :-)
 
