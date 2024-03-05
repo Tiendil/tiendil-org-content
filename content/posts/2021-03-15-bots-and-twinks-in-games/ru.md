@@ -1,6 +1,6 @@
 ---
 title = "Боты и твинки в играх"
-tags = [ "gamedev", "game-designe", "mmo", "monetization", "theory", "interesting", "best"]
+tags = [ "gamedev", "game-design", "mmo", "monetization", "theory", "interesting", "best"]
 published_at = "2021-03-15T12:00:00+00:00"
 description = "Много букв о взаимодействии многопользовательских игр с ботами и твинками: как идут дела сейчас и что с делать в будущем."
 seo_image = "images/bots-and-twinks-in-games-cover.jpg"

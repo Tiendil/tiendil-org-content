@@ -1,6 +1,6 @@
 ---
 title = "Будущее контента в геймдеве"
-tags = [ "gamedev", "game-designe", "neural-networks", "practice", "procedural-content-generation", "development", "theory", "futurology",]
+tags = [ "gamedev", "game-design", "neural-networks", "practice", "procedural-content-generation", "development", "theory", "futurology",]
 published_at = "2021-05-13T12:00:00+00:00"
 description = "Как будут выглядеть пайплайны создания контента в играх через 5-10 лет."
 seo_image = ""

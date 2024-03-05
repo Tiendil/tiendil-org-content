@@ -1,6 +1,6 @@
 ---
 title = "Концепт-документ игры NoCraft"
-tags = [ "gamedev", "game-designe", "concepts", "monetization", "practice", "procedural-content-generation", "development", "evolution", "interesting"]
+tags = [ "gamedev", "game-design", "concepts", "monetization", "practice", "procedural-content-generation", "development", "evolution", "interesting"]
 published_at = "2020-11-09T12:00:00+00:00"
 description = 'Концепт-документ "StarCraft" без микроконтроля. Меньше рефлексов, больше стратегии.'
 seo_image = "images/concept-document-nocraft-cover.png"

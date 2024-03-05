@@ -1,6 +1,6 @@
 ---
 title = "Предпочтения игроков в стратегии"
-tags = [ "practice", "development", "gamedev", "game-designe", "open-source", "world-builders"]
+tags = [ "practice", "development", "gamedev", "game-design", "open-source", "world-builders"]
 published_at = "2024-02-24T12:00:00+00:00"
 description = "В посте вы найдёте «интерактивный исследовательский стенд» для исследования предпочтений игроков в стратегии."
 seo_image = "./images/cover.jpg"

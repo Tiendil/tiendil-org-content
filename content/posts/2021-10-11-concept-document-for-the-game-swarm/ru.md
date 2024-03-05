@@ -1,6 +1,6 @@
 ---
 title = "Концепт-документ игры Рой"
-tags = [ "gamedev", "game-designe", "concepts", "monetization", "practice", "development", "interesting"]
+tags = [ "gamedev", "game-design", "concepts", "monetization", "practice", "development", "interesting"]
 published_at = "2021-10-11T12:00:00+00:00"
 description = "Концепт-документ игры про «зергов» с механиками на клеточных автоматах."
 seo_image = "images/concept-document-for-the-game-swarm-cover.jpg"

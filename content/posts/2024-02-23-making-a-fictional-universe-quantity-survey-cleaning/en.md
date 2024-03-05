@@ -1,6 +1,6 @@
 ---
 title = "Cleaning up the results of the strategy players survey"
-tags = [ "practice", "development", "gamedev", "game-designe", "open-source", "world-builders"]
+tags = [ "practice", "development", "gamedev", "game-design", "open-source", "world-builders"]
 published_at = "2024-02-23T12:00:00+00:00"
 description = "Cleaning up the results of the survey about strategy games. Describing the methodology of data collection and processing. Publishing cleaned data."
 seo_image = "./images/cover.png"

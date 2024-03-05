@@ -1,6 +1,6 @@
 ---
 title = "Этика (анти)читерства"
-tags = [ "business", "gamedev", "game-designe", "mmo", "society", "practice", "theory",]
+tags = [ "business", "gamedev", "game-design", "mmo", "society", "practice", "theory",]
 published_at = "2021-12-26T12:00:00+00:00"
 description = "Мысли по мотивам новости: Wargaming подала в суд на россиянина за продажу ботов и читов для WoT."
 seo_image = ""

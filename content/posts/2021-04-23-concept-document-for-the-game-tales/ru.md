@@ -1,6 +1,6 @@
 ---
 title = "Концепт-документ игры Сказания"
-tags = [ "gamedev", "game-designe", "concepts", "monetization", "practice", "development", "interesting"]
+tags = [ "gamedev", "game-design", "concepts", "monetization", "practice", "development", "interesting"]
 published_at = "2021-04-23T12:00:00+00:00"
 description = "Концепт-документ коллекционной игры «Сказания». Исследуем и собираем короткие истории с картинками."
 seo_image = "images/concept-document-for-the-game-tales-cover.png"

@@ -1,6 +1,6 @@
 ---
 title = "Делаем вымышленную вселенную: месяц 2"
-tags = [ "business", "game-designe", "practice", "world-builders"]
+tags = [ "business", "game-design", "practice", "world-builders"]
 published_at = "2024-01-05T12:00:00+00:00"
 description = "Отчёт о втором месяце обучения в Product Vision Masters — школе по созданию вымышленных миров."
 seo_image = "images/making-a-fictional-universe-month-2-steam-single-player.png"

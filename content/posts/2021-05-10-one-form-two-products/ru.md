@@ -1,6 +1,6 @@
 ---
 title = "Одна обёртка — два продукта"
-tags = [ "business", "gamedev", "game-designe", "monetization", "society", "theory", "evolution", "economics", "interesting", "best"]
+tags = [ "business", "gamedev", "game-design", "monetization", "society", "theory", "evolution", "economics", "interesting", "best"]
 published_at = "2021-05-10T12:00:00+00:00"
 description = "Расскажу о двух типах прогресса в играх: через изменение себя и через трату ресурсов. Обсудим чем они отличаются и куда заводят разработчиков."
 seo_image = ""

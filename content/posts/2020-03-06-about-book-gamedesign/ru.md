@@ -1,13 +1,13 @@
 ---
 title = "О книге «Геймдизайн»"
-tags = [ "gamedev", "game-designe", "books", "development", "theory",]
+tags = [ "gamedev", "game-design", "books", "development", "theory",]
 published_at = "2020-03-06T12:00:00+00:00"
 description = "Обзор книги Джесси Шелла «Геймдизайн» — хорошее введение в профессию."
-seo_image = "images/game-designe-book-cover.jpg"
+seo_image = "images/game-design-book-cover.jpg"
 ---
 
 /// brigid-images
-src = "images/game-designe-book-cover.jpg"
+src = "images/game-design-book-cover.jpg"
 alt = "обложка книги «Геймдизайн» Джесси Шелла"
 ///
 

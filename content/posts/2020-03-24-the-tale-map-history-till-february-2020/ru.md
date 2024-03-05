@@ -1,6 +1,6 @@
 ---
 title = "Видео с изменениями карты мира «Сказки» с 2013 года"
-tags = [ "the-tale", "gamedev", "game-designe", "mmo", "procedural-content-generation",]
+tags = [ "the-tale", "gamedev", "game-design", "mmo", "procedural-content-generation",]
 published_at = "2020-03-24T12:00:00+00:00"
 description = "Изменения карты мира «Сказки» с 2013 года. Как игроки направляют процедурную генерацию мира."
 seo_image = ""

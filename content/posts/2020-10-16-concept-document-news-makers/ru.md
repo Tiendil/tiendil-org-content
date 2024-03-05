@@ -1,6 +1,6 @@
 ---
 title = "Концепт-документ игры News Makers"
-tags = [ "gamedev", "game-designe", "concepts", "mmo", "monetization", "practice", "development", "interesting"]
+tags = [ "gamedev", "game-design", "concepts", "mmo", "monetization", "practice", "development", "interesting"]
 published_at = "2020-10-16T12:00:00+00:00"
 description = "Концепт-документ игры News Makers. Многопользовательская песочница о написании новостей."
 seo_image = "images/concept-document-news-makers-cover.jpg"

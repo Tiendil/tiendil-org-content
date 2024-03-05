@@ -1,6 +1,6 @@
 ---
 title = "Топология игры"
-tags = [ "the-tale", "gamedev", "game-designe", "theory", "interesting"]
+tags = [ "the-tale", "gamedev", "game-design", "theory", "interesting"]
 published_at = "2021-11-08T12:00:00+00:00"
 description = "Подходы к достижению вариативности игрового процесса через проектирование пространства и правил взаимодействия сущностей в нём."
 seo_image = "images/game-topology-cover.png"

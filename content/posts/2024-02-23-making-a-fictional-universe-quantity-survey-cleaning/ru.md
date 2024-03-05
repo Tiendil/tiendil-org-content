@@ -1,6 +1,6 @@
 ---
 title = "Чистим результаты опроса игроков в стратегии"
-tags = [ "practice", "development", "gamedev", "game-designe", "open-source", "world-builders"]
+tags = [ "practice", "development", "gamedev", "game-design", "open-source", "world-builders"]
 published_at = "2024-02-23T12:00:00+00:00"
 description = "Чистим результаты опроса о стратегических играх. Описываю методику сбора и обработки данных. Публикую очищенные данные."
 seo_image = "./images/cover.png"
