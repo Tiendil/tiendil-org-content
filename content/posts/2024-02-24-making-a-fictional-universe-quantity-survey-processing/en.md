@@ -745,21 +745,22 @@ The whole picture of preferences in mechanics, world, and plot is clear, but the
 
 <div id="table-final-groups-basic"></div>
 
-### Последовательность разработки / наращивание фич
+### Development sequence / feature scaling
 
-Можно обратить внимание, что три возможных типа игры можно адаптировать друг к другу.
+It is possible to notice that three types of games can be adapted to each other.
 
-Если мы делаем игру про небольшое агентство и нескольких конкурентов, всё идёт хорошо и мы находим способ наращивать размер агентсва без вреда для геймплея, мы захватываем новую аудиторию.
+If we make a game about a small agency and a few competitors, everything goes well and we find a way to increase the size of the agency without harming the gameplay, we'll capture a new audience.
 
-Если после этого мы находим способ докрутить интерфейс и баланс так, чтобы можно было удобно взаимодействовать с множеством конкурентов, то, опять, мы выходим на новую аудиторию.
+If, after that, we find a way to tweak the interface and balance to make interacting with numerous competitors convenient, then, once again, we will reach a new audience."
 
-Но это очень сильное теоретизирование и очень большое «если». Думаю, такая удача маловероятна. Но, just for fun, вот таблички с объединёнными группами (или этапами разработки). Можно также обратить вниамание, что в последней группе будут и игроки, которых мы исключили из рассмотрения по группам «маленькое агентство» + «много конкурентов».
+But this is very strong theorizing and a very big "if". I think such luck is unlikely. But, just for fun, here are the tables with the combined groups (or stages of development). You can also notice that the last group will include players who we excluded from consideration by the groups "small agency" + "many competitors".
+But this is heavy theorizing and a very big "if". I think such luck is unlikely. But, just for fun, here are the tables with the combined groups (or stages of development). It's also worth noting that the last group will include players whom we excluded from consideration by the "small agency" + "many competitors" groups.
 
 <div id="table-final-groups-iterations"></div>
 
 </script>
 
-### Срезы интересов
+### Slices of interests
 
 Тут очень зыбкая почва, так как мало данных и не очень удобен их способ представления.
 
