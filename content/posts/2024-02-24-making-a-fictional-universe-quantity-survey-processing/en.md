@@ -2,7 +2,7 @@
 titla = "Preferences of strategy players"
 tags = [ "practice", "development", "gamedev", "game-designe", "open-source", "world-builders"]
 published_at = "2024-02-24T12:00:00+00:00"
-description = "In this post you will find an “interactive research dashboard” to explore the preferences of strategy players."
+description = "In this post you will find an interactive dashboard to explore the preferences of strategy players."
 seo_image = "./images/cover.jpg"
 ---
 
@@ -11,42 +11,42 @@ src = "./images/cover.jpg"
 caption = "Looking at the survey data and trying to find something useful."
 ///
 
-Недавно я делал опрос о предпочтениях игроков в стратегии.
+Recently I conducted a survey about the preferences of strategy players.
 
-В предыдущем посте мы [очищали данные]{post:making-a-fictional-universe-quantity-survey-cleaning}, в этом попробуем чего-нибудь в них найти.
+In the previous post we [cleaned up the data]{post:making-a-fictional-universe-quantity-survey-cleaning}, and in this one we will try to find something in them.
 
-В посте вы найдёте «интерактивный исследовательский стенд» с кучей графиков, на которых можно смотреть разницу между двух выборок на ваш выбор. Выборок много — на любой вкус и цвет, поэтому щелкать можно долго — делитесь в [Telegram](https://t.me/tiendil_org_ru) и [Discord](https://discord.gg/ZyNy28ZXM6) найденными закономерностями.
+In this post you will find an interactive dashboard with a bunch of charts, where you can compare two samples of your choice. There are many samples — for every taste and color, so you may click for a long time — share the patterns you find in [Telegram](https://t.me/tiendil_org_en) and [Discord](https://discord.gg/2JNHAV7uMP).
 
-Но будьте аккуратны с выводами. Данных мало, а в некоторых случаях совсем мало. Например, разница между размерами выборок мужчин и женщин примерно десятикратная => интерпретировать отличия между ними следует очень осторожно.
+But be careful with the conclusions. There is little data, in some cases very little. For example, the difference in the sizes between the samples of male and female respondents is about tenfold => you should be very careful in interpreting the differences between them.
 
-В целом, не воспринимайте этот пост как полноценное исследование. Уверен, многие аналитики мне бы руки за такое оторвали. Пришили и снова оторвали. Пользуйтесь постом как интерфейсом к данным, а выводы делайте свои.
+In general, do not take this post as a full-fledged study. I'm sure many analysts would have torn my hands off for such a thing. Then sewed them back and torn them off again :-D Use the post as an interface to the data, and make your own conclusions.
 
 <!-- more -->
 
-## Данные и код
+## The data and the code
 
-Данные, по которым строятся графики, лежат в [репозитории](https://github.com/Tiendil/world-builders-2023/tree/main/quantity-research).
+The data on which the charts are built are in the [repository](https://github.com/Tiendil/world-builders-2023/tree/main/quantity-research).
 
-В [предыдущем посте]{post:making-a-fictional-universe-quantity-survey-cleaning} можно найти:
+In the [previous post]{post:making-a-fictional-universe-quantity-survey-cleaning} you can find:
 
-- копию оригинального опроса;
-- методику очистки данных;
-- список моих ошибок при создании опроса.
+- a copy of the original survey;
+- the methodology of data cleaning;
+- a list of my mistakes in creating the survey.
 
-Код для обработки данных можно найти прямо в исходниках этой страницы. Или в [репозитории с исходниками поста](https://github.com/Tiendil/tiendil-org-content/tree/main/content/posts/2024-02-23-making-a-fictional-universe-quantity-survey-processing). Код не лучший, но вроде работает.
+The code for data processing can be found right in the sources of this page. Or in the [repository with the sources of the post](https://github.com/Tiendil/tiendil-org-content/tree/main/content/posts/2024-02-23-making-a-fictional-universe-quantity-survey-processing). The code is not the best, but it seems to work.
 
-## Структура стенда
+## The structure of the dashboard
 
-Пост можно разделить на несколько частей:
+The post can be divided into several parts:
 
-- Столбчатые диаграммы для каждого вопроса, с возможностью сравнить на них две выборки. Во всех диаграммах, ось Y — проценты, в подсказе к столбцам будут абсолютные значения.
-- Пара радарных графиков, чтобы смотреть на количественные свойства выборок. На них тоже можно сравнивать две выборки.
-- Пара тепловых карт, чтобы смотреть корреляции.
-- Описание моей попытки посмотреть на целевую аудиторию для игры.
+- Bar charts for each question, with the ability to compare two samples on them. In all charts, the Y-axis is percentages, the absolute values will be shown in the tooltips.
+- A pair of radar charts to look at the quantitative properties of the samples. They can also be used to compare two samples.
+- A pair of heat maps to look at correlations.
+- My thoughts on the target audience for the game, based on the data.
 
-К некоторым графикам я добавил очень субъективные комментарии: что посмотреть, какие можно сделать выводы.
+To some charts I added very subjective comments: what to look at, what conclusions can be drawn.
 
-Также, для каждого графика добавлен соответствующий ему вопрос из опроса.
+To make reading charts easier, for each chart I added the corresponding question from the survey.
 
 ## Выборки
 
