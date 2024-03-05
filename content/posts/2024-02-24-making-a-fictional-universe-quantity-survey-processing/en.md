@@ -762,29 +762,30 @@ But this is heavy theorizing and a very big "if". I think such luck is unlikely.
 
 ### Slices of interests
 
-Тут очень зыбкая почва, так как мало данных и не очень удобен их способ представления.
+This is shaky ground, as there is little data and their presentation method is not very convenient.
 
-Для самой целевой группы (`Core` + `Hard` игроки, малое агентство, мало конкурентов) посмотрим на срезы по сочетанию факторов из каждой группы свойств.
+For the main target group (`Core` + `Hard` players, small agency, few competitors) we will look at slices by the combination of factors from each group of properties
 
-Вот 20 самых больших срезов из 2162 возможных.
+Here are the 20 largest slices out of 2162 possible.
 
 <div id="table-iteration-1-slices"></div>
 
-Видно, что ничего не видно :-) Да, есть общая картина, но она как среднее по больнице. Если же смотреть на конкретные срезы, то они довольно разные и равномерно распределённые.
+It's clear that nothing is clear :-) Yes, there is a general picture, but it's like an average across the hospital. If we look at specific slices, they are quite different and evenly distributed.
 
-Формально, можно сказать, что вот мы будем ориентироваться на «стратегов, которые любят исследовать мир и хотят это делать в сеттинге конспирологического чёрного юмора». И тогда мы скажем, что наша самая-целевая-целевая аудитория это `21/243` (`Core` + `Hard` стратеги) ~ `8.5%` от любителей стратегий.
+Formally, we can say that we will focus on "strategists who like to explore the world and want to do it in the setting of conspiratorial black humor". Then we will say that our most-target-target audience is `21/243` (`Core` + `Hard` strategists) ~ `8.5%` of strategy fans.
+Formally, we can say that we will target "strategists who enjoy exploring the world and want to do so in a setting of conspiratorial black humor'. Then, we can state that our most-targeted audience is `21/243` (`Core` + `Hard` strategists), which is approximately `8.5%` of strategy players.
 
-Так сказать, очень оптимистичная верхняя планка, достижение которой будет зависеть от качества игры.
+In other words, this is a highly optimistic upper limit, the achievement of which will depend on the game's quality."
 
-Но это уже где-то на грани магического мышления, как по мне.
+But this is already on the border of magical thinking, in my opinion.
 
-## Заключение
+## Conclusion
 
-В целом, я доволен результатами, уточнил на кого надо ориентироваться, на какие механики и примерный стиль мира. Снял некоторые вопросы.
+Overall, I am pleased with the results. I've clarified who are my players, which mechanics to focus on, and the approximate style of the world. And I've resolved some other questions.
 
-К сожалению, не удалось раскопать чего-нибудь интересного по сюжету и стилю мира. Может быть, ещё вернусь к этим данным.
+Unfortunately, I couldn't dig up anything interesting about the plot and the style of the world. Maybe I'll return to this data later.
 
-Отдельное спасибо жене — [Юле](https://burankova.org/) — за консультацию. Но все ошибки в коде и выводах — моя заслуга.
+Special thanks to my wife — [Yulia](https://burankova.org/) — for her advices. But all the mistakes in the code and conclusions are mine :-)
 
 <!-- footer -->
 
