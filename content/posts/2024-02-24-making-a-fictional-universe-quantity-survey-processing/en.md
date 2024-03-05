@@ -138,8 +138,9 @@ barPlot('plot-gender', mapGender, ['male', 'female', 'non_binary_other', 'prefer
 Age
 ```
 
-- Если поиграть с выборками, можно увидеть «логичные» изменения в предпочтениях с возрастом.
-- Группа `взрослые (30-39)` на некоторых выборках явно выбивается из тренда. То ли кризис среднего возраста, то ли возраст столкновения с реальностью, то ли искажения данных.
+- By experimenting with the samples, you can observe 'logical' changes in preferences with age.
+- The `Adults (30-39)` group clearly deviates from the trend in some samples. Maybe it's the midlife crisis hitting, reality check time, or just some
+wonky data.
 
 ---8<--- "./filter_selectors.html"
 
@@ -149,7 +150,7 @@ Age
     barPlot('plot-age', groupMapper(ageGroups), groupIds(ageGroups));
 </script>
 
-### Занятость
+### Occupation
 
 ```
 What is your primary occupation or main daily activity?
@@ -176,7 +177,7 @@ const occupationGroupIds = [
 barPlot('plot-occupation', mapOccupation, occupationGroupIds);
 </script>
 
-### Разработчики игр
+### Game developers
 
 ```
 I'm a game developer
@@ -200,11 +201,11 @@ const isGameDevGroupIds = [
 barPlot('plot-is-game-developer', mapIsGameDev, isGameDevGroupIds);
 </script>
 
-##  Игровой опыт
+## Game experience
 
-Вторая секция анкеты — общий игровой опыт респондента.
+The second section of the survey — the overall gaming experience of the respondent.
 
-### Играю на
+### Playing on
 
 ```
 I'm playing on
@@ -258,7 +259,7 @@ const playingOnGroupIds = [
 barPlot('plot-playing-on', mapPlayingOn, playingOnGroupIds);
 </script>
 
-### Играю в стратегии
+### Playing in strategies
 
 ```
 Do you play strategy games? Any kind and genre: turn-based, real-time, modern, sci-fi, fantasy...
@@ -276,7 +277,7 @@ function mapPlayStrategies(row) {
 barPlot('plot-play-strategies', mapPlayStrategies, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### В какие стратегии играете
+### Kinds of strategy games
 
 ```
 Which kind of strategy games do you like the most? Select up to four items.
