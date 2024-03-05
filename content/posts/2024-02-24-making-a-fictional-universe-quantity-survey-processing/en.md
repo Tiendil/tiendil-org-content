@@ -54,7 +54,7 @@ You could find select boxes with samples at the top of each chart.
 
 **Be sure to look at the sizes of the samples before interpreting the chart.** The sizes are displayed in square brackets at the end of the sample name.
 
-Samples are switched globally: choosing a sample in one place will lead to a change in all charts. That is, you will always see a comparison of the same samples on every chart. It is convenient to choose groups of people and go through the post from top to bottom, looking at how they differ across criteria.
+Samples are globally switched; selecting a sample in one chart will change all charts accordingly. That is, you will always see a comparison of the same samples on every chart. It is convenient to choose groups of people and go through the post from top to bottom, looking at how they differ across criteria.
 
 I tried to name the samples clearly, but just in case, keep a copy of the original survey in front of you.
 
@@ -65,13 +65,13 @@ What samples are there:
 - Answers to quantitative questions are grouped to simplify analysis. Values that fall into the group are indicated in square brackets. For example `[1..6]`.
 - There are several artificial samples. Their names begin with `*`. These samples are described in separate chapters.
 
-Groupped samples from qualitative questions:
+Grouped samples from qualitative questions:
 
 - **Occupation**: employment, student, other (all other options).
 - **Competitors**: few, a lot; other options are too few to be interpreted in any way.
-- **Agency size**: small ("up to 10", "up to 25", "up to 50", "small or automation"), big ("up to 100", "bureaucratic empire", "small or automation"). Note that respondents who chose "small or automation" go to both groups. This answer variant was added based on the results of processing free responses.
+- **Agency size**: small ("up to 10", "up to 25", "up to 50", "small or automation"), big ("up to 100", "bureaucratic empire", "small or automation"). Note that respondents who chose "small or automation" are included in both groups. This answer variant was added based on the results of processing free responses.
 
-**Note**, despite some answers are grouped, they are still separated on the corresponding charts. If there were 10 answer options in the question, you will see 10 columns on the chart.
+**Note**, although some answers are grouped, they remain separated in the corresponding charts. If there were 10 answer options in the question, you will see 10 columns on the chart.
 
 ### Players: hard, core, casual
 
@@ -81,7 +81,7 @@ After a long meditation on the charts for quantitative questions, I came to the 
 - `Core` — dedicated strategy fans: play a lot, like strategies, but without extremes.
 - `Casual` — all the rest.
 
-There are many quantitative questions. Obviously, not every person will choose answers specific only to one group. To clearly separate respondents into groups, I did the following:
+There are numerous quantitative questions. Obviously, not every person will choose answers specific only to one group. To clearly separate respondents into groups, I did the following:
 
 - Divided the answers in each quantitative question into three groups: `Hard`, `Core`, `Casual`.
 - For each respondent, I counted how many times they fell into each group.
@@ -103,7 +103,7 @@ My hypothesis about the difference between game developers and players was not c
 
 I don't see significant differences between fans of different genres of strategies.
 
-Unexpectedly for me, strategy fans are very positive about role-playing elements.
+To my surprise, strategy fans are very positive about role-playing elements.
 
 <!-- more -->
 
