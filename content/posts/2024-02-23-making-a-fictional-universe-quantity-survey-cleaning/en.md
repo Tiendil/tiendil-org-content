@@ -39,7 +39,7 @@ The exact copy of the original survey: questions, answer options, comments. For 
 
 The scales in the questions are of the same size: 1..10. This helps respondents and me to less often switch brain between different gradations of the assessment. Plus, there will be less mistakes in data processing due to typos and copy-paste.
 
-In multiple-choice questions, the number of selectable options was limited to a 1/3 of the available ones. There is no deep idea behind 1/3, I just choose the standard rule based on logic: "1/2 is too much, 1/4 is too little" — a matter of taste.
+In multiple-choice questions, the number of selectable options was limited to a 1/3 of the available ones. There is no deep idea behind 1/3, I just chose the standard rule based on logic: "1/2 is too much, 1/4 is too little" — a matter of taste.
 
 ### Validating the survey on friends
 
