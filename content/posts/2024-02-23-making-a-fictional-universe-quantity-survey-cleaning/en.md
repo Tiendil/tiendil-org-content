@@ -39,7 +39,7 @@ The exact copy of the original survey: questions, answer options, comments. For 
 
 The scales in the questions are of the same size: 1..10. This helps respondents and me to less often switch brain between different gradations of the assessment. Plus, there will be less mistakes in data processing due to typos and copy-paste.
 
-In multiple-choice questions, the number of selectable options was limited to a 1/3 of the available ones. There is no deep idea behind 1/3, I just chose the standard rule based on logic: "1/2 is too much, 1/4 is too little" — a matter of taste.
+In multiple-choice questions, the number of selectable options was limited to 1/3 of the available ones. There is no deep idea behind 1/3, I just chose the standard rule based on logic: "1/2 is too much, 1/4 is too little" — a matter of taste.
 
 ### Validating the survey on friends
 
@@ -47,7 +47,7 @@ Preliminary testing of the survey is a must-have.
 
 The first version of the survey was a bit scary, especially in the stories section => it was completely reworked.
 
-Also, for example, initially I turned on the option to shuffle answers in questions (Google Forms has such feature), but after testing on friends, I turned it off. The answers usually go in some logical order (for example, in descending order of realism), shuffling makes people constantly jump between semantically opposite parts of answers space. This leads to confusion and suffering of respondents, no one needs this.
+Also, for example, initially I turned on the option to shuffle answers in questions (Google Forms has such feature), but after testing on friends, I turned it off. The answers usually go in some logical order (for example, in descending order of realism), shuffling makes people constantly jump between semantically opposite parts of the answers space. This leads to confusion and suffering of respondents, no one needs this.
 
 ### Made mistakes
 
@@ -75,7 +75,7 @@ I am not very social and a member of only a few communities. So it was difficult
 
 Because the game will be made (if it will be made) primarily for an English-speaking audience (the largest of the accessible for me), the survey was targeted at English-speaking people and places where they can be found.
 
-I actively distributed the survey in:
+I actively distributed the survey through the following channels:
 
 - Reddit: subreddits + ads (single ad post)
 - Discord
@@ -118,7 +118,7 @@ I targeted large computer-games-related subreddits where I couldn't make a post 
 
 The result exceeded expectations. Now this is my [most upvoted post on Reddit](https://www.reddit.com/user/Tiendil/comments/1aklobf/im_making_a_game_where_you_play_as_the_chief/) — 58 upvotes :-D Actually, I'm not sure if I should be proud of it, should make more of not-ad original posts.
 
-Of the top of my head, the ad brought from 30% to 50% of the respondents. With a price per answer of ~1$ plus or minus. But, as you can see from the statistics, the number of clicks on the post was significantly higher than the number of filled in surveys — many people drop out.
+Off the top of my head, the ad brought from 30% to 50% of the respondents. With a price per answer of ~1$ give or take. But, as you can see from the statistics, the number of clicks on the post was significantly higher than the number of filled in surveys — many people drop out.
 
 /// brigid-images
 src = "./images/reddit-ads-statistics.png"
@@ -133,7 +133,7 @@ What I learned from the advertising experience:
 - It seems to me that a couple of people followed me after the ad post.
 - I will continue to use Reddit ads.
 
-## Cleaning up methodology
+## Data Cleaning Methodology
 
 First of all, I want to thank everyone who chose the free answer options and wrote their thoughts. I read them all and made a bunch of notes!
 
