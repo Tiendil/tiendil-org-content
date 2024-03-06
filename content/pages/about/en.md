@@ -60,7 +60,7 @@ Resume: [ru]{absolute:/ru/cv), [en]{absolute:/en/cv}.
 - 2022-2023 — [Palta](https://palta.com/) (Python, TypeScript)
     - Roles: Tech/Team Lead, Engineering Manager
     - Payment solution for "child" startups: receiving money, accounting, controlling purchased assets, subscriptions, refunds, analytics, etc.
-- 2019-2021 — Sabbatical [see report in Russian]{absolute:/ru/posts/the-results-of-the-sabbatical-2019-2021)
+- 2019-2021 — [Sabbatical]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}
 - 2015-2019 — [Melsoft Games](http://www.melesta-games.com/) (Python)
     - Roles: Tech Lead
     - [My Cafe](https://play.google.com/store/apps/details?id=com.melesta.coffeeshop) — stabilization and optimization of code and architecture, ~1,500,000 rpm at peak.
