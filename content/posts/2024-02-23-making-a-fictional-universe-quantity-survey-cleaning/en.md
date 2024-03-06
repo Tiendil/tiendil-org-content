@@ -168,7 +168,7 @@ src = "./images/honesty.png"
 caption = "Surprisingly many people are not ready to honestly answer questions."
 ///
 
-The goal of cleaning up is to remove incorrect data sets — questionnaires filled in poorly in jest or deliberately. Of course, it is impossible to determine how a person treated the survey with 100% accuracy. But it is possible, using heuristics, to select questionnaires that were most likely filled in poorly.
+The goal of cleaning up is to remove incorrect data sets — questionnaires filled in poorly in jest or deliberately. Of course, it is impossible to determine how a person treated the survey with 100% accuracy. But it is possible, using heuristics, to remove questionnaires that were most likely filled in poorly.
 
 For this, the following questions were added:
 
