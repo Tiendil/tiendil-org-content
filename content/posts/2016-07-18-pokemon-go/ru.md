@@ -1,6 +1,6 @@
 ---
 title = "Pokemon Go"
-tags = [ "gamedev", "game-designe", "mmo", "monetization",]
+tags = [ "gamedev", "game-design", "mmo", "monetization",]
 published_at = "2016-07-18T12:00:00+00:00"
 description = "Впечатления от игры Pokemon Go и немного о том, почему она такая популярная."
 seo_image = ""

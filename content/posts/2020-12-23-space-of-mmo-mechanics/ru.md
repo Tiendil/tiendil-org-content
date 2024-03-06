@@ -1,6 +1,6 @@
 ---
 title = "Пространство механик ММО"
-tags = [ "gamedev", "game-designe", "mmo", "theory", "interesting", "best"]
+tags = [ "gamedev", "game-design", "mmo", "theory", "interesting", "best"]
 published_at = "2020-12-23T12:00:00+00:00"
 description = "Формальный подход к выбору минимального набора механик для ММО. Идея в том, чтобы обеспечить плавное погружение игрока от «простых» механик к «сложным»."
 seo_image = "images/space-of-mmo-mechanics-cover.png"

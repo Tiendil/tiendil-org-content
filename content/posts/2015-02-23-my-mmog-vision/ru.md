@@ -1,6 +1,6 @@
 ---
 title = "MMOG в которую я хотел бы играть"
-tags = [ "gamedev", "game-designe", "mmo", "futurology",]
+tags = [ "gamedev", "game-design", "mmo", "futurology",]
 published_at = "2015-02-23T12:00:00+00:00"
 description = "Тезисы о том, в какую MMO игру я хотел бы играть."
 seo_image = ""

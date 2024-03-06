@@ -1,6 +1,6 @@
 ---
 title = "Глупые прогнозы об Искусственном Интеллекте"
-tags = [ "gamedev", "state", "game-designe", "neural-networks", "education", "society", "practice", "procedural-content-generation", "development", "theory", "futurology", "evolution", "exocortex",]
+tags = [ "gamedev", "state", "game-design", "neural-networks", "education", "society", "practice", "procedural-content-generation", "development", "theory", "futurology", "evolution", "exocortex",]
 published_at = "2023-03-26T12:00:00+00:00"
 description = "Мои смелые и не очень прогнозы о развитии ИИ."
 seo_image = "images/silly-predictions-about-artificial-intelligence-cover.jpg"

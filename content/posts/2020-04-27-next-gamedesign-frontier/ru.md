@@ -1,6 +1,6 @@
 ---
 title = "Следующий фронтир геймдизайна"
-tags = [ "gamedev", "game-designe", "mmo", "monetization", "development", "systems", "theory", "futurology", "interesting", "best"]
+tags = [ "gamedev", "game-design", "mmo", "monetization", "development", "systems", "theory", "futurology", "interesting", "best"]
 published_at = "2020-04-27T12:00:00+00:00"
 description = "Через призму игрового опыта посмотрим на игру как на открытую систему, подумаем как учитывать интересы игроков с разными возможностями и потребностями."
 seo_image = "images/cover-next-gamedesign-frontier.jpg"

@@ -23,7 +23,7 @@ caption = "[Terry Pratchett's Hogfather](https://en.wikipedia.org/wiki/Terry_Pra
 
 Далее статистика включает рецензии на книги, но они её особо не искажают:
 
-- 18 постов о [геймдеве]{tags:gamedev}, из них 12 о [геймдизайне]{tags:game-designe}.
+- 18 постов о [геймдеве]{tags:gamedev}, из них 12 о [геймдизайне]{tags:game-design}.
 - 19 постов о [мышлении]{tags:thinking}.
 <!-- removed -->
 

@@ -1,6 +1,6 @@
 ---
 title = "Концепт-документ шоу настольной ролевой MMO игры"
-tags = [ "business", "gamedev", "game-designe", "concepts", "mmo", "monetization", "theory", "interesting"]
+tags = [ "business", "gamedev", "game-design", "concepts", "mmo", "monetization", "theory", "interesting"]
 published_at = "2023-10-01T12:00:00+00:00"
 description = "Концепт-документ телешоу про настольные ролевые игры в общем на всех игроков мире."
 seo_image = "images/concept-document-of-board-role-playing-mmo-game-show-cover.png"

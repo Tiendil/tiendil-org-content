@@ -1,6 +1,6 @@
 ---
 title = "О создании названий"
-tags = [ "gamedev", "game-designe", "procedural-content-generation", "theory", "interesting"]
+tags = [ "gamedev", "game-design", "procedural-content-generation", "theory", "interesting"]
 published_at = "2014-10-09T12:00:00+00:00"
 description = "Руководство как создавать названия для «штук» в играх."
 seo_image = ""

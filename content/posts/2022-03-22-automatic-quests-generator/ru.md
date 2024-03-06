@@ -1,6 +1,6 @@
 ---
 title = "Автоматический генератор квестов"
-tags = [ "the-tale", "open-source", "python", "gamedev", "game-designe", "practice", "procedural-content-generation", "development", "theory", "interesting", "best"]
+tags = [ "the-tale", "open-source", "python", "gamedev", "game-design", "practice", "procedural-content-generation", "development", "theory", "interesting", "best"]
 published_at = "2022-03-22T12:00:00+00:00"
 description = "Описание генератора нелинейных квестов для текстовой многопользовательской ролевой игры «Сказка»."
 seo_image = "images/automatic-quests-generator-example-1.png"

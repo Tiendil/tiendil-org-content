@@ -1,6 +1,6 @@
 ---
 title = "Давайте продавать труд игроков"
-tags = [ "gamedev", "game-designe", "mmo", "monetization", "theory", "interesting"]
+tags = [ "gamedev", "game-design", "mmo", "monetization", "theory", "interesting"]
 published_at = "2015-03-24T12:00:00+00:00"
 description = "Взгляд на один из более-менее этичных вариантов монетизации ММО игр."
 seo_image = ""
