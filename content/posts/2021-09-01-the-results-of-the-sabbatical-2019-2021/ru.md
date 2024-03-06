@@ -171,7 +171,7 @@ If you don't like your life, then you should go and change it
 
 Если вы планируете делать игру с социальными взаимодействиями, тем более ММО, я определённо вам пригожусь.
 
-Плюс, начал публиковать копившиеся на складе концепты игр: [Сказка]{post:the-tale-concept-document}, [News Makers](post:concept-document-news-makers}, [NoCraft](post:concept-document-nocraft}, [Сказания](post:concept-document-for-the-game-tales}.
+Плюс, начал публиковать копившиеся на складе концепты игр: [Сказка]{post:the-tale-concept-document}, [News Makers]{post:concept-document-news-makers}, [NoCraft]{post:concept-document-nocraft}, [Сказания]{post:concept-document-for-the-game-tales}.
 
 ### Разработка ПО
 
@@ -218,7 +218,7 @@ If you don't like your life, then you should go and change it
 - [книги Сюзанны Кларк]{post:susanna-clarke-books} — лучшее описание магии, которое встречал;
 - [Иллюзия знания]{post:illusion-of-knowledge} — об эволюции и распространении информации;
 - [Масштаб]{post:scale} — о базовых физических законах самоорганизующихся систем;
-- [Изобретение науки]{post:about-book-invention-of-science) — как появилось то, что мы сейчас зовём наукой;
+- [Изобретение науки]{post:about-book-invention-of-science} — как появилось то, что мы сейчас зовём наукой;
 - [WTF?]{post:about-book-wtf} — о концепции платформы и подрывных технологиях;
 - [Сильнейшие]{post:about-book-powerful} — о культуре Netflix.
 - [Первая кругосветка Кука]{post:cooks-first-around-the-world-context} — заметки по дневнику Кука в 6 постах.
