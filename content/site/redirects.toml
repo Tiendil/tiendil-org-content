@@ -217,7 +217,7 @@
 /about = "/ru/posts/about"
 /contents = "/ru/posts/best"
 /webdev = "/ru/posts/webdev"
-/pages/webdev = "/ru/posts/webdev"
+"/pages/webdev" = "/ru/posts/webdev"
 /feed = "/ru/feeds/atom"
 /making-a-fictional-universe-month-quantity-survey = "/ru/posts/making-a-fictional-universe-month-quantity-survey"
 /discord-server-for-blog-and-communication-with-you = "/ru/posts/discord-server-for-blog-and-communication-with-you"
