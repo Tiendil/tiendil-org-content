@@ -11,13 +11,13 @@ src = "./images/cover.jpg"
 caption = "Looking at the survey data and trying to find something useful."
 ///
 
-Recently I conducted a survey about the preferences of strategy players.
+Recently I've conducted a survey about the preferences of strategy players.
 
 In the previous post, we [cleaned up the data]{post:making-a-fictional-universe-quantity-survey-cleaning}, and in this one, we will try to find insights within it.
 
-In this post you will find an interactive dashboard with a bunch of charts, where you can compare two samples of your choice. There are many samples — for every taste and color, so feel free to explore and share the patterns you find on [Telegram](https://t.me/tiendil_org_en) and [Discord](https://discord.gg/2JNHAV7uMP)
+In this post you will find an interactive dashboard with a bunch of charts, where you can compare two samples of your choice. There are many samples — for every taste and color, so feel free to explore and share the patterns you find on [Telegram](https://t.me/tiendil_org_en) and [Discord](https://discord.gg/2JNHAV7uMP).
 
-But be careful with the conclusions. There is little data, in some cases very little. For example, the difference in the sizes between the samples of male and female respondents is about tenfold => you should be very careful in interpreting the differences between them.
+But be careful with conclusions. There is little data, in some cases very little. For example, the difference between the sample sizes of male and female respondents is about tenfold => you should be very careful in interpreting the differences between them.
 
 In general, do not take this post as a full-fledged study. I'm sure many analysts would have torn my hands off for such a thing. Then sewed them back and torn them off again :-D Use the post as an interface to the data, and make your own conclusions.
 
