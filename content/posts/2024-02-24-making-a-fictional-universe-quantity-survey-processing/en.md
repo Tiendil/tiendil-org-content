@@ -769,9 +769,9 @@ Here are the 20 largest slices out of 2162 possible.
 
 It's clear that nothing is clear :-) Yes, there is a general picture, but it's like "an average temperature across a hospital" (Russian idiom, means that there are situations when average results are not indicative and concreate cases should be taken in account). If we look at specific slices, they are quite different and evenly distributed.
 
-Formally, we can say that we will target "strategists who enjoy exploring the world and want to do so in a setting of conspiratorial black humor'. Then, we can state that our most-targeted audience is `21/243` (`Core` + `Hard` strategists), which is approximately `8.5%` of strategy players.
+Formally, we can say that we will target "strategists who enjoy exploring the world and want to do so in a setting of conspiratorial black humor". Then, we can state that our most-targeted audience is `21/243` (`Core` + `Hard` strategists), which is approximately `8.5%` of strategy players.
 
-In other words, this is a highly optimistic upper limit, the achievement of which will depend on the game's quality."
+In other words, this is a highly optimistic upper limit, the achievement of which will depend on the game's quality.
 
 But this is already on the border of magical thinking, in my opinion.
 
@@ -783,7 +783,7 @@ Unfortunately, I couldn't dig up anything interesting about the plot and the sty
 
 One more time, thank you to all survey participants, and to the moderators who interacted with me and shared the link to the survey.
 
-Special thanks to my wife — [Yulia](https://burankova.org/) — for her advice. But all the mistakes in the code and conclusions are mine :-)
+Special thanks to my wife — [Yuliya](https://burankova.org/) — for her advice. But all the mistakes in the code and conclusions are mine :-)
 
 <!-- footer -->
 
