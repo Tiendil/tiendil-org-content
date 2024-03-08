@@ -678,7 +678,7 @@ scatterpolarPlot('plot-radar-average', 'average');
 
 ## Heatmaps
 
-By analogy with radars, two heatmaps to look at the correlations.
+By analogy with radars, there are two heatmaps to look at the correlations.
 
 ### Absolute number of respondents
 
@@ -729,13 +729,13 @@ As a result, we have 8 groups.
 
 ### Uniting groups
 
-Making a game for a `Hard` audience is risky and difficult. In my opinion, it is more reasonable to make a game for `Core` (especially since it is larger) and, if possible, capture `Hard` players.
+Making a game for the `Hard` audience is risky and difficult. In my opinion, it is more reasonable to make a game for `Core` (especially since it is larger) and, if possible, capture `Hard` players.
 
 You can notice that the preferences of `Hard` and `Core` players are close for the same sizes of agencies and the number of competitors. Therefore, they can be combined into one group.
 
 The combination of the properties "small agency" + "many competitors" looks strange in terms of gameplay. This is also could be seen from the sizes of the groups, so, in my opinion, it can be removed from consideration.
 
-As a result, we will have three types of possible games.
+As a result, we have three types of possible games.
 
 You may see the properties of the groups using the filters `* Game: <group number>`.
 
@@ -767,7 +767,7 @@ Here are the 20 largest slices out of 2162 possible.
 
 <div id="table-iteration-1-slices"></div>
 
-It's clear that nothing is clear :-) Yes, there is a general picture, but it's like an average across the hospital. If we look at specific slices, they are quite different and evenly distributed.
+It's clear that nothing is clear :-) Yes, there is a general picture, but it's like "an average temperature across a hospital" (Russian idiom, means that there are situations when average results are not indicative and concreate cases should be taken in account). If we look at specific slices, they are quite different and evenly distributed.
 
 Formally, we can say that we will target "strategists who enjoy exploring the world and want to do so in a setting of conspiratorial black humor'. Then, we can state that our most-targeted audience is `21/243` (`Core` + `Hard` strategists), which is approximately `8.5%` of strategy players.
 
