@@ -39,9 +39,9 @@ The code for data processing can be found right in the sources of this page. Or 
 
 The post consists of a few parts:
 
-- Bar charts for each question, with the ability to compare two samples on them. In all charts, the Y-axis is percentages, the absolute values will be shown in the tooltips.
+- Bar charts for each question, with the ability to compare two samples on them. In all charts, the Y-axis is percentages, the absolute values is shown in the tooltips.
 - A pair of radar charts to look at the quantitative properties of the samples. They also can be used to compare two samples.
-- A pair of heat maps to look at correlations.
+- A pair of heatmaps to look at correlations.
 - My thoughts on the target audience for the game, based on the data.
 
 To some charts I added very subjective comments: what to look at, what conclusions can be drawn.
@@ -50,9 +50,9 @@ To make reading charts easier, for each chart I added the corresponding question
 
 ## Samples
 
-You could find select boxes with samples at the top of each chart.
+You could find dropdown menus with samples at the top of each chart.
 
-**Be sure to look at the sizes of the samples before interpreting the chart.** The sizes are displayed in square brackets at the end of the sample name.
+**Be sure to look at the sample sizes before interpreting the chart.** The sizes are displayed in square brackets at the end of the sample name.
 
 Samples are globally switched; selecting a sample in one chart will change all charts accordingly. That is, you will always see a comparison of the same samples on every chart. It is convenient to choose groups of people and go through the post from top to bottom, looking at how they differ across criteria.
 
@@ -85,14 +85,14 @@ There are numerous quantitative questions. Obviously, not every person will choo
 
 - Divided the answers in each quantitative question into three groups: `Hard`, `Core`, `Casual`.
 - For each respondent, I counted how many times they fell into each group.
-- For each respondent, I assigned a group they fell into most often.
+- For each respondent, I assigned the group they fell into most often.
 - When the number of "points" was the same, the group was chosen in the order of priority: `Core`, `Casual`, `Hard`.
 
 You can find the groups in the samples `* Players: <type>`. There are interesting differences. For example:
 
 - `Core` players prefer the urban legends genre significantly more than `Hard` players, who in turn favor documentaries, conspiracy theories, and noir more.
 - There are more `Hard` players among the youth, and, with age, strategy fans "calm down" a bit. But, most likely, they just can't spend the same amount of time on games because of work and family.
-- `Hard` players believe that several channels of information distribution are literally mandatory for the news agency. `Core` players consider this an important element, but not essential. The same situation with the realism of journalism.
+- `Hard` players believe that several channels of information distribution are literally mandatory for a news agency. `Core` players consider this an important element, but not essential. The same situation with the realism of journalism.
 - `Core` players prefer to manage a small agency, `Hard` players — to build a bureaucratic empire.
 
 ## General thoughts
@@ -449,7 +449,7 @@ barPlot('plot-competitors', mapCompetitors, ['single', 'few', 'the_more_the_bett
 Maximum size of your news agency. How many people (journalists, photographs, investigators, etc) do you want to manage?
 ```
 
-We can see a clear division between two game variants on this question. Exaggerating, "game about a small cozy agency" and "game about an news corporation".
+We can see a clear division between two game variants on this question. Exaggerating, "game about a small cozy agency" and "game about a news corporation".
 
 ---8<--- "./filter_selectors.html"
 
@@ -508,7 +508,7 @@ function mapRelationshipsEffort(row) {
 barPlot('plot-relationships-effort', mapRelationshipsEffort, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 </script>
 
-### Управление офисом
+### Office management
 
 ```
 How much effort do you want to put into managing the office of your news agency?
@@ -535,7 +535,7 @@ The fourth section of the survey — preferences in stories, world image, and pl
 
 Look at these charts across samples of different ages. The differences will be clearly noticeable.
 
-Unfortunately, I couldn't clearly identify groups of preferences. Maybe the problem is in the phrasing of the question; perhaps, it would be better to make a separate quantitative scale for each type of plot and world. However, this would significantly expand the survey and, therefore, reduce the number of responses. A small sample size also plays a role.
+Unfortunately, I couldn't clearly identify groups of preferences. Maybe the problem is in the phrasing of the question; perhaps, it would have been better to make a separate quantitative scale for each type of plot and world. However, this would significantly expand the survey and, therefore, reduce the number of responses. A small sample size also plays a role.
 
 I added one custom filter: `* Genre: Not about the future` — respondents who did not choose "science fiction" or "cyberpunk" in the preferred genres.
 
