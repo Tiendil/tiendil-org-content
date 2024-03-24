@@ -9,4 +9,4 @@ authors = ["Aliaksei Yaletski (Tiendil) <a.eletsky@gmail.com>"]
 python = "^3.12"
 
 uvicorn = "^0.27.1"
-brigid = "^0.4.4"
+brigid = "^0.5.0"
