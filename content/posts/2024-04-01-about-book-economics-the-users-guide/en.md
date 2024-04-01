@@ -13,7 +13,7 @@ caption = "Cover of the book \"Economics: The User's Guide\""
 
 This is the second book by Ha-Joon Chang that I've read. The first one, [Bad Samaritans]{post:@choose-nearest-language:evil-samaritans}, left a good impression, and it was also positively reviewed by [Tim O'Reilly](https://en.wikipedia.org/wiki/Tim_O'Reilly) in his book [WTF?]{post:@choose-nearest-language:about-book-wtf}. So, "Economics: The User's Guide" took its place on my reading list, and finally, I have read it.
 
-**_Here and further, all quotes point to the Russian edition of the book and are translated to English by me (I have only the Russian edition) => inconsistencies are possible because of double translation English->Russian->English._**
+**_Here and further, all quotes point to the Russian edition of the book and are translated into English by me (I have only the Russian edition) => inconsistencies are possible because of double translation English->Russian->English._**
 
 According to Chang, the book was conceived as an _"introduction to economic theory for the widest possible audience"_ (page 299), and this reflects its essence well. I would only add, from the perspective of my post-Soviet education, that the book looks more like an "overview of the diversity and complexity of economics, supplemented with an introduction to the theory" rather than an "introduction to the theory".
 
