@@ -75,7 +75,7 @@ Such a position has curious consequences.
 
 Firstly, the author recommends not to trust any economist who claims his analysis is scientific and free from evaluative judgments.
 
-Secondly, _"Economics is too important to be left in the hands of professional economists"_ (page 294).
+Secondly, _"the economy is too important to be left to professional economists"_ (page 294).
 
 Chang says each person should be prepared to challenge professional economists (including the author) because their arguments are primarily political, not objective/scientific. Economists do not (and should not) have a monopoly on truth.
 
