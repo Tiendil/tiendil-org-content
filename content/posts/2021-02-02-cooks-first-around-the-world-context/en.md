@@ -85,22 +85,23 @@ Everyone should know and understand the diversity of economic theories to preven
 
 Thirdly, there is something useful in every economic theory. Instead of fanatically following one of them, it is necessary to choose wisely and critically how and through what we look at a specific issue in a specific context.
 
-## Моё мнение
+## My opinion
 
-Я отношусь к позиции Чан двояко.
+I have a dual attitude towards Chang's position.
 
-С одной стороны, я солидарен с ним в целом, сам неоднажды писал, что:
+On the one hand, I agree with him in general. I have written more than once that:
 
-- [модели реальности]{post:life-and-work-with-models}, коими являются экономические теории, всегда ограничены и применять их надо с учётом контекста.
-- необходимо избегать использования [мемплексов]{post:genes-memes-memeplexes} как стратегии, в пользу [композиции]{post:composition-vs-classification} атомарных практик.
+- [models of reality]{post:choose-nearest-language:life-and-work-with-models}, which are economic theories, are always limited, and they should be applied with the right context in mind.
+- using [memeplexes]{post:genes-memes-memeplexes} as a strategy should be avoided in favor of the [composition]{post:composition-vs-classification} of atomic practices.
 
-С другой стороны, позиция кажется слегка радикальной и слабо согласующейся с основным текстом книги (Чан сформулировал свой взгляд в отдельной заключающей главе). Возможно, это дефект перевода и на самом деле автор использовал более мягкие утверждения.
+On the other hand, the position seems slightly radical and poorly aligned with the main text of the book (Chang formulated his view in the final chapter). Perhaps this is a translation defect, and  the author used softer statements.
 
-Я согласен, что экономика неотделима от политики, но не понимаю почему исследование некоей абстрактной штуки у нас в мозгах не может считаться наукой. Скорее, надо выбрать более подходящие инструменты для научного исследования.
+I agree that the economy is inseparable from politics, but I do not understand why the study of some subjective thing cannot be considered science. Rather, we need to choose more appropriate tools for scientific research.
 
-Также, я согласен с тем, что регулирование экономики должно быть демократическим, но разве оно уже не таково (в развитых странах)? Ведь «профессора экономики» не регулируют экономику напрямую, это делают избранные представители народа, которые, в свою очередь, могут выбирать советам какого экономиста следовать.
+Also, I agree that the regulation of the economy should be democratic, but isn't it already (in developed countries)? After all, "economics professors" do not regulate the economy directly, this is done by elected representatives of the people, who, in turn, can choose whose economic advice to follow.
 
-## Забавные идеи и факты
+## Funny ideas and facts
+
 
 В книге много интересных исторических фактов. В какой-то момент я перестал их выписывать, отмечал только самые любопытные для меня. Вот несколько:
 
