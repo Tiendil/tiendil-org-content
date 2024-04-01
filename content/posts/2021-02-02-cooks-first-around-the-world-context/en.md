@@ -1,8 +1,8 @@
 ---
-title = 'About book "Economics: The User's Guide"'
+title = "About book \"Economics: The User's Guide\""
 tags = [ "theory", "society", "books", "economics", "state"]
 published_at = "2024-04-01T12:00:00+00:00"
-description = 'Review of the book by Ha-Joon Chang "Economics: The User's Guide". An excellent introduction to economics. Reveals the complexity, ambiguity, and politicization of the phenomenon.'
+description = "Review of the book by Ha-Joon Chang \"Economics: The User's Guide\". Great economics intro, exposing its complexity, ambiguity, and politicization."
 seo_image = "./images/cover_en.jpg"
 ---
 
@@ -11,7 +11,7 @@ src = "./images/cover_en.jpg"
 caption = 'Cover of the book "Economics: The User's Guide"'
 ///
 
-This is the second book by Ha-Joon Chang that I've read. The first one, [Bad Samaritans]{post:choose-nearest-language:evil-samaritans}, left a good impression, and it was also positively reviewed by [Tim O'Reilly](https://en.wikipedia.org/wiki/Tim_O'Reilly) in his book [WTF?]{post:choose-nearest-language:about-book-wtf}. So "Economics: The User's Guide" appeared on my reading list and I finally got to it.
+This is the second book by Ha-Joon Chang that I've read. The first one, [Bad Samaritans]{post:@choose-nearest-language:evil-samaritans}, left a good impression, and it was also positively reviewed by [Tim O'Reilly](https://en.wikipedia.org/wiki/Tim_O'Reilly) in his book [WTF?]{post:@choose-nearest-language:about-book-wtf}. So "Economics: The User's Guide" appeared on my reading list and I finally got to it.
 
 _*Here and futher, all quotes point to Russian edition of the book and are translated to English by me => inconsistencies are possible.*_
 
@@ -91,8 +91,8 @@ I have a dual attitude towards Chang's position.
 
 On the one hand, I agree with him in general. I have written more than once that:
 
-- [models of reality]{post:choose-nearest-language:life-and-work-with-models}, which are economic theories, are always limited, and they should be applied with the right context in mind.
-- using [memeplexes]{post:genes-memes-memeplexes} as a strategy should be avoided in favor of the [composition]{post:composition-vs-classification} of atomic practices.
+- [models of reality]{post:@choose-nearest-language:life-and-work-with-models}, which are economic theories, are always limited, and they should be applied with the right context in mind.
+- using [memeplexes]{post:@choose-nearest-language:genes-memes-memeplexes} as a strategy should be avoided in favor of the [composition]{post:@choose-nearest-language:composition-vs-classification} of atomic practices.
 
 On the other hand, the position seems slightly radical and poorly aligned with the main text of the book (Chang formulated his view in the final chapter). Perhaps this is a translation defect, and  the author used softer statements.
 
