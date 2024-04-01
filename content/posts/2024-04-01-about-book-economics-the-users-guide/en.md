@@ -53,7 +53,7 @@ In the final part, there is a brief summary of Chang's view of the economy. I'll
 
 Chang says he wanted to show _"how to think about economics, not what to think"_ (page 293).
 
-He denies economic theories objective scientific truth and, consequently, denies economics the status of science.
+He denies economic theories an objective scientific truth and, consequently, denies economics the status of science.
 
 > Economic theory has always been and remains a part of politics. It has never been — and will not become — a science because there are no objective truths in economics that can be established independently of political and often ethical judgments.
 >
