@@ -13,15 +13,15 @@ caption = 'Cover of the book "Economics: The User's Guide"'
 
 This is the second book by Ha-Joon Chang that I've read. The first one, [Bad Samaritans]{post:choose-nearest-language:evil-samaritans}, left a good impression, and it was also positively reviewed by [Tim O'Reilly](https://en.wikipedia.org/wiki/Tim_O'Reilly) in his book [WTF?]{post:choose-nearest-language:about-book-wtf}. So "Economics: The User's Guide" appeared on my reading list and I finally got to it.
 
-Это вторая книга Ха-Джун Чан, которую я прочитал. Первая — [Злые самаритяне]{post:evil-samaritans} — оставила хорошие впечатление, плюс о ней позитивно отозвался [Тим О’Рейли](https://ru.wikipedia.org/wiki/О’Райли,_Тим) в книге [WTF?]{post:about-book-wtf}. Поэтому «Как устроена экономика» прописалась в моей очереди на прочтение и вот я наконец до неё добрался.
+_Here and futher, all quotes point to Russian edition of the book and are translated to English by me => inconsistencies are possible._
 
-По словам Чан, книга задумывалась как _«введение в экономическую теорию, понятное самой широкой аудитории»_ (страница 299) и это хорошо отражает её суть. Я бы только добавил, с позиции моего пост-советсткого образования, что это скорее не «введение в теорию», а ммм… обзор многообразия и сложности экономики, разбавленный введением в теорию.
+According to Chang, the book was conceived as an _"introduction to economic theory for the widest possible audience"_ (page 299) and this is well reflect its essence. I would only add, from the perspective of my post-soviet education, that the book looks more like an "overview of the diversity and complexity of economics, diluted with an introduction to theory" rather than an "introduction to theory".
 
-В книге нет математически формул и зубодробительной статистики, только конкретные факты. Зато есть набор призм, через которые можно и нужно смотреть на экономику, чтобы примерно понимать, что происходит.
+The book contains no mathematical formulas or jaw-dropping statistics, just concrete facts. What makes it interesting, however, is a set of prisms through which you can — and should — view the economy to gain a basic understanding of what's happening around you.
 
-По сути, Чан даёт набор точек зрения, через которые можно смотреть на экономические процессы, описывает их преимущества и недостатки, сопровождает всё это примерами, историческми справками и фактами.
+Chan gives a set of points of view through which you can look at economic processes, describes their advantages and disadvantages, accompanies all this with examples, historical references, and facts.
 
-Поскольку книга — своего рода учебник, я не буду пытаться её пересказывать — это привело бы к попытке повторить книгу в паре страниц, а я определённо не в состоянии это сделать. Ограничусь попыткой изложить взгляд автора на экономику в целом, как я его понял.
+Since the book is a kind of textbook, I will not try to retell it — this would lead to an attempt to repeat the book in a couple of pages, and I definitely can't do that. I will limit myself to describing the author's view of the economy in the whole, as I understood it.
 
 <!-- more -->
 
