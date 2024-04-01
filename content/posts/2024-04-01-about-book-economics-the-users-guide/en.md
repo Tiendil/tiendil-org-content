@@ -15,13 +15,13 @@ This is the second book by Ha-Joon Chang that I've read. The first one, [Bad Sam
 
 _*Here and further, all quotes point to the Russian edition of the book and are translated to English by me => inconsistencies are possible.*_
 
-According to Chang, the book was conceived as an _"introduction to economic theory for the widest possible audience"_ (page 299), and this reflects its essence well. I would only add, from the perspective of my post-Soviet education, that the book looks more like an "overview of the diversity and complexity of economics, diluted with an introduction to theory" rather than an "introduction to theory".
+According to Chang, the book was conceived as an _"introduction to economic theory for the widest possible audience"_ (page 299), and this reflects its essence well. I would only add, from the perspective of my post-Soviet education, that the book looks more like an "overview of the diversity and complexity of economics, diluted with an introduction to the theory" rather than an "introduction to the theory".
 
 The book contains no mathematical formulas or jaw-dropping statistics, just concrete facts. What makes it valuable, however, is a set of prisms through which you can — and should — view the economy to gain a basic understanding of what's happening around you.
 
-Chan provides a set of points of view through which you can examine economic processes, describes their advantages and disadvantages, accompanies all this with examples, historical references, and facts.
+Chan provides a set of points of view through which you can examine economic processes; describes their advantages and disadvantages; accompanies all this with examples, historical references, and facts.
 
-Since the book is a kind of textbook, I will not try to retell it — this would lead to an attempt to repeat the book in a couple of pages, and I definitely can't do that. I will limit myself to describing the author's view of the economy as a whole, as I understood it.
+Since the book is a kind of textbook, I will not try to retell it — this would lead to an attempt to repeat the book in a couple of pages, and I definitely can't do that. I will limit myself to describing the author's view of the economy as a whole as I understood it.
 
 <!-- more -->
 
@@ -33,7 +33,7 @@ The author definitely has his own view of things and his own ideology. From my p
 
 In the book, Ha-Joon Chang:
 
-- Advises studying various types of economic judgments, developing critical thinking, and choosing an approach/theory/model suitable for concrete circumstances.
+- Advises studying various economic judgments, developing critical thinking, and choosing an approach/theory/model suitable for concrete circumstances.
 - Tries to explore a wide range of countries, each differing in various parameters, to avoid biases akin to the [WEIRD](https://en.wikipedia.org/wiki/Psychology#WEIRD_bias) phenomenon in psychology.
 - Constantly criticizes opinions like "there is only one right approach to …".
 
@@ -83,7 +83,7 @@ The author goes even further and says that the willingness to challenge economis
 
 Everyone should know and understand the diversity of economic theories to prevent their use as a political argument and effectively resist manipulation.
 
-Thirdly, there is something valuable in every economic theory. Instead of fanatically following one theories, it is necessary to choose wisely and critically how and through what we look at a specific issue in a specific context.
+Thirdly, there is something valuable in every economic theory. Instead of fanatically following one of theories, it is necessary to choose wisely and critically how and through what we look at a specific issue in a specific context.
 
 ## My opinion
 
@@ -94,7 +94,7 @@ On the one hand, I agree with him in general. I have written more than once that
 - [models of reality]{post:@choose-nearest-language:life-and-work-with-models}, which are economic theories, are always limited, and they should be applied with the proper context in mind.
 - using [memeplexes]{post:@choose-nearest-language:genes-memes-memeplexes} as a strategy should be avoided in favor of the [composition]{post:@choose-nearest-language:composition-vs-classification} of atomic practices.
 
-On the other hand, Chang's position seems slightly radical and poorly aligned with the book's main text (Chang formulated his view in the final chapter). Perhaps this is a translation defect, and  the author used softer statements.
+On the other hand, Chang's position seems slightly radical and not well aligned with the book's main text (Chang formulated his view in the final chapter). Perhaps this is a translation issue (to Russian), and the author used softer statements.
 
 I agree that the economy is inseparable from politics, but I do not understand why studying of some subjective thing cannot be considered science. Instead, we need to choose more appropriate tools for scientific research.
 
@@ -129,6 +129,6 @@ In my opinion, over the past 30-40 years, this trend has broken and is going bac
 
 Resources and time spent on a detailed analysis and elaboration of production operations lead to a slowdown in the manufacturer's response to market changes. Your processes (and production, as a result) risk becoming obsolete before you optimize everything and put it on the shelves.
 
-Therefore, the value of multifunctional professionals with many skills, high learning ability, and independence is increasing. Such people, of course, are not able to super-optimize their work, but they can quickly bend it in any direction, no matter where the market wind blow.
+Therefore, the value of multifunctional professionals with many skills, high learning ability, and independence is increasing. Such people, of course, are not able to super-optimize their work, but they can quickly bend it in any direction, no matter where the market wind blows.
 
 With the explosive development of AI, this trend should become even more noticeable, as the focus of work will shift not from optimizing operations to optimizing processes but from optimizing processes to optimizing ideas when the "average" worker will need to change not the company's processes but the product ideas.
