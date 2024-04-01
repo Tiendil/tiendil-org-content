@@ -102,36 +102,33 @@ Also, I agree that the regulation of the economy should be democratic, but isn't
 
 ## Funny ideas and facts
 
+The book contains many interesting historical facts. At some point, I stopped writing them down, noting only the most curious for me. Here are a few:
 
-В книге много интересных исторических фактов. В какой-то момент я перестал их выписывать, отмечал только самые любопытные для меня. Вот несколько:
+- From 1776 to 1980, the production of pins increased from 20 to 800,000 pins per day per worker.
+- In 1804, the [acting Vice President of the United States killed the acting Minister of Finance in a duel](https://en.wikipedia.org/wiki/Hamilton-Burr_duel).
+- By estimates, 30%-50% of international trade in industrial products is actually intra-firm trade or just the transfer of resources within one multinational or transnational corporation.
+- The average holding period for shares decreased from 5 years in the 1960s to 2 years in the 1980s to 7.5 months in 2007.
+- Deindustrialization does not mean a decrease in the volume of production. It's just that the cost of production is decreasing, and the cost of services is not.
+- _"We have always lived in a knowledge economy. It has always been the quality of the knowledge used, not the physical nature of the products produced (whether material goods or non-material services), that made industrialized countries richer"_ (page 174). Technologies just become obsolete. For example, the production of woolen fabric in the mid-18th century was one of the most high-tech industries, and today it is one of the least high-tech.
 
-- С 1776 по 1980 производительность рабочих при производстве булавок выросла от 20 до 800000 булавок/день.
-- В 1804 году [действующий вице-президент США убил на дуэли действующего министра финансов](https://ru.wikipedia.org/wiki/Дуэль_Гамильтона_с_Берром).
-- По оценкам, 30%-50% международной торговли продуктами промышленного производства на самом деле представляет собой внутрифирменную торговлю или просто передачу ресурсов в пределах одной мультинациональной или транснациональной корпорации.
-- Средний срок владения акциями снижался с 5 лет в 60-ых, до 2 лет в 80-ых, до 7.5 месяцев в 2007.
-- Деиндустриализация не означает меньший объём производства. Просто стоимость производства уменьшается, а стоимость услуг — нет.
-- _«Мы всегда жили при экономике знаний. Всегда именно качество используемых знаний, а не физическая природа произведённых продуктов (хоть материальных товаров, хоть нематериальных услуг) делало индустриализированные страны богаче»_ (страница 174). Просто технологии устаревают. Например, производство шерстяной ткани в середине 18 века было одной из самых высокотехнологичных отраслей, а сегодня одна из самых низкотехнологичных.
+## Some thoughts inspired by the book
 
-## Заметки по мотивам
+### Derivatives
 
-### Деривативы
+The mechanisms of trading derivatives are crazy and become even crazier. It is very similar to the case when mathematics and statistics are used as a [cargo cult](https://en.wikipedia.org/wiki/Cargo_cult).
 
-Механизмы торговли деривативами упороты и становятся ещё более упоротыми. Очень похоже на случай, когда математику и статистику применяют как карго культ.
-
->Энди Холдейн, исполнительый директор по финансовой стабильности в Банке Англии, однажды отметил, что для того, чтобы полностью разобраться в том, как рабоатет CDO (один из самых — но не самый — сложных новых финансовых продуктов), потенциальный инвестор должен усвоить болеее миллиарда страниц инфорации.
+> Andy Haldane, Executive Director for Financial Stability at the Bank of England, once noted that to fully understand how CDO works (one of the most — but not the most — complex new financial products), a potential investor must absorb more than a billion pages of information.
 >
->страница 200 «Как устроена экономика», Ха-Джун Чан
+> page 200 "Economics: The User's Guide", Ha-Joon Chang
 
-### Отход от упрощения производственных операций
+### Moving Away from Simplifying Production Operations
 
-Это не идея автора, а мои мысли во время чтения книги.
+For a long time, there was a trend in production to simplify the worker's operations: from manufactories to conveyor belts, work became simpler and more monotonous
 
-Долгое время в производстве был тренд на упрощение операций работника: от мануфактур к конвеерам работа становилась всё проще и монотоннее.
+In my opinion, over the past 30-40 years, this trend has broken and is going back.
 
-На мой взгляд, последние лет 30-40 этот тренд надломился и идёт вспять.
+Resources and time spent on a detailed analysis and elaboration of production operations lead to a slowdown in the manufacturer's response to market changes. Your processes (and production, as a result) risk becoming obsolete before you optimize everything and put it on the shelves.
 
-Ресурсы и время, затрачиваемые на детальный анализ и проработку производственных операций приводят к замедлению реакции производителя на изменения на рынке. Ваши процессы (и продукция, как следствие) рискуют устареть прежде чем вы всё оптимизируете и разложите по полочкам.
+Therefore, the value of multifunctional professionals with a lot of skills, high learning ability, and independence is increasing. Such people, of course, are not able to super-optimize their work, but they can quickly bend it in any direction, no matter where the market wind blows.
 
-Поэтому возрастает ценность многофункциональных профессионалов с большим количеством навыков, высокими обучаемостью и независимостью. Такие люди, конечно, не в состоянии сверхоптимизировать свою работу, но зато могут оперативно гнуть её в любую сторону, куда бы ветер рынка не подул.
-
-Со взрывным развитием ИИ эта тенденция должна стать только заметнее, так как фокус работы начнёт сдвигаться уже не с оптимизации операций на оптимизацию процессов, а с оптимизации процессов на оптимизацию идей, когда «среднему» работнику нужно будет изменять не процессы компании, а идеи продукта.
+With the explosive development of AI, this trend should become even more noticeable, as the focus of work will shift not from optimizing operations to optimizing processes, but from optimizing processes to optimizing ideas when the "average" worker will need to change not the company's processes but the product ideas.
