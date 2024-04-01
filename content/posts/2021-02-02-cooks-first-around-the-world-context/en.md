@@ -25,21 +25,21 @@ Since the book is a kind of textbook, I will not try to retell it — this would
 
 <!-- more -->
 
-## Нюансы подачи материала
+## Nuances of presenting the material
 
-Книга вышла в 2015 году — почти 10 лет назад. За это время жизнь прилично потреплала человечество, поэтому не забывайте помещать все факты и утверждения в контекст середины десятых годов.
+The book was published in 2015 — almost 10 years ago. From that moment, life has significantly shaken humanity, so don't forget to place all facts and statements in the context of the mid-tens.
 
-Автор определённо имеет свой взгляд на вещи, свою идеалогию. С моей колокольни, «Как устроена экономика» не выглядит манифестом этих идей. Если не считать им выступление за критический взгляд на вещи, рациональное мышление и здравый смысл.
+The author definitely has his own view of things, his own ideology. From my perspective, "Economics: The User's Guide" does not look like a manifesto of these ideas. Unless you consider as a manifesto an advocacy for a critical view of things, rational thinking, and common sense.
 
-В тексте книги Ха-Джун Чан:
+In the book, Ha-Joon Chang:
 
-- Советует изучать различные типы экономических суждений, развивать критическое мышление и выбирать подход/теорию/модель под конкретные обстоятельства.
-- Старается рассматривать широкий спектр стран, отличающихся по различным параметрам, чтобы избежать искажений в духе [WEIRD](https://en.wikipedia.org/wiki/Psychology#WEIRD_bias) в психлогии.
-- Постоянно критикует взгляды «есть только один правильный подход к …».
+- Advises to study various types of economic judgments, develop critical thinking, and choose an approach/theory/model suitable for concrete circumstances.
+- Tries to explore a wide range of countries, each differing in various parameters, to avoid biases akin to the [WEIRD](https://en.wikipedia.org/wiki/Psychology#WEIRD_bias) phenomenon in psychology.
+- Constantly criticizes opinions like "there is only one right approach to …".
 
-Автор явно указывает, что старался передать весь спектр мнений, без поляризации. На мой взгляд, у него получилось. Но у меня своя колокольня, у вас — своя. Не забывайте, что книга отражает мнение автора, а эссе — моё личное восприятие.
+The author clearly states that he tried to convey the full range of opinions without polarization. I think he succeeded. But I have my own perspective, you have yours. Don't forget that the book reflects the author's opinion, and the essay is my personal perception of it.
 
-## Структура книги
+## Structure of the book
 
 «Как устроена экономика» состоит из двух частей.
 
