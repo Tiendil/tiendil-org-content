@@ -1,5 +1,5 @@
 ---
-title = "About book \"Economics: The User's Guide\""
+title = "About the book \"Economics: The User's Guide\""
 tags = [ "theory", "society", "books", "economics", "state"]
 published_at = "2024-04-01T12:00:00+00:00"
 description = "Review of the book by Ha-Joon Chang \"Economics: The User's Guide\". Great economics intro, exposing its complexity, ambiguity, and politicization."
