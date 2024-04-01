@@ -13,7 +13,7 @@ caption = "Cover of the book \"Economics: The User's Guide\""
 
 This is the second book by Ha-Joon Chang that I've read. The first one, [Bad Samaritans]{post:@choose-nearest-language:evil-samaritans}, left a good impression, and it was also positively reviewed by [Tim O'Reilly](https://en.wikipedia.org/wiki/Tim_O'Reilly) in his book [WTF?]{post:@choose-nearest-language:about-book-wtf}. So, "Economics: The User's Guide" took its place on my reading list, and finally, I have read it.
 
-_*Here and further, all quotes point to the Russian edition of the book and are translated to English by me => inconsistencies are possible.*_
+_*Here and further, all quotes point to the Russian edition of the book and are translated to English by me (I have only the Russian edition) => inconsistencies are possible because of double translation English->Russian->English.*_
 
 According to Chang, the book was conceived as an _"introduction to economic theory for the widest possible audience"_ (page 299), and this reflects its essence well. I would only add, from the perspective of my post-Soviet education, that the book looks more like an "overview of the diversity and complexity of economics, supplemented with an introduction to the theory" rather than an "introduction to the theory".
 
@@ -75,9 +75,9 @@ Such a position has curious consequences.
 
 Firstly, the author recommends not to trust any economist who claims his analysis is scientific and free from evaluative judgments.
 
-Secondly, _"Economics is too important to be left to professional economists"_ (page 294).
+Secondly, _"Economics is too important to be left in the hands of professional economists"_ (page 294).
 
-Chang says everyone should be ready to challenge professional economists (including the author) because their arguments are primarily political, not objective/scientific. Economists do not (and should not) have a monopoly on truth.
+Chang says each person should be prepared to challenge professional economists (including the author) because their arguments are primarily political, not objective/scientific. Economists do not (and should not) have a monopoly on truth.
 
 The author goes even further and says that the willingness to challenge economists should be the basis of democracy. That we should not allow a _"bunch of self-proclaimed experts"_ (page 296) to govern our society.
 
@@ -92,13 +92,13 @@ I have a dual attitude towards Chang's position.
 On the one hand, I agree with him in general. I have written more than once that:
 
 - [models of reality]{post:@choose-nearest-language:life-and-work-with-models}, which are economic theories, are always limited, and they should be applied with the proper context in mind.
-- using [memeplexes]{post:@choose-nearest-language:genes-memes-memeplexes} as a strategy should be avoided in favor of the [composition]{post:@choose-nearest-language:composition-vs-classification} of atomic practices.
+- the use of [memeplexes]{post:@choose-nearest-language:genes-memes-memeplexes} as a strategy should be avoided in favor of the [composition]{post:@choose-nearest-language:composition-vs-classification} of fundamental methods.
 
 On the other hand, Chang's position seems slightly radical and not well aligned with the book's main text (Chang formulated his view in the final chapter). Perhaps this is a translation issue (to Russian), and the author used softer statements.
 
 I agree that the economy is inseparable from politics, but I do not understand why studying of some subjective thing cannot be considered science. Instead, we need to choose more appropriate tools for scientific research.
 
-Also, I agree that the regulation of the economy should be democratic, but isn't it already (in developed countries)? After all, "economics professors" do not regulate the economy directly. This is done by elected representatives of the people, who, in turn, can choose whose economic advice to follow.
+Also, I agree that the regulation of the economy should be democratic, but isn't it already (in developed countries)? After all, economics experts do not regulate the economy directly. This is done by elected representatives of the people, who, in turn, can choose whose economic advice to follow.
 
 ## Funny ideas and facts
 
@@ -125,9 +125,9 @@ The mechanisms of trading derivatives are crazy and become even crazier. It is s
 
 For a long time, there was a trend in production to simplify the worker's operations: from manufactories to conveyor belts, work became simpler and more monotonous.
 
-In my opinion, over the past 30-40 years, this trend has broken and is going back.
+In my opinion, over the past 30-40 years, the trend has changed and is moving in the opposite direction.
 
-Resources and time spent on a detailed analysis and elaboration of production operations lead to a slowdown in the manufacturer's response to market changes. Your processes (and production, as a result) risk becoming obsolete before you optimize everything and put it on the shelves.
+Resources and time spent on a detailed analysis and elaboration of production operations lead to a slowdown in the manufacturer's response to market changes. Your processes (and production, as a result) may becoming obsolete before you optimize everything and put it on the shelves.
 
 Therefore, the value of multifunctional professionals with many skills, high learning ability, and independence is increasing. Such people, of course, are not able to super-optimize their work, but they can quickly bend it in any direction, no matter where the market wind blows.
 
