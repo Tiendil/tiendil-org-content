@@ -13,7 +13,7 @@ caption = 'Cover of the book "Economics: The User's Guide"'
 
 This is the second book by Ha-Joon Chang that I've read. The first one, [Bad Samaritans]{post:choose-nearest-language:evil-samaritans}, left a good impression, and it was also positively reviewed by [Tim O'Reilly](https://en.wikipedia.org/wiki/Tim_O'Reilly) in his book [WTF?]{post:choose-nearest-language:about-book-wtf}. So "Economics: The User's Guide" appeared on my reading list and I finally got to it.
 
-_Here and futher, all quotes point to Russian edition of the book and are translated to English by me => inconsistencies are possible._
+_*Here and futher, all quotes point to Russian edition of the book and are translated to English by me => inconsistencies are possible.*_
 
 According to Chang, the book was conceived as an _"introduction to economic theory for the widest possible audience"_ (page 299) and this is well reflect its essence. I would only add, from the perspective of my post-soviet education, that the book looks more like an "overview of the diversity and complexity of economics, diluted with an introduction to theory" rather than an "introduction to theory".
 
@@ -41,49 +41,49 @@ The author clearly states that he tried to convey the full range of opinions wit
 
 ## Structure of the book
 
-«Как устроена экономика» состоит из двух частей.
+"Economics: The User's Guide" consists of two parts.
 
-В первой части даётся иторическая справка, описываются наиболее влиятельные экономические школы и вводятся базовые понятия.
+The first part provides a historical background, describes the most influential economic schools, and introduces basic concepts.
 
-Во второй части автор разбирает конкретные призмы, через которые можно смотреть на экономику, и сопутствующие понятия, а-ля [ВВП](https://ru.wikipedia.org/wiki/Валовой_внутренний_продукт), [деривативы](https://ru.wikipedia.org/wiki/Производный_финансовый_инструмент), [инвестиции](https://ru.wikipedia.org/wiki/Инвестиции), etc.
+In the second part, the author examines specific prisms through which you can look at the economy and related concepts, such as [GDP](https://en.wikipedia.org/wiki/Gross_domestic_product), [derivatives](https://en.wikipedia.org/wiki/Derivative_(finance)), [investments](https://en.wikipedia.org/wiki/Investment), etc.
 
-В заключении есть небольшое резюме с описанием взгляда Чан на экономику. Попытаюсь его пересказать своими словами.
+In the final part, there is a brief summary of Chang's view of the economy. I'll try to retell it in my own words.
 
-## Экономика неотделима от политики
+## Economy is inseparable from politics
 
-Чан говорит, что хотел показать _«как, а не что следует думать об экономике»_ (страница 293).
+Chang says he wanted to show _"how to think about economics, not what to think"_ (page 293).
 
-Он отказывает экономическим теориям в объективной научной истинности и, как следствие, экономике — в статусе науки.
+He denies economic theories objective scientific truth and, consequently, denies economics the status of science.
 
->Экономическая теория была и остаётся частью политики. Она никогда не была — и не станет — наукой, потому что в экономике нет объективных истин, которые можно установить независимо от политических, а часто и этических суждений.
+> Economic theory has always been and remains part of politics. It has never been — and will not become — a science, because there are no objective truths in economics that can be established independently of political, and often ethical, judgments.
 >
->страница 293 «Как устроена экономика», Ха-Джун Чан
+> page 293 "Economics: The User's Guide", Ha-Joon Chang
 
-Это немного странно, так как ранее по тексту автор называет экономику наукой.
+This is a bit strange, as earlier in the text the author calls economics a science.
 
-Другими словами, наши экономические решения всегда обусловлены не только «объективной реальностью», но и нашими субъективными представлениями о том, что правильно, а что неправильно.
+In other words, our economic decisions are always influenced not only by the "objective reality" but also by our subjective views of what is right and what is wrong.
 
-Например, не существует научного перечня того, что должно и не должно продаваться на рынке. Этот перечень изменяется на протяжении всей истории человечества в зависимости от наших конкретных потребностей и представлении о прекрасном.
+For example, there is no scientific list of what should and should not be sold on the market. This list changes throughout human history depending on our specific needs and core values.
 
-Экономические решения не только зависят от политики, но и меняют её. Утрируя, если вы можете перетащить какую-то штуку (например, воду, людей, здоровье, детский труд) на рынок, вы увеличиваете влияние богатых на неё (начинает работать правило «один доллар — один голос») и уменьшаете влияние «властных». Если вы убираете штуку с рынка, то власть перераспределяется наоборот (начинает работать правило «один человек — один голос», в случае демократии).
+Economic decisions not only depend on politics but also change it. Exaggerating, if you can bring some stuff (like water, people, health, child labor) to the market, you increase the influence of the rich people on it (the "one dollar — one vote" rule starts to work) and reduce the influence of the "powerful" people. If you remove stuff from the market, then power is redistributed in the opposite direction (the "one person — one vote" rule starts to work, in the case of democracy).
 
-Кстати, с подобными диллемами постоянно сталкиваются разработчики ММО. В частости, я часто думал над ней во время работы над [Сказкой](https://the-tale.org).
+By the way, MMO developers constantly face similar dilemmas. In particular, I often thought about it while working on [The Tale](https://the-tale.org).
 
-Если же посмотреть на измерительную часть экономики, то можно увидеть, что фактические числа расчитывются на основе этически/политически предвзятых теорий, зыбких определений и неточных данных, а значит всегда спорны. Ответы на вопросы в духе «Что включать в расчёт ВВП? Что не включать? Как конкретно его рассчитывать?» всегда субъективны, политизированы.
+Also, if you look at the measuring part of the economy, you can see that the actual numbers are based on ethically/politically biased theories, shaky definitions, and inaccurate data, therefore, always controversial. Answers to questions like "What to include in GDP calculation? What not to include? How exactly to calculate it?" are always subjective, politicized.
 
-Из подобной позиции есть интересные следствия.
+Such a position has interesting consequences.
 
-Во-первых, автор рекомендует не верить любому экономисту, утверждающему, что его анализ научный, свободный от оценочных суждений.
+Firstly, the author recommends not to trust any economist who claims that his analysis is scientific and free from evaluative judgments.
 
-Во-вторых, _«Экономика слишком важна, чтобы отдавать её на откуп профессиональным экономистам»_ (страница 294).
+Secondly, _"Economics is too important to be left to professional economists"_ (page 294).
 
-Чан говорит, что каждый должен быть готов бросить вызов профессиональным экономистам (автору, в том числе), потому что их аргументы, в большОй части, — политические, а не объективные/научные. У экономистов нет (и не должно быть) монополии на истину.
+Chang says that everyone should be ready to challenge professional economists (including the author) because their arguments are mostly political, not objective/scientific. Economists do not (and should not) have a monopoly on truth.
 
-Автор идёт даже дальше и говорит, что готовность бросить вызов экономистам должна быть основой демократии. В духу: мы не должны позволять _«кучке самопровозглашённых знатоков»_ (страница 296) упралять нашим обществом.
+The author goes even further and says that the willingness to challenge economists should be the basis of democracy. In the spirit of: we should not allow a _"bunch of self-proclaimed experts"_ (page 296) to govern our society.
 
-Каждый должен знать и понимать разнообразие экономических теорий, чтобы препятствовать их использованию как политического арнумента, эффективно противостоять манипуляциям.
+Everyone should know and understand the diversity of economic theories to prevent their use as a political argument and effectively resist manipulation.
 
-В-третьих, в каждой экономисеской теории есть что-то полезное. Вместо фанатичному следованию одной теории, необходимо разумно и критически выбирать как и через что мы смотрим на конкретный вопрос в конкретном контексте.
+Thirdly, there is something useful in every economic theory. Instead of fanatically following one of them, it is necessary to choose wisely and critically how and through what we look at a specific issue in a specific context.
 
 ## Моё мнение
 
