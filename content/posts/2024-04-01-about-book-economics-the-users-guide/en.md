@@ -11,17 +11,17 @@ src = "./images/cover_en.jpg"
 caption = "Cover of the book \"Economics: The User's Guide\""
 ///
 
-This is the second book by Ha-Joon Chang that I've read. The first one, [Bad Samaritans]{post:@choose-nearest-language:evil-samaritans}, left a good impression, and it was also positively reviewed by [Tim O'Reilly](https://en.wikipedia.org/wiki/Tim_O'Reilly) in his book [WTF?]{post:@choose-nearest-language:about-book-wtf}. So, "Economics: The User's Guide" appeared on my reading list, and I finally got to it.
+This is the second book by Ha-Joon Chang that I've read. The first one, [Bad Samaritans]{post:@choose-nearest-language:evil-samaritans}, left a good impression, and it was also positively reviewed by [Tim O'Reilly](https://en.wikipedia.org/wiki/Tim_O'Reilly) in his book [WTF?]{post:@choose-nearest-language:about-book-wtf}. So, "Economics: The User's Guide" took its place on my reading list, and finally, I have read it.
 
 _*Here and further, all quotes point to the Russian edition of the book and are translated to English by me => inconsistencies are possible.*_
 
-According to Chang, the book was conceived as an _"introduction to economic theory for the widest possible audience"_ (page 299), and this reflects its essence well. I would only add, from the perspective of my post-Soviet education, that the book looks more like an "overview of the diversity and complexity of economics, diluted with an introduction to the theory" rather than an "introduction to the theory".
+According to Chang, the book was conceived as an _"introduction to economic theory for the widest possible audience"_ (page 299), and this reflects its essence well. I would only add, from the perspective of my post-Soviet education, that the book looks more like an "overview of the diversity and complexity of economics, supplemented with an introduction to the theory" rather than an "introduction to the theory".
 
 The book contains no mathematical formulas or jaw-dropping statistics, just concrete facts. What makes it valuable, however, is a set of prisms through which you can — and should — view the economy to gain a basic understanding of what's happening around you.
 
 Chan provides a set of points of view through which you can examine economic processes; describes their advantages and disadvantages; accompanies all this with examples, historical references, and facts.
 
-Since the book is a kind of textbook, I will not try to retell it — this would lead to an attempt to repeat the book in a couple of pages, and I definitely can't do that. I will limit myself to describing the author's view of the economy as a whole as I understood it.
+Since the book serves as a sort of textbook, I won't attempt to retell it in full — this would lead to an attempt to repeat the book in a couple of pages, and I definitely can't do that. I will limit myself to describing the author's view of the economy as a whole as I understood it.
 
 <!-- more -->
 
@@ -55,7 +55,7 @@ Chang says he wanted to show _"how to think about economics, not what to think"_
 
 He denies economic theories objective scientific truth and, consequently, denies economics the status of science.
 
-> Economic theory has always been and remains part of politics. It has never been — and will not become — a science because there are no objective truths in economics that can be established independently of political and often ethical judgments.
+> Economic theory has always been and remains a part of politics. It has never been — and will not become — a science because there are no objective truths in economics that can be established independently of political and often ethical judgments.
 >
 > page 293 "Economics: The User's Guide", Ha-Joon Chang
 
