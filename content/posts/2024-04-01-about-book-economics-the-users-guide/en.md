@@ -8,7 +8,7 @@ seo_image = "./images/cover_en.jpg"
 
 /// brigid-images
 src = "./images/cover_en.jpg"
-caption = 'Cover of the book "Economics: The User's Guide"'
+caption = "Cover of the book \"Economics: The User's Guide\""
 ///
 
 This is the second book by Ha-Joon Chang that I've read. The first one, [Bad Samaritans]{post:@choose-nearest-language:evil-samaritans}, left a good impression, and it was also positively reviewed by [Tim O'Reilly](https://en.wikipedia.org/wiki/Tim_O'Reilly) in his book [WTF?]{post:@choose-nearest-language:about-book-wtf}. So "Economics: The User's Guide" appeared on my reading list and I finally got to it.
