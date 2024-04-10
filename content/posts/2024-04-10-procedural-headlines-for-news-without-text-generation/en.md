@@ -13,7 +13,7 @@ caption = "A screenshot of the interface for selecting a news connotation (from 
 
 From the [player preference survey]{post:making-a-fictional-universe-quantity-survey-processing}, I gradually moved on to working on a game prototype.
 
-The game will be about a news agency, where you are the chief editor, and your task is to manipulate public opinion by investigating events and choosing a [connotation](https://en.wikipedia.org/wiki/Connotation) of news: where to draw the public's attention, what to hide, in what tone to present topics, etc.
+The game will be about a news agency. You will be the chief editor, and your task is to manipulate public opinion by investigating events and choosing a [connotation](https://en.wikipedia.org/wiki/Connotation) of news: where to draw the public's attention, what to hide, in what tone to present themes, etc.
 
 Therefore, the whole game will be around the text of news.
 
@@ -25,7 +25,7 @@ But how can we make the displaying of news both interesting and simple?
 
 ## Problems
 
-A massive flow of news will pass through the player. I expect 5-10 news per "game day" and possibly a couple of thousand per game session.
+A massive flow of news will pass through the player. I expect 5-10 news per "game day" and possibly a couple thousand per game session.
 
 Therefore, a lot of problems arise.
 
@@ -41,8 +41,8 @@ An excessive variety of texts will hide important information from the players.
 
 I thought a little and found an interesting approach, the implementation of which you may have noticed in the gif above:
 
-- Randomly insert names of news topics (with a connotation other than neutral) into the headline.
-- Color each topic in a color specific to its connotation. In our case, red represents a negative attitude towards the topic and green represents a positive one.
+- Randomly insert names of news themes (with a connotation other than neutral) into the headline.
+- Color each topic in a color specific to its connotation. In our case, red represents a negative attitude towards the topic, and green represents a positive one.
 - Insert cute blocks of gibberish Unicode characters between the words.
 
 As a result, we get a "win-win":
