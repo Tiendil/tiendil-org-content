@@ -1,5 +1,5 @@
 ---
-title = "Procedural News Headlines Without Complex Text Generation"
+title = "Procedural news headlines without complex text generation"
 tags = [ "practice", "development", "gamedev", "game-design", "procedural-content-generation", "world-builders"]
 published_at = "2024-04-10T12:00:00+00:00"
 description = = "I came up with a way to generate news headlines in my game prototype without complex text generation."
@@ -13,11 +13,11 @@ caption = "A screenshot of the interface for selecting a connation of news from 
 
 From the [player preference survey](post:making-a-fictional-universe-quantity-survey-processing) I gradually moved on to working on a game prototype.
 
-The game will be about a news agency, where you are the chief editor, and your task is to manipulate public opinion by investigating events and choosing the [connotation](https://en.wikipedia.org/wiki/Connotation) of the news: where to draw the public's attention to, what to hide, in what tone to present topics, etc.
+The game will be about a news agency, where you are the chief editor, and your task is to manipulate public opinion by investigating events and choosing a [connotation](https://en.wikipedia.org/wiki/Connotation) of news: where to draw the public's attention, what to hide, in what tone to present topics, etc.
 
-Therefore, all the action will be around the text of the news.
+Therefore, all the actions will be around the text of the news.
 
-At first glance, it can be said that creating large blocks of text for each news item is pointless — the game is not about reading the news, but about managing them. Therefore, it makes sense to build interaction only around headlines.
+At first glance, it can be said that creating large blocks of detailed text for each news item is pointless — the game is not about reading news, but about managing them. Therefore, it makes sense to build interaction only around headlines.
 
 But how to make the display of news both interesting and simple?
 
@@ -25,27 +25,27 @@ But how to make the display of news both interesting and simple?
 
 ## Problems
 
-A huge flow of news will pass through the player. I expect 5-10 news items per "game day" and possibly a couple of thousand per game session.
+A huge flow of news will pass through the player. I expect 5-10 news per a "game day" and possibly a couple of thousand per a game session.
 
 Therefore, a lot of problems arise.
 
-Generating meaningful text in traditional ways is either too difficult (see my [Russian language template engine](https://github.com/the-tale/utg), for [The Tale](https://the-tale.org/)) or the result will be too boring. Not to mention the difficulties of adapting templates for multiple languages.
+Generating meaningful text in traditional ways is either too difficult (see my [Russian language template engine](https://github.com/the-tale/utg) for [The Tale](https://the-tale.org/)) or the result will be too boring. Not to mention the difficulties of adapting templates for multiple languages.
 
-Using [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) is still expensive and complex. In theory, it would be possible to pre-generate all possible headlines, but the variability is too large, you will have to deal with query engineering, maybe even fine-tune it. Plus, there are more problems mentioned below. But in a couple of years, LLM would be my choice.
+Using [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) is still expensive and complex. In theory, it would be possible to pre-generate all possible headlines with LLM, but the variability is too large (=> too costly), you will have to deal with prompt engineering, maybe even fine-tune LLM. Plus, there are still more problems mentioned below. But in a couple of years, LLM would be my choice.
 
-Players in strategy games usually don't look at the lore. At best, they will pay attention to it in the first game session, after which they will forget about it. So, making rocket science in this part of the game doesn't make sense.
+Strategy players usually don't look at the lore. At best, they will pay attention to it in the first game session and forget in the next ones. So, making rocket science in this part of the game doesn't make sense.
 
-Excessive variety of texts will hide really important information from the players.
+Excessive variety of texts will hide important information from the players.
 
 ## Solution
 
-In the end, I thought a little and found an interesting approach, the implementation of which you may have noticed in the main gif:
+I thought a little and found an interesting approach, the implementation of which you may have noticed in the gif above:
 
-- We randomly insert the names of news topics (with a connotation other than neutral) into the headline.
-- We color each topic in a color specific to the connotation. In our case, red for a negative attitude towards the topic and green for a positive one.
-- We insert cute blocks of gibberish Unicode characters between the words.
+- Randomly insert names of news topics (with a connotation other than neutral) into the headline.
+- Color each topic in a color specific to the connotation. In our case, red for a negative attitude towards the topic and green for a positive one.
+- Insert cute blocks of gibberish Unicode characters between the words.
 
-As a result, we get a "win-win":
+As a result, we get "win-win":
 
 - A very cheap and simple approach.
 - A player always clearly sees the important elements of the news. Black blocks are easily filtered out, especially after a short period of getting used to them.
