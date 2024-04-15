@@ -34,16 +34,16 @@ So, first, I will briefly outline my vision, which is based on several postulate
 
 ### Request For Comments vs Request For Change
 
-Некоторые даже расшифровывают аббревиатуру RFC по-разному.
+People interpret the abbreviation RFC differently:
 
 - Request for Comments
 - Request for Change
 
-Я предпочитаю первый вариант, потому что он более широкий и менее требовательный к разработчикам.
+I prefer the first option because it is broader and less demanding on developers.
 
-Запрашивая изменения, автор документа, формально, подписывается кровью под изложенным в нём, что не всегда возможно и может быть некомфортно. Времени на подготовку документа тратится больше, потенциальный профит за тратами не успевает.
+When a developer writes a request for change, they are formally sign this request "with their own blood," which is not always possible and can be uncomfortable. It takes more time to prepare such a document, and the potential profit may not exceed the costs.
 
-Запрашивая комментарии, автор может немного расслабиться, разрешить себе ошибиться, а значит, быть более творческим и подготовить документ быстрее. Да, может быть что-то упущено, но такие ошибки можно ловить и на следующих этапах разработки.
+By requesting comments, an author can relax a little, allow themself to make mistakes. Therefore, a developer can be more creative and prepare the document faster. Yes, something may be missed, but such errors can be caught at the next stages of development.
 
 ### Структура документа
 
