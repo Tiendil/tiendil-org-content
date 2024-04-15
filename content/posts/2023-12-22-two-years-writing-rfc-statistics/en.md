@@ -45,17 +45,17 @@ When a developer writes a request for change, they are formally sign this reques
 
 By requesting comments, an author can relax a little, allow themself to make mistakes. Therefore, a developer can be more creative and prepare the document faster. Yes, something may be missed, but such errors can be caught at the next stages of development.
 
-### Структура документа
+### Document structure
 
-Наиболее известные документы такого рода: [классические RFC](https://en.wikipedia.org/wiki/Request_for_Comments), [Python Enhancement Proposal](https://en.wikipedia.org/wiki/Python_(programming_language)#Development) и прочие — очень формальны. Оно и понятно, больше ответственности — больше формализации. Писать стандарты интернета или менять язык программирования — не шутка.
+The most famous documents of this kind: [classical RFC](https://en.wikipedia.org/wiki/Request_for_Comments), [Python Enhancement Proposal](https://en.wikipedia.org/wiki/Python_(programming_language)#Development), and others — are very formal. It is understandable, more responsibility leads to more formalities. Writing internet standards or changing a programming language is no joke.
 
-Но мы, хоть и платёжка, не ответственны за будущее всего человечества и не имеем сотен стейкхолдеров. Поэтому RFC изначально внедрялись без фиксированной структуры. Основной критерий — тебя должны понять читатели документа.
+But we, although we are a payment team, are not responsible for the future of all humanity and do not have hundreds of stakeholders. Therefore, RFCs were initially introduced without a fixed structure. The main criterion was "the readers should understand the document".
 
-Мы несколько раз обсуждали формализацию структуры RFC. Сошлись на том, что на наших масштабах вреда от закручивания гаек будет больше, чем пользы.
+We discussed several times the formalization of the RFC structure. We agreed that on our scale, the harm from tightening the screws would be greater than the benefit.
 
-Фактически, общая структура просматривается, так как мы смотрим на документы друг друга и перенимаем лучшее, но нет требования следовать какой-то форме.
+In fact, after some practice, the general structure was applied without explicit standardization. Teammates look at each other's documents and adopt the best practices, but there is no requirement to follow a specific form.
 
-Например, я немного упарываюсь в формальную структуру, но не требую этого от других. Быстрая подготовка структурированных документов — отдельный навык, который есть не у всех и не все хотят его развивать.
+For example, I am a little obsessed with the formal structure, but I do not require this from others. Quick preparation of structured documents is a separate skill that not everyone has, and not everyone wants to develop it. We should not force people to learn such skills unless they absolutely need them.
 
 ### Примеры тем RFC
 
