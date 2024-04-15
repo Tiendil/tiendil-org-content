@@ -57,9 +57,9 @@ In fact, after some practice, the general structure was applied without explicit
 
 For example, I am a little obsessed with the formal structure, but I do not require this from others. Quick preparation of structured documents is a separate skill that not everyone has, and not everyone wants to develop it. We should not force people to learn such skills unless they absolutely need them.
 
-### Примеры тем RFC
+### Examples of RFC topics
 
-RFC у нас ограничились четырьмя темами: архитектура, процессы, анализ и планирование. В следующей главе будут графики, а пока просто несколько названий реальных RFC, чтобы не быть голословным:
+The topics of our RFC were limited to four themes: architecture, processes, analysis, and planning. Later in the post you will see a lot of plots with these themes, but for now, just a few real RFC titles to avoid being unfounded:
 
 - The architecture of our fraud prevention system
 - Synchronization of subscriptions changes
