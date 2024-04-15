@@ -1,23 +1,23 @@
 ---
-title = "Два года пишем RFC — статистика"
+title = "Two years writing RFC — statistics"
 tags = [ "thinking", "practice", "development", "reflection", "systems", "theory",]
 published_at = "2024-04-15T12:00:00+00:00"
-description = "Статистика двух лет применения практики написания RFC в команде. С заметками о коррекляции метрик с динамикой команды."
+description = "Statistics for two years of practicing writing RFC in the team. With notes on the correlation of metrics with the dynamics of the team."
 seo_image = "images/two-years-writing-rfc-statistics-rfc-count-per-year.png"
 ---
 
 /// brigid-images
 src = "images/two-years-writing-rfc-statistics-rfc-count-per-year.png"
-alt = "График количества RFC за два года"
+alt = "The number of RFCs over two years"
 ///
 
-Два года как я Lead/Engineering Manager в платёжке Palta. А на следующей неделе я ухожу из компании в очередной [творческий отпуск]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}.
+More than two years ago I became a Lead/Engineering Manager at Palta's payment team. At the end of 2023 I left the company for another [subbatical](post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021).
 
-Время подводить итоги. Начну с моей самой любимой инициативы.
+It is time to sum up. I will start with my favorite initiative.
 
-С первого месяца я начал продвигать идею предварения крупных изменений текстовыми документами — [RFC](https://en.wikipedia.org/wiki/Request_for_Comments) — Request for Comments.
+From the first month, I was promoting the idea of preceding major changes with text documents — [RFC](https://en.wikipedia.org/wiki/Request_for_Comments) — Request for Comments.
 
-В этом посте будет анализ двух лет применения этой практики. Чтобы пошарить опыт, подвести итоги и иметь под рукой агитку для моего следующего места работы.
+In this post, I will analyze two years of applying this practice. To share the experience, summarize the results, and have convincing arguments for my next job.
 
 <!-- more -->
 
