@@ -11,7 +11,7 @@ src = "images/two-years-writing-rfc-statistics-rfc-count-per-year.png"
 alt = "The number of RFCs over two years"
 ///
 
-More than two years ago I became a Lead/Engineering Manager at Palta's payment team. At the end of 2023 I left the company for another [subbatical](post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021).
+More than two years ago I became a Lead/Engineering Manager at Palta's payment team. At the end of 2023 I left the company for another [subbatical]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}.
 
 It is time to sum up. I will start with my favorite initiative.
 
@@ -21,18 +21,18 @@ In this post, I will analyze two years of applying this practice. To share the e
 
 <!-- more -->
 
-## Что такое RFC, как выглядят и зачем нужны
+## What is RFC, what do they look like, and why are they needed
 
-Концепция RFC довольно известна в инженерных кругах, но не сказать что бы точно определена. Каждый понимает под ней что-то своё.
+The RFC concept is quite well known by engineers, but it is not precisely defined. Everyone understands it in their own way.
 
-Поэтому для начала я кратко изложу своё видение, которое базируется на нескольких постулатах:
+So, first, I will briefly outline my vision, which is based on several postulates:
 
-- Комфорт людей важнее формальностей.
-- Мы не делаем Google, мы не размером с Google и так далее. От нас не зависят жизни и здоровье людей.
-- Работать удобнее малыми командами.
-- Поэтому можно делать проще.
+- Comfort of people is more important than formalities.
+- Most of developers are not making Google, most of companies are not the size of Google, etc. Most of us are not responsible for the lives and health of people.
+- It is more convenient to work in small teams.
+- Therefore, we can work simpler.
 
-### Запрос на комментарии vs запрос на изменения
+### Request For Comments vs Request For Change
 
 Некоторые даже расшифровывают аббревиатуру RFC по-разному.
 
