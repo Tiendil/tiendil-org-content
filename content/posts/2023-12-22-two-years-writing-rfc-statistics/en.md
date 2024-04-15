@@ -71,7 +71,7 @@ The topics of our RFC were limited to four themes: architecture, processes, anal
 - Review & better classification of technical tasks
 - Open questions about work processes
 
-### Зачем нужны RFC
+### Why RFC are needed
 
 Фактически, это практика [мышления письмом]{post:@choose-nearest-language:thinking-through-writing} на уровне команды. Почитайте текст по ссылке, если хотите глубже окунуться в тему.
 
