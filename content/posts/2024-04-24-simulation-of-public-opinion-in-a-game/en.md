@@ -51,39 +51,39 @@ The arc of a burnt-out police officer. Stages: work, stress, nervous breakdown. 
 
 Arcs determine what events can happen in the city. A wedding can change some perks of the participants, and a burnt-out police officer can shoot someone.
 
-### Расследование и публикация материала
+### Investigations and publication of materials
 
-Когда в городе происходит событие, игрок может направить своих сотрудников расследовать его. Сотрудники — такие же NPC, поэтому, например, можно расследовать событие о своём работинке или получить проблемы из-за того, что журналисту не понравился тон последний публикации.
+When an event occurs in the city, the player can send their employees to investigate it. Employees are the same NPCs, so, for example, you can investigate an event about your colleague or get into trouble because the journalist didn't like the tone of the last publication.
 
-Каждое расследование — это последовательность вызовов (проверок), которые должен пройти журналист, чтобы собрать достаточно информации для публикации.
+Each investigation is a sequence of challenges (checks) that a journalist must pass to gather enough information for publication.
 
-Вероятность пройти вызов определяется характеристиками журналиста.
+The probability of passing a challenge is determined by the characteristics of the journalist.
 
-Когда расследование завершено, создаётся материал:
+When the investigation is completed, a material is created:
 
-- Выбирается несколько «тем», которые будут освещены в материале. Темы определяются перками участвующих в событии NPC. Например, статья может быть про ведьм, офицеров полиции, конкретного NPC, организацию, футболистов, etc.
-- Для каждой темы выбираются базовая коннотация (положительная, отрицательная, нейтральная). В прототипе это происходит случайно, в игре на это должны влиять предпочтения журналиста.
+- Several themes are selected that will be covered in the material. Themes are determined by the perks of the NPCs involved in the event. For example, an article can be about witches, police officers, a specific NPC, an organization, football players, etc.
+- For each theme, a basic connotation is selected (positive, negative, neutral). In the prototype, this happens randomly, in the game, the preferences of the journalist should influence connotations.
 
-Игрок (главный редактор) может поменять коннотацию тем, но ограниченное количество раз. Количество изменений зависит от того, сколько испытаний журналист успешно прошёл во время расследования.
+A player (chief editor) can change the connotations of themes, but only a limited number of times. The number of changes depends on how many challenges the journalist successfully passed during the investigation.
 
-Когда редактирование завершено, материал публикуется и влияет на общественное мнение: в память каждого NPC записывается случайный факт из материала с положительной или отрицательной коннотацией.
+When editing is complete, player publishes the material and it affects public opinion: a random fact from the material with a positive or negative connotation is recorded in the memory of each NPC.
 
-Тем самым, публикация изменяет общественное мнение, которое является суммой мнений всех NPC.
+Thus, the publication changes public opinion, which is the sum of the opinions of all NPCs.
 
-Механика коннотаций, кроме самого влияния на общественное мнение, даёт ещё несколько вызовов для игрока:
+The mechanics of connotations, in addition to influencing public opinion, creates additional challenges for the player:
 
-- Необходимо выбирать кого отправлять на расследование, чтобы итоговый материал было не сложно отредактировать в нужную сторону.
-- Необходимо соблюдать компромисс в правках, так как исправить все коннотации не получится и придётся выбирать чем жертвовать, кого обидеть.
+- It is necessary to choose who to send to investigation, so that the final material is not difficult to edit in the required direction.
+- It is necessary to compromise in edits, because it is impossible to correct all connotations and you will have to choose what to sacrifice, whom to offend.
 
-В итоге получаем цикл:
+As a result, we get a cycle:
 
-- Арки формируют события, специфичные для текущей ситуации в городе.
-- Игрок расследует события и двигает общественное мнение.
-- Общественное мнение двигает арки.
+- Arcs produce events specific to the current situation in the city.
+- Players investigate events and affects public opinion.
+- Public opinion affects the arcs.
 
-По задумке, это должно приводить к уникальности каждой игровой сессии. Конечно, если будет достаточно разнообразных арок.
+I expect that such a cycle will create an unique dynamic experience for the player in each game session. Of course, if there are enough diverse arcs.
 
-## Технические заметки
+## Technical notes
 
-- Прототипировать на современном фронте удобно. Особенно штуки без динамики и сложной графики. Идеально, если быстро надо накидать много интерфейса.
-- TypeScript лучше JavaScript, но тяжёлое наследие тянется и всё ещё приносит страдания :-) Но терпимо.
+- Prototyping in the modern frontend is fun. Especially things without dynamics and complex graphics. It's ideal if you need to quickly create a lot of interfaces.
+- TypeScript is better than JavaScript, but the heavy legacy is still there and still causing suffering :-) But tolerable.
