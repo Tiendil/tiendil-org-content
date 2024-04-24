@@ -45,7 +45,7 @@ The arc is divided into stages, to move between them it should collect enough po
 
 Examples of arcs.
 
-The arc of lovers. Stages: acquaintance, love, wedding. Arc points are earned if its participants simultaneously have a good attitude toward each other. Not necessarily directly. For example, an NPC 1 may have a good opinion about women who play football and if an NPC 2 is a woman and plays football, it counts.
+The arc of lovers. Stages: acquaintance, love, wedding. Arc points are earned if its participants simultaneously have a good attitude toward each other. Not necessarily directly. For example, an NPC 1 may have a good opinion about women who play football; if an NPC 2 is a woman who plays football, it counts.
 
 The arc of a burnt-out police officer. Stages: work, stress, nervous breakdown. Arc points are earned when the negative public opinion about the police is stronger than the positive.
 
@@ -55,7 +55,7 @@ Arcs determine what events can happen in the city. A wedding can change some of 
 
 When an event occurs in the city, the player can send their employees to investigate it. Employees are the same NPCs — you can investigate an event about your colleague or get into trouble because the journalist didn't like the tone of the last publication.
 
-Each investigation is a sequence of challenges (checks) journalist should pass to gather enough information for publication.
+Each investigation is a sequence of challenges (checks) that journalists should pass to gather enough information for publication.
 
 The characteristics of the journalist determine the probability of passing a challenge.
 
@@ -72,7 +72,7 @@ Thus, the publication changes public opinion, which is the sum of the opinions o
 
 The mechanics of connotations, in addition to influencing public opinion, create additional challenges for the player:
 
-- It is necessary to choose who to assigne to investigation, so that the final material is not difficult to edit in the required direction.
+- It is necessary to choose who to assigne to an investigation, so that the final material is not difficult to edit in the required direction.
 - It is necessary to compromise in edits because it is impossible to correct all connotations and you will have to choose what to sacrifice, whom to offend.
 
 As a result, we get a cycle:
