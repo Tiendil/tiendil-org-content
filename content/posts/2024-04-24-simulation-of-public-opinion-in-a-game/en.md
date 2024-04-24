@@ -2,23 +2,23 @@
 title = "Simulating public opinion in a game"
 tags = [ "theory", "practice", "development", "gamedev", "game-design", "open-source", "procedural-content-generation", "world-builders"]
 published_at = "2024-04-24T12:00:00+00:00"
-description = "I made a technical prototype of a sandbox about manipulating public opinion. Telling how it works, there is a video and sources."
+description = "I made a technical prototype of a sandbox about manipulating public opinion. A video and sources explain how it works."
 seo_image = ""
 ---
 
 /// brigid-youtube
 id = "nP8OOWgnjdI"
-caption = "(In Russian) Demonstration of a technical prototype of manipulating public opinion and explanation of how it works."
+caption = "The demonstration (in Russian) of a technical prototype of manipulating public opinion and explanation of how it works."
 ///
 
-I continue participating in [World Builders]{tags:world-builders} school, for the last month I've created a technical prototype of game mechanics for manipulating public opinion.
+I continue participating in [World Builders]{tags:world-builders} school. For the last month, I've created a technical prototype of game mechanics for manipulating public opinion.
 
-You play as the chief editor of a news agency, who sends journalists on quests and publishes articles based on the results of investigations with a focus on themes that you want to promote.
+You play as the chief editor of a news agency, who sends journalists on quests and publishes articles based on the results of investigations focusing on themes that you want to promote.
 
 - [Prototype](https://tiendil.github.io/world-builders-2023/technical-prototype/dist/)
 - [Sources](https://github.com/Tiendil/world-builders-2023/tree/main/technical-prototype)
 
-Top video is in Russian, so I'll go through the main points below.
+The top video is in Russian, so I'll go through the main points below.
 
 <!-- more -->
 
