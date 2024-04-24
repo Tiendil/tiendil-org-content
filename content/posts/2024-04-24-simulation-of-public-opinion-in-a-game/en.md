@@ -1,55 +1,55 @@
 ---
-title = "Симуляция общественного мнения в игре"
+title = "Simulating public opinion in a game"
 tags = [ "theory", "practice", "development", "gamedev", "game-design", "open-source", "procedural-content-generation", "world-builders"]
 published_at = "2024-04-24T12:00:00+00:00"
-description = "Сделал технический прототип песочницы про манипулирование общественным мнением. Рассказываю как он работает, есть видео и исходники."
+description = "I made a technical prototype of a sandbox about manipulating public opinion. Telling how it works, there is a video and sources."
 seo_image = ""
 ---
 
 /// brigid-youtube
 id = "nP8OOWgnjdI"
-caption = "Демонстрация технического прототипа манипуляции общественным мнением и рассказ как он работает."
+caption = "(In Russian) Demonstration of a technical prototype of manipulating public opinion and explanation of how it works."
 ///
 
-Продолжаю участвовать в школе [World Builders]{tags:world-builders}, за последний месяц набросал технический прототип механик манипулиции общественным мнением.
+I continue participating in [World Builders]{tags:world-builders} school, for the last month I've created a technical prototype of game mechanics for manipulating public opinion.
 
-Вы играете за главного редактора новостного агентства, который отправляет журналистов на задания, а по результатам расследований публикует статьи с фокусом на нужные (игроку) темы.
+You play as the chief editor of a news agency, who sends journalists on quests and publishes articles based on the results of investigations with a focus on themes that you want to promote.
 
-- [Прототип](https://tiendil.github.io/world-builders-2023/technical-prototype/dist/)
-- [Исходники](https://github.com/Tiendil/world-builders-2023/tree/main/technical-prototype)
+- [Prototype](https://tiendil.github.io/world-builders-2023/technical-prototype/dist/)
+- [Sources](https://github.com/Tiendil/world-builders-2023/tree/main/technical-prototype)
 
-Всё интересное можно найти в заглавном видео, ниже текстом пройдусь по основным моментам.
+Top video is in Russian, so I'll go through the main points below.
 
 <!-- more -->
 
-## Игровые механики
+## Game mechanics
 
-Население города представлено списком «важных» жителей — NPC. Воспринимать их можно как инфлуенсеров или как персонализированные репрезентации небольших групп населения.
+The city's population is represented by a list of "important" residents — NPCs. You can perceive them as influencers or as personalized representatives of small groups of the people.
 
-Каждый NPC имеет параметр «последователи», который отражет мнение какого количества людей отражает этот NPC.
+Each NPC has a "followers" parameter that reflects how many people this NPC represents.
 
-NPC описывается набором перков: «сильный», «работает офицером полиции», «ведьма», etc.
+NPCs are described by a set of perks, like "strong", "works as a police officer", "witch", etc.
 
-Перки участвуют в игре двумя способами:
+Perks affect the game in two ways:
 
-- Определяют базовые характеристики NPC. Они, в свою очередь, влияют на прохождение персонажем «вызовов», которые встают перед ним.
-- Определяют социальные срезы, по отношению к которым NPC может думать что-то. Например, NPC может иметь плохое мнение о работниках полиции и хорошее о ведьмах.
+- They determine the basic characteristics of an NPC. Characteristics, in turn, affect how an NPC passes the "challenges" that arise before them.
+- They determine social slices, about which an NPC can think something. For example, an NPC may have a negative opinion about police officers and a positive one about witches.
 
-### Нарративные арки
+### Narrative arcs
 
-Нарративныя арка (в контексте прототипа) — это типовой линейный сюжет, который проходят его участники.
+A narrative arc (in the context of the prototype) is a typical linear plot that its participants go through.
 
-Каждый NPC должен участвовать, как минимум, в одной арке. Лучше в нескольких.
+Each NPC must participate in at least one arc. Better in several.
 
-Арка разбита на этапы, для перехода между которыми арка должна собрать достаточно очков по специфичным для неё правилам.
+The arc is divided into stages, to move between which it should collect enough points according to the specific rules for it.
 
-Примеры арок.
+Examples of arcs.
 
-Арка влюблённых. Этапы: знакомство, влюблённость, свадьба. Очки арки зарабатываются, если её участники одновременно хорошо относятся друг к другу. Не обязательно напрямую. Например, NPC 1 может быть хорошего мнения о женщинах-футболистах и если NPC 2  — женщина и играет в футбол, это защитывается.
+The arc of lovers. Stages: acquaintance, love, wedding. Arc points are earned if its participants simultaneously have a good attitude towards each other. Not necessarily directly. For example, an NPC 1 may have a good opinion about women who play football and if an NPC 2 is a woman and plays football, it counts.
 
-Арка выгоревшего полицейского. Этапы: работа, стресс, нервный срыв. Очки арки зарабатываются, когда отрицательное общественное мнение о полиции сильнее положительного.
+The arc of a burnt-out police officer. Stages: work, stress, nervous breakdown. Arc points are earned when the negative public opinion about the police is stronger than the positive.
 
-Арки определяют какие события могут происходить в городе. Свадьба может изменить некоторые перки участников, а сорвавшийся полицейский — застрелить кого-то.
+Arcs determine what events can happen in the city. A wedding can change some perks of the participants, and a burnt-out police officer can shoot someone.
 
 ### Расследование и публикация материала
 
