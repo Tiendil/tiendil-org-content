@@ -76,19 +76,19 @@ The topics of our RFCs were limited to four themes: architecture, processes, ana
 
 In short, this is the practice of [thinking through writing](post:@choose-nearest-language:thinking-through-writing) at the team level. Read the text at the link if you want to dive deeper into the topic.
 
-**Each activity should leave an artifact.** RFC is an artifact of the mental work that all developers do, but almost never save the results. This leads to loss of a lot of work over time — it fades from memory. RFCs save these results.
+**Each activity should leave an artifact.** RFC is an artifact of the mental work that all developers do, but rarely save results. This leads to losing a lot of work over time — it just fades from memory. RFCs save such results.
 
-**By transferring thoughts into text, a person verifies their [mental models](post:@choose-nearest-language:life-and-work-with-models).** Even the fact of writing down thoughts improves understanding of the task, reveals errors, and so on.
+**By transferring thoughts into text, a person verifies their [mental models](post:@choose-nearest-language:life-and-work-with-models).** Even simple writing down thoughts improves understanding of the task, reveals errors, and so on.
 
-**Cheap knowledge base.** Cheap because RFCs do not need to be kept up to date, like regular documentation. At the same time, they remain useful and relevant. This is the history of the project's development, that is very convenient when you have to deal with technological archeology.
+**Cheap knowledge base.** It is cheap because RFCs do not need to be kept up to date, like regular documentation. At the same time, they remain useful and relevant. This is the history of the project's development, which is very convenient when dealing with technological archeology.
 
-**Knowledge exchange.** It is not always possible to quickly transfer developers between parts of the project so that they share knowledge in practice. This is expensive. Discussing RFCs allows team members to share basic knowledge about the project.
+**Knowledge exchange.** It is not always possible to quickly transfer developers between parts of the project so that they share knowledge in practice. This is expensive. Discussing RFCs allows team members to share essential knowledge about the project.
 
 **Fast feedback.** The sooner you find a mistake, the cheaper it is to fix it. RFCs allow you to find problems before they are transferred to a code, which is very cheap.
 
-**Simplifies onboarding.** A new employee can be sent to read the RFCs in order, and after that, they will more or less understand what is happening and what path the project has taken.
+**Simplifies onboarding.** A new employee can be sent to read the RFCs in order; after that, they will more or less understand what is happening and what path the project has taken.
 
-**Asynchronous discussions** (chats, forums, comments) are more effective than synchronous (meetings). I have not yet met a person who could immediately discuss complex things in real time. I can't do it either. Asynchronous communication not only improve discussions but also do not break the day of developers, which is very important — they stay in their flow.
+**Asynchronous discussions** (chats, forums, comments) are more effective than synchronous (meetings). I have not yet met a person who could immediately discuss complex things in real time. I can't do it either. Asynchronous communication improves discussions and helps developers stay in their flow by reducing unexpected breaks.
 
 ## Introduction to collected statistics
 
