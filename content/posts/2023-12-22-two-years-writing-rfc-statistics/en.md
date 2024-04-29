@@ -397,37 +397,38 @@ src = "images/two-years-writing-rfc-statistics-members-author-of-rfcs-percents.p
 alt = "The share of RFCs per authors per year."
 ///
 
-### Участие людей в обсуждениях в разбивке по людям
 
-- По аналогии с первыми графиками, `A` — это я.
-- На второй год, RFC стало меньше, но каждый стал принимать больше участия в их обсуждении.
-- Можно заметить, что в команде и проекте были сильные изменения.
+### Participants in discussions in the breakdown by people
+
+- By analogy with the first graphs, `A` is me.
+- In the second year, there were less RFCs, but everyone was more involved in their discussion.
+- You may notice that there are significant changes in the team and the project.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-members-participated-in-rfc.png"
-alt = "График разбивки количества RFC по участникам обсуждения."
+alt = "The number of RFCs per discussions participants."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-members-participated-in-rfc-percents.png"
-alt = "График разбивки доли RFC по участникам обсуждения."
+alt = "The share of RFCs per discussions participants."
 ///
 
-## Выводы
+## Conclusions
 
-Внедрение RFC было большим экспериментом для меня. Я знал, что практика точно будет работать для меня лично и что, в теории, мышление письмом должно работать для всех. Но не было уверенности, что команда примет практику и что результаты будут позитивными.
+The introduction of RFC was a big experiment for me. I knew that the practice would work for me personally and that, in theory, thinking through writing should work for everyone. But there was no certainty that the team would accept the practice and that the results would be positive.
 
-По сути, это был прыжок веры для меня.
+In fact, it was a leap of faith for me.
 
-На мой взгляд, эксперимент удался:
+In my opinion, the experiment was successful:
 
-- Команда приняла практику: все пишут и обсуждают RFC.
-- Шаринг знаний идёт.
-- Быстрая обратная связь работает.
-- Асинхронные обсуждения работают.
+- The team accepted the practice: everyone wrote and discussed RFCs.
+- Knowledge sharing is working.
+- Fast feedback is working.
+- Asynchronous discussions are working.
 
-Неожиданное: статистика по RFC хорошо отображает состояние команды и проекта, их динамику. В следующий раз попробую сделать её метрикой здоровья команды.
+Unexpectedly, the statistics on RFCs well reflect the state of the team and the project, their dynamics. Next time I will try to make it a metric of the team's health.
 
-Ложка неизвестности: очень интересно как практика продолжится без меня. Поскольку я лид, то часто инициировал написание RFC, в духе «этот вопрос слишком сложный для устной дискуссии, давайте готовить RFC». Поэтому не ясно будет ли команда писать RFC без подталкивания с моей стороны. Через год кого-нибудь выловлю и спрошу как дела. А может выпрошу себе временный доступ к текстам.
+But their is a question: how will the practice continue without me? Since I was the lead, I often initiated the writing of RFCs, in the spirit of "this question is too complex for an oral discussion, let's prepare an RFC". Therefore, it is not clear whether the team will write RFCs without my push. In a year, I will catch someone and ask how things are going. Or maybe I will ask for temporary access to the texts.
