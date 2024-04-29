@@ -129,7 +129,7 @@ alt = "The number of RFCs per quarter."
 - The statistics are anonymous. Names are replaced with letters. If you are from my team, write me a direct message, I will give you a decryption.
 - You can guess that `A` is me — the author with the most of the RFCs. Firstly, I was the lead. Secondly, you can only introduce practices by your own example.
 - It was pleasantly surprising that only a third of the RFCs are created by me. I thought it would be about a half.
-- The breakdown of authors by year shows how the team had changed. New people came, someone left.
+- The breakdown of authors per year shows how the team had changed. New people came, someone left.
 - Everyone wrote RFC. In most cases, the first RFC document is prepared during the probationary period. We try to provide an opportunity to do something significant during this period.
 - On annual graphs, you can see that all team members participate in the RFC preparation approximately equally. With a correction for spikes, which are typical for a small sample: at one time we actively work on one part of the project with one team member as an expert, at another time — on another part with another team member as the leader of development.
 
@@ -142,15 +142,15 @@ alt = "The number of RFCs for each author."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-author.png"
-alt = "The number of RFCs for each author by year."
+alt = "The number of RFCs for each author per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-author-percents.png"
-alt = "The share of RFCs for each author by year."
+alt = "The share of RFCs for each author per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-author.png"
-alt = "The number of RFCs for each author by quarter."
+alt = "The number of RFCs for each author per quarter."
 ///
 
 ### Relevance of documents
@@ -182,15 +182,15 @@ alt = "The number of RFCs by relevance."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-state.png"
-alt = "The number of RFCs by relevance by year."
+alt = "The number of RFCs by relevance per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-state-percents.png"
-alt = "The share of RFCs by relevance by year."
+alt = "The share of RFCs by relevance per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-state.png"
-alt = "The number of RFCs by relevance by quarter."
+alt = "The number of RFCs by relevance per quarter."
 ///
 
 ### RFCs by the share of research work
@@ -215,15 +215,15 @@ alt = "The number of RFCs by research effort."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-research.png"
-alt = "The number of RFCs by research effort by year."
+alt = "The number of RFCs by research effort per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-research-percents.png"
-alt = "The share of RFCs by research effort by year."
+alt = "The share of RFCs by research effort per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-research.png"
-alt = "The number of RFCs by research effort by quarter."
+alt = "The number of RFCs by research effort per quarter."
 ///
 
 ### Distribution by topics
@@ -253,15 +253,15 @@ alt = "The number of RFCs by topics."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-thematics.png"
-alt = "The number of RFCs by topics by year."
+alt = "The number of RFCs by topics per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-thematics-percents.png"
-alt = "The share of RFCs by topics by year."
+alt = "The share of RFCs by topics per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-thematics.png"
-alt = "The number of RFCs by topics by quarter."
+alt = "The number of RFCs by topics per quarter."
 ///
 
 ### The number of questions per RFC
@@ -288,64 +288,66 @@ alt = "The number of RFCs by comment threads."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-comment-threads.png"
-alt = "The number of RFCs by comment threads by year."
+alt = "The number of RFCs by comment threads per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-comment-threads-percents.png"
-alt = "The share of RFCs by comment threads by year."
+alt = "The share of RFCs by comment threads per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-comment-threads.png"
-alt = "The number of RFCs by comment threads by quarter."
+alt = "The number of RFCs by comment threads per quarter."
 ///
 
-### Количество комментариев на RFC
+### The number of comments per RFC
 
-Аналогично предыдущим выводам. Со временем обсуждать стали активнее.
+A similar analysis, but this time we look at the number of comments in discussions. This is a more accurate metric of the activity of the team in the discussion of RFCs.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-comments.png"
-alt = "График количества RFC по комментариям."
+alt = "The number of RFCs by comments number."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-comments.png"
-alt = "График количества RFC по комментариям по годам."
+alt = "The number of RFCs by comments number per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-comments-percents.png"
-alt = "График доли RFC по комментариям по годам."
+alt = "The share of RFCs by comments number per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-comments.png"
-alt = "График количества RFC по комментариям по кварталам."
+alt = "The number of RFCs by comments number per quarter."
 ///
 
-### Количество комментариев на дискуссию
+### The number of comments per discussion
 
-- Длинных дискуссий в комментариях нет. Либо всё решается быстро, либо переходим на другие каналы общения. В основном потому, что комментарии Notion очень неудобны.
-- На второй год дискуссии стали более конкретными. Больше дискуссий с комментариями, но меньше с большим количеством комментариев. Думаю, частично научились обсуждать, частично вопросы стали более приземлёнными — меньше философии и абстракций.
+Observations:
+
+- There are no long discussions in the comments. Either everything was clear, or we switched to a call or chat.
+- In the second year, discussions became more specific. There were more discussions with comments, but fewer discussions with many comments. I think we partially learned how to discuss, partially the questions became more grounded: less philosophy and abstractions, more facts and practical questions.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-comments-per-discussion.png"
-alt = "График количества RFC по комментариям на ветку."
+alt = "The number of RFCs by comments per discussion."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-comments-per-discussion.png"
-alt = "График количества RFC по комментариям на ветку по годам."
+alt = "The number of RFCs by comments per discussion per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-comments-percents-per-discussion.png"
-alt = "График доли RFC по комментариям на ветку по годам."
+alt = "The share of RFCs by comments per discussion per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-comments-per-discussion.png"
-alt = "График количества RFC по комментариям на ветку по кварталам."
+alt = "The number of RFCs by comments per discussion per quarter."
 ///
 
 ### Количество участников в обсуждениях
