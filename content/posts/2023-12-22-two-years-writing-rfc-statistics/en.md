@@ -264,39 +264,39 @@ src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-thematics.pn
 alt = "The number of RFCs by topics by quarter."
 ///
 
-### Количество вопросов на RFC
+### The number of questions per RFC
 
-Notion позволяет комментировать документы. Тут сделан анализ количества потоков обсуждения (threads) на документ. Каждое обсуждение может содержать несколько комментариев. Фактически, это нижняя оценка количества вопросов к документу.
+Notion allows comments in documents. Here is an analysis of the number of discussion threads per document. Each discussion can contain several comments. You can interpret it as a lower estimation of the amount of questions to an RFC.
 
-Что важно учитывать:
+Notes:
 
-- Notion позволяет комментировать часть документа (выделенный текст). Одно выделение считается одним обсуждением.
-- Notion позволяет комментировать весь документ (отдельный блок в шапке). Весь блок считается одним обсуждением, так как автоматически определить количество вопросов в нём не получится.
+- Notion allows commenting on a part of the document (highlighted text). One highlight is considered one discussion — one question.
+- Notion allows commenting on the entire document (a separate block in the header). The entire block is considered as one discussion/question, as it is impossible to automatically determine the number of questions in it.
 
-Что можно увидеть:
+Observations:
 
-- Четверть документов без обсуждения. Это не значит, что их не обсуждали. Обсуждение могло быть на созвоне или в Slack. Но также есть довольно простые документы, которые просто надо сделать и услышать «всё ок».
-- Доля документов без обсуждения в 2023 в два раза меньше, чем в 2022 (15% vs 30%). Команда втянулась, набили руку.
-- ~50% RFC содержат больше трёх обсуждений. ~25% — больше восьми. Каждое обсуждение — закрытый риск, обнаруженная ошибка, обмен знаниями. Короткий цикл обратной связи работает.
+- A quarter of the documents are without discussions. This does not mean that they were not discussed. The discussion could have taken place during a call or in Slack. But there are also some simple clear documents that just need to be done and receive an "ok" from the team.
+- The number of documents without discussions in 2023 is twice as low as in 2022 (15% vs 30%). With time, the team got involved into the practice.
+- About 50% of RFCs have more than three discussions. About 25% have more than eight. Each discussion is a closed risk, a found error, a knowledge shared. Short feedback loops work.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-comment-threads.png"
-alt = "График количества RFC по веткам комментариев."
+alt = "The number of RFCs by comment threads."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-comment-threads.png"
-alt = "График количества RFC по веткам комментариев по годам."
+alt = "The number of RFCs by comment threads by year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-comment-threads-percents.png"
-alt = "График доли RFC по веткам комментариев по годам."
+alt = "The share of RFCs by comment threads by year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-comment-threads.png"
-alt = "График количества RFC по веткам комментариев по кварталам."
+alt = "The number of RFCs by comment threads by quarter."
 ///
 
 ### Количество комментариев на RFC
