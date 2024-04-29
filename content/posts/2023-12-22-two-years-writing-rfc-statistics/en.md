@@ -12,13 +12,13 @@ src = "images/two-years-writing-rfc-statistics-rfc-count-per-year.png"
 alt = "The number of RFCs over two years"
 ///
 
-More than two years ago I became a Lead/Engineering Manager at Palta's payment team. At the end of 2023 I left the company for another [subbatical]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}.
+Slightly more than two years ago, I became a Lead/Engineering Manager for Palta's payment team. I left the company at the end of 2023 for another [subbatical]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}.
 
 It is time to sum up. I will start with my favorite initiative.
 
-From the first month, I was promoting the idea of preceding major changes with text documents — [RFC](https://en.wikipedia.org/wiki/Request_for_Comments) — Request for Comments.
+From the first month, I promoted the idea of preceding major changes with text documents — [RFC](https://en.wikipedia.org/wiki/Request_for_Comments) — Request for Comments.
 
-In this post, I will analyze two years of applying this practice. To share the experience, summarize the results, and have convincing arguments for my next job.
+In this post, I will analyze two years of applying this practice to share the experience, summarize the results, and have convincing arguments for my next job.
 
 <!-- more -->
 
@@ -26,10 +26,10 @@ In this post, I will analyze two years of applying this practice. To share the e
 
 The RFC concept is quite well known by engineers, but it is not precisely defined. Everyone understands it in their own way.
 
-So, first, I will briefly outline my vision, which is based on several postulates:
+So, for beginning, I will briefly outline my vision, which is based on several postulates:
 
-- Comfort of people is more important than formalities.
-- Most of developers are not making Google, most of companies are not the size of Google, etc. Most of us are not responsible for the lives and health of people.
+- People's comfort is more important than formalities.
+- Most developers do not make Google, most companies are not the size of Google, etc. Most of us are not responsible for people's lives and health.
 - It is more convenient to work in small teams.
 - Therefore, we can work simpler.
 
