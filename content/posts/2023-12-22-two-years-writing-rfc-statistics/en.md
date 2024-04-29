@@ -48,15 +48,15 @@ By requesting comments, an author can relax a little and allow themselves to mak
 
 ### Document structure
 
-The most famous documents of this kind: [classical RFC](https://en.wikipedia.org/wiki/Request_for_Comments), [Python Enhancement Proposal](https://en.wikipedia.org/wiki/Python_(programming_language)#Development), and others — are very formal. It is understandable, more responsibility leads to more formalities. Writing internet standards or changing a programming language is no joke.
+The most famous documents of this kind: [classical RFC](https://en.wikipedia.org/wiki/Request_for_Comments), [Python Enhancement Proposal](https://en.wikipedia.org/wiki/Python_(programming_language)#Development), and others — are very formal. It is understandable that more responsibility leads to more formalities. Writing internet standards or changing a programming language is no joke.
 
-But we, although we are a payment team, are not responsible for the future of all humanity and do not have hundreds of stakeholders. Therefore, RFCs were initially introduced without a fixed structure. The main criterion was "the readers should understand the document".
+However, although we were a payment team, we were not responsible for the future of all humanity and did not have hundreds of stakeholders. Therefore, RFCs were initially introduced without a fixed structure. The main criterion was that "the readers should understand the document."
 
-We discussed several times the formalization of the RFC structure. We agreed that on our scale, the harm from tightening the screws would be greater than the benefit.
+Several times, we discussed the formalization of the RFC structure. We agreed that on our scale, the harm from tightening the screws would be greater than the benefit.
 
-In fact, after some practice, the general structure was applied without explicit standardization. Teammates look at each other's documents and adopt the best practices, but there is no requirement to follow a specific form.
+In fact, after some practice, the general structure was applied without explicit standardization. Teammates looked at each other's documents and adopted the best practices without special requirements to follow a specific form.
 
-For example, I am a little obsessed with the formal structure, but I do not require this from others. Quick preparation of structured documents is a separate skill that not everyone has, and not everyone wants to develop it. We should not force people to learn such skills unless they absolutely need them.
+For example, I am a little obsessed with the formal structure, but I do not require it from others. Quick preparation of structured documents is a separate skill that not everyone has and not everyone wants to develop. We should not force people to learn such skills unless they absolutely need them.
 
 ### Examples of RFC topics
 
