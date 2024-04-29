@@ -60,7 +60,7 @@ For example, I am a little obsessed with the formal structure, but I do not requ
 
 ### Examples of RFC topics
 
-The topics of our RFC were limited to four themes: architecture, processes, analysis, and planning. Later in the post you will see a lot of plots with these themes, but for now, just a few real RFC titles to avoid being unfounded:
+The topics of our RFCs were limited to four themes: architecture, processes, analysis, and planning. Later in the post, you will see a lot of charts with these themes, but for now, just a few actual RFC titles to avoid being unfounded:
 
 - The architecture of our fraud prevention system
 - Synchronization of subscriptions changes
@@ -72,7 +72,7 @@ The topics of our RFC were limited to four themes: architecture, processes, anal
 - Review & better classification of technical tasks
 - Open questions about work processes
 
-### Why RFC are helpful
+### Why RFCs are helpful
 
 In short, this is the practice of [thinking through writing](post:@choose-nearest-language:thinking-through-writing) at the team level. Read the text at the link if you want to dive deeper into the topic.
 
