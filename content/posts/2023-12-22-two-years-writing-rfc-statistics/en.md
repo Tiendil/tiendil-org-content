@@ -89,68 +89,67 @@ In short, this is the practice of [thinking through writing](post:@choose-neares
 
 **Asynchronous discussions** (chats, forums, comments) are more effective than synchronous (meetings). I have not yet met a person who could immediately discuss complex things in real time. I can't do it either. Asynchronous communication not only improve discussions but also do not break the day of developers, which is very important — they stay in their flow.
 
+## Introduction to collected statistics
 
-## Вступление к статистике
+In the following text there will be several parts with graphs. At the beginning of each part there will be an introduction: what is shown, what the graphs indicate, etc.
 
-Далее будет несколько блоков с графиками. В начале каждого блока будет вступление: что изображено, о чём графики свидетельствуют, etc.
+But first, a few notes on the data and the collection method:
 
-Но сначала несколько заметок о данных и способе сбора:
+- I am the initiator of the practice and I analyzed it myself. Some distortions are inevitable, take this into account.
+- We keept the documentation in Notion. To get some data, I had to export the documents as HTML and parse them. The code was checked, but even the best make mistakes.
+- For some documents, it was difficult to determine the author: was it a full collaboration or one person made the document template and the other filled it in. In this case, I tried to determine the main author from memory.
+- I determined the topic of the RFC and the document status according to my expert opinion and memory. The history is only for two years, the documents are quite clear, everything has passed through me, so there should be no significant inaccuracies. But I could make a couple of typos in the table on which the graphs were built.
+- The data is maximally anonymized. No names, nicknames, titles, etc. Only numbers and graphs. The project is alive, tied to money. I don't want to deal with unnecessary approvals
+- The statistics were collected exactly for two calendar years. During this time, both the team and the project changed. This should be taken into account. Also, it is visible in the graphs.
+- The core team grew from 3 to 7 people. At the end of the year, there are 19 people on the team's Slack channel, all of them can be considered stakeholders of the practice. Most of them participated in the discussion of at least one document.
 
-- Я инициатор практики и я же делаю её анализ. Некоторые искажения неизбежны, делайте поправку на это.
-- Документацию мы ведём в Notion. Для получения некоторых данных мне пришлось выгрузить документы как HTML и парсить их. Код проверял, но и на старуху бывает проруха.
-- Для некоторых документов было сложно определить автора: была коллаборация или один человек делал заготовку документа, а второй наполнял её. В этом случае я старался по памяти определить главного автора.
-- Тематику RFC и состояние документа я определял по своему экспертному мнению и памяти. История только за два года, документы довольно понятные, все прошли через меня, поэтому особых неточностей быть не должно. Но я мог пару раз опечататься в таблице по которой строились графики.
-- Данные максимально анонимизированы. Никаких имен, ников, названий, etc. Только цифры и графики. Проект живой, завязан на деньги. Не хочу заниматься лишними согласованиями.
-- Статистика собрана ровно за два календарных года. За это время менялись и команда и проект. Это надо учитывать и это видно по графикам.
-- Core команда выросла с 3 до 7 человек. На Slack канале команды на конец года сидит 19 человек, всех их можно считать стейкхолдерами практики. Большинство из них принимало участие в обсуждении хотя бы одного документа.
+## Statistics
 
-## Статистика
+### The dynamics of RFC preparation
 
-### Темпы подготовки RFC
-
-- Всего подготовлено 76 RFC.
-- Количество RFC за первый год раза в 2 больше чем за второй. Первый год — закладывание архитектуры, второй — тюнинг и больше бизнес задач.
-- В разбивке по кварталам можно видеть как разработка набирала обороты, достигла пика на третьем квартале, после чего количество крупных изменений начало плавно снижаться. Думаю они останутся на уровне 3 +/- 1 RFC в квартал.
+- A total of 76 RFCs were prepared.
+- The number of RFCs in the first year is twice as high as in the second. The first year was about laying the groundwork, the second was about tuning and implementing more business tasks.
+- The dynamics of the number of RFCs per quarter shows how the development gained momentum, reached its peak in the third quarter of the first year, after which the number of major changes began to gradually decrease. I think they will remain at the level of 3 +/- 1 RFC per quarter.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-per-year.png"
-alt = "График количества RFC за два года."
+alt = "The number of RFCs over two years."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter.png"
-alt = "График количества RFC за квартал."
+alt = "The number of RFCs per quarter."
 ///
 
-### Разбивка по авторам
+### Author breakdown
 
-- Статистика анонимная. Имена заменены на буквы. Если вы из моей команды, напишите в личку, дам расшифровку.
-- Можно догадаться, что `A` — это я — больше всего написано. Во-первых, я лидил. Во-вторых, внедрять практики можно только собственным примером.
-- Приятно удивило, что только треть RFC от меня. Думал будет около половины.
-- На примере годовых и квартальных графиков видно как менялся состав команды. Приходили новые люди, кто-то уходил.
-- RFC у нас пишут все. В большинстве случаев первый RFC документ готовится во время испытательного срока. Так как мы стараемся давать сделать что-то важное во время него.
-- На годовых графиках видно что все члены команды вовлечены в подготовку RFC примерно поровну. С поправкой на всплески, которые характерны для маленькой выборки: в одно время мы активно работаем над одной частью проекта, где эксперт один, в другое — над другой, где эксперт — второй.
+- The statistics are anonymous. Names are replaced with letters. If you are from my team, write me a direct message, I will give you a decryption.
+- You can guess that `A` is me — the author with the most of the RFCs. Firstly, I was the lead. Secondly, you can only introduce practices by your own example.
+- It was pleasantly surprising that only a third of the RFCs are created by me. I thought it would be about a half.
+- The breakdown of authors by year shows how the team had changed. New people came, someone left.
+- Everyone wrote RFC. In most cases, the first RFC document is prepared during the probationary period. We try to provide an opportunity to do something significant during this period.
+- On annual graphs, you can see that all team members participate in the RFC preparation approximately equally. With a correction for spikes, which are typical for a small sample: at one time we actively work on one part of the project with one team member as an expert, at another time — on another part with another team member as the leader of development.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-author.png"
-alt = "График количества RFC у каждого автора."
+alt = "The number of RFCs for each author."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-author.png"
-alt = "График количества RFC у авторов по годам."
+alt = "The number of RFCs for each author by year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-author-percents.png"
-alt = "График доли RFC от авторов по годам."
+alt = "The share of RFCs for each author by year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-author.png"
-alt = "График количества RFC у авторов по кварталам."
+alt = "The number of RFCs for each author by quarter."
 ///
 
 ### Актуальность документов
