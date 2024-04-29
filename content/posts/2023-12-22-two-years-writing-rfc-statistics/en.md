@@ -71,25 +71,24 @@ The topics of our RFC were limited to four themes: architecture, processes, anal
 - Review & better classification of technical tasks
 - Open questions about work processes
 
-### Why RFC are needed
+### Why RFC are helpful
 
-Фактически, это практика [мышления письмом]{post:@choose-nearest-language:thinking-through-writing} на уровне команды. Почитайте текст по ссылке, если хотите глубже окунуться в тему.
+In short, this is the practice of [thinking through writing](post:@choose-nearest-language:thinking-through-writing) at the team level. Read the text at the link if you want to dive deeper into the topic.
 
-Тезисно.
+**Each activity should leave an artifact.** RFC is an artifact of the mental work that all developers do, but almost never save the results. This leads to loss of a lot of work over time — it fades from memory. RFCs save these results.
 
-**Каждая деятельность должна оставлять артефакт.** RFC — артефакт мыслительной работы, которую делают все разработчики, но почти никогда не сохраняют её результаты. В итоге куча проделанной работы теряется со временем — вымывается из памяти. RFC сохраняют эти результаты.
+**By transferring thoughts into text, a person verifies their [mental models](post:@choose-nearest-language:life-and-work-with-models).** Even the fact of writing down thoughts improves understanding of the task, reveals errors, and so on.
 
-**Перенося мысли в текст человек верифицирует свои [ментальные модели]{post:@choose-nearest-language:life-and-work-with-models}.** Даже сам факт записывания мыслей улучшает понимание задачи, выявляет ошибки и так далее.
+**Cheap knowledge base.** Cheap because RFCs do not need to be kept up to date, like regular documentation. At the same time, they remain useful and relevant. This is the history of the project's development, that is very convenient when you have to deal with technological archeology.
 
-**Дешёвая база знаний.** Дешёвая, потому что RFC не надо поддерживать в актуальном состоянии, как обычную документацию. При этом они остаются полезными и актуальными. Это история развития проекта. Очень удобно, когда приходится заниматься технологической археологией.
+**Knowledge exchange.** It is not always possible to quickly transfer developers between parts of the project so that they share knowledge in practice. This is expensive. Discussing RFCs allows team members to share basic knowledge about the project.
 
-**Обмен знаниями.** Не всегда можно оперативно перекидывать разработчиков между частями проекта, чтобы они шарили знания на практике. Это дорого. Обсуждение RFC позволяет шарить базовые знания о проекте по всей команде.
+**Fast feedback.** The sooner you find a mistake, the cheaper it is to fix it. RFCs allow you to find problems before they are transferred to a code, which is very cheap.
 
-**Быстрая обратная связь**. Чем раньше найти ошибку, тем дешевле её исправить. RFC позволяют находить проблемы до их переноса в код, что очень дёшево.
+**Simplifies onboarding.** A new employee can be sent to read the RFCs in order, and after that, they will more or less understand what is happening and what path the project has taken.
 
-**Упрощает onboarding.** Нового сотрудника можно отправить полистать RFC по порядку и он будет более-менее понимать, что происходит, каким путём шёл проект.
+**Asynchronous discussions** (chats, forums, comments) are more effective than synchronous (meetings). I have not yet met a person who could immediately discuss complex things in real time. I can't do it either. Asynchronous communication not only improve discussions but also do not break the day of developers, which is very important — they stay in their flow.
 
-**Асинхронные дискуссии** (чаты, форумы, комментарии) эффективнее синхронных (созвоны). Ещё не встретил ни одного человека, который мог бы сходу в реальном времени обсуждать сложные штуки. Я тоже не умею. Асинхронные дискуссии позволяют не только лучше вести обсуждения, но и не разрывают день разработчиков, что очень важно.
 
 ## Вступление к статистике
 
