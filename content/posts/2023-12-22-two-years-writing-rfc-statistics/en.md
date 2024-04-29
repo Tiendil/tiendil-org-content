@@ -152,44 +152,44 @@ src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-author.png"
 alt = "The number of RFCs for each author by quarter."
 ///
 
-### Актуальность документов
+### Relevance of documents
 
-Мы не обновляем RFC — это история. Поэтому, с исторической точки зрения, все они актуальны.
+We had not updated RFCs — they are history. Therefore, from a historical point of view, all of them are relevant.
 
-Но всё-таки их можно разделить по их отражению на текущем состоянии проекта.
+But still, they can be divided by their reflection on the current state of the project (at the time I left).
 
-Я выделил 4 состояния:
+I identified 4 states:
 
-- `applied` — как-минимум часть RFC применена в каком-то виде к проекту. Она сейчас есть в коде или процессах.
-- `planned` — RFC обсуждён командой, одобрен, но ещё не применён из-за других приоритетов планирования. Обычно это какие-то крупные изменения в архитектуре, которые не нужно делать прямо сейчас, но к которым нужно готовиться.
-- `applied & deprecated` — изменения были применены, но потом от них полнолстью отказались. Например, они не сработали, или изменилась концепция проекта.
-- `not applied & deprecated` — обсудили, но не одобрили. Или запланировали, но потом концепция поменялась.
+- `applied` — at least part of the RFC has been applied to the project in some form. It is now in the code or in the processes.
+- `planned` — the RFC had been discussed by the team, approved, but not yet applied due to other planning priorities. Usually these are some major changes in the architecture that do not need to be done right now, but need to be prepared for.
+- `applied & deprecated` — the changes were applied, but then completely removed. For example, they did not work, or the project concept changed.
+- `not applied & deprecated` — discussed, but not approved. Or planned, but then the planes changed.
 
-В итоге:
+Some observations:
 
-- Большая часть RFC применена и актуальна.
-- Полностью «бесполезных» RFC около 13%. На мой взгляд это хороший показатель — мы обсуждаем то, что надо. А что не надо — не обсуждаем.
-- Чем дальше в прошлое, тем больше `deprecated` RFC. Чем ближе к настоящему, тем больше `planned` RFC. Выглядит логично.
-- Можно заметить, что Q3/22 был особенно богат на неприменённые RFC. Это хорошо коррелирует с изменениями планов и команды, которые произошли в Q4/22.
+- Most of the RFCs are applied and actual.
+- Completely "useless" RFCs are about 13%. In my opinion, this is a good sign — we were discussing what we needed. And what we didn't need — we didn't discuss.
+- The further into the past, the more `deprecated` RFCs. The closer to the present, the more `planned` RFCs. It looks logical.
+- You can notice that Q3/22 was especially rich in unused RFCs. This correlates well with the changes in plans and the team that occurred in Q4/22.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-state.png"
-alt = "График количества RFC по актуальности."
+alt = "The number of RFCs by relevance."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-state.png"
-alt = "График количества RFC по актуальности по годам."
+alt = "The number of RFCs by relevance by year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-state-percents.png"
-alt = "График доли RFC по актуальности по годам."
+alt = "The share of RFCs by relevance by year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-state.png"
-alt = "График количества RFC по актуальности по кварталам."
+alt = "The number of RFCs by relevance by quarter."
 ///
 
 ### RFC по доле исследовательской работы
