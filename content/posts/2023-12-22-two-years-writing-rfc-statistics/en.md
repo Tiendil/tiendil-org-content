@@ -1,3 +1,4 @@
+
 ---
 title = "Two years writing RFC — statistics"
 tags = [ "thinking", "practice", "development", "reflection", "systems", "theory",]
@@ -165,7 +166,7 @@ I identified 4 states:
 - `applied & deprecated` — the changes were applied, but then completely removed. For example, they did not work, or the project concept changed.
 - `not applied & deprecated` — discussed, but not approved. Or planned, but then the planes changed.
 
-Some observations:
+Observations:
 
 - Most of the RFCs are applied and actual.
 - Completely "useless" RFCs are about 13%. In my opinion, this is a good sign — we were discussing what we needed. And what we didn't need — we didn't discuss.
@@ -192,75 +193,75 @@ src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-state.png"
 alt = "The number of RFCs by relevance by quarter."
 ///
 
-### RFC по доле исследовательской работы
+### RFCs by the share of research work
 
-Написание любого RFC предполагает исследовательскую работу. Но мне было интересно разделить документы по усилиям на исследования:
+Most of RFCs require some research. But I was interested in dividing the documents by the effort spent on research:
 
-- `no research` — просто сел и написал из своего опыта.
-- `with research` — собрал данные, поговорил с людьми, сделал анализ, синтезировал результат.
+- `no research` — just sat down and wrote a document from experience.
+- `with research` — collected data, talked to people, did analysis and only then synthesized the result.
 
-В итоге:
+Notes:
 
-- Глубокого исследования у нас было не очень много. Особенно в 2022 году, в 2023 стало больше в процентном отношении.
-- Я это связываю с тем, что в 2022 команда была маленькой, надо было фигачить, процессы ещё не устоялись, люди не сработались. В 2023 порешали кучу проблем, наладили работу и смогли больше времени уделить исследованиям.
-- Большая часть бизнесового планирования у нас находится вне команды. Мне это не особо нравится, но как есть. Поэтому, например, мы не выбираем сервисы с какими интегрироваться. Куда скажут, туда и копаем :-)
+- We didn't do much deep research, especially in 2022. There was more research in 2023.
+- I connect this with the fact that in 2022 the team was small, we had to work hard, the processes had not yet been established, people had not yet used to each other. In 2023, we solved a lot of problems, improved work, and were able to spend more time on research.
+- Most of the business planning is outside the team. I didn't like it, but that's how it was. Therefore, for example, we didn't choose services to integrate with. We digged where business said :-)
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-research.png"
-alt = "График количества исследовательских RFC."
+alt = "The number of RFCs by research effort."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-research.png"
-alt = "График количества исследовательских RFC по годам."
+alt = "The number of RFCs by research effort by year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-research-percents.png"
-alt = "График доли исследовательских RFC по годам."
+alt = "The share of RFCs by research effort by year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-research.png"
-alt = "График количества исследовательских RFC по кварталам."
+alt = "The number of RFCs by research effort by quarter."
 ///
 
-### Распределение по тематике
+### Distribution by topics
 
-Как я упоминал, у нас четыре тематики для RFC: архитектура, процессы, анализ (текущего состояния чего-то) и планирование. Этот список не дан свыше, мы его не обсуждали. Фактически, это вещи, о которых мы посчитали необходимым писать RFC.
+As I mentioned, we had four topics for RFC: architecture, processes, analysis (of the current state of something), and planning. This list is not given from above, we did not discuss it — these are things that we considered necessary to write about.
 
-RFC может закрывать несколько тем. Например, анализ показателей проекта, предложение изменение архитектуры и планирование реализации. Поэтому на графиках сегментов больше четырёх.
+RFC can cover several topics. For example, an analysis of project indicators, a proposal to change the architecture, and planning of implementation. Therefore, there are more than four segments on the charts.
 
-Что можно увидеть:
+What can be seen:
 
-- Около 80% RFC посвящено архитектуре. Неудивительно, всё-таки мы программисты.
-- Около 21% — процессы. Когда мержить, как тестировать, как с конфигами работать, как задачи создавать, etc.
-- Около 15% — анализ. Например, через полгода разработки я готовил документ с описанием состояния проекта, рисков, динамики, etc.
-- Около 8% — планирование. Что когда делать и почему.
-- Во втором году уменьшилось количество RFC чисто по архитектуре и увеличилось по всему остальному. Это связано с ростом и перестройкой команды, становлением проекта.
+- About 80% of RFCs are devoted to architecture. No wonder — we are programmers.
+- About 21% are about processes. When to merge, how to test, how to work with configs, how to create tasks, etc.
+- About 15% are analysis. For example, after the first six months of development, I prepared the description of the project status, risks, dynamics, etc.
+- About 8% are planning. What to do and why.
+- In the second year, the number of RFCs about architecture are decreased, and the number of all other topics are increased. This is due to the growth and restructuring of the team, the establishment of the project.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-meta-thematics.png"
-alt = "График количества RFC по метатематике."
+alt = "The number of RFCs by meta topics."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-thematics.png"
-alt = "График количества RFC по тематике."
+alt = "The number of RFCs by topics."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-thematics.png"
-alt = "График количества RFC по тематике по годам."
+alt = "The number of RFCs by topics by year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-thematics-percents.png"
-alt = "График доли RFC по тематике по годам "
+alt = "The share of RFCs by topics by year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-thematics.png"
-alt = "График количества RFC по тематике по кварталам."
+alt = "The number of RFCs by topics by quarter."
 ///
 
 ### Количество вопросов на RFC
