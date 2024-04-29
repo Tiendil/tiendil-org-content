@@ -40,11 +40,11 @@ People interpret the abbreviation RFC differently:
 - Request for Comments
 - Request for Change
 
-I prefer the first option because it is broader and less demanding on developers.
+I prefer the first variant because it is broader and less demanding on developers.
 
-When a developer writes a request for change, they are formally sign this request "with their own blood," which is not always possible and can be uncomfortable. It takes more time to prepare such a document, and the potential profit may not exceed the costs.
+When a developer writes a "request for change," he/she formally signs it "with their own blood," which is not always possible and can be uncomfortable. Preparing such a document takes more time, and the potential profit may not exceed the costs.
 
-By requesting comments, an author can relax a little, allow themself to make mistakes. Therefore, a developer can be more creative and prepare the document faster. Yes, something may be missed, but such errors can be caught at the next stages of development.
+By requesting comments, an author can relax a little and allow themselves to make mistakes. Therefore, a developer can be more creative and prepare an RFC faster. Yes, something may be missed, but such errors can be caught during document discussions or even in later stages of development.
 
 ### Document structure
 
