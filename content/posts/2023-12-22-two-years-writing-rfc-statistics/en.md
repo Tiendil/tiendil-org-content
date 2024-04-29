@@ -350,51 +350,51 @@ src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-comments-per
 alt = "The number of RFCs by comments per discussion per quarter."
 ///
 
-### Количество участников в обсуждениях
+### The number of participants in discussions
 
-Количество людей, которые написали хоть один комментарий к RFC. За вычетом автора.
+The number of people who wrote at least one comment to the RFC. Excluding the author.
 
-- Доля RFC без участников обсуждений чуть больше, чем доля без обсуждений. Иногда автор сам пишет комментарий или вопрос к своему тексту. Этот вопрос может быть отвечен не в Notion.
-- Часть RFC обсуждается подгруппой команды — только заинтересованными людьми. На мой взгляд это нормально. Не надо отвлекать всех от работы и тратить время людей. В большинстве случаев заинтересованные сами приходят в обсуждение.
-- Больше половины RFC обсуждаются тремя и более людьми. Это хорошо. Значит несколько пар глаз верифицируют текст, понимают его достаточно, чтобы задать вопрос. Следовательно снижаются риски, шарятся знания.
-- Большинство RFC обсуждаются внутри команды, но иногда мы приглашаем людей из вне.
-- В 2023 году больше людей стало обсуждать RFC. С одной стороны команда выросла, с другой — практика прижилась.
+- The share of RFCs without discussion participants is slightly higher than the share without discussions. It is because the author sometimes theyself wrote a comment or a question to their text. This question may not be answered in Notion.
+- Some RFCs are discussed by a subgroup of the team — only by interested people. In my opinion, this is normal. There is no need to distract everyone from work and waste people's time. In most cases, responsible/interested people come to the discussion themselves.
+- More than half of the RFCs are discussed by three or more people. This is good. It means that several pairs of eyes verified the text and understod it enough to ask a question. Therefore, risks were reduced, knowledge is shared.
+- Most of the RFCs are discussed inside the team, but sometimes we invite people from outside
+- More people participated in the discussions in 2023. I believe this is due to the growth of the team and the establishment of the practice.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-participants.png"
-alt = "График количества RFC по участникам обсуждения."
+alt = "The number of RFCs by discussions participants."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-participants.png"
-alt = "График количества RFC по участникам обсуждения по годам."
+alt = "The number of RFCs by discussions participants per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-participants-percents.png"
-alt = "График доли RFC по участникам обсуждения по годам."
+alt = "The share of RFCs by discussions participants per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-participants.png"
-alt = "График количества RFC по участникам обсуждения по кварталам."
+alt = "The number of RFCs by discussions participants per quarter."
 ///
 
-### Участие людей в написании RFC в разбивке по людям
+### The participation of people in writing RFC in the breakdown by people
 
-- По аналогии с первыми графиками, `A` — это я.
-- Все пишут примерно поровну, кроме меня.
+- By analogy with the first graphs, `A` is me.
+- Most of the team members wrote nearly the same amount of RFCs, except me :-)
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-members-author-of-rfcs.png"
-alt = "График разбивки количества RFC по авторам по годам."
+alt = "The number of RFCs per authors per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-members-author-of-rfcs-percents.png"
-alt = "График разбивки доли RFC по авторам по годам."
+alt = "The share of RFCs per authors per year."
 ///
 
 ### Участие людей в обсуждениях в разбивке по людям
