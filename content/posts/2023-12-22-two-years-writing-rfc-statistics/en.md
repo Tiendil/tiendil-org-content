@@ -266,7 +266,7 @@ alt = "The number of RFCs by topics per quarter."
 
 ### The number of questions per RFC
 
-Notion allows comments in documents. Here is an analysis of the number of discussion threads per document. Each discussion can contain several comments. You can interpret it as a lower estimation of the amount of questions to an RFC.
+Notion allows comments in documents. Here is an analysis of the number of discussion threads per document. Each discussion can contain several comments. You can interpret it as a lower estimation of the number of questions to an RFC.
 
 Notes:
 
