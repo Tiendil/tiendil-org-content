@@ -155,23 +155,23 @@ alt = "The number of RFCs for each author per quarter."
 
 ### Relevance of documents
 
-We had not updated RFCs — they are history. Therefore, from a historical point of view, all of them are relevant.
+We never updated RFCs; they are like historical records. Therefore, from a historical point of view, all of them are relevant.
 
-But still, they can be divided by their reflection on the current state of the project (at the time I left).
+But they can still be divided by their reflection on the project's current state (at the time I left).
 
 I identified 4 states:
 
 - `applied` — at least part of the RFC has been applied to the project in some form. It is now in the code or in the processes.
-- `planned` — the RFC had been discussed by the team, approved, but not yet applied due to other planning priorities. Usually these are some major changes in the architecture that do not need to be done right now, but need to be prepared for.
-- `applied & deprecated` — the changes were applied, but then completely removed. For example, they did not work, or the project concept changed.
-- `not applied & deprecated` — discussed, but not approved. Or planned, but then the planes changed.
+- `planned` — the RFC had been discussed by the team, approved, but not yet applied due to other planning priorities. Usually these are some significant changes in the architecture that do not need to be done right now, but need to be prepared for.
+- `applied & deprecated` — the changes were applied, but then completely removed. For example, they did not work as expected, or the project concept changed.
+- `not applied & deprecated` — discussed, but not approved. Or planned, but then the plans changed.
 
 Observations:
 
 - Most of the RFCs are applied and actual.
 - Completely "useless" RFCs are about 13%. In my opinion, this is a good sign — we were discussing what we needed. And what we didn't need — we didn't discuss.
 - The further into the past, the more `deprecated` RFCs. The closer to the present, the more `planned` RFCs. It looks logical.
-- You can notice that Q3/22 was especially rich in unused RFCs. This correlates well with the changes in plans and the team that occurred in Q4/22.
+- You can notice that Q3/22 was especially rich in unused RFCs. This correlates well with the changes in plans and the team in Q4/22.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
