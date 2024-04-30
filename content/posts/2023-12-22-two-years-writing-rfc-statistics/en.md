@@ -109,8 +109,8 @@ But first, a few notes on the data and the collection method:
 ### The dynamics of RFC preparation
 
 - A total of 76 RFCs were prepared.
-- The number of RFCs in the first year is twice as high as in the second. The first year was about laying the groundwork, the second was about tuning and implementing more business tasks.
-- The dynamics of the number of RFCs per quarter shows how the development gained momentum, reached its peak in the third quarter of the first year, after which the number of major changes began to gradually decrease. I think they will remain at the level of 3 +/- 1 RFC per quarter.
+- The number of RFCs in the first year is twice as high as in the second. The first year was about laying the groundwork, and the second was about tuning and implementing more business tasks.
+- The dynamics of the number of RFCs per quarter show how the development gained momentum and reached its peak in the third quarter of the first year, after which the number of major changes began to decrease gradually. I think they will remain at the level of 3 +/- 1 RFC per quarter.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
