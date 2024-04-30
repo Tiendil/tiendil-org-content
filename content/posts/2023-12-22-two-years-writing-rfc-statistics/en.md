@@ -195,10 +195,10 @@ alt = "The number of RFCs by relevance per quarter."
 
 ### RFCs by the share of research work
 
-Most of RFCs require some research. But I was interested in dividing the documents by the effort spent on research:
+Most of RFCs require some research. But, I was interested in dividing the documents by the effort spent on research:
 
-- `no research` — just sat down and wrote a document from experience.
-- `with research` — collected data, talked to people, did analysis and only then synthesized the result.
+- `no research` — an author just sat down and wrote a document from experience.
+- `with research` — an author collected data, talked to people, did analysis and only then synthesized the result.
 
 Notes:
 
@@ -230,15 +230,15 @@ alt = "The number of RFCs by research effort per quarter."
 
 As I mentioned, we had four topics for RFC: architecture, processes, analysis (of the current state of something), and planning. This list is not given from above, we did not discuss it — these are things that we considered necessary to write about.
 
-RFC can cover several topics. For example, an analysis of project indicators, a proposal to change the architecture, and planning of implementation. Therefore, there are more than four segments on the charts.
+RFC can cover several topics. For example: an analysis of project indicators, a proposal to change the architecture, and implementation planning. Therefore, the charts have  more than four segments.
 
 What can be seen:
 
 - About 80% of RFCs are devoted to architecture. No wonder — we are programmers.
-- About 21% are about processes. When to merge, how to test, how to work with configs, how to create tasks, etc.
+- About 21% concern processes: when to merge, how to test, how to work with configs, how to create tasks, etc.
 - About 15% are analysis. For example, after the first six months of development, I prepared the description of the project status, risks, dynamics, etc.
 - About 8% are planning. What to do and why.
-- In the second year, the number of RFCs about architecture are decreased, and the number of all other topics are increased. This is due to the growth and restructuring of the team, the establishment of the project.
+- In the second year, the number of RFCs about architecture are decreased, and the number of all other topics are increased. This is due to the growth and restructuring of the team, and the establishment of the project.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
