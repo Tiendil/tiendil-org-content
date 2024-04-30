@@ -74,11 +74,11 @@ The topics of our RFCs were limited to four themes: architecture, processes, ana
 
 ### Why RFCs are helpful
 
-In short, this is the practice of [thinking through writing](post:@choose-nearest-language:thinking-through-writing) at the team level. Read the text at the link if you want to dive deeper into the topic.
+In short, this is the practice of [thinking through writing]{post:@choose-nearest-language:thinking-through-writing} at the team level. Read the text at the link if you want to dive deeper into the topic.
 
 **Each activity should leave an artifact.** RFC is an artifact of the mental work that all developers do, but rarely save results. This leads to losing a lot of work over time — it just fades from memory. RFCs save such results.
 
-**By transferring thoughts into text, a person verifies their [mental models](post:@choose-nearest-language:life-and-work-with-models).** Even simple writing down thoughts improves understanding of the task, reveals errors, and so on.
+**By transferring thoughts into text, a person verifies their [mental models]{post:@choose-nearest-language:life-and-work-with-models}.** Even simple writing down thoughts improves understanding of the task, reveals errors, and so on.
 
 **Cheap knowledge base.** It is cheap because RFCs do not need to be kept up to date, like regular documentation. At the same time, they remain useful and relevant. This is the history of the project's development, which is very convenient when dealing with technological archeology.
 
