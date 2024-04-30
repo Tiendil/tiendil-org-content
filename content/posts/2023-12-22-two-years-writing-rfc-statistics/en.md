@@ -96,13 +96,13 @@ In the following text there will be several parts with graphs. At the beginning 
 
 But first, a few notes on the data and the collection method:
 
-- I am the initiator of the practice and I analyzed it myself. Some distortions are inevitable, take this into account.
-- We keept the documentation in Notion. To get some data, I had to export the documents as HTML and parse them. The code was checked, but even the best make mistakes.
-- For some documents, it was difficult to determine the author: was it a full collaboration or one person made the document template and the other filled it in. In this case, I tried to determine the main author from memory.
-- I determined the topic of the RFC and the document status according to my expert opinion and memory. The history is only for two years, the documents are quite clear, everything has passed through me, so there should be no significant inaccuracies. But I could make a couple of typos in the table on which the graphs were built.
-- The data is maximally anonymized. No names, nicknames, titles, etc. Only numbers and graphs. The project is alive, tied to money. I don't want to deal with unnecessary approvals
+- I am the initiator of the practice, and I analyzed it myself. Some biases are inevitable, take this into account.
+- We kept the documentation in Notion. To get the data, I had to export the documents as HTML and parse them. I checked the code, but mistakes are possible.
+- For some documents, it was difficult to determine the author: was it a full collaboration, or did one person make the document template and the other fill it in? In case of such questions, I tried to determine the main author from memory.
+- I determined the topic of the RFC and the document status based on my expert opinion and memory. The history is only for two years, the documents are pretty clear, everything has passed through me, so there should be no significant inaccuracies.
+- The data is maximally anonymized. No names, nicknames, titles, etc. Only numbers and graphs. The project is alive, tied to money. I don't want to deal with unnecessary approvals.
 - The statistics were collected exactly for two calendar years. During this time, both the team and the project changed. This should be taken into account. Also, it is visible in the graphs.
-- The core team grew from 3 to 7 people. At the end of the year, there are 19 people on the team's Slack channel, all of them can be considered stakeholders of the practice. Most of them participated in the discussion of at least one document.
+- The core team grew from 3 to 7 people. At the second end of the year, there are 19 people on the team's Slack channel, all of them can be considered stakeholders of the practice. Most of them participated in the discussion of at least one document.
 
 ## Statistics
 
