@@ -301,7 +301,7 @@ alt = "The number of RFCs by comment threads per quarter."
 
 ### The number of comments per RFC
 
-A similar analysis, but this time we look at the number of comments in discussions. This is a more accurate metric of the activity of the team in the discussion of RFCs.
+A similar analysis, but this time we look at the number of comments in discussions. This is a more accurate metric of the team's activity in discussing RFCs.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
@@ -328,7 +328,7 @@ alt = "The number of RFCs by comments number per quarter."
 Observations:
 
 - There are no long discussions in the comments. Either everything was clear, or we switched to a call or chat.
-- In the second year, discussions became more specific. There were more discussions with comments, but fewer discussions with many comments. I think we partially learned how to discuss, partially the questions became more grounded: less philosophy and abstractions, more facts and practical questions.
+- In the second year, discussions became more specific. There were more discussions with comments, but fewer discussions with many comments. I think, we partially learned how to discuss, partially the questions became more grounded: less philosophy and abstractions, more facts and practical approaches.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
@@ -352,11 +352,11 @@ alt = "The number of RFCs by comments per discussion per quarter."
 
 ### The number of participants in discussions
 
-The number of people who wrote at least one comment to the RFC. Excluding the author.
+The number of people who wrote at least one comment to an RFC. Excluding the author.
 
-- The share of RFCs without discussion participants is slightly higher than the share without discussions. It is because the author sometimes theyself wrote a comment or a question to their text. This question may not be answered in Notion.
+- The share of RFCs without discussion participants is slightly higher than the share without discussions. This is because the author sometimes added a comment or a question to their text. This question cab be answered not in Notion.
 - Some RFCs are discussed by a subgroup of the team — only by interested people. In my opinion, this is normal. There is no need to distract everyone from work and waste people's time. In most cases, responsible/interested people come to the discussion themselves.
-- More than half of the RFCs are discussed by three or more people. This is good. It means that several pairs of eyes verified the text and understod it enough to ask a question. Therefore, risks were reduced, knowledge is shared.
+- More than half of the RFCs are discussed by three or more people. This is good. It means several pairs of eyes verified the text and understood it enough to ask a question. Therefore, risks were reduced, and knowledge was shared.
 - Most of the RFCs are discussed inside the team, but sometimes we invite people from outside
 - More people participated in the discussions in 2023. I believe this is due to the growth of the team and the establishment of the practice.
 
@@ -365,19 +365,19 @@ galery_class = "brigid-images-1-in-row"
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-participants.png"
-alt = "The number of RFCs by discussions participants."
+alt = "The number of RFCs by discussion participants."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-participants.png"
-alt = "The number of RFCs by discussions participants per year."
+alt = "The number of RFCs by discussion participants per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-year-participants-percents.png"
-alt = "The share of RFCs by discussions participants per year."
+alt = "The share of RFCs by discussion participants per year."
 
 [[images]]
 src = "images/two-years-writing-rfc-statistics-rfc-count-by-quarter-participants.png"
-alt = "The number of RFCs by discussions participants per quarter."
+alt = "The number of RFCs by discussion participants per quarter."
 ///
 
 ### The participation of people in writing RFC in the breakdown by people
