@@ -429,6 +429,6 @@ In my opinion, the experiment was successful:
 - Fast feedback is working.
 - Asynchronous discussions are working.
 
-Unexpectedly, the statistics on RFCs well reflect the state of the team and the project, their dynamics. Next time I will try to make it a metric of the team's health.
+Unexpectedly, the statistics on RFCs well reflect the state of the team and the project, their dynamics. Next time, I will make it a metric of the team's health.
 
-But their is a question: how will the practice continue without me? Since I was the lead, I often initiated the writing of RFCs, in the spirit of "this question is too complex for an oral discussion, let's prepare an RFC". Therefore, it is not clear whether the team will write RFCs without my push. In a year, I will catch someone and ask how things are going. Or maybe I will ask for temporary access to the texts.
+But their is a question: how will the practice continue without me? Since I was the lead, I often initiated the writing of RFCs, in the spirit of "this question is too complex for an oral discussion, let's prepare an RFC". Therefore, it is not clear whether the team will write RFCs without my push. In a year, I will catch someone and ask how things are going. Or I may ask for temporary access to the texts.
