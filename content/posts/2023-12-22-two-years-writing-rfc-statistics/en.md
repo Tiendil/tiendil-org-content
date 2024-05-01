@@ -354,7 +354,7 @@ alt = "The number of RFCs by comments per discussion per quarter."
 
 The number of people who wrote at least one comment to an RFC. Excluding the author.
 
-- The share of RFCs without discussion participants is slightly higher than the share without discussions. This is because the author sometimes added a comment or a question to their text. This question cab be answered not in Notion.
+- The share of RFCs without discussion participants is slightly higher than the share without discussions. This is because the author sometimes added a comment or a question to their text. This question can be answered not in Notion.
 - Some RFCs are discussed by a subgroup of the team — only by interested people. In my opinion, this is normal. There is no need to distract everyone from work and waste people's time. In most cases, responsible/interested people come to the discussion themselves.
 - More than half of the RFCs are discussed by three or more people. This is good. It means several pairs of eyes verified the text and understood it enough to ask a question. Therefore, risks were reduced, and knowledge was shared.
 - Most of the RFCs are discussed inside the team, but sometimes we invite people from outside
