@@ -275,7 +275,7 @@ Notes:
 
 Observations:
 
-- A quarter of the documents are without discussions. This does not mean that they were not discussed. The discussion could have taken place during a call or in Slack. But there are also some simple clear documents that just need to be done and receive an "ok" from the team.
+- A quarter of the documents are without discussions. This does not mean that they were not discussed. The discussion could have taken place during a call or in Slack. However, there were also some simple, clear documents that just needed to be completed and received an " okay" from the team.
 - The number of documents without discussions in 2023 is twice as low as in 2022 (15% vs 30%). With time, the team got involved into the practice.
 - About 50% of RFCs have more than three discussions. About 25% have more than eight. Each discussion is a closed risk, a found error, a knowledge shared. Short feedback loops work.
 
