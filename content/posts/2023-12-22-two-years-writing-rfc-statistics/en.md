@@ -131,7 +131,7 @@ alt = "The number of RFCs per quarter."
 - It was pleasantly surprising that only a third of the RFCs were created by me. I thought it would be about a half.
 - The breakdown of authors per year shows how the team had changed. New people came, and some left.
 - Everyone wrote RFC. In most cases, the first RFC document was prepared during the probationary period. We tried to provide an opportunity to do something significant during this time.
-- On annual graphs, you can see that all team members participated in the RFC preparation approximately equally. With a correction for spikes, which are typical for a small sample: at one time, we actively work on one part of the project with one team member as an expert; at another time — on another part with another team member as the development leader.
+- On annual graphs, you can see that all team members participated in the RFC preparation approximately equally. With a correction for spikes, which are typical for a small sample: at one time, we actively worked on one part of the project with one team member as an expert; at another time — on another part with another team member as the feature owner.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
