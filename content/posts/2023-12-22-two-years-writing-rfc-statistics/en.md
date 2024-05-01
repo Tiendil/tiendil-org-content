@@ -238,7 +238,7 @@ What can be seen:
 - About 21% concern processes: when to merge, how to test, how to work with configs, how to create tasks, etc.
 - About 15% are analysis. For example, after the first six months of development, I prepared the description of the project status, risks, dynamics, etc.
 - About 8% are planning. What to do and why.
-- In the second year, the number of RFCs about architecture are decreased, and the number of all other topics are increased. This is due to the growth and restructuring of the team, and the establishment of the project.
+- In the second year, the number of RFCs about architecture were decreased, and the number of all other topics were increased. This was due to the growth and restructuring of the team, and the establishment of the project.
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
