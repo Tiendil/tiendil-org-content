@@ -128,7 +128,7 @@ alt = "The number of RFCs per quarter."
 
 - The statistics are anonymous. Names are replaced with letters. If you are from my team, write me a direct message, I will give you a decryption.
 - You can guess that `A` is me — the author with the most of the RFCs. Firstly, I was the lead. Secondly, you can only introduce practices by your own example.
-- It was pleasantly surprising that only a third of the RFCs are created by me. I thought it would be about a half.
+- It was pleasantly surprising that only a third of the RFCs were created by me. I thought it would be about a half.
 - The breakdown of authors per year shows how the team had changed. New people came, and some left.
 - Everyone wrote RFC. In most cases, the first RFC document is prepared during the probationary period. We try to provide an opportunity to do something significant during this time.
 - On annual graphs, you can see that all team members participate in the RFC preparation approximately equally. With a correction for spikes, which are typical for a small sample: at one time, we actively work on one part of the project with one team member as an expert; at another time — on another part with another team member as the development leader.
