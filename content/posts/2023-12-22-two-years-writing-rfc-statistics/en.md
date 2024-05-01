@@ -12,7 +12,7 @@ src = "images/two-years-writing-rfc-statistics-rfc-count-per-year.png"
 alt = "The number of RFCs over two years"
 ///
 
-Slightly more than two years ago, I became a Lead/Engineering Manager for Palta's payment team. I left the company at the end of 2023 for another [subbatical]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}.
+Slightly more than two years ago, I became a Lead/Engineering Manager for Palta's payment team. I left the company at the end of 2023 for another [sabbatical]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}.
 
 It is time to sum up. I will start with my favorite initiative.
 
