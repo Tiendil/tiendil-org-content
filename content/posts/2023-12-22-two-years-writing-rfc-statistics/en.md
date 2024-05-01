@@ -168,7 +168,7 @@ I identified 4 states:
 
 Observations:
 
-- Most of the RFCs are applied and actual.
+- Most of the RFCs were applied and actual.
 - Completely "useless" RFCs are about 13%. In my opinion, this is a good sign — we were discussing what we needed. And what we didn't need — we didn't discuss.
 - The further into the past, the more `deprecated` RFCs. The closer to the present, the more `planned` RFCs. It looks logical.
 - You can notice that Q3/22 was especially rich in unused RFCs. This correlates well with the changes in plans and the team in Q4/22.
@@ -204,7 +204,7 @@ Notes:
 
 - We didn't do much deep research, especially in 2022. There was more research in 2023.
 - I connect this with the fact that in 2022 the team was small, we had to work hard, the processes had not yet been established, people had not yet used to each other. In 2023, we solved a lot of problems, improved work, and were able to spend more time on research.
-- Most of the business planning is outside the team. I didn't like it, but that's how it was. Therefore, for example, we didn't choose services to integrate with. We digged where business said :-)
+- Most of the business planning were outside the team. I didn't like it, but that's how it was. Therefore, for example, we didn't choose services to integrate with. We digged where business said :-)
 
 /// brigid-images
 galery_class = "brigid-images-1-in-row"
