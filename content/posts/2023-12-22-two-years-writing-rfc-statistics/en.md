@@ -56,7 +56,7 @@ Several times, we discussed the formalization of the RFC structure. We agreed th
 
 In fact, after some practice, the general structure was applied without explicit standardization. Teammates looked at each other's documents and adopted the best practices without special requirements to follow a specific form.
 
-For example, I am a little obsessed with the formal structure, but I do not require it from others. Quick preparation of structured documents is a separate skill that not everyone has and not everyone wants to develop. We should not force people to learn such skills unless they absolutely need them.
+For example, I am a little obsessed with formal structure but did not require it from others. Quick preparation of structured documents is a separate skill that not everyone has and not everyone wants to develop. We should not force people to learn such skills unless they absolutely need them.
 
 ### Examples of RFC topics
 
