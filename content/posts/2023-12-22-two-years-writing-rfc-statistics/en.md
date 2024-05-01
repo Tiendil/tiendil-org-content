@@ -228,7 +228,7 @@ alt = "The number of RFCs by research effort per quarter."
 
 ### Distribution by topics
 
-As I mentioned, we had four topics for RFC: architecture, processes, analysis (of the current state of something), and planning. This list is not given from above, we did not discuss it — these are things that we considered necessary to write about.
+As I mentioned, we had four topics for RFC: architecture, processes, analysis (of the current state of something), and planning. This list was not given from above, we did not discuss it — these were things that we considered necessary to write about.
 
 RFC can cover several topics. For example: an analysis of project indicators, a proposal to change the architecture, and implementation planning. Therefore, the charts have  more than four segments.
 
