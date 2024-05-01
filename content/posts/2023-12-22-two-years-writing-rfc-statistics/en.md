@@ -161,7 +161,7 @@ But they can still be divided by their reflection on the project's current state
 
 I identified 4 states:
 
-- `applied` — at least part of the RFC has been applied to the project in some form. It is now in the code or in the processes.
+- `applied` — at least a part of an RFC had been applied to the project in some form (at the moment I left the company). It was in the code or in the processes.
 - `planned` — the RFC had been discussed by the team, approved, but not yet applied due to other planning priorities. Usually these are some significant changes in the architecture that do not need to be done right now, but need to be prepared for.
 - `applied & deprecated` — the changes were applied, but then completely removed. For example, they did not work as expected, or the project concept changed.
 - `not applied & deprecated` — discussed, but not approved. Or planned, but then the plans changed.
