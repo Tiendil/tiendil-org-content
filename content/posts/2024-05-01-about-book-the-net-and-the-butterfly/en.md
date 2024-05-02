@@ -31,7 +31,7 @@ Oh, and the last chapter contains a summary of the previous chapters, which look
 
 ## The book's shortcomings
 
-I have a many complaints about "The Net And The Butterfly" and I am surprised that its content still looks useful.
+I have many complaints about "The Net And The Butterfly" and I am surprised that its content still looks useful.
 
 The authors did a significant amount of work but could not present it. Either I am not the target audience for the book, which is very likely.
 
