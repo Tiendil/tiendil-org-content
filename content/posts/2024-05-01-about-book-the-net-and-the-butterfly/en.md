@@ -109,3 +109,7 @@ I don't know how the last recommendation fits with the first two.
 Many of the experiments in the book smell strongly of [WEIRD](https://en.wikipedia.org/wiki/Psychology#WEIRD_bias).
 
 At the end of the book, there is a chapter about the need for a higher altruistic goal (purpose) that would turn your work into a mission. However, the authors do not say a word about the number of people who not only "burned out" on this path, but simply broke their lives and the lives of others.
+
+## Conclusion
+
+If you are completely unaware of "how to manage your brain," the book will show you where to start. But perceive the information from it carefully, critically.
