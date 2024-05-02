@@ -52,7 +52,7 @@ As a result, instead of a good reference book, we got a collection of random fac
 
 What is not there is not there.
 
-The book is the opposite of theories with a systematic approach to thinking ([systems engineering](https://en.wikipedia.org/wiki/Systems_engineering), [TRIZ](https://en.wikipedia.org/wiki/TRIZ), [Bayesianism](https://en.wikipedia.org/wiki/Bayesianism), etc.), which try to identify the basis and build their structures on it.
+The book is the opposite of theories with a systematic approach to thinking ([systems engineering](https://en.wikipedia.org/wiki/Systems_engineering), [TRIZ](https://en.wikipedia.org/wiki/TRIZ), [bayesianism](https://en.wikipedia.org/wiki/Bayesianism), etc.), which try to identify the basis and build their structures on it.
 
 There is no basis in "The Net And The Butterfly." In the text of the book, the authors often refer to brain research, to a lot of work done behind the scenes, but I could not notice significant traces of this work: axioms, basic statements, cross-dependencies between practices, or something similar. In the "best" case the worst examples of argumentation of "popular neuroscience" are sometimes visible.
 
