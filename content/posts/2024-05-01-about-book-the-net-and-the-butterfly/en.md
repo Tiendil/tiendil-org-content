@@ -11,9 +11,9 @@ src = "./images/the-net-and-the-butterfly-book-cover-en.jpg"
 alt = "The cover of the book \"The Net And The Butterfly\"."
 ///
 
-I bought "The Net And The Butterfly" by mistake when I was in St. Petersburg about 5 years ago and had a day of book shopping. I bought about 10 kilograms of books :-D, grabbed this one on autopilot without reading the contents. I thought the book would be about the network effect and the spreading of ideas, but it turned out to be about how to "manage" a brain based on one of the neural networks in it. Which network? For the book and its content this does not matter.
+I bought "The Net And The Butterfly" by mistake when I was in St. Petersburg about 5 years ago and organized a book-shopping day. I bought about 10 kilograms of books :-D, grabbed this one on autopilot without reading the contents. I thought the book would be about the network effect and the spreading of ideas, but it turned out to be about how to "manage" a brain relying on one of the neural networks in it. Which network? For the book and its content it does not matter at all.
 
-My opinion of "The Net And The Butterfly" is twofold. On the one hand, I cannot deny its usefulness, on the other… the material could have been presented 100 times better and 3 times shorter. Sometimes, the authors walk on thin ice and risk falling into marketing fraud.
+My opinion of "The Net And The Butterfly" is twofold. On the one hand, I cannot deny its usefulness, on the other… the material could have been presented 100 times better and 3 times shorter. Sometimes, the authors walk on thin ice and risk falling into information peddling/marketing fraud.
 
 ## Useful in the book
 
@@ -25,7 +25,7 @@ It is best to perceive it as a list of practices with curious examples rather th
 
 That's all with the useful.
 
-Oh, and the last chapter contains a summary of the previous chapters, which looks like an interesting solution. But given the style of the book, it's more like multiplying pages.
+Oh, and the last chapter contains a summary of the previous chapters, which looks like an interesting solution. But given the style of the book, it's more like padding out the pages.
 
 ## The book's shortcomings
 
@@ -35,7 +35,7 @@ The authors did a significant amount of work but could not present it. Either I 
 
 ### Material presentation
 
-The authors chose a style that I don't like very much:
+The authors chose a style that I strongly dislike:
 
 - Appealing to (questionable) authorities instead of building logical chains.
 - Choosing factual material with an emphasis on entertaining the reader rather than forming a holistic picture of the world for him.
@@ -58,7 +58,7 @@ There is no basis in "The Net And The Butterfly." In the text of the book, the a
 
 Previous claims are a matter of taste. But there are more critical problems.
 
-The authors systematically combine/confuse concepts that are basic to the book.
+The authors systematically mix up/confuse fundamental concepts of the book.
 
 For example, they mix the concepts of "idea" and "implementation of an idea." So much so that the book is positioned as a guide to idea generation (in the abstract and introduction), but half of it is devoted to idea implementation. For example, to the overcoming the fear of failure.
 
