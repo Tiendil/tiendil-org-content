@@ -17,7 +17,7 @@ My opinion of "The Net And The Butterfly" is twofold. On the one hand, I cannot 
 
 <!-- more -->
 
-## useful in the book
+## Useful in the book
 
 If we cut through the fluffy stuff, the book provides a series of brain management practices that will help you think more effectively, generate and implement ideas better.
 
