@@ -15,7 +15,9 @@ I bought "The Net And The Butterfly" by mistake when I was in St. Petersburg abo
 
 My opinion of "The Net And The Butterfly" is twofold. On the one hand, I cannot deny its usefulness, on the other… the material could have been presented 100 times better and 3 times shorter. Sometimes, the authors walk on thin ice and risk falling into information peddling/marketing fraud.
 
-## Useful in the book
+<!-- more -->
+
+## useful in the book
 
 If we cut through the fluffy stuff, the book provides a series of brain management practices that will help you think more effectively, generate and implement ideas better.
 
