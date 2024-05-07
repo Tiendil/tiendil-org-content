@@ -45,14 +45,13 @@ It's curious that "mechanically insignificant" choices are not uncommon in games
 
 But in «Slay The Princess», this is the basic mechanic, and it somehow works great.
 
+## Game loops
 
-## Игровые циклы
+Mechanically, the game is "simple". There are three cycles:
 
-Механически игра проста. Есть три цикла:
-
-1. Вы стоите на дороге в лесную избушку, заходите в неё, (не) берёте меч, спускаетесь в подвал и делаете что-то с Принцессой. Обычно в результате кто-то из вас умирает, но не всегда.
-2. Вы повторяете цикл 1 около трёх раз, каждый раз Принцесса и избушка меняются в следствие вашего выбора в предыдущей избушке. Хочется сказать, что Принцесса трансформируется, но на самом деле её очень жёстко корёжит. Об этом чуть позже. В конце цикла неведомая Хтонь забирает принцессу, говорит спасибо, стирает персонажу память и возвращает игрока в начало цикла.
-3. Вы собираете для Хтони 5 принцесс и получаете финал. По сути, это и есть полная игровая сессия.
+1. You stand on the road to a forest cabin, enter it, (do not) take a sword, go down to the basement, and do something with the Princess. Usually, as a result, one of you dies, but not always.
+2. You repeat cycle 1 about three times, each time the Princess and the cabin change due to your choice in the previous cabin. I'd like to say the Princess is transforming, but in reality, she's being brutally twisted. More on that will be later. At the end of the cycle, the god-like entity Mound takes the Princess, thanks you, erases the character's memory, and returns the player to the beginning of the cycle.
+3. You collect 5 Princesses for Mound and get the finale. In fact, this is the full game session.
 
 ### Избушка — цикл 1
 
