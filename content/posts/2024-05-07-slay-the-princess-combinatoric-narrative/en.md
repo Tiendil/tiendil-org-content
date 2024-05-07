@@ -152,21 +152,20 @@ Mechanically, the game looks simple, I think I understand how it works, but this
 
 I don't know the answers yet. In my opinion, the key might lie in quickly leading the player through vivid extreme psychological states, but I'm not sure how important it is.
 
-## Interesting game features
+## Some interesting game features
 
-После посещения избушки меняется не только принцесса и реальность, но и персонаж игрока. У него в голове появляются отдельные голоса, которые соответствуют произошедшему. Например: Влюблённый, Параноик, Беспомощный, etc.
+After visiting the cabin, not only the Princess and reality change, but also the player character. Separate voices appear in his head, corresponding to what happened. For example: Lover, Paranoid, Helpless, etc.
 
-Игрок — «герой» (как Принцесса — «принцесса»), но не человек, а довольно стрёмное существо. Принцесса тоже не всегда человек, но всегда начинает человеком и строится вокруг человечности. Нечеловечность героя принцессу не волнует, но начинает волновать игрока, когда он её замечает. В некотором роде она рушит стереотип «героя, который спасает принцессу».
+The player is a "hero" (like the Princess is a "princess"), but not a human, but a rather creepy creature. The Princess is also not always a human, but always starts as a human and is built around humanity. The inhumanity of the hero does not bother the Princess, but it may bother the player when he notices it. In a sense, inhumanity breaks the stereotype of the "hero who saves the princess."
 
 /// brigid-images
 src = "./images/the-hero.jpg"
-caption = "Игрок."
+caption = "The hero."
 ///
 
-В финале игрок может «поспорить» со своими принцессами.
+In the finale, the player can "argue" with his princesses.
 
-При старте игры, разработчики говорят, что она о любви. Не врут.
-
+At the start of the game, the developers say it's about love. They don't lie.
 
 ----
 TODO:
