@@ -78,36 +78,36 @@ Secondly, it forces you to plan your actions more carefully at the level of the 
 
 Also, a killing or saving the Princess does not affect anything except your inner state. But you will learn about it only post factum. Somewhere in the middle of the game, Mound will hint you that your choices of princesses do not affect anything in the spirit of "it's not about that," but in the conditions of narrative paranoia, this hint personally for me changed little, and the logic of what is happening says that choices should affect something.
 
-### Принцессы как психологические архетипы — цикл 2
+### Princesses as psychological archetypes — cycle 2
 
 /// brigid-images
 src = "./images/princesses.jpg"
-caption = "Принцессы, официальный арт."
+caption = "Princesses, official art."
 ///
 
-Я не психолог, поэтому в терминах могу ошибаться.
+I'm not a psychologist, so I can make mistakes in terms.
 
-Как я сказал, суть цикла 2 в том, что вы корёжите Принцессу своим взаимодействием с ней.
+As I said, the essence of cycle 2 is that you change the Princess with your interaction with her.
 
-Завершение избушки оставляет на бедолаге отпечаток: иногда «плохой», иногда «хороший». Этот отпечаток делает её олицетворением одного из психологических архетипов: Ярость, Гнев, Любовь, Предательство, Власть, Азарт и так далее, их много. С большой буквы, потому, что это не мелкие изменения, они отображаются как переписывание реальности: принцесса меняется визуально, меняются её манера общения, голос, избушка меняется.
+A completion of the cabin leaves a mark on the poor thing: sometimes "bad," sometimes "good." This mark makes her as an embodiment of one of the psychological archetypes: Rage, Anger, Love, Betrayal, Power, Thrill, and so on, there are many of them. Archetypes are written with a capital letter because these are not minor changes, they fully rewrite reality: the Princess changes visually, her manner of communication changes, her voice changes, the cabin changes.
 
-За цельное системное переписывание Принцессы отдельный респект от меня разработчиком — это прям круто.
+I want to give a separate respect to the developers for the systematic complete rewriting of the Princess — it's cool.
 
-В новой избушке игроку приходится решать, что делать с последствием своего морального выбора в предыдущей:
+In a new cabin, a player has to decide what to do with the consequence of their moral choice in the previous one:
 
-- Что мне делать с Предательством, которое я совершил?
-- Стоит ли разрушить Надежду, которую я подарил?
-- Стоит ли гасить Азарт, который я зажёг?
+- What should I do with the Betrayal I committed?
+- Should I destroy the Hope I gifted?
+- Should I extinguish the Passion I ignited?
 
-Путешествие по кабинкам неизменно заканчивается своего рода [катарсисом](https://ru.wikipedia.org/wiki/Катарсис), после которого Хтонь забирает вашу уникальную, выстраданную принцессу себе, а вы возвращаетесь к начальной кабинке.
+A journey through the cabins invariably ends with a kind of [catharsis](https://en.wikipedia.org/wiki/Catharsis), after which Mound takes your unique, hard-earned Princess, and you return to the first cabin.
 
-По сути, цикл 2 представляет собой классическое ветвистое сюжетное дерево (точнее [DAG](https://ru.wikipedia.org/wiki/Ориентированный_ациклический_граф)).
+Cycle 2 is essentially a classic branching plot tree (more precisely, [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph)).
 
-Но, в отличии от большинства других визуальных новелл:
+But, unlike in most other visual novels:
 
-- Неглубокое. Если считать в избушках, то обычно всё решается за 2-3 избушки, но разветвлений чуть больше, обычно в рамках одной избушки есть несколько точек принятия решения. На Reddit есть [почти полная схема](https://www.reddit.com/r/slaytheprincess/comments/1abndit/slay_the_princess_complete_guide/)
-- С резкими трансформациями в узлах принятия решений. Например, даже первый выбор в первой избушке «взять или не взять меч» приводит нас к разным принцессам.
-- С блокированными путями из-за ваших предыдущих выборов.
+- It is not deep. If we count in cabins, everything is usually solved in 2-3 cabins, but there are more branches: usually, within one cabin, there are several decision points. On Reddit, there is an [almost complete scheme](https://www.reddit.com/r/slaytheprincess/comments/1abndit/slay_the_princess_complete_guide/).
+- With sharp transformations in decision nodes. For example, even the first choice in the first cabin "take or not take the sword" leads us to different Princesses.
+- With blocked paths due to your previous choices.
 
 ### Комбинаторный нарратив — цикл 3
 
