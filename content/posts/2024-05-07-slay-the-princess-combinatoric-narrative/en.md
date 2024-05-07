@@ -50,8 +50,8 @@ But in «Slay The Princess», this is the basic mechanic, and it somehow works g
 Mechanically, the game is "simple". There are three cycles:
 
 1. You stand on the road to the forest cabin, enter it, (do not) take the sword, go down to the basement, and do something with Princess. Usually, as a result, one of you dies, but not always.
-2. You repeat the first cycle about three times, each time Princess and the cabin change due to your choice in the previous cabin. I'd like to say Princess is transforming, but in reality, she's being brutally twisted. More on that will be later. At the end of the cycle, the god-like entity Mound takes Princess, thanks you, erases the character's memory, and returns the player to the beginning of the cycle.
-3. You collect 5 Princesses for Mound and get the finale. In fact, this is the full game session.
+2. You repeat the first cycle about three times, each time Princess and the cabin change due to your choice in the previous cabin. I want to say Princess is transforming, but in reality, she's being brutally twisted. More on that will be later. At the end of the cycle, the god-like entity Mound takes Princess, thanks you, erases the character's memory and returns the player to the beginning of the cycle.
+3. You collect 5 princesses for Mound and get the finale — this is the whole game session.
 
 ### The cabin — cycle 1
 
@@ -64,19 +64,19 @@ The first cycle:
 
 - You are placed in a context: starting (if you are at the beginning of the second cycle) or the one you created by your choice in the previous cabin.
 - You should solve a moral dilemma in conditions of uncertainty: kill the Princess or not.
-- Mechanically, it is organized as a classic visual novel: you go through a couple of locations, choose dialogue options, etc.
+- Mechanically, it is organized as a classic visual novel: you go through several locations, choose dialogue options, etc.
 
-During the first playthrough, the player most probably won't be sure if they should kill Princess, if it is fair, and how this killing will affect them and the world. The player is put in a situation of complete uncertainty where everyone ~~lies~~ hide truth, and the player should restore the general picture from reservations, insinuations, and own imagination. This mini-detective, by the way, deserves special praise, I haven't been so confused in a long time :-D
+During the first playthrough, the player probably won't be sure if they should kill Princess, if it is fair, and how this killing will affect them and the world. The player is put in a situation of complete uncertainty where everyone ~~lies~~ hides the truth, and the player should restore the general picture from reservations, insinuations, and own imagination. This mini-detective, by the way, deserves special praise — I haven't been so confused in a long time :-D
 
 It turns out that on each iteration of the basic game cycle, the player is not given trivial tasks like "kill 100500 boars" but is forced to solve a moral dilemma about the central element of the game, its [cornerstone](https://en.wikipedia.org/wiki/Cornerstone). Princess, in the end, is in the title of the game. Everything is about Princess, even you — the player — is about Princess.
 
-It is important that you cannot repeat a choice in the same situation. If you intentionally missed with a dagger at Princess once, you will have to kill her the second time in the same situation.
+It is important that you cannot repeat a choice in the same situation. If you've intentionally missed with a dagger at Princess once, you will have to kill her the second time in the same situation.
 
 Firstly, at the beginning, it leads to something like moral dissonance when the player is forced to go against what they think is right at the moment.
 
 Secondly, it forces the player to plan actions more carefully at the level of the game session.
 
-Also, a killing or saving the Princess does not affect anything except your inner state. But you will learn about it only post factum. Somewhere in the middle of the game, Mound will hint you that your choices of princesses do not affect anything in the spirit of "it's not about that," but in the conditions of narrative paranoia, this hint personally for me changed little, and the logic of what is happening says that choices should affect something.
+Also, killing or saving the Princess affects nothing  except your inner state. But you will learn about it only post factum. Somewhere in the middle of the game, Mound will hint you that your choices of princesses do not affect anything in the spirit of "it's not about that," but in the conditions of narrative paranoia, this hint personally for me changed little, and the logic of what is happening says that choices should affect something.
 
 ### Princesses as psychological archetypes — cycle 2
 
@@ -89,9 +89,9 @@ I'm not a psychologist, so I can make mistakes in terms.
 
 As I said, the essence of the second cycle is that you change Princess with your interaction with her.
 
-A completion of the cabin leaves a mark on the poor thing: sometimes "bad," sometimes "good." This mark makes her as an embodiment of one of the psychological archetypes: Rage, Anger, Love, Betrayal, Power, Thrill, and so on, there are many of them. Archetypes are written with a capital letter because these are not minor changes, they fully rewrite reality: Princess changes visually, her manner of communication changes, her voice changes, the cabin changes.
+Finishing the cabin leaves a mark on the poor thing: sometimes "bad," sometimes "good." This mark makes her an embodiment of one of the psychological archetypes: Rage, Anger, Love, Betrayal, Power, Thrill, and so on — there are many of them. Archetypes are written with a capital letter because these are not minor changes, they fully rewrite reality: Princess changes visually, her manner of communication changes, her voice changes, the cabin changes.
 
-I want to give a separate respect to the developers for the systematic complete rewriting of Princess — it's cool.
+I want to give the developers special respect for the systematic & systemic rewriting of Princess — it's cool.
 
 In a new cabin, a player has to decide what to do with the consequence of their moral choice in the previous one:
 
@@ -118,9 +118,9 @@ caption = "Mound."
 
 If we count [by princesses](https://slay-the-princess.fandom.com/wiki/The_Princess), there will be 20 variants of the second cycle.
 
-In reality, there are more, because the Princesses can transform into each other, but it is not easy to count the full number of paths through the second cycle, and princesses will not repeat. So we can stop at a minimum of 20 — it will be more than enough for our purposes.
+In reality, there are more because the Princesses can transform into each other. However, it is not easy to count the full number of paths through the second cycle, and princesses will not repeat. So we can stop at a minimum of 20 — it will be more than enough for our purposes.
 
-We remember that the player needs to collect 5 princesses, aka pass second cycle 5 times.
+We remember that the player needs to collect 5 princesses, aka pass the second cycle 5 times.
 
 Given the general misunderstanding of what is happening in the plot, we can assume that players will "open" different princesses and do it in a different order. Of course, there will be some patterns in the spirit of "many will try the most violent approach," but in general, this process looks quite random.
 
@@ -135,13 +135,13 @@ In total, we have a minimum of 1860480 variants of a deeply personal experience 
 
 In other words, **the game gives more than 1.8 million ways to lead the player through psychological states** (Rage, Anger, Love, etc.)
 
-Again, such combinatorics are not an unique feature of «Slay The Princess. Most RPGs do the same: go do quests at point A, then at point B or, if you want, vice versa, first at B, then at A. Add a couple of such points, let someone be saved or killed there, and you will also receive some "uniqueness" of the experience with "strong choices," but it will not work as effectively.
+Again, such combinatorics are not a unique feature of «Slay The Princess. Most RPGs do the same: go do quests at point A, then at point B, or, if you want, vice versa, first at B, then at A. Add a couple of such points, let someone be saved or killed there, and you will also receive some "uniqueness" of the experience with "strong choices," but it will not work as effectively.
 
 ## Known unknown
 
 Mechanically, the game looks simple, I think I understand how it works, but this only raises more questions in front of me:
 
-- Why, with such simplicity, so few games achieve such effectiveness in influencing players?
+- Why, with such simplicity, do so few games achieve such effectiveness in influencing players?
 - Is the success of the game a consequence of the successful/correct combination of standard mechanics, or is there something else non-obvious?
 - What mechanics in «Slay The Princess» are mandatory, and which can be removed or changed?
 - What is primary for success: leading a player through psychological states, narrative combinatorics, or both factors are equally important?
@@ -150,13 +150,13 @@ Mechanically, the game looks simple, I think I understand how it works, but this
 - Can such an effect be achieved without limiting the information available to the player?
 - How important is the player's fast journey through psychological states? Can this journey be stretched for 20-30 hours?
 
-I don't know the answers yet. In my opinion, the key might lie in quickly leading the player through vivid extreme psychological states, but I'm not sure how important it is.
+I don't know the answers yet. The key might lie in quickly leading the player through vivid extreme psychological states, but I'm unsure how important it is.
 
 ## Some interesting game features
 
-After visiting the cabin, not only the Princess and reality change, but also the player character. Separate voices appear in hero's head, corresponding to what happened. For example: Lover, Paranoid, Helpless, etc.
+After visiting the cabin, not only Princess and reality change but also the player's character. Separate voices appear in the hero's head, corresponding to what happened. For example: Lover, Paranoid, Helpless, etc.
 
-The player is "the hero" (like the Princess is "the princess"), but not a human — a rather creepy creature. Princess is also not always a human, but always starts as a human and is built around humanity. The inhumanity of the hero does not bother Princess, but it may bother the player when he/she notices it. In a sense, inhumanity breaks the stereotype of the "hero who saves the princess."
+The player is "the hero" (like the Princess is "the princess"), but not a human — a rather creepy creature. Princess is also not always a human, but always starts as a human and is built around humanity. The inhumanity of the hero does not bother Princess, but it may bother the player when they notices it. In a sense, inhumanity breaks the stereotype of the "hero who saves the princess."
 
 /// brigid-images
 src = "./images/the-hero.jpg"
