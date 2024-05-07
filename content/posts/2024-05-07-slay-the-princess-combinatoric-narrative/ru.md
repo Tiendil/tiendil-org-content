@@ -19,7 +19,7 @@ caption = "Мой любимый вариант Принцессы."
 
 **ОСТОРОЖНО: СПОЙЛЕРЫ!**
 
-Если вы ещё не играли в [Slay The Princess](https://store.steampowered.com/app/1989270/Slay_the_Princess/) настоятельно рекомендую наверстать упущенное — игра на 3-4 часа. Не пожалеете.т
+Если вы ещё не играли в [Slay The Princess](https://store.steampowered.com/app/1989270/Slay_the_Princess/) настоятельно рекомендую наверстать упущенное — игра на 3-4 часа. Не пожалеете.
 
 <!-- more -->
 
