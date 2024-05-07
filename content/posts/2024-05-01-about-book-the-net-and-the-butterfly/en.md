@@ -1,6 +1,6 @@
 ---
 title = "About the book \"The Net And The Butterfly\""
-tags = [ "books", "thinking", "theory", "practice", "psychology", "interesting"]
+tags = [ "books", "thinking", "theory", "practice", "psychology"]
 published_at = "2024-05-02T12:00:00+00:00"
 description = "\"The Net And The Butterfly\" introduces useful brain management practices, but the written material should be perceived through an internal critic."
 seo_image = "./images/the-net-and-the-butterfly-book-cover-en.jpg"
