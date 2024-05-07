@@ -1,6 +1,6 @@
 ---
 title = "О книгах Сюзанны Кларк"
-tags = [ "books", "interesting", "best"]
+tags = [ "books", "interesting", "best", "world-design"]
 published_at = "2019-07-22T12:00:00+00:00"
 seo_description = "Рекомендую любителям фэнтези, Англии начала XIX века и геймдизайнерам. Шикарный, но тяжёлый стиль, отличная проработка мира."
 seo_image = "images/jonathan-strange-and-mr-norrell.jpg"

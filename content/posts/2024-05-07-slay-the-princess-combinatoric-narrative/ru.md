@@ -1,6 +1,6 @@
 ---
 title = "«Slay The Princess» — комбинаторный нарратив"
-tags = ["theory", "practice", "gamedev", "game-design", "games", "interesting"]
+tags = ["theory", "practice", "gamedev", "game-design", "games", "interesting", "world-design"]
 published_at = "2024-05-07T12:00:00+00:00"
 seo_description = "Пока нахожусь под впечатлением, скажу пару слов про «Slay The Princess» и структуру построения нарратива в этой игре."
 seo_image = "./images/cover.jpg"

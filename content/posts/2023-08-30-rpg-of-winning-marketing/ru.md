@@ -1,6 +1,6 @@
 ---
 title = "РПГ победившего маркетинга"
-tags = [ "business", "gamedev", "game-design", "monetization", "games"]
+tags = [ "business", "gamedev", "game-design", "monetization", "games", "world-design"]
 published_at = "2023-08-30T12:00:00+00:00"
 seo_description = "Субъективный взгляд на Baldur's Gate 3. Красиво, модно, без души."
 seo_image = "images/rpg-of-winning-marketing-cover.jpg"

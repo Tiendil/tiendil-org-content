@@ -1,6 +1,6 @@
 ---
 title = "Как придумать подземелье"
-tags = [ "gamedev", "game-design", "theory", "interesting", "best"]
+tags = [ "gamedev", "game-design", "theory", "interesting", "best", "world-design"]
 published_at = "2021-01-17T12:00:00+00:00"
 seo_description = "Рекомендации по созданию подземелий для игр: как смотреть на подземелье с точки зрения опыта игрока, на что обратить внимание при разработке."
 seo_image = "images/how-to-design-a-dungeon-cover.jpg"
