@@ -1,4 +1,4 @@
-%---
+---
 title = "Блог переехал на новый движок"
 tags = [ "practice", "development", "open-source", "exocortex", "backend", "python", "blog"]
 published_at = "2024-02-21T12:00:00+00:00"
