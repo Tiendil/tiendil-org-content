@@ -137,22 +137,22 @@ In other words, **the game gives more than 1.8 million ways to lead the player t
 
 Again, such combinatorics are not an unique feature of «Slay The Princess. Most RPGs do the same: go do quests at point A, then at point B or, if you want, vice versa, first at B, then at A. Add a couple of such points, let someone be saved or killed there, and you will also receive some "uniqueness" of the experience with "strong choices," but it will not work as effectively.
 
-## Известное неизвестное
+## Known unknown
 
-Механически игра выглядит просто, мне кажется я понимаю как она устроена, но от этого передо мной становится только больше вопросов:
+Mechanically, the game looks simple, I think I understand how it works, but this only raises more questions in front of me:
 
-- Почему при подобной простоте, так мало игр достигает такой эффективности в воздействии на игрока?
-- Является ли успех игры следствием успешного/правильного сочетания стандартных механик или есть ещё что-то неочевидное?
-- Какие механики в «Slay The Princess» являются обязательными, а какие можно удалять или менять?
-- Что первично для успеха: проведение игрока по психологическим состояниям, комбинаторика под сюжетом или оба фактора равнозначны?
-- Можно ли добиться такого эффекта с более приземлёнными выборами игрока?
-- Можно ли добиться такого эффекта с меньшей проработкой изображений и озвучки?
-- Можно ли добиться такого эффекта без ограничения информации, доступной игроку?
-- Насколько важным является быстрое путешествие игрока по психологическим состояниям? Можно ли растянуть это путешествие на 20-30 часов?
+- Why, with such simplicity, so few games achieve such effectiveness in influencing players?
+- Is the success of the game a consequence of the successful/correct combination of standard mechanics, or is there something else non-obvious?
+- What mechanics in «Slay The Princess» are mandatory, and which can be removed or changed?
+- What is primary for success: leading a player through psychological states, combinatorics under the plot, or both factors are equally important?
+- Can such an effect be achieved with more grounded player choices?
+- Can such an effect be achieved with less elaborated images and sound?
+- Can such an effect be achieved without limiting the information available to the player?
+- How important is the player's fast journey through psychological states? Can this journey be stretched for 20-30 hours?
 
-Ответов пока не знаю. На мой взгляд, соль может быть как раз в быстром проведении игрока по ярким крайним психологическим состояниям, но я пока не уверен на сколько это важно.
+I don't know the answers yet. In my opinion, the key might lie in quickly leading the player through vivid extreme psychological states, but I'm not sure how important it is.
 
-## Интересные фишки игры
+## Interesting game features
 
 После посещения избушки меняется не только принцесса и реальность, но и персонаж игрока. У него в голове появляются отдельные голоса, которые соответствуют произошедшему. Например: Влюблённый, Параноик, Беспомощный, etc.
 
