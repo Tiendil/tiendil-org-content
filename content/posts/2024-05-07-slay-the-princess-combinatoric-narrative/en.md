@@ -2,7 +2,7 @@
 title = "«Slay The Princess» — combinatorial narrative"
 tags = ["theory", "practice", "gamedev", "game-design"]
 published_at = "2024-05-07T12:00:00+00:00"
-description = "I'll share a couple of thoughts about «Slay The Princess» and the narrative structure in this game, while I'm still under the impression."
+description = "I'll share a couple of thoughts about «Slay The Princess» and the narrative structure in this game while I'm still under the impression."
 seo_image = "./images/cover.jpg"
 ---
 
@@ -13,9 +13,9 @@ caption = "My favorite version of the Princess."
 
 It's hard to impress me as a player and even harder as a game developer. The last time it happened with [Owlcat Games](https://owlcat.games/) in [Pathfinder: Kingmaker](https://store.steampowered.com/app/640820/Pathfinder_Kingmaker__Enhanced_Plus_Edition/), when they added a timer to the game's plot.
 
-But [Black Tabby Games](https://blacktabbygames.com/about) managed to do it. And they did it not with some technological complexity, but with a visual novel on a standard engine ([RenPy](https://www.renpy.org/)), which is cool in itself.
+But [Black Tabby Games](https://blacktabbygames.com/about) managed to do it. And they did it not with some technological complexity but with a visual novel on a standard engine ([RenPy](https://www.renpy.org/)), which is cool in itself.
 
-I'll share a couple of thoughts about the game and the narrative structure in it, while I'm still under the impression. I need to think about how to adapt this approach to my projects.
+I'll share a couple of thoughts about the game and its narrative structure, while I'm still under the impression. I need to think about how to adapt this approach to my projects.
 
 **ATTENTION: SPOILERS!**
 
@@ -25,7 +25,7 @@ If you haven't played [Slay The Princess](https://store.steampowered.com/app/198
 
 ## Sequence of interesting choices
 
-I started the draft of this post with the thought that «Slay The Princess» is not a game, but an interactive experience. But in the process, I realized that I was wrong. There is an interesting nuance with «The Princess».
+I started the draft of this post thinking that «Slay The Princess» is not a game but an interactive experience. In the process, I realized that I was wrong. There is an interesting nuance with «The Princess».
 
 For example, let's take [Sid Meier's](https://en.wikipedia.org/wiki/Sid_Meier) definition that a game is a sequence of interesting choices.
 
@@ -35,13 +35,13 @@ There are almost no such choices in «Slay The Princess». And you can't "lose".
 
 The choices made by the player in the first 99% of the game have little effect on the course of it and do not affect the ending in any way. There are a few exceptions, but they only confirm the rule. All significant choices for the ending occur in the last 5-10 minutes.
 
-If you've read this far and haven't played the game yet, congratulations, killing Princess will be much less interesting for you.
+If you've read this far and haven't played the game yet, congratulations, killing Princess will be much less enjoyable for you.
 
-The choice of the player in «Slay The Princess» affects not the state of the game, but the state of the player, what they experience while going to the finale. An important part of this influence is the lack of knowledge of what the choice changes.
+The player's choice in «Slay The Princess» affects not the state of the game but the state of the player — what they experience while going to the finale. An essential part of this influence is the lack of knowledge of what the choice changes.
 
 So, if we cut the "game-mechanic" part, then «Slay The Princess» is definitely a game, just not a traditional one? non-standard? or just a game as it should be?
 
-It's curious that "mechanically insignificant" choices are not uncommon in games, but rather the standard. They are used in role-playing games, visual novels, CYOA, and other genres — always when you need to influence the player's emotions on the cheap. Usually, it turns out poorly. I've played enough in different genres, but I can count on my fingers when it worked on me.
+It's curious that "mechanically insignificant" choices are not uncommon in games but rather the standard. They are used in role-playing games, visual novels, CYOA, and other genres — always when you need to influence the player's emotions on the cheap. Usually, it turns out poorly. I've played enough in different genres, but I can count on my fingers when it worked on me.
 
 But in «Slay The Princess», this is the basic mechanic, and it somehow works great.
 
