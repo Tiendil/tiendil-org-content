@@ -91,7 +91,7 @@ As I said, the essence of the second cycle is that you change Princess with your
 
 Finishing the cabin leaves a mark on the poor thing: sometimes "bad," sometimes "good." This mark makes her an embodiment of one of the psychological archetypes: Rage, Anger, Love, Betrayal, Power, Thrill, and so on — there are many of them. Archetypes are written with a capital letter because these are not minor changes, they fully rewrite reality: Princess changes visually, her manner of communication changes, her voice changes, the cabin changes.
 
-I want to give the developers special respect for the systematic & systemic rewriting of Princess — it's cool.
+I want to give the developers special respect for the systematic & systemic rewriting of Princess — it's really cool.
 
 In a new cabin, a player has to decide what to do with the consequence of their moral choice in the previous one:
 
