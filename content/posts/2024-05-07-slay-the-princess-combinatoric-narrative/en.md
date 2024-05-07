@@ -1,49 +1,50 @@
 ---
-title = "«Slay The Princess» — комбинаторный нарратив"
+title = "«Slay The Princess» — combinatorial narrative"
 tags = ["theory", "practice", "gamedev", "game-design"]
 published_at = "2024-05-07T12:00:00+00:00"
-description = "Пока нахожусь под впечатлением, скажу пару слов про «Slay The Princess» и структуру построения нарратива в этой игре."
+description = "I'll share a couple of thoughts about «Slay The Princess» and the narrative structure in this game, while I'm still under the impression."
 seo_image = "./images/cover.jpg"
 ---
 
 /// brigid-images
 src = "./images/cover.jpg"
-caption = "Мой любимый вариант Принцессы."
+caption = "My favorite version of the Princess."
 ///
 
-Меня сложно впечатлить как игрока и ещё сложнее как разработчика игр. Последний раз, пожалуй, это получилось сделать у [Owlcat Games](https://owlcat.games/) в [Pathfinder: Kingmaker](https://store.steampowered.com/app/640820/Pathfinder_Kingmaker__Enhanced_Plus_Edition/), когда они добавили таймер в сюжет.
+It's hard to impress me as a player and even harder as a game developer. The last time it happened with [Owlcat Games](https://owlcat.games/) in [Pathfinder: Kingmaker](https://store.steampowered.com/app/640820/Pathfinder_Kingmaker__Enhanced_Plus_Edition/), when they added a timer to the game's plot.
 
-Но [Black Tabby Games](https://blacktabbygames.com/about) это более чем удалось. Причём удивили не какой-то технологической сложностью, а визуальной новеллой на стандартном движке ([RenPy](https://www.renpy.org/)), что само по себе круто.
+But [Black Tabby Games](https://blacktabbygames.com/about) managed to do it. And they did it not with some technological complexity, but with a visual novel on a standard engine ([RenPy](https://www.renpy.org/)), which is cool in itself.
 
-Пока ещё живы впечатления, запишу пару мыслей об игре и структуре нарратива в ней. Надо подумать как адаптировать этот подход к моим проектам.
+I'll share a couple of thoughts about the game and the narrative structure in it, while I'm still under the impression. I need to think about how to adapt this approach to my projects.
 
-**ОСТОРОЖНО: СПОЙЛЕРЫ!**
+**ATTENTION: SPOILERS!**
 
-Если вы ещё не играли в [Slay The Princess](https://store.steampowered.com/app/1989270/Slay_the_Princess/) настоятельно рекомендую наверстать упущенное — игра на 3-4 часа. Не пожалеете.т
+If you haven't played [Slay The Princess](https://store.steampowered.com/app/1989270/Slay_the_Princess/) yet, I strongly recommend you to catch up — the game takes 3-4 hours. You'll not regret it.
 
 <!-- more -->
 
-## Последовательность интересных выборов
+## Sequence of interesting choices
 
-Черновик поста я начал с того, что «Slay The Princess» не игра, а интерактивный опыт. Но в процессе понял, что ошибаюсь. С «Принцессой» есть интересный нюанс.
+I started the draft of this post with the thought that «Slay The Princess» is not a game, but an interactive experience. But in the process, I realized that I was wrong. There is an interesting nuance with «The Princess».
 
-Для примера возьмём определение [Сида Мейера](https://ru.wikipedia.org/wiki/Мейер,_Сид), что игра — это последовательность интересных выборов.
+For example, let's take [Sid Meier's](https://en.wikipedia.org/wiki/Sid_Meier) definition that a game is a sequence of interesting choices.
 
-Обычно, я трактовал его как «последовательность интересных игромеханических выборов», то есть выборов, которые влияют на состояние игры интересным для игрока способом. Предположу, что большинство разработчиков неявно делают так же.
+Usually, I interpreted it as a "sequence of interesting game-mechanical choices" — choices that affect the state of the game in an interesting for a player way. I assume that most developers implicitly do the same.
 
-Таких выборов в «Slay The Princess» практически нет. Да и «проиграть» в ней нельзя, об этом разработчики даже заковыристо предупреждают при старте игры.
+There are almost no such choices in «Slay The Princess». And you can't "lose". The developers even warn you about it in a tricky way at the start of the game.
 
-Выборы, сделанные игроком в первые 99% времени прохождения, слабо влияют на ход игры и никак — на её финал. Есть несколько исключений, но они только подтверждают правило. Все существенные для финала выборы происходят в последние 5-10 минут.
+The choices made by the player in the first 99% of the game have little effect on the course of it and do not affect the ending in any way. There are a few exceptions, but they only confirm the rule. All significant choices for the ending occur in the last 5-10 minutes.
 
-Если вы дочитали до сюда и не прошли игру заранее, поздравляю, убивать Принцессу вам будет куда менее интересно.
+If you've read this far and haven't played the game yet, congratulations, killing the Princess will be much less interesting for you.
 
-Потому, что выбор игрока в «Slay The Princess» влияет не на состояние игры, а на состояние игрока, на то, что он переживает, когда идёт к финалу. Важной составляющей этого влияние является незнание того, что изменяет выбор.
+The choice of the player in «Slay The Princess» affects not the state of the game, but the state of the player, what they experience while going to the finale. An important part of this influence is the lack of knowledge of what the choice changes.
 
-В итоге, если отказаться от «игромеханического» уточнения, то «Slay The Princess» — это определённо игра, просто нетрадиционная? нестанадартная? или как раз такая, какой должна быть игра?
+So, if we cut the "game-mechanical" part, then «Slay The Princess» is definitely a game, just not a traditional one? non-standard? or just the game as it should be?
 
-Любопытно, что «механически не значимые» выборы не редкость и играх, скорее наоброт — стандарт. Их используют в ролевых играх, визуальных новеллах, CYOA и прочих жанрах — всегда, когда надо повлиять на эмоции игрока задёшево. Обычно, получается плохо и криво. Я наиграл достаточно в разных жанрах, но могу по пальцам пересчитать когда это работало на мне.
+It's curious that "mechanically insignificant" choices are not uncommon in games, but rather the standard. They are used in role-playing games, visual novels, CYOA, and other genres — always when you need to influence the player's emotions on the cheap. Usually, it turns out poorly. I've played enough in different genres, but I can count on my fingers when it worked on me.
 
-В «Slay The Princess» это базовая механика, и она каким-то образом работает превосходно.
+But in «Slay The Princess», this is the basic mechanic, and it somehow works great.
+
 
 ## Игровые циклы
 
