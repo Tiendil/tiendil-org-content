@@ -53,30 +53,30 @@ Mechanically, the game is "simple". There are three cycles:
 2. You repeat cycle 1 about three times, each time the Princess and the cabin change due to your choice in the previous cabin. I'd like to say the Princess is transforming, but in reality, she's being brutally twisted. More on that will be later. At the end of the cycle, the god-like entity Mound takes the Princess, thanks you, erases the character's memory, and returns the player to the beginning of the cycle.
 3. You collect 5 Princesses for Mound and get the finale. In fact, this is the full game session.
 
-### Избушка — цикл 1
+### The cabin — cycle 1
 
 /// brigid-images
 src = "./images/the-cabin-in-the-woods.jpg"
-caption = "Первая избушка."
+caption = "The first cabin."
 ///
 
-Суть первого цикла:
+The first cycle:
 
-- Вас помещают в контекст: стартовый (если вы в начале цикла 2) или тот, который вы создали своим выбором в предыдущей избушке.
-- Вы должны решить моральную дилемму в условиях неизвестности: убить Принцессу или нет.
-- Организовано это в виде классической визуальной новеллы: идём через пару локаций, выбираем варианты реплик.
+- You are placed in context: starting (if you are at the beginning of cycle 2) or the one you created by your choice in the previous cabin.
+- You should solve a moral dilemma in conditions of uncertainty: kill the Princess or not.
+- Mechanically, it is organized as a classic visual novel: you go through a couple of locations, choose dialogue options, etc.
 
-Во время первого прохождения, до конца игры вы скорее всего не будете уверены надо ли её убивать, справедливое ли это убийство, как это убийство повлияет на вас и на мир. Игрока ставят в ситуацию полной неизвестности где все ~~лгут~~ недоговаривают и ему приходится восстанавливать общую картину по оговоркам, недомолвкам и своей фантазии. Этот мини детектив, кстати, заслуживает отдельной похвалы, я давно так ни в чём не путался :-D
+During the first playthrough, a player most probably won't be sure if they should kill her, if it is fair, and how this killing will affect them and the world. A player is put in a situation of complete uncertainty where everyone ~~lies~~ doesn't tell the whole truth, and a player should restore the general picture from reservations, insinuations, and own imagination. This mini-detective, by the way, deserves special praise, I haven't been so confused in a long time :-D
 
-Получается, на каждой итерации базового цилка игры перед игроком ставят не тривиальные задачи в духе «завали 100500 кабанчиков», а заставляют решать моральную диллему о центральном элементе игры, её [краеугольном камне](https://ru.wikipedia.org/wiki/Краеугольный_камень). Принцесса, в конце-концов, в название игры вынесена. Там всё о Принцессе, даже вы — игрок — о Принцессе.
+It turns out that on each iteration of the basic game cycle, the player is not given trivial tasks like "kill 100500 boars" but is forced to solve a moral dilemma about the central element of the game, its [cornerstone](https://en.wikipedia.org/wiki/Cornerstone). The Princess, in the end, is brought to the title of the game. Everything is about the Princess, even you — the player — is about the Princess.
 
-Важно, что повторять выборы в одинаковых ситуациях нельзя. Если вы один раз намеренно промазали кинжалом мимо Принцессы, во второй раз в той же ситуации вам придётся её убить.
+It is important that you cannot repeat the choice in the same situation. If you intentionally missed with a dagger at the Princess once, you will have to kill her the second time in the same situation.
 
-Во-первых, поначалу это приводит к чему-то вроде морального диссонанса, когда игрок вынужден идти против того, что он считает правильным в данный момент.
+Firstly, at the beginning, it leads to something like moral dissonance when a player is forced to go against what they think is right at the moment.
 
-Во-вторых, это заставляет более аккуратно планировать свои действия на уровне игровой сессии.
+Secondly, it forces you to plan your actions more carefully at the level of the game session.
 
-И да, убийство или спасение Принцессы ни на что не влияет, кроме вашего внутреннего состояния. Но вы об этом узнаете только постфактум. Где-то на середине игры Хтонь вам подскажет, что это ни на что не влияет в духе «это не об этом», но в условиях нарративной паранои эта подсказка лично для меня мало что поменяла, а сама логика происходящего говорит о том, что влияеть должно.
+Also, a killing or saving the Princess does not affect anything except your inner state. But you will learn about it only post factum. Somewhere in the middle of the game, Mound will hint you that your choices of princesses do not affect anything in the spirit of "it's not about that," but in the conditions of narrative paranoia, this hint personally for me changed little, and the logic of what is happening says that choices should affect something.
 
 ### Принцессы как психологические архетипы — цикл 2
 
@@ -165,3 +165,10 @@ caption = "Игрок."
 В финале игрок может «поспорить» со своими принцессами.
 
 При старте игры, разработчики говорят, что она о любви. Не врут.
+
+
+----
+TODO:
+
+- check a/the
+- check player/you
