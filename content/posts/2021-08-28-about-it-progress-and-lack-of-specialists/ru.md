@@ -2,7 +2,7 @@
 title = "Об ИТ, прогрессе и нехватке спецов"
 tags = [ "business", "society", "theory", "futurology", "economics", "interesting", "best", "development"]
 published_at = "2021-08-28T12:00:00+00:00"
-description = "ИТ не схлопнется, прогресс не остановится, а специалистов всё равно хватать не будет."
+seo_description = "ИТ не схлопнется, прогресс не остановится, а специалистов всё равно хватать не будет."
 seo_image = "images/about-it-progress-and-lack-of-specialists-cover.jpg"
 ---
 

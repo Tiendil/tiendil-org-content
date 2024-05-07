@@ -2,7 +2,7 @@
 title = "Организация информации"
 tags = [ "thinking", "theory", "interesting"]
 published_at = "2020-09-18T12:00:00+00:00"
-description = "Тезисно пару слов об организации информации: зачем это нужно, на что влияет и от чего зависит."
+seo_description = "Тезисно пару слов об организации информации: зачем это нужно, на что влияет и от чего зависит."
 seo_image = "images/organization-of-information-title-image.jpg"
 ---
 

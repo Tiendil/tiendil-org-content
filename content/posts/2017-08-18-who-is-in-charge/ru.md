@@ -2,7 +2,7 @@
 title = "О книге «Кто за главного?»"
 tags = [ "books", "society", "psychology", "systems", "theory", "evolution", "interesting"]
 published_at = "2017-08-18T12:00:00+00:00"
-description = "Отзыв о книге «Кто за главного?» — устойство мозга, свобода воли, количество «я» у человека."
+seo_description = "Отзыв о книге «Кто за главного?» — устойство мозга, свобода воли, количество «я» у человека."
 seo_image = "images/who_is_in_charge.png"
 ---
 

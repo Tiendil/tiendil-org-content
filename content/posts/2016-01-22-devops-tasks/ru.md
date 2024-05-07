@@ -2,7 +2,7 @@
 title = "Задачи DevOps"
 tags = [ "backend", "practice", "development", "theory",]
 published_at = "2016-01-22T12:00:00+00:00"
-description = "По работе подготовил перечень задач, которые выполняет DevOps в компании Melesta Games."
+seo_description = "По работе подготовил перечень задач, которые выполняет DevOps в компании Melesta Games."
 seo_image = ""
 ---
 

@@ -2,7 +2,7 @@
 title = "Истина где-то рядом"
 tags = [ "practice", "movies",]
 published_at = "2023-07-12T12:00:00+00:00"
-description = "Посмотрел 11 сезонов X-Files. Рекомендую."
+seo_description = "Посмотрел 11 сезонов X-Files. Рекомендую."
 seo_image = "images/the-truth-is-out-there-cover.jpg"
 ---
 

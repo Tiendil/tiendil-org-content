@@ -2,7 +2,7 @@
 title = "О блоге"
 tags = [ "blog", "thinking", "practice", "reflection", "tarantoga", "exocortex",]
 published_at = "2021-01-08T12:00:00+00:00"
-description = "История блога, причины ведения и текущее состояние."
+seo_description = "История блога, причины ведения и текущее состояние."
 seo_image = ""
 ---
 

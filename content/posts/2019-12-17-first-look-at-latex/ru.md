@@ -2,7 +2,7 @@
 title = "Первый взгляд на LaTeX"
 tags = [ "practice",]
 published_at = "2019-12-17T12:00:00+00:00"
-description = "Для личных нужд решил изучить LaTeX. Поделюсь сформировавшимся мнением."
+seo_description = "Для личных нужд решил изучить LaTeX. Поделюсь сформировавшимся мнением."
 seo_image = "images/latex-teacher.png"
 ---
 

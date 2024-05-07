@@ -2,7 +2,7 @@
 title = "Почему мне не нравится Rust"
 tags = [ "julia", "python", "rust", "development", "theory"]
 published_at = "2021-11-28T12:00:00+00:00"
-description = "Моё очень субъективное мнение о Rust."
+seo_description = "Моё очень субъективное мнение о Rust."
 seo_image = ""
 ---
 

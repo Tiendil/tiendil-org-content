@@ -2,7 +2,7 @@
 title = "Paul Graham: Superlinear returns"
 tags = [ "thinking", "development", "theory", "economics", "interesting"]
 published_at = "2023-10-19T12:00:00+00:00"
-description = "Рекомендую эссе Paul Graham: Superlinear returns — информативная заметка о нелинейном росте и путях его достижения."
+seo_description = "Рекомендую эссе Paul Graham: Superlinear returns — информативная заметка о нелинейном росте и путях его достижения."
 seo_image = "images/paul-graham-superlinear-returns-cover.jpg"
 ---
 

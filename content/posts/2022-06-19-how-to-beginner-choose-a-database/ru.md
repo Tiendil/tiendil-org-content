@@ -2,7 +2,7 @@
 title = "Как новичку выбрать базу данных"
 tags = [ "backend", "practice", "development", "theory", "interesting"]
 published_at = "2022-06-19T12:00:00+00:00"
-description = "Рекомендации по выбору базы данных для новичков в разработке backend."
+seo_description = "Рекомендации по выбору базы данных для новичков в разработке backend."
 seo_image = ""
 ---
 

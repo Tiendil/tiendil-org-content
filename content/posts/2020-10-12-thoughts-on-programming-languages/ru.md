@@ -2,7 +2,7 @@
 title = "Мысли о языках программирования"
 tags = [ "julia", "python", "rust", "practice", "theory", "futurology", "interesting", "development"]
 published_at = "2020-10-12T12:00:00+00:00"
-description = "Мысли о текущем состоянии популярных языков программирования и их будущем. Без сильной аргументации и очень субъективно."
+seo_description = "Мысли о текущем состоянии популярных языков программирования и их будущем. Без сильной аргументации и очень субъективно."
 seo_image = "images/thoughts-on-programming-languages-cover.png"
 ---
 

@@ -2,7 +2,7 @@
 title = "Процедурные заголовки для новостей без сложной генерации текста"
 tags = [ "practice", "development", "gamedev", "game-design", "procedural-content-generation", "world-builders"]
 published_at = "2024-04-10T12:00:00+00:00"
-description = "Придумал как в прототипе игры генерировать заголовки новостей без сложной генерации текста."
+seo_description = "Придумал как в прототипе игры генерировать заголовки новостей без сложной генерации текста."
 seo_image = "./cover.gif"
 ---
 

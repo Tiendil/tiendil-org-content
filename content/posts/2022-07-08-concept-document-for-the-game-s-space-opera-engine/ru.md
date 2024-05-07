@@ -2,7 +2,7 @@
 title = "Концепт-документ игры Space Opera Engine"
 tags = [ "the-tale", "gamedev", "game-design", "concepts", "mmo", "monetization", "practice", "procedural-content-generation", "development", "interesting"]
 published_at = "2022-07-08T12:00:00+00:00"
-description = "Концепт-документ игры Space Opera Engine — многопользовательской социально-политической песочницы в масштабе Space Opera."
+seo_description = "Концепт-документ игры Space Opera Engine — многопользовательской социально-политической песочницы в масштабе Space Opera."
 seo_image = "images/concept-document-for-the-game-s-space-opera-engine-cover.jpg"
 ---
 

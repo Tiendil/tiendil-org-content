@@ -2,7 +2,7 @@
 title = "Non-consumable purchases"
 tags = [ "monetization", "practice", "development",]
 published_at = "2016-05-28T12:00:00+00:00"
-description = "Пример как одного и то же три крутых команды всё-равно могут сделать по-разному криво."
+seo_description = "Пример как одного и то же три крутых команды всё-равно могут сделать по-разному криво."
 seo_image = ""
 ---
 

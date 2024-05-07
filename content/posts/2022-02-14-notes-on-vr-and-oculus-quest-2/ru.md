@@ -2,7 +2,7 @@
 title = "Заметки о VR & Oculus Quest 2"
 tags = [ "gamedev", "game-design", "practice",]
 published_at = "2022-02-14T12:00:00+00:00"
-description = "Впечатления от недели использования Oculus Quest 2."
+seo_description = "Впечатления от недели использования Oculus Quest 2."
 seo_image = "images/notes-on-vr-and-oculus-quest-2-cover.jpg"
 ---
 

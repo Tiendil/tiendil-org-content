@@ -2,7 +2,7 @@
 title = "О книге «Евангелист бизнеса»"
 tags = [ "business", "books", "monetization", "psychology", "theory", "interesting"]
 published_at = "2019-07-13T12:00:00+00:00"
-description = "Отзыв о книге «Евангелист бизнеса» — как пиариться через создание полезного контента."
+seo_description = "Отзыв о книге «Евангелист бизнеса» — как пиариться через создание полезного контента."
 seo_image = "images/business_evangelist.png"
 ---
 

@@ -2,7 +2,7 @@
 title = "О деградации фана"
 tags = [ "the-tale", "gamedev", "game-design", "mmo", "practice", "theory", "interesting", "best"]
 published_at = "2020-11-16T12:00:00+00:00"
-description = "Заметки о динамике поведения разработчиков и игроков в ММО на длительных интервалах времени."
+seo_description = "Заметки о динамике поведения разработчиков и игроков в ММО на длительных интервалах времени."
 seo_image = "images/about-the-degradation-of-fun-cover.jpg"
 ---
 

@@ -2,7 +2,7 @@
 title = "Что почитать, чтобы лучше кодить?"
 tags = [ "practice", "development", "reflection", "interesting"]
 published_at = "2021-05-10T12:00:00+00:00"
-description = "Расскажу, что почитать, чтобы лучше кодить."
+seo_description = "Расскажу, что почитать, чтобы лучше кодить."
 seo_image = ""
 ---
 

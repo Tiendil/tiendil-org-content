@@ -2,7 +2,7 @@
 title = "Модная типизация в Python"
 tags = [ "the-tale", "open-source", "python", "practice", "development", "theory", "interesting", "best"]
 published_at = "2020-05-11T12:00:00+00:00"
-description = "Обзор подходов к статической и динамической проверке типов в Python."
+seo_description = "Обзор подходов к статической и динамической проверке типов в Python."
 seo_image = "images/cover-trendy-typing-in-python.jpg"
 ---
 

@@ -2,7 +2,7 @@
 title = "Справочник по веб-разработке"
 tags = ["theory", "development", "backend"]
 published_at = "2015-08-23T12:00:00+00:00"
-description = "Справочник для начинающих веб-разработчиков."
+seo_description = "Справочник для начинающих веб-разработчиков."
 seo_image = ""
 ---
 

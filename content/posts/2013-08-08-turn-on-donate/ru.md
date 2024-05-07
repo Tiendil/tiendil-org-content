@@ -2,7 +2,7 @@
 title = "Включил донат в своей игрушке"
 tags = [ "the-tale", "gamedev", "monetization", "practice", "development",]
 published_at = "2013-08-08T12:00:00+00:00"
-description = "Наконец включил доход в своей игрушке. Расскажу как я это делал."
+seo_description = "Наконец включил доход в своей игрушке. Расскажу как я это делал."
 seo_image = ""
 ---
 

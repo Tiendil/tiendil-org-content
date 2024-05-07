@@ -2,7 +2,7 @@
 title = "Simulating public opinion in a game"
 tags = [ "theory", "practice", "development", "gamedev", "game-design", "open-source", "procedural-content-generation", "world-builders"]
 published_at = "2024-04-24T12:00:00+00:00"
-description = "I made a technical prototype of a sandbox about manipulating public opinion. A video and sources explain how it works."
+seo_description = "I made a technical prototype of a sandbox about manipulating public opinion. A video and sources explain how it works."
 seo_image = ""
 ---
 

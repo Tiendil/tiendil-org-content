@@ -2,7 +2,7 @@
 title = "Русскоязычная GPT-2+ от Сбера vs «Сказка»"
 tags = [ "the-tale", "open-source", "gamedev", "neural-networks", "practice", "procedural-content-generation",]
 published_at = "2020-10-24T12:00:00+00:00"
-description = "Эксперименты с генерацией текста для моей игрушки на основе GPT-2 от Сбера."
+seo_description = "Эксперименты с генерацией текста для моей игрушки на основе GPT-2 от Сбера."
 seo_image = ""
 ---
 

@@ -2,7 +2,7 @@
 title = "Open source сервисы аутентификации"
 tags = [ "backend", "open-source", "python", "practice", "development", "interesting"]
 published_at = "2023-06-01T12:00:00+00:00"
-description = "Краткое описание популярных open source сервисов аутентификации пользователей."
+seo_description = "Краткое описание популярных open source сервисов аутентификации пользователей."
 seo_image = ""
 ---
 

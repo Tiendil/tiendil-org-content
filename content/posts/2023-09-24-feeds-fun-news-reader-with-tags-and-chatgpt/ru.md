@@ -2,7 +2,7 @@
 title = "Feeds Fun — читалка новостей с тегами и ChatGPT"
 tags = [ "feeds-fun", "open-source", "python", "neural-networks", "practice", "development", "tarantoga", "exocortex",]
 published_at = "2023-09-24T12:00:00+00:00"
-description = "Описание моего пет-проекта — читалки новостей с тегами и ChatGPT."
+seo_description = "Описание моего пет-проекта — читалки новостей с тегами и ChatGPT."
 seo_image = "images/feeds-fun-news-reader-with-tags-and-chatgpt-cover.png"
 ---
 

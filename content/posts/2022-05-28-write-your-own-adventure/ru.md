@@ -2,7 +2,7 @@
 title = "Write Your Own Adventure"
 tags = [ "the-tale", "gamedev", "game-design", "neural-networks", "procedural-content-generation", "theory", "futurology", "interesting"]
 published_at = "2022-05-28T12:00:00+00:00"
-description = "Описание гипотетического нового жанра игр, который может появиться с расцветом нейронных сетей."
+seo_description = "Описание гипотетического нового жанра игр, который может появиться с расцветом нейронных сетей."
 seo_image = ""
 ---
 

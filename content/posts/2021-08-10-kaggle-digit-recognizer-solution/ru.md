@@ -2,7 +2,7 @@
 title = "Kaggle: Digit Recognizer (MNIST) точность 0.99585"
 tags = [ "jupyter-notebooks", "open-source", "python", "neural-networks", "education", "practice",]
 published_at = "2021-08-10T12:00:00+00:00"
-description = "Пример решения задачи распознавания рукописных цифр из набора MNIST на Kaggle."
+seo_description = "Пример решения задачи распознавания рукописных цифр из набора MNIST на Kaggle."
 seo_image = "images/kaggle-digit-recognizer-solution-cover.png"
 ---
 

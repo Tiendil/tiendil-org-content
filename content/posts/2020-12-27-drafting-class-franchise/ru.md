@@ -2,7 +2,7 @@
 title = "Франшиза кружков черчения"
 tags = [ "business", "society", "theory", "futurology", "economics",]
 published_at = "2020-12-27T12:00:00+00:00"
-description = "Фановое описание франшизы кружков черчения."
+seo_description = "Фановое описание франшизы кружков черчения."
 seo_image = "images/drawing-board-cover.png"
 ---
 

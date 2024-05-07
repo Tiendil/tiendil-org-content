@@ -2,7 +2,7 @@
 title = "Про безусловный основной доход"
 tags = [ "state", "society", "theory", "futurology", "evolution", "economics",]
 published_at = "2015-12-31T12:00:00+00:00"
-description = "Пара слов о безусловном основном доходе."
+seo_description = "Пара слов о безусловном основном доходе."
 seo_image = ""
 ---
 

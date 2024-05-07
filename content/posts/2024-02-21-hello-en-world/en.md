@@ -2,7 +2,7 @@
 title = "Hello, World!"
 tags = [ "practice", "blog"]
 published_at = "2024-02-21T13:00:00+00:00"
-description = "My first english post. Hello, World!"
+seo_description = "My first english post. Hello, World!"
 seo_image = ""
 ---
 

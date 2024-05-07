@@ -2,7 +2,7 @@
 title = "Про символы"
 tags = [ "society", "theory",]
 published_at = "2020-09-09T12:00:00+00:00"
-description = "Что такое «символ», как нужно работать с символами и как это делать не нужно."
+seo_description = "Что такое «символ», как нужно работать с символами и как это делать не нужно."
 seo_image = "images/about-symbols-cover.jpg"
 ---
 

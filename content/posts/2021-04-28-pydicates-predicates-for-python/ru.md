@@ -2,7 +2,7 @@
 title = "Pydicates: предикаты для Python"
 tags = [ "open-source", "python", "practice", "development",]
 published_at = "2021-04-28T12:00:00+00:00"
-description = "Опубликовал библиотеку для работы с логическими предикатами в Python."
+seo_description = "Опубликовал библиотеку для работы с логическими предикатами в Python."
 seo_image = ""
 ---
 

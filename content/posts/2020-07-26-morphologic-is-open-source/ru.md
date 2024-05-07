@@ -2,7 +2,7 @@
 title = "Открыл исходники Morphologic"
 tags = [ "open-source", "thinking", "practice", "development",]
 published_at = "2020-07-26T12:00:00+00:00"
-description = "Открыл исходный код своего проекта Morphologic — ассистента принятия решений."
+seo_description = "Открыл исходный код своего проекта Morphologic — ассистента принятия решений."
 seo_image = ""
 ---
 

@@ -2,7 +2,7 @@
 title = "Елецкий Алексей"
 published_at = "2021-09-13T12:00:00+00:00"
 template = "article_wide.html.j2"
-description = "Пара слов обо мне."
+seo_description = "Пара слов обо мне."
 seo_image = "images/new_avatar_very_small.jpg"
 ---
 

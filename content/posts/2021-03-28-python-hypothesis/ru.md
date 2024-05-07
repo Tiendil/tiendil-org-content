@@ -2,7 +2,7 @@
 title = "Python Hypothesis"
 tags = [ "python", "practice", "development", "tests", "interesting"]
 published_at = "2021-03-28T12:00:00+00:00"
-description = "Попробовал Hypothesis — генератор фикстур для тестов в Python. Понравилось, рекомендую, буду использовать, но не всегда."
+seo_description = "Попробовал Hypothesis — генератор фикстур для тестов в Python. Понравилось, рекомендую, буду использовать, но не всегда."
 seo_image = ""
 ---
 

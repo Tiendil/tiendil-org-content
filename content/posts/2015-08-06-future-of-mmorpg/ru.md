@@ -2,7 +2,7 @@
 title = "Будущее MMORPG"
 tags = [ "gamedev", "game-design", "mmo", "theory", "futurology", "interesting"]
 published_at = "2015-08-06T12:00:00+00:00"
-description = "Мой неточный прогноз направлений развития MMORPG."
+seo_description = "Мой неточный прогноз направлений развития MMORPG."
 seo_image = ""
 ---
 

@@ -2,7 +2,7 @@
 title = "Мой взгляд на NFT"
 tags = [ "business", "state", "society", "practice", "theory", "futurology", "economics", "interesting"]
 published_at = "2022-01-10T12:00:00+00:00"
-description = "Пара слов о NFT для протокола: только если есть лишние деньги."
+seo_description = "Пара слов о NFT для протокола: только если есть лишние деньги."
 seo_image = ""
 ---
 

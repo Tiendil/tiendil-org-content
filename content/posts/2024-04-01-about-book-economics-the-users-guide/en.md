@@ -2,7 +2,7 @@
 title = "About the book \"Economics: The User's Guide\""
 tags = [ "theory", "society", "books", "economics", "state", "interesting"]
 published_at = "2024-04-01T12:00:00+00:00"
-description = "Review of the book by Ha-Joon Chang \"Economics: The User's Guide\". Great economics intro, exposing its complexity, ambiguity, and politicization."
+seo_description = "Review of the book by Ha-Joon Chang \"Economics: The User's Guide\". Great economics intro, exposing its complexity, ambiguity, and politicization."
 seo_image = "./images/cover_en.jpg"
 ---
 

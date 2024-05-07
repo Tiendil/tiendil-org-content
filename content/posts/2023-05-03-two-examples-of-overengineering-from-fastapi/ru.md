@@ -2,7 +2,7 @@
 title = "Два примера overengineering из FastAPI"
 tags = [ "backend", "python", "practice", "development",]
 published_at = "2023-05-03T12:00:00+00:00"
-description = "Два примера «классических» архитектурных проблем из топовой библиотеки для веб-разработки на Python."
+seo_description = "Два примера «классических» архитектурных проблем из топовой библиотеки для веб-разработки на Python."
 seo_image = "images/two-examples-of-overengineering-from-fastapi-cover.jpg"
 ---
 

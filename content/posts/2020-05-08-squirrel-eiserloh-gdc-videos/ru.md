@@ -2,7 +2,7 @@
 title = "Процедурная генерация и прочая математика"
 tags = [ "gamedev", "procedural-content-generation", "development", "theory",]
 published_at = "2020-05-08T12:00:00+00:00"
-description = "Крутые доклады о процедурной генерации в играх."
+seo_description = "Крутые доклады о процедурной генерации в играх."
 seo_image = ""
 ---
 

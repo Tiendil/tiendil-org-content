@@ -2,7 +2,7 @@
 title = "Монополизация машинного обучения"
 tags = [ "open-source", "business", "state", "neural-networks", "society", "development", "theory", "futurology", "economics", "interesting"]
 published_at = "2021-08-27T12:00:00+00:00"
-description = "Заметки о риске монополизации машинного обучения корпорациями и возможных путях купирования проблемы."
+seo_description = "Заметки о риске монополизации машинного обучения корпорациями и возможных путях купирования проблемы."
 seo_image = ""
 ---
 

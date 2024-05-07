@@ -2,7 +2,7 @@
 title = "Комбо-баг от Apple"
 tags = [ "backend", "monetization", "practice", "development",]
 published_at = "2016-11-27T12:00:00+00:00"
-description = "Забавныый комбо-баг от Apple, который сломал наши плоатежи."
+seo_description = "Забавныый комбо-баг от Apple, который сломал наши плоатежи."
 seo_image = ""
 ---
 

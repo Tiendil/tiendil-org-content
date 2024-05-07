@@ -2,7 +2,7 @@
 title = "Используем DALL-E-3 для геймдева"
 tags = [ "gamedev", "game-design", "neural-networks", "practice", "procedural-content-generation", "development",]
 published_at = "2023-10-15T12:00:00+00:00"
-description = "Эксперименты по генерации графики для игры с помощью DALL-E 3."
+seo_description = "Эксперименты по генерации графики для игры с помощью DALL-E 3."
 seo_image = "./images/using-dall-e-3-for-gamedev-cover.jpg"
 ---
 

@@ -2,7 +2,7 @@
 title = "Ссылки на курсы по Machine Learning & Deep Learning"
 tags = [ "neural-networks", "education", "practice",]
 published_at = "2021-08-19T12:00:00+00:00"
-description = "Список курсов, которые могут быть интересны для изучения Machine Learning и Deep Learning"
+seo_description = "Список курсов, которые могут быть интересны для изучения Machine Learning и Deep Learning"
 seo_image = ""
 ---
 

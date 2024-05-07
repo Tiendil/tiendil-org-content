@@ -2,7 +2,7 @@
 title = "Google стал Visionary Sponsor для Python"
 tags = [ "python", "practice", "theory", "futurology",]
 published_at = "2021-02-14T12:00:00+00:00"
-description = "Заметки в след новости что Google теперь Visionary Sponsor для Python Software Foundation."
+seo_description = "Заметки в след новости что Google теперь Visionary Sponsor для Python Software Foundation."
 seo_image = ""
 ---
 

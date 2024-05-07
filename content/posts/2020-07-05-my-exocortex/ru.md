@@ -2,7 +2,7 @@
 title = "Мой экзокортекс"
 tags = [ "thinking", "practice", "reflection", "exocortex",]
 published_at = "2020-07-05T12:00:00+00:00"
-description = "Перечень софта — расширителей мозга — который я использую в 2020 году."
+seo_description = "Перечень софта — расширителей мозга — который я использую в 2020 году."
 seo_image = "images/my-exocortex-cover-1.jpg"
 ---
 

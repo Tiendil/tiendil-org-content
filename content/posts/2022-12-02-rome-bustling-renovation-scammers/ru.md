@@ -2,7 +2,7 @@
 title = "Рим: суета, реновация, мошенники"
 tags = [ "geography", "practice",]
 published_at = "2022-12-02T12:00:00+00:00"
-description = "Мои впечатления о поездке в Рим: стати, руины, суета, реновация, мошенники."
+seo_description = "Мои впечатления о поездке в Рим: стати, руины, суета, реновация, мошенники."
 seo_image = "images/rome-bustling-renovation-scammers-cover.jpg"
 ---
 

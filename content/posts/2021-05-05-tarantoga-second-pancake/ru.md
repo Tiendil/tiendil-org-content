@@ -2,7 +2,7 @@
 title = "Тарантога: второй блин"
 tags = [ "practice", "development", "tarantoga", "theory", "exocortex",]
 published_at = "2021-05-05T12:00:00+00:00"
-description = "Вторая попытка создания личной базы знаний в рамках пет-проекта Тарантога."
+seo_description = "Вторая попытка создания личной базы знаний в рамках пет-проекта Тарантога."
 seo_image = "images/tarantoga-0_2-architecture.png"
 ---
 

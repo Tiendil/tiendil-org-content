@@ -2,7 +2,7 @@
 title = "Я и «умный» GUI в IDE"
 tags = [ "practice", "development", "reflection", "exocortex"]
 published_at = "2021-02-19T12:00:00+00:00"
-description = "Мой субъективный взгляд на пользу от автодополнения и подсказок в IDE."
+seo_description = "Мой субъективный взгляд на пользу от автодополнения и подсказок в IDE."
 seo_image = "images/me-and-the-smart-gui-in-ide-cover.jpg"
 ---
 

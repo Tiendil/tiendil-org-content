@@ -2,7 +2,7 @@
 title = "Экзокортекс 3.5"
 tags = [ "thinking", "systems", "tarantoga", "theory", "futurology", "evolution", "exocortex", "interesting", "best"]
 published_at = "2020-10-07T12:00:00+00:00"
-description = "Как должен выглядеть правильный экзокортекс в 20-ых годах XXI века."
+seo_description = "Как должен выглядеть правильный экзокортекс в 20-ых годах XXI века."
 seo_image = "images/exocortex-3-5-cover.png"
 ---
 

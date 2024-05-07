@@ -2,7 +2,7 @@
 title = "О книге «Нейрокопирайтинг»"
 tags = [ "books", "monetization", "psychology", "theory",]
 published_at = "2019-09-01T12:00:00+00:00"
-description = "Обзор книги «Нейрокопирайтинг» или 100 способов впарить не краснея."
+seo_description = "Обзор книги «Нейрокопирайтинг» или 100 способов впарить не краснея."
 seo_image = "images/post-header-neurocopywriting-book-post.jpg"
 ---
 

@@ -2,7 +2,7 @@
 title = "О проектировании миров"
 tags = [ "the-tale", "gamedev", "game-design", "practice", "development", "theory", "interesting", "best"]
 published_at = "2019-08-17T12:00:00+00:00"
-description = "Описание подходов к созданию вымышленных миров на основе личного опыта и примеров из «Сказки»."
+seo_description = "Описание подходов к созданию вымышленных миров на основе личного опыта и примеров из «Сказки»."
 seo_image = "images/rashap-2.gif"
 ---
 

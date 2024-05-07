@@ -2,7 +2,7 @@
 title = "О книге «Бизнес на свои»"
 tags = [ "business", "books", "monetization", "psychology", "theory", "economics", "interesting"]
 published_at = "2019-06-28T12:00:00+00:00"
-description = "Обзор книги «Бизнес на свои». Авторы простым языком с шутками и прибаутками описывают работу розничной торговли."
+seo_description = "Обзор книги «Бизнес на свои». Авторы простым языком с шутками и прибаутками описывают работу розничной торговли."
 seo_image = "images/business_on_their_own.png"
 ---
 

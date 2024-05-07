@@ -2,7 +2,7 @@
 title = "GraphQL & Python"
 tags = [ "backend", "python", "practice", "development", "interesting"]
 published_at = "2021-04-05T12:00:00+00:00"
-description = "О GraphQL, нюансах его использования и интеграции с Python."
+seo_description = "О GraphQL, нюансах его использования и интеграции с Python."
 seo_image = ""
 ---
 

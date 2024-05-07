@@ -2,7 +2,7 @@
 title = "Делаем вымышленную вселенную: опрос"
 tags = ["world-builders", "practice", "gamedev", "game-design", "development"]
 published_at = "2024-02-05T12:08:00+00:00"
-description = ""
+seo_description = "Если вы любите играть в стратегии и околостратегические игры, пройдите пожалуйста опрос."
 seo_image = ""
 ---
 

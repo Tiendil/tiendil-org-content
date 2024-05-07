@@ -2,7 +2,7 @@
 title = "RIP Miura, Берсерк окончен"
 tags = [ "books", "society",]
 published_at = "2021-05-30T12:00:00+00:00"
-description = "6 мая скончался Kentaro Miura — автор манги Berserk — одного из наиболее влиятельных произведений жанра."
+seo_description = "6 мая скончался Kentaro Miura — автор манги Berserk — одного из наиболее влиятельных произведений жанра."
 seo_image = "images/rip-miura-berserk-finished-cover.jpg"
 ---
 

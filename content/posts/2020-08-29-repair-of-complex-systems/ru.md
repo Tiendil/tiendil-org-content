@@ -2,7 +2,7 @@
 title = "Ремонт сложных систем"
 tags = [ "systems", "theory", "interesting", "thinking"]
 published_at = "2020-08-29T12:00:00+00:00"
-description = "Высокоуровневый взгляд на комплексные поломки систем и их ремонт."
+seo_description = "Высокоуровневый взгляд на комплексные поломки систем и их ремонт."
 seo_image = "images/repair-of-complex-systems-cover.jpg"
 ---
 

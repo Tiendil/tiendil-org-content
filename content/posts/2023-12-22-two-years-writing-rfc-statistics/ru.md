@@ -2,7 +2,7 @@
 title = "Два года пишем RFC — статистика"
 tags = [ "thinking", "practice", "development", "reflection", "systems", "theory",]
 published_at = "2023-12-22T12:00:00+00:00"
-description = "Статистика двух лет применения практики написания RFC в команде. С заметками о коррекляции метрик с динамикой команды."
+seo_description = "Статистика двух лет применения практики написания RFC в команде. С заметками о коррекляции метрик с динамикой команды."
 seo_image = "images/two-years-writing-rfc-statistics-rfc-count-per-year.png"
 ---
 

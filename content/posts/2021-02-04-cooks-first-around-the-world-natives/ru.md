@@ -2,7 +2,7 @@
 title = "Первая кругосветка Кука: Туземцы"
 tags = [ "books", "practice", "interesting", "best",]
 published_at = "2021-02-04T12:00:00+00:00"
-description = "Третья часть заметок о первом кругосветном плавании Кука — отношения с туземцами."
+seo_description = "Третья часть заметок о первом кругосветном плавании Кука — отношения с туземцами."
 seo_image = "images/cooks-first-around-the-world-natives-cover.jpg"
 ---
 
