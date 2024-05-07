@@ -1,5 +1,5 @@
 ---
-title = "Two years of writing RFC — statistics"
+title = "Two years of writing RFCs — statistics"
 tags = [ "thinking", "practice", "development", "reflection", "systems", "theory",]
 published_at = "2024-05-01T12:00:00+00:00"
 seo_description = "Statistics for two years of practicing writing RFC in the team. With notes on the correlation of metrics with the dynamics of the team."
