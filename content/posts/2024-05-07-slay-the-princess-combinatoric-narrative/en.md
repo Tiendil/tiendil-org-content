@@ -109,32 +109,33 @@ But, unlike in most other visual novels:
 - With sharp transformations in decision nodes. For example, even the first choice in the first cabin "take or not take the sword" leads us to different Princesses.
 - With blocked paths due to your previous choices.
 
-### Комбинаторный нарратив — цикл 3
+### Combinatorial narrative — cycle 3
 
 /// brigid-images
 src = "./images/mound.jpg"
-caption = "Хтонь."
+caption = "Mound."
 ///
 
-Если считать [по принцессам](https://slay-the-princess.fandom.com/wiki/The_Princess), то вариантов второго цикла будет 20.
+If we count [by princesses](https://slay-the-princess.fandom.com/wiki/The_Princess), there will be 20 variants of the second cycle.
 
-На самом деле больше, так как принцессы могут трансформироваться друг в друга, но простым способом посчитать количество вариантов второго цикла не получится, а повторяться принцессы не будут. Поэтому остановися на минимуме — 20 — этого будет боле чем достаточно для наших целей.
+In reality, there are more, because the Princesses can transform into each other, but it is not easy to count the full number of paths through the second cycle, and princesses will not repeat. So we can stop at a minimum of 20 — it will be more than enough for our purposes.
 
-Мы помним, что игроку надо собрать 5 принцесс, то есть 5 раз пройти цикл 2.
+We remember that the player needs to collect 5 Princesses, aka pass second cycle 5 times.
 
-Учитывая общее непонимание происходящего в сюжете, можно считать, что игроки будут «открывать» разных принцесс и делать это в разном порядке. Конечно, будут какие-то закономерности в духе «многие попробуют максимально жёсткий насильственный подход», но в целом этот процесс выглядит достаточно случайным.
+Given the general misunderstanding of what is happening in the plot, we can assume that players will "open" different princesses and do it in a different order. Of course, there will be some patterns in the spirit of "many will try the most violent approach," but in general, this process looks quite random.
 
-Вспомним [комбинаторику](https://ru.wikipedia.org/wiki/Комбинаторика) и найдём количество [размещений](https://ru.wikipedia.org/wiki/Размещение) без повторения 5 из 20 элементов.
+Let's remember [combinatorics](https://en.wikipedia.org/wiki/Combinatorics) and find the number of [arrangements](https://en.wikipedia.org/wiki/Permutation#k-permutations_of_n) without repetition of 5 out of 20 elements.
 
 ```
 n!/(n-k)! = 20! / (20-5)! = 20! / 15! = 16*17*18*19*20 = 1860480
 ```
 
-Итого, мы имеем минимум 1860480 вариантов глубоко личного опыта для игроков — основанного на «сильных» выборах уровня «жизнь vs смерть», «доверие vs ложь».
 
-Перефразируя, **игра даёт больше чем 1.8 миллиона способов провести игрока по психологическим состояниям** (Ярость, Гнев, Любовь, etc.)
+In total, we have a minimum of 1860480 variants of a deeply personal experience for players — based on "strong" choices of "life vs death," "trust vs lie."
 
-Опять же, подобная кобминаторика — не уникальная фишка «Slay The Princess». Так делают в каждой второй RPG: пойди сделай квесты в точке А, потом в точке Б или, если хочешь, наборот, сначала в Б, потом А. Добавьте пару таких точек, пусть там кого-нибудь надо спасти или убить, и у вас тоже получится какая-то «уникальнизация» опыта с «сильными выборами», но она не будет работать настолько эффективно.
+In other words, **the game gives more than 1.8 million ways to lead the player through psychological states** (Rage, Anger, Love, etc.)
+
+Again, such combinatorics are not an unique feature of «Slay The Princess. Most RPGs do the same: go do quests at point A, then at point B or, if you want, vice versa, first at B, then at A. Add a couple of such points, let someone be saved or killed there, and you will also receive some "uniqueness" of the experience with "strong choices," but it will not work as effectively.
 
 ## Известное неизвестное
 
