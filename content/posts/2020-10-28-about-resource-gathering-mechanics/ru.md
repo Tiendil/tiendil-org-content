@@ -2,7 +2,7 @@
 title = "О механиках сбора ресурсов"
 tags = [ "gamedev", "game-design", "mmo", "theory", "interesting"]
 published_at = "2020-10-28T12:00:00+00:00"
-description = "Мы играем не чтобы собирать ресурсы, мы собираем ресурсы, чтоб усиливать игровой опыт."
+seo_description = "Мы играем не чтобы собирать ресурсы, мы собираем ресурсы, чтоб усиливать игровой опыт."
 seo_image = "images/about-resource-gathering-mechanics-cover.jpg"
 ---
 

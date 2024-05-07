@@ -2,7 +2,7 @@
 title = "ИИ нас всех не(?) заменит"
 tags = [ "society", "theory", "futurology", "evolution", "economics", "interesting", "best", "development"]
 published_at = "2021-08-30T12:00:00+00:00"
-description = "Прогнозы о незамене человека машинами, но, возможно, всё-таки, замене."
+seo_description = "Прогнозы о незамене человека машинами, но, возможно, всё-таки, замене."
 seo_image = "images/ai-will-not-or-will-replace-us-all-cover.jpeg"
 ---
 

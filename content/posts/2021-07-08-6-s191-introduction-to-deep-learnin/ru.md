@@ -2,7 +2,7 @@
 title = "MIT 6.S191: галопом по Deep Learning"
 tags = [ "neural-networks", "education", "practice",]
 published_at = "2021-07-08T12:00:00+00:00"
-description = "Курс MIT 6.S191: Introduction to Deep Learning — отличная возможность познакомиться с темой."
+seo_description = "Курс MIT 6.S191: Introduction to Deep Learning — отличная возможность познакомиться с темой."
 seo_image = ""
 ---
 

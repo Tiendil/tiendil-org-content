@@ -2,7 +2,7 @@
 title = "Как завалить собес у меня"
 tags = [ "backend", "python", "thinking", "education", "practice", "development", "reflection", "theory", "interesting"]
 published_at = "2022-07-24T12:00:00+00:00"
-description = "Заметки о типичных проблемах людей на собеседованиях у меня. Независимо от уровня кандидата."
+seo_description = "Заметки о типичных проблемах людей на собеседованиях у меня. Независимо от уровня кандидата."
 seo_image = ""
 ---
 

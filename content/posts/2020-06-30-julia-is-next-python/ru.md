@@ -2,7 +2,7 @@
 title = "Julia — это Python++?"
 tags = [ "julia", "development", "theory", "interesting"]
 published_at = "2020-06-30T12:00:00+00:00"
-description = "Первые впечатления от Julia после прочтения документации — выглядит интересно."
+seo_description = "Первые впечатления от Julia после прочтения документации — выглядит интересно."
 seo_image = "images/julia-logo-small.png"
 ---
 

@@ -2,7 +2,7 @@
 title = "Тесты, которые тестируют тесты"
 tags = [ "thinking", "development", "theory", "tests", "interesting", "best"]
 published_at = "2014-11-05T12:00:00+00:00"
-description = "Разберёмся с «классическим» аргументом против автоматического тестирования и посмотрим куда нас это заведёт."
+seo_description = "Разберёмся с «классическим» аргументом против автоматического тестирования и посмотрим куда нас это заведёт."
 seo_image = "images/tests-that-test-tests-schema.png"
 ---
 

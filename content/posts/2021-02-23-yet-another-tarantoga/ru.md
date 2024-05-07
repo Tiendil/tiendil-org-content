@@ -2,7 +2,7 @@
 title = "Yet another Тарантога"
 tags = [ "practice", "tarantoga", "exocortex",]
 published_at = "2021-02-23T12:00:00+00:00"
-description = "Сервис для организации личной базы знаний."
+seo_description = "Сервис для организации личной базы знаний."
 seo_image = ""
 ---
 

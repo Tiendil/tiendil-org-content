@@ -2,7 +2,7 @@
 title = "Тарантога: первый блин"
 tags = [ "practice", "development", "tarantoga", "theory", "exocortex",]
 published_at = "2021-03-30T12:00:00+00:00"
-description = "Первые результаты работы над пет-проектом — личной базой знаний."
+seo_description = "Первые результаты работы над пет-проектом — личной базой знаний."
 seo_image = "images/tarantoga-the-first-pancake-data-flow.png"
 ---
 

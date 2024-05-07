@@ -2,7 +2,7 @@
 title = "Первая кругосветка Кука: Потери"
 tags = [ "books", "practice", "interesting", "best"]
 published_at = "2021-02-06T12:00:00+00:00"
-description = "Пятая часть заметок о первом кругосветном плавании Кука — потери."
+seo_description = "Пятая часть заметок о первом кругосветном плавании Кука — потери."
 seo_image = "images/cooks-first-around-the-world-deaths-cover.jpg"
 ---
 

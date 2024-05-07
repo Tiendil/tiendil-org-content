@@ -2,7 +2,7 @@
 title = "Поругайте (или похвалите) меня"
 tags = [ "practice", "reflection",]
 published_at = "2020-12-28T12:00:00+00:00"
-description = "Запрос на обратную связь."
+seo_description = "Запрос на обратную связь."
 seo_image = ""
 ---
 

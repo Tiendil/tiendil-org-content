@@ -2,7 +2,7 @@
 title = "Опыт DevGAMM Spring 2021"
 tags = [ "business", "gamedev", "practice",]
 published_at = "2021-05-15T12:00:00+00:00"
-description = "Впечатления от DevGAMM Spring 2021."
+seo_description = "Впечатления от DevGAMM Spring 2021."
 seo_image = ""
 ---
 

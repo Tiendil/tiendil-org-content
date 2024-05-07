@@ -2,7 +2,7 @@
 title = "Генерация подземелий — от простого к сложному"
 tags = [ "open-source", "python", "gamedev", "game-design", "practice", "procedural-content-generation", "development", "theory", "interesting", "best"]
 published_at = "2020-04-16T12:00:00+00:00"
-description = "Урок по генерации подземелий на Python. По шагам от простого к сложному. Исходники каждого шага на github."
+seo_description = "Урок по генерации подземелий на Python. По шагам от простого к сложному. Исходники каждого шага на github."
 seo_image = "images/heading.png"
 ---
 

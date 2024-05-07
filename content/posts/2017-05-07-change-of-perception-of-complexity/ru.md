@@ -2,7 +2,7 @@
 title = "Изменение восприятия сложности"
 tags = [ "thinking", "development", "reflection", "theory", "habrahabr", "evolution",]
 published_at = "2017-05-07T12:00:00+00:00"
-description = "Пост-вопрос на Хабре про изменение восприятия сложности за последние полвека."
+seo_description = "Пост-вопрос на Хабре про изменение восприятия сложности за последние полвека."
 seo_image = ""
 ---
 

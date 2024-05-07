@@ -2,7 +2,7 @@
 title = "Preferences of strategy players"
 tags = [ "practice", "development", "gamedev", "game-design", "open-source", "world-builders", "interesting", "best"]
 published_at = "2024-02-24T12:00:00+00:00"
-description = "In this post you will find an interactive dashboard to explore the preferences of strategy players."
+seo_description = "In this post you will find an interactive dashboard to explore the preferences of strategy players."
 seo_image = "./images/cover.jpg"
 ---
 

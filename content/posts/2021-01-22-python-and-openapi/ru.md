@@ -2,7 +2,7 @@
 title = "Python & OpenAPI"
 tags = [ "backend", "python", "practice", "development", "interesting"]
 published_at = "2021-01-22T12:00:00+00:00"
-description = "Мои мысли о спецификации OpenAPI и её интеграции с Python."
+seo_description = "Мои мысли о спецификации OpenAPI и её интеграции с Python."
 seo_image = ""
 ---
 

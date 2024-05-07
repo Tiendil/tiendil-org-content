@@ -2,7 +2,7 @@
 title = "Жизнь по подписке"
 tags = [ "monetization", "society", "futurology", "evolution", "economics",]
 published_at = "2020-07-16T12:00:00+00:00"
-description = "Небольшой футурологический прогноз о том, что лет через 20 у нас всё будет по подписке."
+seo_description = "Небольшой футурологический прогноз о том, что лет через 20 у нас всё будет по подписке."
 seo_image = "images/life-by-subscription.png"
 ---
 

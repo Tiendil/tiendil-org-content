@@ -2,7 +2,7 @@
 title = "О книге «Геймдизайн»"
 tags = [ "gamedev", "game-design", "books", "development", "theory",]
 published_at = "2020-03-06T12:00:00+00:00"
-description = "Обзор книги Джесси Шелла «Геймдизайн» — хорошее введение в профессию."
+seo_description = "Обзор книги Джесси Шелла «Геймдизайн» — хорошее введение в профессию."
 seo_image = "images/game-design-book-cover.jpg"
 ---
 

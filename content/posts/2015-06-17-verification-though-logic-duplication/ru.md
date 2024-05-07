@@ -2,7 +2,7 @@
 title = "Верификация через дублирование логики"
 tags = [ "thinking", "development", "theory", "tests", "interesting"]
 published_at = "2015-06-17T12:00:00+00:00"
-description = "Общий взгляд на верификацию результата через сравнение с «параллельными» моделями той же штуки. На примере разработки ПО."
+seo_description = "Общий взгляд на верификацию результата через сравнение с «параллельными» моделями той же штуки. На примере разработки ПО."
 seo_image = "images/verification-though-logic-duplication-plot.png"
 ---
 

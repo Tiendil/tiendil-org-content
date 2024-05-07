@@ -2,7 +2,7 @@
 title = "Я — человек, который…"
 tags = [ "thinking", "society", "practice", "psychology", "reflection", "theory", "interesting", "best"]
 published_at = "2022-05-08T12:00:00+00:00"
-description = "Мысли о личной ответсвенности, принятии решений и пути к лучшему себе."
+seo_description = "Мысли о личной ответсвенности, принятии решений и пути к лучшему себе."
 seo_image = ""
 ---
 

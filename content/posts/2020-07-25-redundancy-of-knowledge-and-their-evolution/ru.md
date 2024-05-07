@@ -2,7 +2,7 @@
 title = "Избыточность знаний и их эволюция"
 tags = [ "thinking", "society", "theory", "evolution",]
 published_at = "2020-07-25T12:00:00+00:00"
-description = "Mad-scientist концепция передачи и обогощения знаний в обществе через смену поколений."
+seo_description = "Mad-scientist концепция передачи и обогощения знаний в обществе через смену поколений."
 seo_image = ""
 ---
 

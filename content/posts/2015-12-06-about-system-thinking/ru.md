@@ -2,7 +2,7 @@
 title = "О системном мышлении"
 tags = [ "thinking", "systems", "theory", "interesting", "best"]
 published_at = "2015-12-06T12:00:00+00:00"
-description = "Что такое системы и системное мышление, чем полезны."
+seo_description = "Что такое системы и системное мышление, чем полезны."
 seo_image = "images/about-system-thinking-graph.png"
 ---
 

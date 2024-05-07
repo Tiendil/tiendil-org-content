@@ -2,7 +2,7 @@
 title = "Этика передачи знаний"
 tags = [ "open-source", "monetization", "education", "society", "theory",]
 published_at = "2020-08-05T12:00:00+00:00"
-description = "Поговорим о подводных камнях передачи знаний за деньги."
+seo_description = "Поговорим о подводных камнях передачи знаний за деньги."
 seo_image = ""
 ---
 

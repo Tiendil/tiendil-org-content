@@ -2,7 +2,7 @@
 title = "Скажу за «Налог на Google»"
 tags = [ "business", "state", "economics",]
 published_at = "2016-06-16T12:00:00+00:00"
-description = "Пара мыслей о «налоге на Google»."
+seo_description = "Пара мыслей о «налоге на Google»."
 seo_image = ""
 ---
 

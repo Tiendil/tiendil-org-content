@@ -2,7 +2,7 @@
 title = "Первая кругосветка Кука: Кораблекрушение"
 tags = [ "books", "practice", "interesting", "best",]
 published_at = "2021-02-05T12:00:00+00:00"
-description = "Четвёртая часть заметок о первом кругосветном плавании Кука — кораблекрушение."
+seo_description = "Четвёртая часть заметок о первом кругосветном плавании Кука — кораблекрушение."
 seo_image = "images/cooks-first-around-the-world-shipwreck-cover.jpg"
 ---
 

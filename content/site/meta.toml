@@ -1,11 +1,11 @@
-# TODO: move to env?
-url = "https://tiendil.org"
-# url = "http://0.0.0.0:8000"
+prod_url = "https://tiendil.org"
+local_url = "http://0.0.0.0:8000"
 default_language = 'en'
 allowed_languages = ['en', 'ru']
 posts_per_page = 5
 posts_in_feed = 10
 favicon = 'images/favicon.ico'
+content_repository = "https://github.com/Tiendil/tiendil-org-content"
 
 posts_in_similar = 10
 

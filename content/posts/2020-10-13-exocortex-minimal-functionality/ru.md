@@ -2,7 +2,7 @@
 title = "Экзокортекс: минимальная функциональность"
 tags = [ "thinking", "practice", "development", "systems", "tarantoga", "exocortex",]
 published_at = "2020-10-13T12:00:00+00:00"
-description = "Функциональность экзокортекса, которую я хочу реализовать в личной базе знаинй в первую очередь."
+seo_description = "Функциональность экзокортекса, которую я хочу реализовать в личной базе знаинй в первую очередь."
 seo_image = "images/exocortex-minimal-functionality-cover.png"
 ---
 

@@ -2,7 +2,7 @@
 title = "Как учить и не учить математике"
 tags = [ "thinking", "education", "practice"]
 published_at = "2021-06-23T12:00:00+00:00"
-description = "Мои впечатления от прохождения курса по математическому анализу Александра Храброва на Stepik."
+seo_description = "Мои впечатления от прохождения курса по математическому анализу Александра Храброва на Stepik."
 seo_image = "images/how-to-teach-and-not-teach-math-cover.png"
 ---
 

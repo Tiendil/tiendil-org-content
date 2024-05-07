@@ -2,7 +2,7 @@
 title = "Опыт портирования проекта на Python 3"
 tags = [ "backend", "open-source", "python", "practice", "development"]
 published_at = "2016-12-26T12:00:00+00:00"
-description = "Поделюсь опытом портирования среднего размера проекта с Python 2.7 на Python 3.5. Необычными засадами и прочими интересными нюансами."
+seo_description = "Поделюсь опытом портирования среднего размера проекта с Python 2.7 на Python 3.5. Необычными засадами и прочими интересными нюансами."
 seo_image = "images/the_tale_python_2_to_python_3.png"
 ---
 

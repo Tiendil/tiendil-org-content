@@ -2,7 +2,7 @@
 title = "Про кражу результатов выполнения тестовых заданий"
 tags = [ "society", "development", "theory", "interesting"]
 published_at = "2019-04-05T12:00:00+00:00"
-description = "Есть ли в действительности проблемы с кражей результатов выполнения тестовых заданий?"
+seo_description = "Есть ли в действительности проблемы с кражей результатов выполнения тестовых заданий?"
 seo_image = "images/theft-of-test-task-results.jpg"
 ---
 

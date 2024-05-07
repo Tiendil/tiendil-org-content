@@ -2,7 +2,7 @@
 title = "Вымышленная вселенная, сеттинг, произведение — в чём разница?"
 tags = [ "the-tale", "gamedev", "game-design", "theory", "movies", "interesting", "best", "world-builders"]
 published_at = "2023-11-01T12:00:00+00:00"
-description = "Когда разрабатываете свою вымышленную вселенную, важно не путать где что относится ко вселенной, что — к сеттингу, а что — к произведению."
+seo_description = "Когда разрабатываете свою вымышленную вселенную, важно не путать где что относится ко вселенной, что — к сеттингу, а что — к произведению."
 seo_image = "images/fictional-universe-setting-work-what-the-difference-cover.jpg"
 ---
 

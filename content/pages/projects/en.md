@@ -1,7 +1,7 @@
 ---
 title = "Projects"
 published_at = "2020-07-26T12:00:00+00:00"
-description = "List of my pet-projects."
+seo_description = "List of my pet-projects."
 seo_image = ""
 ---
 

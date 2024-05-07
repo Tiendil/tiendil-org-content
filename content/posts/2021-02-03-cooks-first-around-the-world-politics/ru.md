@@ -2,7 +2,7 @@
 title = "Первая кругосветка Кука: Политика"
 tags = [ "books", "practice", "interesting", "best",]
 published_at = "2021-02-03T12:00:00+00:00"
-description = "Вторая часть заметок о первом кругосветном плавании Кука — политика."
+seo_description = "Вторая часть заметок о первом кругосветном плавании Кука — политика."
 seo_image = "images/cooks-first-around-the-world-politics-cover.jpg"
 ---
 

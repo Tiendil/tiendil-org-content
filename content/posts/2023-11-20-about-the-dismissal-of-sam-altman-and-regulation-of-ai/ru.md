@@ -2,7 +2,7 @@
 title = "Про увольнение Sam Altman и регуляцию ИИ"
 tags = [ "state", "neural-networks", "practice", "development",]
 published_at = "2023-11-20T12:00:00+00:00"
-description = "Моё мнение о попытке сместить Sam Altman с поста CEO OpenAI и регулировании ИИ."
+seo_description = "Моё мнение о попытке сместить Sam Altman с поста CEO OpenAI и регулировании ИИ."
 seo_image = "images/about-the-dismissal-of-sam-altman-and-regulation-of-ai-cover.jpg"
 ---
 

@@ -2,7 +2,7 @@
 title = "Будапешт: бани, гуляш, булки"
 tags = [ "geography", "practice",]
 published_at = "2022-11-30T12:00:00+00:00"
-description = "Впечатления от посещения Будапешта: бани, гуляш, булки."
+seo_description = "Впечатления от посещения Будапешта: бани, гуляш, булки."
 seo_image = "images/budapest-baths-goulash-chimney-cakes-cover.jpg"
 ---
 

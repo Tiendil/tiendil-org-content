@@ -2,7 +2,7 @@
 title = "OpenAI Chat для геймдева"
 tags = [ "the-tale", "gamedev", "game-design", "neural-networks", "practice", "procedural-content-generation", "development",]
 published_at = "2022-12-15T12:00:00+00:00"
-description = "Попробовал использовать OpenAI Chat для нужд геймдева. Работает, но надо доучивать и контролировать."
+seo_description = "Попробовал использовать OpenAI Chat для нужд геймдева. Работает, но надо доучивать и контролировать."
 seo_image = "images/openai-chat-for-gamedev-cover.jpg"
 ---
 

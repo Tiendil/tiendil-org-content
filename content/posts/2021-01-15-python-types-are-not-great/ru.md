@@ -2,7 +2,7 @@
 title = "Типы в Python не радуют"
 tags = [ "open-source", "python", "practice", "development", "theory", "interesting"]
 published_at = "2021-01-15T12:00:00+00:00"
-description = "Субъективное мнение о типизации в Python."
+seo_description = "Субъективное мнение о типизации в Python."
 seo_image = ""
 ---
 

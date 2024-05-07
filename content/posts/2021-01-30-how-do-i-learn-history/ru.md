@@ -2,7 +2,7 @@
 title = "Как я знакомлюсь с историей"
 tags = [ "thinking", "practice", "reflection", "interesting"]
 published_at = "2021-01-30T12:00:00+00:00"
-description = "Расскажу как я знакомлюсь с историей и почему именно так."
+seo_description = "Расскажу как я знакомлюсь с историей и почему именно так."
 seo_image = ""
 ---
 

@@ -2,7 +2,7 @@
 title = "Почему разработчики не сделают эту простую штуку?"
 tags = [ "thinking", "development", "theory", "interesting", "best"]
 published_at = "2015-05-10T12:00:00+00:00"
-description = "Рассказ о некоторых нюансах разработки софта, или почему элементарные фичи иногда сделать очень сложно."
+seo_description = "Рассказ о некоторых нюансах разработки софта, или почему элементарные фичи иногда сделать очень сложно."
 seo_image = "images/why-developers-do-not-make-this-simple-thing-1.gif"
 ---
 

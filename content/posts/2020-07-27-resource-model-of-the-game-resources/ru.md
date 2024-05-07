@@ -2,7 +2,7 @@
 title = "Ресурсная модель игры: ресурсы"
 tags = [ "gamedev", "game-design", "theory", "interesting", "best"]
 published_at = "2020-07-27T12:00:00+00:00"
-description = "Формальный взгляд на игру как на машину по преобразованию ресурсов."
+seo_description = "Формальный взгляд на игру как на машину по преобразованию ресурсов."
 seo_image = "images/cover-resource-model-of-the-game-resources.jpg"
 ---
 

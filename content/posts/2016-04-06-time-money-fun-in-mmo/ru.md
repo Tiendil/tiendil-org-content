@@ -2,7 +2,7 @@
 title = "Время, деньги и фан в ММО"
 tags = [ "gamedev", "game-design", "monetization", "theory", "interesting", "best"]
 published_at = "2016-04-06T12:00:00+00:00"
-description = "Смотрим на игру как на машину, преобразующую время и деньги в фан."
+seo_description = "Смотрим на игру как на машину, преобразующую время и деньги в фан."
 seo_image = "images/time_money_fun.png"
 ---
 

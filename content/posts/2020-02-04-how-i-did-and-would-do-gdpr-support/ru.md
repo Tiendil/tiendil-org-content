@@ -2,7 +2,7 @@
 title = "Как я делал и делал бы поддержку GDPR"
 tags = [ "backend", "state", "practice", "development", "interesting", "best"]
 published_at = "2020-02-04T12:00:00+00:00"
-description = "Подход к реализации требований GDPR из моей практики."
+seo_description = "Подход к реализации требований GDPR из моей практики."
 seo_image = "images/gdpr.png"
 ---
 

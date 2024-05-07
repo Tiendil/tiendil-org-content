@@ -2,7 +2,7 @@
 title = "Больше новостей о процедурной генерации"
 tags = [ "gamedev", "neural-networks", "practice", "procedural-content-generation", "futurology",]
 published_at = "2021-01-06T12:00:00+00:00"
-description = "Open AI представили DALL-E — нейронку для генерации изображений по запросу."
+seo_description = "Open AI представили DALL-E — нейронку для генерации изображений по запросу."
 seo_image = "./images/more-news-on-procedural-generation-cover.png"
 ---
 

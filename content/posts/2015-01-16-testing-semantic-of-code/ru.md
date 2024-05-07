@@ -2,7 +2,7 @@
 title = "Тестирование семантики кода"
 tags = [ "the-tale", "practice", "development", "theory", "tests", "interesting"]
 published_at = "2015-01-16T12:00:00+00:00"
-description = "Тестирование семантики кода на примере проекта «Сказки»."
+seo_description = "Тестирование семантики кода на примере проекта «Сказки»."
 seo_image = ""
 ---
 

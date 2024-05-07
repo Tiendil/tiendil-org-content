@@ -2,7 +2,7 @@
 title = "О книге «Фрикономика»"
 tags = [ "books", "economics",]
 published_at = "2020-08-31T12:00:00+00:00"
-description = "Отзыв о книге «Фрикономика» — скучное собрание баек."
+seo_description = "Отзыв о книге «Фрикономика» — скучное собрание баек."
 seo_image = "images/freakonomics-cover.jpg"
 ---
 

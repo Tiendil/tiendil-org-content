@@ -2,7 +2,7 @@
 title = "Feature Programming"
 tags = [ "neural-networks", "development", "theory", "futurology", "evolution", "interesting", "best"]
 published_at = "2021-08-26T12:00:00+00:00"
-description = "Эссе по итогам нырка в Deep Learning о новой парадигме программирования, которая рождается из него."
+seo_description = "Эссе по итогам нырка в Deep Learning о новой парадигме программирования, которая рождается из него."
 seo_image = ""
 ---
 

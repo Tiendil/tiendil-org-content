@@ -2,7 +2,7 @@
 title = "Procedural news headlines without complex text generation"
 tags = [ "practice", "development", "gamedev", "game-design", "procedural-content-generation", "world-builders"]
 published_at = "2024-04-10T12:00:00+00:00"
-description = "I came up with a way to generate news headlines in my game prototype without complex text generation."
+seo_description = "I came up with a way to generate news headlines in my game prototype without complex text generation."
 seo_image = "./cover.gif"
 ---
 

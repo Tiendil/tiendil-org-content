@@ -2,7 +2,7 @@
 title = "Первая кругосветка Кука: Интересное"
 tags = [ "books", "practice", "interesting", "best",]
 published_at = "2021-02-07T12:00:00+00:00"
-description = "Шестая часть заметок о первом кругосветном плавании Кука — интересное."
+seo_description = "Шестая часть заметок о первом кругосветном плавании Кука — интересное."
 seo_image = "images/cooks-first-around-the-world-interesting-facts-cover.jpg"
 ---
 

@@ -2,7 +2,7 @@
 title = "Автоматизация импортов в Python"
 tags = [ "python", "practice", "development", "habrahabr"]
 published_at = "2019-07-16T12:00:00+00:00"
-description = "Написал библиотеку для автоматического импорта модулей в Python. Анализирует код и самостоятельно импортирует что надо."
+seo_description = "Написал библиотеку для автоматического импорта модулей в Python. Анализирует код и самостоятельно импортирует что надо."
 seo_image = "images/automatic_imports_in_python.png"
 ---
 

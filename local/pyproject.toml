@@ -9,4 +9,4 @@ authors = ["Aliaksei Yaletski (Tiendil) <a.eletsky@gmail.com>"]
 python = "^3.12"
 
 uvicorn = {extras = ["standard"], version = "0.*"}
-brigid = "^0.5.0"
+brigid = "^0.6.0"

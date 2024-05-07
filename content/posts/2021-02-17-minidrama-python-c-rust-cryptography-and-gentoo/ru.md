@@ -2,7 +2,7 @@
 title = "Минидрама: Python, C, Rust, криптография и Gentoo"
 tags = [ "python", "rust", "practice", "development", "futurology",]
 published_at = "2021-02-17T12:00:00+00:00"
-description = "Как изменение зависимостей в популярной криптобиблиотеке сломало CI у кучи людей и Gentoo."
+seo_description = "Как изменение зависимостей в популярной криптобиблиотеке сломало CI у кучи людей и Gentoo."
 seo_image = ""
 ---
 

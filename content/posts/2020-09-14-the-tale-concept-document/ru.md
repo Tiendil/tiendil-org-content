@@ -2,7 +2,7 @@
 title = "Концепт-документ «Сказки»"
 tags = [ "the-tale", "gamedev", "game-design", "concepts", "mmo", "monetization", "practice", "procedural-content-generation", "development", "interesting"]
 published_at = "2020-09-14T12:00:00+00:00"
-description = "Оригинальный концепт-документ моего пет-проекта (MMOZPG «Сказка») от 2012 года."
+seo_description = "Оригинальный концепт-документ моего пет-проекта (MMOZPG «Сказка») от 2012 года."
 seo_image = "images/old-the-tale-development-screenshot.png"
 ---
 

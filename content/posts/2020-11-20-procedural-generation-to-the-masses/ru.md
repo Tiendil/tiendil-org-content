@@ -2,7 +2,7 @@
 title = "Процедурную генерацию в массы!"
 tags = [ "gamedev", "neural-networks", "practice", "procedural-content-generation", "development", "futurology",]
 published_at = "2020-11-20T12:00:00+00:00"
-description = "Google выпустил экспериментальную нейронку, которая создаёт изображения новых существ «по чертежу»."
+seo_description = "Google выпустил экспериментальную нейронку, которая создаёт изображения новых существ «по чертежу»."
 seo_image = "images/google-gan-creature-generator.jpg"
 ---
 

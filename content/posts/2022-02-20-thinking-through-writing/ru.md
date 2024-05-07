@@ -2,7 +2,7 @@
 title = "Мышление письмом"
 tags = [ "blog", "thinking", "practice", "theory", "exocortex", "interesting", "best"]
 published_at = "2022-02-20T12:00:00+00:00"
-description = "Мышление письмом — практика перевода мыслей в текст, чтобы ловить дыры в рассуждениях и строить точную картину мира."
+seo_description = "Мышление письмом — практика перевода мыслей в текст, чтобы ловить дыры в рассуждениях и строить точную картину мира."
 seo_image = "images/thinking-through-writing-cover.jpg"
 ---
 

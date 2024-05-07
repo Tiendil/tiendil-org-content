@@ -2,7 +2,7 @@
 title = "Нельзя просто так взять и запустить Deep Learning"
 tags = [ "jupyter-notebooks", "open-source", "python", "neural-networks", "education", "practice",]
 published_at = "2021-07-24T12:00:00+00:00"
-description = "Заметки о запуске Deep Learning на своей машине."
+seo_description = "Заметки о запуске Deep Learning на своей машине."
 seo_image = "images/you-cant-just-take-and-run-dl-cover.jpeg"
 ---
 
