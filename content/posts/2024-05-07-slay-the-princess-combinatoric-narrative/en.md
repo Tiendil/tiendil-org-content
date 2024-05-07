@@ -1,6 +1,6 @@
 ---
 title = "«Slay The Princess» — combinatorial narrative"
-tags = ["theory", "practice", "gamedev", "game-design"]
+tags = ["theory", "practice", "gamedev", "game-design", "games", "interesting"]
 published_at = "2024-05-07T12:00:00+00:00"
 description = "I'll share a couple of thoughts about «Slay The Princess» and the narrative structure in this game while I'm still under the impression."
 seo_image = "./images/cover.jpg"
