@@ -1,6 +1,6 @@
 ---
 title = "О книге «Сеть и бабочка»"
-tags = [ "books", "thinking", "theory", "practice", "psychology"]
+tags = [ "books", "thinking", "theory", "practice", "psychology", "interesting"]
 published_at = "2024-05-02T12:00:00+00:00"
 description = "«Сеть и бабочка» вводит полезные практики управления мозгом, но воспринимать написанное надо через внутреннего критика."
 seo_image = "./images/the-net-and-the-butterfly-book-cover-ru.jpg"
