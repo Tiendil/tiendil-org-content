@@ -81,6 +81,7 @@ feeds-fun = "feeds.fun"
 interesting = "интересные посты"
 best = "лучшие посты"
 world-builders = "World Builders"
+games = "игры"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'
