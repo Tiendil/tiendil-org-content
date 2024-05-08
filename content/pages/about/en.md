@@ -21,7 +21,7 @@ With a good quality I can write code, develop architecture, design user interfac
 
 I believe that a developer should do whatever is most necessary for the project at the moment, regardless of the type of activity.
 
-I possess a rare and epic skill of programming without testers. I instill corresponding practices around me.
+I possess a rare and epic skill of programming without external QA. I instill corresponding practices around me.
 
 I enjoy answering well-posed questions.
 
