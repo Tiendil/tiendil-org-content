@@ -100,40 +100,40 @@ Perfect dungeon block :-)
 
 Github tag: [step-2](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-2).
 
-## Шаг 3: несколько блоков
+## Step 3: multiple blocks
 
-### Шаг 3.1: хоть какая комната
+### Step 3.1: the first room
 
-Раз мы научились создавать отдельные блоки, значит пора переходить к комнатам. Требования к комнате у нас простые:
+We've learned to create separate blocks, so it's time to move on to rooms. The requirements for a room are simple:
 
-1. Состоит из блоков.
-2. Неразрывна — то есть представляет именно одну комнату, а не несколько островов из блоков.
+1. A room consists of blocks.
+2. A room is fully connected, solid space represented by a single island of blocks.
 
-Поскольку блоки у нас полностью одинаковые, очевидным способом создать комнату выглядит следующий:
+As our blocks are completely identical, the obvious way to create a room is as follows:
 
-1. Создаём комнату из одного блока.
-2. Добавляем к комнате блок, примыкающий к её случайно выбранной стене.
+1. Create a room from a single block.
+2. Add a block to the room, adjacent to a randomly selected wall.
 
-Давайте попробуем. Для этого создадим класс Room, описывающий комнату. В нём будем хранить список блоков.
+Let's try. To do this, we will create a `Room` class with a list of blocks.
 
-Метод Room.expand будет добавлять к комнате один случайный блок.
+The `Room.expand` method will add a single random block to the room.
 
-Метод Room.allowed\_new\_block\_positions будет возвращать список доступных клеток для новых блоков. Находить свободные позиции мы будем просто:
+The `Room.allowed_new_block_positions` method will return a list of available cells for new blocks. We will find free positions as follows:
 
-1. Класс Position научим возвращать множество соседних позиций.
-2. Соседние клетки всех блоков комнаты объединим в одно множество.
-3. Из этого множества удалим клетки самих блоков, останутся только свободные клетки.
+1. Teach the `Position` class to return a set of neighboring positions.
+2. Combine neighboring cells of all room blocks into a single set.
+3. Remove the cells of the blocks themselves from this set, leaving only the free cells.
 
-В Room добавим метод, аналогичный Block.geometry\_borders. Пока он будет просто возвращать границы всех блоков.
+To the `Room` class, we will add a method similar to `Block.geometry_borders`. For now, it will simply return the borders of all blocks.
 
-Получится что-то такое:
+Here is what we get:
 
 /// brigid-images
 src = "images/step_3.1.png"
-caption = "Собранная из блоков комната."
+caption = "A room assembled from blocks."
 ///
 
-Не ахти что, но для начала сойдёт.
+Not a masterpiece, but it's a start.
 
 Github tag: [step-3.1](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-3.1)
 
