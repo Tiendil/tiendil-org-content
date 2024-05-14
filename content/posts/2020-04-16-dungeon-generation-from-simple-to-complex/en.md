@@ -57,13 +57,13 @@ Our plan is:
 
 But despite the step-by-step approach, sometimes at the early stages we will make additional preparations for possible future tasks, relying on experience and common sense. It is a good practice to anticipate the directions of the product's development.
 
-## Шаг 1: подготовка окружения
+## Step 1: preparing the environment
 
-Символический шаг:
+This step is not related to the dungeon generator itself, but it is necessary to create a comfortable environment for development.
 
-- Создадим файл [requirements.txt](https://pip.pypa.io/en/stable/user_guide/#requirements-files) со списком необходимых нам пакетов.
-- Создадим заготовку для генератора, умеющую парсить аргументы командной строки с помощью [argparse](https://docs.python.org/3/library/argparse.html).
-- В README.md добавим информацию о настройке виртуального окружения и запуске генератора.
+- Create a file [requirements.txt](https://pip.pypa.io/en/stable/user_guide/#requirements-files) with a list of the necessary packages.
+- Create a boilerplate for the generator that can parse command line arguments using [argparse](https://docs.python.org/3/library/argparse.html).
+- Add information about environment setup and launching the generator to README.md.
 
 Github tag: [step-1](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-1).
 
