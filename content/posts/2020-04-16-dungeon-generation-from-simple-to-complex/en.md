@@ -34,28 +34,28 @@ The goal of this lesson is not so much in teaching how to program dungeon genera
 
 <!-- more -->
 
-## Общий подход
+## General approach
 
-Поскольку мы не пишем «боевой» код, то многие вещи можно упростить:
+Since we are not writing "combat"/"production" code, we can simplify a lot of things:
 
-- Подземелье размещаем на клеточном поле. Все координаты будут целочисленными. Математики вообще мало будет.
-- Визуализировать будем с помощью [matplotlib](https://matplotlib.org/). Да, с помощью библиотеки рисования графиков.
-- Код будет писаться «в лоб», лишь бы работал.
-- Результаты работы генератора будем выводить в отдельном окне с помощью [pyplot.show](https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.show.html), и писать на файловую систему. Для включения/отключения этих фич добавим опции командной строки.
-- Код будем писать в одном файле. Так проще смотреть дифы и, в целом, строк не много будет.
+- The dungeon will be placed on a grid. All coordinates will be integers. There will be almost no math.
+- We will visualize the dungeon using [matplotlib](https://matplotlib.org/). Yes, with a library for drawing plots.
+- The code will be written with a straightforward approach: no optimizations, no fancy architecture — it should just work.
+- We will output the results of the generator in a separate window using [pyplot.show](https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.show.html) and write them to the file system. There will be command line options to enable/disable these features.
+- We will place the code in one file. It will be easier to look at diffs and, in general, there won't be many lines of code.
 
-Также мы пойдём от простого к сложному и не будем пытаться сразу наваять генерацию всего подземелья.
+We will go from simple to complex and won't try to generate the entire dungeon from the start.
 
-План следующий:
+Our plan is:
 
-1. Учимся создавать и описывать одну клетку комнаты. Назовём его блоком.
-2. Учимся создавать случайные комнаты из блоков.
-3. Настраиваем генератор комнат, чтобы исключить некрасивые и / или сложные комнаты.
-4. Учимся генерировать две комнаты и расставлять их рядом.
-5. Учимся соединять комнаты коридором.
-6. Наводим лоск.
+1. Learn to create and describe a single room cell. Let's call it a block.
+2. Learn to create random rooms from blocks.
+3. Configure the room generator to exclude ugly and/or complex rooms.
+4. Learn to generate two rooms and place them side by side.
+5. Learn to connect rooms with corridors.
+6. Polish the result.
 
-Но несмотря на поэтапный подход мы, иногда, будем на ранних этапах заранее готовиться к возможным будущим задачам, опираясь на опыт и здравый смысл. Предугадывать направление развития продукта — это сама по себе хорошая практика.
+But despite the step-by-step approach, sometimes at the early stages we will make additional preparations for possible future tasks, relying on experience and common sense. It is a good practice to anticipate the directions of the product's development.
 
 ## Шаг 1: подготовка окружения
 
