@@ -67,35 +67,36 @@ This step is not related to the dungeon generator itself, but it is necessary to
 
 Github tag: [step-1](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-1).
 
-## Шаг 2: первый блок
+## Step 2: the first block
 
-Чтобы работать с блоком подземелья, нам необходимы:
+To effectively manipulate the dungeon block, we need:
 
-- его позиция;
-- объект самого блока;
-- способ получить отрезки, описывающие его границы;
-- способ нарисовать полученные отрезки.
+- its position;
+- an object of the block itself;
+- a way to get segments describing its borders;
+- a way to draw the obtained segments.
 
-Размер блока, как и размер клетки, примем равными единице и даже не будем его выносить в константы.
+The block size, like the cell size, will be set to one and we won't even put it in constants.
 
-Для позиции и блока сделаем отдельные классы с говорящими названиями: Position и Block.
+We will create separate classes with meaningful names for the position and the block: `Position` and `Block`.
 
-Кроме класса Position, у нас не будет других чисто «геометрических» абстракций. Изначально я использовал примитивы из библиотеки [shapely](https://pypi.org/project/Shapely/), но в итоге оказалось, что их можно удалить без вреда для логики.
+Apart from the `Position` class, we won't have any other purely geometric abstractions. Initially, I used primitives from the [shapely](https://pypi.org/project/Shapely/) library, but in the end, it turned out that they could be removed without harming the logic.
 
-Точка будет представляться через кортеж (x, y), отрезки и ломаные линии через списки точек.
+Points will be represented as a tuple `(x, y)`, segments and polylines as lists of points.
 
-Метод Block.geometry\_borders будет возвращать список отрезков, описывающих границы блока. Мы будем возвращать именно список отрезков, а не ломаную, так как на данном этапе у нас нет повода предполагать, что в будущем нам не понадобятся отдельные отрезки, а рисовать одну сложную линию или четыре простых — нам без разницы.
+The method `Block.geometry_borders` will return a list of segments on the block's borders. We will return a list of segments, not a polyline, because at this stage we have no reason to assume that we won't need separate segments in the future. For needs of this tutorial, there is no difference in complexity between drawing one multi-segment line or four simple lines.
 
-При формировании границ блока, мы примем, что его позиция указывает на левый нижний угол.
+When calculating the block borders, we will assume that its position points to the lower-left corner.
 
-Поскольку у нас появилось рисование, то мы также добавим опцию для указания имени файла, в который будет сохраняться изображение (по-умолчанию: last.png) и опцию для включения/выключения отображения графики в отдельном окне.
+Since we start drawing something, we should also add an option to specify the file name to save the image (default: `last.png`) and an option to
+enable/disable displaying the graphics in a separate window.
 
 /// brigid-images
 src = "images/step_2.png"
-caption = "Блок — кирпичик, из которого будет собрано наше подземелье."
+caption = "A block is a brick from which our dungeon will be built."
 ///
 
-Идеально :-)
+Perfect dungeon block :-)
 
 Github tag: [step-2](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-2).
 
