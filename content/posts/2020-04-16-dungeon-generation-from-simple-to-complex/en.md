@@ -353,25 +353,25 @@ caption = "Now rooms are placed optimally to minimize the length of corridors."
 
 Github tag: [step-5.2](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-5.2)
 
-## Шаг 6: наводим лоск
+## Step 6: polishing
 
-Мы почти закончили. Осталось сделать наше подземелье привлекательнее.
+We are almost finished. We just need to make our dungeon more attractive.
 
-Первым делом мы проложим нормальные коридоры, вместо условных палочек. Поскольку у нас уже есть поиск пути между дверями, нам остаётся только передать путь в объект коридора и научить тот рисовать ломаную линию по этому пути.
+First, we will lay well-placed corridors instead of conditional sticks. Since we already have a pathfinding between doors, we just need to pass the path to the corridor object and teach it how to draw a polyline along this path.
 
-Сами коридоры будем отображать толстой чёрной линией с уменьшенным [z-индексом](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA_%D0%BD%D0%B0%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F), чтобы её концы скрывались под остальной графикой.
+We will display the corridors as a thick black line with a reduced [z-index](https://en.wikipedia.org/wiki/Z-order) so that their ends will be hidden under the rest of the graphics.
 
-Отображение дверей сделаем опциональным и выключим по-умолчанию.
+We will make the drawing of doors optional and turn it off by default.
 
-При отображении комнат, будем заливать их внутренние части цветом комнаты с прозрачностью 0.5.
+Each room we will fill with the room color with a transparency of `0.5`.
 
-Для заливки нам потребуется знать линию, очерчивающую контур заливаемой области. Разрозненных отрезков будет недостаточно. Чтобы собрать такой контур из имеющихся у нас отрезков, возьмём случайный отрезок в качестве первого сегмента и будем искать следующий отрезок такой, чтобы он начинался в точке окончания первого отрезка. Поскольку контуры наших комнат не пересекаются, а сами комнаты не содержат дырок, для каждого отрезка найдётся только один парный. Реализовано это в функции make\_countur.
+To fill the room, we need to know the outline of the filled area. Disjoint segments will not be enough. To collect such a contour from the available segments, we will take a random segment as the first segment and look for the next segment so that it starts at the end of the previous segment. Since the contours of our rooms do not intersect, and the rooms themselves do not contain holes, each segment will have only one pair. This is implemented in the `make_countur` function.
 
-Опции генерации расширим, разделив жёстко задаваемое количество блоков и дверей на интервалы. Это сделает наши подземелья разнообразнее.
+We'll make the generation options more flexible by dividing the hard-coded numbers of blocks and doors into intervals. This will make our dungeons more diverse.
 
 /// brigid-images
 src = "images/step_6.png"
-caption = "Красиво раскрашенное подземелье."
+caption = "A beautifully colored dungeon."
 ///
 
 Github tag: [step-6](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-6).
