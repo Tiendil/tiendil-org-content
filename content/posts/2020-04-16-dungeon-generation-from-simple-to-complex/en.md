@@ -40,9 +40,9 @@ Since we are not writing "combat"/"production" code, we can simplify a lot of th
 
 - The dungeon will be placed on a grid. All coordinates will be integers. There will be almost no math.
 - We will visualize the dungeon using [matplotlib](https://matplotlib.org/). Yes, with a library for drawing plots.
-- The code will be written with a straightforward approach: no optimizations, no fancy architecture — it should just work.
-- We will output the results of the generator in a separate window using [pyplot.show](https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.show.html) and write them to the file system. There will be command line options to enable/disable these features.
-- We will place the code in one file. It will be easier to look at diffs and, in general, there won't be many lines of code.
+- The code will be written using a straightforward approach: no optimizations, no fancy architecture — it should just work.
+- We will output the generator's results in a separate window using [pyplot.show](https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.show.html) and write them to the file system. Command-line options will be available to turn these features on/off.
+- We will place the code in one file. It will be easier to look at diffs; generally, there will not be so much code.
 
 We will go from simple to complex and won't try to generate the entire dungeon from the start.
 
@@ -55,15 +55,15 @@ Our plan is:
 5. Learn to connect rooms with corridors.
 6. Polish the result.
 
-But despite the step-by-step approach, sometimes at the early stages we will make additional preparations for possible future tasks, relying on experience and common sense. It is a good practice to anticipate the directions of the product's development.
+However, despite the step-by-step approach, sometimes, at the early stages, we will make additional preparations for possible future tasks, relying on experience and common sense. It is a good practice to anticipate the directions of the product's development.
 
 ## Step 1: preparing the environment
 
-This step is not related to the dungeon generator itself, but it is necessary to create a comfortable environment for development.
+This step is not related to the dungeon generator itself, but it is necessary to create a comfortable development environment.
 
 - Create a file [requirements.txt](https://pip.pypa.io/en/stable/user_guide/#requirements-files) with a list of the necessary packages.
 - Create a boilerplate for the generator that can parse command line arguments using [argparse](https://docs.python.org/3/library/argparse.html).
-- Add information about environment setup and launching the generator to README.md.
+- Add information about the environment setup and launching of the generator to README.md.
 
 Github tag: [step-1](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-1).
 
