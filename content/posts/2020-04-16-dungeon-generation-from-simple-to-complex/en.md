@@ -112,7 +112,7 @@ We've learned to create separate blocks, so it's time to move on to rooms. The r
 As our blocks are entirely identical, the obvious way to create a room is as follows:
 
 1. Create a room from a single block.
-2. Add a block to the room, adjacent to a randomly selected wall.
+2. Add a block to the room, adjust it to a randomly selected wall.
 
 Let's try. To do this, we will create a `Room` class with a list of blocks.
 
@@ -155,7 +155,7 @@ Let's move the wall data into a separate `Border` class. Each block will have 4 
 
 We will determine the wall position when adding a block. If a new block has a wall in common with one of the room blocks, both walls are marked as internal.
 
-Note, comparing walls is more complex than it may seem. For example, if the blocks are adjacent horizontally, the common walls will be the right wall of the left block and the left wall of the right block. Therefore, to compare them, one must first reflect one of them, which will be done by the `Border.mirror` method.
+Note that comparing walls is more complex than it may seem. For example, if the blocks are adjacent horizontally, the common walls will be the right wall of the left block and the left wall of the right block. Therefore, to compare them, one must first reflect one of them, which will be done by the `Border.mirror` method.
 
 To simplify working with coordinates, let's add methods:
 
@@ -194,7 +194,7 @@ There can be several solutions:
 
 Based on my experience in game development, the third approach is often very useful — it allows you to cut corners without significant risks — instead of implementing complex code, we just add "quality" check logic and a loop. Just be sure you understand the complexity of the generation.
 
-Let's add the `Room.has_holes` method, to check the room for holes.
+Let's add the `Room.has_holes` method to check the room for holes.
 
 The idea of the check:
 
@@ -206,7 +206,7 @@ The idea of the check:
 6. If the set of found cells matches the original one, there are no holes.
 7. If we haven't reached some cells, there are holes in the room.
 
-Let's try to create a large room once again. The generator will work longer, as it will create several rooms, but in the end, it will create a correct one. For example, like this:
+Let's create a large room once again. The generator will work longer, as it will create several rooms, but in the end, it will create a correct one. For example, like this:
 
 /// brigid-images
 src = "images/step_3.3.png"
@@ -224,7 +224,7 @@ Making two rooms is the same as making one, just twice. So there is no problem i
 - They intersect because each room is built starting from the position `(0, 0)`.
 - It is impossible to understand which room is where and which walls belong to which room.
 
-Let's left the intersection for the future. First, we need to take care of the basics:
+Let's liave the intersection for the future. First, we need to take care of the basics:
 
 1. We need an entity that owns rooms. Let's call it `Dungeon`.
 2. We need a color differentiation of rooms. In case of errors, that will allow us to understand the problem better.
@@ -288,7 +288,7 @@ But.
 
 Firstly, I made a space base generator with randomly placed modules, which implies randomly placed gates.
 
-Secondly, it is rare that "just rooms" are needed. Usually, additional restrictions are imposed on each room affecting its shape, location, and the number of entrances. Therefore, it is necessary to place rooms respecting the position of the doors.
+Secondly, it is rare that "just rooms" are needed. Usually, additional restrictions are imposed on each room, affecting its shape, location, and the number of entrances. Therefore, it is necessary to place rooms respecting the position of the doors.
 
 Let's do it.
 
@@ -318,7 +318,7 @@ Github tag: [step-5.1](https://github.com/Tiendil/tutorial-dungeon-generation/tr
 
 Why the first implementation looks bad:
 
-1. The logic of room placement takes into account the geometric proximity of the doors, but not the length of the corridor. For example, look at the green and light purple rooms on the left in the middle: the doors are close to each other, but the corridor should go around one of the rooms.
+1. The logic of room placement takes into account the geometric proximity of the doors but not the length of the corridor. For example, look at the green and light purple rooms on the left in the middle: the doors are close to each other, but the corridor should go around one of the rooms.
 2. Choosing random doors for connection creates a feeling of "artificiality". A live person (dungeon architect) would connect them in a more optimal way. Also, there will be problems with using doors from the inner parts of the dungeon when generating large dungeons.
 
 Let's fix these issues:
@@ -382,7 +382,7 @@ We have a medium-quality dungeon generator. It is well-enough [structured](https
 
 ### Optimization
 
-As you may have noticed, I haven't done any optimizations. Up to the point that I used sets of coordinates instead of two-dimensional arrays. If you have experience with complex algorithms, you may have started to twitch or some similar reaction could have occurred. Sorry :-)
+As you may have noticed, I haven't done any optimizations. Up to the point that I used sets of coordinates instead of two-dimensional arrays. If you have experience with complex algorithms, you may have started twitching, or a similar reaction could have occurred. Sorry :-)
 
 In general, the generator provides a lot of room for experimenting with algorithm optimization. Take any function with loops or sets and experiment.
 
@@ -438,7 +438,7 @@ src = "images/fishes_transformations.jpg"
 alt = "Example of 2 homologous transformation."
 ///
 
-To learn more about this, read about [homology](https://en.wikipedia.org/wiki/Homology_(biology)). Also there is a book [On Growth and Form](https://en.wikipedia.org/wiki/On_Growth_and_Form).
+To learn more about this, read about [homology](https://en.wikipedia.org/wiki/Homology_(biology)). Also, there is a book [On Growth and Form](https://en.wikipedia.org/wiki/On_Growth_and_Form).
 
 Secondly, you can change the shape of the cells themselves, for example, to [hexes](https://en.wikipedia.org/wiki/Hexagonal_tiling) or any other [way to cover the plane with tiles](https://en.wikipedia.org/wiki/Euclidean_tilings_by_convex_regular_polygons).
 
