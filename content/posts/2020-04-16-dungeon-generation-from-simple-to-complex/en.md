@@ -314,42 +314,41 @@ caption = "Our first corridors."
 
 Github tag: [step-5.1](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-5.1)
 
-### Шаг 5.2: улучшаем коридоры
+### Step 5.2: improving corridors
 
-Почему текущий вариант выглядит плохо:
+Why the first implementation looks bad:
 
-1. Логика расположения комнат учитывает геометрическую близость дверей, но не учитывает длину коридора. Для примера посмотрите на зелёную и светлобордовую комнаты слева посередине: двери близко, но сам коридор надо вести в обход.
-2. Идея выбирать случайные двери для соединения создаёт ощущение «искусственности». Человек бы соединял более оптимальным способом. Тем более, при генерации больших подземелий. возникнут проблемы с использованием дверей из внутренних частей подземелья.
+1. The logic of room placement takes into account the geometric proximity of the doors, but not the length of the corridor. For example, look at the green and light purple rooms on the left in the middle: the doors are close, but the corridor should go around one of the rooms.
+2. The idea of choosing random doors for connection creates a feeling of "artificiality". A live person (dungeon architect) would connect them in a more optimal way. Also, there will be problems with using doors from the inner parts of the dungeon when generating large dungeons.
 
-Чтобы исправить эти косяки:
+Let's fix these issues:
 
-1. Выбор случайных дверей, заменим на полный перебор их сочетаний.
-2. Научим комнаты поворачиваться на  90, 180, 270 градусов.
-3. Вместо проверки прямого манхэттенского расстояния, будем проверять длину минимально возможного коридора.
+1. Instead of choosing random doors, we will check every possible combination of them.
+2. We will teach the rooms to rotate by 90, 180, 270 degrees.
+3. Instead of checking the direct Manhattan distance, we will check the length of the shortest corridor.
 
-В итоге у нас получится довольно тяжёлый, зато незатейливый полный перебор расположений комнат примерно следующего толка:
+As a result, we will get a quite heavy, but straightforward brute-force algorithm for room placements. Approximately like this:
 
-1. Для максимально допустимого расстояния между дверями.
-    (от 1 до допустимой границы).
-2. Для каждого из возможных сочетаний дверей.
-3. Для каждой из клеток на текущем допустимом расстоянии от двери подземелья.
-4. Для каждого возможного поворота новой комнаты.
-5. Если текущее положение комнаты ничего не пересекает и путь от двери до двери не больше текущего допустимого расстояния, то выбираем текущее положение комнаты.
+1. For the maximum allowable distance between doors (from 1 to the allowable limit).
+2. For each possible combination of doors.
+3. For each cell on the current allowable distance from the dungeon door.
+4. For each possible rotation of the new room.
+5. If the current room position does not intersect anything and the path from door to door is no longer than the current allowable distance, choose the current room position.
 
-Обратите внимание. При сдвиге комнаты, расчёте путей и прочих операциях с коридорами, нам необходимо использовать не координаты блоков с дверями, а координаты пустых клеток, на которые эти двери выходят.
+Note. When moving the room, calculating paths, and other operations with corridors, we need to use the coordinates of empty cells on which these doors lead, not the coordinates of the blocks with doors.
 
-В данном месте будет очень уместна известная инструкция по рисованию совы.
+At this point, the well-known instruction on how to draw an owl would be very appropriate.
 
 /// brigid-images
 src = "images/how_to_draw_owl.jpg"
-alt = "Классическая картинка «как нарисовать сову»."
+alt = "The classic \"how to draw an owl\" picture."
 ///
 
-Но я уверен, что вы разберётесь и получите примерно следующий результат.
+But I'm sure you'll figure it out and get something like this:
 
 /// brigid-images
 src = "images/step_5.2.png"
-caption = "Теперь комнаты ставятся оптимально, с учётом минимизации длины коридоров."
+caption = "Now rooms are placed optimally to minimize the length of corridors."
 ///
 
 Github tag: [step-5.2](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-5.2)
