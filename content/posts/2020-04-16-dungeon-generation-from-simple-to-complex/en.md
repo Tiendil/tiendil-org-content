@@ -294,22 +294,22 @@ Let's do it.
 
 ### Step 5.1: straightforward implementation
 
-Что нам необходимо для коридоров:
+What we need for corridors:
 
-1. Научиться отмечать стены, имеющие дверь (вернее, имеющие возможность её поставить).
-2. Научиться отмечать стены, через которые уже есть проход в другую комнату (чтобы не соединять одну дверь с двумя и более комнатами).
-3. После создания комнаты, сразу размечать в ней несколько (случайных) позиций для дверей.
-4. При добавлении комнаты в подземелье, выбирать две случайные двери (одну незанятую в подземелье, другую — в новой комнате), соединять их коридором и искать позицию новой комнаты не от центра координат, а от выбранной двери
+1. Functionality to mark walls that have a door (or, more precisely, allowed to place one).
+2. Functionality to mark walls that already have a passage to another room (to avoid connecting one door to multiple rooms).
+3. After creating a room, immediately mark several (random) walls in it for doors.
+4. When adding a room to the dungeon, choose two random doors (one in the dungeon, the other in the new room), connect them with a corridor, and search for the position of the new room not from the center of the coordinates, but from the selected door.
 
-По сути, добавить пару флагов и поменять аргументы вызова функций. Для простоты, пока будем рисовать коридоры условно — прямой линией от двери до двери.
+In fact, we just need to add a couple of flags and change the function call arguments. For now, we will draw corridors as a straight line from door to door.
 
-Отмечать двери будем более жирными полупрозрачными линиями.
+We'll visualize the doors with thicker semi-transparent lines.
 
-Иии… Как-то не очень у нас получается.
+And… It doesn't look very good.
 
 /// brigid-images
 src = "images/step_5.1.png"
-caption = "Проба пера в прокладывании коридоров."
+caption = "Our first corridors."
 ///
 
 Github tag: [step-5.1](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-5.1)
