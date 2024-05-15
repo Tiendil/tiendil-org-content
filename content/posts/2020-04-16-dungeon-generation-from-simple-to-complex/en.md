@@ -39,7 +39,7 @@ The aim of this tutorial is not only to teach how to program dungeon generators 
 Since we are not writing production code, we can simplify a lot of things:
 
 - The dungeon will be placed on a grid. All coordinates will be integers. There will be almost no math.
-- We will visualize the dungeon using [matplotlib](https://matplotlib.org/). Yes, with a library for drawing plots.
+- We'll use [matplotlib](https://matplotlib.org/) to visualize the dungeon — yes, the plotting library.
 - The code will be written using a straightforward approach: no optimizations, no fancy architecture — it should just work.
 - We will output the generator's results in a separate window using [pyplot.show](https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.show.html) and write them to the file system. Command-line options will be available to turn these features on/off.
 - We will place the code in one file. It will be easier to look at diffs; generally, there will not be so much code.
