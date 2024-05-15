@@ -2,7 +2,7 @@
 title = "Dungeon generation — from simple to complex"
 tags = [ "open-source", "python", "gamedev", "game-design", "practice", "procedural-content-generation", "development", "theory", "interesting", "best"]
 published_at = "2024-05-16T12:00:00+00:00"
-seo_description = "A tutorial on dungeon generation in Python. Step by step from simple to complex. Sources for each step are on github."
+seo_description = "A tutorial on dungeon generation in Python. Step by step, from simple to complex. Sources for each step are on GitHub."
 seo_image = "images/heading.png"
 ---
 
@@ -13,24 +13,24 @@ caption = "What we should get."
 
 _This is a translation of a post from 2020_
 
-This is step-by-step guide on generating dungeons in Python. If you are not a programmer, you may be interested in reading [how to design a dungeon]{post:@choose-nearest-language:how-to-design-a-dungeon}.
+This is a step-by-step guide to generating dungeons in Python. If you are not a programmer, you may be interested in reading [how to design a dungeon]{post:@choose-nearest-language:how-to-design-a-dungeon}.
 
-For a few evenings I was checking the idea of generating space bases. The space base didn't work out, but the result looks like a good dungeon. Since I went from simple to complex and didn't use any rocket science, I decided to rewrite the code into a tutorial on generating dungeons in Python.
+For a few evenings I checked the idea of generating space bases. The space base didn't work out, but the result looks like a good dungeon. Since I went from simple to complex and didn't use rocket science, I rewrote the code into a tutorial on generating dungeons in Python.
 
-At the finish line we will have a dungeon generator with the following properties:
+At the finish line, we will have a dungeon generator with the following properties:
 
 - The rooms will be connected by corridors.
-- The dungeon will have the shape of a [tree](https://en.wikipedia.org/wiki/Tree_(graph_theory)). Adding cycles will be elementary, but I'll leave it as a homework.
+- The dungeon will have the shape of a [tree](https://en.wikipedia.org/wiki/Tree_(graph_theory)). Adding cycles will be elementary, but I'll leave it as homework.
 - The number of rooms, their size, and the "branching level" will be configurable.
 - The dungeon will be placed on a grid and consist of square cells.
 
 The entire code can be found on [github](https://github.com/Tiendil/tutorial-dungeon-generation).
 
-There will be no code in the post — all used approaches can be easily described in words.
+There will be no code in the post — all used approaches can be easily described in words. At least, I think so.
 
 Each development stage has a corresponding tag in the repository, containing the code at the end of the stage.
 
-The goal of this lesson is not so much in teaching how to program dungeon generators, but in showing that difficult things can be quite simple if they are broken down into subtasks in a right way.
+The goal of this lesson is not so much to teach how to program dungeon generators but to show that complex things can be pretty simple if they are broken down into subtasks in the right way.
 
 <!-- more -->
 
