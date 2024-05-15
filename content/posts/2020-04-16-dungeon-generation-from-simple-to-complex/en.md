@@ -76,15 +76,15 @@ To effectively manipulate the dungeon block, we need:
 - a way to get segments describing its borders;
 - a way to draw the obtained segments.
 
-The block size, like the cell size, will be set to one and we won't even put it in constants.
+The block size, like the cell size, will be set to one, and we won't even put it in constants.
 
 We will create separate classes with meaningful names for the position and the block: `Position` and `Block`.
 
-Apart from the `Position` class, we won't have any other purely geometric abstractions. Initially, I used primitives from the [shapely](https://pypi.org/project/Shapely/) library, but in the end, it turned out that they could be removed without harming the logic.
+Apart from the `Position` class, we won't have any other purely geometric abstractions. Initially, I used primitives from the [shapely](https://pypi.org/project/Shapely/) library, but in the end, it turned out they could be removed without harming the logic.
 
-Points will be represented as a tuple `(x, y)`, segments and polylines as lists of points.
+Points will be represented as a tuple `(x, y)`; segments and polylines — as lists of points.
 
-The method `Block.geometry_borders` will return a list of segments on the block's borders. We will return a list of segments, not a polyline, because at this stage we have no reason to assume that we won't need separate segments in the future. For needs of this tutorial, there is no difference in complexity between drawing one multi-segment line or four simple lines.
+The method `Block.geometry_borders` will return a list of segments on the block's borders. We will return a list of segments, not a polyline, because at this stage we have no reason to assume that we won't need separate segments in the future. For the needs of this tutorial, there is no difference in complexity between drawing one multi-segment line or four simple lines.
 
 When calculating the block borders, we will assume that its position points to the lower-left corner.
 
