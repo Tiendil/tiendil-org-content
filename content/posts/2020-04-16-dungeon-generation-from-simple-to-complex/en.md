@@ -28,7 +28,7 @@ The entire code can be found on [github](https://github.com/Tiendil/tutorial-dun
 
 There won't be any code in the post — all the approaches used can be easily described in words. At least, I think so.
 
-Each development stage has a corresponding tag in the repository, containing the code at the end of the stage.
+**Each development stage has a corresponding tag in the repository, containing the code at the end of the stage.**
 
 The aim of this tutorial is not only to teach how to program dungeon generators but to demonstrate that seemingly complex tasks can be simple when properly broken down into subtasks."
 
