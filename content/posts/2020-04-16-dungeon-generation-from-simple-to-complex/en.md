@@ -137,50 +137,50 @@ Not a masterpiece, but it's a start.
 
 Github tag: [step-3.1](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-3.1)
 
-### Шаг 3.2: границы комнаты
+### Step 3.2: room borders
 
-Нам надо убрать внутренние стены.
+Let's remove the internal walls.
 
-Во-первых, это некрасиво.
+Firstly, they make the room look ugly.
 
-Во-вторых, в будущем нам необходимо будет точно знать где проходят стены комнаты. Хотя бы чтобы вставлять в них двери и правильно проводить коридоры.
+Secondly, in the future, we will need to know exactly where the room walls are. At least to insert doors into them and correctly lay out corridors.
 
-Для этого наведём порядок в стенах. От них нам необходимы:
+To achieve this, we should organize the walls. We need:
 
-1. Позиция.
-2. Положение: внешняя (настоящая) или внутренняя (прозрачная).
-3. Направление: с какой стороны от стены комната, а с какой внешний мир. Будем считать, что направление обозначает куда стена смотрит из комнаты. Соответственно, направления у нас 4: LEFT, UP, RIGHT, DOWN.
+1. Position.
+2. Placement relative to the room: external (real) or internal (transparent).
+3. Direction: from which side of the wall the room is, and from which side the outer world. Let's assume that the direction indicates where the wall is looking from the room. Accordingly, we have 4 directions: `LEFT`, `UP`, `RIGHT`, `DOWN`.
 
-Выделим стены в отдельный класс Border. Каждый блок будет иметь 4 стены. Метод Block.geometry\_borders теперь будет не самостоятельно создавать отрезки, а получать их от (внешних) стен.
+Let's move the wall data into a separate `Border` class. Each block will have 4 walls. The `Block.geometry_borders` method will no longer create segments itself, but will receive them from the (external) walls objects.
 
-Определять положение стены будем в момент добавления блока. Если новый блок имеет стену, общую с одним из блоков комнаты, то обе стены помечаются как внутренние.
+We will determine the wall position when adding a block. If a new block has a wall in common with one of the room blocks, both walls are marked as internal.
 
-Надо учесть, что просто сравнить стены нельзя. Например, если блоки соседствуют горизонтально, то общими стенами будет правая у левого блока и левая у правого. Поэтому для их сравнения, одну сначала надо отразить, что и будет делаться методом Border.mirror.
+Note, comparing walls is not so trivial as it may seem. For example, if the blocks are adjacent horizontally, the common walls will be the right wall of the left block and the left wall of the right block. Therefore, to compare them, one must first reflect one of them, which will be done by the `Border.mirror` method.
 
-Чтобы упростить работу с координатам. Добавим методы:
+To simplify working with coordinates, let's add methods:
 
-- Position.point — возвращает текущие координаты позиции.
-- Position.move — возвращает копию позиции, сдвинутую на указаное расстояние по осям X и Y.
+- `Position.point` — returns the current position coordinates.
+- `Position.move` — returns a copy of the position shifted by the specified distance along the X and Y axes.
 
-Наш результат:
+Our result:
 
 /// brigid-images
 src = "images/step_3.2.png"
-caption = "Комната с убранными внутренними стенами."
+caption = "A room with internal walls removed."
 ///
 
 Github tag: [step-3.2](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-3.2)
 
-Для интереса, давайте создадим комнату побольше, например из 100 блоков… У-у-упс…
+For fun, let's create a larger room, for example, with 100 blocks… Oops…
 
 /// brigid-images
 src = "images/step_3.2_holes.png"
-caption = "Большая комната с дырками, возникшими из-за особенностей генератора."
+caption = "A large room with holes due to the nuances of the generator."
 ///
 
-Комнаты-то могут быть с дырками.
+Rooms can have holes.
 
-### Шаг 3.3: убираем дырки
+### Step 3.3: removing holes
 
 Причина появления дырок очевидна — добавляя блоки к случайным стенам комнаты, мы вполне можем описать круг, оставив дырку.
 
