@@ -219,24 +219,23 @@ Github tag: [step-3.3](https://github.com/Tiendil/tutorial-dungeon-generation/tr
 
 ### Step 4.1: preparation
 
+Making two rooms is the same as making one, just twice. So there is no problem in creating two room objects, drawing them, and seeing that:
 
-Сделать две комнаты — тоже самое, как сделать одну, только два раза. Поэтому нет никакой проблемы создать два объекта комнаты, оба их нарисовать и увидеть, что:
+- They intersect because each room is built starting from the position `(0, 0)`.
+- It is impossible to understand which room is where and which walls belong to which room.
 
-- Они пересекаются, так как каждая комната у нас строится начиная с позиции (0, 0).
-- Нельзя понять где какая комната и какие стены к какой комнате относятся.
+Let's left the intersection for the future. First, we need to take care of the basics:
 
-Пересечение пока трогать не будем. Сначала озаботимся базовыми вещами:
+1. We need an entity that owns rooms. Let's call it `Dungeon`.
+2. We need a color differentiation of rooms, in case of errors that will allow us to better understand the problem.
 
-1. Нам нужна сущность, которая владеет комнатами. Назовём её Dungeon.
-2. Нам нужна цветовая дифференциация комнат, чтобы в случае ошибок  хотя бы примерно видеть в чём проблема.
+We will choose random dark colors for the rooms, as light colors on a white background will not be visible. The interval [RGB](https://en.wikipedia.org/wiki/RGB) from `#000000` to `#999999` will work well.
 
-Цвета для комнат будем выбирать случайные и тёмные, поскольку светлые цвета на белом фоне не будут видны. Для этого хорошо подойдет интервал [RGB](https://ru.wikipedia.org/wiki/RGB) от #000000 до #999999.
-
-Чтобы лучше видеть пересечения стен, сделаем границы комнат полупрозрачными. Смешение цветов будет выделять проблемные места. Например, так:
+To better see the wall intersections, let's make the room borders semi-transparent. Mixed colors will highlight problem areas. For example, like this:
 
 /// brigid-images
 src = "images/step_4.1.png"
-caption = "Две комнаты, которые пока что пересекаются. Зато раскрашены."
+caption = "Two colored rooms that intersect (for now)."
 ///
 
 Github tag: [step-4.1](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-4.1)
