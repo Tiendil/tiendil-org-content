@@ -107,9 +107,9 @@ Github tag: [step-2](https://github.com/Tiendil/tutorial-dungeon-generation/tree
 We've learned to create separate blocks, so it's time to move on to rooms. The requirements for a room are simple:
 
 1. A room consists of blocks.
-2. A room is fully connected, solid space represented by a single island of blocks.
+2. A room is a fully connected, solid space represented by a single island of blocks.
 
-As our blocks are completely identical, the obvious way to create a room is as follows:
+As our blocks are entirely identical, the obvious way to create a room is as follows:
 
 1. Create a room from a single block.
 2. Add a block to the room, adjacent to a randomly selected wall.
@@ -143,19 +143,19 @@ Let's remove the internal walls.
 
 Firstly, they make the room look ugly.
 
-Secondly, in the future, we will need to know exactly where the room walls are. At least to insert doors into them and correctly lay out corridors.
+Secondly, we will need to know exactly where the room walls are. At least to insert doors and correctly lay out corridors.
 
 To achieve this, we should organize the walls. We need:
 
 1. Position.
 2. Placement relative to the room: external (real) or internal (transparent).
-3. Direction: from which side of the wall the room is, and from which side the outer world. Let's assume that the direction indicates where the wall is looking from the room. Accordingly, we have 4 directions: `LEFT`, `UP`, `RIGHT`, `DOWN`.
+3. Direction: from which side of the wall the room is, and from which side the outer world. Let's assume that the direction indicates where the wall looks from the room. Accordingly, we have 4 directions: `LEFT`, `UP`, `RIGHT`, `DOWN`.
 
-Let's move the wall data into a separate `Border` class. Each block will have 4 walls. The `Block.geometry_borders` method will no longer create segments itself, but will receive them from the (external) walls objects.
+Let's move the wall data into a separate `Border` class. Each block will have 4 walls. The `Block.geometry_borders` method will no longer create segments but will receive them from the (external) wall objects.
 
 We will determine the wall position when adding a block. If a new block has a wall in common with one of the room blocks, both walls are marked as internal.
 
-Note, comparing walls is not so trivial as it may seem. For example, if the blocks are adjacent horizontally, the common walls will be the right wall of the left block and the left wall of the right block. Therefore, to compare them, one must first reflect one of them, which will be done by the `Border.mirror` method.
+Note, comparing walls is more complex than it may seem. For example, if the blocks are adjacent horizontally, the common walls will be the right wall of the left block and the left wall of the right block. Therefore, to compare them, one must first reflect one of them, which will be done by the `Border.mirror` method.
 
 To simplify working with coordinates, let's add methods:
 
