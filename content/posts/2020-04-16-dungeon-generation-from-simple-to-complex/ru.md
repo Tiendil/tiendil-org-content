@@ -431,7 +431,7 @@ alt = "Пример 1 гомологичной трансформации."
 
 [[images]]
 src = "images/fishes_transformations.jpg"
-alt = "Пример 1 гомологичной трансформации."
+alt = "Пример 2 гомологичной трансформации."
 ///
 
 Подробнее об этом можно узнать, начав с чтения про [гомологию](https://en.wikipedia.org/wiki/Homology_(biology)) и книгу [On Growth and Form](https://en.wikipedia.org/wiki/On_Growth_and_Form).

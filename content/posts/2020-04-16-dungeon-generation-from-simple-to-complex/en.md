@@ -376,70 +376,70 @@ caption = "A beautifully colored dungeon."
 
 Github tag: [step-6](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-6).
 
-## Что можно делать дальше
+## What's next
 
-К завершению урока у нас появился среднего качества генератор подземелий. Достаточно [декомпозированный](https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F), весьма тормознутый. За счёт декомпозированности и простоты, его можно легко развивать дальше. Попробую описать самые интересные направления.
+Now we have a dungeon generator of medium quality. It is well-enough [structured](https://en.wikipedia.org/wiki/Decomposition_(computer_science)) and quite slow. Due to its structure and simplicity, it can be easily developed further. I'll try to describe the most interesting directions.
 
-### Оптимизация
+### Optimization
 
-Как вы могли заметить, я совершенно не занимался оптимизациями. Вплоть до того, что вместо двухмерных массивов использовал множества координат. Если имеете опыт работы со сложными алгоритмами, у вас, возможно, даже глаз подёргиваться начал или какая-нибудь похожая реакция возникла. Простите :-)
+As you may have noticed, I haven't done any optimizations. Up to the point that I used sets of coordinates instead of two-dimensional arrays. If you have experience with complex algorithms, you may have started to twitch or some similar reaction could have occurred. Sorry :-)
 
-В общем, генератор предоставляет большой простор для экспериментов с оптимизацией алгоритмов. Берите любую функцию, в которой есть циклы или множество и экспериментируйте.
+In general, the generator provides a lot of room for experimenting with algorithm optimization. Take any function with loops or sets and experiment.
 
-Хорошими кандидатами станут:
+Good candidates are:
 
 - `find_path`
 - `Room.has_holes`
 - `Dungeon.room_positions_bruteforce`
 
-### Замыкание комнат в циклы
+### Arranging rooms in cycles
 
-Подземелье без возможности ходить по-кругу — не самое интересное подземелье.
+A dungeon without the possibility of walking in circles is not the most interesting dungeon.
 
-Попробуйте добавить дополнительные коридоры, чтобы сделать его запутанней.
+Try adding additional corridors to make it more confusing for the player.
 
-### Дифференциация комнат
+### Differentiation of rooms
 
-Комнаты бывают разные. Есть узкие комнаты с ловушками, небольшие тайники и огромные сокровищницы, есть длинные пещеры с множеством поворотов.
+Rooms can be different. There are narrow rooms with traps, small hiding caves, and large treasure troves, there are long caves with many turns.
 
-Попробуйте разнообразить набор комнат, доработав алгоритм их генерации. Можно даже сделать несколько алгоритмов и чередовать их при создании комнат.
+Try to diversify the set of rooms by improving the algorithm for generating them. You can even make several algorithms and rotate them when creating rooms.
 
-### Дифференциация дверей
+### Differentiation of doors
 
-Двери тоже могут быть разными.
+Doors can also be different.
 
-Попробуйте добавить «цвета» для дверей и соединять только двери одинаковых цветов.
+Try adding "colors" for doors and allow connecting only doors of the same color.
 
-Или попробуйте ввести чёткие правила выбора стен, в которых можно ставить двери.
+Or try to introduce stricter rules for the placement of doors.
 
-### Усложнение правил расположения комнат
+### More complex rules for room placement
 
-Комнаты могут отличаться не только своей формой, но и правилами расположения относительно других комнат.
+Rooms can differ not only in shape but also in the rules for their placement relative to each other.
 
-Например, может потребоваться, чтобы комната охраны всегда была перед сокровищницей, а сама сокровищница состояла из одной большой комнаты и множества тупиковых маленьких, соединённых с ней.
+For example, it may be necessary to always place a guard room before the treasury, or to generate a large threasury room with connected small dead-end rooms.
 
-### Уход от клеточного поля
+### Abstracting from the cell field
 
-Тут есть несколько интересных вариантов.
+There are several interesting options here.
 
-Во-первых. Как скелеты животных подобны друг другу почти с точностью до геометрических преобразований (растяжение, сжатие, изгиб, etc), так и мы можем получать разные формы подземелий созданной нами топологии, применяя к ней различные геометрические преобразования.
+Firstly, just as animal skeletons can be transformed to resemble each other through geometric changes like stretching, compressing, and bending, we can create different dungeon shapes by applying similar geometric transformations to our topology.
 
-Поскольку геометрия подземелья нам полностью известна, мы можем менять формы и взаимное положение его элементов, ограничивая лишь преобразования, ведущие к пересечениям.
+Since we know the geometry of the dungeon, we can change the shapes and positions of its elements, limiting only the transformations that lead to intersections.
 
-Примерно как на этих картинках с черепами и рыбами:
+Here, for example, are illustration of the idea with skulls and fish:
 
 /// brigid-images
 [[images]]
 src = "images/schules_transformations.gif"
-alt = "Пример 1 гомологичной трансформации."
+alt = "Example of 1 homologous transformation."
 
 [[images]]
 src = "images/fishes_transformations.jpg"
-alt = "Пример 1 гомологичной трансформации."
+alt = "Example of 2 homologous transformation."
 ///
 
-Подробнее об этом можно узнать, начав с чтения про [гомологию](https://en.wikipedia.org/wiki/Homology_(biology)) и книгу [On Growth and Form](https://en.wikipedia.org/wiki/On_Growth_and_Form).
+To learn more about this, read about [homology](https://en.wikipedia.org/wiki/Homology_(biology)), also there is a book [On Growth and Form](https://en.wikipedia.org/wiki/On_Growth_and_Form).
 
-Во-вторых. Можно изменить форму самих клеток, например, на [гексы](https://en.wikipedia.org/wiki/Hexagonal_tiling) или любой другой [способ покрытия плоскости плитками](https://en.wikipedia.org/wiki/Euclidean_tilings_by_convex_regular_polygons).
+Secondly, you can change the shape of the cells themselves, for example, to [hexes](https://en.wikipedia.org/wiki/Hexagonal_tiling) or any other [way to cover the plane with tiles](https://en.wikipedia.org/wiki/Euclidean_tilings_by_convex_regular_polygons).
 
-В-третьих. Можно и полностью отказаться от клеток, так как они нужны нам только для упрощения проверок и генерации формы комнат. Логика генерации при этом не изменится.
+Thirdly, you can abstract from the cells, as they are needed only to simplify checks and generate the room shape. The logic of generation will not change.
