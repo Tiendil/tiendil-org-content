@@ -240,34 +240,34 @@ caption = "Two colored rooms that intersect (for now)."
 
 Github tag: [step-4.1](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-4.1)
 
-### Шаг 4.2: Убираем пересечения
+### Step 4.2: removing intersections
 
-Чтобы комнаты не пересекались, одну из них необходимо сдвинуть куда-нибудь.
+To prevent rooms from intersecting, we need to move one of them somewhere.
 
-Поскольку у нас пока нет ни дверей ни коридоров, то двигать можно куда угодно. С другой стороны, разумно соблюсти несколько условий:
+Since we don't have doors or corridors yet, we can move rooms wherever we want. On the other hand, it is reasonable to take into account a few conditions:
 
-1. Комнаты должны находиться рядом. Подземелье, в котором комнаты разнесены далеко друг от друга, выглядит неинтересным.
-2. Между комнатами должно быть расстояние минимум в одну клетку, чтобы всегда можно было проложить коридор. Поскольку у нас нет каких-то особых требований к коридорам, мы можем использовать эту эвристику, чтобы облегчить себе жизнь.
+1. The rooms should be close to each other. A dungeon with rooms far apart looks uninteresting.
+2. There should be a minimum distance of one cell between the rooms to allways be able to lay a corridor. Since we don't have any special requirements for corridors, we can use this heuristic to make our live easier
 
-Попробуем для одной из комнат перебирать возможные позиции, пока не найдём ту, в которой она не пересекает вторую комнату. Искать будем от некоторой «центральной» точки, по спирали, проверяя сначала клетки на расстоянии 1, потом на расстоянии 2 и так далее.
+Let's try to iterate over possible positions for one of the rooms until we find a position where it doesn't intersect with the other room. We will search from a certain "central" point, in a spiral, checking cells at a distance of 1, then at a distance of 2, and so on.
 
-Так как мы на клеточном поле, то расстояние у нас будет [Манхеттенское](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D1%81%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D1%85_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B0%D0%BB%D0%BE%D0%B2).
+Since we are on a grid, we'll use the [Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry).
 
-За центральную точку возьмём (0, 0). Переставлять будем вторую. Когда у нас появятся двери, мы сможем переделать этот подход и искать точки не от центра комнаты / подземелья, а от дверей.
+Let's take `(0, 0)` as the central point. We will move the second room. When we have doors, we can change this approach and search for points not from the center of the room/dungeon, but from the doors.
 
-Итого. Нам необходимы:
+We need:
 
-1. Функция points\_at\_circle, возвращая все точки на заданном расстоянии от центральной.
-2. Метод Room.is\_intersect, проверяющий пересекаются ли комнаты
-3. Методы \*.move во всех классах от Room, до Position (в котором он уже есть), которые будут двигать нашу комнату (и все её части) в новое место.
+1. The `points_at_circle` function, which returns all points at a given distance from the center.
+2. The `Room.is_intersect` method, which checks if the rooms intersect.
+3. The `move` methods in all classes from `Room` to `Position` (which already has it) that will move our room (and all its parts) to a new position.
 
-Пересечение будем искать, проверяя на общие элементы множества позиций блоков в каждой из комнат. При этом, чтобы обеспечить расстояние в одну клетки между комнатами, мы к одному из множеств добавим клетки, опоясывающие соответствующую комнату (только для одной комнаты, так как в случае двух комнат, минимальное расстояние будет величиной в две клетки).
+We'll search for the intersection by looking for common elements in the sets of block positions in each of the rooms. To ensure a distance of one cell between the rooms, we will add cells that encircle one of the rooms to the corresponding set (only for one room, if we add such cells for both rooms, the minimum distance will be two cells).
 
-И вот наши комнаты уже стоят порознь.
+And here are our rooms standing separately.
 
 /// brigid-images
 src = "images/step_4.2.png"
-caption = "Теперь комнаты можно двигать друг относительно друга, убирая пересечения."
+caption = "Now rooms can be placed relative to each other, without intersections."
 ///
 
 Github tag: [step-4.2](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-4.2)
