@@ -272,26 +272,27 @@ caption = "Now rooms can be placed relative to each other, without intersections
 
 Github tag: [step-4.2](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-4.2)
 
-## Шаг 5: коридоры
+## Step 5: corridors
 
-В целом, этого уже достаточно, чтобы получить какое-то подземелье. Мы можем просто соединять ближайшие точки комнат проходами и будет счастье.
+Generally, this is enough to get almost-a-dungeon. We can just connect the nearest room points with corridors and be happy.
 
-Тем более, что генератор уже может создать необходимое количество комнат (может и не с первой попытки, из-за захардкоженного лимита на радиус поиска доступных позиций). Выглядеть многокомнатное подземелье без коридоров может так:
+Especially since the generator already can create a requested number of rooms (maybe not from the first try, due to the hardcoded limit on the radius for finding available positions). A multi-room dungeon without corridors can look like this:
 
 /// brigid-images
 src = "images/step_5_multiple_rooms.png"
+caption = "Many rooms without corridors. Almost a dungeon."
 caption = "Много комнат без коридоров. Почти подземелье."
 ///
 
-Но.
+But.
 
-Во-первых, я делал генератор звёздной станции с расстановкой случайных модулей, что предполагает и случайное расположение шлюзов в них.
+Firstly, I made a space base generator with randomly placed modules, which implies randomly placed gates.
 
-Во-вторых, мало кому нужны «просто комнаты». Обычно, для каждой комнаты устанавливаются дополнительные ограничения, которые могут влиять на её форму, расположение и количество входов. Поэтому необходимо уметь расставлять комнаты с учётом положения дверей.
+Secondly, it is rare that "just rooms" are needed. Usually, additional restrictions are imposed on each room, which can affect its shape, location, and the number of entrances. Therefore, it is necessary to be able placing rooms respecting the position of the doors.
 
-Этим мы и займёмся.
+Let's do it.
 
-### Шаг 5.1: реализация «в лоб»
+### Step 5.1: straightforward implementation
 
 Что нам необходимо для коридоров:
 
