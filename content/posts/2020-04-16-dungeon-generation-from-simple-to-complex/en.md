@@ -80,11 +80,11 @@ The block size, like the cell size, will be set to one, and we won't even put it
 
 We will create separate classes with meaningful names for the position and the block: `Position` and `Block`.
 
-Apart from the `Position` class, we won't have any other purely geometric abstractions. Initially, I used primitives from the [shapely](https://pypi.org/project/Shapely/) library, but in the end, it turned out they could be removed without harming the logic.
+Apart from the `Position` class, we won't have any other purely geometric abstractions. Initially, I used primitives from the [Shapely](https://pypi.org/project/Shapely/) library, but later I found they could be removed without affecting the logic.
 
-Points will be represented as a tuple `(x, y)`; segments and polylines — as lists of points.
+Points will be represented as tuples `(x, y)`; segments and polylines — as lists of points.
 
-The method `Block.geometry_borders` will return a list of segments on the block's borders. We will return a list of segments, not a polyline, because at this stage we have no reason to assume that we won't need separate segments in the future. For the needs of this tutorial, there is no difference in complexity between drawing one multi-segment line or four simple lines.
+The method `Block.geometry_borders` will return a list of segments on the block's borders. We will return a list of segments instead of a polyline because we may need individual segments later on. Also, for the needs of this tutorial, there is no difference in complexity between drawing one multi-segment line or four simple lines.
 
 When calculating the block borders, we will assume that its position points to the lower-left corner.
 
@@ -114,7 +114,7 @@ As our blocks are entirely identical, the obvious way to create a room is as fol
 1. Create a room from a single block.
 2. Add a block to the room, adjust it to a randomly selected wall.
 
-Let's try. To do this, we will create a `Room` class with a list of blocks.
+Let's create a `Room` class with a list of blocks.
 
 The `Room.expand` method will add a single random block to the room.
 
@@ -182,7 +182,7 @@ Rooms can have holes.
 
 ### Step 3.3: removing holes
 
-The cause of the holes is obvious — by adding blocks to random walls of the room, we can (randomly) move in a circle, leaving a hole in the center.
+The cause of the holes is  clear — by adding blocks to random walls of the room, we might (randomly) move in a circle, leaving a hole in the center.
 
 Rooms with holes are neither good nor bad by themselves — it depends on their purpose — why we create them. In our case, such rooms can complicate the generator, especially its debugging. So let's get rid of them.
 
