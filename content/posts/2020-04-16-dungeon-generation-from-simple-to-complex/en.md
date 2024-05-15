@@ -363,7 +363,7 @@ We will display the corridors as a thick black line with a reduced [z-index](htt
 
 We will make the drawing of doors optional and turn it off by default.
 
-Each room we will fill with the room color with a transparency of `0.5`.
+We will fill each room with its color with a transparency of `0.5`.
 
 To fill the room, we need to know the outline of the filled area. Disjoint segments will not be enough. To collect such a contour from the available segments, we will take a random segment as the first segment and look for the next segment so that it starts at the end of the previous segment. Since the contours of our rooms do not intersect, and the rooms themselves do not contain holes, each segment will have only one pair. This is implemented in the `make_countur` function.
 
@@ -378,7 +378,7 @@ Github tag: [step-6](https://github.com/Tiendil/tutorial-dungeon-generation/tree
 
 ## What's next
 
-Now we have a dungeon generator of medium quality. It is well-enough [structured](https://en.wikipedia.org/wiki/Decomposition_(computer_science)) and quite slow. Due to its structure and simplicity, it can be easily developed further. I'll try to describe the most interesting directions.
+We have a medium-quality dungeon generator. It is well-enough [structured](https://en.wikipedia.org/wiki/Decomposition_(computer_science)) and quite slow. Due to its structure and simplicity, it can be easily developed further. I'll describe the most promising and interesting directions.
 
 ### Optimization
 
@@ -400,7 +400,7 @@ Try adding additional corridors to make it more confusing for the player.
 
 ### Differentiation of rooms
 
-Rooms can be different. There are narrow rooms with traps, small hiding caves, and large treasure troves, there are long caves with many turns.
+Rooms can be different. There may be narrow rooms with traps, small hiding caves, large treasure troves, long caves with many turns, etc.
 
 Try to diversify the set of rooms by improving the algorithm for generating them. You can even make several algorithms and rotate them when creating rooms.
 
@@ -416,7 +416,7 @@ Or try to introduce stricter rules for the placement of doors.
 
 Rooms can differ not only in shape but also in the rules for their placement relative to each other.
 
-For example, it may be necessary to always place a guard room before the treasury, or to generate a large threasury room with connected small dead-end rooms.
+For example, it may be necessary always to place a guard room before the treasury or generate a large treasury room with connected small dead-end rooms.
 
 ### Abstracting from the cell field
 
@@ -426,7 +426,7 @@ Firstly, just as animal skeletons can be transformed to resemble each other thro
 
 Since we know the geometry of the dungeon, we can change the shapes and positions of its elements, limiting only the transformations that lead to intersections.
 
-Here, for example, are illustration of the idea with skulls and fish:
+Here are biology illustrations of the idea with skulls and fish:
 
 /// brigid-images
 [[images]]
@@ -438,7 +438,7 @@ src = "images/fishes_transformations.jpg"
 alt = "Example of 2 homologous transformation."
 ///
 
-To learn more about this, read about [homology](https://en.wikipedia.org/wiki/Homology_(biology)), also there is a book [On Growth and Form](https://en.wikipedia.org/wiki/On_Growth_and_Form).
+To learn more about this, read about [homology](https://en.wikipedia.org/wiki/Homology_(biology)). Also there is a book [On Growth and Form](https://en.wikipedia.org/wiki/On_Growth_and_Form).
 
 Secondly, you can change the shape of the cells themselves, for example, to [hexes](https://en.wikipedia.org/wiki/Hexagonal_tiling) or any other [way to cover the plane with tiles](https://en.wikipedia.org/wiki/Euclidean_tilings_by_convex_regular_polygons).
 
