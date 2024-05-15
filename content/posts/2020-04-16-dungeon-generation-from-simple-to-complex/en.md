@@ -182,40 +182,43 @@ Rooms can have holes.
 
 ### Step 3.3: removing holes
 
-Причина появления дырок очевидна — добавляя блоки к случайным стенам комнаты, мы вполне можем описать круг, оставив дырку.
+The cause of the holes is obvious — by adding blocks to random walls of the room, we can (randomly) move in a circle, leaving a hole in the center.
 
-Сами по себе комнаты с дырками не плохи и не хороши — зависит от того, зачем мы их делаем. В нашем случае они могут усложнить генератор, чего нам не надо. Поэтому избавимся от них.
+Rooms with holes are neither good nor bad by themselves — it depends on their purpose — why we create them. In our case, such rooms can complicate the generator, especially its debugging. So let's get rid of them.
 
-Решений может быть несколько:
+There can be several solutions:
 
-- Найти дырки и добавить на их место блоки. Это увеличит размер комнаты в блоках, что сделает генератор менее предсказуемым (мы хотим, чтобы он создавал комнаты сугубо заданного нами размера).
-- Поменять алгоритм генерации… Ну нет, он простой и мне нравится.
-- Считать такие комнаты «ошибочными» и при их возникновении, пересоздавать. Это наш путь.
+- Find the holes and add blocks to their coordinates. This will increase the room size in blocks, making the generator less predictable (we want it to create rooms of a strictly defined size).
+- Change the block addition algorithm… It's simple and I like it => no.
+- Consider such rooms "incorrect" and just recreate them when they appear. This is our way.
 
-Добавим метод Room.has\_holes, которые будет проверять комнату на наличие дырок.
+Based on my experience in game development, the third approach is often very useful — it allows you to cut corners without significant risks — instead of implementing complex code, we just add "quality" check logic and a loop. Just be sure you understand the complexity of the generation.
 
-Идея проверки:
+Let's add the `Room.has_holes` method, which will check the room for holes.
 
-1. Определим прямоугольник, в который вписывается комната.
-2. Сформируем множество всех клеток этого прямоугольника.
-3. Добавим во множество первое кольцо клеток вокруг его границ (чтобы обеспечить связанность пустых областей по разные стороны комнаты).
-4. Удалим из множества клетки, занятые блоками.
-5. [Поиском в ширину](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA_%D0%B2_%D1%88%D0%B8%D1%80%D0%B8%D0%BD%D1%83) (или [в глубин](https://u.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA_%D0%B2_%D0%B3%D0%BB%D1%83%D0%B1%D0%B8%D0%BD%D1%83)у), начиная от случайной клетки множества, определим все доступные из неё клетки.
-6. Если множество найденных клеток совпадает и исходным, значит дырок нет.
-7. Если мы не добрались до каких-то клеток, значит дырки есть.
+The idea of the check:
 
-Попробуем снова создать большую комнату. Генератор проработает дольше, так как будет создавать несколько комнат, но в итоге создаст правильную. Например, такую:
+1. Determine the rectangle that fits the room.
+2. Form a set of all cells of this rectangle.
+3. Add the first ring of cells around its borders to the set (to ensure the connectivity of empty areas on different sides of the room).
+4. Remove from the set the cells occupied by the room blocks.
+5. Use [breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search) (or [depth-first search](https://en.wikipedia.org/wiki/Depth-first_search)) starting from a random cell of the set to find all cells accessible from it.
+6. If the set of found cells matches the original one, there are no holes.
+7. If we haven't reached some cells, there are holes in the room.
+
+Let's try to create a large room once again. The generator will work longer, as it will create several rooms, but in the end, it will create a correct one. For example, like this:
 
 /// brigid-images
 src = "images/step_3.3.png"
-caption = "Большая комната без дырок."
+caption = "A large room without holes."
 ///
 
 Github tag: [step-3.3](https://github.com/Tiendil/tutorial-dungeon-generation/tree/step-3.3)
 
-## Шаг 4: Две комнаты
+## Step 4: two rooms
 
-### Шаг 4.1: Подготовка
+### Step 4.1: preparation
+
 
 Сделать две комнаты — тоже самое, как сделать одну, только два раза. Поэтому нет никакой проблемы создать два объекта комнаты, оба их нарисовать и увидеть, что:
 
