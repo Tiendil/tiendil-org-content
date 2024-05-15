@@ -281,7 +281,6 @@ Especially since the generator already can create a requested number of rooms (m
 /// brigid-images
 src = "images/step_5_multiple_rooms.png"
 caption = "Many rooms without corridors. Almost a dungeon."
-caption = "Много комнат без коридоров. Почти подземелье."
 ///
 
 But.
