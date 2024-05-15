@@ -189,12 +189,12 @@ Rooms with holes are neither good nor bad by themselves — it depends on their 
 There can be several solutions:
 
 - Find the holes and add blocks to their coordinates. This will increase the room size in blocks, making the generator less predictable (we want it to create rooms of a strictly defined size).
-- Change the block addition algorithm… It's simple and I like it => no.
-- Consider such rooms "incorrect" and just recreate them when they appear. This is our way.
+- Change the block addition algorithm… It's simple, and I like it => no.
+- Consider such rooms "incorrect" and recreate them when they appear. This is our way.
 
 Based on my experience in game development, the third approach is often very useful — it allows you to cut corners without significant risks — instead of implementing complex code, we just add "quality" check logic and a loop. Just be sure you understand the complexity of the generation.
 
-Let's add the `Room.has_holes` method, which will check the room for holes.
+Let's add the `Room.has_holes` method, to check the room for holes.
 
 The idea of the check:
 
@@ -227,11 +227,11 @@ Making two rooms is the same as making one, just twice. So there is no problem i
 Let's left the intersection for the future. First, we need to take care of the basics:
 
 1. We need an entity that owns rooms. Let's call it `Dungeon`.
-2. We need a color differentiation of rooms, in case of errors that will allow us to better understand the problem.
+2. We need a color differentiation of rooms. In case of errors, that will allow us to understand the problem better.
 
 We will choose random dark colors for the rooms, as light colors on a white background will not be visible. The interval [RGB](https://en.wikipedia.org/wiki/RGB) from `#000000` to `#999999` will work well.
 
-To better see the wall intersections, let's make the room borders semi-transparent. Mixed colors will highlight problem areas. For example, like this:
+Let's make the room borders semi-transparent so we can see the wall intersections better. Mixed colors will highlight problem areas. For example, like this:
 
 /// brigid-images
 src = "images/step_4.1.png"
@@ -244,16 +244,16 @@ Github tag: [step-4.1](https://github.com/Tiendil/tutorial-dungeon-generation/tr
 
 To prevent rooms from intersecting, we need to move one of them somewhere.
 
-Since we don't have doors or corridors yet, we can move rooms wherever we want. On the other hand, it is reasonable to take into account a few conditions:
+Since we have no doors or corridors yet, we can move rooms wherever we want. On the other hand, it is reasonable to take into account a few conditions:
 
 1. The rooms should be close to each other. A dungeon with rooms far apart looks uninteresting.
-2. There should be a minimum distance of one cell between the rooms to allways be able to lay a corridor. Since we don't have any special requirements for corridors, we can use this heuristic to make our live easier
+2. There should be a minimum distance of one cell between the rooms to always be able to lay a corridor. Since we don't have any special requirements for corridors, we can use this heuristic to make our lives easier
 
-Let's try to iterate over possible positions for one of the rooms until we find a position where it doesn't intersect with the other room. We will search from a certain "central" point, in a spiral, checking cells at a distance of 1, then at a distance of 2, and so on.
+Let's try to iterate over possible positions for one of the rooms until we find a position where it doesn't intersect with the other room. We will search from a certain "central" point in a spiral, checking cells at a distance of 1, then at a distance of 2, and so on.
 
 Since we are on a grid, we'll use the [Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry).
 
-Let's take `(0, 0)` as the central point. We will move the second room. When we have doors, we can change this approach and search for points not from the center of the room/dungeon, but from the doors.
+Let's take `(0, 0)` as the central point. We will move the second room. When we have doors, we can change this approach and search for points not from the center of the room/dungeon but from the doors.
 
 We need:
 
@@ -261,7 +261,7 @@ We need:
 2. The `Room.is_intersect` method, which checks if the rooms intersect.
 3. The `move` methods in all classes from `Room` to `Position` (which already has it) that will move our room (and all its parts) to a new position.
 
-We'll search for the intersection by looking for common elements in the sets of block positions in each of the rooms. To ensure a distance of one cell between the rooms, we will add cells that encircle one of the rooms to the corresponding set (only for one room, if we add such cells for both rooms, the minimum distance will be two cells).
+We'll search for the intersection by looking for common elements in the sets of block positions in each of the rooms. To ensure a distance of one cell between the rooms, we will add cells that encircle one of the rooms to the corresponding set (only for one room; if we add such cells for both rooms, the minimum distance will be two cells).
 
 And here are our rooms standing separately.
 
@@ -288,7 +288,7 @@ But.
 
 Firstly, I made a space base generator with randomly placed modules, which implies randomly placed gates.
 
-Secondly, it is rare that "just rooms" are needed. Usually, additional restrictions are imposed on each room, which can affect its shape, location, and the number of entrances. Therefore, it is necessary to be able placing rooms respecting the position of the doors.
+Secondly, it is rare that "just rooms" are needed. Usually, additional restrictions are imposed on each room affecting its shape, location, and the number of entrances. Therefore, it is necessary to place rooms respecting the position of the doors.
 
 Let's do it.
 
