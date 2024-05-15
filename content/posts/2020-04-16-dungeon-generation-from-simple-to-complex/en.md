@@ -318,16 +318,16 @@ Github tag: [step-5.1](https://github.com/Tiendil/tutorial-dungeon-generation/tr
 
 Why the first implementation looks bad:
 
-1. The logic of room placement takes into account the geometric proximity of the doors, but not the length of the corridor. For example, look at the green and light purple rooms on the left in the middle: the doors are close, but the corridor should go around one of the rooms.
-2. The idea of choosing random doors for connection creates a feeling of "artificiality". A live person (dungeon architect) would connect them in a more optimal way. Also, there will be problems with using doors from the inner parts of the dungeon when generating large dungeons.
+1. The logic of room placement takes into account the geometric proximity of the doors, but not the length of the corridor. For example, look at the green and light purple rooms on the left in the middle: the doors are close to each other, but the corridor should go around one of the rooms.
+2. Choosing random doors for connection creates a feeling of "artificiality". A live person (dungeon architect) would connect them in a more optimal way. Also, there will be problems with using doors from the inner parts of the dungeon when generating large dungeons.
 
 Let's fix these issues:
 
 1. Instead of choosing random doors, we will check every possible combination of them.
-2. We will teach the rooms to rotate by 90, 180, 270 degrees.
+2. We will teach the rooms to rotate by 90, 180, and 270 degrees.
 3. Instead of checking the direct Manhattan distance, we will check the length of the shortest corridor.
 
-As a result, we will get a quite heavy, but straightforward brute-force algorithm for room placements. Approximately like this:
+As a result, we will get a relatively heavy straightforward brute-force algorithm for room placements. Approximately like this:
 
 1. For the maximum allowable distance between doors (from 1 to the allowable limit).
 2. For each possible combination of doors.
