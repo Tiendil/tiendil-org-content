@@ -30,7 +30,7 @@ There won't be any code in the post — all the approaches used can be easily de
 
 **Each development stage has a corresponding tag in the repository, containing the code at the end of the stage.**
 
-The aim of this tutorial is not only to teach how to program dungeon generators but to demonstrate that seemingly complex tasks can be simple when properly broken down into subtasks.
+The aim of this tutorial is not only to teach how to generate dungeons but to demonstrate that seemingly complex tasks can be simple when properly broken down into subtasks.
 
 <!-- more -->
 
