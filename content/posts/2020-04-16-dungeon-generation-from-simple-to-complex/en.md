@@ -3,11 +3,11 @@ title = "Dungeon generation — from simple to complex"
 tags = [ "open-source", "python", "gamedev", "game-design", "practice", "procedural-content-generation", "development", "theory", "interesting", "best"]
 published_at = "2024-05-16T12:00:00+00:00"
 seo_description = "A tutorial on dungeon generation in Python. Step by step, from simple to complex. Sources for each step are on GitHub."
-seo_image = "images/heading.png"
+seo_image = "images/cover.png"
 ---
 
 /// brigid-images
-src = "images/heading.png"
+src = "images/cover.png"
 caption = "What we should get."
 ///
 
