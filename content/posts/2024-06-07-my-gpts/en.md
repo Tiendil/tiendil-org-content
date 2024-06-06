@@ -8,7 +8,7 @@ seo_image = "./images/cover.jpg"
 
 /// brigid-images
 src = "./images/cover.jpg"
-caption = "Ponies are doing prompt engineering."
+caption = "Ponies are doing prompt engineering (c) DALL-E"
 ///
 
 I've been using [ChatGPT](https://chatgpt.com/) almost since the release of its fourth version (so for over a year now). Over this time, I've gotten pretty good at writing queries to this thing.
