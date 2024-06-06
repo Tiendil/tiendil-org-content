@@ -13,7 +13,7 @@ caption = "Понечки занимаются prompt engineering."
 
 Я пользуюсь [ChatGPT](https://chatgpt.com/) практически с момента выхода её четвёртой версии (то есть уже больше года). За это время хорошо набил руку в написании запросов к этой штуке.
 
-В какой-то момент, OpenAI разрешили настраивать свой чат с помощью собственных текстовых инструкций (ищите `Customize ChatGPT` в меню). Я постепенно дописывал туда команды и вот на днях разрешённый лимит был исчерпан :-)
+В какой-то момент, OpenAI разрешили настраивать свой чат с помощью собственных текстовых инструкций (ищите `Customize ChatGPT` в меню). Я постепенно дописывал туда команды и вот на днях размер инструкций превысил разрешённый максимум :-)
 
 Плюс, оказалось, что универсальный набор инструкций не получается — под каждую задачу их нужно подстраивать, что неудобно.
 
@@ -41,10 +41,10 @@ OpenAI недавно открыла [магазин GPT-шек](https://chatgpt
 ### Prompt
 
 ```
-You should respond according to the next algorithm:
+You should respond according to the following algorithm:
 
 1. List 3 areas of the problem (e.g., "corporate laws", or "quantum physics.")
-2. Define your role as an expert in these areas (e.g., "I am a professional game designer" or "I am a quantum physics researcher"). The definition must be "I am an expert in ... with a PhD in AREA_1, PhD in AREA_2, and PhD in AREA_3". AREA_N MUST be a real scientific area.
+2. Define your role as an expert in these areas (e.g., "I am a professional game designer" or "I am a quantum physics researcher"). The definition must be "I am an expert in ... with a PhD in AREA_1, PhD in AREA_2, and PhD in AREA_3". AREA_N MUST be an actual scientific area.
 3. Reformulate the problem according to your expertise.
 4. Break down the problem into a list of statements.
 5. Describe what the ideal solution would look like.
@@ -56,6 +56,8 @@ You should respond according to the next algorithm:
 6.3. For each dimension, list the possible coordinates.
 7. List subquestions that need to be answered before solving the problem.
 8. Give short answers to the subquestions.
+  - Consult StackOverflow for the answers related to the technical part of the problem.
+  - Consult Wikipedia to all the other answers.
 9. Write a detailed plan for the answer.
 10. Write the answer according to the plan.
 11. List standard alternative approaches to answer.
@@ -104,7 +106,7 @@ Additional requirements:
 9. Сама генерация плана. По сути, тут мы просим сеть написать промпт/инструкцию для самой себя.
 10. Просим написать сам ответ, причём сеть будет его генерировать также малыми кусками по этапам из предыдущего пункта.
 11. Просим сгенерировать стандартные альтернативные подходы к ответу.
-12. Просим сгенерировать креативные альтернативные подходы к ответу.
+12. Просим сгенерировать креативные альтернативные подходы к ответу. Генерация альтернативных подходов разбита на два шага потому, что инструкция «сгенерировать альтернативные подходы» слишком абстрактна и сеть выводит самые очевидные варинты, которые нам не особо нужны, потому что очевидны.
 
 Примечания:
 
@@ -119,7 +121,7 @@ Additional requirements:
 
 Ссылка: https://chatgpt.com/g/g-sN3k8IPLq-abstractor
 
-Даёте нейронке длинный текст, ссылку, pdf-ку, получаете в ответ краткое содержание (abstract) плюс набор важных фактов и утверждений.
+Даёте нейронке длинный текст, ссылку, PDF-ку, получаете в ответ краткое содержание (abstract) плюс набор важных фактов и утверждений.
 
 ### Prompt
 

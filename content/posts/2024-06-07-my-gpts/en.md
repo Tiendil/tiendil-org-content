@@ -13,20 +13,20 @@ caption = "Ponies are doing prompt engineering."
 
 I've been using [ChatGPT](https://chatgpt.com/) almost since the release of its fourth version (so for over a year now). Over this time, I've gotten pretty good at writing queries to this thing.
 
-At some point, OpenAI allowed customizing chats with your own text instructions (look for `Customize ChatGPT` in the menu). With time I added more and more commands there, and recently the allowed limit was exhausted :-)
+At some point, OpenAI allowed customizing chats with your text instructions (look for `Customize ChatGPT` in the menu). With time, I added more and more commands there, and recently, the size of the instructions exceeded the allowed maximum :-)
 
-Also, it turned out that a universal set of instruction does not such a good idea — you need to adjust them for different kinds of tasks, which is inconvenient.
+Also, it turned out that a universal instruction set is not such a good idea — you need to adjust instructions for different kinds of tasks, which is inconvenient.
 
-Therefore, I decided to move the instructions to GPT bots instead of customizing my chat. OpenAI calls them GPTs. They are essentially the same chats, but with a higher limit on size of the customize instructions and the ability to upload additional texts as a knowledge base.
+Therefore, I moved the instructions to GPT bots instead of customizing my chat. OpenAI calls them GPTs. They are the same chats but with a higher limit on the size of the customized instructions and the ability to upload additional texts as a knowledge base.
 
-Someday, I'll make a GPT for this blog, but for now, I'll tell you about two GPTs I use every day.
+Someday, I'll make a GPT for this blog, but for now, I'll tell you about two GPTs I use daily:
 
 - [Expert](https://chatgpt.com/g/g-c7aWJe3CN-expert) — answers to questions.
 - [Abstractor](https://chatgpt.com/g/g-sN3k8IPLq-abstractor) — makes abstracts of texts.
 
 For each, I'll provide the basic prompt with my comments.
 
-By the way, OpenAI recently opened a [GPT store](https://chatgpt.com/gpts), I'll be grateful if you like mine.
+By the way, OpenAI recently opened a [GPT store](https://chatgpt.com/gpts), I'd be grateful if you liked mine.
 
 <!-- more -->
 
@@ -36,15 +36,15 @@ Link: https://chatgpt.com/g/g-c7aWJe3CN-expert
 
 You may see that I didn't spend much time on naming. Maybe I'll come up with something more creative later.
 
-This is my main tool, designed for deep clear answers. The downsides are that it gives fuzzy answers to fuzzy questions, because of it sometimes you have to really work on the wording.
+This is my primary tool, designed for profound professional answers. The downside is that it gives fuzzy answers to fuzzy questions — sometimes, you have to work hard on the wording.
 
 ### Prompt
 
 ```
-You should respond according to the next algorithm:
+You should respond according to the following algorithm:
 
 1. List 3 areas of the problem (e.g., "corporate laws", or "quantum physics.")
-2. Define your role as an expert in these areas (e.g., "I am a professional game designer" or "I am a quantum physics researcher"). The definition must be "I am an expert in ... with a PhD in AREA_1, PhD in AREA_2, and PhD in AREA_3". AREA_N MUST be a real scientific area.
+2. Define your role as an expert in these areas (e.g., "I am a professional game designer" or "I am a quantum physics researcher"). The definition must be "I am an expert in ... with a PhD in AREA_1, PhD in AREA_2, and PhD in AREA_3". AREA_N MUST be an actual scientific area.
 3. Reformulate the problem according to your expertise.
 4. Break down the problem into a list of statements.
 5. Describe what the ideal solution would look like.
@@ -56,6 +56,8 @@ You should respond according to the next algorithm:
 6.3. For each dimension, list the possible coordinates.
 7. List subquestions that need to be answered before solving the problem.
 8. Give short answers to the subquestions.
+  - Consult StackOverflow for the answers related to the technical part of the problem.
+  - Consult Wikipedia to all the other answers.
 9. Write a detailed plan for the answer.
 10. Write the answer according to the plan.
 11. List standard alternative approaches to answer.
@@ -75,15 +77,15 @@ Additional requirements:
 - If the user continues asking questions from the same area, skip steps 1-2.
 ```
 
-The most important thing to understand when dealing with modern LLMs is that they are statistical models. Very large and complex statistical models, but nothing more. No matter how much you train them, they will remain so. There are experiments (for some reason not very active) to create a software where they are only one of the modules in more complex system, but so far these are only experiments.
+The most important thing to understand when dealing with modern LLMs is that they are statistical models. Huge and complex statistical models, but nothing more. No matter how much you train them, they will remain so. There are experiments (for some reason not very active) to create software where they are only one of the modules in a more complex system, but so far, these are only experiments.
 
-Because of their statistical nature, the answer you get is the one that the model sees as the most likely. Not the most accurate, not the best related to the solution space, not the deepest, not the most complete, but the most likely. At first, the difference is hard to see, but over time it becomes more and more noticeable, especially if you ask complex specialized questions.
+Because of its statistical nature, the answer you get is the one that the model sees as the most likely. Not the most accurate, not the best related to the solution space, not the deepest, not the most complete, but the most likely. At first, the difference is hard to see, but over time, it becomes more and more noticeable, especially if you ask complex specialized questions.
 
-Therefore, a large part of prompt engineering is aimed at correcting probabilities. The other part is aimed at protecting against [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}, which is the same probability correction.
+Therefore, most of the prompt engineering is aimed at correcting probabilities. The other part aims to protect against [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}, which is the same probability correction.
 
 I see it as each instruction (formally each symbol, but let's not get carried away) sets an attractor, a kind of beacon "come here", or a marker of the area "increase the probability right here" in the multi-dimensional space of possible answers.
 
-High-level prompt architecture, each stage is based on the results of the previous one:
+Here is the high-level prompt architecture; each stage is based on the results of the previous one:
 
 1. Outline the area of the question.
 2. Outline the area of the answer ([feasible region](https://en.wikipedia.org/wiki/Feasible_region)).
@@ -93,33 +95,33 @@ High-level prompt architecture, each stage is based on the results of the previo
 
 Here are explanations for each prompt item.
 
-1. Ask the LLM to name a few large areas of knowledge related to the question. This shifts the probabilities away from completely irrelevant areas and creates a base for the next step.
-2. Ask the LLM to define the role it plays, as an expert. Since we are interested in professional answers, we specify that we want to see text that is most likely be produced by a professional with a PhD.
-3. Since we probably don't have such degrees, our question may be wague. Therefore, we ask the network to rewrite the question to one that a professional from step 2 would likely ask.
+1. Ask the LLM to name a few large areas of knowledge related to the question. The instruction shifts the probabilities away from completely irrelevant regions and creates a base for the next step.
+2. Ask the LLM to define the role it plays as an expert. Since we are interested in professional answers, we specify that we want to see text that is most likely be produced by a professional with a PhD.
+3. Since we (in most cases) don't have such degrees, our question may be vague. Therefore, we ask the network to rewrite it to one that a professional from step 2 would likely ask.
 4. The more concrete and narrow the question, the less the spread of possible answers. Therefore, we break down the question into parts.
-5. Similarly, we ask the network to describe the ideal solution. Since we slightly understand [system engineering]{post:@choose-nearest-language:about-system-thinking} and [thinking methods]{tags:thinking}, we ask not just to describe the ideal solution, but its properties.
-6. At this stage, the network (with our help) has outlined the solution space well-enough, but it can be even better. We can ask it to do [morphological analysis of the problem](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)). I even made [software for it](https://tiendil.github.io/morphologic/#/) once, but it somehow didn't catch on. Doing morphological analysis manually is difficult and time-consuming, even with software, but LLM does it in a snap of a finger, although not in an ideal way. My idea is that morphological analysis should shift probabilities from a "solution in general" to its components and thus increase the specificity of the answer. But I haven't evaluated the effect yet.
+5. Similarly, we ask the network to describe the ideal solution. Since we slightly understand [system engineering]{post:@choose-nearest-language:about-system-thinking} and [thinking methods]{tags:thinking}, we ask not just to describe the ideal solution but its properties.
+6. At this stage, the network (with our help) has outlined the solution space well enough, but it can be even better. We can ask it to do [morphological analysis of the problem](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)). I even made [software for it](https://tiendil.github.io/morphologic/#/) once, but it somehow didn't catch on. Doing morphological analysis manually is difficult and time-consuming, even with software, but LLM does it in a snap of a finger, although not in an ideal way. My idea is that morphological analysis should shift probabilities from a "solution in general" to its components and thus increase the specificity of the answer. But I haven't evaluated the effect yet.
 7. Before answering the question, we move the probabilities in the direction of its parts.
-8. It's continuation of the previous step. The task is divided into two parts to avoid [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}, which occurs when outputting long texts. Instead of one large text with a list of answers and questions, we make the LLM to output a series of small independent texts.
+8. It's the continuation of the previous step. The task is divided into two parts to avoid [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}, which occurs when outputting long texts. Instead of one large text with a list of answers and questions, we make the LLM output a series of small independent texts.
 9. The actual answer plan generation. In fact, here we ask the network to write a prompt/instructions for itself.
-10. We ask the LLM to write the answer itself. It should generate it in small pieces based on the plan from the previous step.
+10. We ask the LLM to write the actual answer. The network should generate it in small pieces based on the plan from the previous step.
 11. We ask the LLM to generate standard alternative approaches to the answer.
-12. We ask the LLM to generate creative alternative approaches to the answer.
+12. We ask the LLM to generate creative alternative approaches to the answer. We split the generation of alternative approaches into two steps because the instruction "generate alternative approaches" is too abstract, and the network outputs the most obvious options that we don't really need because they are too obvious.
 
 Notes:
 
 - If possible, give the network examples of expected texts (steps 1 and 2). An example (even its template) often contains more specific information than an abstract definition (which allows a range of interpretations).
 - Always use scientific/serious slang.
-- Always ask the network to repeat the tasks to limit the inevitable [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}. Without such reminders, with each subsequent symbol, the network will rely on an increasingly fuzzy context.
-- Always try to ask for several options for something (several areas of knowledge, several theses, several PhDs). Without this, we risk to excessively narrow the area of possible solutions and even miss the answer.
-- But should always specify the exact and small number of options, so that the network does not go into fantasies. Usually, I ask for 3-5 variants.
+- Always ask the network to repeat the tasks to limit the inevitable [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}. Without such reminders, the network will rely on an increasingly fuzzy context with each subsequent symbol.
+- Always try to ask for several options for something (several areas of knowledge, several theses, several PhDs). Without this, we risk excessively narrowing the range of possible solutions and even missing the answer.
+- But we should always specify the exact and small number of options so that the network does not go into fantasies. Usually, I ask for 3-5 variants.
 - In the prompt, you can find several standard patterns from prompt engineering, but I didn't design it in terms of patterns, so I won't try to extract them to avoid getting carried away with defining their boundaries. If you are interested in patterns, there is an excellent resource with them: https://www.promptingguide.ai/
 
 ## GPT `Abstractor`
 
 Link: https://chatgpt.com/g/g-sN3k8IPLq-abstractor
 
-You give a long text, a link, a pdf to the network, and receive a summary (abstract) plus a set of important facts and statements from the text.
+You give a long text, a link, a PDF to the network, and receive a summary (abstract) plus a set of important facts and statements from the text.
 
 ### Prompt
 
