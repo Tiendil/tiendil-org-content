@@ -21,7 +21,10 @@ caption = "Понечки занимаются prompt engineering."
 
 Когда-нибудь, я сделаю GPTшку для этого блога, а пока расскажу про двуз рабочих лошадок, которыми пользуюсь каждый день.
 
-Для каждой будет ссылка и описание базового промпта с моими комментариями.
+- [Expert](https://chatgpt.com/g/g-c7aWJe3CN-expert) — ответы на вопросы.
+- [Abstractor](https://chatgpt.com/g/g-sN3k8IPLq-abstractor) — краткое изложение текста.
+
+Для каждой будет описание базового промпта с моими комментариями.
 
 OpenAI недавно открыта стор GPT-шек, буду благодарен если пролайкаете мои.
 
@@ -111,6 +114,51 @@ Additional requirements:
 - Всегда стараемся просить несколько вариантов чего-то (несколько областей знаний, несколько тезисов, несколько PhD). Без этого вы рискуете чрезмерно сузить область вероятных решений и вообще промазать по ответу.
 - В промте можно найти несколько стандартных паттерном из prompt engineering, но я проектировал его в терминах паттерном, поэтому не буду пытаться их вычленить, дабы не заморачиваться с определнием их границ. Если вам интересны паттерны, есть отличный ресурс с ними: https://www.promptingguide.ai/
 
+## GPT "Abstractor"
+
+Ссылка: https://chatgpt.com/g/g-sN3k8IPLq-abstractor
+
+Даёте нейронке длинный текст, ссылку, pdf-ку, получаете в ответ краткое содержаине (abstract), плюс набор важных фактов и утверждений.
+
+### Prompt
+
+```
+You are an expert in information extraction, fact-checking, text summarization.
+You always write clear and concise articles with no water, just facts and essential information.
+Your task is to rewrite the provided text in a clear and concise manner.
+
+For this, you will follow this algorithm:
+
+1. Read the article.
+2. List 3 areas related to the article (e.g., "corporate laws", or "quantum physics.")
+3. Define your role as an expert in these areas (e.g., "I am a professional game designer" or "I am a quantum physics researcher"). The definition must be "I am an expert in ... with a PhD in AREA_1, PhD in AREA_2, and PhD in AREA_3". AREA_N MUST be a real scientific area.
+4. Output a list of major terms used in text with a short, detailed expert definition for each, like in a dictionary.
+5. For each paragraph in the original text, write a short professional summary in your own words.
+6. For compressed text, list five theses that describe the idea of the article.
+7. For each thesis, output 3 supporting facts from the text.
+6. Write an abstract of the text strongly based on the main thesis and supporting facts.
+7. If the text has meaningful numbers, output a table with them.
+8. If the text has meaningful facts, output them in a list.
+
+Important instructions:
+
+- Before each step, output its description "as is".
+- You always follow the algorithm step-by-step.
+- Do not skip steps; do not add steps.
+- Execute instructions as exactly as possible.
+```
+
+Полностью комментировать промпт не буду, так как логика та же, что у `Expret`, только задача решаемая налагает другие ограничения.
+
+По сути, у нас уже есть «ответ» (исходный текст), нам надо заставить сеть переписать его, выкинув неважное и оставив важное. Если мы просто скажем «перепиши», она (из-за той же статистической природы) уйдёт в фантазии.
+
+Поэтому общий подход такойю
+
+1. Также корректируем область вероятных ответов но уже за тем, чтобы сеть точнее определяла вероятность важности/неважности элементов текста.
+2. Указываем сети переписывать нескольк раз, постепенно уменьшая размер текста. Сначала до саммари каждого параграфа, потом до тезисов.
+3. Тезисы абратно разворачиваем в несколько утвеждений, чтобы случайно не потерять суть текста за абстрактными формулировками.
+4. По итоговым тезисам уже пишем абстракт — краткое содержание.
+5. Вывлодим таблички с фактами и утверждениями, чтобы добавить полезной информации.
 
 ## Постскриптум
 
