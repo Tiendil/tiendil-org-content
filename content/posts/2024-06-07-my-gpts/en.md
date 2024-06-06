@@ -119,7 +119,7 @@ Notes:
 
 Link: https://chatgpt.com/g/g-sN3k8IPLq-abstractor
 
-Даёте нейронке длинный текст, ссылку, pdf-ку, получаете в ответ краткое содержание (abstract) плюс набор важных фактов и утверждений.
+You give a long text, a link, a pdf to the network, and receive a summary (abstract) plus a set of important facts and statements from the text.
 
 ### Prompt
 
@@ -149,23 +149,23 @@ Important instructions:
 - Execute instructions as exactly as possible.
 ```
 
-Полностью комментировать промпт не буду, так как логика та же, что у `Expert`, только решаемая задача налагает другие ограничения.
+I won't comment the whole prompt, because the logic is mostly the same as in `Expert`. The only difference is that the task imposes other constraints.
 
-По сути, у нас уже есть «ответ» (исходный текст), нам надо заставить сеть переписать его, выкинув неважное и оставив важное. Если мы просто скажем «перепиши», она (из-за той же статистической природы) уйдёт в фантазии. Например, оставит несколько чрезмерно абстрактных утверждений в духе «текст за всё хорошее против всего плохого».
+Essentially, we already have an "answer" (the original text), we want the network to rewrite it, throwing away the unimportant and leaving the important. If we just say "rewrite", the LLM (due to the statistical nature) will go into fantasies. For example, it will output a few abstract statements like "this text is about all good against all bad".
 
-Поэтому общий подход такой.
+Therefore, the general approach is as follows.
 
-1. Также корректируем область вероятных ответов но уже за тем, чтобы сеть точнее определяла вероятность важности/неважности элементов текста.
-2. Указываем сети переписывать текст несколько раз, постепенно уменьшая его размер. Сначала до саммари каждого параграфа, потом до тезисов.
-3. Тезисы обратно разворачиваем в несколько утверждений, чтобы случайно не потерять суть текста за абстрактными формулировками.
-4. По итоговым тезисам пишем абстракт — краткое содержание.
-5. Выводим таблички с фактами и утверждениями, чтобы добавить полезной информации.
+1. As with `Expert`, we ask the network to outline the area of possible answers, but in `Abstractor` we need that to adjust the probabilities of the importance of the text elements.
+2. We ask the LLM to rewrite the text few times, gradually reducing its size. First to the summaries of each paragraph, then to the theses.
+3. Then we turn the theses back into a few statements to not lose the essence of the text because of too abstract formulations.
+4. We ask the network to write an abstract based on the theses.
+5. We tell the LLM to output the helpful numbers and facts from the text.
 
-## Постскриптум
+## Postscript
 
-На всякий случай отмечу, что эти GPT-шки — мой основной инструмент работы с чатом, поэтому:
+Just in case, I'll note that these GPTs are my main tool for working with chat, so:
 
-- Я их постоянно меняю на основе полученного опыта.
-- Иногда я с ними экспериментирую.
+- I constantly change them based on new experience and knowledge.
+- Sometimes I experiment with them.
 
-Не удивляйтесь, если их логика будет слегка меняться.
+Don't be surprised if their logic changes slightly.
