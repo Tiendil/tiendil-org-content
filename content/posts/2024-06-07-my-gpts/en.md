@@ -75,49 +75,49 @@ Additional requirements:
 - If the user continues asking questions from the same area, skip steps 1-2.
 ```
 
-Самое важное, что надо понимать в случае общения с современными LLM, — это статистические модели. Очень большие и сложные статистические модели, но не более того. И сколько бы их не доучивали, они ими останутся. Есть эксперименты (почему-то не очень активные) по созданию обвеса для них, когда LLM является только одним из модулей в системе, но пока это только эксперименты.
+The most important thing to understand when dealing with modern LLMs is that they are statistical models. Very large and complex statistical models, but nothing more. No matter how much you train them, they will remain so. There are experiments (for some reason not very active) to create a software where they are only one of the modules in more complex system, but so far these are only experiments.
 
-Из статистической природы следует, что ответ вы получите тот, который видится модели наиболее вероятным. Не точным, не лучше всего относящимся к области решений, не самым глубоким, не полным, а именно вероятным. Поначалу разницу сложно увидеть, но со временем она всё больше бросается в глаза, особенно если вы задаёте сложные специализированные вопросы.
+Because of their statistical nature, the answer you get is the one that the model sees as the most likely. Not the most accurate, not the best related to the solution space, not the deepest, not the most complete, but the most likely. At first, the difference is hard to see, but over time it becomes more and more noticeable, especially if you ask complex specialized questions.
 
-Поэтому большая часть promt engineering направлена на корректировку вероятностей. Остальная часть — на защиту от накопления ошибки, которая та же корректировка вероятностей.
+Therefore, a large part of prompt engineering is aimed at correcting probabilities. The other part is aimed at protecting against [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}, which is the same probability correction.
 
-Я это вижу так, что каждой инструкцией (формально каждым символом, но не будем загоняться) мы выставляем атрактор, этакий маячёк «сюда иди», или маркер области «увеличь вероятность вот тут».
+I see it as each instruction (formally each symbol, but let's not get carried away) sets an attractor, a kind of beacon "come here", or a marker of the area "increase the probability right here" in the multi-dimensional space of possible answers.
 
-Высокоуровневая архитектура промпта, каждый из этапов базируется на результатах предыдущих:
+High-level prompt architecture, each stage is based on the results of the previous one:
 
-1. Очерчиваем область вопроса.
-2. Очерчиваем область ответа ([пространство решений](https://ru.wikipedia.org/wiki/Область_допустимых_решений)).
-3. Очерчиваем область планов ответа.
-4. Генерируем ответ по плану.
-5. Перечисляем направления, в которые ещё можно было бы посмотреть.
+1. Outline the area of the question.
+2. Outline the area of the answer ([feasible region](https://en.wikipedia.org/wiki/Feasible_region)).
+3. Outline the area of the answer plans.
+4. Generate an answer plan.
+5. List the directions in which we could look further.
 
-Пояснения к каждому пункту промпта.
+Here are explanations for each prompt item.
 
-1. Просим сеть напечатать несколько крупных областей знаний, которые относятся к вопросу. Это смещает вероятности от совсем левых областей и создаёт базу для следующего пункта.
-2. Задаём роль, которую играет сеть, как эксперт. Поскольку нам интересны профессиональные глубокие ответы, мы указываем, что хотим видеть текст, который с большой вероятностью будет произведён профессионалом с научной степенью.
-3. Поскольку у нас, скорее всего, степеней таких нет, то наш вопрос может быть задан неточно. Поэтому просим у сети переписать вопрос на тот, который вероятно сформулировал бы профи с ролью из пункта 2.
-4. Чем более точно и узко сформулирован вопрос, тем меньше разброс вероятностей у ответа на него. Поэтому бьём вопрос на составные части.
-5. Аналогично делаем для ответа/решения. Поскольку мы немного шарим в [системной инженерии]{post:choose-nearest-language:about-system-thinking} и [мышлении]{tags:thinking}, просим не просто описать идеальное решение, а конкретные его свойства.
-6. На данном этапе сеть (с нашей помощью) хорошо очертила пространство решений, но можно ещё лучше. Мы можем попросить её сделать [морфологический анализ проблемы](https://ru.wikipedia.org/wiki/Морфологический_анализ_(изобретательство)). Я когда-то даже делал [софт для него](https://tiendil.github.io/morphologic/#/) но как-то не прижился прототип. Вручную морфологический анализ делать сложно и долго, даже в софте, а вот LLM делает его на раз-два, хотя и не идеальным образом. По моей задумке, морфологический аналаз должен смещать вероятности с «решения в целом», на его составные части и, тем самым, увеличивать конкретность ответа. Но мне пока сложно оценить эффект.
-7. Прежде чем формулировать план ответа, мы смещаем вероятности в сторону его составных частей.
-8. По сути, продолжение предыдущего пункта. Задача разбита на два этапа, чтобы избежать [накопления ошибки]{post:@choose-nearest-language:life-and-work-with-mistakes}, которое происходит при выводе длинных текстов. Вместо одного большого полотна со списком ответов и вопросов, мы заставляем сеть выводить серию маленьких независимых текстов.
-9. Сама генерация плана. По сути, тут мы просим сеть написать промпт/инструкцию для самой себя.
-10. Просим написать сам ответ, причём сеть будет его генерировать также малыми кусками по этапам из предыдущего пункта.
-11. Просим сгенерировать стандартные альтернативные подходы к ответу.
-12. Просим сгенерировать креативные альтернативные подходы к ответу.
+1. Ask the LLM to name a few large areas of knowledge related to the question. This shifts the probabilities away from completely irrelevant areas and creates a base for the next step.
+2. Ask the LLM to define the role it plays, as an expert. Since we are interested in professional answers, we specify that we want to see text that is most likely be produced by a professional with a PhD.
+3. Since we probably don't have such degrees, our question may be wague. Therefore, we ask the network to rewrite the question to one that a professional from step 2 would likely ask.
+4. The more concrete and narrow the question, the less the spread of possible answers. Therefore, we break down the question into parts.
+5. Similarly, we ask the network to describe the ideal solution. Since we slightly understand [system engineering]{post:@choose-nearest-language:about-system-thinking} and [thinking methods]{tags:thinking}, we ask not just to describe the ideal solution, but its properties.
+6. At this stage, the network (with our help) has outlined the solution space well-enough, but it can be even better. We can ask it to do [morphological analysis of the problem](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)). I even made [software for it](https://tiendil.github.io/morphologic/#/) once, but it somehow didn't catch on. Doing morphological analysis manually is difficult and time-consuming, even with software, but LLM does it in a snap of a finger, although not in an ideal way. My idea is that morphological analysis should shift probabilities from a "solution in general" to its components and thus increase the specificity of the answer. But I haven't evaluated the effect yet.
+7. Before answering the question, we move the probabilities in the direction of its parts.
+8. It's continuation of the previous step. The task is divided into two parts to avoid [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}, which occurs when outputting long texts. Instead of one large text with a list of answers and questions, we make the LLM to output a series of small independent texts.
+9. The actual answer plan generation. In fact, here we ask the network to write a prompt/instructions for itself.
+10. We ask the LLM to write the answer itself. It should generate it in small pieces based on the plan from the previous step.
+11. We ask the LLM to generate standard alternative approaches to the answer.
+12. We ask the LLM to generate creative alternative approaches to the answer.
 
-Примечания:
+Notes:
 
-- По возможности даём сети примеры текстов (пункты 1 и 2). Конкретный пример (даже его шаблон) часто содержит больше конкретной информации, чем абстрактная формулировка (которая позволяет спектр трактовок).
-- Всегда используем научный/серьёзный сленг.
-- Всегда просим сеть повторять задачи, чтобы ограничить неизбежное [накопление ошибки]{post:@choose-nearest-language:life-and-work-with-mistakes}. Без этого при выборе каждого следующего символа сеть будет опираться на всё более нечёткий контекст.
-- Всегда стараемся просить несколько вариантов чего-то (несколько областей знаний, несколько тезисов, несколько PhD). Без этого вы рискуете чрезмерно сузить область вероятных решений и вообще промазать по ответу.
-- Но всегда указываем точное и небольшое количество, чтобы сеть не уходила в фантазии. Обычно, я прошу 3-5 вариантов.
-- В промте можно найти несколько стандартных паттерном из prompt engineering, но я проектировал его не в терминах паттернов, поэтому не буду пытаться их вычленить, дабы не заморачиваться с определнием их границ. Если вам интересны паттерны, есть отличный ресурс с ними: https://www.promptingguide.ai/
+- If possible, give the network examples of expected texts (steps 1 and 2). An example (even its template) often contains more specific information than an abstract definition (which allows a range of interpretations).
+- Always use scientific/serious slang.
+- Always ask the network to repeat the tasks to limit the inevitable [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}. Without such reminders, with each subsequent symbol, the network will rely on an increasingly fuzzy context.
+- Always try to ask for several options for something (several areas of knowledge, several theses, several PhDs). Without this, we risk to excessively narrow the area of possible solutions and even miss the answer.
+- But should always specify the exact and small number of options, so that the network does not go into fantasies. Usually, I ask for 3-5 variants.
+- In the prompt, you can find several standard patterns from prompt engineering, but I didn't design it in terms of patterns, so I won't try to extract them to avoid getting carried away with defining their boundaries. If you are interested in patterns, there is an excellent resource with them: https://www.promptingguide.ai/
 
 ## GPT `Abstractor`
 
-Ссылка: https://chatgpt.com/g/g-sN3k8IPLq-abstractor
+Link: https://chatgpt.com/g/g-sN3k8IPLq-abstractor
 
 Даёте нейронке длинный текст, ссылку, pdf-ку, получаете в ответ краткое содержание (abstract) плюс набор важных фактов и утверждений.
 
