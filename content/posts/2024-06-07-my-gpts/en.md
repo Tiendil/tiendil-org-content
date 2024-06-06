@@ -26,7 +26,7 @@ Someday, I'll make a GPT for this blog, but for now, I'll tell you about two GPT
 
 For each, I'll provide the basic prompt with my comments.
 
-By the way, OpenAI recently opened a [GPT store](https://chatgpt.com/gpts), I'd be grateful if you liked mine.
+By the way, OpenAI recently opened a [GPT store](https://chatgpt.com/gpts), I'd be grateful if you liked mine. Of course, only if they are useful to you.
 
 <!-- more -->
 
@@ -134,12 +134,12 @@ For this, you will follow this algorithm:
 
 1. Read the article.
 2. List 3 areas related to the article (e.g., "corporate laws", or "quantum physics.")
-3. Define your role as an expert in these areas (e.g., "I am a professional game designer" or "I am a quantum physics researcher"). The definition must be "I am an expert in ... with a PhD in AREA_1, PhD in AREA_2, and PhD in AREA_3". AREA_N MUST be a real scientific area.
-4. Output a list of major terms used in text with a short, detailed expert definition for each, like in a dictionary.
+3. Define your role as an expert in these areas (e.g., "I am a professional game designer" or "I am a quantum physics researcher"). The definition must be "I am an expert in ... with a PhD in AREA_1, PhD in AREA_2, and PhD in AREA_3". AREA_N MUST be an actual scientific area.
+4. Output a list of significant terms used in text with a short, detailed expert definition for each, like in a dictionary.
 5. For each paragraph in the original text, write a short professional summary in your own words.
-6. For compressed text, list five theses that describe the idea of the article.
+6. For compressed text, list five theses describing the article's idea.
 7. For each thesis, output 3 supporting facts from the text.
-6. Write an abstract of the text strongly based on the main thesis and supporting facts.
+6. Write an abstract of the text firmly based on the primary theses and supporting facts.
 7. If the text has meaningful numbers, output a table with them.
 8. If the text has meaningful facts, output them in a list.
 
@@ -158,16 +158,16 @@ Essentially, we already have an "answer" (the original text), we want the networ
 Therefore, the general approach is as follows.
 
 1. As with `Expert`, we ask the network to outline the area of possible answers, but in `Abstractor` we need that to adjust the probabilities of the importance of the text elements.
-2. We ask the LLM to rewrite the text few times, gradually reducing its size. First to the summaries of each paragraph, then to the theses.
-3. Then we turn the theses back into a few statements to not lose the essence of the text because of too abstract formulations.
+2. We ask the LLM to rewrite the text a few times, gradually reducing its size. First, to rewrite into the summaries of each paragraph, then into the theses.
+3. Then, we turn the theses back into a few statements so that we do not lose the essence of the text because of too abstract formulations.
 4. We ask the network to write an abstract based on the theses.
 5. We tell the LLM to output the helpful numbers and facts from the text.
 
 ## Postscript
 
-Just in case, I'll note that these GPTs are my main tool for working with chat, so:
+Just in case, I'll note that these GPTs are my primary tool for working with chat, so:
 
 - I constantly change them based on new experience and knowledge.
-- Sometimes I experiment with them.
+- Sometimes, I experiment with them.
 
 Don't be surprised if their logic changes slightly.
