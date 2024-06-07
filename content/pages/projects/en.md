@@ -56,6 +56,11 @@ Players indirectly control their heroes but can change the whole game world. The
 
 A character name generator. Supports English and Russian. Generates all cases in Russian. Used in The Tale.
 
+## GPTs
+
+- [Expert](https://chatgpt.com/g/g-c7aWJe3CN-expert) — Give profound professional answers.
+- [Abstractor](https://chatgpt.com/g/g-sN3k8IPLq-abstractor) — You give a long text, a link, or a PDF to the network and receive a summary (abstract) plus a set of important facts and statements from the text.
+
 ## Not Supported
 
 My projects that I have discontinued support for various reasons.

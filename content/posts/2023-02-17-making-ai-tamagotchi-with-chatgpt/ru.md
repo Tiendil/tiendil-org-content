@@ -1,6 +1,6 @@
 ---
 title = "Делаем простой ИИ тамагочи на ChatGPT"
-tags = [ "gamedev", "neural-networks", "practice", "procedural-content-generation",]
+tags = [ "gamedev", "neural-networks", "practice", "procedural-content-generation", "prompt-engineering"]
 published_at = "2023-02-17T12:00:00+00:00"
 seo_description = "Пример реализации ИИ NPC с помощью ChatGPT на примере тамагочи."
 seo_image = "images/making-ai-tamagotchi-with-chatgpt-cover.jpg"

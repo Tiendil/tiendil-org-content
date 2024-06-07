@@ -1,6 +1,6 @@
 ---
 title = "Используем DALL-E для геймдева"
-tags = [ "gamedev", "neural-networks", "practice", "procedural-content-generation", "development",]
+tags = [ "gamedev", "neural-networks", "practice", "procedural-content-generation", "development", "prompt-engineering",]
 published_at = "2022-08-13T12:00:00+00:00"
 seo_description = "Эксперименты по генерации графики для игры с помощью DALL-E."
 seo_image = "images/dall-e-24-11.02.58.jpg"
