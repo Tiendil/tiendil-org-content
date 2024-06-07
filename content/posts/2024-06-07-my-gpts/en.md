@@ -32,7 +32,7 @@ By the way, OpenAI recently opened a [GPT store](https://chatgpt.com/gpts), I'd 
 
 ## GPT `Expert`
 
-Link: https://chatgpt.com/g/g-c7aWJe3CN-expert
+Link: <https://chatgpt.com/g/g-c7aWJe3CN-expert>
 
 You may see that I didn't spend much time on naming. Maybe I'll come up with something more creative later.
 
@@ -115,11 +115,11 @@ Notes:
 - Always ask the network to repeat the tasks to limit the inevitable [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}. Without such reminders, the network will rely on an increasingly fuzzy context with each subsequent symbol.
 - Always try to ask for several options for something (several areas of knowledge, several theses, several PhDs). Without this, we risk excessively narrowing the range of possible solutions and even missing the answer.
 - But we should always specify the exact and small number of options so that the network does not go into fantasies. Usually, I ask for 3-5 variants.
-- In the prompt, you can find several standard patterns from prompt engineering, but I didn't design it in terms of patterns, so I won't try to extract them to avoid getting carried away with defining their boundaries. If you are interested in patterns, there is an excellent resource with them: https://www.promptingguide.ai/
+- In the prompt, you can find several standard patterns from prompt engineering, but I didn't design it in terms of patterns, so I won't try to extract them to avoid getting carried away with defining their boundaries. If you are interested in patterns, there is an excellent resource with them: <https://www.promptingguide.ai/>
 
 ## GPT `Abstractor`
 
-Link: https://chatgpt.com/g/g-sN3k8IPLq-abstractor
+Link: <https://chatgpt.com/g/g-sN3k8IPLq-abstractor>
 
 You give a long text, a link, a PDF to the network, and receive a summary (abstract) plus a set of important facts and statements from the text.
 
