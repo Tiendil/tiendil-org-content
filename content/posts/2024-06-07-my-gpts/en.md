@@ -11,11 +11,11 @@ src = "./images/cover.jpg"
 caption = "Ponies are doing prompt engineering (c) DALL-E"
 ///
 
-I've been using [ChatGPT](https://chatgpt.com/) almost since the release of its fourth version (so for over a year now). Over this time, I've gotten pretty good at writing queries to this thing.
+I've been using [ChatGPT](https://chatgpt.com/) almost since the release of fourth version (so for over a year now). Over this time, I've gotten pretty good at writing queries to this thing.
 
 At some point, OpenAI allowed customizing chats with your text instructions (look for `Customize ChatGPT` in the menu). With time, I added more and more commands there, and recently, the size of the instructions exceeded the allowed maximum :-)
 
-Also, it turned out that a universal instruction set is not such a good idea — you need to adjust instructions for different kinds of tasks, which is inconvenient.
+Also, it turned out that a universal instruction set is not such a good idea — you need to adjust instructions for different kinds of tasks, otherwise, they won't be as useful as they could be.
 
 Therefore, I moved the instructions to GPT bots instead of customizing my chat. OpenAI calls them GPTs. They are the same chats but with a higher limit on the size of the customized instructions and the ability to upload additional texts as a knowledge base.
 
@@ -26,7 +26,7 @@ Someday, I'll make a GPT for this blog, but for now, I'll tell you about two GPT
 
 For each, I'll provide the basic prompt with my comments.
 
-By the way, OpenAI recently opened a [GPT store](https://chatgpt.com/gpts), I'd be grateful if you liked mine. Of course, only if they are useful to you.
+By the way, OpenAI recently opened a [GPT store](https://chatgpt.com/gpts), I'd be grateful if you liked mine GPTs. Of course, only if they are useful to you.
 
 <!-- more -->
 
@@ -115,13 +115,13 @@ Notes:
 - Always ask the network to repeat the tasks to limit the inevitable [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}. Without such reminders, the network will rely on an increasingly fuzzy context with each subsequent symbol.
 - Always try to ask for several options for something (several areas of knowledge, several theses, several PhDs). Without this, we risk excessively narrowing the range of possible solutions and even missing the answer.
 - But we should always specify the exact and small number of options so that the network does not go into fantasies. Usually, I ask for 3-5 variants.
-- In the prompt, you can find several standard patterns from prompt engineering, but I didn't design it in terms of patterns, so I won't try to extract them to avoid getting carried away with defining their boundaries. If you are interested in patterns, there is an excellent resource with them: <https://www.promptingguide.ai/>
+- In the prompt, you can find several standard patterns from prompt engineering, but I didn't design it in terms of patterns, so I won't try to highlight them to avoid getting carried away with defining their boundaries. If you are interested in patterns, there is an excellent resource with them: <https://www.promptingguide.ai/>
 
 ## GPT `Abstractor`
 
 Link: <https://chatgpt.com/g/g-sN3k8IPLq-abstractor>
 
-You give a long text, a link, a PDF to the network, and receive a summary (abstract) plus a set of important facts and statements from the text.
+You give a long text, a link, or a PDF to the network, and receive a summary (abstract) plus a set of important facts and statements from the text.
 
 ### Prompt
 
@@ -153,13 +153,13 @@ Important instructions:
 
 I won't comment the whole prompt, because the logic is mostly the same as in `Expert`. The only difference is that the task imposes other constraints.
 
-Essentially, we already have an "answer" (the original text), we want the network to rewrite it, throwing away the unimportant and leaving the important. If we just say "rewrite", the LLM (due to the statistical nature) will go into fantasies. For example, it will output a few abstract statements like "this text is about all good against all bad".
+Essentially, we already have an "answer" (the original text), we want the network to rewrite it, throwing away the unimportant and leaving the important. If we just say "rewrite", the LLM (due to the statistical nature) will go into fantasies. For example, it will output a few abstract statements like "this text is about all good against all evil".
 
 Therefore, the general approach is as follows.
 
 1. As with `Expert`, we ask the network to outline the area of possible answers, but in `Abstractor` we need that to adjust the probabilities of the importance of the text elements.
 2. We ask the LLM to rewrite the text a few times, gradually reducing its size. First, to rewrite into the summaries of each paragraph, then into the theses.
-3. Then, we turn the theses back into a few statements so that we do not lose the essence of the text because of too abstract formulations.
+3. Then, we turn the theses back into a few statements for each so that we do not lose the essence of the text because of too abstract formulations.
 4. We ask the network to write an abstract based on the theses.
 5. We tell the LLM to output the helpful numbers and facts from the text.
 
