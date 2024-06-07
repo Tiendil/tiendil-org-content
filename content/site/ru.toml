@@ -88,6 +88,7 @@ world-builders = "World Builders"
 games = "игры"
 biology = "биология"
 world-design = "дизайн миров"
+prompt-engineering = "prompt engineering"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'

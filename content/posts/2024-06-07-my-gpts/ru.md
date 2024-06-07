@@ -1,6 +1,6 @@
 ---
 title = "Мои GPT-шки и prompt engineering"
-tags = ["theory", "practice", "development", "thinking", "exocortex"]
+tags = ["theory", "practice", "development", "thinking", "exocortex", "prompt-engineering", "neural-networks"]
 published_at = "2024-07-06T12:00:00+00:00"
 seo_description = "Расскажу какие GPT я сделал для себя и как они работают"
 seo_image = "./images/cover.jpg"
