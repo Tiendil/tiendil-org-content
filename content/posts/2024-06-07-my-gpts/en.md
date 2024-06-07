@@ -11,7 +11,7 @@ src = "./images/cover.jpg"
 caption = "Ponies are doing prompt engineering (c) DALL-E"
 ///
 
-I've been using [ChatGPT](https://chatgpt.com/) almost since the release of fourth version (so for over a year now). Over this time, I've gotten pretty good at writing queries to this thing.
+I've been using [ChatGPT](https://chatgpt.com/) almost since the release of the fourth version (so for over a year now). Over this time, I've gotten pretty good at writing queries to this thing.
 
 At some point, OpenAI allowed customizing chats with your text instructions (look for `Customize ChatGPT` in the menu). With time, I added more and more commands there, and recently, the size of the instructions exceeded the allowed maximum :-)
 
@@ -83,7 +83,7 @@ Because of its statistical nature, the answer you get is the one that the model 
 
 Therefore, most of the prompt engineering is aimed at correcting probabilities. The other part aims to protect against [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}, which is the same probability correction.
 
-I see it as each instruction (formally each symbol, but let's not get carried away) sets an attractor, a kind of beacon "come here", or a marker of the area "increase the probability right here" in the multi-dimensional space of possible answers.
+I see it as each instruction (formally each symbol, but let's not get carried away) sets an attractor, a kind of beacon "come here", or a marker of the area "increase the probability right here" in the multidimensional space of possible answers.
 
 Here is the high-level prompt architecture; each stage is based on the results of the previous one:
 
@@ -103,10 +103,10 @@ Here are explanations for each prompt item.
 6. At this stage, the network (with our help) has outlined the solution space well enough, but it can be even better. We can ask it to do [morphological analysis of the problem](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)). I even made [software for it](https://tiendil.github.io/morphologic/#/) once, but it somehow didn't catch on. Doing morphological analysis manually is difficult and time-consuming, even with software, but LLM does it in a snap of a finger, although not in an ideal way. My idea is that morphological analysis should shift probabilities from a "solution in general" to its components and thus increase the specificity of the answer. But I haven't evaluated the effect yet.
 7. Before answering the question, we move the probabilities in the direction of its parts.
 8. It's the continuation of the previous step. The task is divided into two parts to avoid [error accumulation]{post:@choose-nearest-language:life-and-work-with-mistakes}, which occurs when outputting long texts. Instead of one large text with a list of answers and questions, we make the LLM output a series of small independent texts.
-9. The actual answer plan generation. In fact, here we ask the network to write a prompt/instructions for itself.
+9. The actual answer plan generation. In fact, here, we ask the network to write a prompt/instructions for itself.
 10. We ask the LLM to write the actual answer. The network should generate it in small pieces based on the plan from the previous step.
 11. We ask the LLM to generate standard alternative approaches to the answer.
-12. We ask the LLM to generate creative alternative approaches to the answer. We split the generation of alternative approaches into two steps because the instruction "generate alternative approaches" is too abstract, and the network outputs the most obvious options that we don't really need because they are too obvious.
+12. We ask the LLM to generate creative alternative approaches to the answer. We split the generation of alternative approaches into two steps because the instruction "generate alternative approaches" is too abstract, and the network outputs the most obvious options we don't really need because they are too obvious.
 
 Notes:
 
@@ -121,7 +121,7 @@ Notes:
 
 Link: <https://chatgpt.com/g/g-sN3k8IPLq-abstractor>
 
-You give a long text, a link, or a PDF to the network, and receive a summary (abstract) plus a set of important facts and statements from the text.
+You give a long text, a link, or a PDF to the network and receive a summary (abstract) plus a set of important facts and statements from the text.
 
 ### Prompt
 
