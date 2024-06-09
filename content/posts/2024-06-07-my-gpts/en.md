@@ -1,7 +1,7 @@
 ---
 title = "My GPTs and prompt engineering"
 tags = ["theory", "practice", "development", "thinking", "exocortex", "prompt-engineering", "neural-networks"]
-published_at = "2024-07-06T12:00:00+00:00"
+published_at = "2024-06-07T12:00:00+00:00"
 seo_description = "I'll tell you about the GPTs I made for myself and how they work"
 seo_image = "./images/cover.jpg"
 ---
