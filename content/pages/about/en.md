@@ -54,7 +54,7 @@ I enjoy answering well-posed questions.
 
 ## Work
 
-Resume: [ru]{absolute:/ru/cv), [en]{absolute:/en/cv}.
+Resume: [ru]{absolute:/ru/cv}, [en]{absolute:/en/cv}.
 
 - 2024-… — Sabbatical
 - 2022-2023 — [Palta](https://palta.com/) (Python, TypeScript)
