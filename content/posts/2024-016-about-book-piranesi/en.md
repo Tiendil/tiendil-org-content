@@ -21,8 +21,6 @@ The latter blows my mind. As an engineer, I'm an intuitive reductionist due to p
 
 By the way, don't confuse holism with, say, an engineering view of the world, a-la [systems engineering]{post:@choose-nearest-language:about-system-thinking} or even science. The latter is about decomposing reality into isolated parts with clear boundaries and synthesizing "pure" [models of the world]{post:@choose-nearest-language:life-and-work-with-models}, while in holism, the parts have no clear boundaries and penetrate each other.
 
-So, I decided to train a holistic view of the world to have an alternative to discrete reductionism. Susanna Clarke's books look like a good start.
-
 So, "Piranesi"
 
 <!-- more -->
@@ -33,7 +31,7 @@ I am against retelling the plots of literary works, especially good ones. Theref
 
 "Piranesi" is an old-science detective story (just like "Jonathan Strange" is an old-science drama) in a world bearing traces of magic.
 
-The main character — Piranesi — has forgotten his past but not his values and habits. They push him towards systematically studying the world in which he lives, towards finding himself in it and himself in himself. He explores it mainly through observations, notes, logic, and intuition but not through experiments
+The main character — Piranesi — has forgotten his past but not his values and habits. They push him towards systematically studying the world in which he lives, towards finding himself in it and himself in himself. He explores it mainly through observations, notes, logic, and intuition but not through experiments.
 
 That's why I use the term old-science — [science before the advent of the experimental method]{post:@choose-nearest-language:about-book-invention-of-science}, before the fragmentation of the world into isolated areas. When the most important thing was to write down, catalog, memorize. And logic was considered able to connect everything together based on natural observations.
 
@@ -45,6 +43,6 @@ In [the review of "Jonathan Strange & Mr. Norrell"]{post:@choose-nearest-languag
 
     That's why wizards and, even more so, magical creatures in this world walk on the edge of madness — to perform magic, you have to stop seeing the boundaries of reality.
 
-In "Piranesi", Susanna Clarke stays true to herself. Magic in Piranesi's world is an undistinguishable part of it, as in the world of English magic, and it requires the same change of consciousness from its habitants.
+In "Piranesi", Susanna Clarke stays true to herself. Magic in Piranesi's world is an undistinguishable part of it, as in the world of English magic, and it requires the exact change of consciousness from its inhabitants.
 
 Also, the pace of narration is still the same measured, so get ready to enjoy the process — do not rush :-) Although I read the book on two flights.
