@@ -60,6 +60,7 @@ A character name generator. Supports English and Russian. Generates all cases in
 
 - [Expert](https://chatgpt.com/g/g-c7aWJe3CN-expert) — Give profound professional answers.
 - [Abstractor](https://chatgpt.com/g/g-sN3k8IPLq-abstractor) — You give a long text, a link, or a PDF to the network and receive a summary (abstract) plus a set of important facts and statements from the text.
+- [Ontology Master](https://chatgpt.com/g/g-T1xz0gAMI-ontology-master) — input a term, get a tree of its ontological neighborhood/classification. Convenient when studying a new area and wanting to understand its structure.
 
 ## Not Supported
 
