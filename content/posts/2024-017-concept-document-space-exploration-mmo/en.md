@@ -207,31 +207,31 @@ It makes sense to focus on the following areas:
 
 ## Risks
 
-1. Может оказаться невозможно создать топологию вселенной, разрешающую бесконечное открытие новых звёздных систем. Перед разработкой необходим прототип правил генерации вселенной.
-2. Из-за большого набора оригинальных механик можно допустить много ошибок, если делать всё сразу. Необходим план спирального развития игры от минимального прототипа.
-3. Из-за обилия параметров и сущностей игра может превратиться в симулятор электронных таблиц. Надо тесно взаимодействовать с сообществом для анализа пользовательского опыта и улучшения интерфейса.
-4. Не получится сделать процедурную генерацию достаточно интересной. Необходимо максимально ускорять обратную связь от сообщества и вводить метрики качества генерации.
-5. Экономика игры станет неконтролируемой. Необходимо разработку каждого элемента игры сопровождать добавлением метрик и инструментов его анализа.
-6. Необходимые вычислительные ресурсы будут слишком большими, чтобы окупаться нишевой игрой. Необходимо фокусироваться на асинхронных механиках и контролировать метрики, чтобы вовремя определять проблемы.
+1. It may be impossible to create a universe topology that allows for infinite discovery of new star systems. A prototype of the universe generation rules is needed before going full development.
+2. Due to the large set of original mechanics, many mistakes can be made if everything is done at once. A spiral development plan is needed from a minimal prototype.
+3. Due to the abundance of parameters and entities, the game can turn into a spreadsheet simulator. It is necessary to closely interact with the community to analyze user experience and improve the interface.
+4. It will not be possible to make procedural generation interesting enough. It is necessary to maximize the speed of feedback from the community and introduce metrics of quality of generation.
+5. The game economy will become uncontrollable. It is necessary to introduce each element of the game with the addition of metrics and tools for its analysis.
+6. The necessary computational resources will be too large to pay off by a niche game. It is necessary to focus on asynchronous mechanics and control metrics to identify problems in time.
 
 ## Minimum Viable Product
 
-1. Регистрация игроков.
-2. Путешествия игроков по процедурной вселенной
-  - карта космоса;
-  - генерация новых систем;
-  - перемещение между системами.
-3. Система нелинейных квестов для:
-  - прокладывания маршрута в космосе;
-  - исследования звёздной системы;
-  - исследования «подземелья» на планете.
-4. Обитаемые планеты с базовой экономикой.
-5. Отсеки корабля.
-6. Катриджи с информацией:
-  - маршруты в космосе;
-  - карты звёздных систем;
-  - алгоритмы для отсеков корабля;
-  - части ников игроков;
-  - контакты игроков в реале.
-8. Обмен между игроками.
-9. Постройка заводов на планетах и производство оборудования на них.
+1. Players registration.
+2. Players travel through the procedural universe.
+   - Space map.
+   - Generation of new systems.
+   - Movement between systems.
+3. Nonlinear quest system for:
+   - laying routes in space;
+   - researching a star system;
+   - exploring the "dungeon" on a planet.
+4. Inhabited planets with basic economy.
+5. Ship compartments.
+6. Cartridges with information:
+   - routes in space;
+   - maps of star systems;
+   - algorithms for ship compartments;
+   - parts of player nicknames;
+   - contacts of players in real life.
+7. Exchange between players.
+8. Building factories on planets and producing goods.
