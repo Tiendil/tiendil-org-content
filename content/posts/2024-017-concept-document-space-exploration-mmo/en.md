@@ -153,36 +153,36 @@ The example of building a factory on a planet:
 
 ### Metagame
 
-На мета уровне задача игрока — создать интересную для него ситуацию в галактике и посмотреть что будет.
+Th player's goal on the meta level is to create an interesting situation in the galaxy and see what happens next.
 
-Для этого игрок может:
+To achieve this, the player can:
 
-- Исследовать мир: искать звёздные системы, поселения, технологии.
-- Отслеживать изменение свойств сущностей в интересующей его части вселенной.
-- Подталкивать мир к нужным изменениям: прокладывать звёздные пути, развивать поселения, манипулировать общественным мнением.
-- Развивать отношения с другими игроками.
-- Улучшать свой корабль: собирать команду, население, оборудование.
+- Explore the world: search for star systems, settlements, technologies.
+- Track changes in the properties of entities in the part of the universe that interests them.
+- Push the world towards the necessary changes: pave star routes, develop settlements, manipulate public opinion.
+- Improve relationships with other players.
+- Improve the ship: its team, population, equipment.
 
-## Монетизация
+## Monetization
 
-Стратегия монетизации должна быть направлена на создание долгоиграющего растущего сообщества подписчиков монопольного продукта.
+The monetization strategy should focus on building a sustainable and growing community of subscribers for a monopoly product.
 
-Поэтому предполагеются:
+Therefore, the following are assumed:
 
-- Монетизация только через подписки.
-- Ограниченный free-to-play доступ — только базовый геймплей «посмотреть что к чему».
-- Бан на pay-to-win механики.
+- Monetization is allowed only through subscriptions.
+- Limited free-to-play access — only basic gameplay "to see how it fills".
+- Ban on pay-to-win mechanics.
 
-Чтобы повысить монетизацию игроков с большим достатком предполагается градация подписок с ограничением: **все бонусы, которые даёт подписка, распространяются на всех подписчиков или на весь сервер**.
+To increase the monetization of players with high income, a gradation of subscriptions will be introduced with a limitation: **all the bonuses that the subscription gives are distributed to all subscribers or to the entire server**.
 
-Гипотетический пример градации подписок:
+Hypothetical example of subscription gradation:
 
-- 5$/месяц — базовая подписка — просто доступ к игре.
-- 15$/месяц — Подписка +1 — тоже, что в базовой, плюс разрешает доступ к игре трёх free-to-play игроков.
-- 50$/месяц — Подписка +2 — тоже, что в +1, плюс увеличивает размер вселенной на 100 систем.
-- 200$/месяц — подписка +3 — тоже, что в +2, плюс для всех подписчиков увеличивает скорость регенерации топлива кораблей на 1 в час.
+- 5$/month — basic subscription — just access to the game.
+- 15$/month — subscription +1 — the same as basic, plus allows access to the game for three free-to-play players.
+- 50$/month — subscription +2 — the same as +1, plus increases the size of the universe by 100 systems.
+- 200$/month — subscription +3 — the same as +2, plus increases the speed of ship fuel regeneration by 1 per hour for all subscribers.
 
-## Маркетинг
+## Marketing
 
 Стратегия маркетинга, как и монетизации, должна быть направлена на создание долгоиграющего растущего сообщества.
 
