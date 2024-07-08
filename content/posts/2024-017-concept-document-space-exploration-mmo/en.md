@@ -56,55 +56,55 @@ For illustrations, low-detail pixel art or "old cheap 3D" is used.
 ## Features
 
 - Slow-paced gameplay for adults.
-- Player manages a huge starship — a flying city.
-- Exploration, research, study is the main player activity.
+- The player manages a huge starship — a flying city.
+- Exploration, research, study are the main player activity.
 - Cartridges with information are the basic value in the economy.
 - Crafting is the only source of items.
 - Living player-driven procedural world.
 
-### Неторопливый геймплей для взрослых людей
+### Slow-paced gameplay for adults
 
-- Короткие сессии, неспешная асинхронная игра без жёских дедлайнов.
-- PvP, когда нападающий рискует больше, чем защитник.
-- Вечная пассивная прокачка навыков — игрок спит, капитан качается. Есть навыки для каждого действия.
-- Глубокое комплексное развитие: доступые действия и их эффектинвость зависят от компонентов корабля, экипажа, подключённых катриджей и навыков персонажа.
+- Short sessions, unhurried asynchronous play without harsh deadlines.
+- PvP, where the attacker risks more than the defender.
+- Infinite skill progression — the player sleeps, captain levels up. Skills for every action.
+- Deep complex progression: available actions and their effectiveness depend on the components of the ship, the crew, connected cartridges, and character skills.
 
-### Управление огромным звёздным кораблём — летающим городом
+### Player manages a huge starship — a flying city
 
-- Игрок управляет кораблём размером с город, в котором живут миллионы существ.
-- Для эффективной работы корабля игрок должен следить за его оборудованием, населением и руководящим составом — офицерами.
-- Для этого игрок может улучшать/чинить/заменять отсеки, назначать и снимать офицеров, распределять население по отсекам, вести пропаганду, изгонять население с корабля и набирать новое на планетах.
-- Оборудование, экипаж и население периодически создают события, которые влияют на состояние корабля и обеспечивают разнообразный фон для приключений игрока.
+- The player controls a ship the size of a city, inhabited by millions of beings.
+- For the ship to work effectively, the player should control its equipment, population, and command staff — officers.
+- To do this, the player can upgrade/repair/replace compartments, appoint and dismiss officers, distribute the population among compartments, conduct propaganda, expel people from the ship, and recruit new on planets.
+- Equipment, crew, and population periodically create events that affect the state of the ship and provide a diverse background for the player's adventures.
 
-### Разведка, исследование, изучение как основные занятия игрока
+### Exploration, research, study are the main player activity
 
-- Поиск потеряных мест и объектов: звёздных систем, астероидов, космических баз, лабораторий, месторождений ресурсов, технологий.
-- Изучение свойств мест и объектов: распределение полезных ископаемых на планете, опасности грозящие при посещении системы, культура населения планеты, особенности найденой технологии.
-- Прокладка безопасных трасс между звёдными системами, налаживание торговых путей.
+- Search for lost places and objects: star systems, asteroids, space bases, laboratories, resource deposits, technologies.
+- Study properties of places and objects: distribution of minerals on the planet, dangers threatening when visiting the system, culture of the planet's population, features of the found technology.
+- Lay safe routes between star systems, establish trade routes.
 
-### Инфомация как базовая ценность в экономике
 
-- Катриджи с инфомацией — некопируемый товар: обмениваются, торгуются, занимают место в трюме, портятся. Сделать копию катриджа нельзя.
-- Все возможности в игре определяются наличием катриджей.
-- На катридже могут быть запиааны: части ника игрока, координаты звёздных систем, информация об объектах, рецепты крафта, протоколы коммуникации с планетами и игроками, боевые алгоритмы для корабля, контакты игроков в реальном мире, etc.
-- Часть кариджей игроки могут создавать (координаты звёздных систем), часть — только находить (рецепты крафта).
+### Cartridges with information are the basic value in the economy
 
-### Крафт как единственный источник предметов
+- Cartridges with information are a non-copyable commodities: they are exchangable, tradable, take up space in the hold, spoil. It is impossible to make a copy of a cartridge.
+- All actions in the game depend on the availability of cartridges with the necessary information.
+- Cartridges can contain: parts of the player's nickname, coordinates of star systems, information about equipment, crafting recipes, protocols of communication with planets and players, combat algorithms for the starship, contacts of players in the real world, etc.
+- Some cartridges can be created by players (coordinates of star systems), some can only be found (crafting recipes).
 
-- Всё в игре производится игроками: от экипировки экипажа до звёздных врат и станций.
-- Рецепты крафта находятся на катриджах, которыми игроки могут обмениваться.
-- Крафт возможен только на планетах. От строений на планете, культуры населения и доступных катриджей зависит что и как игрок может произвести.
-- Ресурсы добываются на планетах и астероидах, перевозятся непосредственно игроками или их автоматиизированным транспортом.
+### Crafting is the only source of items.
 
-### Живой процедурный мир, направляемый игроками
+- Everything in the game is made by players: from crew equipment to stargates and stations.
+- Crafting recipes are on cartridges that players can exchange.
+- Crafting is possible only on planets. What and how the player can produce depends on the structures on the planet, the culture of the population, and the available cartridges.
 
-- Единый персистентный сервер.
-- Все объекты создаются процедурно: от рецептов крафта до звёздных систем, социальных групп и рас.
-- Для команды корабля и населения систем симулируется общественное мнение и культура, которые определяют параметры населённых объектов и происходящие события.
-- Перенос культуры между группами населения в системах, на планетах, станциях и даже в командах кораблей.
-- Симуляция экономики поселений (планет, космических станций, кораблей) и торговли между ними.
-- Поток ресурсов и продукции между поселениями управляется игроками.
-- Развитие планет и систем управляется игроками.
+### Living player-driven procedural world
+
+- Single persistent server.
+- All objects are procedurally generated: from crafting recipes to star systems, social groups, and races.
+- Public opinion and culture are simulated for the ship's crew and population of systems, which determine events and parameters of inhabited objects.
+- Transfer of culture between population groups in systems, on planets, stations, and even in ship crew.
+- Simulation of the economy of settlements (planets, space stations, ships) and trade between them.
+- Flows of resources and products between settlements are controlled by players.
+- Development of planets and systems is managed by players.
 
 ## Игровой процесс
 
