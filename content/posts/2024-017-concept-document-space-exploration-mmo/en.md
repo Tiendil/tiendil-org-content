@@ -1,8 +1,8 @@
 ---
-title = "Концепт-документ ММО об исследовании космоса"
+title = "Concept document for a space exploration MMO"
 tags = [ "the-tale", "gamedev", "game-design", "concepts", "mmo", "monetization", "practice", "procedural-content-generation", "development", "interesting"]
 published_at = "2024-06-13T12:00:00+00:00"
-seo_description = "Концепт-документ ММО про исследование космоса: управляем звёздным кораблём — летающим городом: исследуем бесконечную вселенную, прокладываем маршруты между мирами, торгуйте информацией."
+seo_description = "Concept document for an MMO about space exploration: manage a starship the size of a flying city: explore the infinite universe, lay routes between worlds, trade information."
 seo_image = "images/cover.jpg"
 ---
 
@@ -11,37 +11,35 @@ src = "images/cover.jpg"
 caption = "???TODO???"
 ///
 
-Ещё один из вариантов концепта [Сказки](https://the-tale.org/) 2.0. Возможно, последний в этом формате: мне понравилось оформлять [концепт, как презентацию]{post:@choose-nearest-language:world-builders-2023-final-presentation}, пока занимался в школе [World Builders]{tags:world-builders}.
+One more concept for [The Tale](https://the-tale.org/). Probably, the last in this format: I enjoyed formatting the [concept as a presentation]{post:@choose-nearest-language:world-builders-2023-final-presentation} while studying at [World Builders]{tags:world-builders} school.
 
-## Название
+## Title
 
 Lords Captains MMO
 
-> Да, это калька с Warhammer 40k и [Rogue Trader](https://store.steampowered.com/app/2186680/Warhammer_40000_Rogue_Trader/) в частности, но для концепта пойдёт.
+> Yep, it's a rip-off from Warhammer 40k and [Rogue Trader](https://store.steampowered.com/app/2186680/Warhammer_40000_Rogue_Trader/), but it will do for the concept.
 
-## Одной строкой
+## One-liner
 
-Исследуй бесконечную вселенную на звёздном корабле с миллионами душ на борту, объединяй и развивай заброшенные миры.
+Explore the infinite universe on a starship with millions of souls on board, unite and develop abandoned worlds.
 
-## Платформы
+## Platforms
 
-Браузеры, мобильные.
+Browsers, mobile.
 
-## Жанр
+## Genre
 
-<!-- Exploration-driven trade-political MMO PVE sandbox -->
+Exploration-driven trade-political MMO PVE sandbox.
 
-Ориентированная на исследования торогово-политическая MMO PVE песочница.
+## Closest analogs
 
-## Ближайшие аналоги
-
-[EVE](https://en.wikipedia.org/wiki/Eve_Online), [Sim City](https://en.wikipedia.org/wiki/SimCity), [Crusader Kings](https://en.wikipedia.org/wiki/Crusader_Kings_(video_game)), [4X](https://en.wikipedia.org/wiki/4X) игры, [Rogue Trader](https://store.steampowered.com/app/2186680/Warhammer_40000_Rogue_Trader/).
+[EVE](https://en.wikipedia.org/wiki/Eve_Online), [Sim City](https://en.wikipedia.org/wiki/SimCity), [Crusader Kings](https://en.wikipedia.org/wiki/Crusader_Kings_(video_game)), [4X](https://en.wikipedia.org/wiki/4X) games, [Rogue Trader](https://store.steampowered.com/app/2186680/Warhammer_40000_Rogue_Trader/).
 
 <!-- more -->
 
-## Сеттинг
+## Setting
 
-Ржавый декадансный sci-fi в глубоком космосе в далёком тысячелетии. Чёрный юмор, сарказм, пафос.
+Rusty decadent sci-fi in deep space in the distant millennium. Black humor, sarcasm, pathos.
 
 Из-за катастрофы бесконечная космическая империя распалась, межзвёздные пути разрушены, связи между системами нет, знания и технологии безвозвратно утеряны. В попытке восстановить былое величие отправляются экспедиции в неизвестность. Огромные корабли, собранные из остатков технологий, населённые миллионами существ, ищут потерянные звёздные системы, прорываясь через опасности космоса.
 
