@@ -126,30 +126,30 @@ Diversity of gameplay is achieved with help of:
 
 ### Coregame
 
-Игрок может проводить множество операций в игре, но все они будут следовать общему шаблону:
+The player can perform many operations in the game, but all of them will follow a common pattern:
 
-1. Сформировать команду для выполнения задачи.
-2. Отправить команду в полуавтоматическом режиме проходить квест — нелинейную последовательность испытаний.
-3. Принимать решения / тратить ресурсы в ключевых точках квеста.
-4. Изучить результат квеста, перераспределить ресурсы, принять решения о дальнейших действиях.
+1. Form a team to complete the task.
+2. Send the team to complete the quest — a nonlinear sequence of trials — in semi-automatic mode.
+3. Make decisions / spend resources at key points of the quest.
+4. Review the quest results, distribute resources, make decisions about further actions.
 
-Пример прокладки нового пути между звёздными системами:
+The example of laying a new path between star systems:
 
-1. Подготовить корабль к путешествию в новую звёздную систему.
-2. Выбрать направление путешествия.
-3. Ход квеста:
-   - В начале путешествия уладить кризис морали команды в отсеке с двигателями.
-   - В середине путешествия выбрать между затратным, но безопасным, и дешёвым, но опасным путём.
-4. После прибытия сохранить проложенный путь на катридж, починить корабль, изучить новую звёздную систему.
+1. Prepare the ship for a journey to a new star system.
+2. Choose the direction of travel.
+3. The course of the quest:
+   - At the beginning of the journey, resolve the crisis of morale in the engine room.
+   - In the middle of the journey, choose between the costly but safe and the cheap but dangerous path.
+4. After arrival, save the path on a cartridge, repair the ship, explore the new star system.
 
-Пример строительства завода на планете:
+The example of building a factory on a planet:
 
-1. Выбрать катридж с чертежами завода.
-2. Сформировать команду офицеров, которая будет руководить постройкой.
-3. Ход квеста:
-  - В середине постройки определить каким способом решить проблему саботажа на стройке.
-  - В конце стройки решить, будет ли завод выпускать более качественную, но дорогую продукцию, или менее качественную, но дешёвую.
-4. После завершения строительства, загрузить продукцию на борт или проложить торговый маршрут на другую планету.
+1. Choose a cartridge with the factory blueprints.
+2. Form a team of officers to lead the construction.
+3. The course of the quest:
+   - At the beginning of the construction, decide how to solve the sabotage problem at the construction site.
+   - At the end of the construction, decide whether the factory will produce more expensive but higher quality products or cheaper but lower quality products.
+4. After the construction is completed, load the products on board or lay a trade route to another planet.
 
 ### Metagame
 
