@@ -184,26 +184,28 @@ Hypothetical example of subscription gradation:
 
 ## Marketing
 
-Стратегия маркетинга, как и монетизации, должна быть направлена на создание долгоиграющего растущего сообщества.
+The marketing strategy, like monetization, should be aimed at creating a long-playing growing community.
 
-### Целевая аудитория
+### Target audience
 
-- Взрослые люди, ищущие неторопливый многопользовательский геймплей: «хочу играть в ММО, но нет времени на рейды».
-- Группы друзей, желающие делать что-то совместно и найти ещё одну тему для общения.
-- Любители исследовательского геймплея.
-- Любители фантастики.
+- Adults looking for slow-paced multiplayer: "I want to play an MMO, but I don't have time for raids".
+- Groups of friends who want to do something together and find another topic for communication.
+- Fans of exploration gameplay.
+- Fans of optimization gameplay.
+- Fans of sci-fi.
 
-### Привлечение игроков
+### Players acquisition
 
-Имеет смысл сосредоточиться на следующих направлениях:
+It makes sense to focus on the following areas:
 
-- Игроки Сказки, как первые пользователи.
-- Реклама в полупрофессиональных сообществах игроков в MMORPG и стратегии.
-- Реклама среди любителей большого sci-fi: StarTrack, StarWars, Warhammer 40k, Dune.
-- Реклама среди фанатов инди colony sim игр и roguelike: RimWorld, Dwarf Fortress, etc.
-- Реклама среди фанатов sci-fi CRPG: MassEffect, Rogue Trader, Космические Рейнджеры.
+- Players of The Tale, as the first users.
+- Advertising in semi-professional communities of MMORPG and strategy players.
+- Advertising among fans of big sci-fi: StarTrack, StarWars, Warhammer 40k, Dune.
+- Advertising among fans of indie colony sim games and roguelike: RimWorld, Dwarf Fortress, etc.
+- Advertising among fans of sci-fi CRPG: MassEffect, Rogue Trader, Space Rangers.
+- Advertising among fans of "fabricators": Factorio, Satisfactory, Dyson Sphere Program.
 
-## Риски
+## Risks
 
 1. Может оказаться невозможно создать топологию вселенной, разрешающую бесконечное открытие новых звёздных систем. Перед разработкой необходим прототип правил генерации вселенной.
 2. Из-за большого набора оригинальных механик можно допустить много ошибок, если делать всё сразу. Необходим план спирального развития игры от минимального прототипа.
