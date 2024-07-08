@@ -11,7 +11,7 @@ src = "images/cover.jpg"
 caption = "???TODO???"
 ///
 
-One more concept for [The Tale](https://the-tale.org/). Probably, the last in this format: I enjoyed formatting the [concept as a presentation]{post:@choose-nearest-language:world-builders-2023-final-presentation} while studying at [World Builders]{tags:world-builders} school.
+One more concept for [The Tale](https://the-tale.org/). Probably, the last in this format: I enjoyed formatting the [concept as a presentation]{post:@choose-nearest-language:world-builders-2023-final-presentation} while studying at [World Builders]{tags:world-builders} school. But I plan to translate my old concepts from Russian to English, so, there will be more concepts similar to this one too.
 
 ## Title
 
@@ -41,26 +41,26 @@ Exploration-driven trade-political MMO PVE sandbox.
 
 Rusty decadent sci-fi in deep space in the distant millennium. Black humor, sarcasm, pathos.
 
-Из-за катастрофы бесконечная космическая империя распалась, межзвёздные пути разрушены, связи между системами нет, знания и технологии безвозвратно утеряны. В попытке восстановить былое величие отправляются экспедиции в неизвестность. Огромные корабли, собранные из остатков технологий, населённые миллионами существ, ищут потерянные звёздные системы, прорываясь через опасности космоса.
+Due to the catastrophe, the infinite space empire collapsed. Interstellar paths were destroyed, connections between systems were lost, and knowledge and technologies were irretrievably lost too. In an attempt to restore the former greatness, expeditions are sent into the unknown. Huge ships, assembled from the remains of technologies, populated by millions of beings, are looking for lost star systems, breaking through the dangers of space.
 
-## Стилистика
+## Stylistics
 
-Минималистичная. Ржавый sci-fi, изображения и текст как в старых текстовых консолях на CRT мониторах.
+Minimalistic. Rusty sci-fi, images and text as in old text consoles on CRT monitors.
 
-Основная информация подаётся текстом, пиктограммами, иконками.
+The most of the information is presented in text, pictograms, icons.
 
-Сложные элементы управления отображаются как мнемосхемы.
+Complex control elements are displayed as mnemonic diagrams.
 
-Для иллююстраций используется пиксель арт низкой детализации либо «старое дешёвое 3D».
+For illustrations, low-detail pixel art or "old cheap 3D" is used.
 
-## Особенности
+## Features
 
-- Неторопливый геймплей для взрослых людей.
-- Управление огромным звёздным кораблём — летающим городом.
-- Разведка, исследование, изучение как основные занятия игрока.
-- Катриджи с инфомацией как базовая ценность в экономике.
-- Крафт как единственный источник предметов.
-- Живой процедурный мир, направляемый игроками.
+- Slow-paced gameplay for adults.
+- Player manages a huge starship — a flying city.
+- Exploration, research, study is the main player activity.
+- Cartridges with information are the basic value in the economy.
+- Crafting is the only source of items.
+- Living player-driven procedural world.
 
 ### Неторопливый геймплей для взрослых людей
 
