@@ -106,24 +106,23 @@ For illustrations, low-detail pixel art or "old cheap 3D" is used.
 - Flows of resources and products between settlements are controlled by players.
 - Development of planets and systems is managed by players.
 
-## Игровой процесс
+## Gameplay
 
-Игрок выступает в ролик капитана огромного звёздного корабля.
+The player is a captain of a huge starship.
 
-Капитан использует корабль для влияния на внешинй мир а также управляет состоянием корабля и его экипажа, включая многомиллионное население.
+The captain uses the ship to influence the outside world and, simultaniosly, manages the state of the ship and its crew, including the multimillion population.
 
-Игрок исследует космос в посках информации и ресурсов, которые помогут ему развивать корабль и менять мир в интересную игроку сторону.
+The player explores space in search of information and resources that help him develop the ship and change the world in a fun way.
 
-Глобальный интерес игрока заключается в создании увлекательной истории вселенной в коллаборации и/или соревновании с другими игроками.
+The main player's interest is to create an exciting story of the universe in collaboration or competition with other players.
 
-Для этого он может помогать или мешать развитию звёздных поселений, изменять торговые пути между ними, манипулировать общественным мнением и культурой их населения.
+To do this, the player can help or hinder the development of star settlements, change trade routes between them, manipulate public opinion and culture of their population.
 
-Разнообразие геймплея обеспечивается за счёт:
+Diversity of gameplay is achieved with help of:
 
-- Столкновения интересов игроков.
-- Глобального моделирования экономики и культуры, что затрудняет оптимизацию игровой стратегии, но не нарушает честность игры.
-- Процедурной генерации приключений и событий.
-- Процедурной генерации всех объектов и событий в игре.
+- Conflicts of interest between players.
+- Global simulation of economy and culture, which complicates game strategy optimization but does not violate game fairness.
+- Procedural generation of adventures, events and objects.
 
 ### Coregame
 
