@@ -11,7 +11,9 @@ src = "cover.jpg"
 caption = "The expected poster for the game. (c) DALL-E"
 ///
 
-One more concept for [The Tale](https://the-tale.org/). Probably, the last in this format: I enjoyed formatting the [concept as a presentation]{post:@choose-nearest-language:world-builders-2023-final-presentation} while studying at [World Builders]{tags:world-builders} school. But I plan to translate my old concepts from Russian to English, so, there will be more concepts similar to this one too.
+As a hobby, I write concept documents for games. This is first in English. I have a few more in Russian and will eventually translate them.
+
+One more concept for [The Tale](https://the-tale.org/).
 
 ## Title
 
@@ -41,13 +43,13 @@ Exploration-driven trade-political MMO PVE sandbox.
 
 Rusty decadent sci-fi in deep space in the distant millennium. Black humor, sarcasm, pathos.
 
-Due to the catastrophe, the infinite space empire collapsed. Interstellar paths were destroyed, connections between systems were lost, and knowledge and technologies were irretrievably lost too. In an attempt to restore the former greatness, expeditions are sent into the unknown. Huge ships, assembled from the remains of technologies, populated by millions of beings, are looking for lost star systems, breaking through the dangers of space.
+Due to the catastrophe, the infinite space empire collapsed. Interstellar paths were destroyed, connections between systems were lost, and knowledge and technologies were irretrievably lost too. In an attempt to restore the former greatness, expeditions are sent into the unknown. Huge ships, assembled from the remains of technologies, populated by millions of beings, look for lost star systems, breaking through the dangers of space.
 
 ## Stylistics
 
 Minimalistic. Rusty sci-fi, images and text as in old text consoles on CRT monitors.
 
-The most of the information is presented in text, pictograms, icons.
+Most of the information is presented in text, pictograms, icons.
 
 Complex control elements are displayed as mnemonic diagrams.
 
@@ -56,8 +58,8 @@ For illustrations, low-detail pixel art or "old cheap 3D" is used.
 ## Features
 
 - Slow-paced gameplay for adults.
-- The player manages a huge starship — a flying city.
-- Exploration, research, study are the main player activity.
+- The player manages a giant starship — a flying city.
+- Exploration, research, study are the main player activities.
 - Cartridges with information are the basic value in the economy.
 - Crafting is the only source of items.
 - Living player-driven procedural world.
@@ -66,10 +68,10 @@ For illustrations, low-detail pixel art or "old cheap 3D" is used.
 
 - Short sessions, unhurried asynchronous play without harsh deadlines.
 - PvP, where the attacker risks more than the defender.
-- Infinite skill progression — the player sleeps, captain levels up. Skills for every action.
+- Infinite skill progression — the player sleeps while the captain levels up. Skills for every action.
 - Deep complex progression: available actions and their effectiveness depend on the components of the ship, the crew, connected cartridges, and character skills.
 
-### Player manages a huge starship — a flying city
+### The player manages a giant starship — a flying city
 
 - The player controls a ship the size of a city, inhabited by millions of beings.
 - For the ship to work effectively, the player should control its equipment, population, and command staff — officers.
@@ -85,7 +87,7 @@ For illustrations, low-detail pixel art or "old cheap 3D" is used.
 
 ### Cartridges with information are the basic value in the economy
 
-- Cartridges with information are a non-copyable commodities: they are exchangable, tradable, take up space in the hold, spoil. It is impossible to make a copy of a cartridge.
+- Cartridges with information are non-copyable commodities: exchangeable, tradable, take up space in the hold, spoil. It is impossible to make a copy of a cartridge.
 - All actions in the game depend on the availability of cartridges with the necessary information.
 - Cartridges can contain: parts of the player's nickname, coordinates of star systems, information about equipment, crafting recipes, protocols of communication with planets and players, combat algorithms for the starship, contacts of players in the real world, etc.
 - Some cartridges can be created by players (coordinates of star systems), some can only be found (crafting recipes).
@@ -101,28 +103,28 @@ For illustrations, low-detail pixel art or "old cheap 3D" is used.
 - Single persistent server.
 - All objects are procedurally generated: from crafting recipes to star systems, social groups, and races.
 - Public opinion and culture are simulated for the ship's crew and population of systems, which determine events and parameters of inhabited objects.
-- Transfer of culture between population groups in systems, on planets, stations, and even in ship crew.
+- Culture transfer between population groups in systems, on planets, stations, and even in ship crew.
 - Simulation of the economy of settlements (planets, space stations, ships) and trade between them.
 - Flows of resources and products between settlements are controlled by players.
 - Development of planets and systems is managed by players.
 
 ## Gameplay
 
-The player is a captain of a huge starship.
+The player is the captain of a giant starship.
 
 The captain uses the ship to influence the outside world and, simultaniosly, manages the state of the ship and its crew, including the multimillion population.
 
 The player explores space in search of information and resources that help him develop the ship and change the world in a fun way.
 
-The main player's interest is to create an exciting story of the universe in collaboration or competition with other players.
+The main player's interest is in creating an exciting story of the universe in collaboration or in competition with other players.
 
 To do this, the player can help or hinder the development of star settlements, change trade routes between them, manipulate public opinion and culture of their population.
 
-Diversity of gameplay is achieved with help of:
+Diversity of gameplay is achieved with the help of:
 
 - Conflicts of interest between players.
 - Global simulation of economy and culture, which complicates game strategy optimization but does not violate game fairness.
-- Procedural generation of adventures, events and objects.
+- Procedural generation of adventures, events, and objects.
 
 ### Coregame
 
@@ -138,7 +140,7 @@ The example of laying a new path between star systems:
 1. Prepare the ship for a journey to a new star system.
 2. Choose the direction of travel.
 3. The course of the quest:
-     - At the beginning of the journey, resolve the crisis of morale in the engine room.
+     - At the beginning of the journey, resolve the morale crisis in the engine room.
      - In the middle of the journey, choose between the costly but safe and the cheap but dangerous path.
 4. After arrival, save the path on a cartridge, repair the ship, explore the new star system.
 
@@ -148,12 +150,12 @@ The example of building a factory on a planet:
 2. Form a team of officers to lead the construction.
 3. The course of the quest:
      - At the beginning of the construction, decide how to solve the sabotage problem at the construction site.
-     - At the end of the construction, decide whether the factory will produce more expensive but higher quality products or cheaper but lower quality products.
-4. After the construction is completed, load the products on board or lay a trade route to another planet.
+     - At the end of the construction, decide whether the factory will produce more expensive but higher-quality products or cheaper but lower-quality products.
+4. After the construction, load the products on board or lay a trade route to another planet.
 
 ### Metagame
 
-Th player's goal on the meta level is to create an interesting situation in the galaxy and see what happens next.
+The player's goal on the meta-level is to create an interesting situation in the galaxy and see what happens next.
 
 To achieve this, the player can:
 
@@ -207,7 +209,7 @@ It makes sense to focus on the following areas:
 
 ## Risks
 
-1. It may be impossible to create a universe topology that allows for infinite discovery of new star systems. A prototype of the universe generation rules is needed before going full development.
+1. It may be impossible to create a universe topology that allows for infinite discovery of new star systems. Before proceeding to full development, a prototype of the universe generation rules is required.
 2. Due to the large set of original mechanics, many mistakes can be made if everything is done at once. A spiral development plan is needed from a minimal prototype.
 3. Due to the abundance of parameters and entities, the game can turn into a spreadsheet simulator. It is necessary to closely interact with the community to analyze user experience and improve the interface.
 4. It will not be possible to make procedural generation interesting enough. It is necessary to maximize the speed of feedback from the community and introduce metrics of quality of generation.
