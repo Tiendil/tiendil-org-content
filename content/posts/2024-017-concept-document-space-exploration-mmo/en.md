@@ -13,7 +13,7 @@ caption = "The expected poster for the game. (c) DALL-E"
 
 As a hobby, I write concept documents for games. This is first in English. I have a few more in Russian and will eventually translate them.
 
-One more concept for [The Tale](https://the-tale.org/).
+One more concept for [The Tale](https://the-tale.org/) 2.0.
 
 ## Title
 
@@ -43,7 +43,7 @@ Exploration-driven trade-political MMO PVE sandbox.
 
 Rusty decadent sci-fi in deep space in the distant millennium. Black humor, sarcasm, pathos.
 
-Due to the catastrophe, the infinite space empire collapsed. Interstellar paths were destroyed, connections between systems were lost, and knowledge and technologies were irretrievably lost too. In an attempt to restore the former greatness, expeditions are sent into the unknown. Huge ships, assembled from the remains of technologies, populated by millions of beings, look for lost star systems, breaking through the dangers of space.
+Due to the catastrophe, the infinite space empire collapsed. Interstellar paths were destroyed, connections between systems were lost, knowledge and technologies were irretrievably forgotten. In an attempt to restore the former greatness, expeditions are sent into the unknown. Huge ships, assembled from the remains of technologies, populated by millions of beings, look for lost star systems, breaking through the dangers of space.
 
 ## Stylistics
 
