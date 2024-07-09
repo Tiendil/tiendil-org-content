@@ -2,7 +2,7 @@
 title = "Concept document for a space exploration MMO"
 tags = [ "the-tale", "gamedev", "game-design", "concepts", "mmo", "monetization", "practice", "procedural-content-generation", "development", "interesting"]
 published_at = "2024-06-13T12:00:00+00:00"
-seo_description = "Concept document for an MMO about space exploration: manage a starship the size of a flying city: explore the infinite universe, lay routes between worlds, trade information."
+seo_description = "Concept document for a space exploration MMO: fly a Titan-class starship, explore the infinite universe, lay routes between worlds, trade information."
 seo_image = "cover.jpg"
 ---
 
