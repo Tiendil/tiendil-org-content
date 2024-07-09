@@ -1,14 +1,14 @@
 ---
 title = "Concept document for a space exploration MMO"
 tags = [ "the-tale", "gamedev", "game-design", "concepts", "mmo", "monetization", "practice", "procedural-content-generation", "development", "interesting"]
-published_at = "2024-06-13T12:00:00+00:00"
+published_at = "2024-07-09T12:00:00+00:00"
 seo_description = "Concept document for a space exploration MMO: fly a Titan-class starship, explore the infinite universe, lay routes between worlds, trade information."
 seo_image = "cover.jpg"
 ---
 
 /// brigid-images
 src = "cover.jpg"
-alt = "The expected poster for the game."
+caption = "The expected poster for the game. (c) DALL-E"
 ///
 
 One more concept for [The Tale](https://the-tale.org/). Probably, the last in this format: I enjoyed formatting the [concept as a presentation]{post:@choose-nearest-language:world-builders-2023-final-presentation} while studying at [World Builders]{tags:world-builders} school. But I plan to translate my old concepts from Russian to English, so, there will be more concepts similar to this one too.
@@ -138,8 +138,8 @@ The example of laying a new path between star systems:
 1. Prepare the ship for a journey to a new star system.
 2. Choose the direction of travel.
 3. The course of the quest:
-   - At the beginning of the journey, resolve the crisis of morale in the engine room.
-   - In the middle of the journey, choose between the costly but safe and the cheap but dangerous path.
+     - At the beginning of the journey, resolve the crisis of morale in the engine room.
+     - In the middle of the journey, choose between the costly but safe and the cheap but dangerous path.
 4. After arrival, save the path on a cartridge, repair the ship, explore the new star system.
 
 The example of building a factory on a planet:
@@ -147,8 +147,8 @@ The example of building a factory on a planet:
 1. Choose a cartridge with the factory blueprints.
 2. Form a team of officers to lead the construction.
 3. The course of the quest:
-   - At the beginning of the construction, decide how to solve the sabotage problem at the construction site.
-   - At the end of the construction, decide whether the factory will produce more expensive but higher quality products or cheaper but lower quality products.
+     - At the beginning of the construction, decide how to solve the sabotage problem at the construction site.
+     - At the end of the construction, decide whether the factory will produce more expensive but higher quality products or cheaper but lower quality products.
 4. After the construction is completed, load the products on board or lay a trade route to another planet.
 
 ### Metagame
@@ -218,20 +218,20 @@ It makes sense to focus on the following areas:
 
 1. Players registration.
 2. Players travel through the procedural universe.
-   - Space map.
-   - Generation of new systems.
-   - Movement between systems.
+     - Space map.
+     - Generation of new systems.
+     - Movement between systems.
 3. Nonlinear quest system for:
-   - laying routes in space;
-   - researching a star system;
-   - exploring the "dungeon" on a planet.
+     - laying routes in space;
+     - researching a star system;
+     - exploring the "dungeon" on a planet.
 4. Inhabited planets with basic economy.
 5. Ship compartments.
 6. Cartridges with information:
-   - routes in space;
-   - maps of star systems;
-   - algorithms for ship compartments;
-   - parts of player nicknames;
-   - contacts of players in real life.
+     - routes in space;
+     - maps of star systems;
+     - algorithms for ship compartments;
+     - parts of player nicknames;
+     - contacts of players in real life.
 7. Exchange between players.
 8. Building factories on planets and producing goods.
