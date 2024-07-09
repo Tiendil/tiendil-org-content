@@ -3,12 +3,12 @@ title = "Концепт-документ ММО об исследовании к
 tags = [ "the-tale", "gamedev", "game-design", "concepts", "mmo", "monetization", "practice", "procedural-content-generation", "development", "interesting"]
 published_at = "2024-06-13T12:00:00+00:00"
 seo_description = "Концепт-документ ММО про исследование космоса: управляем звёздным кораблём — летающим городом: исследуем бесконечную вселенную, прокладываем маршруты между мирами, торгуйте информацией."
-seo_image = "images/cover.jpg"
+seo_image = "cover.jpg"
 ---
 
 /// brigid-images
-src = "images/cover.jpg"
-caption = "???TODO???"
+src = "cover.jpg"
+alt = "Предполагаемый постер для игры."
 ///
 
 Ещё один из вариантов концепта [Сказки](https://the-tale.org/) 2.0. Возможно, последний в этом формате: мне понравилось оформлять [концепт, как презентацию]{post:@choose-nearest-language:world-builders-2023-final-presentation}, пока занимался в школе [World Builders]{tags:world-builders}.

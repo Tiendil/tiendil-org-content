@@ -3,12 +3,12 @@ title = "Concept document for a space exploration MMO"
 tags = [ "the-tale", "gamedev", "game-design", "concepts", "mmo", "monetization", "practice", "procedural-content-generation", "development", "interesting"]
 published_at = "2024-06-13T12:00:00+00:00"
 seo_description = "Concept document for an MMO about space exploration: manage a starship the size of a flying city: explore the infinite universe, lay routes between worlds, trade information."
-seo_image = "images/cover.jpg"
+seo_image = "cover.jpg"
 ---
 
 /// brigid-images
-src = "images/cover.jpg"
-caption = "???TODO???"
+src = "cover.jpg"
+alt = "The expected poster for the game."
 ///
 
 One more concept for [The Tale](https://the-tale.org/). Probably, the last in this format: I enjoyed formatting the [concept as a presentation]{post:@choose-nearest-language:world-builders-2023-final-presentation} while studying at [World Builders]{tags:world-builders} school. But I plan to translate my old concepts from Russian to English, so, there will be more concepts similar to this one too.
