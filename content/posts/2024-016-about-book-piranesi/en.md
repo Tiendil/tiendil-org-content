@@ -21,6 +21,8 @@ The latter blows my mind. As an engineer, I'm an intuitive reductionist due to p
 
 By the way, don't confuse holism with, say, an engineering view of the world, a-la [systems engineering]{post:@choose-nearest-language:about-system-thinking} or even science. The latter is about decomposing reality into isolated parts with clear boundaries and synthesizing "pure" [models of the world]{post:@choose-nearest-language:life-and-work-with-models}, while in holism, the parts have no clear boundaries and penetrate each other.
 
+But it is my interpretation, there are interpretations when holism is just an alternative name for a systems thinking/view — it's hard to find literature on this topic now, so it's hard for me to say where the truth is.
+
 So, "Piranesi"
 
 <!-- more -->
