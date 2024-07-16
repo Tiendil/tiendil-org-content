@@ -1,8 +1,8 @@
 ---
 title = "О книге «Сигнал и Шум»"
-tags = ["books", "thinking", "theory", "practice"]
+tags = ["books", "thinking", "theory", "practice", "interesting"]
 published_at = "2024-07-16T12:00:00+00:00"
-seo_description = "TODO"
+seo_description = "Отзыв на книгу «Сигнал и Шум». Хороший обзор подходов к прогнозированию на примере конкретных задач."
 seo_image = "./cover_ru.jpg"
 ---
 
@@ -10,8 +10,6 @@ seo_image = "./cover_ru.jpg"
 src = "./cover_ru.jpg"
 alt = "Обложка книги «Сигнал и Шум»."
 ///
-
-TODO: systems, state, economics, psychology, interesting
 
 [Нейт Сильвер](https://en.wikipedia.org/wiki/Nate_Silver) — автор «Сигнала и Шума» — широко известен благодаря своим удачным прогнозам, например, выборов в США. Не удивительно, что книга стала бестселлером.
 
