@@ -80,37 +80,37 @@ As I mentioned, the book follows the structure: one chapter — one case — sev
 
 ## Helpful facts
 
-A few facts, that instantly slightly improve your world model.
+Here are a few facts that instantly slightly improve your world model.
 
-- Even when political experts claimed the impossibility of a certain event, it happened in about 15% of cases.
+- Even when political experts claimed a particular event was impossible, this happened in about 15% of cases.
 - Models that predicted USA elections without considering voter surveys (based on economic indicators, etc.) were less accurate than those that used survey results.
-- In the 1990s, economists were able to predict only 2 out of 60 recessions.
+- In the 1990s, economists could predict only 2 out of 60 recessions.
 - Basic economic indicators are often significantly revised (retrospectively, as new data becomes available), making them very inaccurate.
 - In some economic forecasts, the probability of the 2008 economic crisis was estimated to be 200 times less than in the post-factum estimates.
 - The accuracy of precipitation forecasts can be increased by 25% by manual post-processing by experts, and weather forecasts by 10%. This statistic does not change over time, i.e., it does not depend on the technologies used.
 - Commercial meteorologists rarely say that the probability of rain is 50% — this may be a sign of uncertainty for consumers. Instead, they flip a coin and choose 40% or 60%.
 - The anonymity of experts reduces the quality of their forecasts.
-- The official position of the [USGS](https://en.wikipedia.org/wiki/United_States_Geological_Survey) on earthquakes: it is impossible to predict earthquakes, but it is possible to forecast them.
+- The official position of the [USGS](https://en.wikipedia.org/wiki/United_States_Geological_Survey) on earthquakes is that they are impossible to predict, but they can be forecast.
 - If you cannot identify 1-2 bad players at the poker table during the game, it is better to refuse to play.
 
 ## Aggregated forecasts vs individual forecasts
 
-- An aggregated forecast is always better than most individual forecasts, but not necessarily good.
-- An aggregated forecast works well when individual forecasts are made independently and then combined. If there is a mechanism like a market, when people refine forecasts based on the previous aggregated forecast, the influence of group behavior is significantly enhanced, and the quality of the forecast decreases.
+- An aggregated forecast is always better than most individual forecasts but not necessarily good.
+- An aggregated forecast works well when individual forecasts are made independently and then combined. In case there is a mechanism like a market when people refine individual forecasts based on the previous aggregated forecast, the influence of group behavior is significantly enhanced, and the quality of the aggregated forecast decreases.
 - An aggregated forecast is not always better than the best of the individual forecasts.
 
 ## About good forecasts
 
 - Your forecasts can and should change over time.
-- A distinctive feature of a good probabilistic forecast is that each of its probabilities can be realized in the long term.
-- The probability of an event at X% says that over a long period of time / when checking a large number of similar situations, this event will occur in X% of cases. If this is not the case, the forecast was bad.
-- It is useful to weigh qualitative information. For example, after an interview, the specific information received may not be as important as its sum: the number of red flags, the overall impression. [I follow this rule in my interviews]{post:@choose-nearest-language:how-to-fail-interview-with-me}.
+- A distinctive feature of a good probabilistic forecast is that each probability can be realized in the long term.
+- The probability of an event at X% says that over a long period / when checking a large number of similar situations, this event will occur in X% of cases. If this is not the case, the forecast was bad.
+- It is useful to weigh qualitative information. For example, after an interview, the specific information received may not be as significant as its sum: the number of red flags, the overall impression. [I follow this rule in my interviews]{post:@choose-nearest-language:how-to-fail-interview-with-me}.
 
 ## A little about trading on the stock exchange
 
 - Stock trading in our days is organized in a way that managers and traders are only interested in short-term planning (90 days). For them it is important only what competitors are doing right now, and to be not fired by clients for mistakes in this period.
 - Traders are inclined to make decisions that will lead to the loss of money by their firms if it allows them to "merge with the crowd" and, thereby, reduce the chances of becoming a scapegoat.
-- The stock market can remain irrational longer than you can remain solvent.
+- The stock market can remain irrational longer than you can stay solvent.
 
 ## Quality of forecasts
 
@@ -125,7 +125,7 @@ These variants can contradict each other. For example, a very accurate forecast 
 ## Fun facts
 
 - In [one of the first printed editions of the Bible](https://en.wikipedia.org/wiki/Wicked_Bible), there was a typo in the commandment: instead of "do not commit adultery," they printed "commit adultery."
-- Baseball games are held in non-standard arenas — each stadium is unique in its size. Apparently for the same reason that the US has not switched to the [SI](https://en.wikipedia.org/wiki/International_System_of_Units).
-- In the 2000s in San Francisco, there was an increase in sexually transmitted diseases, but not AIDS. This put everyone in a stupor, as it used to correlate very well with them. It turned out that people had changed their behavior: they started choosing partners with the same AIDS status, which disturbed the previous models of AIDS spread.
-- Due to the 95% confidence interval in a statistical test, researchers are significantly more likely to report results that fall within the 95.1% interval than the 94.9% interval.
+- Baseball games are held in non-standard arenas — each stadium is unique in its size. Apparently, for the same reason why the US has not switched to the [SI](https://en.wikipedia.org/wiki/International_System_of_Units).
+- In the 2000s, in San Francisco, there was an increase in sexually transmitted diseases, but not AIDS. This put everyone in a stupor, as it used to correlate very well with them. It turned out that people had changed their behavior: they started choosing partners with the same AIDS status, which disturbed the previous models of AIDS spread.
+- Due to the 95% confidence interval in a statistical test, researchers are significantly more likely to report results within the 95.1% interval than the 94.9% interval.
 - Investments by US Congress members yield 5-10% more profit per year than average. Hypothetically, due to insider information that comes to them while lobbying for corporate interests.
