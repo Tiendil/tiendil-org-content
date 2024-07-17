@@ -99,12 +99,12 @@ A few facts, that instantly slightly improve your world model.
 - An aggregated forecast works well when individual forecasts are made independently and then combined. If there is a mechanism like a market, when people refine forecasts based on the previous aggregated forecast, the influence of group behavior is significantly enhanced, and the quality of the forecast decreases.
 - An aggregated forecast is not always better than the best of the individual forecasts.
 
-## Про хорошие прогнозы
+## About good forecasts
 
-- Ваши прогнозы могут и должны меняться со временем.
-- Отличительная черта хорошего веростностного прогноза в том, что каждая из его вероятностей может реализоваться в долгосрочной перспективе.
-- Вероятность события в Х% говорит, что на большом интервале времени / при проверки большого количества аналогичных ситуаций это событие будет случаться в X% случаев. Если это не выполняется — прогноз был плох.
-- Полезно взвешивать качественную информацию. Например, после собеса может быть не так важна конкретная полученная информация, сколько её сумма: количество красных флагов, общее впечатление. [Следую этому правилу на своих собесах]{post:how-to-fail-interview-with-me}.
+- Your forecasts can and should change over time.
+- A distinctive feature of a good probabilistic forecast is that each of its probabilities can be realized in the long term.
+- The probability of an event at X% says that over a long period of time / when checking a large number of similar situations, this event will occur in X% of cases. If this is not the case, the forecast was bad.
+- It is useful to weigh qualitative information. For example, after an interview, the specific information received may not be as important as its sum: the number of red flags, the overall impression. [I follow this rule in my interviews]{post:@choose-nearest-language:how-to-fail-interview-with-me}.
 
 ## Немного про торговлю на бирже
 
