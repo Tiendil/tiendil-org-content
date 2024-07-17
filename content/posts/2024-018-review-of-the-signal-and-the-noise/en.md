@@ -106,13 +106,13 @@ A few facts, that instantly slightly improve your world model.
 - The probability of an event at X% says that over a long period of time / when checking a large number of similar situations, this event will occur in X% of cases. If this is not the case, the forecast was bad.
 - It is useful to weigh qualitative information. For example, after an interview, the specific information received may not be as important as its sum: the number of red flags, the overall impression. [I follow this rule in my interviews]{post:@choose-nearest-language:how-to-fail-interview-with-me}.
 
-## Немного про торговлю на бирже
+## A little about trading on the stock exchange
 
-- Сейчас торговля устроена так, что менеджеры и трейдеры заинтересованы только в краткосрочном планировании (90 дней). Им важно, что прямо сейчас делают конкурены, и чтобы их не уволили клиенты за ошибки в этом промежутке.
-- Трейдеры склонны принимать решения, которые приведут к потери денег их фирмами, если это позволит им «слиться с толпой» и, тем самым, уменьшит шансы стать козлом отпущения.
-- Рынок может продолжать оставаться нерациональным дольше, чем вы — платёжеспособным.
+- Stock trading in our days is organized in a way that managers and traders are only interested in short-term planning (90 days). For them it is important only what competitors are doing right now, and to be not fired by clients for mistakes in this period.
+- Traders are inclined to make decisions that will lead to the loss of money by their firms if it allows them to "merge with the crowd" and, thereby, reduce the chances of becoming a scapegoat.
+- The stock market can remain irrational longer than you can remain solvent.
 
-## Оценка качества прогнозов
+## Quality of forecasts
 
 Качество прогнозов можно оценивать по-разному. Метрикой качества могут быть:
 
