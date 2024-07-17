@@ -27,22 +27,22 @@ Therefore, I will review the book as a whole, provide an approximate list of pri
 
 The book contains an interesting, consistent presentation of the author's experience in forecasting, his thoughts, and beliefs.
 
-The wide coverage of the topic is the strong point of the book. For each aspect of forecasting, Nate chooses a suitable real-life example that reflects the problem best.
+The comprehensive coverage of the topic is the strong point of the book. For each aspect of forecasting, Nate chooses a suitable real-life example that best reflects the problem.
 
-The author believes that forecasting is not the experts-only job, but a daily activity for everyone. Therefore, everyone should be able to make good-enough forecasts.
+The author believes forecasting is not an experts-only job but a daily activity for everyone. Therefore, everyone should be able to make good-enough forecasts.
 
 Much of what is presented in the book resonates with my posts on [models](post:@choose-nearest-language:life-and-work-with-models) and [mistakes](post:@choose-nearest-language:life-and-work-with-mistakes). Therefore, I cannot but recommend "The Signal and the Noise" :-)
 
-Nate is a consistent Bayesian and gives a good description of the Bayesian view of probability in simple words. I rarely met an accessible presentation of Bayesian decision-making, so this is a definite plus for the book.
+Nate is a consistent Bayesian and describes the Bayesian view of probability in simple words. I rarely met an accessible presentation of Bayesian decision-making, so this is a definite plus for the book.
 
-One of the minuses I would highlight is the strange positioning of the book — it is somewhere between scientific and popular science spheres. It is not clear what level of knowledge the author expects from the reader. The general style of presentation does not require deep knowledge, but sometimes Nate introduces specific terms (model, feedback, etc.) too easily, without explanation. This can slightly complicate the perception of the book for beginners.
+One of the minuses I would highlight is the strange positioning of the book — it is somewhere between the scientific and the popular science spheres. It is unclear what level of knowledge the author expects from the reader. The general presentation style does not require deep knowledge, but sometimes Nate introduces specific terms (model, feedback, etc.) too easily, without explanation. This can slightly complicate the perception of the book for beginners.
 
-Also, note that the author holds his own concrete point of view on many questions. I usually agree with him, but it is still a biased presentation. The book rather reflects the author's views and experience than gives an independent objective picture.
+Also, note that the author holds his own concrete point of view on many questions. I usually agree with him, but it is still a biased presentation. The book reflects the author's views and experience rather than giving an independent, objective picture.
 
 "Signal and Noise" will be interesting to you if:
 
 - you want to expand your horizons in forecasting and related areas;
-- you want to ground the theory in your head, correlate it with real situations.
+- you want to ground the theory in your head and correlate it with real situations.
 
 If you want to improve your theory, the book may not be suitable for you, but:
 
@@ -58,9 +58,9 @@ Nate separates the book into two parts:
 
 But I wouldn't say that these topics are so clearly distinguished.
 
-Also, in the introduction, the author gives a more detailed summary of the chapters, but I don't like it either. Not because it's bad (the author knows better), but because I came up with a better one :-D
+Also, the author gives a more detailed summary of the chapters in the introduction, but I came up with a better one :-D
 
-As I mentioned, the book follows the structure: one chapter — one case — several prisms this case reflects well. In some chapters, it is difficult to distinguish prisms, plus, the idea itself came to me after reading, so I might forget/miss something. But here's how I see the structure of "The Signal and the Noise":
+As I mentioned, the book follows the structure: one chapter — one case — several prisms this case demonstrates well. In some chapters, it isn't easy to distinguish prisms; plus, the idea itself came to me after reading — I might forget/miss something. But here's how I see the structure of "The Signal and the Noise":
 
 | Task / Case                                      | Topics / Prisms                                   |
 |--------------------------------------------------|---------------------------------------------------|
@@ -72,13 +72,13 @@ As I mentioned, the book follows the structure: one chapter — one case — sev
 | Predicting economy                               | forecast errors, [correlation](https://en.wikipedia.org/wiki/Correlation) vs causation |
 | Predicting epidemics                             | [extrapolation](https://en.wikipedia.org/wiki/Extrapolation), [simulation modeling](https://en.wikipedia.org/wiki/Simulation_modeling)                                                                                |
 | Predicting sports results                        | [Bayesian theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem), [Fisher statistics](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) vs [Bayesian](https://en.wikipedia.org/wiki/Bayesian_statistics)  |
-| Chess                                            | [brute force](https://en.wikipedia.org/wiki/Brute-force_search), [heuristics](https://en.wikipedia.org/wiki/Heuristic)                                                          |
-| Poker                                            | poker economics, role of luck, efficiency in the long run |
-| Stock trading                                    | stock market as a forecast market, group forecasts        |
-| Climate change                                   | when there are much more noise than signal                |
-| Predicting terrorist attacks and rare events     | when there are too many signals, significance of signals  |
+| Chess                                            | [brute force](https://en.wikipedia.org/wiki/Brute-force_search), [heuristics](https://en.wikipedia.org/wiki/Heuristic)                                                              |
+| Poker                                            | poker economics, the role of luck, efficiency in the long run |
+| Stock trading                                    | stock market as a forecast market, group forecasts            |
+| Climate change                                   | when there is much more noise than signal                     |
+| Predicting terrorist attacks and rare events     | when there are too many signals, the significance of signals  |
 
-## Helpfull facts
+## Helpful facts
 
 A few facts, that instantly slightly improve your world model.
 
