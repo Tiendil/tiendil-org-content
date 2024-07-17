@@ -114,18 +114,18 @@ A few facts, that instantly slightly improve your world model.
 
 ## Quality of forecasts
 
-Качество прогнозов можно оценивать по-разному. Метрикой качества могут быть:
+The quality of forecasts can be evaluated in different ways. The metrics of quality can be:
 
-- качество/правильность — на сколько прогноз выполнился;
-- последовательность/честность — был ли прогноз лучшим из возможных, использовал ли он все данные;
-- экономическая ценность — удалось ли использовать прогноз для экономической выгоды.
+- accuracy/correctness — how the forecast corresponds to reality;
+- consistency/honesty — was the forecast the best possible, did it use all the data;
+- economic value — was the forecast used for economic benefit.
 
-Варианты могут противоречить друг другу. Например, очень точный прогноз может быть сделан на основе плохих данных или не принести выгоду, потому что предсказал всё, кроме того единственного, что надо было.
+These variants can contradict each other. For example, a very accurate forecast can be made based on bad data or not bring benefits because it predicted everything except what was required.
 
-## Забавные факты
+## Fun facts
 
-- В [одном из первых печатных изданий библии](https://ru.wikipedia.org/wiki/Злая_Библия) была опечатка в заповеди: вместо «не прелюбодействуй» напечатали «прелюбодействуй».
-- Оказывается, бейсбольные игры проходят на нестандартных аренах — каждый стадион уникален по своим параметрам. Видимо по той же причине, по которой в США не переходят на [СИ](https://ru.wikipedia.org/wiki/Международная_система_единиц).
-- В 00-х в Сан-Франциско росла заболеваемость половыми заболеваниями, но не СПИД-ом. Это ставило всех в тупик, так как он раньше очень хорошо коррелировал с ними. Оказалось, изменилось поведение людей: они начали выбирать партнёров с тем же СПИД статусом, что разрушило предыдущие модели распространения СПИДа.
-- Из-за доверительного интервала в 95% в статистическом тесте, исследователи значительно чаще сообщают о результатах, которые попадают в интервал 95.1% чем в 94.9%
-- Инвестиции членов Конкресса США дают прибыль на 5-10% в год выше среднего. Гипотетически, из-за инстайдерской информации, которая попадает к ним при лоббировании интересов компаний.
+- In [one of the first printed editions of the Bible](https://en.wikipedia.org/wiki/Wicked_Bible), there was a typo in the commandment: instead of "do not commit adultery," they printed "commit adultery."
+- Baseball games are held in non-standard arenas — each stadium is unique in its size. Apparently for the same reason that the US has not switched to the [SI](https://en.wikipedia.org/wiki/International_System_of_Units).
+- In the 2000s in San Francisco, there was an increase in sexually transmitted diseases, but not AIDS. This put everyone in a stupor, as it used to correlate very well with them. It turned out that people had changed their behavior: they started choosing partners with the same AIDS status, which disturbed the previous models of AIDS spread.
+- Due to the 95% confidence interval in a statistical test, researchers are significantly more likely to report results that fall within the 95.1% interval than the 94.9% interval.
+- Investments by US Congress members yield 5-10% more profit per year than average. Hypothetically, due to insider information that comes to them while lobbying for corporate interests.
