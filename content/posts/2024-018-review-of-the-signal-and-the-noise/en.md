@@ -15,7 +15,7 @@ alt = "The cover of the book \"The Signal and the Noise\"."
 
 As you might guess, the book is about forecasts. More precisely, it is about approaches to forecasting, complexities, errors, misconceptions, and so on.
 
-As usual, I expected a more theoretical approach, in the spirit of [Scale](post:@choose-nearest-language:scale), but the author chose a different path and presents his ideas through the analysis of practical cases: one case per chapter. Each chapter describes a significant task, such as weather forecasting, and provides several prisms for looking at building predictions. This certainly makes the material more accessible, but personally, I would like more systematics and theory.
+As usual, I expected a more theoretical approach, in the spirit of [Scale](post:@choose-nearest-language:scale), but the author chose a different path and presents his ideas through the analysis of practical cases: one case per chapter. Each chapter describes a significant task, such as weather forecasting, and provides several prisms for looking at building forecasts. This certainly makes the material more accessible, but personally, I would like more systematics and theory.
 
 Because of the case studies approach, it is difficult to make a brief summary of the book. It is possible, it would even be interesting to try, but the amount of work is too large — the author did not has the goal to provide a coherent system or a short set of basic theses.
 
@@ -51,34 +51,34 @@ If you want to improve your theory, the book may not be suitable for you, but:
 
 ## Structure of the book
 
-Нейт делит книгу на две части:
+Nate separates the book into two parts:
 
-- Первая: диагностика проблем предсказания.
-- Вторая: изучение и применение теоремы Байеса.
+- The first: diagnosing the problems of forecasting.
+- The second: studying and applying Bayes' theorem.
 
-Но я бы не сказал, что эти темы так уж явно выделяются.
+But I wouldn't say that these topics are so clearly distinguished.
 
-Также, во введение автор даёт более детальное резюме главам, но мне оно тоже не нравится. Не потому, что плохое (автору виднее), а потому, что я придумал лучше :-D
+Also, in the introduction, the author gives a more detailed summary of the chapters, but I don't like it either. Not because it's bad (the author knows better), but because I came up with a better one :-D
 
-Как я упоминал, книга следует структуре: одна глава — один кейс — несколько призм, которые хорошо отображает этот кейс. Не во всех главах легко выделить призмы, плюс, сама идея пришла ко мне после прочтения, поэтому что-то мог забыть. Но вот как я вижу структуру «Сигнала и Шума»:
+As I mentioned, the book follows the structure: one chapter — one case — several prisms this case reflects well. In some chapters, it is difficult to distinguish prisms, plus, the idea itself came to me after reading, so I might forget/miss something. But here's how I see the structure of "The Signal and the Noise":
 
-| Задача / Кейс                                    | Темы / Призмы                                 |
-|--------------------------------------------------|-----------------------------------------------|
-| Финансовый кризис 2008                           | причины и следствия неудачных прогнозов       |
-| Предсказание результатов выборов                 | эксперты vs опросы общественного мнения       |
-| Предсказание результатов бейсбольных чемпионатов | эксперты vs статистика                        |
-| Прогноз погоды                                   | компьютерное моделирование, [накопление ошибки]{post:life-and-work-with-mistakes}         |
-| Предсказание землетрясений                       | предсказание vs прогноз, [переобучение](https://ru.wikipedia.org/wiki/Переобучение)       |
-| Предсказание экономики                           | погрешность прогнозов, [корреляция](https://ru.wikipedia.org/wiki/Корреляция) vs казуация |
-| Предсказание эпидемий                            | [экстраполяция](https://ru.wikipedia.org/wiki/Экстраполяция), [имитационное моделирование](https://ru.wikipedia.org/wiki/Имитационное_моделирование)  |
-| Ставки на спорт ~~1x bet~~                       | [теорема Байеса](https://ru.wikipedia.org/wiki/Теорема_Байеса), [Фишеровская статистика](https://ru.wikipedia.org/wiki/Проверка_статистических_гипотез) vs [Байесовская](https://ru.wikipedia.org/wiki/Байесианство) |
-| Шахматы                                          | [перебор вариантов](https://ru.wikipedia.org/wiki/Полный_перебор), [эвристики](https://ru.wikipedia.org/wiki/Эвристика) |
-| Покер                                            | экономика покера, роль удачи, результативность в долгосрочной перспективе |
-| Торговля на бирже                                | биржа как рынок прогнозов, групповые прогнозы                             |
-| Изменение климата                                | когда шума больше, чем сигнала                                            |
-| Предсказание терактов и редких событий           | когда сигналов слишком много, значимость сигналов                         |
+| Task / Case                                      | Topics / Prisms                                   |
+|--------------------------------------------------|---------------------------------------------------|
+| The financial crisis of 2008                     | causes and consequences of unsuccessful forecasts |
+| Predicting election results                      | experts vs social surveys                         |
+| Predicting baseball championships                | experts vs statistics                             |
+| Weather forecast                                 | computer modeling, [accumulation of errors](post:@choose-nearest-language:life-and-work-with-mistakes)         |
+| Predicting earthquakes                           | prediction vs forecast, [overfittings](https://en.wikipedia.org/wiki/Overfitting)       |
+| Predicting economy                               | forecast errors, [correlation](https://en.wikipedia.org/wiki/Correlation) vs causation |
+| Predicting epidemics                             | [extrapolation](https://en.wikipedia.org/wiki/Extrapolation), [simulation modeling](https://en.wikipedia.org/wiki/Simulation_modeling)  |
+| Predicting sports results                        | [Bayesian theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem), [Fisher statistics](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) vs [Bayesian](https://en.wikipedia.org/wiki/Bayesian_statistics) |
+| Chess                                            | [brute force](https://en.wikipedia.org/wiki/Brute-force_search), [heuristics](https://en.wikipedia.org/wiki/Heuristic) |
+| Poker                                            | poker economics, role of luck, efficiency in the long run |
+| Stock trading                                    | stock market as a forecast market, group forecasts        |
+| Climate change                                   | when there are much more noise than signal                |
+| Predicting terrorist attacks and rare events     | when there are too many signals, significance of signals  |
 
-## Полезные факты
+## Helpfull facts
 
 Несколько утверждений, которые сразу немного подправят вашу картину мира.
 
