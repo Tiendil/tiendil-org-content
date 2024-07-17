@@ -62,6 +62,22 @@ Also, in the introduction, the author gives a more detailed summary of the chapt
 
 As I mentioned, the book follows the structure: one chapter — one case — several prisms this case reflects well. In some chapters, it is difficult to distinguish prisms, plus, the idea itself came to me after reading, so I might forget/miss something. But here's how I see the structure of "The Signal and the Noise":
 
+| Task / Case                                      | Topics / Prisms                                   |
+|--------------------------------------------------|---------------------------------------------------|
+| The financial crisis of 2008                     | causes and consequences of unsuccessful forecasts |
+| Predicting election results                      | experts vs social surveys                         |
+| Predicting baseball championships                | experts vs statistics                             |
+| Weather forecast                                 | computer modeling, [accumulation of errors](post:@choose-nearest-language:life-and-work-with-mistakes)                                     |
+| Predicting earthquakes                           | prediction vs forecast, [overfittings](https://en.wikipedia.org/wiki/Overfitting)      |
+| Predicting economy                               | forecast errors, [correlation](https://en.wikipedia.org/wiki/Correlation) vs causation |
+| Predicting epidemics                             | [extrapolation](https://en.wikipedia.org/wiki/Extrapolation), [simulation modeling](https://en.wikipedia.org/wiki/Simulation_modeling)                                                                                |
+| Predicting sports results                        | [Bayesian theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem), [Fisher statistics](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) vs [Bayesian](https://en.wikipedia.org/wiki/Bayesian_statistics)  |
+| Chess                                            | [brute force](https://en.wikipedia.org/wiki/Brute-force_search), [heuristics](https://en.wikipedia.org/wiki/Heuristic)                                                          |
+| Poker                                            | poker economics, role of luck, efficiency in the long run |
+| Stock trading                                    | stock market as a forecast market, group forecasts        |
+| Climate change                                   | when there are much more noise than signal                |
+| Predicting terrorist attacks and rare events     | when there are too many signals, significance of signals  |
+
 ## Helpfull facts
 
 A few facts, that instantly slightly improve your world model.
@@ -71,12 +87,11 @@ A few facts, that instantly slightly improve your world model.
 - In the 1990s, economists were able to predict only 2 out of 60 recessions.
 - Basic economic indicators are often significantly revised (retrospectively, as new data becomes available), making them very inaccurate.
 - In some economic forecasts, the probability of the 2008 economic crisis was estimated to be 200 times less than in the post-factum estimates.
-
-- Ручная постобработка экспертами способна увеличить точность компьютерных прогнозов осадков на 25%, а прогнозов погоды на 10%. Эта статистика не меняется со временем, то есть не зависит от используемых технологий.
-- Коммерческие синоптики редко говорят, что вероятность дождя равна 50% — это может быть свидетельством неуверенности для потребителей. Вместо этого подбрасывают монетку и выбирают 40% или 60%.
-- Анонимность экспертов уменьшает качество их прогнозов.
-- Официальная позиция [USGS](https://en.wikipedia.org/wiki/United_States_Geological_Survey) по землетрясениям: невозможно предсказать, но можно спрогнозировать.
-- Если в процессе игры в покер вы не можете выявить 1-2 плохих игроков за столом, то лучше отказаться от игры.
+- The accuracy of precipitation forecasts can be increased by 25% by manual post-processing by experts, and weather forecasts by 10%. This statistic does not change over time, i.e., it does not depend on the technologies used.
+- Commercial meteorologists rarely say that the probability of rain is 50% — this may be a sign of uncertainty for consumers. Instead, they flip a coin and choose 40% or 60%.
+- The anonymity of experts reduces the quality of their forecasts.
+- The official position of the [USGS](https://en.wikipedia.org/wiki/United_States_Geological_Survey) on earthquakes: it is impossible to predict earthquakes, but it is possible to forecast them.
+- If you cannot identify 1-2 bad players at the poker table during the game, it is better to refuse to play.
 
 ## Аггрегирующие прогнозы vs индивидальные
 
