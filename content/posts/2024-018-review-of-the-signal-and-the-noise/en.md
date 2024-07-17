@@ -15,11 +15,11 @@ alt = "The cover of the book \"The Signal and the Noise\"."
 
 As you might guess, the book is about forecasts. More precisely, it is about approaches to forecasting, complexities, errors, misconceptions, and so on.
 
-As usual, I expected a more theoretical approach, in the spirit of [Scale](post:@choose-nearest-language:scale), but the author chose a different path and presents his ideas through the analysis of practical cases: one case per chapter. Each chapter describes a significant task, such as weather forecasting, and provides several prisms for looking at building forecasts. This certainly makes the material more accessible, but personally, I would like more systematics and theory.
+As usual, I expected a more theoretical approach, in the spirit of [Scale](post:@choose-nearest-language:scale), but the author chose a different path and presented his ideas through the analysis of practical cases: one case per chapter. Each chapter describes a significant task, such as weather forecasting, and provides several prisms for looking at building forecasts. This certainly makes the material more accessible, but personally, I would like more systematics and theory.
 
-Because of the case studies approach, it is difficult to make a brief summary of the book. It is possible, it would even be interesting to try, but the amount of work is too large — the author did not has the goal to provide a coherent system or a short set of basic theses.
+Because of the case studies approach, it isn't easy to make a brief summary of the book. It is possible, and it would even be interesting to try, but the amount of work is too large — the author did not intend to provide a coherent system or a short set of basic theses.
 
-Therefore, I will give a review of the book as a whole, an approximate list of prisms, and a set of cool facts.
+Therefore, I will review the book as a whole, provide an approximate list of prisms, and list some cool facts.
 
 <!-- more -->
 
