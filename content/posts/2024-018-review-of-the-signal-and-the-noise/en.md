@@ -15,7 +15,7 @@ alt = "The cover of the book \"The Signal and the Noise\"."
 
 As you might guess, the book is about forecasts. More precisely, it is about approaches to forecasting, complexities, errors, misconceptions, and so on.
 
-As usual, I expected a more theoretical approach, in the spirit of [Scale](post:@choose-nearest-language:scale), but the author chose a different path and presented his ideas through the analysis of practical cases: one case per chapter. Each chapter describes a significant task, such as weather forecasting, and provides several prisms for looking at building forecasts. This certainly makes the material more accessible, but personally, I would like more systematics and theory.
+As usual, I expected a more theoretical approach, in the spirit of [Scale]{post:@choose-nearest-language:scale}, but the author chose a different path and presented his ideas through the analysis of practical cases: one case per chapter. Each chapter describes a significant task, such as weather forecasting, and provides several prisms for looking at building forecasts. This certainly makes the material more accessible, but personally, I would like more systematics and theory.
 
 Because of the case studies approach, it isn't easy to make a brief summary of the book. It is possible, and it would even be interesting to try, but the amount of work is too large — the author did not intend to provide a coherent system or a short set of basic theses.
 
@@ -31,7 +31,7 @@ The comprehensive coverage of the topic is the strong point of the book. For eac
 
 The author believes forecasting is not an experts-only job but a daily activity for everyone. Therefore, everyone should be able to make good-enough forecasts.
 
-Much of what is presented in the book resonates with my posts on [models](post:@choose-nearest-language:life-and-work-with-models) and [mistakes](post:@choose-nearest-language:life-and-work-with-mistakes). Therefore, I cannot but recommend "The Signal and the Noise" :-)
+Much of what is presented in the book resonates with my posts on [models]{post:@choose-nearest-language:life-and-work-with-models} and [mistakes]{post:@choose-nearest-language:life-and-work-with-mistakes}. Therefore, I cannot but recommend "The Signal and the Noise" :-)
 
 Nate is a consistent Bayesian and describes the Bayesian view of probability in simple words. I rarely met an accessible presentation of Bayesian decision-making, so this is a definite plus for the book.
 
@@ -67,7 +67,7 @@ As I mentioned, the book follows the structure: one chapter — one case — sev
 | The financial crisis of 2008                     | causes and consequences of unsuccessful forecasts |
 | Predicting election results                      | experts vs social surveys                         |
 | Predicting baseball championships                | experts vs statistics                             |
-| Weather forecast                                 | computer modeling, [accumulation of errors](post:@choose-nearest-language:life-and-work-with-mistakes)                                     |
+| Weather forecast                                 | computer modeling, [accumulation of errors]{post:@choose-nearest-language:life-and-work-with-mistakes}                                     |
 | Predicting earthquakes                           | prediction vs forecast, [overfittings](https://en.wikipedia.org/wiki/Overfitting)      |
 | Predicting economy                               | forecast errors, [correlation](https://en.wikipedia.org/wiki/Correlation) vs causation |
 | Predicting epidemics                             | [extrapolation](https://en.wikipedia.org/wiki/Extrapolation), [simulation modeling](https://en.wikipedia.org/wiki/Simulation_modeling)                                                                                |
