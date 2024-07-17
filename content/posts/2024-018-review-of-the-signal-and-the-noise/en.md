@@ -93,11 +93,11 @@ A few facts, that instantly slightly improve your world model.
 - The official position of the [USGS](https://en.wikipedia.org/wiki/United_States_Geological_Survey) on earthquakes: it is impossible to predict earthquakes, but it is possible to forecast them.
 - If you cannot identify 1-2 bad players at the poker table during the game, it is better to refuse to play.
 
-## Аггрегирующие прогнозы vs индивидальные
+## Aggregated forecasts vs individual forecasts
 
-- Агрегирующий прогноз всегда лучше большинства индивидуальных, но не обязательно будет хорошим.
-- Агрегирующий прогноз хорошо работает когда индивидуальные прогнозы сначала делаются независимо, а потом объединяются. Если работает механизм а-ля рынок, когда люди уточняют прогнозы, на основе предыдущего агрегированного прогноза, то значительно усиливается влияние группового поведения и качество падает.
-- Агрегирующий прогноз не всегда лучше лучшего из индвивидуальных.
+- An aggregated forecast is always better than most individual forecasts, but not necessarily good.
+- An aggregated forecast works well when individual forecasts are made independently and then combined. If there is a mechanism like a market, when people refine forecasts based on the previous aggregated forecast, the influence of group behavior is significantly enhanced, and the quality of the forecast decreases.
+- An aggregated forecast is not always better than the best of the individual forecasts.
 
 ## Про хорошие прогнозы
 
