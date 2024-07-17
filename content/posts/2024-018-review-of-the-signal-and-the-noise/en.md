@@ -23,33 +23,33 @@ Therefore, I will give a review of the book as a whole, an approximate list of p
 
 <!-- more -->
 
-## Впечатления от книги
+## Impressions of the book
 
-Интересное, последовательное изложение опыта автора в прогнозировании, его мыслей и убеждений.
+The book contains an interesting, consistent presentation of the author's experience in forecasting, his thoughts, and beliefs.
 
-Сильной стороной книги является широкий охват темы. Для каждого аспекта прогнозирования Нейт выбирает подходящий реальный пример из нашей жизни, который лучше всего отражает проблему.
+The wide coverage of the topic is the strong point of the book. For each aspect of forecasting, Nate chooses a suitable real-life example that reflects the problem best.
 
-Автор считает, что прогнозирование — это не работа экспертов, а ежедневное занятие каждого человека. Поэтому уметь в прогнозы должен каждый.
+The author believes that forecasting is not the experts-only job, but a daily activity for everyone. Therefore, everyone should be able to make good-enough forecasts.
 
-Многое из изложенного в книге перекликается с моими постами о [моделях]{post:life-and-work-with-models} и [ошибках]{post:life-and-work-with-mistakes}. Поэтому не могу её не рекомендовать :-)
+Much of what is presented in the book resonates with my posts on [models](post:@choose-nearest-language:life-and-work-with-models) and [mistakes](post:@choose-nearest-language:life-and-work-with-mistakes). Therefore, I cannot but recommend "The Signal and the Noise" :-)
 
-Нейт последовательный [байесианец](https://ru.wikipedia.org/wiki/Байесианство) и даёт хорошее описание байесовского взгляда на вероятность простыми словами. Я редко встречал доступный рассказ про байсовское принятие решений, за это однозначный плюс книге.
+Nate is a consistent Bayesian and gives a good description of the Bayesian view of probability in simple words. I rarely met an accessible presentation of Bayesian decision-making, so this is a definite plus for the book.
 
-Из минусов я бы выделил странное позиционирование книги — она застраля где-то между научной и научно-популярной сферами — не понятно какой уровень знаний автор ожидает от читателя. Общий стиль изложения предполагает отсутствие глубоких знаний, в то же время Нейт слишкои легко, без пояснения, вводит специфические термины: модель, обратная связь, etc. Это может слегка усложнить восприятие книги новичками.
+One of the minuses I would highlight is the strange positioning of the book — it is somewhere between scientific and popular science spheres. It is not clear what level of knowledge the author expects from the reader. The general style of presentation does not require deep knowledge, but sometimes Nate introduces specific terms (model, feedback, etc.) too easily, without explanation. This can slightly complicate the perception of the book for beginners.
 
-Также обратите внимание, что по многим вопросам автор придерживается вполне конкретной точки зрения, правильной с его стороны. Я с ним обычно солидарен, но надо понимать, что это предвзятое изложение. Книга скорее отражает взгляды и опыт автора, чем даёт независимую объективную картину.
+Also, note that the author holds his own concrete point of view on many questions. I usually agree with him, but it is still a biased presentation. The book rather reflects the author's views and experience than gives an independent objective picture.
 
-В каких случаях «Сигнал и Шум» будет вам интересна:
+"Signal and Noise" will be interesting to you if:
 
-- Вы хотите расширить кругозор в прогнозировании и областях, затронутых в главах.
-- Вы хотите приземлить теорию в своей голове, соотнести её с реальными ситуациями.
+- you want to expand your horizons in forecasting and related areas;
+- you want to ground the theory in your head, correlate it with real situations.
 
-Если же вы хотите улучшить свою теорию, то книга может вам не подойти, но:
+If you want to improve your theory, the book may not be suitable for you, but:
 
-- во-первых, книга будет хороша как отправная точка для поска;
-- во-вторых, я не уверен, что есть альтернативы с лучшей теорией :-)
+- firstly, the book will be a good starting point for searching;
+- secondly, I'm not sure there are alternatives with better theory :-)
 
-## Структура книги
+## Structure of the book
 
 Нейт делит книгу на две части:
 
