@@ -4,9 +4,10 @@ version = "0.1"
 description = "prod tiendi.org blog"
 repository = "https://github.com/Tiendil/tiendil-org-content"
 authors = ["Aliaksei Yaletski (Tiendil) <a.eletsky@gmail.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
 
 uvicorn = "^0.27.1"
-brigid = "^0.6.0"
+brigid = "^0.6.1"
