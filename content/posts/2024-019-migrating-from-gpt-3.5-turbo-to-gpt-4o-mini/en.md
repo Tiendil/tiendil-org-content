@@ -17,7 +17,7 @@ Recently [OpenAI released GPT-4o-mini](https://openai.com/index/gpt-4o-mini-adva
 - It is almost three times cheaper than GPT-3.5-turbo.
 - Context size 128k tokens, against 16k for GPT-3.5-turbo.
 
-Of course, I immediately started migrating my [news reader](https://feeds.fun) to this model.
+Of course, I immediately started migrating my [news reader](https://github.com/Tiendil/feeds.fun) to this model.
 
 In short, it's a cool replacement for GPT-3.5-turbo. I immediately replaced two LLM agents with one without changing prompts reducing costs by a factor of 5 without losing quality.
 
