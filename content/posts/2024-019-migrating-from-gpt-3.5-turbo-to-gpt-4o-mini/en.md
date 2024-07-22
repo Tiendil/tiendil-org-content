@@ -19,7 +19,7 @@ Recently [OpenAI released GPT-4o-mini](https://openai.com/index/gpt-4o-mini-adva
 
 Of course, I immediately started migrating my [news reader](https://github.com/Tiendil/feeds.fun) to this model.
 
-In short, it's a cool replacement for GPT-3.5-turbo. I immediately replaced two LLM agents with one without changing prompts reducing costs by a factor of 5 without losing quality.
+In short, it's a cool replacement for GPT-3.5-turbo. I immediately replaced two LLM agents with one without changing prompts, reducing costs by a factor of 5 without losing quality.
 
 However, then I started tuning the prompt to make it even cooler and began to encounter nuances. Let me tell you about them.
 
