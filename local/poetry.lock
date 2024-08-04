@@ -54,13 +54,13 @@ lxml = ["lxml"]
 
 [[package]]
 name = "brigid"
-version = "0.6.1"
+version = "0.7.0"
 description = "Static site generator."
 optional = false
 python-versions = "<4.0,>=3.12"
 files = [
-    {file = "brigid-0.6.1-py3-none-any.whl", hash = "sha256:3444b40cd8a58b3d8e8004e87f465c53d9613ac1965e6187979a1e8ef5e7a1b8"},
-    {file = "brigid-0.6.1.tar.gz", hash = "sha256:e9e863421b90dfef7877cd0e4d8bd1f18592352ec20ff076ea2053b4ce7d8958"},
+    {file = "brigid-0.7.0-py3-none-any.whl", hash = "sha256:56289b859707cd3aa739ad3767d37d2c1ac5a3e9f7355b37b0ec8c3820e09420"},
+    {file = "brigid-0.7.0.tar.gz", hash = "sha256:1509fb5dbbe42da3b50a75e56b221107d67dc87edfb57e3ecc8a1d6c5c4cca2e"},
 ]
 
 [package.dependencies]
@@ -872,13 +872,13 @@ zstd = ["zstandard (>=0.18.0)"]
 
 [[package]]
 name = "uvicorn"
-version = "0.30.1"
+version = "0.30.5"
 description = "The lightning-fast ASGI server."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "uvicorn-0.30.1-py3-none-any.whl", hash = "sha256:cd17daa7f3b9d7a24de3617820e634d0933b69eed8e33a516071174427238c81"},
-    {file = "uvicorn-0.30.1.tar.gz", hash = "sha256:d46cd8e0fd80240baffbcd9ec1012a712938754afcf81bce56c024c1656aece8"},
+    {file = "uvicorn-0.30.5-py3-none-any.whl", hash = "sha256:b2d86de274726e9878188fa07576c9ceeff90a839e2b6e25c917fe05f5a6c835"},
+    {file = "uvicorn-0.30.5.tar.gz", hash = "sha256:ac6fdbd4425c5fd17a9fe39daf4d4d075da6fdc80f653e5894cdc2fd98752bee"},
 ]
 
 [package.dependencies]
@@ -1121,4 +1121,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "a7487a8332fccdfee1b24ef4682663e5bcf78ab7293f81d4f43ee6abaa4b1f53"
+content-hash = "c4cb6518ffa0394496c7f0def620faace697dfc33694102d52a95c0fa2d55bef"
