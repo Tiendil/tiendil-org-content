@@ -11,7 +11,7 @@ src = "./images/cover.jpg"
 caption = "How it all looks from the ground."
 ///
 
-For her vacation, Yulia decided to show me the beautiful German mountains and took me for a couple of days to [Grainau](https://en.wikipedia.org/wiki/Grainau) — it's a piece of Bavaria that's almost like Switzerland. At least, it looks like on the pictures of Switzerland that I've seen :-D
+For her vacation, Yulia decided to show me the beautiful German mountains and took me for a couple of days to [Grainau](https://en.wikipedia.org/wiki/Grainau) — it's a piece of Bavaria that's almost like Switzerland. At least, it is similar to the pictures of Switzerland that I've seen :-D
 
 In short, it's a very beautiful place with a measured pace of life. If you need to catch your breath, calm your nerves, and enjoy nature, then this is the place for you. But if you can't live without parties, you'll get bored quickly.
 
