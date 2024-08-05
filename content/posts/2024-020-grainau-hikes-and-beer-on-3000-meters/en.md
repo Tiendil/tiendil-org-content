@@ -64,6 +64,8 @@ caption = "My attempt at sledding at 3000 meters :-)"
 
 The water is clean and suitable for swimming, and there's a boat rental, but we didn't test the water: sometimes the weather wasn't right, and sometimes we didn't have time.
 
+You can walk from the villages to Eibsee, but it takes a long time and the path has a significant elevation, so it's better to go by bike, bus or train.
+
 /// brigid-images
 caption = "Views around Eibsee."
 
@@ -110,47 +112,44 @@ But we only walked on simple trails. Maybe if you go further into the mountains,
 
 One time, we had to walk between a high rock and barbed wire — local farmers don't really like tourists, especially dog owners. Everywhere you will notice signs like "do not shit in the salad for my cows".
 
-Pedanti
-Педантичность карт и указателей поражает. На одной из гор по карте видим тропу, подходим к указателю, стрелка есть — тропы нет. За указателем обрыв, стрелка указывает куда-то в него. Думаю, ну всё, вот и развеян миф о немецкой организованности. Но решил поискать получше и нашёл. Оказалось за кустом есть тропка в полменя шириной, она резко идёт метров 100-200 вниз по обрыву, потом где-то теряется в лесу, но карта и указатель обещают что вот она доведёт куда надо.
+Maps and signs are striking. On one of the mountains, we saw a trail on the map and a sign with an arrow pointing to the break. I thought: "Well, that's it, the myth of German organization is dispelled." But I decided to look better and found the trail. It was behind the bush, as wide as half of me; it sharply goes down the cliff for 100-200 meters, then gets lost in the forest, but the map and the sign promised that it would lead where it should.
 
-## Забавное
+## Fun
 
-Абсолютно везде идут (профилактические?) вырубки, за каждым углом поленницы дров, видели несколько лесопилок. При этом не заметно, чтобы там лес кончался. Видимо местные жители нашли баланс с природой.
+Absolutely everywhere, there are (preventive?) clearings; around every corner, there are woodpiles, and we saw several sawmills. At the same time, it is not noticeable that the forest is ending. Apparently, the locals have found a balance with nature.
 
-Из деревенек до Eibsee идти пешком можно, но долго и с существенным перепадом высот, поэтому лучше ехать на велосипеде, автобусе или поездике.
-
-Есть интересное ущелье с рекой, вот такое:
+There is an interesting gorge with a river:
 
 /// brigid-images
-caption = "Вход в ущелье платный, но не дорогой. Осторожно, низкие потолки, я раза три макушкой долбанулся.."
+caption = "Entrance to the gorge is paid, but not expensive. Be careful, low ceilings, I hit my head three times.."
 
 [[images]]
 src = "./images/river-1.jpg"
-alt = "Горная река 1"
+alt = "Mountain river 1"
 
 [[images]]
 src = "./images/river-2.jpg"
-alt = "Горная река 2"
+alt = "Mountain river 2"
 
 [[images]]
 src = "./images/river-3.jpg"
-alt = "Горная река 3"
+alt = "Mountain river 3"
 
 [[images]]
 src = "./images/river-4.jpg"
-alt = "Горная река 4"
+alt = "Mountain river 4"
 
 [[images]]
 src = "./images/river-5.jpg"
-alt = "Горная река 5"
+alt = "Mountain river 5"
 
 [[images]]
 src = "./images/river-6.jpg"
-alt = "Горная река 6"
+alt = "Mountain river 6"
 ///
 
-## Минусы
+## Minuses
 
-- Везде частная собственность, всё огорожено, после нашего раздолья непривычно.
-- Общественный транспорт не лучший. Автобус ходит раз в час, поезда примерно также. По крайней мере летом. Не успел — ждать не будут. Мало места в автобусе — не пустят. Могут задерживаться. Поезд на котором мы хотели добраться до отеля вообще отменили. Имхо, лучше всего передвигаться на велосипеде.
-- К третьему дню слегка начали надоедать коровы/овцы/козы с колокольчиками. Местами создают жуткую какофонию. И попахивают периодически — запах природы, так сказать.
+- Private property everywhere, everything is fenced, it's unusual after open spaces in post-Soviet countries.
+- Public transport is not the best. The bus runs once an hour, the trains are about the same. At least in summer. Transport can be delayed. The train we wanted to take to the hotel was canceled. In my opinion, it's best to move around by bike.
+- By the third day, cows/sheep/goats with bells started to annoy slightly. In some places, they create a terrible cacophony. And they smell periodically — the smell of nature, so to speak.
