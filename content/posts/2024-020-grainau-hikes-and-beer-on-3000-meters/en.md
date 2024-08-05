@@ -25,7 +25,7 @@ What's there:
 - Restaurants with beer.
 - Beautiful fallen trees in the forests, private property, fences, cows with bells, and "racing tractors" (I don't know how to name this phenomenon better, but tractors are moving fast there :-D).
 
-This is briefly, and now in more detail.
+This is briefly, and now in details.
 
 ## Zugspitze
 
@@ -47,7 +47,7 @@ alt = "View from Zugspitze on the Alps."
 
 The border between Germany and Austria passes somewhere along the mountain, so at the top, there are two lifts, two observation platforms, and two restaurants. It's funny that the basic set of dishes in the restaurants is different. The Germans have a canteen with German sausage, ketchup, and French fries, while the Austrians have their own sausages (thinner) with mustard and [pretzels](https://en.wikipedia.org/wiki/Pretzel).
 
-If you really want to, you can walk up the top of the mountain, but it will take a lot of time (according to the signs, it takes 8-10 hours from the village) and require minimal equipment: sticks, shoes, a helmet. And 3000 meters is not a joke — there's less oxygen up there — some training is needed. We didn't risk it :-D
+If you really want to, you can walk up the top of the mountain, but it will take a lot of time (according to the signs, it takes 8-10 hours from the village) and require some equipment: sticks, shoes, a helmet. And 3000 meters is not a joke — there's less oxygen up there — some training is needed. We didn't risk it :-D
 
 There are remnants of the last glaciers in Germany on the mountain, scientists say they will soon melt completely, so hurry up.
 
@@ -114,7 +114,7 @@ One time, we had to walk between a high rock and barbed wire — local farmers d
 
 Maps and signs are striking. On one of the mountains, we saw a trail on the map and a sign with an arrow pointing to the break. I thought: "Well, that's it, the myth of German organization is dispelled." But I decided to look better and found the trail. It was behind the bush, as wide as half of me; it sharply goes down the cliff for 100-200 meters, then gets lost in the forest, but the map and the sign promised that it would lead where it should.
 
-## Fun
+## Interesting
 
 Absolutely everywhere, there are (preventive?) clearings; around every corner, there are woodpiles, and we saw several sawmills. At the same time, it is not noticeable that the forest is ending. Apparently, the locals have found a balance with nature.
 
