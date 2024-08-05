@@ -47,11 +47,11 @@ alt = "View from Zugspitze on the Alps."
 
 The border between Germany and Austria passes somewhere along the mountain, so at the top, there are two lifts, two observation platforms, and two restaurants. It's funny that the basic set of dishes in the restaurants is different. The Germans have a canteen with German sausage, ketchup, and French fries, while the Austrians have their own sausages (thinner) with mustard and [pretzels](https://en.wikipedia.org/wiki/Pretzel).
 
-If you really want to, you can walk up the top of the mountain, but it will take a lot of time (according to the signs, it takes 8-10 hours from the village) and require some equipment: sticks, shoes, a helmet. And 3000 meters is not a joke — there's less oxygen up there — some training is needed. We didn't risk it :-D
+If you really want to, you can walk up to the top of the mountain, but it will take a lot of time (according to the signs, it takes 8-10 hours from the village) and require some equipment: sticks, shoes, a helmet. And 3000 meters is not a joke — there's less oxygen up there — some training is needed. We didn't risk it :-D
 
-There are remnants of the last glaciers in Germany on the mountain, scientists say they will soon melt completely, so hurry up.
+There are remnants of the last glaciers in Germany on the mountain. Scientists say they will melt entirely soon, so hurry up.
 
-Surprisingly, there was a snow mountain (in summer), where you can slide straight to the remains of the glacier.
+Surprisingly, there was a snow mountain (in summer) where you can slide straight to the remains of the glacier.
 
 /// brigid-youtube
 id = "6YsFKnIHswI"
@@ -60,7 +60,7 @@ caption = "My attempt at sledding at 3000 meters :-)"
 
 ## Eibsee
 
-[Eibsee](https://en.wikipedia.org/wiki/Eibsee) — a lake near Zugspitze, you might have noticed it in the photos above.
+[Eibsee](https://en.wikipedia.org/wiki/Eibsee) — a lake near Zugspitze. You might have noticed it in the photos above.
 
 The water is clean and suitable for swimming, and there's a boat rental, but we didn't test the water: sometimes the weather wasn't right, and sometimes we didn't have time.
 
@@ -100,9 +100,9 @@ alt = "View at Eibsee 7"
 
 ## Hiking
 
-~~I'm not a big fan of hiking.~~ I love walking, including in rough terrain and under the scorching sun, but I never called it a special term, rather I count this activity as a domestic tourism. And in the last 10 years, I haven't specifically gone anywhere for walks, especially in Europe. So I can't evaluate how good the trails are in Grainau, but they seem to be pretty good.
+~~I'm not a big fan of hiking.~~ I love walking, including in rough terrain and under the scorching sun, but I never called it a special term, rather I count this activity as domestic tourism. And in the last 10 years, I haven't specifically gone anywhere for walks, especially in Europe. So, I can't evaluate how good the trails are in Grainau, but they seem to be pretty good.
 
-The biggest difference from the post-Soviet countries and the post-Soviet approach is organization.
+The biggest difference from post-Soviet countries is organization.
 
 In the post-Soviet space, you usually go where you look: no special trails, no signs, and almost no fences.
 
@@ -150,6 +150,6 @@ alt = "Mountain river 6"
 
 ## Minuses
 
-- Private property everywhere, everything is fenced, it's unusual after open spaces in post-Soviet countries.
-- Public transport is not the best. The bus runs once an hour, the trains are about the same. At least in summer. Transport can be delayed. The train we wanted to take to the hotel was canceled. In my opinion, it's best to move around by bike.
-- By the third day, cows/sheep/goats with bells started to annoy slightly. In some places, they create a terrible cacophony. And they smell periodically — the smell of nature, so to speak.
+- Private properties are everywhere, everything is fenced, it's unusual after open spaces in post-Soviet countries.
+- Public transport could be better. The bus runs once an hour, the trains are about the same. At least in summer. Transport can be delayed. The train we wanted to take to the hotel was canceled. In my opinion, it's best to move around by bike.
+- By the third day, cows/sheeps/goats with bells started to annoy slightly. In some places, they created a terrible cacophony. And they smell periodically — the smell of nature, so to speak.
