@@ -27,6 +27,8 @@ What's there:
 
 This is briefly, and now in detail.
 
+<!-- more -->
+
 ## Zugspitze
 
 [Zugspitze](https://en.wikipedia.org/wiki/Zugspitze) — the highest point in Germany — almost 3000 meters.
