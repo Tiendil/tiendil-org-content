@@ -23,7 +23,7 @@ What's there:
 - A huge number of trails for hiking.
 - A huge number of waterfalls, streams, and a couple of mountain rivers.
 - Restaurants with beer.
-- Beautiful fallen trees in the forests, private property, fences, cows with bells, and "tractor racers".
+- Beautiful fallen trees in the forests, private property, fences, cows with bells, and "racing tractors" (I don't know how to name this phenomenon better, but tractors are moving fast there :-D).
 
 This is briefly, and now in more detail.
 
