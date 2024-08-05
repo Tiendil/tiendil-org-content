@@ -13,7 +13,7 @@ caption = "How it all looks from the ground."
 
 For her vacation, Yulia decided to show me the beautiful German mountains and took me for a couple of days to [Grainau](https://en.wikipedia.org/wiki/Grainau) — it's a piece of Bavaria that's almost like Switzerland. At least, it is similar to the pictures of Switzerland that I've seen :-D
 
-In short, it's a very beautiful place with a measured pace of life. If you need to catch your breath, calm your nerves, and enjoy nature, then this is the place for you. But if you can't live without parties, you'll get bored quickly.
+In short, it's a lovely place with a measured pace of life. If you need to catch your breath, calm your nerves, and enjoy nature, then this is the place for you. But if you can't live without parties, you'll get bored quickly.
 
 What's there:
 
@@ -25,7 +25,7 @@ What's there:
 - Restaurants with beer.
 - Beautiful fallen trees in the forests, private property, fences, cows with bells, and "racing tractors" (I don't know how to name this phenomenon better, but tractors are moving fast there :-D).
 
-This is briefly, and now in details.
+This is briefly, and now in detail.
 
 ## Zugspitze
 
