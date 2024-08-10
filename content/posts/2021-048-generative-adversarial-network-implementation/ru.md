@@ -1,6 +1,6 @@
 ---
 title = "Реализация Generative Adversarial Network"
-tags = [ "jupyter-notebooks", "open-source", "python", "neural-networks", "education", "practice",]
+tags = [ "jupyter-notebooks", "open-source", "python", "neural-networks", "education", "practice", "tutorial",]
 published_at = "2021-08-23T12:00:00+00:00"
 seo_description = "Реализация GAN на наборе данных Fashion MNIST."
 seo_image = ""
