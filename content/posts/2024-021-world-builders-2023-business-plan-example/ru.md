@@ -386,6 +386,10 @@ Alpha  | Base user interface        | Implement base UI                         
 
 ## Планирование команды
 
+/// brigid-images
+src = "./images/team.png"
+caption = "Итоговая картина команды, которую надо собрать."
+///
 
 ## TODO
 
