@@ -552,53 +552,59 @@ caption = "Предполагаемые маркетинговые активн�
 
 Все формулы описывать не буду, их можно посмотреть в оригинальной таблице.
 
+Описание разобью на разделы по близости данных. В таблице они отличаются текстом
+
 Итак, поехали.
 
-`[1] XXX`
+### Шапка
 
-`[2] XXX`
+`[1] Year`
 
-`[3] XXX`
+`[2] Month`
 
-`[4] XXX`
+`[3] Milestones`
 
-`[5] XXX`
+### Продажи основной игры
 
-`[6] XXX`
+`[4] Standard Edition Price $`
 
-`[7] XXX`
+`[5] Delux Edition Price $`
 
-`[8] XXX`
+`[6] Game Purchases / Month`
 
-`[9] XXX`
+`[7] Game Purchases Boost `
 
-`[10] XXX`
+`[8] Game Purchases Boost Tail`
 
-`[11] XXX`
+`[9] Game Purchases / Month`
 
-`[12] XXX`
+`[10] Total Game Owners`
 
-`[13] XXX`
+`[11] Delux Edition Purchases %`
 
-`[14] XXX`
+`[12] Standard Edition Purchases`
 
-`[14] XXX`
+`[13] Delux Edition Purchases`
 
-`[15] XXX`
+`[14] Standard Edition Revenue`
 
-`[16] XXX`
+`[15] Delux Edition Revenue`
 
-`[17] XXX`
+`[16] Game Revenue`
 
-`[18] XXX`
+`[17] Total Game Revenue`
 
-`[19] XXX`
+### Продажи DLC
 
-`[20] XXX`
+`[18] Paid DLC 1 Convertion Rate`
 
-`[21] XXX`
+`[19] Paid DLC 1 Purchases`
 
-`[22] XXX`
+`[20] Paid DLC 1 Price`
+
+`[21] Paid DLC 1 Revenue`
+
+`[22] Total Paid DLC 1 Revenue`
 
 /// Note | Все 4 платных DLC описаны одинаково
 Строки `18-22` повторяются 4 раза для четырёх платных DLC
@@ -606,65 +612,71 @@ caption = "Предполагаемые маркетинговые активн�
 <!-- TODO: на что обратить внимание -->
 ///
 
-`[38] XXX`
+### Расчёт денег, которые мы получим от Steam
 
-`[39] XXX`
+`[38] Raw Gross Revenue`
 
-`[40] XXX`
+`[39] Expected Discounts Loss`
 
-`[41] XXX`
+`[40] Raw Gross Revenue - Discounts`
 
-`[42] XXX`
+`[41] Steam Fees`
 
-`[43] XXX`
+`[42] Revenue After Steam Fees`
 
-`[44] XXX`
+`[43] Total Revenue After Steam Fees`
 
-`[45] XXX`
+### Траты на разработку
 
-`[46] XXX`
+`[44] Team Size`
 
-`[47] XXX`
+`[45] Average Gross Sallary $`
 
-`[48] XXX`
+`[46] Sallary Indexation`
 
-`[49] XXX`
+`[47] Final Sallary`
 
-`[50] XXX`
+`[48] Team Cost`
 
-`[51] XXX`
+`[49] Average Outsorce Staff`
 
-`[52] XXX`
+`[50] Average Outsource Cost`
 
-`[53] XXX`
+`[51] Outsoursing Cost`
 
-`[54] XXX`
+`[52] Development Cost`
 
-`[55] XXX`
+`[53] Total Development Cost`
 
-`[56] XXX`
+### Траты на маркетинг
 
-`[57] XXX`
+`[54] Marketing Wishlists Cost`
 
-`[58] XXX`
+`[55] Marketing Videos Cost`
 
-`[59] XXX`
+`[56] Marketing New User Cost`
 
-`[60] XXX`
+`[57] Marketing Old User Cost`
 
-`[61] XXX`
+`[58] Marketing Performance on New Users (Game)`
 
-`[62] XXX`
+`[59] Marketing Performance on Old Users (DLC)`
 
-`[63] XXX`
+`[60] Marketing Month Cost`
 
-`[64] XXX`
+`[61] Total Marketing Cost`
 
-`[65] XXX`
+### Итоговые суммы
+
+`[62] Month Costs`
+
+`[63] Total Costs`
+
+`[64] Month Gross Revenue`
+
+`[65] EBITDA`
 
 
 ## TODO
 
-- Описать про цикл бесплатная DLC, платная DLC
 - Для каждого этапа указать сколько времени он занял у меня.
-- Маркетинговая стратегия
