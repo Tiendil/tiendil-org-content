@@ -34,7 +34,7 @@ All the final documents can be found [here](https://drive.google.com/drive/folde
 Following advices in this post and my logic in a whole is strictly on your conscience and responsibility. Think with your head before copy-pasting.
 ///
 
-In case you lose millions of dollars following this post, and gloomy guys come to you with questions, please do not redirect them to me. Take responsibility with your head held high, even if your legs are already filled with concrete. Just kidding, do not deal with non-specialized investors, and your health will be fine.
+In case you lose millions of dollars following this post, and gloomy guys come to you with questions, please do not redirect them to me. Take responsibility with your head held high, even if your legs are already in concrete. Just kidding, do not deal with non-specialized investors, and your health will be fine.
 
 Here is why you should critically look at this tutorial:
 
@@ -56,31 +56,31 @@ But if you don't do it this way and try to force your way through, you will defi
 
 So.
 
-## Стратегия компании
+## Define company strategy
 
-Почему-то вы решили делать игру для ~~кладбища инди разработчиков~~ Steam. Причём singleplayer стратегию-песочницу (смотрите [презентацию]{post:@choose-nearest-language:world-builders-2023-final-presentation}). Может с мультиплеером, но пока вы не уверены.
+Imagine, for some reason, you've decided to make a game for ~~the indie developers graveyard~~ Steam. And it's a single-player sandbox strategy game (see [presentation](https://drive.google.com/file/d/1BUhTWCW9YysP0ZCUrIoFbmqXDa-Fz946/view?usp=sharing) if your are interested). Maybe with multiplayer, but you're not sure yet.
 
-Разбор возможных причин этих решений выходит за рамки эссе.
+Listing the possible reasons for these decisions is beyond the scope of this essay.
 
-Например, если у вас во главе угла стоит заработок (зачем тогда идти в геймдев?), то по-хорошему надо поднять отчёты по разным платформам, посмотреть какие жанры на какой платформе сколько зарабатывают, оценить средний размер команд, инвестиций, времени разработки. После чего принять взвешенное решение и идти делать free-to-play мобильную MMORPG для low-grade мобилок на африканском рынке.
+For example, if you focus on earning money (why then go into gamedev?), you should find reports on different platforms, see which genres make money on which platform, evaluate the average team size, investments, and development time, and make a weighted decision to create a free-to-play mobile MMORPG for low-grade mobiles in the African market or something like that. Just in case, [I'm serious about Africa](https://www.statista.com/outlook/dmo/digital-media/video-games/africa).
 
-/// note | Почему я решил делать то, что делаю
+/// note | Why I decided to do what I do
 
-Сфера развлечений выбрана, так как школа обязывает делать что-то отуда.
+I chose the entertainment sphere because the school is about making something in this area.
 
-Игры (а не комиксы, кино, книги, etc.) выбраны, так как у меня хорошая экспертиза в [gamedev]{tags:gamedev}, у школы основная экспертиза там же, большинство резидентов решили делать игры. Не хотелось отрываться от коллектива и тратить больше времени, чем я готов был потратить.
+Games (not comics, movies, books, etc.) were chosen because I have good expertise in [gamedev]{tags:gamedev}, the school's main expertise is there too, most residents decided to make games. I didn't want to break away from the team and spend more time than I was willing to spend.
 
-Мобильные игры — [симулякр](https://ru.wikipedia.org/wiki/Симулякр) — [форма победившая содержание]{post:@choose-nearest-language:one-form-two-products} с бюджетом на маркетинг больше, чем на разработку. Не интересно. Забавно, но в нашем итоговом плане бюджет на маркетинг тоже будет больше, но это другое :-)
+Mobile games are a [simulacrum](https://en.wikipedia.org/wiki/Simulacrum) — [a form triumphing over conten]{post:@choose-nearest-language:one-form-two-products} with a marketing budget larger than the development budget. Not interesting. It's funny, but in our final financial plan, the marketing budget will also be larger, but, of course, it's different :-)
 
-VR, консоли и прочие более сложны (для меня) с точки зрения технологий и геймдизайна.
+VR, consoles, and other things are more complex (for me) in terms of technology and game design.
 
-Остаётся PC платформа, на которой доминирует Steam.
+PC platform remains, dominated by Steam.
 
-Стратегии и RPG — жанры, ~~в которые я больше всего наиграл~~ в которых у меня больше всего экспертизы и которые мне нравятся. Плюс, они позволяют раскрывать мир лучше, чем те же шутаны. Раскрытие мира — одно из требований школы к продукту.
+Strategy and RPG are the genres in which ~~I played the most~~ I have the most expertise and which I like. Plus, they allow to reveal the world better. Revealing the world is one of the school's requirements for the product.
 
-[ММОРПГ]{tags:mmo} мне тоже нравятся, но мой взгляд на них радикально отличается от взгляда любого человека, похожего на инвестора, поэтому не в этот раз.
+[MMORPGs]{tags:mmo} are also interesting to me, but my view on them is radically different from the view of any person similar to an investor, so not this time.
 
-На мой взгляд, сделать хорошую стратегию (пусть и с элементами RPG) значительно проще, чем хорошую RPG. Потому что RPG с линейным сюжетом делать не комильфо, а от разработки нелинейного сюжета меня в дрожь бросает от комбинаторики и боли, которую она вызовет.
+In my opinion, it is much easier to make a good strategy (even with RPG elements) than a good RPG. Because making an RPG with a linear plot is not fun, and the development of a non-linear plot makes me tremble with combinatorics and the pain it will cause.
 ///
 
 ## Выбираем ~~монетизацию~~ основной финансовый поток
