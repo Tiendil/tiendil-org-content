@@ -103,33 +103,33 @@ Therefore, we have several options for the basic strategy:
 4. Make a big release of "My Mega Game". Release a couple of DLCs. In parallel, work on something based on plan 2 or 3.
 5. Make a big release of "My Mega Game". Endlessly release DLCs.
 
-Раньше было такое понятие как Addon, но для простоты будем считать их теми же DLC. По крайней мере я не вижу существенных отличий для целей этого поста.
+In the old days, there was a concept of Addon, but for simplicity, we will consider them the same as DLCs. At least I don't see any significant differences for the purposes of this post.
 
-**Вариант 1**, по-моему, сейчас почти никто не практикует, в случае успешного продукта, конечно. Так как много ресурсов тратится впустую: теряется наработанная экспертиза команды, код, пул внештатных специалистов, сообщество — не очень выгодно. Но какие-нибудь очень упорные инди могут заниматься этим по фану.
+**Option 1**, in my opinion, is almost never practiced now, in the case of a successful product. Because a lot of resources are wasted: the team's expertise is lost, the code, the pool of freelance specialists, the community — it's not very profitable. But some especially dedicated indie developers might do it just for fun.
 
-**Варианты 2 и 3** близки, их даже можно чередовать. Они позволяют переиспользовать значительно больше наработок, чем вариант 1. Минусом является очень неравномерное поступление денег, к тому же не гарантированое. А значит дыры в бюджете.
+**Options 2 and 3** are close, they can even be alternated. They allow you to reuse much artifacts of work than option 1. The downside is a very uneven flow of money, and it's not guaranteed. And that means holes in the budget.
 
-/// attention | Легко ли повторить успех?
-Если вы один раз сделали хорошую игру (года за два), это не значит, что во второй раз получится лучше или также, или что ваши игроки простят на втором релизе то, что простили на первом.
+/// attention | Is it easy to repeat success?
+If you made a good game once (in ±two years), it doesn't mean that the second time it will be better or the same, or that your players will forgive you for the same mistakes you made the first time.
 ///
 
-Серия больших релизов — рискованное мероприятие, поэтому в случае успеха первого релиза многие разработчики стараются выпустить хотя бы несколько DLC, чтобы поддерживать разработку следующих игр. Что приводит нас к четвёртому варианту.
+The series of big releases is a risky venture. Therefore, in case of success of the first release, many developers try to release at least a few DLCs to support the development of the next game. Which brings us to the fourth option.
 
-**Вариант 4** — выпуск DLC параллельно с разработкой следующей игры — хороший способ снизить риски и сделать жизнь студии более предсказуемой.
+**Option 4** — releasing DLC in parallel with the development of the next game is a good way to reduce risks and make the life of the studio more predictable.
 
-Проблема с этим подходом в том, что не все команды могут сделать игру, которую будет относительно легко модифицировать интересным для игроков способом. Плюс, не все жанры хорошо подходят для DLC.
+The problem with this approach is that not all teams can make a game that will be relatively easy to modify in an interesting way for players. Plus, not all genres are well suited for DLC.
 
-Например, RPG делают добавление каждого следующего DLC сложнее, так игра идёт с цельной историей, а значит и механики менять сложно (из-за баланса кампании) и новые истории приплетать сложно (мы же релизимся с цельным сюжетом).
+For example, RPGs make it challenging to add each subsequent DLC because the game follows a single narrative. This makes it difficult to change mechanics (due to campaign balance) and to extend the story (since good games are released with a complete and consistent storyline).
 
-/// hint | DLC как отдельные компании в RPG
-Странно, но не могу вспонимть ни одной RPG, в которой как DLC выпускались бы отдельные компании. То есть сюжеты, которые не относятся к основному сюжету и которые надо проходить новым персонажем.
+/// hint | DLC as separate companies in RPG
+It's strange, but I can't remember any RPG where separate campaigns were released as DLCs. Aka with stories that are not related to the main plot and that need to be played with a new character.
 
-Мне кажется, это значительно упростило бы жизнь разработчикам. Да и мне, как игроку, было бы куда интереснее через полгода-год после прохождения создать новую группа, а не вспоминать сюжет и работу 100 абилок в старом прохождении.
+I think it would significantly simplify the lives of developers. And it would be much more interesting for me as a player to create a new group six months to a year after the first playthrough, rather than remembering the plot and the mechanics of 100 abilities in the old save.
 ///
 
-Но если у нас нет таких проблем, то мы можем смотреть на **вариант 5** — перенос основного потока денег с релизов новых игр на релизы DLC. Я называю его [Paradox](https://www.paradoxinteractive.com/) way, потому что они умеют в него лучше всех.
+But if we don't have such problems, we can look at **option 5** — replacing the main money flow from the releases of new games to the releases of DLCs. I call it the [Paradox](https://www.paradoxinteractive.com/) way because they are the best at it, as I see it.
 
-Первый релиз всё ещё приносит существенную долю дохода, но фокус разработки изначально строится на поточном производстве DLC, которые со временем перевешивают по профиту.
+The first release still brings a significant share of income, but the development focus is initially on the production of DLCs, which eventually outweighs the profit from the first release.
 
 ### Конвеер DLC
 
