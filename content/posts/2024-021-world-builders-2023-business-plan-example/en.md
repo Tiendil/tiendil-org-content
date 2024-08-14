@@ -83,25 +83,25 @@ Strategy and RPG are the genres in which ~~I played the most~~ I have the most e
 In my opinion, it is much easier to make a good strategy (even with RPG elements) than a good RPG. Because making an RPG with a linear plot is not fun, and the development of a non-linear plot makes me tremble with combinatorics and the pain it will cause.
 ///
 
-## Выбираем ~~монетизацию~~ основной финансовый поток
+## Choosing ~~monetization~~ the main financial flow
 
-В Steam есть несколько подходов к монетизации игр:
+There are several approaches to monetizing games on Steam:
 
-1. Через крупные релизы.
-2. Через продажу DLC — [Downloadable Content](https://ru.wikipedia.org/wiki/Загружаемый_контент).
-3. ~~Через микротранзакции~~
+1. Through major releases.
+2. Through selling DLC — [Downloadable Content](https://en.wikipedia.org/wiki/Downloadable_content).
+3. ~~Through microtransactions~~
 
-В моей картине мира компания будет целиться на что-то одно, а остальное использовать как дополнительный источник дохода. Если ловить двух зайцев, то обычно ни одного не поймаешь.
+In my world model, the company will aim for one thing and use the rest as an additional source of income. If you try to catch two hares, you usually catch none.
 
-Микротранзакции рассматривать не буду, так как в них в области singleplayer PC игр пока ~~умеют~~ могут только ААА студии и только через гигантские маркетинговые бюджеты и потерю репутации. Инди разработчиков за такое сообщество Steam живьём закопает. И правильно сделает. Не говоря уже о том, что карму себе портить не хочется.
+I will not consider microtransactions, as in the field of single-player PC games, only AAA studios ~~now how~~ can allow themselves to do so, and only through giant marketing budgets and reputation loss. Indie developers will be buried alive by the Steam community for such a thing. And rightly so. Not to mention, I have no desire to mess up my karma..
 
-Соответстывенно, у нас есть несколько вариантов базовой стратегии:
+Therefore, we have several options for the basic strategy:
 
-1. Большой релиз «My Mega Game». Уходим заниматься чем-нибудь другим.
-2. Большой релиз «My Mega Game». Уходим заниматься чем-нибудь по-мотивам: сделали стратегию про фэнтези, теперь делаем про космос.
-3. Большой релиз «My Mega Game». Большой релиз «My Mega Game 2». Большой релиз «My Mega Game 3». И так далее.
-4. Большой релиз «My Mega Game». Выпускаем пару DLC. Параллельно пилим что-нибудь по плану 2 или 3.
-5. Большой релиз «My Mega Game». Вечно выпускаем DLC.
+1. Make a big release of "My Mega Game". Move on to something else.
+2. Make a big release of "My Mega Game". Move on to something similar: make a sci-fi strategy after a fantasy one.
+3. Make a big release of "My Mega Game". Make a big release of "My Mega Game 2". Make a big release of "My Mega Game 3". And so on.
+4. Make a big release of "My Mega Game". Release a couple of DLCs. In parallel, work on something based on plan 2 or 3.
+5. Make a big release of "My Mega Game". Endlessly release DLCs.
 
 Раньше было такое понятие как Addon, но для простоты будем считать их теми же DLC. По крайней мере я не вижу существенных отличий для целей этого поста.
 
