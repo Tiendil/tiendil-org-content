@@ -44,17 +44,17 @@ Here is why you should critically look at this tutorial:
 - This business plan was prepared as part of my studies, not as part of "I put my soul into opening my company and investing all my time and resources into it."
 - I is possible to make it 100500 times better, but I did not. Pa-ra-pa-pam. Because there was no time, and sometimes I was lazy.
 
-## Циклическая разработка
+## Iterative development
 
-По ходу чтения может казаться, что всю работу можно сделать последовательно от начала до конца. Это не так. Я пост-фактум организовал всё в форму рассказа, чтобы не заставлять вас хаотически прыгать по документам..
+During the reading, it may seem that all the work can be done sequentially from beginning to end. This is not the case. I post-factum organized everything into a narrative form so as not to make you jump chaotically between documents.
 
-/// note | Двигайтесь по спирали
-В процессе разработки своего бизнес-плана вы будете находить косяки в своей логике, в расчётах, в данных и вообще во всём. Вы будете забывать разные штуки, а потом вспоминать про них. Поэтому вам придётся прыгать между разными документами, циклически адаптировать их под ограничения друг друга. Это нормально, так и должно быть при любой здоровой разработке сложной штуки.
+/// note | Move in a spiral
+While developing your business plan, you will find mistakes in your logic, in calculations, in data, in everything. You will forget different things and then remember them. So you will have to jump between different documents, iteratively adaping them to each other's constraints. This is normal and should be so in any healthy development of a complex thing.
 
-А вот если вы не будете так делать и попытаетесь взять нахрапом, то гарантировано получится ерунда. ~~Не то чтобы у меня не ерунда получилась.~~
+But if you don't do it this way and try to force your way through, you will definitely make a mess. ~~Not that I didn't make a mess.~~
 ///
 
-Итак.
+So.
 
 ## Стратегия компании
 
