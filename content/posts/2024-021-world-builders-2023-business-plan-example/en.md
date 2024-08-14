@@ -28,22 +28,21 @@ All the final documents can be found [here](https://drive.google.com/drive/folde
 
 <!-- more -->
 
-## Снятие отвественности
+## Disclaimer
 
-/// attention | Внимание!
-Следование этому посту и моей логике будет сугубо на вашей совести и ответсвенности. Думайте головой, потом копипастите.
+/// attention | Attention!
+Following advices in this post and my logic in a whole is strictly on your conscience and responsibility. Think with your head before copy-pasting.
 ///
 
+In case you lose millions of dollars following this post, and gloomy guys come to you with questions, please do not redirect them to me. Take responsibility with your head held high, even if your legs are already filled with concrete. Just kidding, do not deal with non-specialized investors, and your health will be fine.
 
-Если вдруг вы ~~просрёте~~ понесёте убытка на десятки миллионов долларов, последовав советам в этом посте, и к вам придут угрюмые дядьки с вопросами, не перенаправляйте, пожалуйста, их ко мне. Несите свою ответственность с гордо поднятой головой, даже если ваши ноги уже заливают бетоном. Шучу, не имейте дела с непрофильными инвесторами и ваше здоровье будет в порядке.
+Here is why you should critically look at this tutorial:
 
-Вот почему стоит критически смотреть на этот урок:
-
-- Я не профессиональный бизнесмен. У меня был бизнес и я потратил на него больше, чем заработал.
-- Это лучший из двух бизнес-планов, что я готовил. То что он лучший, не отменяет того, что он второй.
-- Мне (пока) не дали под него денег и даже не я занимаюсь поиском инвесторов. Поэтому не знаю как инвесторы отреагируют на эти выкладки.
-- Этот бизнес-план готовился в рамках учёбы, а не в рамках «я поставил душу на открытие своей конторы и вкладываю в неё всё время и ресурсы».
-- Можно было сделать в 100500 раз лучше, но я не сделал. Па-ра-па-пам. потому что не было времени, а иногда даже было лень.
+- I'm not a professional businessman. I had a business, and I spent more on it than I earned.
+- This is the best of two business plans I've ever made. The fact that it is the best does not cancel the fact that it is the second.
+- I have not yet received money for it and even the person who is looking for investors is not me. So I do not know how investors will react to these calculations.
+- This business plan was prepared as part of my studies, not as part of "I put my soul into opening my company and investing all my time and resources into it."
+- I is possible to make it 100500 times better, but I did not. Pa-ra-pa-pam. Because there was no time, and sometimes I was lazy.
 
 ## Циклическая разработка
 
