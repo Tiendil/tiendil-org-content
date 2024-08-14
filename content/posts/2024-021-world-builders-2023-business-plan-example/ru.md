@@ -1,7 +1,7 @@
 ---
 title = "Считаем бизнес-план для игры в Steam"
 tags = ["practice", "theory", "development", "gamedev", "monetization", "business", "interesting", "best", "world-builders", "tutorial"]
-published_at = "2024-08-13T12:00:00+00:00"
+published_at = "2024-08-15T12:00:00+00:00"
 seo_description = "Пример разработки бизнес-плана для игры в Steam с описанием логики, расчётами и ремарками."
 seo_image = "./images/cover.jpg"
 ---
@@ -11,7 +11,7 @@ src = "./images/cover.png"
 caption = "Заработать миллионы проще простого, сейчас расскажу как :-D"
 ///
 
-Когда выкладывал [отчётную презентацию]{post:world-builders-2023-final-presentation} по [World Builders 2023]{tags:world-builders}, обещал рассказать как делал roadmap и финансовую модель для игры. Выполняю обещание.
+Когда выкладывал [отчётную презентацию]{post:world-builders-2023-final-presentation} ([слайды](https://drive.google.com/file/d/1BUhTWCW9YysP0ZCUrIoFbmqXDa-Fz946/view?usp=sharing)) по [World Builders 2023]{tags:world-builders}, обещал рассказать как делал roadmap и финансовую модель для игры. Выполняю обещание.
 
 К концу поста у нас на руках будут:
 
