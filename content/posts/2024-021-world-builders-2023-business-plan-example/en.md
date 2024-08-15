@@ -538,47 +538,47 @@ By the way, an advice. If you are going to make a game in the future, but not ri
 
 In case Wikipedia is not enough, we have several Steam statistics aggregators. For example, [Steam Spy](https://steamspy.com/).
 
-## Маркетинговая стратегия
+## Marketing strategy
 
 /// brigid-images
 src = "./images/marketing.png"
-caption = "Предполагаемые маркетинговые активности. Зелёным выделены очень большие траты, жёлтым — просто большие. Маленьких трат в маркетинге не бывает."
+caption = "Expected marketing activities. Very large expenses are highlighted in green, just large in yellow. There are no small expenses in marketing."
 ///
 
-Ещё одно важное дело перед расчётом финансовой модели — накидать маркетинговые активности, так как на маркетинг сейчас уходит половина бюджета разработки, а то и больше.
+One more important thing to do before preparing the financial model is to outline marketing activities. In our time marketing takes half of the development budget, if not more.
 
-Я опущу общие размышления по формированию сообщества, поиску игроков и тому подобное. Во-первых, про это есть пара слайдов в презентации. Во-вторых, это известная и популярная тема, в интернете полно материалов. Даже у меня [небольшое эссе]{post:@choose-nearest-language:the-game-community-from-the-point-of-view-of-an-independent-game-developer} есть. Плюс, на мой взгляд, все эти соображения скорее определяют философию маркетинга (кого и где искать), чем реальные траты (сколько искать и сколько платить). Нам же интересно сколько платить.
+I'll skip general thoughts on building a community, finding players, and similar things. Firstly, there are a couple of related slides in the presentation. Secondly, it is a well-known and popular topic, there are plenty of materials on the internet. I even have a [small essay]{post:@choose-nearest-language:the-game-community-from-the-point-of-view-of-an-independent-game-developer} about my experience. Plus, in my opinion, all these considerations are more about marketing philosophy (who and where to look for) than about real expenses (how many players to look for and how much to pay for them). Here we are interested in how much to pay.
 
-В рамках маркетинга нам важны две вещи.
+In the context of marketing, two things are important to us.
 
-Во-первых, ключевые события к которым надо готовить маркетинговую активность:
+**Firstly**, key events for which we will prepare marketing activities:
 
-- Выход в Early Access.
-- Релиз.
-- Выход DLC.
+- Early Access release.
+- Exit from Early Access.
+- Releasees of DLCs.
 
-Во-вторых, виды этой активности, у нас это:
+**Secondly**, the types of this activity, for us it is:
 
-- Выпуск сопровождающего видео.
-- Привлечение новых игроков.
-- Привлечение старых игроков.
+- Releasing a supporting video.
+- Attracting new players.
+- Returing old players.
 
-/// note | Вернёмся немного в планирование стратегии
-Я решил разбить DLC на два типа: платные и бесплатные и чередовать их.
+/// note | Let's go back to strategy planning for a moment
+For my game I decided to split DLCs into two types: paid and free, and alternate them.
 
-Платное DLC должно быть крутым, его дольше делать и, скорее всего, доля работы для программистов в нём будет больше, чем для геймдизов.
+Paid DLC should be cool, it takes longer to make, and most likely, the share of work for programmers in it will be greater than for game designers, because it will contain new mechanics.
 
-Поэтому, между выпуском платных DLC мы можем выпускать более простые бесплатные. Они помогут нам удержать интерес старых игроков, обогатить базовую игру, привлечь новых игроков и, конечно, загрузить полезной работой геймдизов.
+Therefore, between the release of paid DLCs, we can release simpler free ones. They will retain the interest of old players, enrich the base game, attract new players, and, of course, keep the game designers busy.
 
-Если посмотреть на хронологию событий в итоговой финансовой модели, то можно увидить, что игроки увидят выпуск DLC раз в два месяца. Но для разработчиков это будут циклы по 4 месяца. Разработка двух DLC будет начинаться одновременно, бесплатное DLC будет готовиться 2 месяца, а платное 4, после чего команда будет переходить на следующую итерацию.
+If you look at the chronology of events in the final financial model, you can see that players will see the release of a DLC every two months. But for developers, these will be cycles of four months. The development of two DLCs will start simultaneously, the free DLC will be prepared for 2 months, and the paid one for 4, after which the team will move on to the next iteration.
 ///
 
-В остальном фокус должен быть виден из таблички:
+In the rest, our focus should be visible from the table:
 
-- Для Early Access снимаем геймплей видео и «немного» тратимся на привлечение хардкорных игроков в стратегии, чтобы культивировать из них ядро сообщества.
-- На Release снимаем крутое видео с идеей игры и вливаем деньги в широкую аудиторию, чтобы набрать игроков.
-- На выпуске бесплатного DLC возвраащаем старых игроков и немного привлекаем новых, целясь на особенности конкретного DLC. Например, если DLC будет вдохновлено X-Files, мы можем запустить компанию нацеленную на фанатов сериала.
-- На выпуске платного DLC делаем видео про идею DLC, целимся в старых игроков и немного в новых.
+- For Early Access, we shoot gameplay videos and spend "a little" on attracting hardcore strategy players to forge a core community.
+- On the exit from Early Access, we shoot a cool video with the idea of the game and spend a lot of money on attracting a wide audience.
+- On the release of free DLCs, we return old players and spend a little on attracting new ones focusing on the features of the DLC. For example, if the DLC is inspired by X-Files, we may launch a company aimed at fans of the series.
+- On the release of paid DLCs, we shoot a video about the idea of the DLC and aim spendings at our community and a little at new players.
 
 ## Финансовая модель
 
