@@ -317,47 +317,45 @@ On the example of the game maps:
 - There are games with a complex map logic with scaling, different display modes, filters, buttons, and sliders.
 - There are even games where the map is not displayed through graphics, but [through sound](https://store.steampowered.com/app/437530/A_Blind_Legend/), and you will need a sound engineer, not an artist.
 
-That is why every track should have its own tasks
-Соответственно, каждый трек будет иметь свой объём работы и потребуется такая команда, которая бы прошла по всем трекам без простоя (траты денег впустую). Например, если по арту у вас будет работы `x`, а по разработке — `2*x`, то вам желательно иметь двух разработчиков на одного художника.
+So, every track will have its own amount of work, and you should build such team that will pass through all tracks without downtime (wasting money). For example, if you have `x` work on art track, and `2*x` work on development track, you should hire two developers per one artist.
 
-Поэтому нам надо считать объём работы по каждому треку.
+That's why we need to know the amount of work per track.
 
-Но, как и в остальном, нужно знать меру. В некоторых случаях часть треков можно опустить.
+But, as always, moderation is key. In some cases, it’s fine to leave out certain tracks.
 
-Например, где-то на середине проработки roadmap я увидел, что объём работы для разработчиков и геймдизайнеров значительно больше работы для любого другого трека. То есть именно они будут ограничивать скорость разработки, а на остальные треки можно нанять по одному человеку. Поэтому я стал меньше времени тратить на проработку некоторых задач.
+For example, somewhere in the middle of filling out the roadmap, I saw that the amount of work for developers and game designers is significantly higher than for any other track. That means they will be the ones limiting the development speed, and for all other tracks I can hire only one person per each other track (taking in account the small expected size of the team). So I started to spend less time on writing down tasks for other tracks.
 ///
 
+For example, we know that we need a map in out game — it is our epic `Implement game map`.
 
-Например, вот мы знаем что нам нужна карта в игре.
+- What sort of map? Who knows. So we create research tasks on two tracks:
+    - `game design` — what should be on the map, how it should work;
+    - `art` — how it should look.
+- Of cause, we need to implement it, so we create a task on the `development` track.
+- It would be great to have procedural mao generation. But it is difinitely not required for the Alpha version. So we create additional epics and tasks for the Beta and Early Access stages.
 
-- Какая это будет карта? А кто же его знает. Поэтому мы выделяем подзадачи на исследование сразу по двум трекам:
-    - как карта должна работать в геймдизайне;
-    - как карта должна выглядеть.
-- Конечно, нам надо реализовать карту в коде. Поэтому у нас появляется третий трек — разработка.
-- Было бы круто иметь процедурную генерацию карты. Но в Alpha версии она определённо не нужна, так как не соответствует цели разработки. Поэтому эту идею мы выносим в отдельные куски работы и помещаем на этапы разработки Beta и Early Access версий.
+/// attention | Pay attention
+We do not prescribe what exactly the artist should draw (how many sketches, sprites, buttons) or what buttons and mechanics the developer should implement
 
-/// attention | Обратите внимание
-Мы не прописываем что конкретно хужожник должен нарисовать (сколько скетчей, спрайтов, кнопок) или какие кнопки и механики должен запрограммировать разработчик.
-
-Детальное описание задач будет нужно уже на этапе разработки, когда вы будете точно знать возможности своей команды и все вместе будете детально планировать работу.
+The detailed description of tasks will be required on the production stage, when you will know the capabilities of your team and will plan the work in details together with all involved colleagues.
 ///
 
-Кроме прямых задач на разработку, есть задачи невидимые со стороны, но тоже обязательные. Нельзя о них забывать. Вот примеры из моего roadmap:
+Besides the straightforward tasks, there are invisible tasks that are also mandatory. We cannot forget about them. Here are examples from my roadmap:
 
-- Перенос логики игры из прототипа в реальный проект. Необходим, так как прототип разрабатывался на технологиях, удобных для прототипирования (web), а не для игры в Steam.
-- Разработка инструментария, который должен помогать геймдизайнерам работать быстрее.
-- Плейтесты в конце каждого этапа и доработка игры по их результатам.
-- Разработка QA подходов для оценки качества контента. В моей игре будет процедурная генерация историй, поэтому необходима возможность оценить нижнюю границу их качества. Достаточно ли они разнообразы, затрагивают ли всех NPC, и так далее. Другими словами, нужно защитить себя от случайного тотального факапа, который не заметит никто из разработчиков, потому что разработчики не могут гонять полные игровые сессии целыми днями (им работать надо), из-за чего им сложно замечать статистические явления.
-- Проработка мира, в котором происходт игра. Без цельного контекста, геймдизайнерам и художникам будет сложно согласовывать свою работу друг с другом.
-- Проверка и настройка разнообразия в игре. Мы делаем игру про современный мегаполис, поэтому у нас должны быть представлены люди разных рас, взглядов, возможностей.
-- Туториал.
-- Создание Newspedia (по аналогии с Civilopedia в серии Civilization). В игре будет много нюансов, нужно помочь игрокам ориентироваться в них.
-- Задачи на формирование сообщества и работу с ним.
-- Инфраструктура для отслеживания ошибок и метрик игры.
-- Что-нибудь прикольное для Delux версии, которую мы будем продавать чуть дороже.
-- Поддержка модов.
-- Адаптация для людей с ограниченными возможностями.
-- Вики для сообщества.
+- Moving the game logic from the prototype to the real project. This is necessary because the prototype was developed on technologies convenient for prototyping (web), not for creating a game for Steam.
+- Developing tools for game designers to speed up their work.
+- Playtests at the end of each stage and game improvement based on their results.
+- Development of QA approaches for content quality assessment. There will be procedural story generation in the game, therefore we need somehow to assess the lower quality boundary of the generated stories. Are they diverse enough, do they involve all NPCs, etc. In other words, we need to protect ourselves from a random total failure when due to a bug in the generation algorithm it starts to produce complete nonsense. It is difficult for developers to notice such things because they cannot play full game sessions all day long (they have work to do), so they have difficulty noticing statistical phenomenas.
+- Worldbuilding for the game. Without a consistent solid context, it will be difficult for game designers and artists to keep their work in sync.
+- Validating and setting up diversity in the game. We are making a game about a modern metropolis, so we need to represent people of different races, views, abilities in the game.
+- Tutorial.
+- Creating of the Newspedia (like Civilopedia in Civilization series). The game will have many nuances, we need to help players navigate them.
+- Tasks on community building and working with it.
+- Infrastructure for tracking game errors and metrics.
+- Something fun for the Deluxe version, which we will sell a little more expensive.
+- Modding support.
+- Adaptation for people with disabilities.
+- Wiki for the community.
 
 #### Оценка задач
 
