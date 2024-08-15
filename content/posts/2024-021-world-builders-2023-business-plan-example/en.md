@@ -664,24 +664,24 @@ Also note that your marketing will be tied to specific events. That is, you will
 
 `[17] Total Game Revenue` — How much players will pay for both versions over time, including this month.
 
-### Продажи DLC
+### DLC sales
 
-Все платные DLC описаны в рамках одной логики, поэтому разберу только строки первого DLC.
+All paid DLCs are described within the same logic, so I will only describe the rows of the first DLC.
 
-`[18] Paid DLC 1 Convertion Rate` — Наша оценка доли владельцев базовой версии игры, которые купят DLC. Оценку брал погуглив новости, но информации не то, чтобы много. `30%` конверсии — это амбиционзная цель.
+`[18] Paid DLC 1 Convertion Rate` — Our estimate of the share of base game owners who will buy the DLC. I took the estimate by googling the news, but there is not much information. `30%` conversion is an ambitious goal.
 
-`[19] Paid DLC 1 Purchases` — Количество игроков, которые купят DLC. Там немного запутанная формула, но её суть в том, чтобы считать новых игроков, приходящих каждый месяц и при этом не считать людей дважды.
+`[19] Paid DLC 1 Purchases` — The number of players who will buy the DLC per month. There is a slightly confusing formula, but its essence is to count both old and new players coming each month, and not count people twice.
 
-`[20] Paid DLC 1 Price` — Цена за DLC. Балансируем между жадностью, индустриальными стандартами и вашим представленим об объёме DLC. Для определения допустимого интервала цен я просто глянул цены DLC от Paradox. Плюс, первое DLC будет «на пробу» и какое-то время уйдёт на решение неизбежных технических проблем, поэтому DLC может быть меньше и цену ставлю меньше.
+`[20] Paid DLC 1 Price` — The price of the DLC. We balance between greed, industrial standards, and your idea of the volume of the DLC. To determine the acceptable price range, I just looked at the prices of Paradox DLCs. Plus, the first DLC is expected to be smaller because it will be the first and it will take some time to solve inevitable technical problems. Therefore, the price should be lower.
 
-`[21] Paid DLC 1 Revenue` — Ожидаемый доход от продажи DLC в месяц.
+`[21] Paid DLC 1 Revenue` — The expected revenue from the sale of the DLC per month.
 
-`[22] Total Paid DLC 1 Revenue` — Ожидаемый доход от продажи DLC за всё время, включая этот месяц.
+`[22] Total Paid DLC 1 Revenue` — The expected revenue from the sale of the DLC over time, including this month.
 
-/// note | Прочие DLC отличаются
-- Датой начала продаж, что логично.
-- Ценой DLC. Я вижу разумным варьировать цены циклически.
-- Ожидаемой конверсией. Данных у меня нет, но думаю она должна уменьшаться со временем. В моём случае я опускаю её с `30%` до `20%`.
+/// note | Parameters of the next DLCs will differ
+- By the date of the release;
+- By the price. I see reasonable to vary the price of DLCs cyclically.
+- By the expected conversion rate. I have no data, but I expect that is should reduce with time. In my case I decrease it from `30%` to `20%` over time.
 ///
 
 ### Расчёт денег, которые мы получим от Steam
