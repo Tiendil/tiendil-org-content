@@ -170,25 +170,25 @@ Since we are making both a strategy and a sandbox, and in a free genre (public o
 
 ## Early Access
 
-Опытный разработчик мог заметить, что я обошёл стороной Early Access.
+An experienced developer may have noticed that I have bypassed Early Access.
 
-Сделал я это по нескольким причинам:
+I did this for several reasons:
 
-- Сейчас это де-факто стандарт. Пропускать Early Access смысла нет никакого. Раньше делаете Early Access, раньше получаете [обратную связь от вселенной]{post:@choose-nearest-language:life-and-work-with-mistakes}, раньше исправляете ошибки.
-- Что конкретно релизить в Early Access, на мой взгляд, определяется не столько монетизацией, сколько маркетингом, возможностями команды и желаниями инвесторов.
+- Now it is de facto standard. There is no point in skipping Early Access. The earlier you do Early Access, the earlier you get [feedback from the universe]{post:@choose-nearest-language:life-and-work-with-mistakes}, the earlier you fix mistakes, the better the game will be.
+- From my point of view, what exactly to release in Early Access is defined not by monetization but by marketing, team capabilities, and investors' wishes.
 
-Есть два полюса:
+There are two poles:
 
-1. Полный релиз в Early Access. Выпускаем то, что выпустили бы в обычный релиз, только теперь нам прощают больше багов, а команда спокойнее пилит патчи первого дня, недели, месяца, года. Когда всё продано, делаем release, чтобы засветиться перед игроками, которые почему-то пропустил Early Access.
-2. Условно «тихий» выход в Early Access. В Early Access выпускаем цельную игру, но ~~очень~~ сильно урезанную по фичам. Ориентируясь на обратную связь долго и упорно допиливаем и полируем. Делаем громкий выход из Early Access.
+1. Full release in Early Access. We release what we would release in a regular release, only now we are forgiven more bugs, and the team is calmly working on the day-one, week-one, month-one, year-one patches. When everything is sold, we make a release to highlight the game for players who, for some reason, missed Early Access.
+2. "Quiet" release in Early Access. We release a consistent integral game but significantly cut in features. Based on players' feedback, we work hard to polish and improve the game. When the game is ready, we make a "loud" release.
 
-На мой взгляд, второй подход безальтернативно эффективнее, так как даёт обратную связь значительно раньше, что неизбежно увеличивает качество разработки на её последнем этапа. Если команда готова обратную связь слышать.
+In my opinion, the second approach is unconditionally more effective, as it provides feedback much earlier, which inevitably increases the quality of development at its final stage. If the team is ready to hear feedback, of course.
 
-Но не все могут себе позволить такую роскошь:
+But not everyone can afford this:
 
-- Есть риск ошибиться с тем, что такое «минимальная целостная игра». Если выпустите не то, быстро уйдёте по рейтингу в чистилище. Если у вас финансировние по раундам, то денег на релиз после этого вам не дадут.
-- Ваша игра может быть изначально задизайнена минимально целостной, например, из-за ограничений бюджета. То есть вам будет нечего из неё убрать.
-- Маркетологи или инвесторы сдвинут рассписание разработки так, что вы просто не сможете выйти с нужным набором фич: «полный релиз под Рождество или смерть».
+- There is a risk of wrongly defining what a "minimal integral game" is. If you release the wrong thing, you will quickly fall into the purgatory. If you have financing by rounds, you may not receive money for the final development stage.
+- Your game may be initially designed minimally, for example, due to budget constraints. That is, you will have nothing to cut from it.
+- Marketers or investors will shift the development schedule so that you simply cannot release with the necessary set of features: "full release by Christmas or death."
 
 ## Итоговая стратегия
 
