@@ -408,9 +408,9 @@ We convert the working time in (working) month because our estimates are very ro
 
 ### Green table
 
-Синяя таблица даёт нижнюю (оптимистичную) оценку длительности каждого этапа для нашей команды (про которую поговорим чуть позже).
+The Blue table gives us the lower (optimistic) estimate of the duration of each stage for our team (which we will talk about a bit later).
 
-Задача зелёной таблицы — перевести оптимистичную оценку рабочего времени в реалистичну оценку календарного времени.
+The goal of the Green table is to convert the optimistic estimate into a realistic one in a calendar time.
 
 | Stage        | Max | Forgotten Work % | Mistakes Fixing % | Learning %         | Team Lubrication % | Vacations %   | Expected Work |
 |--------------|-----|------------------|-------------------|--------------------|--------------------|---------------|---------------|
@@ -419,40 +419,42 @@ We convert the working time in (working) month because our estimates are very ro
 | Early Access | 3.7 | 0.3              | 0.075             | 0.05               | 0                  | 0.08          | 6             |
 | Release      | 3.4 | 0.4              | 0.1               | 0.025              | 0                  | 0.08          | 6             |
 
-Для этого мы:
+For this, we:
 
-- Время каждого этапа приравниваем к длительности максимального трека.
-- Увеличиваем его на разные умные коэфициенты.
-- Округляем вверх, так как в разработке софта нет предела пессимизму.
+- Set the time of each stage equal to the duration of the longest track on it.
+- Increase it by different smart coefficients.
+- Round up, because there is no limit to pessimism in software development.
 
-Колонки:
+Columns:
 
-- `Stage` — этап разработки.
-- `Max` — длительность этапа, равна длительности максимального трека.
-- `Forgotten Work` — наша оценка доли работы, которую мы забыли для этапа. Коэфициент возрастает, так как первые этапы мы видим лучше, чем последние. Работа на последних будет сильно отличаться от плана из-за накопления ошибки в нашей модели мира и улучшения нашего понимания его же.
-- `Mistakes Fixing` — ожидаемое дополнительное время на исправление ошибок. С учётом вашей компетенции и **ожидаемой компетенции команды**.
-- `Learning` — затраты на обучение команды. Не бывает такого, что команда сразу умеет всё, что вам надо. Обазятально нужно будет учить новые инструменты, подходы, теории, etc.
-- `Team Lubrication` — штраф на время срабатывания команды. Людям нужно время, чтобы научиться работать друг с другом.
-- `Vacations` — вы же не забыли про отпуска и болезни? Правда-правда? `0.08` в таблице — это примерно `1/12` года.
-- `Expected Work` — округлённая вверх оценка времени на этап.
+- `Stage` — development stage.
+- `Max` — the duration of the stage in months. It is equal to the duration of the longest track on the stage.
+- `Forgotten Work` — our estimate of the share of work that we forgot to include in the stage. The coefficient increases with time because we see the first stages better than the last ones. Work on the last stages will be significantly different from the plan due to the accumulation of mistakes in our model of the game and the improvement of our understanding of it as the development progresses.
+- `Mistakes Fixing` — the time we need to fix the errors/bugs we made. The coefficient decreases with time because we make fewer mistakes as we learn.
+- `Learning` — training costs for the team. It’s unrealistic to expect that the team will immediately know everything you need. It should invest time into learning new tools, approaches, theories, etc.
+- `Team Lubrication` — a penalty on the team's time to get used to each other. People need to learn to work with each other.
+- `Vacations` — you didn't forget about vacations and illnesses, did you? `0.08` in the table is approximately `1/12` of a year.
+- `Expected Work` — the rounded-up estimate of the calendar time for the stage.
 
-/// attention | Внимание!
-Ожидаемая компетенция команды должна отразиться в зарплатах в финансовой модели.
-///
+<!-- TODO: move somewhere -->
+<!-- /// attention | Attention! -->
+<!-- Ожидаемая компетенция команды должна отразиться в зарплатах в финансовой модели. -->
+<!-- /// -->
 
-Итого, у нас получается 4 этапа разработки, каждый по полгода — отличный план как ~~убить~~ потратить с пользой два года своей жизни.
+In the end, we have 4 development phases, each lasting six months — a perfect plan for how ~~to kill~~ productively spend two years of your life.
 
-Кстати, это не считая DLC. Вопрос сложности разработки DLC в нашем планировании остаётся за кадром и будет определяться требованиями финансовой модели, потому что:
+By the way, this is not counting DLCs. The development of DLCs is not included in the Roadmap because:
 
-- Сложность их разработки сильно зависит от качества архитектуры игры. Сейчас это непредсказуемо, всё равно, что гадать на печени козла.
-- Поскольку мы ориентируемся на длительную монетизацию через DLC, после релиза (итоговые фичи которого можно варьировать довольно гибко) нам надо будет построить конвеер производства DLC, который будет ограничен сверху требованиями маркетинга и свойствами нашего сообщества, а снизу — ограничениями архитектуры и команды. Нам потребуется так планировать фичи каждого DLC, чтобы его разработка влезала в ограниченные временные рамки.
+- The complexity of their development depends heavily on the quality of the game's architecture. Now it is unpredictable, like guessing on a goat's liver.
+- The same applies to their content: no game — we don't know what to add to it.
+- Since we’re aiming for long-term monetization through DLCs, after the initial release (features of which can be varied quite flexibly) we’ll need to establish a DLC production pipeline. This pipeline will be constrained from the top by marketing demands and community expectations, and from the bottom by architectural and team limitations. We’ll need to plan the features of each DLC in a way that fits within tight development timelines. It will be totally different planing.
 
-/// note | Разница между разработкой базой игры и DLC
-При сильном приближении можно сказать так.
+/// note | The difference between developing the base game and DLCs
+In a broad sense, we could put it this way.
 
-При подготовке базовой игры мы можем торговать время (которое нам дадут инвесторы) на фичи (которые нам надо сделать для цельной игры).
+While developing the base game, we can trade time (which investors will give us) for features (which we need to make for a complete game).
 
-При подготовке DLC мы будем торговать фичи (кандидаты на попадание в DLC) на время (которое нам будет нужно, чтобы вовремя выпустить DLC).
+While developing DLCs, we will trade features (candidates for inclusion in the DLC) for time (which we will need to release the DLC on time).
 ///
 
 ## Планирование команды
