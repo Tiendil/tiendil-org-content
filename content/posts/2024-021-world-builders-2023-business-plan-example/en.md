@@ -222,7 +222,7 @@ The blue and green tables are calculated semi-automatically: part of the values 
 
 ### Red table
 
-Пример из начала таблицы, если вам лень открывать оригинал:
+Here is an example from the beginning of the table, if you are too lazy to open the original:
 
 Stage  | Epic                       | Feature                                                | Track       | Estimation |
 ------ | -------------------------- | -------------------------------------------------------| ----------- | ---------- |
@@ -235,14 +235,14 @@ Alpha  | Base user interface        | Game Sketches                             
 Alpha  | Base user interface        | Sketches with GUI                                      | art         |            |
 Alpha  | Base user interface        | Implement base UI                                      | development | 10         |
 
-Колонки:
+Columns:
 
-- `Stage` — этап разработки, на котором мы должны выполнить задачу.
-- `Epic` — крупный кусок работы, который мы делаем всей командой.
-- `Feature` — кусок эпика, который делают конкретные специалисты, например, разработчики или дизайнеры.
-- `Track` — какие специалисты делают эту задачу: разработчики, дизайнеры, маркетологи, etc. Почему колонка называется `Track` объясню ниже.
-- `Estimation` — наша оценка времени на выполнение задачи.
-- `Comments` — любые дополнительные комментарии.
+- `Stage` — the development stage at which we need to complete the task.
+- `Epic` — a large piece of work that we do as a team.
+- `Feature` — a piece of an epic that is done by specific specialists, such as developers or game designers.
+- `Track` — what specialists do this feature/task: developers, designers, marketers, etc. I'll explain why the column is called `Track` below.
+- `Estimation` — our time estimate for the task.
+- `Comments` — any additional comments.
 
 #### Что такое трек
 
