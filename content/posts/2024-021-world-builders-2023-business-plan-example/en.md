@@ -644,25 +644,25 @@ While deciding on this number, consider:
 
 Also note that your marketing will be tied to specific events. That is, you will pour a lot of money into a specific month, and then maintain some minimal activity to pick up the tail.
 
-`[8] Game Purchases Boost Tail` — Игроки, которые привлекаются как хвост/эхо ваших маркетинговых активностей. Рассчитываю как `1/3` от эффективности маркетинга в предыдущий месяц. `1/3` взял на глаз из графиков SteamSpy (как быстро уменьшается скорость прироста аудитории).
+`[8] Game Purchases Boost Tail` — Players who will purchase the game as a tail/echo of your marketing activities. Calculated as `1/3` of the effectiveness of marketing in the previous month. I took `1/3` by eye from SteamSpy charts (how quickly the audience growth rate decreases).
 
-`[9] Game Purchases / Month` — Общее число покупок основной игры в месяц.
+`[9] Game Purchases / Month` — The total number of purchases of the base game per month.
 
-`[10] Total Game Owners` — Сколько покупок будет совершено за всё время, включая этот месяц.
+`[10] Total Game Owners` — How many purchases will be made over time, including this month.
 
-`[11] Delux Edition Purchases %` — Доля покупок люксовой версии игры. Взял скромные `5%`.
+`[11] Delux Edition Purchases %` — The share of purchases of the deluxe version of the game. I estimated it as a modest `5%`.
 
-`[12] Standard Edition Purchases` — Количество покупок базовой версии игры в месяц.
+`[12] Standard Edition Purchases` — The number of purchases of the base game per month.
 
-`[13] Delux Edition Purchases` — Количество покупок люксовой версии игры в месяц.
+`[13] Delux Edition Purchases` — The number of purchases of the deluxe version of the game per month.
 
-`[14] Standard Edition Revenue` — Сколько заплатят игроки за базовую версию в месяц.
+`[14] Standard Edition Revenue` — How much players will pay for the base version per month.
 
-`[15] Delux Edition Revenue` — Сколько заплатят игроки за люксовую версию в месяц.
+`[15] Delux Edition Revenue` — How much players will pay for the deluxe version per month.
 
-`[16] Game Revenue`— Сколько заплатят за обе версии в месяц.
+`[16] Game Revenue`— How much players will pay for both versions per month.
 
-`[17] Total Game Revenue` — Сколько заплатят за обе версии за всё время, включая этот месяц.
+`[17] Total Game Revenue` — How much players will pay for both versions over time, including this month.
 
 ### Продажи DLC
 
