@@ -131,15 +131,23 @@ But if we don't have such problems, we can look at **option 5** — replacing th
 
 The first release still brings a significant share of income, but the development focus is initially on the production of DLCs, which eventually outweighs the profit from the first release.
 
-### Конвеер DLC
+/// note | **Option 6** — endless development of the base game
+There are a few games, for example, [No Man's Sky](https://store.steampowered.com/app/275850/No_Mans_Sky/), [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/), developers of which just continue to polish the base game (without DLCs) and continue selling it.
 
-Грамотное поточное производство DLC круто по двум причинам.
+It's incredibly cool, the developers deserve all sorts of praise. But, in my opinion, such a decision is made when you have already hit the target. Not even hit the target, but, like Robin Hood, split the arrow in the bullseye. This decision can be made after the release of the first version when you already have money, a growing community, and you see THE POTENTIAL.
 
-**Во-первых**, оно формирует крепкую развивающиуюся экосистему, включающую компанию и сообщество игроков:
+I can not recommend building a business plan based on such an optimistic scenario.
+///
 
-1. С каждым выпущенным DLC вы дорабатываете и базовую игру, тюните её под конкретную нишу и, со временем, становитесь монополистом в ней.
-2. Доработанную игру продолжают покупать игроки, для которых раньше она была не так хороша. Поэтому ваше сообщество продолжает расти долгое время после релиза.
-2. Крепкое сообщество даёт быструю и качественную обратную связь для ваших решений, что ведёт к выпуску более качественных DLC. Хорошие DLC улучшают игру. Улучшенная игра привлекает людей в сообщество. Сообщество даёт ещё лучшую обратную связь.
+### Massprodusing DLCs
+
+Efficient, well-organized production of DLC is great for two reasons.
+
+**Firstly**, it forms a strong developing ecosystem uniting the company and the player community:
+
+1. With each released DLC, you improve the base game, tune it to a specific niche, and eventually become a monopolist in it.
+2. Improved base game continues to be bought by players for whom it was not so good before. Therefore, your community continues to grow for a long time after the release.
+3. Крепкое сообщество даёт быструю и качественную обратную связь для ваших решений, что ведёт к выпуску более качественных DLC. Хорошие DLC улучшают игру. Улучшенная игра привлекает людей в сообщество. Сообщество даёт ещё лучшую обратную связь.
 
 /// brigid-images
 src = "./images/dlc-feedback-loop.png"
