@@ -206,21 +206,21 @@ caption = "A slide from the presentation. The numbers are hidden — we don't ha
 
 ## Roadmap
 
-Теперь нам надо оценить объём работы. Для этого мы должны развернуть этапы разработки в конкретные крупные задачи и оценить время, необходимое на их выполнение.
+Now, we need to estimate the amount of work. To do this, we unfold the stages of development into large tasks and estimate the time needed to complete them.
 
-Итоговый Roadmap вы можете найти по [ссылке](https://docs.google.com/spreadsheets/d/11D4wl-dk4eLU4Jj3vVnQQY7TurMW8eC_nHzTexP7wgY/edit?usp=sharing).
+The final roadmap can be found [here](https://docs.google.com/spreadsheets/d/11D4wl-dk4eLU4Jj3vVnQQY7TurMW8eC_nHzTexP7wgY/edit?usp=sharing).
 
-Roadmap состоит из трёх таблиц. Для удобства я выделил цветом их заголовки:
+The roadmap consists of three tables. For convenience, I highlighted their headers in color:
 
-- Красная таблица — все крупные задачи, которые мы должны сделать.
-- Синяя таблица — объём задач по трекам и этапам.
-- Зелёная таблица — итоговая оценка времени на каждый этап.
+- The Red table contains all the major tasks we need to do.
+- The Blue table shows the volume of tasks by tracks and stages.
+- The Green table calculates the final time estimate for each stage.
 
-Красную таблицу мы заполняем.
+We fill in the red table.
 
-Синяя и зелёная таблицы рассчитываются полуавтоматически: часть значений мы задаём, часть берём из других тиблиц. Синяя считается по Красной, Зелёная — по Синей.
+The blue and green tables are calculated semi-automatically: part of the values we set, part we take from other tables. The blue is calculated based on the red, the green is calculated based on the blue.
 
-### Красная таблица
+### Red table
 
 Пример из начала таблицы, если вам лень открывать оригинал:
 
