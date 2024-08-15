@@ -190,18 +190,18 @@ But not everyone can afford this:
 - Your game may be initially designed minimally, for example, due to budget constraints. That is, you will have nothing to cut from it.
 - Marketers or investors will shift the development schedule so that you simply cannot release with the necessary set of features: "full release by Christmas or death."
 
-## Итоговая стратегия
+## Final strategy
 
-1. Мы делаем стратегию-песочницу под Steam.
-2. Мы ориентируемся на длительный выпуск большого количества DLC.
-3. Мы ориентируеся на «тихий» выход в Early Access, культивацию сообщества, активную эксплуатацию обратной связи от него и громкий релиз.
-4. Если выпуск DLC окажется недостаточно финансово эффективным, мы переключаемся на разработку нового продукта, с использованием существующих наработок, подерживая его выпуском нескольких DLC к первой игре.
+1. We are making a sandbox strategy for Steam.
+2. We are focusing on a long-term release of a large number of DLCs.
+3. We are aiming for a "quiet" release in Early Access, cultivating a community, actively exploiting feedback from it, and making a "loud" release when the game is ready.
+4. If the release of DLCs isn’t financially effective enough, we shift to developing a new game (a sequel or a game in the nearby genre), while still supporting the first game with a few additional DLCs.
 
-На основе планов выхода в Early Access и понимания геймдева мы можем описать крупные этапы разработки нашей игры.
+Based on this strategy and our understanding of gamedev we can describe the major stages of our game development.
 
 /// brigid-images
 src = "./images/roadmap-without-numbers.png"
-caption = "Слайд из презентации. Числа закрасил — на текущем этапе у нас их нет. Красным прописана главная цель каждого этапа. Под ней краткая расшифровка."
+caption = "A slide from the presentation. The numbers are hidden — we don't have them at this stage. The main goal of each stage is highlighted in red. Below its brief description."
 ///
 
 ## Roadmap
