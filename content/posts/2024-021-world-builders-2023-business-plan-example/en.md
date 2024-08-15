@@ -244,41 +244,41 @@ Columns:
 - `Estimation` — our time estimate for the task.
 - `Comments` — any additional comments.
 
-#### Что такое трек
+#### What is a track
 
-В проекте всегда можно выделить несколько потоков задач, которые хорошо бы (но не всегда возможно) выполнять всегда, например, каждый спринт брать по одной задаче. Иначе какая-то часть проекта будет деградировать.
+In any project, you can always highlight several streams of tasks that would be nice (but not always possible) to perform all the time, for example, by taking one task per week. Otherwise, some parts of the project will degrade.
 
-Самое простое из геймдева, это треки разработки, игрового дизайна, художественного оформления.
+The simplest example from gamedev are tracks of development, game design, and art.
 
-/// note | Части проекта, оставленные без внимания, деградируют
-Если мы в какой-то момент решим, что по геймдизайну мы всё сделали, а разработчикам ещё пару месяцев пилить код, то за эти пару месяцев геймдизайн (реальный в имплементации игры, не тот, что в голове геймдиза) деградирует, а не останется таким же, как может показаться.
+/// note | Parts of the project left unattended degrade
+If at some point we decide that, for example, we have done everything in game design, and developers still have a couple of months to code, then the game design (the real one implemented in the game, not the one in the heads of game designers) will degrade, not remain the same as it may seem.
 
-Так как модель игры в коде изменится (накопит ~~ошибки~~ расхождения), а модель геймдизайна в документации и головах геймдизов останется старой.
+Because the game model in the code will change (accumulate ~~mistakes~~ discrepancies), and the game design model in the documentation and in the heads of game designers will remain the same (old).
 ///
 
-Поэтому, **при идеальном ведении проекта с неограниченным бюджетом**, по каждому треку всегда что-то делается, чтобы проект рос равномерно.
+Therefore, **in an ideal project with an unlimited budget**, work is always going on for each track to ensure the project grows evenly, organically.
 
-Обращу внимание, что не надо путать треки с ролями, должностями, компетенциями. Выше был приведён пример высокоуровневых треков. Вот для примера более специализированные треки для веб разработки:
+Note, tracks should not be confused with roles, positions, competencies. Above, I gave an example of high-level tracks. Here is an example of more specialized tracks for web development:
 
-- разработка бизнес-фич;
-- улучшение контролируемости проекта: метрики, логи, тесты;
-- контроль безопасности проекта;
-- улучшение производительности.
+- business logic development;
+- improving/maintaining the project's controllability: metrics, logs, tests;
+- improving/maintaining security level;
+- improving/maintaining performance.
 
-Бинзнес ~~всегда~~ обычно грешит тем, что игнорит задачи с не-самых-обязательных-и-заметных треков, которые не-приносят-value-напрямую.
+Business ~~always~~ usually has a habit of ignoring tasks from not-so-mandatory-and-noticeable tracks that do-not-bring-value-directly. For example, tasks aimed at improving project controllability might get dismissed because "everything is fine now."
 
-Например, не одобряет задачи по улучшению контролируемости проекта, потому что «сейчас и так всё ок». Но фишка в том, что долг по треку растёт как снежный ком, снежинка за снежнкой, если не платить его, то в какой-то момент приходит беда, все фичи откладываются в пользу срочных исправлений через костыли, что приводит к существенному нарушению планирования того же бизнеса и, до кучи, к глубинной деградации проекта, которая через время ещё сильнее рушит планирование и так по кругу.
+But the catch is that the debt in track grows like a snowball, snowflake by snowflake. If you don’t pay it off, eventually disaster strikes: all new features get postponed in favor of urgent fixes using quick-and-dirty solutions. This leads to significant disruptions in the business’s planning and, on top of that, to deep-rooted project degradation, which further derails planning over time, creating a vicious cycle.
 
-Поэтому задача лидера проекта в том, чтобы поддерживать активными все треки.
+That's why the project leader's goal is to keep all tracks active.
 
-Соответственно, начиная делать таблицу, я решил расписывать задачи именно по трекам, предполагая что:
+Accordingly, when starting making a table, I decided to describe tasks by tracks, assuming that:
 
-- перечень треков определится по ходу заполнения;
-- на каждом этапе на каждом треке будет какой-то объём работы.
+- the list of tracks will be determined as we go;
+- at each stage on each track there will be some amount of work.
 
-По факту, можно заметить, что именно в нашем конкретном случае можно было писать должности. Но, если бы проект был больше, то треки были бы не такими общими. Например, геймдизайн мог разделиться на треки левел-дизайна, механик и нарратива.
+In fact, you can see that in our specific case, we could use roles instead of tracks. But if the project were larger, the tracks would be more diverse. For example, game design could be divided into tracks of level design, mechanics, and narrative.
 
-Также нет гарантии, что по мере разаботки продукта и становления команды, мы не захотим увеличить детализацию наших планов.
+Also, it is not guaranteed that as the product develops and the team grows, we will not want to increase the details of our plans.
 
 #### Как выделять задачи
 
