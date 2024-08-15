@@ -503,40 +503,40 @@ By following these logic, we createed an image of our future team:
 - Tasks and employee specializations are adjusted according to the requirements of each development stage. For example, in the Alpha version, we don’t need support utilities or QA automation, but they become essential for smooth development and achieving the desired quality later on. Therefore, we hire a second developer by the start of the Beta version.
 - We’ll hire a producer by the Beta stage since I can handle managing five skilled people part-time, but I’ll need help beyond that (I want to continue write code and work on game design). Plus, I don’t have experience managing outsourcing, so it would be great to delegate that responsibility.
 
-## Позиционирование — игры-маяки
+## Positioning — beacon games
 
 /// brigid-images
 src = "./images/positioning.png"
-caption = "Игры, которым наша игра будет близка. Более подробную «сырую» таблицу можно найти по [ссылке](https://docs.google.com/spreadsheets/d/1kzkX0gXd7RqrkZGUiOPMJvDoo5Swdqa8JfyuBWXYgbo/edit?usp=sharing)."
+caption = "Games that are similar in some ways to what we want to create. A more detailed 'raw' table can be found [here](https://docs.google.com/spreadsheets/d/1kzkX0gXd7RqrkZGUiOPMJvDoo5Swdqa8JfyuBWXYgbo/edit?usp=sharing)."
 ///
 
-Прежде чем приступить к разработке финансовой модели, нам будет полезно собрать немного инфы про судьбу похожих проектов.
+Before we start developing a financial model, it would be useful to gather some information about the fate of similar projects.
 
-- Во-первых, если нет похожик на ваш продуктов, то это повод крепко задуматься а то ли вы делаете.
-- Во-вторых, это даст вам обратную связь по ожидаемым объёму работ и команде. Вы сможете сравнить свои подсчёты с реальными данными.
-- В-третьих, это позволит вам прикинуть (с помощью эвристик) некоторые параметры для бизнес модели.
+- First, if there are no similar projects, it is a reason to think is the concept of our game is so unique that no one has ever thought of it, or is it so bad that no one has ever tried to implement it.
+- Second, such a list will provide us a feedback on the expected amount of work and the size of the team. We can compare our calculations with real data.
+- Third, it will allow us to estimate (using heuristics) some parameters for the business model.
 
-Я выбирал маяки по жанру и значимому опыту, который получают игроки. Тут можно пофилосовстовать и найти кучу альтернатив. Например, раскопать какую-нибудь статистику Steam или подключить ИИ, кластеризацию и прочий data-science.
+I chose beacons based on genre and the significant player experience they provide. It is possible to philosophize about alternative approaches. For example, someone could dig up some Steam statistics or collect raw data and make some data science magic.
 
-Какие данные нам интересны:
+What data do we need:
 
-- Время разработки.
-- Размер команды.
-- Цена в момент релиза.
-- Проданные копии.
-- Примерная выручка (revenue).
+- Development time.
+- Team size.
+- The price of the game at the release time.
+- The number of copies sold.
+- The estimated revenue.
 
-Большинство из этого приватные данные и никто так просто их вам не даст. Особенно точные значения.
+Most of this data is private, and almost no one will give it to you. Especially the exact values.
 
-Но точные данные нам и не нужны (типо все предыдущие наши расчёты были точны, ага), а примерная информация, в моём случае, неожиданно легко нашлась в Википедии и новостных ресурсах.
+But we do not need exact values (like all our previous calculations were exact, yeah). In my case, approximate information was unexpectedly easy to find on Wikipedia and news resources.
 
-/// hint | Лайфхак
-Размер одной из команд я посчитал по количеству лиц на фотке из Reddit.
+/// hint | Lifehack
+The size of one of the teams I calculated by the counting the number of faces on the photo from Reddit.
 ///
 
-Кстати совет. Если вы собираетесь когда-нибудь в будущем делать игру, но вот не прямо сейчас, начинайте собирать ссылки на интервью и прессрелизы разработчиков. Потом как найдёте.
+By the way, an advice. If you are going to make a game in the future, but not right now, start collecting links to interviews and press releases from developers. They will come in handy when you start planning.
 
-Для случаев, когда Википедии недостаточно, у нас есть несколько аггрегаторов статистики Steam. Например, [Steam Spy](https://steamspy.com/).
+In case Wikipedia is not enough, we have several Steam statistics aggregators. For example, [Steam Spy](https://steamspy.com/).
 
 ## Маркетинговая стратегия
 
