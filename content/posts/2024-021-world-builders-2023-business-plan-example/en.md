@@ -357,26 +357,28 @@ Besides the straightforward tasks, there are invisible tasks that are also manda
 - Adaptation for people with disabilities.
 - Wiki for the community.
 
-#### Оценка задач
+#### Tasks estimation
 
-Оценка задач — вопрос сложный и запутанный. Конкретный подход зависит от вашего опыта.
+Estimations is a complex and tricky question. The specific approach depends on your experience.
 
-Можно выделить два подхода:
+There are two main approaches:
 
-- Оценка в story points — абстрактных единицах сложности. Например, вы говорите, что самая простая задача стоит одно очко, после чего все остальные задачи оцениваете пропорционально ей. Когда всё оценено, переводити очки во время по какому-то курсу.
-- Оценка сразу в реальном времени.
+- Estimation in story points — abstract units of complexity. For example, you state that the simplest task is worth one point, and then estimate all other tasks proportionally to it. When everything is estimated, you convert points to working time at some rate.
+- Estimation in working time from the start.
 
-/// attention | Оценка происходит в рабочем времени, не в календарном
-В календарном месяце ±30 дней, в рабочем ±20. Зарплату вы платите за календарные месяцы, а работа двигается по рабочим. Поэтому последней операций в расчёте суммарного времени будет перевод рабочего времени в календарное. У меня это сделано в Зелёной таблице.
+/// attention | Speak about work using working time not calendar time
+A calendar month has ±30 days, but only ±20 working days. You pay salary for calendar months, but work moves in working months.
+
+Therefore, the last operation in calculating the total development time will be converting working time to calendar time. In my case it is done in the Green table.
 ///
 
-Для себя работу я обычно оцениваю в «идеальный рабочих днях» (когда никто и ничто не отвлекает). Этот же подход выбрал для roadmap. Но **для совместной оценки лучше использовать story points.**
+For my personal needs, I usually estimate work on "ideal working days" (when no one and nothing distracts the worker). I chose the same approach for the roadmap. But **for joint estimation in a team, it is better to use story points.**
 
-### Синяя таблица
+### Blue table
 
-После того как мы рассписали всю работу, мы можем узнать сколько времени займёт каждый трек на каждом этапе разработки. Это позволит нам подобрать количество сотрудинков на треки так, чтобы равномерно двигаться по ним.
+After we have described all the work, we can find out how much time each track will take at each stage of development. This will allow us to estimate the number of employees required for each track so that the work is done evenly.
 
-Для этого мы группируем Красную таблицу по тройке значений `этап + эпик + трек` и суммируем рабочее время в них.
+For this, we group the Red table by the triple `stage + epic + track` and sum the working time in them.
 
  Stage        | Track       | Sum     | Workers   | Workdays | Work Months |
 --------------|-------------|-------- | ----------|----------|------------ |
@@ -389,22 +391,22 @@ Besides the straightforward tasks, there are invisible tasks that are also manda
  Release      | development | 150     | 2.25      | 67       | 3.4         |
  Release      | game design | 114     | 2.25      | 51       | 2.6         |
 
-/// attention | Внимение!
-В моей Синей таблице есть только треки разработки и геймдизайна. Это не значит что изначально там были только они! Таблица уже отфильтрована по самым значимым трекам, после того, как стало ясно, что по остальным работы значительно меньше.
+/// attention | Attention!
+You may notice that there are only development and game design tracks in my Blue table. This does not mean that there were only these tracks initially! The table has already been filtered to display only the most significant tracks, after it became clear that there was significantly less work on the other tracks.
 ///
 
-Колонки:
+Columns:
 
-- `Stage` — этап разработки.
-- `Track` — трек.
-- `Sum` — общий объём работы по треку в днях.
-- `Workers` — количество сотрудников, которые будут на треке на этом этапе. Дробная часть — это доля моего времени, которое я смогу выделять на помощь. Как подбирать количество сотрудников на треки расскажу ниже.
-- `Workdays` — количество рабочих дней на человека.
-- `Work Months` — количество рабочих месяцев, которое займёт трек.
+- `Stage` — development stage.
+- `Track` — track.
+- `Sum` — total amount of work on the track at the stage in days.
+- `Workers` — the number of employees that will be on the track at the stage. The fractional part is the share of my time that I can allocate to help. I will tell how to choose the number of employees for the tracks later.
+- `Workdays` — the number of working days per person.
+- `Work Months` — the number of working months, which will take the track at the stage.
 
-Всё время я перевожу в рабочие месяцы, так как расчёты очень приближённые и далее никому «точное» количество дней будет не интересно.
+We convert the working time in (working) month because our estimates are very rough and later no one will need to know "exact" number of days.
 
-### Зелёная таблица
+### Green table
 
 Синяя таблица даёт нижнюю (оптимистичную) оценку длительности каждого этапа для нашей команды (про которую поговорим чуть позже).
 
