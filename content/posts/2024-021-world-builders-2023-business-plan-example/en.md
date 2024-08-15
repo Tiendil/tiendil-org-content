@@ -580,31 +580,31 @@ In the rest, our focus should be visible from the table:
 - On the release of free DLCs, we return old players and spend a little on attracting new ones focusing on the features of the DLC. For example, if the DLC is inspired by X-Files, we may launch a company aimed at fans of the series.
 - On the release of paid DLCs, we shoot a video about the idea of the DLC and aim spendings at our community and a little at new players.
 
-## Финансовая модель
+## Financial model
 
-Наконец мы можем заняться самым интересным — подсчётом денег.
+Finally, we can get to the most interesting part — counting money.
 
-Эксельку с расчётами можно найти по [ссылке](https://docs.google.com/spreadsheets/d/1QmU-hp3VN0OsWIZEhlfJnJpUrC9J6nI8KKq-0wHFOMw/edit?usp=sharing).
+You can find the spreadsheet with the calculations [here](https://docs.google.com/spreadsheets/d/1QmU-hp3VN0OsWIZEhlfJnJpUrC9J6nI8KKq-0wHFOMw/edit?usp=sharing).
 
-В ней два листа:
+It contains two sheets:
 
-- Детальный помесячный расчёт — для нас и для удобства расчёта.
-- Краткая выдержка из первого листа — срез самых важных параметров в моменты ключевых событий разработки — для инвесторов и для красивой презентации.
+- A detailed monthly calculation — for us and for the convenience of modeling.
+- A brief excerpt from the first sheet — a slice of the most important parameters at key points in development — for investors and a beautiful presentation.
 
-Второй лист строится автоматическм на основе данных с первого листа.
+The second sheet is built automatically based on the first one.
 
-План построен до выпуска четвёртого платного DLC включительно, но расчитан на чуть больший срок — до конца 4-ого года разработки.
+The model is built till the release of the fourth paid DLC, but it is calculated for a slightly longer period — until the end of the fourth year of development.
 
-Разбирать буду первый лист, в нём 65 строк. Расчёт идёт сверхну вниз слева направо, поэтому буду просто описывать все строчки по порядку.
+I will describe the first sheet, it contains 65 rows. The calculation goes from top to bottom, left to right, so I will just describe all the rows in order.
 
-Формулы прописывать не буду, их можно посмотреть в оригинальной таблице, но буду описывать идею расчёта.
+I will not write down the formulas, you can find them in the original table, but I will describe the idea of the calculation if it is not trivial.
 
-Описание разобью на разделы по близости данных. В таблице они отличаются цветом фона.
+I split the description into sections by the proximity of the data. In the table, they are distinguished by the background color.
 
-Итак, поехали.
+So, let's go.
 
-/// attention | Смотрите на модель через внутреннего скептика
-Многие значения в этой модели брались не из статистики, а из мнения экспертов (например, преподавателей школы), моего здравого смысла и прочих не обязательно самых достоверных источников.
+/// attention | Look at the model through the eyes of an internal skeptic
+A lot of input values in this model are taken not from statistics and reports but from the opinions of experts (e.g., school teachers), my common sense, and other not necessarily the most reliable sources.
 ///
 
 ### Шапка
