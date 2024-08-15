@@ -711,47 +711,47 @@ So, as I understand, in the long run on discounts the game can "lose" up to `50%
 
 `[43] Total Revenue After Steam Fees` — Our ongoing revenue after all losses and fees including this month.
 
-### Траты на разработку
+### Spends on development
 
-Та часть модели, для которой мы так долго считали roadmap и состав команды.
+The part of the model for which we spent so much time calculating the roadmap and team composition.
 
-`[44] Team Size` — Размер команды на месяц расчёта.
+`[44] Team Size` — The number of people in the team.
 
-`[45] Average Gross Sallary $` — Средняя зарплата члена команды.
+`[45] Average Gross Sallary $` — The average salary of a team member.
 
-/// note | Надо ли прописывать зарплаты по должностям?
-Не вижу никакого смысла.
+/// note | Should we specify salaries per position?
+I do not see any reason to do this.
 
-Часто roadmap и даже концепцию продукта проще загнуть под команду, чем собрать команду под продукт. Например, когда я работал над [Сказкой](https://the-tale.org), я поменял стилистику игры с юморной на серьёзную, потому что нашёл геймдизов которые круто умели в серьёзные тексты. В случае крупных проектов, это не так актуально, но всё равно следует учитывать.
+Not always, but often, it’s easier to adapt the roadmap and even the product concept to the team, rather than build a team around the product. For example, when I worked on [The Tale](https://the-tale.org), I changed the style of the game from humorous to serious because I met game designers who were great at serious texts. In the case of large projects, this is not so relevant, but still worth considering.
 
-Утрируя, вы не знаете кто вам подвернётся при найме. Крутой мотивированый спец может повернуть всю вашу разработку в совершенно новое и более крутое русло только за счёт своего опыта и уникального видения. Отбрасывать эту возможность не стоит.
+Exaggerating, you do not know who you will hire. A cool motivated specialist can turn your entire development in a completely new and cooler direction just because of their experience and unique vision. Dismissing such an opportunity is not worth it.
 ///
 
-`[46] Sallary Indexation` — Индексация зарплат. Думаю, это почти никто не закладывает, а зря. На мой взгляд это обязательный элемент соглашения в наши дни. Так сказать, элемент рабочей этики.
+`[46] Sallary Indexation` — Salary indexation. I think almost no one includes this but in vain. In my opinion, this should be an obligatory element of the agreement today. So to say, an element of work ethics.
 
-`[47] Final Sallary` — Итоговая средняя зарплата с учётом индексации.
+`[47] Final Sallary` — The final average salary with indexation.
 
-`[48] Team Cost` — Суммарные затраты на команду в месяц.
+`[48] Team Cost` — The total cost of the team per month.
 
-/// note | На самом деле затрат на команду будет больше
-Содержаине организации приводит к огромному количеству непрямых трат: на офис, на бухгалтера, на юриста, etc.
+/// note | In reality, the team costs will be higher.
+Maintaining an organization leads to a huge number of indirect costs: office, accountant, lawyer, etc.
 
-В нашей модели эти затраты не учтены: не ясно ни для какой страны их считать, ни для какой конфигурайции команды (удалёнка, офис, смещанный вариант, b2b или найм, etc.). На момент создания модели не было ясно, будет ли отдельная компания создаваться.
+I have not included these costs in the model. It is not clear for which country to count them, nor for which configuration of the team (remote, office, mixed, b2b or hiring, etc.). At the time of creating the model, it was not clear whether a separate company would be created or not.
 
-**Это минус нашей финансовой модели.** Но по сравнению с размером трат на маркетинг, «забытая» сумма будет небольшой.
+**It is a drawback of our financial model.** But compared to the size of the marketing costs, the "forgotten" amount will be small.
 
-По-хорошему, надо было бы поднять статистику, экспертов и сказать, что «в среднем на поддержание работы компании тратися `X%` от зарплатного фонда».
+Ideally, we should have pulled up some statistics, consulted experts, and stated that “on average, maintaining company operations costs `X%` of the payroll budget.”
 ///
 
-`[49] Average Outsorce Staff` — Количество аутсорсеров, с которыми будем работать. Моя «экспертная» оценка: что-то постоянно будет аутсорсится, но не ясно в каком объёме, скорее всего в небольшом, поэтому `1`.
+`[49] Average Outsorce Staff` — The number of outsourcers we will work with. My "expert" estimate: something will always be outsourced, but it is not clear to what extent, most likely in a small one, so `1`.
 
-`[50] Average Outsource Cost` — Ожидаемая стоимость одного аутсорсера в месяц, логика такая же, как и со средней зарплатой команды.
+`[50] Average Outsource Cost` — The expected cost of one outsourcer per month. The logic is the same as with the average team salary.
 
-`[51] Outsoursing Cost` — Суммарная стоимость аутсорса в месяц.
+`[51] Outsoursing Cost` — The total cost of outsourcing per month.
 
-`[52] Development Cost`— Суммарная стоимость всей разработки в месяц.
+`[52] Development Cost`— The total cost of all development per month.
 
-`[53] Total Development Cost` — Общая стоимость всей разработки с начала времён, включая текущий месяц.
+`[53] Total Development Cost` — The overall cost of all development since the beginning of time, including this month.
 
 ### Расчёт маркетинга
 
