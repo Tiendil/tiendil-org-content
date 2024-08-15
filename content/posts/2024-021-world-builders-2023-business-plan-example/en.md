@@ -607,16 +607,16 @@ So, let's go.
 A lot of input values in this model are taken not from statistics and reports but from the opinions of experts (e.g., school teachers), my common sense, and other not necessarily the most reliable sources.
 ///
 
-### Шапка
+### Header
 
-`[1] Year` — Цветовая дифференциация лет разработки для удобства навигации.
+`[1] Year` — Color differentiation of the years of development for easy navigation.
 
-`[2] Month`— Порядковый номер месяца, тоже для удобства навигации.
+`[2] Month` — The ordinal number of the month, also for navigation.
 
-`[3] Milestones` — Важные события в жизни игры. Каждое событие обычно меняет параметры финансовой модели. Например, при начале разработки Beta версии мы увеличиваем размер команды.
+`[3] Milestones` — Important events in the life of the game. Each event usually changes the parameters of the financial model. For example, when starting the development of the Beta version, we increase the size of the team.
 
-/// note | Моменты описанные в `Milestones` важны для инвесторов
-По наличию значения в ячейках `Milestones` мы отбираем столбцы таблицы для краткой выдержки модели на втором листе.
+/// note | The events in the `Milestones` row are important for investors
+We select columns for the second sheet based on the presence of values in the `Milestones` row.
 ///
 
 ### Продажи основной игры
