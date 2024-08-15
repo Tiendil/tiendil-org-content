@@ -280,43 +280,44 @@ In fact, you can see that in our specific case, we could use roles instead of tr
 
 Also, it is not guaranteed that as the product develops and the team grows, we will not want to increase the details of our plans.
 
-#### Как выделять задачи
+#### How to break down epics into tasks
 
-Самое главное — чувствовать меру. При всём желании мы не можем знать весь перечень эелементов интерфейса, звуков, механик и чего угодно в финальной игре. Поэтому нет никакого смысла его составлять.
+The most important thing is to have a sense of balance. With all our desire, we cannot know the full list of interface elements, sounds, mechanics, and whatever else will be in the final game. Therefore, there is no point in making such a list.
 
-Вместо этого надо набрасывать работу крупными кусками, ориентируясь на здравый смысл и собственный опыт.
+Instead, we should define work in large chunks, focusing on common sense and our own experience.
 
-Если у вас нет опыта, используйте только здравый смысл :-) Потом найдите опытного товарища и попросите его проверить вашу работу. Делать наоборот (искать человека сделать эту работу сразу за вас) не могу рекомендовать, так как человек уйдёт, а вы останетесь с артефактом, который не понимаете.
+If you have no experience, use common sense only :-) Then find an experienced friend and ask him to check your work. Doing the opposite (finding a person to do this work for you) is not recommended, as the person will leave, and you will be left with an artifact you do not understand.
 
-Делегировать накидывание задач человеку из команды (который подписался, что будет с вами и дальше), конечно, можно. **Ещё круче, делать это всей командой.** У меня команды нет, поэтому делал сам.
+Of course, it is okay to delegate task breakdown to a team member (who has signed up to work with you further). **Even cooler is doing it together as a team.** I don't have a team, for now, so I did it myself.
 
-В нашей стратегии, для кажого этапа разработки мы картко сформулировали, что должно получиться в итоге.
+In our strategy, we shortly defined the goals of each development stage and the expected result on its completion.
 
-Например, в нашем случае для Alpha версии:
+For example, for the Alpha version:
 
-- Цель: `Implement core game mechanics.`
-- Описание результата: `The PC game where you can play 1 game session and have some fun.`
+- Goal: `Implement core game mechanics.`
+- Expected result: `The PC game where you can play 1 game session and have some fun.`
 
-Зная, что за игру мы делаем, мы можем определить что в ней должно быть для завершения этого этапа:
+Knowing what game we are making, we can define what should be ready to complete this stage:
 
-- Минимальное описание геймдизайна.
-- Минимальный интерфейс пользователя.
-- Зачатки базовых механик. В нашем случае карта, каналы распространения новостей, расследование событий.
-- Какой-то контент.
+- Minimum game design description.
+- Minimum user interface.
+- Minimum game mechanics. In our case, it is a map, news channels, and events investigation.
+- Some content.
 
-Эти задачи мы должны сделать всей командой, но каждая из них содержит разный объём работы для разных специалистов. Поэтому разложим их на треки.
+These tasks we should complete as a team, but each of them contains different amount of work for different specialists. Therefore, we should break them down into tracks.
 
-/// note | Почему недостаточно одних эпиков
-Может показаться, что для roadmap достаточно прописать только эпики. Дескать мы ж работаем командой, поэтому сначала всей командой сдлаем один эпик, потом второй и так далее. Но это не так.
+/// note | Why is not enough to have only epics
+It may seem that it is enough to define only epics for the roadmap. The idea being, we work as a team, so first we all complete the first epic, then the second, and so on. But this is not the case.
 
-Каждая игра требует уникального количества работы по разным трекам. Где-то надо больше графики, где-то — игровой логики, где-то ещё чего-то.
+Every game requires a unique amount of work in different areas. Somewhere you need more graphics, somewhere more game logic, somewhere something else.
 
-На примере карт:
+On the example of the game maps:
 
-- Есть игры в которых очень красивые карты, но за ними мало логики — они просто картинки.
-- Есть игры со сложной логикой карт: масштабированием, сменой режимов отображения, фильтрами, кнопками и ползунками.
-- А есть игры, в которых карта отображется не через графику, а [через звук](https://store.steampowered.com/app/437530/A_Blind_Legend/), и вам нужен будет звукоинженер, а не художник.
+- There are games with very beautiful maps, but little logic behind them — they are just pictures.
+- There are games with a complex map logic with scaling, different display modes, filters, buttons, and sliders.
+- There are even games where the map is not displayed through graphics, but [through sound](https://store.steampowered.com/app/437530/A_Blind_Legend/), and you will need a sound engineer, not an artist.
 
+That is why every track should have its own tasks
 Соответственно, каждый трек будет иметь свой объём работы и потребуется такая команда, которая бы прошла по всем трекам без простоя (траты денег впустую). Например, если по арту у вас будет работы `x`, а по разработке — `2*x`, то вам желательно иметь двух разработчиков на одного художника.
 
 Поэтому нам надо считать объём работы по каждому треку.
