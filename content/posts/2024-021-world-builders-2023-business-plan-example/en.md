@@ -684,32 +684,32 @@ All paid DLCs are described within the same logic, so I will only describe the r
 - By the expected conversion rate. I have no data, but I expect that is should reduce with time. In my case I decrease it from `30%` to `20%` over time.
 ///
 
-### Расчёт денег, которые мы получим от Steam
+### Calculating the money we'll receive from Steam
 
-Конечно, все деньги, которые мы насчитали мы и близко не увидим. В этой части мы считаем что может придти к нам на счёт.
+Of course, not all money from the players will end on our bank account. In this section we estimate how much money we'll actually see.
 
-`[38] Raw Gross Revenue` — Суммарный доход от продаж игры и всех дополнений за месяц.
+`[38] Raw Gross Revenue` — The total revenue from the sale of the base game and all DLCs per month.
 
-`[39] Expected Discounts Loss` — Ожидаемые «потери» от скидок в Стиме.
+`[39] Expected Discounts Loss` — The expected "losses" from discounts on Steam.
 
-/// note | Как мы учитываем скидки
-К расчёту скидок может быть два подхода.
+/// note | How we account for discounts
+There may be two approaches to calculating effects of discounts.
 
-1. Мы считаем покупки на скидках как отдельный тип покупок, а-ля DLC. В теории, особенно если у вас есть доступ к статистике, это даст более точные результаты. Минусом тут будет сильное раздувание таблицы.
-2. Мы обращаеся к экспертному мнению, которое говорит, что на скидках мы будем «терять» `X%` от возможного дохода. Поскольку секретной статистики у нас нет, а эксперты школы есть, это наш путь.
+1. We consider purchases on discounts as a separate type of purchase, like DLCs. In theory, especially if you have access to statistics, this will give more accurate results. The downside here will be a significant increase in the size of the table.
+2. We turn to expert opinion, which says that we will "lose" `X%` of potential revenue because of discounts. Since we have no access to secret statistics, but we have school experts, this is our way.
 
-«Терять» тут в кавычках, очевидно, что это скорее «находить» (так как без скидок игру и не купили бы), но будем использовать термин «терять», он лучше соответствует логике расчёта.
+I write "lose" in quotes because it is not an actual loss. It is more an aquisition of new players who would not buy the game at full price. But we will use the term "lose" because it is more suitable for the calculation logic.
 
-Так вот, на сколько я понимаю, в перспективе на скидках может «теряться» до `50%` возможного дохода. Но такие большие скидки у нас будут не сразу. Поэтому я сделал рост потерь на скидках от `20%` до `50%` с шагом в полгода.
+So, as I understand, in the long run on discounts the game can "lose" up to `50%` of the potential revenue. But we will not have such large discounts right away. Therefore, I estimated the growth of losses on discounts from `20%` to `50%` with a half-year step.
 ///
 
-`[40] Raw Gross Revenue - Discounts` — Наш доход после учёта скидок.
+`[40] Raw Gross Revenue - Discounts` — Our revenue after accounting for discounts.
 
-`[41] Steam Fees` — Комиссия Steam. Стандартные `30%`. Говорят можно договориться, но noname студии это не грозит.
+`[41] Steam Fees` — The standard `30%` Steam fee.
 
-`[42] Revenue After Steam Fees` — Наш доход после комиссии Steam.
+`[42] Revenue After Steam Fees` — Our revenue after the Steam fee.
 
-`[43] Total Revenue After Steam Fees` — Наш суммарный доход после всех потерь, включая текущий месяц.
+`[43] Total Revenue After Steam Fees` — Our ongoing revenue after all losses and fees including this month.
 
 ### Траты на разработку
 
