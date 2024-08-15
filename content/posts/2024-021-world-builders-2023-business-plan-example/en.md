@@ -141,32 +141,32 @@ I can not recommend building a business plan based on such an optimistic scenari
 
 ### Massprodusing DLCs
 
-Efficient, well-organized production of DLC is great for two reasons.
+Efficient, well-organized production of DLCs is great for two reasons.
 
 **Firstly**, it forms a strong developing ecosystem uniting the company and the player community:
 
 1. With each released DLC, you improve the base game, tune it to a specific niche, and eventually become a monopolist in it.
 2. Improved base game continues to be bought by players for whom it was not so good before. Therefore, your community continues to grow for a long time after the release.
-3. Крепкое сообщество даёт быструю и качественную обратную связь для ваших решений, что ведёт к выпуску более качественных DLC. Хорошие DLC улучшают игру. Улучшенная игра привлекает людей в сообщество. Сообщество даёт ещё лучшую обратную связь.
+3. A strong community provides quick and high-quality feedback for your decisions, leading to the release of better DLCs. Good DLCs improve the game. Improved game attracts people to the community. The community provides even better feedback.
 
 /// brigid-images
 src = "./images/dlc-feedback-loop.png"
-caption = "Как-то так я это вижу. Деньги, по-сути, тоже обратная связь."
+caption = "This is how I see it. Money, in fact, is also a form of feedback."
 ///
 
-**Во-вторых**, вы получаете предсказуемый поток денег:
+**Secondly**, you get a predictable cash flow:
 
-1. Период между крупными поступлениями снижается с 1-2 лет до 3-6 месяцев.
-2. Снижаются риски, связанные с ошибками. В случае провального релиза студии часто закрываются. В случае провального DLC вы выпускаете следующее. Студия живёт до тех пор, пока в состоянии учиться на своих ошибках.
-3. Вы продаёте DLC не случайным людям, а своим игрокам. Это делает маркетинг дешевле, а доход предсказуемее. Вы знаете сколько людей играет в вашу игру, какой их процент покупал предыдущие DLC, а значит можете прикинуть сколько денег принесёт следующее.
+1. The period between major inflows decreases from 1-2 years to 3-6 months.
+2. The risks associated with errors are reduced. In case of a failed release, studios often close. In case of a failed DLC, you release the next one. The studio lives as long as it can learn from its mistakes.
+3. You sell DLCs not to random people, but to your players. This makes marketing cheaper and income more predictable. You know how many people play your game, what percentage bought the previous DLC, so you can estimate how much money the next one will bring.
 
-Правда есть и минусы:
+However, there are downsides:
 
-- Работает не со всеми жанрами. По-моему, только со стратегиями и, может быть, песочницами.
-- Первый релиз всё-таки должен быть достаточно заметным и качественным, чтобы сформировать ядро вашего сообщества. У Paradox получается выпускать посредственные продукты (судя по отзывам), а потом их допиливать. Но это скорее исключение, им прощают.
-- Надо уметь делать игры и слушать игроков. Не все это умеют и не все хотят.
+- It works not with all genres. I think only with strategies and maybe sandboxes.
+- The first release still has to be quite noticeable and high-quality to form the core of your community. Paradox can afford to release mediocre products (judging by the reviews) and then polish them. But this is more of an exception, they are forgiven.
+- You should know how to make games and how to listen to players. Not everyone can do this, and not everyone wants to.
 
-Поскольку мы делаем и стратегию и песочницу, да ещё и в свободном жанре (симуляция общественного мнения), то можем рискнуть и нацелиться на пятый вариант. В случае проблем с организацией производства DLC, всегда можно откатиться на вариант 4.
+Since we are making both a strategy and a sandbox, and in a free genre (public opinion simulation), we can risk and aim for the fifth option. In case of problems with organizing pipeline for DLC production or with quality, we can always switch to the fourth option.
 
 ## Early Access
 
