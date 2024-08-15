@@ -619,30 +619,30 @@ A lot of input values in this model are taken not from statistics and reports bu
 We select columns for the second sheet based on the presence of values in the `Milestones` row.
 ///
 
-### Продажи основной игры
+### Base game sales
 
-`[4] Standard Edition Price $` — Цена базовой версии игры. Её выбираем балансируя между нашей жадностью и ценой продажи игр-маяков на их релизе.
+`[4] Standard Edition Price $` — The price of the base game at the release. We choose it balancing our greed and the price of beacon games on their release.
 
-`[5] Delux Edition Price $` — Цена люксовой версии игры, для игроков, которые хотят занести немного больше денег разработчикам. Выбираем чуть дороже цены базовой версии.
+`[5] Delux Edition Price $` — The price of the deluxe version of the game. For players who want to spend a little more money on the game. We choose it a little bit higher than the price of the base game.
 
-`[6] Game Purchases / Month` — Ожидаемое количество органических покупок в месяц. С отголосков маркетинга, работы с сообществом и прочих активностей.
+`[6] Game Purchases / Month` — The expected number of organic purchases per month. From the echoes of marketing, community building, and other activities.
 
-/// warning | Осторожно!
-Если вы ничего не делали по маркетингу до релизов, то тут у вас будет 0.
+/// warning | Warning!
+If you have done nothing in marketing and community building before the releases, then you will have 0 here.
 ///
 
-`[7] Game Purchases Boost `— Количество покупок игры, которые мы ожидаем от наших маркетинговых усилий. Этот параметр мы не расчитываем, а задаём. **Причины выбора такого подхода и его альтернативы будут разобраны чуть позже**, когда дойдём до расчётов трат на маркетинг.
+`[7] Game Purchases Boost `— The number of game purchases we expect from our marketing efforts. This parameter is not calculated, but set. **The reasons for choosing this approach and its alternatives will be discussed a little later** when we get to the marketing spending calculations.
 
-/// attention | На эти числа легко уйдёт половина вашего бюджета
-Чем больше покупок, тем больше прибыль, но тем больше и затраты на маркетинг. Затраты на маркетинг идут до прибыли, а значит увеличивают сумму, которую вы просите у инвесторов, следовательно, уменьшают вашу долю в результате.
+/// attention | These numbers will easily eat half of your budget, if not more
+The more purchases, the more profit, but the bigger the marketing costs. Marketing costs go before profit, so they increase the amount of money you ask from investors, thus reducing your share in the result.
 ///
 
-Выбирая, учитывайте:
+While deciding on this number, consider:
 
-- Сколько денег вам могут дать.
-- Сколько игроков в выбранном вами жанре на выбраной платформе. Имхо, даже 10% от ЦА — это успешный успех, ориентируйтесь на 1%.
+- How much money you can get from the investors.
+- How many players in the chosen genre on the chosen platform. In my opinion, even 10% of the target audience is a successful success, aim at 1% or less.
 
-Также обратите внимание, что ваш маркетинг будет приурочен к конкретным событиям. То есть вы будете вливать очень много денег в конкретный месяц, а потом поддерживать какую-то минимальную активность, чтобы подобрать хвост.
+Also note that your marketing will be tied to specific events. That is, you will pour a lot of money into a specific month, and then maintain some minimal activity to pick up the tail.
 
 `[8] Game Purchases Boost Tail` — Игроки, которые привлекаются как хвост/эхо ваших маркетинговых активностей. Рассчитываю как `1/3` от эффективности маркетинга в предыдущий месяц. `1/3` взял на глаз из графиков SteamSpy (как быстро уменьшается скорость прироста аудитории).
 
