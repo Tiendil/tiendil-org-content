@@ -457,43 +457,51 @@ While developing the base game, we can trade time (which investors will give us)
 While developing DLCs, we will trade features (candidates for inclusion in the DLC) for time (which we will need to release the DLC on time).
 ///
 
-## Планирование команды
+## Composing the team
 
 /// brigid-images
 src = "./images/team.png"
-caption = "Итоговая картина команды, которую надо собрать. Сам себя не назначишь директором — никто не назначит."
+caption = "The final picture of the team we need to assemble. If you don’t crown yourself the director, who will?"
 ///
 
-Итак, в Синей таблице нам надо прописать количество сотрудников на трек на этап разработки.
+So, in the Blue table, we need to write down the number of employees for each track at each stage of development.
 
-Подбирая количество сотрудников мы ориентируемся на следующие соображения:
+When determining the number of employees, we should remember the following:
 
-- На каждом этапе на каждом треке разумно иметь столько сотрудников, чтобы треки занимали примерно одинаковое время.
-- Не обязательно сразу нанимать всех. Во-первых, разработка нового проекта всегда стартует с малого фронта работ, когда лишние люди мешают, и только со временем этот фронт расширяется. Во-вторых, это снижает ваши запросы на первые инвестиции. Особенно, если инвестиции предполгаются раундами.
+- On each stage, on each track, it is reasonable to have so many employees that all tracks are completed in approximately the same time.
+- It is not mandatory to hire all employees at once. Firstly, new projects always start from the narrow front of work, when the presence of additional employees will only delay progress. Secondly, the fewer people you hire the less money you need to ask. Especially if you are going to raise money in rounds.
 
-/// note | «Условные» и реальные сотрудники
-В таблице мы оперируем «условными« сотрудниками, не реальными.
+/// note | "Virtual" and real employees
+In the table, we operate with "virtual employees," not real ones.
 
-Собирая команду, мы будем нанимать уникальных людей, а не шестерёнки. Поэтому по мере найма мы должны менять оценки в Синей таблице, отражая реальное состояние команды. Это будет вызывать пересчёт сроков и финансовой модель.
+While assembling a team, we will hire real unique people, not interchangeable cogs. Therefore, as we hire, we should adjust the estimates in the Blue table, reflecting the real capabilities of the team. This will cause a recalculation of the terms and financial model.
 
-Конечно, можно искать «чистых разработчиков», «чистых геймдизайнеров» и так далее, но это может быть не лучшей стратегией. Особенно, если вы начинающий инди. Куда выгоднее искать [T-shaped](https://en.wikipedia.org/wiki/T-shaped_skills) сотрудников.
+Of cause, we can look for a "pure developer", "pure game designer", and so on, but this will not be the best strategy. Especially if you are a new indie developer. It is much more profitable to look for [T-shaped](https://en.wikipedia.org/wiki/T-shaped_skills) employees.
 
-- Во-первых, будет проще налаживать коммуникацию внутри команды.
-- Во-вторых, команда сможет действовать более автономно, без ~~погонщика~~ менеджера.
-- В-третьих, поскольку вы noname команда, такие к вам скорее и пойдут. Узкие специалисты обычно идут в крупные компании, где для них есть узкий и глубокий фронт работ.
+- Firstly, it will be easier to establish communication in the team.
+- Secondly, the team will be more flexible, autonomous, will require less management.
+- Thirdly, since you are a noname team, such people are more likely to come to you. Narrow specialists usually go to large companies, where there is a narrow deep front of work for them.
 ///
 
-У меня под рукой команды нет, поэтому я оперировал «чистыми» сотрудниками и просто приплюсовал долю своего времени в нужные графы.
+I have no team yet, so I operated with "virtual employees" and just added my share of time to the estimates.
 
-Если же у вас есть команда (или будет), в Синию таблицу разумно добавлять по колонке на сотрудника. Там можно будет точно отражать сколько времени он сможет тратить на какой трек. Это же пригодится и в случае найма «звезды», которая будет работать за пятерых, и стажёра, который сойдёт за половину сотрудника.
+If you already have a team (or will have one), it’s wise to add a column in the Blue Table per each team member. This allows you to accurately track how much impact each person will have on each track. This approach also comes in handy if you hire a “star” who works like five people, or an intern who counts as half of an employee
 
-Следуя этим соображениям, мы получаем такую команду:
+/// attention | Sometimes it may be a bad idea
+People are different. Per person effectivnes estimation is a kind of rating. Some people will take it philosophically, others may be deeply offended by it.
 
-- По два программиста и геймдизайнера, чтобы закрывать основые треки.
-- По одному ключевому специалисту, для задач, которых слишком много для аутсорса.
-- Найм в два этапа: под старт проекта и под выход на ровную разработку.
-- Задачи и специализации сотрудников скорректированы под требования этапов разработки. Например, для Alpha версии нам не нужны вспомогательные утилиты и автоматизация QA, но для ровного хода разработки и нужного качества они обязательны.
-- Продюсера нанимаем к Beta версии, так как с синхронизацией пяти толковых ребят я смогу справиться на полставки, а дальше потребуется помощь. Плюс, у меня нет опыта взаимодействия с аутсорсом, было бы круто это делегировать.
+Detailes effort estimation may be a good idea from the perspective of planning and budgeting. But it may be a bad idea from the perspective of team building and team spirit.
+
+Take in mind your team specifics, before deciding to use this approach.
+///
+
+By following these logic, we createed an image of our future team:
+
+- Two developers and two game designers to fill the main tracks.
+- One key specialist for tracks with too many tasks for outsourcing.
+- Hiring in two stages: first for the project kickoff, and then for the steady development phase.
+- Tasks and employee specializations are adjusted according to the requirements of each development stage. For example, in the Alpha version, we don’t need support utilities or QA automation, but they become essential for smooth development and achieving the desired quality later on. Therefore, we hire a second developer by the start of the Beta version.
+- We’ll hire a producer by the Beta stage since I can handle managing five skilled people part-time, but I’ll need help beyond that (I want to continue write code and work on game design). Plus, I don’t have experience managing outsourcing, so it would be great to delegate that responsibility.
 
 ## Позиционирование — игры-маяки
 
