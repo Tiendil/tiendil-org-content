@@ -793,26 +793,26 @@ Out `CPI` (for the base game) is set approximately as an average between beacon 
 
 So, let's return to the biggest are of our spendings. According to the final calculations of our model, by the release, we will spend `2.5` times more on marketing than on development :-D
 
-/// note | I may have underestimated the number of marketers in the team
-Given the size of the budgets, there may be more marketers required. On the other hand, we can try to outsource all marketing and limit ourselves to the lead of marketing in our team.
+/// note | I may have underestimated the number of marketers on the team
+Given the size of the budgets, there may be more marketers required. On the other hand, we can outsource all marketing and limit ourselves to the lead of marketing in our team.
 ///
 
 `[54] Marketing Ongoing Cost` — An estimated cost of minimal permanent monthly activity for "light" PR of the game to stay on the radars.
 
-`[55] Marketing Videos Cost` — The expected cost of developing videos for concrete events (releases). The cost of a minute of video can be relatively easily googled. Or you can even ask for price lists from companies that do this.
+`[55] Marketing Videos Cost` — The expected cost of developing videos for concrete events (releases). The cost of a video minute can be relatively easily Googled. Or you can even ask for price lists from companies that do this.
 
 `[56] Marketing New User Cost` — The expected cost of attracting new players — `CPI`.
 
 `[57] Marketing Old User Cost` — The expected cost of attracting our players to purchase DLCs.
 
-/// attention | Attention, great uncertainty
-This is our key constant, as we have chosen to monetize through the sale of DLCs.
+/// attention | Here is great uncertainty
+This is our crucial constant, as we have chosen to monetize through the sale of DLCs.
 
 The problem with it is that, unlike `CPI` for the base game, it is unclear how to estimate `CPI` for DLC. Fluctuations in this value strongly affect the model.
 
-Our model uses an expert estimate, after my conversation with the school teachers.
+Our model uses an estimate based on my conversation with the school experts.
 
-Also, regading the wishlists conversion, I beliew estimating them for DLCs is even harder, than `CPI`.
+Also, regarding the conversion of wishlists, I believe estimating them for DLCs is even harder than `CPI`.
 ///
 
 `[58] Marketing Performance on New Users (Game)` — The cost of attracting new players to the game, per month.
@@ -823,7 +823,7 @@ We can calculate marketing in two directions:
 1. We ask investors for `X$` per month for marketing, based on `CPI` we will attract `Y` players.
 2. We want to attract `Y` players, so based on `CPI` we will ask investors for `X$` per month for marketing.
 
-I chose the second option, but rather for personal convenience than because it is more correct. Look at your preferences and what you want to get from the final model, what levers you want to twist.
+I chose the second option, but rather for personal convenience than because it is more correct. Look at your preferences, what you want to get from the final model, and what levers you want to twist.
 
 For me, the lever to change the number of sales (game owners) looks more natural.
 ///
