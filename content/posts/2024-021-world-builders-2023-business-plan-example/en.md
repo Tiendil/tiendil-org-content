@@ -425,31 +425,32 @@ For this, we:
 
 - Set the time of each stage equal to the duration of the longest track on it.
 - Increase it by different smart coefficients.
-- Round up, because there is no limit to pessimism in software development.
+- Round up because there is no limit to pessimism in software development.
 
 Columns:
 
 - `Stage` — development stage.
 - `Max` — the duration of the stage in months. It is equal to the duration of the longest track on the stage.
-- `Forgotten Work` — our estimate of the share of work that we forgot to include in the stage. The coefficient increases with time because we see the first stages better than the last ones. Work on the last stages will be significantly different from the plan due to the accumulation of mistakes in our model of the game and the improvement of our understanding of it as the development progresses.
+- `Forgotten Work` — our estimate of the share of work that we forgot to include in the stage. The coefficient increases with time because we see the first stages better than the last ones. Work on the last stages will significantly differ from the plan due to the accumulation of mistakes in our model of the game and the improvement of our understanding of it as the development progresses.
 - `Mistakes Fixing` — the time we need to fix the errors/bugs we made. The coefficient decreases with time because we make fewer mistakes as we learn.
-- `Learning` — training costs for the team. It’s unrealistic to expect that the team will immediately know everything you need. It should invest time into learning new tools, approaches, theories, etc.
+- `Learning` — training costs for the team. Expecting the team to know everything you need immediately after hiring is unrealistic. Our team should invest time in learning new tools, approaches, theories, etc.
 - `Team Lubrication` — a penalty on the team's time to get used to each other. People need to learn to work with each other.
 - `Vacations` — you didn't forget about vacations and illnesses, did you? `0.08` in the table is approximately `1/12` of a year.
 - `Expected Work` — the rounded-up estimate of the calendar time for the stage.
 
-<!-- TODO: move somewhere -->
-<!-- /// attention | Attention! -->
-<!-- Ожидаемая компетенция команды должна отразиться в зарплатах в финансовой модели. -->
-<!-- /// -->
+/// attention | The team's competence
+Coefficients in the Green table depend on the team's competence, including yours.
 
-In the end, we have 4 development phases, each lasting six months — a perfect plan for how ~~to kill~~ productively spend two years of your life.
+The competence you expect from the team should be reflected in the salaries in the financial model.
+///
 
-By the way, this is not counting DLCs. The development of DLCs is not included in the roadmap because:
+In the end, we have 4 development phases, each lasting six months — a perfect plan for how ~~to kill~~ to productively spend two years of your life.
+
+By the way, this is not counting DLCs. The development of DLCs is not included in the Roadmap because:
 
 - The complexity of their development depends heavily on the quality of the game's architecture. Now it is unpredictable, like guessing on a goat's liver.
-- The same applies to their content: no game — we don't know what to add to it.
-- Since we’re aiming for long-term monetization through DLCs, after the initial release (features of which can be varied quite flexibly) we’ll need to establish a DLC production pipeline. This pipeline will be constrained from the top by marketing demands and community expectations, and from the bottom by architectural and team limitations. We’ll need to plan the features of each DLC in a way that fits within tight development timelines. It will be totally different planing.
+- The same applies to their content: there is no game yet — we don't know what to add to it.
+- Since we’re aiming for long-term monetization through DLCs, we'll need to establish a DLC production pipeline after the initial release (features of which can be varied quite flexibly). This pipeline will be constrained from the top by marketing demands and community expectations, and from the bottom by architectural and team limitations. We’ll need to plan the features of each DLC in a way that fits within tight development timelines. It will be totally different planning.
 
 /// note | The difference between developing the base game and DLCs
 In a broad sense, we could put it this way.
