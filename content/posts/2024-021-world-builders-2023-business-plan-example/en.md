@@ -844,19 +844,19 @@ The most important part of our table — the result of all our work, research, a
 
 `[64] Month Gross Revenue` — Our revenue per month, after all incomes and costs.
 
-`[65] EBITDA`— [EBITDA](https://en.wikipedia.org/wiki/EBITDA) as it is — our money before removing indirect costs (taxes, ammortization, interest, etc). This parameter is important for investors.
+`[65] EBITDA`— [EBITDA](https://en.wikipedia.org/wiki/EBITDA) as it is — our money before removing indirect costs (taxes, amortization, interest, etc.). This parameter is essential for investors.
 
 ## What to do after the financial model is finished
 
 After you enter the last formula, stretch the columns for the required number of months, color everything, you will look at the final numbers and see that there is some unprofitable crap. Or, conversely, very suspiciously profitable.
 
-It means beginning of the most interesting stage of setting up the model, when you twist a bunch of levers (constants in the table), play with the volume of work, tune the size of the team to get a picture that will be convincing for you, your team and for investors.
+It means the beginning of the most exciting stage of setting up the model when you twist a bunch of levers (constants in the table), play with the volume of work, and tune the size of the team to get a picture that will be convincing for you, your team, and investors.
 
 Have Fun!
 
 ## How much time did it take to develop the business plan
 
-Instead of a conclusion, I will provide statistics on the time that these documents took from me.
+Instead of a conclusion, I will provide statistics on the time these documents took from me.
 
 Of course, this is an approximate time, because I did not do this work full-time.
 
