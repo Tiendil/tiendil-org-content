@@ -91,40 +91,40 @@ There are several approaches to monetizing games on Steam:
 2. Through selling DLC — [Downloadable Content](https://en.wikipedia.org/wiki/Downloadable_content).
 3. ~~Through microtransactions~~
 
-In my world model, the company will aim for one thing and use the rest as an additional source of income. If you try to catch two hares, you usually catch none.
+In my world model, the company should aim for one thing and use the rest as an additional source of income. If you try to catch two hares, you usually catch none.
 
-I will not consider microtransactions, as in the field of single-player PC games, only AAA studios ~~now how~~ can allow themselves to do so, and only through giant marketing budgets and reputation loss. Indie developers will be buried alive by the Steam community for such a thing. And rightly so. Not to mention, I have no desire to mess up my karma..
+I will not consider microtransactions, as in the field of single-player PC games, only AAA studios ~~now how~~ can allow themselves to do so, and only through giant marketing budgets and reputation loss. Indie developers will be buried alive by the Steam community for such a thing, and rightly so. Not to mention, I have no desire to mess up my karma.
 
 Therefore, we have several options for the basic strategy:
 
-1. Make a big release of "My Mega Game". Move on to something else.
-2. Make a big release of "My Mega Game". Move on to something similar: make a sci-fi strategy after a fantasy one.
-3. Make a big release of "My Mega Game". Make a big release of "My Mega Game 2". Make a big release of "My Mega Game 3". And so on.
-4. Make a big release of "My Mega Game". Release a couple of DLCs. In parallel, work on something based on plan 2 or 3.
-5. Make a big release of "My Mega Game". Endlessly release DLCs.
+1. Make a major release of "My Mega Game". Move on to something else.
+2. Make a major release of "My Mega Game". Move on to something similar: make a sci-fi strategy after a fantasy one.
+3. Make a major release of "My Mega Game". Make a major release of "My Mega Game 2". Make a major release of "My Mega Game 3". And so on.
+4. Make a major release of "My Mega Game". Release a couple of DLCs. In parallel, work on something based on plan 2 or 3.
+5. Make a major release of "My Mega Game". Endlessly release DLCs.
 
-In the old days, there was a concept of Addon, but for simplicity, we will consider them the same as DLCs. At least I don't see any significant differences for the purposes of this post.
+There was a concept of add-ons in the old days, but for simplicity, we will consider them the same as DLCs. At least, I don't see any significant differences for the purposes of this post.
 
-**Option 1**, in my opinion, is almost never practiced now, in the case of a successful product. Because a lot of resources are wasted: the team's expertise is lost, the code, the pool of freelance specialists, the community — it's not very profitable. But some especially dedicated indie developers might do it just for fun.
+**Option 1**, in my opinion, is almost never practiced now, in the case of a successful product. It wastes a lot of resources: the team's expertise, the code, the pool of freelance specialists, and the community are all lost. It's not very profitable. But some especially dedicated indie developers might do it just for fun.
 
-**Options 2 and 3** are close, they can even be alternated. They allow you to reuse much artifacts of work than option 1. The downside is a very uneven flow of money, and it's not guaranteed. And that means holes in the budget.
+**Options 2 and 3** are close. They can even be alternated. They allow you to reuse more artifacts of work than option 1. The downside is a very uneven flow of money, and it's not guaranteed, which means holes in the budget.
 
 /// attention | Is it easy to repeat success?
-If you made a good game once (in ±two years), it doesn't mean that the second time it will be better or the same, or that your players will forgive you for the same mistakes you made the first time.
+If you made a good game once (in ±two years), it doesn't mean that the second time it will be better or the same or that your players will forgive you for the same mistakes you made the first time.
 ///
 
-The series of big releases is a risky venture. Therefore, in case of success of the first release, many developers try to release at least a few DLCs to support the development of the next game. Which brings us to the fourth option.
+The series of big releases is a risky venture. Therefore, in case of the success of the first release, many developers try to release at least a few DLCs to support the development of the next game. Which brings us to the fourth option.
 
 **Option 4** — releasing DLC in parallel with the development of the next game is a good way to reduce risks and make the life of the studio more predictable.
 
-The problem with this approach is that not all teams can make a game that will be relatively easy to modify in an interesting way for players. Plus, not all genres are well suited for DLC.
+The problem with this approach is that not all teams can make a game that will be relatively easy to modify interestingly for players. Plus, not all genres are well suited for DLC.
 
-For example, RPGs make it challenging to add each subsequent DLC because the game follows a single narrative. This makes it difficult to change mechanics (due to campaign balance) and to extend the story (since good games are released with a complete and consistent storyline).
+For example, RPGs make it challenging to add each subsequent DLC because the game follows a single narrative. This makes it difficult to change mechanics (due to a campaign balance) and to extend the story (since good games are released with a complete and consistent storyline).
 
 /// hint | DLC as separate companies in RPG
-It's strange, but I can't remember any RPG where separate campaigns were released as DLCs. Aka with stories that are not related to the main plot and that need to be played with a new character.
+Strangely, I can't remember any RPG where separate campaigns were released as DLCs. Aka with stories that are unrelated to the main plot and require creating a new character.
 
-I think it would significantly simplify the lives of developers. And it would be much more interesting for me as a player to create a new group six months to a year after the first playthrough, rather than remembering the plot and the mechanics of 100 abilities in the old save.
+It may significantly simplify the lives of developers. And it would be much more interesting for me as a player to create a new group six months to a year after the first playthrough, rather than remembering the plot and the mechanics of 100 abilities in the old save.
 ///
 
 But if we don't have such problems, we can look at **option 5** — replacing the main money flow from the releases of new games to the releases of DLCs. I call it the [Paradox](https://www.paradoxinteractive.com/) way because they are the best at it, as I see it.
@@ -132,9 +132,9 @@ But if we don't have such problems, we can look at **option 5** — replacing th
 The first release still brings a significant share of income, but the development focus is initially on the production of DLCs, which eventually outweighs the profit from the first release.
 
 /// note | **Option 6** — endless development of the base game
-There are a few games, for example, [No Man's Sky](https://store.steampowered.com/app/275850/No_Mans_Sky/), [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/), developers of which just continue to polish the base game (without DLCs) and continue selling it.
+There are a few games, for example, [No Man's Sky](https://store.steampowered.com/app/275850/No_Mans_Sky/), [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/), developers of which continue to polish the base game (without DLCs) and continue selling it.
 
-It's incredibly cool, the developers deserve all sorts of praise. But, in my opinion, such a decision is made when you have already hit the target. Not even hit the target, but, like Robin Hood, split the arrow in the bullseye. This decision can be made after the release of the first version when you already have money, a growing community, and you see THE POTENTIAL.
+It's incredibly cool, and the developers deserve all sorts of praise. But I believe such a decision is made when you have already hit the target. Not even hit the target but, like Robin Hood, split the arrow in the bullseye. This decision can be made after the release of the first version when you already have money and a growing community, and you see THE POTENTIAL.
 
 I can not recommend building a business plan based on such an optimistic scenario.
 ///
