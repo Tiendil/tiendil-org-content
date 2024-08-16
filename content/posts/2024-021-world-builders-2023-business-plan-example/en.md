@@ -722,37 +722,37 @@ The part of the model for which we spent so much time calculating the roadmap an
 
 `[44] Team Size` — The number of people in the team.
 
-`[45] Average Gross Sallary $` — The average salary of a team member.
+`[45] Average Gross Salary $` — The average salary of a team member.
 
 /// note | Should we specify salaries per position?
 I do not see any reason to do this.
 
-Not always, but often, it’s easier to adapt the roadmap and even the product concept to the team, rather than build a team around the product. For example, when I worked on [The Tale](https://the-tale.org), I changed the style of the game from humorous to serious because I met game designers who were great at serious texts. In the case of large projects, this is not so relevant, but still worth considering.
+Not always, but often, it’s easier to adapt the roadmap and even the product concept to the team, rather than build a team around the product. For example, when I worked on [The Tale](https://the-tale.org), I changed the style of the game from humorous to serious because I met game designers who were great at serious texts. In the case of large projects, this is not so relevant but still worth considering.
 
-Exaggerating, you do not know who you will hire. A cool motivated specialist can turn your entire development in a completely new and cooler direction just because of their experience and unique vision. Dismissing such an opportunity is not worth it.
+Exaggerating, you do not know who you will hire. A cool, motivated specialist can turn your entire development in a wholly new and cooler direction just because of their experience and unique vision. Dismissing such an opportunity is not worth it.
 ///
 
-`[46] Sallary Indexation` — Salary indexation. I think almost no one includes this but in vain. In my opinion, this should be an obligatory element of the agreement today. So to say, an element of work ethics.
+`[46] Sallary Indexation` — Salary indexation. I think almost no one includes this but in vain. In my opinion, this should be an obligatory element of the agreement today. So to say, an aspect of work ethics.
 
 `[47] Final Sallary` — The final average salary with indexation.
 
 `[48] Team Cost` — The total cost of the team per month.
 
 /// note | In reality, the team costs will be higher.
-Maintaining an organization leads to a huge number of indirect costs: office, accountant, lawyer, etc.
+Maintaining an organization leads to many indirect costs: office, accountant, lawyer, etc.
 
 I have not included these costs in the model. It is not clear for which country to count them, nor for which configuration of the team (remote, office, mixed, b2b or hiring, etc.). At the time of creating the model, it was not clear whether a separate company would be created or not.
 
-**It is a drawback of our financial model.** But compared to the size of the marketing costs, the "forgotten" amount will be small.
+**It is a drawback of this financial model.** But compared to the size of the marketing costs, the "forgotten" amount will be small.
 
 Ideally, we should have pulled up some statistics, consulted experts, and stated that “on average, maintaining company operations costs `X%` of the payroll budget.”
 ///
 
-`[49] Average Outsorce Staff` — The number of outsourcers we will work with. My "expert" estimate: something will always be outsourced, but it is not clear to what extent, most likely in a small one, so `1`.
+`[49] Average Outsource Staff` — The number of outsourcers we will work with. My "expert" estimate: something will always be outsourced, but it is unclear to what extent, most likely in a small one, so `1`.
 
 `[50] Average Outsource Cost` — The expected cost of one outsourcer per month. The logic is the same as with the average team salary.
 
-`[51] Outsoursing Cost` — The total cost of outsourcing per month.
+`[51] Outsourcing Cost` — The total cost of outsourcing per month.
 
 `[52] Development Cost`— The total cost of all development per month.
 
