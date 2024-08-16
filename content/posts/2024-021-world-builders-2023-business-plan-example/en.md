@@ -753,42 +753,41 @@ Ideally, we should have pulled up some statistics, consulted experts, and stated
 
 `[53] Total Development Cost` — The overall cost of all development since the beginning of time, including this month.
 
-### Расчёт маркетинга
+### Calculating marketing
 
-Давайте немного отвлечёмся от таблицы и подумаем как мы будем считать маркетинг.
+Let’s take a break from the table and think about how we’re going to calculate the marketing budget.
 
-/// attention | Оценка эффекта маркетинга через количество вишлистов
+/// attention | Estimating the effect of marketing activities through the number of wishlists
+It's currently trendy to calculate conversion rates from Steam wishlists to actual purchases. And then apply them somehow to the future games.
 
-Сейчас модно считать коэфициенты конверсии количества вишлистов Steam в покупки.
+I see here a few of significant problems:
 
-Я вижу с этим несколько существенных проблем:
+1. By operating with wishlists, we complicate our model. We create two uncertain stages: collecting wishlists and converting them into purchases. The behavior of our product, Steam, and players at each of these stages is weakly predictable, a.k.a. random. In my opinion, a model with two "random" parameters will give worse results than a model with a single "random" parameter that we'll use.
 
-1. Оперируя вишлистами мы усложняем нашу модель. Появляется два неопределённых этапа: набор вишлистов и конверсия их в покупки. Поведение нашего продукта, Steam и игроков на каждом из этапов слабо предсказуемо, ака, случайное. На мой взгляд, модель с двумя «случайными» параметрами будет давать результаты хуже модели с одним «случайным» параметром, которую используем мы.
+2. Steam and gamedev in general are very dynamic environments. Any Steam update can easily shake complex models. For example, they recently improved the support of game demos, as a result, the logic of promoting games has changed, and the `New & Trending` section is now full of demos instead of full games. Accordingly, if you had data on the cost of wishlists in previous years, they may be no longer relevant.
 
-2. Steam и геймдев в целом — очень динамические среды. Любое обновление Steam легко пошатает сложные модели. Вот, например, недавно улучшили функциональность демо версий, как следствие, поменялась логика продвижения игр, а раздел `New & Trending` полностью изменил своё содеражание — теперь он забит демками. Соответственно, если у вас были данные, например, о стоимости вишлиста в прошлом году, то сейчас они уже не актуальны.
+3. I've not found reliable statements about the "cost of adding a game to the wishlist", and the conversion rates from wishlists to purchases can vary by a factor of 1.5-2. Moreover, the estimates will differ for different genres, styles, and sizes of games. There are not so many statistics for strategies, rather not at all, because there are not so many strategies.
 
-3. Мне не удалось найти достоверных утверждений про «стоимость одного добавления в вишлист», а оценки коэфициентов конверсии из вишлистов в покупку от источника к источнику могут отличаться в 1.5-2 раза. Тем боле, оценки будут отличаться для разных жанров, стилей и размеров игр. Статистики для стратегий не то, чтобы много, скорее нет, потому что самих стратегий мало.
-
-4. По наблюдаемому мной в интернетах, вся движуха с вишлистами выглядит как очередной хайп про очередную серебряную пулю, которая всё порешает.
+4. Based on what I've seen on the internet, all the fuss with wishlists looks like another hype about another silver bullet that will solve everything.
 ///
 
-В нашей модели мы выберем самый простой (и от того надёжный) подход — будем напрямую оценивать стоимость привлечения покупателя нашей игры, ака [CPI](https://ru.wikipedia.org/wiki/Cost_per_install).
+In our model, we will choose a simpler and more reliable approach — we will estimate the cost of attracting a single player to purchase the game, a.k.a. `CPI` — `Cost Per Install`. Don't confuse it with `Cost Per Impression`, in this post we will only talk about installs.
 
-`CPI` для Steam величина такая же неопределённая, как конверсии в вишлисты и из них, зато:
+`CPI` for Steam is as vague as conversions to wishlists and from them, but:
 
-- Это один параметр, а не два. Меньше эффект накопления ошибки по цепочке, не будет искушения подгонять параметры друг под друга.
-- Его проще оценить, достаточно знать бюджет на маркетинг и суммарное количество продаж игры. Эту информацию мы добыли, когда искали игры-маяки.
-- `CPI` — глобальное иннериционное явление, он меньше склонен резко меняться, обычно ~~только увеличивается~~ следует долгим глобальным трендам.
-- Оценка `CPI` будет точнее конверсий вишлистов, так как напрямую и жёстко ограничивается рынком: бюджетами, готовностью людей вестись на реклмау, etc. Компании, сделавшие плохой маркетинг, уходят с рынка. Если мы будем использовать данные успешных продуктов, мы будем получать относительно реалистичную оценку `CPI`.
+- It is a single parameter, not two. Less effect of error accumulation, no temptation to adjust the parameters to each other.
+- `CPI` is easier to estimate. It is enough to know the marketing budget and the total number of game sales. We got this information when we were looking for beacon games.
+- `CPI` is a global inertial phenomenon, it is less inclined to change unexpectedly, usually ~~it only increases~~ follows long global trends.
+- An estimate of `CPI` may be more accurate than conversions to/from wishlists, because it is directly and rigidly limited by the market: budgets, people's willingness to engage in advertising, etc. Companies that do bad marketing leave the market. If we use data from successful products, we should get a relatively realistic estimation of `CPI`.
 
-`CPI` для базовой игры мы будем оценивать просто:
+`CPI` for the base game we will estimate simply:
 
-- Бюджет на маркетинг игр-маяков принимаем равным половине их доходов (revenue).
-- Делим бюджет маркетинга на оценку количества покупок, получаем `CPI`.
+- The marketing budget for beacon games is taken as half of their revenue.
+- By dividing the marketing budget by the estimated number of purchases, we get `CPI`.
 
-Наш `CPI` (для базовой игры) установим примерно посередине между играми-маяками. Дополнительно обращу внимание, что мы заложили меньшие продажи, чем у игр-маяков, поэтому и `CPI` может быть чуть ниже. `CPI` растёт по мере охвата целевой аудитории, так как становится сложнее находить новых покупателей.
+Out `CPI` (for the base game) is set approximately as an average between beacon games. Additionally, I want to note that we have set lower sales than beacon games have, so our `CPI` may be slightly lower. `CPI` grows as the target audience is covered, as it becomes more difficult to find new players
 
-### Траты на маркетинг
+### Marketing costs
 
 Итак, возвращаемя к самой большой области наших расходов. Согласно финальным расчётам нашей модели к релизу на маркетинг уйдёт раза в 2.5 больше, чем на разработку :-D
 
