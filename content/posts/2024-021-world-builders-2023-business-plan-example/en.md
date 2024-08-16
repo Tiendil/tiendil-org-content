@@ -516,7 +516,7 @@ caption = "Games that are similar in some ways to what we want to create. A more
 Before we start developing a financial model, it would be useful to gather some information about the fate of similar projects.
 
 - First, if there are no similar projects, it is a reason to think is the concept of our game is so unique that no one has ever thought of it, or is it so bad that no one has ever tried to implement it.
-- Second, such a list will provide us a feedback on the expected amount of work and the size of the team. We can compare our calculations with real data.
+- Second, such a list will provide us a feedback on the expected amount of work and the team size. We can compare our calculations with real data.
 - Third, it will allow us to estimate (using heuristics) some parameters for the business model.
 
 I chose beacons based on genre and the significant player experience they provide. It is possible to philosophize about alternative approaches. For example, someone could dig up some Steam statistics or collect raw data and make some data science magic.
@@ -531,15 +531,15 @@ What data do we need:
 
 Most of this data is private, and almost no one will give it to you. Especially the exact values.
 
-But we do not need exact values (like all our previous calculations were exact, yeah). In my case, approximate information was unexpectedly easy to find on Wikipedia and news resources.
+But we don’t really need exact data (as if all our previous calculations were spot-on, yeah?), approximate information should be enough. In my case, I unexpectedly found it easily on Wikipedia and news sources.
 
 /// hint | Lifehack
-The size of one of the teams I calculated by the counting the number of faces on the photo from Reddit.
+I calculated the size of one of the teams by counting the number of faces on the photo from Reddit.
 ///
 
-By the way, an advice. If you are going to make a game in the future, but not right now, start collecting links to interviews and press releases from developers. They will come in handy when you start planning.
+By the way, here is some advice. If you are going to make a game in the future, but not right now, start collecting links to interviews and press releases from developers. They will come in handy when you start planning.
 
-In case Wikipedia is not enough, we have several Steam statistics aggregators. For example, [Steam Spy](https://steamspy.com/).
+In case Wikipedia is not enough, we have several Steam statistics aggregators, such as [Steam Spy](https://steamspy.com/).
 
 ## Marketing strategy
 
