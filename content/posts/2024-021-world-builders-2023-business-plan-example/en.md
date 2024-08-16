@@ -239,8 +239,8 @@ Columns:
 
 - `Stage` — the development stage at which we need to complete the task.
 - `Epic` — a large piece of work that we do as a team.
-- `Feature` — a piece of an epic that is done by specific specialists, such as developers or game designers.
-- `Track` — what specialists do this feature/task: developers, designers, marketers, etc. I'll explain why the column is called `Track` below.
+- `Task` — a piece of an epic that should be done by specific specialists, such as developers or game designers.
+- `Track` — what specialists do this task: developers, designers, marketers, etc. I'll explain why the column is called `Track` below.
 - `Estimation` — our time estimate for the task.
 - `Comments` — any additional comments.
 
