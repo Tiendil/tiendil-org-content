@@ -46,10 +46,10 @@ Here is why you should critically look at this tutorial:
 
 ## Iterative development
 
-During the reading, it may seem that all the work can be done sequentially from beginning to end. This is not the case. I post-factum organized everything into a narrative form so as not to make you jump chaotically between documents.
+During the reading, it may seem that all the work can be done sequentially from beginning to end. This is not the case. I post-factum organized everything into a narrative form to save you from jumping chaotically between documents.
 
 /// note | Move in a spiral
-While developing your business plan, you will find mistakes in your logic, in calculations, in data, in everything. You will forget different things and then remember them. So you will have to jump between different documents, iteratively adaping them to each other's constraints. This is normal and should be so in any healthy development of a complex thing.
+While developing your business plan, you will find mistakes in your logic, calculations, data, and everything else. You will forget things and then remember them. So you will have to jump between different documents, iteratively adapting them to each other's constraints. This is normal and should be so in any healthy development of a complex thing.
 
 But if you don't do it this way and try to force your way through, you will definitely make a mess. ~~Not that I didn't make a mess.~~
 ///
@@ -58,7 +58,7 @@ So.
 
 ## Define company strategy
 
-Imagine, for some reason, you've decided to make a game for ~~the indie developers graveyard~~ Steam. And it's a single-player sandbox strategy game (see [presentation](https://drive.google.com/file/d/1BUhTWCW9YysP0ZCUrIoFbmqXDa-Fz946/view?usp=sharing) if your are interested). Maybe with multiplayer, but you're not sure yet.
+Imagine, for some reason, you've decided to make a game for ~~the indie developers' graveyard~~ Steam. And it's a single-player sandbox strategy game  (see [presentation](https://drive.google.com/file/d/1BUhTWCW9YysP0ZCUrIoFbmqXDa-Fz946/view?usp=sharing) if you are interested). Maybe with multiplayer, but you're not sure yet.
 
 Listing the possible reasons for these decisions is beyond the scope of this essay.
 
@@ -68,19 +68,19 @@ For example, if you focus on earning money (why then go into gamedev?), you shou
 
 I chose the entertainment sphere because the school is about making something in this area.
 
-Games (not comics, movies, books, etc.) were chosen because I have good expertise in [gamedev]{tags:gamedev}, the school's main expertise is there too, most residents decided to make games. I didn't want to break away from the team and spend more time than I was willing to spend.
+Games (not comics, movies, books, etc.) were chosen because I have good expertise in [gamedev]{tags:gamedev}, the school's primary expertise is there, too, and most residents decided to make games. I didn't want to break away from the team and spend more time than I was willing to spend.
 
 Mobile games are a [simulacrum](https://en.wikipedia.org/wiki/Simulacrum) — [a form triumphing over conten]{post:@choose-nearest-language:one-form-two-products} with a marketing budget larger than the development budget. Not interesting. It's funny, but in our final financial plan, the marketing budget will also be larger, but, of course, it's different :-)
 
-VR, consoles, and other things are more complex (for me) in terms of technology and game design.
+VR, consoles, and other things are more complex (for me) regarding technology and game design.
 
-PC platform remains, dominated by Steam.
+PC platform remains dominated by Steam.
 
-Strategy and RPG are the genres in which ~~I played the most~~ I have the most expertise and which I like. Plus, they allow to reveal the world better. Revealing the world is one of the school's requirements for the product.
+Strategy and RPG are the genres in which ~~I played the most~~ I have the most expertise, and which I like. Plus, they allow developers to reveal the world better. Revealing the world is one of the school's requirements for the product.
 
-[MMORPGs]{tags:mmo} are also interesting to me, but my view on them is radically different from the view of any person similar to an investor, so not this time.
+[MMORPGs]{tags:mmo} are also interesting to me, but my view on them radically differs from any person similar to an investor, so not this time.
 
-In my opinion, it is much easier to make a good strategy (even with RPG elements) than a good RPG. Because making an RPG with a linear plot is not fun, and the development of a non-linear plot makes me tremble with combinatorics and the pain it will cause.
+In my opinion, it is much easier to make a good strategy (even with RPG elements) than a good RPG. Because creating an RPG with a linear plot is not fun, and developing a non-linear plot makes me tremble with combinatorics and the pain it will cause.
 ///
 
 ## Choosing ~~monetization~~ the main financial flow
