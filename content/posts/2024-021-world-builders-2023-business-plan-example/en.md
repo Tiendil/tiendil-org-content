@@ -251,32 +251,34 @@ In any project, you can always highlight several streams of tasks that would be 
 The simplest example from gamedev are tracks of development, game design, and art.
 
 /// note | Parts of the project left unattended degrade
-If at some point we decide that, for example, we have done everything in game design, and developers still have a couple of months to code, then the game design (the real one implemented in the game, not the one in the heads of game designers) will degrade, not remain the same as it may seem.
+Suppose at some point we decide that, for example, we have done everything in game design, and developers still have a couple of months to code.
+
+In that case, the game design (the real one implemented in the game, not the one in the heads of game designers) will degrade. It will not remain the same as it may seem.
 
 Because the game model in the code will change (accumulate ~~mistakes~~ discrepancies), and the game design model in the documentation and in the heads of game designers will remain the same (old).
 ///
 
 Therefore, **in an ideal project with an unlimited budget**, work is always going on for each track to ensure the project grows evenly, organically.
 
-Note, tracks should not be confused with roles, positions, competencies. Above, I gave an example of high-level tracks. Here is an example of more specialized tracks for web development:
+Note that tracks should not be confused with roles, positions, or competencies. Above, I gave an example of high-level tracks. Here is an example of more specialized tracks for web development:
 
 - business logic development;
 - improving/maintaining the project's controllability: metrics, logs, tests;
 - improving/maintaining security level;
 - improving/maintaining performance.
 
-Business ~~always~~ usually has a habit of ignoring tasks from not-so-mandatory-and-noticeable tracks that do-not-bring-value-directly. For example, tasks aimed at improving project controllability might get dismissed because "everything is fine now."
+Business ~~always~~ usually has a habit of ignoring tasks from not-so-mandatory-and-noticeable tracks that do-not-bring-value-directly. For example, tasks to improve project controllability might get dismissed because "everything is fine now."
 
 But the catch is that the debt in track grows like a snowball, snowflake by snowflake. If you don’t pay it off, eventually disaster strikes: all new features get postponed in favor of urgent fixes using quick-and-dirty solutions. This leads to significant disruptions in the business’s planning and, on top of that, to deep-rooted project degradation, which further derails planning over time, creating a vicious cycle.
 
 That's why the project leader's goal is to keep all tracks active.
 
-Accordingly, when starting making a table, I decided to describe tasks by tracks, assuming that:
+Accordingly, when starting to make a table, I decided to describe tasks by tracks, assuming that:
 
 - the list of tracks will be determined as we go;
 - at each stage on each track there will be some amount of work.
 
-In fact, you can see that in our specific case, we could use roles instead of tracks. But if the project were larger, the tracks would be more diverse. For example, game design could be divided into tracks of level design, mechanics, and narrative.
+In fact, in our specific case, we could use roles instead of tracks. But if the project were larger, the tracks would be more diverse. For example, game design could be divided into tracks of level design, mechanics, and narrative.
 
 Also, it is not guaranteed that as the product develops and the team grows, we will not want to increase the details of our plans.
 
