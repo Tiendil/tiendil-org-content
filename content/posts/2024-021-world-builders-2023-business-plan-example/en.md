@@ -691,19 +691,19 @@ All paid DLCs are described using the same logic, so I will only describe the ro
 
 ### Calculating the money we'll receive from Steam
 
-Of course, not all money from the players will end on our bank account. In this section we estimate how much money we'll actually see.
+Of course, not all money from the players will end on our bank account. In this section, we estimate how much money we'll actually see.
 
 `[38] Raw Gross Revenue` — The total revenue from the sale of the base game and all DLCs per month.
 
 `[39] Expected Discounts Loss` — The expected "losses" from discounts on Steam.
 
 /// note | How we account for discounts
-There may be two approaches to calculating effects of discounts.
+There may be two approaches to calculating the effects of discounts.
 
-1. We consider purchases on discounts as a separate type of purchase, like DLCs. In theory, especially if you have access to statistics, this will give more accurate results. The downside here will be a significant increase in the size of the table.
+1. We consider purchases on discounts as a separate type of purchase, like DLCs. In theory, this will give more accurate results, especially if you have access to statistics. The downside here will be a significant increase in the size of the table.
 2. We turn to expert opinion, which says that we will "lose" `X%` of potential revenue because of discounts. Since we have no access to secret statistics, but we have school experts, this is our way.
 
-I write "lose" in quotes because it is not an actual loss. It is more an aquisition of new players who would not buy the game at full price. But we will use the term "lose" because it is more suitable for the calculation logic.
+I write "lose" in quotes because it is not an actual loss. It is more of an acquisition of new players who would only buy the game at a partial price. However, we will use the term "lose" because it is more suitable for calculation logic.
 
 So, as I understand, in the long run on discounts the game can "lose" up to `50%` of the potential revenue. But we will not have such large discounts right away. Therefore, I estimated the growth of losses on discounts from `20%` to `50%` with a half-year step.
 ///
@@ -714,7 +714,7 @@ So, as I understand, in the long run on discounts the game can "lose" up to `50%
 
 `[42] Revenue After Steam Fees` — Our revenue after the Steam fee.
 
-`[43] Total Revenue After Steam Fees` — Our ongoing revenue after all losses and fees including this month.
+`[43] Total Revenue After Steam Fees` — Our ongoing revenue after all losses and fees, including this month.
 
 ### Spends on development
 
