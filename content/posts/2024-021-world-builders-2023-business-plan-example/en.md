@@ -539,7 +539,7 @@ I calculated the size of one of the teams by counting the number of faces on the
 
 By the way, here is some advice. If you are going to make a game in the future, but not right now, start collecting links to interviews and press releases from developers. They will come in handy when you start planning.
 
-In case Wikipedia is not enough, we have several Steam statistics aggregators, such as [Steam Spy](https://steamspy.com/).
+In case Wikipedia is not enough, there are several Steam statistics aggregators, such as [Steam Spy](https://steamspy.com/).
 
 ## Marketing strategy
 
@@ -550,7 +550,7 @@ caption = "Expected marketing activities. Very large expenses are highlighted in
 
 One more important thing to do before preparing the financial model is to outline marketing activities. In our time marketing takes half of the development budget, if not more.
 
-I'll skip general thoughts on building a community, finding players, and similar things. Firstly, there are a couple of related slides in the presentation. Secondly, it is a well-known and popular topic, there are plenty of materials on the internet. I even have a [small essay]{post:@choose-nearest-language:the-game-community-from-the-point-of-view-of-an-independent-game-developer} about my experience. Plus, in my opinion, all these considerations are more about marketing philosophy (who and where to look for) than about real expenses (how many players to look for and how much to pay for them). Here we are interested in how much to pay.
+I'll skip the part with general ideas on building a community, finding players, and similar things. Firstly, there are a couple of related slides in the presentation. Secondly, it is a well-known and popular topic, there are plenty of materials on the internet. I even wrote a [small essay]{post:@choose-nearest-language:the-game-community-from-the-point-of-view-of-an-independent-game-developer} about my experience. Plus, in my opinion, all these considerations are more about marketing philosophy (who and where to look for) than about actual expenses (how many players to look for and how much to pay for them). Here we are interested in how much to pay.
 
 In the context of marketing, two things are important to us.
 
@@ -564,23 +564,25 @@ In the context of marketing, two things are important to us.
 
 - Releasing a supporting video.
 - Attracting new players.
-- Returing old players.
+- Returning old players.
 
 /// note | Let's go back to strategy planning for a moment
 For my game I decided to split DLCs into two types: paid and free, and alternate them.
 
-Paid DLC should be cool, it takes longer to make, and most likely, the share of work for programmers in it will be greater than for game designers, because it will contain new mechanics.
+Paid DLC should be cool. It takes longer to make, and most likely, the share of work for programmers will be greater than for game designers because it will contain new mechanics.
 
 Therefore, between the release of paid DLCs, we can release simpler free ones. They will retain the interest of old players, enrich the base game, attract new players, and, of course, keep the game designers busy.
 
-If you look at the chronology of events in the final financial model, you can see that players will see the release of a DLC every two months. But for developers, these will be cycles of four months. The development of two DLCs will start simultaneously, the free DLC will be prepared for 2 months, and the paid one for 4, after which the team will move on to the next iteration.
+If you look at the chronology of events in the final financial model, you will see that players will see the release of a DLC every two months. But for developers, these will be cycles of four months. The development of two DLCs will start simultaneously. The free one will be prepared for two months, and the paid one for four, after which the team will move on to the next iteration.
+
+An alternative to free DLCs could be updates to the base game. This may be even more convenient for attracting attention to the base game. However, for the purposes of this post, the difference is not significant.
 ///
 
 In the rest, our focus should be visible from the table:
 
-- For Early Access, we shoot gameplay videos and spend "a little" on attracting hardcore strategy players to forge a core community.
+- We shoot gameplay videos for Early Access and spend "a little" on attracting hardcore strategy players to forge a core of our community.
 - On the exit from Early Access, we shoot a cool video with the idea of the game and spend a lot of money on attracting a wide audience.
-- On the release of free DLCs, we return old players and spend a little on attracting new ones focusing on the features of the DLC. For example, if the DLC is inspired by X-Files, we may launch a company aimed at fans of the series.
+- On the release of free DLCs / base game updates, we return old players and spend a little on attracting new ones, focusing on the features of the DLC. For example, if the DLC is inspired by X-Files, we may launch a company aimed at fans of the series.
 - On the release of paid DLCs, we shoot a video about the idea of the DLC and aim spendings at our community and a little at new players.
 
 ## Financial model
