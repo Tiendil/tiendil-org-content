@@ -284,15 +284,15 @@ Also, it is not guaranteed that as the product develops and the team grows, we w
 
 #### How to break down epics into tasks
 
-The most important thing is to have a sense of balance. With all our desire, we cannot know the full list of interface elements, sounds, mechanics, and whatever else will be in the final game. Therefore, there is no point in making such a list.
+The most important thing is to have a sense of balance. With all our desire, we cannot know the complete list of interface elements, sounds, mechanics, and whatever else will be in the final game. Therefore, there is no point in making such a list.
 
 Instead, we should define work in large chunks, focusing on common sense and our own experience.
 
-If you have no experience, use common sense only :-) Then find an experienced friend and ask him to check your work. Doing the opposite (finding a person to do this work for you) is not recommended, as the person will leave, and you will be left with an artifact you do not understand.
+If you have no experience, use common sense only. :-) Then, find an experienced friend and ask them to check your work. Doing the opposite (finding a person to do this work for you) is not recommended, as the person will leave, and you will be left with an artifact you do not understand.
 
-Of course, it is okay to delegate task breakdown to a team member (who has signed up to work with you further). **Even cooler is doing it together as a team.** I don't have a team, for now, so I did it myself.
+Of course, it is okay to delegate task breakdown to a team member (who has signed up to work with you further). **Even cooler is doing it together as a team.** I don't have a team for now, so I did it myself.
 
-In our strategy, we shortly defined the goals of each development stage and the expected result on its completion.
+In our strategy, we briefly defined the goals of each development stage and the expected result upon its completion.
 
 For example, for the Alpha version:
 
@@ -306,52 +306,52 @@ Knowing what game we are making, we can define what should be ready to complete 
 - Minimum game mechanics. In our case, it is a map, news channels, and events investigation.
 - Some content.
 
-These tasks we should complete as a team, but each of them contains different amount of work for different specialists. Therefore, we should break them down into tracks.
+We should complete these tasks as a team, but each epic contains a different amount of work for various specialists. Therefore, we should break them down into tracks.
 
-/// note | Why is not enough to have only epics
+/// note | Why is it not enough to have only epics
 It may seem that it is enough to define only epics for the roadmap. The idea being, we work as a team, so first we all complete the first epic, then the second, and so on. But this is not the case.
 
-Every game requires a unique amount of work in different areas. Somewhere you need more graphics, somewhere more game logic, somewhere something else.
+Every game requires a unique amount of work in different areas. Somewhere, you need more graphics; somewhere, more game logic; somewhere, something else.
 
 On the example of the game maps:
 
-- There are games with very beautiful maps, but little logic behind them — they are just pictures.
-- There are games with a complex map logic with scaling, different display modes, filters, buttons, and sliders.
-- There are even games where the map is not displayed through graphics, but [through sound](https://store.steampowered.com/app/437530/A_Blind_Legend/), and you will need a sound engineer, not an artist.
+- There are games with wonderful maps but little logic behind them — they are just pictures.
+- Some games have a complex map logic with scaling, different display modes, filters, buttons, and sliders.
+- There are even games where the map is not displayed through graphics but [through sound](https://store.steampowered.com/app/437530/A_Blind_Legend/), and you will need a sound engineer, not an artist.
 
-So, every track will have its own amount of work, and you should build such team that will pass through all tracks without downtime (wasting money). For example, if you have `x` work on art track, and `2*x` work on development track, you should hire two developers per one artist.
+So, every track will have its own amount of work, and you should build a team that will pass through all tracks without downtime (wasting money). For example, if you have `x` work on art track, and `2*x` work on development track, you should hire two developers per one artist.
 
 That's why we need to know the amount of work per track.
 
-But, as always, moderation is key. In some cases, it’s fine to leave out certain tracks.
+But, as always, moderation is key. In some cases, it’s OK to leave out certain tracks.
 
 For example, somewhere in the middle of filling out the roadmap, I saw that the amount of work for developers and game designers is significantly higher than for any other track. That means they will be the ones limiting the development speed, and for all other tracks I can hire only one person per each other track (taking in account the small expected size of the team). So I started to spend less time on writing down tasks for other tracks.
 ///
 
-For example, we know that we need a map in out game — it is our epic `Implement game map`.
+For example, we know that we need a map in our game — it is our epic `Implement game map`.
 
-- What sort of map? Who knows. So we create research tasks on two tracks:
+- What sort of map? Who knows. So, we create research tasks on two tracks:
     - `game design` — what should be on the map, how it should work;
     - `art` — how it should look.
-- Of cause, we need to implement it, so we create a task on the `development` track.
-- It would be great to have procedural mao generation. But it is difinitely not required for the Alpha version. So we create additional epics and tasks for the Beta and Early Access stages.
+- Of course, we need to implement it, so we will create a task on the `development` track.
+- It would be great to have a procedural map generation. But it is definitely not required for the Alpha version. So, we create additional epics and tasks for the Beta and Early Access stages.
 
 /// attention | Pay attention
-We do not prescribe what exactly the artist should draw (how many sketches, sprites, buttons) or what buttons and mechanics the developer should implement
+We do not prescribe exactly what artist should draw (how many sketches, sprites, buttons) or what buttons and mechanics the developer should implement.
 
-The detailed description of tasks will be required on the production stage, when you will know the capabilities of your team and will plan the work in details together with all involved colleagues.
+A detailed description of tasks will be required when actual production starts, when you will know your team's capabilities and plan the work in detail with all involved colleagues.
 ///
 
-Besides the straightforward tasks, there are invisible tasks that are also mandatory. We cannot forget about them. Here are examples from my roadmap:
+Besides the straightforward epics, there is an invisible work that is also mandatory. We cannot forget about it. Here are examples from my roadmap:
 
-- Moving the game logic from the prototype to the real project. This is necessary because the prototype was developed on technologies convenient for prototyping (web), not for creating a game for Steam.
+- Moving the game logic from the prototype to the real project. This is necessary because the prototype was developed using technologies that are convenient for prototyping (web), not for creating a game for Steam.
 - Developing tools for game designers to speed up their work.
 - Playtests at the end of each stage and game improvement based on their results.
-- Development of QA approaches for content quality assessment. There will be procedural story generation in the game, therefore we need somehow to assess the lower quality boundary of the generated stories. Are they diverse enough, do they involve all NPCs, etc. In other words, we need to protect ourselves from a random total failure when due to a bug in the generation algorithm it starts to produce complete nonsense. It is difficult for developers to notice such things because they cannot play full game sessions all day long (they have work to do), so they have difficulty noticing statistical phenomenas.
-- Worldbuilding for the game. Without a consistent solid context, it will be difficult for game designers and artists to keep their work in sync.
-- Validating and setting up diversity in the game. We are making a game about a modern metropolis, so we need to represent people of different races, views, abilities in the game.
+- Development of QA approaches for content quality assessment. There will be procedural story generation in the game. Therefore, we need to somehow assess the generated stories' lower quality boundary. Are they diverse enough? Do they involve all NPCs? In other words, we need to protect ourselves from a random total failure when the generation algorithm starts to produce complete nonsense due to a bug in it. It is difficult for developers to notice such statistical phenomena because they cannot play full game sessions all day long (they have work to do).
+- Worldbuilding for the game. A consistent, solid context will make it easier for game designers and artists to keep their work in sync.
+- Validating and setting up diversity in the game. We are making a game about a modern metropolis, so we need to represent people of different races, views, and abilities.
 - Tutorial.
-- Creating of the Newspedia (like Civilopedia in Civilization series). The game will have many nuances, we need to help players navigate them.
+- Creating the Newspedia (like Civilopedia in the Civilization series). The game will have many nuances, and we need to help players navigate them.
 - Tasks on community building and working with it.
 - Infrastructure for tracking game errors and metrics.
 - Something fun for the Deluxe version, which we will sell a little more expensive.
