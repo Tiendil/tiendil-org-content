@@ -600,11 +600,11 @@ The second sheet is built automatically based on the first one.
 
 The model is built till the release of the fourth paid DLC, but it is calculated for a slightly longer period — until the end of the fourth year of development.
 
-I will describe the first sheet, it contains 65 rows. The calculation goes from top to bottom, left to right, so I will just describe all the rows in order.
+I will explain the first sheet. It contains 65 rows. The calculation goes from top to bottom, left to right, so I will just describe all the rows in order.
 
-I will not write down the formulas, you can find them in the original table, but I will describe the idea of the calculation if it is not trivial.
+I won’t write down the formulas—you can find them in the original table—but I will describe the calculation logic if it’s not straightforward.
 
-I split the description into sections by the proximity of the data. In the table, they are distinguished by the background color.
+I’ve split the description into sections based on the relevance of the data. In the table, these sections are highlighted by different background colors.
 
 So, let's go.
 
@@ -620,7 +620,7 @@ A lot of input values in this model are taken not from statistics and reports bu
 
 `[3] Milestones` — Important events in the life of the game. Each event usually changes the parameters of the financial model. For example, when starting the development of the Beta version, we increase the size of the team.
 
-/// note | The events in the `Milestones` row are important for investors
+/// note | The events in the `Milestones` row are essential for investors
 We select columns for the second sheet based on the presence of values in the `Milestones` row.
 ///
 
@@ -628,26 +628,26 @@ We select columns for the second sheet based on the presence of values in the `M
 
 `[4] Standard Edition Price $` — The price of the base game at the release. We choose it balancing our greed and the price of beacon games on their release.
 
-`[5] Delux Edition Price $` — The price of the deluxe version of the game. For players who want to spend a little more money on the game. We choose it a little bit higher than the price of the base game.
+`[5] Delux Edition Price $` — The price of the deluxe version of the game. For players who want to spend a little more money on the game. We choose it a bit higher than the base game's price.
 
 `[6] Game Purchases / Month` — The expected number of organic purchases per month. From the echoes of marketing, community building, and other activities.
 
-/// warning | Warning!
-If you have done nothing in marketing and community building before the releases, then you will have 0 here.
+/// warning | No work — no profit
+If you did nothing in marketing and community building before the releases, you will have 0 here.
 ///
 
-`[7] Game Purchases Boost `— The number of game purchases we expect from our marketing efforts. This parameter is not calculated, but set. **The reasons for choosing this approach and its alternatives will be discussed a little later** when we get to the marketing spending calculations.
+`[7] Game Purchases Boost `— The number of game purchases we expect from our marketing efforts. This parameter is not calculated but set. **The reasons for choosing this approach and its alternatives will be discussed later** when we get to the marketing spending calculations.
 
 /// attention | These numbers will easily eat half of your budget, if not more
-The more purchases, the more profit, but the bigger the marketing costs. Marketing costs go before profit, so they increase the amount of money you ask from investors, thus reducing your share in the result.
+The more purchases, the more profit, but the bigger the marketing costs. Marketing costs go before profit, increasing the amount of money you ask from investors, thus reducing your share in the result.
 ///
 
 While deciding on this number, consider:
 
 - How much money you can get from the investors.
-- How many players in the chosen genre on the chosen platform. In my opinion, even 10% of the target audience is a successful success, aim at 1% or less.
+- How many players are in the chosen genre on the chosen platform. In my opinion, even 10% of the target audience is a booming success, aim at 1% or less.
 
-Also note that your marketing will be tied to specific events. That is, you will pour a lot of money into a specific month, and then maintain some minimal activity to pick up the tail.
+Also note that your marketing will be tied to specific events. You will pour a lot of money into a particular month and then maintain some minimal activity to pick up the tail.
 
 `[8] Game Purchases Boost Tail` — Players who will purchase the game as a tail/echo of your marketing activities. Calculated as `1/3` of the effectiveness of marketing in the previous month. I took `1/3` by eye from SteamSpy charts (how quickly the audience growth rate decreases).
 
@@ -671,7 +671,7 @@ Also note that your marketing will be tied to specific events. That is, you will
 
 ### DLC sales
 
-All paid DLCs are described within the same logic, so I will only describe the rows of the first DLC.
+All paid DLCs are described using the same logic, so I will only describe the rows of the first DLC.
 
 `[18] Paid DLC 1 Convertion Rate` — Our estimate of the share of base game owners who will buy the DLC. I took the estimate by googling the news, but there is not much information. `30%` conversion is an ambitious goal.
 
