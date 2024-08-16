@@ -124,7 +124,7 @@ For example, RPGs make it challenging to add each subsequent DLC because the gam
 /// hint | DLC as separate companies in RPG
 Strangely, I can't remember any RPG where separate campaigns were released as DLCs. Aka with stories that are unrelated to the main plot and require creating a new character.
 
-It may significantly simplify the lives of developers. And it would be much more interesting for me as a player to create a new group six months to a year after the first playthrough rather than remembering the plot and the mechanics of 100 abilities in the old save.
+It may significantly simplify the lives of developers. And it would be much more convinient for me as a player to create a new group six months to a year after the first playthrough rather than remembering the plot and the mechanics of 100 abilities in the old save.
 ///
 
 But if we don't have such problems, we can look at **option 5** — replacing the main money flow from the releases of new games to the releases of DLCs. I call it the [Paradox](https://www.paradoxinteractive.com/) way because they are the best at it, as I see it.
@@ -193,15 +193,15 @@ But not everyone can afford this:
 ## Final strategy
 
 1. We are making a sandbox strategy for Steam.
-2. We are focusing on a long-term release of a large number of DLCs.
-3. We are aiming for a "quiet" release in Early Access, cultivating a community, actively exploiting feedback from it, and making a "loud" release when the game is ready.
-4. If the release of DLCs isn’t financially effective enough, we shift to developing a new game (a sequel or a game in the nearby genre), while still supporting the first game with a few additional DLCs.
+2. We are focusing on the long-term release of a large number of DLCs.
+3. We aim for a "quiet" release in Early Access, cultivating a community, actively exploiting feedback, and making a "loud" release when the game is ready.
+4. If the release of DLCs isn’t financially effective enough, we shift to developing a new game (a sequel or a game in the nearby genre) while still supporting the first game with a few additional DLCs.
 
-Based on this strategy and our understanding of gamedev we can describe the major stages of our game development.
+Based on this strategy and our understanding of gamedev, we can describe the major stages of our work.
 
 /// brigid-images
 src = "./images/roadmap-without-numbers.png"
-caption = "A slide from the presentation. The numbers are hidden — we don't have them at this stage. The main goal of each stage is highlighted in red. Below its brief description."
+caption = "A slide from the presentation. The numbers are hidden — we don't have them at this step. The main goal of each stage is highlighted in red. Below its brief description."
 ///
 
 ## Roadmap
