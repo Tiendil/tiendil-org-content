@@ -179,14 +179,14 @@ I did this for several reasons:
 
 There are two poles:
 
-1. Full release in Early Access. We release what we would release in a regular release, only now we are forgiven more bugs, and the team is calmly working on the day-one, week-one, month-one, year-one patches. When everything is sold, we make a release to highlight the game for players who, for some reason, missed Early Access.
-2. "Quiet" release in Early Access. We release a consistent integral game but significantly cut in features. Based on players' feedback, we work hard to polish and improve the game. When the game is ready, we make a "loud" release.
+1. Full release in Early Access. We release what we would release in a regular release, only now we are forgiven more bugs, and the team is calmly working on the day-one, week-one, month-one, ~~year-one~~ patches. When everything is sold, we make a release to highlight the game for players who, for some reason, missed Early Access.
+2. "Quiet" release in Early Access. We release a minimal, consistent integral game but significantly cut its features. We work hard to polish and improve the game based on players' feedback. When the game is ready, we make a "loud" release.
 
-In my opinion, the second approach is unconditionally more effective, as it provides feedback much earlier, which inevitably increases the quality of development at its final stage. If the team is ready to hear feedback, of course.
+In my opinion, the second approach is unconditionally more effective. It provides feedback much earlier, which inevitably increases the quality of development at its final stage — if the team is ready to hear feedback, of course.
 
 But not everyone can afford this:
 
-- There is a risk of wrongly defining what a "minimal integral game" is. If you release the wrong thing, you will quickly fall into the purgatory. If you have financing by rounds, you may not receive money for the final development stage.
+- There is a risk of wrongly defining what a "minimal integral game" is. If you release the wrong thing, you will quickly fall into the limbo. You may not receive money for the final development stage if you have financing by rounds.
 - Your game may be initially designed minimally, for example, due to budget constraints. That is, you will have nothing to cut from it.
 - Marketers or investors will shift the development schedule so that you simply cannot release with the necessary set of features: "full release by Christmas or death."
 
