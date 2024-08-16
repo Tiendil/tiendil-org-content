@@ -675,18 +675,18 @@ All paid DLCs are described using the same logic, so I will only describe the ro
 
 `[18] Paid DLC 1 Convertion Rate` — Our estimate of the share of base game owners who will buy the DLC. I took the estimate by googling the news, but there is not much information. `30%` conversion is an ambitious goal.
 
-`[19] Paid DLC 1 Purchases` — The number of players who will buy the DLC per month. There is a slightly confusing formula, but its essence is to count both old and new players coming each month, and not count people twice.
+`[19] Paid DLC 1 Purchases` — The number of players who will buy the DLC per month. There is a slightly confusing formula, but its essence is to count old and new players coming each month and not count people twice.
 
-`[20] Paid DLC 1 Price` — The price of the DLC. We balance between greed, industrial standards, and your idea of the volume of the DLC. To determine the acceptable price range, I just looked at the prices of Paradox DLCs. Plus, the first DLC is expected to be smaller because it will be the first and it will take some time to solve inevitable technical problems. Therefore, the price should be lower.
+`[20] Paid DLC 1 Price` — The price of the DLC. We balance between greed, industrial standards, and our idea of the volume of the DLC. To determine the acceptable price range, I just looked at the prices of Paradox DLCs. Plus, the first DLC is expected to be smaller because it will be the first, and it will take some time to solve inevitable technical problems. Therefore, the price should be lower.
 
 `[21] Paid DLC 1 Revenue` — The expected revenue from the sale of the DLC per month.
 
 `[22] Total Paid DLC 1 Revenue` — The expected revenue from the sale of the DLC over time, including this month.
 
-/// note | Parameters of the next DLCs will differ
+/// note | Parameters of the following DLCs will differ
 - By the date of the release;
-- By the price. I see reasonable to vary the price of DLCs cyclically.
-- By the expected conversion rate. I have no data, but I expect that is should reduce with time. In my case I decrease it from `30%` to `20%` over time.
+- By the price. I see it reasonable to vary the price of DLCs cyclically.
+- By the expected conversion rate. I have no data, but I expect it to reduce with time. In my case, I decrease it from `30%` to `20%` over time.
 ///
 
 ### Calculating the money we'll receive from Steam
