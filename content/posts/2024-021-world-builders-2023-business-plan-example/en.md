@@ -361,20 +361,20 @@ Besides the straightforward epics, there is an invisible work that is also manda
 
 #### Tasks estimation
 
-Estimations is a complex and tricky question. The specific approach depends on your experience.
+Estimations are a complex and tricky question. The specific approach depends on your experience.
 
 There are two main approaches:
 
-- Estimation in story points — abstract units of complexity. For example, you state that the simplest task is worth one point, and then estimate all other tasks proportionally to it. When everything is estimated, you convert points to working time at some rate.
-- Estimation in working time from the start.
+- Estimation in story points — abstract units of complexity. For example, you state that the simplest task is worth one point and then estimate all other tasks proportionally to it. When everything is estimated, you convert points to working time at some rate.
+- Estimation in ideal working time from the start.
 
-/// attention | Speak about work using working time not calendar time
-A calendar month has ±30 days, but only ±20 working days. You pay salary for calendar months, but work moves in working months.
+/// attention | Speak about work using working time, not calendar time
+A calendar month has ±30 days but only ±20 working days. You pay salary for calendar months, but work moves in working months.
 
 Therefore, the last operation in calculating the total development time will be converting working time to calendar time. In my case it is done in the Green table.
 ///
 
-For my personal needs, I usually estimate work on "ideal working days" (when no one and nothing distracts the worker). I chose the same approach for the roadmap. But **for joint estimation in a team, it is better to use story points.**
+For my personal needs, I usually estimate work in "ideal working days" (when no one and nothing distracts the worker). I chose the same approach for the roadmap. But **for joint estimation in a team, it is better to use story points.**
 
 ### Blue table
 
