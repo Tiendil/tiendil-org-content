@@ -832,37 +832,37 @@ For me, the lever to change the number of sales (game owners) looks more natural
 
 `[61] Total Marketing Cost` — The overall cost of marketing since the beginning of time, including this month.
 
-### Итоговые суммы
+### Expected profits
 
-По сути, самая важная часть нашей таблицы — итог всей нашей работы, всех наших исследований и расчётов.
+The most important part of our table — the result of all our work, research, and calculations.
 
-`[62] Month Costs` — Все затраты в месяц.
+`[62] Month Costs` — All costs per month.
 
-`[63] Total Costs` — Суммарные затраты с начала времён по текущий месяц включительно.
+`[63] Total Costs` — The overall costs since the beginning of time, including this month.
 
-`[64] Month Gross Revenue` — Наш доход в месяц, после всех приходов и расходов.
+`[64] Month Gross Revenue` — Our revenue per month, after all incomes and costs.
 
-`[65] EBITDA`— [EBITDA](https://ru.wikipedia.org/wiki/EBITDA) как она есть — наши деньги до вычета непрямых расходов (налоги, амортизация, проценты, etc). Этот параметр смотрят инвесторы.
+`[65] EBITDA`— [EBITDA](https://en.wikipedia.org/wiki/EBITDA) as it is — our money before removing indirect costs (taxes, ammortization, interest, etc). This parameter is important for investors.
 
-## Что делать, когда закончили финансовую модель
+## What to do after the financial model is finished
 
-После того как вы вобьёте последнюю формулу, растянете колонки на нужное количество месяцев, разукрасите всё, вы посмотрите на итоговые числа и увидите, что там фигня какая-то неприбыльная. Или, наоборот, сильно подозрительно прибыльная.
+After you enter the last formula, stretch the columns for the required number of months, color everything, you will look at the final numbers and see that there is some unprofitable crap. Or, conversely, very suspiciously profitable.
 
-Это значит, что у вас начинается очень интерсный этап настройки модели, когда вы крутите кучу рычажков (констант в таблице), играетесь с объёмом работ, размером команды, чтобы получить картину, которая будет убедительной для вас и для инвесторов.
+It means beginning of the most interesting stage of setting up the model, when you twist a bunch of levers (constants in the table), play with the volume of work, tune the size of the team to get a picture that will be convincing for you, your team and for investors.
 
 Have Fun!
 
-## Сколько времени заняла разработка бизнес-плана
+## How much time did it take to develop the business plan
 
-Вместо заключения приведу статистику по времени, которые у меня отняли эти документы.
+Instead of a conclusion, I will provide statistics on the time that these documents took from me.
 
-Конечно, это примерное время, так как я не делал эту работу full-time.
+Of course, this is an approximate time, because I did not do this work full-time.
 
-- **Краткая стратегия компании** — стратегию вы продумываете не в какой-то конкретный момент, а всё время пока работаете над концептами, презентациями, и прочим. Потом вы просто записываете информацию, которая уже давно сидит в голове.
-- **Табличка игр-маяков** — ±2 дня. Долго пытался понять что и где искать, когда разобрался, пошло быстро.
-- **Состав команды** — меньше дня, базовый состав должен быть хорошо виден из Roadmap.
-- **Roadmap** — ±2 дня.
-- **Зачатки маркетинговой стратеги** — тут те же соображения, как и с общей стратегией.
-- **Финансовая модель** — ±3 дня, концепция расчётов несколько раз менялась. Если взять готовую модель, то намного быстрее будет.
+- **Short strategy of the company** — You develop strategy not at some specific moment, but all the time while working on ideas, concepts, presentations and so on. Later you just write down the information that already sits in your head.
+- **Table of beacon games** — ±2 days. I spent a lot of time trying to understand what to search and how to search. When I figured it out, it went quickly.
+- **Team composition** — less than a day. The basic composition should be well visible from the Roadmap.
+- **Roadmap** — ±2 days.
+- **Outlines of marketing strategy** — Here are the same considerations as with the company strategy.
+- **Financial model** — ±3 days, the idea of calculations changed several times. If you take a ready-made model, it will be much faster.
 
-На этом всё. Спасибо за ваше время и удачи в геймдеве!
+That’s all for now. Thank you for your time, and best of luck in game development!
