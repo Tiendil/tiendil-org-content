@@ -124,7 +124,7 @@ For example, RPGs make it challenging to add each subsequent DLC because the gam
 /// hint | DLC as separate companies in RPG
 Strangely, I can't remember any RPG where separate campaigns were released as DLCs. Aka with stories that are unrelated to the main plot and require creating a new character.
 
-It may significantly simplify the lives of developers. And it would be much more interesting for me as a player to create a new group six months to a year after the first playthrough, rather than remembering the plot and the mechanics of 100 abilities in the old save.
+It may significantly simplify the lives of developers. And it would be much more interesting for me as a player to create a new group six months to a year after the first playthrough rather than remembering the plot and the mechanics of 100 abilities in the old save.
 ///
 
 But if we don't have such problems, we can look at **option 5** — replacing the main money flow from the releases of new games to the releases of DLCs. I call it the [Paradox](https://www.paradoxinteractive.com/) way because they are the best at it, as I see it.
@@ -141,13 +141,13 @@ I can not recommend building a business plan based on such an optimistic scenari
 
 ### Massprodusing DLCs
 
-Efficient, well-organized production of DLCs is great for two reasons.
+The efficient, well-organized production of DLCs is great for two reasons.
 
-**Firstly**, it forms a strong developing ecosystem uniting the company and the player community:
+**Firstly**, it forms a resilient developing ecosystem uniting the company and the player community:
 
 1. With each released DLC, you improve the base game, tune it to a specific niche, and eventually become a monopolist in it.
-2. Improved base game continues to be bought by players for whom it was not so good before. Therefore, your community continues to grow for a long time after the release.
-3. A strong community provides quick and high-quality feedback for your decisions, leading to the release of better DLCs. Good DLCs improve the game. Improved game attracts people to the community. The community provides even better feedback.
+2. Improved base game continues to be bought by players for whom it was not so good before. Therefore, your community continues to grow long after the release.
+3. A strong community provides quick and high-quality feedback for your decisions, leading to the release of better DLCs. Good DLCs improve the game. The improved game attracts people to the community. The community provides even better feedback.
 
 /// brigid-images
 src = "./images/dlc-feedback-loop.png"
@@ -156,17 +156,17 @@ caption = "This is how I see it. Money, in fact, is also a form of feedback."
 
 **Secondly**, you get a predictable cash flow:
 
-1. The period between major inflows decreases from 1-2 years to 3-6 months.
-2. The risks associated with errors are reduced. In case of a failed release, studios often close. In case of a failed DLC, you release the next one. The studio lives as long as it can learn from its mistakes.
-3. You sell DLCs not to random people, but to your players. This makes marketing cheaper and income more predictable. You know how many people play your game, what percentage bought the previous DLC, so you can estimate how much money the next one will bring.
+1. The period between money inflows decreases from 1-2 years to 3-6 months.
+2. The risks associated with errors are reduced. In case of a failed major release, studios often close. In case of a failed DLC, you release the next one. The studio lives as long as it can learn from its mistakes.
+3. You sell DLCs not to random people but to your players. This makes marketing cheaper and income more predictable. You know how many people play your game and what percentage bought the previous DLC, so you can estimate how much money the next one will bring.
 
 However, there are downsides:
 
 - It works not with all genres. I think only with strategies and maybe sandboxes.
-- The first release still has to be quite noticeable and high-quality to form the core of your community. Paradox can afford to release mediocre products (judging by the reviews) and then polish them. But this is more of an exception, they are forgiven.
+- The first release must still be quite noticeable and high-quality to form the core of your community. Paradox can afford to release mediocre products (judging by the reviews) and then polish them. But this is more of an exception — they are forgiven.
 - You should know how to make games and how to listen to players. Not everyone can do this, and not everyone wants to.
 
-Since we are making both a strategy and a sandbox, and in a free genre (public opinion simulation), we can risk and aim for the fifth option. In case of problems with organizing pipeline for DLC production or with quality, we can always switch to the fourth option.
+Since we are making both a strategy and a sandbox, and in a free genre (public opinion simulation), we can risk and aim for the fifth option. In case of problems with organizing a pipeline for DLC production or with quality, we can always switch to the fourth option.
 
 ## Early Access
 
