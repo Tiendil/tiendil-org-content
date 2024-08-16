@@ -8,20 +8,20 @@ seo_image = "./images/cover.jpg"
 
 /// brigid-images
 src = "./images/cover.png"
-caption = "Earning millions is easier than ever, I'll tell you how :-D"
+caption = "Earning millions is easier than ever. I'll tell you how :-D"
 ///
 
 When I posted my [final presentation]{post:@choose-nearest-language:world-builders-2023-final-presentation} ([slides](https://drive.google.com/file/d/1BUhTWCW9YysP0ZCUrIoFbmqXDa-Fz946/view?usp=sharing)) for [World Builders 2023 schooll]{tags:world-builders}, I promised to tell how I made a roadmap and a financial model for the game. So, here they are.
 
 At the end of this post, we will have:
 
-- A brief strategy of our company: what we do, how, why, and why.
-- A table with our lighthouses — successful games that are roughly similar to what we want to make. Similar in gameplay, team size, budget, etc.
+- A brief strategy of our company: what we do, how, and why.
+- A table with our beacons — successful games roughly similar to what we want to make. Similar in gameplay, team size, budget, etc.
 - A composition of the team we need to assemble.
 - A roadmap — a development plan for our game.
-- A rudiments of our marketing strategy.
+- An outline of our marketing strategy.
 - A financial model — how much we will spend, how much we will earn.
-- A large number of my caveats throughout the post
+- A large number of my caveats throughout the post.
 - Jokes and ~~I hope~~ witty remarks.
 
 All the final documents can be found [here](https://drive.google.com/drive/folders/11EkcbEicQkSM-08FFh-Bx43gH7SuVfsT?usp=sharing).
@@ -31,18 +31,18 @@ All the final documents can be found [here](https://drive.google.com/drive/folde
 ## Disclaimer
 
 /// attention | Attention!
-Following advices in this post and my logic in a whole is strictly on your conscience and responsibility. Think with your head before copy-pasting.
+Following this post and my logic as a whole is strictly on your conscience and responsibility. Think with your head before copy-pasting.
 ///
 
-In case you lose millions of dollars following this post, and gloomy guys come to you with questions, please do not redirect them to me. Take responsibility with your head held high, even if your legs are already in concrete. Just kidding, do not deal with non-specialized investors, and your health will be fine.
+In case you lose millions of dollars following this post, and gloomy guys come to you with questions, please do not redirect them to me. Take responsibility with your head held high, even if your legs are already set in concrete. Just kidding, do not deal with non-specialized investors, and your health will be fine.
 
 Here is why you should critically look at this tutorial:
 
-- I'm not a professional businessman. I had a business, and I spent more on it than I earned.
+- I'm not a professional businessman. I had a business and spent more on it than I earned.
 - This is the best of two business plans I've ever made. The fact that it is the best does not cancel the fact that it is the second.
-- I have not yet received money for it and even the person who is looking for investors is not me. So I do not know how investors will react to these calculations.
+- I have not yet received money for it, and even the person looking for investors is not me. So, I do not know how investors will react to these calculations.
 - This business plan was prepared as part of my studies, not as part of "I put my soul into opening my company and investing all my time and resources into it."
-- I is possible to make it 100500 times better, but I did not. Pa-ra-pa-pam. Because there was no time, and sometimes I was lazy.
+- It is possible to make it 100500 times better, but I did not. Pa-ra-pa-pam. Because there was no time, and sometimes I was lazy.
 
 ## Iterative development
 
