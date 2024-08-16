@@ -393,8 +393,8 @@ For this, we group the Red table by the triple `stage + epic + track` and sum th
  Release      | development | 150     | 2.25      | 67       | 3.4         |
  Release      | game design | 114     | 2.25      | 51       | 2.6         |
 
-/// attention | Attention!
-You may notice that there are only development and game design tracks in my Blue table. This does not mean that there were only these tracks initially! The table has already been filtered to display only the most significant tracks, after it became clear that there was significantly less work on the other tracks.
+/// attention | My Blue table is already filtered
+You may notice that there are only development and game design tracks in my Blue table. This does not mean that there were only these tracks initially! The table has already been filtered to display only the most significant tracks after it became clear that there was noticeably less work on the other tracks.ks.
 ///
 
 Columns:
@@ -404,9 +404,9 @@ Columns:
 - `Sum` — total amount of work on the track at the stage in days.
 - `Workers` — the number of employees that will be on the track at the stage. The fractional part is the share of my time that I can allocate to help. I will tell how to choose the number of employees for the tracks later.
 - `Workdays` — the number of working days per person.
-- `Work Months` — the number of working months, which will take the track at the stage.
+- `Work Months` — the number of working months that will take the track at the stage.
 
-We convert the working time in (working) month because our estimates are very rough and later no one will need to know "exact" number of days.
+We convert the working time to (working) months because our estimates are very rough, and later, no one will need to know the "exact" number of days.
 
 ### Green table
 
