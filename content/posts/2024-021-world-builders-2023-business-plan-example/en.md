@@ -206,7 +206,7 @@ caption = "A slide from the presentation. The numbers are hidden — we don't ha
 
 ## Roadmap
 
-Now, we need to estimate the amount of work. To do this, we unfold the stages of development into large tasks and estimate the time needed to complete them.
+Now, we need to estimate the amount of work. To do this, we unfold the stages of development into large tasks and estimate the time required to complete them.
 
 The final roadmap can be found [here](https://docs.google.com/spreadsheets/d/11D4wl-dk4eLU4Jj3vVnQQY7TurMW8eC_nHzTexP7wgY/edit?usp=sharing).
 
@@ -218,7 +218,7 @@ The roadmap consists of three tables. For convenience, I highlighted their heade
 
 We fill in the red table.
 
-The blue and green tables are calculated semi-automatically: part of the values we set, part we take from other tables. The blue is calculated based on the red, the green is calculated based on the blue.
+The Blue and Green tables are calculated semi-automatically: we set part of the values, and we take part from other tables. The Blue is calculated based on the Red, and the Green is calculated based on the Blue.
 
 ### Red table
 
@@ -443,7 +443,7 @@ Columns:
 
 In the end, we have 4 development phases, each lasting six months — a perfect plan for how ~~to kill~~ productively spend two years of your life.
 
-By the way, this is not counting DLCs. The development of DLCs is not included in the Roadmap because:
+By the way, this is not counting DLCs. The development of DLCs is not included in the roadmap because:
 
 - The complexity of their development depends heavily on the quality of the game's architecture. Now it is unpredictable, like guessing on a goat's liver.
 - The same applies to their content: no game — we don't know what to add to it.
@@ -860,7 +860,7 @@ Of course, this is an approximate time, because I did not do this work full-time
 
 - **Short strategy of the company** — You develop strategy not at some specific moment, but all the time while working on ideas, concepts, presentations and so on. Later you just write down the information that already sits in your head.
 - **Table of beacon games** — ±2 days. I spent a lot of time trying to understand what to search and how to search. When I figured it out, it went quickly.
-- **Team composition** — less than a day. The basic composition should be well visible from the Roadmap.
+- **Team composition** — less than a day. The basic composition should be well visible from the roadmap.
 - **Roadmap** — ±2 days.
 - **Outlines of marketing strategy** — Here are the same considerations as with the company strategy.
 - **Financial model** — ±3 days, the idea of calculations changed several times. If you take a ready-made model, it will be much faster.
