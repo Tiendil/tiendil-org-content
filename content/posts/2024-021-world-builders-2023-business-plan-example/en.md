@@ -471,40 +471,40 @@ So, in the Blue table, we need to write down the number of employees for each tr
 
 When determining the number of employees, we should remember the following:
 
-- On each stage, on each track, it is reasonable to have so many employees that all tracks are completed in approximately the same time.
-- It is not mandatory to hire all employees at once. Firstly, new projects always start from the narrow front of work, when the presence of additional employees will only delay progress. Secondly, the fewer people you hire the less money you need to ask. Especially if you are going to raise money in rounds.
+- On each stage, on each track, it is reasonable to have so many employees that all tracks are completed at approximately the same time.
+- It is not mandatory to hire all employees at once. Firstly, new projects always start from the narrow front of work, when the presence of additional employees will only delay progress. Secondly, the fewer people you hire, the less money you need to ask. Especially if you are going to raise funds in rounds.
 
-/// note | "Virtual" and real employees
+/// note | "Virtual" vs real employees
 In the table, we operate with "virtual employees," not real ones.
 
-While assembling a team, we will hire real unique people, not interchangeable cogs. Therefore, as we hire, we should adjust the estimates in the Blue table, reflecting the real capabilities of the team. This will cause a recalculation of the terms and financial model.
+While assembling a team, we will hire real, unique people, not interchangeable cogs. Therefore, as we hire, we should adjust the estimates in the Blue table to reflect the team's real capabilities. This will cause a recalculation of the terms and financial model.
 
-Of cause, we can look for a "pure developer", "pure game designer", and so on, but this will not be the best strategy. Especially if you are a new indie developer. It is much more profitable to look for [T-shaped](https://en.wikipedia.org/wiki/T-shaped_skills) employees.
+Of course, we can look for a "pure developer," "pure game designer," and so on, but this will not be the best strategy, especially if you are a new indie developer. Looking for [T-shaped](https://en.wikipedia.org/wiki/T-shaped_skills) employees is much more profitable.
 
 - Firstly, it will be easier to establish communication in the team.
-- Secondly, the team will be more flexible, autonomous, will require less management.
+- Secondly, the team will be more flexible and autonomous and will require less management.
 - Thirdly, since you are a noname team, such people are more likely to come to you. Narrow specialists usually go to large companies, where there is a narrow deep front of work for them.
 ///
 
 I have no team yet, so I operated with "virtual employees" and just added my share of time to the estimates.
 
-If you already have a team (or will have one), it’s wise to add a column in the Blue Table per each team member. This allows you to accurately track how much impact each person will have on each track. This approach also comes in handy if you hire a “star” who works like five people, or an intern who counts as half of an employee
+If you already have a team (or will have one), it’s wise to add a column in the Blue Table per each team member. This allows you to accurately track how much impact each person will have on each track. This approach also comes in handy if you hire a “star” who works like five people or an intern who may count as half of an employee.
 
-/// attention | Sometimes it may be a bad idea
-People are different. Per person effectivnes estimation is a kind of rating. Some people will take it philosophically, others may be deeply offended by it.
+/// attention | Sometimes, it may be a bad idea
+People are different. Per-person effectiveness estimation is a kind of rating. Some people will take it philosophically, while others may be deeply offended by it.
 
-Detailes effort estimation may be a good idea from the perspective of planning and budgeting. But it may be a bad idea from the perspective of team building and team spirit.
+Detailed effort estimation may be a good idea from the planning and budgeting perspective. But it may be a bad idea from the perspective of team building and team spirit.
 
 Take in mind your team specifics, before deciding to use this approach.
 ///
 
-By following these logic, we createed an image of our future team:
+By following these logic, we may create an image of our future team:
 
 - Two developers and two game designers to fill the main tracks.
 - One key specialist for tracks with too many tasks for outsourcing.
-- Hiring in two stages: first for the project kickoff, and then for the steady development phase.
-- Tasks and employee specializations are adjusted according to the requirements of each development stage. For example, in the Alpha version, we don’t need support utilities or QA automation, but they become essential for smooth development and achieving the desired quality later on. Therefore, we hire a second developer by the start of the Beta version.
-- We’ll hire a producer by the Beta stage since I can handle managing five skilled people part-time, but I’ll need help beyond that (I want to continue write code and work on game design). Plus, I don’t have experience managing outsourcing, so it would be great to delegate that responsibility.
+- Hiring is in two stages: first, for the project kickoff, and then, for the steady development phase.
+- Tasks and employee specializations are adjusted according to the requirements of each development stage. For example, we don’t need utilities or QA automation in the Alpha version, but they become essential for smooth development and achieving the desired quality later on. Therefore, we will hire a second developer by the start of the Beta version.
+- We’ll hire a producer by the Beta stage since I can handle managing five skilled people part-time, but I’ll need help beyond that (I want to continue writing code and working on game design). Also, I don’t have experience managing outsourcing, so it would be great to delegate that responsibility.
 
 ## Positioning — beacon games
 
