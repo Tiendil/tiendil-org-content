@@ -789,46 +789,48 @@ Out `CPI` (for the base game) is set approximately as an average between beacon 
 
 ### Marketing costs
 
-Итак, возвращаемя к самой большой области наших расходов. Согласно финальным расчётам нашей модели к релизу на маркетинг уйдёт раза в 2.5 больше, чем на разработку :-D
+So, let's return to the biggest are of our spendings. According to the final calculations of our model, by the release, we will spend `2.5` times more on marketing than on development :-D
 
-/// note | Возможно я недооценил количество маркетологов в команде
-Учитывая размеры бюджетов, их может потребоваться больше. С другой стороны, можно попробовать отдать весь маркетинг на аутсорс и ограничиться лидом маркетинга в нашей команде.
+/// note | I may have underestimated the number of marketers in the team
+Given the size of the budgets, there may be more marketers required. On the other hand, we can try to outsource all marketing and limit ourselves to the lead of marketing in our team.
 ///
 
-`[54] Marketing Wishlists Cost` — Оценка минимальной перманентной ежемесячной активности по «лёгкому» пиару игры, чтобы не пропадать с радаров.
+`[54] Marketing Ongoing Cost` — An estimated cost of minimal permanent monthly activity for "light" PR of the game to stay on the radars.
 
-`[55] Marketing Videos Cost` — Ожидаемая стоимость разработки видео под конкретные события (релизы). Стоимость минуты видео относительно легко можно нагуглить. А можно даже написать конторам, которые этим занимаются, вам дадут прайс-лист.
+`[55] Marketing Videos Cost` — The expected cost of developing videos for concrete events (releases). The cost of a minute of video can be relatively easily googled. Or you can even ask for price lists from companies that do this.
 
-`[56] Marketing New User Cost`— Ожидаемая стоимость привлечения новых пользователей — `CPI`.
+`[56] Marketing New User Cost` — The expected cost of attracting new players — `CPI`.
 
-`[57] Marketing Old User Cost` — Ожидалемая стоимость привлечения старых пользователей к покупке DLC.
+`[57] Marketing Old User Cost` — The expected cost of attracting our players to purchase DLCs.
 
-/// attention | Внимание, большая неопределённость
-Это наш ключевой коэфициент, поскольку мы выбрали монетизироваться через продажу DLC.
+/// attention | Attention, great uncertainty
+This is our key constant, as we have chosen to monetize through the sale of DLCs.
 
-Проблема с ним в том, что в отличии от `CPI` для основной игры, непонятно как оценить `CPI` для DLC. Колебания этого значения сильно влияют на модель.
+The problem with it is that, unlike `CPI` for the base game, it is unclear how to estimate `CPI` for DLC. Fluctuations in this value strongly affect the model.
 
-В нашу таблицу внесена экспертная оценка, после моего общения с преподавателями школы.
+Our model uses an expert estimate, after my conversation with the school teachers.
+
+Also, regading the wishlists conversion, I beliew estimating them for DLCs is even harder, than `CPI`.
 ///
 
-`[58] Marketing Performance on New Users (Game)` — Траты на привлечение новых игроков, в месяц.
+`[58] Marketing Performance on New Users (Game)` — The cost of attracting new players to the game, per month.
 
-/// note | Направление расчёта
-Маркетинг можно считать в двух направлениях:
+/// note | Direction of calculations
+We can calculate marketing in two directions:
 
-1. Мы просим у инвесторов `X$` в месяц на маркетинг, с учётом `CPI` мы будем привлекать `Y` покупателей.
-2. Мы хотим приввлекать `Y` покупателей, поэтому с учётом `CPI` мы будем просить у инвесторов `X$` в месяц на маркетинг.
+1. We ask investors for `X$` per month for marketing, based on `CPI` we will attract `Y` players.
+2. We want to attract `Y` players, so based on `CPI` we will ask investors for `X$` per month for marketing.
 
-Я выбрал второй вариант, но скорее из-за личного удобства, а не потому что он более правильный. Смотрите по своим предпочтениям и тому, что вы хотите получить от итоговой модели, какие рычажки хотите крутить.
+I chose the second option, but rather for personal convenience than because it is more correct. Look at your preferences and what you want to get from the final model, what levers you want to twist.
 
-Рычаг для изменения количества продаж (владельцев игры) выглядит более естественным.
+For me, the lever to change the number of sales (game owners) looks more natural.
 ///
 
-`[59] Marketing Performance on Old Users (DLC)`— Траты на привлечение наших игроков к покупке DLC, в месяц.
+`[59] Marketing Performance on Old Users (DLC)`— The cost of attracting our players to purchase DLCs, per month.
 
-`[60] Marketing Month Cost` — Все траты на маркетинг в месяц.
+`[60] Marketing Month Cost` — The total cost of marketing per month.
 
-`[61] Total Marketing Cost` — Суммарные траты на маркетинг с начала времён по текущий месяц включительно.
+`[61] Total Marketing Cost` — The overall cost of marketing since the beginning of time, including this month.
 
 ### Итоговые суммы
 
