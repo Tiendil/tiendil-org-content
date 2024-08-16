@@ -765,22 +765,19 @@ Let’s take a break from the table and think about how we’re going to calcula
 /// attention | Estimating the effect of marketing activities through the number of wishlists
 It's currently trendy to calculate conversion rates from Steam wishlists to actual purchases. And then apply them somehow to the future games.
 
-I see here a few of significant problems:
+I see here a few significant problems:
 
-1. By operating with wishlists, we complicate our model. We create two uncertain stages: collecting wishlists and converting them into purchases. The behavior of our product, Steam, and players at each of these stages is weakly predictable, a.k.a. random. In my opinion, a model with two "random" parameters will give worse results than a model with a single "random" parameter that we'll use.
-
-2. Steam and gamedev in general are very dynamic environments. Any Steam update can easily shake complex models. For example, they recently improved the support of game demos, as a result, the logic of promoting games has changed, and the `New & Trending` section is now full of demos instead of full games. Accordingly, if you had data on the cost of wishlists in previous years, they may be no longer relevant.
-
+1. By operating with wishlists, we complicate our model. We create two uncertain stages: collecting wishlists and converting them into purchases. The behavior of our product, Steam, and players at each of these stages is weakly predictable, aka random. In my opinion, a model with two "random" parameters will give worse results than a model with a single "random" parameter that we'll use.
+2. Steam and gamedev in general are very dynamic environments. Any Steam update can easily shake complex models. For example, they recently improved the support of game demos, as a result, the logic of promoting games has changed, and the `New & Trending` section is now full of demos instead of complete games. Accordingly, if you had data on the cost of wishlists in previous years, they may be no longer relevant.
 3. I've not found reliable statements about the "cost of adding a game to the wishlist", and the conversion rates from wishlists to purchases can vary by a factor of 1.5-2. Moreover, the estimates will differ for different genres, styles, and sizes of games. There are not so many statistics for strategies, rather not at all, because there are not so many strategies.
-
 4. Based on what I've seen on the internet, all the fuss with wishlists looks like another hype about another silver bullet that will solve everything.
 ///
 
-In our model, we will choose a simpler and more reliable approach — we will estimate the cost of attracting a single player to purchase the game, a.k.a. `CPI` — `Cost Per Install`. Don't confuse it with `Cost Per Impression`, in this post we will only talk about installs.
+In our model, we will choose a simpler and more reliable approach — we will estimate the cost of attracting a single player to purchase the game, `CPI` — `Cost Per Install`. Don't confuse it with `Cost Per Impression`, in this post we will only talk about installs.
 
 `CPI` for Steam is as vague as conversions to wishlists and from them, but:
 
-- It is a single parameter, not two. Less effect of error accumulation, no temptation to adjust the parameters to each other.
+- It is a single parameter, not two. There is less effect of error accumulation and no temptation to adjust the parameters to each other.
 - `CPI` is easier to estimate. It is enough to know the marketing budget and the total number of game sales. We got this information when we were looking for beacon games.
 - `CPI` is a global inertial phenomenon, it is less inclined to change unexpectedly, usually ~~it only increases~~ follows long global trends.
 - An estimate of `CPI` may be more accurate than conversions to/from wishlists, because it is directly and rigidly limited by the market: budgets, people's willingness to engage in advertising, etc. Companies that do bad marketing leave the market. If we use data from successful products, we should get a relatively realistic estimation of `CPI`.
@@ -790,7 +787,7 @@ In our model, we will choose a simpler and more reliable approach — we will es
 - The marketing budget for beacon games is taken as half of their revenue.
 - By dividing the marketing budget by the estimated number of purchases, we get `CPI`.
 
-Out `CPI` (for the base game) is set approximately as an average between beacon games. Additionally, I want to note that we have set lower sales than beacon games have, so our `CPI` may be slightly lower. `CPI` grows as the target audience is covered, as it becomes more difficult to find new players
+Out `CPI` (for the base game) is set approximately as an average between beacon games. Additionally, I want to note that we have set lower sales than beacon games have, so our `CPI` may be slightly lower. `CPI` grows as the target audience is covered, as it becomes more difficult to find new players.
 
 ### Marketing costs
 
