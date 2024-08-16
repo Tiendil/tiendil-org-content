@@ -628,7 +628,7 @@ We select columns for the second sheet based on the presence of values in the `M
 
 `[4] Standard Edition Price $` — The price of the base game at the release. We choose it balancing our greed and the price of beacon games on their release.
 
-`[5] Delux Edition Price $` — The price of the deluxe version of the game. For players who want to spend a little more money on the game. We choose it a bit higher than the base game's price.
+`[5] Deluxe Edition Price $` — The price of the deluxe version of the game. For players who want to spend a little more money on the game. We choose it a bit higher than the base game's price.
 
 `[6] Game Purchases / Month` — The expected number of organic purchases per month. From the echoes of marketing, community building, and other activities.
 
@@ -655,15 +655,15 @@ Also note that your marketing will be tied to specific events. You will pour a l
 
 `[10] Total Game Owners` — How many purchases will be made over time, including this month.
 
-`[11] Delux Edition Purchases %` — The share of purchases of the deluxe version of the game. I estimated it as a modest `5%`.
+`[11] Deluxe Edition Purchases %` — The share of purchases of the deluxe version of the game. I estimated it as a modest `5%`.
 
 `[12] Standard Edition Purchases` — The number of purchases of the base game per month.
 
-`[13] Delux Edition Purchases` — The number of purchases of the deluxe version of the game per month.
+`[13] Deluxe Edition Purchases` — The number of purchases of the deluxe version of the game per month.
 
 `[14] Standard Edition Revenue` — How much players will pay for the base version per month.
 
-`[15] Delux Edition Revenue` — How much players will pay for the deluxe version per month.
+`[15] Deluxe Edition Revenue` — How much players will pay for the deluxe version per month.
 
 `[16] Game Revenue`— How much players will pay for both versions per month.
 
