@@ -722,6 +722,12 @@ The part of the model for which we spent so much time calculating the roadmap an
 
 `[44] Team Size` — The number of people in the team.
 
+/// attention | Costs of hiring
+Depending on the availability of a team, your plans, agreements with investors, and other nuances, it may be a good idea to include the costs of hiring employees in the model. It can be quite expensive.
+
+In my case, there is some uncertainty about how the team will be assembled (there are outsourcing options, for example), and there is an option when I assemble people on my own.
+///
+
 `[45] Average Gross Salary $` — The average salary of a team member.
 
 /// note | Should we specify salaries per position?
