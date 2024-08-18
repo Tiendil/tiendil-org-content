@@ -11,7 +11,7 @@ src = "./images/cover.png"
 caption = "Earning millions is easier than ever. I'll tell you how :-D"
 ///
 
-When I posted my [final presentation]{post:@choose-nearest-language:world-builders-2023-final-presentation} ([slides](https://drive.google.com/file/d/1BUhTWCW9YysP0ZCUrIoFbmqXDa-Fz946/view?usp=sharing)) for [World Builders 2023 schooll]{tags:world-builders}, I promised to tell how I made a roadmap and a financial model for the game. So, here they are.
+When I posted my [final presentation]{post:@choose-nearest-language:world-builders-2023-final-presentation} ([slides](https://drive.google.com/file/d/1BUhTWCW9YysP0ZCUrIoFbmqXDa-Fz946/view?usp=sharing)) for World Builders 2023 ([my posts]{tags:world-builders}, [site](https://madcrusader.com/)), I promised to tell how I made a roadmap and a financial model for the game. So, here they are.
 
 At the end of this post, we will have:
 
