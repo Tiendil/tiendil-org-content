@@ -43,13 +43,13 @@ I enjoy answering well-posed questions.
 
 ## Interests
 
-- Systems engineering;
-- Thinking practices;
-- Game development;
-- Procedural content generation;
-- Artificial intelligence;
-- Code analysis;
-- Cartoons;
+- Systems engineering.
+- Thinking practices.
+- Game development.
+- Procedural content generation.
+- Artificial intelligence.
+- Code analysis.
+- Cartoons.
 - Books.
 
 ## Work
