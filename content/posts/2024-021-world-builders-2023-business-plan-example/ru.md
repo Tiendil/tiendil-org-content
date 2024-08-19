@@ -3,7 +3,7 @@ title = "Считаем бизнес-план для игры в Steam"
 tags = ["practice", "theory", "development", "gamedev", "monetization", "business", "interesting", "best", "world-builders", "tutorial"]
 published_at = "2024-08-15T12:00:00+00:00"
 seo_description = "Пример разработки бизнес-плана для игры в Steam с описанием логики, расчётами и ремарками."
-seo_image = "./images/cover.jpg"
+seo_image = "./images/cover.png"
 ---
 
 /// brigid-images

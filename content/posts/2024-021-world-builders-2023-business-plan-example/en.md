@@ -3,7 +3,7 @@ title = "Preparing a business plan for a game on Steam"
 tags = ["practice", "theory", "development", "gamedev", "monetization", "business", "interesting", "best", "world-builders", "tutorial"]
 published_at = "2024-08-15T12:00:00+00:00"
 seo_description = "An example of developing a business plan for a game on Steam with a description of logic, calculations, and remarks."
-seo_image = "./images/cover.jpg"
+seo_image = "./images/cover.png"
 ---
 
 /// brigid-images
