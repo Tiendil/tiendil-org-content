@@ -84,6 +84,7 @@ games = "games"
 biology = "biology"
 world-design = "world design"
 prompt-engineering = "prompt engineering"
+tutorial = "tutorial"
 
 [theme_translations]
 tags_filter_header = 'Found essays:'
