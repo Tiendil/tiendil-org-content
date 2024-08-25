@@ -38,6 +38,13 @@ author = "Aliaksei Yaletski (Tiendil)"
 
 [[menu]]
   type = "external"
+  css_classes = "ti ti-brand-twitter"
+  name = ""
+  tooltip = "Twitter"
+  url = "https://x.com/tiendil_org"
+
+[[menu]]
+  type = "external"
   css_classes = "ti ti-brand-github"
   name = ""
   tooltip = "GitHub profile"
