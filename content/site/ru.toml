@@ -3,42 +3,46 @@ subtitle = "Эссе о разработке игр, мышлении и кни�
 author = "Елецкий Алексей (Tiendil)"
 
 [[menu]]
-type = "article"
-name = "Обо мне"
-slug = 'about'
+  type = "article"
+  name = "Обо мне"
+  slug = 'about'
 
 [[menu]]
-type = "blog"
-name = "Блог"
+  type = "blog"
+  name = "Блог"
 
 [[menu]]
-type = "article"
-name = "Лучшее"
-slug = "best"
+  type = "article"
+  name = "Лучшее"
+  slug = "best"
 
 [[menu]]
-type = "article"
-name = "Проекты"
-slug = "projects"
+  type = "article"
+  name = "Проекты"
+  slug = "projects"
 
 [[menu]]
-type = "feed"
-name = "RSS"
+  type = "feed"
+  css_classes = "ti ti-rss"
+  name = ""
 
 [[menu]]
-type = "external"
-name = "Telegram"
-url = "https://t.me/tiendil_org_ru"
+  type = "external"
+  css_classes = "ti ti-brand-telegram"
+  name = ""
+  url = "https://t.me/tiendil_org_ru"
 
 [[menu]]
-type = "external"
-name = "Discord"
-url = "https://discord.gg/ZyNy28ZXM6"
+  type = "external"
+  css_classes = "ti ti-brand-discord"
+  name = ""
+  url = "https://discord.gg/ZyNy28ZXM6"
 
 [[menu]]
-type = "external"
-name = "GitHub"
-url = "https://github.com/Tiendil"
+  type = "external"
+  css_classes = "ti ti-brand-github"
+  name = ""
+  url = "https://github.com/Tiendil"
 
 [license]
 url = "http://creativecommons.org/licenses/by-nc-nd/4.0/"

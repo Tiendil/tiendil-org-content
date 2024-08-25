@@ -3,37 +3,41 @@ subtitle = "Essays about game development, thinking and books"
 author = "Aliaksei Yaletski (Tiendil)"
 
 [[menu]]
-type = "article"
-name = "About Me"
-slug = 'about'
+  type = "article"
+  name = "About"
+  slug = 'about'
 
 [[menu]]
-type = "blog"
-name = "Blog"
+  type = "blog"
+  name = "Blog"
 
 [[menu]]
-type = "article"
-name = "Projects"
-slug = "projects"
+  type = "article"
+  name = "Projects"
+  slug = "projects"
 
 [[menu]]
-type = "feed"
-name = "RSS"
+  type = "feed"
+  css_classes = "ti ti-rss"
+  name = ""
 
 [[menu]]
-type = "external"
-name = "Telegram"
-url = "https://t.me/tiendil_org_en"
+  type = "external"
+  css_classes = "ti ti-brand-telegram"
+  name = ""
+  url = "https://t.me/tiendil_org_en"
 
 [[menu]]
-type = "external"
-name = "Discord"
-url = "https://discord.gg/2JNHAV7uMP"
+  type = "external"
+  css_classes = "ti ti-brand-discord"
+  name = ""
+  url = "https://discord.gg/2JNHAV7uMP"
 
 [[menu]]
-type = "external"
-name = "GitHub"
-url = "https://github.com/Tiendil"
+  type = "external"
+  css_classes = "ti ti-brand-github"
+  name = ""
+  url = "https://github.com/Tiendil"
 
 [license]
 url = "http://creativecommons.org/licenses/by-nc-nd/4.0/"
