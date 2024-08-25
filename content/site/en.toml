@@ -20,23 +20,27 @@ author = "Aliaksei Yaletski (Tiendil)"
   type = "feed"
   css_classes = "ti ti-rss"
   name = ""
+  tooltip = "News Feed"
 
 [[menu]]
   type = "external"
   css_classes = "ti ti-brand-telegram"
   name = ""
+  tooltip = "Telegram channel"
   url = "https://t.me/tiendil_org_en"
 
 [[menu]]
   type = "external"
   css_classes = "ti ti-brand-discord"
   name = ""
+  tooltip = "Discord server"
   url = "https://discord.gg/2JNHAV7uMP"
 
 [[menu]]
   type = "external"
   css_classes = "ti ti-brand-github"
   name = ""
+  tooltip = "GitHub profile"
   url = "https://github.com/Tiendil"
 
 [license]

@@ -25,23 +25,27 @@ author = "Елецкий Алексей (Tiendil)"
   type = "feed"
   css_classes = "ti ti-rss"
   name = ""
+  tooltip = "Лента новостей"
 
 [[menu]]
   type = "external"
   css_classes = "ti ti-brand-telegram"
   name = ""
+  tooltip = "Telegram канал"
   url = "https://t.me/tiendil_org_ru"
 
 [[menu]]
   type = "external"
   css_classes = "ti ti-brand-discord"
   name = ""
+  tooltip = "Discord сервер"
   url = "https://discord.gg/ZyNy28ZXM6"
 
 [[menu]]
   type = "external"
   css_classes = "ti ti-brand-github"
   name = ""
+  tooltip = "GitHub профиль"
   url = "https://github.com/Tiendil"
 
 [license]
