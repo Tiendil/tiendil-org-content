@@ -1,6 +1,6 @@
 id = "interesting-about-thinking"
 required_tags = ["thinking", "interesting"]
-excluded_tags = ["books"]
+excluded_tags = ["books", "development"]
 order = "desc"
 
 [css_for_tags]

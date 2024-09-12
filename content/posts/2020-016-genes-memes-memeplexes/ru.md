@@ -1,6 +1,6 @@
 ---
 title = "Гены, мемы и мемплексы"
-tags = [ "thinking", "development", "theory", "evolution", "interesting", "best"]
+tags = [ "thinking", "theory", "evolution", "interesting", "best"]
 published_at = "2020-07-08T12:00:00+00:00"
 seo_description = "Разбор культурных явлений и оперирования информацией через призму биологии и информационных технологий."
 seo_image = "images/genes-memes-memeplexes-cover.jpg"
