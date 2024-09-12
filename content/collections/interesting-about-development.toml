@@ -1,6 +1,6 @@
 id = "interesting-about-development"
 required_tags = ["development", "interesting"]
-excluded_tags = ["concepts", "books", "gamedev", "thinking"]
+excluded_tags = ["concepts", "books", "gamedev"]
 order = "desc"
 
 [css_for_tags]
