@@ -1,34 +1,34 @@
 ---
-title = "Топовые LLM фреймворки могут быть не так надёжны, как вы думаете"
+title = "Top LLM frameworks may not be as reliable as you think"
 tags = ["practice", "development", "open-source", "python", "neural-networks", "backend"]
 published_at = "2024-09-19T12:00:00+00:00"
-seo_description = "Качество кода топовых LLM фреймворков может быть хуже, чем вы ожидаете от ммм... топовых фреймворков."
+seo_description = "The quality of code in top LLM frameworks may be worse than you expect from top frameworks."
 seo_image = ""
 ---
 
-Месяц назад решил добавить поддержку Gemini в [Feeds Fun](https://feeds.fun/) и под это дело изучал топовые LLM фреймворки — писать свой велосипед не хотелось.
+Nearly a month ago, I decided to add Gemini support to [Feeds Fun](https://feeds.fun/) and did some research on top LLM frameworks — I didn't want to write my own bicycle.
 
-В итоге нашёл стыдный баг в интеграции с Gemini в [LLamaIndex](https://github.com/run-llama/llama_index). Судя по коду, он есть и в [Haystack](https://github.com/deepset-ai/haystack-core-integrations) и в плагине для [LangChain](https://github.com/langchain-ai/langchain-google). А корень проблемы вообще в SDK Google для Python.
+As a result, I found a shameful bug (in my opinion, of course) in the integration with Gemini in [LLamaIndex](https://github.com/run-llama/llama_index). Judging by the code, it is also present in [Haystack](https://github.com/deepset-ai/haystack-core-integrations) and in the plugin for [LangChain](https://github.com/langchain-ai/langchain-google). And the root of the problem is in the Google SDK for Python.
 
-При инициализации нового клиента для Gemini код фреймворка перетирает / подменяет API ключи во всех клиентах, созданных до этого. Потому что API ключ, по-умолчанию,  хранится в [синглетоне](https://en.wikipedia.org/wiki/Singleton_pattern).
+When initializing a new client for Gemini, the framework code overwrites / replaces API keys in all clients created before. Because the API key, by default, is stored in a [singleton](https://en.wikipedia.org/wiki/Singleton_pattern).
 
-Смерти подобно, если у вас multi-tenant приложение, и незаметно во всех остальных случаях. Multi-tenant — это когда ваше приложение работает с несколькими пользователями.
+Death-like, if you have a multi-tenant application, and unnoticeable in all other cases. Multi-tenant means that your application works with multiple users.
 
-Например, в моём случае, в Feeds Fun пользователь может ввести свой API ключ, чтобы улучшить качество сервиса. Представьте какой забавный казус мог бы случиться: **пользователь ввёл API ключ для обработки своих рассылок, а потратил токенов (заплатил) за всех пользователей сервиса**.
+For example, in my case, in Feeds Fun, a user can enter their API key to improve the quality of the service. Imagine what a funny situation could happen: **a user entered an API key to process their news, but spent tokens (pay) for all users of the service**.
 
-Репортил только в LLamaIndex как security issue и уже 3 недели ноль реакции, для Haystack и LangChain лень воспроизводить. Так что **это ваш шанс зарепортить багу в топовый репозиторий**, под катом будет вся инфа, воспроизвести не сложно.
+I reported this bug only in LLamaIndex as a security issue, and there has been no reaction for 3 weeks, and I'm too lazy to reproduce and report it in Haystack and LangChain. So **this is your chance to report a bug to a top repository**, all the info will be below, reproducing is not difficult.
 
-Ошибка примечательна многим:
+This error is notable for many reasons:
 
-1. Оценка критичности ошибки очень зависит от вкусовщины, опыта и контекста. Для меня, в проектах в которых я работал, — это критическая ошибка безопасности. Но, похоже, для большинства актуальных проектов, которые используют LLM, это вообще не принципиально. Что навевает некоторые мысли о мейнстрим около-LLM разработках.
-2. Это хороший индикатор низкого уровня контроля качества кода: код ревью, тестов — всех процессов. Всё-таки это интеграция с одним из топовых провайдеров API, найти проблему можно было кучей разных способов, но ни один не сработал.
-3. Это хорошая иллюстрация порочного подхода к разработке: «копипастим из туториала и льём на прод». Чтобы пропустить ошибку нужно было проигнорить одновременно и базовую архитектуру твоего проекта и логику вызова кода, который ты копипастишь.
+1. The assessment of the criticality of the error depends a lot on taste, experience, and context. For me, in the projects I worked on, this is a critical security issue. But it seems that for most current projects that use LLM, this is not critical at all. Which leads to some thoughts about mainstream near-LLM development.
+2. This is a good indicator of a low level of code quality control: code reviews, tests, all processes. After all, this is an integration with one of the major API providers. The problem could have been found in many different ways, but none of them worked.
+3. This is a good illustration of the vicious approach to development: "copy-paste from a tutorial and push to prod". To leave this error unnoticed, you had to ignore both the basic architecture of your project and the logic of calling the code you are copying.
 
-В итоге я забил на эти фреймворки и впилил свой костыль, благо HTTP API для Gemini есть.
+In the end, I gave up on these frameworks and implemented my own client over HTTP API.
 
-Мой вывод из этого безобразия такой: доверять коду, который под капотом у современных LLM фреймворков нельзя. Надо перепроверять, вычитывать. То, что у них написано «production ready», не значит, что они действительно production ready.
+My conclusion from this mess is: you can't trust the code under the hood of modern LLM frameworks. You need to double-check, proofread. Just because they state that they are "production-ready" doesn't mean they are really production-ready.
 
-Далее расскажу подробнее про сам баг.
+Let me tell you more about the bug.
 
 <!-- more -->
 
