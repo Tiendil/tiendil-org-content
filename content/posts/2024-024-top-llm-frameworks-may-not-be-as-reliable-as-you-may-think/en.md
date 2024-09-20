@@ -111,11 +111,11 @@ The logic is the same.
 - If this is done by purpose, throw an exception when trying to create a second client — protect users of your library.
 - If this is done by purpose, write about nuances in bold red text in the documentation — notify users of your library.
 
-## Could the integration be implemented correctly?
+## Could the integration have been implemented correctly?
 
 Yes and no.
 
-[The official Google library](https://github.com/google-gemini/generative-ai-python) does not allow you to pass a client or API key to the place where the server API is called.
+[The official Google library](https://github.com/google-gemini/generative-ai-python) does not allow you to pass an API key (or a client initialized with an API key) to the place where the server API is called.
 
 Because [the developers are not sure how necessary this feature is](https://github.com/google-gemini/generative-ai-python/issues/136) In the discussion, I left a long comment, I hope it will convince the developers when they pay attention to this task next time.
 
@@ -125,10 +125,10 @@ There are some "correct" ways to implement the integration:
 
 1. State "we will not integrate with Gemini" until they resolve the limitations of their client.
 2. Implement your own client using the HTTP API.
-3. Use hacks to push the key where it is needed. Of course, cover them with tests so that the code does not break when the SDK is updated.
+3. Use hacks to push the key where it is needed. Of course, in pair with covering them with tests so that the code does not break when the SDK is updated.
 4. Implement as is, but explicitly declare that the client to the Gemini API is a singleton. For example, throw an exception when a user tries to create a second client.
 
-As we can see, there are options, but time-consuming and more complex.
+As we can see, there are options, but they are time-consuming and more complex.
 
 ## Why does such a bug appear in the code at all?
 
@@ -140,7 +140,7 @@ Making computer games is not the same as programming hardware for warehouses. Wr
 
 There are different requirements, nuances, and restrictions everywhere, even different development dynamics — somewhere the code may be thrown away after a month, somewhere it should work for decades Somewhere there is no such concept as multi-tenant, somewhere it is implied by default.
 
-When changing the work area, even an experienced developer will not be able to produce high-quality code immediately. Even if they notice that the area has changed. And many have not realized this for quite a long time.
+When changing the work area, even an experienced developer will not be able to produce high-quality code immediately. Even if they notice that the area has changed. And many are not realizing this for quite a long time.
 
 So, my hypothesis is that many LLM middleware developers have recently changed their area of activity. From something scientific like data science and training neural networks to something more engineering, like developing long-playing web services or middleware for them.
 
