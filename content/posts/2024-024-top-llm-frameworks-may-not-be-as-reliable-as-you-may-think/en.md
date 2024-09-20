@@ -10,21 +10,21 @@ Nearly a month ago, I decided to add Gemini support to [Feeds Fun](https://feeds
 
 As a result, I found a shameful bug (in my opinion, of course) in the integration with Gemini in [LLamaIndex](https://github.com/run-llama/llama_index). Judging by the code, it is also present in [Haystack](https://github.com/deepset-ai/haystack-core-integrations) and in the plugin for [LangChain](https://github.com/langchain-ai/langchain-google). And the root of the problem is in the Google SDK for Python.
 
-When initializing a new client for Gemini, the framework code overwrites / replaces API keys in all clients created before. Because the API key, by default, is stored in a [singleton](https://en.wikipedia.org/wiki/Singleton_pattern).
+When initializing a new client for Gemini, the framework code overwrites/replaces API keys in all clients created before. Because the API key, by default, is stored in a [singleton](https://en.wikipedia.org/wiki/Singleton_pattern).
 
-Death-like, if you have a multi-tenant application, and unnoticeable in all other cases. Multi-tenant means that your application works with multiple users.
+It is death-like, if you have a multi-tenant application, and unnoticeable in all other cases. Multi-tenant means that your application works with multiple users.
 
-For example, in my case, in Feeds Fun, a user can enter their API key to improve the quality of the service. Imagine what a funny situation could happen: **a user entered an API key to process their news, but spent tokens (pay) for all users of the service**.
+For example, in my case, in Feeds Fun, a user can enter their API key to improve the quality of the service. Imagine what a funny situation could happen: **a user entered an API key to process their news but spent tokens (pay) for all service users**.
 
-I reported this bug only in LLamaIndex as a security issue, and there has been no reaction for 3 weeks, and I'm too lazy to reproduce and report it in Haystack and LangChain. So **this is your chance to report a bug to a top repository**, all the info will be below, reproducing is not difficult.
+I reported this bug only in LLamaIndex as a security issue, and there has been no reaction for 3 weeks. I'm too lazy to reproduce and report for Haystack and LangChain. So **this is your chance to report a bug to a top repository**. All the info will be below, reproducing is not difficult.
 
 This error is notable for many reasons:
 
-1. The assessment of the criticality of the error depends a lot on taste, experience, and context. For me, in the projects I worked on, this is a critical security issue. But it seems that for most current projects that use LLM, this is not critical at all. Which leads to some thoughts about mainstream near-LLM development.
-2. This is a good indicator of a low level of code quality control: code reviews, tests, all processes. After all, this is an integration with one of the major API providers. The problem could have been found in many different ways, but none of them worked.
+1. The assessment of the criticality of the error depends a lot on taste, experience, and context. For me, in the projects I worked on, this is a critical security issue. However, it seems that this is not critical at all for most current projects that use LLMs. Which leads to some thoughts about mainstream near-LLM development.
+2. This is a good indicator of a low level of code quality control: code reviews, tests, all processes. After all, this is an integration with one of the major API providers. The problem could have been found in many different ways, but none worked.
 3. This is a good illustration of the vicious approach to development: "copy-paste from a tutorial and push to prod". To leave this error unnoticed, you had to ignore both the basic architecture of your project and the logic of calling the code you are copying.
 
-In the end, I gave up on these frameworks and implemented my own client over HTTP API.
+Ultimately, I gave up on these frameworks and implemented my own client over HTTP API.
 
 My conclusion from this mess is: you can't trust the code under the hood of modern LLM frameworks. You need to double-check, proofread. Just because they state that they are "production-ready" doesn't mean they are really production-ready.
 
@@ -51,7 +51,7 @@ print(resp)
 llm_2 = Gemini(model="models/gemini-1.5-flash", api_key="another key, wrong by purpose")
 
 # Let's run llm_1 again
-# We'll see an error instead of correct answer, because the key was redifined
+# We'll see an error instead of a correct answer because the key was redefined
 resp = llm_1.complete("Write a poem about a magic backpack")
 
 # google.api_core.exceptions.InvalidArgument: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
@@ -65,7 +65,7 @@ resp = llm_1.complete("Write a poem about a magic backpack")
 
 ## The root of the problem
 
-The author(s) copied the tutorial code on using the Gemini python SDK without adapting it to the specifics of their project.
+The author(s) copied the tutorial code on using the Gemini Python SDK without adapting it to the specifics of their project.
 
 Here is the corresponding [code snippet from LlamaIndex](https://github.com/run-llama/llama_index/blob/6552a926bdf430e86266059091e28495dbd92a43/llama-index-integrations/llms/llama-index-llms-gemini/llama_index/llms/gemini/base.py#L120-L135)
 
@@ -91,7 +91,7 @@ By words:
 - We import the Google client lib.
 - **We call the global initialization method** of the client — set the default API key for all API calls.
 
-I want to emphasize that `genai.configure(...)` by the logic of the call (we call an singleton entity from the base module of the library) cannot have any other logic than overwriting global settings.
+I want to emphasize that `genai.configure(...)`, by the logic of the call (we call a singleton entity from the base module of the library), cannot have any logic other than overwriting global settings.
 
 Here is the code with potential bugs in other projects:
 
@@ -100,7 +100,7 @@ Here is the code with potential bugs in other projects:
 
 The logic is the same.
 
-## How developers can protect themselves from such bugs?
+## How can developers protect themselves from such bugs?
 
 - Read the documentation before copy-pasting.
 - Read the copied code before pasting.
@@ -119,13 +119,13 @@ Yes and no.
 
 Because [the developers are not sure how necessary this feature is](https://github.com/google-gemini/generative-ai-python/issues/136) In the discussion, I left a long comment, I hope it will convince the developers when they pay attention to this task next time.
 
-Library's user can pass an API key by using some bad code practices (through private interfaces of objects). But it is impossible to do this through the public API.
+The library's user can pass an API key by using some bad code practices (through private interfaces of objects), but it is impossible to do this through the public API.
 
 There are some "correct" ways to implement the integration:
 
 1. State "we will not integrate with Gemini" until they resolve the limitations of their client.
-2. Implement an own client using the HTTP API.
-3. Use hacks to push the key where it is needed. Cover them with tests, of course, so that the code does not break when the SDK is updated.
+2. Implement your own client using the HTTP API.
+3. Use hacks to push the key where it is needed. Of course, cover them with tests so that the code does not break when the SDK is updated.
 4. Implement as is, but explicitly declare that the client to the Gemini API is a singleton. For example, throw an exception when a user tries to create a second client.
 
 As we can see, there are options, but time-consuming and more complex.
@@ -134,21 +134,21 @@ As we can see, there are options, but time-consuming and more complex.
 
 I have a hypothesis.
 
-From the outside, it may seem that a programmer's work is the same everywhere: a person sits and types something on the keyboard. But in reality, it differs greatly from area to area.
+From the outside, a programmer's work may seem the same everywhere: a person sits and types something on the keyboard. But in reality, it differs greatly from area to area.
 
-Making computer games is not the same as programming hardware for warehouses. Writing backend for modern web is not the same as making corporate software or the frontend for the web.
+Making computer games is not the same as programming hardware for warehouses. Writing a backend for a modern web is not the same as making corporate software or the frontend for the web.
 
-There are different requirements, nuances, and restrictions everywhere, even different development dynamics — somewhere the code may be thrown away after a month, somewhere it should work for decades. Somewhere there is no such concept as multi-tenant, somewhere it is implied by default.
+There are different requirements, nuances, and restrictions everywhere, even different development dynamics — somewhere the code may be thrown away after a month, somewhere it should work for decades Somewhere there is no such concept as multi-tenant, somewhere it is implied by default.
 
-Changing the work area, even an experienced developer will not be able to immediately produce high-quality code. Even if they notice that the area has changed. And many do not realize this for quite a long time.
+When changing the work area, even an experienced developer will not be able to produce high-quality code immediately. Even if they notice that the area has changed. And many have not realized this for quite a long time.
 
 So, my hypothesis is that many LLM middleware developers have recently changed their area of activity. From something scientific like data science and training neural networks to something more engineering, like developing long-playing web services or middleware for them.
 
-As a result, not all of them understand the dynamics and problems of the area in which they suddenly found themselves.
+As a result, not all of them understand the dynamics and problems of the area where they suddenly found themselves.
 
-Exaggerating: when your resulting artifact is a Jupyter notebook, you don't think about how many API keys or client instances will be in your code, how many connections to third-party services you use, and so on. But when you develop a library for the backend, you should keep all this in mind and, importantly, not make assumptions of how potential users will use your artifact.
+Exaggerating: when your resulting artifact is a Jupyter notebook, you don't think about how many API keys or client instances will be in your code, how many connections to third-party services you use, and so on. But when you develop a library for the backend, you should keep all this in mind and, importantly, not make assumptions about how potential users will use your artifact.
 
 On the example of the described bug, I see two confirmations of this hypothesis:
 
 - Potentially similar problems in different top frameworks.
-- Potentially similar problems in different top client libs. A couple of years ago, there was a similar problem with API keys in the OpenAI client library, but it is fixed already.
+- Potentially similar problems in different top client libs. A couple of years ago, there was a similar problem with API keys in the OpenAI client library, but it has already been fixed.
