@@ -32,11 +32,11 @@ Let me tell you more about the bug.
 
 <!-- more -->
 
-## Воспроизводим ошибку в LlamaIndex
+## Reproducing the error in LlamaIndex
 
-- Создаём первый клиент с ключом `A`.
-- Создаём второй клиент с ключом `B`.
-- Пробуем использовать первый клиент, видим, что используется ключ `B`, а не ключ `A`.
+- Create the first client with the key `A`.
+- Create the second client with the key `B`.
+- Use the first client, see that the key `B` is used instead of the key `A`.
 
 ```
 from llama_index.llms.gemini import Gemini
@@ -63,11 +63,11 @@ resp = llm_1.complete("Write a poem about a magic backpack")
 # ]
 ```
 
-## Корень проблемы
+## The root of the problem
 
-Автор(ы) скопировал(и) код туториала по использованию Gemini python SDK.
+The author(s) copied the tutorial code on using the Gemini python SDK without adapting it to the specifics of their project.
 
-Вот соответствующий [кусок кода из LlamaIndex](https://github.com/run-llama/llama_index/blob/6552a926bdf430e86266059091e28495dbd92a43/llama-index-integrations/llms/llama-index-llms-gemini/llama_index/llms/gemini/base.py#L120-L135)
+Here is the corresponding [code snippet from LlamaIndex](https://github.com/run-llama/llama_index/blob/6552a926bdf430e86266059091e28495dbd92a43/llama-index-integrations/llms/llama-index-llms-gemini/llama_index/llms/gemini/base.py#L120-L135)
 
 ```
 
@@ -85,31 +85,31 @@ class Gemini(CustomLLM):
         genai.configure(**config_params)
 ```
 
-Словами:
+By words:
 
-- В **конструкторе экземпляра условного клиента**.
-- Импортируем библиотеку от Google.
-- **Вызываем метод глобальной инициализации** клиентского SDK — устанавлием значение API ключа по-умолчанию.
+- In **the constructor of the (kind of) client instance**.
+- We import the Google client lib.
+- **We call the global initialization method** of the client — set the default API key for all API calls.
 
-Отдельно обращу внимание, что `genai.configure(...)` по самой логике вызова (вызываем функцию из базового модуля библиотеки) не может иметь никакой другой логики, кроме перетирания глобальных настроек.
+I want to emphasize that `genai.configure(...)` by the logic of the call (we call an singleton entity from the base module of the library) cannot have any other logic than overwriting global settings.
 
-Чтобы вы долго не искали, вот аналогичные куски кода в других проектах:
+Here is the code with potential bugs in other projects:
 
 - [Haystack](https://github.com/deepset-ai/haystack-core-integrations/blob/main/integrations/google_ai/src/haystack_integrations/components/generators/google_ai/gemini.py#L93)
 - [Lang Chain](https://github.com/langchain-ai/langchain-google/blob/6dfdf9b57aa1f99d9c598a97e5729adb278883cf/libs/genai/langchain_google_genai/llms.py#L224)
 
-Логика одна и та же.
+The logic is the same.
 
-## Как можно защититься от такого косяка?
+## How developers can protect themselves from such bugs?
 
-- Читать документацию, прежде чем копипастить.
-- Читать чужой код, прежде чем копипастить.
-- Разбирать архитектуру своего проекта, прежде чем в него копипастить.
-- Визуализировать итоговую логику кода в голове, прежде чем… ну вы поняли.
-- Писать тесты, проверяющие инициализацию клиентов. Косяки с кредами — это классика ошибок безопасности.
-- Senior разработчик должен ловить такое на код ревью на подсознательном уровне.
-- Если это сделано осознанно, вызывать исключение при попытке создания второго клиента.
-- Если это сделано осознанно, писать о нюансах жирным красным текстом в документации.
+- Read the documentation before copy-pasting.
+- Read the copied code before pasting.
+- Understand the architecture of your project before copy-pasting.
+- Visualize the final logic of the code in your head before... you got it.
+- Write tests that check the initialization of clients. Credential bugs are a classic security issue.
+- Senior developers should catch such things subconsciously during code review.
+- If this is done by purpose, throw an exception when trying to create a second client — protect users of your library.
+- If this is done by purpose, write about nuances in bold red text in the documentation — notify users of your library.
 
 ## Можно ли было избежать ошибки?
 
