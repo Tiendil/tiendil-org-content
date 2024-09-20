@@ -111,45 +111,44 @@ The logic is the same.
 - If this is done by purpose, throw an exception when trying to create a second client — protect users of your library.
 - If this is done by purpose, write about nuances in bold red text in the documentation — notify users of your library.
 
-## Можно ли было избежать ошибки?
+## Could the integration be implemented correctly?
 
-И да и нет.
+Yes and no.
 
-[Официальная библиотека гугла](https://github.com/google-gemini/generative-ai-python) не даёт возможности прокинуть клиент или API ключ до места обращения к серверному API.
+[The official Google library](https://github.com/google-gemini/generative-ai-python) does not allow you to pass a client or API key to the place where the server API is called.
 
-Потому что [разработчики не уверены на сколько это нужная фича](https://github.com/google-gemini/generative-ai-python/issues/136) В обсуждении я оставил большой комментарий, надеюсь он убедит разработчиков, когда они следующий раз обратят внимание на эту задачу.
+Because [the developers are not sure how necessary this feature is](https://github.com/google-gemini/generative-ai-python/issues/136) In the discussion, I left a long comment, I hope it will convince the developers when they pay attention to this task next time.
 
-Прокинуть ключ можно с помощью некоторых плохих практик через приватные интерфейсы объектов. А вот публичным API сделать это не получится.
+Library's user can pass an API key by using some bad code practices (through private interfaces of objects). But it is impossible to do this through the public API.
 
-Сделать «правильно» можно было многими способами:
+There are some "correct" ways to implement the integration:
 
-1. Сказать «мы не будем делать интеграцию с Gemini», пока они не решат ограничения своего оклиента.
-2. Реализовать собственный клиент, используя HTTP API.
-3. Использовать хаки, чтобы таки проталкивать ключ, куда надо. Обложить тестами, конечно, чтобы код не сломался при обновлении SDK.
-4. Реализовать как есть, но явно дикларировать что клиент к Gemini API — singleton. Например, вызывать исключение при попытке создания второго клиента.
+1. State "we will not integrate with Gemini" until they resolve the limitations of their client.
+2. Implement an own client using the HTTP API.
+3. Use hacks to push the key where it is needed. Cover them with tests, of course, so that the code does not break when the SDK is updated.
+4. Implement as is, but explicitly declare that the client to the Gemini API is a singleton. For example, throw an exception when a user tries to create a second client.
 
-Как видим, варианты есть, но более затратные по времени и более сложные.
+As we can see, there are options, but time-consuming and more complex.
 
-## Почему такие ошибки проникают в код
+## Why does such a bug appear in the code at all?
 
-У меня есть гипотеза.
+I have a hypothesis.
 
-Со стороны может показаться, что работа программиста везде одинакова: человек сидит и что-то вбивает на клавиатуре. Но на самом деле она сильно отличается от области к области.
+From the outside, it may seem that a programmer's work is the same everywhere: a person sits and types something on the keyboard. But in reality, it differs greatly from area to area.
 
-Делать компьютерные игры — не то же самое, что программировать железо для складков. Писать бэкенд для современного веба — не то же самое, что делать
-корпоративный софт или, тот же фронтенд для веба.
+Making computer games is not the same as programming hardware for warehouses. Writing backend for modern web is not the same as making corporate software or the frontend for the web.
 
-Везде разные требования, разные нюансы и ограничения, даже разная динамика разработки — где-то код принято выкидывать через месяц, а где-то он должен работать десятки лет. Где-то в принципе нет такого явления multi-tenant, где-то оно подразумевается по-умолчанию.
+There are different requirements, nuances, and restrictions everywhere, even different development dynamics — somewhere the code may be thrown away after a month, somewhere it should work for decades. Somewhere there is no such concept as multi-tenant, somewhere it is implied by default.
 
-Меняя область деятельности, даже опытный разработчик не сможет сходу выдавать высококачественный код. Даже если заметит, что область поменялась. А многие не осознают этого довольно долго.
+Changing the work area, even an experienced developer will not be able to immediately produce high-quality code. Even if they notice that the area has changed. And many do not realize this for quite a long time.
 
-Так вот, моя гипотеза состоит в том, что многие разработчики LLM middleware сменили область деятельности. С чего-то научного вроде data science и тренировки нейронок на что-то более инженерное, вроде разработки долгоиграющих сервисов под веб.
+So, my hypothesis is that many LLM middleware developers have recently changed their area of activity. From something scientific like data science and training neural networks to something more engineering, like developing long-playing web services or middleware for them.
 
-Как следствие, ещё не все из них понимают динамику и проблемы области, в которой неожиданно оказались.
+As a result, not all of them understand the dynamics and problems of the area in which they suddenly found themselves.
 
-Утрируя: когда основой твой результирующий артефакт — это Jypyter notebook, ты не задумываешься о том, сколько ключей API или экземпляров клиента будет в твоём коде, сколько соединений к сторонним сервисам ты используешь и так далее. Но когда ты разрабатываешь библиотеку для бэка, то уже должен держать всё это в голове и, что важно, не додумывать за возможных пользователей твоего артефакта.
+Exaggerating: when your resulting artifact is a Jupyter notebook, you don't think about how many API keys or client instances will be in your code, how many connections to third-party services you use, and so on. But when you develop a library for the backend, you should keep all this in mind and, importantly, not make assumptions of how potential users will use your artifact.
 
-На примере описанного бага, я вижу два подтверждения этой гипотезы:
+On the example of the described bug, I see two confirmations of this hypothesis:
 
-- Потенциально однотипные проблемы в разных топовых фреймворках.
-- Потенциально однотипные проблемы в разных топовых SDK. Пару лет назад была схожая проблема API ключей в OpenAI SDK, но всё исправили намного быстрее.
+- Potentially similar problems in different top frameworks.
+- Potentially similar problems in different top client libs. A couple of years ago, there was a similar problem with API keys in the OpenAI client library, but it is fixed already.
