@@ -8,13 +8,13 @@ seo_image = ""
 
 Nearly a month ago, I decided to add Gemini support to [Feeds Fun](https://feeds.fun/) and did some research on top LLM frameworks — I didn't want to write my own bicycle.
 
-As a result, I found a shameful bug (in my opinion, of course) in the integration with Gemini in [LLamaIndex](https://github.com/run-llama/llama_index). Judging by the code, it is also present in [Haystack](https://github.com/deepset-ai/haystack-core-integrations) and in the plugin for [LangChain](https://github.com/langchain-ai/langchain-google). And the root of the problem is in the Google SDK for Python.
+As a result, I found an embarrassing bug (in my opinion, of course) in the integration with Gemini in [LLamaIndex](https://github.com/run-llama/llama_index). Judging by the code, it is also present in [Haystack](https://github.com/deepset-ai/haystack-core-integrations) and in the plugin for [LangChain](https://github.com/langchain-ai/langchain-google). And the root of the problem is in the Google SDK for Python.
 
 When initializing a new client for Gemini, the framework code overwrites/replaces API keys in all clients created before. Because the API key, by default, is stored in a [singleton](https://en.wikipedia.org/wiki/Singleton_pattern).
 
 It is death-like, if you have a multi-tenant application, and unnoticeable in all other cases. Multi-tenant means that your application works with multiple users.
 
-For example, in my case, in Feeds Fun, a user can enter their API key to improve the quality of the service. Imagine what a funny situation could happen: **a user entered an API key to process their news but spent tokens (pay) for all service users**.
+For example, in my case, in Feeds Fun, a user can enter their API key to improve the quality of the service. Imagine what a funny situation could happen: **a user entered an API key to process their news but spent tokens (paid for) for all service users**.
 
 I reported this bug only in LLamaIndex as a security issue, and there has been no reaction for 3 weeks. I'm too lazy to reproduce and report for Haystack and LangChain. So **this is your chance to report a bug to a top repository**. All the info will be below, reproducing is not difficult.
 
@@ -22,11 +22,11 @@ This error is notable for many reasons:
 
 1. The assessment of the criticality of the error depends a lot on taste, experience, and context. For me, in the projects I worked on, this is a critical security issue. However, it seems that this is not critical at all for most current projects that use LLMs. Which leads to some thoughts about mainstream near-LLM development.
 2. This is a good indicator of a low level of code quality control: code reviews, tests, all processes. After all, this is an integration with one of the major API providers. The problem could have been found in many different ways, but none worked.
-3. This is a good illustration of the vicious approach to development: "copy-paste from a tutorial and push to prod". To leave this error unnoticed, you had to ignore both the basic architecture of your project and the logic of calling the code you are copying.
+3. This is a good illustration of the vicious approach to development: "copy-paste from a tutorial and push to prod". To make such a mistake, you had to ignore both the basic architecture of your project and the logic of calling the code you are copying.
 
 Ultimately, I gave up on these frameworks and implemented my own client over HTTP API.
 
-My conclusion from this mess is: you can't trust the code under the hood of modern LLM frameworks. You need to double-check, proofread. Just because they state that they are "production-ready" doesn't mean they are really production-ready.
+My conclusion from this mess is: you can't trust the code under the hood of modern LLM frameworks. You need to double-check and proofread it. Just because they state that they are "production-ready" doesn't mean they are really production-ready.
 
 Let me tell you more about the bug.
 
