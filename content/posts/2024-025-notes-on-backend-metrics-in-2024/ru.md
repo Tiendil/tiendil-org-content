@@ -8,7 +8,7 @@ seo_image = "./feeds-fun-metrics-schema.png"
 
 /// brigid-images
 src = "./feeds-fun-metrics-schema.png"
-alt = "Примерно так сейчас выглядит сборка метрки в Feeds Fun. Loki (или что-нибудь похожее) пока не развёрнут, но ожидается в будущем."
+caption = "Примерно так сейчас выглядит сборка метрки в Feeds Fun. Loki (или что-нибудь похожее) пока не развёрнут, но ожидается в будущем."
 ///
 
 Раз в 2-3 года у меня начинается какой-нибудь новый проект и мне приходится заново разбираться с метриками — как на этот раз их собирать и рисовать. Не то чтобы это единственное, с чем приходится разбираться заново, обычно меняется много всего, но подход к метрикам меняется гарантировано.
@@ -38,7 +38,7 @@ alt = "Примерно так сейчас выглядит сборка мет
 
 Метрики — это буквально глаза разработчика. Без них невозможно видеть как актуальную техническую ситуацию на проекте так и её долгосрочные тренды.
 
-Если брать классический цикл из системной инженерии (и других [мемплексов]{genes-memes-memeplexes}): сбор данных, анализ, синтез (принятие решения), реализация решения, то метрики — это первый шаг цикла (и часть второго). Без них невозможно замкнуть обратную связь для эффективного управления проектом.
+Если брать классический цикл из системной инженерии (и других [мемплексов]{post:genes-memes-memeplexes}): сбор данных, анализ, синтез (принятие решения), реализация решения, то метрики — это первый шаг цикла (и часть второго). Без них невозможно замкнуть обратную связь для эффективного управления проектом.
 
 Говоря про уровни планирования, метрики помогают:
 
@@ -141,15 +141,21 @@ LabelValue = int | str | None
 
 class MeasuringBoundLoggerMixin:
 
-    def measure(self, event: str, value: float | int, **labels: LabelValue) -> Any:
+    def measure(self,
+                event: str,
+                value: float | int,
+                **labels: LabelValue) -> Any:
+
         if not labels:
-            return self.info(event, m_kind="measure", m_value=value)  # type: ignore
+            return self.info(event, m_kind="measure", m_value=value)
 
         with bound_measure_labels(**labels):
-            return self.info(event, m_kind="measure", m_value=value)  # type: ignore
+            return self.info(event, m_kind="measure", m_value=value)
 
     @contextlib.contextmanager
-    def measure_block_time(self, event: str, **labels: LabelValue) -> Iterator[dict[str, LabelValue]]:
+    def measure_block_time(self,
+                           event: str,
+                           **labels: LabelValue) -> Iterator[dict[str, LabelValue]]:
         started_at = time.monotonic()
 
         extra_labels: dict[str, LabelValue] = {}
@@ -158,7 +164,9 @@ class MeasuringBoundLoggerMixin:
             try:
                 yield extra_labels
             finally:
-                self.measure(event, time.monotonic() - started_at, **extra_labels)
+                self.measure(event,
+                             time.monotonic() - started_at,
+                             **extra_labels)
 
 
 @contextlib.contextmanager
@@ -184,13 +192,13 @@ def bound_measure_labels(**labels: LabelValue) -> Iterator[None]:
         yield
 ```
 
-## Обработка метрк на бэкенде Feeds Fun
+## Обработка метрик на бэкенде Feeds Fun
 
 Что происходит с метриками после их записи в лог вы могли видеть на заглавной картинке. На всякий случай продублирую её тут.
 
 /// brigid-images
 src = "./feeds-fun-metrics-schema.png"
-alt = "Примерно так сейчас выглядит сборка метрки в Feeds Fun. Loki (или что-нибудь похожее) пока не развёрнут, но ожидается в будущем."
+caption = "Примерно так сейчас выглядит сборка метрки в Feeds Fun. Loki (или что-нибудь похожее) пока не развёрнут, но ожидается в будущем."
 ///
 
 Итак:
