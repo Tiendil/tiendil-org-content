@@ -114,15 +114,15 @@ Fifth, an application cannot act on metrics, so it should not try to process the
 
 This is why I don't like Prometheus's approach to collecting pre-aggregated metrics — I just don't understand how to live with it.
 
-## Приложение должно только пушить (push) метрики
+## An application should only push metrics
 
-Не пытаться их хранить, чтобы потом кто-то их собрал.
+An application should not store metrics in belief that someone will collect them later.
 
-Во-первых, могут и не собрать по огромному количеству причин. Например, из-за того, что приложение упало за секунду до того, как до него добрался Prometheus.
+Firstly, "someone" may not collect them for a huge number of reasons. For example, because the application crashed a second before, let's say, Prometheus reached it.
 
-Во-вторых, до всего ваш коллектор всё равно не доберётся, как бы вы не старались. Всегда есть автономные скрипты, которые тоже нужно мерить. Иногда могут возникнуть и проблемы с границами систем, периметрами безопасности. Поэтому всё равно придётся делать push логику для частных случаев, а значит делать работу дважды, усложнять инфраструктуру.
+Secondly, your collector will never reach everything, no matter how hard you try. There are always autonomous scripts that also need to be measured. Sometimes there may be issues with system boundaries, security perimeters. So you will still have to implement push logic for special cases, which means doing the work twice, complicating the infrastructure.
 
-Это ещё одна причина, почему мне не нравится pull подход Prometheus к сбору метрик.
+That's another reason why I don't like Prometheus's pull approach.
 
 ## Метрики и логи — одно целое
 
