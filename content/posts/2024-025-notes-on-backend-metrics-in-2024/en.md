@@ -13,7 +13,7 @@ caption = "How metrics are collected in Feeds Fun. Loki is added to demonstrate 
 
 Once in 2-3 years I start a new project and have to relearn agaon how metrics should be collected and visualized this time. Not that it is the only technology thing that changes over time, but it is guaranteed to change.
 
-I [sent metrics via UDP](post:@choose-nearest-language:collect-metrics-in-linux) to [Graphite](https://graphiteapp.org/) (in 2024, a post from 2015 looks funny), used SaaS solutions like [Datadog](https://www.datadoghq.com/) and [New Relic](https://newrelic.com/), aggregated metrics in the application for [Prometheus](https://prometheus.io/), wrote metrics as logs for [AWS CloudWatch](https://aws.amazon.com/cloudwatch/).
+I [sent metrics via UDP]{post:@choose-nearest-language:collect-metrics-in-linux} to [Graphite](https://graphiteapp.org/) (in 2024, a post from 2015 looks funny), used SaaS solutions like [Datadog](https://www.datadoghq.com/) and [New Relic](https://newrelic.com/), aggregated metrics in the application for [Prometheus](https://prometheus.io/), wrote metrics as logs for [AWS CloudWatch](https://aws.amazon.com/cloudwatch/).
 
 And there were always nuances:
 
@@ -34,7 +34,7 @@ In this essay, I will share some of my thoughts on the metrics in whole and the 
 
 Metrics are literally the eyes of a developer. Without them, it is impossible to see both the current technical situation on the project and its long-term trends.
 
-If we take the classic loop from systems engineering (and other [memeplexes](post:@choose-nearest-language:genes-memes-memeplexes)):
+If we take the classic loop from systems engineering (and other [memeplexes]{post:@choose-nearest-language:genes-memes-memeplexes}):
 
 1. data collection;
 2. data analysis;
@@ -61,7 +61,7 @@ Metrics are needed not only to look at them during incidents or long-term planni
 
 Metrics show us the dynamics of the project, its internal life.
 
-The habit of periodically looking at metrics with your own eyes initiates a feedback loop for [refining your mental model](post:@choose-nearest-language:life-and-work-with-models) of the project. An accurate mental model is the key to your effective work, the speed and the quality of decisions you make.
+The habit of periodically looking at metrics with your own eyes initiates a feedback loop for [refining your mental model]{post:@choose-nearest-language:life-and-work-with-models} of the project. An accurate mental model is the key to your effective work, the speed and the quality of decisions you make.
 
 ## You don't know what metrics you will need
 
@@ -69,7 +69,7 @@ There are basic metrics that everyone or almost everyone needs. For example, [pe
 
 However, basic metrics, as expected, only allow you to react to basic/common issues. This is already a lot, but each project is unique, as is its development path. Therefore, in addition to common issues, you will definitely have ones unique to your specific situation.
 
-For example, at my last job, we implemented [distributed transactions](https://en.wikipedia.org/wiki/Distributed_transaction) for processing payments using [Orchestration-based saga](https://microservices.io/patterns/data/saga.html) in the form of [FSM](https://en.wikipedia.org/wiki/Finite-state_machine). At some point, we needed to see the dynamics of the FSM distribution by their states, which showed itself very helpful.
+For example, at my last job, we implemented [distributed transactions](https://en.wikipedia.org/wiki/Distributed_transaction) for processing payments using [orchestration-based saga](https://microservices.io/patterns/data/saga.html) in the form of [FSM](https://en.wikipedia.org/wiki/Finite-state_machine). At some point, we needed to see the dynamics of the FSM distribution by their states, which showed itself very helpful.
 
 Unfortunately, in most cases, newly added metrics will not have a history. And the history of changes is what makes metrics really useful. If you encounter an issue and see it in the metrics, you will want to know not only their current values, but also their dynamics: the direction of changes, cyclicity, seasonality, and so on.
 
