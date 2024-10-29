@@ -1,5 +1,5 @@
 ---
-title = "Notes on Backend Metrics in 2024"
+title = "Notes on backend metrics in 2024"
 tags = ["practice", "development", "backend", "feeds-fun"]
 published_at = "2024-10-28T12:00:00+00:00"
 seo_description = "Some notes on collecting metrics on the backend in 2024."
@@ -11,22 +11,22 @@ src = "./feeds-fun-metrics-schema.png"
 caption = "How metrics are collected in Feeds Fun. Loki is added to demonstrate the possible next step in infrastructure development."
 ///
 
-Раз в 2-3 года у меня начинается новый проект и приходится «заново» разбираться с метриками — как их собирать и рисовать на этот раз. Не то чтобы это единственное, с чем приходится разбираться, — обычно меняется много всего, но подход к метрикам меняется гарантировано.
+Once in 2-3 years I start a new project and have to relearn agaon how metrics should be collected and visualized this time. Not that it is the only technology thing that changes over time, but it is guaranteed to change.
 
-Я [слал метрики по UDP]{post:collect-metrics-in-linux} в [Graphite](https://graphiteapp.org/) (в 2024, пост из 2015 выглядит забавно), использовал SaaS-решения вроде [Datadog](https://www.datadoghq.com/) и [New Relic](https://newrelic.com/), аггрегировал метрики в приложении, чтобы их забирал [Prometheus](https://prometheus.io/), писал метрики в логи для [AWS CloudWatch](https://aws.amazon.com/cloudwatch/).
+I [sent metrics via UDP](post:@choose-nearest-language:collect-metrics-in-linux) to [Graphite](https://graphiteapp.org/) (in 2024, a post from 2015 looks funny), used SaaS solutions like [Datadog](https://www.datadoghq.com/) and [New Relic](https://newrelic.com/), aggregated metrics in the application for [Prometheus](https://prometheus.io/), wrote metrics as logs for [AWS CloudWatch](https://aws.amazon.com/cloudwatch/).
 
-И всегда всплывали нюансы:
+And there were always nuances:
 
-- Особенности технологий проекта и его архитектуры накладывают внезапные ограничения.
-- Технические требования к полноте, корректности и точности метрик сталкиваются с бизнес ограничениями на стоимость поддержки инфраструктуры.
-- Всплывают специализированные базы данных для хранения [time series](https://ru.wikipedia.org/wiki/Временной_ряд), с которыми разработчики бэка редко имеют дело напрямую.
-- Не говоря уже об идеологии и личных предпочтениях разработчиков.
+- The features of the project's technologies and architecture impose sudden restrictions.
+- Technical requirements for the completeness, correctness, and accuracy of metrics collide with business constraints on the cost of maintaining infrastructure.
+- Specialized databases for storing [time series](https://en.wikipedia.org/wiki/Time_series) emerge, with which backend developers rarely deal directly.
+- Not to mention the ideology and personal preferences of colleagues.
 
-Поэтому нет одного идеального способа собирать метрики. Более того, разнообразие подходов вкупе с быстрой эволюцией всей области привело к появлению огромного количества open-source кирпичей, из которых можно собрать любого франкенштейна.
+Therefore, there is no single ideal way to collect metrics. Moreover, the variety of approaches, together with the rapid evolution of the entire field, have produced a huge number of open-source bricks that can be used to build any kind of Frankenstein.
 
-Поэтому, когда дошли руки для реализации метрик в [Feeds Fun](https://feeds.fun/), мне пришлось в очередной раз потратить несколько дней на актуализацию знаний и наведение порядка в голове.
+So, when time came to implement metrics in [Feeds Fun](https://feeds.fun/), I spend a few days to update my knowledge and put my thoughts in order.
 
-В этом посте я поделюсь некоторыми своими мыслями и решением, которое выбрал для себя. Но не в форме урока, а в форме тезисов о темах к которым неравнодушен именно я.
+In this essay, I will share some of my thoughts on the metrics in whole and the solution I have chosen for myself. But not in the form of a tutorial, but in the form of theses on topics that I am passionate about.
 
 <!-- more -->
 
