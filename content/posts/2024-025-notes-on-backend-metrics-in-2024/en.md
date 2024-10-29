@@ -34,14 +34,14 @@ In this essay, I will share some of my thoughts on the metrics in whole and the 
 
 Metrics are literally the eyes of a developer. Without them, it is impossible to see both the current technical situation on the project and its long-term trends.
 
-If we take the classic cycle from systems engineering (and other [memeplexes](post:@choose-nearest-language:genes-memes-memeplexes)):
+If we take the classic loop from systems engineering (and other [memeplexes](post:@choose-nearest-language:genes-memes-memeplexes)):
 
 1. data collection;
 2. data analysis;
 3. synthesis / decision-making;
 4. implementation of the solution;
 
-then metrics are the first step in the cycle (and part of the second). Without them, it is impossible to close the feedback loop for effective project management.
+then metrics are the first step in the loop (and part of the second). Without them, it is impossible to close the feedback loop for effective project management.
 
 Speaking of planning levels, metrics help:
 
@@ -55,13 +55,13 @@ When developing a prototype and even when delivering first versions to productio
 
 The general idea is roughly as follows: the greater the impact of risks, the more metrics you need.
 
-## За метриками надо следить глазами
+## You need to monitor metrics visually / manually
 
-Метрики нужны не только чтобы смотреть на них во время борьбы с инцидентами или планирования долгосрочных изменений.
+Metrics are needed not only to look at them during incidents or long-term planning; or to provide data for triggers.
 
-Метрики демонстрируют вам динамику проекта, его внутреннюю жизнь.
+Metrics show us the dynamics of the project, its internal life.
 
-Привычка периодически смотреть на метрики глазами запускает цикл обратной связи для [уточнения вашей ментальной модели]{post:life-and-work-with-models} проекта. А точная ментальная модель — залог вашей успешной работы, скорости и качества принимаемых решений.
+The habit of periodically looking at metrics with your own eyes initiates a feedback loop for [refining your mental model](post:@choose-nearest-language:life-and-work-with-models) of the project. An accurate mental model is the key to your effective work, the speed and the quality of decisions you make.
 
 ## Вы не знаете какие метрики вам потребуются
 
