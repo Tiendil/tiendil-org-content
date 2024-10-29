@@ -81,17 +81,17 @@ Therefore, it is reasonable to follow the following heuristics:
 
 This is why I really dislike SaaS solutions that charge for the number of unique metrics. Especially with the difinition of uniqueness as a combination of the metric name with all possible combinations of its tags/labels. Such restrictions force developers to spend too much time on designing metrics instead of developing the application.
 
-## История метрик должна быть долгой
+## Metrics history should be long
 
-В моей практике я часто сталкивался с утвержденями в духе «2 недели истории метрик достаточно». Аргументация заключается в том, что за две недели всплывут любые существенные проблемы. А если проблем не было, то и долгая история не нужна — сэкономим деньги.
+In my practice, I often encountered statements like "2 weeks of metrics history is enough." The argument is that any significant problems will emerge in two weeks. And if there were no problems, then a long history is not required — let's save money.
 
-Это в корне неверно по следующим причинам.
+This is fundamentally wrong for the following reasons.
 
-**[Люди совершают ошибки]{post:life-and-work-with-mistakes}**: лажают, забывают, отвлекаются, пилят бизнес-фичи в кранче, уходят в отпуск. Из того, что никто за две недели не заметил проблему, не значит, что её нет или что она несущественная.
+**[People make mistakes]{post:@choose-nearest-language:life-and-work-with-mistakes}**: they mess up, forget things, get distracted, work in crunch mode, go on vacation. The fact that no one noticed an issue for two weeks doesn’t imply it’s absent or unimportant.
 
-**Наши системы не идеальны**, особенно вспомогательные вроде мониторинга. Часто мониторинг обсуждают с позиции «идеальной системы когда мы её построим» — в которой уже есть все возможные метрики и все возможные детекторы аномалий. Но ни у кого никогда не было идеальной системы мониторинга. В большинстве случае она вообще делается по остаточному принципу, так как не несёт прямой пользу никому кроме технарей.
+**Our systems are not perfect**: especially auxiliary ones like monitoring. Monitoring is often discussed in terms of an "ideal system we'll build someday" — one that includes every possible metric and anomaly detector. But no one has ever had a perfect monitoring system. In most cases, it’s developed on a residual basis, as it brings direct value only to the technical team.
 
-**Многие процессы в жизни нелинейны.** Проблема легко может нарастать [экспоненциально](https://ru.wikipedia.org/wiki/Экспоненциальный_рост). Например, полгода незаметно для всех прибавлять по проценту в день к длительности запроса, после чего за неделю увеличить её в 20 раз. С короткой историей мы не сможем заметить тренд вовремя (наклон графика на коротком интервале будет слабо незаметен), но и не сможем быстро найти точку начала тренда.
+**A lot of processes in life are non-linear**: an effect of an issue can grow [exponentially](https://en.wikipedia.org/wiki/Exponential_growth). For example, a request’s duration could quietly increase by 1% daily over six months, only to jump 20-fold in a week. With a short history, we won’t spot the trend in time (the slope over a short interval will be barely noticeable) nor quickly identify the trend's starting point.
 
 ## Код приложения не должен знать о вашем Service Level Agreement
 
