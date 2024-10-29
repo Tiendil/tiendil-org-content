@@ -65,21 +65,21 @@ The habit of periodically looking at metrics with your own eyes initiates a feed
 
 ## You don't know what metrics you will need
 
-There are basic metrics that everyone or almost everyone needs. For example, [percentiles](https://en.wikipedia.org/wiki/Percentile) of response times for requests, requests per second, number of errors, number of requests for each of the API endpoints, sizes of databases, tables, indexes, and so on.
+There are basic metrics that everyone, or almost everyone, needs. For example, [percentiles](https://en.wikipedia.org/wiki/Percentile) of response times for requests, requests per second, number of errors, number and percentiles of requests for each of the API endpoints, sizes of databases, tables, indexes, and so on.
 
-However, basic metrics, as expected, only allow you to react to basic/common issues. This is already a lot, but each project is unique, as is its development path. Therefore, in addition to common issues, you will definitely have ones unique to your specific situation.
+However, as expected, basic metrics only allow you to react to basic/common issues. This is already a lot, but each project, as is its development path, is unique. Therefore, besides common issues, you will have ones unique to only your situation that will require unique metrics.
 
-For example, at my last job, we implemented [distributed transactions](https://en.wikipedia.org/wiki/Distributed_transaction) for processing payments using [orchestration-based saga](https://microservices.io/patterns/data/saga.html) in the form of [FSM](https://en.wikipedia.org/wiki/Finite-state_machine). At some point, we needed to see the dynamics of the FSM distribution by their states, which showed itself very helpful.
+For example, at my last job, we implemented [distributed transactions](https://en.wikipedia.org/wiki/Distributed_transaction) for processing payments using [orchestration-based saga](https://microservices.io/patterns/data/saga.html) in the form of [FSM](https://en.wikipedia.org/wiki/Finite-state_machine). At some point, we needed to see the dynamics of the FSM distribution by their states, which was very helpful.
 
-Unfortunately, in most cases, newly added metrics will not have a history. And the history of changes is what makes metrics really useful. If you encounter an issue and see it in the metrics, you will want to know not only their current values, but also their dynamics: the direction of changes, cyclicity, seasonality, and so on.
+Unfortunately, in most cases, newly added metrics will not have a history. And the history of changes is what makes metrics really useful. Suppose you encounter an issue and see it in the metrics. In that case, you will want to know not only their current values but also their dynamics: the direction of changes, cyclicity, seasonality, and so on.
 
 Therefore, it is reasonable to follow the following heuristics:
 
 - More metrics are better than fewer.
-- If you have come up with a metric and it is easy to add — add it.
+- If you have come up with a metric that is easy to add, add it.
 - If you have a critical component in the system, turn on the paranoia mode and cover it with metrics from top to bottom.
 
-This is why I really dislike SaaS solutions that charge for the number of unique metrics. Especially with the difinition of uniqueness as a combination of the metric name with all possible combinations of its tags/labels. Such restrictions force developers to spend too much time on designing metrics instead of developing the application.
+This is why I dislike SaaS solutions that charge for the number of unique metrics. Especially with the difinition of uniqueness as a combination of the metric name with all possible combinations of its tags/labels. Such restrictions force developers to spend too much time on designing metrics instead of developing the application.
 
 ## Metrics history should be long
 
