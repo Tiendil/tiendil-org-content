@@ -69,17 +69,17 @@ There are basic metrics that everyone or almost everyone needs. For example, [pe
 
 However, basic metrics, as expected, only allow you to react to basic/common issues. This is already a lot, but each project is unique, as is its development path. Therefore, in addition to common issues, you will definitely have ones unique to your specific situation.
 
-Для примера, на моём последнем месте работы мы реализовали [распределённые транзакции](https://en.wikipedia.org/wiki/Distributed_transaction) для обработки платежей с помощью [Orchestration-based saga](https://microservices.io/patterns/data/saga.html) в форме [FSM](https://ru.wikipedia.org/wiki/Конечный_автомат). В какой-то момент нам потребовалось видеть динамику изменения распределения FSM по состояниям.
+For example, at my last job, we implemented [distributed transactions](https://en.wikipedia.org/wiki/Distributed_transaction) for processing payments using [Orchestration-based saga](https://microservices.io/patterns/data/saga.html) in the form of [FSM](https://en.wikipedia.org/wiki/Finite-state_machine). At some point, we needed to see the dynamics of the FSM distribution by their states, which showed itself very helpful.
 
-К сожалению, в большинстве случаев, при добавлении новой метрики у неё не будет истории. А история изменений — это то, что делает метрики реально полезными. Если вы столкнулись с проблемой и видите её на метриках, то вам важны не только их текущие показатели, но и динамика: направление изменений, цикличность, сезонность и так далее.
+Unfortunately, in most cases, newly added metrics will not have a history. And the history of changes is what makes metrics really useful. If you encounter an issue and see it in the metrics, you will want to know not only their current values, but also their dynamics: the direction of changes, cyclicity, seasonality, and so on.
 
-Поэтому, разумно следовать следующим эвристикам:
+Therefore, it is reasonable to follow the following heuristics:
 
-- Много метрик лучше, чем мало.
-- Если вам придумалась метрика и добавить её легко — добавьте.
-- Если у вас есть критический компонент в системе, включите режим параноика и обложите его метриками сверху до низу.
+- More metrics are better than fewer.
+- If you have come up with a metric and it is easy to add — add it.
+- If you have a critical component in the system, turn on the paranoia mode and cover it with metrics from top to bottom.
 
-Поэтому я очень нелюблю SaaS-решения, которые берут оплату за количество уникальных метрик. Особенно, с учётом определения уникальности по сочетанию названия метрики со всеми возможными комбинациями её меток/тегов. Использование таких сервисов заставляет разработчиков заниматься проектированием метрик вместо разработкой приложения.
+This is why I really dislike SaaS solutions that charge for the number of unique metrics. Especially with the difinition of uniqueness as a combination of the metric name with all possible combinations of its tags/labels. Such restrictions force developers to spend too much time on designing metrics instead of developing the application.
 
 ## История метрик должна быть долгой
 
