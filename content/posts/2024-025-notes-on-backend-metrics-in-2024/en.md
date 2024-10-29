@@ -212,24 +212,24 @@ def bound_measure_labels(**labels: LabelValue) -> Iterator[None]:
         yield
 ```
 
-## Обработка метрик на бэкенде Feeds Fun
+## Processing metrics on the Feeds Fun backend
 
-Что происходит с метриками после их записи в лог вы могли видеть на заглавной картинке. На всякий случай продублирую её тут.
+You could see what happens to metrics after they are written to the log on the image at the beginning of the post. I'll duplicate it here just in case.
 
 /// brigid-images
 src = "./feeds-fun-metrics-schema.png"
-caption = "Примерно так сейчас выглядит сбор метрик в Feeds Fun. Loki добавлен как возможный следующий шаг развития инфраструктуры."
+caption = "How metrics are collected in Feeds Fun. Loki is added to demonstrate the possible next step in infrastructure development."
 ///
 
-1. Приложение и все утилиты запускаются в [Docker](https://www.docker.com/) контейнерах. Конкретнее, в [Docker Swarm](https://docs.docker.com/engine/swarm/), но это не важно.
-2. [Vector](https://vector.dev/) настроен собирать логи из докера и делать с ними разные штуки:
-    - Часть логов преобразует в метрики и агрегирует по правилам Prometheus.
-    - Все логи будет посылать в какой-нибудь [Loki](https://grafana.com/oss/loki/), но чуть позже, пока не тратил время на эту часть.
-3. [Prometheus](https://prometheus.io/) ходит в одну точку за всеми метриками.
-4. [Grafana](https://grafana.com/) рисует дашборды по метрикам из Prometheus.
+1. The application and all utilities run in [Docker](https://www.docker.com/) containers. More specifically, in [Docker Swarm](https://docs.docker.com/engine/swarm/), but that's not important.
+2. [Vector](https://vector.dev/) is configured to collect logs from Docker and do various things with them:
+    - Part of the logs is transformed into metrics and aggregated according to Prometheus rules.
+    - All logs are sent to some logs storage like [Loki](https://grafana.com/oss/loki/), but it will be implemented later, I haven't spent time on this part yet.
+3. [Prometheus](https://prometheus.io/) goes to a single point for all metrics.
+4. [Grafana](https://grafana.com/) draws dashboards based on metrics from Prometheus.
 
-Большинство манипуляций с метриками: изменение структуры bucket в гистограммах, создание новых метрик, редактирование меток, игнорирование метрик, etc. я могу делать меняя конфиг Vector и никак не затрагивая работу бизнес-логики.
+Most manipulations with metrics: changing the structure of the buckets in histograms, deriving new metrics, editing labels, ignoring metrics, etc. I can do by changing the Vector config without affecting the work of the application.
 
-Удобно и то, что определение источников логов в Vector можно настраивать достаточно гибко. Например, в моём случае контейнеры приложения определяются по префиксу имени image контейнера. Соответственно, что бы новое я не запустил на бэке (сервисы, cron задачи, etc), пока у них будет тот же базовый image, их логи и метрики будут распознаваться автоматически.
+It is convinient that the definition of log sources in Vector can be configured quite flexibly. For example, in my case, application containers are detected by the prefix of the container image name. So, no matter what new I run on the backend (services, cron tasks, etc), as long as it has the same base image, its logs and metrics will be tracked automatically.
 
-Удобно и то, что при разворачивании новых серверов и сервисов мне надо будет только настроить потоки данных в Vector (или между экземплярами Vector), а не менять конфигурацию Prometheus или учить его находить сервисы.
+It is also convinient that when deploying new servers and services, I will only need to configure data streams in Vector (or between Vector instances), no changes in Prometheus configuration is required.
