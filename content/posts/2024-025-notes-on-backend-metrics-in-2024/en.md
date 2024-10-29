@@ -93,24 +93,24 @@ This is fundamentally wrong for the following reasons.
 
 **A lot of processes in life are non-linear**: an effect of an issue can grow [exponentially](https://en.wikipedia.org/wiki/Exponential_growth). For example, a request’s duration could quietly increase by 1% daily over months, only to jump 20-fold in a week. With a short history, we won’t spot the trend in time (the slope over a short interval will be barely noticeable) nor quickly identify the trend's starting point.
 
-## An application code should not know about your Service Level Agreement
+## An application code should not know about your Service Level Agreements
 
-The goal of your application is to do its business logic and provide clear, accurate measurements of its state — to be a source of truth. How to process that measurements and act on them is a separate question that should be addressed by external tools.
+Your application's goal is to execute its business logic and provide clear, accurate measurements of its state—to be a source of truth. How to process those measurements and act on them is a separate question that external tools should address.
 
-Tasks of your application should not include calculating percentiles, reducing metrics accuracy, aggregating them and so on.
+Tasks of your application should not include calculating percentiles, reducing metrics accuracy, aggregating them, and so on.
 
-First, it does not relate to business logic, and therefore does not benefit users directly.
+First, it does not relate to business logic and, therefore, does not benefit users directly.
 
 Second, it complicates the application, making it harder to modify and maintain. Not critically, but still complicates.
 
-Third, it complicates and slows down changes to metrics. For example, if you use Prometheus preparing histograms:
+Third, it complicates and slows down changes to metrics. For example, if you use Prometheus and want to change histogram buckets:
 
-- For each histogram change, you will have to update the application configs on production at best. At worst, you will have to update its code, which means making a full release. And let's be honest, most of us will release because we are too lazy to move metric parameters to configs.
-- If you suddenly need to split metrics by histogram types (e.g., one for fast operations time, another for slow ones), you will have to change the application code, and these may not be trivial changes.
+- For each histogram change, you must update the application configs on production at best. At worst, you will have to update its code, which means making a full release. And let's be honest: most of us will release it because we are too lazy to move metric parameters to configs.
+- If you suddenly need to split metrics by histogram types (e.g., one for fast operations, another for slow ones), you will have to change the application code, and these may not be trivial changes.
 
 Fourth, if you have several versions on production (a/b tests, slow release rollout, demo servers, etc.), you may end up with a mess of incompatible measurements that will complicate analysis.
 
-Fifth, an application cannot act on metrics, so it should not try to process them in any way. Exaggerating, it cannot say whether it needs to scale application servers horizontally or scale the database server vertically. Not to mention the scaling initiation itself. This is done by systems above the application.
+Fifth, an application cannot act on metrics, so it should not try to process them in any way. Exaggerating, it cannot say whether it needs to scale application servers horizontally or scale the database server vertically. Not to mention the scaling initiation — this should be done by systems above the application.
 
 This is why I don't like Prometheus's approach to collecting pre-aggregated metrics — I just don't understand how to live with it.
 
