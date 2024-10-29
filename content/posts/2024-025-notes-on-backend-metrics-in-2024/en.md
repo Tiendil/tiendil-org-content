@@ -26,22 +26,22 @@ Therefore, there is no single ideal way to collect metrics. Moreover, the variet
 
 So, when the time came to implement metrics in [Feeds Fun](https://feeds.fun/), I spent a few days updating my knowledge and organizing my thoughts.
 
-In this essay, I will share some of my thoughts on the metrics as a whole and on the solution I have chosen for myself. Not in the form of a tutorial but in the form of theses on topics that I am passionate about.
+In this essay, I will share some of my thoughts on the metrics as a whole and on the solution I have chosen for myself. Not in the form of a tutorial but in the form of theses on topics I am passionate about.
 
 <!-- more -->
 
-## Metrics are the basic tool for managing the technical state of a project at the operational, tactical, and strategic levels
+## Metrics is the basic tool for managing the technical state of a project at the operational, tactical, and strategic levels
 
-Metrics are literally the eyes of a developer. Without them, it is impossible to see both the current technical situation on the project and its long-term trends.
+Metrics are literally a developer's eyes. Without them, it is impossible to see both the project's current technical situation and its long-term trends.
 
 If we take the classic loop from systems engineering (and other [memeplexes]{post:@choose-nearest-language:genes-memes-memeplexes}):
 
 1. data collection;
-2. data analysis;
-3. synthesis / decision-making;
+2. analysis;
+3. synthesis/decision-making;
 4. implementation of the solution;
 
-then metrics are the first step in the loop (and part of the second). Without them, it is impossible to close the feedback loop for effective project management.
+then metrics is the first step in the loop (and part of the second). Without them, closing the feedback loop for effective project management is impossible.
 
 Speaking of planning levels, metrics help:
 
@@ -51,9 +51,9 @@ Speaking of planning levels, metrics help:
 
 However, that does not mean that the first commit should be the implementation of metrics — everything is good in moderation.
 
-When developing a prototype and even when delivering first versions to production, you can rely on your experience, intuition, periodic manual checks of the system state, the discipline and competence of the team. After all, poorly working business logic without metrics is usually better than non-implemented business logic with cool metrics :-D
+When developing a prototype and even when delivering the first versions to production, you can rely on your experience, intuition, periodic manual checks of the system state, and the discipline and competence of the team. After all, poorly working business logic without metrics is usually better than non-implemented business logic with excellent metrics :-D
 
-The general idea is roughly as follows: the greater the impact of risks, the more metrics you need.
+The general idea is that the greater the impact of risks, the more metrics you need.
 
 ## You need to monitor metrics visually / manually
 
