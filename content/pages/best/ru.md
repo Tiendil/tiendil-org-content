@@ -72,7 +72,8 @@ id = "interesting-about-books"
 
 ## Интервью
 
+- [Подкаст «Две Столицы — Уютный подкаст IT панков»](https://www.youtube.com/watch?v=5KODCBqhDu0)
 - [Подкаст портала mmozg.net](https://www.youtube.com/watch?v=vBYNsLh3jf0)
-- [Подкаст у Сергея Галёнкина: браузерные игры](http://galyonkin.com/2015/03/26/105-brauzernyie-igryi/)
+- [Подкаст у Сергея Галёнкина: браузерные игры](https://kdicast.com/e/105-brauzernyie-igryi/)
 - [Интервью в блоге XSolla](http://blog.xsolla.ru/2015/01/26/the-tale-interview/)
 - [Интервью для Компьютерных Вестей](http://www.kv.by/content/331643-aleksei-eletskii-vysot-wargaming-vpolne-mozhet-dostich-lyubaya-belorusskaya-it-kompan)

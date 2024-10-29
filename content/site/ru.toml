@@ -105,6 +105,7 @@ biology = "биология"
 world-design = "дизайн миров"
 prompt-engineering = "prompt engineering"
 tutorial = "урок"
+podcasts = "подкасты"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'
