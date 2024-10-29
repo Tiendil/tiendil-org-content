@@ -55,13 +55,13 @@ When developing a prototype and even when delivering the first versions to produ
 
 The general idea is that the greater the impact of risks, the more metrics you need.
 
-## You need to monitor metrics visually / manually
+## You need to monitor metrics visually/manually
 
-Metrics are needed not only to look at them during incidents or long-term planning; or to provide data for triggers.
+Metrics are needed not only to look at them during incidents or long-term planning; rather not only to provide data for triggers.
 
-Metrics show us the dynamics of the project, its internal life.
+Metrics show us the dynamics of the project — its internal life.
 
-The habit of periodically looking at metrics with your own eyes initiates a feedback loop for [refining your mental model]{post:@choose-nearest-language:life-and-work-with-models} of the project. An accurate mental model is the key to your effective work, the speed and the quality of decisions you make.
+The habit of periodically looking at metrics with your own eyes initiates a feedback loop for [refining your mental model]{post:@choose-nearest-language:life-and-work-with-models} of the project. An accurate mental model is the key to your effective work and the speed and quality of decisions you make.
 
 ## You don't know what metrics you will need
 
