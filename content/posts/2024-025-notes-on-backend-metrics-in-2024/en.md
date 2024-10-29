@@ -146,15 +146,15 @@ def measure(event: str, value: int | float):
 
 Secondly, some mechanism for setting tags/labels **for all log entries**, if you plan to use tags.
 
-## Реализация меток на бэкенде Feeds Fun
+## Implementation of metrics on the Feeds Fun backend
 
-Для примера, к чему пришёл я:
+For example, here is what I came up with:
 
-1. Добавил метод `measure` прямо в класс логгера, благодаря чему могу регистрировать измерения везде, где есть логгер.
-2. Для меток использую контекст процессор устанавливающий [contextvars](https://docs.python.org/3/library/contextvars.html) в сочетании с [отдельным процессором логов](https://www.structlog.org/en/stable/api.html#structlog.contextvars.merge_contextvars) из [structlog](https://www.structlog.org/en/stable/), который мержит метки в каждую запись логов.
-3. Все логи пишутся на stdout.
+1. Added a `measure` method directly to the logger class, so I can register measurements wherever there is a logger.
+2. For tags, I use a context processor that sets [contextvars](https://docs.python.org/3/library/contextvars.html) in combination with a [separate log processor](https://www.structlog.org/en/stable/api.html#structlog.contextvars.merge_contextvars) from [structlog](https://www.structlog.org/en/stable/), which merges tags into each log entry.
+3. All logs are written to stdout.
 
-Выглядит это примерно так ([полный исходник](https://github.com/Tiendil/feeds.fun/blob/main/ffun/ffun/core/logging.py)):
+It looks like this ([full source](https://github.com/Tiendil/feeds.fun/blob/main/ffun/ffun/core/logging.py)):
 
 ```
 LabelValue = int | str | None
