@@ -132,8 +132,7 @@ A metric can be a log entry, and a log entry can be interpreted as a metric.
 
 Therefore, there is no point in separating them in the application. Trying to work with metrics and logs differently complicates the architecture, infrastructure, and your life in general.
 
-Given the current (strictly positive) trend towards structured logs (when each log entry has a strict format, usually JSON), it makes sense to just write
-everything as logs to stdout.
+Given the current (strictly positive) trend towards structured logs (when each log entry has a strict format, usually JSON), it makes sense just to write everything as logs to stdout.
 
 In such a case, there is little left of the metrics on the application side.
 
@@ -150,7 +149,7 @@ Secondly, some mechanism for setting tags/labels **for all log entries**, if you
 
 For example, here is what I came up with:
 
-1. Added a `measure` method directly to the logger class, so I can register measurements wherever there is a logger.
+1. I added a `measure` method directly to the logger class, so I can register measurements wherever there is a logger.
 2. For tags, I use a context processor that sets [contextvars](https://docs.python.org/3/library/contextvars.html) in combination with a [separate log processor](https://www.structlog.org/en/stable/api.html#structlog.contextvars.merge_contextvars) from [structlog](https://www.structlog.org/en/stable/), which merges tags into each log entry.
 3. All logs are written to stdout.
 
@@ -214,7 +213,7 @@ def bound_measure_labels(**labels: LabelValue) -> Iterator[None]:
 
 ## Processing metrics on the Feeds Fun backend
 
-You could see what happens to metrics after they are written to the log on the image at the beginning of the post. I'll duplicate it here just in case.
+You could see what happens to metrics after they are written to the log on the image at the beginning of the post. I'll duplicate it here, just in case.
 
 /// brigid-images
 src = "./feeds-fun-metrics-schema.png"
@@ -224,12 +223,12 @@ caption = "How metrics are collected in Feeds Fun. Loki is added to demonstrate 
 1. The application and all utilities run in [Docker](https://www.docker.com/) containers. More specifically, in [Docker Swarm](https://docs.docker.com/engine/swarm/), but that's not important.
 2. [Vector](https://vector.dev/) is configured to collect logs from Docker and do various things with them:
     - Part of the logs is transformed into metrics and aggregated according to Prometheus rules.
-    - All logs are sent to some logs storage like [Loki](https://grafana.com/oss/loki/), but it will be implemented later, I haven't spent time on this part yet.
+    - All logs are sent to a log storage service like [Loki](https://grafana.com/oss/loki/), but this will be implemented later; I haven't spent time on this part yet.
 3. [Prometheus](https://prometheus.io/) goes to a single point for all metrics.
 4. [Grafana](https://grafana.com/) draws dashboards based on metrics from Prometheus.
 
-Most manipulations with metrics: changing the structure of the buckets in histograms, deriving new metrics, editing labels, ignoring metrics, etc. I can do by changing the Vector config without affecting the work of the application.
+Most manipulations with metrics: changing the structure of the buckets in histograms, deriving new metrics, editing labels, ignoring metrics, etc. I can do by changing the Vector configs without affecting the work of the application.
 
-It is convinient that the definition of log sources in Vector can be configured quite flexibly. For example, in my case, application containers are detected by the prefix of the container image name. So, no matter what new I run on the backend (services, cron tasks, etc), as long as it has the same base image, its logs and metrics will be tracked automatically.
+It is convenient that the definition of log sources in Vector can be configured quite flexibly. For example, in my case, application containers are detected by the prefix of the container image name. So, no matter what new I run on the backend (services, cron tasks, etc), as long as it has the same base image, its logs and metrics will be tracked automatically.
 
-It is also convinient that when deploying new servers and services, I will only need to configure data streams in Vector (or between Vector instances), no changes in Prometheus configuration is required.
+It is also convenient that when deploying new servers and services, I will only need to configure data streams in Vector (or between Vector instances); no changes in Prometheus configuration are required.
