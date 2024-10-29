@@ -93,26 +93,26 @@ This is fundamentally wrong for the following reasons.
 
 **A lot of processes in life are non-linear**: an effect of an issue can grow [exponentially](https://en.wikipedia.org/wiki/Exponential_growth). For example, a request’s duration could quietly increase by 1% daily over six months, only to jump 20-fold in a week. With a short history, we won’t spot the trend in time (the slope over a short interval will be barely noticeable) nor quickly identify the trend's starting point.
 
-## Код приложения не должен знать о вашем Service Level Agreement
+## An application code should not know about your Service Level Agreement
 
-Задача вашего приложения — работать и отдавать чёткие честные измерения своего состояния — быть источником правды. Что делать с этими измерениями — это отдельный вопрос, который должен решаться внешними средствами.
+The goal of your application is to do its business logic and provide clear, accurate measurements of its state — to be a source of truth. How to process that measurements and act on them is a separate question that should be addressed by external tools.
 
-В задачи вашего приложения не должны входить расчёты перцентилей, уменьшение точности метрик, их агрегирование и так далее.
+Tasks of your application should not include calculating percentiles, reducing metrics accuracy, aggregating them and so on.
 
-Во-первых, это не относится к бизнес-логике, а значит не несёт пользы пользователям.
+First, it does not relate to business logic, and therefore does not benefit users directly.
 
-Во-вторых, это усложняет приложение, что усложняет его модификацию и поддержку. Не то, чтобы критически, но всё-таки усложняет.
+Second, it complicates the application, making it harder to modify and maintain. Not critically, but still complicates.
 
-В-третьих, это усложняет и замедляет внесения изменений в метрики. Для примера, если вы используете Prometheus и отдаёте ему гистограммы:
+Third, it complicates and slows down changes to metrics. For example, if you use Prometheus preparing histograms:
 
-- Для любого изменения гистограмм вам надо будет, в лучшем случае, обновить конфиги приложения на проде. В худшем — обновить его код, а значит сделать полноценный релиз. И будем честными, вы будете релизить, потому что поленились вынести параметры метрик в конфиги.
-- Если вам внезапно понадобится разделить метрики по типам гистограмм (например, одна для времени быстрых операций, другая — для медленных), то вам придётся менять код приложения и это могут быть не совсем тривиальные изменения.
+- For each histogram change, you will have to update the application configs on production at best. At worst, you will have to update its code, which means making a full release. And let's be honest, most of us will release because we are too lazy to move metric parameters to configs.
+- If you suddenly need to split metrics by histogram types (e.g., one for fast operations time, another for slow ones), you will have to change the application code, and these may not be trivial changes.
 
-В-четвёртых, если у вас может быть несколько версий на проде (a/b тесты, замедленная раскатка релиза, демо-сервера, etc), то у вас образуется каша из несовместимых метрик, что усложнит их анализ.
+Fourth, if you have several versions on production (a/b tests, slow release rollout, demo servers, etc.), you may end up with a mess of incompatible measurements that will complicate analysis.
 
-В-пятых, приложение не может самостоятельно действовать на основе метрик, поэтому не должно пытаться их как-то обрабатывать. Утрируя, оно не сможет сказать надо ли отмасштабировать горизонтально сервера с ним или вертикально отмасштабировать сервер базы. Не говоря уже о самой инициации масштабирования. Это делается системами над приложением.
+Fifth, an application cannot act on metrics, so it should not try to process them in any way. Exaggerating, it cannot say whether it needs to scale application servers horizontally or scale the database server vertically. Not to mention the scaling initiation itself. This is done by systems above the application.
 
-Поэтому мне не нравится подход Prometheus к сбору предагрегированных метрик, я просто не понимаю как с ним можно нормально жить.
+This is why I don't like Prometheus's approach to collecting pre-aggregated metrics — I just don't understand how to live with it.
 
 ## Приложение должно только пушить (push) метрики
 
