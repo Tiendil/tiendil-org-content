@@ -124,26 +124,27 @@ Secondly, your collector will never reach everything, no matter how hard you try
 
 That's another reason why I don't like Prometheus's pull approach.
 
-## Метрики и логи — одно целое
+## Metrics and logs are one and the same
 
-И то и другое — [телеметрия](https://ru.wikipedia.org/wiki/Телеметрия).
+Both are [telemetry](https://en.wikipedia.org/wiki/Telemetry).
 
-Сообщение о метрике может быть записью в логах и запись в логах можно интерпретировать как метрику.
+A metric can be a log entry, and a log entry can be interpreted as a metric.
 
-Поэтому, для нужд приложения, нет смысла их разделять. Пытаясь работать с метриками и логами по-разному вы усложняете архитектуру, инфраструктуру и свою жизнь в целом.
+Therefore, there is no point in separating them in the application. Trying to work with metrics and logs differently complicates the architecture, infrastructure, and your life in general.
 
-Учитывая текущую (сугубо позитивную) моду на структурированные логи (это когда каждая запись в логах имеет строгий формат, обычно JSON), имеет смысл просто писать всё как логи на stdout.
+Given the current (strictly positive) trend towards structured logs (when each log entry has a strict format, usually JSON), it makes sense to just write
+everything as logs to stdout.
 
-В таком случае от метрик на стороне приложения остаётся немного.
+In such a case, there is little left of the metrics on the application side.
 
-Во-первых, какая-нибудь функция-обёртка над логирования в духе
+Firstly, some kind of wrapper function for logging, like
 
 ```
 def measure(event: str, value: int | float):
     logger.info(event, m_kind="measure", m_value=value)
 ```
 
-Во-вторых, какой-нибудь механизм задания меток/тегов **для всех записей в лог**, если вы планируете использовать метки.
+Secondly, some mechanism for setting tags/labels **for all log entries**, if you plan to use tags.
 
 ## Реализация меток на бэкенде Feeds Fun
 
