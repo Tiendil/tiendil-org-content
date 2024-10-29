@@ -83,15 +83,15 @@ This is why I dislike SaaS solutions that charge for the number of unique metric
 
 ## Metrics history should be long
 
-In my practice, I often encountered statements like "2 weeks of metrics history is enough." The argument is that any significant problems will emerge in two weeks. And if there were no problems, then a long history is not required — let's save money.
+In my practice, I often encountered statements like "Two weeks of metrics history is enough". The argument is that any significant problems will emerge in two weeks. And if there were no problems, then a longer history is not required—let's save money.
 
 This is fundamentally wrong for the following reasons.
 
-**[People make mistakes]{post:@choose-nearest-language:life-and-work-with-mistakes}**: they mess up, forget things, get distracted, work in crunch mode, go on vacation. The fact that no one noticed an issue for two weeks doesn’t imply it’s absent or unimportant.
+**[People make mistakes]{post:@choose-nearest-language:life-and-work-with-mistakes}**: they mess up, forget things, get distracted, work in crunch mode, go on vacations. The fact that no one noticed an issue for two weeks doesn’t imply it’s absent or unimportant.
 
-**Our systems are not perfect**: especially auxiliary ones like monitoring. Monitoring is often discussed in terms of an "ideal system we'll build someday" — one that includes every possible metric and anomaly detector. But no one has ever had a perfect monitoring system. In most cases, it’s developed on a residual basis, as it brings direct value only to the technical team.
+**Our systems are not perfect**: especially auxiliary ones like monitoring. Monitoring is often discussed in terms of an "ideal system we'll build someday" — one that includes every possible metric and anomaly detector. But no one has ever had a perfect monitoring system. In most cases, it’s developed on a residual basis, as it only brings direct value to the technical team.
 
-**A lot of processes in life are non-linear**: an effect of an issue can grow [exponentially](https://en.wikipedia.org/wiki/Exponential_growth). For example, a request’s duration could quietly increase by 1% daily over six months, only to jump 20-fold in a week. With a short history, we won’t spot the trend in time (the slope over a short interval will be barely noticeable) nor quickly identify the trend's starting point.
+**A lot of processes in life are non-linear**: an effect of an issue can grow [exponentially](https://en.wikipedia.org/wiki/Exponential_growth). For example, a request’s duration could quietly increase by 1% daily over months, only to jump 20-fold in a week. With a short history, we won’t spot the trend in time (the slope over a short interval will be barely noticeable) nor quickly identify the trend's starting point.
 
 ## An application code should not know about your Service Level Agreement
 
