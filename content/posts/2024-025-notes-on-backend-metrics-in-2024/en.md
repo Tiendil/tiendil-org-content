@@ -11,22 +11,22 @@ src = "./feeds-fun-metrics-schema.png"
 caption = "How metrics are collected in Feeds Fun. Loki is added to demonstrate the possible next step in infrastructure development."
 ///
 
-Once in 2-3 years I start a new project and have to relearn agaon how metrics should be collected and visualized this time. Not that it is the only technology thing that changes over time, but it is guaranteed to change.
+Once in 2-3 years, I start a new project and have to "relearn" how this time to collect and visualize metrics. It is not a single technological thing that changes over time, but it is guaranteed to change.
 
-I [sent metrics via UDP]{post:@choose-nearest-language:collect-metrics-in-linux} to [Graphite](https://graphiteapp.org/) (in 2024, a post from 2015 looks funny), used SaaS solutions like [Datadog](https://www.datadoghq.com/) and [New Relic](https://newrelic.com/), aggregated metrics in the application for [Prometheus](https://prometheus.io/), wrote metrics as logs for [AWS CloudWatch](https://aws.amazon.com/cloudwatch/).
+I [sent metrics via UDP]{post:@choose-nearest-language:collect-metrics-in-linux} to [Graphite](https://graphiteapp.org/) (in 2024, a post from 2015 looks funny), used SaaS solutions like [Datadog](https://www.datadoghq.com/) and [New Relic](https://newrelic.com/), aggregated metrics in the application for [Prometheus](https://prometheus.io/), and wrote metrics as logs for [AWS CloudWatch](https://aws.amazon.com/cloudwatch/).
 
 And there were always nuances:
 
-- The features of the project's technologies and architecture impose sudden restrictions.
-- Technical requirements for the completeness, correctness, and accuracy of metrics collide with business constraints on the cost of maintaining infrastructure.
+- The features of the project technologies and architecture impose sudden restrictions.
+- Technical requirements for metrics completeness, correctness, and accuracy collide with business constraints on the cost of maintaining infrastructure.
 - Specialized databases for storing [time series](https://en.wikipedia.org/wiki/Time_series) emerge, with which backend developers rarely deal directly.
 - Not to mention the ideology and personal preferences of colleagues.
 
-Therefore, there is no single ideal way to collect metrics. Moreover, the variety of approaches, together with the rapid evolution of the entire field, have produced a huge number of open-source bricks that can be used to build any kind of Frankenstein.
+Therefore, there is no single ideal way to collect metrics. Moreover, the variety of approaches, together with the rapid evolution of the entire field, has produced a vast number of open-source bricks that can be used to build any Frankenstein.
 
-So, when time came to implement metrics in [Feeds Fun](https://feeds.fun/), I spend a few days to update my knowledge and put my thoughts in order.
+So, when the time came to implement metrics in [Feeds Fun](https://feeds.fun/), I spent a few days updating my knowledge and organizing my thoughts.
 
-In this essay, I will share some of my thoughts on the metrics in whole and the solution I have chosen for myself. But not in the form of a tutorial, but in the form of theses on topics that I am passionate about.
+In this essay, I will share some of my thoughts on the metrics as a whole and on the solution I have chosen for myself. Not in the form of a tutorial but in the form of theses on topics that I am passionate about.
 
 <!-- more -->
 
