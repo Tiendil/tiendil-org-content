@@ -63,11 +63,11 @@ Metrics show us the dynamics of the project, its internal life.
 
 The habit of periodically looking at metrics with your own eyes initiates a feedback loop for [refining your mental model](post:@choose-nearest-language:life-and-work-with-models) of the project. An accurate mental model is the key to your effective work, the speed and the quality of decisions you make.
 
-## Вы не знаете какие метрики вам потребуются
+## You don't know what metrics you will need
 
-Есть базовые метрики, которые нужны всем или почти всем. Например, [персентили](https://ru.wikipedia.org/wiki/Процентиль) времени ответа на запросы, количество запросов в секунду, количество ошибок, количество запросов на каждый из эндпоинтов API, размеры базы данных, таблиц, индексов и так далее.
+There are basic metrics that everyone or almost everyone needs. For example, [percentiles](https://en.wikipedia.org/wiki/Percentile) of response times for requests, requests per second, number of errors, number of requests for each of the API endpoints, sizes of databases, tables, indexes, and so on.
 
-Но базовые метрики, что логично, позволяют реагировать только на базовые проблемы. Это уже много, но каждый проект уникален, уникален путь его разработки, поэтому кроме базовых проблем у вас обязательно возникнут проблемы уникальные для вас, задачи уникальные для вас.
+However, basic metrics, as expected, only allow you to react to basic/common issues. This is already a lot, but each project is unique, as is its development path. Therefore, in addition to common issues, you will definitely have ones unique to your specific situation.
 
 Для примера, на моём последнем месте работы мы реализовали [распределённые транзакции](https://en.wikipedia.org/wiki/Distributed_transaction) для обработки платежей с помощью [Orchestration-based saga](https://microservices.io/patterns/data/saga.html) в форме [FSM](https://ru.wikipedia.org/wiki/Конечный_автомат). В какой-то момент нам потребовалось видеть динамику изменения распределения FSM по состояниям.
 
