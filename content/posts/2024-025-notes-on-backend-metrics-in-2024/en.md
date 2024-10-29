@@ -116,11 +116,11 @@ This is why I don't like Prometheus's approach to collecting pre-aggregated metr
 
 ## An application should only push metrics
 
-An application should not store metrics in belief that someone will collect them later.
+An application should not store metrics in the belief that something will collect them later.
 
-Firstly, "someone" may not collect them for a huge number of reasons. For example, because the application crashed a second before, let's say, Prometheus reached it.
+Firstly, "someone" may not collect them for a vast number of reasons. For example, because the application crashed a second before, let's say, Prometheus reached it.
 
-Secondly, your collector will never reach everything, no matter how hard you try. There are always autonomous scripts that also need to be measured. Sometimes there may be issues with system boundaries, security perimeters. So you will still have to implement push logic for special cases, which means doing the work twice, complicating the infrastructure.
+Secondly, your collector will never reach everything, no matter how hard you try. There are always autonomous scripts that also need to be measured. Sometimes, there may be issues with system boundaries and security perimeters. So you will still have to implement push logic for special cases, which means doing the work twice, complicating the infrastructure.
 
 That's another reason why I don't like Prometheus's pull approach.
 
