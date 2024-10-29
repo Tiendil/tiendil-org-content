@@ -1,6 +1,6 @@
 ---
 title = "Заметки о метриках бэкенда в 2024"
-tags = ["practice", "development", "backend", "feeds-fun"]
+tags = ["practice", "development", "backend", "feeds-fun", "interesting"]
 published_at = "2024-10-28T12:00:00+00:00"
 seo_description = "Некоторые заметки о сборе метрик на бэке в 2024 году."
 seo_image = "./feeds-fun-metrics-schema.png"

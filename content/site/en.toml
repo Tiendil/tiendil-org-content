@@ -100,6 +100,7 @@ biology = "biology"
 world-design = "world design"
 prompt-engineering = "prompt engineering"
 tutorial = "tutorial"
+podcasts = "podcasts"
 
 [theme_translations]
 tags_filter_header = 'Found essays:'

@@ -1,6 +1,6 @@
 ---
 title = "Неожиданно поучаствовал в подкасте портала mmozg.net"
-tags = [ "the-tale", "gamedev", "game-design", "mmo", "practice",]
+tags = [ "the-tale", "gamedev", "game-design", "mmo", "practice", "podcasts"]
 published_at = "2020-11-27T12:00:00+00:00"
 seo_description = "Содержание подкаста с моим участием. Поговорили про новости ММО игр, некоторые вопросы их дизайна и особенности опыта, который они дают игрокам."
 seo_image = ""
