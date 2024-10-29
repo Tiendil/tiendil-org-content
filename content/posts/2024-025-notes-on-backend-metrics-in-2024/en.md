@@ -30,30 +30,30 @@ In this essay, I will share some of my thoughts on the metrics in whole and the 
 
 <!-- more -->
 
-## Метрики — базовый инструмент для управления техническим состоянием проекта на оперативном, тактическом и стратегическом уровнях
+## Metrics are the basic tool for managing the technical state of a project at the operational, tactical, and strategic levels
 
-Метрики — это буквально глаза разработчика. Без них невозможно видеть как актуальную техническую ситуацию на проекте так и её долгосрочные тренды.
+Metrics are literally the eyes of a developer. Without them, it is impossible to see both the current technical situation on the project and its long-term trends.
 
-Если брать классический цикл из системной инженерии (и других [мемплексов]{post:genes-memes-memeplexes}):
+If we take the classic cycle from systems engineering (and other [memeplexes](post:@choose-nearest-language:genes-memes-memeplexes)):
 
-1. сбор данных;
-2. анализ данных;
-3. синтез (принятие) решения;
-4. реализация решения;
+1. data collection;
+2. data analysis;
+3. synthesis / decision-making;
+4. implementation of the solution;
 
-то метрики — это первый шаг цикла (и часть второго). Без них невозможно замкнуть обратную связь для эффективного управления проектом.
+then metrics are the first step in the cycle (and part of the second). Without them, it is impossible to close the feedback loop for effective project management.
 
-Говоря про уровни планирования, метрики помогают:
+Speaking of planning levels, metrics help:
 
-- На оперативном уровне быстрее разбираться с форс-мажорными ситуациями.
-- На тактическом уровне устранять негативные тенденции (вроде деградации производительности из-за роста объёма данных) до момента, когда они срабатывают.
-- На стратегическом уровне планировать дорогие изменения в архитектуре и инфраструктуре. Например, обосновывать необходимость шардирования базы или внедрения очередей.
+- At the operational level, to deal with force majeure situations faster.
+- At the tactical level, to eliminate negative trends (like degradation of performance due to data growth) before they hit.
+- At the strategic level, to plan expensive changes in architecture and infrastructure. For example, by justifying the need for database sharding or the introduction of queues.
 
-Конечно, из этого не слудет, что первым коммитом должна идти реализация метрик — всё хорошо в меру.
+However, that does not mean that the first commit should be the implementation of metrics — everything is good in moderation.
 
-При разработке прототипа и даже при начале эксплуатации можно опираться на свой опыт, чуйку, периодические ручные проверки состояния системы, дисциплинированность и компетентность команды. В конце-концов, плохо работающая бизнес-логика без метрик обычно лучше нереализованной бизнес-логики с крутыми метриками :-D
+When developing a prototype and even when delivering first versions to production, you can rely on your experience, intuition, periodic manual checks of the system state, the discipline and competence of the team. After all, poorly working business logic without metrics is usually better than non-implemented business logic with cool metrics :-D
 
-Но общая идея примерно следующая: чем сильнее последствия срабатывания рисков тем больше метрик вам надо.
+The general idea is roughly as follows: the greater the impact of risks, the more metrics you need.
 
 ## За метриками надо следить глазами
 
