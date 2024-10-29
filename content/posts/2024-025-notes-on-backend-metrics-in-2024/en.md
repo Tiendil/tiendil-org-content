@@ -26,11 +26,11 @@ Therefore, there is no single ideal way to collect metrics. Moreover, the variet
 
 So, when the time came to implement metrics in [Feeds Fun](https://feeds.fun/), I spent a few days updating my knowledge and organizing my thoughts.
 
-In this essay, I will share some of my thoughts on the metrics as a whole and on the solution I have chosen for myself. Not in the form of a tutorial but in the form of theses on topics I am passionate about.
+In this essay, I will share some of my thoughts on the metrics as a whole and the solution I have chosen for myself. Not in the form of a tutorial but in the form of theses on topics I am passionate about.
 
 <!-- more -->
 
-## Metrics is the basic tool for managing the technical state of a project at the operational, tactical, and strategic levels
+## Metrics are the basic tool for managing the technical state of a project at the operational, tactical, and strategic levels
 
 Metrics are literally a developer's eyes. Without them, it is impossible to see both the project's current technical situation and its long-term trends.
 
@@ -41,7 +41,7 @@ If we take the classic loop from systems engineering (and other [memeplexes]{pos
 3. synthesis/decision-making;
 4. implementation of the solution;
 
-then metrics is the first step in the loop (and part of the second). Without them, closing the feedback loop for effective project management is impossible.
+then metrics are the first step in the loop (and part of the second). Without them, closing the feedback loop for effective project management is impossible.
 
 Speaking of planning levels, metrics help:
 
@@ -93,7 +93,7 @@ This is fundamentally wrong for the following reasons.
 
 **A lot of processes in life are non-linear**: an effect of an issue can grow [exponentially](https://en.wikipedia.org/wiki/Exponential_growth). For example, a request’s duration could quietly increase by 1% daily over months, only to jump 20-fold in a week. With a short history, we won’t spot the trend in time (the slope over a short interval will be barely noticeable) nor quickly identify the trend's starting point.
 
-## An application code should not know about your Service Level Agreements
+## An application code should not be aware about your Service Level Agreements
 
 Your application's goal is to execute its business logic and provide clear, accurate measurements of its state—to be a source of truth. How to process those measurements and act on them is a separate question that external tools should address.
 
@@ -114,7 +114,7 @@ Fifth, an application cannot act on metrics, so it should not try to process the
 
 This is why I don't like Prometheus's approach to collecting pre-aggregated metrics — I just don't understand how to live with it.
 
-## An application should only push metrics
+## An application should only push metrics (instantaneously)
 
 An application should not store metrics in the belief that something will collect them later.
 
