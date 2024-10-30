@@ -18,7 +18,7 @@ When people are under pressure from a target metric, they have three behavioral 
 2. They can sabotage/distort the system's work.
 3. They can sabotage/distort the data.
 
-For example, if you have a factory producing things and a production plan for them;
+For example, if you have a factory producing things and a production plan for them.
 
 Then possible strategies for your employees:
 
@@ -28,11 +28,11 @@ Then possible strategies for your employees:
 
 Therefore, the manager's goals:
 
-1. Create conditions that make it possible, comfortable, and beneficial to improve the system. For example, set realistic, objective deadlines and plans.
+1. Create conditions that make improving the system possible, comfortable, and beneficial. For example, set realistic, objective deadlines and plans.
 2. Make it difficult to sabotage/distort the system.
 3. Make it difficult to falsify data.
 
-There are interesting examples of Amazon's adaptation to these principles in the original post.
+The original post contains interesting examples of Amazon's adaptation to these principles.
 
 For example, they switched from optimizing output metrics to optimizing input metrics through the evolutionary refinement of heuristics about them. Because it is more difficult to falsify input metrics, and their impact on the output can be empirically evaluated.
 
@@ -45,4 +45,4 @@ As an example, here is the evolution of the metric for one of Amazon's teams:
 > - the percentage of detail page views where the products were in stock (you don’t get credit if you add items but can’t keep them in stock), which was ultimately finalized as
 > - the percentage of detail page views where the products were in stock and immediately ready for two-day shipping, which ended up being called Fast Track In Stock.
 
-For details, I recommend going to the [original post](https://commoncog.com/goodharts-law-not-useful/).
+For details, I recommend visiting the [original post](https://commoncog.com/goodharts-law-not-useful/).
