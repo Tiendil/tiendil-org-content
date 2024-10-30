@@ -1,5 +1,4 @@
 ---
-title = "
 title = "In-depth analysis of Goodhart's Law"
 tags = ["practice", "theory", "business"]
 published_at = "2024-10-30T12:00:00+00:00"
@@ -11,29 +10,27 @@ I found an excellent [in-depth analysis of Goodhart's Law](https://commoncog.com
 
 [Cedric Chin](https://commoncog.com/author/cedric/) breaks down the law into its components and provides examples from Amazon's practice on how they work with them.
 
-In brief.
+In brief: everything is not so straightforward and not so bad.
 
-1. Everything is not so straightforward and not so bad.
+When people are under pressure from a target metric, they have three behavioral strategies:
 
-2. When people are under pressure from a target metric, they have three behavioral strategies:
-
-a) They can work to improve the system.
-b) They can sabotage/distort the system's work.
-c) They can sabotage/distort the data.
+1. They can work to improve the system.
+2. They can sabotage/distort the system's work.
+3. They can sabotage/distort the data.
 
 For example, if you have a factory producing things and a production plan for them;
 
 Then possible strategies for your employees:
 
-a) Improve technologies and processes to meet the plan.
-b) Hide excess production in one month to attribute it to another (sabotage of production).
-c) Take ready-made products from the warehouse to put them back on the conveyor (data falsification).
+1. Improve technologies and processes to meet the plan.
+2. Hide excess production in one month to attribute it to another (sabotage of production).
+3. Take ready-made products from the warehouse to put them back on the conveyor (data falsification).
 
 Therefore, the manager's goals:
 
-a) Create conditions that make it possible, comfortable, and beneficial to improve the system. For example, set realistic, objective deadlines and plans.
-b) Make it difficult to sabotage/distort the system.
-c) Make it difficult to falsify data.
+1. Create conditions that make it possible, comfortable, and beneficial to improve the system. For example, set realistic, objective deadlines and plans.
+2. Make it difficult to sabotage/distort the system.
+3. Make it difficult to falsify data.
 
 There are interesting examples of Amazon's adaptation to these principles in the original post.
 
