@@ -8,7 +8,7 @@ seo_image = ""
 
 Nearly a year and a half ago, I published a major [forecast on artificial intelligence]{post:@choose-nearest-language:silly-predictions-about-artificial-intelligence}. Read it if you haven't already — it's still looking good.
 
-Recently, I've decided expand on the prognosis, but a sizeable comprehensive post isn't coming together, so there will be a series of smaller notes.
+Recently, I've decided to expand on the prognosis, but a sizeable comprehensive post isn't coming together, so there will be a series of smaller notes.
 
 I'll start with industry transparency: the current AI movement has several impressive aspects that I'd like to discuss.
 
