@@ -33,29 +33,29 @@ Therefore, if a lot of money is going somewhere, it is quite reasonable to assum
 - The technology is considered ~~sufficiently promising~~ more promising than most others in terms of potential return on investment. For myself, I interpret the return as at least 2-3 orders of magnitude.
 - A request for some feature/possibility from potential customers is assessed as so large that the potential profit justifies the risk of losing money due to technology unreadiness.
 
-## Нехватка рук специализированных разработчиков/учёных vs обилие денег
+## Lack of specialized developers/scientists vs abundance of money
 
-Если у вас есть лишний миллион долларов, то вы не сможете получить из воздуха нового специалиста по SOTA архитектурам нейронок быстрее, чем лет за пять, может за два-три, если человек особо способный. Можно только переманить уже готового специалиста, — перекинуть его с проекта на проект, если смотреть на проблему в масштабе человечества.
+If you have a spare million dollars, you won't be able to get a new specialist in SOTA neural network architectures out of thin air faster than in five years, maybe in two-three, if the person is especially capable. You can only entice an already prepared specialist — move them from project to project, speaking on the scale of humanity.
 
-Для примера, есть версия, что [Google недавно купил стартап за 2.7 млрд$ только для того, чтобы забрать его основателей и core команду обратно к себе](https://www.linkedin.com/pulse/analyzing-googles-characterai-acquisition-sramana-mitra-iramc/).
+For example, there is a version that [Google recently bought a startup for $2.7 billion just to take back its founders and core team](https://www.linkedin.com/pulse/analyzing-googles-characterai-acquisition-sramana-mitra-iramc/).
 
-Соответственно:
+Consequently:
 
-- Пространство возможных архитектур нейронок исследуется медленно — работа не масштабируется вливанием денег.
-- Большинство денег вливается в масштабирование всего, что можно масштабировать: данных, железа, команд поддержки (сюда можно включить не только условных разметчиков данных, но и дорогих спецов из области MLOps или писателей кода под железо).
+- The space of possible neural network architectures is explored slowly — work does not scale with money.
+- Most of the money is poured into scaling everything that can be scaled: data, hardware, "support" teams. The latter includes not only low-qualified data labelers, but also expensive specialists: MLOps, system-level developers, hardware creators, etc.
 
-Это должно приводить к важным скрытым трендам, но это сугубо мои гипотезы:
+This should lead to important hidden trends, here are my unproven hypotheses:
 
-- Выбор направлений исследований в коммерческих компаниях, а именно в них сейчас происходит большинство исследований, находится под сильным давлением необходимости масштабировать нейронки. Соответственно, более интересные (но хуже масштабируемые) подходы могут не получать должного внимания, что скажется в будущем на скорости прогресса.
-- Даже после создания концепции перспективной архитектуры, её реальное внедрение будет отложено до момента, когда исчерапается весь запас масштабирования текущей актуальной архитектуры. Так как профит от масштабирования гарантированный и быстрый, а профит от перехода на новую архитектуру не гарантированный и не быстрый.
-- Возрастает сложность доказательства «перспективности» архитектуры, так как актуальные архитектуры заоптимизированы до максимума и никакая новая разработка не покажет сопоставимых с ними результатов, даже если концептуально превосходит текущие решения. У её разработчиков просто не будет денег и времени на сопоставимые оптимизации.
+- The choice of research directions in commercial companies, where most research is currently taking place, is under strong pressure to scale neural networks. Consequently, more interesting (but less scalable) approaches may not receive the attention they deserve, which will affect the speed of progress in the future.
+- Even after creating a concept of a promising architecture, its real implementation will be postponed until the entire scaling reserve of the current relevant architecture is exhausted. Because the profit from scaling is guaranteed and fast, while the profit from transitioning to a new architecture is not guaranteed and not fast.
+- The complexity of proving the "prospects" of an architecture is increasing, as current architectures are optimized to the maximum and no new development will show comparable results, even if conceptually superior to current solutions. Its developers simply won't have the money and time for comparable optimizations.
 
-Если доверять этим гипотезам, то можно очень чётко видеть реальный прогресс технологий нейронок.
+If we trust these hypotheses, we can very clearly see the real progress of neural network technologies.
 
-Утрируя, когда условная OpenAI выпускает новую флагманскую модель, мы можем видеть:
+Exaggerating, when the someone like OpenAI releases a new flagship model, we can observe:
 
-- конкретные отличия в архитектуре от предыдущей модели;
-- конкретные сроки достижения пика возможностей (масштабирования) предыдущим SOTA решением.
-- конкретные сроки на разработку/доведение до ума/оптимизацию нового архитектурного решения.
+- specific architectural differences from the previous model;
+- clear timelines for when the previous SOTA solution reached its peak potential (scaling limit);
+- clear timelines for developing/refining/optimizing the new architectural solution.
 
-То есть, мы можем видеть серию качественных скачков и время между ними. Опираясь на эти данные, в одной из будущих заметок я попробую оценить пределы прогресса текущих технологий ИИ.
+In other words, we can see a series of qualitative jumps and the time between them. Based on this data, in one of the future notes, I will try to assess the limits of progress of current AI technologies.
