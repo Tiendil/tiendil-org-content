@@ -1,15 +1,10 @@
 ---
 title = "Заметки об ИИ в 2024: прозрачность индустрии"
-tags = ["practice", "theory", "business"]
+tags = ["practice", "theory", "neural-networks"]
 published_at = "2024-11-03T12:00:00+00:00"
-seo_description = ""
+seo_description = "Мои заметки об актуальном состоянии ИИ в конце 2024, эта часть о прозрачности индустрии."
 seo_image = ""
 ---
-
-<!-- TODO: description -->
-<!-- TODO: tags -->
-<!-- TODO: add image -->
-<!-- TODO: add SEO image -->
 
 Года полтора назад я опубликовал большой [прогноз об искусственном интеллекте]{post:silly-predictions-about-artificial-intelligence}. Почитайте, если ещё не читали — пока что он хорошо себя показывает.
 
