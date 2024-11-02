@@ -1,7 +1,7 @@
 ---
 title = "Notes on AI in 2024: industry transparency"
 tags = ["practice", "theory", "neural-networks"]
-published_at = "2024-11-03T12:00:00+00:00"
+published_at = "2024-11-02T17:00:00+00:00"
 seo_description = "My notes on the current state of AI at the end of 2024, this part is about industry transparency."
 seo_image = ""
 ---
