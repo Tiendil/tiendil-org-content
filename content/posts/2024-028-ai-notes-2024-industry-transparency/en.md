@@ -18,19 +18,19 @@ I'll start with industry transparency: the current AI movement has several impre
 
 A large portion of industry events are public (here and further, by "we" I mean an abstract humanity):
 
-- We either know in the moment who of the key companies is doing what, or we are finding out within half a year.
+- We either know in real-time what each key company is working on, or we find out within six months to a year.
 - We almost instantly know when key specialists change companies, sometimes even projects.
-- Within months, we notice a large part of ~~important~~ interesting scientific developments. For example, after the publication of a preprint on [Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756), the topic went through stages of hype and the first checks of the concept in practice just within a few months.
+- Within months, we notice a large part of ~~significant~~ interesting scientific developments. For example, after the publication of a preprint on [Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756), the topic went through stages of hype and the first checks of the concept in practice just within a few months.
 
-## All major projects are led by experienced IT businessmen
+## All significant projects are led by experienced IT businessmen
 
-These people know the value of money and the potential benefit of its distribution. Well, maybe not all of them know it perfectly, but most likely they better with money than an average person.
+These people know the value of money and the potential benefit of its distribution. Well, maybe not all of them know it perfectly, but most likely, they are better at money than an average person.
 
-Consequently, the directions of companies' efforts correlate well with the assessment of technology prospects. And with the prospect of raising hype too, for the sake of fairness.
+Consequently, the directions of companies' efforts correlate well with the assessment of technology prospects. And, for the sake of fairness, with the prospect of raising hype, too.
 
-Therefore, if a lot of money is going somewhere, it is quite reasonable to assume one of two options, sometimes both at once:
+Therefore, if a lot of money is going somewhere, it is pretty reasonable to assume one of two options, sometimes both at once:
 
-- The technology is considered ~~sufficiently promising~~ more promising than most others in terms of potential return on investment. For myself, I interpret the return as at least 2-3 orders of magnitude.
+- The technology is considered ~~sufficiently promising~~ more promising than most others regarding potential return on investment. I interpret the return as at least 2-3 orders of magnitude.
 - A request for some feature/possibility from potential customers is assessed as so large that the potential profit justifies the risk of losing money due to technology unreadiness.
 
 ## Lack of specialized developers/scientists vs abundance of money
