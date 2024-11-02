@@ -6,11 +6,11 @@ seo_description = "My notes on the current state of AI at the end of 2024, this 
 seo_image = ""
 ---
 
-Nearly a year and a half ago, I published a large [forecast on artificial intelligence]{post:@choose-nearest-language:silly-predictions-about-artificial-intelligence}. Read it if you haven't already — it's still looking good.
+Nearly a year and a half ago, I published a major [forecast on artificial intelligence]{post:@choose-nearest-language:silly-predictions-about-artificial-intelligence}. Read it if you haven't already — it's still looking good.
 
-Recently, I've decided to expand the prognosis, but a large comprehensive post just isn't coming together, so it will be a series of smaller notes.
+Recently, I've decided to expand the prognosis, but a sizeable comprehensive post isn't coming together, so there will be a series of smaller notes.
 
-I'll start with speaking about the transparency of the industry: the current AI movement has several cool features that I want to speak about.
+I'll start with industry transparency: the current AI movement has several impressive aspects that I'd like to discuss.
 
 <!-- more -->
 
