@@ -1,37 +1,37 @@
 ---
-title = "Заметки об ИИ в 2024: прозрачность индустрии"
+title = "Notes on AI in 2024: industry transparency"
 tags = ["practice", "theory", "neural-networks"]
 published_at = "2024-11-03T12:00:00+00:00"
-seo_description = "Мои заметки об актуальном состоянии ИИ в конце 2024, эта часть о прозрачности индустрии."
+seo_description = "My notes on the current state of AI at the end of 2024, this part is about industry transparency."
 seo_image = ""
 ---
 
-Года полтора назад я опубликовал большой [прогноз об искусственном интеллекте]{post:silly-predictions-about-artificial-intelligence}. Почитайте, если ещё не читали — пока что он хорошо себя показывает.
+Nearly a year and a half ago, I published a large [forecast on artificial intelligence]{post:@choose-nearest-language:silly-predictions-about-artificial-intelligence}. Read it if you haven't already — it's still looking good.
 
-Недавно решил его дополнить, но большой целостный пост всё никак не выходит, поэтому будет серия заметок.
+Recently, I've decided to expand the prognosis, but a large comprehensive post just isn't coming together, so it will be a series of smaller notes.
 
-Начну с прозрачности индустрии: у текущей движухи с ИИ есть несколько крутых особенностей, о которых я хочу поговорить.
+I'll start with speaking about the transparency of the industry: the current AI movement has several cool features that I want to speak about.
 
 <!-- more -->
 
-## Малая задержка в получении информации об актуальном состоянии отрасли
+## A low delay in receiving information about the current state of the industry
 
-Большая доля событий публична (сдесь и далее под «мы» буду иметь в виду абстрактную общественность):
+A large portion of industry events are public (here and further, by "we" I mean an abstract humanity):
 
-- Мы либо в моменте знаем кто из ключевых компаний что делает, либо узнаём в течении полугода-года.
-- Мы почти моментально узнаём, когда ключевые специалисты меняют компании, иногда, даже проекты.
-- Мы в течении месяцев замечаем большую часть ~~важных~~ интересных научных подвижек. Например, после публикации препринта о [Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756) в течении нескольких месяцев тема прошла через этапы хайпа и первых проверок концепции на практике.
+- We either know in the moment who of the key companies is doing what, or we are finding out within half a year.
+- We almost instantly know when key specialists change companies, sometimes even projects.
+- Within months, we notice a large part of ~~important~~ interesting scientific developments. For example, after the publication of a preprint on [Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756), the topic went through stages of hype and the first checks of the concept in practice just within a few months.
 
-## Все крупные проекты ведутся опытными IT-бизнесменами
+## All major projects are led by experienced IT businessmen
 
-Эти люди умеют считать деньги и потенциальную выгоду от их распределения. Ладно, может не все прям умеют, но большинство скорее всего шарит лучше среднего.
+These people know the value of money and the potential benefit of its distribution. Well, maybe not all of them know it perfectly, but most likely they better with money than an average person.
 
-Поэтому направления усилий компаний хорошо коррелируют с оценкой перспективности технологий. И с перспективностью поднятия хайпа тоже, справедливости ради.
+Consequently, the directions of companies' efforts correlate well with the assessment of technology prospects. And with the prospect of raising hype too, for the sake of fairness.
 
-Соответственно, если куда-то идут большие деньги, то довольно разумно предполагать один из двух вариантов, иногда сразу оба:
+Therefore, if a lot of money is going somewhere, it is quite reasonable to assume one of two options, sometimes both at once:
 
-- Технология сочтена ~~достаточно перспективной~~ перспективнее большинства других в плане потенциальной отдачи инвестиций. Отдачу, для себя, я интерпретирую как минимум 2-3 десятичных порядка.
-- Запрос на какую-то фичу/возможность от потенциальных пользователей оценён настолько большим, что потенциальный профит оправдывает риск потери денег из-за неготовности технологий.
+- The technology is considered ~~sufficiently promising~~ more promising than most others in terms of potential return on investment. For myself, I interpret the return as at least 2-3 orders of magnitude.
+- A request for some feature/possibility from potential customers is assessed as so large that the potential profit justifies the risk of losing money due to technology unreadiness.
 
 ## Нехватка рук специализированных разработчиков/учёных vs обилие денег
 
