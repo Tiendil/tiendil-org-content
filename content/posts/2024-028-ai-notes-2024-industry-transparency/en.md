@@ -1,6 +1,6 @@
 ---
 title = "Notes on AI in 2024: industry transparency"
-tags = ["practice", "theory", "neural-networks"]
+tags = ["practice", "theory", "neural-networks", "ai-notes-2024"]
 published_at = "2024-11-02T17:00:00+00:00"
 seo_description = "My notes on the current state of AI at the end of 2024, this part is about industry transparency."
 seo_image = ""
@@ -9,6 +9,10 @@ seo_image = ""
 Nearly a year and a half ago, I published a major [forecast on artificial intelligence]{post:@choose-nearest-language:silly-predictions-about-artificial-intelligence}. Read it if you haven't already — it's still looking good.
 
 Recently, I've decided to expand on the prognosis, but a sizeable comprehensive post isn't coming together, so there will be a series of smaller notes.
+
+/// brigid-collection
+id = "ai-notes-2024"
+///
 
 I'll start with industry transparency: the current AI movement has several impressive aspects that I'd like to discuss.
 
