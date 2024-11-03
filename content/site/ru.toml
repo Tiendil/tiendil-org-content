@@ -107,6 +107,7 @@ prompt-engineering = "prompt engineering"
 tutorial = "урок"
 podcasts = "подкасты"
 cooks-first-around-the-world = "Первая кругосветка Кука"
+world-builders-2023 = "World Builders 2023"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'

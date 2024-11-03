@@ -1,6 +1,7 @@
 ---
-title = "Делаем вымышленную вселенную: месяц 2"
-tags = [ "business", "game-design", "practice", "world-builders"]
+title = "Месяц 2"
+tags = [ "business", "game-design", "practice", "world-builders", "world-builders-2023"]
+series = "world-builders-2023"
 published_at = "2024-01-05T12:00:00+00:00"
 seo_description = "Отчёт о втором месяце обучения в Product Vision Masters — школе по созданию вымышленных миров."
 seo_image = "images/making-a-fictional-universe-month-2-steam-single-player.png"
@@ -11,10 +12,13 @@ src = "images/making-a-fictional-universe-month-2-steam-single-player.png"
 alt = 'Vision документ игры по выдуманному миру'
 ///
 
-- [первый месяц]{post:making-a-fictional-universe-month-1}
-- второй месяц
+Заметки о моём участии в [World Builders](https://madcrusader.com/worldbuilders):
 
-Второй месяц занятий в [Product Vision Masters](https://www.productvisionmasters.com/) был посвящён созданию concept vision-document первого продукта по вселенной.
+/// brigid-series
+tag = "world-builders-2023"
+///
+
+Второй месяц занятий был посвящён созданию concept vision-document первого продукта по вселенной.
 
 Организаторы школы называют его концептом, но я с таким определением не согласен, поэтому везде буду называть его видением :-)
 

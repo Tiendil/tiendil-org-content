@@ -1,6 +1,7 @@
 ---
 title = "Процедурные заголовки для новостей без сложной генерации текста"
-tags = [ "practice", "development", "gamedev", "game-design", "procedural-content-generation", "world-builders"]
+tags = [ "practice", "development", "gamedev", "game-design", "procedural-content-generation", "world-builders", "world-builders-2023"]
+series = "world-builders-2023"
 published_at = "2024-04-10T12:00:00+00:00"
 seo_description = "Придумал как в прототипе игры генерировать заголовки новостей без сложной генерации текста."
 seo_image = "./cover.gif"
@@ -9,6 +10,12 @@ seo_image = "./cover.gif"
 /// brigid-images
 src = "./cover.gif"
 caption = "Интерфейс выбора коннотации новости из прототипа игры про агентство новостей. Новость: арест ведьмочки-подростка за пьяное вождение."
+///
+
+Заметки о моём участии в [World Builders](https://madcrusader.com/worldbuilders):
+
+/// brigid-series
+tag = "world-builders-2023"
 ///
 
 От [опросов про предпочтения игроков]{post:making-a-fictional-universe-quantity-survey-processing} потихоньку перешёл к работе над прототипом игры.

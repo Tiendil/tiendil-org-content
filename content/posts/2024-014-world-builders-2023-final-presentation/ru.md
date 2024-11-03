@@ -1,6 +1,7 @@
 ---
-title = "Отчётная презентация по World Builders 2023"
-tags = ["theory", "practice", "development", "gamedev", "game-design", "monetization", "business", "procedural-content-generation", "concepts", "world-builders"]
+title = "Отчётная презентация"
+tags = ["theory", "practice", "development", "gamedev", "game-design", "monetization", "business", "procedural-content-generation", "concepts", "world-builders", "world-builders-2023"]
+series = "world-builders-2023"
 published_at = "2024-06-09T12:00:00+00:00"
 seo_description = "Рассказ об итогах моих активностей в школе: описание игры, roadmap, финансовой модели."
 seo_image = ""
@@ -9,6 +10,12 @@ seo_image = ""
 /// brigid-youtube
 id = "_jEtyW3Oez8"
 caption = "Рассказ об итогах моих активностей в школе: описание игры, roadmap, финансовой модели."
+///
+
+Заметки о моём участии в [World Builders](https://madcrusader.com/worldbuilders):
+
+/// brigid-series
+tag = "world-builders-2023"
 ///
 
 Назвать презентацию отчётной — моя придумка. На мой взгляд это лучше всего описывает суть презентации, так как она сильно размыта, чтобы собирать деньги с её помощью. Плюс, я не во всём согласен с её структурой и фокусом, но это то, что от нас просили.

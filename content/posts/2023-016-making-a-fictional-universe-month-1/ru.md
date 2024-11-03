@@ -1,6 +1,7 @@
 ---
-title = "Делаем вымышленную вселенную: месяц 1"
-tags = [ "the-tale", "open-source", "business", "game-design", "practice", "theory", "world-builders", "world-design"]
+title = "Месяц 1"
+tags = [ "the-tale", "open-source", "business", "game-design", "practice", "theory", "world-builders", "world-builders-2023", "world-design"]
+series = "world-builders-2023"
 published_at = "2023-12-03T12:00:00+00:00"
 seo_description = "Отчёт о первом месяце занятий в Product Vision Masters — школе создания вымышленных вселенных."
 seo_image = "images/making-a-fictional-universe-month-1-cover.jpg"
@@ -11,11 +12,13 @@ src = "images/making-a-fictional-universe-month-1-cover.jpg"
 caption = 'ChatGPT: "Draw an image of a producer working on semantic neighborhood analysis of a new fictional universe IP."'
 ///
 
+Заметки о моём участии в [World Builders](https://madcrusader.com/worldbuilders):
 
-- первый месяц
-- [второй месяц]{post:making-a-fictional-universe-month-2}
+/// brigid-series
+tag = "world-builders-2023"
+///
 
-Прошёл первый месяц занятий в [Product Vision Masters](https://www.productvisionmasters.com/). Посвящён он был «категорийному анализу» (внутренняя практика школы, на основе опыта преподавателей) вымышленной вселенной, над которой каждый из участников будет работать. Один участник — одна вселенная, потом обещают объединить нас в команды.
+Прошёл первый месяц занятий. Посвящён он был «категорийному анализу» (внутренняя практика школы, на основе опыта преподавателей) вымышленной вселенной, над которой каждый из участников будет работать. Один участник — одна вселенная, потом обещают объединить нас в команды.
 
 <!-- more -->
 

@@ -1,6 +1,7 @@
 ---
 title = "Preferences of strategy players"
-tags = [ "practice", "development", "gamedev", "game-design", "open-source", "world-builders", "interesting", "best"]
+tags = [ "practice", "development", "gamedev", "game-design", "open-source", "world-builders", "interesting", "best", "world-builders-2023"]
+series = "world-builders-2023"
 published_at = "2024-02-24T12:00:00+00:00"
 seo_description = "In this post you will find an interactive dashboard to explore the preferences of strategy players."
 seo_image = "./images/cover.jpg"
@@ -9,6 +10,12 @@ seo_image = "./images/cover.jpg"
 /// brigid-images
 src = "./images/cover.jpg"
 caption = "Looking at the survey data and trying to find something useful."
+///
+
+Notes on my participation in [World Builders](https://madcrusader.com/worldbuilders):
+
+/// brigid-series
+tag = "world-builders-2023"
 ///
 
 Recently I've conducted a survey about the preferences of strategy players.

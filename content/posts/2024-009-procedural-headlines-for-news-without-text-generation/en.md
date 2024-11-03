@@ -1,6 +1,7 @@
 ---
 title = "Procedural news headlines without complex text generation"
-tags = [ "practice", "development", "gamedev", "game-design", "procedural-content-generation", "world-builders"]
+tags = [ "practice", "development", "gamedev", "game-design", "procedural-content-generation", "world-builders", "world-builders-2023"]
+series = "world-builders-2023"
 published_at = "2024-04-10T12:00:00+00:00"
 seo_description = "I came up with a way to generate news headlines in my game prototype without complex text generation."
 seo_image = "./cover.gif"
@@ -9,6 +10,12 @@ seo_image = "./cover.gif"
 /// brigid-images
 src = "./cover.gif"
 caption = "A screenshot of the interface for selecting a news connotation (from the prototype of the game about a news agency). News: the arrest of a teenage witch for drunk driving."
+///
+
+Notes on my participation in [World Builders](https://madcrusader.com/worldbuilders):
+
+/// brigid-series
+tag = "world-builders-2023"
 ///
 
 From the [player preference survey]{post:making-a-fictional-universe-quantity-survey-processing}, I gradually moved on to working on a game prototype.
