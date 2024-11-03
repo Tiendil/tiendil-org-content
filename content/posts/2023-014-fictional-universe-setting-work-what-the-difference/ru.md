@@ -11,7 +11,7 @@ src = "images/fictional-universe-setting-work-what-the-difference-cover.jpg"
 caption = "Просил DALL-E сделать «Image of Hermione Grainger in power armor from W40K with a lightsaber from Star Wars.» Он отказался генерировать именованного персонажа (whyyyyy?), но сделал что-то похожее."
 ///
 
-Начались занятия в [Product Vision Masters](https://www.productvisionmasters.com/) и оказалось что сходу сложно разделять понятия из заголовка. А без этого возникает путаница: не ясно о чём говорим, какое утверждение к чему относится и на что влияет.
+Начались занятия в [World Builders](https://madcrusader.com/worldbuilders) и оказалось что сходу сложно разделять понятия из заголовка. А без этого возникает путаница: не ясно о чём говорим, какое утверждение к чему относится и на что влияет.
 
 Давайте разберёмся.
 
