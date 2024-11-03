@@ -1,6 +1,7 @@
 ---
-title = "Тарантога: второй блин"
-tags = [ "practice", "development", "tarantoga", "theory", "exocortex",]
+title = "Второй блин"
+tags = [ "practice", "development", "tarantoga", "theory", "exocortex", "tarantoga-development"]
+series = "tarantoga-development"
 published_at = "2021-05-05T12:00:00+00:00"
 seo_description = "Вторая попытка создания личной базы знаний в рамках пет-проекта Тарантога."
 seo_image = "images/tarantoga-0_2-architecture.png"
@@ -9,6 +10,12 @@ seo_image = "images/tarantoga-0_2-architecture.png"
 /// brigid-images
 src = "images/tarantoga-0_2-architecture.png"
 caption = "Потоки данных во второй версии прототипа Тарантоги."
+///
+
+Заметки о разработке [Тарантоги]{tags:tarantoga} — экзокортекса для управления информацией:
+
+/// brigid-series
+tag = "tarantoga-development"
 ///
 
 Продолжаю эксперименты. Как видно из заголовка, вторая попытка тоже не удалась, хотя выглядит симпатичнее.

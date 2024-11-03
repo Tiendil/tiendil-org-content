@@ -1,6 +1,7 @@
 ---
 title = "Экзокортекс 3.5"
-tags = [ "thinking", "systems", "tarantoga", "theory", "futurology", "evolution", "exocortex", "interesting", "best"]
+tags = [ "thinking", "systems", "tarantoga", "theory", "futurology", "evolution", "exocortex", "interesting", "best", "tarantoga-development"]
+series = "tarantoga-development"
 published_at = "2020-10-07T12:00:00+00:00"
 seo_description = "Как должен выглядеть правильный экзокортекс в 20-ых годах XXI века."
 seo_image = "images/exocortex-3-5-cover.png"
@@ -9,6 +10,12 @@ seo_image = "images/exocortex-3-5-cover.png"
 /// brigid-images
 src = "images/exocortex-3-5-cover.png"
 caption = "Источник: [Pixel Key](https://www.pinterest.com.au/pin/861946816168401342/)"
+///
+
+Заметки о разработке [Тарантоги]{tags:tarantoga} — экзокортекса для управления информацией:
+
+/// brigid-series
+tag = "tarantoga-development"
 ///
 
 Продолжаю думать о доработке своего экзокортекса. Я уже [описывал его текущее состояние]{post:my-exocortex}. Сейчас попробую прикинуть, как должен выглядеть правильный экзокортекс в 20-ых годах XXI века.

@@ -1,10 +1,17 @@
 ---
-title = "Тарантога: мемплексы"
-tags = [ "development", "tarantoga", "theory", "exocortex",]
+title = "Мемплексы"
+tags = [ "development", "tarantoga", "theory", "exocortex", "tarantoga-development"]
+series = "tarantoga-development"
 published_at = "2020-11-02T12:00:00+00:00"
 seo_description = "Размышления о том как личная база знаний — Тарантога (мой пет-проект) — должна работать с текстами. Через призму мемплексов."
 seo_image = ""
 ---
+
+Заметки о разработке [Тарантоги]{tags:tarantoga} — экзокортекса для управления информацией:
+
+/// brigid-series
+tag = "tarantoga-development"
+///
 
 Про [метаинформацию]{post:exocortex-metainformation} поговорили, теперь можно поговорить и про тексты. Затронем в том числе и поднятый в предыдущем эссе вопрос: является ли текст отдельной сущностью или утверждением метаинформации.
 

@@ -1,10 +1,17 @@
 ---
-title = "Эксперименты с Тарантогой закончены"
-tags = [ "practice", "reflection", "tarantoga", "theory", "exocortex",]
+title = "Эксперименты закончены"
+tags = [ "practice", "reflection", "tarantoga", "theory", "exocortex", "tarantoga-development"]
+series = "tarantoga-development"
 published_at = "2023-05-08T12:00:00+00:00"
 seo_description = "Подведение итогов разработки пет-проекта — персональной базы знананий с мультиагентной системой."
 seo_image = ""
 ---
+
+Заметки о разработке [Тарантоги]{tags:tarantoga} — экзокортекса для управления информацией:
+
+/// brigid-series
+tag = "tarantoga-development"
+///
 
 Чтоб я ещё когда взялся делать blackboard мультиагентную систему с темпоральными свойствами :-D
 
