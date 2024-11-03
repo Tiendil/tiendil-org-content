@@ -1,6 +1,7 @@
 ---
-title = "Первая кругосветка Кука: Туземцы"
-tags = [ "books", "practice", "interesting", "best",]
+title = "Туземцы"
+tags = [ "books", "practice", "interesting", "best", "cooks-first-around-the-world"]
+series = "cooks-first-around-the-world"
 published_at = "2021-02-04T12:00:00+00:00"
 seo_description = "Третья часть заметок о первом кругосветном плавании Кука — отношения с туземцами."
 seo_image = "images/cooks-first-around-the-world-natives-cover.jpg"
@@ -15,12 +16,9 @@ caption = "Представитель [Маори](https://ru.wikipedia.org/wiki
 
 Содержание:
 
-1. [Контекст]{post:cooks-first-around-the-world-context}
-2. [Политика]{post:cooks-first-around-the-world-politics}
-3. **Туземцы**
-4. [Кораблекрушение]{post:cooks-first-around-the-world-shipwreck}
-5. [Потери]{post:cooks-first-around-the-world-deaths}
-6. [Интересное]{post:cooks-first-around-the-world-interesting-facts}
+/// brigid-series
+tag = "cooks-first-around-the-world"
+///
 
 Отношения с туземцами я могу охарактеризовать как непонятные, но дружеские.
 

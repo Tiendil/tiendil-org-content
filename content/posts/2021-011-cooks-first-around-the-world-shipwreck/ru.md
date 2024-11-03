@@ -1,6 +1,7 @@
 ---
-title = "Первая кругосветка Кука: Кораблекрушение"
-tags = [ "books", "practice", "interesting", "best",]
+title = "Кораблекрушение"
+tags = [ "books", "practice", "interesting", "best", "cooks-first-around-the-world"]
+series = "cooks-first-around-the-world"
 published_at = "2021-02-05T12:00:00+00:00"
 seo_description = "Четвёртая часть заметок о первом кругосветном плавании Кука — кораблекрушение."
 seo_image = "images/cooks-first-around-the-world-shipwreck-cover.jpg"
@@ -15,12 +16,9 @@ caption = "Индевор на берегу после крушения у Бо�
 
 Содержание:
 
-1. [Контекст]{post:cooks-first-around-the-world-context}
-2. [Политика]{post:cooks-first-around-the-world-politics}
-3. [Туземцы]{post:cooks-first-around-the-world-natives}
-4. **Кораблекрушение**
-5. [Потери]{post:cooks-first-around-the-world-deaths}
-6. [Интересное]{post:cooks-first-around-the-world-interesting-facts}
+/// brigid-series
+tag = "cooks-first-around-the-world"
+///
 
 Крушение у берегов Австралии, пожалуй, самый динамичный эпизод путешествия. Возможно и самый интересный.
 

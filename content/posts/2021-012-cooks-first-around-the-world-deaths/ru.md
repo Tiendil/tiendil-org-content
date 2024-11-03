@@ -1,6 +1,7 @@
 ---
-title = "Первая кругосветка Кука: Потери"
-tags = [ "books", "practice", "interesting", "best"]
+title = "Потери"
+tags = [ "books", "practice", "interesting", "best", "cooks-first-around-the-world"]
+series = "cooks-first-around-the-world"
 published_at = "2021-02-06T12:00:00+00:00"
 seo_description = "Пятая часть заметок о первом кругосветном плавании Кука — потери."
 seo_image = "images/cooks-first-around-the-world-deaths-cover.jpg"
@@ -15,12 +16,9 @@ caption = "Похороны в море, Фрэнк Уильям Брэнгви�
 
 Содержание:
 
-1. [Контекст]{post:cooks-first-around-the-world-context}
-2. [Политика]{post:cooks-first-around-the-world-politics}
-3. [Туземцы]{post:cooks-first-around-the-world-natives}
-4. [Кораблекрушение]{post:cooks-first-around-the-world-shipwreck}
-5. **Потери**
-6. [Интересное]{post:cooks-first-around-the-world-interesting-facts}
+/// brigid-series
+tag = "cooks-first-around-the-world"
+///
 
 Одними из наиболее интересных для меня записей в журнале стали описания потерь экипажа. Их хронология и причины несчастий позволяют по-новому взглянуть на морские плавания того времени.
 

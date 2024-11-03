@@ -1,6 +1,7 @@
 ---
-title = "Первая кругосветка Кука: Политика"
-tags = [ "books", "practice", "interesting", "best",]
+title = "Политика"
+tags = [ "books", "practice", "interesting", "best", "cooks-first-around-the-world"]
+series = "cooks-first-around-the-world"
 published_at = "2021-02-03T12:00:00+00:00"
 seo_description = "Вторая часть заметок о первом кругосветном плавании Кука — политика."
 seo_image = "images/cooks-first-around-the-world-politics-cover.jpg"
@@ -15,12 +16,9 @@ caption = "Капитн Джеймс Кук объявляет землю [Но�
 
 Содержание:
 
-1. [Контекст]{post:cooks-first-around-the-world-context}
-2. **Политика**
-3. [Туземцы]{post:cooks-first-around-the-world-natives}
-4. [Кораблекрушение]{post:cooks-first-around-the-world-shipwreck}
-5. [Потери]{post:cooks-first-around-the-world-deaths}
-6. [Интересное]{post:cooks-first-around-the-world-interesting-facts}
+/// brigid-series
+tag = "cooks-first-around-the-world"
+///
 
 Во время путешествия Кук сталкивался в основном с португальцами: [Рио-Де-Жанейро](https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D0%BE-%D0%B4%D0%B5-%D0%96%D0%B0%D0%BD%D0%B5%D0%B9%D1%80%D0%BE), и голландцами: [Батавия](https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%B0%D0%BA%D0%B0%D1%80%D1%82%D0%B0), [Кейптаун](https://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D0%B9%D0%BF%D1%82%D0%B0%D1%83%D0%BD). И не всегда его встречали радушно:
 

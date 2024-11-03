@@ -106,6 +106,7 @@ world-design = "дизайн миров"
 prompt-engineering = "prompt engineering"
 tutorial = "урок"
 podcasts = "подкасты"
+cooks-first-around-the-world = "Первая кругосветка Кука"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'
