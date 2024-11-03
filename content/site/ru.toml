@@ -106,7 +106,7 @@ world-design = "дизайн миров"
 prompt-engineering = "prompt engineering"
 tutorial = "урок"
 podcasts = "подкасты"
-ai-notes-2024 = "Заметки о ИИ 2024"
+ai-notes-2024 = "Заметки об ИИ в 2024"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'
