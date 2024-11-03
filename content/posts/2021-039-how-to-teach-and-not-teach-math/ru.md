@@ -1,6 +1,7 @@
 ---
 title = "Как учить и не учить математике"
-tags = [ "thinking", "education", "practice"]
+tags = [ "thinking", "education", "practice", "dive-into-deep-learning"]
+series = "dive-into-deep-learning"
 published_at = "2021-06-23T12:00:00+00:00"
 seo_description = "Мои впечатления от прохождения курса по математическому анализу Александра Храброва на Stepik."
 seo_image = "images/how-to-teach-and-not-teach-math-cover.png"
@@ -9,6 +10,12 @@ seo_image = "images/how-to-teach-and-not-teach-math-cover.png"
 /// brigid-images
 src = "images/how-to-teach-and-not-teach-math-cover.png"
 caption = "Количество успешных решений и процент успешных попыток отправки решений задач в курсе."
+///
+
+Мои заметки о погружении в глубокое обучение:
+
+/// brigid-series
+tag = "dive-into-deep-learning"
 ///
 
 Чёрт дёрнул вспоминать вышку. Я планирую немного забатанить машинное обучение, но сперва решил вспомнить, чему меня в университетах учили. Тем более, что математического анализа мне иногда не хватает.
