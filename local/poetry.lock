@@ -54,33 +54,31 @@ lxml = ["lxml"]
 
 [[package]]
 name = "brigid"
-version = "0.9.0"
+version = "0.10.0"
 description = "Static site generator."
 optional = false
-python-versions = "^3.12"
-files = []
-develop = true
+python-versions = "<4.0,>=3.12"
+files = [
+    {file = "brigid-0.10.0-py3-none-any.whl", hash = "sha256:04c8b494204c409681350f9b55aeefa6f2a87e362459e147e0917f67e4119c02"},
+    {file = "brigid-0.10.0.tar.gz", hash = "sha256:44ed182c13528a48504639806c7c57adeac252a220686f6139ac374d9a63d0f9"},
+]
 
 [package.dependencies]
-beautifulsoup4 = "4.12.*"
-fastapi = "0.112.*"
-feedgenerator = "2.1.*"
-html5lib = "1.1.*"
-jinja2 = "3.1.*"
-markdown = "3.5.*"
-pillow = "10.2.*"
-pydantic = "2.5.*"
-pydantic-settings = "2.1.*"
-pymdown-extensions = "10.7.*"
-python-frontmatter = "1.1.*"
-sentry-sdk = "1.39.*"
-structlog = "24.1.*"
-toml = "0.10.*"
-typer = "0.9.*"
-
-[package.source]
-type = "directory"
-url = "../../brigid"
+beautifulsoup4 = "==4.12.*"
+fastapi = "==0.112.*"
+feedgenerator = "==2.1.*"
+html5lib = "==1.1.*"
+jinja2 = "==3.1.*"
+markdown = "==3.5.*"
+pillow = "==10.2.*"
+pydantic = "==2.5.*"
+pydantic-settings = "==2.1.*"
+pymdown-extensions = "==10.7.*"
+python-frontmatter = "==1.1.*"
+sentry-sdk = "==1.39.*"
+structlog = "==24.1.*"
+toml = "==0.10.*"
+typer = "==0.9.*"
 
 [[package]]
 name = "certifi"
@@ -1166,4 +1164,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "55dd1991c76d5ab963c7c904d1dd7acdd266f5a112bd813449864e7a1cf025ac"
+content-hash = "a087d3fc086d3afc7128d52dde0a5b74ad33c184afe152909d962457de754a1a"
