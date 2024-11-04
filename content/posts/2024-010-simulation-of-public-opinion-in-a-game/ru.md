@@ -1,6 +1,7 @@
 ---
 title = "Симуляция общественного мнения в игре"
-tags = [ "theory", "practice", "development", "gamedev", "game-design", "open-source", "procedural-content-generation", "world-builders"]
+tags = [ "theory", "practice", "development", "gamedev", "game-design", "open-source", "procedural-content-generation", "world-builders", "world-builders-2023"]
+series = "world-builders-2023"
 published_at = "2024-04-24T12:00:00+00:00"
 seo_description = "Сделал технический прототип песочницы про манипулирование общественным мнением. Рассказываю как он работает, есть видео и исходники."
 seo_image = ""
@@ -9,6 +10,12 @@ seo_image = ""
 /// brigid-youtube
 id = "nP8OOWgnjdI"
 caption = "Демонстрация технического прототипа манипуляции общественным мнением и рассказ как он работает."
+///
+
+Заметки о моём участии в [World Builders](https://madcrusader.com/worldbuilders):
+
+/// brigid-series
+tag = "world-builders-2023"
 ///
 
 Продолжаю участвовать в школе [World Builders]{tags:world-builders}. За последний месяц набросал технический прототип механик манипуляции общественным мнением.

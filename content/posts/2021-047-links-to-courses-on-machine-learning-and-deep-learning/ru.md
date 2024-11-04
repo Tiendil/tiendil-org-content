@@ -1,10 +1,17 @@
 ---
 title = "Ссылки на курсы по Machine Learning & Deep Learning"
-tags = [ "neural-networks", "education", "practice",]
+tags = [ "neural-networks", "education", "practice", "dive-into-deep-learning"]
+series = "dive-into-deep-learning"
 published_at = "2021-08-19T12:00:00+00:00"
 seo_description = "Список курсов, которые могут быть интересны для изучения Machine Learning и Deep Learning"
 seo_image = ""
 ---
+
+Мои заметки о погружении в глубокое обучение:
+
+/// brigid-series
+tag = "dive-into-deep-learning"
+///
 
 Перед началом разбирательства с темой собрал для себя список курсов, которые могут быть интересны.
 

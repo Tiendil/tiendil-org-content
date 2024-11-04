@@ -87,6 +87,7 @@ exocortex = "экзокортекс"
 backend = "бэкенд"
 education = "образование"
 tarantoga = "Тарантога"
+tarantoga-development = "разработка Тарантоги"
 blog = "блог"
 concepts = "концепты"
 tests = "тесты"
@@ -106,6 +107,9 @@ world-design = "дизайн миров"
 prompt-engineering = "prompt engineering"
 tutorial = "урок"
 podcasts = "подкасты"
+cooks-first-around-the-world = "Первая кругосветка Кука"
+world-builders-2023 = "World Builders 2023"
+dive-into-deep-learning = "Погружение в глубокое обучение"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'

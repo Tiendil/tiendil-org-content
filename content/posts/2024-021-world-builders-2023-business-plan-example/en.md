@@ -1,6 +1,7 @@
 ---
 title = "Preparing a business plan for a game on Steam"
-tags = ["practice", "theory", "development", "gamedev", "monetization", "business", "interesting", "best", "world-builders", "tutorial"]
+tags = ["practice", "theory", "development", "gamedev", "monetization", "business", "interesting", "best", "world-builders", "tutorial", "world-builders-2023"]
+series = "world-builders-2023"
 published_at = "2024-08-15T12:00:00+00:00"
 seo_description = "An example of developing a business plan for a game on Steam with a description of logic, calculations, and remarks."
 seo_image = "./images/cover.png"
@@ -9,6 +10,12 @@ seo_image = "./images/cover.png"
 /// brigid-images
 src = "./images/cover.png"
 caption = "Earning millions is easier than ever. I'll tell you how :-D"
+///
+
+Notes on my participation in [World Builders](https://madcrusader.com/worldbuilders):
+
+/// brigid-series
+tag = "world-builders-2023"
 ///
 
 When I posted my [final presentation]{post:@choose-nearest-language:world-builders-2023-final-presentation} ([slides](https://drive.google.com/file/d/1BUhTWCW9YysP0ZCUrIoFbmqXDa-Fz946/view?usp=sharing)) for World Builders 2023 ([my posts]{tags:world-builders}, [site](https://madcrusader.com/)), I promised to tell how I made a roadmap and a financial model for the game. So, here they are.

@@ -1,6 +1,7 @@
 ---
 title = "Cleaning up the results of the strategy players survey"
-tags = [ "practice", "development", "gamedev", "game-design", "open-source", "world-builders"]
+tags = [ "practice", "development", "gamedev", "game-design", "open-source", "world-builders", "world-builders-2023"]
+series = "world-builders-2023"
 published_at = "2024-02-23T12:00:00+00:00"
 seo_description = "Cleaning up the results of the survey about strategy games. Describing the methodology of data collection and processing. Publishing cleaned data."
 seo_image = "./images/cover.png"
@@ -9,6 +10,12 @@ seo_image = "./images/cover.png"
 /// brigid-images
 src = "./images/cover.png"
 caption = "The survey was targeted at the fans of strategy games. It seems, I was able to find audience quite accurately."
+///
+
+Notes on my participation in [World Builders](https://madcrusader.com/worldbuilders):
+
+/// brigid-series
+tag = "world-builders-2023"
 ///
 
 Recently I asked you to fill in a survey about strategy games.

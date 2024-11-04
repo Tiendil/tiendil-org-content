@@ -1,6 +1,7 @@
 ---
-title = "Первая кругосветка Кука: Контекст"
-tags = [ "books", "practice", "interesting", "best"]
+title = "Контекст"
+tags = [ "books", "practice", "interesting", "best", "cooks-first-around-the-world"]
+series = "cooks-first-around-the-world"
 published_at = "2021-02-02T12:00:00+00:00"
 seo_description = "Первая часть заметок о первом кругосветном плавании Кука — контекст."
 seo_image = "images/cooks-first-around-the-world-context-cover.jpg"
@@ -15,12 +16,9 @@ caption = "Попал мне в руки перевод судового жур�
 
 Содержание:
 
-1. **Контекст**
-2. [Политика]{post:cooks-first-around-the-world-politics}
-3. [Туземцы]{post:cooks-first-around-the-world-natives}
-4. [Кораблекрушение]{post:cooks-first-around-the-world-shipwreck}
-5. [Потери]{post:cooks-first-around-the-world-deaths}
-6. [Интересное]{post:cooks-first-around-the-world-interesting-facts}
+/// brigid-series
+tag = "cooks-first-around-the-world"
+///
 
 В очередь на прочтение я положил журнал по нескольким причинам:
 

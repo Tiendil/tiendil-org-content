@@ -1,10 +1,17 @@
 ---
-title = "Тарантога: первый блин"
-tags = [ "practice", "development", "tarantoga", "theory", "exocortex",]
+title = "Первый блин"
+tags = [ "practice", "development", "tarantoga", "theory", "exocortex", "tarantoga-development"]
+series = "tarantoga-development"
 published_at = "2021-03-30T12:00:00+00:00"
 seo_description = "Первые результаты работы над пет-проектом — личной базой знаний."
 seo_image = "images/tarantoga-the-first-pancake-data-flow.png"
 ---
+
+Заметки о разработке [Тарантоги]{tags:tarantoga} — экзокортекса для управления информацией:
+
+/// brigid-series
+tag = "tarantoga-development"
+///
 
 Продолжаю прототипировать свои идеи. Ожидаемо, первый блин вышел комом: и по срокам и по качеству. Однако получилось опробовать описанные ранее концепции, посмотреть что работает, а что нет.
 
