@@ -1,6 +1,7 @@
 ---
 title = "Нельзя просто так взять и запустить Deep Learning"
-tags = [ "jupyter-notebooks", "open-source", "python", "neural-networks", "education", "practice",]
+tags = [ "jupyter-notebooks", "open-source", "python", "neural-networks", "education", "practice", "dive-into-deep-learning"]
+series = "dive-into-deep-learning"
 published_at = "2021-07-24T12:00:00+00:00"
 seo_description = "Заметки о запуске Deep Learning на своей машине."
 seo_image = "images/you-cant-just-take-and-run-dl-cover.jpeg"
@@ -11,9 +12,13 @@ src = "images/you-cant-just-take-and-run-dl-cover.jpeg"
 alt = "Очень известный мем с Боромиром."
 ///
 
-Продолжаю [разбираться с Deep Learning]{post:6-s191-introduction-to-deep-learnin}.
+Мои заметки о погружении в глубокое обучение:
 
-Решил попробовать его на практике: сам придумал лабу, сам сделал, сам себя похвалил.
+/// brigid-series
+tag = "dive-into-deep-learning"
+///
+
+Продолжаю разбираться с Deep Learning, решил попробовать его на практике: сам придумал лабу, сам сделал, сам себя похвалил.
 
 Целью было построить простейшую, но более-менее полную цепочку обучения модели с помощью [Keras](https://keras.io/)+[TensorFlow](https://www.tensorflow.org/) и запустить её на своей машине.
 

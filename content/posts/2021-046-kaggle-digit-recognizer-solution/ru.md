@@ -1,6 +1,7 @@
 ---
-title = "Kaggle: Digit Recognizer (MNIST) точность 0.99585"
-tags = [ "jupyter-notebooks", "open-source", "python", "neural-networks", "education", "practice", "tutorial"]
+title = "Digit Recognizer (MNIST) точность 0.99585"
+tags = [ "jupyter-notebooks", "open-source", "python", "neural-networks", "education", "practice", "tutorial", "dive-into-deep-learning"]
+series = "dive-into-deep-learning"
 published_at = "2021-08-10T12:00:00+00:00"
 seo_description = "Пример решения задачи распознавания рукописных цифр из набора MNIST на Kaggle."
 seo_image = "images/kaggle-digit-recognizer-solution-cover.png"
@@ -9,6 +10,12 @@ seo_image = "images/kaggle-digit-recognizer-solution-cover.png"
 /// brigid-images
 src = "images/kaggle-digit-recognizer-solution-cover.png"
 caption = "Примеры цифр из набора MNIST."
+///
+
+Мои заметки о погружении в глубокое обучение:
+
+/// brigid-series
+tag = "dive-into-deep-learning"
 ///
 
 Продолжаю путешествие по занимательным землям Deep Learning.

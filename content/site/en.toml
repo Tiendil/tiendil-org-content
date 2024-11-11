@@ -102,6 +102,7 @@ prompt-engineering = "prompt engineering"
 tutorial = "tutorial"
 podcasts = "podcasts"
 ai-notes-2024 = "AI notes 2024"
+world-builders-2023 = "World Builders 2023"
 
 [theme_translations]
 tags_filter_header = 'Found essays:'

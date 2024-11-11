@@ -1,6 +1,7 @@
 ---
-title = "Первая кругосветка Кука: Интересное"
-tags = [ "books", "practice", "interesting", "best",]
+title = "Интересное"
+tags = [ "books", "practice", "interesting", "best", "cooks-first-around-the-world"]
+series = "cooks-first-around-the-world"
 published_at = "2021-02-07T12:00:00+00:00"
 seo_description = "Шестая часть заметок о первом кругосветном плавании Кука — интересное."
 seo_image = "images/cooks-first-around-the-world-interesting-facts-cover.jpg"
@@ -15,12 +16,9 @@ caption = "Набросок кенгуру, [Сидней Паркинсон](ht
 
 Содержание:
 
-1. [Контекст]{post:cooks-first-around-the-world-context}
-2. [Политика]{post:cooks-first-around-the-world-politics}
-3. [Туземцы]{post:cooks-first-around-the-world-natives}
-4. [Кораблекрушение]{post:cooks-first-around-the-world-shipwreck}
-5. [Потери]{post:cooks-first-around-the-world-deaths}
-6. **Интересное**
+/// brigid-series
+tag = "cooks-first-around-the-world"
+///
 
 В этом посте соберу интересные, иногда забавные, факты, которым не нашлось место в предыдущих частях. Закончу же характеристикой самого издания.
 

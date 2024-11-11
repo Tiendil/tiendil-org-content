@@ -1,6 +1,7 @@
 ---
 title = "Считаем бизнес-план для игры в Steam"
-tags = ["practice", "theory", "development", "gamedev", "monetization", "business", "interesting", "best", "world-builders", "tutorial"]
+tags = ["practice", "theory", "development", "gamedev", "monetization", "business", "interesting", "best", "world-builders", "tutorial", "world-builders-2023"]
+series = "world-builders-2023"
 published_at = "2024-08-15T12:00:00+00:00"
 seo_description = "Пример разработки бизнес-плана для игры в Steam с описанием логики, расчётами и ремарками."
 seo_image = "./images/cover.png"
@@ -11,7 +12,13 @@ src = "./images/cover.png"
 caption = "Заработать миллионы проще простого, сейчас расскажу как :-D"
 ///
 
-Когда выкладывал [отчётную презентацию]{post:world-builders-2023-final-presentation} ([слайды](https://drive.google.com/file/d/1BUhTWCW9YysP0ZCUrIoFbmqXDa-Fz946/view?usp=sharing)) по World Builders 2023 ([мои посты]{tags:world-builders}, [сайт](https://madcrusader.com/)), обещал рассказать как делал roadmap и финансовую модель для игры. Выполняю обещание.
+Заметки о моём участии в [World Builders](https://madcrusader.com/worldbuilders):
+
+/// brigid-series
+tag = "world-builders-2023"
+///
+
+Когда выкладывал [отчётную презентацию]{post:world-builders-2023-final-presentation} ([слайды](https://drive.google.com/file/d/1BUhTWCW9YysP0ZCUrIoFbmqXDa-Fz946/view?usp=sharing)) по World Builders 2023 ([мои посты]{tags:world-builders-2023}, [сайт](https://madcrusader.com/)), обещал рассказать как делал roadmap и финансовую модель для игры. Выполняю обещание.
 
 К концу поста у нас на руках будут:
 

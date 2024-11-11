@@ -1,10 +1,17 @@
 ---
-title = "MIT 6.S191: галопом по Deep Learning"
-tags = [ "neural-networks", "education", "practice",]
+title = "MIT 6.S191"
+tags = [ "neural-networks", "education", "practice", "dive-into-deep-learning"]
+series = "dive-into-deep-learning"
 published_at = "2021-07-08T12:00:00+00:00"
 seo_description = "Курс MIT 6.S191: Introduction to Deep Learning — отличная возможность познакомиться с темой."
 seo_image = ""
 ---
+
+Мои заметки о погружении в глубокое обучение:
+
+/// brigid-series
+tag = "dive-into-deep-learning"
+///
 
 [Отмучавшись с матаном]{post:how-to-teach-and-not-teach-math}, я решил, что времени на основательное разбирательство со всем машинным обучением уйдёт слишком много — надо срезать углы.
 

@@ -1,6 +1,7 @@
 ---
 title = "Simulating public opinion in a game"
-tags = [ "theory", "practice", "development", "gamedev", "game-design", "open-source", "procedural-content-generation", "world-builders"]
+tags = [ "theory", "practice", "development", "gamedev", "game-design", "open-source", "procedural-content-generation", "world-builders", "world-builders-2023"]
+series = "world-builders-2023"
 published_at = "2024-04-24T12:00:00+00:00"
 seo_description = "I made a technical prototype of a sandbox about manipulating public opinion. A video and sources explain how it works."
 seo_image = ""
@@ -11,7 +12,13 @@ id = "nP8OOWgnjdI"
 caption = "The demonstration (in Russian) of a technical prototype of manipulating public opinion and explanation of how it works."
 ///
 
-I continue participating in [World Builders]{tags:world-builders} school. For the last month, I've created a technical prototype of game mechanics for manipulating public opinion.
+Notes on my participation in [World Builders](https://madcrusader.com/worldbuilders):
+
+/// brigid-series
+tag = "world-builders-2023"
+///
+
+I continue participating in [World Builders]{tags:world-builders-2023} school. For the last month, I've created a technical prototype of game mechanics for manipulating public opinion.
 
 You play as the chief editor of a news agency, who sends journalists on quests and publishes articles based on the results of investigations focusing on themes that you want to promote.
 

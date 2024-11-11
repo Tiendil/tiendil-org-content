@@ -1,6 +1,7 @@
 ---
 title = "Чистим результаты опроса игроков в стратегии"
-tags = [ "practice", "development", "gamedev", "game-design", "open-source", "world-builders"]
+tags = [ "practice", "development", "gamedev", "game-design", "open-source", "world-builders", "world-builders-2023"]
+series = "world-builders-2023"
 published_at = "2024-02-23T12:00:00+00:00"
 seo_description = "Чистим результаты опроса о стратегических играх. Описываю методику сбора и обработки данных. Публикую очищенные данные."
 seo_image = "./images/cover.png"
@@ -9,6 +10,12 @@ seo_image = "./images/cover.png"
 /// brigid-images
 src = "./images/cover.png"
 caption = "Опрос был нацелен на любителей стратегических игр, удалось попасть достаточно точно."
+///
+
+Заметки о моём участии в [World Builders](https://madcrusader.com/worldbuilders):
+
+/// brigid-series
+tag = "world-builders-2023"
 ///
 
 Недавно просил вас [пройти опрос о стратегических играх]{post:making-a-fictional-universe-quantity-survey}.

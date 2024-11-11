@@ -1,6 +1,7 @@
 ---
-title = "Экзокортекс: минимальная функциональность"
-tags = [ "thinking", "practice", "development", "systems", "tarantoga", "exocortex",]
+title = "минимальная функциональность экзокортекса"
+tags = [ "thinking", "practice", "development", "systems", "tarantoga", "exocortex", "tarantoga-development"]
+series = "tarantoga-development"
 published_at = "2020-10-13T12:00:00+00:00"
 seo_description = "Функциональность экзокортекса, которую я хочу реализовать в личной базе знаинй в первую очередь."
 seo_image = "images/exocortex-minimal-functionality-cover.png"
@@ -9,6 +10,12 @@ seo_image = "images/exocortex-minimal-functionality-cover.png"
 /// brigid-images
 src = "images/exocortex-minimal-functionality-cover.png"
 caption = "[источник картинки](https://enstructcorp.com/swiss-army-knife-vs-the-brain/)"
+///
+
+Заметки о разработке [Тарантоги]{tags:tarantoga} — экзокортекса для управления информацией:
+
+/// brigid-series
+tag = "tarantoga-development"
 ///
 
 В тексте [о чертах современного экзокортекса]{post:exocortex-3-5} я резюмировал его суть следующим образом: единообразное автоматизируемое взаимодействие с качественной личной информацией из гетерогенных источников.
