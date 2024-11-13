@@ -110,7 +110,7 @@ Third, it complicates and slows down changes to metrics. For example, if you use
 
 Fourth, if you have several versions on production (a/b tests, slow release rollout, demo servers, etc.), you may end up with a mess of incompatible measurements that will complicate analysis.
 
-Fifth, an application cannot act on metrics, so it should not try to process them in any way. Exaggerating, it cannot say whether it needs to scale application servers horizontally or scale the database server vertically. Not to mention the scaling initiation — this should be done by systems above the application.
+Fifth, an application cannot act on metrics, so it should not try to process them in any way. Oversimplifying, it cannot say whether it needs to scale application servers horizontally or scale the database server vertically. Not to mention the scaling initiation — this should be done by systems above the application.
 
 This is why I don't like Prometheus's approach to collecting pre-aggregated metrics — I just don't understand how to live with it.
 

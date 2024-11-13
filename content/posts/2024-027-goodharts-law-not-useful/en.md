@@ -36,7 +36,7 @@ The original post contains interesting examples of Amazon's adaptation to these 
 
 For example, they switched from optimizing output metrics to optimizing input metrics through the evolutionary refinement of heuristics about them. Because it is more difficult to falsify input metrics, and their impact on the output can be empirically evaluated.
 
-Exaggerating, instead of optimizing the "number of sales" metric, it may be better to optimize the "number of cold calls", "number of ads", etc. by iteratively refining the formulations based on business data.
+Oversimplifying, instead of optimizing the "number of sales" metric, it may be better to optimize the "number of cold calls", "number of ads", etc. by iteratively refining the formulations based on business data.
 
 As an example, here is the evolution of the metric for one of Amazon's teams:
 

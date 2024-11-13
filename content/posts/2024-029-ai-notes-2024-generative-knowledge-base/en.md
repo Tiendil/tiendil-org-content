@@ -23,11 +23,11 @@ So, keep in mind, this is my personal view, not a generally accepted one.
 
 ## Disruptive Technologies
 
-This term is quite well-known, for example, there is an article about it on [Wikipedia](https://en.wikipedia.org/wiki/Disruptive_innovation). Tim O’Reilly also writes a lot about them in his book [WTF?}{post:@choose-nearest-language:about-book-wtf}, which I have already reviewed.
+This term is quite well-known. For example, there is an article about it on [Wikipedia](https://en.wikipedia.org/wiki/Disruptive_innovation). Tim O’Reilly also writes a lot about them in his book [WTF?}{post:@choose-nearest-language:about-book-wtf}, which I have already reviewed.
 
 That’s why I won’t write much about this concept.
 
-Exaggerating, disruptive technology changes the rules of the game on the market, rather than giving an advantage within the established rules. Accordingly, such a technology creates new markets and kills old ones. A good example of a disruptive technology would be digital photography, which “killed” Kodak and the film mass market.
+Oversimplifying, disruptive technology changes the game's rules on the market rather than giving an advantage within the established rules. Accordingly, such a technology creates new markets and kills old ones. A good example of a disruptive technology would be digital photography, which “killed” Kodak and the film mass market.
 
 There are different ways to highlight the technologies that help AI to disrupt everything around it.
 

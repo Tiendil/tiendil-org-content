@@ -57,7 +57,7 @@ This should lead to important hidden trends. Here are my unproven hypotheses:
 
 If we trust these hypotheses, we can clearly see the real progress of neural network technologies.
 
-Exaggerating, when someone like OpenAI releases a new flagship model, we can observe:
+Oversimplifying, when someone like OpenAI releases a new flagship model, we can observe:
 
 - specific architectural differences from the previous model;
 - clear timelines for when the previous SOTA solution reached its peak potential (scaling limit);

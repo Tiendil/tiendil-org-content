@@ -456,7 +456,7 @@ barPlot('plot-competitors', mapCompetitors, ['single', 'few', 'the_more_the_bett
 Maximum size of your news agency. How many people (journalists, photographs, investigators, etc) do you want to manage?
 ```
 
-We can see a clear division between two game variants on this question. Exaggerating, "game about a small cozy agency" and "game about a news corporation".
+We can see a clear division between two game variants on this question. Oversimplifying, "game about a small cozy agency" and "game about a news corporation".
 
 ---8<--- "./filter_selectors.html"
 
