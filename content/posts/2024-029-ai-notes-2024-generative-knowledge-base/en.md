@@ -49,7 +49,7 @@ As they say, if you want something done right, do it yourself, so I took the lib
 
 ## Generative Knowledge Base
 
-In my opinion, a disruptive technology is a new type of database based on statistics and storing semantics instead of real integral and consistent data.
+In my opinion, disruptive technology is a new kind of database based on statistics and storing semantics instead of real integral and consistent data.
 
 I talked to ChatGPT to come up with a cool name for this technology, and the network suggested `Generative Knowledge Base` — `GKB`. I think it captures the essence quite well, so I will stick to this term and use its abbreviation for brevity.
 
@@ -57,10 +57,12 @@ GKB has the following properties:
 
 - Store information with losses — stores a statistical image of information, not the information itself.
 - Automatically identify and store semantic relationships between pieces of information.
-- **Information retrieval as probabilistic query completion"**. Not necessarily the most probable completion, but usually “probable enough”. In the case of chats, this is a literal continuation of the dialogue. In the case of some graphic transformers and other stuff — you need to dig a little deeper, but the essence remains the same. For example, style transfer of an image is a completion of the original image with the style of another. So I’m talking more about semantic completion than pragmatic.
-- **The ability to correct the probability of the response form**. The simplest example is chats. By training LLM on dialogue examples, we get a database that continues the dialogues, but nothing prevents us from retraining the same LLM to continue the monologues, complete the request with its translation into another language, and so on. This property is under question, I will dwell on it in the next section.
+- **Information retrieval as probabilistic query completion"**. Not necessarily the most probable completion, but usually “probable enough”. In the case of chats, this is a literal continuation of the dialogue. In the case of graphic transformers and other stuff — you need to dig a little deeper, but the essence remains the same. For example, style transfer of an image is a completion of the original image with the style of another. So, I’m talking more about semantic completion than pragmatic.
+- **The ability to correct the probability of the response form**. The simplest example is chats. By training LLM on dialogue examples, we get a database that continues the dialogues. Still, nothing prevents us from retraining the same LLM to continue the monologues, complete the request with its translation into another language, and so on. This property is under question, I will dwell on it in the next section.
 
-## It is important to distinguish between the properties of GKB and the properties of its specific implementations
+## Properties of GKB vs properties of its implementations
+
+It is important to distinguish between the properties of GKB and the properties of its specific implementations
 
 For example, let’s look at the technology of classical relational databases. They are written in different languages, provide different guarantees of data integrity, concurrency, relate to the [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) differently, have different performance profiles, and so on. But conceptually, they have common basic properties: [relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), transactions, representation as separate services, etc. It is these properties, rather than the specifics of their implementation, that form the foundation of the majority of our IT world today.
 
