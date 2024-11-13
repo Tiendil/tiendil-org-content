@@ -1,0 +1,4 @@
+id = "ai-notes-2024"
+required_tags = ["ai-notes-2024"]
+excluded_tags = []
+order = "desc"

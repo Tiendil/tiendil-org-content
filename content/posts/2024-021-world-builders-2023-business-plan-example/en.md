@@ -742,7 +742,7 @@ I do not see any reason to do this.
 
 Not always, but often, it’s easier to adapt the roadmap and even the product concept to the team, rather than build a team around the product. For example, when I worked on [The Tale](https://the-tale.org), I changed the style of the game from humorous to serious because I met game designers who were great at serious texts. In the case of large projects, this is not so relevant but still worth considering.
 
-Exaggerating, you do not know who you will hire. A cool, motivated specialist can turn your entire development in a wholly new and cooler direction just because of their experience and unique vision. Dismissing such an opportunity is not worth it.
+Oversimplifying, you do not know who you will hire. A cool, motivated specialist can turn your entire development in a wholly new and cooler direction just because of their experience and unique vision. Dismissing such an opportunity is not worth it.
 ///
 
 `[46] Sallary Indexation` — Salary indexation. I think almost no one includes this but in vain. In my opinion, this should be an obligatory element of the agreement today. So to say, an aspect of work ethics.

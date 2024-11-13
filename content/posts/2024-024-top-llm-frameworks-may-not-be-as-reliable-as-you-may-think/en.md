@@ -146,7 +146,7 @@ So, my hypothesis is that many LLM middleware developers have recently changed t
 
 As a result, not all of them understand the dynamics and problems of the area where they suddenly found themselves.
 
-Exaggerating: when your resulting artifact is a Jupyter notebook, you don't think about how many API keys or client instances will be in your code, how many connections to third-party services you use, and so on. But when you develop a library for the backend, you should keep all this in mind and, importantly, not make assumptions about how potential users will use your artifact.
+Oversimplifying: when your resulting artifact is a Jupyter notebook, you don't think about how many API keys or client instances will be in your code, how many connections to third-party services you use, and so on. But when you develop a library for the backend, you should keep all this in mind and, importantly, not make assumptions about how potential users will use your artifact.
 
 On the example of the described bug, I see two confirmations of this hypothesis:
 

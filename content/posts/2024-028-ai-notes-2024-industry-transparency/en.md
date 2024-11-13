@@ -1,6 +1,7 @@
 ---
-title = "Notes on AI in 2024: industry transparency"
-tags = ["practice", "theory", "neural-networks"]
+title = "Industry transparency"
+tags = ["practice", "theory", "neural-networks", "ai-notes-2024"]
+series = "ai-notes-2024"
 published_at = "2024-11-02T17:00:00+00:00"
 seo_description = "My notes on the current state of AI at the end of 2024, this part is about industry transparency."
 seo_image = ""
@@ -9,6 +10,10 @@ seo_image = ""
 Nearly a year and a half ago, I published a major [forecast on artificial intelligence]{post:@choose-nearest-language:silly-predictions-about-artificial-intelligence}. Read it if you haven't already — it's still looking good.
 
 Recently, I've decided to expand on the prognosis, but a sizeable comprehensive post isn't coming together, so there will be a series of smaller notes.
+
+/// brigid-series
+tag = "ai-notes-2024"
+///
 
 I'll start with industry transparency: the current AI movement has several impressive aspects that I'd like to discuss.
 
@@ -52,7 +57,7 @@ This should lead to important hidden trends. Here are my unproven hypotheses:
 
 If we trust these hypotheses, we can clearly see the real progress of neural network technologies.
 
-Exaggerating, when someone like OpenAI releases a new flagship model, we can observe:
+Oversimplifying, when someone like OpenAI releases a new flagship model, we can observe:
 
 - specific architectural differences from the previous model;
 - clear timelines for when the previous SOTA solution reached its peak potential (scaling limit);

@@ -65,7 +65,7 @@ In other words, our economic decisions are always influenced by not only the "ob
 
 For example, there is no scientific list of what should and should not be sold on the market. This list changes throughout human history depending on our needs and core values.
 
-Economic decisions not only depend on politics but also change it. Exaggerating, if you can bring some stuff (like water, people, health, child labor) to the market, you increase the influence of the rich people on it (the "one dollar — one vote" rule starts to work) and reduce the influence of the "powerful" people. If you remove stuff from the market, power is redistributed in the opposite direction (the "one person — one vote" rule starts to work in the case of democracy).
+Economic decisions not only depend on politics but also change it. Oversimplifying, if you can bring some stuff (like water, people, health, child labor) to the market, you increase the influence of the rich people on it (the "one dollar — one vote" rule starts to work) and reduce the influence of the "powerful" people. If you remove stuff from the market, power is redistributed in the opposite direction (the "one person — one vote" rule starts to work in the case of democracy).
 
 By the way, MMO developers constantly face similar dilemmas. I often thought about this while working on [The Tale](https://the-tale.org).
 
