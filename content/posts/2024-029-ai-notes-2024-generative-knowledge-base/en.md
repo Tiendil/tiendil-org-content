@@ -70,7 +70,7 @@ Atomic technologies under the GKB are pretty specific (neural networks, speciali
 
 That’s why I tried to separate the basic properties of GKB (described above) from the properties specific to current implementations. Here are some of the implementation-specific properties.
 
-**Text interfaces** (LLM). By observing current trends, one might think that LLMs have won, and soon, everything will be big language models with multimodality. I don’t think so. GKB is conceptually not limited to text — queries can be built on any form of information. The text-based interface is simply the most convenient for our civilization at this point in time, as we are a civilization of text. If mass adoption of brain implants were to happen, it might turn out that a symbolic/pattern-based interface would be more suitable. And if this technology were invented by, say, deep-sea glowing squids, their primary mode of communication might very well be visual.
+**Text interfaces** (LLM). Given current trends, one might conclude that LLMs dominate the field and that multimodal large language models will soon become ubiquitous. I don’t think so. GKB is conceptually not limited to text — queries can be built on any form of information. The text-based interface is simply the most convenient for our civilization at this point in time, as we are a civilization of text. If mass adoption of brain implants were to happen, it might turn out that a symbolic/pattern-based interface would be more suitable. And if this technology were invented by, say, deep-sea glowing squids, their primary mode of communication might very well be visual.
 
 **Compression of information into vector form** (embeddings). In my opinion, this is a typical feature of the implementation. Undoubtedly convenient and valuable, but there is no guarantee that the embeddings will remain in an explicit form in alternative implementations — alternative hardware may be developed that works on different principles, on quantum mechanics, for example, where it would be impossible to extract data from intermediate layers without destroying the integrity of the database.
 
@@ -87,7 +87,7 @@ If we look at all the applied products that modern AI powers, we will see that n
 - The completion may be incorrect, so we check it, duplicate requests, rank the answers, and do all sorts of things that allow us to bypass the problems of probabilistic answers.
 - All this is wrapped in classic software components that convert data to/from GKB, check them, apply them to something, and so on.
 
-At the moment, I have not heard of any conceptually different approach to using neural networks. Even object detection (with neural networks) can be viewed as generating a statistical completion of the source image.
+At the moment, I have not heard of any conceptually different approach to using neural networks. Even objects detection using neural networks can be viewed as generating a statistical completion of the source image.
 
 So:
 
