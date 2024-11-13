@@ -13,7 +13,7 @@ I continue my notes on AI at the end of 2024.
 id = "ai-notes-2024"
 ///
 
-Today, I want to discuss the disruptive technology that underlies all modern AI achievements. Or the concept, or the meta-technology — whichever term you prefer.
+Today, I want to discuss the disruptive technology that underlies modern AI achievements. Or the concept, or the meta-technology — whichever is more convenient for you.
 
 You’ve probably never come across the logic described below on the internet (except for the introduction about disruptive technologies) — engineers and mathematicians might get a bit annoyed by the oversimplifications and cutting corners. But this is the lens through which I view the industry, assess what’s possible and less likely, and so on. My blog, my rules, my dictionary :-D
 
@@ -27,7 +27,7 @@ This term is quite well-known. For example, there is an article about it on [Wik
 
 That’s why I won’t write much about this concept.
 
-Oversimplifying, disruptive technology changes the game's rules on the market rather than giving an advantage within the established rules. Accordingly, such a technology creates new markets and kills old ones. An excellent example of a disruptive technology would be digital photography, which “killed” Kodak and the film mass market.
+In simple terms, disruptive technology changes the game's rules on the market rather than giving an advantage within the established rules. Accordingly, such a technology creates new markets and kills old ones. An excellent example of a disruptive technology would be digital photography, which “killed” Kodak and the film mass market.
 
 There are different ways to highlight the technologies that help AI to disrupt everything around it.
 
@@ -39,9 +39,9 @@ Following Tim O’Reilly’s opinion, I believe that disruptive technologies are
 
 For example, it’s not that important how digital photos are taken compared to how easy they are to edit and share. Or it’s not that important how Uber drivers' locations are detected compared to the ability to manage orders based on their real-time locations.
 
-When a disruptive technology appears, it’s not immediately noticeable. Humanity doesn’t immediately realize it as a holistic concept; the realization comes post factum, and everyone says, “Yes, it’s obvious. I’ve always said that.”
+When a disruptive technology appears, it’s not immediately noticeable. Humanity doesn’t immediately recognize it as a holistic concept; the realization comes post factum, and everyone says, “Yes, it’s obvious. I’ve always said that.”
 
-For engineers, the first versions of the technology will be just an interesting combination of old stuff. Engineers will either miss the big picture or highlight some specific case. I risk calling [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) as an example of such a specific term — just a couple of years have passed, and we are already expanding the concept to multimodality.
+For engineers, the early iterations of the technology will be just an interesting combination of old stuff. Engineers will either miss the big picture or highlight some specific case. I risk calling [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) as an example of such a specific term — just a couple of years have passed, and we are already expanding the concept to multimodality.
 
 For businesses, and marketers in particular, it’s more important to take advantage of the technology and sell faster than to understand what their product is based on. An example of such an approach would be the term “Artificial Intelligence”, from which various technologies of different levels have been emerging for the last 50 years as soon as they become mature enough to demonstrate their boundaries: expert systems, image recognition, logic programming, etc.
 
@@ -57,14 +57,14 @@ GKB has the following properties:
 
 - Store information with losses — stores a statistical image of information, not the information itself.
 - Automatically identify and store semantic relationships between pieces of information.
-- **Information retrieval as probabilistic query completion"**. Not necessarily the most probable completion, but usually “probable enough”. In the case of chats, this is a literal continuation of the dialogue. In the case of graphic transformers and other stuff — you need to dig a little deeper, but the essence remains the same. For example, style transfer of an image is a completion of the original image with the style of another. So, I’m talking more about semantic completion than pragmatic.
-- **The ability to correct the probability of the response form**. The simplest example is chats. By training LLM on dialogue examples, we get a database that continues the dialogues. Still, nothing prevents us from retraining the same LLM to continue the monologues, complete the request with its translation into another language, and so on. This property is under question, I will dwell on it in the next section.
+- **Information retrieval as probabilistic query completion"**. Not necessarily the most probable completion, but usually “probable enough”. In the case of chats, this is a literal continuation of the dialogue. In the case of graphic transformers and other stuff — you need to dig a little deeper, but the essence remains the same. For example, style transfer of an image is a completion of the original image with the style of another. Thus, I refer more to semantic completion than pragmatic.
+- **The ability to correct the probability of the response form**. The simplest example is chats. By training LLM on dialogue examples, we get a database that continues the dialogues. Still, nothing prevents us from retraining the same LLM to continue the monologues, complete the request with its translation into another language, and so on. This property is debatable, I will dwell on it in the next section.
 
 ## Properties of GKB vs properties of its implementations
 
 It is important to distinguish between the properties of GKB and the properties of its specific implementations
 
-For example, let’s look at the technology of classical relational databases. They are written in different languages, provide different guarantees of data integrity, concurrency, relate to the [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) differently, have different performance profiles, and so on. But conceptually, they have common basic properties: [relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), transactions, representation as separate services, etc. It is these properties, rather than the specifics of their implementation, that form the foundation of the majority of our IT world today.
+For example, let’s look at the technology of classical relational databases. They are implemented in different languages, offer varying guarantees for data integrity and concurrency, differ in adherence to the  [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem), have different performance profiles, and so on. But conceptually, they have common basic properties: [relational algebra](https://en.wikipedia.org/wiki/Relational_algebra), transactions, representation as separate services, etc. It is these properties, rather than the specifics of their implementation, that form the foundation of the majority of our IT world today.
 
 Atomic technologies under the GKB are pretty specific (neural networks, specialized video cards), but conceptually, we could build that technology on other components. For example, on the voting of 100500 people, or on [genetic programming](https://en.wikipedia.org/wiki/Genetic_programming) on top of quantum computers. It just so happened that, in our specific case, this base is neural networks. These alternative implementations would have different sets of secondary advantages and disadvantages, but the same basic properties would be required for their success as disruptive technology.
 
