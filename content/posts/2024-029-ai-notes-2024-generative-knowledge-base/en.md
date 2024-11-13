@@ -49,16 +49,16 @@ As they say, if you want something done right, do it yourself, so I took the lib
 
 ## Generative Knowledge Base
 
-На мой взгляд, подрывная технология — это новый тип баз данных, основаный на статистике и хранящий семантику вместо реальных целостных данных.
+In my opinion, a disruptive technology is a new type of database based on statistics and storing semantics instead of real integral and consistent data.
 
-Я пообщался с ChatGPT, чтобы придумать крутое название для этой технологии и сеть предложила `Generative Knowledge Base` — `GKB`. На мой взгляд суть ухвачена довольно чётко, поэтому далее для краткости буду использовать эту аббревиатуру.
+I talked to ChatGPT to come up with a cool name for this technology, and the network suggested `Generative Knowledge Base` — `GKB`. I think it captures the essence quite well, so I will stick to this term and use its abbreviation for brevity.
 
-`GKB` обладает следующими свойствами:
+`GKB` has the following properties:
 
-- Хранение информации с потерями.
-- Автоматическое выявление и хранение семантических связей между частями информации.
-- **Извлечение информации как вероятностного дополнения запроса**. Не обязательно самого вероятного, но обычно «достаточно вероятного». В случае чатов это однозначно заметно, в случае каких-нибудь графических трансфоормеров и прочих штук — нужно немного копнуть, но суть остаётся та же: мы фомируем некоторое утверждение и получаем его вероятностное дополнение через призму свойств нейронки. В случае чатов дополнением — это буквальное продолжение диалога. В случае, например, переноса стиля изображения — это дополнение.
-- **Возможность корректировки вероятности формы ответа**. Самый простой пример — чаты. Дообучая `LLM` на примерах диалогов, мы получаем базу данных, которая отвечает продолжением диалога, но ничто не мешает добучить ту же LLM продолжать монолог, дополнять запрос его переводом на другой язык и так далее.
+- Store information with losses — stores a statistical image of information, not the information itself.
+- Automatically identify and store semantic relationships between pieces of information.
+- **Information retrieval as probabilistic query completion"**. Not necessarily the most probable completion, but usually “probable enough”. In the case of chats, this is a literal continuation of the dialogue. In the case of some graphic transformers and other stuff — you need to dig a little deeper, but the essence remains the same. For example, style transfer of an image is a completion of the original image with the style of another. So I’m talking more about semantic completion than pragmatic.
+- **The ability to correct the probability of the response form**. The simplest example is chats. By training `LLM` on dialogue examples, we get a database that continues the dialogues, but nothing prevents us from retraining the same LLM to continue the monologues, complete the request with its translation into another language, and so on.
 
 ## Важно разделять свойства `GKB` и свойства её конкретных реализаций
 
