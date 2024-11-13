@@ -100,15 +100,15 @@ I will note that Copilot and other assistants fall under the third point, not th
 
 ## GKB and Strong AI
 
-In short, a human is not only a knowledge base, but also a set of logic on top of it. A huge set of logic, as it turned out.
+In short, a human is not only a knowledge base but also a set of logic on top of it — a massive set of logic, as it turned out.
 
-Therefore, we should not expect that some GPT-10 will gain consciousness. In any case, a strong architectural overlay over GPT will be required for this, and in such a case developers would use a new name :-D
+Therefore, we should not expect that some GPT-10 will gain consciousness. In any case, a strong architectural overlay over GPT will be required for this, and in such a case, developers would use a new name :-D
 
-Generative knowledge base can be an important piece/module for creating a strong AI, but only one of many.
+A generative knowledge base can be an important piece/module for creating a strong AI, but it is only one of many.
 
-Part of this set may already be at our fingertips: various mathematics and logic, predicate calculus, logical/symbolic/functional/imperative programming, traditional databases, semantic networks, thousands of utilities written, etc.
+Part of this set may already be at our fingertips: various mathematics and logic, predicate calculus, logical/symbolic/functional/imperative programming, traditional databases, semantic networks, thousands of software utilities, etc.
 
-But we still don’t know what other modules are missing and, more importantly, how to combine them into a whole. So it may take quite a while before we get a strong AI.
+But we still don’t know what other modules are missing and, more importantly, how to combine them into a whole. So, it may take quite a while before we get a strong AI.
 
 But his “marketing simulacrum” may not be that far off.
 
