@@ -3,7 +3,7 @@ title = "Notes on AI in 2024: Generative Knowledge Base"
 tags = ["theory", "neural-networks", "ai-notes-2024", "interesting"]
 series = "ai-notes-2024"
 published_at = "2024-11-13T17:00:00+00:00"
-seo_description = "My notes on the current state of AI at the end of 2024, this part is about the basic AI technology — the generative knowledge base."
+seo_description = "My notes on the current state of AI at the end of 2024. This part is about the basic AI technology—the generative knowledge base."
 seo_image = ""
 ---
 
@@ -13,11 +13,11 @@ I continue my notes on AI at the end of 2024.
 id = "ai-notes-2024"
 ///
 
-Today I want to talk about the disruptive technology that underlies all modern AI achievements. Or about the concept, or the meta-technology — whichever you prefer.
+Today, I want to discuss the disruptive technology that underlies all modern AI achievements. Or the concept, or the meta-technology — whichever term you prefer.
 
 You’ve probably never come across the logic described below on the internet (except for the introduction about disruptive technologies) — engineers and mathematicians might get a bit annoyed by the oversimplifications and cutting corners. But this is the lens through which I view the industry, assess what’s possible and less likely, and so on. My blog, my rules, my dictionary :-D
 
-So, keep in mind — this is my personal view, not a generally accepted one.
+So, keep in mind, this is my personal view, not a generally accepted one.
 
 <!-- more -->
 
