@@ -21,11 +21,11 @@ So, keep in mind — this is my personal view, not a generally accepted one.
 
 <!-- more -->
 
-## Подрывные технологии
+## Disruptive Technologies
 
-Этот термин довольно известен, например, про него есть [статья на википедии](https://ru.wikipedia.org/wiki/Подрывные_инновации). Во многом про них же пишет [Тима О’Рейли](https://ru.wikipedia.org/wiki/О’Райли,_Тим) в книге [WTF?}{post:about-book-wtf}, обзор которой я уже делал.
+This term is quite well-known, for example, there is an article about it on [Wikipedia](https://en.wikipedia.org/wiki/Disruptive_innovation). Tim O’Reilly also writes a lot about them in his book [WTF?}{post:@choose-nearest-language:about-book-wtf}, which I have already reviewed.
 
-Поэтому много расписывать про эту концепцию не буду.
+That’s why I won’t write much about this concept.
 
 Утрируя, подрывная технология меняет правила игры на рынке, а не даёт преимущества в рамках установившихся правил. Соответственно, появление подрывной технологии создаёт новые рынки и убивает старые. Хорошим примером подрывной технологии будет цифровая фотография, «убившая» Kodak и плёночный масс-маркет.
 
