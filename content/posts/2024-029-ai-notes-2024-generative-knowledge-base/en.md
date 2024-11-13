@@ -27,25 +27,25 @@ This term is quite well-known, for example, there is an article about it on [Wik
 
 That’s why I won’t write much about this concept.
 
-Утрируя, подрывная технология меняет правила игры на рынке, а не даёт преимущества в рамках установившихся правил. Соответственно, появление подрывной технологии создаёт новые рынки и убивает старые. Хорошим примером подрывной технологии будет цифровая фотография, «убившая» Kodak и плёночный масс-маркет.
+Exaggerating, disruptive technology changes the rules of the game on the market, rather than giving an advantage within the established rules. Accordingly, such a technology creates new markets and kills old ones. A good example of a disruptive technology would be digital photography, which “killed” Kodak and the film mass market.
 
-Выделять технологии, благодаря которым ИИ «подрывает» всё вокруг можно по-разному.
+There are different ways to highlight the technologies that help AI to disrupt everything around it.
 
-Например, можно сказать, что их несколько: эмбединги (на самом деле были давно), глубокое обучение нейронок (тоже было давно), сами нейронки (были уже в 50-ых), выделение 100500 миллионов $ на кластера (так себе технлология), новые архитектуры нейронок (выберите свою любимую), LLM чаты, etc.
+We can say that there are several of them: embeddings (which have been around for a long time), deep learning (also around for a long time), neural networks themselves (was there in the 1950s), big hardware clusters, new neural network architectures (choose your favorite), LLM chats, etc.
 
-Или, можно сказать, что ИИ и есть подрывная технология. Но это слишком абстраткно — никто не может сказать, что такое ИИ, что конкретно оно может и как конкретно его можно применять.
+Or, we can say that AI itself is a disruptive technology. But this is too abstract — no one even knows what AI is exactly, what it can do, and how it can be applied.
 
-Я, следуя мнению Тима О’Рейли, считаю, что подрывные технологии не атомарны. Наоборот, подрывная технология появляется как удачная комбинация нескольких уже известных атомарных технологий и концепций, которые совместно демонстрируют сильные эмерджентные свойства. Со временем эти свойства выделяются в отдельную концепцию, которая может менять технологии под собой.
+I, following Tim O’Reilly’s opinion, believe that disruptive technologies are not atomic. On the contrary, a disruptive technology appears as a successful combination of several already known atomic technologies and concepts that together demonstrate strong emergent properties. Over time, these properties evolve into a distinct concept that becomes independent from the technologies that underlie it, aka, from implementation details.
 
-Например, не так важно как именно делаются цифровые фотографии, как важны лёгкость их редактирования и передачи. Или не так важно каким образом определяется положение водителей в Uber, как возможность управлять заказами для них на основе локации.
+For example, it’s not that important how digital photos are taken in comparison to how easy they are to edit and share. Or it’s not that important how Uber drivers are located in comparison to the ability to manage orders for them based on their location.
 
-Когда появляется подрывная подобная технология, она не сразу становится заметна. Можно сказать, человечество не сразу её осознаёт как целостную концепцию. На мой взгляд осознание происходит постфактум и все говорят «да, это же очевидно, я всегда это говорил».
+When a disruptive technology appears, it’s not immediately noticeable. The humanity doesn’t immediately realize it as a holistic concept, the realization comes post factum, and everyone says, “Yes, it’s obvious, I’ve always said that.”
 
-Для инженеров первые версии технологии будут просто интересным сочетанием боянных штук. Инженеры либо пропустят цельную картину либо выделяет какой-нибудь частный случай. Как пример такого частного случая я бы привёл [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) — пары лет не прошло как потребовалось расширять концепцию на мультимодальность.
+For engineers, the first versions of the technology will be just an interesting combination of old stuff. Engineers will either miss the big picture or highlight some specific case. I risk to call [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) as an example of such a specific case — just a couple of years passed and we already expanding the concept to multimodality.
 
-Для бизнеса, и маркетологов в частности, важнее воспользоваться преимуществом и продать побыстрее, чем разбираться на чём основан их продукт. Примером такого подхода я бы назвал термин «Исуственный Интеллект», из которого за последние 50 лет стабильно вылазят разного уровня технологии, как только становятся достаточно взрослыми, чтобы видеть их границы: экспертные системы, распознавание изображений, логическое программирование, etc.
+For businesses, and marketers in particular, it’s more important to take advantage of the technology and sell faster than to understand what their product is based on. An example of such an approach would be the term “Artificial Intelligence”, from which various technologies of different levels have been emerging for the last 50 years as soon as they become mature enough to demonstrate their boundaries: expert systems, image recognition, logic programming, etc.
 
-Хочешь чтобы было сделано хорошо — сделай это сам, поэтому я взял на себя смелость придумать хороший термин под новую технологию.
+As they say, if you want something done right, do it yourself, so I took the liberty of coming up with a good term for a new technology.
 
 ## Generative Knowledge Base
 
