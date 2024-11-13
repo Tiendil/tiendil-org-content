@@ -27,25 +27,25 @@ This term is quite well-known. For example, there is an article about it on [Wik
 
 That’s why I won’t write much about this concept.
 
-Oversimplifying, disruptive technology changes the game's rules on the market rather than giving an advantage within the established rules. Accordingly, such a technology creates new markets and kills old ones. A good example of a disruptive technology would be digital photography, which “killed” Kodak and the film mass market.
+Oversimplifying, disruptive technology changes the game's rules on the market rather than giving an advantage within the established rules. Accordingly, such a technology creates new markets and kills old ones. An excellent example of a disruptive technology would be digital photography, which “killed” Kodak and the film mass market.
 
 There are different ways to highlight the technologies that help AI to disrupt everything around it.
 
-We can say that there are several of them: embeddings (which have been around for a long time), deep learning (also around for a long time), neural networks themselves (was there in the 1950s), big hardware clusters, new neural network architectures (choose your favorite), LLM chats, etc.
+We can say there are several of them: embeddings (which have been around for a long time), deep learning (also around for a long time), neural networks themselves (was there in the 1950s), big hardware clusters, new neural network architectures (choose your favorite), LLM chats, etc.
 
-Or, we can say that AI itself is a disruptive technology. But this is too abstract — no one even knows what AI is exactly, what it can do, and how it can be applied.
+Or, we can say AI itself is a disruptive technology. But this is too abstract — no one even knows what AI is exactly, what it can do, and how it can be applied.
 
-I, following Tim O’Reilly’s opinion, believe that disruptive technologies are not atomic. On the contrary, a disruptive technology appears as a successful combination of several already known atomic technologies and concepts that together demonstrate strong emergent properties. Over time, these properties evolve into a distinct concept that becomes independent from the technologies that underlie it, aka, from implementation details.
+Following Tim O’Reilly’s opinion, I believe that disruptive technologies are not atomic. On the contrary, a disruptive technology appears as a successful combination of several already known atomic technologies and concepts that together demonstrate strong emergent properties. Over time, these properties evolve into a distinct concept that becomes independent from the technologies that underlie it, aka, from implementation details.
 
-For example, it’s not that important how digital photos are taken in comparison to how easy they are to edit and share. Or it’s not that important how Uber drivers are located in comparison to the ability to manage orders for them based on their location.
+For example, it’s not that important how digital photos are taken compared to how easy they are to edit and share. Or it’s not that important how Uber drivers' locations are detected compared to the ability to manage orders based on their real-time locations.
 
-When a disruptive technology appears, it’s not immediately noticeable. The humanity doesn’t immediately realize it as a holistic concept, the realization comes post factum, and everyone says, “Yes, it’s obvious, I’ve always said that.”
+When a disruptive technology appears, it’s not immediately noticeable. Humanity doesn’t immediately realize it as a holistic concept; the realization comes post factum, and everyone says, “Yes, it’s obvious. I’ve always said that.”
 
-For engineers, the first versions of the technology will be just an interesting combination of old stuff. Engineers will either miss the big picture or highlight some specific case. I risk to call [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) as an example of such a specific case — just a couple of years passed and we already expanding the concept to multimodality.
+For engineers, the first versions of the technology will be just an interesting combination of old stuff. Engineers will either miss the big picture or highlight some specific case. I risk calling [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) as an example of such a specific term — just a couple of years have passed, and we are already expanding the concept to multimodality.
 
 For businesses, and marketers in particular, it’s more important to take advantage of the technology and sell faster than to understand what their product is based on. An example of such an approach would be the term “Artificial Intelligence”, from which various technologies of different levels have been emerging for the last 50 years as soon as they become mature enough to demonstrate their boundaries: expert systems, image recognition, logic programming, etc.
 
-As they say, if you want something done right, do it yourself, so I took the liberty of coming up with a good term for a new technology.
+As they say, if you want something done right, do it yourself, so I took the liberty to find a good term for a new technology.
 
 ## Generative Knowledge Base
 
