@@ -58,7 +58,7 @@ I talked to ChatGPT to come up with a cool name for this technology, and the net
 - Store information with losses — stores a statistical image of information, not the information itself.
 - Automatically identify and store semantic relationships between pieces of information.
 - **Information retrieval as probabilistic query completion"**. Not necessarily the most probable completion, but usually “probable enough”. In the case of chats, this is a literal continuation of the dialogue. In the case of some graphic transformers and other stuff — you need to dig a little deeper, but the essence remains the same. For example, style transfer of an image is a completion of the original image with the style of another. So I’m talking more about semantic completion than pragmatic.
-- **The ability to correct the probability of the response form**. The simplest example is chats. By training `LLM` on dialogue examples, we get a database that continues the dialogues, but nothing prevents us from retraining the same LLM to continue the monologues, complete the request with its translation into another language, and so on.
+- **The ability to correct the probability of the response form**. The simplest example is chats. By training `LLM` on dialogue examples, we get a database that continues the dialogues, but nothing prevents us from retraining the same LLM to continue the monologues, complete the request with its translation into another language, and so on. This property is under question, I will dwell on it in the next section.
 
 ## Важно разделять свойства `GKB` и свойства её конкретных реализаций
 
@@ -73,6 +73,8 @@ I talked to ChatGPT to come up with a cool name for this technology, and the net
 **Сжатие информации в векторную форму** (эмбеддинги). На мой взгляд это типичная особенность реализации. Беспорно удобная и полезна, но нет гарантии, что эмбединги останутся в явном виде — может появиться альтернативное железо на каких-нибудть полях или квантовой запутанности в котором нельзя будет снять данные с промежуточных слоёв без разрушения целостности базы.
 
 **Добавление/модификация информации через обучение с [градиентным спуском](https://ru.wikipedia.org/wiki/Градиентный_спуск)** — также артефакт текущей реализации. Альтернативой мог бы стать, например, какой-нибудь эволюционный отбор. Правда я не возьмусь утверждать, что у нас есть реальная альтернатива (хотя эволюционный отбор мне симпатичнее на порядок). Возможно, градиентный спуск — это действительно самый математически оптимальый способ оптимизации моделей.
+
+**Возможность корректировки вероятности формы ответа**. Это свойство я записал и в базовые и в дополнительные свойства, так как до конца не уверен насколько оно зависит от особенностей иплементации. Очевидно, что на текущий момент это чистое следствие использование нейронных сетей как базы для `GKB`, но пропадёт ли оно или останется, если мы перейдём на другие технологии, например, на эволюционные алгоритмы?
 
 ## Смотрим на движуху через призму `GKB`
 
