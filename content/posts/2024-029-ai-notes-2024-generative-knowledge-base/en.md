@@ -80,23 +80,23 @@ That’s why I tried to separate the basic properties of GKB (described above) f
 
 ## Looking at the AI hustle and bustle through the lens of GKB
 
-If we look at all the applied products that are powered by modern AI, we will see that no matter what networks they use, the concept of interacting with them is the same:
+If we look at all the applied products that modern AI powers, we will see that no matter what networks they use, the concept of interacting with them is the same:
 
 - We have a knowledge base of humanity in some area of some quality.
 - We can send something to it and get a probabilistic completion of the request.
 - The completion may be incorrect, so we check it, duplicate requests, rank the answers, and do all sorts of things that allow us to bypass the problems of probabilistic answers.
-- All this is from top to bottom are wrapped in classic software components that convert data to/from GKB, check them, apply them to something, and so on.
+- All this is wrapped in classic software components that convert data to/from GKB, check them, apply them to something, and so on.
 
 At the moment, I have not heard of any conceptually different approach to using neural networks. Even object detection (with neural networks) can be viewed as generating a statistical completion of the source image.
 
 So:
 
-- If someone is working on improving the basic properties of GKB — this is something to look at — there is a perspective and a chance of success.
-- If someone is working on adding properties to neural networks that are not specific to GKB — either it’s rocket science, or a failure. Rocket science in most cases will also end in failure. For example, if someone is trying to achieve 100% answer accuracy, it is this case.
-- If someone is trying to use neural networks as GKB — most likely people know what they are doing and have a chance of success.
+- If someone is working on improving the basic properties of GKB — this is something to consider — there is a perspective and a chance of success.
+- If someone is working on adding properties to neural networks that are not specific to GKB — either it’s rocket science, or a failure. Rocket science, in most cases, will also fail. For example, if someone is trying to achieve 100% answer accuracy, it is this case.
+- If someone is trying to use neural networks as GKB — most likely, people know what they are doing and have a chance of success.
 - If someone is trying to use neural networks not as GKB, for example, to create a strong AI or an “autonomous worker” **only on neural networks, without any additional components** (for example, by scaling the network and data) — most likely people don’t know what they are doing and will fail. Or, they are knowlingly lying.
 
-Just in case, I will note that Copilot and other assistants fall under the third point, not the fourth. In essence, they are a knowledge base wrapped in traditional software that makes the assistants convenient and useful. Copilot is not an autonomous worker, but a tool for a programmer. This is the reason why some people cannot benefit from assistants — they try to interact with them as with people, not as with a probabilistic knowledge base.
+I will note that Copilot and other assistants fall under the third point, not the fourth. In essence, they are a knowledge base wrapped in traditional software that makes them convenient and useful. Copilot is not an autonomous worker, but a tool for a programmer. This is the reason why some people cannot benefit from assistants — they try to interact with them as with people, not as with a probabilistic knowledge base.
 
 ## GKB and Strong AI
 
