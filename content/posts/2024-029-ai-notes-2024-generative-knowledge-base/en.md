@@ -76,38 +76,38 @@ That’s why I tried to separate the basic properties of `GKB` (described above)
 
 **The ability to correct the probability of the response form**. This property I have written both in the basic and implementation-specific properties, as I am not sure to what extent it depends on the specifics of the implementation. Obviously, at the moment, this is a direct consequence of using neural networks as the basis for `GKB`, but will it disappear or remain if we switch to other technologies, for example, to evolutionary algorithms?
 
-## Смотрим на движуху через призму `GKB`
+## Looking at the AI hustle and bustle through the lens of `GKB`
 
-Если вы приглядитесь ко всем прикладным продуктом, за которыми стоит современный ИИ, то увидите, что какие-бы сети они не использовали, концепция взаимодействия продукта с ними одна и та же:
+If we look at all the applied products that are powered by modern AI, we will see that no matter what networks they use, the concept of interacting with them is the same:
 
-- У нас есть база знаний человечества в какой-то области какого-то качества.
-- Мы можем отправить что-то в неё и получить вероятностное дополнение запроса.
-- Дополнение может быть неправильным, поэтому мы его проверяем, дублируем, ранжируем ответы и занимаемся всеми возможными штуками, которые позволяют обходить проблемы статистики.
-- Всё это сверху и снизу обёрнуто классическими программными компонентами, которые конвертируют данные в/из `GKB`, проверяют их, применяют к чему-то и так далее.
+- We have a knowledge base of humanity in some area of some quality.
+- We can send something to it and get a probabilistic completion of the request.
+- The completion may be incorrect, so we check it, duplicate requests, rank the answers, and do all sorts of things that allow us to bypass the problems of probabilistic answers.
+- All this is from top to bottom are wrapped in classic software components that convert data to/from `GKB`, check them, apply them to something, and so on.
 
-На текущий момент я не слышал о каком-либо концептуально другом подходе к использованию нейронок. Даже на детекцию объектов (нейронками) можно смотреть как на генерацию статистического дополнения к картинке.
+At the moment, I have not heard of any conceptually different approach to using neural networks. Even object detection (with neural networks) can be viewed as generating a statistical completion of the source image.
 
-Соответственно:
+So:
 
-- Если кто-то работает над улучшением базовых свойств `GKB` — к этому следует присмотреться — есть перспектива и вероятность успеха.
-- Если кто-то работает над добавлением в нейронки свойств не специфичных для `GKB` — либо это rocket science, либо провальное мероприятие. Подобный rocket science в большинстве случаев тоже закончится провалом.
-- Если кто-то пытается использовать нейронки как `GKB` — скорее всего люди понимают что делают и у них есть шанс на успех.
-- Если кто-то пытается использовать нейронки не как `GKB`, например создать сильный ИИ или «автономного работника» **только на нейронках, без обвеса** (например, масштабируя нейронку и данные) — скорее всего люди не понимают что делают и у них ничего не получится.
+- If someone is working on improving the basic properties of `GKB` — this is something to look at — there is a perspective and a chance of success.
+- If someone is working on adding properties to neural networks that are not specific to `GKB` — either it’s rocket science, or a failure. Rocket science in most cases will also end in failure. For example, if someone is trying to achieve 100% answer accuracy, it is this case.
+- If someone is trying to use neural networks as `GKB` — most likely people know what they are doing and have a chance of success.
+- If someone is trying to use neural networks not as `GKB`, for example, to create a strong AI or an “autonomous worker” **only on neural networks, without any additional components** (for example, by scaling the network and data) — most likely people don’t know what they are doing and will fail. Or, they are knowlingly lying.
 
-На всякий случай отмечу, что copilot и прочие ассистенты подпадают под третий пункт, а не под четвёртый. Так как типичная функция ассистента — извелечение информации, которую вы потом анализируете. Copilot — не автономный работник, а инструмент для программиста. Это причина, почему некоторые люди не могут извлечь пользы от асистентов — они пытаются взаимодействовать с ними как с людьми, а не как с вероятностной базой знаний.
+Just in case, I will note that Copilot and other assistants fall under the third point, not the fourth. In essence, they are a knowledge base wrapped in traditional software that makes the assistants convenient and useful. Copilot is not an autonomous worker, but a tool for a programmer. This is the reason why some people cannot benefit from assistants — they try to interact with them as with people, not as with a probabilistic knowledge base.
 
-## `GKB` и сильный искусственный интеллект
+## `GKB` and Strong AI
 
-Если кратко, то человек — далеко не только база знаний, но и набор логики поверх неё.
+In short, a human is not only a knowledge base, but also a set of logic on top of it. A huge set of logic, as it turned out.
 
-Соответственно, рассчитывать на то, что какая-нибудь GPT-10 обретёт сознание не стоит. Во всяком случае, для этого потребуется сильная архитектурная надстройка над GPT и я бы в таком случае использовал новое название :-D
+Therefore, we should not expect that some GPT-10 will gain consciousness. In any case, a strong architectural overlay over GPT will be required for this, and in such a case developers would use a new name :-D
 
-`Generative Knowledge Base` может быть важным куском/модулем для создания сильного ИИ, но всего лишь одним из множества.
+`Generative Knowledge Base` can be an important piece/module for creating a strong AI, but only one of many.
 
-Часть из этого множества у нас может быть уже под рукой: разного рода математика и логика, исчисление предикатов, логическое/символьное/функциональное/императивное программирование, традиционные базы данных, семантические сети, тысячи написанных утилит, etc.
+Part of this set may already be at our fingertips: various mathematics and logic, predicate calculus, logical/symbolic/functional/imperative programming, traditional databases, semantic networks, thousands of utilities written, etc.
 
-Но мы пока не знаем каких ещё модулей не хватает и, тем более, как их объединить в целое. Поэтому до сильного ИИ ещё может пройти довольно много времени.
+But we still don’t know what other modules are missing and, more importantly, how to combine them into a whole. So it may take quite a while before we get a strong AI.
 
-А вот до его «маркетинговых симуляций» может быть не так далеко.
+But his “marketing simulacrum” may not be that far off.
 
-Возможно одну из будущих заметок я посвящу сильному ИИ и его не очень сильным аналогам.
+Possibly one of my future notes will be dedicated to strong AI and its not-so-strong analogs.
