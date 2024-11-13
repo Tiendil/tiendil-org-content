@@ -1,5 +1,5 @@
 ---
-title = "Notes on AI in 2024: Generative Knowledge Base"
+title = "Generative knowledge base"
 tags = ["theory", "neural-networks", "ai-notes-2024", "interesting"]
 series = "ai-notes-2024"
 published_at = "2024-11-13T17:00:00+00:00"
@@ -10,7 +10,7 @@ seo_image = ""
 I continue my notes on AI at the end of 2024.
 
 /// brigid-series
-id = "ai-notes-2024"
+tag = "ai-notes-2024"
 ///
 
 Today, I want to discuss the disruptive technology that underlies modern AI achievements. Or the concept, or the meta-technology — whichever is more convenient for you.
@@ -23,7 +23,7 @@ So, keep in mind, this is my personal view, not a generally accepted one.
 
 ## Disruptive Technologies
 
-This term is quite well-known. For example, there is an article about it on [Wikipedia](https://en.wikipedia.org/wiki/Disruptive_innovation). Tim O’Reilly also writes a lot about them in his book [WTF?}{post:@choose-nearest-language:about-book-wtf}, which I have already reviewed.
+This term is quite well-known. For example, there is an article about it on [Wikipedia](https://en.wikipedia.org/wiki/Disruptive_innovation). Tim O’Reilly also writes a lot about them in his book [WTF?]{post:@choose-nearest-language:about-book-wtf}, which I have already reviewed.
 
 That’s why I won’t write much about this concept.
 
