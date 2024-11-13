@@ -1,23 +1,23 @@
 ---
-title = "Заметки об ИИ в 2024: генеративная база знаний"
+title = "Notes on AI in 2024: Generative Knowledge Base"
 tags = ["theory", "neural-networks", "ai-notes-2024", "interesting"]
 series = "ai-notes-2024"
 published_at = "2024-11-13T17:00:00+00:00"
-seo_description = "Мои заметки об актуальном состоянии ИИ в конце 2024, эта часть о базовой технологии ИИ — генеративной базе знаний."
+seo_description = "My notes on the current state of AI at the end of 2024, this part is about the basic AI technology — the generative knowledge base."
 seo_image = ""
 ---
 
-Продолжаю заметки об ИИ на конец 2024 года.
+I continue my notes on AI at the end of 2024.
 
 /// brigid-series
 id = "ai-notes-2024"
 ///
 
-Сегодня хочу поговорить о подрывной технологии, на которой стоят все современные достижения в области ИИ. Или о концепции, или о мета-технологии — как вам будет удобнее.
+Today I want to talk about the disruptive technology that underlies all modern AI achievements. Or about the concept, or the meta-technology — whichever you prefer.
 
-Скорее всего вы не встречали в интернетах описанную далее логику (за исключением введения про подрывные технологии) — у технарей и математиков может слегка подгореть из-за упрощения и срезания углов. Но это та призма, через которую я смотрю на отрасль, сужу о возможном и маловозможном в ней и так далее. Мой блог — мои правила — мои термины :-D
+You’ve probably never come across the logic described below on the internet (except for the introduction about disruptive technologies) — engineers and mathematicians might get a bit annoyed by the oversimplifications and cutting corners. But this is the lens through which I view the industry, assess what’s possible and less likely, and so on. My blog, my rules, my dictionary :-D
 
-В общем имейте в виду — это мой личный взгляд, не общепринятый.
+So, keep in mind — this is my personal view, not a generally accepted one.
 
 <!-- more -->
 
