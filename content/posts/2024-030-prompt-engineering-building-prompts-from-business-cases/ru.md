@@ -1,5 +1,5 @@
 ---
-title = "Prompt engineering: строим промпт от результата"
+title = "Prompt engineering: строим промпты от бизнес кейсов"
 tags = ["theory", "practice", "neural-networks", "development", "feeds-fun", "prompt-engineering", "interesting"]
 published_at = "2024-16-13T17:00:00+00:00"
 seo_description = "Рассказываю про подход к построению промптов, который позволил мне значительно улучшить результаты генерации тегов в feeds.fun"
