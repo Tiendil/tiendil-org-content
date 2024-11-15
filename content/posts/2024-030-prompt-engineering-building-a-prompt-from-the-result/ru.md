@@ -1,12 +1,10 @@
 ---
-title = "Prompt engineering: сужение контекста генерации"
+title = "Prompt engineering: строим промпт от результата"
 tags = ["theory", "practice", "neural-networks", "development", "feeds-fun", "prompt-engineering", "interesting"]
 published_at = "2024-16-13T17:00:00+00:00"
 seo_description = "Рассказываю про подход к построению промптов, который позволил мне значительно улучшить результаты генерации тегов в feeds.fun"
 seo_image = ""
 ---
-
-TODO: refer to my-gpts post
 
 Как вы знаете, одна из фич моей [читалки новостей](https://feeds.fun/) — автоматическая генерация тегов с помощью LLM. Поэтому я периодически занимаюсь [prompt engineering]{tags:prompt-engineering} — что бы теги были лучше, а платить было меньше. Типо прикладным, а не теоретическим :-D
 
@@ -24,7 +22,7 @@ TODO: refer to my-gpts post
 
 Сейчас расскажу в чём была проблема со старым промптом и как её исправил новый.
 
-## Старый промпт
+## Старый промпт и его проблемы
 
 Старый промпт прошёл множество итераций, но структура его всегда оставалась примерно одинаковой:
 
@@ -81,7 +79,7 @@ Remember:
 - Добавлял уточнения и ограничения.
 - Разбивал алгоритм на шаги, группировал эти шаги обратно.
 
-В общем, как бы не следовал [своим же советам]{post:my-gpts}, как-то не шло дело:
+В общем, как бы не следовал [своим же советам]{post:my-gpts}, не шло дело:
 
 - Либо LLM отдавала достаточно правильных тегов и очень много галлюцинаций.
 - Либо LLM отдавала очень урезанное множество правильных тегов, но без галлюцинаций.
@@ -89,3 +87,65 @@ Remember:
 Оба варианта плохо влияют на правила оценки новостей. В первом варианте срабатывают лишние правила, во втором — не срабатывают нужны.
 
 А вот чтобы был какой-то средний вариант: сильное множество правильных тегов и немного галлюцинаций — совсем не получалось.
+
+Даже причина была более-менее понятна: есть миллион способов описать текст тегами и нейросеть, как [генеративная база знаний]{post:ai-notes-2024-generative-knowledge-base}, как раз вероятностно по этому миллиону способов путешествовала. Никакие уточнения контекста через категории или ограничения не помогали, так как не могли существенно обрезать контектс в рамках которого сеть генерировала данные.
+
+Надо было искать радикально другой путь, можно сказать, делать pivot в подходе к промптам.
+
+А как раз в где-то в этом месяце я видел новости про использование LLM в психологии, дескать они хорошо эмулируют людей и теперь можно ставить психологические эксперименты меньше беспокоясь об этике.
+
+И тут у меня в голове щёлкнуло:
+
+- Я готовил промпт со стороны разработчика, описываю что мне надо от LLM как разработчику читалки.
+- Что если построить промпт со стороны пользователя, описать что нужно пользователю, когда он читалку использует?
+
+## Новый промпт
+
+В итоге получился промпт следующей структуры, жирным выделены изменившиеся части:
+
+1. Задание роли: ты тот-то и тот-то.
+2. Задание задачи: для предоставленного текста ты определяешь теги.
+3. **Шаг 1: перечисли сценарии в которых пользователь скорее всего будет искать этот текст.**
+4. **Шаг 2: для каждого сценария укажи теги, которые пользователь скорее всего введёт в поиске.**
+5. Вот формат тегов.
+6. Вот тебе напоминалка и мотивация.
+
+/// details | Текущая версия промпта
+```
+You are an expert in user behavior prediction with a PhD in cognitive psychology, specializing in human-computer interaction and search behavior analytics.
+Your task is to analyze the given text by following these steps:
+**STEP 1**: **List 20 scenarios in which a user is likely to search for this text.**
+*Output format:*
+1. **<Scenario 1 Name>**: Description 1
+2. **<Scenario 2 Name>**: Description 2
+...
+20. **<Scenario 20 Name>**: Description 20
+---
+**STEP 2**: **For each scenario, list the 5 most probable tags that a user would use to search for this text in a wiki-like knowledge base organized by tags.**
+*Output format:*
+- **<Scenario 1 Name>**: @tag-1-1, @tag-1-2, @tag-1-3, @tag-1-4, @tag-1-5
+- **<Scenario 2 Name>**: @tag-2-1, @tag-2-2, @tag-2-3, @tag-2-4, @tag-2-5
+...
+- **<Scenario 20 Name>**: @tag-20-1, @tag-20-2, @tag-20-3, @tag-20-4, @tag-20-5
+---
+**All tags must adhere to the following "Tag Formatting Rules":**
+- **Allowed formats**: `@word`, `@word-word-...`, `@word-number-...`
+- **Language**: All tags must be in English.
+- **Case**: All tags must be in lowercase.
+- **Pluralization**: Use the plural form if appropriate. Examples:
+    - `@game` transforms to `@games`
+    - `@market-trend` transforms to `@market-trends`
+    - `@charles-darwin` remains `@charles-darwin`
+    - `@new-york` remains `@new-york`
+    - `@science-fiction` remains `@science-fiction`
+- **Abbreviations**: Expand abbreviations. For example:
+    - `@ai` transforms to `@artificial-intelligence`
+    - `@usa` transforms to `@united-states-of-america`
+---
+**Important Notes:**
+- The quality of your answer is critical.
+- Each tag must be unique across all scenarios.
+- All tags must strictly follow the **Tag Formatting Rules**.
+- You will receive $10 for each correct tag.
+```
+///
