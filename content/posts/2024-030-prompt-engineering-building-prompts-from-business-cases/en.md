@@ -96,16 +96,16 @@ Both options negatively affected the news sorting rules. In the first case, unne
 
 The middle ground — a strong set of accurate tags with minimum hallucinations — just wouldn’t come together.
 
-Даже причина была примерно понятна: есть миллион способов описать текст тегами и нейросеть, как [вероятнастная база знаний]{post:ai-notes-2024-generative-knowledge-base}, вероятностно по этому миллиону способов и путешествовала. Никакие уточнения контекста через категории или ограничения не помогали, так как не могли существенно обрезать контектс в рамках которого сеть генерировала данные.
+Event the cause was roughly clear: there are a million ways to describe text with tags, and the neural network, as a [generative knowledge base]{post:ai-notes-2024-generative-knowledge-base}, probabilistically traveled whole of them. No context clarifications through categories or constraints helped, as they couldn’t significantly cut the context within which the network generated data.
 
-Надо было искать радикально другой путь, можно сказать, делать [pivot](https://en.wikipedia.org/wiki/Lean_startup#Pivot) в подходе к промптам.
+It was necessary to look for a radically different path, you could say, to [pivot]{https://en.wikipedia.org/wiki/Lean_startup#Pivot} in the approach to prompts.
 
-Как раз в где-то в этом месяце я встретил новость про использование LLM в психологии, дескать LLN хорошо эмулируют людей и теперь можно ставить психологические эксперименты меньше беспокоясь об этике.
+Right around this month, I came across some news about using LLMs in psychology. It said it is possible to emulate people's behavior well enough that psychological experiments can be conducted with fewer ethical concerns.
 
-И тут у меня в голове щёлкнуло:
+And then it clicked in my head:
 
-- Я строил промпт со стороны разработчика, описывал что мне надо от LLM как разработчику читалки.
-- Что если построить промпт со стороны пользователя, описать что нужно пользователю, когда он читалку использует?
+- I built the prompt from the developer's point of view, describing what I needed from LLM as a developer of the reader.
+- What if I built the prompt from the user's point of view, describing what the user needs when using the reader?
 
 ## Новый промпт
 
