@@ -1,26 +1,26 @@
 ---
-title = "Prompt engineering: строим промпты от бизнес кейсов"
+title = "Prompt engineering: building prompts from business cases"
 tags = ["theory", "practice", "neural-networks", "development", "feeds-fun", "prompt-engineering", "interesting"]
 published_at = "2024-11-17T12:00:00+00:00"
-seo_description = "Рассказываю про подход к построению промптов, который позволил мне значительно улучшить результаты генерации тегов в feeds.fun"
+seo_description = "Sharing an approach to building prompts that helped me significantly improve tag generation results in feeds.fun"
 seo_image = ""
 ---
 
-Как вы знаете, одна из фич моей [читалки новостей](https://feeds.fun/) — автоматическая генерация тегов с помощью LLM. Поэтому я периодически занимаюсь [prompt engineering]{tags:prompt-engineering} — хочу чтобы теги были лучше, а платить было меньше.
+How you know, one of the features of my [news reader](https://feeds.fun/) is automatic tags generation using LLMs. That's why I periodically do [prompt engineering]{tags:prompt-engineering} — I want tags to be better and monthly checks to be lower.
 
-И вот дотюнил я промпты до состояния, когда вроде всё работает, но осадочек какой-то остаётся: правильные теги определяются, но кроме них создаётся ещё 100500 бесполезных, а иногда даже совсем неверных.
+So, I fine-tuned the prompts to the point where everything seems to work, but there's still this nagging feeling that something's off: correct tags are determined well, but in addition to them, 100500 useless ones are created, and sometimes even completely wrong ones.
 
-Вариантов действий в таких случаях кот наплакал:
+There are a few options in such cases:
 
-1. Собрать обучающие данные и дообучить модель делать только правильные теги.
-2. Построить цепочку акторов, где один будет создавать теги, а другой — отсеивать лишние.
-3. Попытаться как-то радикально переработать промпт.
+1. Collect training data and fine-tune the model to generate only correct tags.
+2. Build a chain of actors, where one will create tags, and the other will filter out the unnecessary ones.
+3. Try to radically rework the prompt.
 
-На варианты 1 и 2 нет ни денег не времени. Моя текущая стратегия — использовать только готовые ИИ решения, так как в одиночку за отраслью не угнаться. Поэтому пришлось браться за третий.
+Options 1 and 2 were out of the question due to lack of time and money. Also, my current strategy is to rely exclusively on ready-made AI solutions since keeping up with the industry alone is impossible. So, I had no choice but to go with the third option.
 
-Дело шло туго, но после недавнего поста про [генеративные базы знаний]{post:ai-notes-2024-generative-knowledge-base} в голове что-то щёлкнуло, задача вывернулась наизнанку, и за утро я накатал новый промп. который пока что показывает себя значительно лучше.
+Progress was slow, but after a recent post about [generative knowledge bases]{post:ai-notes-2024-generative-knowledge-base}, something clicked in my head, The problem turned inside out, and over the course of the morning, I drafted a new prompt that’s been performing significantly better so far.
 
-Давайте расскажу в чём была проблема со старым промптом и как её исправил новый.
+So, lets speak about what was the problem with the old prompt and how the new one fixed it.
 
 ## Старый промпт и его проблемы
 
