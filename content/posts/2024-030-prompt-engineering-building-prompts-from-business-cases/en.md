@@ -26,8 +26,8 @@ So, lets speak about what was the problem with the old prompt and how the new on
 
 The old prompt went through many iterations, but its structure always remained roughly the same:
 
-1. Assigning a role: you are this and that.
-2. Setting the task: for the provided text, you determine the tags.
+1. Assigning a role: you are such-and-such.
+2. Defining the task: for the provided text, you determine the tags.
 3. Here's a list of tag categories.
 4. For each category, output N tags.
 5. Here's the tag format.
@@ -107,18 +107,18 @@ And then it clicked in my head:
 - I built the prompt from the developer's point of view, describing what I needed from LLM as a developer of the reader.
 - What if I built the prompt from the user's point of view, describing what the user needs when using the reader?
 
-## Новый промпт
+## The new prompt
 
-В итоге получился промпт следующей структуры, жирным выделены изменившиеся части:
+I came up with a prompt of the following structure, the changed parts are highlighted in bold:
 
-1. Назначение роли: ты тот-то и тот-то.
-2. **Постановка задачи: ты анализируюешь текст по алгоритму.**
-3. **Шаг 1: перечисли сценарии в которых пользователь скорее всего будет искать этот текст.**
-4. **Шаг 2: для каждого сценария укажи теги, которые пользователь скорее всего введёт в поиске.**
-5. Вот формат тегов.
-6. Вот тебе напоминалка и мотивация.
+- Assigning a role: You are such-and-such.
+- **Defining the task: You analyze the text according to the algorithm.**
+- **Step 1: List the scenarios in which the user is most likely to search for this text.**
+- **Step 2: For each scenario, provide the tags the user is most likely to enter in their search.**
+- Here is the tag format.
+- Here is a reminder and motivation.
 
-/// details | Текущая версия промпта
+/// details | The current version of the prompt
 ```
 You are an expert in user behavior prediction with a PhD in cognitive psychology, specializing in human-computer interaction and search behavior analytics.
 Your task is to analyze the given text by following these steps:
@@ -171,13 +171,13 @@ Your task is to analyze the given text by following these steps:
 ```
 ///
 
-И оно почти сразу заработало!
+And it almost immediately started working!
 
-И понятно почему:
+And it's clear why:
 
-- Я, как разработчик, в жизни не смогу перечислить все возможные сценарии навигации по текстам, все возможные интересы пользователей. Тем более в одном промпте. Поэтому и не удавалось ограничить контекст поиска.
-- Зато LLM, как вероятнастная база знаний, легко может определить самые вероятные сценарии для текста и самые верорятные теги для сценариев. Получается как раз поэтапное сужение и уточнение контекста, о котором я говорил в своём [уроке]{post:my-gpts}.
+- As a developer, I could never list all possible scenarios for navigating texts or account for every user's interests. Especially not in a single prompt. That’s why I couldn’t manage to narrow down the search context in the original prompt.
+- However, an LLM, as a probabilistic knowledge base, can easily identify the most likely scenarios for a text and the most likely tags for those scenarios. Thus, narrowing and refining the context step by step, as I mentioned in my [tutorial]{post:my-gpts}.
 
-Что круто, новый промпт идёт от бизнес кейсов. **Мы на уровне кода в явном виде закладываем модель пользователя**, вместо того, чтобы по-классике вариаться в собственном инженерном соку с оторванными от реальности и здравого смысла представлениями.
+What's cool is that the new prompt comes from business cases. **We explicitly embed a user model at the code level**, instead of the classic approach of spinning in our own engineering bubble with ideas detached from reality and common sense.
 
-Мне кажется это прямо крутой паттерн для проектирования промптов и софта в целом, сильно выворачивает мозг, по крайней мере мой :-)
+I think this is a cool pattern for designing prompts and software in general. It really flips the mindset—at least, it does for me! :-)
