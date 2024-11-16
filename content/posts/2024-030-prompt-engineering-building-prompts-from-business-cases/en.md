@@ -22,18 +22,18 @@ Progress was slow, but after a recent post about [generative knowledge bases]{po
 
 So, lets speak about what was the problem with the old prompt and how the new one fixed it.
 
-## Старый промпт и его проблемы
+## The old prompt and its problems
 
-Старый промпт прошёл множество итераций, но структура его всегда оставалась примерно одинаковой:
+The old prompt went through many iterations, but its structure always remained roughly the same:
 
-1. Назначение роли: ты тот-то и тот-то.
-2. Постановка задачи: для предоставленного текста ты определяешь теги.
-3. Вот список категорий тегов.
-4. Для каждой категории выведи N тегов.
-5. Вот формат тегов.
-6. Вот тебе напоминалка и мотивация.
+1. Assigning a role: you are this and that.
+2. Setting the task: for the provided text, you determine the tags.
+3. Here's a list of tag categories.
+4. For each category, output N tags.
+5. Here's the tag format.
+6. Here's a reminder and motivation.
 
-/// details | Последняя версия промпта
+/// details | The latest version of the prompt
 
 ```
 You are an expert on semantic analysis, text summarization, and information extraction with PhD in Ontology-Driven Information Extraction.
@@ -77,23 +77,24 @@ Remember:
 ```
 ///
 
-И вот что бы я ни делал:
 
-- Менял роли.
-- Реформулировал задачу.
-- Менял категории и количество тегов.
-- Менял напоминалки и мотивацию.
-- Добавлял уточнения и ограничения.
-- Разбивал алгоритм на шаги, группировал эти шаги обратно.
+And no matter what I do:
 
-как бы ни следовал [своим же советам]{post:my-gpts}, не шло дело:
+- Changed roles.
+- Reframed the task.
+- Adjusted categories and the number of tags.
+- Tweaked reminders and motivation.
+- Added clarifications and constraints.
+- Broke the algorithm into steps, then regrouped those steps back together.
 
-- Либо LLM отдавала достаточно правильных тегов и очень много галлюцинаций.
-- Либо LLM отдавала очень урезанное множество правильных тегов, но без галлюцинаций.
+No matter how closely I followed [my own advice]{post:my-gpts}, things just wouldn’t move forward:
 
-Оба варианта плохо влияют на правила оценки новостей. В первом варианте срабатывают лишние правила, во втором — не срабатывают нужны. Итог один и тот же — плохая сортировка новостей, хуже опыт пользователя.
+- Either the LLM provided enough correct tags and a lot of hallucinations.
+- Or the LLM provided a very limited set of correct tags, but without hallucinations.
 
-А вот средний вариант: сильное множество правильных тегов и немного галлюцинаций — совсем не получался.
+Both options negatively affected the news sorting rules. In the first case, unnecessary rules were triggered, in the second — the necessary ones didn’t. The result was the same — reduced quality of news sorting => worse user experience.
+
+The middle ground — a strong set of accurate tags with minimum hallucinations — just wouldn’t come together.
 
 Даже причина была примерно понятна: есть миллион способов описать текст тегами и нейросеть, как [вероятнастная база знаний]{post:ai-notes-2024-generative-knowledge-base}, вероятностно по этому миллиону способов и путешествовала. Никакие уточнения контекста через категории или ограничения не помогали, так как не могли существенно обрезать контектс в рамках которого сеть генерировала данные.
 
