@@ -77,7 +77,7 @@ Additional requirements:
 - If the user continues asking questions from the same area, skip steps 1-2.
 ```
 
-The most important thing to understand when dealing with modern LLMs is that they are statistical models. Huge and complex statistical models, but nothing more. No matter how much you train them, they will remain so. There are experiments (for some reason not very active) to create software where they are only one of the modules in a more complex system, but so far, these are only experiments.
+The most important thing to understand when dealing with modern LLMs is that they are statistical models. Huge and complex [statistical models, but nothing more]{post:ai-notes-2024-generative-knowledge-base}. No matter how much you train them, they will remain so. There are experiments (for some reason not very active) to create software where they are only one of the modules in a more complex system, but so far, these are only experiments.
 
 Because of its statistical nature, the answer you get is the one that the model sees as the most likely. Not the most accurate, not the best related to the solution space, not the deepest, not the most complete, but the most likely. At first, the difference is hard to see, but over time, it becomes more and more noticeable, especially if you ask complex specialized questions.
 
