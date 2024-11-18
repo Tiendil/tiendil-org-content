@@ -3,8 +3,13 @@ title = "Prompt engineering: building prompts from business cases"
 tags = ["theory", "practice", "neural-networks", "development", "feeds-fun", "prompt-engineering", "interesting"]
 published_at = "2024-11-17T12:00:00+00:00"
 seo_description = "Sharing an approach to building prompts that helped me significantly improve tag generation results in feeds.fun"
-seo_image = ""
+seo_image = "cover.jpg"
 ---
+
+/// brigid-images
+src = "./cover.jpg"
+caption = "Ponies are building prompts (c) ChatGPT"
+///
 
 As you know, one of the features of my [news reader](https://feeds.fun/) is automatic tag generation using LLMs. That's why I periodically do [prompt engineering]{tags:prompt-engineering} — I want tags to be better and monthly bills to be lower.
 
