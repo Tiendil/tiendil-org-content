@@ -6,9 +6,9 @@ seo_description = "Sharing an approach to building prompts that helped me signif
 seo_image = ""
 ---
 
-How you know, one of the features of my [news reader](https://feeds.fun/) is automatic tags generation using LLMs. That's why I periodically do [prompt engineering]{tags:prompt-engineering} — I want tags to be better and monthly checks to be lower.
+As you know, one of the features of my [news reader](https://feeds.fun/) is automatic tag generation using LLMs. That's why I periodically do [prompt engineering]{tags:prompt-engineering} — I want tags to be better and monthly checks to be lower.
 
-So, I fine-tuned the prompts to the point where everything seems to work, but there's still this nagging feeling that something's off: correct tags are determined well, but in addition to them, 100500 useless ones are created, and sometimes even completely wrong ones.
+So, I fine-tuned the prompts to the point where everything seems to work, but there's still this nagging feeling that something's off: correct tags are determined well, but in addition to them, many useless ones are created, and sometimes even completely wrong ones.
 
 There are a few options in such cases:
 
@@ -18,9 +18,9 @@ There are a few options in such cases:
 
 Options 1 and 2 were out of the question due to lack of time and money. Also, my current strategy is to rely exclusively on ready-made AI solutions since keeping up with the industry alone is impossible. So, I had no choice but to go with the third option.
 
-Progress was slow, but after a recent post about [generative knowledge bases]{post:ai-notes-2024-generative-knowledge-base}, something clicked in my head, The problem turned inside out, and over the course of the morning, I drafted a new prompt that’s been performing significantly better so far.
+Progress was slow, but after a recent post about [generative knowledge bases]{post:ai-notes-2024-generative-knowledge-base}, something clicked in my head, the problem turned inside out, and over the course of the morning, I drafted a new prompt that’s been performing significantly better so far.
 
-So, lets speak about what was the problem with the old prompt and how the new one fixed it.
+So, let's look at the problem with the old prompt and how the new one fixed it.
 
 ## The old prompt and its problems
 
@@ -90,17 +90,17 @@ And no matter what I do:
 No matter how closely I followed [my own advice]{post:my-gpts}, things just wouldn’t move forward:
 
 - Either the LLM provided enough correct tags and a lot of hallucinations.
-- Or the LLM provided a very limited set of correct tags, but without hallucinations.
+- Or the LLM provided a very limited set of correct tags without hallucinations.
 
-Both options negatively affected the news sorting rules. In the first case, unnecessary rules were triggered, in the second — the necessary ones didn’t. The result was the same — reduced quality of news sorting => worse user experience.
+Both options negatively affected the news sorting rules. In the first case, unnecessary rules were triggered, while in the second, the necessary ones weren’t. The result was the same — reduced quality of news sorting => worse user experience.
 
-The middle ground — a strong set of accurate tags with minimum hallucinations — just wouldn’t come together.
+The middle ground — a robust set of accurate tags with minimum hallucinations — turned out to be completely unattainable.
 
-Event the cause was roughly clear: there are a million ways to describe text with tags, and the neural network, as a [generative knowledge base]{post:ai-notes-2024-generative-knowledge-base}, probabilistically traveled whole of them. No context clarifications through categories or constraints helped, as they couldn’t significantly cut the context within which the network generated data.
+Even the cause was roughly clear: there are millions of ways to describe text with tags, and the neural network, as a [generative knowledge base]{post:ai-notes-2024-generative-knowledge-base}, probabilistically traveled whole of them. No context clarifications through categories or constraints helped, as they couldn’t significantly cut the context within which the network generated data.
 
-It was necessary to look for a radically different path, you could say, to [pivot]{https://en.wikipedia.org/wiki/Lean_startup#Pivot} in the approach to prompts.
+It was necessary to look for a radically different path. You could say, to [pivot]{https://en.wikipedia.org/wiki/Lean_startup#Pivot} in the approach to prompts.
 
-Right around this month, I came across some news about using LLMs in psychology. It said it is possible to emulate people's behavior well enough that psychological experiments can be conducted with fewer ethical concerns.
+Right around this month, I came across news about using LLMs in psychology. It said that it is possible to emulate people's behavior well enough for psychological experiments to be conducted with fewer ethical concerns.
 
 And then it clicked in my head:
 
@@ -109,7 +109,7 @@ And then it clicked in my head:
 
 ## The new prompt
 
-I came up with a prompt of the following structure, the changed parts are highlighted in bold:
+I came up with a prompt of the following structure. The changed parts are highlighted in bold:
 
 - Assigning a role: You are such-and-such.
 - **Defining the task: You analyze the text according to the algorithm.**
@@ -171,13 +171,13 @@ Your task is to analyze the given text by following these steps:
 ```
 ///
 
-And it almost immediately started working!
+And it almost immediately showed better results!
 
-And it's clear why:
+It's clear why:
 
 - As a developer, I could never list all possible scenarios for navigating texts or account for every user's interests. Especially not in a single prompt. That’s why I couldn’t manage to narrow down the search context in the original prompt.
-- However, an LLM, as a probabilistic knowledge base, can easily identify the most likely scenarios for a text and the most likely tags for those scenarios. Thus, narrowing and refining the context step by step, as I mentioned in my [tutorial]{post:my-gpts}.
+- However, as a probabilistic knowledge base, an LLM can easily identify the most likely scenarios for a text and the most likely tags for those scenarios. Thus, narrowing and refining the context step by step, as I mentioned in my [tutorial]{post:my-gpts}.
 
-What's cool is that the new prompt comes from business cases. **We explicitly embed a user model at the code level**, instead of the classic approach of spinning in our own engineering bubble with ideas detached from reality and common sense.
+What's remarkable is that the new prompt comes from business cases. **We explicitly embed a user model at the code level**, instead of the classic approach of spinning in our own engineering bubble with ideas detached from reality and common sense.
 
-I think this is a cool pattern for designing prompts and software in general. It really flips the mindset—at least, it does for me! :-)
+I think this is a cool pattern for designing prompts and software in general. It really flips the mindset — at least, it does for me! :-)
