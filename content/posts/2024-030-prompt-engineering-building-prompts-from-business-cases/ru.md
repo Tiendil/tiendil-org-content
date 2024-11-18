@@ -33,7 +33,7 @@ seo_image = ""
 5. Вот формат тегов.
 6. Вот тебе напоминалка и мотивация.
 
-/// details | Последняя версия промпта
+/// details | Старая версия промпта
 
 ```
 You are an expert on semantic analysis, text summarization, and information extraction with PhD in Ontology-Driven Information Extraction.

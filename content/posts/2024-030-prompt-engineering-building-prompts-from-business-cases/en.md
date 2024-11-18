@@ -6,7 +6,7 @@ seo_description = "Sharing an approach to building prompts that helped me signif
 seo_image = ""
 ---
 
-As you know, one of the features of my [news reader](https://feeds.fun/) is automatic tag generation using LLMs. That's why I periodically do [prompt engineering]{tags:prompt-engineering} — I want tags to be better and monthly checks to be lower.
+As you know, one of the features of my [news reader](https://feeds.fun/) is automatic tag generation using LLMs. That's why I periodically do [prompt engineering]{tags:prompt-engineering} — I want tags to be better and monthly bills to be lower.
 
 So, I fine-tuned the prompts to the point where everything seems to work, but there's still this nagging feeling that something's off: correct tags are determined well, but in addition to them, many useless ones are created, and sometimes even completely wrong ones.
 
@@ -22,6 +22,8 @@ Progress was slow, but after a recent post about [generative knowledge bases]{po
 
 So, let's look at the problem with the old prompt and how the new one fixed it.
 
+<!-- more -->
+
 ## The old prompt and its problems
 
 The old prompt went through many iterations, but its structure always remained roughly the same:
@@ -33,7 +35,7 @@ The old prompt went through many iterations, but its structure always remained r
 5. Here's the tag format.
 6. Here's a reminder and motivation.
 
-/// details | The latest version of the prompt
+/// details | The old version of the prompt
 
 ```
 You are an expert on semantic analysis, text summarization, and information extraction with PhD in Ontology-Driven Information Extraction.
@@ -98,7 +100,7 @@ The middle ground — a robust set of accurate tags with minimum hallucinations 
 
 Even the cause was roughly clear: there are millions of ways to describe text with tags, and the neural network, as a [generative knowledge base]{post:ai-notes-2024-generative-knowledge-base}, probabilistically traveled whole of them. No context clarifications through categories or constraints helped, as they couldn’t significantly cut the context within which the network generated data.
 
-It was necessary to look for a radically different path. You could say, to [pivot]{https://en.wikipedia.org/wiki/Lean_startup#Pivot} in the approach to prompts.
+It was necessary to look for a radically different path. You could say, to [pivot](https://en.wikipedia.org/wiki/Lean_startup#Pivot) in the approach to prompts.
 
 Right around this month, I came across news about using LLMs in psychology. It said that it is possible to emulate people's behavior well enough for psychological experiments to be conducted with fewer ethical concerns.
 
