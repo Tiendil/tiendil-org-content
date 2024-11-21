@@ -7,8 +7,8 @@ N = 1000
 M = 100
 
 
-# --8<-- [start:query_1]
-def query_1(conn, n):
+# --8<-- [start:version_1]
+def version_1(conn, n):
     data = {}
 
     with conn.cursor() as cur:
@@ -25,11 +25,11 @@ def query_1(conn, n):
             data[entry_id].add(row[2])
 
         return data
-# --8<-- [end:query_1]
+# --8<-- [end:version_1]
 
 
-# --8<-- [start:query_2]
-def query_2(conn, n):
+# --8<-- [start:version_2]
+def version_2(conn, n):
     data = {}
 
     with conn.cursor() as cur:
@@ -46,11 +46,11 @@ def query_2(conn, n):
             data[entry_id].add(row[1])
 
         return data
-# --8<-- [end:query_2]
+# --8<-- [end:version_2]
 
 
-# --8<-- [start:query_3]
-def query_3(conn, n):
+# --8<-- [start:version_3]
+def version_3(conn, n):
     data = {}
 
     entry_ids_mapping = {}
@@ -76,11 +76,11 @@ def query_3(conn, n):
             data[entry_id].add(row[1])
 
         return data
-# --8<-- [end:query_3]
+# --8<-- [end:version_3]
 
 
-# --8<-- [start:query_4]
-def query_4(conn, n):
+# --8<-- [start:version_4]
+def version_4(conn, n):
     data = {}
 
     entry_ids_mapping = {}
@@ -107,7 +107,7 @@ def query_4(conn, n):
             data[entry_id].add(int(raw_tag_id))
 
         return data
-# --8<-- [end:query_4]
+# --8<-- [end:version_4]
 
 
 def run():
@@ -118,29 +118,29 @@ def run():
         # Also, warm up the database
         ##########################################################################
 
-        data_1 = query_1(conn, N)
-        data_2 = query_2(conn, N)
-        data_3 = query_3(conn, N)
-        data_4 = query_4(conn, N)
+        data_1 = version_1(conn, N)
+        data_2 = version_2(conn, N)
+        data_3 = version_3(conn, N)
+        data_4 = version_4(conn, N)
 
         print(data_1 == data_2 == data_3 == data_4)
 
         ##########################################################################
-        # Measure the performance of each query
+        # Measure the performance of each version
         ##########################################################################
 
-        time_1 = timeit.timeit(lambda: query_1(conn, N), number=M)
-        time_2 = timeit.timeit(lambda: query_2(conn, N), number=M)
-        time_3 = timeit.timeit(lambda: query_3(conn, N), number=M)
-        time_4 = timeit.timeit(lambda: query_4(conn, N), number=M)
+        time_1 = timeit.timeit(lambda: version_1(conn, N), number=M)
+        time_2 = timeit.timeit(lambda: version_2(conn, N), number=M)
+        time_3 = timeit.timeit(lambda: version_3(conn, N), number=M)
+        time_4 = timeit.timeit(lambda: version_4(conn, N), number=M)
 
         print(f"Number of records: {N}")
         print(f"Number of measurements: {M}")
 
-        print(f"Query 1: {time_1:.2f} seconds")
-        print(f"Query 2: {time_2:.2f} seconds")
-        print(f"Query 3: {time_3:.2f} seconds")
-        print(f"Query 4: {time_4:.2f} seconds")
+        print(f"Version 1: {time_1:.2f} seconds")
+        print(f"Version 2: {time_2:.2f} seconds")
+        print(f"Version 3: {time_3:.2f} seconds")
+        print(f"Version 4: {time_4:.2f} seconds")
 
 
 run()
