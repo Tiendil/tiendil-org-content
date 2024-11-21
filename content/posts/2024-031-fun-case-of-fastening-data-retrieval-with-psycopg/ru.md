@@ -1,6 +1,6 @@
 ---
 title = "Интересный случай оптимизации извлечения данных из PostgreSQL с помощью Psycopg"
-tags = ["practice", "development", "python", "backend", "feeds-fun", "interesting"]
+tags = ["practice", "development", "python", "backend", "feeds-fun", "interesting", "databases"]
 published_at = "2024-11-22T12:00:00+00:00"
 seo_description = "TODO"
 seo_image = "cover.png"
