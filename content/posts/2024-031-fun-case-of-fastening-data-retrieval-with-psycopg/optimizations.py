@@ -3,15 +3,11 @@ import psycopg
 import timeit
 
 
-# Note: no row_factory=dict_row
-# Note: no async
-# Note: forsing binary protocol shows the same results
-
-
 N = 1000
 M = 100
 
 
+# --8<-- [start:query_1]
 def query_1(conn, n):
     data = {}
 
@@ -29,8 +25,10 @@ def query_1(conn, n):
             data[entry_id].add(row[2])
 
         return data
+# --8<-- [end:query_1]
 
 
+# --8<-- [start:query_2]
 def query_2(conn, n):
     data = {}
 
@@ -48,8 +46,10 @@ def query_2(conn, n):
             data[entry_id].add(row[1])
 
         return data
+# --8<-- [end:query_2]
 
 
+# --8<-- [start:query_3]
 def query_3(conn, n):
     data = {}
 
@@ -76,8 +76,10 @@ def query_3(conn, n):
             data[entry_id].add(row[1])
 
         return data
+# --8<-- [end:query_3]
 
 
+# --8<-- [start:query_4]
 def query_4(conn, n):
     data = {}
 
@@ -105,6 +107,7 @@ def query_4(conn, n):
             data[entry_id].add(int(raw_tag_id))
 
         return data
+# --8<-- [end:query_4]
 
 
 def run():

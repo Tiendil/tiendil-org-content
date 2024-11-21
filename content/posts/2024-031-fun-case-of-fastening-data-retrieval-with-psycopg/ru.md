@@ -8,7 +8,7 @@ seo_image = "cover.png"
 
 /// brigid-images
 src = "./cover.png"
-caption = "Ускорение извлечения данныъ из базы для каждой из оптимизаций. Можно обратить внимание, что количество извлекаемых строк слабо влияет на время выполнения."
+caption = "Скорость извлечения данных из базы для каждой из оптимизаций. В процентах от скорости базовой реализации. Можно обратить внимание, что количество извлекаемых строк слабо влияет на время выполнения."
 ///
 
 TODO: tag "databases"
@@ -33,65 +33,113 @@ TODO: tag "databases"
 
 <!-- more -->
 
+## Оригинальная задача
 
+Описание таблицы, в которой хранятся данные:
 
+```
+ffun=# \d o_relations
+                                       Table "public.o_relations"
+   Column   |           Type           | Collation | Nullable |                 Default
+------------+--------------------------+-----------+----------+-----------------------------------------
+ id         | bigint                   |           | not null | nextval('o_relations_id_seq'::regclass)
+ entry_id   | uuid                     |           | not null |
+ tag_id     | bigint                   |           | not null |
+ created_at | timestamp with time zone |           | not null | now()
+Indexes:
+    "o_relations_pkey" PRIMARY KEY, btree (id)
+    "idx_o_relations_entry_id_tag_id" UNIQUE, btree (entry_id, tag_id)
+Foreign-key constraints:
+    "o_relations_tag_id_fkey" FOREIGN KEY (tag_id) REFERENCES o_tags(id)
+Referenced by:
+    TABLE "o_relations_processors" CONSTRAINT "o_relations_processors_relation_id_fkey" FOREIGN KEY (relation_id) REFERENCES o_relations(id)
+```
 
-# Non-binary
+Задача проблемной функции: извлечь все `tag_id` для переданного списка `entry_id` и вернуть словарь со множеством `tag_id` для каждого `entry_id`.
 
- ✔ Container feedsfun-postgresql-1  Running                                                                                                                                                                                                              0.0s
-True
-Number of records: 1000
-Number of measurements: 100
-Query 1: 2.28 seconds
-Query 2: 1.06 seconds
-Query 3: 0.92 seconds
-Query 4: 0.58 seconds
-~/r/m/feeds.fun (feature/ff-156-news-loading-performance-analysis|✔) $
-~/r/m/feeds.fun (feature/ff-156-news-loading-performance-analysis|✔) $
-~/r/m/feeds.fun (feature/ff-156-news-loading-performance-analysis|✔) $
-~/r/m/feeds.fun (feature/ff-156-news-loading-performance-analysis|✔) $ ./bin/backend-utils.sh poetry run python ./optimizations.py
-[+] Creating 1/0
- ✔ Container feedsfun-postgresql-1  Running                                                                                                                                                                                                              0.0s
-True
-Number of records: 10000
-Number of measurements: 100
-Query 1: 23.18 seconds
-Query 2: 10.36 seconds
-Query 3: 8.98 seconds
-Query 4: 5.83 seconds
-~/r/m/feeds.fun (feature/ff-156-news-loading-performance-analysis|✔) $
-~/r/m/feeds.fun (feature/ff-156-news-loading-performance-analysis|✔) $
-~/r/m/feeds.fun (feature/ff-156-news-loading-performance-analysis|✔) $ ./bin/backend-utils.sh poetry run python ./optimizations.py
-[+] Creating 1/0
- ✔ Container feedsfun-postgresql-1  Running                                                                                                                                                                                                              0.0s
-True
-Number of records: 100000
-Number of measurements: 100
-Query 1: 227.91 seconds
-Query 2: 103.69 seconds
-Query 3: 88.73 seconds
-Query 4: 57.27 seconds
+Резальтат функции должен быть примерно такой:
 
-# binary
+```
+{
+    "uuid-1": {1, 2, 3, 4, 5},
+    "uuid-2": {7, 8},
+    ....
+}
+```
 
+Никакой магии, один `SELECT` плюс формирование словаря.
 
-True
-Number of records: 1000
-Number of measurements: 100
-Query 1: 2.02 seconds
-Query 2: 1.02 seconds
-Query 3: 0.90 seconds
-Query 4: 0.60 seconds
-~/r/m/feeds.fun (feature/ff-156-news-loading-performance-analysis|✔) $
-~/r/m/feeds.fun (feature/ff-156-news-loading-performance-analysis|✔) $
-~/r/m/feeds.fun (feature/ff-156-news-loading-performance-analysis|✔) $
-~/r/m/feeds.fun (feature/ff-156-news-loading-performance-analysis|✔) $ ./bin/backend-utils.sh poetry run python ./optimizations.py
-[+] Creating 1/0
- ✔ Container feedsfun-postgresql-1  Running                                                                                                                                                                                                              0.0s
-True
-Number of records: 10000
-Number of measurements: 100
-Query 1: 19.59 seconds
-Query 2: 10.18 seconds
-Query 3: 9.15 seconds
-Query 4: 5.75 seconds
+## Оговорки и описание тестов
+
+Чтобы избежать влияние сторонних факторов, я слегка упростил оригинальную задачу:
+
+- Вместо передачи списка `entry_id` я передавал количество записей, которые нужно извлечь (1000, 10000, 100000).
+- Не использовал фабрику строк psycopg `dict_row`, чтобы убрать лишние преобразования.
+- Реализованные тествые функции синхронны, оригинальный код был асинхронным.
+- Тестовые данные брал с прода.
+
+Также обратие внимание:
+
+- Измерялось время выполнения Python фукции с необходимым преобразованием данных, не чистое время работы psycopg. Так как важна именно скорость получения необходимого результата.
+- Пробовал явно включать использование бинарного протокола коммуникации с PostgreSQL, но изменения были не заметны, поэтому далее об этом варианте не говорю.
+- Перед измерением каждая из тестовых функций выполнялась 1 раз, чтобы прогреть базу.
+- Для измерени каждой функции я делал 100 запусков и усреднял результаты.
+- Указывать конкретные числа не буду, так как задача и данные специфичны для конкретного проекта и ничего не скажут стороннему читателю.
+
+/// details | Полный код теста
+```
+--8<-- "./optimizations.py"
+```
+///
+
+Базовая версия функции:
+
+```
+--8<-- "./optimizations.py:query_1"
+```
+
+## Оптимизация 1
+
+Первое, что показал профайлер — большое время проведённое кодом в [psycopg/types/datetime.py](https://github.com/psycopg/psycopg/blob/master/psycopg/psycopg/types/datetime.py) — больше 18%! Как вы можете заметить, никакой работы со временем в коде фунции нет.
+
+«Ага» — сказал я себе — «Зря ты, Tiendil, звёздочку в SELECT поставил, тебе-то только две колонки надо, а время парсить — всегда дорого».
+
+И заменил звёздочку на конкретные колонки:
+
+```
+--8<-- "./optimizations.py:query_2"
+```
+
+## Оптимизация 2
+
+Запуск профайлера показал, что стало лучше, но всё-ещё много времени тратится на парсинг UUID — типа колонки `entry_id`.
+
+Как я уже упоминал, особенность данных в том, что для одного значения `entry_id` может быть порядка 100 записей в таблице. Поэтому нет смысла парсить `entry_id` для каждой строки.
+
+Что если запрашивать `entry_id` как строку, а парсить уже на стороне Python только один раз?
+
+```
+--8<-- "./optimizations.py:query_3"
+```
+
+## Оптимизация 3
+
+Стало ещё лучше.
+
+На этот раз запуск `py-spy` завёл меня в куда более интересное место [psycopg/pq/pq_ctypes.py](https://github.com/psycopg/psycopg/blob/master/psycopg/psycopg/pq/pq_ctypes.py), а точнее в [PGresult.get_value](https://github.com/psycopg/psycopg/blob/d38cf7798b0c602ff43dac9f20bbab96237a9c38/psycopg/psycopg/pq/pq_ctypes.py#L925-L934).
+
+`PGresult.get_value` возвращает одно значение из результата запроса по номеру строки и колонки. Попутно в нём происходит конвертация данных из формата C в формат Python, например, с помощью вызова [ctypes.string_at](https://docs.python.org/3/library/ctypes.html#ctypes.string_at).
+
+Так вот, преобразование данных из формата C в формат Python — очень дорогое удовольствие. Даже не так, ОЧЕНЬ ДОРОГОЕ удовольствие. Особенно когда этих преобразований много, например, по два на каждую из 100000 строк.
+
+Я уже сталкивался с этой проблемой, поэтому сразу подумал: «что если на стороне базы собирать колонки в одну, а на стороне Python разбирать их обратно?».
+
+Сказано — сделано:
+
+```
+--8<-- "./optimizations.py:query_4"
+```
+
+Результаты финальной версии кода в 4 раза быстрее базовой версии.
+
+На всякий случай проговорю словами: **склеить колонки результата на стороне PostgreSQL и разобрать логикой на стороне Python может быть быстрее, чем запрашивать каждую колонку отдельно**. По крайней мере используя psycopg. Но я люблю эту библиотеку, поэтому мне кажется, что у альтернатив будет хуже.
