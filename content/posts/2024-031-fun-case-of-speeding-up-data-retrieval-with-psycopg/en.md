@@ -99,13 +99,13 @@ The base version of the measured function:
 --8<-- "./optimizations.py:version_1"
 ```
 
-## Оптимизация 1
+## Optimization 1
 
-Первое, что показал профайлер — большое время проведённое кодом в [psycopg/types/datetime.py](https://github.com/psycopg/psycopg/blob/master/psycopg/psycopg/types/datetime.py) — больше 18%! Как вы можете заметить, никакой работы со временем в коде функции нет.
+The first thing the profiler showed was a lot of time spent in [psycopg/types/datetime.py](https://github.com/psycopg/psycopg/blob/master/psycopg/psycopg/types/datetime.py) — more than 18%! As you may noticed, there is no time-related work in the function code.
 
-«Ага» — сказал я себе — «Зря ты, Tiendil, звёздочку в SELECT поставил, тебе только две колонки надо, а время парсить всегда дорого».
+"Ah-ha," I said to myself, "You, Tiendil, put a star in the SELECT — you only need two columns, and parsing time is always expensive."
 
-И заменил звёздочку на конкретные колонки:
+And I replaced the star with specific columns:
 
 ```
 --8<-- "./optimizations.py:version_2"
