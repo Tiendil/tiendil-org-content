@@ -28,6 +28,8 @@ In the following text, I will tell you about the sequence of curious discoveries
 
 /// attention | Attention!
 This post is not a study of Psycopg or Python performance, but a description of a specific experience with a specific task and specific data.
+
+It would be incorrect to judge the performance of Psycopg, or Python in general, based on a single specific case.
 ///
 
 <!-- more -->
