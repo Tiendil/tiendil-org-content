@@ -64,30 +64,36 @@ The result of the function should look like this:
 
 No magic, just one `SELECT` plus dictionary creation.
 
-## Оговорки и описание тестов
+## Caveats and test description
 
-Чтобы избежать влияния сторонних факторов, я слегка упростил оригинальную задачу:
+To avoid the influence of external factors, I slightly simplified the original task:
 
-- Вместо передачи списка `entry_id` я передавал количество записей, которые нужно извлечь (1000, 10000, 100000).
-- Не использовал фабрику строк Psycopg [dict_row](https://www.psycopg.org/psycopg3/docs/api/rows.html#psycopg.rows.dict_row), чтобы исключить лишние преобразования.
-- Замеряемые функции синхронны, оригинальный код был асинхронным.
-- Тестовые данные брал с прода.
+- Instead of passing a list of `entry_id`, I passed the number of records to extract (1000, 10000, 100000).
+- I did not use the Psycopg [dict_row](https://www.psycopg.org/psycopg3/docs/api/rows.html#psycopg.rows.dict_row) factory to exclude unnecessary data transformations.
+- The measured functions are synchronous, the original code was asynchronous.
+- The test data was taken from production.
 
-Также обратите внимание:
+Also, note:
 
-- Измерялось время выполнения Python функции с необходимым преобразованием данных, а не чистое время работы Psycopg. Так как важна именно скорость получения необходимого результата.
-- Пробовал явно включать использование бинарного протокола коммуникации с PostgreSQL, но изменения были незаметны, поэтому далее об этом варианте не говорю.
-- Перед измерением каждая из тестовых функций выполнялась 1 раз, чтобы прогреть базу.
-- Для измерения каждой функции я делал 100 запусков и усреднял результаты.
-- Указывать конкретные числа не буду, так как задача и данные специфичны для конкретного проекта, и даже для моего конкретного аккаунта в нём, поэтому ничего не скажут стороннему читателю.
+- I measured the execution time of the target Python function with all necessary data transformations, not just the Psycopg execution time. This is because the focus is on the speed of obtaining the desired result, not just "any" data from the database.
+- I tried explicitly enabling the binary communication protocol with PostgreSQL, but the changes were negligible, so I don't mention this option further.
+- Before measuring, each of the test functions was executed once to warm up the database.
+- To measure each function, I made 100 runs and averaged the results.
 
-/// details | Полный код теста
+The average execution time of the function was:
+
+- For the base version: 2.28, 23.18, 227.91 seconds for 1000, 10000, 100000 records respectively.
+- For the final version: 0.58, 5.83, 57.27 seconds for 1000, 10000, 100000 records respectively.
+
+But keep in mind, the task and data are specific to a particular project, and even to my specific account within it, so they may not be very meaningful to an outside reader.
+
+/// desired | The full test code
 ```
 --8<-- "./optimizations.py"
 ```
 ///
 
-Базовая версия функции:
+The base version of the measured function:
 
 ```
 --8<-- "./optimizations.py:version_1"
