@@ -32,9 +32,9 @@ This post is not a study of Psycopg or Python performance, but a description of 
 
 <!-- more -->
 
-## Оригинальная задача
+## Original task
 
-Сокращённое описание таблицы, в которой хранятся данные (убрал лишнее, чтобы не ехало форматирование):
+Here is a shortened description of the table where the data is stored (I removed the extra to avoid formatting issues):
 
 ```
 ffun=# \d o_relations
@@ -50,9 +50,9 @@ Indexes:
     "idx_o_relations_entry_id_tag_id" UNIQUE, btree (entry_id, tag_id)
 ```
 
-**Задача проблемной Python функции:** извлечь все `tag_id` для переданного списка `entry_id` и вернуть словарь со множеством `tag_id` для каждого `entry_id`.
+**The task of the target Python function:** extract all `tag_id` for the passed list of `entry_id` and return a dictionary with a set of `tag_id` for each `entry_id`.
 
-Результат функции должен быть примерно такой:
+The result of the function should look like this:
 
 ```
 {
@@ -62,7 +62,7 @@ Indexes:
 }
 ```
 
-Никакой магии, один `SELECT` плюс формирование словаря.
+No magic, just one `SELECT` plus dictionary creation.
 
 ## Оговорки и описание тестов
 
