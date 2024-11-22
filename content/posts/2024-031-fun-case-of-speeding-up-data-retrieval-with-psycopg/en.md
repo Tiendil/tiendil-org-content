@@ -1,33 +1,33 @@
 ---
-title = "Интересный случай оптимизации извлечения данных из PostgreSQL с помощью Psycopg"
+title = "Fun case of speeding up data retrieval from PostgreSQL with Psycopg"
 tags = ["practice", "development", "python", "backend", "feeds-fun", "interesting", "databases"]
 published_at = "2024-11-22T12:00:00+00:00"
-seo_description = "Неожиданные подводные камни при работе с Psycopg и как их можно обходить, на конкретном примере."
+seo_description = "Unexpected pitfalls when working with Psycopg and how to overcome them, illustrated on a specific example."
 seo_image = "cover.png"
 ---
 
 /// brigid-images
 src = "./cover.png"
-caption = "Скорость извлечения данных из базы для каждой из оптимизаций. В процентах от скорости базовой реализации. Обратите внимание, что количество извлекаемых строк слабо влияет на время выполнения."
+caption = "Speed of data retrieval from the PostgreSQL for each of the optimizations. In percentages of the base implementation speed. Note how the number of retrieved rows has little effect on execution time."
 ///
 
-Раз в год-два мне приходится вспоминать, что Python, ммм… не C++. Обычно, это происходит внезапно, как в этот раз.
+Once in a year or two, I have to remember that Python, umm... is not C++. It usually happens suddenly, like this time.
 
-~~Проведя вдумчивый анализ~~ Надоело по 10 секунд ждать загрузки новостей в [feeds.fun](https://feeds.fun/), поэтому я засучил рукава и полез оптимизировать. Сходу чуть не взялся за эпический рефакторинг, но вовремя вспомнил, что сначала надо измерить, а потом уже резать. Мерять в данном случае совет буквальный — взял профайлер ([py-spy](https://github.com/benfred/py-spy)) и посмотрел, что конкретно тормозит.
+~~After a thoughtful analysis~~ I got tired of waiting 10 seconds for news to load on [feeds.fun](https://feeds.fun/), so I rolled up my sleeves and started optimizing. I almost jumped into an epic refactoring, but remembered just in time: measure first, then cut. In this case, the advice is literal — I took a profiler — [py-spy](https://github.com/benfred/py-spy) — and checked what exactly was causing the slowdown
 
-Оказалось, тормозит не вся логика, а вполне конкретное место с извлечением из PostgreSQL таблицы ~100000 строк, плюс-минус 20000. Индексы на месте, тесты проводил с базой на RAM-диске, поэтому со стороны базы всё должно было быть ок.
+It turned out that the problem is not in entire logic, but in a very specific place where the code extracts ~100000 rows from a PostgreSQL table, plus-minus 20000. The indexes are in place, I ran the tests with a database on a RAM disk, so everything should have been fine from the database side.
 
-Такому количеству строк не удивляйтесь:
+Don't be surprised by such a number of rows:
 
-- Во-первых, у меня большой поток новостей.
-- Во-вторых, для каждой новости читалка сейчас ставит около 100 тегов.
+- Firstly, I have a large news flow.
+- Secondly, for each news item, the reader currently assigns about 100 tags.
 
-Вооружившись py-spy и исодникакми [psycopg](https://github.com/psycopg/psycopg), я прошёл через три этапа оптимизации, **уменьшив время выполнения запроса примерно в 4 раза только за счёт изменения формата запрашиваемых колонок в SELECT и кода обработки результата**.
+Armed with py-spy and the sources of [psycopg](https://github.com/psycopg/psycopg), I went through three stages of optimization, **reducing the function execution time approximately 4x solely by changing the format of the requested columns in SELECT query  and the result processing code**.
 
-Далее я расскажу про последовательность любопытных открытий, которые сделал в процессе.
+In the following text, I will tell you about the sequence of curious discoveries I made in the process.
 
-/// attention | Внимание!
-Этот пост — не исследование производительностие Psycopg, а описание конкретного опыта на конкретной задаче со специфическими данными.
+/// attention | Attention!
+This post is not a study of Psycopg or Python performance, but a description of a specific experience with a specific task and specific data.
 ///
 
 <!-- more -->
