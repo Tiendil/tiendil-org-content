@@ -17,9 +17,9 @@ Once in a year or two, I have to remember that Python, umm... is not C++. It usu
 
 It turned out that the problem is not in the entire logic, but in a very specific place where the code extracts ~100000 rows from a PostgreSQL table, plus-minus 20000. The indexes are in place, I ran the tests with a database on a RAM disk, so everything should have been fine from the database side.
 
-Don't be surprised by such many rows:
+Don't be surprised by such a large number of rows:
 
-- Firstly, I have a significant news flow.
+- Firstly, I have a substantial news flow.
 - Secondly, the reader currently assigns about 100 tags for each news item.
 
 Armed with py-spy and the sources of [psycopg](https://github.com/psycopg/psycopg), I went through three stages of optimization, **reducing the function execution time approximately 4x solely by changing the format of the requested columns in SELECT query and the result processing code**.
@@ -52,7 +52,7 @@ Indexes:
     "idx_o_relations_entry_id_tag_id" UNIQUE, btree (entry_id, tag_id)
 ```
 
-**The task of the target Python function:** extract all `tag_id` for the passed list of `entry_id` and return a dictionary with a set of `tag_id` for each `entry_id`.
+**The task of the target Python function:** extract all `tag_id` for the list of `entry_id` passed and return a dictionary with a set of `tag_id` for each `entry_id`.
 
 The result of the function should look like this:
 
@@ -72,12 +72,12 @@ To avoid the influence of external factors, I slightly simplified the original t
 
 - Instead of passing a list of `entry_id`, I passed the number of records to extract (1000, 10000, 100000).
 - I did not use the Psycopg [dict_row](https://www.psycopg.org/psycopg3/docs/api/rows.html#psycopg.rows.dict_row) factory to exclude unnecessary data transformations.
-- The measured functions are synchronous, the original code was asynchronous.
+- the measured functions are synchronous, whereas the original code was asynchronous.
 - The test data was taken from production.
 
 Also, note:
 
-- I measured the execution time of the target Python function with all necessary data transformations, not just the Psycopg execution time. This is because the focus is on the speed of obtaining the desired result, not just "any" data from the database.
+- I measured the execution time of the target Python function with all necessary data transformations, not just the Psycopg execution time. This is because the focus is on the speed of achieving the desired result, not merely retrieving "any" data from the database.
 - I tried explicitly enabling the binary communication protocol with PostgreSQL, but the changes were negligible, so I don't mention this option further.
 - Before measuring, each measured function was executed once to warm up the database.
 - To measure each function, I made 100 runs and averaged the results.
@@ -105,7 +105,7 @@ The base version of the measured function:
 
 The first thing the profiler showed was a lot of time spent in [psycopg/types/datetime.py](https://github.com/psycopg/psycopg/blob/master/psycopg/psycopg/types/datetime.py) — more than 18%! As you may have noticed, there is no time-related work in the function code.
 
-"Ah-ha," I said to myself, "You, Tiendil, put a star in the SELECT, but you only need two columns, and parsing time values is always expensive."
+"Ah-ha," I said to myself, "You, Tiendil, put a star in the SELECT, but you only need two columns, and parsing time values tends to be expensive."
 
 And I replaced the star with specific columns:
 
@@ -119,7 +119,7 @@ The next profiler run showed that times improved, but much time was still spent 
 
 As I mentioned earlier, the peculiarity of the data is that for a single `entry_id`, there can be around 100 rows in the table. Therefore, it makes no sense to parse `entry_id` for each row.
 
-What if we request `entry_id` as a string and parse it on the Python side, but only once for each unique value?
+What if we retrieve `entry_id` as a string and parse it on the Python side, but only once for each unique value?
 
 ```
 --8<-- "./optimizations.py:version_3"
