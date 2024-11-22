@@ -1,6 +1,6 @@
 ---
 title = "Миграции backend на практике"
-tags = [ "backend", "open-source", "python", "rust", "practice", "development", "interesting"]
+tags = [ "backend", "open-source", "python", "rust", "practice", "development", "interesting", "databases"]
 published_at = "2021-05-24T12:00:00+00:00"
 seo_description = "Обзор инструментов для миграций в реляционных базах данных с фокусом на Python."
 seo_image = ""

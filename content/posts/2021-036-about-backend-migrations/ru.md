@@ -1,6 +1,6 @@
 ---
 title = "О миграциях backend"
-tags = [ "backend", "development", "theory", "interesting"]
+tags = [ "backend", "development", "theory", "interesting", "databases"]
 published_at = "2021-05-17T12:00:00+00:00"
 seo_description = "Подробно о миграциях (баз данных) на backend, их видах, особенностях, потенциальных проблемах и решениях. Требования к «идеальной» системе миграций."
 seo_image = ""
