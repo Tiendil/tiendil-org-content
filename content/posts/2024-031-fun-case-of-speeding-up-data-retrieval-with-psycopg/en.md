@@ -89,7 +89,7 @@ The average execution time of the function was:
 
 But keep in mind, the task and data are specific to a particular project, and even to my specific account within it, so they may not be very meaningful to an outside reader.
 
-/// desired | The complete test code
+/// details | The complete test code
 ```
 --8<-- "./optimizations.py"
 ```
