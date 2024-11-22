@@ -103,7 +103,7 @@ The base version of the measured function:
 
 The first thing the profiler showed was a lot of time spent in [psycopg/types/datetime.py](https://github.com/psycopg/psycopg/blob/master/psycopg/psycopg/types/datetime.py) — more than 18%! As you may noticed, there is no time-related work in the function code.
 
-"Ah-ha," I said to myself, "You, Tiendil, put a star in the SELECT — you only need two columns, and parsing time is always expensive."
+"Ah-ha," I said to myself, "You, Tiendil, put a star in the SELECT, but you only need two columns, and parsing time values is always expensive."
 
 And I replaced the star with specific columns:
 
@@ -111,13 +111,13 @@ And I replaced the star with specific columns:
 --8<-- "./optimizations.py:version_2"
 ```
 
-## Оптимизация 2
+## Optimization 2
 
-Запуск профайлера показал, что стало лучше, но всё-ещё много времени тратится на парсинг `UUID` — типа колонки `entry_id`.
+The next profiler run showed that it got better, but still a lot of time was spent parsing the `UUID` values — it is the type of the `entry_id` column.
 
-Как я уже упоминал, особенность данных в том, что для одного значения `entry_id` может быть порядка 100 записей в таблице. Поэтому нет смысла парсить `entry_id` для каждой строки.
+As I mentioned earlier, the peculiarity of the data is that for a single `entry_id`, there can be around 100 rows in the table. Therefore, it makes no sense to parse `entry_id` for each row.
 
-Что если запрашивать `entry_id` как строку, а парсить уже на стороне Python, но только один раз для уникального значения?
+What if we request `entry_id` as a string and parse it on the Python side, but only once for each unique value?
 
 ```
 --8<-- "./optimizations.py:version_3"
