@@ -123,28 +123,28 @@ What if we request `entry_id` as a string and parse it on the Python side, but o
 --8<-- "./optimizations.py:version_3"
 ```
 
-## Оптимизация 3
+## Optimization 3
 
-Стало ещё лучше (смотрите заглавную картинку).
+It got even better (see the cover image).
 
-На этот раз py-spy завёл меня в куда более интересное место: [psycopg/pq/pq_ctypes.py](https://github.com/psycopg/psycopg/blob/master/psycopg/psycopg/pq/pq_ctypes.py), а точнее в [PGresult.get_value](https://github.com/psycopg/psycopg/blob/d38cf7798b0c602ff43dac9f20bbab96237a9c38/psycopg/psycopg/pq/pq_ctypes.py#L925-L934).
+This time py-spy led me to a much more interesting place: [psycopg/pq/pq_ctypes.py](https://github.com/psycopg/psycopg/blob/master/psycopg/psycopg/pq/pq_ctypes.py), or more precisely to [PGresult.get_value](https://github.com/psycopg/psycopg/blob/d38cf7798b0c602ff43dac9f20bbab96237a9c38/psycopg/psycopg/pq/pq_ctypes.py#L925-L934).
 
-`PGresult.get_value` возвращает одно значение из результата запроса по номеру строки и колонки. Попутно в нём происходит конвертация данных из формата C в формат Python, в частности, с помощью вызова [ctypes.string_at](https://docs.python.org/3/library/ctypes.html#ctypes.string_at).
+`PGresult.get_value` returns a single value from the query result by numbers of row and column. Along the way, it converts data from C format to Python format, in particular, using [ctypes.string_at](https://docs.python.org/3/library/ctypes.html#ctypes.string_at).
 
-Так вот, преобразование данных из формата C в формат Python — очень дорогое удовольствие. Даже не так, ОЧЕНЬ ДОРОГОЕ удовольствие. Особенно когда этих преобразований много, например, по два на каждую из 100000 строк.
+Data conversion from C to Python is a very costly operation. Actually, scratch that — it's a VERY costly operation. Especially when there are many such conversions, for instance, two for each of 100000 rows.
 
-Можно ли сократить количество преобразований? Конечно, давайте на стороне базы собирать колонки в одну, а на стороне Python разбирать их обратно.
+Is it possible to reduce the number of conversions? Of course, let's concatenate the columns on the database side and split them back on the Python side.
 
-Сказано — сделано, вот наш финальный вариант:
+And here is our final version:
 
 ```
 --8<-- "./optimizations.py:version_4"
 ```
 
-Результаты этой версии примерно в 4 раза быстрее базовой (на моих данных).
+The performance of this version is approximately 4 times faster than the baseline (on my dataset).
 
-/// attention | На всякий случай проговорю словами
-Отформатировать и склеить колонки результата на стороне PostgreSQL и распарсить Python-ом может быть быстрее, чем запрашивать колонки как отдельные значения.
+/// attention | Just to spell it out clearly
+Formatting and concatenating result columns on the PostgreSQL side and then parsing them in Python might be faster than fetching the columns as separate values.
 ///
 
-По крайней мере это справедливо для конкретного случая использования Psycopg. Я люблю эту библиотеку, поэтому думаю, что у альтернатив ситуация не лучше.
+At least, this holds true for my specific use case with Psycopg. I love this library and believe in its quality, so I suspect the alternatives wouldn't fare any better
