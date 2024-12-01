@@ -8,6 +8,7 @@ seo_image = ""
 ---
 
 TODO: tags
+TODO: update brigid to 0.12.0
 
 Продолжаю заметки об ИИ на конец 2024 года.
 
