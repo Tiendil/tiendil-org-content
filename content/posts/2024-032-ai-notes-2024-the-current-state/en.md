@@ -106,22 +106,22 @@ In some areas, everything is just getting better, for example:
 - **Text processing**: translation, "technical journalism." It's definitely becoming more convenient, but I'm not ready to consider the automation of writing technical notes on sports matches, courts, and stock market events as a disruption.
 - **Education** — LLMs are finding their application, but they haven't changed anything radically yet. For example, there are no examples of platforms or schools where AI has replaced teachers.
 
-### Рынки, на которых все ждут изменений, а их всё нет
+### Markets with no changes, despite everyone's expectations
 
-В некоторых областях быстрого прорыва не случилось, хотя многие ждали:
+In some areas, there has been no rapid breakthrough, although many were waiting for it:
 
-- **Робототехинка** — штучные гуманоидные роботы вроде появились, но они занимают всё те же ниши развлечений для богатых и вычурного маркетинга.
-- **Игры** — не вышло ни одной крупной игры с next-gen NPC или next-gen процедурной генерацией. Нет даже ничего, что сравнилось бы с известными прецендентами из before-deep-learning эпохи, вроде [Creatures](https://en.wikipedia.org/wiki/Creatures_(video_game_series)), [Black and White](https://en.wikipedia.org/wiki/Black_%26_White_(video_game)), etc. Последнее очень подозрительно, свидетельствует либо об очень долгих циклах адаптации технологий в геймдеве, либо о концептуальных недостатках технологии, либо о превращении геймдева в болото. Ставлю на болото.
-- **Профессиональная генерация ready-to-view художественного контента** — генерировать контент по точной детальной спецификации всё ещё нельзя и даже близко не заметно когда станет возможным. Работа профессиональных художников, операторов и всех причастных всё ещё нужна и ценна.
-- **Профессиональная генерацией ready-to-read художественного контента**. Аналогичная ситуация.
-- Скорость внедрения **самоходных повозок** радикально не изменилась.
-- **Медицина** — прорывных прорывов пока не заметно, доступность медицины «для бедных» не улучшается.
-- **Наука** — [за AlphaFold дали Нобелевку](https://www.nature.com/articles/d41586-024-03214-7), но я пока не встречал новостей в духе «учёные с помощью AlpaFold сделали что-то революционное» (про это же и Nature пишет). AlphaFold, на мой взгляд, находится ближе к области профессионального софта, чем базовой штуки, подрывающей науку. Периодически встречаю статьи про автоматизацию исследований с помощью LLM, но пока не слышал об их практическом применении. Почему его нет и, скорее всего не будет, расскажу в следующем посте.
-- **Бюрократия** — пока не было примеров крупной автомтизации работы с бумажками в государственном аппарате.
+- **Robotics** — Humanoid robots have appeared, but they still occupy the same niches as before: entertainment for the rich and fancy marketing.
+- **Games** — Not a single major game has been released featuring next-gen NPCs or next-gen procedural generation. There’s not even anything comparable to well-known precedents from the pre-deep-learning era, such as [Creatures](https://en.wikipedia.org/wiki/Creatures_(video_game_series)), [Black and White](https://en.wikipedia.org/wiki/Black_%26_White_(video_game)), etc. The last one is very suspicious, indicating either very long adaptation cycles of technologies in gamedev, conceptual shortcomings of the technology itself, or the stagnation of the industry. My money is on stagnation.
+- **Professional generation of ready-to-view artistic content** — Generating content according to a precise detailed specification is still impossible and is not even close to becoming possible. The work of professional artists, cameramen, and all involved is still needed and valuable.
+- **Professional generation of ready-to-read artistic content** — The situation is similar to the previous point.
+- The adoption rate of **self-driving vehicles** hasn’t changed radically.
+- **Medicine** — There have been no breakthroughs yet, and the accessibility of medicine for the poor has not improved.
+- **Science** — [AlphaFold won a Nobel Prize](https://www.nature.com/articles/d41586-024-03214-7), but I haven't seen any news about scientists doing something revolutionary with AlphaFold (Nature also writes about this). In my opinion, AlphaFold is closer to professional software than to a foundational breakthrough for science. Also, I come across articles about automating research using LLMs, but I have yet to hear of any practical applications. Why this is the case — and likely will remain so — is something I’ll explain in my next post.
+- **Bureaucracy** — There have been no examples of large-scale automation of paperwork in the government sector or in large corporations.
 
-/// note | Основываясь на этих наблюдениях, добавим ещё несколько гипотез
+/// note | Based on these observations, let's add a few more hypotheses
 
-- ИИ изменяет нашу жизнь к лучшему, но не делает это радикально: улучшения не происходят везде, не происходят быстро, самые сильные изменения сильно локализованы в области профессионального софта и развлечений, тем самым не затрагивая напрямую жизнь большинства людей.
-- Существует ряд областей, которые «стоят в очереди» за дарами ИИ и могут рвануть, но это возможность скорее гипотетическая, чем реальная.
+- AI is changing our lives for the better, but not radically: improvements are not happening everywhere, not happening quickly, the most significant changes are highly localized in the field of professional software and entertainment, thus not directly and significantly affecting the lives of most people.
+- There are a number of areas that are "waiting in line" for AI gifts and could explode, but this is more of a hypothetical possibility than a real one.
 
 ///
