@@ -1,14 +1,11 @@
 ---
 title = "Текущее состояние"
-tags = ["theory", "neural-networks", "ai-notes-2024"]
+tags = ["practice", "neural-networks", "ai-notes-2024", "futurology", "business", "economics"]
 series = "ai-notes-2024"
 published_at = "2024-11-23T17:00:00+00:00"
 seo_description = "TODO"
 seo_image = ""
 ---
-
-TODO: tags
-TODO: update brigid to 0.12.0
 
 Продолжаю заметки об ИИ на конец 2024 года.
 
