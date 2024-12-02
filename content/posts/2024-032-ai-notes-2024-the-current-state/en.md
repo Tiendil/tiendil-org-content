@@ -73,26 +73,28 @@ In this regard, the o1 model looks like an attempt to "cheaply" push general-pur
 
 ///
 
-## Рекогносцировка через изменения на рынках
+## View through market changes
 
-- ChatGPT 3 вышла летом 2020 — 4 года назад.
-- ChatGPT 4 вышла весной 2023 — 1.5 года назад.
+- ChatGPT 3 was released in the summer of 2020 — 4 years ago.
+- ChatGPT 4 was released in the spring of 2023 — 1.5 years ago.
 
-На мой взгляд, прошло достаточно времени чтобы делать первые выводы о перспективах технологии: в каких местах она меняет правила игры, в каких делает лучше, а в каких не меняет ничего.
+In my opinion, enough time has passed to draw initial conclusions about the perspectives of the technology: where it changes the rules of the game, where it makes things better, and where it changes nothing.
 
-Обратите внимание:
+/// warning | Pay attention
 
-- Всё выше написанное — это моё личное субъективное мнение.
-- Всё написанное ниже — это моё ещё более личное и более субъективное мнение. Это не результат исследования, а продукт моего опыта и наблюдений за новостями.
+- Everything written above is my personal subjective opinion.
+- Everything written below is even more personal and subjective. It is not the result of research, but the product of my experience and observations of the news.
 
-### Подрываемые рынки
+///
 
-Прямо сейчас идут большие изменения в следующих областях:
+### Disrupted markets
 
-- **Персональные ассистенты** — LLM чаты на порядки улучшают функциональность всего, что было до них: от вордовской скрепки до умных колонок, меняя правила взаимодействия пользователей с ними.
-- **Профессиональный софт** — [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment), [CAD](https://en.wikipedia.org/wiki/Computer-aided_design), графические редакторы — весь профессиональный софт, который хоть как-то формализровал свою область — а это весь крупный профессиональный софт. Профессиональные области становятся на порядок доступнее новичкам, а профессионалы становятся на порядок эффективнее. При этом меняется концепция работы с профессиональным софтом: от директивного к диалоговому. Пока не понятно, где остановятся изменения: будет ли это просто отдельный режим или вся разработка перейдёт в диалоги, но прежними редакторы точно не останутся.
-- **Поиск** — пока широко не заметно, но большинство людей пользующихся ChatGPT или аналогами отмечают, что обращаются к классическому поиску значительно реже. На мой взгляд, незаметность обусловлена сочетанием огромной пользовательской базы поисковиков и пока ещё малой распространнённостью чатов. Было бы интересно посмотреть на график количество запросов в Google от среза пользователей вроде «ИТ-шники из Флориды».
-- **Музыка** — ряд стартапов, например, [Suno](https://suno.com/) продемонстрировал что генерировать музыку и песни по формализованному заданию значительно проще, чем изображение и видео. Стулья под охранителями интеллектуальных прав шатаются, но те пока держатся. Скрестим пальчики за будущее. Кстати, если задуматься, генерацию музыки можно отнести к профессиональному софту: ноты и разметка текстов — это типичные [DSL](https://en.wikipedia.org/wiki/Domain-specific_language).
+Right now, there are major changes in the following areas:
+
+- **Personal assistants** — LLM-based chats significantly enhance the functionality of everything that came before them, from Clippy in Word to smart speakers, redefining how users interact with these tools.
+- **Professional software** — [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment), [CAD](https://en.wikipedia.org/wiki/Computer-aided_design), graphic editors — all professional software that has, to some extent, formalized its domain, which applies to all major professional tools.These developments make professional fields an order of magnitude more accessible to beginners, while professionals become exponentially more efficient. At the same time, the concept of working with professional software is shifting from directive interaction to a dialog-based approach. It’s still unclear where these changes will settle — whether it will remain as a separate mode or if the entire development process will transition to dialogs — but one thing is certain: editors will never be the same.
+- **Search** — While it hasn’t become widely noticeable yet, most people using ChatGPT or similar tools report turning to traditional search engines significantly less often. In my opinion, this lack of visibility is due to a combination of the massive user base of search engines and the still limited adoption of chat-based tools. It would be interesting to see a graph of the number of Google queries from a specific user demographic, such as "IT professionals in Florida."
+- **Music** — Several startups, such as [Suno](https://suno.com/), have demonstrated that generating music and songs based on a formalized input is significantly easier than generating images and videos. The chairs under the guardians of intellectual property are shaking, but they are still holding. Let’s keep our fingers crossed for the future. By the way, if you think about it, music generation can be attributed to professional software: musical notation and lyric markup are typical [DSLs](https://en.wikipedia.org/wiki/Domain-specific_language).
 
 ### Улучшаемые рынки
 
