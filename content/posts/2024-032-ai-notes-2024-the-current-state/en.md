@@ -45,31 +45,31 @@ At some point, it became impractical to invest the majority of resources in scal
 
 ///
 
-## Рекогносцировка через призму статистических моделей
+## View through the prism of probabilistic models
 
-Улучшать статистические модели можно несколькими путями:
+We can improve probabilistic models in several ways:
 
-1. Усложнять подготовку модели: больше данных, дольше обучение — лучше результаты.
-2. Усложнять саму модель — изменять архитектуру.
-3. Специализировать модель — увеличивать точность, ограничивая область поиска решений.
-4. Масштабировать модель горизонтально — корректировать ошибки, создавая множество вариантов ответа. Самый простой вариант: если в двух из трёх запусков модель говорит А, а в одном — Б, то скорее всего правильный ответ — А. Чуть сложнее: запуск нескольких специализированных моделей, каждая из которых решает часть задачи.
+1. Making model preparation more complex: more data, longer training — better results.
+2. Making model more complex by changing its architecture.
+3. Making model more specialized — increasing accuracy by narrowing the solution space.
+4. Scaling model horizontally — correcting errors by generating multiple response variations. The simplest option: if the model says A in two out of three runs and B in one, then the correct answer is probably A. A slightly more complex option: running several specialized models, each of which solves part of the problem.
 
-Пути 1, 2, 3 определяют конечную форму модели, поэтому они — прерогатива разработчиков моделей.
+Approaches 1, 2, 3 determine the final form of the model, so they are the prerogative of model developers.
 
-Вариант 4 не изменяет форму самой модели, но позволяет управлять точностью её ответов, поэтому он больше подходит для пользователей моделей.
+Approach 4 does not change the form of the model itself, but allows us to control the accuracy of its results, so it is more suitable for model users.
 
-Держа в уме поколения моделей, мы можем предположить, что от вариантов 1 и 2 уже не ждут радикальных прорывов.
+Keeping in mind the generations of models, we can assume that no radical breakthroughs are expected from options 1 and 2.
 
-Идеальным примером третьего пути будет [Suno](https://suno.com/) — сервис для генерации музыки и песен, значительно превосходящий по качеству работу универсальных моделей. Работать над подобными специализациями разработчикам универсальных моделей не выгодно: чтобы собрать данные и натренировать, условно, 100-1000 специализированных моделей (и упаковать их в универсальную мета-модель), нужно 100-1000 команд уровня Suno. Если же вспомнить, что Suno — стартап-лидер — один из многих (погибших в безвестности), то оценка необходимых ресурсов должна вырасти ещё раз в 100.
+An ideal example of the third approach would be [Suno](https://suno.com/) — a service for generating music and songs that significantly outperforms general-purpose models in quality. It is not profitable for developers of general-purpose models to focus on such specializations: to gather data and train, say, 100-1000 specialized models (and integrate them into a universal meta-model), you'd need 100-1000 teams like Suno. Considering that Suno is a leading startup — one of many (most of which faded into obscurity) — the estimated resources required should be multiplied by another factor of 100.
 
-Вариант 4 не даёт качественного скачка. Если в какой-то области модель ошибается немного, то горизонтальное масштабирование уберёт эту ошибку и ответы станут немного лучше (раз ошибка была небольшой). Если у модели слепое пятно в какой-то области, то это же слепое пятно, скорее всего, останется и после масштабирования.
+The fourth approach does not guarantee a qualitative leap. If the model makes minor errors in some area, horizontal scaling can eliminate these errors and slightly improve the answers (because the error was small). If the model has a blind spot in some area, this blind spot will most likely remain even after scaling.
 
-В этом плане, модель o1 выглядит как попытка «задёшево» двинуть универсальную LLM одновременно по путям 3 и 4. Получилось лучше, чем GPT-4, но не на порядок. Например, я всё ещё пользуюсь своими [кастомными GPT-шками]{post:my-gpts} вместо o1 для некоторых задач.
+In this regard, the o1 model looks like an attempt to "cheaply" push general-purpose LLMs forward along paths 3 and 4 at the same time. The result is better than GPT-4, but not by an order of magnitude. For instance, I still use my [custom GPTs]{post:my-gpts} for certain tasks instead of o1
 
-/// note | Соответственно, мы можем продолжить выдвигать гипотезы
+/// note | Accordingly, we can continue formulating hypotheses
 
-- Возможности генеративных баз более-менее определены — скорее всего они будут оставаться на уровне GPT-4 плюс-минус. Само собой, они будут становиться быстрее, меньше, немного точнее и т.п.
-- Разговоры про возможность продолжения быстрого прогресса через масштабирование вычислений на этапе эксплуатации (вариант 4), скорее всего, маркетинговый ~~булшит~~ ход для поддержания хайпа и потока инвестиций. Про это я ещё скажу в следующем эссе про будущее.
+- The capabilities of generative knowledge bases are more or less defined — they will most likely remain at the level of GPT-4 plus-minus. Naturally, they will become faster, smaller, slightly more accurate, etc.
+- The talks about the continuation of rapid progress through scaling computations during operation (option 4), instead of training stage, are most likely a marketing ~~bullshit~~ move to maintain hype and investment flow. I will talk more about this in the next essay on the future of technology.
 
 ///
 
