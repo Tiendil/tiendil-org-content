@@ -96,15 +96,15 @@ Right now, there are major changes in the following areas:
 - **Search** — While it hasn’t become widely noticeable yet, most people using ChatGPT or similar tools report turning to traditional search engines significantly less often. In my opinion, this lack of visibility is due to a combination of the massive user base of search engines and the still limited adoption of chat-based tools. It would be interesting to see a graph of the number of Google queries from a specific user demographic, such as "IT professionals in Florida."
 - **Music** — Several startups, such as [Suno](https://suno.com/), have demonstrated that generating music and songs based on a formalized input is significantly easier than generating images and videos. The chairs under the guardians of intellectual property are shaking, but they are still holding. Let’s keep our fingers crossed for the future. By the way, if you think about it, music generation can be attributed to professional software: musical notation and lyric markup are typical [DSLs](https://en.wikipedia.org/wiki/Domain-specific_language).
 
-### Улучшаемые рынки
+### Improved markets
 
-В некоторых областях всё становится просто лучше, например:
+In some areas, everything is just getting better, for example:
 
-- **Croudsourcing платформы** вроде [Талаки](https://toloka.ai/) переориентируются с людей на ИИ, но не меняют свою суть.
-- **Сервисы модерации, анализа настроений, фильтрации контента** тоже становятся лучше, не меняясь концептуально.
-- **No-code платформы**. Для меня странно записывать их сюда, но де-факто ничего революционного в них я не видел, хотя AI явно увеличивает их возможности.
-- **Обработка текста**: перевод, «техническая журналистика». Определённо становится удобнее, но ту же автоматизацию написания технических заметок о спортивных матчах, судах и событиях на бирже я не готов считать за подрыв чего-то.
-- **Обучение** — LLM находят своё применение, но пока не меняют ничего радикально. Например, нет примеров платформ или школ, в которых ИИ заменил бы учителя.
+- **Crowdsourcing platforms** like [Toloka](https://toloka.ai/) are transitioning from human contributors to AI while retaining their core essence.
+- **Moderation, sentiment analysis, and content filtering services** are also improving while remaining conceptually unchanged.
+- **No-code platforms**. It seems strange to include them here, but de facto, I haven't seen anything revolutionary in them, although AI clearly increases their capabilities.
+- **Text processing**: translation, "technical journalism." It's definitely becoming more convenient, but I'm not ready to consider the automation of writing technical notes on sports matches, courts, and stock market events as a disruption.
+- **Education** — LLMs are finding their application, but they haven't changed anything radically yet. For example, there are no examples of platforms or schools where AI has replaced teachers.
 
 ### Рынки, на которых все ждут изменений, а их всё нет
 
