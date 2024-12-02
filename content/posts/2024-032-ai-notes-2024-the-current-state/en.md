@@ -22,26 +22,26 @@ Based on these theses, let's look at the current state of the industry.
 
 <!-- more -->
 
-## Рекогносцировка через призму поколений моделей
+## View through the prism of model generations
 
-Первым делом посмотрим, как эволюционировали топовые релизации больших универсальных LLM моделей — главное достижение последних лет.
+First of all, let's look at how the top implementations of universal LLMs have evolved — the main achievement of recent years.
 
-Идеальным примером станет серия моделей от OpenAI: каждая новая модель буквально соответствует этапу развития технологий, как я их вижу:
+An ideal example would be the series of models from OpenAI: each new model literally corresponds to a stage in the development of technologies as I see them:
 
-1. Юность — GPT-3 — до предела улучшаем модель с помощью масштабирования данных и железа.
-2. Становление — GPT-4 — когда исчерпаны возможности экстенсивного развития, мы переходим на интенсивный путь максимальной адаптации архитектуры. Этот этап логично закончился мультимодальностью — поддержкой разных типов данных: текста, изображений, звука.
-3. Зрелось — о1 — когда мы больше не можем **радикально** улучшать архитектуру целевой системы, мы начинаем строить надсистему, в которой оригинальная система является одним из компонентов. Шаблон [Chain-of-Thought](https://www.promptingguide.ai/techniques/cot), на который натренирована o1, как раз и является первой такой надсистемой, пусть и очень простой. Его можно воспринимать как последовательное применение модели к [чёрной доске](https://en.wikipedia.org/wiki/Blackboard_(design_pattern)). Следующим шагом, например, может быть мультиакторность и специализация моделей.
-4. Старость (?) — GPT-5 — когда все возможности для радикального улучшения технологии исчерпаны, мы берём в руки напильник и начинаем долгий процесс её оптимизации. Улучшать технологию можно ещё долго и, накопительно, сделать её на порядки лучше, но взрывной рост закончен. Поэтому в интернетах упорно ходят слухи, что ждать большого рывка от GPT-5 не стоит.
+1. Youth — GPT-3 — pushing models to their limits through scaling data and hardware.
+2. Coming of Age — GPT-4 — when the possibilities of extensive development are exhausted, we transition to an intensive path of maximizing architectural adaptation. This stage naturally culminated in multimodality — support for various data types such as text, images, and audio.
+3. Maturity — o1 — when we can no longer **radically** improve the architecture of the target system, we begin building a metasystem in which the original system becomes one of the components. The [Chain-of-Thought](https://www.promptingguide.ai/techniques/cot) pattern, on which o1 is tuned, can be interpreted as the first such metasystem, albeit a very simple one. It can be seen as the sequential application of the model to a [blackboard](https://en.wikipedia.org/wiki/Blackboard_(design_pattern)). The next step, for example, could involve multi-agent systems and model specialization.
+4. Old age (?) — GPT-5 — when all possibilities for radical improvements are exhausted, we shift to the meticulous process of fine-tuning and optimization. The technology can still be improved for a long time and cumulatively made orders of magnitude better, but explosive growth is over. Therefore, there are persistent rumors on the internet that we shouldn't expect a big leap from GPT-5.
 
-Обращу ваше внимание на то, что изменение базовой модели — крайне дорогая операция. Модели не меняют по желанию левой пятки. Их стремятся менять ровно тогда, когда выжимать что-то новое из старого подхода становится экономически нецелесообразно по сравнению с вложением средств в новый подход. Иными словами, когда достигнут предел быстрого развития.
+I would like to draw your attention to the fact that changing the base model is an extremely expensive operation. Models are not changed on a whim. They are changed exactly when squeezing something new out of the old approach becomes economically unviable compared to investing in a new approach. In other words, when the limit of rapid development is reached.
 
-В какой-то момент стало нецелесообразно вкладывать основные ресурсы в масштабирование данных и утилизацию железа, поэтому переключились на оптимизацию архитектуры. Когда архитектуру дотюнили, перенаправили финансовые потоки на эксперименты по созданию надсистемы.
+At some point, it became impractical to invest the majority of resources in scaling data and hardware, so we switched to optimizing the architecture. Once the architecture was fine-tuned, humanity redirected financial flows toward experiments in creating metasystems.
 
-/// note | Поэтому мы можем выдвинуть следующие предположения
+/// note | Therefore, we can make the following assumptions
 
-- Осталось мало возможностей для взрывного экстенсивного развития через масштабирование данных и железа. Если бы этот ресурс (данные и железо) не был исчерпан, продолжали бы выпускать GPT-3.X модели, их бы масштабировали для работы на 2, 5, 10, 100500 видюхах одновременно, NVidia выпускала бы сверхоптимизированное железо для запуска сверхпростых, но гигантских нейронок, etc.
-- Осталось мало возможностей для взрывного развития архитектуры. OpenAI, как и все остальные, не смогли за длительное время изобрести или купить технологию, которая позволила бы продолжать модернизировать архитектуру. Иначе вместо o1 OpenAI тренировала бы GPT-4.5 или GPT-5, заметно превосходящие GPT-4 по качеству.
-- Мы сейчас на этапе построения надсистем над генеративными базами знаний, поскольку именно подготовке таких моделей сейчас отдаётся предпочтение.
+- There are few opportunities left for explosive extensive growth through scaling data and hardware. If this resource (data and hardware) hadn’t been exhausted, we would still see GPT-3.X models being released, scaled to run on 2, 5, 10, or even 100500 GPUs simultaneously. NVIDIA would be rolling out ultra-optimized hardware designed specifically for running super-simple but massive neural networks, and so on.
+- There are few opportunities left for explosive architectural growth. OpenAI, like everyone else, has not been able to invent or buy technology that would allow them to continue modernizing the architecture. Otherwise, instead of o1, OpenAI would have trained GPT-4.5 or GPT-5, significantly surpassing GPT-4 in quality.
+- We are currently at the stage of building metasystems on top of generative knowledge bases, as the development of such models is now being prioritized.
 
 ///
 
