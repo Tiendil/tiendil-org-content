@@ -1,24 +1,24 @@
 ---
-title = "Текущее состояние"
+title = "The current state"
 tags = ["practice", "neural-networks", "ai-notes-2024", "futurology", "business", "economics"]
 series = "ai-notes-2024"
 published_at = "2024-11-23T17:00:00+00:00"
-seo_description = "Мои заметки об актуальном состоянии ИИ в конце 2024, эта часть о текущем состоянии области."
+seo_description = "My notes on the current state of AI at the end of 2024, this part is about the current state of the industry."
 seo_image = ""
 ---
 
-Продолжаю заметки об ИИ на конец 2024 года.
+I continue my notes on AI at the end of 2024.
 
 /// brigid-series
 tag = "ai-notes-2024"
 ///
 
-В прошлых постах мы обсудили два тезиса:
+In the previous posts we discussed two theses:
 
-- Анализируя решения крупных разработчиков ИИ, таких как OpenAI или Google, мы можем делать достаточно точные предположения о состоянии этой области знаний.
-- Весь текущий прогресс стоит на одной конкретной базовой технологии — генеративных базах знаний, которые есть большие вероятностные модели.
+- We can make fairly accurate assumptions about the state of the AI industry by analyzing decisions of major AI developers, such as OpenAI or Google.
+- All current progress is based on a single base technology — generative knowledge bases, which are large probabilistic models.
 
-Опираясь на эти тезисы, давайте посмотрим на текущее состояние индустрии.
+Based on these theses, let's look at the current state of the industry.
 
 <!-- more -->
 
@@ -43,9 +43,9 @@ tag = "ai-notes-2024"
 2. Осталось мало возможностей для взрывного развития архитектуры. OpenAI, как и все остальные, не смогли за длительное время изобрести или купить технологию, которая позволила бы продолжать модернизировать архитектуру. Иначе вместо o1 OpenAI тренировала бы GPT-4.5 или GPT-5, заметно превосходящие GPT-4 по качеству.
 3. Мы сейчас на этапе построения надсистем над генеративными базами знаний, поскольку именно подготовке таких моделей сейчас отдаётся предпочтение.
 
-## Рекогносцировка через призму вероятностных моделей
+## Рекогносцировка через призму статистических моделей
 
-Улучшать вероятностные модели можно несколькими путями:
+Улучшать статистические модели можно несколькими путями:
 
 1. Усложнять подготовку модели: больше данных, дольше обучение — лучше результаты.
 2. Усложнять саму модель — изменять архитектуру.
