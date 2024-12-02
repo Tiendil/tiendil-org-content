@@ -13,9 +13,9 @@ I continue my notes on AI at the end of 2024.
 tag = "ai-notes-2024"
 ///
 
-In the previous posts we discussed two theses:
+In the previous posts, we discussed two theses:
 
-- We can make fairly accurate assumptions about the state of the AI industry by analyzing decisions of major AI developers, such as OpenAI or Google.
+- By analyzing the decisions of major AI developers, such as OpenAI or Google, we can make fairly accurate assumptions about the state of the AI industry.
 - All current progress is based on a single base technology — generative knowledge bases, which are large probabilistic models.
 
 Based on these theses, let's look at the current state of the industry.
@@ -24,16 +24,16 @@ Based on these theses, let's look at the current state of the industry.
 
 ## View through the prism of model generations
 
-First of all, let's look at how the top implementations of universal LLMs have evolved — the main achievement of recent years.
+First, let's examine how the top implementations of universal LLMs — the main achievement of recent years — have evolved.
 
 An ideal example would be the series of models from OpenAI: each new model literally corresponds to a stage in the development of technologies as I see them:
 
-1. Youth — GPT-3 — pushing models to their limits through scaling data and hardware.
-2. Coming of Age — GPT-4 — when the possibilities of extensive development are exhausted, we transition to an intensive path of maximizing architectural adaptation. This stage naturally culminated in multimodality — support for various data types such as text, images, and audio.
-3. Maturity — o1 — when we can no longer **radically** improve the architecture of the target system, we begin building a metasystem in which the original system becomes one of the components. The [Chain-of-Thought](https://www.promptingguide.ai/techniques/cot) pattern, on which o1 is tuned, can be interpreted as the first such metasystem, albeit a very simple one. It can be seen as the sequential application of the model to a [blackboard](https://en.wikipedia.org/wiki/Blackboard_(design_pattern)). The next step, for example, could involve multi-agent systems and model specialization.
-4. Old age (?) — GPT-5 — when all possibilities for radical improvements are exhausted, we shift to the meticulous process of fine-tuning and optimization. The technology can still be improved for a long time and cumulatively made orders of magnitude better, but explosive growth is over. Therefore, there are persistent rumors on the internet that we shouldn't expect a big leap from GPT-5.
+1. Youth — GPT-3 — Pushing models to their limits through scaling data and hardware.
+2. Coming of Age — GPT-4 — When the possibilities of extensive development are exhausted, we transition to an intensive path of maximizing architectural adaptation. This stage naturally culminated in multimodality — support for various data types such as text, images, and audio.
+3. Maturity — o1 — When we can no longer **radically** improve the architecture of the target system, we begin building a metasystem in which the original system becomes one of the components. The [Chain-of-Thought](https://www.promptingguide.ai/techniques/cot) pattern, on which o1 is tuned, can be interpreted as the first such metasystem, albeit a very simple one. It can be seen as the sequential application of the model to a [blackboard](https://en.wikipedia.org/wiki/Blackboard_(design_pattern)). The next step, for example, could involve multi-agent systems and model specialization.
+4. Old age (?) — GPT-5 — When all possibilities for radical improvements are exhausted, we shift to the meticulous process of fine-tuning and optimization. The technology can still be improved for a long time and cumulatively made orders of magnitude better, but explosive growth is over. Therefore, there are persistent rumors on the internet that we shouldn't expect a big leap from GPT-5.
 
-I would like to draw your attention to the fact that changing the base model is an extremely expensive operation. Models are not changed on a whim. They are changed exactly when squeezing something new out of the old approach becomes economically unviable compared to investing in a new approach. In other words, when the limit of rapid development is reached.
+I would like to draw your attention to the fact that changing the base model is extremely expensive. Models are not changed on a whim. They are changed exactly when squeezing something new out of the old approach becomes economically unviable compared to investing in a new approach. In other words, when the limit of rapid development is reached.
 
 At some point, it became impractical to invest the majority of resources in scaling data and hardware, so we switched to optimizing the architecture. Once the architecture was fine-tuned, humanity redirected financial flows toward experiments in creating metasystems.
 
@@ -50,13 +50,13 @@ At some point, it became impractical to invest the majority of resources in scal
 We can improve probabilistic models in several ways:
 
 1. Making model preparation more complex: more data, longer training — better results.
-2. Making model more complex by changing its architecture.
-3. Making model more specialized — increasing accuracy by narrowing the solution space.
-4. Scaling model horizontally — correcting errors by generating multiple response variations. The simplest option: if the model says A in two out of three runs and B in one, then the correct answer is probably A. A slightly more complex option: running several specialized models, each of which solves part of the problem.
+2. Making the model more complex by changing its architecture.
+3. Making the model more specialized — increasing accuracy by narrowing the solution space.
+4. Scaling model horizontally — correcting errors by generating multiple response variations. The simplest option: if the model says A in two out of three runs and B in one, then the correct answer is probably A. A slightly more complex option is running several specialized models, each solving part of the problem.
 
 Approaches 1, 2, 3 determine the final form of the model, so they are the prerogative of model developers.
 
-Approach 4 does not change the form of the model itself, but allows us to control the accuracy of its results, so it is more suitable for model users.
+Approach 4 does not change the form of the model itself, but allows us to control the accuracy of its results, making it more suitable for model users.
 
 Keeping in mind the generations of models, we can assume that no radical breakthroughs are expected from options 1 and 2.
 
@@ -69,7 +69,7 @@ In this regard, the o1 model looks like an attempt to "cheaply" push general-pur
 /// note | Accordingly, we can continue formulating hypotheses
 
 - The capabilities of generative knowledge bases are more or less defined — they will most likely remain at the level of GPT-4 plus-minus. Naturally, they will become faster, smaller, slightly more accurate, etc.
-- The talks about the continuation of rapid progress through scaling computations during operation (option 4), instead of training stage, are most likely a marketing ~~bullshit~~ move to maintain hype and investment flow. I will talk more about this in the next essay on the future of technology.
+- The talks about the continuation of rapid progress through scaling computations during operation (option 4), instead of the training stage, are most likely a marketing ~~bullshit~~ move to maintain hype and investment flow. I will talk more about this in the following essay on the future of technology.
 
 ///
 
