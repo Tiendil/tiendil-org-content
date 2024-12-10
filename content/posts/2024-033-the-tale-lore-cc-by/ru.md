@@ -1,14 +1,16 @@
 ---
 title = "Открываем лор Сказки под лицензией CC BY 4.0"
 tags = ["practice", "development", "gamedev", "game-design", "open-source", "the-tale", "mmo", "best", "world-design"]
-published_at = "2024-11-23T17:00:00+00:00"
+published_at = "2024-12-10T17:00:00+00:00"
 seo_description = "Мы 12 лет делали текстовую Zero Player MMORPG на русском языке и теперь открываем лор игры под лицензией CC BY 4.0."
 seo_image = ""
 ---
 
 **Мы 12 лет делали текстовую [Zero Player MMORPG на русском языке](https://the-tale.org/) и теперь открываем лор игры под лицензией CC BY 4.0**.
 
-Сайт с лором: https://the-tale.notion.site/
+Сайт с лором: [the-tale.notion.site](https://the-tale.notion.site/).
+
+Бонусный пост о том [как мы работали над миром игры]{post:about-worlds-building}.
 
 Что мы шарим:
 
