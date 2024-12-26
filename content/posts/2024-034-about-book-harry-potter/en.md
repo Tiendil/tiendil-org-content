@@ -69,27 +69,27 @@ As I see, these three books are what made Harry Potter so popular.
 
 Starting with the fourth book, [Joanne Rowling](https://en.wikipedia.org/wiki/J._K._Rowling) moves away from fairy tales towards teenage drama, finalizing this transition in the last book. And this makes the second part of the heptalogy noticeably worse than the first.
 
-### Драма на сказочном базисе
+### Drama on a fairy tale basis
 
-Крайне сложно построить качественное серьёзное произведение на сказочном каноне.
+It is extremely difficult to build a quality serious work on a fairy tale canon.
 
-Чем более серьёзный сюжет мы создаём, чем более «взрослые» темы подымаем, тем более логичным и целостным должен быть мир за этими темами. Это не значит, что мир должен быть реалистичным, нет конечно, магия, злые волшебники, домашние эльфы и гоблины-банкиры легко могут быть в серьёзном сюжете, но они должны действовать в рамках соответственно проработанной (внутренней) логики мира.
+The more serious the plot we create, the more "adult" themes we raise, the more logical, coherent and consistent the world behind these themes should be. It doesn't mean that the world should be realistic, no, magic, evil wizards, house elves, and goblin bankers can easily be in a serious plot, but they must act within the framework of a correspondingly developed (internal) logic of the world.
 
-Мир Гарри Поттера был создан для сказки (очень качественно!) и автор не смогла адаптировать его для серьёзного повествования. Я даже не уверен. что это возможно. Линии всех ведущих персонажей начинаются в сказке и, на мой взгляд, не могли без потерь перейти в сюжетные линии драмы.
+The world of Harry Potter was created for a fairy tale (with very high quality!) and the author could not adapt it for serious storytelling. I'm not even sure it's possible. The lines of all the leading characters start in a fairy tale and, in my opinion, could not be transferred to the drama plot without losing their authenticity.
 
-- Сумасбродные «диковатые» традиции Хогвартса отлично соответствуют сказке о самом крутом волшебном университете, но, в рамки драмы, роняют авторитет Хогвартса (как центрального образовательного учреждения) ниже плинтуса.
-- Замечательное самобытное сообщество сказочных волшебников из первых книг, в последних превращается в закрытую упадническую консервативную рассистскую коррумпированную резервацию.
+- The whimsical "wild" traditions of Hogwarts fit perfectly within a fairy tale about the coolest magical university, but in the context of a drama, they drag Hogwarts' authority (as a central educational institution) down to rock bottom.
+- The wonderful original community of fairy-tale wizards from the first books turns into a closed, decadent, conservative, racist, corrupt reservation in the last books.
 - etc.
 
-Некоторые сказочные элементы Роулинг в принципе не пыталась адаптировать. Например, Слизерин как был «факультетом злых волшебников» в первой книге, так им и остался в последней. Но «факультет злых волшебников» в серьёзном произведении — это нонсенс, само его существование подразумевает глубокую лютую, извините, жопу в обществе волшебников. А поскольку концепция Слизерина не меняется, не эволюционируют и персонажи в нём. Даже Малфой младший — не последний персонаж в книгах — практически не развивается до седьмой книги, хотя студенты других факультетов заметно растут над собой.
+Some fairy tale elements Rowling did not even try to adapt. For example, Slytherin started as the "house of evil wizards" in the first book and stayed that way until the last. But a "house of evil wizards" in a serious work is pure nonsense; its very existence implies a deep and utter, pardon me, shitshow in the wizarding society. And since the concept of Slytherin does not change, the characters in it do not evolve either. Even young Malfoy — not the last character in the books — hardly develops until the seventh book, although students from other houses noticeably grow above themselves.
 
-В итоге, чем дальше читаешь Гарри Поттера, тем больше фейспалмов вызывают действия персонажей и повороты сюжета. В середине седьмого тома я просто остановил чтение недели на три из-за зашкалившего кринжометра.
+As a result, the further you read Harry Potter, the more facepalms the characters' actions and plot twists cause. In the middle of the seventh tome, I just stopped reading for three weeks because of my cringe-meter going off the charts.
 
-Зачем понадобился переход от сказки к драме я не понимаю. Может быть было желание «взрослеть» Гарри, или следовать за взрослеющими читателями, или писать именно для собственных детей, или хотелось расти как автор — много вариантов.
+Why the transition from a fairy tale to drama was needed, I do not understand. Maybe there was a desire to "grow up" Harry, or to follow the growing readers, or to write specifically for own children of Rowling, or to grow as an author — many variants.
 
-Есть огромное количество классических сказок, которым взрослые персонажи не мешают. Те же Золушка, Русалочка/Ариэль, да и все остальные сказки про принцев/принцесс хорошо воспринимаются и взрослыми и детьми. Взросление главного героя, взросление читателей — это не повод отказываться от сказочного мотива, особенно когда он является базой для вымышленного мира.
+There are a huge number of classic fairy tales that fills well with adult characters. The same Cinderella, The Little Mermaid/Ariel, and virtually all other tales about princes and princesses are enjoyed equally by adults and children. The coming of age of the main character or the readers is not a reason to abandon the fairy tale motif, especially when it is the basis for a fictional world.
 
-Но что есть, то есть. Начинаясь как отличная сказка, Гарри Поттер заканчивается как добротная подростковая драма, но всё-таки не шедевр.
+But it is what it is. Starting as an excellent fairy tale, Harry Potter ends as a solid teenage drama, but not quite a masterpiece.
 
 ## Семь книг про самого скучного персонажа
 
