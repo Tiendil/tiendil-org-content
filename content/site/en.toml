@@ -45,6 +45,13 @@ author = "Aliaksei Yaletski (Tiendil)"
 
 [[menu]]
   type = "external"
+  css_classes = "ti ti-brand-bluesky"
+  name = ""
+  tooltip = "Bluesky"
+  url = "https://bsky.app/profile/tiendil.bsky.social"
+
+[[menu]]
+  type = "external"
   css_classes = "ti ti-brand-github"
   name = ""
   tooltip = "GitHub profile"
