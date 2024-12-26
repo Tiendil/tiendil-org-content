@@ -63,11 +63,11 @@ It's curious that there are 12 milestones, as in the [monomyth / hero's journey]
 
 ///
 
-Фиксированная структура сюжета сначала меня смутила, но я пришёл к выводу, что она и должна быть такой в сказочной серии. В сказку ты идёшь не за мудрёным сюжетом, исследованием глубин подсознательного или чем-то схожим. В сказку ты идёшь за сказкой: атмосферой, лёгкостью, фантазией. Фиксированный поток событий как раз помогает переключить мозг с отслеживания логики на отслеживание атмосферы.
+The fixed plot structure initially puzzled me, but I came to the conclusion that it makes sense for a fairy tale series. You don’t turn to a fairy tale for complex plot, deep exploration of the subconscious, or anything of the sort. You turn to a fairy tale for the Tale: the atmosphere, the lightness, the fantasy. A fixed flow of events helps shift your focus from tracking logic to immersing yourself in the fairy atmosphere.
 
-Насколько я понимаю, эти три книги и сделали Гарри Поттера таким популярным.
+As I see, these three books are what made Harry Potter so popular.
 
-Начиная же с четвёртой книги, [Джоан Роулинг](https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%83%D0%BB%D0%B8%D0%BD%D0%B3,_%D0%94%D0%B6%D0%BE%D0%B0%D0%BD) отходит от сказок в сторону подростковой драмы, окончательно заканчивая этот переход в последней книге. И это делает вторую часть семилогии заметно хуже первой.
+Starting with the fourth book, [Joanne Rowling](https://en.wikipedia.org/wiki/J._K._Rowling) moves away from fairy tales towards teenage drama, finalizing this transition in the last book. And this makes the second part of the heptalogy noticeably worse than the first.
 
 ### Драма на сказочном базисе
 
