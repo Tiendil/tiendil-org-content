@@ -27,9 +27,9 @@ Let me tell you a little more about the books.
 
 ## Disclaimer
 
-The post contains spoilers, be careful if you haven't read the books / watch the movies yet.
+The post contains spoilers, be careful if you haven't read the books / watched the movies yet.
 
-The essay turned out to be in the spirit of grumbling. I mostly talk about what's wrong. Apparently because I’m comparing it to my high initial expectations for the work, rather than to the average standard in literature.
+The essay turned out to be in the spirit of grumbling. I mostly talk about what's wrong. Apparently, because I’m comparing it to my high initial expectations for the work rather than to the average standard in literature.
 
 Remember, this is my personal opinion. My knowledge, in general, is quite far from the necessary for an objective critique of fiction literature.
 
@@ -45,7 +45,7 @@ The books even follow a unified plot template with milestones in the form of fix
 
 /// details | Milestones of the first three books:
 
-Not every milestone is significant fully equally in every book, but this list defines common schedule.
+Not every milestone is equally significant in every book, but this list defines a common schedule.
 
 - Summer before Hogwarts.
 - Trip to Hogwarts and the ceremony of distributing first-year students.
@@ -59,11 +59,11 @@ Not every milestone is significant fully equally in every book, but this list de
 - Preparation for exams / final confrontation.
 - Leaving Hogwarts.
 
-It's curious that there are 12 milestones, as in the [monomyth / hero's journey](https://en.wikipedia.org/wiki/Monomyth), I assume that the events of the books can be quite closely matched to the marks on this path.
+Curiously, there are 12 milestones, as in the [monomyth/hero's journey](https://en.wikipedia.org/wiki/Monomyth), I assume that the events of the books can be quite closely matched to the marks on this path.
 
 ///
 
-The fixed plot structure initially puzzled me, but I came to the conclusion that it makes sense for a fairy tale series. You don’t turn to a fairy tale for complex plot, deep exploration of the subconscious, or anything of the sort. You turn to a fairy tale for the Tale: the atmosphere, the lightness, the fantasy. A fixed flow of events helps shift your focus from tracking logic to immersing yourself in the fairy atmosphere.
+The fixed plot structure initially puzzled me, but I concluded it makes sense for a fairy tale series. You don’t turn to a fairy tale for a complex plot, deep exploration of the subconscious, or anything of the sort. You turn to a fairy tale for the Tale: the atmosphere, the lightness, the fantasy. A fixed flow of events helps shift your focus from tracking logic to immersing yourself in the fairy atmosphere.
 
 As I see, these three books are what made Harry Potter so popular.
 
@@ -75,7 +75,7 @@ It is extremely difficult to build a quality serious work on a fairy tale canon.
 
 The more serious the plot we create, the more "adult" themes we raise, the more logical, coherent and consistent the world behind these themes should be. It doesn't mean that the world should be realistic, no, magic, evil wizards, house elves, and goblin bankers can easily be in a serious plot, but they must act within the framework of a correspondingly developed (internal) logic of the world.
 
-The world of Harry Potter was created for a fairy tale (with very high quality!) and the author could not adapt it for serious storytelling. I'm not even sure it's possible. The lines of all the leading characters start in a fairy tale and, in my opinion, could not be transferred to the dramatic plot without losing their authenticity.
+The world of Harry Potter was created for a fairy tale (with very high quality!), and the author could not adapt it for serious storytelling. I'm not even sure it's possible. The lines of all the leading characters start in a fairy tale and, in my opinion, could not be transferred to the dramatic plot without losing their authenticity.
 
 - The whimsical "wild" traditions of Hogwarts fit perfectly within a fairy tale about the coolest magical university, but in the context of a drama, they drag Hogwarts' authority (as a central educational institution) down to rock bottom.
 - The wonderful original community of fairy-tale wizards from the first books turns into a closed, decadent, conservative, racist, corrupt reservation in the last books.
@@ -87,7 +87,7 @@ As a result, the further you read Harry Potter, the more facepalms the character
 
 Why the transition from a fairy tale to drama was needed, I do not understand. Maybe there was a desire to "grow up" Harry, or to follow the growing readers, or to write specifically for own children of Rowling, or to grow as an author — many variants.
 
-There are a huge number of classic fairy tales that fills well with adult characters. The same Cinderella, The Little Mermaid/Ariel, and virtually all other tales about princes and princesses are enjoyed equally by adults and children. The coming of age of the main character or the readers is not a reason to abandon the fairy tale motif, especially when it is the basis for a fictional world.
+There are a vast number of classic fairy tales that fill well with adult characters. The same Cinderella, The Little Mermaid/Ariel, and virtually all other tales about princes and princesses are enjoyed equally by adults and children. The coming of age of the main character or the readers is not a reason to abandon the fairy tale motif, especially when it is the basis for a fictional world.
 
 But it is what it is. Starting as an excellent fairy tale, Harry Potter ends as a solid teenage drama, but not quite a masterpiece.
 
@@ -103,13 +103,13 @@ Essentially, we’re reading seven books about a character who’s just being ca
 
 Most of the time, Harry does what circumstances force him to do. His character is shaped not by himself, not by his choice, but by the pressure of events and the manipulations of others. Harry is what he is not by his choice — he was made that way: by Dumbledore, the Dursleys, Voldemort, teachers, friends, enemies.
 
-The very idea of forming or revealing character under the pressure of the world isn’t such a bad approach. After all, that’s partly how it works in reality. The problem is that a person always has the choice to either go with the flow or swim against it.
+The idea of forming or revealing character under the pressure of the world isn’t such a bad approach. After all, that’s partly how it works in reality. The problem is that a person always has the choice to either go with the flow or swim against it.
 
 Let’s not settle for small examples — let’s take Hamlet. Shakespeare also builds the plot around the pressure of circumstances on a person, but what makes Hamlet a strong character is his active stance, his defiance of fate. Even despite his failure and the tragic ending.
 
 Harry, on the other hand, is passive. He doesn’t resist fate, he accepts it, he accepts it all seven books long, with rare "routine" exceptions.
 
-The culmination to this acceptance is the last pages of the seventh book, where it’s revealed that Harry’s entire journey perfectly followed the path laid out by Dumbledore. Even after this revelation, he continued to follow the route set for him. Utter passivity and complete submission to fate.
+The culmination of this acceptance is the last pages of the seventh book, where it’s revealed that Harry’s entire journey perfectly followed the path laid out by Dumbledore. Even after this revelation, he continued to follow the route set for him. Utter passivity and complete submission to fate.
 
 I can’t imagine how this character could be a role model or a guide for growing up. If you want a story about growth, responsibility, and love — look at Naruto. He’s also the chosen one, also gets in everyone’s way, but he’ll break himself in half to do things his own way — Hamlet, anime-style :-D
 
@@ -123,13 +123,13 @@ In Harry's defense, it’s hard to change and grow when, in every book, you defe
 
 Let's take Hermione. In my opinion, she’s the strongest character in the books, yet she’s been pushed undeservedly far into the background.
 
-Essentially, the girl is under the same pressures as Harry, and at times even greater. As a Muggle-born, unlike Ron, by the seventh book she’s in just as much mortal danger as Harry. Except her life is not protected by Voldemort's orders, so, pretty any death eater can kill her. On top of that, she also bears the responsibility of protecting her parents.
+Essentially, the girl is under the same pressure as Harry, and at times even greater. As a Muggle-born, unlike Ron, by the seventh book, she’s in just as much mortal danger as Harry. Except Voldemort's orders do not protect her life, so pretty any death eater can kill her. On top of that, she also bears the responsibility of protecting her parents.
 
 At the same time, unlike Harry, she actively seeks her path and resists the pressure of circumstances, sometimes for the whole trio:
 
 - It is Hermione who **proactively** punches Malfoy in the face.
 - It’s Hermione who comes up with the idea of using Polyjuice Potion, takes the brunt of its side effects, and keeps quiet about it like a true soldier while the boys go about their business.
-- It’s Hermione who decides to grind through a year of 30-hour days on her studies, all while helping Harry, burning out in the process but refusing to give up and redefining herself and her approach to learning aftewards. Meanwhile, Harry, in the older age, can’t even take his rare [Occlumency](https://harrypotter.fandom.com/wiki/Occlumency) lessons seriously — a skill critically necessary to protect all his friends.
+- It’s Hermione who decides to grind through a year of 30-hour days on her studies, all while helping Harry, burning out in the process but refusing to give up and redefining herself and her approach to learning aftewards. Meanwhile, Harry, in hid older age, can’t even take his rare [Occlumency](https://harrypotter.fandom.com/wiki/Occlumency) lessons seriously — a skill critically necessary to protect all his friends.
 - It’s Hermione who tries to change the wizarding world, fighting for the rights of house-elves.
 - It’s Hermione who organizes Dumbledore’s Army, the group that plays a key role in the events of the final books.
 
@@ -139,8 +139,8 @@ But what do we know about her life outside Harry’s adventures? Practically not
 
 - She has loving muggle parents, the relationship with whom is not disclosed at all, despite their obvious importance to Hermione and, by the way, to Harry, who could have had a chat with normal muggles. We have a mountain of information about Harry’s and Ron’s families, but Hermione’s parents are literally excluded from the plot.
 - She has a mostly unknown social life — rich enough, despite the constant occupation with Harry and Ron.
-- She has, as far as I understand, non-trivial relationships with Ravenclaw and, possibly, Hufflepuff houses, as she definitely easily meets the highest requirements of both of them. But we know almost nothing about it.
-- She inevitably must have complex and interesting relationships with Hogwarts teachers. It’s impossible to claim that Slughorn is the only teacher who communicated with students outside of class time.
+- As far as I understand, she has non-trivial relationships with Ravenclaw and, possibly, Hufflepuff houses, as she definitely easily meets the highest requirements of both of them. But we know almost nothing about it.
+- She inevitably must have complex and engaging relationships with Hogwarts teachers. It’s impossible to claim that Slughorn is the only teacher communicating with students outside of class time.
 
 Roughly the same logic can be built for many other characters.
 
@@ -152,7 +152,7 @@ Ok, I think you got it — I'm fond of Hermione’s character. I really hoped Ro
 
 As the seriousness/dramatic depth of the plot increased, the volume of the books began to swell, reaching its peak in the fifth one.
 
-Given the scope of the plot (the number of events, characters, and their storylines), this growth was logical and justified. However, in the sixth and seventh books, Rowling returned to the length of the fourth, which inevitably led to a rushed narrative and the loss of important details. As a result, this led to a poor tying up of plot threads in the seventh book and weak justification for the events of the final hour of the Battle of Hogwarts: from the principles of wand magic and the logic of the Resurrection Stone, to the quiet deaths of important characters who "just died in battle".
+Given the scope of the plot (the number of events, characters, and their storylines), this growth was logical and justified. However, in the sixth and seventh books, Rowling returned to the length of the fourth, which inevitably led to a rushed narrative and the loss of essential details. As a result, this led to a poor tying up of plot threads in the seventh book and weak justification for the events of the final hour of the Battle of Hogwarts: from the principles of wand magic and the logic of the Resurrection Stone, to the quiet deaths of important characters who "just died in battle".
 
 In my opinion, for the same reasons, at the end of the seventh book, the reader is sequentially presented with:
 
@@ -164,12 +164,12 @@ De facto, to wrap up the plot, the author had to organize three lectures for the
 
 ## A couple more notes
 
-Reading the books after watching the movies is much less interesting — the films heavily influence how we imaging the characters, shape their images in our minds. There's probably nothing that can be done about it.. Soon they'll release a TV series, and reading the original "as if for the first time" will be completely impossible.
+Reading the books after watching the movies is much less interesting — the films heavily influence how we imagine the characters, shape their images in our minds. There's probably nothing that can be done about it. Soon they'll release a TV series, and reading the original "as if for the first time" will be completely impossible.
 
-Inexplicably, Harry in the first books is a downright Scrooge. This trait is constantly apparent: he doesn’t give gifts to his friends (only receives them), and he doesn’t even try to spend money to solve critically important problems of his friends’ (for example, he doesn’t try to buy Ron a new wand).
+Inexplicably, Harry in the first books is a downright Scrooge. This trait is constantly apparent: he doesn’t give gifts to his friends (only receives them), and he doesn’t even try to spend money to solve critically important problems of his friends (for example, he doesn’t try to buy Ron a new wand).
 
 I’m not excited by the description of magic. If you want to read about beautiful magic, I highly recommend [Susanna Clarke’s books]{post:@choose-nearest-language:susanna-clarke-books}.
 
-Also, a few years ago I wrote a review of the fanfic [Harry Potter and the Methods of Rationality]{post:@choose-nearest-language:about-book-harry-potter-and-the-methods-of-rationality}.
+Also, a few years ago, I wrote a review of the fanfic [Harry Potter and the Methods of Rationality]{post:@choose-nearest-language:about-book-harry-potter-and-the-methods-of-rationality}.
 
-That’s all. I hope after this post I won’t gain any mortal enemies among Harry Potter fans :-)
+That’s all. I hope after this post, I won’t gain any mortal enemies among Harry Potter fans :-)
