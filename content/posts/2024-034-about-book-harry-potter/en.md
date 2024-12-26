@@ -33,28 +33,33 @@ The essay turned out to be in the spirit of grumbling. I mostly talk about what'
 
 Remember, this is my personal opinion. My knowledge, in general, is quite far from the necessary for an objective critique of fiction literature.
 
-## От крутой сказки к средней подростковой драме
+## From a cool fairy tale to an average teenage drama
 
-Для себя я делю книги о Гарри на две части.
+For myself, I divide the Harry Potter books into two parts.
 
-Первые три тома — это сказка.
+The first three volumes are a perfect fairy tale.
 
-Произведения следуют сказочным канонам, строят мир на упрощённой «сказочной» логике, явно выделяют добро и зло, etc.
+The works follow fairy tale conventions, base their world on a simplified "fairy tale" logic, clearly distinguish between good and evil, etc.
 
-Книги даже следуют единому шаблону сюжета с прохождением контрольных точек в виде фиксированных событий во время учебного года и близким уровнем напряжения в них.
+The books even follow a unified plot template with milestones in the form of fixed events during the school year and a similar level of tension in them.
 
-/// details | Контрольные точки первых трёх книг:
+/// details | Milestones of the first three books:
 
-- Лето перед Хогвартсом.
-- Поездка в Хогвартс и церемония распределения первокурсников.
-- Начало учёбы.
-- Хэллоуин.
-- Первый матч квиддича.
-- Зимние каникулы.
-- Второй матч квиддича.
-- Подготовка к экзаменам.
-- Конец учёбы / финальная конфронтация.
-- Отъезд из Хогвартса.
+Not every milestone is significant fully equally in every book, but this list defines common schedulle.
+
+- Summer before Hogwarts.
+- Trip to Hogwarts and the ceremony of distributing first-year students.
+- Beginning of study.
+- Halloween.
+- First Quidditch match.
+- Christmas holidays.
+- Second Quidditch match.
+- Spring events.
+- Third Quidditch Match
+- Preparation for exams / final confrontation.
+- Leaving Hogwarts.
+
+It's curious that there are 12 milestones, as in the [monomyth / hero's journey](https://en.wikipedia.org/wiki/Monomyth), I assume that the events of the books can be quite closely matched to the marks on this path.
 
 ///
 
