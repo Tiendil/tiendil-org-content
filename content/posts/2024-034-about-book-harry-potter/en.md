@@ -113,38 +113,40 @@ The culmination to this acceptance is the last pages of the seventh book, where 
 
 I can’t imagine how this character could be a role model or a guide for growing up. If you want a story about growth, responsibility, and love — look at Naruto. He’s also the chosen one, also gets in everyone’s way, but he’ll break himself in half to do things his own way — Hamlet, anime-style :-D
 
-### Задвинутые на задний план герои
+### Heroes pushed into the background
 
-В книгах много интересных персонажей. Гермиона, Невилл, Луна, Фред, Джорж и многие другие живут, развиваются, растут над собой. Но в тени Гарри.
+There are tons of interesting characters in the books. Hermione, Neville, Luna, Fred, George, and many others live, develop, grow above themselves. But in Harry’s shadow.
 
-Их жизни, не менее интересные, мы видим только по отголоскам, ремаркам, которые оставляет автор когда использует персонажей для продвижения сюжета Гарри. Между тем, их характер меняется значительно сильнее, чем характер Гарри.
+Their lives, no less interesting, we only see through the echoes, remarks left by the author while using the characters to advance Harry’s story. Meanwhile, their personalities change much more than Harry’s.
 
-В защиту Гарри скажу, что сложно меняться и расти, когда в каждой книге ты побеждаешь (или выживаешь, как в последних) в битве с главным зладеем, потому что ты уже самый правильный, человечный и за тебя вписываются друзья. Опять таки, это было бы нормально в сказке, но не в произведении претендующем на драматичность/серьёзность.
+In Harry's defense, it’s hard to change and grow when, in every book, you defeat (or simply survive, as in the later ones) the main villain because you’re already the most virtuous, humane, and your friends always have your back. Again, this would be fine in a fairy tale, but not in a story that aspires to dramatic depth or seriousness.
 
-Взять ту же Гермиону. На мой взгляд — самый сильный персонаж в книгах, которого задвинули незаслуженно далеко.
+Let's take Hermione. In my opinion, she’s the strongest character in the books, yet she’s been pushed undeservedly far into the background.
 
-По сути, девушка находится под давлением тех же обстоятельств, что и Гарри, а временами и сильнее. Являсь полукровкой, в отличии от Рона, к седьмой книге она находится в такой же смертельной опасности, что и Гарри, но при этом на ней дополнительно висит защита родителей. В отличие от Гарри, она активно ищет свой путь и сопротивляется давлению обстоятельств, иногда за всё трио разом.
+Essentially, the girl is under the same pressures as Harry, and at times even greater. As a Muggle-born, unlike Ron, by the seventh book she’s in just as much mortal danger as Harry. Except her life does not protected by Voldemort orders, so, pretty any death eater can kill her. On top of that, she also bears the responsibility of protecting her parents.
 
-- Именно Гермиона **проактивно** бьёт лицо Малфою.
-- Именно Гермиона предлагает идею с polyjuice potion и отгребает от неё и молчит как партизан, пока парни делают свои дела.
-- Именно Гермиона принимает решение год впахивать по 30 часов на учёбе, параллельно помогая Гарри, выгорает и при этом не сдаётся и меняет себя и своё отношение к учёбе. Тогда как Гарри, в старшем возрасте не способен серьёзно относиться к редким занятиям по [окклюменции](https://harrypotter.fandom.com/ru/wiki/%D0%9E%D0%BA%D0%BA%D0%BB%D1%8E%D0%BC%D0%B5%D0%BD%D1%86%D0%B8%D1%8F) — умению, которое критически необходимо для защиты всех его друзей.
-- Именно Гермиона пытается менять мир магов, борется за права домашних эльфов. При этом всю славу «освободителя эльфов» получает Гарри, хотя он освободил Добби скорее на зло Малфою старшему, чем ради Добби. Это, конечно, моё мнение.
-- Именно Гермиона организует «армию Дамблдора» — организацию, которая сыграла ключевую роль в событиях последних книг.
+At the same time, unlike Harry, she actively seeks her path and resists the pressure of circumstances, sometimes for the whole trio:
 
-За семь книг Гермиона растёт от зубрёжки до реального лидера (а не «переносного знамени», как Гарри), который за мгновения под прессом смертельной опасности принимает радикальные решения и способен врать под пытками Беллатрикс Лестрейндж — второй по злобности волшебницы после Волдеморта.
+- It is Hermione who **proactively** punches Malfoy in the face.
+- It’s Hermione who comes up with the idea of using Polyjuice Potion, takes the brunt of its side effects, and keeps quiet about it like a true soldier while the boys go about their business.
+- It’s Hermione who decides to grind through a year of 30-hour days on her studies, all while helping Harry, burning out in the process but refusing to give up and redefining herself and her approach to learning aftewards. Meanwhile, Harry, in the older age, can’t even take his rare [Occlumency](https://harrypotter.fandom.com/wiki/Occlumency) lessons seriously — a skill critically necessary to protect all his friends.
+- It’s Hermione who tries to change the wizarding world, fighting for the rights of house-elves.
+- It’s Hermione who organizes Dumbledore’s Army, the group that played a key role in the events of the final books.
 
-Но что мы знаем о её жизни вне приключений Гарри? Практически ничего. Мы знаем, что эта жизнь есть:
+Over seven books, Hermione grows from a bookworm to a real leader (not a "portable banner" like Harry), who is capable of making radical decisions in moments of mortal danger and can lie under Bellatrix Lestrange’s torture — the second most evil witch after Voldemort.
 
-- У неё есть любящие родители-маглы, отношения с которыми совершенно не раскрыты, несмотря на очевидную важность для Гермионы и, кстати, для Гарри, который мог бы пообщаться с адекватными маглами. У нас есть гора информации о родителях Гарри и Рона, а родители Гермионы буквально исключены из сюжета.
-- У неё есть неизвестная социальная жизнь — достаточно богатая, несмотря на постоянную занятость с Гарри и Роном.
-- У неё есть, на сколько я понимаю, нетривиальные отношения с Когтевраном и, возможно, с Пуффендуйем, так как она однозначно легко соответствует высшим требованиям обоих факультетов. Но мы не знаем об этом практически ничего.
-- У неё неизбежно должны быть сложные и интересные отношения с преподавателями Хогвартса. Невозможно же утверждать, что Slughorn — единственный преподаватель, который общался со студентами во внеучебное время.
+But what do we know about her life outside Harry’s adventures? Practically nothing. We know that this life exists:
 
-Примерно такую же логику можно построить для многих других персонажей.
+- She has loving muggle parents, the relationship with whom is not disclosed at all, despite their obvious importance to Hermione and, by the way, to Harry, who could have had a chat with normal muggles. We have a mountain of information about Harry’s and Ron’s families, but Hermione’s parents are literally excluded from the plot.
+- She has a mostly unknown social life — rich enough, despite the constant occupation with Harry and Ron.
+- She has, as far as I understand, non-trivial relationships with Ravenclaw and, possibly, Hufflepuff hauses, as she definitely easily meets the highest requirements of both of them. But we know almost nothing about it.
+- She inevitably must have complex and interesting relationships with Hogwarts teachers. It’s impossible to claim that Slughorn is the only teacher who communicated with students outside of class time.
 
-То есть у Роулинг нет проблем с созданием сильных персонажей. Но она сознательно выделила им столько времени, сколько выделила.
+Roughly the same logic can be built for many other characters.
 
-В общем вы поняли, что мне симпатичен характер Гермионы. Как же я надеялся, что Роулинг раскроет её сильнее. Хотя бы главу-другую про неё напишет, а лучше события одного их учебных годов опишет от её лица — вот это был бы сильный ход, но не судьба.
+So, Rowling has no problem creating strong characters. But she consciously allotted them as much time as she allotted.
+
+Ok, I think you got it — I'm fond of Hermione’s character. I really hoped Rowling would reveal more of her. At least write a chapter or two from her perspective, or better yet, describe the events of one of the school years from her point of view — now that would have been a strong move, but alas, it wasn’t meant to be.
 
 ## Плохое сведение концов сюжета
 
