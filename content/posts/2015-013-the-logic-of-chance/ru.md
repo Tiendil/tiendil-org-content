@@ -1,6 +1,6 @@
 ---
 title = "О книге «Логика случая»"
-tags = [ "books", "systems", "theory", "evolution", "interesting", "best", "biology"]
+tags = [ "books", "systems", "theory", "evolution", "interesting", "best", "biology", "popular-science-books"]
 published_at = "2015-08-28T12:00:00+00:00"
 seo_description = "Обзор книги Евгения Кунина «Логика случая» — современный взгляд на эволюцию."
 seo_image = "images/logic_cover.jpg"

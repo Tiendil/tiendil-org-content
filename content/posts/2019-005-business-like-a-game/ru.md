@@ -1,6 +1,6 @@
 ---
 title = "О книге «Бизнес как игра»"
-tags = [ "business", "books", "monetization", "psychology", "theory", "economics", "interesting"]
+tags = [ "business", "books", "monetization", "psychology", "theory", "economics", "interesting", "professional-books"]
 published_at = "2019-07-02T12:00:00+00:00"
 seo_description = "Краткий отзыв на книгу «Бизнес как игра»"
 seo_image = "images/business_like_a_game.png"

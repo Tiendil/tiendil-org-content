@@ -1,6 +1,6 @@
 ---
 title = "О книге «Гарри Поттер и методы рационального мышления»"
-tags = [ "books",]
+tags = [ "books", "fiction-books"]
 published_at = "2019-12-24T12:00:00+00:00"
 seo_description = "Отзыв на серию книг «Гарри Поттер и методы рационального мышления». Юмористичный фанфик с фансервисом, атмомферой научпопа, но без глубокой идеи."
 seo_image = "images/harry-potter-and-the-methods-of-rationality-book.jpg"

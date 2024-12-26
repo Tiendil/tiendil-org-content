@@ -1,6 +1,6 @@
 ---
 title = "О книге «Психология и космос»"
-tags = [ "books", "practice", "psychology", "theory",]
+tags = [ "books", "practice", "psychology", "theory", "popular-science-books"]
 published_at = "2020-01-24T12:00:00+00:00"
 seo_description = "Отзыв о книге «Психология и космос». О нюансах космических полётов от кандидата медицинских наук Владимира Лебедева и Юрия Гагарина."
 seo_image = "images/psychology-and-space-book.jpg"

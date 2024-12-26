@@ -1,6 +1,6 @@
 ---
 title = "О книге «Иллюзия знания»"
-tags = [ "books", "thinking", "society", "psychology", "systems", "theory", "evolution", "interesting", "best"]
+tags = [ "books", "thinking", "society", "psychology", "systems", "theory", "evolution", "interesting", "best", "popular-science-books"]
 published_at = "2019-09-17T12:00:00+00:00"
 seo_description = "Обзор книги «Иллюзия знания». Обязательно к прочтению. Взгляд на разум как на расширенный фенотип, закономерности эволюции и распространения мемов."
 seo_image = "images/illusion-of-knowledge.jpg"

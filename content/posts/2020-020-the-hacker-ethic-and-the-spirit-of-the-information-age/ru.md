@@ -1,6 +1,6 @@
 ---
 title = "О Книге «Хакерская этика и дух информационализма»"
-tags = [ "open-source", "books", "thinking", "society", "economics", "interesting"]
+tags = [ "open-source", "books", "thinking", "society", "economics", "interesting", "popular-science-books"]
 published_at = "2020-07-19T12:00:00+00:00"
 seo_description = "Обзор книги «Хакерская этика и дух информационализма» — взгляд на хакерскую культуру из конца XX века."
 seo_image = "images/cover-the-hacker-ethic-and-the-spirit-of-the-information-age.png"

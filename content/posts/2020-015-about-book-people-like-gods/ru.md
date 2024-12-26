@@ -1,6 +1,6 @@
 ---
 title = "О книге «Люди как боги»"
-tags = [ "books",]
+tags = [ "books", "fiction-books"]
 published_at = "2020-07-06T12:00:00+00:00"
 seo_description = "Отзыв на книгу Сергея Снегова «Люди как боги»."
 seo_image = "images/cover-people-like-gods.jpg"

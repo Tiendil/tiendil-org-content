@@ -1,6 +1,6 @@
 ---
 title = "О книге «Статистика и котики»"
-tags = [ "books", "theory",]
+tags = [ "books", "theory", "popular-science-books"]
 published_at = "2019-07-03T12:00:00+00:00"
 seo_description = "Обзор книги «Статистика и котики». Присутствуют последовательные объяснения, картинки и котики. Отсутствуют формулы, их вывод и обоснование."
 seo_image = "images/statistics_and_cats.png"

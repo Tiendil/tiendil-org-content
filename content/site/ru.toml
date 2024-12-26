@@ -112,6 +112,9 @@ cooks-first-around-the-world = "Первая кругосветка Кука"
 world-builders-2023 = "World Builders 2023"
 dive-into-deep-learning = "Погружение в глубокое обучение"
 databases = "базы данных"
+fiction-books = "художественные книги"
+professional-books = "профессиональные книги"
+popular-science-books = "научно-популярные книги"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'

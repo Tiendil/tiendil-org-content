@@ -1,6 +1,6 @@
 ---
 title = "Потери"
-tags = [ "books", "practice", "interesting", "best", "cooks-first-around-the-world"]
+tags = [ "books", "practice", "interesting", "best", "cooks-first-around-the-world", "popular-science-books"]
 series = "cooks-first-around-the-world"
 published_at = "2021-02-06T12:00:00+00:00"
 seo_description = "Пятая часть заметок о первом кругосветном плавании Кука — потери."

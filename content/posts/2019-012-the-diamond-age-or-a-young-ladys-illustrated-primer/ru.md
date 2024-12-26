@@ -1,6 +1,6 @@
 ---
 title = "О книге «Алмазный век»"
-tags = [ "books", "futurology",]
+tags = [ "books", "futurology", "fiction-books"]
 published_at = "2019-08-19T12:00:00+00:00"
 seo_description = "Книга Нила Стивенсона «Алмазный век или букварь для благородных девиц» — интересная запутанная сказка про выдуманное будущее."
 seo_image = "images/the-diamonda-age-book.png"
