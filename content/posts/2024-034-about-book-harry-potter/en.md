@@ -11,29 +11,27 @@ src = "./cover.jpg"
 caption = "The classic cover of the first book."
 ///
 
-В рамках приобщения к современной мировой культуре и интеграции в Гамбургское сообщество (город — крупный фанатский хаб) прочитал все семь томов Гарри Поттера. Даже специально добыл английское издание, чтобы читать на британском английском, а не на американском (хотя Reddit говорит, что разница между ними небольшая).
+As part of my immersion in modern world culture and integration into the Hamburg community (the city is a major fan hub), I read all seven Harry Potter books. I even specifically got the English edition to read in British English, not American (although Reddit says the difference between them is small).
 
-Впечатления ~~двоякие~~ троякие.
+Impressions are mixed.
 
-С одной стороны, история интересная, написана хорошим живым языком, первые книги читаются с удовольствием, последние без существенных страданий.
+On the one hand, the story is interesting, written in good lively language, the first books are read with pleasure, the last ones without significant suffering.
 
-С другой стороны, ожидал большего. После прочтения у меня не получается сопоставить уровень книг с уровнем популярности.
+On the other hand, I expected more. After reading, I can't reconcile the quality of the books with the level of their popularity.
 
-С третьей стороны, можно было бы и лучше рассказать :-) Не в смысле написано плохо — написано хорошо — но слишком однобоко, узко я бы сказал.
+On the third hand, I believe [Joanne Rowling](https://en.wikipedia.org/wiki/J._K._Rowling) could have done it better :-) Not that it's written poorly — it's written well — but too one-sided, too narrow, I would say. Especially the last books.
 
-Давайте чуть подробнее расскажу.
+Let me tell you a little more about the books.
 
 <!-- more -->
 
-## Отказ от ответственности
+## Disclaimer
 
-Осторожно, в посте есть спойлеры.
+The post contains spoilers, be careful if you haven't read the books / watch the movies yet.
 
-Некоторые имена и названия я писал латиницей, так как не уверен корректности их перевода на русский (или он мне просто не нравится).
+The essay turned out to be in the spirit of grumbling. I mostly talk about what's wrong. Apparently because I’m comparing it to my high initial expectations for the work, rather than to the average standard in literature.
 
-Эссе получилось в духе недовольного бурчания. Говорю в основном о том, что плохо. Видимо потому, что сравниваю с изначально высокими ожиданиями от произведения, а не со средним по литературе.
-
-Помните, это моё личное мнение. Мои познания, в целом, довольно далеки от необходимых для объективной критики художественной литературы.
+Remember, this is my personal opinion. My knowledge, in general, is quite far from the necessary for an objective critique of fiction literature.
 
 ## От крутой сказки к средней подростковой драме
 
