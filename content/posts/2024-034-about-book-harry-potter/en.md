@@ -91,27 +91,27 @@ There are a huge number of classic fairy tales that fills well with adult charac
 
 But it is what it is. Starting as an excellent fairy tale, Harry Potter ends as a solid teenage drama, but not quite a masterpiece.
 
-## Семь книг про самого скучного персонажа
+## Seven books about the most boring character
 
-Роулинг умеет создавать интересных персонажей. Книги буквально набиты ими.
+Rowling knows how to create interesting characters. The books are literally packed with them.
 
-При этом главный герой серии — наименее интересный из них. Разве что Рон и Джинни Уизли выглядят менее интересными, чем Гарри, так как зачастую являются статистами для его нужд. Тем более символично, что Гарри и Джинни поженились в итоге.
+At the same time, the main character of the series is the least interesting of them. Only Ron and Ginny Weasley look less engaging than Harry, as they often act like extras, merely there to support his story. It’s all the more symbolic that Harry and Ginny got married in the end.
 
-Может быть это такой литературный приём, который позволяет любому поставить себя на место Гарри, не знаю. Если это так, то мне этот приём не нравится.
+Maybe it's a literary technique that allows anyone to put themselves in Harry's shoes, I don't know. If that’s the case, then I don’t like it.
 
-По сути, мы читаем семь книг про человека-вагона, которого тащат и толкают по сюжету все остальные.
+Essentially, we’re reading seven books about a character who’s just being carried through the plot by everyone else.
 
-Большую часть времени Гарри делает то, что его вынуждают делать обстоятельсва. Его характер формируется не им самим, не его выбором, а давлением событий и манипуляциями окружающих. Гарри такой какой есть не по своему выбору — его сделали именно таким: Дамблдор, Дурсли, Волдеморт, учителя, друзья, враги.
+Most of the time, Harry does what circumstances force him to do. His character is shaped not by himself, not by his choice, but by the pressure of events and the manipulations of others. Harry is what he is not by his choice — he was made that way: by Dumbledore, the Dursleys, Voldemort, teachers, friends, enemies.
 
-Само по себе, формирование или проявление характера под давлением мира — не такой уж плохой вариант. В конце-концов, так оно отчасти и происходит в реальности. Проблема в том, что у человека всегда есть выбор плыть по течению или против него.
+The very idea of forming or revealing character under the pressure of the world isn’t such a bad approach. After all, that’s partly how it works in reality. The problem is that a person always has the choice to either go with the flow or swim against it.
 
-Не будем мелочиться, возьмём Гамлета. Шекспир также строит сюжет вокруг давления обстоятельств на человека, но Гамлета делает сильным персонажем именно его активная позиция, его противостояние судьбе. Даже несмотря на фиаско и трагический финал.
+Let’s not settle for small examples — let’s take Hamlet. Shakespeare also builds the plot around the pressure of circumstances on a person, but what makes Hamlet a strong character is his active stance, his defiance of fate. Even despite his failure and the tragic ending.
 
-Гарри же пассивен. Он не противостоит судьбе, он её принимает, все семь книг принимает, за редкими бытовыми исключениями.
+Harry, on the other hand, is passive. He doesn’t resist fate, he accepts it, he accepts it all seven books long, with rare "routine" exceptions.
 
-Итог этому принятию подводят последние страницы седьмой книги, где открывается, что весь сюжет Гарри идеально следовал начерченным Дамблдором путём, и даже после этого открытия он продолжил идти по указанному ему маршруту. Максимальная пассивность и покорность судьбе.
+The culmination to this acceptance is the last pages of the seventh book, where it’s revealed that Harry’s entire journey perfectly followed the path laid out by Dumbledore. Even after this revelation, he continued to follow the route set for him. Utter passivity and complete submission to fate.
 
-Не представляю как этот персонаж может быть примером для подражания, ориентиром для взросления. Если нужно про взросление, ответственность и любовь — смотрите Наруто. Тоже избранный, тоже всем мешает, но в лепёху расшибётся, чтобы сделать по-своему — Гамлет от аниме :-D
+I can’t imagine how this character could be a role model or a guide for growing up. If you want a story about growth, responsibility, and love — look at Naruto. He’s also the chosen one, also gets in everyone’s way, but he’ll break himself in half to do things his own way — Hamlet, anime-style :-D
 
 ### Задвинутые на задний план герои
 
