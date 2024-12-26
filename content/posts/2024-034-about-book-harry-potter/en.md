@@ -45,7 +45,7 @@ The books even follow a unified plot template with milestones in the form of fix
 
 /// details | Milestones of the first three books:
 
-Not every milestone is significant fully equally in every book, but this list defines common schedulle.
+Not every milestone is significant fully equally in every book, but this list defines common schedule.
 
 - Summer before Hogwarts.
 - Trip to Hogwarts and the ceremony of distributing first-year students.
@@ -75,7 +75,7 @@ It is extremely difficult to build a quality serious work on a fairy tale canon.
 
 The more serious the plot we create, the more "adult" themes we raise, the more logical, coherent and consistent the world behind these themes should be. It doesn't mean that the world should be realistic, no, magic, evil wizards, house elves, and goblin bankers can easily be in a serious plot, but they must act within the framework of a correspondingly developed (internal) logic of the world.
 
-The world of Harry Potter was created for a fairy tale (with very high quality!) and the author could not adapt it for serious storytelling. I'm not even sure it's possible. The lines of all the leading characters start in a fairy tale and, in my opinion, could not be transferred to the drama plot without losing their authenticity.
+The world of Harry Potter was created for a fairy tale (with very high quality!) and the author could not adapt it for serious storytelling. I'm not even sure it's possible. The lines of all the leading characters start in a fairy tale and, in my opinion, could not be transferred to the dramatic plot without losing their authenticity.
 
 - The whimsical "wild" traditions of Hogwarts fit perfectly within a fairy tale about the coolest magical university, but in the context of a drama, they drag Hogwarts' authority (as a central educational institution) down to rock bottom.
 - The wonderful original community of fairy-tale wizards from the first books turns into a closed, decadent, conservative, racist, corrupt reservation in the last books.
@@ -123,7 +123,7 @@ In Harry's defense, it’s hard to change and grow when, in every book, you defe
 
 Let's take Hermione. In my opinion, she’s the strongest character in the books, yet she’s been pushed undeservedly far into the background.
 
-Essentially, the girl is under the same pressures as Harry, and at times even greater. As a Muggle-born, unlike Ron, by the seventh book she’s in just as much mortal danger as Harry. Except her life does not protected by Voldemort orders, so, pretty any death eater can kill her. On top of that, she also bears the responsibility of protecting her parents.
+Essentially, the girl is under the same pressures as Harry, and at times even greater. As a Muggle-born, unlike Ron, by the seventh book she’s in just as much mortal danger as Harry. Except her life is not protected by Voldemort's orders, so, pretty any death eater can kill her. On top of that, she also bears the responsibility of protecting her parents.
 
 At the same time, unlike Harry, she actively seeks her path and resists the pressure of circumstances, sometimes for the whole trio:
 
@@ -131,7 +131,7 @@ At the same time, unlike Harry, she actively seeks her path and resists the pres
 - It’s Hermione who comes up with the idea of using Polyjuice Potion, takes the brunt of its side effects, and keeps quiet about it like a true soldier while the boys go about their business.
 - It’s Hermione who decides to grind through a year of 30-hour days on her studies, all while helping Harry, burning out in the process but refusing to give up and redefining herself and her approach to learning aftewards. Meanwhile, Harry, in the older age, can’t even take his rare [Occlumency](https://harrypotter.fandom.com/wiki/Occlumency) lessons seriously — a skill critically necessary to protect all his friends.
 - It’s Hermione who tries to change the wizarding world, fighting for the rights of house-elves.
-- It’s Hermione who organizes Dumbledore’s Army, the group that played a key role in the events of the final books.
+- It’s Hermione who organizes Dumbledore’s Army, the group that plays a key role in the events of the final books.
 
 Over seven books, Hermione grows from a bookworm to a real leader (not a "portable banner" like Harry), who is capable of making radical decisions in moments of mortal danger and can lie under Bellatrix Lestrange’s torture — the second most evil witch after Voldemort.
 
@@ -139,14 +139,14 @@ But what do we know about her life outside Harry’s adventures? Practically not
 
 - She has loving muggle parents, the relationship with whom is not disclosed at all, despite their obvious importance to Hermione and, by the way, to Harry, who could have had a chat with normal muggles. We have a mountain of information about Harry’s and Ron’s families, but Hermione’s parents are literally excluded from the plot.
 - She has a mostly unknown social life — rich enough, despite the constant occupation with Harry and Ron.
-- She has, as far as I understand, non-trivial relationships with Ravenclaw and, possibly, Hufflepuff hauses, as she definitely easily meets the highest requirements of both of them. But we know almost nothing about it.
+- She has, as far as I understand, non-trivial relationships with Ravenclaw and, possibly, Hufflepuff houses, as she definitely easily meets the highest requirements of both of them. But we know almost nothing about it.
 - She inevitably must have complex and interesting relationships with Hogwarts teachers. It’s impossible to claim that Slughorn is the only teacher who communicated with students outside of class time.
 
 Roughly the same logic can be built for many other characters.
 
 So, Rowling has no problem creating strong characters. But she consciously allotted them as much time as she allotted.
 
-Ok, I think you got it — I'm fond of Hermione’s character. I really hoped Rowling would reveal more of her. At least write a chapter or two from her perspective, or better yet, describe the events of one of the school years from her point of view — now that would have been a strong move, but alas, it wasn’t meant to be.
+Ok, I think you got it — I'm fond of Hermione’s character. I really hoped Rowling would have revealed more of her. At least write a chapter or two from her perspective, or better yet, describe the events of one of the school years from her point of view — now that would have been a strong move, but alas, it wasn’t meant to be.
 
 ## Poor tying up of the plot threads
 
