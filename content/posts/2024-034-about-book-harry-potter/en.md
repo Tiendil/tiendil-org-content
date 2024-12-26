@@ -148,28 +148,28 @@ So, Rowling has no problem creating strong characters. But she consciously allot
 
 Ok, I think you got it — I'm fond of Hermione’s character. I really hoped Rowling would reveal more of her. At least write a chapter or two from her perspective, or better yet, describe the events of one of the school years from her point of view — now that would have been a strong move, but alas, it wasn’t meant to be.
 
-## Плохое сведение концов сюжета
+## Poor tying up of the plot threads
 
-С увеличением серьёзности/драматичности сюжета, объём книг начал разбухать и достиг максимума в пятой.
+As the seriousness/dramatic depth of the plot increased, the volume of the books began to swell, reaching its peak in the fifth one.
 
-Учитывая объём сюжета (количество событий, персонажей, их линий), этот рост был логичен и оправдан. Но размеры шестой и седьмой книг Роулинг вернула к уровню четвёртой, что неизбежно привело к скомканности изложения, пропуску деталей. Как следствие, к плохому сведению концов в седьмой книге и к слабому обоснованию событий последнего часа битвы за Хогвартс: от принципов работы палочек и работы Воскрешающего камня, до тихой смерти важных персонажей, которые «просто погибли в бою».
+Given the scope of the plot (the number of events, characters, and their storylines), this growth was logical and justified. However, in the sixth and seventh books, Rowling returned to the length of the fourth, which inevitably led to a rushed narrative and the loss of important details. As a result, this led to a poor tying up of plot threads in the seventh book and weak justification for the events of the final hour of the Battle of Hogwarts: from the principles of wand magic and the logic of the Resurrection Stone, to the quiet deaths of important characters who "just died in battle".
 
-На мой взгляд, по этим же причинам в конце седьмой книги читателю последовательно излагают:
+In my opinion, for the same reasons, at the end of the seventh book, the reader is sequentially presented with:
 
-- Пропущенные события от лица Снейпа, когда Гарри смотрит его воспоминания. При этом ещё и шатая логику работы с воспоминаниями: всё время до этого момента их передавали и смотрели по одному, Снейп же, смертельно отравленный, смог передать Гарри целый пакет организованных воспоминаний, которые Гарри ещё и посетил в правильном порядке.
-- Пропущенную логику происходящего в диалоге Гарри с образом Дамблдора.
-- Пропущенную логику происходящего в диалоге Гарри с Волдемортом.
+- The missed events from Snape’s perspective when Harry views his memories. Moreover, the logic of working with memories is flawed: up until this point, memories were always passed and viewed one at a time, yet Snape, mortally poisoned, managed to give Harry an entire bundle of organized memories, which Harry then visited in the correct order.
+- An additional explanation of the logic behind the events in the conversation between Harry and Dumbledore’s image.
+- An additional explanation of the logic behind the events in the conversation between Harry and Voldemort.
 
-Де-факто, чтобы подвести черту под сюжетом, автору потребовалось организовать для читателя три лекции от лица ведущих персонажей книг.
+De facto, to wrap up the plot, the author had to organize three lectures for the reader from the leading characters of the book — not the best way to finish a series.
 
-## Ещё пара заметок
+## A couple more notes
 
-Читать книги после фильмов значительно менее интересно — фильмы сильно влияют на восприятие персонажей, на их образы в голове. С этим, видимо, уже ничего не сделаешь. Скоро ещё сериал выпустят и читать оригинал «как в первый раз» станет совершенно невозможно.
+Reading the books after watching the movies is much less interesting — the films heavily influence how we imaging the characters, shape their images in our minds. There's probably nothing that can be done about it.. Soon they'll release a TV series, and reading the original "as if for the first time" will be completely impossible.
 
-Необъяснимо, но Гарри в первых книгах — откровенный жмот. Причём эта черта характера светится постоянно: подарки друзьям не дарит (только получает), деньги не пытается тратить даже для решения даже критически важных проблем друзей (например, не пытается купить палочку Рону).
+Inexplicably, Harry in the first books is a downright Scrooge. This trait is constantly apparent: he doesn’t give gifts to his friends (only receives them), and he doesn’t even try to spend money to solve critically important problems of his friends’ (for example, he doesn’t try to buy Ron a new wand).
 
-Восторгов от описания магии у меня нет. Если хочется почитать про красивую магию, очень рекомендую [книги Сюзанны Кларк]{post:susanna-clarke-books}.
+I’m not excited by the description of magic. If you want to read about beautiful magic, I highly recommend [Susanna Clarke’s books]{post:@choose-nearest-language:susanna-clarke-books}.
 
-Также у меня в блоге есть отзыв на фанфик [Гарри Поттер и методы рационального мышления]{post:about-book-harry-potter-and-the-methods-of-rationality}
+Also, a few years ago I wrote a review of the fanfic [Harry Potter and the Methods of Rationality]{post:@choose-nearest-language:about-book-harry-potter-and-the-methods-of-rationality}.
 
-На этом всё. Надеюсь, после этого поста я не приобрету смертельных врагов среди фанатов Гарри :-)
+That’s all. I hope after this post I won’t gain any mortal enemies among Harry Potter fans :-)
