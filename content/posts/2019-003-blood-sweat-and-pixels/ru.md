@@ -1,6 +1,6 @@
 ---
 title = "О книге «Кровь, пот и пиксели» — производственные сказки на ночь"
-tags = [ "business", "gamedev", "game-design", "books", "monetization", "development", "interesting"]
+tags = [ "business", "gamedev", "game-design", "books", "monetization", "development", "interesting", "popular-science-books"]
 published_at = "2019-04-24T12:00:00+00:00"
 seo_description = "Отзыв о книге «Кровь, пот и пиксели» — сборник баек о геймдеве."
 seo_image = "images/blood_sweat_and_pixels.jpg"

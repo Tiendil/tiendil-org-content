@@ -1,6 +1,6 @@
 ---
 title = "О книге «Изобретение науки»"
-tags = [ "books", "society", "systems", "theory", "evolution", "interesting", "best"]
+tags = [ "books", "society", "systems", "theory", "evolution", "interesting", "best", "popular-science-books"]
 published_at = "2019-12-04T12:00:00+00:00"
 seo_description = "Отзыв на книгу «Изобретение науки». Обязательно к прочтению. Как методы работы с информацией меняют скорость прогресса."
 seo_image = "images/invention-of-science-book.jpg"

@@ -1,6 +1,6 @@
 ---
 title = "О книге «Поток»"
-tags = [ "books", "thinking", "psychology", "theory", "interesting", "biology"]
+tags = [ "books", "thinking", "psychology", "theory", "interesting", "biology", "popular-science-books"]
 published_at = "2019-08-15T12:00:00+00:00"
 seo_description = "Отзыв на книгу «Поток». Классическая идея, интересная, но продвигает специфическое понятие счастья, будьте осторожны при следовании советам из книги."
 seo_image = "images/flow-book.jpg"

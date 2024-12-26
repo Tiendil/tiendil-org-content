@@ -1,6 +1,6 @@
 ---
 title = "О книге «Масштаб»"
-tags = [ "books", "thinking", "society", "systems", "theory", "evolution", "economics", "interesting", "best"]
+tags = [ "books", "thinking", "society", "systems", "theory", "evolution", "economics", "interesting", "best", "popular-science-books"]
 published_at = "2019-10-08T12:00:00+00:00"
 seo_description = "Обзор книги «Масштаб» Джеффри Уэста — как строгий «физический» подход к изучению мира может дать нам модели для использования в повседневной жизни."
 seo_image = "./images/scale-book-cover.jpg"

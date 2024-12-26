@@ -1,6 +1,6 @@
 ---
 title = "Развитие теории организаций"
-tags = [ "business", "books", "theory",]
+tags = [ "business", "books", "theory", "professional-books"]
 published_at = "2015-01-06T12:00:00+00:00"
 seo_description = "Небольшой отзыв о книге Мильнера «Теория организаций»."
 seo_image = ""

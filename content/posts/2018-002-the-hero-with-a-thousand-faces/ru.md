@@ -1,6 +1,6 @@
 ---
 title = "О книге «Тысячеликий герой» — потроха гуманитарщины"
-tags = [ "books", "society", "psychology", "theory",]
+tags = [ "books", "society", "psychology", "theory", "professional-books"]
 published_at = "2018-10-28T12:00:00+00:00"
 seo_description = "Книга Джозефа Кэмпбелла оказалась весьма специфичной. Она интересна, но не для всех. Рекомендую технарям для опыта погружения в мозг гуманитария."
 seo_image = "images/the_hero_with_a_thousand_faces.jpg"

@@ -1,6 +1,6 @@
 ---
 title = "О книге «Piranesi»"
-tags = [ "books", "interesting"]
+tags = [ "books", "interesting", "fiction-books"]
 published_at = "2024-07-05T12:00:00+00:00"
 seo_description = "Отзыв на книгу Сюзанны Кларк «Piranesi»: амнезия, магический мир без магии и научный подход."
 seo_image = "./images/cover.jpg"

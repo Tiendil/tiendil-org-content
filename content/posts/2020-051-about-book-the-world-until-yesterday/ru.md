@@ -1,6 +1,6 @@
 ---
 title = "О книге «Мир позавчера»"
-tags = [ "state", "books", "society", "practice", "psychology", "evolution", "economics", "interesting"]
+tags = [ "state", "books", "society", "practice", "psychology", "evolution", "economics", "interesting", "popular-science-books"]
 published_at = "2020-12-11T12:00:00+00:00"
 seo_description = "Отзыв о книге Даймонда Джареда «Мир позавчера». Заметки антрополога о десятилетиях жизни среди аборигенов Новой Гвинеи."
 seo_image = "images/the-world-until-yesterday-cover.png"

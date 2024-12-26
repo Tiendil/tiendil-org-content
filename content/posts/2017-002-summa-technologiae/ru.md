@@ -1,6 +1,6 @@
 ---
 title = "О книге «Сумма Технологии»"
-tags = [ "books", "society", "systems", "theory", "futurology", "evolution", "interesting", "best"]
+tags = [ "books", "society", "systems", "theory", "futurology", "evolution", "interesting", "best", "popular-science-books"]
 published_at = "2017-07-28T12:00:00+00:00"
 seo_description = "Сумма технологии — собрание прогнозов долгосрочного развития человечества, построенных с позиции эволюционного взгляда на изменение социума и технологий."
 seo_image = "images/summa_technologiae.jpg"

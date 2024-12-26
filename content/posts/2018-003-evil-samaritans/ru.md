@@ -1,6 +1,6 @@
 ---
 title = "О книге «Злые самаритяне»"
-tags = [ "state", "books", "society", "theory", "economics", "interesting"]
+tags = [ "state", "books", "society", "theory", "economics", "interesting", "popular-science-books"]
 published_at = "2018-11-29T12:00:00+00:00"
 seo_description = "Отзыв на книгу Ха-Джун Чанга «Злые самаритяне». Критика современной экономики, рекомендации для развивающихся стран, много исторических примеров."
 seo_image = "images/evil_samaritans.png"

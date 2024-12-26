@@ -1,6 +1,6 @@
 ---
 title = "О монографии «Методология научного познания»"
-tags = [ "books", "thinking", "theory",]
+tags = [ "books", "thinking", "theory", "professional-books"]
 published_at = "2020-08-26T12:00:00+00:00"
 seo_description = "Отзыв о монографии С.А. Лебедева «Методология научного познания». Читать аккуратно, как справочник, а не как источник истинного знания."
 seo_image = "images/methodology-of-scientific-knowledge-cover.jpg"

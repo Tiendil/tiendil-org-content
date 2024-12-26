@@ -1,6 +1,6 @@
 ---
 title = "Обзор книги «Сигнал и Шум»"
-tags = ["books", "thinking", "theory", "practice", "interesting"]
+tags = ["books", "thinking", "theory", "practice", "interesting", "popular-science-books"]
 published_at = "2024-07-16T12:00:00+00:00"
 seo_description = "Отзыв на книгу «Сигнал и Шум». Хороший обзор подходов к прогнозированию на примере конкретных больших задач."
 seo_image = "./cover_ru.jpg"

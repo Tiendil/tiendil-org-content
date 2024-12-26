@@ -1,6 +1,6 @@
 ---
 title = "О книге «Я, мозг и возникновение сознания»"
-tags = [ "books", "thinking", "psychology", "systems", "theory", "evolution",]
+tags = [ "books", "thinking", "psychology", "systems", "theory", "evolution", "popular-science-books"]
 published_at = "2020-07-28T12:00:00+00:00"
 seo_description = "Отзыв на книгу Антонио Дамасио «Я, мозг и возникновение сознания» и несколько интересных фактов из неё."
 seo_image = "images/cover-self-comes-to-mind.jpg"

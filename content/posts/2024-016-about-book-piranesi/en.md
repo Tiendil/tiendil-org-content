@@ -1,6 +1,6 @@
 ---
 title = "About the book \"Piranesi\""
-tags = [ "books", "interesting"]
+tags = [ "books", "interesting", "fiction-books"]
 published_at = "2024-07-05T12:00:00+00:00"
 seo_description = "A review of Susanna Clarke's book \"Piranesi\": amnesia, a magical world without magic, and a scientific approach."
 seo_image = "./images/cover.jpg"
