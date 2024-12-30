@@ -88,19 +88,19 @@ Our brain clearly doesn’t function as a single universal network or just a few
 
 Our entire progress in strong AI over the past 50 years has been about creating a few modules that simulate its fragments or abstract functions. However, no one yet knows how to assemble them or what to use to glue them together. Recently, we've gained another building block in our hands, but constructing a structure from such blocks will require much more research and development. And this structure will be far more complex than just a pile of uniform cubes.
 
-## Нейронные сети сами по себе не отберут работу у большинства людей
+## Neural networks on their own won’t take jobs away
 
-Чуть подробнее на эту тему я писал в отдельном эссе [ИИ нас всех не(?) заменит]{post:ai-will-not-or-will-replace-us-all}
+I've written a bit more on this topic in a separate essay: [AI will not(?) replace us all](post:@choose-nearest-language:ai-will-not-or-will-replace-us-all).
 
-Поскольку сильный ИИ мы не ожидаем, то нейронные сети остаются (очень мощным) инструментом для интеллектуального труда. Возможно, самым мощным после письменности, но всё ещё инструментом. Такому инструменту всё ещё нужна направляющая рука, даже если эта рука будет направлять его очень абстрактно.
+Since we don't expect strong AI, neural networks remain a (very powerful) tool for intellectual work. Perhaps the most powerful tool besides writing, but still a tool. Such a tool still needs a guiding hand, even if it guides it very abstractly.
 
-В реальности, насколько я помню, ещё ни одна революция автоматизации не уменьшала абсолютное количество рабочих мест — только перераспределяла их. Бизнес, в принципе, не заинтересован в сокращении производства, только в увеличении. Если что-то получается автоматизировать/оптимизировать/удешевить, то это повод больше масштабироваться, а масштабирование требует тех же работников, но переученных.
+In reality, as far as I remember, no automation revolution has ever reduced the absolute number of jobs — only redistributed them. Business, in principle, is not interested in reducing production, only in increasing it: if something can be automated/optimized/made cheaper, it's a reason to scale up, and scaling up requires the (retrained) workers.
 
-Новый рабочий инструмент сдвинет фокус профессий с более рутинных интеллектуальных задач, на менее рутинные. Это потребует от людей:
+The new tool will shift the focus of professions from more routine intellectual tasks to less routine ones. This will require people to:
 
-- Во-первых, более широкого и глубокого образования, так как увеличение абстракции ведёт к увеличению широты и глубины охватываемой ей области.
-- Во-вторых, переучивания, так как инструмент новый, а всему новому надо учиться.
-- В-третьих, базовой любознательности, чтобы вовремя заметить что пора учиться.
+- acquire a broader and deeper education, as increased abstraction means a broader and deeper area of responsibility;
+- retrain, as the tool is new and anything new requires learning;
+- cultivate basic curiosity to recognize when it’s time to start learning.
 
 Люди не желающие учиться будут испытывать проблемы с работой. Но такие люди всегда испытывают проблемы с работой последние лет 100 — это не следствие внедрения новых инструментов.
 
