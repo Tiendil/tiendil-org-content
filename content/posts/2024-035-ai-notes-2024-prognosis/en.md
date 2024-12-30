@@ -72,21 +72,21 @@ We are simple folks and intuitively understand strong AI as something roughly si
 
 Let's me add a few words about the phantom of strong AI.
 
-При бесконечном количестве ресурсов можно собрать нечто, что будет вести себя как человек с точки зрения неподготовленного наблюдателя, абсолютно таким не являясь. Например, можно посадить толпу людей придумывать «человеческие» реакции на любое возможное событие, записать их в базу данных и выбирать реакции сугубо по табличке. Подобная система будет выглядеть как сильный ИИ до тех пор, пока не столкнётся с очень оригинальной ситуацией или пока ей не потребуется научиться (приспособиться к) чему-нибудь. Или можно обучить огромную статистическую модель, которая будет предсказывать текст, симулируя диалог с человеком, оставаясь статичной генеративной базой данных.
+With infinite resources, we could create something that behaves like a human to an unprepared observer but is not human at all. For instance, we could gather a crowd of people to list "human" reactions to all possible events, record them in a database, and select reactions based on a lookup table. Such a system would behave (from third party view) like strong AI until it encounters an original situation or needs to learn (adapt to) something new. Or we could train a huge statistical model to predict text token-by-token, simulating a dialogue with a human, while remaining a static generative knowledge base.
 
-Очевидно, что при всей внешней похожести, такая система не будет являться сильным ИИ даже близко. Поэтому, например, я крайне скептически и неодобрительно отношусь к заявлениям (обычно бывших) сотрудников Google, OpenAI и прочих компаний, которые заявляют о якобы обнаруженном сознании в моделях.
+Obviously, while such a system might look like strong AI, it won't be strong AI by any means. This is why I'm extremely skeptical and dissapointed by claims — usually made by former employees of Google, OpenAI, and other companies — that consciousness has been discovered in modern models.
 
-Чтобы детально разобрать вопрос создания сильного ИИ, надо писать отдельный пост. Делать это, к сожалению, у меня нет времени, хотя и хочется. Поэтому ограничусь несколькими тезисами, которые подкрепляют мнение о малой вероятности создания сильного ИИ простым способом.
+The question of creating strong AI is a complex one and requires a separate post to delve into. Unfortunately, I don't have time to write it, although I would like to. So I'll limit myself to a few theses supporting the idea that creating strong AI through simple means is highly unlikely.
 
-Тезис со стороны технологии.
+The thesis from the perspective of technology.
 
-Если смотреть на нейронные сети как на [генеративные базы данных]{post:ai-notes-2024-generative-knowledge-base}, то очевидно, что никакая база данных не может дать нам сильный ИИ, так как реализует только часть необходимой функциональности. Так же как реляционные базы данных и семантические сети не помогли нам создать сильный ИИ на базе экспертных систем в 80-ых и 90-ых годах.
+If we view neural networks as [generative knowledge bases]{post:ai-notes-2024-generative-knowledge-base}, it becomes clear that no database can give us strong AI, as it implements only part of the necessary functionality (stores information). Similarly, relational databases and semantic networks did not lead us to a strong AI based on expert systems in the 80s and 90s..
 
-Тезис со стороны образца целевой системы, который есть в нашем распоряжении.
+The thesis from the perspective of the target system, wich we have at our disposal.
 
-Наш мозг точно не работает как одна универсальная или небольшое количество генерализированных сетей/компонентов. Мнения о том, сколько компонентов можно выделить в мозгу, расходятся, но их точно много (можно выделить [несколько десятков структур](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B_%D0%BC%D0%BE%D0%B7%D0%B3%D0%B0)), либо очень много, либо просто огромное количество (если считать такие штуки как [кортикальные колонки](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BB%D0%BE%D0%BD%D0%BA%D0%B0_%D0%BA%D0%BE%D1%80%D1%82%D0%B5%D0%BA%D1%81%D0%B0)). Эти модули не только устроены по-разному, но и организованы в сложную архитектуру, требующую сложной инфраструктуры для коммуникации (говоря техническим языком).
+Our brain clearly doesn’t function as a single universal network or just a few generalized networks/components. Opinions differ on how many components can be identified in the brain, but there are undoubtedly many of them ([several dozen structures](https://en.wikipedia.org/wiki/List_of_regions_in_the_human_brain) can be identified), or even more, or simply an enormous number (if we consider things like [cortical columns](https://en.wikipedia.org/wiki/Cortical_column) as a separate modules). These modules are not only structured differently but are also organized into a complex architecture requiring a sophisticated communication infrastructure (in technical terms).
 
-Весь наш прогресс в сильном ИИ за последние лет 50 — это созданные несколько модулей, которые симулируют его кусочки, но как их собрать вместе, чем склеить, до сих пор никто не знает. Сейчас в наших руках появился ещё один базовый строительный блок, но для постройки строения из подобных блоков нам потребуется ещё много исследований и разработок. И дом этот окажется куда сложнее, чем гора кубиков.
+Our entire progress in strong AI over the past 50 years has been about creating a few modules that simulate its fragments or abstract functions. However, no one yet knows how to assemble them or what to use to glue them together. Recently, we've gained another building block in our hands, but constructing a structure from such blocks will require much more research and development. And this structure will be far more complex than just a pile of uniform cubes.
 
 ## Нейронные сети сами по себе не отберут работу у большинства людей
 
