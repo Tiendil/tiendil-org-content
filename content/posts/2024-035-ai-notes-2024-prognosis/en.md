@@ -25,27 +25,27 @@ In 2023, I already published a [forecast on artificial intelligence]{post:@choos
 
 <!-- more -->
 
-## Технологической сингулярности не будет
+## There will be no technological singularity
 
-В очередной раз сингулярность к нам не придёт.
+Once again, the singularity will not come to us.
 
-Не будет такого, что в 2025 году появится сильный ИИ, в 2026 он решит проблему потепления, в 2027 вылечит рак, в 2028 введёт всеобщий базовый доход, насадит равноправие и раздаст бесплатные стейки из искусственного мяса, а в 2029 начнутся туристические полёты на Марс.
+A strong AI ([AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence)) will not appear in 2025, solve the problem of global warming in 2026, cure cancer in 2027, introduce universal basic income in 2028, establish equality, and distribute free steaks made from artificial meat in 2029, and initiate tourist flights to Mars.
 
-С сингулярностью важно помнить, что это не конкретное явление, а абстрация для обозначения состояния мира, в котором наши текущие модели реальности не работают.
+We should remember that the singularity is not a specific event or phenomenon, but an abstraction to denote a state of the world in which our current models of reality do not work.
 
-Простым языком: никто не знает, что будет в определённых граничных условиях, поэтому наши предсказания загоняют показатели в бесконечность. В математике/физике это происходит буквально, в реальной жизни — фигурально: мы думаем, что всё будет максимально хорошо или максимально плохо.
+In simple terms: nobody knows what will happen under certain boundary conditions, so our predictions push the numbers to infinity. In math or physics, this happens literally; in real life, it's more figurative — we assume everything will either turn out as perfectly as possible or as disastrously as possible.
 
-Сложным языком:
+In more complex terms:
 
-- Мы мыслим сугубо в рамках моделей реальности в нашей голове.
-- [Все модели имеют ограниченную область применения и ограниченную точность]{post:@choose-nearest-language:life-and-work-with-models}.
-- Это значит, что всегда есть области, в которых мы делаем плохие, неточные предсказания или вообще не можем их делать.
-- Часто это области, в которые мы попадаем в случае резкого изменения входных параметров модели. Потому что наши модели обычно не рассчитаны на это: редкая ситуация, сложнее готовить, etc..
-- Ожидание технологической сингулярности — как раз такой случай. Одна или несколько технологий начинают настолько резко улучшаться, что последствия их развития выходят за границы определения наших моделей мира быстрее, чем мы эти модели адаптируем. Фактически, становится выгоднее подождать и посмотреть что будет, чем следовать неточным предсказаниям.
+- We think strictly within the boundaries of the models of reality in our heads.
+- [All models have a limited range of application and limited accuracy]{post:@choose-nearest-language:life-and-work-with-models}.
+- This means there are always areas where we make bad, inaccurate predictions, or can't make them at all.
+- Often these are areas where we end up when the input parameters of the model change abruptly, too rapidly. Because our models are usually not designed for such cases: too rare situation, more difficult to prepare and tune, etc.
+- The expectation of a technological singularity is precisely such a case. One or more technologies begin to improve so rapidly that the consequences of such improvements exceed the capabilities of our models faster than we can adapt them. As a result, it becomes more practical to wait and see what happens rather than rely on inaccurate predictions."
 
-В подобных условиях у части людей случается ожидание рая на земле, в духе: раз мы не знаем что конкретно порешают новые технологии, то они порешают всё. Ошибка простительная, к сожалению, многие эксплуатируют её в целях увеличения личного достатка или популярности.
+In such conditions, some people start to expect paradise on earth, reasoning that since we don’t know exactly what new technologies will solve, they’ll solve everything. This mistake is understandable, but unfortunately, many exploit it to boost their personal wealth or popularity.
 
-Однако резкие изменения всегда заканчиваются, человечество собирает новые данные, пересматривает модели и начинает делать новые точные предсказания. Все успокаиваются до следующего рывка/резкого изменения, которое уж в этот-то раз точно приведёт к технологической сингулярности.
+However, rapid changes always come to an end. Humanity gathers new data, revises its models, and starts making accurate predictions again. Everyone calms down—until the next leap or sudden change, which, this time, is sure to lead to the technological singularity.
 
 ## Нейронные сети концептуально не изменятся за 10 лет
 
