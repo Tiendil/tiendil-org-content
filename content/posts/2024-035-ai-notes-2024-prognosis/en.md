@@ -47,22 +47,22 @@ In such conditions, some people start to expect paradise on earth, reasoning tha
 
 However, rapid changes always come to an end. Humanity gathers new data, revises its models, and starts making accurate predictions again. Everyone calms down—until the next leap or sudden change, which, this time, is sure to lead to the technological singularity.
 
-## Нейронные сети концептуально не изменятся за 10 лет
+## Neural networks won't change conceptually over the next 10 years
 
-Концептуально не изменятся — значит не обретут новых качественных свойств в дополнение к уже имеющимся. За подробностями приглашаю в пост про [генеративные базы данных]{post:ai-notes-2024-generative-knowledge-base}.
+By conceptual changes, I mean obtaining new qualitative properties in addition to the existing ones. For details, I invite you to read the post on [generative knowledge bases]{post:ai-notes-2024-generative-knowledge-base}.
 
-Под неконцептуальные изменения попадают увеличение скорости, качества, удешевление.
+By non-conceptual changes, I mean quantitative changes, like increasing speed, quality, or reducing costs.
 
-Я ограничиваю прогноз на ближайшие 10 лет, так как остаётся теоретическое пространство для качественного изменения нейронных сетей. Например, обучение текущих искусственных сетей отделено от рабочего режима, а биологические совмещают эти режимы как-минимум частично — добавление такой способности к искусственным сетям могло бы ещё раз перевернуть рынок.
+I limit my forecast to the next 10 years because there is still theoretical room for a qualitative change in neural networks. For instance, current artificial networks separate training from their operational mode, whereas biological networks combine these modes at least partially. Adding such a capability to artificial networks could once again disrupt the market.
 
-Я считаю такие изменения маловероятными (в ближайшее время) по следующим причинам:
+I believe such changes are unlikely (in the near future) for the following reasons:
 
-- Текущий прорыв в нейронных сетях на порядки расширил пространство возможных профитных продуктов для бизнеса.
-- Бизнес — основной двигатель текущего прогресса.
-- Исследовать пространство возможных профитных продуктов значительно выгоднее (по соотношению возможного профита к риску), чем искать ещё одно такое же пространство. Пока ты ищешь, конкуренты делят текущий рынок.
-- На учёных тоже мало надежды, так как современная наука сломана и большинство учёных стремится за хайпом и деньгами.
+- The current breakthrough in neural networks has expanded the space of potentially profitable products for businesses by orders of magnitude.
+- Business is the main driver of current progress.
+- Exploring the space of potentially profitable products is much more beneficial (in terms of the profit-to-risk ratio) than looking for another similar space. While you're looking, your competitors are dividing the current market.
+- There is little hope for scientists either, as modern science is broken, and most researchers are driven by hype and money.
 
-Говоря образно, искусственные нейронные сети сейчас в состоянии рынка PC в конце 80-ых: интернет уже есть, все базовые концепции PC есть, базовые цепочки производства более-менее налажены или в процессе наладки. Да, за следующие 30 лет многое изменится, многое оптимизируется, развитие электроники спровоцирует множество меньших революций, но концептуально влияние PC на наш мир будет скорее количественно отмасштабированно, чем качественно. Утрируя, текстовые редакторы были уже в конце 80-ых, до нашего времени они концептуально не изменились, только стали красивее, удобнее, мощнее, etc.
+Speaking figuratively, artificial neural networks are currently at the stage of the PC market in the late 80s: the internet already exists, all the fundamental PC concepts are in place, and the basic production chains are either established or in the process of being established. Yes, many things will change over the next 30 years, many processes will be optimized, and the development of electronics will trigger numerous smaller revolutions. However, conceptually, the impact of PCs on our world will be more about quantitative scaling than qualitative transformation. To exaggerate, text editors already existed in the late 80s, and conceptually, they haven’t changed since — only becoming more polished, user-friendly, and powerful.
 
 ## Мы не получим сильный ИИ только на базе одной или нескольких нейронных сетей
 
