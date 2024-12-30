@@ -1,27 +1,27 @@
 ---
-title = "Прогноз"
+title = "Prognosis"
 tags = ["practice", "neural-networks", "society", "futurology", "ai-notes-2024", "economics", "interesting"]
 series = "ai-notes-2024"
 published_at = "2024-12-31T17:00:00+00:00"
-seo_description = "Мои заметки об актуальном состоянии ИИ в конце 2024 года. В этом посте я делаю прогноз на ближайшие 5-10 лет."
+seo_description = "My notes on the current state of AI at the end of 2024. In this post, I make a forecast for the next 5-10 years."
 seo_image = ""
 ---
 
-Продолжаю заметки об ИИ на конец 2024 года.
+I continue my notes on AI at the end of 2024.
 
 /// brigid-series
 tag = "ai-notes-2024"
 ///
 
-В прошлых постах мы обсудили три тезиса:
+In the previous posts we discussed three theses:
 
-- Анализируя решения крупных разработчиков ИИ, таких как OpenAI или Google, мы можем делать достаточно точные предположения о состоянии этой области знаний.
-- Весь текущий прогресс стоит на одной конкретной базовой технологии — генеративных базах знаний, которые есть большие вероятностные модели.
-- Развитие нейронных сетей, ака генеративных баз знаний, выходит на плато, их дальнейшее развитие скорее будет поступательным/эволюционным, чем взрывным/революционным.
+- By analyzing the decisions of major AI developers, such as OpenAI or Google, we can make fairly accurate assumptions about the state of the AI industry.
+- All current progress is based on a single base technology — generative knowledge bases, which are large probabilistic models.
+- The development of neural networks, a.k.a. generative knowledge bases, is reaching a plateau; their further advancement is likely to be incremental/evolutionary rather than explosive/revolutionary.
 
-Опираясь на эти тезисы мы наконец можем поговорить о самой хайповой, самой животрепещущей теме: доколе будет лететь текущий прогресс? Ждёт ли нас сингулярность в 2025 году или всё останется как прежде? Когда же наконец появится наш бог из металла и ~~силикона~~ кремния?
+Based on these theses, we can finally talk about the most hyped, most exciting topic: how long will the current progress continue? Will we reach the singularity in 2025, or will everything remain the same? When will our god of metal and silicon finally appear?
 
-В 2023 я уже публиковал [прогноз об искусственном интеллекте]{post:silly-predictions-about-artificial-intelligence}. Он всё ещё в силе — почитайте. В том эссе я больше времени уделил тому, что следует ожидать. Новый текст вышел скорее про то, чего ожидать не следует. Получается, очертил две границы возможного, а истина где-то посередине будет.
+In 2023, I already published a [forecast on artificial intelligence]{post:@choose-nearest-language:silly-predictions-about-artificial-intelligence}. It is still valid — take a look. In it, I spent more time describing what to expect. This text is more about what not to expect. So, it turns out that I outlined two boundaries of the possible, and the truth should be somewhere in between.
 
 <!-- more -->
 
