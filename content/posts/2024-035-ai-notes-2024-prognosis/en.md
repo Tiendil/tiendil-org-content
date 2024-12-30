@@ -64,13 +64,13 @@ I believe such changes are unlikely (in the near future) for the following reaso
 
 Speaking figuratively, artificial neural networks are currently at the stage of the PC market in the late 80s: the internet already exists, all the fundamental PC concepts are in place, and the basic production chains are either established or in the process of being established. Yes, many things will change over the next 30 years, many processes will be optimized, and the development of electronics will trigger numerous smaller revolutions. However, conceptually, the impact of PCs on our world will be more about quantitative scaling than qualitative transformation. To exaggerate, text editors already existed in the late 80s, and conceptually, they haven’t changed since — only becoming more polished, user-friendly, and powerful.
 
-## Мы не получим сильный ИИ только на базе одной или нескольких нейронных сетей
+## We won't build strong AI based on just one or a few neural networks
 
-Не будем пытаться строго определить, что такое сильный ИИ — отдадим это философам, математикам и юристам. А то вот недавно [Microsoft и OpenAI дали определение сильному ИИ через количество заработанных денег](https://techcrunch.com/2024/12/26/microsoft-and-openai-have-a-financial-definition-of-agi-report/).
+Let's not try to strictly define what strong AI is — let's leave that to philosophers, mathematicians, and lawyers. After all, not long ago, [Microsoft and OpenAI defined strong AI in terms of the amount of money it generates](https://techcrunch.com/2024/12/26/microsoft-and-openai-have-a-financial-definition-of-agi-report/).
 
-Мы люди простые, интуивно понимаем, что сильный ИИ — это примерно как человек. А слабый ИИ пусть будет примерно как дрессированная собачка или котик; или как модель, которая при невооружённом взгляде выглядит как сильный ИИ, но на самом деле не работает как он — этакий фантом сильного ИИ.
+We are simple folks and intuitively understand strong AI as something roughly similar to a human. Weak AI, on the other hand, might resemble a trained dog or cat, or a model that, at first glance, appears to be strong AI but doesn’t function like it—a sort of strong AI phantom.
 
-Про фантом сильного ИИ добавлю ещё пару слов.
+Let's me add a few words about the phantom of strong AI.
 
 При бесконечном количестве ресурсов можно собрать нечто, что будет вести себя как человек с точки зрения неподготовленного наблюдателя, абсолютно таким не являясь. Например, можно посадить толпу людей придумывать «человеческие» реакции на любое возможное событие, записать их в базу данных и выбирать реакции сугубо по табличке. Подобная система будет выглядеть как сильный ИИ до тех пор, пока не столкнётся с очень оригинальной ситуацией или пока ей не потребуется научиться (приспособиться к) чему-нибудь. Или можно обучить огромную статистическую модель, которая будет предсказывать текст, симулируя диалог с человеком, оставаясь статичной генеративной базой данных.
 
