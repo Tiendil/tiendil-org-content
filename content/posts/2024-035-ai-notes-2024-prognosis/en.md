@@ -185,7 +185,7 @@ We may say that strong AI is in a Schrödinger's cat state right now — when th
 
 Well, then it doesn’t happen, and we’ll continue living as we always have.
 
-### If an architectural breakthrough does happen
+### If an architectural breakthrough happens
 
 Well, then it happens — does it really matter who’s on the other end of the line during remote work?
 
@@ -195,19 +195,19 @@ We already have plenty of chauvinists, racists, sexists, *phobes, perpetually of
 
 Strong AI will add to the list of fundamental problems, but the economic benefits (compared to advanced tools based on neural networks) may not be that great.
 
-### Если архитектурный прорыв случится и мы сделаем очень умный ИИ
+### If an architectural breakthrough happens and we create a very smart AI
 
-Ну сделаем и сделаем :-)
+Well, then we create it, and that’s that. :-)"
 
-Во-первых, человечество всегда находится в состоянии взаимодействия индивидуумов с разным интеллектом:
+Humanity has always been in a state of interaction between individuals with different levels of intelligence:
 
-- Интеллект двух зрелых людей часто заметно отличается. Редко раза в 1.5, в особых случаях раза в 2.
-- Зрелые люди как-то находят общий язык с детьми и пожилыми людьми, хотя разница знаний и мышления там может быть большой.
-- Профессионалы (в какой-то области) находят общий язык с непрофессионалами (в той же области). Мы все, в конце концов, пользуемся услугами юристов и даже зубных врачей! Не говоря уже о психологах. Как-то всё это работает.
+- The intellect of two mature people often differs significantly, sometimes by 1.5 times, in special cases by the factor of 2.
+- Mature people somehow find common ground with children and the elderly, even though the difference in knowledge and thinking can be significant.
+- Professionals (in one field) find common ground with non-professionals (in the same field). After all, we all use the services of lawyers and even dentists! Not to mention psychologists. Somehow it all works.
 
-Поэтому, если ИИ вдруг станет слегка умнее человека, я не вижу проблем — адаптируемся.
+So if AI suddenly becomes slightly smarter than a person, I don’t see any problems — we’ll adapt.
 
-В появление богоподобного сверх ИИ, логику которого мы не в состоянии постигнуть за разумное время, я не верю. Давайте сначала сделаем умных NPC в играх и научимся избирать умных депутатов, потом обсудим сверх ИИ, который будет решать судьбы человечества.
+I don’t believe in the appearance of a god-like super AI, the logic of which we won’t be able to understand in a reasonable amount of time. Let's first create smart NPCs in games and learn to elect smart deputies, and then we can discuss super AI that will decide the fate of humanity.
 
 ## Социальные риски
 
