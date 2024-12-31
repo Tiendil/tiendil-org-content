@@ -160,26 +160,26 @@ To automate the work of professionals, we need to solve several problems:
 
 That's why I don't expect such systems to appear soon.
 
-## Неопределённость возможности сильного ИИ на текущих технологиях
+## The uncertainty of achieving strong AI with current technologies"
 
-Как я уже упоминал, сделать сильный ИИ чисто на текущих архитектурах нейронок не получится.
+As I mentioned earlier, we shouldn't expect strong AI based on current neural network architectures.
 
-Но сделать сильный ИИ на текущих нейронках и какой-то архитектурной надстройки, в теории, возможно.
+But creating strong AI based on current neural networks and some architectural overlay is theoretically possible.
 
-С одной стороны:
+On the one hand:
 
-- Тот же RAG плюс несколько нейронок для обновления и базы знаний выглядит как потенциальный способ замкнуть цикл обратной связи (сбор информации, анализ, синтез, действие) и получить обучающиеся ИИ.
-- Некоторые эксперименты с коммуникацией агентов в играх показывают, что относительно легко можно получить поведение, которое выглядит как осмысленное.
+- The same [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) combined with several neural networks for updating knowledge base seems like a potential way to close the feedback loop (… -> information gathering -> analysis -> synthesis -> action -> …) and get a learning AI.
+- Some experiments with agent communication in games show that it's relatively easy to get behavior that looks meaningful.
 
-С другой стороны:
+On the other hand:
 
-- У базовых экспериментов с коммуникацией агентов не появилось отмасштабированных продолжений, что наводит на мысль о скрытой сложности.
-- Мы всё ещё не можем описать логическую архитектуру мозга, которая стоит за мышлением (физическую можем, но это как давать список молекул в торте для описания вкуса). Поэтому не знаем куда копать и не можем оценить сложность необходимой архитектурной надстройки (кроме того, что она будет сложной).
-- Даже если предположить, что такая архитектурная надстройка может быть создана сейчас, нет оснований полагать, что она будет работать с разумной скоростью на разумных ресурсах. Возможно сильный ИИ потребует объединения миллиардов агентов, или ускорения коммуникации между ними в 1000 раз, или ещё чего-то, что сейчас не в нашей власти.
+- Basic experiments with agent communication have not led to scaled-up continuations, which suggests the presence of hidden complexity.
+- We still can't describe the logical architecture of the brain that underlies thinking (we can describe the physical architecture, but it's like listing the molecules in a cake to describe its taste). So we don't know where to look and can't estimate the complexity of the necessary architectural overlay (other than that it will not be simple).
+- Even if we assume that such an architectural overlay can be created with our current capabilities, there is no reason to believe that it will work at a reasonable speed on reasonable resources. Perhaps a strong AI will require the combination of billions of agents, or a 1000-fold acceleration of communication between them, or something else that is currently beyond our capabilities.
 
-Утрируя, я готов допустить, что сейчас возможен проект уровня [Apollo](https://ru.wikipedia.org/wiki/%D0%90%D0%BF%D0%BE%D0%BB%D0%BB%D0%BE%D0%BD_(%D0%BA%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0)) или [Manhattan](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D1%85%D1%8D%D1%82%D1%82%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82) по созданию сильного ИИ, но с большой вероятностью он не приведёт к внедрению такого ИИ в повседневную жизнь, как Apollo не привёл к колонизации Луны и даже к постоянному присутствию человека на ней.
+Simplifying, I'm ready to admit that a project on the scale of [Apollo](https://en.wikipedia.org/wiki/Apollo_program) or [Manhattan Project](https://en.wikipedia.org/wiki/Manhattan_Project) aimed at creating strong AI might be possible today. However, it is unlikely to result in the integration of such AI into everyday life — just as Apollo did not lead to the colonization of the Moon or even to a permanent human presence there.
 
-Можно сказать, что сильный ИИ сейчас в состоянии кота Шрёдингера — когда ящик откроется, он либо заработает либо не заработает.
+We may say that strong AI is in a Schrödinger's cat state right now — when the box is opened, it will either work or not.
 
 ### Если архитектурный прорыв не случится
 
