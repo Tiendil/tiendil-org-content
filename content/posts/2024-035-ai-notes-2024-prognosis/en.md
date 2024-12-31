@@ -90,9 +90,9 @@ Our entire progress in strong AI over the past 50 years has been about creating 
 
 ## Neural networks on their own won’t take jobs away
 
-I've written a bit more on this topic in a separate essay: [AI will not(?) replace us all](post:@choose-nearest-language:ai-will-not-or-will-replace-us-all).
+I wrote a bit more on this topic in a separate essay: [AI will not(?) replace us all](post:@choose-nearest-language:ai-will-not-or-will-replace-us-all).
 
-Since we don't expect strong AI, neural networks remain a (very powerful) tool for intellectual work. Perhaps the most powerful tool besides writing, but still a tool. Such a tool still needs a guiding hand, even if it guides it very abstractly.
+Since we don't expect strong AI, neural networks remain a (very powerful) tool for automation intellectual work. Perhaps the most powerful tool after writing, but still a tool. Such a tool still needs a guiding hand, even if it guides it very abstractly.
 
 In reality, as far as I remember, no automation revolution has ever reduced the absolute number of jobs — only redistributed them. Business, in principle, is not interested in reducing production, only in increasing it: if something can be automated/optimized/made cheaper, it's a reason to scale up, and scaling up requires the (retrained) workers.
 
