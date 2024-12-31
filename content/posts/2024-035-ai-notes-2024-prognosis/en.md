@@ -119,23 +119,23 @@ Helping such people find work should become one of the state’s priorities. How
 
 Secondly, for low-income individuals whose demanding jobs leave them cornered with no time or opportunity to learn (e.g., warehouse workers at certain corporations, many people in developing countries). Without the chance to retrain, they risk losing jobs without being able to quickly find new ones. **Helping such people should have long been a priority for any healthy society**. This issue has existed for a long time, and the adoption of AI will exacerbate it, though not dramatically. Addressing this problem should be part of the state’s long-term strategy rather than limited to specific measures aimed at easing AI integration.
 
-### Роботы не будут быстро и массово вытеснять ручной труд
+### Robots will not rapidly and massively replace manual labor
 
-Под роботами я имею в виду физических роботов, как гуманоидных, так и не очень.
+By robots, I mean physical robots, both humanoid and non-humanoid.
 
-Проблема с ними в том, что даже в случае идеальной ситуации с софтом (допустим сделали на 100% корректный), роботам ещё нужно железо (корпуса, шарниры, подшипники, гидравлика, etc) и электричество.
+The question with robots is that even in the case of perfect software (let's say it's working on 100%), robots still need hardware (bodies, joints, bearings, hydraulics, etc.) and electricity.
 
-Для быстрого массового внедрения роботов производство сложного надёжного железа должно быть сопоставимо по объёму с производством автомобилей или даже быть больше него. Развёртывание такого производства требует не только времени, но и перераспределения ресурсов, адаптации производственных цепочек по всей планете. Утрируя, нельзя просто так начать добывать и перерабатывать на 5-15% больше полезных ископаемых (без ущерба для остальной промышленности).
+For the rapid and widespread adoption of robots, the production of complex, reliable hardware would need to match or even surpass the scale of automobile manufacturing. Scaling up such production requires not only time but also a redistribution of resources and adaptation of production chains across the globe. To put it bluntly, you can’t simply start extracting and processing 5-15% more raw materials without impacting the rest of the industry.
 
-С электричеством и аккумуляторами ещё сложнее.
+It's even more complicated with electricity and batteries.
 
-Во-первых, на текущий момент роботы потребляют значительно больше энергии, чем люди. Существенного прогресса в сокращении потребления энергии техникой нет, поэтому заменять дешёвый физический труд роботами может оказаться не выгодно.
+Firstly, current models of robots consume significantly more energy than humans. There has been no significant progress in reducing energy consumption, so replacing cheap physical labor with robots may not be profitable in some cases.
 
-Во-вторых, давно есть вопросы по поводу достаточности ресурсов для производства аккумуляторов для автомобилей и носимой техники. Нет гарантии, что тех же редкоземельных элементов хватит ещё и на большое количество автономных роботов.
+Secondly, there have long been concerns about the sufficiency of resources for producing batteries for cars and wearable devices. There’s no guarantee that the same rare earth elements will be enough to support the production of a large number of autonomous robots.
 
-В-третьих, инфраструктура для производства электроэнергии на планете трещит по швам уже лет 10-15, электричества не хватает для всего. Датацентры, криптофермы не просто так строятся около крупных электростанций с дешёвой энергией — в других местах невыгодно. Массовая роботизация легко может увеличить запросы на электроэнергию x2 к бытовому сектору, чего точно достичь не получится без прорыва в производстве электричества, которого нет.
+Thirdly, the planet's energy production infrastructure has been under strain for the past 10-15 years, and there’s already not enough electricity to meet all demands. Data centers and crypto farms are built near large power plants with cheap energy for a reason — they are not economically viable elsewhere. Mass robotization could easily double the energy demands of the residential sector, which would be impossible to meet without a breakthrough in energy production — something that hasn’t happened yet.
 
-Поэтому поступательное движение в сторону роботизации, конечно,  будет, но массовое и быстрое внедрение роботов следует ждать скорее на сложных производствах, чем в сфере услуг, быту или на низкооплачиваемых работах в странах третьего мира.
+Therefore, while there will be a gradual move towards robotization, it will be more likely to occur in complex manufacturing environments than in the service sector, households, or low-paid jobs in developing countries.
 
 ### Местам проактивных профессионалов ничто не угрожает ближайшие лет 10
 
