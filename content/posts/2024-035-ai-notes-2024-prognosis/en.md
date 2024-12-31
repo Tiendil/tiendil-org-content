@@ -137,28 +137,28 @@ Thirdly, the planet's energy production infrastructure has been under strain for
 
 Therefore, while there will be a gradual move towards robotization, it will be more likely to occur in complex manufacturing environments than in the service sector, households, or low-paid jobs in developing countries.
 
-### Местам проактивных профессионалов ничто не угрожает ближайшие лет 10
+### Works of proactive professionals are safe for the next 10 years
 
-Под проактивными профессионалами я имею в виду любых людей, которые получили специальное образование, работают в своей области, аккумулируют опыт и знания в ней, расширяют кругозор и сферу ответственности.
+By proactive professionals, I mean anyone who has received specialized education, works in their field, accumulates experience and knowledge in it, and expands their horizons and scope of responsibility.
 
-Любой профи отметит, что в его области есть огромный невидимый пласт знаний и навыков, который отделяет новичка и профессионала. Обычно этот пласт сопоставим по размеру или превосходит пласт высшего образования. Причём отличие знаний и навыков профи в неформализированности. Они не записаны в учебниках, обычно они даже в словесной форме не выражены, а представляют собой образы в голове.
+Any professional will note that their field has a massive, invisible layer of knowledge and skills that separates a novice from an expert. This layer is usually comparable in size to, or even exceeds, the content of higher education. The defining characteristic of a professional’s knowledge and skills is their informal nature. They aren’t written down in textbooks and are often not even expressed in words — they exist as mental images in our heads.
 
-Конечно, профи может выразить их словами, но это потребует времени и усилий, а результат будет не на 100% аккуратным. Как блоггер и технический лид я за это ручаюсь — выдрать знания из головы и переложить куда-то так, чтобы читателям или коллегам было понятно — это сложно и долго. По сути, это отдельный навык и большой труд.
+Of course, a professional can express them in words, but it takes time and effort, and the result won’t be 100% accurate. As a blogger and technical lead, I can vouch for this — extracting knowledge from one’s head and transferring it somewhere in a way that’s understandable to readers or colleagues is difficult and time-consuming. In essence, it’s a separate skill and a lot of work.
 
-Соответственно, этих знаний и навыков сейчас нет в обучающих данных для нейронок. Частично нейронки учатся этому косвенно, но результат не лучший.
+Consequently, this knowledge and these skills are not present in the training data for neural networks in an explicit form. Neural networks learn them indirectly, but the results are not the best.
 
-Нехватка знаний сказывается на способности нейронок создавать качественные ответы по глубоким профессиональным вопросам. Я с этим постоянно сталкиваюсь, например, часто видно что LLM не может сфокусироваться на нужных вещах в ответе и генерирует правильные, но совершенно ненужные штуки. Чтобы настроить фокус приходится писать огромные вводные со всем контекстом, а они не всегда помогают.
+The lack of knowledge affects the ability of neural networks to provide high-quality answers to deep professional questions. I encounter this all the time — LLMs often can’t focus on the right things in their answers and generate correct but completely unnecessary information. To focus them, one has to write long introductions with all the context (when it may be enough a few words for collegues), and they don’t always help.
 
-Схожая логика справедлива не только для профессиональных знаний, но и для знаний по активному проекту. Большинство таких знаний также находятся в головах людей в виде предубеждений, неявных соглашений, фантазий, намёков и прочего. Выразить их текстом в полном объёме мало кто сможет, так как мало кто умеет и мало у кого найдётся столько времени катать сочинение, которое устареет через месяц.
+The similar logic is valid not only for professional knowledge but also for knowledge about an active project. Most of this knowledge is also in people’s minds in the form of biases, implicit agreements, fantasies, hints, and so on. Few people can express it in full text (I can’t), as few people have the time (I don’t) to write an essay that will be outdated in a month.
 
-Поэтому в ближайшее время большая часть прогресса ИИ будет сосредоточена на решении очень конкретных очень ограниченных по области задач с расчётом на то, что выбор направления работы останется за профи. Матёрым профи потребуется переучиваться на новый инструмент, молодым специалистам придётся сходу получать больше продуктовых навыков, чем требовались на старте карьеры их предшественникам. И это хорошо.
+Therefore, in the near future, most AI progress will focus on solving very specific and narrowly scoped tasks, with the assumption that professionals will retain control over choosing the direction of work. Seasoned professionals will need to retrain to use new tools, while young specialists will have to acquire more product skills than their predecessors needed at the start of their careers. And that’s a good thing.
 
-Чтобы автоматизировать именно труд профи, необходимо решить несколько проблем:
+To automate the work of professionals, we need to solve several problems:
 
-1. Сделать систему, которая будет константно доучиваться на новых экспериментальных данных, в том числе на ошибочных данных, сознательно ошибочных, справедливых только для частного случая конкретного проекта. Пока существенных сдвигов в этом направлении не видно.
-2. Сделать систему, которая полностью инвертирует поток управления/владения в проекте. Такая система должна будет владеть всей высокоуровневой информацией о проекте и делегировать конкретные задачи либо людям, либо ИИ агентам. Теоретически ничто не запрещает создать похожую систему, но работа это долгая и сложная, может потребовать чрезмерную формализацию неформализированных ныне взаимодействий.
+1. Create a system that continuously learns from new experimental data, including erroneous data, deliberately incorrect data, or data valid only for specific cases of a particular project. So far, there has been no significant progress in this area.
+2. Create a system that completely inverts the flow of control/ownership in a project. Such a system would have to own all high-level information about the project and delegate specific tasks to people or AI agents. In theory, nothing prevents us from creating a similar system, but the work is long and complex and may require excessive formalization of currently informal interactions.
 
-Поэтому пока таких комбайнов я не жду.
+That's why I don't expect such systems to appear soon.
 
 ## Неопределённость возможности сильного ИИ на текущих технологиях
 
