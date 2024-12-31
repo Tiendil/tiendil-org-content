@@ -43,7 +43,7 @@ In more complex terms:
 - Often these are areas where we end up when the input parameters of the model change abruptly, too rapidly. Because our models are usually not designed for such cases: too rare situation, more difficult to prepare and tune, etc.
 - The expectation of a technological singularity is precisely such a case. One or more technologies begin to improve so rapidly that the consequences of such improvements exceed the capabilities of our models faster than we can adapt them. As a result, it becomes more practical to wait and see what happens rather than rely on inaccurate predictions."
 
-In such conditions, some people start to expect paradise on earth, reasoning that since we don’t know exactly what new technologies will solve, they’ll solve everything. This mistake is understandable, but unfortunately, many exploit it to boost their personal wealth or popularity.
+In such conditions, some people start to expect paradise on Earth, reasoning that since we don’t know exactly what new technologies will solve, they’ll solve everything. This mistake is understandable, but unfortunately, many exploit it to boost their personal wealth or popularity.
 
 However, rapid changes always come to an end. Humanity gathers new data, revises its models, and starts making accurate predictions again. Everyone calms down—until the next leap or sudden change, which, this time, is sure to lead to the technological singularity.
 
@@ -70,9 +70,9 @@ Let's not try to strictly define what strong AI is — let's leave that to philo
 
 We are simple folks and intuitively understand strong AI as something roughly similar to a human. Weak AI, on the other hand, might resemble a trained dog or cat, or a model that, at first glance, appears to be strong AI but doesn’t function like it—a sort of strong AI phantom.
 
-Let's me add a few words about the phantom of strong AI.
+Let me add a few words about the phantom of strong AI.
 
-With infinite resources, we could create something that behaves like a human to an unprepared observer but is not human at all. For instance, we could gather a crowd of people to list "human" reactions to all possible events, record them in a database, and select reactions based on a lookup table. Such a system would behave (from third party view) like strong AI until it encounters an original situation or needs to learn (adapt to) something new. Or we could train a huge statistical model to predict text token-by-token, simulating a dialogue with a human, while remaining a static generative knowledge base.
+With infinite resources, we could create something that behaves like a human to an unprepared observer but is not human at all. For instance, we could gather a crowd of people to list "human" reactions to all possible events, record them in a database, and select reactions based on a lookup table. Such a system would behave (from third-party view) like strong AI until it encounters an original situation or needs to learn (adapt to) something new. Or we could train a huge statistical model to predict text token-by-token, simulating a dialogue with a human, while remaining a static generative knowledge base.
 
 Obviously, while such a system might look like strong AI, it won't be strong AI by any means. This is why I'm extremely skeptical and disappointed by claims — usually made by former employees of Google, OpenAI, and other companies — that consciousness has been discovered in modern models.
 
@@ -80,7 +80,7 @@ The question of creating strong AI is a complex one and requires a separate post
 
 The thesis from the perspective of technology.
 
-If we view neural networks as [generative knowledge bases]{post:ai-notes-2024-generative-knowledge-base}, it becomes clear that no database can give us strong AI, as it implements only part of the necessary functionality (stores information). Similarly, relational databases and semantic networks did not lead us to a strong AI based on expert systems in the 80s and 90s..
+If we view neural networks as [generative knowledge bases]{post:ai-notes-2024-generative-knowledge-base}, it becomes clear that no database can give us strong AI, as it implements only part of the necessary functionality (stores information). Similarly, relational databases and semantic networks did not lead us to a strong AI based on expert systems in the 80s and 90s.
 
 The thesis from the perspective of the target system, which we have at our disposal.
 
@@ -147,9 +147,9 @@ Of course, a professional can express them in words, but it takes time and effor
 
 Consequently, this knowledge and these skills are not present in the training data for neural networks in an explicit form. Neural networks learn them indirectly, but the results are not the best.
 
-The lack of knowledge affects the ability of neural networks to provide high-quality answers to deep professional questions. I encounter this all the time — LLMs often can’t focus on the right things in their answers and generate correct but completely unnecessary information. To focus them, one has to write long introductions with all the context (when it may be enough a few words for collegues), and they don’t always help.
+The lack of knowledge affects the ability of neural networks to provide high-quality answers to deep professional questions. I encounter this all the time — LLMs often can’t focus on the right things in their answers and generate correct but completely unnecessary information. To focus them, one has to write long introductions with all the context (when it may be enough a few words for colleagues), and they don’t always help.
 
-The similar logic is valid not only for professional knowledge but also for knowledge about an active project. Most of this knowledge is also in people’s minds in the form of biases, implicit agreements, fantasies, hints, and so on. Few people can express it in full text (I can’t), as few people have the time (I don’t) to write an essay that will be outdated in a month.
+A similar logic is valid not only for professional knowledge but also for knowledge about an active project. Most of this knowledge is also in people’s minds in the form of biases, implicit agreements, fantasies, hints, and so on. Few people can express it in full text (I can’t), as few people have the time (I don’t) to write an essay that will be outdated in a month.
 
 Therefore, in the near future, most AI progress will focus on solving very specific and narrowly scoped tasks, with the assumption that professionals will retain control over choosing the direction of work. Seasoned professionals will need to retrain to use new tools, while young specialists will have to acquire more product skills than their predecessors needed at the start of their careers. And that’s a good thing.
 
@@ -191,7 +191,7 @@ Well, then it happens — does it really matter who’s on the other end of the 
 
 In fact, I believe that the arrival of strong AI would bring more problems for humanity.
 
-We already have plenty of chauvinists, racists, sexists, *phobes, perpetually offended individuals, and other unpleasant persons. With the advent of strong AI, their numbers will only grow, and new forms of chauvinism, racism, sexism, phobias will emerge. Foolishness will increase, and AI won’t help with that — these are problems are rooted in our institutions and culture, and it’s up to us to address them.
+We already have plenty of chauvinists, racists, sexists, *phobes, perpetually offended individuals, and other unpleasant persons. With the advent of strong AI, their numbers will only grow, and new forms of chauvinism, racism, sexism, phobias will emerge. Foolishness will increase, and AI won’t help with that — these problems are rooted in our institutions and culture, and it’s up to us to address them.
 
 Strong AI will add to the list of fundamental problems, but the economic benefits (compared to advanced tools based on neural networks) may not be that great.
 
@@ -201,7 +201,7 @@ Well, then we create it, and that’s that. :-)"
 
 Humanity has always been in a state of interaction between individuals with different levels of intelligence:
 
-- The intellect of two mature people often differs significantly, sometimes by 1.5 times, in special cases by the factor of 2.
+- The intellect of two mature people often differs significantly, sometimes by 1.5 times, in special cases by a factor of 2.
 - Mature people somehow find common ground with children and the elderly, even though the difference in knowledge and thinking can be significant.
 - Professionals (in one field) find common ground with non-professionals (in the same field). After all, we all use the services of lawyers and even dentists! Not to mention psychologists. Somehow it all works.
 
@@ -217,7 +217,7 @@ I don’t see critical risks (but there are a lot of non-critical) in the fields
 
 New tools allow real experts to become even more informed, make better decisions, and work more efficiently.
 
-But this tools don’t simplify the delivery of new complex ideas to other people.
+But these tools don’t simplify the delivery of new complex ideas to other people.
 
 On the other hand, these same tools allow any charlatan to appear smart and knowledgeable. Debating a hypothetical anti-vaxxer armed with a modern language model (in front of an unprepared audience) is significantly harder than debating an anti-vaxxer without one.
 
@@ -235,7 +235,7 @@ The use of AI by someone trained to work with information will make them even mo
 
 The use of AI by an untrained person will create an illusion of expertise in themselves. Such a person will neither learn nor critically evaluate the results of their interactions with AI or the information they receive. Among programmers, there are jokes about coding by copy-pasting from StackOverflow. Imagine that problem magnified a hundredfold and spread across every profession.
 
-As a result, people with access to good education and culture that encourages self-education will become more successful. People without access to such benefits (the majority, unfortunately) will become less successful.
+As a result, people with access to good education and a culture that encourages self-education will become more successful. People without access to such benefits (the majority, unfortunately) will become less successful.
 
 ## Summary
 
