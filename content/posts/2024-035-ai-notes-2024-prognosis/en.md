@@ -229,20 +229,20 @@ I have encountered the opinion that neural networks will help anyone to fact-che
 
 That’s why I expect large waves of various pseudo-scientific and pseudo-rational nonsense, along with a decline in the quality of governance in most of countries.
 
-### Поляризация образованности
+### Polarization of education
 
-Использование ИИ человеком, подготовленным к работе с информацией сделает его ещё более информированным, образованным. Так как этот человек будет учиться использовать ИИ и будет учиться на результатах, выдаваемых ИИ.
+The use of AI by someone trained to work with information will make them even more informed and educated. This is because they will learn to use AI effectively and will also learn from the results it provides.
 
-Использование ИИ человеком неподготовленным создаст у этого человека иллюзию экспертности (себя). Такой человек не будет учиться, не будет критически смотреть на результаты своего взаимодействия с ИИ и на информацию, которая ему поступает. Среди программистов есть анекдоты про программирование через copy-paste со StackOverflow. Представьте ту же проблему, но в 100 раз хуже и во всех областях деятельности.
+The use of AI by an untrained person will create an illusion of expertise in themselves. Such a person will neither learn nor critically evaluate the results of their interactions with AI or the information they receive. Among programmers, there are jokes about coding by copy-pasting from StackOverflow. Imagine that problem magnified a hundredfold and spread across every profession.
 
-В итоге, люди с доступом к хорошему образованию и культуре, поощряющей самообучение, будут становиться успешнее. Люди без доступа к таким благам (которых большинство, к сожалению), будут становиться менее успешными.
+As a result, people with access to good education and culture that encourages self-education will become more successful. People without access to such benefits (the majority, unfortunately) will become less successful.
 
-## Итого
+## Summary
 
-- Рай на земле не построим.
-- Сильный ИИ не придёт и не спасёт нас от нас.
-- Нейронные сети становятся важным рабочим инструментом, надо учиться с ними работать.
-- ИИ будет сложно отобрать вашу работу, если вы следите за трендами, учитесь и работаете на совесть.
-- Надо помогать людям, которым будет сложно переучиться.
-- Надо учиться работать с информацией, тренировать критическое мышление.
-- Надо тренировать продуктовое мышление.
+- We won’t create paradise on Earth.
+- Strong AI won’t arrive to save us from ourselves.
+- Neural networks are becoming essential work tools, and we need to learn how to use them.
+- AI will find it hard to take your job if you stay updated on trends, keep learning, and work diligently.
+- We should support those who have no opportunity to learn new skills.
+- Learning to work with information and developing critical thinking is crucial.
+- Developing product-oriented thinking is essential.
