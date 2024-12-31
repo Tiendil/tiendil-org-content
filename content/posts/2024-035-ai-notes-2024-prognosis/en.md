@@ -102,20 +102,22 @@ The new tool will shift the focus of professions from more routine intellectual 
 - retrain, as the tool is new and anything new requires learning;
 - cultivate basic curiosity to recognize when it’s time to start learning.
 
-Люди не желающие учиться будут испытывать проблемы с работой. Но такие люди всегда испытывают проблемы с работой последние лет 100 — это не следствие внедрения новых инструментов.
+People, who don't want to learn, will encounter problems with work. But such people have always had problems in this area for the past 100 years — it's not a consequence of one more tool being introduced.
 
-Есть мнение, что прогресс в ИИ позволит людям выполнять работу, для которой у них раньше не хватало компетенций. Я это мнение не разделяю. Подобная ситуация возможна (и будет наблюдаться) как временное явление или отклонение от нормы, так как при наличии более интеллектуального инструмента его менее способных дублёр становится не нужен. Для примера, когда появились первые автомобили, законы некоторых стран требовали чтобы перед таким автомобилем шёл или бежал человек, чтобы предупреждать о движущемся транспорте. Понятное дело, подобная практика отмерла сама собой. То же самое произойдёт и с подобными «дублёрами» ИИ.
+There’s a view that progress in AI will enable people to perform work for which they previously lacked the necessary competencies. I don't share this opinion. Such a situation may arise (and will be observed) as a temporary phenomenon or a deviation from the norm, since the presence of a more intelligent tool (like a neural network) makes its less capable counterpart (an incompetent user) unnecessary.
 
-Реальные сложности могут возникнуть у нескольких категорий людей.
+For example, when the first cars appeared, the laws of some countries required a person to walk or run in front of the vehicle to warn others of approaching transport. Of course, this practice faded away on its own. The same will happen with such "AI counterparts."
 
-Во-первых, у людей с интеллектуальными ограничениями:
+In reality, the real difficulties will arise for several categories of people.
 
-- Тривиальной работы будет становиться меньше.
-- Будут перестраиваться рабочие иерархии и человек может оказаться в подчинении «робота» (который в подчинении человека), что будет непривычно, непонятно и неприятно.
+First of all, for people with intellectual disabilities:
 
-Помощь таким людям с работой должна будет стать одним из фокусов государства. Однако я не считаю что появление ИИ как-то сдвинет планку «интеллектуальной нормальности», поэтому не могу назвать это массовой потерей работы.
+- There may be less trivial work available.
+- Work hierarchies may be restructured, and a person might find themselves subordinate to a "robot" (which, in turn, is subordinate to another person), a situation that could feel unusual, confusing, and unpleasant.
 
-Во-вторых, у малоимущих людей, которых тяжёлая работа загоняет в угол и не оставляет возможности учиться (например, работники складов некоторых корпораций, многие люди в странах третьего мира). Без возможности переучиваться люди будут терять работу без возможности быстро найти новую. **Помощь таким людям уже давно должна быть приоритетом любого здорового общества**, проблема существует очень давно, массовое внедрение ИИ её усугубит, но далеко не на порядок. Проработка такой помощи должна относиться скорее к долгосрочной стратегии государства, чем к специальным мерам по сглаживанию внедрения ИИ.
+Helping such people find work should become one of the state’s priorities. However, I don’t believe that the advent of AI will shift the bar for "intellectual normality", so I wouldn’t consider this a case of mass job loss.
+
+Secondly, for low-income individuals whose demanding jobs leave them cornered with no time or opportunity to learn (e.g., warehouse workers at certain corporations, many people in developing countries). Without the chance to retrain, they risk losing jobs without being able to quickly find new ones. **Helping such people should have long been a priority for any healthy society**. This issue has existed for a long time, and the adoption of AI will exacerbate it, though not dramatically. Addressing this problem should be part of the state’s long-term strategy rather than limited to specific measures aimed at easing AI integration.
 
 ### Роботы не будут быстро и массово вытеснять ручной труд
 
