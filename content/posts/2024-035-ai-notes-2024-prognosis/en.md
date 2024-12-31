@@ -90,7 +90,7 @@ Our entire progress in strong AI over the past 50 years has been about creating 
 
 ## Neural networks on their own won’t take jobs away
 
-I wrote a bit more on this topic in a separate essay: [AI will not(?) replace us all](post:@choose-nearest-language:ai-will-not-or-will-replace-us-all).
+I wrote a bit more on this topic in a separate essay: [AI will not(?) replace us all]{post:@choose-nearest-language:ai-will-not-or-will-replace-us-all}.
 
 Since we don't expect strong AI, neural networks remain a (very powerful) tool for automating intellectual work. Perhaps the most powerful tool after writing, but still a tool. Such a tool still needs a guiding hand, even if it guides it very abstractly.
 
