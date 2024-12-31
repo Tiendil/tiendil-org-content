@@ -74,7 +74,7 @@ Let's me add a few words about the phantom of strong AI.
 
 With infinite resources, we could create something that behaves like a human to an unprepared observer but is not human at all. For instance, we could gather a crowd of people to list "human" reactions to all possible events, record them in a database, and select reactions based on a lookup table. Such a system would behave (from third party view) like strong AI until it encounters an original situation or needs to learn (adapt to) something new. Or we could train a huge statistical model to predict text token-by-token, simulating a dialogue with a human, while remaining a static generative knowledge base.
 
-Obviously, while such a system might look like strong AI, it won't be strong AI by any means. This is why I'm extremely skeptical and dissapointed by claims — usually made by former employees of Google, OpenAI, and other companies — that consciousness has been discovered in modern models.
+Obviously, while such a system might look like strong AI, it won't be strong AI by any means. This is why I'm extremely skeptical and disappointed by claims — usually made by former employees of Google, OpenAI, and other companies — that consciousness has been discovered in modern models.
 
 The question of creating strong AI is a complex one and requires a separate post to delve into. Unfortunately, I don't have time to write it, although I would like to. So I'll limit myself to a few theses supporting the idea that creating strong AI through simple means is highly unlikely.
 
@@ -82,9 +82,9 @@ The thesis from the perspective of technology.
 
 If we view neural networks as [generative knowledge bases]{post:ai-notes-2024-generative-knowledge-base}, it becomes clear that no database can give us strong AI, as it implements only part of the necessary functionality (stores information). Similarly, relational databases and semantic networks did not lead us to a strong AI based on expert systems in the 80s and 90s..
 
-The thesis from the perspective of the target system, wich we have at our disposal.
+The thesis from the perspective of the target system, which we have at our disposal.
 
-Our brain clearly doesn’t function as a single universal network or just a few generalized networks/components. Opinions differ on how many components can be identified in the brain, but there are undoubtedly many of them ([several dozen structures](https://en.wikipedia.org/wiki/List_of_regions_in_the_human_brain) can be identified), or even more, or simply an enormous number (if we consider things like [cortical columns](https://en.wikipedia.org/wiki/Cortical_column) as a separate modules). These modules are not only structured differently but are also organized into a complex architecture requiring a sophisticated communication infrastructure (in technical terms).
+Our brain clearly doesn’t function as a single universal network or just a few generalized networks/components. Opinions differ on how many components can be identified in the brain, but there are undoubtedly many of them ([several dozen structures](https://en.wikipedia.org/wiki/List_of_regions_in_the_human_brain) can be identified), or even more, or simply an enormous number (if we consider things like [cortical columns](https://en.wikipedia.org/wiki/Cortical_column) as separate modules). These modules are not only structured differently but are also organized into a complex architecture requiring a sophisticated communication infrastructure (in technical terms).
 
 Our entire progress in strong AI over the past 50 years has been about creating a few modules that simulate its fragments or abstract functions. However, no one yet knows how to assemble them or what to use to glue them together. Recently, we've gained another building block in our hands, but constructing a structure from such blocks will require much more research and development. And this structure will be far more complex than just a pile of uniform cubes.
 
@@ -92,7 +92,7 @@ Our entire progress in strong AI over the past 50 years has been about creating 
 
 I wrote a bit more on this topic in a separate essay: [AI will not(?) replace us all](post:@choose-nearest-language:ai-will-not-or-will-replace-us-all).
 
-Since we don't expect strong AI, neural networks remain a (very powerful) tool for automation intellectual work. Perhaps the most powerful tool after writing, but still a tool. Such a tool still needs a guiding hand, even if it guides it very abstractly.
+Since we don't expect strong AI, neural networks remain a (very powerful) tool for automating intellectual work. Perhaps the most powerful tool after writing, but still a tool. Such a tool still needs a guiding hand, even if it guides it very abstractly.
 
 In reality, as far as I remember, no automation revolution has ever reduced the absolute number of jobs — only redistributed them. Business, in principle, is not interested in reducing production, only in increasing it: if something can be automated/optimized/made cheaper, it's a reason to scale up, and scaling up requires the (retrained) workers.
 
@@ -123,7 +123,7 @@ Secondly, for low-income individuals whose demanding jobs leave them cornered wi
 
 By robots, I mean physical robots, both humanoid and non-humanoid.
 
-The question with robots is that even in the case of perfect software (let's say it's working on 100%), robots still need hardware (bodies, joints, bearings, hydraulics, etc.) and electricity.
+The question with robots is that even in the case of perfect software (let's say it's working at 100%), robots still need hardware (bodies, joints, bearings, hydraulics, etc.) and electricity.
 
 For the rapid and widespread adoption of robots, the production of complex, reliable hardware would need to match or even surpass the scale of automobile manufacturing. Scaling up such production requires not only time but also a redistribution of resources and adaptation of production chains across the globe. To put it bluntly, you can’t simply start extracting and processing 5-15% more raw materials without impacting the rest of the industry.
 
@@ -168,7 +168,7 @@ But creating strong AI based on current neural networks and some architectural o
 
 On the one hand:
 
-- The same [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) combined with several neural networks for updating knowledge base seems like a potential way to close the feedback loop (… -> information gathering -> analysis -> synthesis -> action -> …) and get a learning AI.
+- The same [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) combined with several neural networks for updating a knowledge base seems like a potential way to close the feedback loop (… -> information gathering -> analysis -> synthesis -> action -> …) and get a learning AI.
 - Some experiments with agent communication in games show that it's relatively easy to get behavior that looks meaningful.
 
 On the other hand:
@@ -211,7 +211,7 @@ I don’t believe in the appearance of a god-like super AI, the logic of which w
 
 ## Social risks
 
-I don’t see critical risks (but there are a lof of non-critical) in the fields of economics, ecology, resources, or production — almost nowhere, except for the long-term consequences for the social sphere.
+I don’t see critical risks (but there are a lot of non-critical) in the fields of economics, ecology, resources, or production — almost nowhere, except for the long-term consequences for the social sphere.
 
 ### Degradation of expertise
 
