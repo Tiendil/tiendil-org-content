@@ -181,19 +181,19 @@ Simplifying, I'm ready to admit that a project on the scale of [Apollo](https://
 
 We may say that strong AI is in a Schrödinger's cat state right now — when the box is opened, it will either work or not.
 
-### Если архитектурный прорыв не случится
+### If an architectural breakthrough doesn’t happen
 
-Ну не случится и не случится, будем жить как жили.
+Well, then it doesn’t happen, and we’ll continue living as we always have.
 
-### Если архитектурный прорыв случится
+### If an architectural breakthrough does happen
 
-Ну случится и случится, какая нам разница кто на другом конце провода при удалённой работе?
+Well, then it happens — does it really matter who’s on the other end of the line during remote work?
 
-На самом деле, я считаю, что в случае появления сильного ИИ у человества прибавится проблем.
+In fact, I believe that the arrival of strong AI would bring more problems for humanity.
 
-У нас уже хватает разного рода шовинистов, расистов, сексистов, *фобов, вечно обиженных и прочих личностей. С появлением сильного ИИ их станет ещё больше, появятся новые направления шовинизма, расизма, сексизма, фобий и прочего. Дурости прибавится и вот с ней как раз ИИ ничем не поможет — это проблемы наших институтов и нашей культуры, которые нам и расхлёбывать.
+We already have plenty of chauvinists, racists, sexists, *phobes, perpetually offended individuals, and other unpleasant persons. With the advent of strong AI, their numbers will only grow, and new forms of chauvinism, racism, sexism, phobias will emerge. Foolishness will increase, and AI won’t help with that — these are problems are rooted in our institutions and culture, and it’s up to us to address them.
 
-Фундаментальных проблем сильный ИИ добавит, а экономическая польза (по сравнению с развитым инструментарием на базе тех же нейронок) может быть не такой уж и большой.
+Strong AI will add to the list of fundamental problems, but the economic benefits (compared to advanced tools based on neural networks) may not be that great.
 
 ### Если архитектурный прорыв случится и мы сделаем очень умный ИИ
 
