@@ -209,25 +209,25 @@ So if AI suddenly becomes slightly smarter than a person, I don’t see any prob
 
 I don’t believe in the appearance of a god-like super AI, the logic of which we won’t be able to understand in a reasonable amount of time. Let's first create smart NPCs in games and learn to elect smart deputies, and then we can discuss super AI that will decide the fate of humanity.
 
-## Социальные риски
+## Social risks
 
-Я не вижу критических рисков в области экономики, экологии, ресурсов, производства — почти нигде, за исключением долгосрочных последствий для социальной сферы.
+I don’t see critical risks (but there are a lof of non-critical) in the fields of economics, ecology, resources, or production — almost nowhere, except for the long-term consequences for the social sphere.
 
-### Деградация экспертности
+### Degradation of expertise
 
-Новые инструменты позволяют реальным экспертам становиться ещё более осведомлёнными, принимать лучшие решения, работать эффективнее.
+New tools allow real experts to become even more informed, make better decisions, and work more efficiently.
 
-Но они не упрощают донесение новых сложных идей простым способом до остальных людей.
+But this tools don’t simplify the delivery of new complex ideas to other people.
 
-Зато эти же инструменты позволяют любому шарлатану выглядеть умно, экспертно. Переспорить условного антипрививочника, вооружённого современной языковой моделью, (перед неподготовленным судьёй) значительно сложнее, чем антипрививочника без неё.
+On the other hand, these same tools allow any charlatan to appear smart and knowledgeable. Debating a hypothetical anti-vaxxer armed with a modern language model (in front of an unprepared audience) is significantly harder than debating an anti-vaxxer without one.
 
-Встречал мнение, что нейронки помогут любому желающему проверять информацию, рассчитывать на это я бы не стал:
+I have encountered the opinion that neural networks will help anyone to fact-check information. I wouldn’t count on it:
 
-- Во-первых, у человека должна быть привычка проверять информацию. У большинства её нет, вырабатывается она с трудом.
-- Во-вторых, у человека должно появиться само желание проверять информацию. А зачем проверять, если она выглядит убедительно?
-- В-третьих, LLM — это сложный инструмент. Как и любым сложным инструментом, им надо учиться пользоваться и не все смогут делать это эффективно.
+- First, a person should have the habit of fact-checking, which most people don’t, and it’s hard to develop.
+- Second, a person should have the desire to fact-check a concrete piece of information. Why fact-check if it looks convincing?
+- Third, neural networks are complex tools. Like any complex tool, they need to be learned, and not everyone will be able to use them effectively.
 
-Поэтому я жду больших волн разнообразной псевдонаучной и псевдорациональной дичи, вкупе с ухудшением уровня управления в демократических странах.
+That’s why I expect large waves of various pseudo-scientific and pseudo-rational nonsense, along with a decline in the quality of governance in most of countries.
 
 ### Поляризация образованности
 
