@@ -13,6 +13,11 @@ author = "Aliaksei Yaletski (Tiendil)"
 
 [[menu]]
   type = "article"
+  name = "Best"
+  slug = "best"
+
+[[menu]]
+  type = "article"
   name = "Projects"
   slug = "projects"
 
