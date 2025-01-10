@@ -70,3 +70,4 @@ TODO: названия из поста получать для ссылки.
 - [Пост про хитрую оптимизацию SQL]{post:fun-case-of-speeding-up-data-retrieval-with-psycopg} попал в рассылку [PyCoders](https://pycoders.com/). Ну как попал, я его туда отправил :-)
 
 TODO: добавить пунт про ИИ поисковики
+TODO: закрыл сказку
