@@ -27,19 +27,19 @@ It turned out that my Russian is quite difficult to translate idiomatically. I t
 
 Along with migrating to the new engine, I moved the blog to a new analytics system — [Plausible](https://plausible.io/). It requires a monthly subscription, but it doesn't leak data to corporations and anonymizes everything it can. So far, I'm happy with it.
 
-### Статистика блога
+### Blog statistics
 
-За год написал 35 постов — в два раза больше, чем в прошлом году. Оно и понятно — я в очередном творческом отпуске.
+I wrote 35 posts in the year — twice as many as the previous one. I'm on another subbatical, so it's understandable.
 
-Из-за смены движка статистики сложно сравнить посещаемость с прошлым годом. Выглядит ситуация примерно так:
+Dut to the migration to the new analytics system, it's hard to compare traffic with the previous year. Here's how it looks:
 
-- Количество уникальных посетителей в месяц с марта по декабрь выросло примерно в 2 раза и составило больше 14 тысяч за год. Ура!
-- Количество посетителей англоязычной версии составляет четверть от русскоязычной или ~20% от всех.
-- Количество переходов из Google колеблется около 500 в месяц.
+- The number of unique visitors per month from March to December doubled and exceeded 14k for the entire year. Hooray!
+- Visitors to the English version made up a quarter of the Russian one or about 20% of the total.
+- Visits from Google hovered around 500 per month.
 
-Англоязычная версия блога начиналась с нуля постов, поэтому, на мой взгляд, результат хороший. Справедливости ради отмечу, что англоязычные посты я иногда пиарю (в основном на Reddit), а русскоязычные — нет (не знаю, где имеет смысл это делать, пару раз закидывал на Хабр, но результаты не очень).
+The English version of the blog started from zero posts, so I think the results are pretty good. To be fair, I do occasionally promote the English posts (mostly on Reddit), while don't promote the Russian ones (I'm not sure where it would make sense to do so;  tried posting on Habr a couple of times, but the results weren’t great).
 
-Количество подписчиков в [русскоязычном Телеграме](https://t.me/tiendil_org_ru) выросло в 1.6 раза и теперь составляет 93 человека. В [русскоязычном дискорде](https://discord.gg/ZyNy28ZXM6) прописалось 12 человек. К сожалению, [англоязычный Телеграм](https://t.me/tiendil_org_en) и [англоязычный дискорд](https://discord.gg/2JNHAV7uMP) пока безлюдны — буду думать, что с этим делать.
+The number of subscribers in the [Russian Telegram](https://t.me/tiendil_org_ru) grew by 1.6 times and now stands at 93 people. The [Russian Discord](https://discord.gg/ZyNy28ZXM6) has 12 members. Unfortunately, the [English Telegram](https://t.me/tiendil_org_en) and [English Discord](https://discord.gg/2JNHAV7uMP) are still empty — I'll need to figure out what to do about that.
 
 **Топ новых постов за 2024 год**
 
