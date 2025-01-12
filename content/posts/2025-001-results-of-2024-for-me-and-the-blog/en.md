@@ -53,7 +53,7 @@ The number of subscribers in the [Russian Telegram](https://t.me/tiendil_org_ru)
 4 | []{post:@lang=ru:@lang-title=en:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}  | []{post:two-years-writing-rfc-statistics}
 5 | []{post:@lang=ru:@lang-title=en:fun-case-of-speeding-up-data-retrieval-with-psycopg}  | []{post:world-builders-2023-business-plan-example}
 
-**Топ всех постов за 2024 год**
+**Top posts of 2024 overall**
 
  # | Russian version  | English version
 --- | ------------- | -------------
@@ -63,7 +63,7 @@ The number of subscribers in the [Russian Telegram](https://t.me/tiendil_org_ru)
 4 | []{post:@choose-nearest-language:automatic-quests-generator}  | []{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}
 5 | []{post:@lang=ru:@lang-title=en:slay-the-princess-combinatoric-narrative}  | []{post:two-years-writing-rfc-statistics}
 
-Англоязычные топы похожи, так как за год я перевёл только один старый пост — он и лидирует в топе всех постов.
+The English tops are similar, as I only translated one old post this year — and it’s leading in the overall top.
 
 Особые маркетинговые и SEO успехи:
 
