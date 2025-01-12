@@ -15,11 +15,11 @@ Let me share what I was up to in 2024, how my plans for the outgoing year turned
 
 <!-- more -->
 
-## Блог
+## Blog
 
-В начале года [перевёл блог на самописный движок]{post:blog-moved-to-brigid-engine} — очень доволен. Конечно, [Исходники движка открыты](https://github.com/Tiendil/brigid). [Исходники постов](https://github.com/Tiendil/tiendil-org-content) тоже открыты и комфортно лежат в гитхабе, хочешь сделать пост — создаёшь ветку и вперёд.
+At the beginning of the year, I [moved the blog to a custom engine](post:blog-moved-to-brigid-engine) and I'm very happy with it. Of course, the [engine sources are open](https://github.com/Tiendil/brigid). [Post sources](https://github.com/Tiendil/tiendil-org-content) are open too and comfortably lie in GitHub, when I want to make a post, I create a branch and start writing.
 
-В блоге появилась мультиязычность, крутая навигация по тегам, контролируемые предложения похожих постов и понятное SEO. Ещё есть что улучшать, но пока не горит. Особо горд, что запилил всё это примерно за месяц, если не быстрее.
+The blog has become multilingual, with cool tag navigation, controlled suggestions for related posts, and clear SEO. There is still room for improvement, but nothing urgent. I am particularly proud that I managed to implement all of this in about a month, if not faster.
 
 С появлением мультиязычности начал писать посты сразу на русском и английском (за исключением нескольких, которые не имело смысла переводить). Пока пишу на русском, после чего перевожу на английский. Может быть в будущем поменяю порядок на обратный.
 
