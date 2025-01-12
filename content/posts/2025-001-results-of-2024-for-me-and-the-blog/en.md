@@ -65,16 +65,17 @@ The number of subscribers in the [Russian Telegram](https://t.me/tiendil_org_ru)
 
 The English tops are similar, as I only translated one old post this year — and it’s leading in the overall top.
 
-Особые маркетинговые и SEO успехи:
+Special marketing and SEO achievements:
 
-- [Пост про Slay The Princess]{post:slay-the-princess-combinatoric-narrative} неожиданно взлетел в выдаче Google и приводит в блог геймеров. Не уверен, что они задерживаются, но какое-то время его читают.
-- Сугубо технический [пост про миграцию с GPT-3.5 на GPT-4.0]{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini} почему-то всё ещё вызывает интерес у людей, хотя GPT-3.5 уже и нет-то особо нигде.
-- [Пост про хитрую оптимизацию SQL]{post:fun-case-of-speeding-up-data-retrieval-with-psycopg} попал в рассылку [PyCoders](https://pycoders.com/). Ну как попал, я его туда отправил :-)
-- Замечено 7 переходов из ИИ сервисов (ChatGPT и Perplexity).
+- [The post about Slay The Princess]{post:slay-the-princess-combinatoric-narrative} unexpectedly rose in Google search results and leads gamers to the blog. I'm not sure if they stay, but they read it for a while.
+- The technical post about [migrating from GPT-3.5 to GPT-4.0]{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini} still attracts interest, even though GPT-3.5 is no longer particularly relevant.
+- A purely technical [post about migrating from GPT-3.5 to GPT-4.0]{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini} is somehow still drawing interest, even though GPT-3.5 is hardly around anymore.
+- [The post about a tricky SQL optimization]{post:fun-case-of-speeding-up-data-retrieval-with-psycopg} made it into the [PyCoders](https://pycoders.com/) newsletter. Well, I helped it get there :-)
+- Analytics tracked 7 visits from AI services like ChatGPT and Perplexity.
 
-Топ 10 стран по уникальным посетителям:
+The top 10 countries by unique visitors:
 
-Страна  | Уникальные посетители
+Country  | Unique visitors
 ------------- | -------------
 🇷🇺 Russian Federation | 8.7k
 🇺🇸 United States | 631
@@ -86,7 +87,7 @@ The English tops are similar, as I only translated one old post this year — an
 🇵🇱 Poland | 241
 🇬🇧 United Kingdom |175
 
-Германия расположилась так высоко, потому что я — самый активный читатель этого блога :-D
+Germany is so high because I'm the most active reader of this blog :-D
 
 ## Выполнение планов
 
