@@ -6,8 +6,6 @@ seo_description = "Расскажу, чем занимался в 2024 году,
 seo_image = "cover.png"
 ---
 
-TODO: tags
-
 /// brigid-images
 src = "cover.png"
 caption = "Статистика блога за 2024 год. Честная статистика начинается примерно с марта, потому что январь блог был на старой аналитике, а в феврале был переезд."
@@ -188,7 +186,7 @@ Done.
 
 - [Brigid](https://github.com/Tiendil/brigid) — движок этого блога.
 - [Changy](https://github.com/Tiendil/changy) — менеджер changelog'ов для людей.
-- [Лор Сказки](the-tale.notion.site).
+- [Лор Сказки](https://the-tale.notion.site).
 
 ## Планы на следующий год
 
