@@ -73,7 +73,7 @@ Special marketing and SEO achievements:
 - [The post about a tricky SQL optimization]{post:fun-case-of-speeding-up-data-retrieval-with-psycopg} made it into the [PyCoders](https://pycoders.com/) newsletter. Well, I helped it get there :-)
 - Analytics tracked 7 visits from AI services like ChatGPT and Perplexity.
 
-The top 10 countries by unique visitors:
+**The top 10 countries by unique visitors**
 
 Country  | Unique visitors
 ------------- | -------------
