@@ -39,30 +39,27 @@ TODO: cover image
 
 Количество подписчиков в [русскоязычном телеграмме](https://t.me/tiendil_org_ru) выросло в 1.6 раза и теперь составляет 93 человека. В [русскоязычном дискорде](https://discord.gg/ZyNy28ZXM6) прописалось 12 человек. К сожалению, [англоязычный телеграмм](https://t.me/tiendil_org_en) и [англоязычный дискорд](https://discord.gg/2JNHAV7uMP) пока безлюдны.
 
-Топ новых постов за 2024 год:
+**Топ новых постов за 2024 год**
 
-TODO: ссылки же повторяться будут, надо явно язык указывать.
-TODO: названия из поста получать для ссылки.
+ # | Русскоязычная версия  | Англоязычная версия
+--- | ------------- | -------------
+1 | []{post:my-gpts}  | []{post:@lang=en:@lang-title=ru:fun-case-of-speeding-up-data-retrieval-with-psycopg}
+2 | []{post:slay-the-princess-combinatoric-narrative}  | []{post:@lang=en:@lang-title=ru:slay-the-princess-combinatoric-narrative}
+3 | []{post:two-years-writing-rfc-statistics}  | []{post:@lang=en:@lang-title=ru:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}
+4 | []{post:world-builders-2023-business-plan-example}  | []{post:@lang=en:@lang-title=ru:two-years-writing-rfc-statistics}
+5 | []{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}  | []{post:@lang=en:@lang-title=ru:world-builders-2023-business-plan-example}
 
-Русскоязычная версия  | Англоязычная версия
-------------- | -------------
-[]{post:my-gpts}  | []{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}
-[]{post:slay-the-princess-combinatoric-narrative}  | []{post:slay-the-princess-combinatoric-narrative}
-[]{post:two-years-writing-rfc-statistics}  | []{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}
-[]{post:world-builders-2023-business-plan-example}  | []{post:two-years-writing-rfc-statistics}
-[]{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}  | []{post:world-builders-2023-business-plan-example}
+**Топ всех постов за 2024 год**
 
-Топ всех постов за 2024 год:
+ # | Русскоязычная версия  | Англоязычная версия
+--- | ------------- | -------------
+1 | []{post:dungeon-generation-from-simple-to-complex}  | []{post:@lang=en:@lang-title=ru:dungeon-generation-from-simple-to-complex}
+2 | []{post:how-to-design-a-dungeon}  | []{post:@lang=en:@lang-title=ru:fun-case-of-speeding-up-data-retrieval-with-psycopg}
+3 | []{post:my-gpts}  | []{post:@lang=en:@lang-title=ru:slay-the-princess-combinatoric-narrative}
+4 | []{post:automatic-quests-generator}  | []{post:@lang=en:@lang-title=ru:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}
+5 | []{post:slay-the-princess-combinatoric-narrative}  | []{post:@lang=en:@lang-title=ru:two-years-writing-rfc-statistics}
 
-Русскоязычная версия  | Англоязычная версия
-------------- | -------------
-[]{post:dungeon-generation-from-simple-to-complex}  | []{post:dungeon-generation-from-simple-to-complex}
-[]{post:how-to-design-a-dungeon}  | []{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}
-[]{post:my-gpts}  | []{post:slay-the-princess-combinatoric-narrative}
-[]{post:automatic-quests-generator}  | []{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}
-[]{post:slay-the-princess-combinatoric-narrative}  | []{post:two-years-writing-rfc-statistics}
-
-Оба английских топа похожи, так как я почти не переводил старые посты.
+Англоязычные топы похожи, так как я перевёл только один старый пост, он и занял первое место в топе всех постов.
 
 Особые «маркетинговые и SEO» успехи:
 
