@@ -21,11 +21,11 @@ At the beginning of the year, I [moved the blog to a custom engine](post:blog-mo
 
 The blog has become multilingual, with cool tag navigation, controlled suggestions for related posts, and clear SEO. There is still room for improvement, but nothing urgent. I am particularly proud that I managed to implement all of this in about a month, if not faster.
 
-С появлением мультиязычности начал писать посты сразу на русском и английском (за исключением нескольких, которые не имело смысла переводить). Пока пишу на русском, после чего перевожу на английский. Может быть в будущем поменяю порядок на обратный.
+Thanks to multilingual support, I’ve started writing posts in both Russian and English (except for a few that didn’t make sense to translate).. For now, I write in Russian first and then translate into English. Maybe in the future I will switch the order.
 
-Оказалось, мой русский довольно сложно идиоматически переводить. Вроде как стараюсь не усложнять, но то и дело вставляю поговорку, присказку или словесный оборот. Структура предложений (а значит и мыслей) с русского на английский тоже со скрипом переносится. Поэтому, хоть русские версии постов я стал писать быстрее, времени на пост в целом уходит столько же, сколько и раньше — 2-3 дня.
+It turned out that my Russian is quite difficult to translate idiomatically. I try to keep the language simple, but sayings and unique phrases still slip in. Sentence structure (and therefore the flow of thoughts) doesn’t transfer smoothly from Russian to English either. So, even though I've learned to write Russian posts faster, it still takes just as long to complete a post as before — 2-3 days.
 
-Вместе с переездом на новый движок, перевёл блог на новую систему статистики — [Plausible](https://plausible.io/). Требует месячную подписку, зато не сливает данные корпорациям и анонимизирует всё, что можно. Пока доволен.
+Along with migrating to the new engine, I moved the blog to a new analytics system — [Plausible](https://plausible.io/). It requires a monthly subscription, but it doesn't leak data to corporations and anonymizes everything it can. So far, I'm happy with it.
 
 ### Статистика блога
 
