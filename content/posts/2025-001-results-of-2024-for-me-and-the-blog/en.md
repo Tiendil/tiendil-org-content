@@ -6,6 +6,8 @@ seo_description = "What I was doing in 2024, how the plans for the outgoing year
 seo_image = "cover.png"
 ---
 
+TODO: check all links with @choose-nearest-language, some of them may have english versions
+
 /// brigid-images
 src = "cover.png"
 caption = "Blog statistics for 2024. Accurate statistics start around March, as the blog used the old analytics service from January to mid-February."
@@ -17,7 +19,7 @@ Let me share what I was up to in 2024, how my plans for the outgoing year turned
 
 ## Blog
 
-At the beginning of the year, I [moved the blog to a custom engine](post:blog-moved-to-brigid-engine) and I'm very happy with it. Of course, the [engine sources are open](https://github.com/Tiendil/brigid). [Post sources](https://github.com/Tiendil/tiendil-org-content) are open too and comfortably lie in GitHub, when I want to make a post, I create a branch and start writing.
+At the beginning of the year, I [moved the blog to a custom engine](post:@choose-nearest-language:blog-moved-to-brigid-engine) and I'm very happy with it. Of course, the [engine sources are open](https://github.com/Tiendil/brigid). [Post sources](https://github.com/Tiendil/tiendil-org-content) are open too and comfortably lie in GitHub, when I want to make a post, I create a branch and start writing.
 
 The blog has become multilingual, with cool tag navigation, controlled suggestions for related posts, and clear SEO. There is still room for improvement, but nothing urgent. I am particularly proud that I managed to implement all of this in about a month, if not faster.
 
@@ -41,25 +43,25 @@ The English version of the blog started from zero posts, so I think the results 
 
 The number of subscribers in the [Russian Telegram](https://t.me/tiendil_org_ru) grew by 1.6 times and now stands at 93 people. The [Russian Discord](https://discord.gg/ZyNy28ZXM6) has 12 members. Unfortunately, the [English Telegram](https://t.me/tiendil_org_en) and [English Discord](https://discord.gg/2JNHAV7uMP) are still empty — I'll need to figure out what to do about that.
 
-**Топ новых постов за 2024 год**
+**Top new posts for 2024**
 
- # | Русскоязычная версия  | Англоязычная версия
+ # | Russian version  | English version
 --- | ------------- | -------------
-1 | []{post:my-gpts}  | []{post:@lang=en:@lang-title=ru:fun-case-of-speeding-up-data-retrieval-with-psycopg}
-2 | []{post:slay-the-princess-combinatoric-narrative}  | []{post:@lang=en:@lang-title=ru:slay-the-princess-combinatoric-narrative}
-3 | []{post:world-builders-2023-business-plan-example}  | []{post:@lang=en:@lang-title=ru:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}
-4 | []{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}  | []{post:@lang=en:@lang-title=ru:two-years-writing-rfc-statistics}
-5 | []{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}  | []{post:@lang=en:@lang-title=ru:world-builders-2023-business-plan-example}
+1 | []{post:@lang=ru:@lang-title=en:my-gpts}  | []{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}
+2 | []{post:@lang=ru:@lang-title=en:slay-the-princess-combinatoric-narrative}  | []{post:slay-the-princess-combinatoric-narrative}
+3 | []{post:@lang=ru:@lang-title=en:world-builders-2023-business-plan-example}  | []{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}
+4 | []{post:@lang=ru:@lang-title=en:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}  | []{post:two-years-writing-rfc-statistics}
+5 | []{post:@lang=ru:@lang-title=en:fun-case-of-speeding-up-data-retrieval-with-psycopg}  | []{post:world-builders-2023-business-plan-example}
 
 **Топ всех постов за 2024 год**
 
- # | Русскоязычная версия  | Англоязычная версия
+ # | Russian version  | English version
 --- | ------------- | -------------
-1 | []{post:dungeon-generation-from-simple-to-complex}  | []{post:@lang=en:@lang-title=ru:dungeon-generation-from-simple-to-complex}
-2 | []{post:how-to-design-a-dungeon}  | []{post:@lang=en:@lang-title=ru:fun-case-of-speeding-up-data-retrieval-with-psycopg}
-3 | []{post:my-gpts}  | []{post:@lang=en:@lang-title=ru:slay-the-princess-combinatoric-narrative}
-4 | []{post:automatic-quests-generator}  | []{post:@lang=en:@lang-title=ru:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}
-5 | []{post:slay-the-princess-combinatoric-narrative}  | []{post:@lang=en:@lang-title=ru:two-years-writing-rfc-statistics}
+1 | []{post:@lang=ru:@lang-title=en:dungeon-generation-from-simple-to-complex}  | []{post:dungeon-generation-from-simple-to-complex}
+2 | []{post:@choose-nearest-language:how-to-design-a-dungeon}  | []{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}
+3 | []{post:@lang=ru:@lang-title=en:my-gpts}  | []{post:slay-the-princess-combinatoric-narrative}
+4 | []{post:@choose-nearest-language:automatic-quests-generator}  | []{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini}
+5 | []{post:@lang=ru:@lang-title=en:slay-the-princess-combinatoric-narrative}  | []{post:two-years-writing-rfc-statistics}
 
 Англоязычные топы похожи, так как за год я перевёл только один старый пост — он и лидирует в топе всех постов.
 
@@ -88,7 +90,7 @@ The number of subscribers in the [Russian Telegram](https://t.me/tiendil_org_ru)
 
 ## Выполнение планов
 
-По планам из [прошлогодних итогов]{post:results-of-2023-for-me-and-the-blog}.
+По планам из [прошлогодних итогов]{post:@choose-nearest-language:results-of-2023-for-me-and-the-blog}.
 
 >  Завершить переезд в Германию.
 
@@ -98,15 +100,15 @@ The number of subscribers in the [Russian Telegram](https://t.me/tiendil_org_ru)
 
 Порешали с женой на пару. Обустроились, надеюсь хотя бы два года переезжать не придётся.
 
-> Закончить обучение в [Product Vision Masters]{post:making-a-fictional-universe-month-1} на какой-нибудь хорошей ноте.
+> Закончить обучение в [Product Vision Masters]{post:@choose-nearest-language:making-a-fictional-universe-month-1} на какой-нибудь хорошей ноте.
 
-Обучение закончил [итоговой презентацией]{post:world-builders-2023-final-presentation}, [бизнес планом]{post:world-builders-2023-business-plan-example} и [техническим прототипом]{post:simulation-of-public-opinion-in-a-game}.
+Обучение закончил [итоговой презентацией]{post:@choose-nearest-language:world-builders-2023-final-presentation}, [бизнес планом]{post:world-builders-2023-business-plan-example} и [техническим прототипом]{post:simulation-of-public-opinion-in-a-game}.
 
 Дальше пока никуда не двигаюсь — весь первый набор участников ждёт Mad Crusaders, пока фонд ищет финансирование и решает юридические вопросы.
 
 Кстати, рекомендую [лекции второго набора World Builders](https://www.youtube.com/watch?v=Td8_fEOQ8E4&list=PLsMUuz1UmdpmkXqvLR6RbnJL_gfPVYuE8). [Ярополк Раш](https://www.linkedin.com/in/yarrrash/) проделал большую работу по формализации и сжатию материалов прошлого года — подача материала стала структурированнее, понятнее и короче. Если в прошлом году лекции имели формат экспромта, то в этом уже похожи на лекции.
 
-> Попиарить [Feeds Fun]{post:feeds-fun-news-reader-with-tags-and-chatgpt}. По итогам определиться с будущим проекта.
+> Попиарить [Feeds Fun]{post:@choose-nearest-language:feeds-fun-news-reader-with-tags-and-chatgpt}. По итогам определиться с будущим проекта.
 
 Не успел в прошлом году, переносится на этот.
 
@@ -166,7 +168,7 @@ Done.
 
 Давно пора было, да всё времени не находил. В итоге к осени состояние Сказки дошло до точки, когда поддерживать её стало себе дороже.
 
-[Лор игры]{post:the-tale-lore-cc-by} мы открыли для использования всеми желающими.
+[Лор игры]{post:@choose-nearest-language:the-tale-lore-cc-by} мы открыли для использования всеми желающими.
 
 ### Вернулся к чтению художественной литературы
 
@@ -192,7 +194,7 @@ Done.
 
 ## Планы на следующий год
 
-1. Определиться с будущим [Feeds Fun]{post:feeds-fun-news-reader-with-tags-and-chatgpt}: бизнес или хобби. Попиарить, собрать фидбек, пофиксить, попиарить ещё раз, сделать несколько таких циклов, принять решение.
+1. Определиться с будущим [Feeds Fun]{post:@choose-nearest-language:feeds-fun-news-reader-with-tags-and-chatgpt}: бизнес или хобби. Попиарить, собрать фидбек, пофиксить, попиарить ещё раз, сделать несколько таких циклов, принять решение.
 
 2. Сделать MVP [игры]{post:simulation-of-public-opinion-in-a-game}, которую очертил на занятиях [World Builders]{tags:world-builders-2023}.
 
