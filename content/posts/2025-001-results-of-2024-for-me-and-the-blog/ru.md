@@ -182,6 +182,14 @@ Done.
 
 На 2025 год уже заказал серию о Ведьмах Терри Пратчетта, скоро приедет. Если зайдёт, буду читать всю серию плоского мира :-D
 
+### Open source
+
+Выложил в open source:
+
+- [Brigid](https://github.com/Tiendil/brigid) — движок этого блога.
+- [Changy](https://github.com/Tiendil/changy) — менеджер changelog'ов для людей.
+- [Лор Сказки](the-tale.notion.site).
+
 ## Планы на следующий год
 
 1. Определиться с будущим [Feeds Fun]{post:feeds-fun-news-reader-with-tags-and-chatgpt}: бизнес или хобби. Попиарить, собрать фидбек, пофиксить, попиарить ещё раз, может ещё пару циклов сделать, принять решение.
