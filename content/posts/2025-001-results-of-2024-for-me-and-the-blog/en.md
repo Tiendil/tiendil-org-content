@@ -31,13 +31,15 @@ Along with migrating to the new engine, I moved the blog to a new analytics syst
 
 I wrote 35 posts in the year — twice as many as the previous one. I'm on another sabbatical, so it's understandable.
 
-Due to the migration to the new analytics system, it's hard to compare traffic with the previous year. Here's how it looks:
+Due to the migration to the new analytics system, comparing traffic between 2023 and 2024 is hard.
+
+Here's how it looks:
 
 - The number of unique visitors per month from March to December doubled and exceeded 14k for the entire year. Hooray!
 - Visitors to the English version made up a quarter of the Russian one, which is about 20% of the total.
 - Visits from Google hovered around 500 per month.
 
-The English version of the blog started from zero posts, so I think the results are pretty good. To be fair, I do occasionally promote the English posts (mostly on Reddit), while I don't promote the Russian ones (I'm not sure where it would make sense to do so;  tried posting on Habr a couple of times, but the results weren’t great).
+The English version of the blog started with zero posts, so I think the results are pretty good. To be fair, I do occasionally promote the English posts (mostly on Reddit), while I don't promote the Russian ones (I'm not sure where it would make sense to do so;  tried posting on Habr a couple of times, but the results weren’t great).
 
 The number of subscribers in the [Russian Telegram](https://t.me/tiendil_org_ru) grew by 1.6 times and now stands at 93 people. The [Russian Discord](https://discord.gg/ZyNy28ZXM6) has 12 members. Unfortunately, the [English Telegram](https://t.me/tiendil_org_en) and [English Discord](https://discord.gg/2JNHAV7uMP) are still empty — I'll need to figure out what to do about that.
 
@@ -66,7 +68,7 @@ The English tops are similar, as I only translated one old post this year — an
 Special marketing and SEO achievements:
 
 - [The post about Slay The Princess]{post:slay-the-princess-combinatoric-narrative} unexpectedly rose in Google search results and leads gamers to the blog. I'm not sure if they stay, but they read it for a while.
-- A purely technical [post about migrating from GPT-3.5 to GPT-4.0]{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini} is somehow still drawing interest, even though GPT-3.5 is hardly around anymore.
+- A purely technical [post about migrating from GPT-3.5 to GPT-4.0]{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini} somehow still draws interest, even though GPT-3.5 is hardly around anymore.
 - [The post about a tricky SQL optimization]{post:fun-case-of-speeding-up-data-retrieval-with-psycopg} made it into the [PyCoders](https://pycoders.com/) newsletter. Well, I helped it get there :-)
 - Analytics tracked 7 visits from AI services like ChatGPT and Perplexity.
 
@@ -104,21 +106,21 @@ I finished with a [final presentation]{post:@choose-nearest-language:world-build
 
 For now, all activities are on hold — the entire group of students is waiting while Mad Crusaders looks for funding and sorts out legal issues.
 
-By the way, I recommend [the lectures from the second World Builders year/class](https://www.youtube.com/watch?v=Td8_fEOQ8E4&list=PLsMUuz1UmdpmkXqvLR6RbnJL_gfPVYuE8). [Yarr Rash](https://www.linkedin.com/in/yarrrash/) has done a lot of work to formalize and compress the materials from the last year — the lectures became more structured, understandable, and shorter. While last year’s lectures had more of an impromptu format, this year they actually feel like proper lectures.
+By the way, I recommend [the lectures from the second World Builders year/class](https://www.youtube.com/watch?v=Td8_fEOQ8E4&list=PLsMUuz1UmdpmkXqvLR6RbnJL_gfPVYuE8). [Yarr Rash](https://www.linkedin.com/in/yarrrash/) has done a lot of work to formalize and compress the materials from the last year — the lectures became more structured, understandable, and shorter. While last year’s lectures had more of an impromptu format, this year, they actually feel like proper lectures.
 
 > Try to promote [Feeds Fun](https://feeds.fun/). Based on the results, decide on the project’s future.
 
 Didn't have time last year, moving it to this one.
 
-News feeds and tagging turned out to be much more complex than they appear at the first glance. Feeds Fun is actively evolving, but it’s still far from user-friendly.
+News feeds and tagging turned out to be much more complex than they appear at first glance. Feeds Fun is actively evolving, but it’s still far from user-friendly.
 
 > Take a break/catch my breath.
 
-I guess I rested a bit, but sometimes I doubt it. :-)
+I rested a bit, but sometimes I doubt it. :-)
 
 > Return to reading and reviewing books.
 
-Returned.
+Done.
 
 In 2024, I wrote 5 reviews:
 
@@ -128,7 +130,7 @@ In 2024, I wrote 5 reviews:
 - [The Signal and the Noise]{post:review-of-the-signal-and-the-noise}
 - [Harry Potter]{post:about-book-harry-potter}
 
-Besides that, I read 5 good books on management and related topics, but decided not to review them separately, as it would easily take up to a month (considering my writing speed and my dislike for some management practices). Instead, I plan to write one big post reviewing all the books once I finish the entire list.
+Besides that, I read 5 good books on management and related topics, but I decided not to review them separately, as it would easily take up to a month (considering my writing speed and my dislike for some management practices). Instead, I plan to write one big post reviewing all the books once I finish the entire list.
 
 > Before looking for a job, try to launch at least one of my projects. Options: Feeds Fun, something from the Product Vision Masters, "The Tale 2.0", or something else.
 
@@ -160,13 +162,13 @@ In the process, the reading plan is 50% complete. Moving to this year.
 
 ## Outside of the yearly plans
 
-Some things weren’t planned, but happened.
+Some things weren’t planned but happened.
 
 ### Stopped "The Tale"
 
 It had been a long time coming, but I just couldn’t find time for it. By fall, "The Tale" had gotten to the point where operating it cost more than it was worth.
 
-[The lore of the game]{post:@choose-nearest-language:the-tale-lore-cc-by} is now open for anyone to use.
+[The game lore]{post:@choose-nearest-language:the-tale-lore-cc-by} is now open for anyone to use.
 
 ### Returned to reading fiction
 
@@ -174,11 +176,11 @@ An unexpected and pleasant result for me.
 
 I used to love reading fiction, but adult life after university took over, and I lost the time for it, with rare exceptions.
 
-I managed to get back into reading by combining it with improving my English. Now, I’m diving into English-language literature, something I’ve been wanting to do for a long time.
+I got back into reading by combining it with improving my English. Now, I’m diving into English-language literature, something I’ve been wanting to do for a long time.
 
-Turns out, reading in the evenings is a good replacement for games and TV shows. I thought it would require more brainpower, but no.
+It turns out that reading in the evenings is a good replacement for games and TV shows. I thought it would require more brainpower, but no.
 
-One fun discovery from the last year: I found Susanna Clarke’s vocabulary in [Piranesi]{post:about-book-piranesi} seemed more familiar than J.K. Rowling’s in [Harry Potter]{post:about-book-harry-potter}.
+One fun discovery from last year: Susanna Clarke’s vocabulary in [Piranesi]{post:about-book-piranesi} seemed more familiar to me than J.K. Rowling’s in [Harry Potter]{post:about-book-harry-potter}.
 
 For 2025, I’ve already ordered [Terry Pratchett’s](https://en.wikipedia.org/wiki/Terry_Pratchett) [Witches](https://en.wikipedia.org/wiki/Discworld_witches) series, and it should arrive soon. If I like it, I’ll dive into the entire Discworld series. :-D
 
@@ -196,7 +198,7 @@ I released:
 
 2. Make an MVP of the [game]{post:simulation-of-public-opinion-in-a-game} I outlined during the [World Builders]{tags:world-builders-2023} classes.
 
-    I like the mechanics that are shaping up and want to push the experiment to a logical conclusion.
+    I like how the mechanics shape up and want to push the experiment to a logical conclusion.
 
     With the MVP, I also want to explore two things I’ve been meaning to try for a long time:
 
