@@ -2,7 +2,7 @@
 title = "Results of 2024 for me and the blog"
 tags = [ "blog", "practice", "reflection",]
 published_at = "2025-01-13T12:00:00+00:00"
-seo_description = "What I was doing in 2024, how the plans for the outgoing year are going, and what about the plans for the coming year."
+seo_description = "What I was doing in 2024, how the plans for the outgoing year went, and what the plans for the coming year are."
 seo_image = "cover.png"
 ---
 
@@ -19,7 +19,7 @@ Let me share what I was up to in 2024, how my plans for the outgoing year turned
 
 ## Blog
 
-At the beginning of the year, I [moved the blog to a custom engine](post:@choose-nearest-language:blog-moved-to-brigid-engine) and I'm very happy with it. Of course, the [engine sources are open](https://github.com/Tiendil/brigid). [Post sources](https://github.com/Tiendil/tiendil-org-content) are open too and comfortably lie in GitHub, when I want to make a post, I create a branch and start writing.
+At the beginning of the year, I [moved the blog to a custom engine](post:@choose-nearest-language:blog-moved-to-brigid-engine) and I'm very happy with it. Of course, the [engine sources are open](https://github.com/Tiendil/brigid). [Post sources](https://github.com/Tiendil/tiendil-org-content) are open too and are comfortably hosted on GitHub, when I want to make a post, I create a branch and start writing.
 
 The blog has become multilingual, with cool tag navigation, controlled suggestions for related posts, and clear SEO. There is still room for improvement, but nothing urgent. I am particularly proud that I managed to implement all of this in about a month, if not faster.
 
@@ -33,13 +33,13 @@ Along with migrating to the new engine, I moved the blog to a new analytics syst
 
 I wrote 35 posts in the year — twice as many as the previous one. I'm on another subbatical, so it's understandable.
 
-Dut to the migration to the new analytics system, it's hard to compare traffic with the previous year. Here's how it looks:
+Due to the migration to the new analytics system, it's hard to compare traffic with the previous year. Here's how it looks:
 
 - The number of unique visitors per month from March to December doubled and exceeded 14k for the entire year. Hooray!
 - Visitors to the English version made up a quarter of the Russian one or about 20% of the total.
 - Visits from Google hovered around 500 per month.
 
-The English version of the blog started from zero posts, so I think the results are pretty good. To be fair, I do occasionally promote the English posts (mostly on Reddit), while don't promote the Russian ones (I'm not sure where it would make sense to do so;  tried posting on Habr a couple of times, but the results weren’t great).
+The English version of the blog started from zero posts, so I think the results are pretty good. To be fair, I do occasionally promote the English posts (mostly on Reddit), while I don't promote the Russian ones (I'm not sure where it would make sense to do so;  tried posting on Habr a couple of times, but the results weren’t great).
 
 The number of subscribers in the [Russian Telegram](https://t.me/tiendil_org_ru) grew by 1.6 times and now stands at 93 people. The [Russian Discord](https://discord.gg/ZyNy28ZXM6) has 12 members. Unfortunately, the [English Telegram](https://t.me/tiendil_org_en) and [English Discord](https://discord.gg/2JNHAV7uMP) are still empty — I'll need to figure out what to do about that.
 
@@ -107,13 +107,13 @@ I finished with a [final presentation]{post:@choose-nearest-language:world-build
 
 For now, all activities are on hold — the entire group of students is waiting while Mad Crusaders looks for funding and sorts out legal issues.
 
-By the way, I recomend [the lectures from the second World Builders class](https://www.youtube.com/watch?v=Td8_fEOQ8E4&list=PLsMUuz1UmdpmkXqvLR6RbnJL_gfPVYuE8). [Yarr Rash](https://www.linkedin.com/in/yarrrash/) has done a lot of work to formalize and compress the materials from last year — the lecture became more structured, understandable, and shorter. While last year’s lectures had more of an impromptu format, this year they actually feel like proper lectures.
+By the way, I recommend [the lectures from the second World Builders year/class](https://www.youtube.com/watch?v=Td8_fEOQ8E4&list=PLsMUuz1UmdpmkXqvLR6RbnJL_gfPVYuE8). [Yarr Rash](https://www.linkedin.com/in/yarrrash/) has done a lot of work to formalize and compress the materials from the last year — the lectures became more structured, understandable, and shorter. While last year’s lectures had more of an impromptu format, this year they actually feel like proper lectures.
 
 > Try to promote [Feeds Fun]{post:@choose-nearest-language:feeds-fun-news-reader-with-tags-and-chatgpt}. Based on the results, decide on the project’s future.
 
 Didn't have time last year, moving it to this one.
 
-News feeds and tagging turned out to be much more complex than they appear at the first glance. Feeds Fun is actively evolving, but it’s still far from being user-friendly.
+News feeds and tagging turned out to be much more complex than they appear at the first glance. Feeds Fun is actively evolving, but it’s still far from user-friendly.
 
 > Take a break/catch my breath.
 
