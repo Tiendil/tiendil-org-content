@@ -6,20 +6,18 @@ seo_description = "What I was doing in 2024, how the plans for the outgoing year
 seo_image = "cover.png"
 ---
 
-TODO: check all links with @choose-nearest-language, some of them may have english versions
-
 /// brigid-images
 src = "cover.png"
-caption = "Blog statistics for 2024. Accurate statistics start around March, as the blog used the old analytics service from January to mid-February."
+caption = "Blog statistics for 2024. An accurate statistics start around March, as the blog used the old analytics service from January to mid-February."
 ///
 
-Let me share what I was up to in 2024, how my plans for the outgoing year turned out, and what I plan for the year ahead.
+Let me share what I was up to in 2024, how [my plans for the outgoing year]{post:@choose-nearest-language:results-of-2023-for-me-and-the-blog} turned out, and what I plan for the year ahead.
 
 <!-- more -->
 
 ## Blog
 
-At the beginning of the year, I [moved the blog to a custom engine](post:@choose-nearest-language:blog-moved-to-brigid-engine) and I'm very happy with it. Of course, the [engine sources are open](https://github.com/Tiendil/brigid). [Post sources](https://github.com/Tiendil/tiendil-org-content) are open too and are comfortably hosted on GitHub. When I want to make a post, I create a branch and start writing.
+At the beginning of the year, I [moved the blog to a custom engine]{post:@choose-nearest-language:blog-moved-to-brigid-engine} and I'm very happy with it. Of course, the [engine sources are open](https://github.com/Tiendil/brigid). [Post sources](https://github.com/Tiendil/tiendil-org-content) are open too and are comfortably hosted on GitHub. When I want to make a post, I create a branch and start writing.
 
 The blog has become multilingual, with cool tag navigation, controlled suggestions for related posts, and clear SEO. There is still room for improvement, but nothing urgent. I am particularly proud that I managed to implement all of this in about a month, if not faster.
 
@@ -68,7 +66,6 @@ The English tops are similar, as I only translated one old post this year — an
 Special marketing and SEO achievements:
 
 - [The post about Slay The Princess]{post:slay-the-princess-combinatoric-narrative} unexpectedly rose in Google search results and leads gamers to the blog. I'm not sure if they stay, but they read it for a while.
-- The technical post about [migrating from GPT-3.5 to GPT-4.0]{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini} still attracts interest, even though GPT-3.5 is no longer particularly relevant.
 - A purely technical [post about migrating from GPT-3.5 to GPT-4.0]{post:migrating-from-gpt-3.5-turbo-to-gpt-4o-mini} is somehow still drawing interest, even though GPT-3.5 is hardly around anymore.
 - [The post about a tricky SQL optimization]{post:fun-case-of-speeding-up-data-retrieval-with-psycopg} made it into the [PyCoders](https://pycoders.com/) newsletter. Well, I helped it get there :-)
 - Analytics tracked 7 visits from AI services like ChatGPT and Perplexity.
@@ -101,7 +98,7 @@ Done, this month I'm getting my resident permit in plastic.
 
 My wife and I tackled them together. We got settled, and hopefully, we won’t have to move again for at least two years.
 
-> Finish the [Product Vision Masters]{post:@choose-nearest-language:making-a-fictional-universe-month-1} training on a good note.
+> Finish the [Product Vision Masters](https://madcrusader.com/visionmasters) training on a good note.
 
 I finished with a [final presentation]{post:@choose-nearest-language:world-builders-2023-final-presentation}, [business plan]{post:world-builders-2023-business-plan-example}, and [technical prototype]{post:simulation-of-public-opinion-in-a-game}.
 
@@ -109,7 +106,7 @@ For now, all activities are on hold — the entire group of students is waiting 
 
 By the way, I recommend [the lectures from the second World Builders year/class](https://www.youtube.com/watch?v=Td8_fEOQ8E4&list=PLsMUuz1UmdpmkXqvLR6RbnJL_gfPVYuE8). [Yarr Rash](https://www.linkedin.com/in/yarrrash/) has done a lot of work to formalize and compress the materials from the last year — the lectures became more structured, understandable, and shorter. While last year’s lectures had more of an impromptu format, this year they actually feel like proper lectures.
 
-> Try to promote [Feeds Fun]{post:@choose-nearest-language:feeds-fun-news-reader-with-tags-and-chatgpt}. Based on the results, decide on the project’s future.
+> Try to promote [Feeds Fun](https://feeds.fun/). Based on the results, decide on the project’s future.
 
 Didn't have time last year, moving it to this one.
 
@@ -195,16 +192,16 @@ I released:
 
 ## Plans for the next year
 
-1. Decide the future of [Feeds Fun]{post:@choose-nearest-language:feeds-fun-news-reader-with-tags-and-chatgpt}: business or hobby. Promote it, gather feedback, fix issues, promote again, repeat the cycle a few times, and then make a decision.
+1. Decide the future of [Feeds Fun](https://feeds.fun/): business or hobby. Promote it, gather feedback, fix issues, promote again, repeat the cycle a few times, and then make a decision.
 
 2. Make an MVP of the [game]{post:simulation-of-public-opinion-in-a-game} I outlined during the [World Builders]{tags:world-builders-2023} classes.
 
-I like the mechanics that are shaping up and want to push the experiment to a logical conclusion.
+    I like the mechanics that are shaping up and want to push the experiment to a logical conclusion.
 
-With the MVP, I also want to explore two things I’ve been meaning to try for a long time:
+    With the MVP, I also want to explore two things I’ve been meaning to try for a long time:
 
-- [Godot](https://godotengine.org/) as an game engine for indie games.
-- [Rust](https://www.rust-lang.org/) as a language for implementing complex logic. In my case, it will be pure game logic, where I hope to take advantage of Rust’s paranoid safety. If Rust doesn’t work out, I’ll give [Zig](https://ziglang.org/) a try.
+    - [Godot](https://godotengine.org/) as an game engine for indie games.
+    - [Rust](https://www.rust-lang.org/) as a language for implementing complex logic. In my case, it will be pure game logic, where I hope to take advantage of Rust’s paranoid safety. If Rust doesn’t work out, I’ll give [Zig](https://ziglang.org/) a try.
 
 3. Decide whether there will be any financial collaboration with Mad Crusaders or not.
 
@@ -216,18 +213,18 @@ With the MVP, I also want to explore two things I’ve been meaning to try for a
 
 7. Learn 1000 new English words. Fiction literature should help there.
 
-Not that I have a poor vocabulary, but Harry Potter showed that I have some unexpected gaps in everyday vocabulary :-)
+    Not that I have a poor vocabulary, but Harry Potter showed that I have some unexpected gaps in everyday vocabulary :-)
 
 8. Translate the top 10 Russian blog posts into English.
 
 9. Finish improving my management theory.
 
-- Finish reading books.
-- Form my vision of project management.
-- Prepare arguments for my vision.
+    - Finish reading books.
+    - Form my vision of project management.
+    - Prepare arguments for my vision.
 
 10. Quit drinking cola without getting hooked on an alternative source of caffeine.
 
-Quite an unexpected point. My wife and I calculated that I spent almost €1000 on cola in half a year. I mostly drank caffeine-free cola, but it’s still not healthy.
+    Quite an unexpected point. My wife and I calculated that I spent almost €1000 on cola in half a year. I mostly drank caffeine-free cola, but it’s still not healthy.
 
 11. Start looking for a job if my projects don’t work out.
