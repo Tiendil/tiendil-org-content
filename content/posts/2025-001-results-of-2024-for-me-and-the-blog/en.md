@@ -89,77 +89,77 @@ Country  | Unique visitors
 
 Germany is so high because I'm the most active reader of this blog :-D
 
-## Выполнение планов
+## Progress on plans
 
-По планам из [прошлогодних итогов]{post:@choose-nearest-language:results-of-2023-for-me-and-the-blog}.
+Regarding the plans from [last year’s review]{post:@choose-nearest-language:results-of-2023-for-me-and-the-blog}.
 
->  Завершить переезд в Германию.
+> Finish moving to Germany.
 
-Завершил, в этом месяце получаю resident permit в пластике.
+Done, this month I'm getting my resident permit in plastic.
 
-> Порешать большую часть (накопившихся) бытовых вопросов.
+> Resolve the majority of (accumulated) everyday issues.
 
-Порешали с женой на пару. Обустроились, надеюсь хотя бы два года переезжать не придётся.
+My wife and I tackled them together. We got settled, and hopefully, we won’t have to move again for at least two years.
 
-> Закончить обучение в [Product Vision Masters]{post:@choose-nearest-language:making-a-fictional-universe-month-1} на какой-нибудь хорошей ноте.
+> Finish the [Product Vision Masters]{post:@choose-nearest-language:making-a-fictional-universe-month-1} training on a good note.
 
-Обучение закончил [итоговой презентацией]{post:@choose-nearest-language:world-builders-2023-final-presentation}, [бизнес планом]{post:world-builders-2023-business-plan-example} и [техническим прототипом]{post:simulation-of-public-opinion-in-a-game}.
+I finished with a [final presentation]{post:@choose-nearest-language:world-builders-2023-final-presentation}, [business plan]{post:world-builders-2023-business-plan-example}, and [technical prototype]{post:simulation-of-public-opinion-in-a-game}.
 
-Дальше пока никуда не двигаюсь — весь первый набор участников ждёт Mad Crusaders, пока фонд ищет финансирование и решает юридические вопросы.
+For now, all activities are on hold — the entire group of students is waiting while Mad Crusaders looks for funding and sorts out legal issues.
 
-Кстати, рекомендую [лекции второго набора World Builders](https://www.youtube.com/watch?v=Td8_fEOQ8E4&list=PLsMUuz1UmdpmkXqvLR6RbnJL_gfPVYuE8). [Ярополк Раш](https://www.linkedin.com/in/yarrrash/) проделал большую работу по формализации и сжатию материалов прошлого года — подача материала стала структурированнее, понятнее и короче. Если в прошлом году лекции имели формат экспромта, то в этом уже похожи на лекции.
+By the way, I recomend [the lectures from the second World Builders class](https://www.youtube.com/watch?v=Td8_fEOQ8E4&list=PLsMUuz1UmdpmkXqvLR6RbnJL_gfPVYuE8). [Yarr Rash](https://www.linkedin.com/in/yarrrash/) has done a lot of work to formalize and compress the materials from last year — the lecture became more structured, understandable, and shorter. While last year’s lectures had more of an impromptu format, this year they actually feel like proper lectures.
 
-> Попиарить [Feeds Fun]{post:@choose-nearest-language:feeds-fun-news-reader-with-tags-and-chatgpt}. По итогам определиться с будущим проекта.
+> Try to promote [Feeds Fun]{post:@choose-nearest-language:feeds-fun-news-reader-with-tags-and-chatgpt}. Based on the results, decide on the project’s future.
 
-Не успел в прошлом году, переносится на этот.
+Didn't have time last year, moving it to this one.
 
-Новостные рассылки и теги оказались куда более сложными штуками, чем выглядят со стороны. Feeds Fun активно развивается, но до более-менее удобного использования ещё далеко.
+News feeds and tagging turned out to be much more complex than they appear at the first glance. Feeds Fun is actively evolving, but it’s still far from being user-friendly.
 
-> Отдохнуть/выдохнуть.
+> Take a break/catch my breath.
 
-Вроде как отдохнул, но иногда есть в этом сомнения :-)
+I guess I rested a bit, but sometimes I doubt it :-)
 
-> Вернуться к чтению и обзорам книг.
+> Return to reading and reviewing books.
 
-Вернулся.
+Returned.
 
-В 2024 написал 5 обзоров:
+In 2024, I wrote 5 reviews:
 
-- [Как устроена экономика]{post:about-book-economics-the-users-guide}
-- [Сеть и Бабочка]{post:about-book-the-net-and-the-butterfly}
+- [Economics: the user's guide]{post:about-book-economics-the-users-guide}
+- [The Net and the Butterfly]{post:about-book-the-net-and-the-butterfly}
 - [Piranesi]{post:about-book-piranesi}
-- [Сигнал и Шум]{post:review-of-the-signal-and-the-noise}
-- [Гарри Поттер]{post:about-book-harry-potter}
+- [The Signal and the Noise]{post:review-of-the-signal-and-the-noise}
+- [Harry Potter]{post:about-book-harry-potter}
 
-Кроме этого прочитал 5 хороших книг по менеджменту и смежным темам, но решил их отдельно не обозревать, так как это легко отняло бы до месяца времени (учитывая скорость написания постов и мою нелюбовь к некоторым менеджерским практикам). Вместо этого будет один большой пост с обзором литературы на тему, когда я закончу со всем списком.
+Besides that, I read 5 good books on management and related topics, but decided not to review them separately, as it would easily take up to a month (considering my writing speed and my dislike for some management practices). Instead, I plan to write one big post reviewing all the books once I finish the entire list.
 
-> Перед поиском работы попробовать запустить минимум один свой проект. Варианты: Feeds Fun, что-то по итогам Product Vision Masters, «Сказка 2.0», что-то ещё.
+> Before looking for a job, try to launch at least one of my projects. Options: Feeds Fun, something from the Product Vision Masters, "The Tale 2.0", or something else.
 
-В процессе, переносится на этот год.
+In progress, postponed to this year.
 
-> Перевести блог на новый движок.
+> Migrate the blog to a new engine.
 
 Done.
 
-> Начать исправлять свой английский.
+> Start fixing my English.
 
-Начал довольно условно — Duolingo + блог на английском + чтение англоязычной художки. Надо практиковать речь, поэтому переносится на этот год.
+I started, but in a very basic way — using Duolingo, blogging in English, and reading English fiction and technical books. What I need most is to practice speaking, so I’m pushing this to next year.
 
-> Начать писать посты на английском или переводить существующие.
+> Start writing posts in English or translating existing ones.
 
-Писать начал, переводить не было времени :-( Поэтому переводы переносятся на этот год.
+Started writing, but didn’t have time to translate :-( Therefore, plans on translations are moved to this year.
 
-> Найти работу, если со своими проектами не выгорит.
+> Find a job if my projects don’t work out.
 
-Прогресс в своих проектах идёт, но медленнее, чем хотелось бы. Поэтому переносится на этот год.
+I have some progress in my projects, so no job search yet. Postponed to this year.
 
-> Развивать [экзокортекс]{tags:exocortex}, переходя на личные инстансы open-source альтернатив софта.
+> Develop my [exocortex]{tags:exocortex} by transitioning to personal instances of open-source software alternatives.
 
-Кроме блога, пожалуй, ничего не перенёс. Совсем нет времени. Пока эта активность на паузе.
+Aside from the blog, I haven’t migrated anything else. There’s just no time. For now, this activity is on hold.
 
-> Закрыть пробелы в менеджерских знаниях.
+> Fill the gaps in my management theory.
 
-В процессе, план чтения выполнен на 50%. Переносится на этот год.
+In the process, the reading plan is 50% complete. Moving to this year.
 
 ## Вне планов на год
 
@@ -229,3 +229,5 @@ Done.
 10. Слезть с колы и не подсесть на альтернативный кофеин.
 
 Неожиданный пункт, но мы с женой тут посчитали, что за полгода я выпил колы почти на 1000 евро — в основном на бескофеиновую, но всё равно это не похоже на здоровое питание. Надо с этим завязывать.
+
+11. Начать искать работу, если мои не выстрелят.
