@@ -193,18 +193,18 @@ I released:
 - [Changy](https://github.com/Tiendil/changy) — a changelog manager for people.
 - [Lore of The Tale game](https://the-tale.notion.site).
 
-## Планы на следующий год
+## Plans for the next year
 
-1. Определиться с будущим [Feeds Fun]{post:@choose-nearest-language:feeds-fun-news-reader-with-tags-and-chatgpt}: бизнес или хобби. Попиарить, собрать фидбек, пофиксить, попиарить ещё раз, сделать несколько таких циклов, принять решение.
+1. Decide the future of [Feeds Fun]{post:@choose-nearest-language:feeds-fun-news-reader-with-tags-and-chatgpt}: business or hobby. Promote it, gather feedback, fix issues, promote again, repeat the cycle a few times, and then make a decision.
 
-2. Сделать MVP [игры]{post:simulation-of-public-opinion-in-a-game}, которую очертил на занятиях [World Builders]{tags:world-builders-2023}.
+2. Make an MVP of the [game]{post:simulation-of-public-opinion-in-a-game} I outlined during the [World Builders]{tags:world-builders-2023} classes.
 
-Вырисовывающиеся механики мне нравятся, надо довести эксперимент до логичного финала.
+I like the mechanics that are shaping up and want to push the experiment to a logical conclusion.
 
-Попутно посмотрю две штуки, которые давно хотел попробовать:
+With the MVP, I also want to explore two things I’ve been meaning to try for a long time:
 
-- [Godot](https://godotengine.org/) как движок для инди игр.
-- [Rust](https://www.rust-lang.org/) как язык для реализации сложной логики. В моём случае это будет чистая игровая логика, где я надеюсь получить профит от параноидальной безопасности Rust. Если Rust не зайдёт, попробую [Zig](https://ziglang.org/).
+- [Godot](https://godotengine.org/) as an game engine for indie games.
+- [Rust](https://www.rust-lang.org/) as a language for implementing complex logic. In my case, it will be pure game logic, where I hope to take advantage of Rust’s paranoid safety. If Rust doesn’t work out, I’ll give [Zig](https://ziglang.org/) a try.
 
 3. Определиться будет какое-то финансовое взаимодействие с Mad Crusaders или нет.
 
