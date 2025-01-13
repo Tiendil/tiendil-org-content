@@ -8,7 +8,7 @@ seo_image = "cover.png"
 
 /// brigid-images
 src = "cover.png"
-caption = "Blog statistics for 2024. An accurate statistics start around March, as the blog used the old analytics service from January to mid-February."
+caption = "Blog statistics for 2024. Accurate statistics start around March, as the blog used the old analytics service from January to mid-February."
 ///
 
 Let me share what I was up to in 2024, how [my plans for the outgoing year]{post:@choose-nearest-language:results-of-2023-for-me-and-the-blog} turned out, and what I plan for the year ahead.
@@ -17,15 +17,15 @@ Let me share what I was up to in 2024, how [my plans for the outgoing year]{post
 
 ## Blog
 
-At the beginning of the year, I [moved the blog to a custom engine]{post:@choose-nearest-language:blog-moved-to-brigid-engine} and I'm very happy with it. Of course, the [engine sources are open](https://github.com/Tiendil/brigid). [Post sources](https://github.com/Tiendil/tiendil-org-content) are open too and are comfortably hosted on GitHub. When I want to make a post, I create a branch and start writing.
+At the beginning of the year, I [moved the blog to a custom engine]{post:@choose-nearest-language:blog-moved-to-brigid-engine}, and I'm very happy with it. Of course, the [engine sources are open](https://github.com/Tiendil/brigid). [Post sources](https://github.com/Tiendil/tiendil-org-content) are open too and are comfortably hosted on GitHub. When I want to make a post, I create a branch and start writing.
 
 The blog has become multilingual, with cool tag navigation, controlled suggestions for related posts, and clear SEO. There is still room for improvement, but nothing urgent. I am particularly proud that I managed to implement all of this in about a month, if not faster.
 
-Thanks to multilingual support, I’ve started writing posts in both Russian and English (except for a few that didn’t make sense to translate). For now, I write in Russian first and then translate into English. Maybe in the future I will switch the order.
+Thanks to multilingual support, I’ve started writing posts in both Russian and English (except for a few that didn’t make sense to translate). For now, I write in Russian first and then translate a post into English. Maybe in the future, I will switch the order.
 
-It turned out that my Russian is quite difficult to translate idiomatically. I try to keep the language simple, but sayings and unique phrases still slip in. Sentence structure (and therefore the flow of thoughts) doesn’t transfer smoothly from Russian to English either. So, even though I've learned to write Russian posts faster, it still takes just as long to complete a post as before — 2-3 days.
+It turned out that my Russian is quite difficult to translate idiomatically. I try keeping the language simple, but sayings and unique phrases still slip in. Sentence structure (and therefore the flow of thoughts) doesn’t transfer smoothly from Russian to English either. So, even though I've learned to write Russian posts faster, it still takes just as long to complete a post as before — 2-3 days.
 
-Along with migrating to the new engine, I moved the blog to a new analytics system — [Plausible](https://plausible.io/). It requires a monthly subscription but it doesn't leak data to corporations and anonymizes everything it can. So far, I'm happy with it.
+Along with migrating to the new engine, I moved the blog to a new analytics system — [Plausible](https://plausible.io/). It requires a monthly subscription but it doesn't leak data to corporations and anonymizes everything it can. Also, it allows self-hosting as an option. So far, I'm happy with it.
 
 ### Blog statistics
 
