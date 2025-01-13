@@ -206,28 +206,28 @@ With the MVP, I also want to explore two things I’ve been meaning to try for a
 - [Godot](https://godotengine.org/) as an game engine for indie games.
 - [Rust](https://www.rust-lang.org/) as a language for implementing complex logic. In my case, it will be pure game logic, where I hope to take advantage of Rust’s paranoid safety. If Rust doesn’t work out, I’ll give [Zig](https://ziglang.org/) a try.
 
-3. Определиться будет какое-то финансовое взаимодействие с Mad Crusaders или нет.
+3. Decide whether there will be any financial collaboration with Mad Crusaders or not.
 
-4. Если продолжу сотрудничество с Mad Crusaders, то начать делать игру с ними на базе MVP.
+4. If the partnership with Mad Crusaders continues, start making a game with them based on MVP.
 
-5. Если не продолжу сотрудничество с Mad Crusaders И MVP будет играбельный И будет время, выпустить игру в Steam в виде авторской поделки от соло-разработчика.
+5. If I stop working with Mad Crusaders, AND the MVP is playable, AND I have the time, I’ll release the game on Steam as an indie project by a solo developer.
 
-6. Начать систематически тренировать разговорный английский.
+6. Start systematically practicing spoken English.
 
-7. Выучить 1000 новых английских слов. Художественная литература в помощь.
+7. Learn 1000 new English words. Fiction literature should help there.
 
-Не то, чтобы у меня скудный словарный запас, но Гарри Поттер показал, что в бытовой лексике у меня встречаются внезапные пробелы :-)
+Not that I have a poor vocabulary, but Harry Potter showed that I have some unexpected gaps in everyday vocabulary :-)
 
-8. Перевести топ 10 русскоязычных постов на английский.
+8. Translate the top 10 Russian blog posts into English.
 
-9. Закончить подтягивание менеджерских знаний.
+9. Finish improving my management theory.
 
-- дочитать книги;
-- сформировать своё видение управления проектом;
-- подобрать аргументы под видение.
+- Finish reading books.
+- Form my vision of project management.
+- Prepare arguments for my vision.
 
-10. Слезть с колы и не подсесть на альтернативный кофеин.
+10. Quit drinking cola without getting hooked on an alternative source of caffeine.
 
-Неожиданный пункт, но мы с женой тут посчитали, что за полгода я выпил колы почти на 1000 евро — в основном на бескофеиновую, но всё равно это не похоже на здоровое питание. Надо с этим завязывать.
+Quite an unexpected point. My wife and I calculated that I spent almost 1000 euros on cola in half a year. I mostly drank caffeine-free cola, but it’s still not healthy.
 
-11. Начать искать работу, если мои не выстрелят.
+11. Start looking for a job if my projects don’t work out.
