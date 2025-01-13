@@ -2,7 +2,7 @@
 title = "Results of 2024 for me and the blog"
 tags = [ "blog", "practice", "reflection",]
 published_at = "2025-01-13T12:00:00+00:00"
-seo_description = "What I was doing in 2024, how the plans for the outgoing year went, and what the plans for the coming year are."
+seo_description = "What I was doing in 2024, how the plans for the outgoing year went and what the plans for the coming year are."
 seo_image = "cover.png"
 ---
 
@@ -19,24 +19,24 @@ Let me share what I was up to in 2024, how my plans for the outgoing year turned
 
 ## Blog
 
-At the beginning of the year, I [moved the blog to a custom engine](post:@choose-nearest-language:blog-moved-to-brigid-engine) and I'm very happy with it. Of course, the [engine sources are open](https://github.com/Tiendil/brigid). [Post sources](https://github.com/Tiendil/tiendil-org-content) are open too and are comfortably hosted on GitHub, when I want to make a post, I create a branch and start writing.
+At the beginning of the year, I [moved the blog to a custom engine](post:@choose-nearest-language:blog-moved-to-brigid-engine) and I'm very happy with it. Of course, the [engine sources are open](https://github.com/Tiendil/brigid). [Post sources](https://github.com/Tiendil/tiendil-org-content) are open too and are comfortably hosted on GitHub. When I want to make a post, I create a branch and start writing.
 
 The blog has become multilingual, with cool tag navigation, controlled suggestions for related posts, and clear SEO. There is still room for improvement, but nothing urgent. I am particularly proud that I managed to implement all of this in about a month, if not faster.
 
-Thanks to multilingual support, I’ve started writing posts in both Russian and English (except for a few that didn’t make sense to translate).. For now, I write in Russian first and then translate into English. Maybe in the future I will switch the order.
+Thanks to multilingual support, I’ve started writing posts in both Russian and English (except for a few that didn’t make sense to translate). For now, I write in Russian first and then translate into English. Maybe in the future I will switch the order.
 
 It turned out that my Russian is quite difficult to translate idiomatically. I try to keep the language simple, but sayings and unique phrases still slip in. Sentence structure (and therefore the flow of thoughts) doesn’t transfer smoothly from Russian to English either. So, even though I've learned to write Russian posts faster, it still takes just as long to complete a post as before — 2-3 days.
 
-Along with migrating to the new engine, I moved the blog to a new analytics system — [Plausible](https://plausible.io/). It requires a monthly subscription, but it doesn't leak data to corporations and anonymizes everything it can. So far, I'm happy with it.
+Along with migrating to the new engine, I moved the blog to a new analytics system — [Plausible](https://plausible.io/). It requires a monthly subscription but it doesn't leak data to corporations and anonymizes everything it can. So far, I'm happy with it.
 
 ### Blog statistics
 
-I wrote 35 posts in the year — twice as many as the previous one. I'm on another subbatical, so it's understandable.
+I wrote 35 posts in the year — twice as many as the previous one. I'm on another sabbatical, so it's understandable.
 
 Due to the migration to the new analytics system, it's hard to compare traffic with the previous year. Here's how it looks:
 
 - The number of unique visitors per month from March to December doubled and exceeded 14k for the entire year. Hooray!
-- Visitors to the English version made up a quarter of the Russian one or about 20% of the total.
+- Visitors to the English version made up a quarter of the Russian one, which is about 20% of the total.
 - Visits from Google hovered around 500 per month.
 
 The English version of the blog started from zero posts, so I think the results are pretty good. To be fair, I do occasionally promote the English posts (mostly on Reddit), while I don't promote the Russian ones (I'm not sure where it would make sense to do so;  tried posting on Habr a couple of times, but the results weren’t great).
@@ -117,7 +117,7 @@ News feeds and tagging turned out to be much more complex than they appear at th
 
 > Take a break/catch my breath.
 
-I guess I rested a bit, but sometimes I doubt it :-)
+I guess I rested a bit, but sometimes I doubt it. :-)
 
 > Return to reading and reviewing books.
 
@@ -147,7 +147,7 @@ I started, but in a very basic way — using Duolingo, blogging in English, and 
 
 > Start writing posts in English or translating existing ones.
 
-Started writing, but didn’t have time to translate :-( Therefore, plans on translations are moved to this year.
+Started writing, but didn’t have time to translate. :-( Therefore, plans on translations are moved to this year.
 
 > Find a job if my projects don’t work out.
 
@@ -177,11 +177,11 @@ An unexpected and pleasant result for me.
 
 I used to love reading fiction, but adult life after university took over, and I lost the time for it, with rare exceptions.
 
-I managed to get back into reading by combining it with improving my English. Now I’m diving into English-language literature, something I’ve been wanting to do for a long time.
+I managed to get back into reading by combining it with improving my English. Now, I’m diving into English-language literature, something I’ve been wanting to do for a long time.
 
 Turns out, reading in the evenings is a good replacement for games and TV shows. I thought it would require more brainpower, but no.
 
-One fun discovery from the last year: I found Susanna Clarke’s vocabulary in [Piranesi]{post:about-book-piranesi} more familiar than J.K. Rowling’s in [Harry Potter]{post:about-book-harry-potter}.
+One fun discovery from the last year: I found Susanna Clarke’s vocabulary in [Piranesi]{post:about-book-piranesi} seemed more familiar than J.K. Rowling’s in [Harry Potter]{post:about-book-harry-potter}.
 
 For 2025, I’ve already ordered [Terry Pratchett’s](https://en.wikipedia.org/wiki/Terry_Pratchett) [Witches](https://en.wikipedia.org/wiki/Discworld_witches) series, and it should arrive soon. If I like it, I’ll dive into the entire Discworld series. :-D
 
@@ -228,6 +228,6 @@ Not that I have a poor vocabulary, but Harry Potter showed that I have some unex
 
 10. Quit drinking cola without getting hooked on an alternative source of caffeine.
 
-Quite an unexpected point. My wife and I calculated that I spent almost 1000 euros on cola in half a year. I mostly drank caffeine-free cola, but it’s still not healthy.
+Quite an unexpected point. My wife and I calculated that I spent almost €1000 on cola in half a year. I mostly drank caffeine-free cola, but it’s still not healthy.
 
 11. Start looking for a job if my projects don’t work out.
