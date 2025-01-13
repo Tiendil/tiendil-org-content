@@ -161,37 +161,37 @@ Aside from the blog, I haven’t migrated anything else. There’s just no time.
 
 In the process, the reading plan is 50% complete. Moving to this year.
 
-## Вне планов на год
+## Outside of the yearly plans
 
-Некоторые вещи не входили в планы, но случились.
+Some things weren’t planned, but happened.
 
-### Остановил Сказку
+### Stopped "The Tale"
 
-Давно пора было, да всё времени не находил. В итоге к осени состояние Сказки дошло до точки, когда поддерживать её стало себе дороже.
+It had been a long time coming, but I just couldn’t find time for it. By fall, "The Tale" had gotten to the point where operating it cost more than it was worth.
 
-[Лор игры]{post:@choose-nearest-language:the-tale-lore-cc-by} мы открыли для использования всеми желающими.
+[The lore of the game]{post:@choose-nearest-language:the-tale-lore-cc-by} is now open for anyone to use.
 
-### Вернулся к чтению художественной литературы
+### Returned to reading fiction
 
-Неожиданный и приятный для меня итог года.
+An unexpected and pleasant result for me.
 
-Раньше любил это дело, но как после универа взрослая жизнь закрутила, так время на чтение художки пропало, за редкими исключениями.
+I used to love reading fiction, but adult life after university took over, and I lost the time for it, with rare exceptions.
 
-Удалось вернуться к чтению, совместив его с подтягиванием английского. Так что теперь погружаюсь в англоязычную литературу, что тоже давно хотел сделать.
+I managed to get back into reading by combining it with improving my English. Now I’m diving into English-language literature, something I’ve been wanting to do for a long time.
 
-Оказалось, чтение вечерами хорошо заменяет игры и сериалы, думал, будет требовать больше мозга, но нет.
+Turns out, reading in the evenings is a good replacement for games and TV shows. I thought it would require more brainpower, but no.
 
-Из забавных открытий прошлого года: словарь [Сюзанны Кларк в Piranesi]{post:about-book-piranesi} для меня оказался ближе, чем словарь [Джоан Роулинг в Гарри Поттере]{post:about-book-harry-potter}.
+One fun discovery from the last year: I found Susanna Clarke’s vocabulary in [Piranesi]{post:about-book-piranesi} more familiar than J.K. Rowling’s in [Harry Potter]{post:about-book-harry-potter}.
 
-На 2025 год уже заказал серию о [Ведьмах](https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B4%D1%8C%D0%BC%D1%8B_(%D0%9F%D0%BB%D0%BE%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%B8%D1%80)) [Терри Пратчетта](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D1%82%D1%87%D0%B5%D1%82%D1%82,_%D0%A2%D0%B5%D1%80%D1%80%D0%B8), скоро приедет. Если зайдёт, буду читать всю серию Плоского мира :-D
+For 2025, I’ve already ordered [Terry Pratchett’s](https://en.wikipedia.org/wiki/Terry_Pratchett) [Witches](https://en.wikipedia.org/wiki/Discworld_witches) series, and it should arrive soon. If I like it, I’ll dive into the entire Discworld series. :-D
 
 ### Open source
 
-Выложил в open source:
+I released:
 
-- [Brigid](https://github.com/Tiendil/brigid) — движок блога.
-- [Changy](https://github.com/Tiendil/changy) — менеджер changelog'ов для людей.
-- [Лор Сказки](https://the-tale.notion.site).
+- [Brigid](https://github.com/Tiendil/brigid) — this blog engine.
+- [Changy](https://github.com/Tiendil/changy) — a changelog manager for people.
+- [Lore of The Tale game](https://the-tale.notion.site).
 
 ## Планы на следующий год
 
