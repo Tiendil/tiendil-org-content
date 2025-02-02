@@ -1,5 +1,5 @@
 ---
-title = "Ожидания от проекта Stargate "
+title = "Ожидания от проекта Stargate"
 tags = [ "theory", "futurology", "neural-networks", "systems"]
 published_at = "2025-02-02T12:00:00+00:00"
 seo_description = "Как повлияет проект Stargate на жизнь обычных людей."
