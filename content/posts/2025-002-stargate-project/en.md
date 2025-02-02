@@ -11,7 +11,7 @@ src = "cover.jpg"
 caption = "Stargate (c) ChatGPT"
 ///
 
-In January, there was a lot of talk about the [Stargate Project](https://en.wikipedia.org/wiki/Stargate_LLC) — the U.S. initiative to develop AI with a budget of $0.5 billion. In terms of investment, it is comparable to the [Manhattan Project](https://en.wikipedia.org/wiki/Manhattan_Project) (creating the atomic bomb) and the [Apollo Program](https://en.wikipedia.org/wiki/Apollo_program) (the first humans on the Moon).
+In January, there was a lot of talk about the [Stargate Project](https://en.wikipedia.org/wiki/Stargate_LLC) — the U.S. initiative to develop AI with a budget of $0.5 trillion. In terms of investment, it is comparable to the [Manhattan Project](https://en.wikipedia.org/wiki/Manhattan_Project) (creating the atomic bomb) and the [Apollo Program](https://en.wikipedia.org/wiki/Apollo_program) (the first humans on the Moon).
 
 Stargate is an interesting and undoubtedly important project for humanity, and it will most likely lead to significant results. But let's not be overly optimistic about it.
 
