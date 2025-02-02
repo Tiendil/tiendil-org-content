@@ -11,7 +11,7 @@ src = "cover.jpg"
 caption = "Stargate (c) ChatGPT"
 ///
 
-В январе было много разговоров про [проект Stargate](https://ru.wikipedia.org/wiki/The_Stargate_Project) — инициативу США по развитию ИИ с бюджетом в 0.5 миллиарда $. По вложениям она сопоставима с [проектом Manhattan](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D1%85%D1%8D%D1%82%D1%82%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82) (создание атомной бомбы) и [программой Аполлон](https://ru.wikipedia.org/wiki/%D0%90%D0%BF%D0%BE%D0%BB%D0%BB%D0%BE%D0%BD_(%D0%BA%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0)) (высадка человека на Луну).
+В январе было много разговоров про [проект Stargate](https://ru.wikipedia.org/wiki/The_Stargate_Project) — инициативу США по развитию ИИ с бюджетом в 0.5 триллиона $. По вложениям она сопоставима с [проектом Manhattan](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D1%85%D1%8D%D1%82%D1%82%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82) (создание атомной бомбы) и [программой Аполлон](https://ru.wikipedia.org/wiki/%D0%90%D0%BF%D0%BE%D0%BB%D0%BB%D0%BE%D0%BD_(%D0%BA%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0)) (высадка человека на Луну).
 
 Stargate — проект интересный и важный для человечества, скорее всего он приведёт к сильным результатам. Но не стоит воспринимать его чрезмерно оптимистично.
 
