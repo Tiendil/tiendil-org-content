@@ -60,27 +60,27 @@ But I can definitely say that **the structure of your dungeon should be determin
 
 If we have a "story" that we want to tell with a dungeon, then we must build it so that the story is told sequentially. If we mix up the "sequence of rooms," all our plans will go to waste, and the dungeon will become uninteresting or confusing. In some cases, you may want to mix up the sequence of narrative elements intentionally, but this is a separate topic.
 
-## Контекст подземелья
+## Dungeon context
 
-Цель существования подземелья мы определили, как и первое, самое важное, ограничение его структуры.
+We've defined the purpose of the dungeon as the most important requirement for its structure.
 
-Столь же существенным, хотя и чуть менее приоритетным, является соответствие подземелья [контексту](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82), в котором оно существует. **Подземелье должно органично вписываться в окружение игры**: соответствовать вселенной, текущей ситуации в игре, возможностям игроков.
+Just as essential, though slightly less critical, is ensuring the dungeon aligns with the context in which it exists. **The dungeon should organically fit into the game environment**: corresponding to the game world, the current situation in the game, and the players' capabilities.
 
-В большинстве случаев (но не во всех) будет плохой идеей вести игроков:
+In most cases (but not all), it will be a bad idea to lead players:
 
-- в непроходимое подземелье;
-- в логово средневековой гильдии воров, расположенное на космической станции;
-- в логово некроманта, выглядящее как бордель.
+- into a too complex dungeon;
+- into a lair of a medieval thieves' guild located on a space station;
+- into a necromancer's base that looks like a brothel.
 
-Поэтому, перед созданием подземелья необходимо выделить существенные свойства контекста, в особенности:
+Therefore, before creating a dungeon, it is necessary to identify the essential properties of the context, especially:
 
-- Исторический период: текущий и времени постройки подземелья.
-- Культуру создателей и актуальных владельцев. Материальную и духовную, на случай если понадобится добавить фрески или книгу, а это обязательно понадобится.
-- Доступные технологии и ресурсы для его постройки и ремонта: деревянный форт в пустыне будет выглядеть комично.
-- Виды существ, которые могут его населять.
-- Этап игры на котором игроки попадут в подземелье, желательные параметры их персонажей.
+- The historical period: current and the time of construction of the dungeon.
+- The cultures of the creators and current owners. Both material and spiritual, in case you need to add frescoes or a book, and you will need them.
+- The available technologies and resources for its construction and repair: a wooden fort in the desert will look comical.
+- The kinds of beings that can inhabit it.
+- The stage of the game at which players will enter the dungeon, the desired parameters of their characters.
 
-Кстати, подобную информацию об игровых объектах удобно записывать и хранить в виде карточек с кратким описанием свойств объекта. Они упростят вашу жизнь, когда надо будет что-то вспомнить или создать новый объект по образу и подобию предыдущего. Подробнее про карточки я говорил в [рассказе о проектировании миров]{post:about-worlds-building}.
+By the way, it is convenient to record and store such information about game objects in the form of cards with a brief description of the object's properties. Those cards will make your life easier when you need to remember something or create a new object based on the previous one. I talked more about cards in my [post about world building]{post:@choose-nearest-language:about-worlds-building}.
 
 ## Живое подземелье
 
