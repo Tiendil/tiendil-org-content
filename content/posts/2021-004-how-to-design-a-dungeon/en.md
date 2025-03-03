@@ -82,7 +82,7 @@ Therefore, before creating a dungeon, it is necessary to identify the essential 
 
 By the way, it is convenient to record and store such information about game objects in the form of cards with a brief description of the object's properties. Those cards will make your life easier when you need to remember something or create a new object based on the previous one. I talked more about cards in my [post about world building]{post:@choose-nearest-language:about-worlds-building}.
 
-## Живое подземелье
+## Living dungeon
 
 Если просто накидать комнат с врагами и ловушками, то с большой вероятностью игроки будут ощущать подземелье как картонные декорации в спектакле, направленном на них. Это может сыграть на пользу, если мы делаем игру в жанре сатиры, но в большинстве случаев такие ощущения совсем не то, что нам и игрокам хотелось бы получить.
 
