@@ -1,64 +1,64 @@
 ---
-title = "Как придумать подземелье"
+title = "How to design a dungeon"
 tags = [ "gamedev", "game-design", "theory", "interesting", "best", "world-design"]
-published_at = "2021-01-17T12:00:00+00:00"
-seo_description = "Рекомендации по созданию подземелий для игр: как смотреть на подземелье с точки зрения опыта игрока, на что обратить внимание при разработке."
+published_at = "2025-03-04T12:00:00+00:00"
+seo_description = "Recommendations for creating game dungeons: how to look at a dungeon from a player's perspective, what to pay attention to when developing."
 seo_image = "images/how-to-design-a-dungeon-cover.jpg"
 ---
 
 /// brigid-images
 src = "images/how-to-design-a-dungeon-cover.jpg"
-caption = "Источник: [Pinterest](https://www.pinterest.com/pin/559994534913996418/?)"
+caption = "Source: [Pinterest](https://www.pinterest.com/pin/559994534913996418/?)"
 ///
 
-В пост [о генерации подземелий]{post:dungeon-generation-from-simple-to-complex} часто приходят люди, которые ищут урок по придумыванию подземелья, а не по программированию. Для партии в [D&D](https://ru.wikipedia.org/wiki/Dungeons_%26_Dragons), например.
+A lot of people come to the post [about dungeon generation](post:dungeon-generation-from-simple-to-complex) when looking for a lesson on designing a dungeon, not programming it. For a [DnD](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) session, for example.
 
-Чтобы никто не ушёл обиженным, вот небольшой набор рекомендаций на тему. Рекомендации подойдут не только для подземелий, но и для разработки любой локации.
+To make sure no one feels left out, here are some recommendations on the topic. The recommendations are suitable not only for dungeons but also for developing any location.
 
-Дополнительно советую почитать:
+I also recommend reading my other essays on game design:
 
-- [О создании названий]{post:about-names-creation}
-- [О проектировании миров]{post:about-worlds-building}
-- [Следующий фронтир геймдизайна]{post:next-gamedesign-frontier}
+- [About creating names]{post:@choose-nearest-language:about-names-creation}
+- [About world building]{post:@choose-nearest-language:about-worlds-building}
+- [The next frontier of game design]{post:@choose-nearest-language:next-gamedesign-frontier}
 
-Последнее эссе больше о дизайне компьютерных игр, но содержит несколько важных соображений, которые я в дальнейшем буду использовать.
+The last essay is more about designing computer games, but it contains some important thoughts that I will use in the future.
 
 <!-- more -->
 
-## Зачем нужно подземелье?
+## Why do you need a dungeon?
 
-Некроманту подземелье нужно, чтобы создавать нежить, проводить опыты над людьми и, возможно, жить.
+Necromancers need a dungeon to create undead, conduct experiments on people, and, possibly, to live happily.
 
-Сумасшедшему учёному оно нужно, опять таки, как научная лаборатория.
+A mad scientist needs a dungeon as a scientific laboratory.
 
-Ворам — как сокровищница и место планирования будущих операций.
+Thieves need a dungeon as a treasure trove and a place to plan future operations.
 
-Правителям — чтобы держать в нём преступников.
+Rulers need a dungeon to keep criminals in it.
 
-Вам же, как геймдизайнеру или гейммастеру, подземелье ни для чего из этого не нужно. Равно как и игрокам, даже когда они думают иначе. Конечно, если вы не сумасшедший учёный или вампир.
+You, as a game designer or game master, don't need a dungeon for any of these reasons. Nor do the players need it for something like that, even if they think otherwise. Of course, unless you are a mad scientist or a vampire.
 
-В игре **подземелье используется как инструмент для создания у игроков необходимого опыта**. Как и любая другая локация.
+In a game, **a dungeon is a tool for creating the necessary experience for players**. Like any other location.
 
-Конкретный тип опыта зависит от игры и игроков. Быть может вы хотите их повеселить? Озадачить, проучить, напрячь или напугать? Может быть даже всё вышеперечисленное вместе плюс ещё немного.
+The specific type of experience depends on the game and the players. Maybe you want to entertain them? To puzzle, to teach, to strain, or to scare? Maybe even all of the above plus a little more.
 
-Скорее всего **вы хотите создать цепочку опыта и впечатлений**:
+Most likely **you want to create a chain of experiences and impressions**, something like this:
 
-1. Заинтриговать их у входа в подземелье.
-2. Погрузить в атмосферу неопределённости.
-3. Обмануть.
-4. Поставить персонажей на грань жизнь и смерти.
-5. Снять напряжение толикой юмора.
-6. Научить решать шахматные задачи.
-7. Поставить перед моральным выбором.
-8. Опять на грань жизни и смерти.
-9. Продемонстрировать, что каждое решение имеет последствия.
-10. Вознаградить (или нет) за усилия.
+1. Intrigue players near the entrance to the dungeon.
+2. Immerse them in an atmosphere of uncertainty.
+3. Deceive them.
+4. Put the characters on the brink of life and death.
+5. Relieve tension with a bit of humor.
+6. Teach them to solve chess problems.
+7. Put them before a moral choice.
+8. Again on the brink of life and death.
+9. Remind them that every decision has consequences.
+10. Reward (or not) for their efforts.
 
-Чтобы правильно строить такие цепочки, надо знать немного психологии, сценарного мастерства и своих игроков, конечно. Тут я мало что могу посоветовать.
+To build such chains correctly, you need to know a little psychology, scriptwriting, and, of course, your players. Here I can't give much advice.
 
-Зато точно скажу, что **структура вашего подземелья должна в первую очередь определяться именно желаемой последовательностью получаемого опыта**.
+But I can definitely say that **the structure of your dungeon should be determined primarily by the desired sequence of experiences**.
 
-Если у нас есть «история», которую мы хотим рассказать подземельем, то мы должны строить его так, чтобы история рассказывалась последовательно. Стоит нам перепутать «последовательность комнат», как все наши задумки пойдут прахом и подземелье станет неинтересным, будет путать игроков. В некоторых случаях вы можете захотеть смешать последовательность нарративных элементов преднамеренно, но это уже другая история.
+If we have a "story" that we want to tell with a dungeon, then we must build it so that the story is told sequentially. If we mix up the "sequence of rooms," all our plans will go to waste, and the dungeon will become uninteresting or confusing. In some cases, you may want to mix up the sequence of narrative elements intentionally, but this is a separate topic.
 
 ## Контекст подземелья
 
@@ -196,3 +196,5 @@ caption = "Источник: [Pinterest](https://www.pinterest.com/pin/559994534
 В любой локации важно не количество комнат, охраны и ловушек, а опыт, впечатления, которые получают игроки. Именно желаемый опыт, вкупе с миром игры, сюжетом и правилами определяют локацию.
 
 А количество комнат, охраны и ловушек относительно легко выводятся из получаемых ограничений.
+
+TODO: it is a translation
