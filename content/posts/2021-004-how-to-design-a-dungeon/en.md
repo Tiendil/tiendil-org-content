@@ -102,32 +102,32 @@ For a dungeon, this means, for example, that its inhabitants are busy with some 
 
 It is not necessary, and even harmful, to plan and simulate an "realistic" dungeon life. For example, plan the household logic of each inhabitant and manage them. This is a very costly approach, especially because players will not notice the effort. It is much easier to create the illusion of life.
 
-Illusion can be achieved in several ways.
+Such illusion can be achieved in several ways.
 
-### Случайные события
+### Random events
 
-Игроки в большинстве случаев не могут подсмотреть за жизнью подземелья, а способны только сталкиваться с её проявлениями во время движения по нему. Поэтому можно добавить события, которые срабатывают при действиях игроков в заданном контексте.
+Players, in most cases, cannot spy on the life of the dungeon, and can only encounter its manifestations while moving through it. Therefore, you can add events that occur when players act in a given context.
 
-Например:
+For example:
 
-1. При открытии двери уборной можно встретить справляющего нужду жителя подземелья.
-2. При посещении столовой во время обеда, там может быть больше противников. чем в другое время.
-3. Аналогично, в казармах больше противников (спящих) может быть ночью.
-4. Через закрытые двери можно дать послушать бытовые разговоры противников.
+1. When opening the door to the toilet, players can meet a resident of the dungeon who is relieving himself.
+2. When visiting the dining room during lunchtime, players can see the crowd of inhabitants eating.
+3. By analogy, there can be a lot of sleeping enemies in the barracks at night.
+4. Players can listen to opponents' "household" conversations through closed doors.
 
-### Артефакты жизнедеятельности
+### Artifacts of life
 
-Кроме самой жизнедеятельности можно наблюдать и её следы. Да, наваленная в углу куча — тоже след жизнедеятельности. Он, к слову, при проверке на знание лора, расскажет о существовании тролля, который ослаблен расстройством желудка.
+Beyond life itself, one can also observe its traces. Yes, a pile of $#! in the corner is also a trace of life. By the way, upon a lore check, it might reveal the presence of a troll weakened by a stomach disorder.
 
-Артефакты, конечно, бывают и менее жизнедеятельными:
+Of course, artifacts can be less… lively:
 
-1. Официальные бумаги: отчёты снабженцев, рапорты охраны, протоколы экспериментов.
-2. Неофициальные бумаги: личные письма, дневники, записки.
-3. Следы пребывания живых (или мёртвых) в комнатах: лужи в ванной, немытая посуда, недавно выглаженное бельё.
-4. Следы ремонта.
-5. Пыль в местах, которые редко посещаются жителями.
+1. Official papers: suppliers' logs, security reports, experiment protocols.
+2. Unofficial papers: personal letters, diaries, notes.
+3. Traces of active life in rooms: puddles in the bathroom, unwashed dishes, recently ironed linen.
+4. Signs of repair.
+5. Dust in places rarely visited by residents.
 
-Главное помните: **если на столе стоит тарелка с горячим супом, рядом должен быть тот, кто им обедает**.
+The most important thing to remember: **if there is a plate of hot soup on the table, there must be someone eating it nearby**.
 
 ## Якоря
 
