@@ -129,35 +129,35 @@ Of course, artifacts can be less… lively:
 
 The most important thing to remember: **if there is a plate of hot soup on the table, there must be someone eating it nearby**.
 
-## Якоря
+## Anchors
 
-Вот у нас есть живое подземелье, которое вполне соответствует окружающему миру. Но кое-чего не хватает.
+So, we have done a good job and now have a living dungeon that fits into the surrounding world. But something is missing.
 
-Представьте что у нас не одно подземелье, а множество подземелий, городов, хуторов, секретных рощ и подобных мест. Все они проработаны по описанным правилам, размещены где-то в мире игры и игроки путешествуют между ними. Не забыли ли мы что-нибудь, что разрушит погружение игроков в игру?
+Imagine that we have not just one dungeon, but numerous dungeons, cities, villages, hidden groves, and similar locations. All of them are designed according to our rules, placed somewhere in the game world, and players travel between them. Have we forgotten something that may ruin the immersion of players in the game?
 
-С первого взгляда кажется что нет. Приходят игроки в город А, делают там свои дела, их отправляют на хутор Б, оттуда в подземелье В и так далее — всё дальше и дальше по сюжету.
+From the first sight, it seems that we have not. Players come to city A, do their business there, are sent to the village B, from there to the dungeon C, and so on — further and further along the plot.
 
-Что случится, если игроки отойдут в сторону от сюжета и посмотрят на мир со стороны? Хорошие игроки любят это делать.
+But what if players step aside from the plot and look at the world "from the height"? Good players love to do that.
 
-Они увидят, что в городе А знают только о хуторе Б, на хуторе знают только о подземелье, а в подземелье не слышали ни о городе ни о хуторе — они там своими подземными делами занимаются. Или, что также плохо, в каждом из этих мест знают только о событиях из приключения игроков, а ни о каких прочих событиях не слышали.
+They may see that citezens of city A know only about the village B, villagers know only about the dungeon, and the dungeon inhabitants have not heard of the city or the village — they are busy with their underground affairs. Or, which is also not so good, inhabitants of each of these places know only about the events from the players' adventures, and have not heard of any anything else.
 
-Опять налицо картонность, на этот раз не одного подземелья, а целого мира, который построен вокруг истории игроков. Конечно, мир вполне может строится вокруг игроков, часто он должен так строится, но игроки не должны замечать этот маленький обман.
+Again, we may notice artificiality, not of a single dungeon, but of the whole world built around the players' story. Of course, the world can be built around the players (often, should), but the players should not notice this little deception.
 
-Чтобы спрятать ужасную правду, **следует связать контент воедино, заякорить его единицы: места, людей, события — друг на друга**.
+To hide the terrible truth, **it is necessary to connect the content together, anchor its units: places, people, events — one to another**.
 
-Якорь — хороший термин — мы в буквальном смысле пробрасываем из одной сущности в другую что-то небольшое, но цепкое, что позволяет удерживать их вместе.
+An anchor is a good term — we literally throw something small but tenacious from one entity to another, which allows us to hold them together.
 
-Якорем может стать любая мелочь:
+Any trifle can become an anchor:
 
-- слух или сплетня;
-- отрывок письма с упоминанием другой сущности;
-- граффити общей тематики в разных городах;
-- картины с изображением знакомых мест или персонажей;
-- персонажи или организации, встречающиеся в разных местах;
-- анекдот, рассказываемый в таверне, который повторяется везде вдоль маршрута выслеживаемого шпиона;
-- причинно-следственные связи между местами или персонажами, когда случившееся с одним влияет на другого;
-- новости, догоняющие или обгоняющие героев в путешествии;
-- прямые упоминания в разговорах других мест и персонажей, куда ж без этого.
+- a rumor or gossip;
+- a piece of a letter mentioning another entity;
+- graffiti on a common theme in different cities;
+- paintings depicting familiar places or characters;
+- characters or organizations appearing in different places;
+- an anecdote told in a tavern, repeated everywhere along the path of the tracked spy;
+- cause-and-effect relationships between places or characters, when what happens to one affects another;
+- news that follows or race ahead of the heroes in their journey;
+- direct mentions in conversations of other places and characters, where would we be without them.
 
 ## Избыточность
 
