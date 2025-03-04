@@ -84,25 +84,25 @@ By the way, it is convenient to record and store such information about game obj
 
 ## Living dungeon
 
-Если просто накидать комнат с врагами и ловушками, то с большой вероятностью игроки будут ощущать подземелье как картонные декорации в спектакле, направленном на них. Это может сыграть на пользу, если мы делаем игру в жанре сатиры, но в большинстве случаев такие ощущения совсем не то, что нам и игрокам хотелось бы получить.
+If we just throw around rooms with enemies and traps, players will most likely feel the dungeon as cardboard decorations in a theater play aimed at them. This can be beneficial if we are making a satire game, but in most cases, such feelings are not what we and players would like to get.
 
-Подземелье не будет ощущаться «живым». **Игроки должны видеть, что оно, вместе со всеми комнатами и жителями, существует для собственных целей, а не для развлечения путешественников.** Причём не только существует сейчас, но и существовало до их прихода и, возможно, будет существовать после ухода.
+Our dungeon will not feel "alive." **Players should see that it, along with all the rooms and inhabitants, exists for its own purposes, not for the entertainment of travelers**. Moreover, that it not only exists at the moment but existed before players arrival and, maybe, will exist after they leave.
 
-На мой взгляд, термин точно передаёт суть, хотя и имеет расплывчатую формулировку. Для себя я определил более конкретные критерии «живости» мира:
+In my opinion, the term "living" precisely conveys the essence, although it has a vague formulation. For myself, I have defined more specific criteria for the "liveliness" of the world:
 
-1. Правила функционирования мира игрок может узнать и понять.
-2. Будущее локальное состояние мира может быть предсказано игроком с «разумной» точностью.
-3. Причины возникновения текущего локального состояния мира можно определить с «разумной» точностью.
-4. Игрок не выступает единственным источником изменений в мире.
-5. Сущности, например жители подземелья, влияют друг на друга в достаточной мере, чтобы изменения не затухали — состояние мира не замораживалось со временем.
+1. Player can learn and understand the rules of the world.
+2. The player can predict the future local state of the world with reasonable accuracy.
+3. The player can determine the reasons for the current local state of the world with reasonable accuracy.
+4. The player is not the only source of changes in the world.
+5. Entities, such as dungeon inhabitants, influence each other enough to prevent changes from fading — the state of the world does not freeze over time.
 
-Пятый пункт относится скорее к компьютерным играм, а вот 1-4 пункты можно распространять на все.
+The fifth point is more about computer games, but the first four can be applied to everything.
 
-Для подземелья это значит, например, что его жители заняты какой-то работой, а не сидят и ждут пока к ним придут игроки. Некроманты сшивают трупы, охранники — охраняют, повара — готовят. Равно как и общаются на перекурах, пишут письма родным, ругаются и плетут заговоры друг против друга.
+For a dungeon, this means, for example, that its inhabitants are busy with some work, not sitting and waiting for players to come to them. Necromancers sew corpses, guards guard, cooks cook. They also communicate during breaks, write letters to their families, argue, and plot against each other.
 
-Не обязательно, даже вредно, продумывать и симулировать «честную» жизнь подземелья. Например, прописывать бытовую логику каждого жителя и управлять им. Это очень затратный подход, тем более игроки не заметят потраченых усилий. Куда проще создавать иллюзию жизни.
+It is not necessary, and even harmful, to plan and simulate an "realistic" dungeon life. For example, plan the household logic of each inhabitant and manage them. This is a very costly approach, especially because players will not notice the effort. It is much easier to create the illusion of life.
 
-Добиться правдоподобия можно несколькими способами.
+Illusion can be achieved in several ways.
 
 ### Случайные события
 
