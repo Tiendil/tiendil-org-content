@@ -159,42 +159,40 @@ Any trifle can become an anchor:
 - news that follows or race ahead of the heroes in their journey;
 - direct mentions in conversations of other places and characters, where would we be without them.
 
-## Избыточность
+## Redundancy
 
-Последний, но не менее важный момент, который я хочу затронуть.
+The last, but no less important point I want to address.
 
-Вопрос детализации и уровня проработки контента: мира игры, персонажей, локаций — стоит остро даже в компьютерных играх, которые всё ещё с большего линейны. В играх с живым ГМ он стоит ещё острее: у игроков значительно больше свободы действий, а значит больше и событий, мест, персонажей, которых необходимо продумать.
+The question of the level of detail and depth of content: the game world, characters, locations — is a pressing one even in computer games, which are still mostly linear. In games with a live game master, it is even more critical: players have much more freedom of action, and therefore GM should think through more events, places, characters.
 
-Самое важное: **не пытайтесь продумать всё идеально**. Игроков больше, чем вас, их фантазия заточена на то, чтобы находить нестандартные ходы, поэтому предусмотреть всё невозможно. Чем больше штук вы придумаете, тем больше их останется невостребованными. Игроки пройдут мимо: вместо трактира завернут в библиотеку, вместо права пойдут налево и так далее.
+The most important thing: **do not try to think everything through perfectly**. You are one, players are many, their imagination is sharpened to find non-standard moves, so it is impossible to foresee everything. The more things you come up with, the more of them will remain unclaimed. Players will pass them by: instead of a tavern, they will turn into a library, instead of right, they will go left, and so on.
 
-Чтобы сэкономить усилия, **импровизируйте — конструируйте всё возможное на ходу из заготовок**. Если вы придумали интересный слух, не вписывайте его в уста конкретного персонажа, которого игроки могут пропустить, разрешите пересказать его любому персонажу, которому слух подходит.
+To save effort, **improvise — construct everything possible on the fly from prepared templates**. For example, If you come up with an interesting rumor, do not put it in the mouth of a specific character that players can miss, allow it to be told by any character to whom the rumor fits.
 
-Например, слух о торговле может рассказать любой торговец, а не одноногий-одноглазый-однорукий скупщик краденого в чёрном тупике, который обнаруживается при выбрасывании 20 на восприятие. Конечно, могут и должны существовать уникальные вещи, которые случаются только в специально сконструированных условиях. Как и везде, тут нужно блюсти баланс.
+For example, any merchant can tell a rumor about trade, not just a one-legged-one-eyed-one-armed fence of stolen goods in a black dead-end, which is revealed when throwing 20 on perception. Of course, there may and should be unique things that happen only in specially constructed conditions. As always, we should maintain balance.
 
-В конструировании вам могут помочь мои [соображения о композиции и классификации]{post:composition-vs-classification}.
+By the way, about one-legged and one-eyed. **A good way to lead a player in the right direction is to interest him by something he will go to himself**.
 
-Кстати, об одноногих и одноглазых. **Хороший способ привести игрока к нужному контенту — заинтересовать его чем-то, к чему он сам пойдёт.**
+There are plenty of simple examples in computer games which rely on this technique heavily. The most obvious examples: quest markers above NPC heads or a giant pillar of light on the horizon.
 
-Простых примеров полно в компьютерных играх, которые используют этот приём направо и налево. Самые топорные варианты: значки заданий над головами NPC или гигантский столп света на горизонте.
+In non-computer games, such a straightforward approach, of course, will not always work, but the essence is the same: a bard will not refuse to pay attention to a winking elf maiden, a detective will not miss bloodstains on the floor, and a priest will not dare to bypass a suffering.
 
-В некомпьютерных играх настолько лобовой подход, конечно, не сработает, но суть та же: бард ни за что не откажется уделить внимание подмигивающей эльфийке, сыщик не пропустит следы крови на полу, а жрец не посмеет обойти помощью страждущего.
+But **do not break the coherence of the world by trying to limit redundancy**.
 
-**Пытаясь ограничить избыточность — не разрушьте целостность мира или подземелья**.
+Damaged coherence is the flip side of redundancy. If redundancy is about the excess, then damaged coherence is about what's missing or out of sync.
 
-Нарушение целостности — обратная сторона избыточности. Если избыточность — о лишнем, то нарушение целостности — о недостающем или несинхронизированном.
+When designing new entities, work out all their important properties — players pay attention to them first.
 
-Продумывая новые сущности, прорабатывайте все их важные свойства — именно на них игроки обращают внимание в первую очередь.
+If there is a fork, then it is important to give the opportunity to go both right and left. If there is a team of builders, there must be a foreman. In prison, there must be guards, prisoners, and the warden. And so on.
 
-Если существует развилка, то необходимо дать возможность идти и направо и налево. Если есть бригада строителей, то должен быть её прораб. В тюрьме должны быть стражники, заключённые и начальник тюрьмы.
+Also, it is important to keep track of the consistency of already invented properties. The path going north does not lead to the same place as the one going south. An orc will not become the head of security in an elven settlement. A treasure trove will not be built outside the guarded area of the dungeon. Again, there are always exceptions if they logically fit into the game world and plot.
 
-Также важно следить за согласованностью уже придуманных свойств. Путь идущий на север не приводит туда же, куда и идущий на юг. Начальником охраны в эльфийском поселении не станет орк. Сокровищницу не построят вне охраняемой зоны подземелья. И так далее. Опять же, всегда возможны исключения, если они логично ложатся на мир игры и сюжет.
+## Conclusion
 
-## Итого
+You may have noticed that I did not say a word about how to properly arrange rooms in a dungeon or how many guards to put in which room.
 
-Как вы могли заметить, я не сказал ни слова о том, как правильно расставить комнаты в подземелье или сколько охраны в какую комнату ставить.
+In any location, what matters is not a number of rooms, guards, and traps, but the experience and impressions that players take away. It is the desired experience, together with the game world, plot, and rules, that determine the location.
 
-В любой локации важно не количество комнат, охраны и ловушек, а опыт, впечатления, которые получают игроки. Именно желаемый опыт, вкупе с миром игры, сюжетом и правилами определяют локацию.
+And the number of rooms, guards, and traps can be relatively easily derived from the given constraints.
 
-А количество комнат, охраны и ловушек относительно легко выводятся из получаемых ограничений.
-
-TODO: it is a translation
+P.S. This text is a translation of the [original post](post:@lang=ru:how-to-design-a-dungeon) in Russian from 2021.
