@@ -13,7 +13,7 @@ caption = "Source: [Pinterest](https://www.pinterest.com/pin/559994534913996418/
 
 A lot of people come to the post [about dungeon generation](post:dungeon-generation-from-simple-to-complex) when looking for a lesson on designing a dungeon, not programming it. For a [DnD](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) session, for example.
 
-To make sure no one feels left out, here are some recommendations on the topic. The recommendations are suitable not only for dungeons but also for developing any location.
+To ensure no one feels left out, here are some recommendations on the topic. The recommendations are suitable not only for dungeons but also for developing any location.
 
 I also recommend reading my other essays on game design:
 
@@ -21,7 +21,7 @@ I also recommend reading my other essays on game design:
 - [About world building]{post:@choose-nearest-language:about-worlds-building}
 - [The next frontier of game design]{post:@choose-nearest-language:next-gamedesign-frontier}
 
-The last essay is more about designing computer games, but it contains some important thoughts that I will use in the future.
+The last essay is more about designing computer games, but it contains some important thoughts I will use in the future.
 
 <!-- more -->
 
@@ -39,7 +39,7 @@ You, as a game designer or game master, don't need a dungeon for any of these re
 
 In a game, **a dungeon is a tool for creating the necessary experience for players**. Like any other location.
 
-The specific type of experience depends on the game and the players. Maybe you want to entertain them? To puzzle, to teach, to strain, or to scare? Maybe even all of the above plus a little more.
+The specific type of experience depends on the game and the players. Do you want to entertain them? To puzzle, to teach, to strain, or to scare? Maybe even all of the above plus a little more.
 
 Most likely **you want to create a chain of experiences and impressions**, something like this:
 
@@ -58,23 +58,23 @@ To build such chains correctly, you need to know a little psychology, scriptwrit
 
 But I can definitely say that **the structure of your dungeon should be determined primarily by the desired sequence of experiences**.
 
-If we have a "story" that we want to tell with a dungeon, then we must build it so that the story is told sequentially. If we mix up the "sequence of rooms," all our plans will go to waste, and the dungeon will become uninteresting or confusing. In some cases, you may want to mix up the sequence of narrative elements intentionally, but this is a separate topic.
+If we have a "story" that we want to tell with a dungeon, then we must build it so that the story is told sequentially. If we mix up the "sequence of rooms," all our plans will go to waste, and the dungeon will become uninteresting or confusing. In some cases, you may want to intentionally mix up the sequence of narrative elements, but this is a separate topic.
 
 ## Dungeon context
 
-We've defined the purpose of the dungeon as the most important requirement for its structure.
+We've defined the purpose of the dungeon as the most essential requirement for its structure.
 
-Just as essential, though slightly less critical, is ensuring the dungeon aligns with the context in which it exists. **The dungeon should organically fit into the game environment**: corresponding to the game world, the current situation in the game, and the players' capabilities.
+Just as important, though slightly less critical, is ensuring the dungeon aligns with the context in which it exists. **The dungeon should organically fit into the game environment**: corresponding to the game world, the current situation in the game, and the players' capabilities.
 
 In most cases (but not all), it will be a bad idea to lead players:
 
-- into a too complex dungeon;
+- into a too-complex dungeon;
 - into a lair of a medieval thieves' guild located on a space station;
 - into a necromancer's base that looks like a brothel.
 
 Therefore, before creating a dungeon, it is necessary to identify the essential properties of the context, especially:
 
-- The historical period: current and the time of construction of the dungeon.
+- The historical period: current and the time of dungeon construction.
 - The cultures of the creators and current owners. Both material and spiritual, in case you need to add frescoes or a book, and you will need them.
 - The available technologies and resources for its construction and repair: a wooden fort in the desert will look comical.
 - The kinds of beings that can inhabit it.
@@ -84,16 +84,16 @@ By the way, it is convenient to record and store such information about game obj
 
 ## Living dungeon
 
-If we just throw around rooms with enemies and traps, players will most likely feel the dungeon as cardboard decorations in a theater play aimed at them. This can be beneficial if we are making a satire game, but in most cases, such feelings are not what we and players would like to get.
+If we just throw around rooms with enemies and traps, players will most likely feel the dungeon as cardboard decorations in a theater play aimed at them. This can be beneficial if we make a satirical game, but in most cases, such feelings are not what we and the players would like to get.
 
-Our dungeon will not feel "alive." **Players should see that it, along with all the rooms and inhabitants, exists for its own purposes, not for the entertainment of travelers**. Moreover, that it not only exists at the moment but existed before players arrival and, maybe, will exist after they leave.
+Our dungeon will not feel "alive." **Players should see that the dungeon, along with all the rooms and inhabitants, exists for its own purposes, not for the entertainment of travelers**. Moreover, it not only exists at the moment but also before players arrive and may exist after they leave.
 
 In my opinion, the term "living" precisely conveys the essence, although it has a vague formulation. For myself, I have defined more specific criteria for the "liveliness" of the world:
 
-1. Player can learn and understand the rules of the world.
-2. The player can predict the future local state of the world with reasonable accuracy.
-3. The player can determine the reasons for the current local state of the world with reasonable accuracy.
-4. The player is not the only source of changes in the world.
+1. Players can learn and understand the rules of the world.
+2. Players can predict the future local state of the world with reasonable accuracy.
+3. Players can determine the reasons for the current local state of the world with reasonable accuracy.
+4. Players are not the only source of changes in the world.
 5. Entities, such as dungeon inhabitants, influence each other enough to prevent changes from fading — the state of the world does not freeze over time.
 
 The fifth point is more about computer games, but the first four can be applied to everything.
