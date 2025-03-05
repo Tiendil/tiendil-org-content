@@ -106,7 +106,7 @@ Such an illusion can be achieved in several ways.
 
 ### Random events
 
-Players, in most cases, cannot spy on the life of the dungeon, and can only encounter its manifestations while moving through it. Therefore, you can add events that occur when players act in a given context.
+Players, in most cases, cannot spy on the life of the dungeon and can only encounter its manifestations while moving through it. Therefore, you can add events that occur when players act in a given context.
 
 For example:
 
@@ -135,11 +135,11 @@ So, we have done a good job and now have a living dungeon that fits into the sur
 
 Imagine that we have not just one dungeon, but numerous dungeons, cities, villages, hidden groves, and similar locations. All of them are designed according to our rules, placed somewhere in the game world, and players travel between them. Have we forgotten something that may ruin the immersion of players in the game?
 
-From the first sight, it seems that we have not. Players come to city A, do their business there, are sent to the village B, from there to the dungeon C, and so on — further and further along the plot.
+At first sight, it seems that we have not. Players come to city A, do their business there, are sent to village B, from there to dungeon C, and so on — further and further along the plot.
 
 But what if players step aside from the plot and look at the world "from the height"? Good players love to do that.
 
-They may see that citezens of city A know only about the village B, villagers know only about the dungeon, and the dungeon inhabitants have not heard of the city or the village — they are busy with their underground affairs. Or, which is also not so good, inhabitants of each of these places know only about the events from the players' adventures, and have not heard of any anything else.
+They may note that citizens of city A know only about village B, villagers know only about the dungeon, and the dungeon inhabitants have not heard of the city or the village — they are busy with their underground affairs. Or, which is also not so good, inhabitants of each place know only about the events from the players' adventures and have not heard of anything else.
 
 Again, we may notice artificiality, not of a single dungeon, but of the whole world built around the players' story. Of course, the world can be built around the players (often, should), but the players should not notice this little deception.
 
@@ -156,8 +156,8 @@ Any trifle can become an anchor:
 - characters or organizations appearing in different places;
 - an anecdote told in a tavern, repeated everywhere along the path of the tracked spy;
 - cause-and-effect relationships between places or characters, when what happens to one affects another;
-- news that follows or race ahead of the heroes in their journey;
-- direct mentions in conversations of other places and characters, where would we be without them.
+- news that follows or races ahead of the heroes in their journey;
+- direct mentions in conversations of other places and characters; where would we be without them?
 
 ## Redundancy
 
