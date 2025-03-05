@@ -1,7 +1,7 @@
 ---
 title = "How to design a dungeon"
 tags = [ "gamedev", "game-design", "theory", "interesting", "best", "world-design"]
-published_at = "2025-03-04T12:00:00+00:00"
+published_at = "2025-03-05T12:00:00+00:00"
 seo_description = "Recommendations for creating game dungeons: how to look at a dungeon from a player's perspective, what to pay attention to when developing."
 seo_image = "cover.jpg"
 ---
