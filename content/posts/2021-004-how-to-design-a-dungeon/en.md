@@ -161,29 +161,29 @@ Any trifle can become an anchor:
 
 ## Redundancy
 
-The last, but no less important point I want to address.
+The last, but no less important, point I want to address.
 
-The question of the level of detail and depth of content: the game world, characters, locations — is a pressing one even in computer games, which are still mostly linear. In games with a live game master, it is even more critical: players have much more freedom of action, and therefore GM should think through more events, places, characters.
+The question of the level of detail and depth of content—the game world, characters, locations—is pressing even in computer games, which are still mostly linear. In games with a live game master, it is even more critical: players have much more freedom of action, and therefore, the GM should think through more events, places, and characters.
 
 The most important thing: **do not try to think everything through perfectly**. You are one, players are many, their imagination is sharpened to find non-standard moves, so it is impossible to foresee everything. The more things you come up with, the more of them will remain unclaimed. Players will pass them by: instead of a tavern, they will turn into a library, instead of right, they will go left, and so on.
 
-To save effort, **improvise — construct everything possible on the fly from prepared templates**. For example, If you come up with an interesting rumor, do not put it in the mouth of a specific character that players can miss, allow it to be told by any character to whom the rumor fits.
+To save effort, **improvise — construct everything possible on the fly from prepared templates**. For example, if you come up with an interesting rumor, do not put it in the mouth of a specific character that players can miss, allow it to be told by any character to whom the rumor fits.
 
-For example, any merchant can tell a rumor about trade, not just a one-legged-one-eyed-one-armed fence of stolen goods in a black dead-end, which is revealed when throwing 20 on perception. Of course, there may and should be unique things that happen only in specially constructed conditions. As always, we should maintain balance.
+For example, any merchant can tell a trade rumor, not just a one-legged-one-eyed-one-armed fence of stolen goods in a black dead-end, which is revealed when throwing 20 on perception. Of course, there may and should be unique things that happen only in specially constructed conditions. As always, we should maintain balance.
 
-By the way, about one-legged and one-eyed. **A good way to lead a player in the right direction is to interest him by something he will go to himself**.
+By the way, about one-legged and one-eyed. **A good way to lead a player in the right direction is to interest him with something he will go to himself**.
 
-There are plenty of simple examples in computer games which rely on this technique heavily. The most obvious examples: quest markers above NPC heads or a giant pillar of light on the horizon.
+There are plenty of simple examples in computer games that heavily rely on this technique. The most obvious examples: quest markers above NPC heads or a giant pillar of light on the horizon.
 
-In non-computer games, such a straightforward approach, of course, will not always work, but the essence is the same: a bard will not refuse to pay attention to a winking elf maiden, a detective will not miss bloodstains on the floor, and a priest will not dare to bypass a suffering.
+Of course, such a straightforward approach will not always work in non-computer games, but the essence is the same: a bard will not refuse to pay attention to a winking elf maiden, a detective will not miss bloodstains on the floor, and a priest will not dare bypass suffering.
 
 But **do not break the coherence of the world by trying to limit redundancy**.
 
 Damaged coherence is the flip side of redundancy. If redundancy is about the excess, then damaged coherence is about what's missing or out of sync.
 
-When designing new entities, work out all their important properties — players pay attention to them first.
+When designing new entities, work out all their essential properties — players pay attention to them first.
 
-If there is a fork, then it is important to give the opportunity to go both right and left. If there is a team of builders, there must be a foreman. In prison, there must be guards, prisoners, and the warden. And so on.
+If there is a fork, it is vital to allow going both right and left. If there is a team of builders, there must be a foreman. In prison, there must be guards, prisoners, and the warden. And so on.
 
 Also, it is important to keep track of the consistency of already invented properties. The path going north does not lead to the same place as the one going south. An orc will not become the head of security in an elven settlement. A treasure trove will not be built outside the guarded area of the dungeon. Again, there are always exceptions if they logically fit into the game world and plot.
 
@@ -191,8 +191,8 @@ Also, it is important to keep track of the consistency of already invented prope
 
 You may have noticed that I did not say a word about how to properly arrange rooms in a dungeon or how many guards to put in which room.
 
-In any location, what matters is not a number of rooms, guards, and traps, but the experience and impressions that players take away. It is the desired experience, together with the game world, plot, and rules, that determine the location.
+In any location, what matters is not the number of rooms, guards, and traps but the experience and impressions that players take away. The desired experience, together with the game world, plot, and rules, determines the location.
 
 And the number of rooms, guards, and traps can be relatively easily derived from the given constraints.
 
-P.S. This text is a translation of the [original post](post:@lang=ru:how-to-design-a-dungeon) in Russian from 2021.
+P.S. This text is a translation of the [original post in Russian]{post:@lang=ru:how-to-design-a-dungeon} from 2021.
