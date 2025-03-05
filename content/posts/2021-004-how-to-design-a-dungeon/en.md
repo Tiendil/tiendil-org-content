@@ -3,12 +3,12 @@ title = "How to design a dungeon"
 tags = [ "gamedev", "game-design", "theory", "interesting", "best", "world-design"]
 published_at = "2025-03-04T12:00:00+00:00"
 seo_description = "Recommendations for creating game dungeons: how to look at a dungeon from a player's perspective, what to pay attention to when developing."
-seo_image = "images/how-to-design-a-dungeon-cover.jpg"
+seo_image = "cover.jpg"
 ---
 
 /// brigid-images
-src = "images/how-to-design-a-dungeon-cover.jpg"
-caption = "Source: [Pinterest](https://www.pinterest.com/pin/559994534913996418/?)"
+src = "cover.jpg"
+caption = "(c) ChatGPT 'Dungeon master designing a dungeon'"
 ///
 
 A lot of people come to the post [about dungeon generation]{post:dungeon-generation-from-simple-to-complex} when looking for a lesson on designing a dungeon, not programming it. For a [DnD](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) session, for example.

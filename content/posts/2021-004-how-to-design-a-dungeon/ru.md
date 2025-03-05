@@ -3,12 +3,12 @@ title = "Как придумать подземелье"
 tags = [ "gamedev", "game-design", "theory", "interesting", "best", "world-design"]
 published_at = "2021-01-17T12:00:00+00:00"
 seo_description = "Рекомендации по созданию подземелий для игр: как смотреть на подземелье с точки зрения опыта игрока, на что обратить внимание при разработке."
-seo_image = "images/how-to-design-a-dungeon-cover.jpg"
+seo_image = "cover.jpg"
 ---
 
 /// brigid-images
-src = "images/how-to-design-a-dungeon-cover.jpg"
-caption = "Источник: [Pinterest](https://www.pinterest.com/pin/559994534913996418/?)"
+src = "cover.jpg"
+caption = "(c) ChatGPT 'Dungeon master designing a dungeon'"
 ///
 
 В пост [о генерации подземелий]{post:dungeon-generation-from-simple-to-complex} часто приходят люди, которые ищут урок по придумыванию подземелья, а не по программированию. Для партии в [D&D](https://ru.wikipedia.org/wiki/Dungeons_%26_Dragons), например.
