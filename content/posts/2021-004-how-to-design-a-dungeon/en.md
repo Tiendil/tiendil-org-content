@@ -98,11 +98,11 @@ In my opinion, the term "living" precisely conveys the essence, although it has 
 
 The fifth point is more about computer games, but the first four can be applied to everything.
 
-For a dungeon, this means, for example, that its inhabitants are busy with some work, not sitting and waiting for players to come to them. Necromancers sew corpses, guards guard, cooks cook. They also communicate during breaks, write letters to their families, argue, and plot against each other.
+This means, for a dungeon, for example, that its inhabitants are busy with some work, not sitting and waiting for players to come to them. Necromancers sew corpses, guards guard, and cooks cook. They also communicate during breaks, write letters to their families, argue, and plot against each other.
 
-It is not necessary, and even harmful, to plan and simulate an "realistic" dungeon life. For example, plan the household logic of each inhabitant and manage them. This is a very costly approach, especially because players will not notice the effort. It is much easier to create the illusion of life.
+It is not necessary, and even harmful, to plan and simulate a "realistic" dungeon life. For example, to describe the household logic of each inhabitant and manage them. This approach is very costly, especially because players will not notice the effort. It is much easier to create the illusion of life.
 
-Such illusion can be achieved in several ways.
+Such an illusion can be achieved in several ways.
 
 ### Random events
 
