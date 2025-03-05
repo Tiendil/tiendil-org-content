@@ -68,7 +68,7 @@ Just as important, though slightly less critical, is ensuring the dungeon aligns
 
 In most cases (but not all), it will be a bad idea to lead players:
 
-- into a too-complex dungeon;
+- into a impassable dungeon;
 - into a lair of a medieval thieves' guild located on a space station;
 - into a necromancer's base that looks like a brothel.
 
@@ -137,7 +137,7 @@ Imagine that we have not just one dungeon, but numerous dungeons, cities, villag
 
 At first sight, it seems that we have not. Players come to city A, do their business there, are sent to village B, from there to dungeon C, and so on — further and further along the plot.
 
-But what if players step aside from the plot and look at the world "from the height"? Good players love to do that.
+But what if players step aside from the plot and look at the world "from the distance"? Good players love to do that.
 
 They may note that citizens of city A know only about village B, villagers know only about the dungeon, and the dungeon inhabitants have not heard of the city or the village — they are busy with their underground affairs. Or, which is also not so good, inhabitants of each place know only about the events from the players' adventures and have not heard of anything else.
 
