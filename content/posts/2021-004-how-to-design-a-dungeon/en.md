@@ -11,7 +11,7 @@ src = "images/how-to-design-a-dungeon-cover.jpg"
 caption = "Source: [Pinterest](https://www.pinterest.com/pin/559994534913996418/?)"
 ///
 
-A lot of people come to the post [about dungeon generation](post:dungeon-generation-from-simple-to-complex) when looking for a lesson on designing a dungeon, not programming it. For a [DnD](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) session, for example.
+A lot of people come to the post [about dungeon generation]{post:dungeon-generation-from-simple-to-complex} when looking for a lesson on designing a dungeon, not programming it. For a [DnD](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons) session, for example.
 
 To ensure no one feels left out, here are some recommendations on the topic. The recommendations are suitable not only for dungeons but also for developing any location.
 
