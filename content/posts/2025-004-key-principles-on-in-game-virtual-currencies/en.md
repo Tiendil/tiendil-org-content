@@ -88,19 +88,19 @@ Let's exaggerate and assume that the EU has `1/3` of the planet's free-to-play m
 The third variant wins over the first variant by `1/12` — less than 10% of profit, but much more hassle. In general, there is no guarantee that supporting "two versions" will not turn out to be more expensive than `1/12` of income.
 ///
 
-### Новые-старые концепции интерфейсов и баланса
+### New old concepts of interfaces and balance
 
-Интерфейс и баланс, конечно, штуки разные, но в нашем случае с ними потребуется сделать одно и то же — откатить к практикам классических игр, после чего, может быть, постепенно нащупать их новые «этические» варианты для «европейского» free-to-play.
+Interfaces and balance, of course, are different things, but in our case, we will need to do the same with them — roll back to the practices of not-so-free-to-play games, after which, perhaps, gradually find new "ethical" options for "European" free-to-play.
 
-Звучит просто и даже экономно — меньше работы — нужно «просто делать игру», а не [симулякры]{post:@choose-nearest-language:one-form-two-products}, не надо тратить силы на дополнительные усложнения.
+It looks simple and even economical — less work — you just need to "make a game" and not [simulacra]{post:@choose-nearest-language:one-form-two-products}, you don't have to spend energy on additional complications.
 
-Нюанс в том, что большинство геймдизайнеров условного мобильного free-to-play не знает как делать классические игры. Обратное тоже верно, конечно. Я сходу даже не назову успешного прецедента, когда разработчики из free-to-play рынка сходу влились в тот же рынок PC игр для Steam.
+But here's the catch: most of the game designers in typical free-to-play games don't know how to make "classic" games. The reverse is also true, of course. I can't even name a successful precedent where developers from the free-to-play market smoothly transitioned to, for example, the PC Steam game market.
 
-Та же логика, думаю, справедлива и для интерфейсов.
+The same logic should be applied to interfaces.
 
-Возьмём, для примера, требование писать сумму в реальной валюте рядом с суммой в виртуальной. Попробуйте надёжно объяснить игрокам, что покупка не потребует оплаты сразу в двух валютах :-)
+Ans this is not even about new challenges. For example, let's take the requirement to write the sum in real currency next to the sum in virtual currency. Try to reliably explain to players that the purchase will not require payment in both currencies at once :-)
 
-Соответственно, при трансформации надо будет не просто «убрать что-то», но проводить серию экспериментов на поиск новых рабочих подходов.
+So, when adapting their game, developers will have not only to "remove something", but also to conduct a series of experiments to find new working approaches.
 
 ### Бухгалтерия внутриигровых транзакций
 
