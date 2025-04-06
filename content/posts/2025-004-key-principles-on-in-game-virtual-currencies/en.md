@@ -1,32 +1,32 @@
 ---
-title = "Принципы использования игровых валют в Европейском Союзе"
+title = "Key principles on in-game virtual currencies in the EU"
 tags = [ "theory", "development", "gamedev", "game-design", "futurology", "monetization", "state"]
 published_at = "2025-04-07T12:00:00+00:00"
-seo_description = "Обзор гайдлайнов по использованию игровых валют в Европейском Союзе."
+seo_description = "Review of guidelines for using in-game currencies in the European Union."
 seo_image = ""
 ---
 
-В прошлом месяце [Consumer Protection Cooperation Network](https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/consumer-protection-cooperation-network_en) при координации с Европейской комиссией выпустило интересные гайдлайны по реализации игровых валют.
+Last month, the [Consumer Protection Cooperation Network](https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/consumer-protection-cooperation-network_en) in coordination with the European Commission released interesting guidelines on the implementation of in-game currencies.
 
-- [Новость](https://ec.europa.eu/commission/presscorner/detail/en/ip_25_831)
-- [Документ](https://drive.google.com/file/d/1rwD44ZV16U8rZtrdN5g_nVe5_vSjo32y/view?usp=drive_link) на моём Google Drive — мало ли, куда переедут оригиналы.
+- [News](https://ec.europa.eu/commission/presscorner/detail/en/ip_25_831)
+- [The document](https://drive.google.com/file/d/1rwD44ZV16U8rZtrdN5g_nVe5_vSjo32y/view?usp=drive_link) on my Google Drive — just in case the originals move somewhere.
 
-Сам документ не имеет статуса закона, это рекомендации по интерпретированию существующих законов EU по защите потребителей в области компьютерных игр. Насколько я понимаю, следовать или нет этим рекомендациям решает отдельно каждая страна.
+The document does not have the status of a law; it is a recommendation for interpreting existing EU consumer protection laws in the field of computer games. As I understand it, each country decides separately whether to follow these recommendations or not.
 
-Я отношусь к такого рода регуляциям двояко.
+I have a dual attitude towards such regulations.
 
-С одной стороны, дичь, которая творится во free-to-play играх (особенно в мобильных), давно пора прекращать. Со своей этической позиции я полностью поддерживаю попытки наведения порядка.
+From one side, the nonsense that goes on in free-to-play games (especially mobile ones) should have been stopped a long time ago. From my ethical position, I fully support attempts to bring order there.
 
-С другой стороны, регуляции всегда усложняют жизнь малому и среднему бизнесу, и слабо влияют на крупные компании. Чем крупнее компания, тем проще ей проигнорировать регуляцию.
+From the other side, regulations always complicate life for small and medium businesses and have little effect on large companies. The larger the company, the easier it is for them to ignore regulations.
 
-В тексте ниже я перечислю основные тезисы документа, пофантазирую о том, как должны выполняться эти рекомендации по замыслу авторов и как будут выполняться в реальности.
+In the following text, I'll list the main theses of the document, speculate on how these recommendations should be implemented according to the authors' intent, and how they, most likely, will be implemented in reality.
 
-В целом, документ небольшой — всего 8 страниц — и приятно оформлен, так что можете почитать его сами.
+Also, the document is small — only 8 pages — and nicely formatted, so you can read it yourself.
 
-/// warning | Обратите внимание
-Я не юрист и лет 5 активно с free-to-play не взаимодействовал, поэтому не воспринимайте мои соображения как рекомендации.
+/// warning | Disclaimer
+I'm not a lawyer and have nothing to do with free-to-play for about 5 years, so don't take my thoughts as recommendations.
 
-Воспринимайте текст как интересное упражнение, свободный полёт мысли.
+Think of this text as an interesting exercise, a free flight of thought.
 ///
 
 <!-- more -->
