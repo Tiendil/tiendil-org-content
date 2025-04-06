@@ -72,20 +72,20 @@ I'm not considering the option of making two versions right away, as it is only 
 
 So, let's assume you decided to follow the recommendations. What awaits you?
 
-### Обеззубленная монетизация
+### Toothless monetization
 
-Большая часть монетизации free-to-play заточена на китов; использует кучу хитрых трюков. Если разработчики  избавятся от этого, то легко могут потерять, навскидку, 3/4 дохода. Зависит от игры, конечно, но в целом только киты могут давать 50+% дохода.
+Most of the free-to-play monetization is designed for "whales" and uses a lot of tricky tricks. If developers get rid of it, they can easily lose, at a guess, 3/4 of their income. It depends on the game, of course, but in general, only "whales" can bring 50+% of the income.
 
-Это не говоря ещё о переучивании геймдизайнеров и маркетологов, которые очень сильно заточены на очень конкретные механики и поведение игроков.
+Not to mention the retraining of game designers and marketers, who are very focused on specific mechanics and player behavior.
 
-/// note | Уйти из Европы или переделать игру?
-Преувеличим и допустим, что в Евросоюзе — `1/3` рынка free-to-play игр, и что при следовании регуляциям у нас остаётся `1/4` дохода.
+/// note | Leave the Europe or adapt the game?
+Let's exaggerate and assume that the EU has `1/3` of the planet's free-to-play market, and that by following the regulations we are left with `1/4` of the income.
 
-1. Если уйти из Европы, то мы остаёмся с `2/3` дохода.
-2. Если остаться в Европе, то мы остаёмся с `1/4` дохода.
-3. Если сделать две версии игры, то мы остаёмся с `2/3 + 1/4 * 1/3 = 8/12 + 1/12 = 9/12 = 3/4` дохода.
+1. If we leave Europe, we are left with `2/3` of the income.
+2. If we stay in Europe and adapt the game, we are left with `1/4` of the income.
+3. If we make two versions of the game, we are left with `2/3 + 1/4 * 1/3 = 8/12 + 1/12 = 9/12 = 3/4` of the income.
 
-Вариант 3 выигрывает перед вариантом 1 на `1/12` — меньше 10% профита, но куда больше гемороя. В целом, нет гарантии, что поддержка «двух версий» не окажется дороже чем `1/12` дохода.
+The third variant wins over the first variant by `1/12` — less than 10% of profit, but much more hassle. In general, there is no guarantee that supporting "two versions" will not turn out to be more expensive than `1/12` of income.
 ///
 
 ### Новые-старые концепции интерфейсов и баланса
