@@ -31,24 +31,24 @@ Think of this text as an interesting exercise, a free flight of thought.
 
 <!-- more -->
 
-## Тезисы
+## Theses
 
-Упрощённо, своими словами.
+Simplified, in my own words.
 
-1. Игровая валюта признаётся цифровым представлением реальных денег, если основное назначение этой валюты — покупка чего-то в игре.
-2. Транзакция внутри игры эквивалентна реальной транзакции с точки зрения защиты прав потребителей.
-3. Нельзя использовать практики, эксплуатирующие когнитивные искажения, чтобы заставить игрока платить больше или получать меньше.
-4. Везде рядом с ценой в игровой валюте необходимо писать эквивалентную цену в реальных деньгах.
-5. Рекомендуют не делать несколько валют и сложные цепочки их обмена.
-6. Рекомендуют не заставлять игрока покупать валюты больше, чем ему надо. Например, не продавать валюту фиксированными бандлами, особенно несовпадающими с ценами в игре (пачки по 1000 монет, когда цена нужного предмета — 1001 монета).
-7. Необходимо сопровождать все предложения по трате валюты информацией о сделке, включая чёткое описание приобретаемого и, возможно, отсылку на какую-то оферту с описанием прав потребителя.
-8. Пользователь имеет право на отмену сделки в течение 14 дней, если явно не отказался от этого права.
-9. Пользователь всё равно имеет право на отмену сделки, если решил, что получил несоответствующий описанию товар. Например, если получил меч с другим спрайтом, или не смог им убить босса, которого рассчитывал убить.
-10. В частности, рекомендуют разрешать частичный откат сделок — возврат средств за оставшуюся непотраченной игровую валюту.
-11. Операторам игр нельзя путать игроков терминами, удалять что-то из игры (особенно, если это покупаемое), модифицировать стоимость игровой валюты, банить игроков без возможности оспаривания бана.
-12. Операторы игр должны «особенно осторожно» обращаться с уязвимыми клиентами. Само собой, с детьми, но есть и более интересные варианты. Например, человек вне игры может не относиться к уязвимым, а в игре начать к ним относиться, если игра целится в конкретные уязвимости, такие как игромания, шопоголизм и т.п.
-13. «Киты» могут считаться уязвимыми клиентами, так как их поведение предполагает проблемы с контролем импульсивных трат и гемблингом. Следовательно, все игры целящиеся в «китов» считаются целящимися в уязвимых клиентов.
-14. Функции родительского контроля должны быть реализованы в игре, можно использовать функции, предоставляемые платформой.
+1. In-game currency is recognized as a digital representation of real money if the main purpose of this currency is to purchase something in the game.
+2. In-game transactions are equivalent to real-world transactions in terms of consumer rights protection.
+3. It is prohibited to use practices that exploit cognitive biases to make the player pay more or receive less.
+4. Price in real-world currency always must be displayed next to the price in in-game currency.
+5. It is recommended not to introduce multiple currencies and complicated exchange chains.
+6. It is recommended not to force the player to buy more currency than they need. For example, do not sell currency in fixed bundles, especially those that do not match the prices in the game (packs of 1000 coins when the price of the desired item is 1001 coins).
+7. All currency spending proposals must be accompanied by detailed transaction information, including a clear description of the purchased items and (maybe) a link to the description of consumer rights.
+8. The player has the right to cancel the transaction within 14 days unless they've explicitly waived this right.
+9. The player has the right to cancel the transaction if they believe they received a product that does not match the description. For example, if they received a sword with a different sprite or that sword haven't helped to kill the boss they expected to kill.
+10. In particular, partial rollback of transactions is recommended — refunding real-world money for the remaining unspent in-game currency.
+11. Game operators should not confuse players with overcomplicated terms, delete something from the game (especially if it's purchasable), modify the costs of in-game currency, permanently ban players without the possibility of contesting the ban.
+12. Game operators should especially carefully handle vulnerable clients. Of course, children, but there are more interesting options. For example, a person outside the game may not be considered vulnerable, but in the game, they may start to be considered vulnerable if the game targets specific vulnerabilities such as gambling addiction, shopping addiction, etc.
+13. "Whales" can be considered vulnerable clients, as their behavior suggests issues with impulse control and gambling. Therefore, all games targeting "whales" are likely considered to be targeting vulnerable clients.
+14. Parental control functions should be implemented in the game, it is possible to use platform-provided functions.
 
 It looks like a lot of fun :-)
 
