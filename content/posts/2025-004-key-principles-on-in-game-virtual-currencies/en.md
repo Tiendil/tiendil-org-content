@@ -52,11 +52,11 @@ Simplified, in my own words.
 
 It looks like a lot of fun :-)
 
-## Насколько сложно следовать регуляциям
+## How difficult it is to follow the regulations
 
-Для начала давайте **оценим сложность следования букве и духу рекомендаций**. Что может потребоваться от добросовестных разработчиков free-to-play игр?
+For the start, let's **assess the complexity of following the letter and spirit of the recommendations**. What might be required from bona fide developers of free-to-play games?
 
-Думаю, очевидно, что следовать описанным рекомендациям по букве и духу дорого и сложно. Я не буду отдельно доказывать этот посыл, вместо этого сосредоточусь на том, в чём именно сложность и дороговизна.
+Obviously, following the recommendations to the letter and spirit is expensive and difficult. I won't separately prove this point; instead, I'll focus on what exactly makes it difficult and expensive.
 
 ### Ограничения на рынок
 
