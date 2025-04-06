@@ -102,7 +102,7 @@ Ans this is not even about new challenges. For example, let's take the requireme
 
 So, when adapting their game, developers will have not only to "remove something", but also to conduct a series of experiments to find new working approaches.
 
-### Бухгалтерия внутриигровых транзакций
+### Accounting of in-game transactions
 
 Потребуется реализовать лог внутриигровых транзакций, чтобы можно было их надёжно отслеживать, отменять, etc.
 
