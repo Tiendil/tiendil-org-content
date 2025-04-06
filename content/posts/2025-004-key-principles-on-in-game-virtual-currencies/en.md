@@ -58,19 +58,19 @@ For the start, let's **assess the complexity of following the letter and spirit 
 
 Obviously, following the recommendations to the letter and spirit is expensive and difficult. I won't separately prove this point; instead, I'll focus on what exactly makes it difficult and expensive.
 
-### Ограничения на рынок
+### Markets restrictions
 
-Первым делом необходимо решить делаете вы игру только для Евросоюза или для всего мира. От этого зависит как минимум, сколько вариантов интерфейса и баланса вы делаете.
+The first thing to decide is whether you are making the game only for the European Union or for the whole world. This affects, at least, a number of interface and balance variants you should create.
 
-Рынок free-to-play игр Европы, в лучшем случае, третий по размеру после США и Китая.
+The EU's free-to-play market, at the best, is the third largest after the USA and China.
 
-Соответственно, если вы хотите много free-to-play денег, вам (на текущий момент) выгоднее проигнорировать Европу, просто не выпуская игру в ней. Если и когда у вас будет много денег, можно будет сделать адаптацию.
+Therefore, if you want a lot of free-to-play money, it is currently more profitable to ignore Europe by simply not releasing the game there. When and if you have a big bag of money, you can consider to adapt the game.
 
-Либо, вы можете сознательно ограничить приток денег и раскатывать этически верную модель монетизации на всю планету, надеясь, что вы не обанкротитесь по дороге, так как **цена трафика для unit-экономики установлена бешеной free-to-play монетизацией, а не европейскими регуляциями.**
+Or, you can consciously limit the influx of money and roll out an ethically correct monetization model to the whole planet, hoping that you won't go bankrupt along the way, as **the price of traffic for unit-economics is set by crazy free-to-play monetization, not by European regulations.**
 
-Вариант «делать сразу две версии» я рассматривать не будут, так как он только для очень богатых — у них своя жизнь, свои проблемы.
+I'm not considering the option of making two versions right away, as it is only for the very rich — they have their own life, their own problems.
 
-Допустим, вы таки решили следовать рекомендациям. Что вас ждёт?
+So, let's assume you decided to follow the recommendations. What awaits you?
 
 ### Обеззубленная монетизация
 
