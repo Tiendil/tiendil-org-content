@@ -1,13 +1,10 @@
 ---
 title = "Принципы использования игровых валют в Европейском Союзе"
-tags = [ "theory", "development", "gamedev", "game-design", "futurology", "monetization", "state", "economics"]
+tags = [ "theory", "development", "gamedev", "game-design", "futurology", "monetization", "state"]
 published_at = "2025-04-07T12:00:00+00:00"
 seo_description = "Обзор гайдлайнов по использованию игровых валют в Европейском Союзе."
 seo_image = ""
 ---
-
-<!-- TODO: review tags -->
-<!-- TODO: add tag "regulations" -->
 
 В прошлом месяце [Consumer Protection Cooperation Network](https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/consumer-protection-cooperation-network_en) при координации с Европейской комиссией выпустило интересные гайдлайны по реализации игровых валют.
 
