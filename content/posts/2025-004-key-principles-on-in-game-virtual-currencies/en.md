@@ -13,7 +13,7 @@ Last month, the [Consumer Protection Cooperation Network](https://commission.eur
 
 The document does not have the status of a law; it is a recommendation for interpreting existing EU consumer protection laws regarding computer games. As I understand it, each country decides separately whether to follow these recommendations or not.
 
-I have a dual attitude towards such regulations.
+I have mixed feelings towards such regulations.
 
 On one hand, the nonsense that goes on in free-to-play games (especially mobile ones) should have been stopped a long time ago. From my ethical position, I fully support attempts to bring order there.
 
@@ -56,7 +56,7 @@ It looks like a lot of fun :-)
 
 For the start, let's **assess the complexity of following the letter and spirit of the recommendations**. What might be required of bona fide developers of free-to-play games?
 
-Obviously, following the recommendations to the letter and spirit is expensive and complicated. I won't prove this point separately; instead, I'll focus on what exactly makes it difficult and expensive.
+Obviously, following the recommendations to the letter and spirit is expensive and complicated. I won’t try to prove that here; instead, I'll focus on what exactly makes it difficult and expensive.
 
 ### Market restrictions
 
@@ -88,13 +88,13 @@ Let's exaggerate and assume that the EU has `1/3` of the planet's free-to-play m
 The third option beats the first by `1/12` — less than 10% of profit but much more hassle. In general, there is no guarantee that supporting "two versions" will not be more expensive than `1/12` of income.
 ///
 
-### New old concepts of interfaces and balance
+### Old-new concepts of interfaces and balance
 
 Of course, interfaces and balance are different things, but in our case, we will need to do the same with them — roll back to the practices of not-so-free-to-play games, after which, perhaps, gradually find new "ethical" options for "European" free-to-play.
 
 It looks simple and even economical — less work — you just need to "make a game" and not [simulacra]{post:@choose-nearest-language:one-form-two-products}, you don't have to spend energy on additional complications.
 
-But here's the catch: most game designers in typical free-to-play games don't know how to make "classic" games. The reverse is also true, of course. Because free- and not-so-free-to-play games are different kinds of products that require different sets of knowledge, skills and experience. I can't even name a successful precedent where developers from the free-to-play market smoothly transitioned to, for example, the PC Steam game market.
+But here's the catch: most game designers in typical free-to-play games don't know how to make "traditional" games. The reverse is also true, of course. Because free- and not-so-free-to-play games are different kinds of products that require different sets of knowledge, skills and experience. I can't even name a successful precedent where developers from the free-to-play market smoothly transitioned to, for example, the PC Steam game market.
 
 The same logic should be applied to interfaces.
 
@@ -115,7 +115,7 @@ The problem is not even in the log itself but in how the game should interact wi
 For example, many games keep a large share of logic on the client side and (justifiably) use hacks like "if there is no network, we trust the client".
 
 /// details | Why do we still keep logic on the client
-I still don't know why, but I have three hypotheses:
+I'm still not sure why, but I have three hypotheses:
 
 - Backend developers are much more expensive than client developers.
 - During the early stages of development, the visionaries are not always aware that a backend exists even as a concept.
@@ -137,7 +137,7 @@ Just in case, I note one more time that these are considerations for when we rea
 
 Both are already present on most platforms, so developers just need to spend time and effort on them.
 
-### More supporters for the god of support
+### More support staff for the god of support
 
 The support team will need to be trained to handle more complex complaints and be ready to contest every ban and any in-game transaction. More employees (or bots) may be required to hire than usual.
 
@@ -155,12 +155,12 @@ But let's imagine that the recommendations will be followed, and there will be n
 
 The biggest publishers/developers will adapt their games to the new rules — "just to have it" — "a penny saved is a penny earned" and all that. They will lose a little money, but nothing will change significantly for them.
 
-Most free-to-play games with a "classic" model (aggressive monetization) from small and medium developers will become unavailable in Europe.
+Most free-to-play games with a "traditional" model (aggressive monetization) from small and medium developers will become unavailable in Europe.
 
 Consequently, small and medium developers will lose about 1/3 of their income, which can hit them hard.
 
 I was going to say I sympathize with them out of solidarity, but I can't. Everyone chooses how to spend their time. If you've
-decided to make a modern free-to-play game — may God be your judge. :-)
+decided to make a modern free-to-play game — well, may God judge you :-)
 
 The European market will be cleared of hyper-monetized trash, marketing costs will drop, and there will be a chance for guys who want and can make true games. New companies will create new products, strengthen their position in the European sandbox, and start changing the world around them.
 
@@ -178,7 +178,7 @@ So, the same will be with these regulations.
 
 This is not only because it will be done by European bureaucracy but also because we are talking about entirely virtual worlds whose logic can be bent as authors like. A virtual world is not a real one with physical products that need to be physically produced from physical resources, whose consumption logic is dictated by culture and human physiology, when everything is trackable, slow, and more or less transparent.
 
-It will be the battle of formalism against imagination/creativity, in fact, of the gods of those virtual worlds, who can change the rules of their worlds as they like. Human imagination in such comfortable conditions will definitely win. Therefore, most developers will simply slightly adapt their games without changing their essence.
+It will be the battle of formalism against imagination/creativity, in fact, of the gods of those virtual worlds, who can change the rules of their worlds as they like. Human imagination in such comfortable conditions will definitely win. Therefore, most developers will slightly adapt their games without changing their essence.
 
 ## How developers will bypass the regulations
 
@@ -193,7 +193,7 @@ But, of course, the coolest solutions will be in game design.
 If the regulations are about the currencies that is primarily used for purchases, then you can make them so that their primary purpose doesn't look like a primary one:
 
 - Sell not currency but buildings (or other items) that decorate your base and, incidentally, produce some other resources that are not currency at all.
-- Players spend real money — on anything, even on a leaderboard for "who spent the most" — to upgrade an in-game mine that produces in-game currency, which, obviously, officially has no real-world value whatsoever. Something similar is done in [Mechabellum](https://store.steampowered.com/app/669330/Mechabellum/) but for a different purpose.
+- Players spend real money — on anything, even on a top spenders leaderboard — to upgrade an in-game mine that produces in-game currency, which, obviously, officially has no real-world value whatsoever. Something similar is done in [Mechabellum](https://store.steampowered.com/app/669330/Mechabellum/) but for a different purpose.
 - Sell collectible cards that can be exchanged for anything. But they are collectibles, so "they are needed only for collecting, and the exchange is a secondary totally optional action".
 - Sell tokens that can be exchanged for subscriptions, like in [EVE](https://wiki.eveuniversity.org/Accounts#PLEX). If players start using them as currency — well, that's their right; the developers don't require it.
 - Sell access to premium content in which you can farm unique items that can be exchanged for other items. You got it.
