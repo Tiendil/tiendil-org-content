@@ -8,7 +8,7 @@ seo_image = "cover.jpg"
 
 /// brigid-images
 src = "cover.jpg"
-alt = "European bureaucracy teaching developers how do monetization (c) ChatGPT"
+alt = "European bureaucracy gently guiding developers on the art of monetization. (c) ChatGPT"
 ///
 
 Last month, the [Consumer Protection Cooperation Network](https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/consumer-protection-cooperation-network_en), in coordination with the European Commission, released interesting guidelines on the implementation of in-game currencies.
