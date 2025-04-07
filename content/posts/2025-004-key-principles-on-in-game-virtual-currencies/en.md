@@ -15,9 +15,9 @@ The document does not have the status of a law; it is a recommendation for inter
 
 I have a dual attitude towards such regulations.
 
-From one side, the nonsense that goes on in free-to-play games (especially mobile ones) should have been stopped a long time ago. From my ethical position, I fully support attempts to bring order there.
+On one hand, the nonsense that goes on in free-to-play games (especially mobile ones) should have been stopped a long time ago. From my ethical position, I fully support attempts to bring order there.
 
-From the other side, regulations always complicate life for small and medium businesses and have little effect on large companies. The larger the company, the easier it is for it to ignore regulations.
+On the other hand, regulations always complicate life for small and medium businesses and have little effect on large companies. The larger the company, the easier it is for it to ignore regulations.
 
 In the following text, I'll list the main theses of the document, speculate on how these recommendations should be implemented according to the authors' intent, and how they will most likely be implemented in reality.
 
@@ -58,7 +58,7 @@ For the start, let's **assess the complexity of following the letter and spirit 
 
 Obviously, following the recommendations to the letter and spirit is expensive and complicated. I won't prove this point separately; instead, I'll focus on what exactly makes it difficult and expensive.
 
-### Markets restrictions
+### Market restrictions
 
 The first thing to decide is whether you are making the game only for the European Union or the whole world. This affects, at least, a number of interface and balance variants you should create.
 
@@ -85,7 +85,7 @@ Let's exaggerate and assume that the EU has `1/3` of the planet's free-to-play m
 2. If we stay in Europe and adapt the game, we are left with `1/4` of the income.
 3. If we make two versions of the game, we are left with `2/3 + 1/4 * 1/3 = 8/12 + 1/12 = 9/12 = 3/4` of the income.
 
-The third variant wins over the first variant by `1/12` — less than 10% of profit but much more hassle. In general, there is no guarantee that supporting "two versions" will not be more expensive than `1/12` of income.
+The third option beats the first by `1/12` — less than 10% of profit but much more hassle. In general, there is no guarantee that supporting "two versions" will not be more expensive than `1/12` of income.
 ///
 
 ### New old concepts of interfaces and balance
@@ -98,7 +98,7 @@ But here's the catch: most game designers in typical free-to-play games don't kn
 
 The same logic should be applied to interfaces.
 
-Ans this is not even about new challenges. For example, let's take the requirement to write the sum in real currency next to the sum in virtual currency. Try to reliably explain to players that the purchase will not require payment in both currencies at once :-)
+And this isn’t even about new challenges. For example, let's take the requirement to write the sum in real currency next to the sum in virtual currency. Try explaining to players clearly that the purchase will not require payment in both currencies at once :-)
 
 So, when adapting their game, developers will have to not only "remove something" but also conduct a series of experiments to find new working approaches.
 
@@ -149,7 +149,7 @@ All games should switch to a buy-to-play model or subscriptions. Imagine Google 
 
 ## What this regulation could potentially lead to
 
-We are talking about European bureaucracy, so I would bet that in the next 10 years this will lead to nothing. Unfortunately.
+Given the nature of European bureaucracy, I would bet that in the next 10 years this will lead to nothing. Unfortunately.
 
 But let's imagine that the recommendations will be followed, and there will be no way to bypass them. What will happen?
 
@@ -172,11 +172,11 @@ Have you heard about the large GDPR lawsuits in the gaming market? Me neither.
 
 Have you noticed any benefits that GDPR brought to players and/or developers in the gaming market? Me neither.
 
-So many grand discussions… By the way, I have a post about [how to support GDPR in your project]{post:@choose-nearest-language:how-i-did-and-would-do-gdpr-support}.
+And oh, all the talk there was… By the way, I have a post about [how to support GDPR in your project]{post:@choose-nearest-language:how-i-did-and-would-do-gdpr-support}.
 
 So, the same will be with these regulations.
 
-This is not only because it will be done by European bureaucracy but also because we are talking about entirely virtual worlds whose logic can be bent as authors like. A virtual world is not a real one with physical products that need to be physically produced from physical resources, the logic of consumption of which is dictated by the culture of societies and the physics of the human body, when everything is trackable, slow, and more or less transparent.
+This is not only because it will be done by European bureaucracy but also because we are talking about entirely virtual worlds whose logic can be bent as authors like. A virtual world is not a real one with physical products that need to be physically produced from physical resources, whose consumption logic is dictated by culture and human physiology, when everything is trackable, slow, and more or less transparent.
 
 It will be the battle of formalism against imagination/creativity, in fact, of the gods of those virtual worlds, who can change the rules of their worlds as they like. Human imagination in such comfortable conditions will definitely win. Therefore, most developers will simply slightly adapt their games without changing their essence.
 
@@ -185,15 +185,15 @@ It will be the battle of formalism against imagination/creativity, in fact, of t
 The simplest and fastest solutions that will cut off 80% of issues:
 
 - One more checkbox in the registration process in the spirit of "the developer is always right, I am always wrong", or it's analog.
-- Heuristics for support in the spirit of "we refund money, then we ban/mark you forever for any controversial issue".
-- Inaccurate but good enough textual log of transactions, which support will look at with their eyes before following the previous point.
+- Support heuristics like "we refund money, then we ban/mark you forever for any controversial issue".
+- Inaccurate but good enough textual log of transactions, which support staff will review manually before following the previous point.
 
 But, of course, the coolest solutions will be in game design.
 
 If the regulations are about the currencies that is primarily used for purchases, then you can make them so that their primary purpose doesn't look like a primary one:
 
 - Sell not currency but buildings (or other items) that decorate your base and, incidentally, produce some other resources that are not currency at all.
-- Players spend real money — on anything, even on a leaderboard for "who spent the most" — to upgrade an in-game mine that produces in-game currency, which, obviously, has unknown real-world value whatsoever. Something similar is done in [Mechabellum](https://store.steampowered.com/app/669330/Mechabellum/) but for a different purpose.
+- Players spend real money — on anything, even on a leaderboard for "who spent the most" — to upgrade an in-game mine that produces in-game currency, which, obviously, officially has no real-world value whatsoever. Something similar is done in [Mechabellum](https://store.steampowered.com/app/669330/Mechabellum/) but for a different purpose.
 - Sell collectible cards that can be exchanged for anything. But they are collectibles, so "they are needed only for collecting, and the exchange is a secondary totally optional action".
 - Sell tokens that can be exchanged for subscriptions, like in [EVE](https://wiki.eveuniversity.org/Accounts#PLEX). If players start using them as currency — well, that's their right; the developers don't require it.
 - Sell access to premium content in which you can farm unique items that can be exchanged for other items. You got it.
