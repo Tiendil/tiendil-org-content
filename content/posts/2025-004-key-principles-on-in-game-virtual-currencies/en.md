@@ -104,44 +104,44 @@ So, when adapting their game, developers will have not only to "remove something
 
 ### Accounting of in-game transactions
 
-Потребуется реализовать лог внутриигровых транзакций, чтобы можно было их надёжно отслеживать, отменять, etc.
+One should implement a log of in-game transactions to reliably track all operations, cancel them, etc.
 
-Сейчас наличие такого лога, часто, довольно условно, особенно в небольших играх. Его может не быть, или он может быть в виде неточного текстового лога, иногда прямо в профиле игрока (который можно отредактировать на клиенте).
+The current practice is to implement such a log in a simplified form, if not implementing it at all. The log can be in an unclean raw text form, reside on the client side, etc.
 
-Сделать лог транзакций надёжным и полным — дорогое удовольствие как по человеко-часам, так и по инфраструктуре. За свою карьеру я работал над 3-4 вариантами «платёжек», плюс делал элементы подобного лога в [Сказке](https://the-tale.org), и могу сказать, что это много работы, которая, де-факто, не нужна ни вам, ни игрокам. Один из примеров того, как мой перфекционизм вышел боком.
+Making the transaction log reliable and complete is an expensive task, both in terms of work hours and infrastructure. In my career, I have worked on 3-4 versions of different "payment systems", also I made elements of such a log in my text-based MMO [The Tale](https://the-tale.org), and I can say that this is a lot of work that, de facto, is not needed by either you or the players. It is one of the examples of how my perfectionism backfired.
 
-Проблема даже не в самом логе, а в том, как с ним должна игра взаимодействовать.
+The problem is not even in the log itself, but in how the game should interact with it.
 
-Например, многие игры держат большую долю логики на клиенте и (обоснованно) применяют хаки в духе «если сети нет, то верим клиенту».
+For example, a lot of games keep a large share of logic on the client side and (justifiably) use hacks like "if there is no network, we trust the client".
 
-/// details | Почему логика оказывается на клиенте
-До сих пор не знаю почему, у меня три гипотезы:
+/// details | Why we still keep logic on the client
+I still don't know why, but I have three hypotheses:
 
-- Бэкендщики много дороже клиентских разрабов.
-- Во время начала разработки, идеологи не часто знают что бэкенд есть хотя бы как концепция.
+- Backend developers are much more expensive than client developers.
+- During the early stages of development, the visionaries are not always aware that a backend exists even as a concept.
 - Lean startup & fake it till you make it.
 
-Скорее всего сочетание всех трёх, так как встречал очень разную аргументацию.
+Most likely, the common cause is a some combination of all three, as I have encountered very different arguments in my career.
 ///
 
-Если мы начинаем качественно отслеживать все игровые транзакции, то возникают проблемы не только с реализацией бэка, но и адаптацией поведения игры к новым сетевым задержкам. Как следствие, лог транзакций становится ещё одним видом «вечной платы», который будет отнимать ресурсы всё время существования игры.
+In case we begin to qualitatively track all in-game transactions, we will face problems not only with implementing the backend, but also with adapting the game's behavior to new network delays, and game logic to new data flows. As a result, the transaction log becomes yet another type of "eternal payment" that will consume resources the whole game lifetime.
 
-Если у вас уже есть игра, то внедрение лога транзакций в неподготовленную для него архитектуру займёт от «очень долго» до бесконечности. Серьёзно, текущая парадигма разработки просто не предполагает глубокой проработки архитектуры от разработчиков. Вам должно очень повести с лидерами разработки ~~например, меня наймёте~~, чтобы такой финт оказалось возможно провернуть без больших проблем.
+If you already have a game, then introducing a transaction log into an unprepared architecture will take from "very long" to infinity. Seriously, the current development paradigm simply does not expect developers to thorougly design the architecture. You should be very lucky with the development leaders ~~for example, hire me~~ for such a move to be possible without major problems.
 
-На всякий случай ещё раз оговорюсь, что это рассуждения для случая, когда мы очень сильно стараемся следовать рекомендациям. Если мы не стараемся им следовать, то и технические решения могут быть более простыми.
+Just in case, I note one more time that these are considerations for the case when we really strive to sincerely follow the recommendations. If we don't strive to follow them, then technical solutions can be much simpler.
 
-### Вещи, которые просто надо будет сделать
+### Things that just should be implemented
 
-- Умные рефанды.
-- Родительский контроль.
+- Smart/partial refunds.
+- Parental control.
 
-Обе вещи уже есть в большинстве платформ, поэтому на них просто надо будет потратить время и силы.
+The both things are already present in most platforms, so developer will just need to spend time and effort on them.
 
-### Больше работы отделу поддержки
+### More supporters for the god of support
 
-Саппорт должен будет уметь разруливать более сложные жалобы и быть готовым к оспариванию банов и любых игровых транзакций. Сотрудников (или ботов) может понадобиться больше, чем обычно надо.
+The support team will need to be trained to handle more complex complaints and be ready to contest every ban and any in-game transaction. More employees (or bots) may be required to hire than usual.
 
-## К чему должна привести регуляция в идеале
+## What should this regulations lead to
 
 По замыслу, видимо, к оздоровлению сегмента мобильных и просто онлайн игр.
 
