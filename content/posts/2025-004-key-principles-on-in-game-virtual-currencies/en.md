@@ -151,18 +151,18 @@ All games should switch to a buy-to-play model or subscriptions. Imagine Google 
 
 We are talking about European bureaucracy, so I would bet that in the next 10 years this will lead to nothing. Unfortunately.
 
-But let's imagine that the recommendations will be followed and there will be no way to bypass them. What will happen?
+But let's imagine that the recommendations will be followed, and there will be no way to bypass them. What will happen?
 
 The biggest publishers/developers will adapt their games to the new rules — "just to have it" — "a penny saved is a penny earned" and all that. They will lose a little money, but nothing will change significantly for them.
 
-Most of the free-to-play games of "classic" model (aggressive monetization) from small and medium developers will become unavailable in Europe.
+Most free-to-play games with a "classic" model (aggressive monetization) from small and medium developers will become unavailable in Europe.
 
 Consequently, small and medium developers will lose about 1/3 of their income, which can hit them hard.
 
 I was going to say I sympathize with them out of solidarity, but I can't. Everyone chooses how to spend their time. If you've
 decided to make a modern free-to-play game — may God be your judge. :-)
 
-European market will be cleared of hypermonetized trash, marketing costs will drop, and there will be a chance for guys who want and can make true games. New companies will create new products, strengthen in the European sandbox, and start changing the world around.
+The European market will be cleared of hyper-monetized trash, marketing costs will drop, and there will be a chance for guys who want and can make true games. New companies will create new products, strengthen their position in the European sandbox, and start changing the world around them.
 
 "I want to believe" (c) Mulder.
 
@@ -176,7 +176,7 @@ So many grand discussions… By the way, I have a post about [how to support GDP
 
 So, the same will be with these regulations.
 
-Not only because it will be done by European bureaucracy, but also because we are talking about completely virtual worlds, the logic of which can be bent as authors like. A virtual world is not the real one with physical products that need to be physically produced from physical resources, the logic of consumption of which is dictated by the culture of societies and the physics of the human body.
+This is not only because it will be done by European bureaucracy but also because we are talking about entirely virtual worlds whose logic can be bent as authors like. A virtual world is not a real one with physical products that need to be physically produced from physical resources, the logic of consumption of which is dictated by the culture of societies and the physics of the human body, when everything is trackable, slow, and more or less transparent.
 
 It will be the battle of formalism against imagination/creativity, in fact, of the gods of those virtual worlds, who can change the rules of their worlds as they like. Human imagination in such comfortable conditions will definitely win. Therefore, most developers will simply slightly adapt their games without changing their essence.
 
@@ -184,23 +184,23 @@ It will be the battle of formalism against imagination/creativity, in fact, of t
 
 The simplest and fastest solutions that will cut off 80% of issues:
 
-- One more checkbox in the registration process in the spirit of "the developer is always right, I am always wrong" or its analogue.
+- One more checkbox in the registration process in the spirit of "the developer is always right, I am always wrong", or it's analog.
 - Heuristics for support in the spirit of "we refund money, then we ban/mark you forever for any controversial issue".
-- Innaccurate but good enough textual log of transactions, which support will look at with their eyes before following the previous point.
+- Inaccurate but good enough textual log of transactions, which support will look at with their eyes before following the previous point.
 
 But, of course, the coolest solutions will be in game design.
 
 If the regulations are about the currencies that is primarily used for purchases, then you can make them so that their primary purpose doesn't look like a primary one:
 
-- Sell not currency, but buildings that decorate your base and, incidentally, produce some other resources that are not currency at all.
-- Player spend real money — on anything, even on a leaderboard for "who spent the most" — to upgrade an in-game mine that produces in-game currency which, obviously, has unknown real-world value whatsoever. Something similar is done in [Mechabellum](https://store.steampowered.com/app/669330/Mechabellum/) but for a different purpose.
-- Sell collectible cards that can be exchanged for anything. But they are collectibles, so they are needed only for collecting, and the exchange is a secondary optional action.
-- Sell tokens that can be exchanged for subscriptions, like in [EVE](https://wiki.eveuniversity.org/Accounts#PLEX), and if players start using them as currency — well, that's their rights, the developers don't require it.
-- Sell an access to a premium content in which you can farm unique items that can be exchanged for other items. You got it.
+- Sell not currency but buildings (or other items) that decorate your base and, incidentally, produce some other resources that are not currency at all.
+- Players spend real money — on anything, even on a leaderboard for "who spent the most" — to upgrade an in-game mine that produces in-game currency, which, obviously, has unknown real-world value whatsoever. Something similar is done in [Mechabellum](https://store.steampowered.com/app/669330/Mechabellum/) but for a different purpose.
+- Sell collectible cards that can be exchanged for anything. But they are collectibles, so "they are needed only for collecting, and the exchange is a secondary totally optional action".
+- Sell tokens that can be exchanged for subscriptions, like in [EVE](https://wiki.eveuniversity.org/Accounts#PLEX). If players start using them as currency — well, that's their right; the developers don't require it.
+- Sell access to premium content in which you can farm unique items that can be exchanged for other items. You got it.
 
-So, building a game system where no one can immediately prove what counts as currency and what properties does it have — that's a piece of cake. When the lawyers say it’s falling apart, you tweak the rules — and bam, the whole bureaucratic process starts over.
+So, building a game system where no one can immediately prove what counts as currency and what properties it has — that's a piece of cake. When the lawyers say it’s falling apart, you tweak the rules — and bam, the whole bureaucratic process starts over.
 
-And that’s not even mentioning the monetization practices from the grey area. For example, you can sell hard currency cheaply with a limit of 1 purchase per month, and make all other sales expensive with an infinite limit. In all in-game prices, write the equivalent price at the cheap rate, as "our game is designed for this amount of spending per month, and everything above that is an unnecessary bonus for fans".
+And that’s not even mentioning the monetization practices from the grey area. For example, you can sell hard currency cheaply with a limit of 1 purchase per month and make all other sales expensive with an infinite limit. In all in-game prices, write the equivalent price at the cheap rate, as "our game is designed for this amount of spending per month, and everything above that is an unnecessary bonus for fans".
 
 ## Conclusion
 
