@@ -6,20 +6,20 @@ seo_description = "Review of guidelines for using in-game currencies in the Euro
 seo_image = ""
 ---
 
-Last month, the [Consumer Protection Cooperation Network](https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/consumer-protection-cooperation-network_en) in coordination with the European Commission released interesting guidelines on the implementation of in-game currencies.
+Last month, the [Consumer Protection Cooperation Network](https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/consumer-protection-cooperation-network_en), in coordination with the European Commission, released interesting guidelines on the implementation of in-game currencies.
 
 - [News](https://ec.europa.eu/commission/presscorner/detail/en/ip_25_831)
 - [The document](https://drive.google.com/file/d/1rwD44ZV16U8rZtrdN5g_nVe5_vSjo32y/view?usp=drive_link) on my Google Drive — just in case the originals move somewhere.
 
-The document does not have the status of a law; it is a recommendation for interpreting existing EU consumer protection laws in the field of computer games. As I understand it, each country decides separately whether to follow these recommendations or not.
+The document does not have the status of a law; it is a recommendation for interpreting existing EU consumer protection laws regarding computer games. As I understand it, each country decides separately whether to follow these recommendations or not.
 
 I have a dual attitude towards such regulations.
 
 From one side, the nonsense that goes on in free-to-play games (especially mobile ones) should have been stopped a long time ago. From my ethical position, I fully support attempts to bring order there.
 
-From the other side, regulations always complicate life for small and medium businesses and have little effect on large companies. The larger the company, the easier it is for them to ignore regulations.
+From the other side, regulations always complicate life for small and medium businesses and have little effect on large companies. The larger the company, the easier it is for it to ignore regulations.
 
-In the following text, I'll list the main theses of the document, speculate on how these recommendations should be implemented according to the authors' intent, and how they, most likely, will be implemented in reality.
+In the following text, I'll list the main theses of the document, speculate on how these recommendations should be implemented according to the authors' intent, and how they will most likely be implemented in reality.
 
 Also, the document is small — only 8 pages — and nicely formatted, so you can read it yourself.
 
@@ -35,26 +35,26 @@ Think of this text as an interesting exercise, a free flight of thought.
 
 Simplified, in my own words.
 
-1. In-game currency is recognized as a digital representation of real money if the main purpose of this currency is to purchase something in the game.
+1. In-game currency is recognized as a digital representation of real-world money if the primary purpose of this currency is to purchase something in the game.
 2. In-game transactions are equivalent to real-world transactions in terms of consumer rights protection.
 3. It is prohibited to use practices that exploit cognitive biases to make the player pay more or receive less.
-4. Price in real-world currency always must be displayed next to the price in in-game currency.
+4. The price in real-world currency must always be displayed next to the price in in-game currency.
 5. It is recommended not to introduce multiple currencies and complicated exchange chains.
-6. It is recommended not to force the player to buy more currency than they need. For example, do not sell currency in fixed bundles, especially those that do not match the prices in the game (packs of 1000 coins when the price of the desired item is 1001 coins).
+6. It is recommended not to force players to buy more currency than they need. For example, do not sell currency in fixed bundles, especially those that do not match the prices in the game (packs of 1000 coins when the cost of the desired item is 1001 coins).
 7. All currency spending proposals must be accompanied by detailed transaction information, including a clear description of the purchased items and (maybe) a link to the description of consumer rights.
 8. The player has the right to cancel the transaction within 14 days unless they've explicitly waived this right.
-9. The player has the right to cancel the transaction if they believe they received a product that does not match the description. For example, if they received a sword with a different sprite or that sword haven't helped to kill the boss they expected to kill.
+9. The player has the right to cancel the transaction if they believe they received a product that does not match the description. For example, if they received a sword with a different sprite or that sword didn't help them kill the boss they expected to kill.
 10. In particular, partial rollback of transactions is recommended — refunding real-world money for the remaining unspent in-game currency.
 11. Game operators should not confuse players with overcomplicated terms, delete something from the game (especially if it's purchasable), modify the costs of in-game currency, permanently ban players without the possibility of contesting the ban.
-12. Game operators should especially carefully handle vulnerable clients. Of course, children, but there are more interesting options. For example, a person outside the game may not be considered vulnerable, but in the game, they may start to be considered vulnerable if the game targets specific vulnerabilities such as gambling addiction, shopping addiction, etc.
+12. Game operators should especially carefully handle vulnerable clients. Of course, children, but there are more interesting options. For example, a person outside the game may not be considered vulnerable, still, in the game, they may start to be considered vulnerable if the game targets specific vulnerabilities such as gambling addiction, shopping addiction, etc.
 13. "Whales" can be considered vulnerable clients, as their behavior suggests issues with impulse control and gambling. Therefore, all games targeting "whales" are likely considered to be targeting vulnerable clients.
-14. Parental control functions should be implemented in the game, it is possible to use platform-provided functions.
+14. Parental control functions should be implemented in the game. It is possible to use platform-provided functions.
 
 It looks like a lot of fun :-)
 
 ## How difficult it is to follow the regulations
 
-For the start, let's **assess the complexity of following the letter and spirit of the recommendations**. What might be required from bona fide developers of free-to-play games?
+For the start, let's **assess the complexity of following the letter and spirit of the recommendations**. What might be required of bona fide developers of free-to-play games?
 
 Obviously, following the recommendations to the letter and spirit is expensive and difficult. I won't separately prove this point; instead, I'll focus on what exactly makes it difficult and expensive.
 
