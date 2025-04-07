@@ -6,6 +6,11 @@ seo_description = "Обзор гайдлайнов по использовани
 seo_image = ""
 ---
 
+/// brigid-images
+src = "cover.jpg"
+alt = "Европейская бюрократия учит разработчиков как делать монетизацию (с) ChatGPT"
+///
+
 В прошлом месяце [Consumer Protection Cooperation Network](https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/consumer-protection-cooperation-network_en) при координации с Европейской комиссией выпустило интересные гайдлайны по реализации игровых валют.
 
 - [Новость](https://ec.europa.eu/commission/presscorner/detail/en/ip_25_831)
