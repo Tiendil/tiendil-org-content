@@ -180,30 +180,30 @@ Not only because it will be done by European bureaucracy, but also because we ar
 
 It will be the battle of formalism against imagination/creativity, in fact, of the gods of those virtual worlds, who can change the rules of their worlds as they like. Human imagination in such comfortable conditions will definitely win. Therefore, most developers will simply slightly adapt their games without changing their essence.
 
-## Как разработчики будут обходить регуляции
+## How developers will bypass the regulations
 
-Самые простые и быстрые решения, которые отсекут 80% проблем:
+The simplest and fastest solutions that will cut off 80% of issues:
 
-- Очередная галочка при регистрации в духе «разработчик всегда прав, я всегда неправ» или её аналога.
-- Эвристики для саппорта в духе «возвращаем деньги, после чего баним навечно по любому спорному вопросу».
-- Неточный текстовый лог транзакций, в который саппорт будет смотреть глазами, после чего применять предыдущий пункт.
+- One more checkbox in the registration process in the spirit of "the developer is always right, I am always wrong" or its analogue.
+- Heuristics for support in the spirit of "we refund money, then we ban/mark you forever for any controversial issue".
+- Innaccurate but good enough textual log of transactions, which support will look at with their eyes before following the previous point.
 
-Но, конечно, самые крутые решения будут в геймдизайне.
+But, of course, the coolest solutions will be in game design.
 
-Если регуляции касаются валюты у которой покупка — основное назначение, то можно сделать так, чтобы её основное назначение выглядело не основным:
+If the regulations are about the currencies that is primarily used for purchases, then you can make them so that their primary purpose doesn't look like a primary one:
 
-- Продавать не валюту, а здания, которые украшают твою базу и, случайно, производят какие-то другие ресурсы, которые совсем-совсем не валюта.
-- За трату реальных денег (на что угодно, хоть на рейтинг «кто больше потратил») качать внутриигровую шахту, которая добывает игровую валюту и, де-факто, цены в реальной валюте не имеет. Что-то похожее сделано в [Mechabellum](https://store.steampowered.com/app/669330/Mechabellum/).
-- Продавать коллекционные карточки, которые нужны только для коллекционирования, но ещё их можно менять на всякое. Но они же коллекционные, поэтому нужны только для коллекционирования, а обмен — это второстепенное действие.
-- Продавать токены для покупки подписки, как в [EVE](https://wiki.eveuniversity.org/Accounts#PLEX), а что игроки начнут их использовать как валюту — так это ж право игроков, разработчики этого не требуют.
-- Продавать временный доступ к премиум контенту, в котором можно фармить уникальные предметы, на которые можно менять другие предметы. Ну вы поняли.
+- Sell not currency, but buildings that decorate your base and, incidentally, produce some other resources that are not currency at all.
+- Player spend real money — on anything, even on a leaderboard for "who spent the most" — to upgrade an in-game mine that produces in-game currency which, obviously, has unknown real-world value whatsoever. Something similar is done in [Mechabellum](https://store.steampowered.com/app/669330/Mechabellum/) but for a different purpose.
+- Sell collectible cards that can be exchanged for anything. But they are collectibles, so they are needed only for collecting, and the exchange is a secondary optional action.
+- Sell tokens that can be exchanged for subscriptions, like in [EVE](https://wiki.eveuniversity.org/Accounts#PLEX), and if players start using them as currency — well, that's their rights, the developers don't require it.
+- Sell an access to a premium content in which you can farm unique items that can be exchanged for other items. You got it.
 
-В общем, навернуть такую игровую систему, в которой никто не сможет сходу доказать где у тебя какая валюта — как два пальца. Когда юристы говорят, что дело швах, быстро меняешь правила и вся бюрократическая тягомотина начинается сначала.
+So, building a game system where no one can immediately prove what counts as currency and what properties does it have — that's a piece of cake. When the lawyers say it’s falling apart, you tweak the rules — and bam, the whole bureaucratic process starts over.
 
-И это не говоря о практиках монетизации из серой зоны. Например, можно продавать хард валюту задёшево с лимитом в 1 покупку в месяц, а остальные продажи делать задорого с бесконечным лимитом. Во всех ценах писать эквивалентную цену по дешёвому курсу, так как «наша игра рассчитана именно на такое количество трат в месяц, а всё сверх этого есть ненужный бонус для фанатов».
+And that’s not even mentioning the monetization practices from the grey area. For example, you can sell hard currency cheaply with a limit of 1 purchase per month, and make all other sales expensive with an infinite limit. In all in-game prices, write the equivalent price at the cheap rate, as "our game is designed for this amount of spending per month, and everything above that is an unnecessary bonus for fans".
 
-## Итого
+## Conclusion
 
-Определённо хотели как лучше (и старались, судя по хорошему оформлению документа), но получится как всегда.
+The authors of the document, obviously, wanted to make the world a better place and have my respect for that. But I bet everything will go as it always does.
 
-Как делать правильно, к сожалению, я не знаю.
+How to make it right, unfortunately, I don't know.
