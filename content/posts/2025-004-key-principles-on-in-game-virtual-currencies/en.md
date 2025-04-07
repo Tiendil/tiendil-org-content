@@ -56,36 +56,36 @@ It looks like a lot of fun :-)
 
 For the start, let's **assess the complexity of following the letter and spirit of the recommendations**. What might be required of bona fide developers of free-to-play games?
 
-Obviously, following the recommendations to the letter and spirit is expensive and difficult. I won't separately prove this point; instead, I'll focus on what exactly makes it difficult and expensive.
+Obviously, following the recommendations to the letter and spirit is expensive and complicated. I won't prove this point separately; instead, I'll focus on what exactly makes it difficult and expensive.
 
 ### Markets restrictions
 
-The first thing to decide is whether you are making the game only for the European Union or for the whole world. This affects, at least, a number of interface and balance variants you should create.
+The first thing to decide is whether you are making the game only for the European Union or the whole world. This affects, at least, a number of interface and balance variants you should create.
 
-The EU's free-to-play market, at the best, is the third largest after the USA and China.
+The EU's free-to-play market, at its best, is the third largest after the USA and China.
 
-Therefore, if you want a lot of free-to-play money, it is currently more profitable to ignore Europe by simply not releasing the game there. When and if you have a big bag of money, you can consider to adapt the game.
+Therefore, if you want a lot of free-to-play money, it is currently more profitable to ignore Europe by simply not releasing the game there. When and if you have a big bag of money, you may consider adapting the game.
 
 Or, you can consciously limit the influx of money and roll out an ethically correct monetization model to the whole planet, hoping that you won't go bankrupt along the way, as **the price of traffic for unit-economics is set by crazy free-to-play monetization, not by European regulations.**
 
-I'm not considering the option of making two versions right away, as it is only for the very rich — they have their own life, their own problems.
+I'm not considering the option of making two versions right away, as it is only for the very rich — they have their own lives, their own problems.
 
 So, let's assume you decided to follow the recommendations. What awaits you?
 
 ### Toothless monetization
 
-Most of the free-to-play monetization is designed for "whales" and uses a lot of tricky tricks. If developers get rid of it, they can easily lose, at a guess, 3/4 of their income. It depends on the game, of course, but in general, only "whales" can bring 50+% of the income.
+Most of the free-to-play monetization is designed for "whales" and uses a lot of tricky tricks. If developers get rid of it, they can easily lose, at a guess, 3/4 of their income. Of course, it depends on the game, but in general, only "whales" can bring 50+% of the income.
 
-Not to mention the retraining of game designers and marketers, who are very focused on specific mechanics and player behavior.
+Not to mention the retraining of game designers and marketers, who are very focused on specific free-to-play mechanics and player behavior.
 
-/// note | Leave the Europe or adapt the game?
-Let's exaggerate and assume that the EU has `1/3` of the planet's free-to-play market, and that by following the regulations we are left with `1/4` of the income.
+/// note | Leave Europe or adapt the game?
+Let's exaggerate and assume that the EU has `1/3` of the planet's free-to-play market and that by following the regulations, we are left with `1/4` of the income.
 
 1. If we leave Europe, we are left with `2/3` of the income.
 2. If we stay in Europe and adapt the game, we are left with `1/4` of the income.
 3. If we make two versions of the game, we are left with `2/3 + 1/4 * 1/3 = 8/12 + 1/12 = 9/12 = 3/4` of the income.
 
-The third variant wins over the first variant by `1/12` — less than 10% of profit, but much more hassle. In general, there is no guarantee that supporting "two versions" will not turn out to be more expensive than `1/12` of income.
+The third variant wins over the first variant by `1/12` — less than 10% of profit but much more hassle. In general, there is no guarantee that supporting "two versions" will not be more expensive than `1/12` of income.
 ///
 
 ### New old concepts of interfaces and balance
