@@ -141,31 +141,32 @@ The both things are already present in most platforms, so developer will just ne
 
 The support team will need to be trained to handle more complex complaints and be ready to contest every ban and any in-game transaction. More employees (or bots) may be required to hire than usual.
 
-## What should this regulations lead to
+## What this regulation is ideally supposed to lead to
 
-По замыслу, видимо, к оздоровлению сегмента мобильных и просто онлайн игр.
+The authors' intention, apparently, is to improve the health of the mobile and, generally, online games segment.
 
-Все игры должны дружно перейти на модель buy-to-play или на подписки. Представьте Google Play, но с играми как в Steam — звучит круто, не правда ли?
+All games should switch to a buy-to-play model or subscriptions. Imagine Google Play, but with games like in Steam — sounds cool, doesn't it?
 
-## К чему могла бы привести такая регуляция
+## What this regulation could potentially lead to
 
-Мы говорим о европейской бюрократии, так что я бы поставил на то, что в ближайшие лет 10 это ни к чему не приведёт. К сожалению.
+We are talking about European bureaucracy, so I would bet that in the next 10 years this will lead to nothing. Unfortunately.
 
-Но давайте представим, что за выполнением этих рекомендаций начнут следить и обходить их не получится. Что будет?
+But let's imagine that the recommendations will be followed and there will be no way to bypass them. What will happen?
 
-Крупные издательства/разработчики портируют свои игры для Европы — «чтобы было» — «копейка рубль бережёт» и всё такое. Немного потеряют в деньгах, но для них ничего существенно не изменится.
+The biggest publishers/developers will adapt their games to the new rules — "just to have it" — "a penny saved is a penny earned" and all that. They will lose a little money, but nothing will change significantly for them.
 
-В Европе станут недоступны большинство free-to-play игр «классической» модели (выкачивание денег) от малых и средних разработчиков.
+Most of the free-to-play games of "classic" model (aggressive monetization) from small and medium developers will become unavailable in Europe.
 
-Как следствие, малые и средние разработчики потеряют около 1/3 дохода, что может по ним сильно ударить.
+Consequently, small and medium developers will lose about 1/3 of their income, which can hit them hard.
 
-Хотел написать, что сочувствую им из солидарности, но не могу. Каждый человек сам выбирает на что тратить своё время. Если вы решили делать современное free-to-play, бог вам судья :-)
+I was going to say I sympathize with them out of solidarity, but I can't. Everyone chooses how to spend their time. If you've
+decided to make a modern free-to-play game — may God be your judge. :-)
 
-Европейский рынок освободится от мусора, цена маркетинга упадёт и появится шанс у ребят, которые хотят и могут делать реальные игры. Новые компании создадут новые продукты, окрепнут в европейской песочнице и будут менять мир вокруг.
+European market will be cleared of hypermonetized trash, marketing costs will drop, and there will be a chance for guys who want and can make true games. New companies will create new products, strengthen in the European sandbox, and start changing the world around.
 
-Хотелось бы верить, но…
+"I want to believe" (c) Mulder.
 
-## К чему скорее всего приведёт такая регуляция
+## What this regulation is most likely to lead to
 
 Вы слышали о крупных разбирательствах в области GDPR на игровом рынке? Я тоже нет.
 
