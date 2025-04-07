@@ -108,34 +108,34 @@ One should implement a log of in-game transactions to reliably track all operati
 
 The current practice is to implement such a log in a simplified form, if not implementing it at all. The log can be in an unclean raw text form, reside on the client side, etc.
 
-Making the transaction log reliable and complete is an expensive task, both in terms of work hours and infrastructure. In my career, I have worked on 3-4 versions of different "payment systems", also I made elements of such a log in my text-based MMO [The Tale](https://the-tale.org), and I can say that this is a lot of work that, de facto, is not needed by either you or the players. It is one of the examples of how my perfectionism backfired.
+Making the transaction log reliable and complete is an expensive task, both in terms of work hours and infrastructure. In my career, I have worked on 3-4 versions of different payment systems. I also made elements of such a log in my text-based MMO [The Tale](https://the-tale.org), and I can say that this is a lot of work that, de facto, is not needed by either you or the players. It is one of the examples of how my perfectionism backfired.
 
-The problem is not even in the log itself, but in how the game should interact with it.
+The problem is not even in the log itself but in how the game should interact with it.
 
-For example, a lot of games keep a large share of logic on the client side and (justifiably) use hacks like "if there is no network, we trust the client".
+For example, many games keep a large share of logic on the client side and (justifiably) use hacks like "if there is no network, we trust the client".
 
-/// details | Why we still keep logic on the client
+/// details | Why do we still keep logic on the client
 I still don't know why, but I have three hypotheses:
 
 - Backend developers are much more expensive than client developers.
 - During the early stages of development, the visionaries are not always aware that a backend exists even as a concept.
 - Lean startup & fake it till you make it.
 
-Most likely, the common cause is a some combination of all three, as I have encountered very different arguments in my career.
+The common cause is most likely a combination of all three, as I have encountered very different arguments in my career.
 ///
 
-In case we begin to qualitatively track all in-game transactions, we will face problems not only with implementing the backend, but also with adapting the game's behavior to new network delays, and game logic to new data flows. As a result, the transaction log becomes yet another type of "eternal payment" that will consume resources the whole game lifetime.
+In case we begin to qualitatively track all in-game transactions, we will face problems not only with implementing the backend, but also with adapting the game's behavior to new network delays, and game logic to new data flows. As a result, the transaction log becomes yet another type of "eternal payment" that will consume resources throughout the game's lifetime.
 
-If you already have a game, then introducing a transaction log into an unprepared architecture will take from "very long" to infinity. Seriously, the current development paradigm simply does not expect developers to thorougly design the architecture. You should be very lucky with the development leaders ~~for example, hire me~~ for such a move to be possible without major problems.
+If you already have a game, introducing a transaction log into an unprepared architecture will take from "very long" to infinity. Seriously, the current development paradigm simply does not expect developers to thoroughly design the architecture. You should be very lucky with the development leaders ~~for example, hire me~~ for such a move to be possible without major problems.
 
-Just in case, I note one more time that these are considerations for the case when we really strive to sincerely follow the recommendations. If we don't strive to follow them, then technical solutions can be much simpler.
+Just in case, I note one more time that these are considerations for when we really strive to sincerely follow the recommendations. If we don't, then technical solutions can be much simpler.
 
 ### Things that just should be implemented
 
 - Smart/partial refunds.
 - Parental control.
 
-The both things are already present in most platforms, so developer will just need to spend time and effort on them.
+Both are already present on most platforms, so developers just need to spend time and effort on them.
 
 ### More supporters for the god of support
 
