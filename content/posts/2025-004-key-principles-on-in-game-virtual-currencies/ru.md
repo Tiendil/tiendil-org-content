@@ -3,7 +3,7 @@ title = "Принципы использования игровых валют �
 tags = [ "theory", "development", "gamedev", "game-design", "futurology", "monetization", "state"]
 published_at = "2025-04-07T12:00:00+00:00"
 seo_description = "Обзор гайдлайнов по использованию игровых валют в Европейском Союзе."
-seo_image = ""
+seo_image = "cover.jpg"
 ---
 
 /// brigid-images
