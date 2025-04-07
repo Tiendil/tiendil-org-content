@@ -90,17 +90,17 @@ The third variant wins over the first variant by `1/12` — less than 10% of pro
 
 ### New old concepts of interfaces and balance
 
-Interfaces and balance, of course, are different things, but in our case, we will need to do the same with them — roll back to the practices of not-so-free-to-play games, after which, perhaps, gradually find new "ethical" options for "European" free-to-play.
+Of course, interfaces and balance are different things, but in our case, we will need to do the same with them — roll back to the practices of not-so-free-to-play games, after which, perhaps, gradually find new "ethical" options for "European" free-to-play.
 
 It looks simple and even economical — less work — you just need to "make a game" and not [simulacra]{post:@choose-nearest-language:one-form-two-products}, you don't have to spend energy on additional complications.
 
-But here's the catch: most of the game designers in typical free-to-play games don't know how to make "classic" games. The reverse is also true, of course. I can't even name a successful precedent where developers from the free-to-play market smoothly transitioned to, for example, the PC Steam game market.
+But here's the catch: most game designers in typical free-to-play games don't know how to make "classic" games. The reverse is also true, of course. Because free- and not-so-free-to-play games are different kinds of products that require different sets of knowledge, skills and experience. I can't even name a successful precedent where developers from the free-to-play market smoothly transitioned to, for example, the PC Steam game market.
 
 The same logic should be applied to interfaces.
 
 Ans this is not even about new challenges. For example, let's take the requirement to write the sum in real currency next to the sum in virtual currency. Try to reliably explain to players that the purchase will not require payment in both currencies at once :-)
 
-So, when adapting their game, developers will have not only to "remove something", but also to conduct a series of experiments to find new working approaches.
+So, when adapting their game, developers will have to not only "remove something" but also conduct a series of experiments to find new working approaches.
 
 ### Accounting of in-game transactions
 
