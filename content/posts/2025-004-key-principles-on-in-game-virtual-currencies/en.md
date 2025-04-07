@@ -168,17 +168,17 @@ European market will be cleared of hypermonetized trash, marketing costs will dr
 
 ## What this regulation is most likely to lead to
 
-Вы слышали о крупных разбирательствах в области GDPR на игровом рынке? Я тоже нет.
+Have you heard about the large GDPR lawsuits in the gaming market? Me neither.
 
-Вы заметили пользу, которую принёс GDPR игрокам и/или разработчикам на игровом рынке? Я тоже нет.
+Have you noticed any benefits that GDPR brought to players and/or developers in the gaming market? Me neither.
 
-А разговоров-то было… Кстати, у меня есть пост о том [как делать поддержку GPDR]{post:@choose-nearest-language:how-i-did-and-would-do-gdpr-support}.
+So many grand discussions… By the way, I have a post about [how to support GDPR in your project]{post:@choose-nearest-language:how-i-did-and-would-do-gdpr-support}.
 
-Так вот, то же самое случится и с этими регуляциями.
+So, the same will be with these regulations.
 
-Не только потому, что это будет делать европейская бюрократия, но и потому, что мы говорим о полностью виртуальных мирах, логику которых можно гнуть как угодно. Это не реальный мир с физическими продуктами, которые надо физически производить из физических ресурсов, логика потребления которых диктуется культурой обществ и физикой человеческого тела.
+Not only because it will be done by European bureaucracy, but also because we are talking about completely virtual worlds, the logic of which can be bent as authors like. A virtual world is not the real one with physical products that need to be physically produced from physical resources, the logic of consumption of which is dictated by the culture of societies and the physics of the human body.
 
-Это будет борьба формализмов с фантазией/творчеством, фактически, богов виртуальных миров, которые могут изменять правила своих миров как угодно. Человеческая фантазия в таких комфортных условиях гарантированно победит. Поэтому большинство разработчиков просто слегка адаптируют свои игры, не меняя их суть.
+It will be the battle of formalism against imagination/creativity, in fact, of the gods of those virtual worlds, who can change the rules of their worlds as they like. Human imagination in such comfortable conditions will definitely win. Therefore, most developers will simply slightly adapt their games without changing their essence.
 
 ## Как разработчики будут обходить регуляции
 
