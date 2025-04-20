@@ -77,49 +77,51 @@ The game logic will interpret this graph. It will initiate the necessary changes
 
 Here is an [example of such interpretator](https://github.com/Tiendil/questgen/blob/master/helpers/example.py)
 
-## Структура истории
+## The structure of the story
 
-Итак, история — это граф, состоящий из узлов и рёбер. Каждый узел обладает списком требований (или проверок, если хотите), которые должны выполняться, чтобы история могла перейти в состояние, соответствующее узлу. Требованием может быть нахождение героя в конкретном месте или наличие у него нужной суммы денег.
+So, the story is a graph consisting of nodes and edges. Each node has a list of requirements (or checks, if you like) that must be met for the story to move to the corresponding node. A requirement can look like `the hero is in a specific place` or `the hero has a certain amount of money`.
 
-Кроме самих требований к состоянию «мира» для каждого узла добавлен список действий, которые необходимо выполнить, когда история окажется в этом узле. Конечно, их можно было бы оформить и в качестве отдельных узлов с требованиями, но это значительно увеличило бы сам граф и усложнило его анализ разработчиками. Действием, в данном случае, может быть отправка сообщения игроку, начало сражения с монстром или выдача награды герою. Такие же списки действий назначены на начало и конец движения по ребру.
+Besides the requirements for world's state, each node has a lis of actions that must be performed when the story reaches this node. Such actions could be implemented as separate nodes with requirements, but it would significantly increase the graph complexity. We can look at them as on a semantic sugar :-) Action, in our case, could be `send a message to the player`, `start a battle with a monster` or `give a reward to the hero`.
+
+Edges have the same lists of actions assigned to the beginning and end of the edge.
+
 
 /// brigid-images
 src = "images/automatic-quests-generator-example-1.png"
-caption = "Примерно вот так может выглядеть простая история."
+caption = "An example of a simple story."
 ///
 
-/// details | Условные обозначения для графов на картинках
-- серые узлы — начало и окончание истории;
-- фиолетовые узлы — точки выбора;
-- зелёные узлы — обычные точки сюжета;
-- красные узлы — условные переходы;
-- бирюзовые контуры — подистории;
-- более тёмным фоном в узлах отмечены требования к ситуации, которые должны быть выполнены для возможности перехода в эту точку сюжета;
-- более светлым фоном выделены действия, которые должны быть выполнены сразу после перехода в точку сюжета.
+/// details | Legend for the graphs on the pictures
+- gray nodes — the beginning and end of the story;
+- purple nodes — choice points;
+- green nodes — ordinary story points;
+- red nodes — conditional transitions;
+- turquoise contours — sub-stories;
+- dark background in the nodes indicates requirements that must be met for the story to move to this node;
+- light background indicates actions that must be performed immediately after the transition to the story point;
 ///
 
-Перемещение между узлами можно представить в виде цикла:
+Transitions between nodes can be represented as a loop:
 
-- выбор ребра графа, по которому будет идти перемещение;
-- выполнение действий, назначенных на начало движения по ребру;
-- ожидание пока все требования следующего узла будут выполнены;
-- выполнение действий, назначенных на окончание движения по ребру;
-- переход в следующий узел;
-- выполнение действий в узле
-- возвращение в пункт 1.
+- Choose an edge of the graph along which the story will move.
+- Perform actions assigned to the beginning of the edge.
+- Wait until all requirements of the next node are met.
+- Perform actions assigned to the end of the edge.
+- Move the story state to the next node.
+- Perform actions assigned to the node.
+- Retun to the beginning of the loop.
 
-Узлы истории удобно разделить на типы, определяющие их роль:
+The nodes of the story can be separated into types that define their role:
 
-- начало — единственная точка входа в историю (или подысторию). Требования этого состояния должны гарантировать, что далее всё будет происходить корректно c точки зрения здравого смысла;
-- конец — маркер завершения истории (или подыстории);
-- точка выбора — узел, в котором герой (или игрок) должен сделать выбор дальнейшего пути развития событий;
-- точка условного перехода — узел, в котором дальнейший путь определяется каким-либо динамическим параметром (например, количеством денег у героя);
-- обычный узел — узел, не имеющий дополнительных свойств (просто определяет очередное событие в линейной последовательности).
-
+- `Start` — the only entry point to the story or sub-story. The requirements of this node must guarantee that everything will go correctly whatever path the story takes;
+- `End` — the marker of the end of the story or sub-story;
+- `Choise point` — a node where the hero (or player) must make a choice about the further path of the story;
+- `Conditional transition` — a node where the further path is determined by some dynamic parameter, for example, the amount of money the hero has;
+- `story node` — a node that has no additional properties, it just defines the next event in the linear sequence of the story.
 
 /// brigid-images
 src = "images/automatic-quests-generator-example-2.png"
-caption = "А вот так выглядит более сложная история."
+caption = "An example of a more complex story."
 ///
 
 ## Генерация истории
