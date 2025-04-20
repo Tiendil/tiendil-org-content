@@ -2,16 +2,18 @@
 title = "Advanced quests generation"
 tags = [ "the-tale", "open-source", "python", "gamedev", "game-design", "practice", "procedural-content-generation", "development", "theory", "interesting", "best", "tutorial"]
 published_at = "2022-03-22T12:00:00+00:00"
-seo_description = "Описание генератора нелинейных квестов для текстовой многопользовательской ролевой игры «Сказка»."
+seo_description = "Generation of nonlinear quests for the text multiplayer role-playing game "The Tale"."
 seo_image = "images/automatic-quests-generator-example-1.png"
 ---
 
 <!-- TODO: choose new title? -->
+<!-- TODO: choose new description -->
 <!-- TODO: translate images -->
 <!-- TODO: translate SVGs -->
 <!-- TODO: move SVGs to the blog -->
 
-_Изначально статья была опубликована на Хабре в 2013 году, но я решил вернуть её в блог. Изменений не делал, поэтому подача может немного отличаться от традиционной._
+_This is a translation of my post from 2013 abut quest generation for the now stopped game The Tale. I think it is still relevant and interesting, since the described techniques are quite advanced and can be an inspiration for other developers._
+
 
 Несмотря на то, что вопрос автоматической генерации заданий в RPG достаточно древний, общедоступных работающих версий таких генераторов почти нет (скорее совсем нет), если не считать совсем примитивных вариантов. Работ по этой теме тоже не много, хотя, если активно гуглить, кое-что можно откопать. Поэтому надеюсь, что этот текст (и сам генератор, ссылка на репозиторий есть в конце статьи) будет полезен.
 
