@@ -15,6 +15,8 @@ seo_image = "images/automatic-quests-generator-example-1.png"
 <!-- TODO: replace links to SVG with inlined svgs -->
 <!-- TODO: replace cursive into info block in en -->
 <!-- TODO: replace cursive into info block in ru -->
+<!-- TODO: ask chatgpt to check times usage -->
+<!-- TODO: change comments in the questgen code into english -->
 
 _This is a translation of my post from 2013 abut quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant and interesting, since the described techniques are quite advanced and can be an inspiration for other developers._
 
@@ -42,34 +44,38 @@ Therefore, I required a way to automatically generate complex belieavable quests
 
 In the following text I will use term "story" instead of "quests" as more convenient for explanation: each quest is a story limited by a couple of conditions, so it is more reasonable to talk about a story generator.
 
-## Постановка задачи
+## Requirements
 
-Требования, которые я выдвинул к историям, можно сформулировать так:
+The base requirements for the generator were as follows:
 
-- нелинейность (любое количество развилок и вариантов окончания);
-- вложенность (одна история может иметь любое количество вложенных или следующих друг за другом подысторий);
-- целостность (история всегда должна иметь окончание, по какому бы пути герой не пошёл);
-- выполнимость (герой должен гарантировано пройти любую историю за конечное время);
-- непротиворечивость (история не должна противоречить состоянию мира или самой себе);
-- масштабируемость (участниками истории может стать любое количество персонажей игроков или NPC);
-- вариативность (истории должны отличаться друг от друга, даже если в целом они об одном и том же).
+- **Nonlinearity**: any number of branches and endings should be possible;
+- **Nesting**: one story can have any number of nested or sequential sub-stories;
+- **Integrity**: the story should always have a correct ending, no matter which path the hero takes;
+- **Feasibility**: the hero should be able to complete any story in a finite time;
+- **Consistency**: the story should not contradict the state of the world or itself;
+- **Scalability**: the story can have any number of "actors" (players or NPCs);
+- **Variability**: the stories should differ from each other, even if they are about the same thing in general.
 
-Кроме требований к самим историям есть ещё несколько требований непосредственно к генератору:
+Besides the requirements for the stories themselves, there was several requirements for the generator:
 
-- отсутствие бракованных историй (если история сгенерирована, то она должна отвечать всем требованиям);
-- возможность визуализации полученного результата (без визуализации разработка превратится в ад).
+- If generator creates a story, it should be correct (i.e. it should comply with all requirements);
+- The stories should be visualized in a convenient way for the developer;
 
-Определившись с требованиями, следовало определиться с тем, что, собственно, такое квест или история. В итоге я пришёл к следующему определению:
+### What is a story
 
-> История — это направленный ацикличный связный граф. Узлы которого описывают состояние (требования к состоянию) объектов-участников и окружающей среды на конкретном этапе истории, а рёбра определяют возможные переходы между этими этапами.
+Knowing the requirements, I had to define what a quest or a story is. In the end, I came to the following definition:
 
-Из определения плавно вытекает идея реализации истории в виде машины состояний, которая отдаётся под управление игре.
+<!-- TODO: replace by a block? in ru too. -->
 
-В итоге наш генератор должен на основе информации о текущем состоянии мира создавать граф истории, обладающей перечисленными ранее свойствами.
+> The story is a directed acyclic connected graph. The nodes of which describe the state (requirements for the state) of the participated entities and the environment at a specific stage of the story, and the edges define possible transitions between these stages.
 
-В свою очередь, полученный граф должен интерпретироваться логикой игры. Которая на основе информации о текущем состоянии истории и ожидаемом будущем состоянии будет инициировать необходимые изменения в действиях героя или окружающей среде, ведущие к выполнению всех требований, необходимых для перехода истории на следующий этап.
+From the definition, it smoothly follows the idea of implementing the story as a state machine, which is transfered from the quests generator to the game logic engine.
 
-Сам интерпретатор реализуется достаточно тривиально (в конце статьи будет ссылка на пример реализации).
+So, our generator should create a story graph based on the information about the current state of the world with respect to the requirements listed above.
+
+The game logic will interpret this graph. It will initiate the necessary changes in the actions of the hero or in the environment based on the information about the current state of the story and the expected future state, leading to the fulfillment of all requirements necessary for the story to move to the next stage.
+
+Here is an [example of such interpretator](https://github.com/Tiendil/questgen/blob/master/helpers/example.py)
 
 ## Структура истории
 
