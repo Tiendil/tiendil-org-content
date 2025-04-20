@@ -16,6 +16,7 @@ seo_image = "images/automatic-quests-generator-example-1.png"
 <!-- TODO: ask chatgpt to check times usage -->
 <!-- TODO: change comments in the questgen code into english -->
 <!-- TODO: cover image + seo_image-->
+<!-- TODO: change link in the repo to the blog post-->
 
 _This is a translation of my post from 2013 abut quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant and interesting, since the described techniques are quite advanced and can be an inspiration for other developers._
 
