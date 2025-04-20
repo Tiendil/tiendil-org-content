@@ -9,14 +9,15 @@ seo_image = "images/automatic-quests-generator-example-1.png"
 <!-- TODO: translate images -->
 <!-- TODO: translate SVGs -->
 <!-- TODO: move SVGs to the blog -->
-<!-- TODO: translate README in github to english -->
 <!-- TODO: replace links to SVG with inlined svgs -->
 <!-- TODO: replace cursive into info block in en -->
 <!-- TODO: replace cursive into info block in ru -->
 <!-- TODO: ask chatgpt to check times usage -->
-<!-- TODO: change comments in the questgen code into english -->
 <!-- TODO: cover image + seo_image-->
-<!-- TODO: change link in the repo to the blog post-->
+<!-- TODO: change link in the repo info to the blog post-->
+<!-- TODO: change link in the repo readme to the blog post-->
+<!-- TODO: update links in the README -->
+<!-- TODO: in README make note that comments and texts in examples in Ru. For english description see post. -->
 
 _This is a translation of my post from 2013 abut quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant and interesting, since the described techniques are quite advanced and can be an inspiration for other developers._
 
@@ -96,7 +97,7 @@ caption = "An example of a simple story."
 - purple nodes — choice points;
 - green nodes — ordinary story points;
 - red nodes — conditional transitions;
-- turquoise contours — sub-stories;
+- cyan contours — sub-stories;
 - dark background in the nodes indicates requirements that must be met for the story to move to this node;
 - light background indicates actions that must be performed immediately after the transition to the story point;
 ///
