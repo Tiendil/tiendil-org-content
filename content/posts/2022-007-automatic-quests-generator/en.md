@@ -13,10 +13,12 @@ seo_image = "images/automatic-quests-generator-example-1.png"
 <!-- TODO: move SVGs to the blog -->
 <!-- TODO: translate README in github to english -->
 <!-- TODO: replace links to SVG with inlined svgs -->
+<!-- TODO: replace cursive into info block in en -->
+<!-- TODO: replace cursive into info block in ru -->
 
-_This is a translation of my post from 2013 abut quest generation for the now stopped game The Tale. I think it is still relevant and interesting, since the described techniques are quite advanced and can be an inspiration for other developers._
+_This is a translation of my post from 2013 abut quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant and interesting, since the described techniques are quite advanced and can be an inspiration for other developers._
 
-_Please remember, that the original post was written in 2013, so some statements and ideas may be outdated._
+_Please remember, that the original post was written in 2013. I updated part of the post, but some statements and ideas may be outdated._
 
 Despite the fact that the conception of automatic quest generation in RPGs is quite old, there are almost no publicly available working versions of such generators (rather none at all), if we do not count primitive ones. There are also not many posts on this topic, although if some can be googled. So I hope that this text and [the quests generator](https://github.com/the-tale/questgen) itself will be useful.
 
@@ -24,21 +26,21 @@ Here is [a scheme of one of resulting quests](https://s3-eu-west-1.amazonaws.com
 
 <!-- more -->
 
-/// details | Зачем генератор понадобился
-ZPG — Zero Player Game — игра без участия игрока, ближайший популярный аналог — Годвилль.
+/// details | Why the generator was needed
+ZPG — [Zero Player Game](https://en.wikipedia.org/wiki/Zero-player_game) — is a game without active player interaction. The closest popular analogues are [Godville](https://godvillegame.com/) and [Progress Quest](https://en.wikipedia.org/wiki/Progress_Quest).
 
-Персонаж игрока (герой) в игре действует полностью самостоятельно и основным его занятием является, конечно, выполнение заданий NPC.
+"The Tale" was intended to be that kind of game — a text multiplayer role-playing game in a persistent fantasy world.
 
-Ключевым моментом является то, что задания нелинейные и игрок должен делать выбор, какому NPC его герой будет помогать, а какому вредить. От этого напрямую зависит «судьба мира» (например, NPC может покинуть игру, если ему многие будут вредить).
+The player's character (hero) in the game acted completely independently, and thrir main activity was, of course, completing quests from NPCs.
 
-Кроме того, герой обладает «характером», который может влиять на его действия при выполнении задания (например, можно указать, что он будет стремиться помогать конкретному NPC).
+The key point of the game was that the quests should be nonlinear, and the player should have a choise of which NPC to help and which to harm. Choises of players directly influenced the "fate of the world", for example, an NPC could leave the game permanently if many players harmed him.
 
-Опыт герой получает только за выполнение заданий.
+Besides, the hero had a "character" that could influence his actions when completing a quest, for example, he could be set to help a specific NPC or to prefere honorable actions decisions.
 
-Исходя из этого, был нужен механизм создания интересных и сложных заданий, не противоречащих здравому смыслу и требующих от игрока подумать, прежде чем делать выбор.
+Therefore, I required a way to automatically generate complex belieavable quests that would not contradict the game world and would require the player to think before making a choice.
 ///
 
-Далее вместо «квест» я буду использовать термин «история», как более удобный для объяснения (каждый квест и есть история, ограниченная парой условностей, поэтому разумнее говорить именно о генераторе историй).
+In the following text I will use term "story" instead of "quests" as more convenient for explanation: each quest is a story limited by a couple of conditions, so it is more reasonable to talk about a story generator.
 
 ## Постановка задачи
 
