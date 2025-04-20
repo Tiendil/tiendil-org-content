@@ -2,7 +2,7 @@
 title = "Automatic non-linear quests generation"
 tags = [ "the-tale", "open-source", "python", "gamedev", "game-design", "practice", "procedural-content-generation", "development", "theory", "interesting", "best", "tutorial"]
 published_at = "2025-04-21T12:00:00+00:00"
-seo_description = "Explaind the generation of nonlinear quests for the text multiplayer role-playing game "The Tale"."
+seo_description = "Explaind the generation of nonlinear quests for the text multiplayer role-playing game \"The Tale\"."
 seo_image = "images/automatic-quests-generator-example-1.png"
 ---
 
@@ -15,6 +15,7 @@ seo_image = "images/automatic-quests-generator-example-1.png"
 <!-- TODO: replace cursive into info block in ru -->
 <!-- TODO: ask chatgpt to check times usage -->
 <!-- TODO: change comments in the questgen code into english -->
+<!-- TODO: cover image + seo_image-->
 
 _This is a translation of my post from 2013 abut quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant and interesting, since the described techniques are quite advanced and can be an inspiration for other developers._
 
