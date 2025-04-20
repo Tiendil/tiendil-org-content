@@ -24,7 +24,7 @@ _Please remember, that the original post was written in 2013. I updated part of 
 
 Despite the fact that the conception of automatic quest generation in RPGs is quite old, there are almost no publicly available working versions of such generators (rather none at all), if we do not count primitive ones. There are also not many posts on this topic, although if some can be googled. So I hope that this text and [the quests generator](https://github.com/the-tale/questgen) itself will be useful.
 
-Here is [a scheme of one of resulting quests](https://s3-eu-west-1.amazonaws.com/public-filles/large_quest.svg).
+Here is [a scheme of one of resulting quests](https://s3-eu-west-1.amazonaws.com/public-filles/large_quest.svg), [more generated stories](https://github.com/the-tale/questgen/tree/master/svgs).
 
 <!-- more -->
 
@@ -158,35 +158,26 @@ There are three possible results:
 
 With the help of such info we can find correct nodes in the parent story for end nodes of the child story.
 
-## Постобработка и проверка корректности
+## Postprocessing and validation
 
-После описанных выше действий, у нас на руках будет визуально правильный граф истории, но без гарантии непротиворечивости. В таком графе содержатся все варианты развития событий, даже противоречащие текущему состоянию мира.
+After we merged multiple templates into one graph, we have a visually correct story graph, but without any guarantees of consistency. The graph contains all possible paths of the story, even those that contradict the state of the world or internal logic of the story.
 
-Например, в одной из веток герой может вредить своему другу. Или два NPC, отмеченные врагами, могут действовать сообща.
+For exmaple, in one of the story branches the hero can harm his friend. Or two NPCs, marked as enemies, can act together.
 
-Поэтому историю надо дополнительно обработать. Это предполагает следующие действия:
+Therefore, the story must be additionally processed. Such processing includes the following steps:
 
-1. Активируются случайные события — некоторые узлы объединены в группы альтернативных вариантов развития истории. Из каждой группы выбирается один узел, остальные удаляются.
-2. Удаляются все конечные узлы, содержащие запрещённые результаты заданий для объектов.
-3. Полученный граф чистится от «висящих» узлов. «Висящими» считаются следующие типы узлов:
-    - узел, который не является конечным узлом самой внешней истории и из которого не выходит рёбер.
-    - узел, который не является стартовым узлом самой внешней истории и который не имеет входящих рёбер.
+1. Some nodes are grouped into clusters of alternative story branches. One node is selected from each group, the rest are removed.
+2. All end nodes with forbidden semantic results for the entities are removed. For example, if the hero is a friend of the NPC, then the end node of the path where the hero harms this NPC will be removed.
+3. The resulting graph is cleaned from hanging nodes. "Hanging" nodes are the following types of nodes:
+    - a node that is not an end node of the root story and has no outgoing edges;
+    - a node that is not a start node of the root story and has no incoming edges.
 
-Полученный граф будет как минимум непротиворечивым. Но он может стать невыполнимым или несвязанным (история станет нецельной). Поэтому следующим шагом является проверка всех необходимых свойств полученной истории.
+The final graph, at least, will be consistent. But it can become infeasible or disconnected, which means that the story will become incomplete. Therefore, the next step is to check all the requirements of the resulting story.
 
-Если проверка прошла успешно, то у нас появилась новая история.
+If the requirements are met, the story is ready for use. The game engine will be able to interpret it correctly.
 
-Если нет — начинаем создавать её сначала.
+If not, we drop the story and start generating it from scratch.
 
-Подход с полным откатом может привести к очень длительной генерации, в случае, если мир игры очень маленький и обладает большим количеством связей. Но на практике обычно объектов в мире много, а связей между ними мало, поэтому проблем нет.
+The approach with full rollback can lead to very long generation time, if the game world is very small and has a lot of connections. But in practice, there are usually many objects in the world and few connections between them, so there are no problems.
 
-В случае частых ошибок, игра, использующая генератор, может уменьшить количество устанавливаемых свойств мира (например, перестать учитывать отношение дружбы). Сам генератор не пытается делать дополнительных предположений о состоянии мира.
-
-## Ссылки
-
-Генератор написан на Python, выложен на github под BSD лицензией:
-
-- репозиторий: [questgen](https://github.com/Tiendil/questgen)
-- пример интерпретатора: [example.py](https://github.com/Tiendil/questgen/blob/master/helpers/example.py)
-- [примеры готовых заданий](https://github.com/the-tale/questgen/tree/master/svgs)
-- игра, для которой делался: [http://the-tale.org](http://the-tale.org/)
+In the case of frequent errors, the game can reduce the number of world properties passed to the generator, for example, stop taking into account the friendship relation. The generator itself does not try to make additional assumptions about the state of the world.
