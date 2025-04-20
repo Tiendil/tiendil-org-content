@@ -10,18 +10,19 @@ seo_image = "images/automatic-quests-generator-example-1.png"
 <!-- TODO: translate SVGs -->
 <!-- TODO: move SVGs to the blog -->
 <!-- TODO: replace links to SVG with inlined svgs -->
-<!-- TODO: replace cursive into info block in en -->
-<!-- TODO: replace cursive into info block in ru -->
 <!-- TODO: ask chatgpt to check times usage -->
 <!-- TODO: cover image + seo_image-->
 <!-- TODO: change link in the repo info to the blog post-->
 <!-- TODO: change link in the repo readme to the blog post-->
 <!-- TODO: update links in the README -->
 <!-- TODO: in README make note that comments and texts in examples in Ru. For english description see post. -->
+<!-- TODO: fix CI in questgen -->
 
-_This is a translation of my post from 2013 abut quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant and interesting, since the described techniques are quite advanced and can be an inspiration for other developers._
+/// note | This is a translation of the old post
+This is a translation of my post from 2013 about quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant and interesting and can be an inspiration for other developers.
 
-_Please remember, that the original post was written in 2013. I updated part of the post, but some statements and ideas may be outdated and the flow of ideas is not such clear as I would like to have it now._
+Please remember, that the original post was written in 2013. I updated part of the post, but some statements and ideas may be outdated and the flow of thoughts is not as clear as be if I write this post now.
+///
 
 Despite the fact that the conception of automatic quest generation in RPGs is quite old, there are almost no publicly available working versions of such generators (rather none at all), if we do not count primitive ones. There are also not many posts on this topic, although if some can be googled. So I hope that this text and [the quests generator](https://github.com/the-tale/questgen) itself will be useful.
 
@@ -64,11 +65,11 @@ Besides the requirements for the stories themselves, there was several requireme
 
 ### What is a story
 
-Knowing the requirements, I had to define what a quest or a story is. In the end, I came to the following definition:
+Knowing the requirements, I had to define what a quest or a story is. In the end, I came to the following definition.
 
-<!-- TODO: replace by a block? in ru too. -->
-
-> The story is a directed acyclic connected graph. The nodes of which describe the state (requirements for the state) of the participated entities and the environment at a specific stage of the story, and the edges define possible transitions between these stages.
+/// hint | Definition of a story
+The story is a directed acyclic connected graph. The nodes of which describe the state (requirements for the state) of the participated entities and the environment at a specific stage of the story, and the edges define possible transitions between these stages.
+///
 
 From the definition, it smoothly follows the idea of implementing the story as a state machine, which is transfered from the quests generator to the game logic engine.
 
