@@ -1,13 +1,11 @@
 ---
-title = "Advanced quests generation"
+title = "Automatic non-linear quests generation"
 tags = [ "the-tale", "open-source", "python", "gamedev", "game-design", "practice", "procedural-content-generation", "development", "theory", "interesting", "best", "tutorial"]
-published_at = "2022-03-22T12:00:00+00:00"
-seo_description = "Generation of nonlinear quests for the text multiplayer role-playing game "The Tale"."
+published_at = "2025-04-21T12:00:00+00:00"
+seo_description = "Explaind the generation of nonlinear quests for the text multiplayer role-playing game "The Tale"."
 seo_image = "images/automatic-quests-generator-example-1.png"
 ---
 
-<!-- TODO: choose new title? -->
-<!-- TODO: choose new description -->
 <!-- TODO: translate images -->
 <!-- TODO: translate SVGs -->
 <!-- TODO: move SVGs to the blog -->
