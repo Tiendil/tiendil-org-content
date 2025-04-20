@@ -20,7 +20,7 @@ seo_image = "images/automatic-quests-generator-example-1.png"
 
 _This is a translation of my post from 2013 abut quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant and interesting, since the described techniques are quite advanced and can be an inspiration for other developers._
 
-_Please remember, that the original post was written in 2013. I updated part of the post, but some statements and ideas may be outdated._
+_Please remember, that the original post was written in 2013. I updated part of the post, but some statements and ideas may be outdated and the flow of ideas is not such clear as I would like to have it now._
 
 Despite the fact that the conception of automatic quest generation in RPGs is quite old, there are almost no publicly available working versions of such generators (rather none at all), if we do not count primitive ones. There are also not many posts on this topic, although if some can be googled. So I hope that this text and [the quests generator](https://github.com/the-tale/questgen) itself will be useful.
 
@@ -124,35 +124,39 @@ src = "images/automatic-quests-generator-example-2.png"
 caption = "An example of a more complex story."
 ///
 
-## Генерация истории
+## Story generation
 
-История может состоять из нескольких «атомарных» заданий. Например, больной NPC может отправить героя за лекарством к ведьме, которая потребует за него услугу (выполнение другого «вложенного» задания).
+The story can consist of several atomic tasks. For example, a sick NPC can send the hero for medicine to a witch, who will require a service (performing another nested task) in exchange for remedy.
 
-Поэтому строится она из набора «атомарных» шаблонов. Шаблон представляет собой такой же граф истории, но со всеми вариантами развития событий (даже теми, которые могут сделать историю противоречивой).
+Thats why the story is built from a set of atomic templates. A template is a graph of the story with all possible branches (even those that can break the story).
 
-Важным моментом здесь является соединение шаблонов (помним, что в итоге у нас должен быть связный граф):
+The important part here is the connection of templates (remember that we need a connected graph in the end):
 
-- как минимум из одного узла родительской истории должно идти ребро в стартовый узел дочерней;
-- как минимум из одного конечного узла дочерней истории должно идти ребро в узел родительской.
+- At least one node of the parent story must have an edge to the start node of the child story;
+- At least one end node of the child story must have an edge to the node of the parent story.
 
-После долгих размышлений было решено, что все истории, в общем-то, характеризуются набором ключевых «объектов» (мест, персонажей, предметов). Поэтому для каждого шаблона создаётся набор конструкторов, принимающих данные фиксированного формата. Вот несколько примеров конструкторов:
+After some experimenting and thinking, I came to the conclusion that all stories can be characterized by a set of key objects/variables (places, characters, items). Therefore, each template has a set of constructors that take data in a fixed format. Here are some examples of constructors:
 
-- из конкретного места — если нам важно, чтобы история начиналась в определённом месте, а всё остальное может быть как угодно;
-- между двух NPC — когда необходимо, чтобы один NPC (инициатор) дал задание связанное со вторым NPC (получателем)
+- `start quest from a specific place` — if we want the story to start in a specific place, and everything else can be random;
+- `start quest affecting two NPCs` — when it is necessary for one NPC (initiator) to initiate a task related to the second NPC (recipient);
 
-При генерации дочерней истории, родительская фильтрует все шаблоны по наличию необходимого ей конструктора, из которых уже выбирает случайный.
+When generating a child story, the parent story filters all templates by the presence of the required constructor, one of which is then randomly selected.
 
-Связывание родительской истории с началом дочерней происходит просто — родительская создаёт ребро из нужного узла в единственный стартовый узел дочерней истории.
+We connect parent with child in a few steps.
 
-Конечных же узлов может быть несколько, и они могут иметь разный семантический смысл для истории. Например, в истории про ведьму герой может не только выполнить её задание, но и провалить его, соответственно, дуги из разных конечных узлов необходимо вести строго в соответствующие им по смыслу узлы родительской истории.
+Create an edge from the node in the parent story to the start node of the child story.
 
-Для этого в каждом конечном узле указывается список результатов задания для каждого из объектов участников. На текущий момент возможных результатов три:
+There may be several end nodes in the child story, and they can have different semantic meaning for the plot. For example, in the story about a witch, the hero can not only complete her task but also fail, which may push witch to refuse to help the hero. Therefore, edges from different end nodes must be strictly directed to the distinkt corresponding nodes of the parent story.
 
-- положительный — задание положительно повлияло на объект;
-- нейтральный — задание никак не повлияло на объект;
-- отрицательный — задание навредило объекту.
+To achieve this, we define a set of semantic results for each entities participating in the story in each end node.
 
-Благодаря этому, для каждого конечного узла можно определить его общий смысл и правильно связать его с родительской историей.
+There are three possible results:
+
+- `positive` — the story positively influence the entity;
+- `neutral` — the story does not influence the entity;
+- `negative` — the story negatively influence the entity.
+
+With the help of such info we can find correct nodes in the parent story for end nodes of the child story.
 
 ## Постобработка и проверка корректности
 
