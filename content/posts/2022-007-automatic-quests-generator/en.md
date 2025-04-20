@@ -11,13 +11,16 @@ seo_image = "images/automatic-quests-generator-example-1.png"
 <!-- TODO: translate images -->
 <!-- TODO: translate SVGs -->
 <!-- TODO: move SVGs to the blog -->
+<!-- TODO: translate README in github to english -->
+<!-- TODO: replace links to SVG with inlined svgs -->
 
 _This is a translation of my post from 2013 abut quest generation for the now stopped game The Tale. I think it is still relevant and interesting, since the described techniques are quite advanced and can be an inspiration for other developers._
 
+_Please remember, that the original post was written in 2013, so some statements and ideas may be outdated._
 
-Несмотря на то, что вопрос автоматической генерации заданий в RPG достаточно древний, общедоступных работающих версий таких генераторов почти нет (скорее совсем нет), если не считать совсем примитивных вариантов. Работ по этой теме тоже не много, хотя, если активно гуглить, кое-что можно откопать. Поэтому надеюсь, что этот текст (и сам генератор, ссылка на репозиторий есть в конце статьи) будет полезен.
+Despite the fact that the conception of automatic quest generation in RPGs is quite old, there are almost no publicly available working versions of such generators (rather none at all), if we do not count primitive ones. There are also not many posts on this topic, although if some can be googled. So I hope that this text and [the quests generator](https://github.com/the-tale/questgen) itself will be useful.
 
-Для торопливых: [визуализация одного из полученных заданий](https://s3-eu-west-1.amazonaws.com/public-filles/large_quest.svg).
+Here is [a scheme of one of resulting quests](https://s3-eu-west-1.amazonaws.com/public-filles/large_quest.svg).
 
 <!-- more -->
 
