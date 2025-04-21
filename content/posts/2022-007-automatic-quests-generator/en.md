@@ -1,8 +1,8 @@
 ---
-title = "Automatic non-linear quests generation"
+title = "Generation of non-linear quests"
 tags = [ "the-tale", "open-source", "python", "gamedev", "game-design", "practice", "procedural-content-generation", "development", "theory", "interesting", "best", "tutorial"]
 published_at = "2025-04-21T12:00:00+00:00"
-seo_description = "explained the generation of nonlinear quests for the text multiplayer role-playing game \"The Tale\"."
+seo_description = "Explained the generation of non-linear quests for the text multiplayer role-playing game \"The Tale\"."
 seo_image = "./cover.png"
 ---
 
@@ -12,25 +12,25 @@ caption = "Non-linear quest with nested sub-quest"
 ///
 
 /// note | This is a translation of the old post
-This is a translation of my post from 2013 about quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant, interesting, and could be an inspiration for other developers.
+This is a translation of my post from 2013 about quest generation for the now-stopped game [The Tale](https://the-tale.org/). I think it is still relevant, interesting, and could inspire other developers.
 
-Please remember that the original post was written in 2013. I updated part of the post, but some statements and ideas may be outdated and the flow of thoughts is not as clear as it would be if I wrote this post now.
+Please remember that the original post was written in 2013. I updated part of the post, but some statements and ideas may be outdated, and the flow of thoughts is not as clear as it would be if I had written this post now.
 ///
 
-Despite the fact that the conception of automatic quest generation in RPGs is quite old, there are almost no publicly available working versions of such generators (rather none at all), if we do not count primitive ones. There are also not many posts on this topic, although some can be googled. So I hope that this text and [the quests generator](https://github.com/the-tale/questgen) itself will be useful.
+Despite the fact that the conception of automatic quest generation in RPGs is quite old, there are almost no publicly available working versions of such generators (rather none at all) if we do not count primitive ones. There are also not many posts on this topic, although some can be googled. So, I hope this text and [the quests generator](https://github.com/the-tale/questgen) will be helpful.
 
 You can find [examples of generated quests](https://github.com/the-tale/questgen/tree/master/svgs) in the repository.
 
 <!-- more -->
 
 /// details | Why the generator was needed
-ZPG — [Zero Player Game](https://en.wikipedia.org/wiki/Zero-player_game) — is a game without active player interaction. The closest popular analogues are [Godville](https://godvillegame.com/) and [Progress Quest](https://en.wikipedia.org/wiki/Progress_Quest).
+ZPG — [Zero Player Game](https://en.wikipedia.org/wiki/Zero-player_game) — is a game without active player interaction. The closest popular analogs are [Godville](https://godvillegame.com/) and [Progress Quest](https://en.wikipedia.org/wiki/Progress_Quest).
 
 "The Tale" was intended to be that kind of game — a text multiplayer role-playing game in a persistent fantasy world.
 
 The player's character (hero) in the game would act completely independently, and their main activity was, of course, completing quests from NPCs.
 
-A key point of the game was that the quests had to be nonlinear, and the player should have a choice of which NPC to help and which to harm. Players' choices directly influenced the "fate of the world", for example, an NPC could leave the game permanently if many players harmed him.
+A key point of the game was that the quests had to be non-linear, and the player should have a choice of which NPC to help and which to harm. Players' choices directly influenced the "fate of the world", for example, an NPC could leave the game permanently if many players harmed him.
 
 Besides, the hero had a "character" that could influence his actions when completing a quest, for example, he could be set to help a specific NPC or to prefer honorable actions/decisions.
 
@@ -43,7 +43,7 @@ In the following text I will use term "story" instead of "quests" as more conven
 
 The base requirements for the generator were as follows:
 
-- **Nonlinearity**: any number of branches and endings should be possible;
+- **Non-Linearity**: any number of branches and endings should be possible;
 - **Nesting**: one story can have any number of nested or sequential sub-stories;
 - **Integrity**: the story should always have a correct ending, no matter which path the hero takes;
 - **Feasibility**: the hero should be able to complete any story in a finite time;
