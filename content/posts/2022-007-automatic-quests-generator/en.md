@@ -137,7 +137,7 @@ After some experimenting and thinking, I came to the conclusion that all stories
 
 When generating a child story, the parent story filters all templates based on the presence of the required constructor, one of which is then randomly selected.
 
-We connect parent with child in a few steps.
+We connect the parent with the child by linking the child's start and end nodes with the parent's nodes.
 
 We create an edge from a node in the parent story to the start node of the child story.
 
@@ -161,7 +161,7 @@ For example, in one of the story branches the hero can harm his friend. Or two N
 
 Therefore, the story must be additionally processed. Such processing includes the following steps:
 
-1. Some nodes are grouped into clusters of alternative story branches. One node is selected from each group, the rest are removed.
+1. Some nodes may be grouped into clusters of alternative story branches. One node is selected from each group, the rest are removed.
 2. All end nodes with forbidden semantic results for the entities are removed. For example, if the hero is a friend of the NPC, then the end node of the path where the hero harms this NPC will be removed.
 3. The resulting graph is cleaned of hanging nodes. "Hanging" nodes are the following types of nodes:
     - a node that is not an end node of the root story and has no outgoing edges;
