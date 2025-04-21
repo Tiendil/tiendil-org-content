@@ -12,7 +12,7 @@ caption = "Non-linear quest with nested sub-quest"
 ///
 
 /// note | This is a translation of the old post
-This is a translation of my post from 2013 about quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant, interesting, and can be an inspiration for other developers.
+This is a translation of my post from 2013 about quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant, interesting, and could be an inspiration for other developers.
 
 Please remember that the original post was written in 2013. I updated part of the post, but some statements and ideas may be outdated and the flow of thoughts is not as clear as it would be if I wrote this post now.
 ///
@@ -28,7 +28,7 @@ ZPG — [Zero Player Game](https://en.wikipedia.org/wiki/Zero-player_game) — i
 
 "The Tale" was intended to be that kind of game — a text multiplayer role-playing game in a persistent fantasy world.
 
-The player's character (hero) in the game acted completely independently, and their main activity was, of course, completing quests from NPCs.
+The player's character (hero) in the game would act completely independently, and their main activity was, of course, completing quests from NPCs.
 
 A key point of the game was that the quests had to be nonlinear, and the player should have a choice of which NPC to help and which to harm. Players' choices directly influenced the "fate of the world", for example, an NPC could leave the game permanently if many players harmed him.
 
@@ -66,7 +66,7 @@ The story is a directed acyclic connected graph. The nodes of which describe the
 
 From the definition, it smoothly follows the idea of implementing the story as a state machine, which is transfered from the quests generator to the game logic engine.
 
-So our generator should create a story graph based on the information about the current state of the world with respect to the requirements listed above.
+So the generator had to create a story graph based on the information about the current state of the world with respect to the requirements listed above.
 
 The game logic will interpret this graph. It will initiate the necessary changes in the actions of the hero or in the environment based on the information about the current state of the story and the expected future state, leading to the fulfillment of all requirements necessary for the story to move to the next stage.
 
