@@ -3,15 +3,13 @@ title = "Automatic non-linear quests generation"
 tags = [ "the-tale", "open-source", "python", "gamedev", "game-design", "practice", "procedural-content-generation", "development", "theory", "interesting", "best", "tutorial"]
 published_at = "2025-04-21T12:00:00+00:00"
 seo_description = "Explaind the generation of nonlinear quests for the text multiplayer role-playing game \"The Tale\"."
-seo_image = "images/automatic-quests-generator-example-1.png"
+seo_image = "./cover.png"
 ---
 
-<!-- TODO: translate images -->
-<!-- TODO: move SVGs to the blog -->
-<!-- TODO: replace links to SVG with inlined svgs -->
-<!-- TODO: ask chatgpt to check times usage -->
-<!-- TODO: cover image + seo_image-->
-<!-- TODO: validate -->
+/// brigid-images
+src = "./cover.png"
+caption = "Non-linear quest with nested sub-quest"
+///
 
 /// note | This is a translation of the old post
 This is a translation of my post from 2013 about quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant and interesting and can be an inspiration for other developers.
@@ -21,7 +19,7 @@ Please remember, that the original post was written in 2013. I updated part of t
 
 Despite the fact that the conception of automatic quest generation in RPGs is quite old, there are almost no publicly available working versions of such generators (rather none at all), if we do not count primitive ones. There are also not many posts on this topic, although if some can be googled. So I hope that this text and [the quests generator](https://github.com/the-tale/questgen) itself will be useful.
 
-Here is [a scheme of one of resulting quests]{static:./images/large_quest_en.svg}, [more generated stories](https://github.com/the-tale/questgen/tree/master/svgs).
+You can find [examples of generated quests](https://github.com/the-tale/questgen/tree/master/svgs) in the repository.
 
 <!-- more -->
 
