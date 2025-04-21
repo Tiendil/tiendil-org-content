@@ -10,4 +10,4 @@ package-mode = false
 python = "^3.12"
 
 uvicorn = "^0.27.1"
-brigid = "^0.12.1"
+brigid = "^0.12.2"

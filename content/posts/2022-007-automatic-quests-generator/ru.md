@@ -171,4 +171,4 @@ caption = "А вот так выглядит более сложная исто�
 - репозиторий: [questgen](https://github.com/Tiendil/questgen)
 - пример интерпретатора: [example.py](https://github.com/Tiendil/questgen/blob/master/helpers/example.py)
 - [примеры готовых заданий](https://github.com/the-tale/questgen/tree/master/svgs)
-- игра, для которой делался: [http://the-tale.org](http://the-tale.org/)
+- игра, для которой делался (остановлена): [http://the-tale.org](http://the-tale.org/)

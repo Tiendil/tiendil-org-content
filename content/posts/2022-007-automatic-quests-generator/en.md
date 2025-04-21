@@ -7,16 +7,11 @@ seo_image = "images/automatic-quests-generator-example-1.png"
 ---
 
 <!-- TODO: translate images -->
-<!-- TODO: translate SVGs -->
 <!-- TODO: move SVGs to the blog -->
 <!-- TODO: replace links to SVG with inlined svgs -->
 <!-- TODO: ask chatgpt to check times usage -->
 <!-- TODO: cover image + seo_image-->
-<!-- TODO: change link in the repo info to the blog post-->
-<!-- TODO: change link in the repo readme to the blog post-->
-<!-- TODO: update links in the README -->
-<!-- TODO: in README make note that comments and texts in examples in Ru. For english description see post. -->
-<!-- TODO: fix CI in questgen -->
+<!-- TODO: validate -->
 
 /// note | This is a translation of the old post
 This is a translation of my post from 2013 about quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant and interesting and can be an inspiration for other developers.
@@ -26,7 +21,7 @@ Please remember, that the original post was written in 2013. I updated part of t
 
 Despite the fact that the conception of automatic quest generation in RPGs is quite old, there are almost no publicly available working versions of such generators (rather none at all), if we do not count primitive ones. There are also not many posts on this topic, although if some can be googled. So I hope that this text and [the quests generator](https://github.com/the-tale/questgen) itself will be useful.
 
-Here is [a scheme of one of resulting quests](https://s3-eu-west-1.amazonaws.com/public-filles/large_quest.svg), [more generated stories](https://github.com/the-tale/questgen/tree/master/svgs).
+Here is [a scheme of one of resulting quests]{static:./images/large_quest_en.svg}, [more generated stories](https://github.com/the-tale/questgen/tree/master/svgs).
 
 <!-- more -->
 
