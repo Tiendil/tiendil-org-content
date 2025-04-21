@@ -28,16 +28,16 @@ ZPG — [Zero Player Game](https://en.wikipedia.org/wiki/Zero-player_game) — i
 
 "The Tale" was intended to be that kind of game — a text multiplayer role-playing game in a persistent fantasy world.
 
-The player's character (hero) in the game would act completely independently, and their main activity was, of course, completing quests from NPCs.
+The player's character (hero) in the game acted completely independently, and their main activity was, of course, completing quests from NPCs.
 
-A key point of the game was that the quests had to be non-linear, and the player should have a choice of which NPC to help and which to harm. Players' choices directly influenced the "fate of the world", for example, an NPC could leave the game permanently if many players harmed him.
+A key point of the game was that the quests had to be non-linear, and the player should have a choice of which NPC to help and which to harm. Players' choices directly influenced the "fate of the world". For example, an NPC could leave the game permanently if many players harmed them.
 
-Besides, the hero had a "character" that could influence his actions when completing a quest, for example, he could be set to help a specific NPC or to prefer honorable actions/decisions.
+Besides, the hero had a "character" that could influence his actions when completing a quest. For example, he could be set to help a specific NPC or prefer honorable actions/decisions.
 
-Therefore, I required a way to automatically generate complex believable quests that would not contradict the game world and would require the player to think before making a choice.
+Therefore, I required a way to automatically generate complex believable quests that would not contradict the game world and require the player to think before making a choice.
 ///
 
-In the following text I will use term "story" instead of "quests" as more convenient for explanation: each quest is a story limited by a couple of conditions, so it is more reasonable to talk about a story generator.
+In the following text, I will use the term "story" instead of "quests" as a more convenient for explanation: each quest is a story limited by a couple of conditions, so it is more reasonable to talk about a story generator.
 
 ## Requirements
 
@@ -53,7 +53,7 @@ The base requirements for the generator were as follows:
 
 Besides the requirements for the stories themselves, there were several requirements for the generator:
 
-- If generator creates a story, it should be correct (i.e. it should comply with all requirements);
+- If the generator creates a story, it should be correct (i.e., it should comply with all requirements);
 - The stories should be visualized in a convenient way for the developer;
 
 ### What is a story
@@ -61,22 +61,22 @@ Besides the requirements for the stories themselves, there were several requirem
 Knowing the requirements, I had to define what a quest or a story is. In the end, I came to the following definition.
 
 /// hint | Definition of a story
-The story is a directed acyclic connected graph. The nodes of which describe the state (requirements for the state) of the participated entities and the environment at a specific stage of the story, and the edges define possible transitions between these stages.
+The story is a directed acyclic connected graph. The nodes describe the state (requirements for the state) of the participating entities and the environment at a specific stage of the story, and the edges define possible transitions between these stages.
 ///
 
-From the definition, it smoothly follows the idea of implementing the story as a state machine, which is transfered from the quests generator to the game logic engine.
+From the definition, it smoothly follows the idea of implementing the story as a state machine, which is transferred from the quests generator to the game logic engine.
 
 So the generator had to create a story graph based on the information about the current state of the world with respect to the requirements listed above.
 
 The game logic will interpret this graph. It will initiate the necessary changes in the actions of the hero or in the environment based on the information about the current state of the story and the expected future state, leading to the fulfillment of all requirements necessary for the story to move to the next stage.
 
-Here is an [example of such interpretator](https://github.com/Tiendil/questgen/blob/master/helpers/example.py)
+Here is an [example of such an interpretator](https://github.com/Tiendil/questgen/blob/master/helpers/example.py)
 
 ## The structure of the story
 
 So, the story is a graph consisting of nodes and edges. Each node has a list of requirements (or checks, if you like) that must be met for the story to move to the corresponding node. A requirement can look like `the hero is in a specific place` or `the hero has a certain amount of money`.
 
-Besides the requirements for world's state, each node has a list of actions that must be performed when the story reaches this node. Such actions could be implemented as separate nodes with requirements, but it would significantly increase the graph complexity. We can look at them as a semantic sugar :-) Action, in our case, could be `send a message to the player`, `start a battle with a monster` or `give a reward to the hero`.
+Besides the requirements for the world's state, each node has a list of actions that must be performed when the story reaches this node. Such actions could be implemented as separate nodes with requirements, but it would significantly increase the graph complexity. We can look at them as a semantic sugar :-) Action, in our case, could be `send a message to the player`, `start a battle with a monster` or `give a reward to the hero`.
 
 Edges have the same lists of actions assigned to the beginning and end of the edge.
 
@@ -108,7 +108,7 @@ Transitions between nodes can be represented as a loop:
 
 The nodes of the story can be separated into types that define their role:
 
-- `Start` — the only entry point to the story or sub-story. The requirements of this node must guarantee that everything will go correctly whatever path the story takes;
+- `Start` — the only entry point to the story or sub-story. The requirements of this node must guarantee that everything will go correctly, whatever path the story takes;
 - `End` — the marker of the end of the story or sub-story;
 - `Choice point` — a node where the hero (or player) must make a choice about the further path of the story;
 - `Conditional transition` — a node where the further path is determined by some dynamic parameter, for example, the amount of money the hero has;
@@ -121,19 +121,19 @@ caption = "An example of a more complex story."
 
 ## Story generation
 
-The story can consist of several atomic tasks. For example, a sick NPC can send the hero for medicine to a witch, who will require a service (performing another nested task) in exchange for remedy.
+The story can consist of several atomic tasks. For example, a sick NPC can send the hero for medicine to a witch, who will require a service (performing another nested task) in exchange for a remedy.
 
 That's why the story is built from a set of atomic templates. A template is a graph of the story with all possible branches (even those that can break the story).
 
-The important part here is the connection of templates (remember that we need a connected graph in the end):
+The important part here is the connection of templates (remember that we need a connected graph at the end):
 
 - At least one node of the parent story must have an edge to the start node of the child story;
 - At least one end node of the child story must have an edge to the node of the parent story.
 
 After some experimenting and thinking, I came to the conclusion that all stories can be characterized by a set of key objects/variables (places, characters, items). Therefore, each template has a set of constructors that take data in a fixed format. Here are some examples of constructors:
 
-- `start quest from a specific place` — if we want the story to start in a specific place, and everything else can be random;
-- `start quest affecting two NPCs` — when it is necessary for one NPC (initiator) to initiate a task related to the second NPC (recipient);
+- `start a quest from a specific place` — if we want the story to start in a specific place, and everything else can be random;
+- `start a quest affecting two NPCs` — when it is necessary for one NPC (initiator) to initiate a task related to the second NPC (recipient);
 
 When generating a child story, the parent story filters all templates based on the presence of the required constructor, one of which is then randomly selected.
 
@@ -141,9 +141,9 @@ We connect parent with child in a few steps.
 
 We create an edge from a node in the parent story to the start node of the child story.
 
-There may be several end nodes in the child story, and they can have different semantic meaning for the plot. For example, in the story about a witch, the hero can not only complete her task but also fail, which may push witch to refuse to help the hero. Therefore, edges from different end nodes must be strictly directed to the distinct corresponding nodes of the parent story.
+There may be several end nodes in the child story, and they can have different semantic meanings for the plot. For example, in the story about a witch, the hero can not only complete her task but also fail, which may push the witch to refuse to help the hero. Therefore, edges from different end nodes must be strictly directed to the distinct corresponding nodes of the parent story.
 
-To achieve this, we define a set of semantic results for each entities participating in the story in each end node.
+To achieve this, we define a set of semantic results for each entity participating in the story in each end node.
 
 There are three possible results:
 
@@ -151,13 +151,13 @@ There are three possible results:
 - `neutral` — the story does not influence the entity;
 - `negative` — the story has a negative influence on the entity.
 
-With the help of such info we can find correct nodes in the parent story for end nodes of the child story.
+With the help of such info we can find the correct nodes in the parent story for end nodes of the child story.
 
 ## Postprocessing and validation
 
-After we merged multiple templates into one graph, we obtain a visually correct story graph, but without any guarantees of consistency. The graph contains all possible paths of the story, even those that contradict the state of the world or internal logic of the story.
+After merging multiple templates into one graph, we obtain a visually correct story graph, but without any consistency guarantees. The graph contains all possible paths of the story, even those that contradict the state of the world or the internal logic of the story.
 
-For example, in one of the story branches the hero can harm his friend. Or two NPCs, marked as enemies, can act together.
+For example, in one of the story branches the hero can harm his friend. Or two NPCs marked as enemies can act together.
 
 Therefore, the story must be additionally processed. Such processing includes the following steps:
 
@@ -167,12 +167,12 @@ Therefore, the story must be additionally processed. Such processing includes th
     - a node that is not an end node of the root story and has no outgoing edges;
     - a node that is not a start node of the root story and has no incoming edges.
 
-The final graph, at least, will be consistent. But it can become infeasible or disconnected, which means that the story will become incomplete. Therefore, the next step is to check all the requirements of the resulting story.
+The final graph, at least, will be consistent. However, it can become infeasible or disconnected, meaning that the story will become incomplete. Therefore, the next step is to check all the requirements of the resulting story.
 
 If the requirements are met, the story is ready for use. The game engine will be able to interpret it correctly.
 
 If not, we drop the story and start generating it from scratch.
 
-The approach with full rollback can lead to very long generation time, if the game world is very small and has a lot of connections. But in practice, there are usually many objects in the world and few connections between them, so this does not pose a problem.
+The approach with complete rollback can lead to a very long generation time if the game world is tiny and has a lot of connections. In practice, there are usually many objects in the world and few connections between them, so this does not pose a problem.
 
 In the case of frequent errors, the game can reduce the number of world properties passed to the generator, for example, stop taking into account the friendship relationship. The generator itself does not try to make additional assumptions about the state of the world.
