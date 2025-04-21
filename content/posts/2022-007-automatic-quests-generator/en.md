@@ -76,7 +76,7 @@ Here is an [example of such an interpretator](https://github.com/Tiendil/questge
 
 So, the story is a graph consisting of nodes and edges. Each node has a list of requirements (or checks, if you like) that must be met for the story to move to the corresponding node. A requirement can look like `the hero is in a specific place` or `the hero has a certain amount of money`.
 
-Besides the requirements for the world's state, each node has a list of actions that must be performed when the story reaches this node. Such actions could be implemented as separate nodes with requirements, but it would significantly increase the graph complexity. We can look at them as a semantic sugar :-) Action, in our case, could be `send a message to the player`, `start a battle with a monster` or `give a reward to the hero`.
+Besides the requirements for the world's state, each node has a list of actions that must be performed when the story reaches this node. Such actions could be implemented as separate nodes with requirements, but it would significantly increase the graph complexity. You may look at them as a semantic sugar :-) Action, in our case, could be `send a message to the player`, `start a battle with a monster` or `give a reward to the hero`.
 
 Edges have the same lists of actions assigned to the beginning and end of the edge.
 
