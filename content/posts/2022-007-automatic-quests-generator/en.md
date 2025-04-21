@@ -2,7 +2,7 @@
 title = "Automatic non-linear quests generation"
 tags = [ "the-tale", "open-source", "python", "gamedev", "game-design", "practice", "procedural-content-generation", "development", "theory", "interesting", "best", "tutorial"]
 published_at = "2025-04-21T12:00:00+00:00"
-seo_description = "Explaind the generation of nonlinear quests for the text multiplayer role-playing game \"The Tale\"."
+seo_description = "explained the generation of nonlinear quests for the text multiplayer role-playing game \"The Tale\"."
 seo_image = "./cover.png"
 ---
 
@@ -12,12 +12,12 @@ caption = "Non-linear quest with nested sub-quest"
 ///
 
 /// note | This is a translation of the old post
-This is a translation of my post from 2013 about quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant and interesting and can be an inspiration for other developers.
+This is a translation of my post from 2013 about quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant, interesting, and can be an inspiration for other developers.
 
-Please remember, that the original post was written in 2013. I updated part of the post, but some statements and ideas may be outdated and the flow of thoughts is not as clear as be if I write this post now.
+Please remember that the original post was written in 2013. I updated part of the post, but some statements and ideas may be outdated and the flow of thoughts is not as clear as be if I write this post now.
 ///
 
-Despite the fact that the conception of automatic quest generation in RPGs is quite old, there are almost no publicly available working versions of such generators (rather none at all), if we do not count primitive ones. There are also not many posts on this topic, although if some can be googled. So I hope that this text and [the quests generator](https://github.com/the-tale/questgen) itself will be useful.
+Despite the fact that the conception of automatic quest generation in RPGs is quite old, there are almost no publicly available working versions of such generators (rather none at all), if we do not count primitive ones. There are also not many posts on this topic, although some can be googled. So I hope that this text and [the quests generator](https://github.com/the-tale/questgen) itself will be useful.
 
 You can find [examples of generated quests](https://github.com/the-tale/questgen/tree/master/svgs) in the repository.
 
@@ -28,13 +28,13 @@ ZPG — [Zero Player Game](https://en.wikipedia.org/wiki/Zero-player_game) — i
 
 "The Tale" was intended to be that kind of game — a text multiplayer role-playing game in a persistent fantasy world.
 
-The player's character (hero) in the game acted completely independently, and thrir main activity was, of course, completing quests from NPCs.
+The player's character (hero) in the game acted completely independently, and their main activity was, of course, completing quests from NPCs.
 
-The key point of the game was that the quests should be nonlinear, and the player should have a choise of which NPC to help and which to harm. Choises of players directly influenced the "fate of the world", for example, an NPC could leave the game permanently if many players harmed him.
+The key point of the game was that the quests had to be nonlinear, and the player should have a choice of which NPC to help and which to harm. Choices of players directly influenced the "fate of the world", for example, an NPC could leave the game permanently if many players harmed him.
 
-Besides, the hero had a "character" that could influence his actions when completing a quest, for example, he could be set to help a specific NPC or to prefere honorable actions decisions.
+Besides, the hero had a "character" that could influence his actions when completing a quest, for example, he could be set to help a specific NPC or to prefer honorable actions/decisions.
 
-Therefore, I required a way to automatically generate complex belieavable quests that would not contradict the game world and would require the player to think before making a choice.
+Therefore, I required a way to automatically generate complex believable quests that would not contradict the game world and would require the player to think before making a choice.
 ///
 
 In the following text I will use term "story" instead of "quests" as more convenient for explanation: each quest is a story limited by a couple of conditions, so it is more reasonable to talk about a story generator.
@@ -51,7 +51,7 @@ The base requirements for the generator were as follows:
 - **Scalability**: the story can have any number of "actors" (players or NPCs);
 - **Variability**: the stories should differ from each other, even if they are about the same thing in general.
 
-Besides the requirements for the stories themselves, there was several requirements for the generator:
+Besides the requirements for the stories themselves, there were several requirements for the generator:
 
 - If generator creates a story, it should be correct (i.e. it should comply with all requirements);
 - The stories should be visualized in a convenient way for the developer;
@@ -76,7 +76,7 @@ Here is an [example of such interpretator](https://github.com/Tiendil/questgen/b
 
 So, the story is a graph consisting of nodes and edges. Each node has a list of requirements (or checks, if you like) that must be met for the story to move to the corresponding node. A requirement can look like `the hero is in a specific place` or `the hero has a certain amount of money`.
 
-Besides the requirements for world's state, each node has a lis of actions that must be performed when the story reaches this node. Such actions could be implemented as separate nodes with requirements, but it would significantly increase the graph complexity. We can look at them as on a semantic sugar :-) Action, in our case, could be `send a message to the player`, `start a battle with a monster` or `give a reward to the hero`.
+Besides the requirements for world's state, each node has a list of actions that must be performed when the story reaches this node. Such actions could be implemented as separate nodes with requirements, but it would significantly increase the graph complexity. We can look at them as a semantic sugar :-) Action, in our case, could be `send a message to the player`, `start a battle with a monster` or `give a reward to the hero`.
 
 Edges have the same lists of actions assigned to the beginning and end of the edge.
 
@@ -104,13 +104,13 @@ Transitions between nodes can be represented as a loop:
 - Perform actions assigned to the end of the edge.
 - Move the story state to the next node.
 - Perform actions assigned to the node.
-- Retun to the beginning of the loop.
+- Return to the beginning of the loop.
 
 The nodes of the story can be separated into types that define their role:
 
 - `Start` — the only entry point to the story or sub-story. The requirements of this node must guarantee that everything will go correctly whatever path the story takes;
 - `End` — the marker of the end of the story or sub-story;
-- `Choise point` — a node where the hero (or player) must make a choice about the further path of the story;
+- `Choice point` — a node where the hero (or player) must make a choice about the further path of the story;
 - `Conditional transition` — a node where the further path is determined by some dynamic parameter, for example, the amount of money the hero has;
 - `story node` — a node that has no additional properties, it just defines the next event in the linear sequence of the story.
 
@@ -123,7 +123,7 @@ caption = "An example of a more complex story."
 
 The story can consist of several atomic tasks. For example, a sick NPC can send the hero for medicine to a witch, who will require a service (performing another nested task) in exchange for remedy.
 
-Thats why the story is built from a set of atomic templates. A template is a graph of the story with all possible branches (even those that can break the story).
+That's why the story is built from a set of atomic templates. A template is a graph of the story with all possible branches (even those that can break the story).
 
 The important part here is the connection of templates (remember that we need a connected graph in the end):
 
@@ -141,15 +141,15 @@ We connect parent with child in a few steps.
 
 Create an edge from the node in the parent story to the start node of the child story.
 
-There may be several end nodes in the child story, and they can have different semantic meaning for the plot. For example, in the story about a witch, the hero can not only complete her task but also fail, which may push witch to refuse to help the hero. Therefore, edges from different end nodes must be strictly directed to the distinkt corresponding nodes of the parent story.
+There may be several end nodes in the child story, and they can have different semantic meaning for the plot. For example, in the story about a witch, the hero can not only complete her task but also fail, which may push witch to refuse to help the hero. Therefore, edges from different end nodes must be strictly directed to the distinct corresponding nodes of the parent story.
 
 To achieve this, we define a set of semantic results for each entities participating in the story in each end node.
 
 There are three possible results:
 
-- `positive` — the story positively influence the entity;
+- `positive` — the story positively influences the entity;
 - `neutral` — the story does not influence the entity;
-- `negative` — the story negatively influence the entity.
+- `negative` — the story negatively influences the entity.
 
 With the help of such info we can find correct nodes in the parent story for end nodes of the child story.
 
@@ -157,13 +157,13 @@ With the help of such info we can find correct nodes in the parent story for end
 
 After we merged multiple templates into one graph, we have a visually correct story graph, but without any guarantees of consistency. The graph contains all possible paths of the story, even those that contradict the state of the world or internal logic of the story.
 
-For exmaple, in one of the story branches the hero can harm his friend. Or two NPCs, marked as enemies, can act together.
+For example, in one of the story branches the hero can harm his friend. Or two NPCs, marked as enemies, can act together.
 
 Therefore, the story must be additionally processed. Such processing includes the following steps:
 
 1. Some nodes are grouped into clusters of alternative story branches. One node is selected from each group, the rest are removed.
 2. All end nodes with forbidden semantic results for the entities are removed. For example, if the hero is a friend of the NPC, then the end node of the path where the hero harms this NPC will be removed.
-3. The resulting graph is cleaned from hanging nodes. "Hanging" nodes are the following types of nodes:
+3. The resulting graph is cleaned of hanging nodes. "Hanging" nodes are the following types of nodes:
     - a node that is not an end node of the root story and has no outgoing edges;
     - a node that is not a start node of the root story and has no incoming edges.
 
@@ -175,4 +175,4 @@ If not, we drop the story and start generating it from scratch.
 
 The approach with full rollback can lead to very long generation time, if the game world is very small and has a lot of connections. But in practice, there are usually many objects in the world and few connections between them, so there are no problems.
 
-In the case of frequent errors, the game can reduce the number of world properties passed to the generator, for example, stop taking into account the friendship relation. The generator itself does not try to make additional assumptions about the state of the world.
+In the case of frequent errors, the game can reduce the number of world properties passed to the generator, for example, stop taking into account the friendship relationship. The generator itself does not try to make additional assumptions about the state of the world.
