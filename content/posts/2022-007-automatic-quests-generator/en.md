@@ -14,7 +14,7 @@ caption = "Non-linear quest with nested sub-quest"
 /// note | This is a translation of the old post
 This is a translation of my post from 2013 about quest generation for the now stopped game [The Tale](https://the-tale.org/). I think it is still relevant, interesting, and can be an inspiration for other developers.
 
-Please remember that the original post was written in 2013. I updated part of the post, but some statements and ideas may be outdated and the flow of thoughts is not as clear as be if I write this post now.
+Please remember that the original post was written in 2013. I updated part of the post, but some statements and ideas may be outdated and the flow of thoughts is not as clear as it would be if I wrote this post now.
 ///
 
 Despite the fact that the conception of automatic quest generation in RPGs is quite old, there are almost no publicly available working versions of such generators (rather none at all), if we do not count primitive ones. There are also not many posts on this topic, although some can be googled. So I hope that this text and [the quests generator](https://github.com/the-tale/questgen) itself will be useful.
@@ -30,7 +30,7 @@ ZPG — [Zero Player Game](https://en.wikipedia.org/wiki/Zero-player_game) — i
 
 The player's character (hero) in the game acted completely independently, and their main activity was, of course, completing quests from NPCs.
 
-The key point of the game was that the quests had to be nonlinear, and the player should have a choice of which NPC to help and which to harm. Choices of players directly influenced the "fate of the world", for example, an NPC could leave the game permanently if many players harmed him.
+A key point of the game was that the quests had to be nonlinear, and the player should have a choice of which NPC to help and which to harm. Players' choices directly influenced the "fate of the world", for example, an NPC could leave the game permanently if many players harmed him.
 
 Besides, the hero had a "character" that could influence his actions when completing a quest, for example, he could be set to help a specific NPC or to prefer honorable actions/decisions.
 
@@ -66,7 +66,7 @@ The story is a directed acyclic connected graph. The nodes of which describe the
 
 From the definition, it smoothly follows the idea of implementing the story as a state machine, which is transfered from the quests generator to the game logic engine.
 
-So, our generator should create a story graph based on the information about the current state of the world with respect to the requirements listed above.
+So our generator should create a story graph based on the information about the current state of the world with respect to the requirements listed above.
 
 The game logic will interpret this graph. It will initiate the necessary changes in the actions of the hero or in the environment based on the information about the current state of the story and the expected future state, leading to the fulfillment of all requirements necessary for the story to move to the next stage.
 
@@ -135,11 +135,11 @@ After some experimenting and thinking, I came to the conclusion that all stories
 - `start quest from a specific place` — if we want the story to start in a specific place, and everything else can be random;
 - `start quest affecting two NPCs` — when it is necessary for one NPC (initiator) to initiate a task related to the second NPC (recipient);
 
-When generating a child story, the parent story filters all templates by the presence of the required constructor, one of which is then randomly selected.
+When generating a child story, the parent story filters all templates based on the presence of the required constructor, one of which is then randomly selected.
 
 We connect parent with child in a few steps.
 
-Create an edge from the node in the parent story to the start node of the child story.
+We create an edge from a node in the parent story to the start node of the child story.
 
 There may be several end nodes in the child story, and they can have different semantic meaning for the plot. For example, in the story about a witch, the hero can not only complete her task but also fail, which may push witch to refuse to help the hero. Therefore, edges from different end nodes must be strictly directed to the distinct corresponding nodes of the parent story.
 
@@ -147,15 +147,15 @@ To achieve this, we define a set of semantic results for each entities participa
 
 There are three possible results:
 
-- `positive` — the story positively influences the entity;
+- `positive` — the story has a positive influence on the entity;
 - `neutral` — the story does not influence the entity;
-- `negative` — the story negatively influences the entity.
+- `negative` — the story has a negative influence on the entity.
 
 With the help of such info we can find correct nodes in the parent story for end nodes of the child story.
 
 ## Postprocessing and validation
 
-After we merged multiple templates into one graph, we have a visually correct story graph, but without any guarantees of consistency. The graph contains all possible paths of the story, even those that contradict the state of the world or internal logic of the story.
+After we merged multiple templates into one graph, we obtain a visually correct story graph, but without any guarantees of consistency. The graph contains all possible paths of the story, even those that contradict the state of the world or internal logic of the story.
 
 For example, in one of the story branches the hero can harm his friend. Or two NPCs, marked as enemies, can act together.
 
@@ -173,6 +173,6 @@ If the requirements are met, the story is ready for use. The game engine will be
 
 If not, we drop the story and start generating it from scratch.
 
-The approach with full rollback can lead to very long generation time, if the game world is very small and has a lot of connections. But in practice, there are usually many objects in the world and few connections between them, so there are no problems.
+The approach with full rollback can lead to very long generation time, if the game world is very small and has a lot of connections. But in practice, there are usually many objects in the world and few connections between them, so this does not pose a problem.
 
 In the case of frequent errors, the game can reduce the number of world properties passed to the generator, for example, stop taking into account the friendship relationship. The generator itself does not try to make additional assumptions about the state of the world.
