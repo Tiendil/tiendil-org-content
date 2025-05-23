@@ -33,11 +33,11 @@ Still, even a one-time act of formalizing thoughts on paper will be beneficial �
 
 **Writing form** implies that the work done should remain in the material world. For the purposes of this essay, let's interpret the writing form in a broad sense — as any form of recording information on material carriers: from text to graphs, diagrams, and even painting.
 
-Как и другие общие практики, а-ля «занятие спортом», мышление письмом не наносит один конкретный вид пользы. Вместо этого оно действует по множеству направлений, к сожалению, проявляя эффективность не моментально. Из-за этого сложно сходу и кратко объяснить крутость этой практики.
+As the other common practices, like "doing sports" or "learning languages", thinking through writing does not inflict one specific kind of benefit, especially instantly. Instead, it acts gradually in many directions. Because of this, it is difficult to explain the coolness of this practice in a short and concise way.
 
-Не буду пытаться обмануть вселенную и расскажу долгим способом — отдельно про каждое направление.
+I won't try to overplay the universe and take the long way by talking about each direction separately.
 
-Но начну с [эвристики](https://ru.wikipedia.org/wiki/%D0%AD%D0%B2%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0).
+Let's start with the [heuristic](https://en.wikipedia.org/wiki/Heuristic).
 
 ## Каждая деятельность должна оставлять артефакт
 
