@@ -61,11 +61,11 @@ By the way, personally, I would prefere to blog in the form of manga, but that�
 
 Now, let's talk about the areas where the practice of creating written artifacts proves beneficial.
 
-## Верификация ментальных моделей
+## Verification of mental models
 
-Каждый акт сложного мышление связан с [моделями]{post:life-and-work-with-models}. Вы либо изменяете их, либо создаёте новые, либо используете для изменения или создания других моделей. Утрируя, каждая мысль, в некотором роде, — модель чего-то.
+Every act of complex thinking involves [models]{post:@choose-nearest-language:life-and-work-with-models}. You either modify existing ones, create new ones, or use them to alter or build other models. To exaggerate a bit, every thought is, in a way, a model of something.
 
-Модели в голове хранятся в виде образов — расплывчатом, неточном уникальном для мозга формате. И оперируем мы в основном образами.
+In our minds, models are stored as (mental) images/representations/patterns/gestalts/embeddings — a fuzzy, inexact format unique to the brain. And we operate mainly with these images.
 
 Можно заставить себя мыслить на формальном языке (например, логическими высказываниями), но это очень энергозатратно, долго и полностью мышление вы на эти рельсы не переведёте. Мы живём в неточном мире в условиях неполноты информации о нём, что естественным образом обязывает использовать неточные штуки.
 
