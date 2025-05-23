@@ -41,26 +41,25 @@ Let's start with the [heuristic](https://en.wikipedia.org/wiki/Heuristic).
 
 ## Every activity should produce an artifact
 
+I can’t say that this consideration — and this consideration alone —  pushed me toward thinking through writing. But, if memory serves me well, it helped me see the problem clearly: I was (and still am) engaged in a great deal of intellectual work, but often there was nothing left after this work — my thoughts, decisions, and conclusions would blur over time, dissolved in the stream of consciousness.
 
-Не могу сказать, что это и только это соображение подтолкнуло меня к мышлению письмом. Но, если память не изменяет, с его помощью я чётко увидел проблему — я много занимался (и занимаюсь) умственным трудом, но после этого труда часто не оставалось ничего — надуманные мысли, принятые решения со временем размывались, растворялись в потоке сознания.
+From a materialistic point of view, producing artifacts is a very sound and simple idea.
 
-С материалистической точки зрения, оставлять артефакты — это очень здравая и простая идея.
+If the world is entirely material and governed by cause-and-effect, then the essence of meaningful activity within it is the creation of artifacts — whether it’s a house built, a book written, or even a scratch on a table. In other words, it is the act of producing changes in the material world that continue to exert influence through causal chains.
 
-Если мир полностью материален, подвластен причинно-следственным связям, то суть осмысленной деятельности в нём — создание артефактов. Будь то построенный дом, написанная книга, царапина на столе. То есть создание изменений в материальном мире, которые будут распространять своё влияние в нём за счёт причинно-следственных связей.
+If, however, you thought about something but did not reflect the result of your thoughts in reality, then consider those mental efforts as non-existent, lost.
 
-Если же вы подумали над чем-то, но никак не отразили результат мыслей в реальности, то считай этих умственных усилий и не было.
+Formally speaking, when you think, you’re altering the properties of neurons in your brain — a change of sorts. But it’s a change akin to building a sandcastle before the tide: the wave will come, and nothing will remain. So it is with unwritten thoughts — give it a day or two, and all that’s left are tattered fragments.
 
-С формальной точки зрения, думая, вы меняете свойства нейронов в мозгу — какое-никакое изменение. Но это изменение сродни постройке песчаного замка перед прибоем. Придёт волна и от замка не останется ничего. Так и с незаписанными мыслями — пройдёт день-два и от них останутся куцые ошмётки.
+That’s why, for someone with a materialistic worldview, it’s should be logical to convert all meaningful thoughts into a lasting form. And historically, the most convenient and enduring form for thoughts has been text.
 
-Поэтому для человека с материалистическим мировоззрением должно быть логично переводить все свои стоящие мысли в постоянную форму. Исторически же так сложилось, что самая удобная и стабильная форма для мыслей — текст.
+As I’ve already said, it’s useful to put your thoughts into any medium — be it TikTok videos, musical notation, or manga. Working with such formats may be more challenging, but it’s still worthwhile: each of us can recall something non-textual that had a deep impact. Therefore, all the reflections in the following text can be safely extended to any way of presenting information.
 
-Как я уже говорил, переносить мысли полезно хоть куда: в ролики Tiktok, нотную запись, мангу. Работать с такими записями будет сложнее, но всё равно полезно. Каждый из нас может вспомнить что-то не-текстовое, что сильно на него повлияло. Соответственно, все следующие рассуждения можно смело распространять на любые способы представления информации.
+That's why we may consider the alternative title of this essay as **Thinking with artifacts**.
 
-Поэтому альтернативным названием эссе можно считать **Мышление артефактами**.
+By the way, personally, I would prefere to blog in the form of manga, but that’s beyond my capabilities :-D
 
-Кстати, лично мне было бы интересно вести блог в виде манги, но это для меня запредельно сложно :-D
-
-Теперь можно поговорить и о направлениях, по которым практика создания письменных артефактов наносит пользу.
+Now, let's talk about the areas where the practice of creating written artifacts proves beneficial.
 
 ## Верификация ментальных моделей
 
