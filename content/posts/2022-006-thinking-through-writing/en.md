@@ -29,10 +29,9 @@ Still, even a one-time act of formalizing thoughts on paper will be beneficial �
 
 **Translation** implies a change in the form and the [organization of information]{post:@choose-nearest-language:organization-of-information}. You'll gain nothing if you start "literally" writing down images from your head. Translation — and by extension, transformation — is a key element of thinking through writing — we'll talk about it later.
 
-**Own thoughts** is obvious component: if you write not thoughts, then it’s not thinking, if they are not your own, then it’s [shorthand](https://en.wikipedia.org/wiki/Shorthand).
-**Свои мысли** — очевидная составляющая: если записывать не мысли, то это не мышление, если не свои, то это [стенография](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F).
+**Own thoughts** is obvious component: if you write not thoughts, or thoughts, but not your own, then this is a completely different story, although also useful.
 
-**Письменная форма** — логичное уточнение. Удобно расширить понятие письменной формы с текста до диаграмм, графиков и любых других языков записи информации на материальных носителях. Даже до живописи.
+**Writing form** implies that the work done should remain in the material world. For the purposes of this essay, let's interpret the writing form in a broad sense — as any form of recording information on material carriers: from text to graphs, diagrams, and even painting.
 
 Как и другие общие практики, а-ля «занятие спортом», мышление письмом не наносит один конкретный вид пользы. Вместо этого оно действует по множеству направлений, к сожалению, проявляя эффективность не моментально. Из-за этого сложно сходу и кратко объяснить крутость этой практики.
 
