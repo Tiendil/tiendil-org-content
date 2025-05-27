@@ -51,7 +51,7 @@ If the world is entirely material and governed by cause and effect, then the ess
 
 If, however, you thought about something but did not reflect the result of your thoughts in reality, then consider those mental efforts non-existent, lost.
 
-Formally speaking, when you think, you’re altering the properties of neurons in your brain — a change of sorts. But it’s a change akin to building a sandcastle before the tide: the wave will come, and nothing will remain. So it is with unwritten thoughts — give it a day or two, and all that’s left are tattered fragments.
+Formally speaking, when you think, you’re altering the properties of neurons in your brain — a change of sorts. But it’s like building a sandcastle before the tide: the wave will come, and nothing will remain. So it is with unwritten thoughts — give it a day or two, and all that’s left are tattered fragments.
 
 That’s why, for someone with a materialistic worldview, it should be logical to convert all meaningful thoughts into a lasting form. And historically, the most convenient and enduring form for thoughts has been text.
 
