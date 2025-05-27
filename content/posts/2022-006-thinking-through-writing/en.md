@@ -138,13 +138,13 @@ As a bonus, the public knowledge base simplifies discussions. It’s faster and 
 
 And, personally, I'm waiting for the moment when my children will read these posts. I hope it will be amusing.
 
-## Тренировка коммуникативных навыков
+## Training communication skills
 
-Не самый заметный аспект мышления письмом, но тоже важный.
+Not the most obvious aspect of thinking through writing, but still important.
 
-Переводя мысли в письменные артефакты, вы тренируетесь излагать идеи другим людям. Даже если пишете в стол (то есть себе будущему).
+By translating thoughts into text, you practice the skill of expressing ideas to other people. It is true even if you write for yourself (i.e., for your future self).
 
-Без навыков такого изложения нынче ничего масштабного не сделать. Да и просто ничего не сделать.
+In our days it is nearly impossible to achieve anything significant without the ability to communicate your ideas.
 
 ## Сложности
 
