@@ -43,7 +43,7 @@ Let's start with the [heuristic](https://en.wikipedia.org/wiki/Heuristic).
 
 I can’t say that this consideration — and this consideration alone —  pushed me toward thinking through writing. But, if memory serves me well, it helped me see the problem clearly: I was (and still am) engaged in a great deal of intellectual work, but often, there was nothing left after this work — my thoughts, decisions, and conclusions would blur over time, dissolved in the stream of consciousness.
 
-One moment, I thought something like "Why don't I sometimes see the results of my colleagues' work, despite the fact that I knew — the work was done? Why can’t I often recall the results of my own work? Why do I have to re-think the same things over and over again?". And then it snapped into place: because there were no artifacts, no "material" traces of the work done.
+One day, I thought something like "Why don't I sometimes see the results of my colleagues' work, despite the fact that I knew — the work was done? Why can’t I often recall the results of my own work? Why do I have to re-think the same things over and over again?". And then it snapped into place: because there were no artifacts, no "material" traces of the work done.
 
 From a materialistic point of view, producing artifacts is a very sound and simple idea.
 
