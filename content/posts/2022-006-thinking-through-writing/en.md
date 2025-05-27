@@ -69,27 +69,29 @@ Every act of complex thinking involves [models]{post:@choose-nearest-language:li
 
 In our minds, models are stored as (mental) images/representations/patterns/gestalts/embeddings — a fuzzy, inexact format unique to the brain. And we operate mainly with these images.
 
-Можно заставить себя мыслить на формальном языке (например, логическими высказываниями), но это очень энергозатратно, долго и полностью мышление вы на эти рельсы не переведёте. Мы живём в неточном мире в условиях неполноты информации о нём, что естественным образом обязывает использовать неточные штуки.
+One can force themselves to think in a formal language (like logical propositions), but it’s very energy-consuming, slow, and you can’t fully switch your thinking to such rails. We live in a vague world with incomplete information about it, which naturally requires us to use fuzy tools.
 
-Когда вы переводите мысли на бумагу, в артефакт, вы меняете формат их представления, равно как и правила описания модели. Например, письменный текст заставляет использовать предопределённый словарь понятий (собравший опыт всех носителей языка), выстраивать высказывания в удобном порядке, контролировать их согласованность, etc.
+When you move your thoughts to the paper, you change the form of their representation, as well as the rules for describing the model you work with. For example, written text requires you to use a predefined vocabulary (which has accumulated the experience of all language speakers), arrange statements in a convenient order, control their consistency, etc.
 
-По сути, вы занимаетесь [формализацией](https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F) — переводом знаний из менее формальной формы (образов) в более формальную (текст).
+In essence, you are [formalizing](https://en.wikipedia.org/wiki/Logic_translation) your knowledge — translating it from a less formal form (mental images) to a more formal one (text).
 
-В процессе этого вы делаете две важных штуки.
+In the process, you do two important things.
 
-Во-первых, явно проводите через сознание все аспекты ментальной модели. Чтобы записать мысль, нам приходится пройтись по каждому её аспекту, по всем неявным допущениям и неопределённым понятиям. Это позволяет выявить множество ошибок.
+Firstly, you consciously go through all aspects of your mental model. To write down a thought, you have to assess every aspect of it, all implicit assumptions and undefined concepts. This helps to uncover many errors simply by checking the target mental model with other models in your brain.
 
-Поэтому справедливо утверждение: что не записано, то не осознано.
+That's why we can say: what is not written down, is not fully understood.
 
-Делать эту работу сложно, ей надо учиться на практике. И это, скорее всего, основная причина, почему большинство людей не умеют в письменную речь. Нет практики — нет умения.
+This is hard work, the required skills should be developed through practice. And this is probably the main reason why most people struggle with written communication: no practice — no skill.
 
-Во-вторых, вы строите модель альтернативную вашей ментальной модели. А если у нас есть несколько моделей, мы можем их сравнивать, определять отличия и общие части. То есть мы может уточнить каждую из наших моделей за счёт сравнения с другой.
+Secondly, you build an alternative model to your mental one. If we have multiple models, we can compare them, identify differences and common parts. In other words, we can refine both of our models by comparing them with each other.
 
-О верификации моделей я уже писал подробно. Ссылки на посты можно найти в эссе [Жизнь и работа с моделями]{post:life-and-work-with-models}.
+I already wrote in detail about models verification. You can find links to those posts in the essay [Life and work with models]{post:@choose-nearest-language:life-and-work-with-models}.
 
-Уточнения начнутся как только вы приступите к записи первого предложения. И они будет происходить во время всего процесса перевода мыслей в текст. Даже когда текст, как может показаться, закончен, имеет смысл перечитывать его как цельную сущность, сравнивать с содержимым вашей головы и исправлять: текст, мысли или и то и другое.
+Polishing will start as soon as you begin writing the first sentence. And it will continue throughout the whole process of translating thoughts into text. Even when the text seems finished, it makes sense to reread it as a whole, compare it with the content of your mind, and correct: the text, the thoughts, or both.
 
-Результатом такой формализации, со временем, станет ваша личная внешняя база знаний — запись вашей картины мира — часть [экзокортекса]{post:exocortex-3-5}.
+With a time, the results of a such formalization will become your personal external knowledge base — a record of your worldview — part of your [exocortex]{post:@choose-nearest-language:exocortex-3-5}.
+
+In my case, the knowledge base is this blog.
 
 ## База знаний
 
