@@ -146,24 +146,22 @@ By translating thoughts into text, you practice the skill of expressing ideas to
 
 In our days it is nearly impossible to achieve anything significant without the ability to communicate your ideas.
 
-## Сложности
+## Complications
 
-Есть, конечно, и они.
+Of course, there are some.
 
-Писать — сложно. Это мы ещё со школы знаем. Орфография, пунктуация, грамматика и прочие штуки просто не даются. К счастью мы живём в XXI веке и у каждого под рукой автоматизированные редакторы.
+Writing is hard. We all know that from school. Spelling, punctuation, grammar, and other stuff don't come naturally. Fortunately, we live in the 21st century, and automated editors are at our fingertips.
 
-Я, например, пользуюсь проверкой орфографии Яндекса и [Главредом](https://glvrd.ru/) — инструментом для автоматической вычитки текстов на предмет сложности и уместности выражений.
+It is hard to formalize thoughts. Especially at the start. The key is not to give up, maybe read a couple of books on the topic. I can't recommend anything specific, but I know there are good ones.
 
-Тяжело переносить мысли на бумагу. Особенно поначалу. Тут главное не сдаваться, может быть, почитать пару книг в тему. Не могу порекомендовать ничего конкретного, но знаю, что есть хорошие.
+And the last but not least, writing takes a lot of time. With practice, the process speeds up, but it never becomes instant. A education in journalism should help with this, but I don't have one.
 
-И, конечно, мышление письмом занимает много времени. С практикой процесс ускоряется, но моментальным не становится. Журналистское образование в этом должно как-то помогать, но у меня его нет.
+At the beginning of following this practice, I could spend a week on large posts (okay, they were really large). Now writing an essay can take from 4 hours to a couple of days, depending on complexity and inspiration. There can be breaks of a week or more. So I try to write about what itches the most — then it goes faster. For example, the original version of this post in Russian took about 6-8 hours, split over 2 days. The translation to English took about 4-6 hours, but mostly because of my level of English :-)
 
-В начале практики я мог тратить неделю на большие посты (ладно, они действительно были большими). Сейчас написание эссе может занимать от 4 часов до пары дней. В зависимости от сложности и вдохновения. При этом бывают перерывы в неделю и более. Поэтому стараюсь писать о том, что зудит больше всего — тогда пишется быстрее. На этот пост, например, в сумме ушло часов 6-8, разбитых на 2 дня.
+I don't consider time spent a problem. Rather, it’s an inevitable evil. Remember: every activity should leave an artifact. It’s better to spend time writing down a few thoughts than to ponder many, if nothing remains of them in a month.
 
-Трату времени я не считаю проблемой. Скорее неизбежным злом. Помните: каждая деятельность должна оставлять артефакт. Лучше потратить время на запись нескольких мыслей, чем на обдумывание многих, если через месяц от них ничего не останется.
+Besides, one can slightly cheat.
 
-Кроме того, можно немного сжульничать.
+When you work on a new topic, you can think and write at the same time. This way, you not only save time but also close the fast feedback loop of validating your written and mental models.
 
-Если продумывается новая тема, то можно думать и писать одновременно. Тем самым вы не только сэкономите время, но и замкнёте быструю петлю обратной связи верификации письменной и ментальной модели.
-
-Я бы даже сказал, что эта практика — эталонное мышление письмом.
+I would even say that this practice is a "textbook example" of thinking through writing.
