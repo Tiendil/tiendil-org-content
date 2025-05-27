@@ -154,7 +154,7 @@ Writing is hard. We all know that from school. Spelling, punctuation, grammar, a
 
 It is hard to formalize thoughts, especially at the start. The key is not to give up. Maybe read a couple of books on the topic. I can't recommend anything specific, but I know there are good ones.
 
-Last but not least, writing takes a lot of time. With practice, the process speeds up, but it never becomes instant. An education in journalism should help with this, but I don't have one.
+Last but not least, writing takes a lot of time. With practice, the process speeds up, but it never becomes instantaneous. An education in journalism should help with this, but I don't have one.
 
 At the beginning of following this practice, I could spend a week on large posts (okay, they were really large). Now, writing an essay can take from 4 hours to a couple of days, depending on complexity and inspiration. There can be breaks of a week or more. So I try to write about what itches the most — then it goes faster. For example, the original version of this post in Russian took about 6-8 hours, split over 2 days. The translation to English took about 4-6 hours, but mostly because of my level of English :-)
 
