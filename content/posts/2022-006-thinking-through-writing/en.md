@@ -1,8 +1,8 @@
 ---
 title = "Thinking through writing"
 tags = [ "blog", "thinking", "practice", "theory", "exocortex", "interesting", "best"]
-published_at = "2022-02-20T12:00:00+00:00"
-seo_description = "Thinking through writing is the practice of translating thoughts into written form to uncover gaps in reasoning and construct a clearer picture of the world."
+published_at = "2025-05-27T12:00:00+00:00"
+seo_description = "Thinking through writing is the practice of translating thoughts into written form to uncover gaps in reasoning and construct a clearer model of the world."
 seo_image = "images/thinking-through-writing-cover.jpg"
 ---
 
