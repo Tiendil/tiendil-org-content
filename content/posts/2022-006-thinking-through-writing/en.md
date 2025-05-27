@@ -2,7 +2,7 @@
 title = "Thinking through writing"
 tags = [ "blog", "thinking", "practice", "theory", "exocortex", "interesting", "best"]
 published_at = "2022-02-20T12:00:00+00:00"
-seo_description = "Thinking through writing is the practice of translating thoughts into words to uncover gaps in reasoning and construct a clearer picture of the world."
+seo_description = "Thinking through writing is the practice of translating thoughts into written form to uncover gaps in reasoning and construct a clearer picture of the world."
 seo_image = "images/thinking-through-writing-cover.jpg"
 ---
 
@@ -11,7 +11,7 @@ src = "images/thinking-through-writing-cover.jpg"
 caption = 'From the manga [Bakuman](https://en.wikipedia.org/wiki/Bakuman "Bakuman")'
 ///
 
-Thinking through writing is the practice of translating one's own thoughts into words to uncover gaps in reasoning and construct a clearer picture of the world.
+Thinking through writing is the practice of translating one's own thoughts into written form to uncover gaps in reasoning and construct a clearer picture of the world.
 
 It’s what I mostly do here on this blog — and, to the best of my ability, at work.
 
