@@ -15,7 +15,7 @@ Thinking through writing is the practice of translating one's own thoughts into 
 
 It’s what I mostly do here on this blog — and, to the best of my ability, at work.
 
-Let me elaborate on this.
+I’ve finally found time to elaborate on this.
 
 <!-- more -->
 
