@@ -93,32 +93,34 @@ With a time, the results of a such formalization will become your personal exter
 
 In my case, the knowledge base is this blog.
 
-## База знаний
+## Knowledge base
 
-Люди забывают всё. До сих пор не понятно баг это или фича, но таково положение дел.
+People forget everything. It’s still unclear whether this is a bug or a feature, but that’s the way it is.
 
-Некоторые вещи забывать не страшно и даже полезно. Некоторые — неудобно, но не критично — всегда можно восстановить. А некоторые — лучше бы не забывать.
+Some things are not scary to forget and even useful. Some are inconvenient but not critical — they can always be restored. And some are better be not forgotten.
 
-Забывчивость несёт проблемы:
+Forgetfulness leads to troubles:
 
-- Замедляет принятие решений — забытое надо долго вспоминать или искать во внешних источниках.
-- Мешает отслеживать реальную картину мира — мы вечно забываем важные нюансы. А неточные данные на входе неточной модели приводят к плохим предсказаниям.
+- It slows down the decision-making process — one should spend time recalling or searching for forgotten information in external sources.
+- It damages our mental world models — we always forget important nuances. And inaccurate data fed into an inaccurate model leads to poor predictions.
 
-Мой «любимый» рабочий пример забывчивости — стабильная невозможность людей вспомнить причины и следствия решений, принятых полгода назад и более. Между нами говоря, на мой взгляд, это лютая дичь, но я встречал это буквально везде. В итоге такой забывчивости народ начинает бегать кругами, обсуждая одни и те же вопросы.
+My «favorite» example of forgetfulness is the stable inability of people to remember the reasons and consequences of decisions made six months or more ago. Between us, I think this is utter nonsense, but I’ve seen it everywhere. As a result of such forgetfulness, people start running in circles, discussing the same issues over and over again.
 
-Забывчивость ослабляет способность к адаптации, а значит — конкурентноспособность. Сейчас же будущее каждого человека зависит как раз от качества и скорости принятия решений.
+If you have ever faced this and are looking for a way to solve the problem at its root, check out my post on the practice of writing [Requests For Comments]{post:two-years-writing-rfc-statistics}.
 
-Появляющаяся «сама-собой», как следствие практики, база знаний сохраняет ваши мысли-модели и тем самым увеличивает качество скорость принятия решений.
+Forgetfulness weakens our ability to adapt, and thus our competitiveness. And nowadays, the future of every person depends precisely on the quality and speed of decision-making.
 
-Если ваш мозг работает не в холостую (я надеюсь на это), то идеи постоянно роятся у вас в голове, отвлекают от актуальных задач, раздражают постоянными напоминаниями о недодуманном, недоделанном.
+The knowledge base that emerges as a result of the practice of thinking through writing saves your mental models-thoughts and thus increases the quality and speed of decision-making.
 
-Внешняя база знаний разгружает мозг. Ему не приходится постоянно прокручивать одни и те же мысли. Как только вы начнёте переносить их из головы на бумагу, вам станет легче и свободнее думать.
+In case your brain is not running on idle (I hope it is), ideas are constantly buzzing in your head, distracting you from current tasks, and irritating with constant reminders of unfinished or underdeveloped thoughts.
 
-Захламлённость идеями была одной из причин моего ухода в [творческий отпуск]{post:the-results-of-the-sabbatical-2019-2021}. Эффект от разгрузки головы через блог оказался потрясающим.
+External knowledge base unloads the brain. It no longer has to constantly replay the same thoughts. As soon as you start transferring them from your head to paper, you will feel lighter and freer in your thinking.
 
-Конечно, не получится вынести все модели из головы. Но можно оставлять в ней только их упрощённые версии, оптимизированные под рутинные задачи. Если же встретится сложная задача, полную модель всегда можно поднять из записей.
+Cluttering with ideas was one of the reasons I took a [sabbatical 2019-2021]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}. The effect of clearing my head through the blog was amazing.
 
-Только этим личная база знаний приносит заметную пользу. Но её эффективность можно кратно увеличить, если сделать базу публичной.
+Of course, one can’t ofload all models from the mind. But it is possible to keep only their simplified versions, optimized for routine tasks. If a complex task arises, the full model can always be retrieved from the records.
+
+So, event by its existence, the knowledge base brings a lot of value. But it’s efficiency can be multiplied if you make it public.
 
 ## Публичная база знаний
 
