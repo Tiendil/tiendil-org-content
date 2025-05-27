@@ -49,7 +49,7 @@ From a materialistic point of view, producing artifacts is a very sound and simp
 
 If the world is entirely material and governed by cause and effect, then the essence of meaningful activity within it is the creation of artifacts — whether it’s a house built, a book written, or even a scratch on a table. In other words, it is the act of producing changes in the material world that continue to exert influence through causal chains.
 
-If, however, you thought about something but did not reflect the result of your thoughts in reality, then consider those mental efforts as non-existent, lost.
+If, however, you thought about something but did not reflect the result of your thoughts in reality, then consider those mental efforts non-existent, lost.
 
 Formally speaking, when you think, you’re altering the properties of neurons in your brain — a change of sorts. But it’s a change akin to building a sandcastle before the tide: the wave will come, and nothing will remain. So it is with unwritten thoughts — give it a day or two, and all that’s left are tattered fragments.
 
