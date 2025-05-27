@@ -69,7 +69,7 @@ Every act of complex thinking involves [models]{post:@choose-nearest-language:li
 
 In our minds, models are stored as (mental) images/representations/patterns/gestalts/embeddings — a fuzzy, inexact format unique to the brain. And we operate mainly with these images.
 
-One can force themselves to think in a formal language (like logical propositions), but it’s very energy-consuming, slow, and you can’t fully switch your thinking to such rails. We live in a vague world with incomplete information about it, which naturally requires us to use fuzzy tools.
+One can force oneself to think in a formal language (like logical propositions), but it’s very energy-consuming, slow, and you can’t fully switch your thinking to such rails. We live in a vague world with incomplete information about it, which naturally requires us to use fuzzy tools.
 
 When you move your thoughts to the paper, you change the form of their representation, as well as the rules for describing the model you work with. For example, written text requires you to use a predefined vocabulary (which has accumulated the experience of all language speakers), arrange statements in a convenient order, control their consistency, etc.
 
