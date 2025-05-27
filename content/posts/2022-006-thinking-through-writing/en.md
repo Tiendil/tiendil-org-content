@@ -69,7 +69,7 @@ Every act of complex thinking involves [models]{post:@choose-nearest-language:li
 
 In our minds, models are stored as (mental) images/representations/patterns/gestalts/embeddings — a fuzzy, inexact format unique to the brain. And we operate mainly with these images.
 
-One can force themselves to think in a formal language (like logical propositions), but it’s very energy-consuming, slow, and you can’t fully switch your thinking to such rails. We live in a vague world with incomplete information about it, which naturally requires us to use fuzy tools.
+One can force themselves to think in a formal language (like logical propositions), but it’s very energy-consuming, slow, and you can’t fully switch your thinking to such rails. We live in a vague world with incomplete information about it, which naturally requires us to use fuzzy tools.
 
 When you move your thoughts to the paper, you change the form of their representation, as well as the rules for describing the model you work with. For example, written text requires you to use a predefined vocabulary (which has accumulated the experience of all language speakers), arrange statements in a convenient order, control their consistency, etc.
 
@@ -79,17 +79,17 @@ In the process, you do two important things.
 
 Firstly, you consciously go through all aspects of your mental model. To write down a thought, you have to assess every aspect of it, all implicit assumptions and undefined concepts. This helps to uncover many errors simply by checking the target mental model with other models in your brain.
 
-That's why we can say: what is not written down, is not fully understood.
+That's why we can say: "what is not written down is not fully understood".
 
-This is hard work, the required skills should be developed through practice. And this is probably the main reason why most people struggle with written communication: no practice — no skill.
+This is hard work — the required skills should be developed through practice. And this is probably the main reason why most people struggle with written communication: no practice — no skill.
 
-Secondly, you build an alternative model to your mental one. If we have multiple models, we can compare them, identify differences and common parts. In other words, we can refine both of our models by comparing them with each other.
+Secondly, you build an alternative model to your mental one. If we have multiple models, we can compare them and identify differences and common parts. In other words, we can refine both of our models by comparing them with each other.
 
-I already wrote in detail about models verification. You can find links to those posts in the essay [Life and work with models]{post:@choose-nearest-language:life-and-work-with-models}.
+I already wrote in detail about model verification. You can find links to those posts in the essay [Life and work with models]{post:@choose-nearest-language:life-and-work-with-models}.
 
-Polishing will start as soon as you begin writing the first sentence. And it will continue throughout the whole process of translating thoughts into text. Even when the text seems finished, it makes sense to reread it as a whole, compare it with the content of your mind, and correct: the text, the thoughts, or both.
+Polishing will start as soon as you begin writing the first sentence. And it will continue throughout the whole process of translating thoughts into text. Even when the text seems finished, it makes sense to reread it as a whole, compare it with the content of your mind, and correct the text, the thoughts, or both.
 
-With a time, the results of a such formalization will become your personal external knowledge base — a record of your worldview — part of your [exocortex]{post:@choose-nearest-language:exocortex-3-5}.
+With time, the results of a such formalization will become your personal external knowledge base — a record of your worldview — part of your [exocortex]{post:@choose-nearest-language:exocortex-3-5}.
 
 In my case, the knowledge base is this blog.
 
@@ -97,7 +97,7 @@ In my case, the knowledge base is this blog.
 
 People forget everything. It’s still unclear whether this is a bug or a feature, but that’s the way it is.
 
-Some things are not scary to forget and even useful. Some are inconvenient but not critical — they can always be restored. And some are better be not forgotten.
+Some things are not scary to forget and even useful. Some are inconvenient but not critical — they can always be restored. And some are better not forgotten.
 
 Forgetfulness leads to troubles:
 
@@ -108,27 +108,27 @@ My «favorite» example of forgetfulness is the stable inability of people to re
 
 If you have ever faced this and are looking for a way to solve the problem at its root, check out my post on the practice of writing [Requests For Comments]{post:two-years-writing-rfc-statistics}.
 
-Forgetfulness weakens our ability to adapt, and thus our competitiveness. And nowadays, the future of every person depends precisely on the quality and speed of decision-making.
+Forgetfulness weakens our ability to adapt and, thus, our competitiveness. And nowadays, the future of every person depends precisely on the quality and speed of decision-making.
 
 The knowledge base that emerges as a result of the practice of thinking through writing saves your mental models-thoughts and thus increases the quality and speed of decision-making.
 
-In case your brain is not running on idle (I hope it is), ideas are constantly buzzing in your head, distracting you from current tasks, and irritating with constant reminders of unfinished or underdeveloped thoughts.
+In case your brain is not running idle (I hope it is), ideas are constantly buzzing in your head, distracting you from current tasks and irritating you with constant reminders of unfinished or underdeveloped thoughts.
 
 External knowledge base unloads the brain. It no longer has to constantly replay the same thoughts. As soon as you start transferring them from your head to paper, you will feel lighter and freer in your thinking.
 
 Cluttering with ideas was one of the reasons I took a [sabbatical 2019-2021]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}. The effect of clearing my head through the blog was amazing.
 
-Of course, one can’t ofload all models from the mind. But it is possible to keep only their simplified versions, optimized for routine tasks. If a complex task arises, the full model can always be retrieved from the records.
+Of course, one can’t offload all models from the mind. However, it is possible to keep only their simplified versions optimized for routine tasks. If a complex task arises, the full model can always be retrieved from the records.
 
-So, event by its existence, the knowledge base brings a lot of value. But it’s efficiency can be multiplied if you make it public.
+So, even by its existence, the knowledge base brings a lot of value. But its efficiency can be multiplied if you make it public.
 
 ## Public knowledge base
 
-We make more effort if our work goes public. This is not true for everyone, but most likely it is true for you :-)
+We make more effort if our work goes public. This is not true for everyone, but most likely, it is true for you :-)
 
-And the well done formalization of thoughts leads to better models.
+And the well-done formalization of thoughts leads to better models.
 
-People will compare your models with theirs and provide [feedback](https://en.wikipedia.org/wiki/Feedback) by telling you about their mental models. The more models available for verification, the more discrepancies with reality you will find, and thus your models will become even better. And not only yours, but also those of your readers!
+People will compare your models with theirs and provide [feedback](https://en.wikipedia.org/wiki/Feedback) by telling you about their mental models. The more models available for verification, the more discrepancies with reality you will find, and thus, your models will become even better. And not only yours but also those of your readers!
 
 This is a working way to improve the world around you by making small steps.
 
@@ -136,15 +136,15 @@ As a bonus, the public knowledge base simplifies discussions. It’s faster and 
 
 "The personal brand," if I may, also benefits quite well from such activities.
 
-And, personally, I'm waiting for the moment when my children will read these posts. I hope it will be amusing.
+And personally, I'm waiting for the moment when my children will read these posts. I hope it will be amusing.
 
 ## Training communication skills
 
-Not the most obvious aspect of thinking through writing, but still important.
+It's not the most obvious aspect of thinking through writing, but it's still important.
 
 By translating thoughts into text, you practice the skill of expressing ideas to other people. It is true even if you write for yourself (i.e., for your future self).
 
-In our days it is nearly impossible to achieve anything significant without the ability to communicate your ideas.
+In our days, it is nearly impossible to achieve anything significant without the ability to communicate your ideas.
 
 ## Complications
 
@@ -152,13 +152,13 @@ Of course, there are some.
 
 Writing is hard. We all know that from school. Spelling, punctuation, grammar, and other stuff don't come naturally. Fortunately, we live in the 21st century, and automated editors are at our fingertips.
 
-It is hard to formalize thoughts. Especially at the start. The key is not to give up, maybe read a couple of books on the topic. I can't recommend anything specific, but I know there are good ones.
+It is hard to formalize thoughts, especially at the start. The key is not to give up. Maybe read a couple of books on the topic. I can't recommend anything specific, but I know there are good ones.
 
-And the last but not least, writing takes a lot of time. With practice, the process speeds up, but it never becomes instant. A education in journalism should help with this, but I don't have one.
+Last but not least, writing takes a lot of time. With practice, the process speeds up, but it never becomes instant. An education in journalism should help with this, but I don't have one.
 
-At the beginning of following this practice, I could spend a week on large posts (okay, they were really large). Now writing an essay can take from 4 hours to a couple of days, depending on complexity and inspiration. There can be breaks of a week or more. So I try to write about what itches the most — then it goes faster. For example, the original version of this post in Russian took about 6-8 hours, split over 2 days. The translation to English took about 4-6 hours, but mostly because of my level of English :-)
+At the beginning of following this practice, I could spend a week on large posts (okay, they were really large). Now, writing an essay can take from 4 hours to a couple of days, depending on complexity and inspiration. There can be breaks of a week or more. So I try to write about what itches the most — then it goes faster. For example, the original version of this post in Russian took about 6-8 hours, split over 2 days. The translation to English took about 4-6 hours, but mostly because of my level of English :-)
 
-I don't consider time spent a problem. Rather, it’s an inevitable evil. Remember: every activity should leave an artifact. It’s better to spend time writing down a few thoughts than to ponder many, if nothing remains of them in a month.
+I don't consider time spent a problem. Rather, it’s an inevitable evil. Remember: every activity should leave an artifact. It’s better to spend time writing down a few thoughts than to ponder many if nothing remains of them in a month.
 
 Besides, one can slightly cheat.
 
