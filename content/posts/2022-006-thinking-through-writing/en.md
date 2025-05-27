@@ -134,7 +134,7 @@ This is a real way to make the world a little better, one small step at a time.
 
 As a bonus, the public knowledge base simplifies discussions. It’s faster and easier to share a link to ready-made reasoning than to write them out every time from scratch. Your arguments will be fuller, clearer, more convincing, and, importantly, more stable in comparison with extracting knowledge from memory.
 
-"The personal brand," if I may, also benefits quite well from such activities.
+"Your personal brand," if I may, also benefits quite well from such activities.
 
 And personally, I'm waiting for the moment when my children will read these posts. I hope it will be amusing.
 
