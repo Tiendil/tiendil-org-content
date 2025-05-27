@@ -87,7 +87,7 @@ Secondly, you build an alternative model to your mental one. If we have multiple
 
 I already wrote in detail about model verification. You can find links to those posts in the essay [Life and work with models]{post:@choose-nearest-language:life-and-work-with-models}.
 
-Polishing will start as soon as you begin writing the first sentence. And it will continue throughout the whole process of translating thoughts into text. Even when the text seems finished, it makes sense to reread it as a whole, compare it with the content of your mind, and correct the text, the thoughts, or both.
+Refinements will start as soon as you begin writing the first sentence. And it will continue throughout the whole process of translating thoughts into text. Even when the text seems finished, it makes sense to reread it as a whole, compare it with the content of your mind, and correct the text, the thoughts, or both.
 
 With time, the results of a such formalization will become your personal external knowledge base — a record of your worldview — part of your [exocortex]{post:@choose-nearest-language:exocortex-3-5}.
 
