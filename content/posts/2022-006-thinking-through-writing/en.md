@@ -89,7 +89,7 @@ I already wrote in detail about model verification. You can find links to those 
 
 Refinements will start as soon as you begin writing the first sentence. And it will continue throughout the whole process of translating thoughts into text. Even when the text seems finished, it makes sense to reread it as a whole, compare it with the content of your mind, and correct the text, the thoughts, or both.
 
-With time, the results of a such formalization will become your personal external knowledge base — a record of your worldview — part of your [exocortex]{post:@choose-nearest-language:exocortex-3-5}.
+With time, the results of such formalization will become your personal external knowledge base — a record of your worldview — part of your [exocortex]{post:@choose-nearest-language:exocortex-3-5}.
 
 In my case, the knowledge base is this blog.
 
