@@ -130,7 +130,7 @@ And the well-done formalization of thoughts leads to better models.
 
 People will compare your models with theirs and provide [feedback](https://en.wikipedia.org/wiki/Feedback) by telling you about their mental models. The more models available for verification, the more discrepancies with reality you will find, and thus, your models will become even better. And not only yours but also those of your readers!
 
-This is a working way to improve the world around you by making small steps.
+This is a real way to make the world a little better, one small step at a time.
 
 As a bonus, the public knowledge base simplifies discussions. It’s faster and easier to share a link to ready-made reasoning than to write them out every time from scratch. Your arguments will be fuller, clearer, more convincing, and, importantly, more stable in comparison with extracting knowledge from memory.
 
