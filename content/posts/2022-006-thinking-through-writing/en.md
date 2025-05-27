@@ -31,7 +31,7 @@ Still, even a one-time act of formalizing thoughts on paper will be beneficial �
 
 **Own thoughts** is an obvious component: if you write not thoughts or thoughts but not your own, then this is a completely different story, although also useful.
 
-**Writing form** implies that the work done should remain in the material world. For the purposes of this essay, let's interpret the writing form in a broad sense — as any form of recording information on material carriers, from text to graphs, diagrams, and even paintings.
+**Written form** implies that the work done should remain in the material world. For the purposes of this essay, let's interpret the writing form in a broad sense — as any form of recording information on material carriers, from text to graphs, diagrams, and even paintings.
 
 As the other common practices, like "doing sports" or "learning languages", thinking through writing does not inflict one specific kind of benefit, especially instantly. Instead, it acts gradually in many directions. Because of this, it is difficult to explain the coolness of this practice in a short and concise way.
 
