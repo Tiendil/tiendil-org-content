@@ -150,7 +150,7 @@ In our days, it is nearly impossible to achieve anything significant without the
 
 Of course, there are some.
 
-Writing is hard. We all know that from school. Spelling, punctuation, grammar, and other stuff don't come naturally. Fortunately, we live in the 21st century, and automated editors are at our fingertips.
+Writing is hard. We all know that from school. Spelling, punctuation, grammar, and the rest don't come naturally. Fortunately, we live in the 21st century, and automated editors are at our fingertips.
 
 It is hard to formalize thoughts, especially at the start. The key is not to give up. Maybe read a couple of books on the topic. I can't recommend anything specific, but I know there are good ones.
 
