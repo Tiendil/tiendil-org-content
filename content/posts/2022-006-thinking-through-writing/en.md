@@ -11,7 +11,7 @@ src = "images/thinking-through-writing-cover.jpg"
 caption = 'From the manga [Bakuman](https://en.wikipedia.org/wiki/Bakuman "Bakuman")'
 ///
 
-Thinking through writing is the practice of translating own thoughts into words to uncover gaps in reasoning and construct a clearer picture of the world.
+Thinking through writing is the practice of translating one's own thoughts into words to uncover gaps in reasoning and construct a clearer picture of the world.
 
 It’s what I mostly do here on this blog — and, to the best of my ability, at work.
 
@@ -23,15 +23,15 @@ It may sound like a truism, but every word in the definition is essential:
 
 **Practice** implies consistency.
 
-A significant part of the benefit of thinking through writing comes from doing it on day-to-day basis — thanks to [emergent effects](https://en.wikipedia.org/wiki/Emergence) of accumulating written [artifacts](https://en.wikipedia.org/wiki/Artifact).
+A significant part of the benefit of thinking through writing comes from doing it on a day-to-day basis — thanks to [emergent effects](https://en.wikipedia.org/wiki/Emergence) of accumulating written [artifacts](https://en.wikipedia.org/wiki/Artifact).
 
 Still, even a one-time act of formalizing thoughts on paper will be beneficial — give it a try :-)
 
-**Translation** implies a change in the form and the [organization of information]{post:@choose-nearest-language:organization-of-information}. You'll gain nothing if you start "literally" writing down images from your head. Translation — and by extension, transformation — is a key element of thinking through writing — we'll talk about it later.
+**Translation** implies a change in the form and the [organization of information]{post:@choose-nearest-language:organization-of-information}. You'll gain nothing if you start "literally" writing down images from your head. Translation — and, by extension, transformation — is a key element of thinking through writing — we'll talk about it later.
 
-**Own thoughts** is obvious component: if you write not thoughts, or thoughts, but not your own, then this is a completely different story, although also useful.
+**Own thoughts** is an obvious component: if you write not thoughts or thoughts but not your own, then this is a completely different story, although also useful.
 
-**Writing form** implies that the work done should remain in the material world. For the purposes of this essay, let's interpret the writing form in a broad sense — as any form of recording information on material carriers: from text to graphs, diagrams, and even paintings.
+**Writing form** implies that the work done should remain in the material world. For the purposes of this essay, let's interpret the writing form in a broad sense — as any form of recording information on material carriers, from text to graphs, diagrams, and even paintings.
 
 As the other common practices, like "doing sports" or "learning languages", thinking through writing does not inflict one specific kind of benefit, especially instantly. Instead, it acts gradually in many directions. Because of this, it is difficult to explain the coolness of this practice in a short and concise way.
 
@@ -41,25 +41,25 @@ Let's start with the [heuristic](https://en.wikipedia.org/wiki/Heuristic).
 
 ## Every activity should produce an artifact
 
-I can’t say that this consideration — and this consideration alone —  pushed me toward thinking through writing. But, if memory serves me well, it helped me see the problem clearly: I was (and still am) engaged in a great deal of intellectual work, but often there was nothing left after this work — my thoughts, decisions, and conclusions would blur over time, dissolved in the stream of consciousness.
+I can’t say that this consideration — and this consideration alone —  pushed me toward thinking through writing. But, if memory serves me well, it helped me see the problem clearly: I was (and still am) engaged in a great deal of intellectual work, but often, there was nothing left after this work — my thoughts, decisions, and conclusions would blur over time, dissolved in the stream of consciousness.
 
-One moment I thought something like "Why do't I sometimes see the results of my collegues' work, despite the fact that I knew — the work was done? Why do I often can not recall the results of my own work? Why do I have to re-think the same things over and over again?". And then it snapped into place: because there were no artifacts, no "material" traces of the work done.
+One moment, I thought something like "Why don't I sometimes see the results of my colleagues' work, despite the fact that I knew — the work was done? Why do I often can not recall the results of my own work? Why do I have to re-think the same things over and over again?". And then it snapped into place: because there were no artifacts, no "material" traces of the work done.
 
 From a materialistic point of view, producing artifacts is a very sound and simple idea.
 
-If the world is entirely material and governed by cause-and-effect, then the essence of meaningful activity within it is the creation of artifacts — whether it’s a house built, a book written, or even a scratch on a table. In other words, it is the act of producing changes in the material world that continue to exert influence through causal chains.
+If the world is entirely material and governed by cause and effect, then the essence of meaningful activity within it is the creation of artifacts — whether it’s a house built, a book written, or even a scratch on a table. In other words, it is the act of producing changes in the material world that continue to exert influence through causal chains.
 
 If, however, you thought about something but did not reflect the result of your thoughts in reality, then consider those mental efforts as non-existent, lost.
 
 Formally speaking, when you think, you’re altering the properties of neurons in your brain — a change of sorts. But it’s a change akin to building a sandcastle before the tide: the wave will come, and nothing will remain. So it is with unwritten thoughts — give it a day or two, and all that’s left are tattered fragments.
 
-That’s why, for someone with a materialistic worldview, it’s should be logical to convert all meaningful thoughts into a lasting form. And historically, the most convenient and enduring form for thoughts has been text.
+That’s why, for someone with a materialistic worldview, it should be logical to convert all meaningful thoughts into a lasting form. And historically, the most convenient and enduring form for thoughts has been text.
 
 As I’ve already said, it’s useful to put your thoughts into any medium — be it TikTok videos, musical notation, or manga. Working with such formats may be more challenging, but it’s still worthwhile: each of us can recall something non-textual that had a deep impact. Therefore, all the reflections in the following text can be safely extended to any way of presenting information.
 
 That's why we may consider the alternative title of this essay as **Thinking with artifacts**.
 
-By the way, personally, I would prefere to blog in the form of manga, but that’s beyond my capabilities :-D
+By the way, personally, I would prefer to blog in the form of manga, but that’s beyond my capabilities :-D
 
 Now, let's talk about the areas where the practice of creating written artifacts proves beneficial.
 
