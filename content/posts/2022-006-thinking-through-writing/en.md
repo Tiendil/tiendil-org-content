@@ -122,21 +122,21 @@ Of course, one can’t ofload all models from the mind. But it is possible to ke
 
 So, event by its existence, the knowledge base brings a lot of value. But it’s efficiency can be multiplied if you make it public.
 
-## Публичная база знаний
+## Public knowledge base
 
-Когда мы делаем публичную работу, мы начинаем больше стараться. Это не про всех, но скорее всего про вас :-)
+We make more effort if our work goes public. This is not true for everyone, but most likely it is true for you :-)
 
-Хорошо выполненная формализация мыслей ведёт к более качественным моделям.
+And the well done formalization of thoughts leads to better models.
 
-Люди будут сравнивать ваши модели со своими и давать [обратную связь](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D1%81%D0%B2%D1%8F%D0%B7%D1%8C), рассказывая о своей картине мира. Больше моделей для верификации поможет найти больше несоответствий с реальностью, а значит ваши модели станут ещё лучше. И не только ваши, но и ваших читателей!
+People will compare your models with theirs and provide [feedback](https://en.wikipedia.org/wiki/Feedback) by telling you about their mental models. The more models available for verification, the more discrepancies with reality you will find, and thus your models will become even better. And not only yours, but also those of your readers!
 
-Это действенный способ потихоньку, малыми шагами делать мир лучше.
+This is a working way to improve the world around you by making small steps.
 
-Как бонус, публичная база знаний сильно упрощает дискуссии. Дать ссылку на готовые рассуждения быстрее и проще, чем выписывать их каждый раз заново. По сравнению с извлечением знаний из головы, ваши аргументы будут полнее, чётче, убедительнее и, что особенно важно, стабильнее.
+As a bonus, the public knowledge base simplifies discussions. It’s faster and easier to share a link to ready-made reasoning than to write them out every time from scratch. Your arguments will be fuller, clearer, more convincing, and, importantly, more stable in comparison with extracting knowledge from memory.
 
-«Личный бренд», если позволите, тоже неплохо развивается от подобной деятельности.
+"The personal brand," if I may, also benefits quite well from such activities.
 
-А лично я с интересом жду момента, когда мои дети, надеюсь, будут читать эти записи :-D Должно быть забавно.
+And, personally, I'm waiting for the moment when my children will read these posts. I hope it will be amusing.
 
 ## Тренировка коммуникативных навыков
 
