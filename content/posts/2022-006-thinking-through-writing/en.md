@@ -55,7 +55,7 @@ Formally speaking, when you think, you’re altering the properties of neurons i
 
 That’s why, for someone with a materialistic worldview, it should be logical to convert all meaningful thoughts into a lasting form. And historically, the most convenient and enduring form for thoughts has been text.
 
-As I’ve already said, it’s useful to put your thoughts into any medium — be it TikTok videos, musical notation, or manga. Working with such formats may be more challenging, but it’s still worthwhile: each of us can recall something non-textual that had a deep impact. Therefore, all the reflections in the following text can be safely extended to any way of presenting information.
+As I’ve already said, it’s useful to put your thoughts into any medium — be it TikTok videos, musical notation, or manga. Working with such formats may be more challenging, but it’s still worthwhile: each of us can recall something non-textual that had a deep impact. Therefore, all the reflections in the following text can safely apply to any way of presenting information.
 
 That's why we may consider the alternative title of this essay as **Thinking with artifacts**.
 
