@@ -160,7 +160,7 @@ At the beginning of following this practice, I could spend a week on large posts
 
 I don't consider time spent a problem. Rather, it’s an inevitable evil. Remember: every activity should leave an artifact. It’s better to spend time writing down a few thoughts than to ponder many if nothing remains of them in a month.
 
-Besides, one can slightly cheat.
+Besides, one can cheat a little.
 
 When you work on a new topic, you can think and write at the same time. This way, you not only save time but also close the fast feedback loop of validating your written and mental models.
 
