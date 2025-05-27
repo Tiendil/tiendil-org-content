@@ -101,10 +101,10 @@ Some things are not scary to forget and even useful. Some are inconvenient but n
 
 Forgetfulness leads to troubles:
 
-- It slows down the decision-making process — one should spend time recalling or searching for forgotten information in external sources.
+- It slows down the decision-making process — you need to spend time recalling or searching for forgotten information in external sources.
 - It damages our mental world models — we always forget important nuances. And inaccurate data fed into an inaccurate model leads to poor predictions.
 
-My «favorite» example of forgetfulness is the stable inability of people to remember the reasons and consequences of decisions made six months or more ago. Between us, I think this is utter nonsense, but I’ve seen it everywhere. As a result of such forgetfulness, people start running in circles, discussing the same issues over and over again.
+My «favorite» example of forgetfulness is the persistent inability of people to remember the reasons and consequences of decisions made six months or more ago. Between us, I think this is utter nonsense, but I’ve seen it everywhere. As a result of such forgetfulness, people start running in circles, discussing the same issues over and over again.
 
 If you have ever faced this and are looking for a way to solve the problem at its root, check out my post on the practice of writing [Requests For Comments]{post:two-years-writing-rfc-statistics}.
 
@@ -114,7 +114,7 @@ The knowledge base that emerges as a result of the practice of thinking through 
 
 In case your brain is not running idle (I hope it is), ideas are constantly buzzing in your head, distracting you from current tasks and irritating you with constant reminders of unfinished or underdeveloped thoughts.
 
-External knowledge base unloads the brain. It no longer has to constantly replay the same thoughts. As soon as you start transferring them from your head to paper, you will feel lighter and freer in your thinking.
+An external knowledge base unloads the brain. It no longer has to constantly replay the same thoughts. As soon as you start transferring them from your head to paper, you will feel lighter and freer in your thinking.
 
 Cluttering with ideas was one of the reasons I took a [sabbatical 2019-2021]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}. The effect of clearing my head through the blog was amazing.
 
@@ -124,7 +124,7 @@ So, even by its existence, the knowledge base brings a lot of value. But its eff
 
 ## Public knowledge base
 
-We make more effort if our work goes public. This is not true for everyone, but most likely, it is true for you :-)
+We put in more effort when our work goes public. This is not true for everyone, but most likely, it is true for you :-)
 
 And the well-done formalization of thoughts leads to better models.
 
