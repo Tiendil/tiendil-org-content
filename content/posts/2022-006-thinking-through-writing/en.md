@@ -35,7 +35,7 @@ Still, even a one-time act of formalizing thoughts on paper will be beneficial â
 
 As the other common practices, like "doing sports" or "learning languages", thinking through writing does not deliver one specific kind of benefit, especially instantly. Instead, it acts gradually in many directions. Because of this, it is difficult to explain the coolness of this practice in a short and concise way.
 
-I won't try to overplay the universe and take the long way by talking about each direction separately.
+I won't try to outsmart the universe and take the long way by talking about each direction separately.
 
 Let's start with the [heuristic](https://en.wikipedia.org/wiki/Heuristic).
 
