@@ -337,14 +337,15 @@ What exectly I will do from this list, I will decide later. There is not enough 
 - Build a rough economic model based for paid traffic to estimate the order of improvements needed in advertising metrics.
 - Build a prototype of a presentation for investors to look at the project from the outside.
 
-## Заметки для следующих экспериментов
+## Notes for future experiments
 
-- Проверять меньшеее количество гипотез за раз, чтобы получать более достоверные результаты.
-- Проверить группу программистов.
-- Проверить группу «профессиональные учёные».
-- Проверить разные варианты лендингов.
-- Проверить отличия в географии пользователей.
-- Сосредоточиться на сообщениях о релевантности новостей.
-- Подумать над ещё более точными и конкретными формулировками текстов.
-- По возможности проверить сообщения с упоминанием тегов и правил.
-- Проверить эффективность рекламы на других платформах: Google Ads, Facebook, etc.
+- Check fewer hypotheses at once, to get more reliable results.
+- Validate the group "software developers".
+- Validate the group "professional scientists".
+- Experiment with different landing pages.
+- Experiment with different geographies of users.
+- Concentrate on the messages about news relevance.
+- Think about more precise and specific wording of the texts.
+- If possible, experiment more with messages mentioning tags and rules.
+- Experiment with ads on other platforms: Google Ads, Facebook, etc.
+- Experiment with different ad formats.
