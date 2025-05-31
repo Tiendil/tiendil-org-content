@@ -1,5 +1,5 @@
 ---
-title = "Feeds Fun: marketing test — or how I blew 650 euro."
+title = "Feeds Fun: marketing test — or how I blew 650 euros."
 tags = [ "practice", "development", "monetization", "business", "feeds-fun"]
 published_at = "2025-05-31T12:00:00+00:00"
 seo_description = "I ran a marketing test for Feeds Fun. Here are the results and conclusions."
@@ -13,15 +13,15 @@ src = "cover.jpg"
 alt = "One of the images I used in the test advertisement for Feeds Fun on Reddit."
 ///
 
-Since the [Feeds Fun](https://feeds.fun) has been in production for a long time and provides some value to users, I decided to run a test advertisement campaign to understand how viable monetization of the project is in its current state.
+Since [Feeds Fun](https://feeds.fun) has been in production for a long time and provides some value to users, I decided to run a test advertisement campaign to understand the viability of monetizing the project in its current state.
 
 /// note | Reminder
-[Feeds Fun](https://feeds.fun) is a news reader that automatically assigns tags to each news item using LLM. Users can create rules that evaluate news based on tags. For example, `nasa + fake-news -> -50`. This allows filtering and sorting news to read only the most relevant ones.
+[Feeds Fun](https://feeds.fun) is a news reader that automatically assigns tags to each news item using LLM. Users can create rules that evaluate news based on tags. For example, `nasa + fake-news -> -50`. This allows for filtering and sorting news, enabling you to read only the most relevant ones.
 
 The project is open-sourced: [github.com/Tiendil/feeds.fun](https://github.com/Tiendil/feeds.fun).
 ///
 
-It turned out one does not simply launch advertisements on modern platforms: one needs to implement GDPR support, user agreement, privacy policy, cookie consent, event/metric tracking, improve the GUI, create an acceptable landing page, etc. The work stretched for almost half a year (in the background, of course, not full-time), but in the end, I implemented everything, designed the experiment, and am ready to share the results with you.
+It turns out that one does not simply launch advertisements on modern platforms: one needs to implement GDPR support, a user agreement, a privacy policy, cookie consent, event/metric tracking, improve the GUI, create an acceptable landing page, and so on. The work spanned almost half a year (in the background, of course, not full-time), but in the end, I implemented everything, designed the experiment, and am now ready to share the results with you.
 
 <!-- more -->
 
