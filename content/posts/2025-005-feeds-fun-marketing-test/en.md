@@ -306,15 +306,17 @@ In comparison, there are some data for the organic traffic:
 - If we improve the UX between adding a feed and using tag filters, the last steps of the funnel will significantly improve.
 - If we improve the onboarding/tutorial, the last steps of the funnel will significantly improve.
 
-## Общие выводы
+## General conclusions
 
-Заметно уточнил своё представление о том, как люди смотрят на Feeds Fun, что им важно и нужно. Буду ещё долго крутить в голове разные мысли.
+I significantly clarified my understanding of how people perceive Feeds Fun, what is important and necessary for them. I'll "meditate" on this for a while.
 
-Запустить монетизацию на покупном трафике в одни рабочие руки за разумное время не получится, так как нужно много времени на доработку и много денег на эксперименты.
+I will not be able to run monetization on purchased traffic in a reasonable time with just working hands, as it requires a lot of time for improvements and a lot of money for experiments.
 
-Вариант 1: сосредоточиться на органическом трафике и контент-маркетинге, растить сообщество проекта пока не наберётся критическая масса пользователей и трафика для включения монетизации.
+It looks like I have two approaches for monetization.
 
-Вариант 2: искать инвесторов с экспертизой в бизнес части, деньгами на команду и маркетинг.
+Option 1: focus on organic traffic and content marketing, grow the project's community until it reaches a critical mass of users and traffic, then turn on the switch.
+
+Option 2: look for investors with expertise in the business side, money for the team and marketing.
 
 ## Action points
 
