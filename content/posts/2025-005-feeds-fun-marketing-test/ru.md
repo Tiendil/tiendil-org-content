@@ -1,5 +1,5 @@
 ---
-title = "Feeds Fun: тест маркетинга"
+title = "Feeds Fun: тест маркетинга или как я прогулял 650 евро"
 tags = [ "practice", "development", "monetization", "business", "feeds-fun"]
 published_at = "2025-05-31T12:00:00+00:00"
 seo_description = "Сделал тестовый запуск рекламы для Feeds Fun. Результаты и выводы."
