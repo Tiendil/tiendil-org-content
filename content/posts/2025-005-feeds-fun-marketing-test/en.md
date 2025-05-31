@@ -293,13 +293,13 @@ If we look deeper, the best result is shown by this ad, which was shown to scien
 
 ### The last steps of the funnel
 
-There are no data to make conclusions about the last steps of the funnel, as there were too few users who reached the step of creating rules and literally no one entered an API key.
+There is no data to make conclusions about the last steps of the funnel, as there were too few users who reached the step of creating rules, and literally no one entered an API key.
 
 In comparison, there are some data for the organic traffic:
 
 - There is a significant drop in conversion between the step of adding a feed (either their own or from a collection) and the step of using tag filters.
-- The conversion from the registration step to the step of adding a feed is 80%. If we break it down by feed types, users add collection feeds in more than 50% of cases. This means that collections are useful, but (so far) only after registration.
-- The API key is entered by 5% of registered users. In my opinion, this is a good indicator of the value Feeds Fun brings, we just need to figure out to whom.
+- The conversion from the registration step to the step of adding a feed is 80%. If we break it down by feed types, users add collection feeds in more than 50% of cases. This means that collections are helpful, but (so far) only after registration has been completed.
+- The API key is entered by 5% of registered users. In my opinion, this is a good indicator of the value Feeds Fun brings; we just need to figure out to whom.
 
 **Hypotheses**:
 
