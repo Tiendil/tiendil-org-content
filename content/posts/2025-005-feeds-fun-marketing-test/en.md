@@ -1,5 +1,5 @@
 ---
-title = "Feeds Fun: marketing test — or how I blew 650 euros."
+title = "Feeds Fun: marketing test — or how I blew 650 euros"
 tags = [ "practice", "development", "monetization", "business", "feeds-fun"]
 published_at = "2025-05-31T12:00:00+00:00"
 seo_description = "I ran a marketing test for Feeds Fun. Here are the results and conclusions."
