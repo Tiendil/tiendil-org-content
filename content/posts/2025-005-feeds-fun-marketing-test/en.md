@@ -27,21 +27,21 @@ It turns out that one does not simply launch advertisements on modern platforms:
 
 ## Goals of the experiment
 
-The primary goal is to assess how realistic it is to achieve positive unit economics with paid traffic in the current state of the project.
+The primary goal is to assess the feasibility of achieving positive unit economics with paid traffic in the current state of the project.
 
-The secondary goal is to test a number of hypotheses about potential users that guided me during development.
+The secondary goal is to test several hypotheses about potential users that guided me during development.
 
 ### Questions I wanted to answer
 
 1. How will the metrics of paid traffic look without tuning:
-    1. How much can one registration cost?
-    2. How much can one click cost?
-    3. How much can it cost to attract one subscriber / one purchase?
-2. How interested is each target group in Feeds Fun? See groups below.
+    1. How much can a single registration cost?
+    2. How much can a single click cost?
+    3. How much can it cost to attract a single subscriber or purchase?
+2. How interested is each target group in Feeds Fun? See the groups below.
     1. Which group will convert better into registrations?
     2. What will the funnels look like for each group?
     3. Which group will show the best retention?
-3. Do the public news collections help pushing visitors towards registration?
+3. Do the public news collections help encourage visitors to register?
 4. How to position Feeds Fun? What message to focus on? See below for positioning.
 
 /// note | Public collections
@@ -50,7 +50,7 @@ Currently, there are two public news collections that are always tagged:
 - [Scientific Papers](https://feeds.fun/show/scientific-papers) — all the latest papers from arXiv.
 - [Entrepreneurship & Startups](https://feeds.fun/show/entrepreneurship) — all the latest news from subreddits about business and some other channels.
 
-The hypothesis was that public collections would help users in understanding what Feeds Fun is without registration, thus nudging them towards registration when users see the benefits.
+The hypothesis was that public collections would help users understand what Feeds Fun is without registration, thus nudging them towards registration when users see the benefits.
 ///
 
 ## Strip down the questions by dimensions
