@@ -211,24 +211,24 @@ The execution was a bit different:
 
 The raw and aggregated data can be found in the [spreadsheet](https://docs.google.com/spreadsheets/d/1WeclS5GYIz_JhfYW7WyWp3byo5nexE6cJCZcxLdDj_0/edit?usp=sharing).
 
-“Apples-and-oranges average:
+Apples-and-oranges average:
 
 - Spent: 605 EUR (without the baseline run);
 - Impressions: 631277;
 - Clicks: 6089;
 - CPC: 0.10 EUR;
 - Registrations: 18;
-- The cost per registration: 33.61 EUR <- the most devastating result my career :-D
-- Users, who created rules: 2;
-- Users, who added an API key: 0.
+- The cost per registration: 33.61 EUR <- the most devastating result in my career :-D
+- Users who created rules: 2;
+- Users who added an API key: 0.
 
 ## Notes & insights
 
-There are too few data points for a reliable picture of the middle (and especially the last steps) of the funnel, so it is difficult to draw conclusions. More precisely, conclusions are pessimistic.
+There are too few data points to form a reliable picture of the middle (and especially the last steps) of the funnel, making it difficult to draw conclusions. More precisely, the conclusions are pessimistic.
 
-**The answer to the primary experiment question:** it is not possible to immediately launch monetization based on purchased traffic, significant improvements are required in various areas.
+**The answer to the primary experiment question:** It is not possible to immediately launch monetization based on purchased traffic; significant improvements are required in various areas.
 
-**The organic traffic is larger and shows better results than the purchased one.** Just before launching the experiment, I created Docker containers for Feeds Fun and [posted a news on Reddit](https://www.reddit.com/r/selfhosted/comments/1kqe865/feeds_fun_opensource_news_reader_releases/) — that single post brought more users (judging by the timing) than the entire experiment. At the same time, these users showed better results in the funnel than those from the experiment.
+**The organic traffic is larger and yields better results than the purchased traffic. **** Just before launching the experiment, I created Docker containers for Feeds Fun and [posted news on Reddit](https://www.reddit.com/r/selfhosted/comments/1kqe865/feeds_fun_opensource_news_reader_releases/) — that single post brought more users (judging by the timing) than the entire experiment. At the same time, these users showed better results in the funnel than those from the experiment.
 
 **Hypotheses**:
 
@@ -243,16 +243,16 @@ Scientists | 0.38% | 0.21 eur | 40 eur
 Entrepreneurs | 0.49% | 0.26 eur | 24 eur
 News readers | 1.93% | 0.05 eur | 41 eur
 
-Unexpectedly for me, scientists showed the worst interest (minimum CTR). Considering that my acquaintances from science (even my wife!) use the reader, it may be due to the presentation issues, or the wrong choice of subreddit.
+Unexpectedly to me, scientists showed the least interest (lowest CTR). Considering that my acquaintances from science (even my wife!) use the reader, it may be due to the presentation issues or the wrong choice of subreddit.
 
-At the same time, the conversion of news readers into registrations is hurendously low. As far as I understand, a CTR of 2% is (very?) good for Reddit. It is strange that the conversion to registration is so low. This may indicate a mismatch between expectations from ads and the landing page, or some strong barriers during registration.
+At the same time, the conversion of news readers into registrations is horrendously low. As far as I understand, a CTR of 2% is (very?) good for Reddit. Strangely, the conversion to registration is so low. This may indicate a mismatch between expectations from ads and the landing page or some substantial barriers during registration.
 
 **Hypotheses**:
 
-- Feeds Fun provide less value to people interested in science (subscribers of r/Science), but it may be still valuable for professional scientists (subscribers of very specialized subreddits).
+- Feeds Fun provides less value to people interested in science (subscribers of r/Science), but it may still be valuable for professional scientists (subscribers of very specialized subreddits).
 - The value of Feeds Fun for scientists needs to be communicated in a separate, specific way.
-- The landing page maynot be clear enough for casuall users.
-- The GUI looks not "professional" enough and may scare away part of the users.
+- The landing page may not be clear enough for casual users.
+- The GUI does not look "professional" enough and may scare away some of the users.
 - The registration process may be confusing for casual users.
 
 ### Focus of the tool
