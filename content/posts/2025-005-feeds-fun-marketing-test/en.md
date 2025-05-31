@@ -320,22 +320,22 @@ Option 2: look for investors with expertise in the business side, money for the 
 
 ## Action points
 
-Что конкретно из этого буду делать, решу позже. На всё времени не хватит, надо выбирать с умом.
+What exectly I will do from this list, I will decide later. There is not enough time for everything, so I need to choose wisely.
 
-- Сделать план контент маркетинга на лето и попытаться оценить влияние этой практики на рост органического трафика.
-- Сделать план SEO на лето и попытаться оценить влияние этой практики на рост органического трафика.
-- Доработать интерфейса регистрации, сейчас он действительно нестандартный и может быть непонятен. Хотя я считаю его идеалогически верным :-)
-- Провести сессию планирование по вопросам:
-    - Как сфокусировать функциональность Feeds Fun на релеватности новостей?
-    - Как лучше доносить ценность Feeds Fun в области релевантности новостей?
-- Заморозить развитие коллекций, но не удалять, так как позитивно влияют на шаги после регистрации.
-- Провести серию интервью:
-    - С представителями науки на предмет «что не так?»
-    - С казуальными пользователями на предмет понятности лендинга.
-    - С любыми пользователями на предмет понятности/доступности интерфейса onboarding/tutorial.
-- Сделать редизайн сайта руками профессионального дизайнера.
-- Собрать грубую экономическую модель на платном трафике, чтобы оценить необходимый порядок улучений показателей покупного трафика.
-- Собрать прототип презентации для инвесторов, чтобы посмотреть на проект со стороны.
+- Prepare a content marketing plan for the summer and try to assess the impact of this practice on the growth of organic traffic its prooerties.
+- Prepare a SEO plan for the summer and try to assess the impact of this practice on the growth of organic traffic and its properties.
+- Improve the registration interface, it is really inplemented in a non-standard way and may be confusing. Although I believe it is ideologically correct :-)
+- Run a planning session on the following questions:
+    - How to focus Feeds Fun functionality on news relevance?
+    - How to better communicate the value of Feeds Fun in terms of news relevance?
+- Freeze the development of collections, but do not delete them, as they positively influence the funnel after registration.
+- Run a serie of interviews:
+    - With scientists to understand "what is wrong?".
+    - With casual users to assess the clarity of the landing page.
+    - With any users to evaluate the clarity/accessibility of the onboarding/tutorial interface.
+- Make a site redesign by a professional designer.
+- Build a rough economic model based for paid traffic to estimate the order of improvements needed in advertising metrics.
+- Build a prototype of a presentation for investors to look at the project from the outside.
 
 ## Заметки для следующих экспериментов
 
