@@ -255,16 +255,16 @@ At the same time, the conversion of news readers into registrations is hurendous
 - The GUI looks not "professional" enough and may scare away part of the users.
 - The registration process may be confusing for casual users.
 
-### Фокус инструмента
+### Focus of the tool
 
-Объявления с упоминанием RSS показывают заметно лучшие результаты CTR, CPC и регистраций, чем объявления с упоминанием просто новостей. Единственное где показатели падают — это CTR для читателей новостей (для news больше чем для RSS). Это может быть как статистическим отклонением, так и признаком казуальности пользователей в выбранной группе (не знают что такое RSS).
+The ads with mentioning RSS showed significantly better results in terms of CTR, CPC, and registrations compared to the ads that only mentioned news. The only metric that dropped was CTR for news readers (for "news" it is higher than for "RSS"). This could be a statistical deviation or a sign of more casuall users in the selected group (they may not know what RSS is).
 
-Коллекции показали себя «никак»: нет хороших показателей, пользователи не заходят на страницы коллекций с главной страницы.
+The collections were a total non-starter: the metrics are weak, and users aren’t clicking through to the collection pages from the homepage.
 
-**Гипотезы**:
+**Hypotheses**:
 
-- Чем конкретнее и техничнее позиционировать инструмент, тем лучше будут результаты среди профессионалов.
-- Коллекции не выглядят полезными для незарегистрированных пользователей, либо не демонстрируют полезность должным образом.
+- The more technical and specific the positioning of the tool, the better the results among professionals.
+- The collections does not look useful for unregistered users, or do not demonstrate their usefulness properly.
 
 ### Посыл / message
 
