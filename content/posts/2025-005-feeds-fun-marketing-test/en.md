@@ -126,17 +126,17 @@ I chose Reddit as the platform for the campaign because:
 - I am active on Reddit and see a positive reaction to Feeds Fun posts, so I felt that Reddit is a suitable platform.
 - I generally have no clear vision of the modern advertising landscape, so I have no criterias for rejecting Reddit in favor of other platforms.
 
-### Таргетирование
+### Targeting
 
-Для каждой группы пользователей выбирал 1-2 самых популярных тематических сабреддита:
+For each group of users, I selected 1-2 most popular thematic subreddits:
 
-- Учёные: [r/Science](https://www.reddit.com/r/science/)
-- Предприниматели: [r/Entrepreneur](https://www.reddit.com/r/entrepreneur/) & [r/Startups](https://www.reddit.com/r/startups/)
-- Читатели новостей: [r/worldnews](r/worldnews) ([r/news](https://www.reddit.com/r/news/) не подошёл, так как есть заметный перекос в локальные новости США).
+- Scientists: [r/Science](https://www.reddit.com/r/science/)
+- Entrepreneurs: [r/Entrepreneur](https://www.reddit.com/r/entrepreneur/) & [r/Startups](https://www.reddit.com/r/startups/)
+- News readers: [r/worldnews](https://www.reddit.com/r/worldnews) ([r/news](https://www.reddit.com/r/news/) was not suitable because it has a noticeable bias towards US local news).
 
-Устройства: только Desktop, так как интерфейс читалки только под него и заточен.
+Devices: only Desktop, as the reader interface is designed specifically for it.
 
-География: любая. По-хорошему надо было бы выдвинуть несколько гипотез о локациях пользователей, но бюджет не позволяет и трафик органики идёт со всего мира. Поэтому решил пока не обрезать аудиторию по этому признаку, оставил на следующий раз.
+Geography: any. Ideally, I should have made several hypotheses about the users' locations, but the budget does not allow it, and organic traffic comes from all over the world. Therefore, I decided not to restrict the audience by this criterion for now and left it for the next time.
 
 ### Дизайн объявлений
 

@@ -130,7 +130,7 @@ Feeds Fun всегда предполагался как инструмент д
 
 - Учёные: [r/Science](https://www.reddit.com/r/science/)
 - Предприниматели: [r/Entrepreneur](https://www.reddit.com/r/entrepreneur/) & [r/Startups](https://www.reddit.com/r/startups/)
-- Читатели новостей: [r/worldnews](r/worldnews) ([r/news](https://www.reddit.com/r/news/) не подошёл, так как есть заметный перекос в локальные новости США).
+- Читатели новостей: [r/worldnews](https://www.reddit.com/r/worldnews) ([r/news](https://www.reddit.com/r/news/) не подошёл, так как есть заметный перекос в локальные новости США).
 
 Устройства: только Desktop, так как интерфейс читалки только под него и заточен.
 
