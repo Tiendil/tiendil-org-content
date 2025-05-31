@@ -115,7 +115,7 @@ I had two main restrictions for the experiment.
 
 Firstly, I am not a marketer, designer, or copywriter, so I would not be able to create really cool professional advertising artifacts anyway. Therefore, I tried to keep them simple and straightforward.
 
-Secondly, the budget. Running ads is expensive. Especially if you want to get reliable results. After a quick estimate, I planned to spend about 500 EUR. Because of the restart of the experiment in the middle, I ended up spending 650 EUR.
+Secondly, the budget. Running ads is expensive. Especially if you want to get reliable results. After a quick estimate, I planned to spend about 500 EUR. Due to the restart of the experiment in the middle, I ended up spending 650 EUR.
 
 ### Target platform
 
@@ -123,8 +123,8 @@ I chose Reddit as the platform for the campaign because:
 
 - I used it before when conducting [a survey of player preferences in strategy games](post:making-a-fictional-universe-quantity-survey-cleaning).
 - Reddit has very straightforward and clear targeting — you can select specific subreddits that match the target user groups.
-- I am active on Reddit and see a positive reaction to Feeds Fun posts, so I felt that Reddit is a suitable platform.
-- I generally have no clear vision of the modern advertising landscape, so I have no criterias for rejecting Reddit in favor of other platforms.
+- I am active on Reddit and have seen a positive reaction to Feeds Fun posts, so I feel that Reddit is a suitable platform.
+- I generally have no clear vision of the modern advertising landscape, so I have no criteria for rejecting Reddit in favor of other platforms.
 
 ### Targeting
 
@@ -134,9 +134,9 @@ For each group of users, I selected 1-2 most popular thematic subreddits:
 - Entrepreneurs: [r/Entrepreneur](https://www.reddit.com/r/entrepreneur/) & [r/Startups](https://www.reddit.com/r/startups/)
 - News readers: [r/worldnews](https://www.reddit.com/r/worldnews) ([r/news](https://www.reddit.com/r/news/) was not suitable because it has a noticeable bias towards US local news).
 
-Devices: only Desktop, as the reader interface is designed specifically for it.
+Devices: Only desktop, as the reader interface is designed specifically for it.
 
-Geography: any. Ideally, I should have made several hypotheses about the users' locations, but the budget does not allow it, and organic traffic comes from all over the world. Therefore, I decided not to restrict the audience by this criterion for now and left it for the next time.
+Geography: any. Ideally, I should have formulated several hypotheses about the users' locations; however, the budget does not allow for it, and organic traffic originates from all over the world. Therefore, I decided not to restrict the audience by this criterion for now and left it for the next time.
 
 ### Advertisement design
 
