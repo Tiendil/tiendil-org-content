@@ -222,18 +222,18 @@ The raw and aggregated data can be found in the [spreadsheet](https://docs.googl
 - Users, who created rules: 2;
 - Users, who added an API key: 0.
 
-## Наблюдения / инсайты
+## Notes & insights
 
-Данных для достоверной картины середины (и тем более последних шагов) воронки собрано мало, выводы по ним делать сложно. Точнее все выводы по ним получаются пессимистичными.
+There are too few data points for a reliable picture of the middle (and especially the last steps) of the funnel, so it is difficult to draw conclusions. More precisely, conclusions are pessimistic.
 
-**Ответ на главный вопрос эксперимента:** сходу запустить монетизацию на основе покупного трафика в Feeds Fun не получится, необходимы заметные доработки по разным направлениям.
+**The answer to the primary experiment question:** it is not possible to immediately launch monetization based on purchased traffic, significant improvements are required in various areas.
 
-**Органический трафик больше и показывает лучшие результаты, чем покупной.** Буквально перед запуском эксперимента я сделал докер контейнеры для Feeds Fun и [запостил новость на Reddit](https://www.reddit.com/r/selfhosted/comments/1kqe865/feeds_fun_opensource_news_reader_releases/) — один этот пост привёл пользователей (судя по временным рамкам) больше, чем весь эксперимент. Одновременно эти же пользователи показали лучшие результаты по воронке, чем пользователи из эксперимента.
+**The organic traffic is larger and shows better results than the purchased one.** Just before launching the experiment, I created Docker containers for Feeds Fun and [posted a news on Reddit](https://www.reddit.com/r/selfhosted/comments/1kqe865/feeds_fun_opensource_news_reader_releases/) — that single post brought more users (judging by the timing) than the entire experiment. At the same time, these users showed better results in the funnel than those from the experiment.
 
-**Гипотезы**:
+**Hypotheses**:
 
-- Контент-маркетинг может быть более эффективным, чем покупная реклама, так как продукт слишком специализированный.
-- Программисты и близкие к ним группы могут быть более заинтересованы в Feeds Fun, чем учёные и предприниматели.
+- Content marketing can be more effective than paid advertising, as the product is too specialized.
+- Software developers can be more interested in Feeds Fun than scientists and entrepreneurs.
 
 ### Целевые группы
 
