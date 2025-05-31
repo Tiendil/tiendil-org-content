@@ -6,8 +6,6 @@ seo_description = "I ran a marketing test for Feeds Fun. Here are the results an
 seo_image = "cover.jpg"
 ---
 
-<!-- This is a ongoing translation from Russian to English -->
-
 /// brigid-images
 src = "cover.jpg"
 alt = "One of the images I used in the test advertisement for Feeds Fun on Reddit."
@@ -21,7 +19,7 @@ Since [Feeds Fun](https://feeds.fun) has been in production for a long time and 
 The project is open-sourced: [github.com/Tiendil/feeds.fun](https://github.com/Tiendil/feeds.fun).
 ///
 
-It turns out that one does not simply launch advertisements on modern platforms: one needs to implement GDPR support, a user agreement, a privacy policy, cookie consent, event/metric tracking, improve the GUI, create an acceptable landing page, and so on. The work spanned almost half a year (in the background, of course, not full-time), but in the end, I implemented everything, designed the experiment, and am now ready to share the results with you.
+It turns out that one does not simply launch advertisements on modern platforms: one needs to implement GDPR compliance, a user agreement, a privacy policy, cookie consent, event/metric tracking, improve the GUI, create an acceptable landing page, and so on. The work spanned almost half a year (on the side, of course, not full-time), but in the end, I implemented everything, designed the experiment, and am now ready to share the results with you.
 
 <!-- more -->
 
@@ -53,7 +51,7 @@ Currently, there are two public news collections that are always tagged:
 The hypothesis was that public collections would help users understand what Feeds Fun is without registration, thus nudging them towards registration when users see the benefits.
 ///
 
-## Break the questions down along dimensions
+## Break the questions down across dimensions
 
 I was able to break the original questions down across three dimensions:
 
@@ -81,7 +79,7 @@ As a result, I ended up with three groups:
 
 In addition to user groups, I wanted to clarify how to convey the value of Feeds Fun to people, including what to emphasize in advertising and communication with users.
 
-After some reasoning, I identified three groups of focal messages, each with two messages:
+After some reflection, I narrowed the messages to three categories, each with two messages:
 
 - Functionality:
     - news with tags;
@@ -134,7 +132,7 @@ For each group of users, I selected 1-2 most popular thematic subreddits:
 - Entrepreneurs: [r/Entrepreneur](https://www.reddit.com/r/entrepreneur/) & [r/Startups](https://www.reddit.com/r/startups/)
 - News readers: [r/worldnews](https://www.reddit.com/r/worldnews) ([r/news](https://www.reddit.com/r/news/) was not suitable because it has a noticeable bias towards US local news).
 
-Devices: desktop-only, as the reader interface is designed specifically for it.
+Devices: desktop only, as the reader interface is designed specifically for it.
 
 Geography: worldwide. Ideally, I should have formulated several hypotheses about the users' locations; however, the budget does not allow for it, and organic traffic originates from all over the world. Therefore, I decided not to restrict the audience by this criterion for now and left it for the next time.
 
@@ -183,9 +181,9 @@ The funnel was as follows:
 - Feeds Fun: the user created a news scoring rule.
 - Feeds Fun: the user entered an API key for OpenAI or Gemini.
 
-The "enter-api-key" step I view as an approximate equivalent of payment/subscription to the service, as it is a rather complex step and may incur costs for the user (Gemini offers a free tier, while OpenAI only has paid ones).
+The "enter-api-key" step I view as an approximate equivalent of payment/subscription to the service, as it is a rather complex step and may incur costs for the user (Gemini offers a free tier, while OpenAI is pay-only).
 
-I also examined the user path on the site, from click-through to login in Feeds Fun, to understand how collections influence registration.
+I also examined the user path on the site, from click-through to logging in to Feeds Fun, to understand how collections influence registration.
 
 ## Experiment plan
 
@@ -237,7 +235,7 @@ There are too few data points to form a reliable picture of the middle (and espe
 
 ### Target groups
 
-Group |CTR | CPC | Cost per registration
+Group | CTR | CPC | Cost per registration
 --- | --- | --- | ---
 Scientists | 0.38% | 0.21 EUR | 40 EUR
 Entrepreneurs | 0.49% | 0.26 EUR | 24 EUR
@@ -293,7 +291,7 @@ If we look deeper, the best result is shown by this ad, which was shown to scien
 
 ### The last steps of the funnel
 
-There is no data to make conclusions about the last steps of the funnel, as there were too few users who reached the step of creating rules, and literally no one entered an API key.
+There’s too little data to draw conclusions about the final funnel steps, as there were too few users who reached the step of creating rules, and literally no one entered an API key.
 
 In comparison, there are some data for the organic traffic:
 
@@ -310,7 +308,7 @@ In comparison, there are some data for the organic traffic:
 
 I significantly clarified my understanding of how people perceive Feeds Fun and what is essential for them. I'll "meditate" on this for a while.
 
-I will not be able to run monetization on purchased traffic in a reasonable time with just one pair of hands, as it requires a significant amount of time for improvements and a substantial investment for experiments.
+I can’t profitably monetize paid traffic in a reasonable time with just one pair of hands, as it requires a significant amount of time for improvements and a substantial investment for experiments.
 
 It looks like I have two approaches for monetization.
 
@@ -340,8 +338,8 @@ What exactly I will do from this list, I will decide later. There is not enough 
 ## Notes for future experiments
 
 - Check fewer hypotheses at once to get more reliable results.
-- Validate the group "software developers".
-- Validate the group "professional scientists".
+- Test the group "software developers".
+- Test the group "professional scientists".
 - Experiment with different landing pages.
 - Experiment with different user geographies.
 - Concentrate on the messages about news relevance.
