@@ -187,25 +187,25 @@ The enter-api-key step I see as an approximate equivalent of payment/subscriptio
 
 I also looked at the user path on the site from the visit to authentication in Feeds Fun to understand how collections influence registration.
 
-## Ход эксперимента
+## Experiment plan
 
-Бюджет был установлен на 5 eur / день на объявление.
+The budget was set at 5 EUR/day per ad.
 
-Изначальный план выглядел так:
+The initial plan as follows:
 
-- Тестовый запуск на пару дней одного нейтрального объявления для получения baseline.
-- Запуск на неделю 18 объявлений.
-- Анализ результатов.
-- Запуск на неделю объявлений про коллекции, оптимизированных по результатам анализа.
-- Полный анализ.
+- Test run for a couple of days with one neutral ad to get a baseline.
+- First run for a week with 18 ads.
+- Analysis of the results.
+- Second run for a week with ads about collections, optimized based on the analysis results.
+- The final analysis.
 
-В итоге получилось так:
+The execution was a bit different:
 
-- Тестовый запуск на пару дней одного нейтрального объявления для получения baseline.
-- Первый запуск был остановлен на 4-ый день, т.к. результаты были очень плохие.
-- На следующей неделе (чтобы совпадали дни) был сделан второй запуск с откорректированными объявлениями и объявлениям про коллекции.
-- Второй запуск был остановлен через столько же времени, что и первый, чтобы в обоих случаях были сопоставимые объёмы выборок.
-- Анализ — вы его сейчас читаете.
+- Test run for a couple of days with one neutral ad to get a baseline.
+- The first run was stopped on the 4th day due to very poor results.
+- The next week (to run on the same days) I made a second run with optimized ads and ads about collections.
+- The second run was stopped after the same time as the first one to ensure comparable sample sizes.
+- Analysis — you are reading it now.
 
 ## Результаты
 
