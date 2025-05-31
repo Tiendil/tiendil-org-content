@@ -107,17 +107,17 @@ The second run showed significantly better results, so an additional dimension a
 
 You can notice that question 3 from the goals of the experiment neatly fits into this dimension.
 
-## Дизайн эксперимента
+## Experiment design
 
-### Ограничения
+### Restrictions
 
-Ограничений было, по сути, два.
+I had two main restrictions for the experiment.
 
-Во-первых, Я не маркетолог, не дизайнер и не копирайтер, поэтому сделать прям крутые профессиональные рекламные артефакты у меня в любом случае не получилось бы. Поэтому старался делать просто и прямолинейно.
+Firstly, I am not a marketer, designer, or copywriter, so I would not be able to create really cool professional advertising artifacts anyway. Therefore, I tried to keep them simple and straightforward.
 
-Во-вторых, бюджет. Рекламу гонять дорого. Особенно дорого, если вы хотите получить достоверные результаты. Приценившись на скорую руку, я планировал потратить около 500 eur. С учётом перезапуска эксперимента на середине, уложился в 650 eur.
+Secondly, the budget. Running ads is expensive. Especially if you want to get reliable results. After a quick estimate, I planned to spend about 500 EUR. Because of the restart of the experiment in the middle, I ended up spending 650 EUR.
 
-### Целевая платформа
+### Target platform
 
 Местом проведения компании выбрал Reddit, потому что:
 
