@@ -235,25 +235,25 @@ There are too few data points for a reliable picture of the middle (and especial
 - Content marketing can be more effective than paid advertising, as the product is too specialized.
 - Software developers can be more interested in Feeds Fun than scientists and entrepreneurs.
 
-### Целевые группы
+### Target groups
 
-Группа | CTR | CPC | Стоимость регистрации
+Group |CTR | CPC | Cost per registration
 --- | --- | --- | ---
-Учёные | 0.38% | 0.21 eur | 40 eur
-Предприниматели | 0.49% | 0.26 eur | 24 eur
-Читатели новостей | 1.93% | 0.05 eur | 41 eur
+Scientists | 0.38% | 0.21 eur | 40 eur
+Entrepreneurs | 0.49% | 0.26 eur | 24 eur
+News readers | 1.93% | 0.05 eur | 41 eur
 
-Неожиданно для меня, учёные продемонстрировали худшую заинтересованность (минимальный CTR). Учитывая, что мои знакомые от науки (даже жена!) читалкой пользуются, дело может быть в подаче, или в неверном выборе сабреддита.
+Unexpectedly for me, scientists showed the worst interest (minimum CTR). Considering that my acquaintances from science (even my wife!) use the reader, it may be due to the presentation issues, or the wrong choice of subreddit.
 
-В то же время конверсия читателей новостей в регистрации просто ужасная. На сколько я понимаю, CTR 2% — это (очень?) хороший показатель для Reddit. Тем страньше низкая конвесия в регистрации. Это может быть признаком расхождения ожиданий и лендинга, либо каких-то мощных барьеров при регистрации.
+At the same time, the conversion of news readers into registrations is hurendously low. As far as I understand, a CTR of 2% is (very?) good for Reddit. It is strange that the conversion to registration is so low. This may indicate a mismatch between expectations from ads and the landing page, or some strong barriers during registration.
 
-**Гипотезы**:
+**Hypotheses**:
 
-- Feeds Fun не несёт ценности для людей интересующихся наукой (подписчики r/Science), но несёт ценность для профессиональных учёных (подписчики очень специализированных сабреддитов).
-- Ценность Feeds Fun для учёных надо доносить отдельным специфическим способом.
-- Лендинг (единственный сейчас) может быть непонятен для казуальных пользователей.
-- GUI всё ещё выглядит недостаточно «профессионально» и может отпугивать часть пользователей.
-- Процесс регистрации может быть непонятным для казуальных пользователей.
+- Feeds Fun provide less value to people interested in science (subscribers of r/Science), but it may be still valuable for professional scientists (subscribers of very specialized subreddits).
+- The value of Feeds Fun for scientists needs to be communicated in a separate, specific way.
+- The landing page maynot be clear enough for casuall users.
+- The GUI looks not "professional" enough and may scare away part of the users.
+- The registration process may be confusing for casual users.
 
 ### Фокус инструмента
 
