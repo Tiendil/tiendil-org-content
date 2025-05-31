@@ -77,35 +77,35 @@ As a result, I ended up with three groups:
 - Entrepreneurs — people who are engaged in business, startups, or follow business news.
 - News readers — people who simply read a lot of news.
 
-### Посыл / message
+### Message
 
-Кроме групп пользователей, я хотел уточнить как доносить до людей ценность Feeds Fun — на что делать акцент в рекламе и просто в общении с пользователями.
+In addition to user groups, I wanted to clarify how to convey to people the value of Feeds Fun — what to emphasize in advertising and in communication with users.
 
-После некоторых рассуждений я выделил 3 группы фокусных сообщений по 2 сообщения в каждой:
+After some reasoning, I identified three groups of focal messages, each with two messages:
 
-- Функциональность:
-    - новости с тегами;
-    - оценка новостей по тегам/правилам;
-- Ценность:
-    - экономия времени на чтение новостей;
-    - чтение только самых важных/интересных новостей;
-- Эмоции:
-    - быть умнее: читать новости по-умному;
-    - контроль: понимать почему ты читаешь именно эти новости, а не другие.
+- Functionality:
+    - news with tags;
+    - scoring news by tags/rules;
+- Value:
+    - saving time on reading news;
+    - reading only the most important/interesting news;
+- Emotions:
+    - being smarter: reading news in a smart way;
+    - control: understanding why you read these news and not others.
 
-### Фокус инструмента
+### Focus of the tool
 
-Изначально эта группа гипотез не планировалась, но первый запуск показал слишком плохие результаты и мне пришлось разбираться, что пошло не так.
+I did not plan to add this dimension initially, but the first run of the experiment showed too poor results, and I had to figure out what went wrong.
 
-Я выдвинул гипотезу, что читалка была спозиционирована слишком абстрактно и попробовал заменить части текстовых сообщений с "News reader" на "RSS reader".
+I hypothesized that the reader was positioned too abstractly and tried replacing parts of the text messages from "News reader" to "RSS reader".
 
-Второй запуск показал себя значительно лучше, поэтому в эксперименте появилось дополнительное измерение:
+The second run showed significantly better results, so an additional dimension appeared in the experiment:
 
-- Читалка новостей
-- Читалка RSS
-- Протеганные коллекции новостей
+- Feeds Fun is a news reader/
+- Feeds Fun is an RSS reader/
+- Feeds Fun is a collection of tagged news/
 
-Можно обратить внимание, что вопрос 3 из целей эксперимента лаконично лёг координатой в этом измерении.
+You can notice that question 3 from the goals of the experiment neatly fits into this dimension.
 
 ## Дизайн эксперимента
 
