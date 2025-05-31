@@ -308,44 +308,44 @@ In comparison, there are some data for the organic traffic:
 
 ## General conclusions
 
-I significantly clarified my understanding of how people perceive Feeds Fun, what is important and necessary for them. I'll "meditate" on this for a while.
+I significantly clarified my understanding of how people perceive Feeds Fun and what is essential for them. I'll "meditate" on this for a while.
 
-I will not be able to run monetization on purchased traffic in a reasonable time with just working hands, as it requires a lot of time for improvements and a lot of money for experiments.
+I will not be able to run monetization on purchased traffic in a reasonable time with just working hands, as it requires a significant amount of time for improvements and a substantial investment for experiments.
 
 It looks like I have two approaches for monetization.
 
-Option 1: focus on organic traffic and content marketing, grow the project's community until it reaches a critical mass of users and traffic, then turn on the switch.
+Option 1: Focus on organic traffic and content marketing, grow the project's community until it reaches a critical mass of users and traffic, then turn the switch on.
 
-Option 2: look for investors with expertise in the business side, money for the team and marketing.
+Option 2: Look for investors with expertise in the business side, financial backing for the team, and marketing experience.
 
 ## Action points
 
-What exectly I will do from this list, I will decide later. There is not enough time for everything, so I need to choose wisely.
+What exactly I will do from this list, I will decide later. There is not enough time for everything, so I need to choose wisely.
 
-- Prepare a content marketing plan for the summer and try to assess the impact of this practice on the growth of organic traffic its prooerties.
-- Prepare a SEO plan for the summer and try to assess the impact of this practice on the growth of organic traffic and its properties.
-- Improve the registration interface, it is really inplemented in a non-standard way and may be confusing. Although I believe it is ideologically correct :-)
+- Prepare a content marketing plan for the summer and assess the impact of this practice on the growth of organic traffic and its properties.
+- Prepare an SEO plan for the summer and assess the impact of this practice on the growth of organic traffic and its properties.
+- Improve the registration interface; it is really implemented in a non-standard way and may be confusing. Although I believe it is ideologically correct :-)
 - Run a planning session on the following questions:
     - How to focus Feeds Fun functionality on news relevance?
     - How to better communicate the value of Feeds Fun in terms of news relevance?
 - Freeze the development of collections, but do not delete them, as they positively influence the funnel after registration.
-- Run a serie of interviews:
+- Run a series of interviews:
     - With scientists to understand "what is wrong?".
     - With casual users to assess the clarity of the landing page.
     - With any users to evaluate the clarity/accessibility of the onboarding/tutorial interface.
-- Make a site redesign by a professional designer.
-- Build a rough economic model based for paid traffic to estimate the order of improvements needed in advertising metrics.
-- Build a prototype of a presentation for investors to look at the project from the outside.
+- Hire a professional designer to redesign the site.
+- Build a rough economic model based on paid traffic to estimate the order of improvements needed in advertising metrics.
+- Build a prototype of a presentation for investors to review the project from an external perspective.
 
 ## Notes for future experiments
 
-- Check fewer hypotheses at once, to get more reliable results.
+- Check fewer hypotheses at once to get more reliable results.
 - Validate the group "software developers".
 - Validate the group "professional scientists".
 - Experiment with different landing pages.
-- Experiment with different geographies of users.
+- Experiment with different user geographies.
 - Concentrate on the messages about news relevance.
-- Think about more precise and specific wording of the texts.
-- If possible, experiment more with messages mentioning tags and rules.
+- Think about the more precise and specific wording of the texts.
+- If possible, experiment further with messages that mention tags and rules.
 - Experiment with ads on other platforms: Google Ads, Facebook, etc.
 - Experiment with different ad formats.
