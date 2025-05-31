@@ -191,9 +191,9 @@ I also examined the user path on the site, from visit to authentication in Feeds
 
 The budget was set at 5 EUR/day per ad.
 
-The initial plan as follows:
+The initial plan is as follows:
 
-- Test run for a couple of days with one neutral ad to get a baseline.
+- Test run for a couple of days with one neutral ad to establish a baseline.
 - First run for a week with 18 ads.
 - Analysis of the results.
 - Second run for a week with ads about collections, optimized based on the analysis results.
@@ -201,9 +201,9 @@ The initial plan as follows:
 
 The execution was a bit different:
 
-- Test run for a couple of days with one neutral ad to get a baseline.
+- Test run for a couple of days with one neutral ad to establish a baseline.
 - The first run was stopped on the 4th day due to very poor results.
-- The next week (to run on the same days) I made a second run with optimized ads and ads about collections.
+- The following week (to run on the same days), I made a second run with optimized ads and ads about collections.
 - The second run was stopped after the same time as the first one to ensure comparable sample sizes.
 - Analysis — you are reading it now.
 
