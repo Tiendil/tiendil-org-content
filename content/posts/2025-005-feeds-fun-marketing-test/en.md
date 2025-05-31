@@ -257,24 +257,24 @@ At the same time, the conversion of news readers into registrations is horrendou
 
 ### Focus of the tool
 
-The ads with mentioning RSS showed significantly better results in terms of CTR, CPC, and registrations compared to the ads that only mentioned news. The only metric that dropped was CTR for news readers (for "news" it is higher than for "RSS"). This could be a statistical deviation or a sign of more casuall users in the selected group (they may not know what RSS is).
+The ads that mentioned RSS showed significantly better results in terms of CTR, CPC, and registrations compared to the ads that only mentioned news. The only metric that dropped was CTR for news readers (for "news" it is higher than for "RSS"). This could be a statistical deviation or a sign of more casual users in the selected group (they may not know what RSS is).
 
-The collections were a total non-starter: the metrics are weak, and users aren’t clicking through to the collection pages from the homepage.
+The collections were a total non-starter: the metrics were weak, and users weren’t clicking through to the collection pages from the homepage.
 
 **Hypotheses**:
 
 - The more technical and specific the positioning of the tool, the better the results among professionals.
-- The collections does not look useful for unregistered users, or do not demonstrate their usefulness properly.
+- The collections do not appear useful to unregistered users or do not effectively demonstrate their usefulness.
 
 ### Messages
 
 If we look at registrations.
 
-The best results are shown by ads with a focus on relevance:
+Ads with a focus on relevance show the best results:
 
 - Read relevant RSS news — skip the noise — try Feeds Fun
 
-The second and third places are shared by tags and rules (rules are slightly better):
+Tags and rules share the second and third places (rules are slightly better):
 
 - Rank RSS news with your own rules and read the best first — try Feeds Fun
 - RSS reader with smart tags — try Feeds Fun
@@ -289,7 +289,7 @@ The other messages worked significantly worse.
 
 The best registration cost is 12.5 EUR for the ad with the mention of RSS and relevance.
 
-If we look deeper, the best result is shown by this ad shown to scientists ~ 8 EUR per registration, but I'm not ready to draw conclusions based on such a small sample size. And it is interestingly contradicts to the previous conclusion about scientists.
+If we look deeper, the best result is shown by this ad, which was shown to scientists at ~ 8 EUR per registration. However, I'm not ready to draw conclusions based on such a small sample size. Interestingly, this contradicts the previous conclusion about scientists.
 
 ### The last steps of the funnel
 
