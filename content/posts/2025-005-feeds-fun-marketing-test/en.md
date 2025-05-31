@@ -207,20 +207,20 @@ The execution was a bit different:
 - The second run was stopped after the same time as the first one to ensure comparable sample sizes.
 - Analysis — you are reading it now.
 
-## Результаты
+## Results
 
-Сырые и аггрегированные данные можно найти в [таблице](https://docs.google.com/spreadsheets/d/1WeclS5GYIz_JhfYW7WyWp3byo5nexE6cJCZcxLdDj_0/edit?usp=sharing)
+The raw and aggregated data can be found in the [spreadsheet](https://docs.google.com/spreadsheets/d/1WeclS5GYIz_JhfYW7WyWp3byo5nexE6cJCZcxLdDj_0/edit?usp=sharing).
 
-Средняя температура по больнице:
+“Apples-and-oranges average:
 
-- Потрачено: 605 eur (без учёта baseline запуска);
-- Показов: 631277;
-- Кликов: 6089;
-- Цена клика: $0.10 eur;
-- Регистраций: 18;
-- Цена регистрации: $33.61 eur;
-- Пользователей, которые создавали правила: 2;
-- Пользователей, которые ввели API ключ: 0.
+- Spent: 605 EUR (without the baseline run);
+- Impressions: 631277;
+- Clicks: 6089;
+- CPC: 0.10 EUR;
+- Registrations: 18;
+- The cost per registration: 33.61 EUR <- the most devastating result my career :-D
+- Users, who created rules: 2;
+- Users, who added an API key: 0.
 
 ## Наблюдения / инсайты
 
