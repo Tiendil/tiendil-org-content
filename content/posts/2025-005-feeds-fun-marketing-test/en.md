@@ -11,7 +11,7 @@ src = "cover.png"
 alt = "One of the images I used in the test advertisement for Feeds Fun on Reddit."
 ///
 
-Since [Feeds Fun](https://feeds.fun) has been in production for a long time and provides some value to users, I decided to run a test ad campaign to gauge how viable monetization is in the project’s current form
+Since [Feeds Fun](https://feeds.fun) has been in production for a long time and provides some value to users, I decided to run a test ad campaign to gauge how viable monetization is in the project’s current form.
 
 /// note | Reminder
 [Feeds Fun](https://feeds.fun) is a news reader that automatically assigns tags to each news item using LLMs. Users can create rules that evaluate news based on tags. For example, `nasa + fake-news -> -50`. This allows for filtering and sorting news, enabling you to read only the most relevant ones.
