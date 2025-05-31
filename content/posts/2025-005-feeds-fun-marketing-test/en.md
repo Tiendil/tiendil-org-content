@@ -285,11 +285,11 @@ The other messages worked significantly worse.
 
 - Utilitarian properties (relevance, tags, rules) are more understandable and valuable to users.
 
-### Лучшая группа
+### The best target group
 
-Лучшая цена результата у объявления с упоминанием RSS и релевантности, стоимость регистрации 12.5 eur.
+The best registration cost is 12.5 EUR for the ad with the mention of RSS and relevance.
 
-Если смотреть пристальнее, то стоимость регистрации у группы учёных с этим объявлением ~8 eur, но я не готов делать выводы по выбокам такого размера.
+If we look deeper, the best result is shown by this ad shown to scientists ~ 8 EUR per registration, but I'm not ready to draw conclusions based on such a small sample size. And it is interestingly contradicts to the previous conclusion about scientists.
 
 ### Последние шаги воронки
 
