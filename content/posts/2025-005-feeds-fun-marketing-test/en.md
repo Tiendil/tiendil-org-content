@@ -53,17 +53,17 @@ Currently, there are two public news collections that are always tagged:
 The hypothesis was that public collections would help users in understanding what Feeds Fun is without registration, thus nudging them towards registration when users see the benefits.
 ///
 
-## Раслкадываем вопросы по измерениям
+## Strip down the questions by dimensions
 
-Оригинальные вопросы удалось разложить по трём измерениям:
+I was able to break down the original questions into features along three dimensions:
 
-- группы пользователей;
-- посыл / message;
-- фокус инструмента.
+- groups of users;
+- message;
+- focus of the tool.
 
-Это позволило сделать эксперимент более структурированным и понятным; создало решётку измерений, по которой можно смотреть не только на результаты конкретных объявлений/групп, но и на супергруппы. Например, смотреть поведение групп пользователей независимо от посыла, или поведение пользователй на конкретном посыле независимо от группы.
+This allowed me to make the experiment more structured and understandable; it created a measurement lattice through which one can look not only at the results of specific ads/groups but also at supergroups. For example, to observe user behavior independently of the ads message, or user behavior on a specific message independently of the group.
 
-### Группы пользователей
+### Groups of users
 
 Feeds Fun всегда предполагался как инструмент для профессионалов, так как обычный пользователей если и хочет управлять своим потоком новостей, то не настолько глубоко и детально. Плюс, мне нужен был именно такой инструмент, который в итоге получился.
 
