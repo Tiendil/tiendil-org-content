@@ -291,20 +291,20 @@ The best registration cost is 12.5 EUR for the ad with the mention of RSS and re
 
 If we look deeper, the best result is shown by this ad shown to scientists ~ 8 EUR per registration, but I'm not ready to draw conclusions based on such a small sample size. And it is interestingly contradicts to the previous conclusion about scientists.
 
-### Последние шаги воронки
+### The last steps of the funnel
 
-Данных для оцени нет — только несколько человек дошли до создания правил и никто не ввёл API ключ.
+There are no data to make conclusions about the last steps of the funnel, as there were too few users who reached the step of creating rules and literally no one entered an API key.
 
-Для сравнения, по органическому трафику данные есть:
+In comparison, there are some data for the organic traffic:
 
-- Есть большой провал в конверсии между шагом добавления рассылки (своей или из коллекции) и шагом использования фильров тега.
-- Конверсия шага регистрации в шаг добавление рассылки: 80%. При разбивке на типы рассылок, добавление коллекции происходит в 50% случаев. То есть коллекции полезны, но (пока что) только после регистрации.
-- API ключ вводит 5% зарегистрировавшихся пользователей. На мой взгляд, это хороший показатель, который говорит что ценность Feeds Fun приносит, надо только понять кому.
+- There is a significant drop in conversion between the step of adding a feed (either their own or from a collection) and the step of using tag filters.
+- The conversion from the registration step to the step of adding a feed is 80%. If we break it down by feed types, users add collection feeds in more than 50% of cases. This means that collections are useful, but (so far) only after registration.
+- The API key is entered by 5% of registered users. In my opinion, this is a good indicator of the value Feeds Fun brings, we just need to figure out to whom.
 
-**Гипотезы**:
+**Hypotheses**:
 
-- Если улучшить поведение сервиса между добавлением рассылки и использованием фильтров тегов, то значительно улучшатся последние шаги воронки.
-- Если улучшить onboarding/tutorial, то значительно улучшатся последние шаги воронки.
+- If we improve the UX between adding a feed and using tag filters, the last steps of the funnel will significantly improve.
+- If we improve the onboarding/tutorial, the last steps of the funnel will significantly improve.
 
 ## Общие выводы
 
