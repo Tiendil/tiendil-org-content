@@ -171,21 +171,21 @@ Plus, I added two more ads for the second run, which were about public collectio
 - Tagged arXiv papers — follow relevant research with Feeds Fun
 - Tagged Reddit business posts — follow relevant news with Feeds Fun
 
-### Воронка
+### Funnel
 
-Воронка была следующей:
+The funnel was as follows:
 
-- Reddit: показ объявления.
-- Reddit: клик по объявлению.
-- Feeds Fun: регистрация.
-- Feeds Fun: пользователь подписался на рассылку (свою или из коллекции).
-- Feeds Fun: пользователь воспользовался фильтром тегов.
-- Feeds Fun: пользователь создал правило оценки новостей.
-- Feeds Fun: пользователь ввёл API ключ для OpenAI или Gemeni.
+- Reddit: showing the ad.
+- Reddit: click on the ad.
+- Feeds Fun: registration.
+- Feeds Fun: user subscribed to a feed (either their own or from a collection).
+- Feeds Fun: user used tag filters.
+- Feeds Fun: user created a news scoring rule.
+- Feeds Fun: user entered an API key for OpenAI or Gemini.
 
-Шаг ввода API ключа я расцениваю как примерный эквивалент оплаты / подписки на сервис, так как это довольно сложный этап и может предполагать траты со стороны пользователя (Gemini имеет бесплатный тариф, у OpenAI только платное использование).
+The enter-api-key step I see as an approximate equivalent of payment/subscription to the service, as it is a rather complex step and may involve costs for the user (Gemini has a free tier, while OpenAI only has paid ones).
 
-Дополнительно смотрел путь пользователей на сайте от перехода до входа в Feeds Fun, чтобы понять как влияют коллекции на регистрацию.
+I also looked at the user path on the site from the visit to authentication in Feeds Fun to understand how collections influence registration.
 
 ## Ход эксперимента
 
