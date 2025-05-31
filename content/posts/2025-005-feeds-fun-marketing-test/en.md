@@ -13,10 +13,10 @@ src = "cover.jpg"
 alt = "One of the images I used in the test advertisement for Feeds Fun on Reddit."
 ///
 
-Since [Feeds Fun](https://feeds.fun) has been in production for a long time and provides some value to users, I decided to run a test ad campaign to understand the viability of monetizing the project in its current state.
+Since [Feeds Fun](https://feeds.fun) has been in production for a long time and provides some value to users, I decided to run a test ad campaign to gauge how viable monetization is in the project’s current form
 
 /// note | Reminder
-[Feeds Fun](https://feeds.fun) is a news reader that automatically assigns tags to each news item using LLM. Users can create rules that evaluate news based on tags. For example, `nasa + fake-news -> -50`. This allows for filtering and sorting news, enabling you to read only the most relevant ones.
+[Feeds Fun](https://feeds.fun) is a news reader that automatically assigns tags to each news item using LLMs. Users can create rules that evaluate news based on tags. For example, `nasa + fake-news -> -50`. This allows for filtering and sorting news, enabling you to read only the most relevant ones.
 
 The project is open-sourced: [github.com/Tiendil/feeds.fun](https://github.com/Tiendil/feeds.fun).
 ///
@@ -53,15 +53,15 @@ Currently, there are two public news collections that are always tagged:
 The hypothesis was that public collections would help users understand what Feeds Fun is without registration, thus nudging them towards registration when users see the benefits.
 ///
 
-## Strip down the questions by dimensions
+## Break the questions down along dimensions
 
-I was able to break down the original questions into features along three dimensions:
+I was able to break the original questions down across three dimensions:
 
 - groups of users;
 - message;
 - focus of the tool.
 
-This allowed me to make the experiment more structured and understandable; it created a measurement lattice through which one can look not only at the results of specific ads/groups but also at supergroups. For example, to observe user behavior independently of the ad messages or user behavior on a specific message independently of the groups.
+This allowed me to make the experiment more structured and understandable; it gave me a clear grid / matrix through which one can look not only at the results of specific ads/groups but also at supergroups. For example, to observe user behavior independently of the ad messages or user behavior on a specific message independently of the groups.
 
 ### Groups of users
 
@@ -101,17 +101,17 @@ I hypothesized that the reader was positioned too abstractly and tried replacing
 
 The second run showed significantly better results, so an additional dimension appeared in the experiment:
 
-- Feeds Fun is a news reader/
-- Feeds Fun is an RSS reader/
-- Feeds Fun is a collection of tagged news/
+- Feeds Fun is a news reader.
+- Feeds Fun is an RSS reader.
+- Feeds Fun is a collection of tagged news.
 
 You can see that question 3 from the experiment's goals neatly fits into this dimension.
 
 ## Experiment design
 
-### Restrictions
+### Constraints
 
-I had two main restrictions for the experiment.
+I had two main constraints for the experiment.
 
 Firstly, I am not a marketer, designer, or copywriter, so I would not be able to create really cool professional advertising artifacts anyway. Therefore, I tried to keep them simple and straightforward.
 
@@ -124,7 +124,7 @@ I chose Reddit as the platform for the campaign because:
 - I used it before when conducting [a survey of player preferences in strategy games](post:making-a-fictional-universe-quantity-survey-cleaning).
 - Reddit has very straightforward and clear targeting — you can select specific subreddits that match the target user groups.
 - I am active on Reddit and have seen a positive reaction to Feeds Fun posts, so I feel that Reddit is a suitable platform.
-- I generally have no clear vision of the modern advertising landscape, so I have no criteria for rejecting Reddit in favor of other platforms.
+- I’m not really familiar with today’s ad landscape, so I have no criteria for rejecting Reddit in favor of other platforms.
 
 ### Targeting
 
@@ -134,13 +134,13 @@ For each group of users, I selected 1-2 most popular thematic subreddits:
 - Entrepreneurs: [r/Entrepreneur](https://www.reddit.com/r/entrepreneur/) & [r/Startups](https://www.reddit.com/r/startups/)
 - News readers: [r/worldnews](https://www.reddit.com/r/worldnews) ([r/news](https://www.reddit.com/r/news/) was not suitable because it has a noticeable bias towards US local news).
 
-Devices: Only desktop, as the reader interface is designed specifically for it.
+Devices: desktop-only, as the reader interface is designed specifically for it.
 
-Geography: any. Ideally, I should have formulated several hypotheses about the users' locations; however, the budget does not allow for it, and organic traffic originates from all over the world. Therefore, I decided not to restrict the audience by this criterion for now and left it for the next time.
+Geography: worldwide. Ideally, I should have formulated several hypotheses about the users' locations; however, the budget does not allow for it, and organic traffic originates from all over the world. Therefore, I decided not to restrict the audience by this criterion for now and left it for the next time.
 
 ### Advertisement design
 
-I chose the option of ads with an image and text as the simplest for me. I assume that a well-crafted animation of the reader's work could yield better results, but the likelihood that I could create it at a decent quality is quite low.
+I went with simple image-and-text ads as the simplest for me. I assume that a well-crafted animation of the reader's work could yield better results, but the likelihood that I could create it at a decent quality is quite low.
 
 For each group of users, I created a screenshot of the Feeds Fun interface with relevant news. You can find an example in the cover image of this post.
 
@@ -185,7 +185,7 @@ The funnel was as follows:
 
 The "enter-api-key" step I view as an approximate equivalent of payment/subscription to the service, as it is a rather complex step and may incur costs for the user (Gemini offers a free tier, while OpenAI only has paid ones).
 
-I also examined the user path on the site, from visit to authentication in Feeds Fun, to understand how collections influence registration.
+I also examined the user path on the site, from click-through to login in Feeds Fun, to understand how collections influence registration.
 
 ## Experiment plan
 
@@ -211,7 +211,7 @@ The execution was a bit different:
 
 The raw and aggregated data can be found in the [spreadsheet](https://docs.google.com/spreadsheets/d/1WeclS5GYIz_JhfYW7WyWp3byo5nexE6cJCZcxLdDj_0/edit?usp=sharing).
 
-Apples-and-oranges average:
+Across-the-board averages:
 
 - Spent: 605 EUR (without the baseline run);
 - Impressions: 631277;
@@ -239,11 +239,11 @@ There are too few data points to form a reliable picture of the middle (and espe
 
 Group |CTR | CPC | Cost per registration
 --- | --- | --- | ---
-Scientists | 0.38% | 0.21 eur | 40 eur
-Entrepreneurs | 0.49% | 0.26 eur | 24 eur
-News readers | 1.93% | 0.05 eur | 41 eur
+Scientists | 0.38% | 0.21 EUR | 40 EUR
+Entrepreneurs | 0.49% | 0.26 EUR | 24 EUR
+News readers | 1.93% | 0.05 EUR | 41 EUR
 
-Unexpectedly to me, scientists showed the least interest (lowest CTR). Considering that my acquaintances from science (even my wife!) use the reader, it may be due to the presentation issues or the wrong choice of subreddit.
+Unexpectedly, scientists showed the least interest (lowest CTR). Considering that my acquaintances from science (even my wife!) use the reader, it may be due to the presentation issues or the wrong choice of subreddit.
 
 At the same time, the conversion of news readers into registrations is horrendously low. As far as I understand, a CTR of 2% is (very?) good for Reddit. Strangely, the conversion to registration is so low. This may indicate a mismatch between expectations from ads and the landing page or some substantial barriers during registration.
 
@@ -259,7 +259,7 @@ At the same time, the conversion of news readers into registrations is horrendou
 
 The ads that mentioned RSS showed significantly better results in terms of CTR, CPC, and registrations compared to the ads that only mentioned news. The only metric that dropped was CTR for news readers (for "news" it is higher than for "RSS"). This could be a statistical deviation or a sign of more casual users in the selected group (they may not know what RSS is).
 
-The collections were a total non-starter: the metrics were weak, and users weren’t clicking through to the collection pages from the homepage.
+The collections didn’t move the needle: the metrics were weak, and users weren’t clicking through to the collection pages from the homepage.
 
 **Hypotheses**:
 
@@ -268,7 +268,7 @@ The collections were a total non-starter: the metrics were weak, and users weren
 
 ### Messages
 
-If we look at registrations.
+When we look at registrations.
 
 Ads with a focus on relevance show the best results:
 
@@ -310,11 +310,11 @@ In comparison, there are some data for the organic traffic:
 
 I significantly clarified my understanding of how people perceive Feeds Fun and what is essential for them. I'll "meditate" on this for a while.
 
-I will not be able to run monetization on purchased traffic in a reasonable time with just working hands, as it requires a significant amount of time for improvements and a substantial investment for experiments.
+I will not be able to run monetization on purchased traffic in a reasonable time with just one pair of hands, as it requires a significant amount of time for improvements and a substantial investment for experiments.
 
 It looks like I have two approaches for monetization.
 
-Option 1: Focus on organic traffic and content marketing, grow the project's community until it reaches a critical mass of users and traffic, then turn the switch on.
+Option 1: Focus on organic traffic and content marketing, grow the project's community until it reaches a critical mass of users and traffic, then flip the switch on.
 
 Option 2: Look for investors with expertise in the business side, financial backing for the team, and marketing experience.
 
@@ -335,7 +335,7 @@ What exactly I will do from this list, I will decide later. There is not enough 
     - With any users to evaluate the clarity/accessibility of the onboarding/tutorial interface.
 - Hire a professional designer to redesign the site.
 - Build a rough economic model based on paid traffic to estimate the order of improvements needed in advertising metrics.
-- Build a prototype of a presentation for investors to review the project from an external perspective.
+- Build a pitch-deck to look at the project from an external perspective.
 
 ## Notes for future experiments
 
