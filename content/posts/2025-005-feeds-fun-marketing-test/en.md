@@ -3,11 +3,11 @@ title = "Feeds Fun: marketing test — or how I blew 650 euros."
 tags = [ "practice", "development", "monetization", "business", "feeds-fun"]
 published_at = "2025-05-31T12:00:00+00:00"
 seo_description = "I ran a marketing test for Feeds Fun. Here are the results and conclusions."
-seo_image = "cover.jpg"
+seo_image = "cover.png"
 ---
 
 /// brigid-images
-src = "cover.jpg"
+src = "cover.png"
 alt = "One of the images I used in the test advertisement for Feeds Fun on Reddit."
 ///
 
@@ -16,7 +16,7 @@ Since [Feeds Fun](https://feeds.fun) has been in production for a long time and 
 /// note | Reminder
 [Feeds Fun](https://feeds.fun) is a news reader that automatically assigns tags to each news item using LLMs. Users can create rules that evaluate news based on tags. For example, `nasa + fake-news -> -50`. This allows for filtering and sorting news, enabling you to read only the most relevant ones.
 
-The project is open-sourced: [github.com/Tiendil/feeds.fun](https://github.com/Tiendil/feeds.fun).
+The project is open-sourced: [github.com/Tiendil/feeds.fun](https://github.com/Tiendil/feeds.fun)
 ///
 
 It turns out that one does not simply launch advertisements on modern platforms: one needs to implement GDPR compliance, a user agreement, a privacy policy, cookie consent, event/metric tracking, improve the GUI, create an acceptable landing page, and so on. The work spanned almost half a year (on the side, of course, not full-time), but in the end, I implemented everything, designed the experiment, and am now ready to share the results with you.
@@ -119,7 +119,7 @@ Secondly, the budget. Running ads is expensive. Especially if you want to get re
 
 I chose Reddit as the platform for the campaign because:
 
-- I used it before when conducting [a survey of player preferences in strategy games](post:making-a-fictional-universe-quantity-survey-cleaning).
+- I used it before when conducting [a survey of player preferences in strategy games]{post:making-a-fictional-universe-quantity-survey-cleaning}.
 - Reddit has very straightforward and clear targeting — you can select specific subreddits that match the target user groups.
 - I am active on Reddit and have seen a positive reaction to Feeds Fun posts, so I feel that Reddit is a suitable platform.
 - I’m not really familiar with today’s ad landscape, so I have no criteria for rejecting Reddit in favor of other platforms.
@@ -226,7 +226,7 @@ There are too few data points to form a reliable picture of the middle (and espe
 
 **The answer to the primary experiment question:** It is not possible to immediately launch monetization based on purchased traffic; significant improvements are required in various areas.
 
-**The organic traffic is larger and yields better results than the purchased traffic. **** Just before launching the experiment, I created Docker containers for Feeds Fun and [posted news on Reddit](https://www.reddit.com/r/selfhosted/comments/1kqe865/feeds_fun_opensource_news_reader_releases/) — that single post brought more users (judging by the timing) than the entire experiment. At the same time, these users showed better results in the funnel than those from the experiment.
+**The organic traffic is larger and yields better results than the purchased traffic.** Just before launching the experiment, I created Docker containers for Feeds Fun and [posted news on Reddit](https://www.reddit.com/r/selfhosted/comments/1kqe865/feeds_fun_opensource_news_reader_releases/) — that single post brought more users (judging by the timing) than the entire experiment. At the same time, these users showed better results in the funnel than those from the experiment.
 
 **Hypotheses**:
 
