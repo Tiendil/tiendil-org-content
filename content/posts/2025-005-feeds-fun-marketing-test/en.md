@@ -65,17 +65,17 @@ This allowed me to make the experiment more structured and understandable; it cr
 
 ### Groups of users
 
-Feeds Fun всегда предполагался как инструмент для профессионалов, так как обычный пользователей если и хочет управлять своим потоком новостей, то не настолько глубоко и детально. Плюс, мне нужен был именно такой инструмент, который в итоге получился.
+I always intended Feeds Fun to be a tool for professionals, because regular users, if they want to manage their news feed, do not need such deep and detailed control. Plus, I needed exactly such a tool, which eventually turned out.
 
-Но таргетировться на профессионалов в широком смысле не очень удобно. Поэтому, для себя я всегда выделял две группы, которые должны были быть особенно заинтересованы в Feeds Fun: учёные и предприниматели.
+But targeting professionals in a broad sense is not very convenient. Therefore, I always has in mind two groups that should be particularly interested in Feeds Fun: scientists and entrepreneurs.
 
-Для маркетингового эксперимента я добавил третью группу — читатели новостей — было бы странно не проверить её поведение для продукта, который для новостей и предназначен.
+For the purpose of the experiment, I added a third group — news readers. It would be strange not to check their behavior for a product that is designed for news consumption.
 
-В итоге получилось три группы:
+As a result, I ended up with three groups:
 
-- Учёные — люди которые занимаются наукой или следят за научными новостями.
-- Предприниматели — люди которые занимаются бизнесом, стартапами или следят за бизнес-новостями.
-- Читатели новостей — люди которые просто читают много новостей.
+- Scientists — people who work in science or follow scientific news.
+- Entrepreneurs — people who are engaged in business, startups, or follow business news.
+- News readers — people who simply read a lot of news.
 
 ### Посыл / message
 
