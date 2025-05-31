@@ -25,32 +25,32 @@ It turned out one does not simply launch advertisements on modern platforms: one
 
 <!-- more -->
 
-## Цели эксперимента
+## Goals of the experiment
 
-Главная цель: оценить насколько реалистично получить положительную unit-экономику на платном трафике на текущем состоянии проекта.
+The primary goal is to assess how realistic it is to achieve positive unit economics with paid traffic in the current state of the project.
 
-Второстепенная цель: проверить ряд гипотез о потенциальных пользователей, которыми я руководствовался при разработке.
+The secondary goal is to test a number of hypotheses about potential users that guided me during development.
 
-### Вопросы, на которые хотел ответить
+### Questions I wanted to answer
 
-1. Как будут выглядеть метрики покупного трафика без оптимизаций:
-    1. Сколько может стоить одна регистрация?
-    2. Сколько может стоить один клик?
-    3. Сколько может стоить привлечение одного подписчика / одной покупки?
-2. На сколько каждая целевая группа заинтересована в Feeds Fun? Про группы см. ниже.
-    1. Какая группа будет лучше конвертироваться в регистрации?
-    2. Как будут выглядеть воронки для каждой группы?
-    3. Какая группа покажет лучший retention?
-3. Помогают ли публичные коллекции новостей подталкивать посетителей к регистрации?
-4. Как позиционировать Feeds Fun? На каком посыле (message) сосредоточиться? Про позиционирование см. ниже.
+1. How will the metrics of paid traffic look without tuning:
+    1. How much can one registration cost?
+    2. How much can one click cost?
+    3. How much can it cost to attract one subscriber / one purchase?
+2. How interested is each target group in Feeds Fun? See groups below.
+    1. Which group will convert better into registrations?
+    2. What will the funnels look like for each group?
+    3. Which group will show the best retention?
+3. Do the public news collections help pushing visitors towards registration?
+4. How to position Feeds Fun? What message to focus on? See below for positioning.
 
-/// note | Публичные коллекции
-На сайте сейчас есть две коллекции новостей, которые всегда протеганы:
+/// note | Public collections
+Currently, there are two public news collections that are always tagged:
 
--[Научные статьи](https://feeds.fun/show/scientific-papers) — все свежие статьи из arXiv.
--[Предпринимательство и стартапы](https://feeds.fun/show/entrepreneurship) — все свежие новости из сабреддитов про бизнес и некоторых других каналов.
+- [Scientific Papers](https://feeds.fun/show/scientific-papers) — all the latest papers from arXiv.
+- [Entrepreneurship & Startups](https://feeds.fun/show/entrepreneurship) — all the latest news from subreddits about business and some other channels.
 
-Гипотеза заключалась в том, что публичные коллекции помогут пользователям понять что такое Feeds Fun без регистрации и, тем самым, подтолкнут их к регистрации, когда пользователи увидят профит.
+The hypothesis was that public collections would help users in understanding what Feeds Fun is without registration, thus nudging them towards registration when users see the benefits.
 ///
 
 ## Раслкадываем вопросы по измерениям
