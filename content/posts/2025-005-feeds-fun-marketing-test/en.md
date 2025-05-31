@@ -138,13 +138,15 @@ Devices: only Desktop, as the reader interface is designed specifically for it.
 
 Geography: any. Ideally, I should have made several hypotheses about the users' locations, but the budget does not allow it, and organic traffic comes from all over the world. Therefore, I decided not to restrict the audience by this criterion for now and left it for the next time.
 
-### Дизайн объявлений
+### Advertisement design
 
-Для каждой группы пользователей я сделал по скриншоту рабочего интерфейса Feeds Fun с релевантными группе новостями. Пример скриншота вы можете найти на заглавной картинке.
+I chose the option of ads with an image and text, as the simplest for me. I assume that a well-crafted animation of the reader's work could yield better results, but the likelihood that I could create it at a decent quality is quite low.
 
-Изначально я планировал делать `3 группы * 6 посылов = 18` вариантов подписей, но в итоге оказалось, что достаточно 6, так как они получились не специфичными для группы пользователей.
+For each group of users, I created a screenshot of the Feeds Fun interface with relevant news. You can find an example in the cover image of this post.
 
-Вот подписи для первого запуска:
+Initially I planned to create `3 groups * 6 messages = 18` variants of captions for the ads, but it turned out that 6 were enough, as they were not specific to the user group.
+
+Here are the captions for the first run:
 
 - News reader with smart tags — try Feeds Fun
 - Rank news with your own rules and read the best first — try Feeds Fun
@@ -153,7 +155,7 @@ Geography: any. Ideally, I should have made several hypotheses about the users' 
 - Read news smarter — create rules to focus on the stories that count — try Feeds Fun
 - Control your news: smart tags + scoring rules = zero noise. Try Feeds Fun
 
-И для второго:
+And here are the captions for the second one:
 
 - RSS reader with smart tags — try Feeds Fun
 - Rank RSS news with your own rules and read the best first — try Feeds Fun
@@ -162,9 +164,9 @@ Geography: any. Ideally, I should have made several hypotheses about the users' 
 - Read RSS news smarter — create rules to focus on the stories that count — try Feeds Fun
 - Control your RSS news: smart tags + scoring rules = zero noise. Try Feeds Fun
 
-Плюс был тестовый прогон для получения baseline, с текстом: «Personalized news reader – follow the topics you care about»
+Also, there was a test run to get a baseline, with the text: "Personalized news reader – follow the topics you care about".
 
-И два специализированных объявления для публичных коллекций во втором запуске (со ссылкой на страницу коллекции, вместо главной страницы):
+Plus, I added two more ads for the second run, which were about public collections (with links to the collection pages instead of the main page):
 
 - Tagged arXiv papers — follow relevant research with Feeds Fun
 - Tagged Reddit business posts — follow relevant news with Feeds Fun
