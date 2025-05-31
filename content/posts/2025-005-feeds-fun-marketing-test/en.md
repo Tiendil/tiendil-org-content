@@ -266,24 +266,24 @@ The collections were a total non-starter: the metrics are weak, and users aren�
 - The more technical and specific the positioning of the tool, the better the results among professionals.
 - The collections does not look useful for unregistered users, or do not demonstrate their usefulness properly.
 
-### Посыл / message
+### Messages
 
-Если смотреть на регистрации.
+If we look at registrations.
 
-Лучшие результаты показывают объявления с посылом на релевантность:
+The best results are shown by ads with a focus on relevance:
 
 - Read relevant RSS news — skip the noise — try Feeds Fun
 
-Второе и третье место делят теги и правила (правила чуть лучше):
+The second and third places are shared by tags and rules (rules are slightly better):
 
 - Rank RSS news with your own rules and read the best first — try Feeds Fun
 - RSS reader with smart tags — try Feeds Fun
 
-Остальные посылы значительно ниже по метрикам.
+The other messages worked significantly worse.
 
-**Гипотезы**:
+**Hypotheses**:
 
-- Утилитарные свойства (релевантность, теги, правила) более понятны и ценны для пользователей.
+- Utilitarian properties (relevance, tags, rules) are more understandable and valuable to users.
 
 ### Лучшая группа
 
