@@ -119,12 +119,12 @@ Secondly, the budget. Running ads is expensive. Especially if you want to get re
 
 ### Target platform
 
-Местом проведения компании выбрал Reddit, потому что:
+I chose Reddit as the platform for the campaign because:
 
-- Я им уже пользовался, когда делал [опрос предпочтений игроков в стратегии]{post:making-a-fictional-universe-quantity-survey-cleaning}.
-- На Reddit очень прямолинейное и понятное таргетирование — можно выбрать конкретные сабреддиты, которые соответствуют целевым группам пользователей.
-- Я рассказываю о Feeds Fun на Reddit и вижу позитивную реакцию, поэтому есть ощущение, что Reddit — это подходящая платформа.
-- Вообще не представляю современный ландшафт интернет-рекламы, поэтому не было критериев для отказа от Reddit в пользу другой платформы.
+- I used it before when conducting [a survey of player preferences in strategy games](post:making-a-fictional-universe-quantity-survey-cleaning).
+- Reddit has very straightforward and clear targeting — you can select specific subreddits that match the target user groups.
+- I am active on Reddit and see a positive reaction to Feeds Fun posts, so I felt that Reddit is a suitable platform.
+- I generally have no clear vision of the modern advertising landscape, so I have no criterias for rejecting Reddit in favor of other platforms.
 
 ### Таргетирование
 
