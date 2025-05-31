@@ -61,15 +61,15 @@ I was able to break down the original questions into features along three dimens
 - message;
 - focus of the tool.
 
-This allowed me to make the experiment more structured and understandable; it created a measurement lattice through which one can look not only at the results of specific ads/groups but also at supergroups. For example, to observe user behavior independently of the ads message, or user behavior on a specific message independently of the group.
+This allowed me to make the experiment more structured and understandable; it created a measurement lattice through which one can look not only at the results of specific ads/groups but also at supergroups. For example, to observe user behavior independently of the ad messages or user behavior on a specific message independently of the groups.
 
 ### Groups of users
 
-I always intended Feeds Fun to be a tool for professionals, because regular users, if they want to manage their news feed, do not need such deep and detailed control. Plus, I needed exactly such a tool, which eventually turned out.
+I always intended Feeds Fun to be a tool for professionals because regular users, if they want to manage their news feed, do not need such deep and detailed control. Additionally, I needed exactly such a tool, which eventually became Feeds Fun.
 
-But targeting professionals in a broad sense is not very convenient. Therefore, I always has in mind two groups that should be particularly interested in Feeds Fun: scientists and entrepreneurs.
+However, targeting professionals in a broad sense is not very convenient. Therefore, I always have in mind two groups that should be particularly interested in Feeds Fun: scientists and entrepreneurs.
 
-For the purpose of the experiment, I added a third group — news readers. It would be strange not to check their behavior for a product that is designed for news consumption.
+For the purpose of the experiment, I added a third group — news readers. It would be strange not to examine their behavior for a product that is designed for news consumption.
 
 As a result, I ended up with three groups:
 
@@ -79,7 +79,7 @@ As a result, I ended up with three groups:
 
 ### Message
 
-In addition to user groups, I wanted to clarify how to convey to people the value of Feeds Fun — what to emphasize in advertising and in communication with users.
+In addition to user groups, I wanted to clarify how to convey the value of Feeds Fun to people, including what to emphasize in advertising and communication with users.
 
 After some reasoning, I identified three groups of focal messages, each with two messages:
 
@@ -91,11 +91,11 @@ After some reasoning, I identified three groups of focal messages, each with two
     - reading only the most important/interesting news;
 - Emotions:
     - being smarter: reading news in a smart way;
-    - control: understanding why you read these news and not others.
+    - control: understanding why you read this news and not others.
 
 ### Focus of the tool
 
-I did not plan to add this dimension initially, but the first run of the experiment showed too poor results, and I had to figure out what went wrong.
+I did not initially plan to add this dimension, but the first run of the experiment showed too poor results, and I had to figure out what went wrong.
 
 I hypothesized that the reader was positioned too abstractly and tried replacing parts of the text messages from "News reader" to "RSS reader".
 
@@ -105,7 +105,7 @@ The second run showed significantly better results, so an additional dimension a
 - Feeds Fun is an RSS reader/
 - Feeds Fun is a collection of tagged news/
 
-You can notice that question 3 from the goals of the experiment neatly fits into this dimension.
+You can see that question 3 from the experiment's goals neatly fits into this dimension.
 
 ## Experiment design
 
