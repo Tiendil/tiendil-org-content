@@ -140,11 +140,11 @@ Geography: any. Ideally, I should have formulated several hypotheses about the u
 
 ### Advertisement design
 
-I chose the option of ads with an image and text, as the simplest for me. I assume that a well-crafted animation of the reader's work could yield better results, but the likelihood that I could create it at a decent quality is quite low.
+I chose the option of ads with an image and text as the simplest for me. I assume that a well-crafted animation of the reader's work could yield better results, but the likelihood that I could create it at a decent quality is quite low.
 
 For each group of users, I created a screenshot of the Feeds Fun interface with relevant news. You can find an example in the cover image of this post.
 
-Initially I planned to create `3 groups * 6 messages = 18` variants of captions for the ads, but it turned out that 6 were enough, as they were not specific to the user group.
+Initially, I planned to create `3 groups * 6 messages = 18` variants of captions for the ads, but it turned out that 6 were enough, as they were not specific to the user group.
 
 Here are the captions for the first run:
 
@@ -155,7 +155,7 @@ Here are the captions for the first run:
 - Read news smarter — create rules to focus on the stories that count — try Feeds Fun
 - Control your news: smart tags + scoring rules = zero noise. Try Feeds Fun
 
-And here are the captions for the second one:
+Here are the captions for the second one:
 
 - RSS reader with smart tags — try Feeds Fun
 - Rank RSS news with your own rules and read the best first — try Feeds Fun
@@ -164,7 +164,7 @@ And here are the captions for the second one:
 - Read RSS news smarter — create rules to focus on the stories that count — try Feeds Fun
 - Control your RSS news: smart tags + scoring rules = zero noise. Try Feeds Fun
 
-Also, there was a test run to get a baseline, with the text: "Personalized news reader – follow the topics you care about".
+Additionally, I conducted a test run to establish a baseline, using the text: "Personalized news reader – follow the topics you care about".
 
 Plus, I added two more ads for the second run, which were about public collections (with links to the collection pages instead of the main page):
 
@@ -178,14 +178,14 @@ The funnel was as follows:
 - Reddit: showing the ad.
 - Reddit: click on the ad.
 - Feeds Fun: registration.
-- Feeds Fun: user subscribed to a feed (either their own or from a collection).
-- Feeds Fun: user used tag filters.
-- Feeds Fun: user created a news scoring rule.
-- Feeds Fun: user entered an API key for OpenAI or Gemini.
+- Feeds Fun: the user subscribed to a feed (either their own or from a collection).
+- Feeds Fun: the user used tag filters.
+- Feeds Fun: the user created a news scoring rule.
+- Feeds Fun: the user entered an API key for OpenAI or Gemini.
 
-The enter-api-key step I see as an approximate equivalent of payment/subscription to the service, as it is a rather complex step and may involve costs for the user (Gemini has a free tier, while OpenAI only has paid ones).
+The "enter-api-key" step I view as an approximate equivalent of payment/subscription to the service, as it is a rather complex step and may incur costs for the user (Gemini offers a free tier, while OpenAI only has paid ones).
 
-I also looked at the user path on the site from the visit to authentication in Feeds Fun to understand how collections influence registration.
+I also examined the user path on the site, from visit to authentication in Feeds Fun, to understand how collections influence registration.
 
 ## Experiment plan
 
