@@ -99,21 +99,21 @@ Generally, if you have a budget of $10M, it makes sense to consult tax advisors 
 
 This is the most interesting part, and what was clearly omitted from the original post.
 
-### Релизы на других платформах
+### Releases on other platforms
 
-Успешные игры обязательно выпускают на других платформах. Часто это даже можно зааутсорсить. Выход на консолях, а-ля Nintendo Switch, Xbox, PlayStation, может значительно увеличить доходы.
+Successful games are must-to-release on other platforms. Often such work even can be outsourced. Releasing on consoles like Nintendo Switch, Xbox, PlayStation can significantly increase revenues.
 
-### Сопутствующие продукты
+### Related products
 
-Если есть успешная игра, значит есть успешная интеллектуальная собственность, значит по ней можно выпускать разное.
+Successful game ~~not always but~~ often means a successful intellectual property. This means that various products can be released based on it.
 
-Например, быстрый поиск показал, что по Ori выходили плюшевые игрушки.
+For example, fast googling shows that Ori had plush toys released.
 
-Кроме игрушек есть книги, майки, наклейки — да что угодно.
+Besides toys, there are books, t-shirts, stickers — anything you can think of.
 
-Деньги подобная активность приносит не всегда, но, опять таки, аутсорсится, а копейка рубль бережёт.
+There not a lot of money in such products, but they can be autsourced to third-party companies, — take care of the pennies, and the pounds will take care of themselves.
 
-### Зарплаты разработчиков
+### Sallaries of developers
 
 Раз не указано обратное, разумно предположить, что все разработчики, включая основателей компании, получали зарплату. Может быть она была не такой большой, как в AAA, но жить должна была позволять, а может и откладывать.
 
