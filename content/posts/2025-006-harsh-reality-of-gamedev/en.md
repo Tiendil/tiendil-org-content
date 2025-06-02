@@ -48,7 +48,7 @@ To earn money, you need to make a very successful game. A lot (most?) of PC game
 
 Gamedev, still, is not a free pirate sailing — it's a complex expedition on someone else's money. If you are an extremely charismatic and lucky pirate, you will have some freedom of action. Still, usually, you serve the interests of capital owners or the mass market of players.
 
-The only true freedom in gamedev is independent **author's** projects, which are often developed as a hobby.
+The only true freedom in gamedev is independent **author-driven** projects, which are often developed as a hobby.
 
 ## A "predatory" (?) publishing deal
 
