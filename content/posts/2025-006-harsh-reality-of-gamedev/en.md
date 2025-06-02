@@ -66,7 +66,7 @@ Therefore, even if places where I would point out are really mistakes, it is far
 **If we do one thing well, something else will be done poorly.**
 ///
 
-### Mistake 1: too low price
+### Mistake 1: Too low price?
 
 Let's recalculate the numbers based on a price of $25 (+$5):
 
@@ -87,15 +87,17 @@ Of course, by increasing the price we can not guarantee the same sales volume, b
 
 Event on the example of Ori, we can see that the first version of the game was sold for $20, and the second for $30 — the developers drew conclusions.
 
-### Ошибка 2: Проблемы с налогами?
+### Mistake 2: Something with taxes?
 
-50% налогов для компании — это как-то очень много. Во многих странах, даже если ты будешь выводить деньги из компании, то налог будет прогрессивным и не факт что до 50% дойдёт.
+50% taxes for the company look like a lot. In many countries, even if you withdraw money from the company, the tax is progressive and it is not a fact that it will reach 50% from the all income.
 
-Тут бы я сходил к налоговым консультантам.
+I would recommend to consult with tax advisors in such cases.
 
-## Скрытая выгода
+Generally, if you have a budget of $10M, it makes sense to consult tax advisors and lawyers **before** spending that money. There is a chance that the right records in documents and invoices can help save on taxes and ultimately get more money.
 
-Это самое интересное и то, о чём явно умолчали.
+## Hidden profit
+
+This is the most interesting part, and what was clearly omitted from the original post.
 
 ### Релизы на других платформах
 
