@@ -134,23 +134,24 @@ The company and the team are an epic asset that cannot be ignored:
 - The company has a good intellectual property that can be used in the future.
 - The company has a fanbase that can be a good support in marketing.
 
-## Играть вдолгую малыми силами
+## Play the long game
 
-Далее идёт лично моё мнение.
+Here is my personal beliefs.
 
-Если вы ставите деньги впереди самореализации / нанесения пользы людям — не идите в геймдев. Есть более простые способы зарабатывать большие деньги. Этим вы сделаете хорошо и себе и людям, которым не придётся играть в ваши поделки.
+If you place money ahead of self-realization / bringing value to people — do not go into gamedev. There are simpler ways to make big money. You will do good both to yourself and to the people who won't have to play your junk.
 
-Если вы хотите реализовываться через конечный продукт — не идите в большие проекты, не начинайте их на чужие деньги. Деньги и массовый рынок накладывают лютые [ограничения на свободу творчества]{post:one-form-two-products} — вам придётся либо перешагивать через себя, либо банкротиться.
+If your goal is to realize yourself through the finished product — do not go into big projects, do not start them on someone else's money. Money and the mass market impose severe [restrictions on creative freedom]{post:one-form-two-products} — you will either have to step over yourself or go bankrupt.
 
-/// note | Что такое «большой проект»?
-It depends, как говорится.
+/// note | What is a "big project"?
+It depends, as people say.
 
-В моей текущей картине мира, расчёты из оригинального твита — это где-то на границе между средним и большим проектом, но скорее уже большой.
+I my current worldview, the calculations from the original tweet are somewhere between a medium and a large project, but leaning towards large.
 
-Когда я считал [учебный бизнес план для World Builders]{post:world-builders-2023-business-plan-example}, у меня вышло где-то $6M на два года разработки до финального релиза. Тот проект я воспринимаю как средне-средний.
+When I calculated the [educational business plan for World Builders]{post:world-builders-2023-business-plan-example}, I came up with about $6M costs for two years of development until the final release. I consider that project fairly average.
 
-Для справки, если вы сами себе не платите зарплату, это не значит что вы экономите бюджет. Это значит что вы берёте вдолг у себя — отдавать придётся. Соответственно, если брать условную среднепланетарную зарплату хорошего разработчика в $100K в год, то команда из 5 энтузиастовна 2 года — это уже $1M. Даже если вы работаете вечерами и выходными — вы натурально пожираете своё время — поверьте мне, я эксперт в этом :-D
+Note, if you do not pay yourself a salary, it does not mean you save the budget. It means you are borrowing from yourself — you will have to pay it back. Accordingly, if we take the average planetary salary of a good developer at $100K per year, then a team of 5 enthusiasts for 2 years is already $1M. Even if you're working nights and weekends — you're straight-up devouring your own time — trust me, I'm an expert at this :-D
 ///
+
 
 Большинство больших дорогих проектов — жвачка. Как и большинство таких же фильмов.
 
