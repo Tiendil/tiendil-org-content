@@ -28,15 +28,15 @@ As a result:
 - De-facto, the developer is left with a small safety cushion for a rainy day.
 ///
 
-Вот как-то так выходит…
+So, that's how it turns out…
 
-Смотреть на всё это можно с очень большого количества сторон. Много нюансов, как говорится. Всей правды не будет ни в одной точке зрения, но если собрать их вместе, то получится более-менее полная картина.
+We can look at this situation from a lot of different angles. There are many nuances, as they say. No single point of view will reveal the whole truth, but if we gather them together, we can get a more or less complete picture.
 
-/// note | О какой игре речь?
+/// note | About which game do we speak?
 
-Thomas Mahler — источник статистики — не указал от какой игры данные. ChatGPT предполагает, что речь идёт о первой Ori, но это вилами по воде писано.
+Thomas Mahler, the source of the statistics, did not specify which game the data is from. ChatGPT assumes it refers to the first Ori game, but this is speculative.
 
-Поскольку оригинальный автор игру не указывает, то и я буду рассуждать абстрактно. Ori буду упоминать далее только как пример.
+Because the author of the post does not specify the original game, I will discuss the whole situation abstractly and mention Ori only as an example in some places.
 ///
 
 ## Всё действительно плохо в большом геймдеве
