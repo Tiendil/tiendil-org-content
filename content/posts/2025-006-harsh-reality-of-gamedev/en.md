@@ -6,7 +6,7 @@ seo_description = "My comments on the income and expenses breakdown of a game so
 seo_image = "cover.png"
 ---
 
-Creative Director of Moon Studios (developer of [Ori](https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/)) [shared on X (Twitter)](https://x.com/thomasmahler/status/1928902673459511710) some "sad" statistics about the revenue from a successful debut game by unnamed developers that sold two million copies. The tweet is [discussed on Reddit](https://www.reddit.com/r/IndieDev/comments/1l08267/how_selling_2_million_copies_of_your_game_can/).
+The creative director of Moon Studios (developer of [Ori](https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/)) [shared on X (Twitter)](https://x.com/thomasmahler/status/1928902673459511710) some "sad" statistics about the revenue from a successful debut game by unnamed developers that sold two million copies. The tweet is [discussed on Reddit](https://www.reddit.com/r/IndieDev/comments/1l08267/how_selling_2_million_copies_of_your_game_can/).
 
 This sparked a lot of thoughts, and I’m going to share every single one of them with you — whether you like it or not :-)
 
@@ -29,11 +29,9 @@ As a result:
 - De facto, the developer is left with a small safety cushion for a rainy day.
 ///
 
-So, that's how it turns out…
-
 We can look at this situation from a lot of different angles. There are many nuances, as they say. No single point of view will reveal the whole truth, but if we gather them together, we can get a more or less complete picture.
 
-/// note | About which game do we speak?
+/// note | Which game are we talking about?
 
 Thomas Mahler, the source of the statistics, did not specify which game the data is from. ChatGPT assumes it refers to the first Ori game, but this is speculative.
 
@@ -44,11 +42,11 @@ Since the author of the post did not specify the original game, I discuss the en
 
 To earn money, you need to make a very successful game. A lot (most?) of PC games do not break even; even good games only break even.
 
-Gamedev, still, is not a free pirate sailing — it's a complex expedition on someone else's money. If you are an extremely charismatic and lucky pirate, you will have some freedom of action. Still, usually, you serve the interests of capital owners or the mass market of players.
+Gamedev still isn’t a carefree pirate sailing — it's a complex expedition on someone else's money. If you are an extremely charismatic and lucky pirate, you will have some freedom of action. Still, usually, you serve the interests of capital owners or the mass market of players.
 
 The only true freedom in gamedev is independent **author-driven** projects, which are often developed as a hobby.
 
-## A "predatory" (?) publishing deal
+## A "predatory" publishing deal?
 
 Based on the numbers, the agreement with the publisher was not in favor of the developers. I called it predatory for dramatic effect (it may be ok), but these terms are somewhere in the lower third of the market (as I saw it a year ago when studying such practices for [world builders]{tags:world-builders}).
 
@@ -74,7 +72,7 @@ Let's recalculate the numbers based on a price of $25 (+$5):
 - 2 million copies sold.
 - Development cost — $10M, funded by the publisher.
 - The publisher also spent $2M on marketing ($12M total).
-- **The game is priced at $25, but with discounts (sad reality), the average price is around $12.5.**
+- **The game is priced at $25, but with discounts (sad reality), the average price is around $12.50.**
 - Total revenue from sales was $25M.
 - After deducting Steam fees (30%), $17.5M remains.
 - The publisher, exercising their preferential right, takes the first $12M to cover costs.
@@ -82,7 +80,7 @@ Let's recalculate the numbers based on a price of $25 (+$5):
 - Developers receive $1.65M.
 - After deducting the cost of tools (~$15K) and taxes (around 50%), approximately $817,500 remains (instead of $292,500).
 
-We can see that **by increasing the price by $5, the developer could have earned 2.8 times more money**.
+We can see that **by increasing the price by $5, the developer could have earned 2.8 times more**.
 
 Of course, by increasing the price, we can not guarantee the same sales volume. However, in the case of a very high-quality and successful game, in my opinion, the drop would be significantly less than the price increase.
 
