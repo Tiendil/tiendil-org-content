@@ -84,17 +84,17 @@ Let's recalculate the numbers based on a price of $25 (+$5):
 
 We can see that **by increasing the price by $5, the developer could have earned 2.8 times more money**.
 
-Of course, by increasing the price we can not guarantee the same sales volume, but in the case of a very high-quality and successful game, in my opinion, the drop would be significantly less than the price increase.
+Of course, by increasing the price, we can not guarantee the same sales volume. However, in the case of a very high-quality and successful game, in my opinion, the drop would be significantly less than the price increase.
 
-Event on the example of Ori, we can see that the first version of the game was sold for $20, and the second for $30 — the developers drew conclusions.
+Even in the case of Ori, we can see that the first version of the game has a price of $20, and the second — $30 — the developers drew conclusions.
 
 ### Mistake 2: Something with taxes?
 
-50% taxes for the company look like a lot. In many countries, even if you withdraw money from the company, the tax is progressive and it is not a fact that it will reach 50% from the all income.
+A 50% tax rate for the company seems like a lot. In many countries, even if you withdraw money from the company, the tax is progressive, and it is not a fact that it will reach 50% of all income.
 
-I would recommend to consult with tax advisors in such cases.
+I would recommend consulting with tax advisors in such cases.
 
-Generally, if you have a budget of $10M, it makes sense to consult tax advisors and lawyers **before** spending that money. There is a chance that the right records in documents and invoices can help save on taxes and ultimately get more money.
+Generally, if you have a budget of $10M, it makes sense to consult tax advisors and lawyers **before** spending that money. There is a chance that maintaining proper records in documents and invoices can help save on taxes and ultimately result in a higher return.
 
 ## Hidden profit
 
