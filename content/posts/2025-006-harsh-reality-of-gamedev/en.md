@@ -64,7 +64,7 @@ The most important thing to remember is that [everyone makes mistakes]{post:life
 
 **The success of a product indicates that developers made significantly fewer mistakes than correct decisions.**
 
-Therefore, even if places where I would point out are really mistakes, it is far from certain that fixing them would have been beneficial. Such maneuvers are limited by time, and we must always choose where to direct our efforts and which directions to leave untouched.
+Therefore, even if places where I would point out are really mistakes, it is far from certain that fixing them would have been beneficial. Such maneuvers are limited by time, and we must always choose where to direct our efforts and which areas to skip.
 
 **If we do one thing well, something else will be done poorly.**
 ///
