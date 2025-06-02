@@ -56,7 +56,7 @@ Based on the numbers, the agreement with the publisher was not in favor of the d
 
 A 70/30 split with no bonuses for meeting metrics (for delivering on time, within budget, with a good rating, selling over a million copies, etc.) is quite greedy for a contract with people who can create a game with millions of copies sold. They may have been complete unknowns at the time of signing the contract, but still.
 
-## Mistakes may be made in planning?
+## Possible planning mistakes?
 
 /// note | Can mistakes be avoided?
 
