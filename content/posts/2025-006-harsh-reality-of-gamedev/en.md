@@ -6,7 +6,9 @@ seo_description = "My comments on the income and expenses breakdown of a game so
 seo_image = "cover.png"
 ---
 
-Creative Director of Moon Studios (developer of [Ori](https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/)) [shared on X (Twitter)](https://x.com/thomasmahler/status/1928902673459511710) some "sad" statistics about the income from the successful first game of anonymous developers (not specified who). The tweet is [discussed on Reddit](https://www.reddit.com/r/IndieDev/comments/1l08267/how_selling_2_million_copies_of_your_game_can/).
+Creative Director of Moon Studios (developer of [Ori](https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/)) [shared on X (Twitter)](https://x.com/thomasmahler/status/1928902673459511710) some "sad" statistics about the revenue from a successful debut game by unnamed developers that sold two million copies. The tweet is [discussed on Reddit](https://www.reddit.com/r/IndieDev/comments/1l08267/how_selling_2_million_copies_of_your_game_can/).
+
+shared on X (Twitter) some ‘sad’ stats about the
 
 This sparked a lot of thoughts, and I’m going to share every single one of them with you — whether you like it or not :-)
 
