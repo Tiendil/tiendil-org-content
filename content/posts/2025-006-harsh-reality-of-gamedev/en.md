@@ -119,20 +119,20 @@ The lack of salaries were not mentioned in the original post, so it is resonable
 
 I.e. the mentioned final income is a company's money, not the developers' money — developers' sallaries are in $10M development cost.
 
-### Сформированная компания и команда
+### The mature company and team
 
-**Самое важное и ценное!**
+**The most important and valuable!**
 
-Организаторы всего этого мероприятия получили опыт, связи, команду и компанию.
+The organizers of this whole enterprise gained experience, connections, a team, and a company.
 
-Де-факто, на деньги издателей была создана компания, собрана сработанная команда, которая доказала на практике что может делать успешные игры. Отлажены рабочие процессы, снята куча бытовых вопросов из области ежедневной gamedev рутины. CI/CD, в конце-концов, настроены.
+De-facto, the money from the publishers was used to create a company, gather an experienced team that has proven in practice that it can make successful games. Work processes were established, many everyday gamedev routine issues were resolved. Event CI/CD, I believe, were set up.
 
-Компания и команда — это просто эпический актив, который нельзя не учитывать:
+The company and the team are an epic asset that cannot be ignored:
 
-- Следующие соглашения с издателями будут более выгодными.
-- Следующая игра будет сделана быстрее и качественнее.
-- У компании есть хорошая интеллектуальная собственность, которую можно использовать в будущем.
-- У компании есть фанаты, которые будут хорошим подспорьем в маркетинге.
+- The next publishing deal will be more favorable.
+- The next game will be made faster and with higher quality.
+- The company has a good intellectual property that can be used in the future.
+- The company has a fanbase that can be a good support in marketing.
 
 ## Играть вдолгую малыми силами
 
