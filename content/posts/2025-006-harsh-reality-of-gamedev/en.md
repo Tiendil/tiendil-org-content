@@ -27,7 +27,7 @@ This sparked a lot of thoughts, and I’m going to share every single one of the
 As a result:
 
 - The developer still has no money for the next game, which will cost the same $10M.
-- De-facto, the developer is left with a small safety cushion for a rainy day.
+- De facto, the developer is left with a small safety cushion for a rainy day.
 ///
 
 So, that's how it turns out…
@@ -38,7 +38,7 @@ We can look at this situation from a lot of different angles. There are many nua
 
 Thomas Mahler, the source of the statistics, did not specify which game the data is from. ChatGPT assumes it refers to the first Ori game, but this is speculative.
 
-Because the author of the post did not specify the original game, I discuss the whole situation abstractly and mention Ori only as an example in some places.
+Since the author of the post did not specify the original game, I discuss the entire situation abstractly and mention Ori only as an example in some places.
 ///
 
 ## Everything is really bad in gamedev
