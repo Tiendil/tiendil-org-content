@@ -41,19 +41,19 @@ Thomas Mahler, the source of the statistics, did not specify which game the data
 Since the author of the post did not specify the original game, I discuss the entire situation abstractly and mention Ori only as an example in some places.
 ///
 
-## Everything is really bad in gamedev
+## Everything is terrible in gamedev
 
-To earn money you need to make a very successful game. A lot (most?) of PC games do not break even; just good games have a zero balance.
+To earn money, you need to make a very successful game. A lot (most?) of PC games do not break even; just good games have a zero balance.
 
-Gamedev, still, is not a free pirate sailing — it's a complex expedition on someone else's money. If you are an extremely charismatic and lucky pirate, you will have some freedom of action, but usually you serve the interests of capital owners or the mass market of players.
+Gamedev, still, is not a free pirate sailing — it's a complex expedition on someone else's money. If you are an extremely charismatic and lucky pirate, you will have some freedom of action. Still, usually, you serve the interests of capital owners or the mass market of players.
 
 The only true freedom in gamedev is independent **author's** projects, which are often developed as a hobby.
 
 ## A "predatory" (?) publishing deal
 
-Based on the numbers, the agreement with the publisher was not in the favor of the developers. I called it predatory for dramatic effect (it may be ok), but these terms are somewhere in the lower third of the market (as I saw it a year ago when studying such practices for [world builders]{tags:world-builders}).
+Based on the numbers, the agreement with the publisher was not in favor of the developers. I called it predatory for dramatic effect (it may be ok), but these terms are somewhere in the lower third of the market (as I saw it a year ago when studying such practices for [world builders]{tags:world-builders}).
 
-70/30 with no bonuses for meeting metrics (for delivering on time, within budget, good rating, selling over a million) is quite greedy for a contract with people who can make a game with millions of copies sold. They may have been complete nonames at the time of signing the contract, but still.
+A 70/30 split with no bonuses for meeting metrics (for delivering on time, within budget, with a good rating, selling over a million copies, etc.) is quite greedy for a contract with people who can create a game with millions of copies sold. They may have been complete nonames at the time of signing the contract, but still.
 
 ## Mistakes may be made in planning?
 
