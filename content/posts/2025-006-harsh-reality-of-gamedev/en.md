@@ -44,7 +44,7 @@ Since the author of the post did not specify the original game, I discuss the en
 
 ## Everything is terrible in gamedev
 
-To earn money, you need to make a very successful game. A lot (most?) of PC games do not break even; just good games have a zero balance.
+To earn money, you need to make a very successful game. A lot (most?) of PC games do not break even; even good games only break even.
 
 Gamedev, still, is not a free pirate sailing — it's a complex expedition on someone else's money. If you are an extremely charismatic and lucky pirate, you will have some freedom of action. Still, usually, you serve the interests of capital owners or the mass market of players.
 
@@ -73,10 +73,10 @@ Therefore, even if places where I would point out are really mistakes, it is far
 
 Let's recalculate the numbers based on a price of $25 (+$5):
 
-- 2 million copies sold on Steam.
+- 2 million copies sold.
 - Development cost — $10M, funded by the publisher.
 - The publisher also spent $2M on marketing ($12M total).
-- **The game is priced at $25, but with discounts (such is Steam reality), the average price is around $12.5.**
+- **The game is priced at $25, but with discounts (sad reality), the average price is around $12.5.**
 - Total revenue from sales was $25M.
 - After deducting Steam fees (30%), $17.5M remains.
 - The publisher, exercising their preferential right, takes the first $12M to cover costs.
@@ -128,7 +128,7 @@ I.e., the mentioned final income is a company's money, not the developers' money
 
 The organizers of this entire enterprise gained valuable experience, established connections, built a team, and formed a company.
 
-In effect, the money from the publishers was used to create a company and assemble an experienced team that has proven, in practice, its ability to produce successful games. Work processes were established, many everyday gamedev routine issues were resolved. Event CI/CD, I believe, was set up.
+In effect, the money from the publishers was used to create a company and assemble an experienced team that has proven, in practice, its ability to produce successful games. Work processes were established, many everyday gamedev routine issues were resolved. Even CI/CD, I believe, was set up.
 
 The company and the team are an epic asset that cannot be ignored:
 
@@ -143,7 +143,7 @@ Here are my personal beliefs. They are about the whole "gamedev situation" not a
 
 If you prioritize money over self-realization and bringing value to people, do not enter the gaming industry. There are simpler ways to make big money. You will do good both to yourself and to the people who won't have to play your junk.
 
-If your goal is to realize yourself through the finished product — do not go into big projects, do not start them on someone else's money. Money and the mass market impose severe [restrictions on creative freedom]{post:one-form-two-products} — you will either have to step over yourself or go bankrupt.
+If your goal is to express yourself through the finished product — do not go into big projects, do not start them on someone else's money. Money and the mass market impose severe [restrictions on creative freedom]{post:one-form-two-products} — you will either have to step over yourself or go bankrupt.
 
 /// note | What is a "big project"?
 It depends, as people say.
@@ -157,7 +157,7 @@ Note, if you do not pay yourself a salary, it does not mean you save the budget.
 
 Most big-budget projects are just chewing gum for the brain. The same goes for most blockbuster movies.
 
-The large projects in gamedev are good for narrow seasoned specialists. If you like making the coolest shaders, or drawing the hairiest NPCs, or writing dialogues that players read 2% deeper than competitors — then AAA is for you. But keep in mind that, on average, your project will be [chewing gum with a high rating]{post:rpg-of-winning-marketing}.
+The large projects in gamedev are good for narrow seasoned specialists. If you like making the coolest shaders, or drawing the hairiest NPCs, or writing dialogues that players read 2% deeper than competitors — then AAA is for you. But keep in mind that, on average, your project will be [high-rated chewing-gum]{post:rpg-of-winning-marketing}.
 
 And it is possible only if you are already skilled specialist. Otherwise, you will end up on a conveyor with monotonous tasks that won't let you grow.
 
