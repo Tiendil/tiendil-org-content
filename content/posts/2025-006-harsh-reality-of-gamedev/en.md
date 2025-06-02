@@ -36,22 +36,22 @@ We can look at this situation from a lot of different angles. There are many nua
 
 Thomas Mahler, the source of the statistics, did not specify which game the data is from. ChatGPT assumes it refers to the first Ori game, but this is speculative.
 
-Because the author of the post does not specify the original game, I will discuss the whole situation abstractly and mention Ori only as an example in some places.
+Because the author of the post did not specify the original game, I discuss the whole situation abstractly and mention Ori only as an example in some places.
 ///
 
-## Всё действительно плохо в большом геймдеве
+## Everything is really bad in gamedev
 
-Чтобы выйти в минимальный плюс нужно выпустить очень успешный продукт. Многие (большинство?) PC игр не окупаются, просто хорошие игры выходят в ноль.
+To earn money you need to make a very successful game. A lot (most?) of PC games do not break even; just good games have a zero balance.
 
-Геймдев, всё ещё, — это не свободное пиратское плавание — это сложная экспедиция на чужие деньги. Если вы крайне харизматичный и удачливый пират, у вас будет некоторая свобода действий, но обычно вы обслуживаете интересы владельцев капитала или массового рынка игроков.
+Gamedev, still, is not a free pirate sailing — it's a complex expedition on someone else's money. If you are an extremely charismatic and lucky pirate, you will have some freedom of action, but usually you serve the interests of capital owners or the mass market of players.
 
-Единственная тру свобода в геймдеве — это независимые **авторские* проекты, которые часто пилятся как хобби.
+The only true freedom in gamedev is independent **author's** projects, which are often developed as a hobby.
 
-## Кабальное (?) соглашение с издателем
+## A "predatory" (?) publishing deal
 
-Судя по числам, соглашение с издателем было не самым выгодным. Кабальным, конечно, я его назвал для пущего словца, но эти условия находятся где-то в нижней трети по рынку (как я его смотрел год назад, когда изучал подобные практики для [world builders]{tags:world-builders}).
+Based on the numbers, the agreement with the publisher was not in the favor of the developers. I called it predatory for dramatic effect (it may be ok), but these terms are somewhere in the lower third of the market (as I saw it a year ago when studying such practices for [world builders]{tags:world-builders}).
 
-70/30 + отсутствие бонусов за выполнение метрик (уложились в сроки, в бюджет, хороший рейтинг) — это сильно много для контракта с ребятами, которые могут сделать что-то вроде Ori. Может они на момент подписания контракта были полными noname, но всё же.
+70/30 with no bonuses for meeting metrics (for delivering on time, within budget, good rating, selling over a million) is quite greedy for a contract with people who can make a game with millions of copies sold. They may have been complete nonames at the time of signing the contract, but still.
 
 ## Возможные ошибки в планировании?
 
