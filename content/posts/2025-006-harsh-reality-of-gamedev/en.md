@@ -110,7 +110,7 @@ For example, a quick Google search reveals that Ori had plush toys released.
 
 Besides toys, there are books, t-shirts, stickers — anything you can think of.
 
-There is not a lot of money in such products, but they can be outsourced to third-party companies — take care of the pennies, and the pounds will take care of themselves.
+These side products don’t always bring in much, but you can outsource them — look after the pennies and the pounds will look after themselves.
 
 ### Salaries of developers
 
