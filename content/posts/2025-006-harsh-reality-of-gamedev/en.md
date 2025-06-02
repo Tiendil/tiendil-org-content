@@ -6,9 +6,16 @@ seo_description = "My comments on the income and expenses breakdown of a game so
 seo_image = "cover.png"
 ---
 
+/// brigid-images
+src = "cover.png"
+alt = "Game developer swims in the money like Scrooge McDuck (c) ChatGPT"
+///
+
 The creative director of Moon Studios (developer of [Ori](https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/)) [shared on X (Twitter)](https://x.com/thomasmahler/status/1928902673459511710) some "sad" statistics about the revenue from a successful debut game by unnamed developers that sold two million copies. The tweet is [discussed on Reddit](https://www.reddit.com/r/IndieDev/comments/1l08267/how_selling_2_million_copies_of_your_game_can/).
 
 This sparked a lot of thoughts, and I’m going to share every single one of them with you — whether you like it or not :-)
+
+<!-- more -->
 
 /// note | Original money breakdown
 
@@ -56,7 +63,7 @@ A 70/30 split with no bonuses for meeting metrics (for delivering on time, withi
 
 /// note | Can mistakes be avoided?
 
-The most important thing to remember is that [everyone makes mistakes]{post:life-and-work-with-mistakes}. Creating a large product without making mistakes is almost impossible.
+The most important thing to remember is that [everyone makes mistakes]{post:@choose-nearest-language:life-and-work-with-mistakes}. Creating a large product without making mistakes is almost impossible.
 
 **The success of a product indicates that developers made significantly fewer mistakes than correct decisions.**
 
@@ -78,7 +85,7 @@ Let's recalculate the numbers based on a price of $25 (+$5):
 - The publisher, exercising their preferential right, takes the first $12M to cover costs.
 - **The remaining $5.5M** (instead of $2M) is split according to the agreement 70/30 in favor of the publisher.
 - Developers receive $1.65M.
-- After deducting the cost of tools (~$15K) and taxes (around 50%), approximately $817,500 remains (instead of $292,500).
+- After deducting the cost of tools (~$15K) and taxes (around 50%), approximately **$817,500 remains** (instead of $292,500).
 
 We can see that **by increasing the price by $5, the developer could have earned 2.8 times more**.
 
@@ -139,7 +146,7 @@ Here are my personal beliefs. They are about the whole "gamedev situation" not a
 
 If you prioritize money over self-realization and bringing value to people, do not enter the gaming industry. There are simpler ways to make big money. You will do good both to yourself and to the people who won't have to play your junk.
 
-If your goal is to express yourself through the finished product — do not go into big projects, do not start them on someone else's money. Money and the mass market impose severe [restrictions on creative freedom]{post:one-form-two-products} — you will either have to step over yourself or go bankrupt.
+If your goal is to express yourself through the finished product — do not go into big projects, do not start them on someone else's money. Money and the mass market impose severe [restrictions on creative freedom]{post:@choose-nearest-language:one-form-two-products} — you will either have to step over yourself or go bankrupt.
 
 /// note | What is a "big project"?
 It depends, as people say.
@@ -153,7 +160,7 @@ Note, if you do not pay yourself a salary, it does not mean you save the budget.
 
 Most big-budget projects are just chewing gum for the brain. The same goes for most blockbuster movies.
 
-The large projects in gamedev are good for narrow seasoned specialists. If you like making the coolest shaders, or drawing the hairiest NPCs, or writing dialogues that players read 2% deeper than competitors — then AAA is for you. But keep in mind that, on average, your project will be [high-rated chewing-gum]{post:rpg-of-winning-marketing}.
+The large projects in gamedev are good for narrow seasoned specialists. If you like making the coolest shaders, or drawing the hairiest NPCs, or writing dialogues that players read 2% deeper than competitors — then AAA is for you. But keep in mind that, on average, your project will be [high-rated chewing-gum]{post:@choose-nearest-language:rpg-of-winning-marketing}.
 
 And it is possible only if you are already skilled specialist. Otherwise, you will end up on an assembly line with monotonous tasks that won't let you grow.
 
