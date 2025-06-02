@@ -115,9 +115,9 @@ There not a lot of money in such products, but they can be autsourced to third-p
 
 ### Sallaries of developers
 
-Раз не указано обратное, разумно предположить, что все разработчики, включая основателей компании, получали зарплату. Может быть она была не такой большой, как в AAA, но жить должна была позволять, а может и откладывать.
+The lack of salaries were not mentioned in the original post, so it is resonable to assume that all developers, including the founders of the company, were paid. Maybe not as much as they should be, but in a way that allowed them to live and maybe even save some money.
 
-То есть озвученная сумма дохода — эта деньги компании, а не разработчиков — после оплаты работы всех людей.
+I.e. the mentioned final income is a company's money, not the developers' money — developers' sallaries are in $10M development cost.
 
 ### Сформированная компания и команда
 
