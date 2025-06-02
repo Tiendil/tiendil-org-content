@@ -12,10 +12,10 @@ This sparked a lot of thoughts, and I’m going to share every single one of the
 
 /// note | Original money breakdown
 
-- 2 million copies sold on Steam.
+- 2 million copies sold.
 - Development cost — $10M, funded by the publisher.
 - The publisher also spent $2M on marketing ($12M total).
-- The game is priced at $20, but with discounts (such is Steam reality), the average price is around $10.
+- The game is priced at $20, but with discounts (sad reality), the average price is around $10.
 - Total revenue from sales was $20M.
 - After deducting Steam fees (30%), $14M remains.
 - The publisher, exercising their preferential right, takes the first $12M to cover costs.
