@@ -152,23 +152,24 @@ When I calculated the [educational business plan for World Builders]{post:world-
 Note, if you do not pay yourself a salary, it does not mean you save the budget. It means you are borrowing from yourself — you will have to pay it back. Accordingly, if we take the average planetary salary of a good developer at $100K per year, then a team of 5 enthusiasts for 2 years is already $1M. Even if you're working nights and weekends — you're straight-up devouring your own time — trust me, I'm an expert at this :-D
 ///
 
+Most big-budget projects are just chewing gum for the brain. Same goes for most blockbuster movies.
 
-Большинство больших дорогих проектов — жвачка. Как и большинство таких же фильмов.
+The large projects in gamedev are good for narrow seasoned specialists. If you like making the coolest shaders, or drawing the hairiest NPCs, or writing dialogues that players read 2% deeper than competitors' — then AAA is for you. But keep in mind that on average your project will be [chewing gum with a high rating]{post:rpg-of-winning-marketing}.
 
-Крупные проекты в геймдеве хороши для узких специалистов. Если вам нравиться делать самые крутые шейдеры, или рисовать самых волосатых NPC, или писать диалоги которые игроки читают на 2% глубже, чем у конкурентов — тогда вам в AAA. Но учтите, что суммарно ваш проект будет [жвачкой с большим рейтингом]{post:rpg-of-winning-marketing}.
+And it is possible only if you are already a skilled specialist. Otherwise, you will end up on a conveyor with monotonous tasks that won't let you grow.
 
-И это возможно только если вы уже крутой специалист. В противном случае вы окажетесь на конвейере с однотипными задачами, которые ещё и не дадут вам развиваться.
+And even if you are a skilled enough, not everything can go smoothly. Have you seen mind-blowing AI in AAA games? Or a story that really pulls at your heartstrings? I have seen it in AA, I have seen it in A, but not in AAA. And there are professionals who would like to do this (even I wanted to go into game AI, but I got an arrow in the knee), but AAA budgets are not allocated for this, because the mass market does not appreciate it.
 
-И даже если вы крутой спец, не всё может быть так гладко. Вы давно видели крышесносный ИИ в ААА играх? Или историю, которая прям тянет за душу? В АА я видел, в А видел, в ААА — нет. А ведь есть профи, которые хотели бы это делать (даже я хотел в игровой ИИ идти, но стрела в колено попала), вот только в ААА бюджет выделяют не на это, поэтому что массовый рынок это не ценит.
+So, what to do?
 
-Что же делать?
+Do not chase millions, do not play the lottery.
 
-Не гнаться за миллионами, не играть в лотерею.
+Instead, build a sustainable business step by step. Start small: create a small team that makes small but solid games, gather a community around you, grow gradually, and increase the scale and complexity of your projects step by step.
 
-Вместо этого надо поступательно строить устойчивый бизнес. От малого к большему: строить небольшую команду, которая делает небольшие, но добротные игры, собирать сообщество вокруг себя, расти поступательно, поступательно увеличивать масштабы и сложность проектов.
+This is also not easy, emotionally even harder. But this approach, in theory, will give you the freedom and space for maneuver that the author of the original post complains about.
 
-Это тоже непросто, эмоционально даже сложнее. Но именно этот подход, в теории, даст вам ту свободу и пространство для манёвра, на отсутствие которых жалуется автор оригинального поста.
+And, what's most amusing, the team from the calculations probably does exactly that. And, most likely, they are doing well — steadily growing, gaining more freedom with each step.
 
-И, что самое забавное, команда из расчётов, скорее всего, так и делает. И, скорее всего, у них всё хорошо — поступательно растут, получают больше свободы с каждым разом.
+Possibly, they should not have aimed so high with the first game, and the calculations would have been more pleasant, or not. They took a risk, aimed high, and won — no one judges the winners :-)
 
-Возможно, им не стоило так высоко замахиваться с первой игрой и расчёты были бы приятнее. С другой стороны, они рискнули, замахнулись и выиграли — победителей не судят :-)
+So, if you believe in yourself, believe you are winner, do what you believe in, what you think is right.
