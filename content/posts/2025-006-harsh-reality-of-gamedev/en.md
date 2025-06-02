@@ -114,30 +114,30 @@ Besides toys, there are books, t-shirts, stickers — anything you can think of.
 
 There is not a lot of money in such products, but they can be outsourced to third-party companies — take care of the pennies, and the pounds will take care of themselves.
 
-### Sallaries of developers
+### Salaries of developers
 
-The lack of salaries were not mentioned in the original post, so it is resonable to assume that all developers, including the founders of the company, were paid. Maybe not as much as they should be, but in a way that allowed them to live and maybe even save some money.
+The lack of salaries was not mentioned in the original post, so it is reasonable to assume that all developers, including the company founders, were paid. Maybe not as much as they should be, but in a way that allowed them to live and perhaps even save some money.
 
-I.e. the mentioned final income is a company's money, not the developers' money — developers' sallaries are in $10M development cost.
+I.e., the mentioned final income is a company's money, not the developers' money — developers' salaries are in $10M development cost.
 
 ### The mature company and team
 
 **The most important and valuable!**
 
-The organizers of this whole enterprise gained experience, connections, a team, and a company.
+The organizers of this entire enterprise gained valuable experience, established connections, built a team, and formed a company.
 
-De-facto, the money from the publishers was used to create a company, gather an experienced team that has proven in practice that it can make successful games. Work processes were established, many everyday gamedev routine issues were resolved. Event CI/CD, I believe, were set up.
+In effect, the money from the publishers was used to create a company and assemble an experienced team that has proven, in practice, its ability to produce successful games. Work processes were established, many everyday gamedev routine issues were resolved. Event CI/CD, I believe, was set up.
 
 The company and the team are an epic asset that cannot be ignored:
 
 - The next publishing deal will be more favorable.
 - The next game will be made faster and with higher quality.
-- The company has a good intellectual property that can be used in the future.
-- The company has a fanbase that can be a good support in marketing.
+- The company holds some intellectual property that can be utilized in the future.
+- The company has a fanbase that can provide valuable support in marketing.
 
 ## Play the long game
 
-Here is my personal beliefs.
+Here are my personal beliefs.
 
 If you place money ahead of self-realization / bringing value to people — do not go into gamedev. There are simpler ways to make big money. You will do good both to yourself and to the people who won't have to play your junk.
 
