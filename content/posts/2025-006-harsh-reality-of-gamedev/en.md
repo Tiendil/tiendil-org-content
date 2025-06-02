@@ -137,40 +137,40 @@ The company and the team are an epic asset that cannot be ignored:
 
 ## Play the long game
 
-Here are my personal beliefs.
+Here are my personal beliefs. They are about the whole "gamedev situation" not about the specific case of the original post.
 
-If you place money ahead of self-realization / bringing value to people — do not go into gamedev. There are simpler ways to make big money. You will do good both to yourself and to the people who won't have to play your junk.
+If you prioritize money over self-realization and bringing value to people, do not enter the gaming industry. There are simpler ways to make big money. You will do good both to yourself and to the people who won't have to play your junk.
 
 If your goal is to realize yourself through the finished product — do not go into big projects, do not start them on someone else's money. Money and the mass market impose severe [restrictions on creative freedom]{post:one-form-two-products} — you will either have to step over yourself or go bankrupt.
 
 /// note | What is a "big project"?
 It depends, as people say.
 
-I my current worldview, the calculations from the original tweet are somewhere between a medium and a large project, but leaning towards large.
+In my current worldview, the calculations from the original tweet are somewhere between a medium and a large project, leaning towards large.
 
-When I calculated the [educational business plan for World Builders]{post:world-builders-2023-business-plan-example}, I came up with about $6M costs for two years of development until the final release. I consider that project fairly average.
+When I calculated the [educational business plan for World Builders]{post:world-builders-2023-business-plan-example}, I came up with about $6M in costs for two years of development until the final release. I consider that project fairly average.
 
-Note, if you do not pay yourself a salary, it does not mean you save the budget. It means you are borrowing from yourself — you will have to pay it back. Accordingly, if we take the average planetary salary of a good developer at $100K per year, then a team of 5 enthusiasts for 2 years is already $1M. Even if you're working nights and weekends — you're straight-up devouring your own time — trust me, I'm an expert at this :-D
+Note, if you do not pay yourself a salary, it does not mean you save the budget. It means you are borrowing from yourself — you will have to pay it back.  Accordingly, if we take the average planetary salary of a good developer to be $100K per year, then a team of 5 enthusiasts for 2 years is already $1M. Even if you're working nights and weekends — you're straight-up devouring your own time — trust me, I'm an expert at this :-D
 ///
 
-Most big-budget projects are just chewing gum for the brain. Same goes for most blockbuster movies.
+Most big-budget projects are just chewing gum for the brain. The same goes for most blockbuster movies.
 
-The large projects in gamedev are good for narrow seasoned specialists. If you like making the coolest shaders, or drawing the hairiest NPCs, or writing dialogues that players read 2% deeper than competitors' — then AAA is for you. But keep in mind that on average your project will be [chewing gum with a high rating]{post:rpg-of-winning-marketing}.
+The large projects in gamedev are good for narrow seasoned specialists. If you like making the coolest shaders, or drawing the hairiest NPCs, or writing dialogues that players read 2% deeper than competitors — then AAA is for you. But keep in mind that, on average, your project will be [chewing gum with a high rating]{post:rpg-of-winning-marketing}.
 
-And it is possible only if you are already a skilled specialist. Otherwise, you will end up on a conveyor with monotonous tasks that won't let you grow.
+And it is possible only if you are already skilled specialist. Otherwise, you will end up on a conveyor with monotonous tasks that won't let you grow.
 
-And even if you are a skilled enough, not everything can go smoothly. Have you seen mind-blowing AI in AAA games? Or a story that really pulls at your heartstrings? I have seen it in AA, I have seen it in A, but not in AAA. And there are professionals who would like to do this (even I wanted to go into game AI, but I got an arrow in the knee), but AAA budgets are not allocated for this, because the mass market does not appreciate it.
+And even if you are skilled enough, not everything can go smoothly. Have you recently seen mind-blowing AI in AAA games? Or a story that really pulls at your heartstrings? You can find something like that in AA, maybe even in A games, but not in AAA. And there are professionals who would like to do this (even I wanted to go into game AI, but I got an arrow in the knee), but AAA budgets are not allocated for this, because the mass market does not appreciate it.
 
 So, what to do?
 
 Do not chase millions, do not play the lottery.
 
-Instead, build a sustainable business step by step. Start small: create a small team that makes small but solid games, gather a community around you, grow gradually, and increase the scale and complexity of your projects step by step.
+Instead, build a sustainable business step by step. Start small: create a small team that produces small but solid games, gather a community around you, grow gradually, and incrementally increase the scale and complexity of your projects step by step.
 
 This is also not easy, emotionally even harder. But this approach, in theory, will give you the freedom and space for maneuver that the author of the original post complains about.
 
-And, what's most amusing, the team from the calculations probably does exactly that. And, most likely, they are doing well — steadily growing, gaining more freedom with each step.
+And what's most amusing is that the team from the original calculations probably does exactly that. And, most likely, they are doing well — steadily growing, gaining more freedom with each step.
 
 Possibly, they should not have aimed so high with the first game, and the calculations would have been more pleasant, or not. They took a risk, aimed high, and won — no one judges the winners :-)
 
-So, if you believe in yourself, believe you are winner, do what you believe in, what you think is right.
+So, if you believe in yourself, believe you are a winner, do what you believe in, what you think is right.
