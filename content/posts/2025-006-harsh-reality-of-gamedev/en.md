@@ -98,21 +98,21 @@ Generally, if you have a budget of $10M, it makes sense to consult tax advisors 
 
 ## Hidden profit
 
-This is the most interesting part, and what was clearly omitted from the original post.
+This is the most interesting part and what was clearly omitted from the original post.
 
 ### Releases on other platforms
 
-Successful games are must-to-release on other platforms. Often such work even can be outsourced. Releasing on consoles like Nintendo Switch, Xbox, PlayStation can significantly increase revenues.
+Successful games are a must-to-release on other platforms. Often, such work can even be outsourced. Releasing on consoles like Nintendo Switch, Xbox, and PlayStation can significantly increase revenues.
 
 ### Related products
 
-Successful game ~~not always but~~ often means a successful intellectual property. This means that various products can be released based on it.
+A successful game ~~not always, but~~ often means a successful intellectual property. This means that various products can be released based on it.
 
-For example, fast googling shows that Ori had plush toys released.
+For example, a quick Google search reveals that Ori had plush toys released.
 
 Besides toys, there are books, t-shirts, stickers — anything you can think of.
 
-There not a lot of money in such products, but they can be autsourced to third-party companies, — take care of the pennies, and the pounds will take care of themselves.
+There is not a lot of money in such products, but they can be outsourced to third-party companies — take care of the pennies, and the pounds will take care of themselves.
 
 ### Sallaries of developers
 
