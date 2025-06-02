@@ -53,15 +53,18 @@ Based on the numbers, the agreement with the publisher was not in the favor of t
 
 70/30 with no bonuses for meeting metrics (for delivering on time, within budget, good rating, selling over a million) is quite greedy for a contract with people who can make a game with millions of copies sold. They may have been complete nonames at the time of signing the contract, but still.
 
-## Возможные ошибки в планировании?
+## Mistakes may be made in planning?
 
-Самое важное, о чём надо помнить, — [все ошибаются]{post:life-and-work-with-mistakes}. Сделать большой продукт и не накосякать — почти невозможно.
+/// note | Can mistakes be avoided?
 
-**Успех продукта говорит о том, что ошибок было сделано значительно меньше, чем принято правильных решений.**
+The most important thing to remember is that [everyone makes mistakes]{post:life-and-work-with-mistakes}. Creating a large product without making mistakes is almost impossible.
 
-Соответственно, даже если вещи, на которые я укажу, и являются ошибками, далеко не факт, что их исправление принесло бы пользу. Подобные манёвры ограничены временем и мы всегда должны выбирать на что потратить время, а на что нет.
+**The success of a product indicates that developers made significantly fewer mistakes than correct decisions.**
 
-**Если что-то одно делать хорошо, то что-то другое будет сделано плохо.**
+Therefore, even if places where I would point out are really mistakes, it is far from certain that fixing them would have been beneficial. Such maneuvers are limited by time, and we always have to choose where to direct our efforts and what directions keep untouched.
+
+**If we do one thing well, something else will be done poorly.**
+///
 
 ### Заниженная цена
 
