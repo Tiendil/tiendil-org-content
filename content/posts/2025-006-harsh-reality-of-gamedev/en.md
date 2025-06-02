@@ -16,10 +16,9 @@ This sparked a lot of thoughts, and I’m going to share every single one of the
 - Development cost — $10M, funded by the publisher.
 - The publisher also spent $2M on marketing ($12M total).
 - The game is priced at $20, but with discounts (such is Steam reality), the average price is around $10.
-- Game priced at $20, but with discounts (Steam reality), the average price is around $10.
 - Total revenue from sales was $20M.
 - After deducting Steam fees (30%), $14M remains.
-- Publisher, exercising their preferential right, takes the first $12M to cover costs.
+- The publisher, exercising their preferential right, takes the first $12M to cover costs.
 - The remaining $2M is split according to the agreement 70/30 in favor of the publisher.
 - Developers receive $600K.
 - After deducting the cost of tools (~$15K) and taxes (around 50%), approximately $292,500 remains.
@@ -63,7 +62,7 @@ The most important thing to remember is that [everyone makes mistakes]{post:life
 
 **The success of a product indicates that developers made significantly fewer mistakes than correct decisions.**
 
-Therefore, even if places where I would point out are really mistakes, it is far from certain that fixing them would have been beneficial. Such maneuvers are limited by time, and we always have to choose where to direct our efforts and what directions keep untouched.
+Therefore, even if places where I would point out are really mistakes, it is far from certain that fixing them would have been beneficial. Such maneuvers are limited by time, and we must always choose where to direct our efforts and which directions to leave untouched.
 
 **If we do one thing well, something else will be done poorly.**
 ///
@@ -74,12 +73,12 @@ Let's recalculate the numbers based on a price of $25 (+$5):
 
 - 2 million copies sold on Steam.
 - Development cost — $10M, funded by the publisher.
-- Publisher also spent $2M on marketing (total $12M).
-- **Game sold at $25, but with discounts (Steam reality), the average price is around $12.5.**
+- The publisher also spent $2M on marketing ($12M total).
+- **The game is priced at $25, but with discounts (such is Steam reality), the average price is around $12.5.**
 - Total revenue from sales was $25M.
 - After deducting Steam fees (30%), $17.5M remains.
-- Publisher, exercising their preferential right, takes the first $12M to cover costs.
-- **Remaining $5.5M** (instead of $2M) is split according to the agreement 70/30 in favor of the publisher.
+- The publisher, exercising their preferential right, takes the first $12M to cover costs.
+- **The remaining $5.5M** (instead of $2M) is split according to the agreement 70/30 in favor of the publisher.
 - Developers receive $1.65M.
 - After deducting the cost of tools (~$15K) and taxes (around 50%), approximately $817,500 remains (instead of $292,500).
 
