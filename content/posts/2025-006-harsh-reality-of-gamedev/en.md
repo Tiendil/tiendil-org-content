@@ -66,26 +66,28 @@ Therefore, even if places where I would point out are really mistakes, it is far
 **If we do one thing well, something else will be done poorly.**
 ///
 
-### Заниженная цена
+### Mistake 1: too low price
 
-Если пересчитать суммы в расчёте на цену в $25 (+$5):
+Let's recalculate the numbers based on a price of $25 (+$5):
 
-- Продано 2 миллиона копий игры.
-- Стоимость разработки — $10M — профинансирована издателем.
-- Издатель также потратил $2M на маркетинг (итого $12M).
-- **Игра продавалась по цене $25, но со скидками (реальность Steam) в среднем по $12.5.**
-- Итого выручка от продаж составила $25M.
-- После вычета сборов Steam (30%) остается $17.5M.
-- Издатель, пользуясь преимущественным правом, забирает первые $12M для покрытия затрат.
-- **Остаётся $5.5M** (против $2M), которые делятся по договоренности 70/30 в пользу издателя.
-- Разработчик (компания) получает $1.65M.
-- Минус цена инструментов (~$15K) и налоги (около 50%) — **остается ~$817,500** (против ~$292,500).
+- 2 million copies sold on Steam.
+- Development cost — $10M, funded by the publisher.
+- Publisher also spent $2M on marketing (total $12M).
+- **Game sold at $25, but with discounts (Steam reality), the average price is around $12.5.**
+- Total revenue from sales was $25M.
+- After deducting Steam fees (30%), $17.5M remains.
+- Publisher, exercising their preferential right, takes the first $12M to cover costs.
+- **Remaining $5.5M** (instead of $2M) is split according to the agreement 70/30 in favor of the publisher.
+- Developers receive $1.65M.
+- After deducting the cost of tools (~$15K) and taxes (around 50%), approximately $817,500 remains (instead of $292,500).
 
-То есть **увеличив цену на $5, разработчик мог бы получить в 2.8 раза больше денег.**
+We can see that **by increasing the price by $5, the developer could have earned 2.8 times more money**.
 
-Даже на примере Ori мы можем увидеть, что первая версия игры продавалась по цене $20, а вторая по $30 — разработчики сделали выводы.
+Of course, by increasing the price we can not guarantee the same sales volume, but in the case of a very high-quality and successful game, in my opinion, the drop would be significantly less than the price increase.
 
-### Проблемы с налогами?
+Event on the example of Ori, we can see that the first version of the game was sold for $20, and the second for $30 — the developers drew conclusions.
+
+### Ошибка 2: Проблемы с налогами?
 
 50% налогов для компании — это как-то очень много. Во многих странах, даже если ты будешь выводить деньги из компании, то налог будет прогрессивным и не факт что до 50% дойдёт.
 
