@@ -1,32 +1,31 @@
 ---
-title = "Суровая реальность геймдева — реальный профит успешного проекта"
+title = "The harsh reality of gamedev — real profit of a successful project"
 tags = [ "practice", "development", "gamedev", "monetization", "business"]
 published_at = "2025-06-02T12:00:00+00:00"
-seo_description = "Разбираю выкладку доходов и расходов от игры проданной в 2 миллиона копий."
+seo_description = "My comments on the income and expenses breakdown of a game sold 2 million copies."
 seo_image = "cover.png"
 ---
 
-Творческий директор  Moon Studios (разработчик [Ori](https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/)) [поделился в X (Twitter)](https://x.com/thomasmahler/status/1928902673459511710) «печальной» статистикой доходов от успешной первой игры анонимных разработчиков (не указал кого) проданной в 2 миллиона копий. Твит [обсуждают на Reddit](https://www.reddit.com/r/IndieDev/comments/1l08267/how_selling_2_million_copies_of_your_game_can/). Я его вам продублирую кратко и добавлю много чего от себя.
+Creative Director of Moon Studios (developer of [Ori](https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/)) [shared on X (Twitter)](https://x.com/thomasmahler/status/1928902673459511710) some "sad" statistics about the income from the successfull first game of anonymous developers (not specified who). The tweet is [discussed on Reddit](https://www.reddit.com/r/IndieDev/comments/1l08267/how_selling_2_million_copies_of_your_game_can/). I will summarize it briefly and add a lot of my own thoughts.
 
-/// note | Оригинальная статистика
+/// note | Original money breakdown
 
-- Продано 2 миллиона копий игры на Steam.
-- Стоимость разработки — $10M — профинансирована издателем.
-- Издатель также потратил $2M на маркетинг (итого $12M).
-- Игра продавалась по цене $20, но со скидками (реальность Steam), в среднем выходит по $10.
-- Итого выручка от продаж составила $20M.
-- После вычета сборов Steam (30%) остается $14M.
-- Издатель, пользуясь преимущественным правом, забирает первые $12M для покрытия затрат.
-- Остаётся $2M, которые делятся по договоренности 70/30 в пользу издателя.
-- Разработчик (компания) получает $600K.
-- Минус цена инструментов (~$15K) и налоги (около 50%) — остается ~$292,500.
+- 2 million copies sold on Steam.
+- Development cost — $10M, funded by the publisher.
+- Publisher also spent $2M on marketing (total $12M).
+- Game priced at $20, but with discounts (Steam reality), the average price is around $10.
+- Total revenue from sales was $20M.
+- After deducting Steam fees (30%), $14M remains.
+- Publisher, exercising their preferential right, takes the first $12M to cover costs.
+- The remaining $2M is split according to the agreement 70/30 in favor of the publisher.
+- Developers receive $600K.
+- After deducting the cost of tools (~$15K) and taxes (around 50%), approximately $292,500 remains.
 
-Итого:
+As a result:
 
-- От очень успешной игры разработчик получает около 2.9% от выручки.
-- Денег на разработку следующей игры как не было, так и нет.
-- По сути, компания-разработчик получила только небольшую подушку безопасности на чёрный день.
-
+- From a very successful game, the developer receives about 2.9% of the revenue.
+- The developer still has no money for the next game.
+- De-facto, the developer is left with a small safety cushion for a rainy day.
 ///
 
 Вот как-то так выходит…
