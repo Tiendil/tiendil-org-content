@@ -14,7 +14,8 @@ This sparked a lot of thoughts, and I’m going to share every single one of the
 
 - 2 million copies sold on Steam.
 - Development cost — $10M, funded by the publisher.
-- Publisher also spent $2M on marketing (total $12M).
+- The publisher also spent $2M on marketing ($12M total).
+- The game is priced at $20, but with discounts (such is Steam reality), the average price is around $10.
 - Game priced at $20, but with discounts (Steam reality), the average price is around $10.
 - Total revenue from sales was $20M.
 - After deducting Steam fees (30%), $14M remains.
@@ -25,8 +26,7 @@ This sparked a lot of thoughts, and I’m going to share every single one of the
 
 As a result:
 
-- From a very successful game, the developer receives about 2.9% of the revenue.
-- The developer still has no money for the next game.
+- The developer still has no money for the next game, which will cost the same $10M.
 - De-facto, the developer is left with a small safety cushion for a rainy day.
 ///
 
