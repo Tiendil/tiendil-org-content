@@ -114,9 +114,9 @@ These side products don’t always bring in much, but you can outsource them —
 
 ### Salaries of developers
 
-The lack of salaries was not mentioned in the original post, so it is reasonable to assume that all developers, including the company founders, were paid. Maybe not as much as they should be, but in a way that allowed them to live and perhaps even save some money.
+Because salaries weren’t mentioned in the post, it is reasonable to assume that all developers, including the company founders, were paid. Maybe not as much as they should be, but in a way that allowed them to live and perhaps even save some money.
 
-I.e., the mentioned final income is a company's money, not the developers' money — developers' salaries are in $10M development cost.
+In other words, the mentioned final income is a company's money, not the developers' money — developers' salaries are in $10M development cost.
 
 ### The mature company and team
 
@@ -155,15 +155,15 @@ Most big-budget projects are just chewing gum for the brain. The same goes for m
 
 The large projects in gamedev are good for narrow seasoned specialists. If you like making the coolest shaders, or drawing the hairiest NPCs, or writing dialogues that players read 2% deeper than competitors — then AAA is for you. But keep in mind that, on average, your project will be [high-rated chewing-gum]{post:rpg-of-winning-marketing}.
 
-And it is possible only if you are already skilled specialist. Otherwise, you will end up on a conveyor with monotonous tasks that won't let you grow.
+And it is possible only if you are already skilled specialist. Otherwise, you will end up on an assembly line with monotonous tasks that won't let you grow.
 
 And even if you are skilled enough, not everything can go smoothly. Have you recently seen mind-blowing AI in AAA games? Or a story that really pulls at your heartstrings? You can find something like that in AA, maybe even in A games, but not in AAA. And there are professionals who would like to do this (even I wanted to go into game AI, but I got an arrow in the knee), but AAA budgets are not allocated for this, because the mass market does not appreciate it.
 
-So, what to do?
+So, what should we do?
 
 Do not chase millions, do not play the lottery.
 
-Instead, build a sustainable business step by step. Start small: create a small team that produces small but solid games, gather a community around you, grow gradually, and incrementally increase the scale and complexity of your projects step by step.
+Instead, build a sustainable business step by step. Start small: create a small team that produces small but solid games, gather a community around you, grow gradually, and incrementally increase the scale and complexity of your projects.
 
 This is also not easy, emotionally even harder. But this approach, in theory, will give you the freedom and space for maneuver that the author of the original post complains about.
 
@@ -171,4 +171,4 @@ And what's most amusing is that the team from the original calculations probably
 
 Possibly, they should not have aimed so high with the first game, and the calculations would have been more pleasant, or not. They took a risk, aimed high, and won — no one judges the winners :-)
 
-So, if you believe in yourself, believe you are a winner, do what you believe in, what you think is right.
+So if you believe in yourself and see yourself as a winner, do what you believe in, what you think is right. But remember, it is your own risk.
