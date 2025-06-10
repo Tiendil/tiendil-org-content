@@ -10,6 +10,10 @@ package-mode = false
 python = "^3.12"
 
 uvicorn = {extras = ["standard"], version = "0.*"}
-brigid = "^0.12.2"
+brigid = "^0.12.3"
 
 # brigid = {path = "../../brigid", develop = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
