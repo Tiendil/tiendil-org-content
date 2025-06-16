@@ -1,6 +1,6 @@
 ---
 title = "Итоги 2024 года для меня и блога"
-tags = [ "blog", "practice", "reflection",]
+tags = [ "blog", "practice", "reflection", "results-of-the-year"]
 published_at = "2025-01-13T12:00:00+00:00"
 seo_description = "Расскажу, чем занимался в 2024 году, что с планами на год уходящий, что с ними же на год грядущий."
 seo_image = "cover.png"
