@@ -93,7 +93,6 @@ It is my limit. I can't working on four big things for a long time with the leve
 
 When it really matters, I can overdose on caffeine and work in super mode for 1-2 months, but the consequences will be sad, and with age, they become worse and worse. Besides, the super mode is often required for fixing planning mistakes on one of the main tracks.
 
-
 For better or worse I have more than three interests — you can notice it even by the list of tags on the [main page of the blog]{absolute:/en}.
 
 Of course, it's impossible to do everything at once. Therefore, evolutionarily, my interests have consolidated into the following tracks:
@@ -108,13 +107,13 @@ Well, of course, I have a wife (!) — my beloved person, who must be prioritize
 
 Moreover, I'm a human being, not a robot. I love watching TV series, playing games, traveling — all that stuff. Sometimes you need to rest, to bring your psyche back in order.
 
-Обычно, один трек у меня занят одним проектом. Чередовать несколько вещей на одном треке сложно — всё что я делаю — это довольно длительные штуки, если их чередовать, то просто ничего не будет закончено. Если я и чередую что-то, то это обычно менее приоритетные штуки, которые не горят и не требуют постоянного внимания.
+Usually, a single track is occupied by a single project. Having multiple projects on a one track is difficult — most of what I do is rather long-term stuff, and if I'll split my attention, nothing will be finished. If I rotate projects, I usually do it with less priority things that are not urgent and don't require constant attention.
 
-Отказаться от личных проектов или самообразования я не могу — ну типо надо это мне. Без этих штук мне будет не то чтобы скучно, мне будет эмоционально больно. Особенно без личных проектов. Про шило в жопе слышали? Вот это оно :-D
+I can’t give up my personal projects or my self-learning — I kinda need them. Without those things I will fill, mmm… not boredom but kind of emotional pain. Especially without pet projects.
 
-По-белому завидую людям у которых работа на 100% совпадает с профессиональными интересами. Найти высокооплачиваемую работу связанную, например, с генетическими алгоритмами или, там, с разработкой экспериментальных MMORPG, довольно сложно :-D Поэтому я обычно работаю на работе интересной, но не то чтобы идеальной. Например, пишу бэкенд для мобильных игр.
+I envy people whose work perfectly matches their professional interests. Finding a well-paid job related to, say, genetic algorithms or developing experimental MMORPGs is quite difficult :-D So I usually work in an interesting but not ideal job. For example, writing backend for mobile games.
 
-Поскольку в стандартном режиме я могу поддерживать только два трека (и жену!) и люблю кушать, то треки — это работа плюс личные проекты. Саммобразование страдает, так как серьёзно учить что-то после работы сил нет. Опять таки, это моя особенность, я легко могу генерировать мозгом идеи или код по 12 часов в день, но модифицировать свою мозг чем-то сложным могу только часа четыре. Документацию читаю за милую душу, а на что-нибудь вроде чтения [Маштаба]{post:scale} — нужно выделять время специально.
+Since in a standard mode I can only maintain two tracks (and my wife!) and I love to eat, the tracks are paid work plus personal projects. Self-education suffers because I don't have the energy to seriously learn something after work. Again, this is my peculiarity: I can easily generate ideas or code for 12 hours a day, but modifying my brain with something complex can only be done for about four hours when I'm fresh. I read documentation with pleasure, but reading something like [Scale]{post:@choose-nearest-language:scale} requires me to set aside time specifically for it.
 
 ### На что Tiendil-у не хватает времени
 
