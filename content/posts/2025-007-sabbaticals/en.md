@@ -159,7 +159,7 @@ If you have a midlife crisis, maybe you need a subbatical to rethink your life, 
 For a productive sabbatical, you need to:
 
 - Have a list of goals you want to achieve.
-- Somehow resolve issues with your employer.
+- Somehow resolve questions with your employer.
 - Get money.
 
 Let's walk through each point. But remember — these are my thoughts based on my experience. You are not me, your situation may be different.
@@ -192,19 +192,19 @@ When you catch yourself thinking that the irritation is too strong, you have two
 
 If you chose the second option, then this list is your set of goals for the sabbatical. We'll talk about prioritizing it later.
 
-### Решение вопросов с работодателем
+### Resolving questions with your employer
 
-В целом, творческий отпуск не подразумевает увольнение — особенно в академической среде, где он может быть даже ожидаемым от вас.
+Generally speaking, a sabbatical does not require resignation — especially in the academic environment, where it may even be expected of you.
 
-Вне академической среды с этим будет сложнее, но помните, что поиск и обучение нового толкового сотрудника — это долго и дорого, поэтому у хорошего работодателя будет мотивация отпустить вас на время, если он уверен в вашей полезности. Если не уверен, то фокус, конечно, не прокатит.
+Outside of academia, it may be harder to take a sabbatical without resigning, but remember that finding and training a new competent employee is a long and expensive process, so a good employer will have motivation to let you go for a while if they are confident in your value. If they are not confident, then the trick won't work.
 
-В моём случае я всегда подгадывал отпуск к увольнению — это просто удобнее. Компанию, в которой я бы хотел проработать до старости, я пока не нашёл, а уходить надолго посреди проект не комильфо.
+In my case, I always timed my sabbaticals with resignations — it's just more convenient. I haven't found yet a company where I would like to work until retirement, and leaving for a long time in the middle of a project is not very polite for your company and colleagues.
 
-В целом, цикл: `работа — творческий отпуск — работа — …` для меня выглядит очень удобным и логичным.
+Also, the cycle "work — subbatical — work — ..." looks quite convinient and logical for me.
 
-Увольнялся я по разным причинам, но подход примерно одинаковый: доводишь текущий этап проекта до некоторого логического завершения, когда ты становишься менее нужным, а значит твой уход не так сильно ударит по коллегам. После чего спокойно уходишь.
+I've left jobs by different reasons, but the approach is roughly the same: you bring the current stage of the project to a logical conclusion, when you become less needed, and thus your departure won't hit your colleagues too hard. Then you slip out quietly.
 
-Конечно, на все эти планы могут сильно влиять финансовые обстоятельства, например, график выдачи бонусов, договорённости по опционам, etc.
+Of course, all those plans can be heavily influenced by financial circumstances, such as the timing of bonuses, agreements on stock options, etc.
 
 ### Финансовая сторона вопроса
 
