@@ -25,35 +25,39 @@ Let's talk about it.
 
 <!-- more -->
 
-## Что такое творческий отпуск?
+## What is a sabbatical?
 
-Для жителей постсоветского пространства, творческий отпуск — концепция дикая, незнакомая.
+For residents of the post-Soviet space, a sabbatical is a wild, unfamiliar concept.
 
-Усреднённый житель Беларуси, Украины, РФ (и любой другой постсоветсткой страны) максимум слышал, что поэты или художники иногда уходят во что-то, что называется «творческим отпуском», часто похожее на запой.
+The average resident of Belarus, Ukraine, Russia (and any other post-Soviet country) has only heard that poets or artists sometimes go on something called a "creative vacation", often resembling a binge.
 
-Для западной цивилизации это куда более распространённое и понятное явление, укоренившееся в культуре.
+For the western civilization, "sabbatical" is a much more common and understandable concept, deeply rooted in culture.
 
-Почему так — тема для отдельного поста. Для себя я разницу вижу примерно так: если надо выживать, то не до отпусков. Тем более, не до закрепления их в культуре. На мой взгляд, наличие концепции творческого отпуска показывает реальную разницу в уровне жизни и свободы куда лучше чем экономические показатели.
+This distinktion is a topic for a separate post. Personally, I understand the difference like this: if you strive to survive, you don't have time for vacations. Moreover, there's no time to establish them in culture. In my opinion, the presence of a concept of a sabbatical shows the real difference in the standard of living and freedom much better than economic indicators.
 
-Творческие отпуска на западе явление настолько распространённое, что их даже различают несколько видов:
+/// note | The usage of the term "sabbatical" in this text
 
-- `gap year` — широко распространённый «год свободы» между школой и университетом, или между университетом и работой. Молодые люди берут передышку для «поиска себя». Время на подумать перед первым большим решением в жизни.
-- `sabbatical` — более редкий длительный отпуск уже работающего человека, больше всего распространён в научной среде, но сейчас проникает и в другие сферы.
+The term "creative vacation" (a literal translation of "творческий отпуск" from Russian) has a slightly wider meaning in Russian than the English terms "sabbatical" or "gap year".
 
-Если честно, какой-то принициальной разницы между `gap year` и `sabbatical` я не вижу. Возможно, это следствие того, что я отношусь к другой культуре.
+Therefore, since I'm a bearer of the post-Soviet culture, I may use the term sabbatical in a broader sense than it may have in the West.
 
-Поэтому для себя я использую очень широкое определение:
+However, I still prefer to use "sabbatical" instead of "creative vacation" because the latter sounds weird, loses some nuances of the original meaning, and adds some meanings that are not intended.
 
-> Творческий отпуск — это период, когда человек приоритетно направляет своё время и усилия на улучшение себя и своего окружения.
+Also, I don't see a significant difference between "sabbatical" and "gap year", so I use the term "sabbatical" to refer to both concepts. Maybe this is a consequence of my cultural background.
+///
 
-В противоположность работе или стандартизированной учёбе, когда человек тратит себя на выполнение внешних KPI.
+So, for myself, I use a very broad definition:
 
-Хочу обратить ваше внимание на некоторые следствия из этого определения:
+> Sabbatical is a period when a person prioritizes their time and efforts on improving themselves and their surroundings.
 
-1. Деньги ортогональны этой концепции. Ничто не мешает зарабатывать деньги во время творческого отпуска. Разница скорее в том, является ли заработок основной целью деятельности (как вне отпуска) или побочным результатом вашей деятельности.
-2. Творческий отпуск не обязательно включает отдых. Например, во время моих отпусков я могу кодить по 12 часов в день 7 дней в неделю.
+In the opposite of work or standardized study, when a person spends themselves on fulfilling external KPIs.
 
-Поэтому я склонен рассматривать некоторые стартаперские активности: разработку авторских игр или попытки монетизации собственного софта, как творческий отпуск.
+Let's point our attention to some consequences of this definition:
+
+1. Money is orthogonal to this concept. Nothing prevents you from earning money during a sabbatical. The difference is more about whether earning money is the primary goal of your activity (as outside of a sabbatical) or a side effect of your sabbatical activities.
+2. A sabbatical may not include rest. For example, during my sabbaticals, I can code for 12 hours a day, 7 days a week.
+
+That's why I see some startup activities, like developing auteur games or trying to monetize own software, as a sabbatical.
 
 ## Мои творческие отпуска
 
