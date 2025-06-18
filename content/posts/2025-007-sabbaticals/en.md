@@ -115,27 +115,27 @@ I envy people whose work perfectly matches their professional interests. Finding
 
 Since in a standard mode I can only maintain two tracks (and my wife!) and I love to eat, the tracks are paid work plus personal projects. Self-education suffers because I don't have the energy to seriously learn something after work. Again, this is my peculiarity: I can easily generate ideas or code for 12 hours a day, but modifying my brain with something complex can only be done for about four hours when I'm fresh. I read documentation with pleasure, but reading something like [Scale]{post:@choose-nearest-language:scale} requires me to set aside time specifically for it.
 
-### На что Tiendil-у не хватает времени
+### On what exactly Tiendil lacks time
 
-Из-за постоянного простоя минимум одного трека, копится что-то вроде технического долга. Только это долг не в коде, а в ммм… работе над собой.
+Because of the lack of time to the third track, a kind of "technical debt" accumulates. But this debt is not in code, but in, mmm… self-improvement.
 
-Вот как это проявляется.
+Here is how it manifests.
 
-Копятся (стрёмные) идеи, которые ты не можешь проверить на работе из-за ответственности перед работодателем. Некоторые подходы, архитектуры, технологии не правильно проверять за чужие деньги, но норм проверять в своих проектах, после чего удачные случаи приносить на работу.
+Ideas (weird kind) accumulate that you can't test at work due to your responsibility to your employer. Some approaches, architectures, and technologies are not right to test for someone else's money, but it's fine to test in your own projects, after which successful cases can be brought to work.
 
-Копятся идеи проектов, которые было бы интересно реализовать. Какое-то время я часть таких идей выплёскивал в виде [концепт-документов игр]{tags:concepts}, но это работает только для игр и только если тебе достаточно покрутить идею без реализации.
+Grows the number of ideas for projects that would be interesting to implement. For some time, I dumped some of them into [concept documents for games]{tags:concepts}, but that only works for games and only if it is enough to just toy with the idea without implementing it.
 
-Копятся книги, на вдумчивое чтение которых ты не можешь выделить время. В моём случае это часто научнопопулярные книги связанные с мышлением, эволюцией или, вот как в этом отпуске, подборка книг по менеджменту. Поскольку я предпочитаю книге в бумаге и твёрдой обложке, то копятся они довольно визуально — в виде стопки в каком-нибудь углу.
+Books also accumulate. In my case, these are often popular science books related to thinking, evolution, or, as in this sabbatical, a collection of books on management. Since I prefer physical books with hard covers, they accumulate quite visually — in the form of a stack in one of the corners.
 
-/// note | Про скорость чтения книг
+/// note | On reading speed
 
-Периодически встречаю рассказы как люди читают по 100 книг в год. Откровенно говоря, я им не верю — есть там какая-то недосказанность.
+Sometimes I meet stories about people reading 100 books a year. Frankly, I don't believe them — there is some part of the story they're not telling.
 
-Конечно, я могу пропустить через себя буквы 100 книг за год, но пользы это не принесёт — информация не будет усвоена, мозг не будет перестроен.
+Of course, I can pass the letters of 100 books through myself fast enough, but it won't bring any value — the information won't be absorbed, the brain won't be rewired.
 
-Фокус с быстрым чтением работает только с художественной литературой, когда ты читаешь ради потока истории, а не ради усвоения новой информации. И то, скорее всего, только с лёгкой художкой, навроде [Гарри Поттера]{post:about-book-harry-potter}.
+The stunt of fast reading works only with fiction, when you're reading for the flow of the story, not for absorbing new information. And even in that case, likely, only with light fiction, like [Harry Potter]{post:about-book-harry-potter}.
 
-Если же человек утверджает, что прочитал 100, пусть даже, научно-популярных книг за год, то, на мой взгляд, либо это книги без полезного содержания, либо с уже известной ему информацией, либо он просто прогнал буквы через глаза не усвоив ничего.
+If a person claims to have read 100, say, popular science books in a year, then, in my opinion, either those books have no useful content, or they contain information already known to the person, or they just skimmed through the letters without absorbing anything. Or the person have been doing nothing but reading for a year, which is a fun but a rare case.
 ///
 
 Копится рабочий опыт, который необходимо переварить и усвоить: собрать в кучу, разобрать на части анализом, синтезировать в удобной для мозга форме и вложить в себя обратно. По возможности [через пост в блог]{post:thinking-through-writing}. Делать это в процессе той же работы тяжело, хотя и приходится.
