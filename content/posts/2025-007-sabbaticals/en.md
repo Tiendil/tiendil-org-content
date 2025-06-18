@@ -148,24 +148,25 @@ Besides the accumulation of such debt, sometimes life brings tasks that are simp
 
 For exmaple, during the second sabbatical, my wife and I bought an apartment, sold it back (yep, unlucky we) and moved to Poland. At the beginning of the third sabbatical, I moved to my wife in Germany where I was busy with setting up our household — it took a year to close all the tasks related to the move (yes, we have a family project in Jira). Could I have done this while continuing working? — Of course. Would the salary compensate for the loss of nerves and health? Not sure.
 
-## Как планировать творческий отпуск
+## How to plan a subbatical
 
-Творческий отпуск — это не рабочий отпуск и не больничный.
+A sabbatical is not a vacation and not a sick leave.
 
-Если вы, не дай бог, перегорели на работе — берите положенный отпуск и отдыхайте. Или больничный, если в вашей стране это возможно.
+If you, God forbid, burned out at work — take the vacation you are entitled to and rest. Or take a sick leave if it's possible in your country.
 
-Если у вас случился кризис среднего возраста, то может быть вам и надо в творческий отпуск — переосмысливать свою жизнь, а может вам надо взять банковскую карточку и купить мотоцикл, продолжая жить как обычно.
+If you have a midlife crisis, maybe you need a subbatical to rethink your life, however, maybe you just need to take your bank card and buy a motorcycle, continuing to live as usual.
 
-Для продуктивного творческого отпуска надо:
+For a productive sabbatical, you need to:
 
-- Иметь перечень целей, которые вы хотите достичь.
-- Как-то разрешить вопросы с работодателем.
-- Добыть деньги.
+- Have a list of goals you want to achieve.
+- Somehow resolve issues with your employer.
+- Get money.
 
-Давайте пройдёмся по каждому пункту. Но помните — это мои соображения на основе моего опыта. Вы — это не я, у вас всё может быть по-другому.
+Let's walk through each point. But remember — these are my thoughts based on my experience. You are not me, your situation may be different.
 
-### Цели творческого отпуска
+### Goals of a sabbatical
 
+T
 Теоретически, в творческий отпуск можно идти и без внятных целей, в надежде сформулировать их в процессе. Скорее всего, молодые люди так и делают, когда берут `gap year`. Или цель может быть одна, в духе «понять что за дичь происходит в моей жизни», что есть то же самое.
 
 Я такой подход не разделяю — даже будучи подростком, я был довольно осознанным молодым человеком — всегда мог сказать чем бы мне было интересно заняться, если бы у меня было больше времени.
