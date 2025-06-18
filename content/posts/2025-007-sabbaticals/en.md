@@ -260,33 +260,33 @@ You have no formal weekends and working hours during a sabbatical — it's very 
 
 Fourthly, don't waste your time. It is the opposite of the previous point, but, amusingly, they often go hand in hand. It's easy to burn out and gradually start working less and less, while not resting properly in your free time. In the end, you just waste your time without achieving anything.
 
-## Профит от регулярных творческих отпусков
+## Benefits of regular sabbaticals
 
-Опять таки, не могу гарантировать, что у вас всё будет также. Перечислю плюсы сугубо на основе своего опыта.
+Again, I can't guarantee that you will have the same results as I do. I will list the benefits based solely on my experience and understanding.
 
-**Образуется удобный цикл обучения практика->теория->практика->…** Во время работы вы нарабатываете практические навыки, которые начинают обгонять ваши теоретические знания; в творческом отпуске вы нагоняете теорию, которая начинает обгонять практические навыки, после чего вы снова возвращаетесь к практике.
+**A handy learning loop emerges: practice->theory->practice->…** On the paid job you develop your practical skills until they outgrow your theoretical understanding of the area; during a sabbatical you catch up on theory until it pulls ahead of your practical skills, then you jump back into practice again.
 
-В подобном цикле вы стабильно и быстро растёте как профессионал. Конечно, можно превозмогать и подтягивать теорию во время работы, но у вас просто не будет времени и сил, чтобы делать это качественно.
+Moving in this loop you steadily and quickly grow as a professional. Of course, you can struggle through and catch up on theory while working, but you simply won't have the time and energy to do it properly.
 
-**Вы получаете уникальный опыт**. Вы делаете собственные проекты, проверяете штуки, которые не проверили бы на работе, читаете книги, которые не прочитали бы. Полученный опыт усиливает вашу позицию при поиске работы, обсуждении зарплаты, обосновании своих идей.
+**You get a unique experience**. You work on your own projects, test things you wouldn't test at paid work, read books you wouldn't read otherwise. The experience you gain strengthens your hand when job-hunting, negotiating salary, or backing up your ideas.
 
-Вот например у меня есть опыт полного цикла разработки ММО игры от концепта до вывода из эксплуатации, благодаря ему мне проще понимать людей различных профессий и ролей как в геймдеве так и в разработке софта в целом: от QA до продуктовиков и комьюнити менеджеров.
+For example, I have an experience of the full cycle of MMO game development: from concept to decommissioning. Thanks to this, I find it easier to understand people of various professions and roles both in game development and in software development in general: from QA to product managers and community managers.
 
-А ещё есть достаточно глубокое понимание метапрограммирования на Python, потому что я делал несколько нишевых экспериментальных проектов. Благодаря этому я могу быстро реализовывать более гибкие и надёжные штуки, чем другие разработчики.
+I also have a deep understanding of the metaprogramming in Python, thanks to several niche experimental projects I did. This allows me to quickly implement more flexible and reliable solutions.
 
-Или вот я допустил несколько больших косяков в архитектуре Сказки, проверяя свои «гениальные» идеи, которые я уже не повторю на оплачиваемой работе.
+Or, for instance, I made several big architectural mistakes while developing "The Tale", trying to implement my "brilliant" ideas, which I will never repeat in a paid job.
 
-Не говоря уже о всяких «мелких» штуках, с множеством которых я разобрался по ходу дела.
+And let not mention a lot of smaller things I learned along the way.
 
-**Вы разгружаете мозг** — избавляетесь от вечного раздражения и разочарования из-за незавершённых дел, недодуманных мыслей и так далее. Реально «отпускает», особенно вкупе с [практикой мышления письмом]{post:thinking-through-writing}.
+**You declutter your mind.** — you get rid of the constant irritation and disappointment from unfinished tasks, half-formed thoughts, and so on. It really feels like a weight is lifted off your shoulders, especially when combined with [thinking through writing]{post:thinking-through-writing} practice.
 
-Если у вас есть такая проблема, конечно. Я в целом не уверен, что это какая-то распространённая вещь, возможно это сугубо мои загоны.
+Of cause, if you have such a problem. I'm not sure if it's a common thing, maybe it's just my personal quirks.
 
-**Вы решаете нужные дела в удобном темпе**. Например, не бегаете смотреть квартиры ночами после 10 часов работы с фиксом бага приведшего к потери 100…0 денег, а спокойно на расслабоне встречаетесь с риэлтороми днём с возможностью включить мозг и задать правильные вопросы.
+**You finish necessary tasks in a comfortable pace**. For example, you don't rush to view apartments at night after a 10-hour workday fixing a bug that cost you 100…0 money, but calmly meet with realtors during the day, with the ability to think and ask the right questions.
 
-**Вы укрепляете психику**. Наша текущая культура загоняет человека в беговое колесо, стремиться согнать с него семь потов, не заботясь о стабильности психики и здоровья. Творческий отпуск — это возможность выйти из цикла, выдохнуть и подтюнить параметры колеса для следующего забега.
+**You strengthen your psyche**. The modern culture places a person in a hamster wheel, pushing them to sweat it out without caring about mental stability and health. A sabbatical is an opportunity to step out of the loop, take a breath, and fine-tune the parameters of the wheel for the next run.
 
-**Рост дохода**. Я выходил из отпусков с кратным увеличением дохода. За счёт переосмысления опыта, понимания чего хочу и чего могу. Но это не точно. Пока есть только две точки контроля, вот если из этого выйду с третьим кратным увеличением, то можно будет говорить о закономерности и success story.
+**Growth in income**. I have returned from sabbaticals with a multiple increase in income. This is due to rethinking my experience, understanding what I want and what I can do. But this is not guaranteed. So far, there are only two control points, but if I achieve a third multiple increase, then we can talk about a pattern and a success story.
 
 ## Минусы творческих отпусков
 
