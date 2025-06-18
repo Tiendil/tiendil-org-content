@@ -85,27 +85,28 @@ I’ll break it into two parts: first, I’ll sketch the basic "theory" of how I
 
 ### How Tiendil distributes his time
 
-Я так устроен, что в день могу заниматься двумя крупными «проектами». Например, работать работу за деньши днём и читать сложные книги вечером. Или работать за деньги днём и работать для души вечером.
+I’m wired so that I can handle only two big "projects" a day. For example, I can work for money during the day and read complex books in the evening. Or work for money during the day and work on personal projects in the evening.
 
-Если я очень сконцетрируюсь, то могу разбить свою жизнь на три крупных трека: два в рабочие дни (день и вечер) и один в выходные.
+If I concentrate really hard, I can break my life into three big tracks: two during the workdays (day and evening) and one on weekends.
 
-Это мой лимит. Я не могу заниматься четырьмя крупными делами на длительном отрезке времени.
+It is my limit. I can't working on four big things for a long time with the level of dedication that I usually have.
 
-В очень особых случаях я могу залиться кофеином и проработать в супер режиме 1-2 месяца, но последствия будут печальны и с возрастом становятся всё печальнее. Плюс, супер режим обычно нужен для закрытия ошибок планирования на одном из основных треков.
+When it really matters, I can overdose on caffeine and work in super mode for 1-2 months, but the consequences will be sad, and with age, they become worse and worse. Besides, the super mode is often required for fixing planning mistakes on one of the main tracks.
 
-К сожалению или к счастью, так получилось, что интересов у меня значительно больше, чем три — это видно даже по списку тегов на [главной странице блога]{absolute:/ru}.
 
-Понятное дело, заниматься всеми интересами одновременно невозможно. Поэтому эволюционно интересы объединились в следующие треки:
+For better or worse I have more than three interests — you can notice it even by the list of tags on the [main page of the blog]{absolute:/en}.
 
-- **Текущая работа** — это то, что я делаю за деньги.
-- **Личные проекты** — у меня всегда активны один или два проекта. Например, сейчас это [Feeds Fun](https://feeds.fun/) и прототипирование игрушки вкупе с изучением Rust и Godot.
-- **Самообразование** — сюда попадает много чего, но в основном это чтение [технической]{tags:professional-books} и [научно-популярной]{tags:popular-science-books} литературы, плюс [ведение блога]{post:thinking-through-writing}.
+Of course, it's impossible to do everything at once. Therefore, evolutionarily, my interests have consolidated into the following tracks:
 
-Ничего не забыл?..
+- **Paid work** — this is what I do for money.
+- **Personal projects** — I always have one or two active projects. For example, right now it's [Feeds Fun](https://feeds.fun/) and prototyping a game while learning Rust and Godot.
+- **Self-education** — this includes a lot of things, but mainly it’s reading [technical]{tags:professional-books} and [popular science]{tags:popular-science-books} literature, plus [blogging]{post:thinking-through-writing}.
 
-Ах да, ещё у меня есть жена (!) — мой любимый человек, которого надо ставить впереди всех этих треков. Обычно у меня это даже получается, но есть куда расти.
+Have I forgotten anything?..
 
-А ещё я человек, а не робот, я люблю смотреть сериалы, играть в игры, путешествовать — вот это вот всё. Иногда надо отдыхать, приводить психику в порядок.
+Well, of course, I have a wife (!) — my beloved person, who must be prioritized above all these tracks. Usually, I manage to do this, but there is always room for improvement.
+
+Moreover, I'm a human being, not a robot. I love watching TV series, playing games, traveling — all that stuff. Sometimes you need to rest, to bring your psyche back in order.
 
 Обычно, один трек у меня занят одним проектом. Чередовать несколько вещей на одном треке сложно — всё что я делаю — это довольно длительные штуки, если их чередовать, то просто ничего не будет закончено. Если я и чередую что-то, то это обычно менее приоритетные штуки, которые не горят и не требуют постоянного внимания.
 
