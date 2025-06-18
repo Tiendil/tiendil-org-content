@@ -59,21 +59,21 @@ Let's point our attention to some consequences of this definition:
 
 That's why I see some startup activities, like developing auteur games or trying to monetize own software, as a sabbatical.
 
-## Мои творческие отпуска
+## My sabbaticals
 
-Перечислять что именно я делал в творческих отпусках не буду — вы можете прочитать об этом в блоге, но всё-таки перечислю их с кратким резюме.
+There are no sense in listing all my sabbatical activities — you can read about them in the blog, but I will still briefly list sabbaticals themselves.
 
-1. **2012-2015** — разработка текстовой ММО [Сказка](https://the-tale.org/). Сейчас игра остановлена, [лор доступен под открытой лицензией](https://the-tale.notion.site/), можете посмотреть [концепт-документ игры](https://tiendil.org/ru/posts/the-tale-concept-document) или послушать [подкаст с постмортем](https://www.youtube.com/watch?v=5KODCBqhDu0).
-2. **2019-2021** — прошёл под флагом работы над своим мышлением и картиной мира — [подробный отчёт]{post:the-results-of-the-sabbatical-2019-2021}.
-3. **2024-…** — текущий творческий отпуск посвящён разработке пет-проектов и подтягиванию теории по менеджменту. Смотрите [отчёт за 2024 год]{post:results-of-2024-for-me-and-the-blog} и все мои посты за 2024-2025 годы.
+1. **2012-2015** — development of the text MMO [The Tale](https://the-tale.org/). The game is stopped, [the lore is available under an open license](https://the-tale.notion.site/), you can check out the [concept document of the game]{post:@choose-nearest-language:the-tale-concept-document} or listen to the [postmortem podcast](https://www.youtube.com/watch?v=5KODCBqhDu0).
+2. **2019-2021** — the sabbatical was focused on improving my thinking methods and polishing my worldview — [detailed report]{post:the-results-of-the-sabbatical-2019-2021}.
+3. **2024-…** — the current sabbatical is dedicated to working on pet projects and improving management theory. See the [2024 report]{post:results-of-2024-for-me-and-the-blog} and all my posts for 2024-2025.
 
-Плюс, я практикую [ежегодные отчётные посты]{tags:results-of-the-year}, поэтому можно отследить всё, чем я занимался в любой год с 2020.
+Besides, I practice [annual report posts]{tags:results-of-the-year}, so you can track everything I did in any year since 2020.
 
-Первый отпуск можно назвать неосознанным — я уходил в него не как в творческий отпуск, а как во вполне конкретную авантюру по разработке конкретной игры. Но даже тогда уже был некоторый довесок в духе «надо проверить себя» и «надо попробовать штуки, которые на работе не попробуешь».
+My first sabbatical was not a conscious decision (in the sense "I'm taking a sabbatical now"), but a particular endeavor to develop a particular game. However, even then, there was some additional motivation in the spirit of "I need to test myself" and "I need to experiment with ideas that I can't try at work".
 
-Второй отпуск был уже осознанным, но не было уверенности в правильности решения. В нём я осознал эту практику, решил что для меня творческие отпуска подходят и что я хочу продолжать в том же духе.
+The second one was taken consciously, but I wasn't sure if it was the right decision. During it, I realized that sabbaticals suit me, and I want to continue practicing them.
 
-Сейчас я заканчиваю свой третий отпуск, в который уже шёл с полным пониманием что делаю.
+Now I'm finishing my third sabbatical, which I entered with a full understanding of what I'm doing and why.
 
 ## Зачем я ухожу в творческие отпуска
 
