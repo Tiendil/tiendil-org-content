@@ -206,29 +206,29 @@ I've left jobs by different reasons, but the approach is roughly the same: you b
 
 Of course, all those plans can be heavily influenced by financial circumstances, such as the timing of bonuses, agreements on stock options, etc.
 
-### Финансовая сторона вопроса
+### The financial side
 
-Если честно, не знаю что тут написать такого.
+Honestly, I don't know what to write here.
 
-Деньги нужны, для этого их нужно заработать :-D
+You need money, so you should earn them somehow :-D
 
-Утрируя, вы должны знать сколько в среднем тратите в месяц и сколько планируете сидеть в отпуске — отсюда логически вытекает минимальный бюджет. Лучше его увеличить раза в два — на случай форсмажора.
+Simplifying, you need to know how many money you spend on average per month and how long you plan to be on sabbatical — from this, the minimum budget logically follows. It's better to double it — just in case of force majeure.
 
-Но, как я говорил, творческий отпуск не мешает зарабатывать. Например, в свой первый отпуск я частично жил с доходов от игры.
+However, as I mentioned, a sabbatical is not a obstacle to earning money. For example, during my first sabbatical, I partially lived from the income from the game.
 
-А ещё, в первый отпуск я переехал обратно в дом родителей, что тоже помогло сэкономить.
+Plus, during my first sabbatical I moved back to my parents' house, which helped me save a good chunk of money.
 
-Всё зависит от вас и вашего стиля жизни.
+So, everything depends on you and your lifestyle.
 
-Мой стиль, скажем так, сромный: я не падок на бары, падших женщин, машины, дорогую одежду и всё в том же духе, поэтому деньги у меня копились всегда — даже в университете — я их просто не тратил, а работа в ИТ способствовала. Но это в условной РБ работа айтишника даёт какие-то преимущества, в Европе это просто работа.
+My style, let's say, is modest: I’m not into clubbing, cars, designer clothes, or any of that. So, my money has tendency to grow — even during university I didn't spend much, and working in IT accelerated this. But this is in the context of Belarus, where being an IT specialist gives some advantages; in Europe, it's just a job.
 
-Поэтому, я бы сказал, что для возможности ходить в долгие отпуска вам нужно быть достойным специалистом, которому платят достойные деньги. И при этом не спускать их на кокаин.
+So, I would say that to be able to go on long sabbaticals, you need to be a seasoned professional who earns decent money. And don't spend it all on cocaine.
 
-Проще, когда вы одинокий одиночка. После встречи с женой, расходы увеличились, но всё ещё терпимо :-D Можно сказать, что по нашим бюджетам сильнее ударили релокации, чем творческие отпуска.
+It is easier when you are a single loner. After meeting my wife, expenses increased, but still manageable :-D We could say that relocations hit our budget harder than sabbaticals.
 
-Ещё отмечу, что если вы планируете ходить в творческие отпуска регулярно, то финансовая ситуация каждый раз у вас будет полностью отличаться. Во-первых, вы растёте как специалист, во-вторых, вы обрастаете обязательствами, в-третьих, вы видели что вокру твориться?
+Additionally, I want to note that when you taking sabbaticals regularly, your financial situation will be completely different each time. Firstly, you grow as a specialist, secondly, you accumulate obligations, and thirdly, have you seen what's happening around?!
 
-Поэтому каких-то секретов тут быть не может, чистая импровизация.
+That's why there are no secrets here, just pure improvisation.
 
 ### Планирование отпуска
 
