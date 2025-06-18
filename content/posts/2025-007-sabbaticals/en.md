@@ -1,25 +1,27 @@
 ---
-title = "Про мои творческие отпуска a.k.a. sabbaticals"
+title = "My sabbaticals"
 tags = [ "practice", "reflection", "education", "best"]
 published_at = "2025-06-18T12:00:00+00:00"
-seo_description = "Рассказываю про личный опыт хождения в творческие отпуска, a.k.a. sabbaticals."
+seo_description = "I talk about my personal experience of going on sabbaticals."
 seo_image = "cover.jpg"
 ---
+
+<!--  Copilot instruction: this file is a ongoing translation from Ru to En. The translation is going from the top to the bottom by rewriting Ru text in English, close to ru wording. I.e. sentence to sentence. The english paragraph is writing on the top of ru paragraph then ru version is removed. The translation shoul follow original "ru" style but may be adapted to better represent ideas in the idiomatic english.-->
 
 /// brigid-images
 src = "cover.jpg"
 caption = "A game developer reading a book in the middle of a sabbatical, in the style of My Little Pony (c) ChatGPT."
 ///
 
-Мои друзья и читатели знают, что я часто хожу в творческие отпуска.
+My friends and readers know that I often take sabbaticals.
 
-Ну как часто… Формально, все мои периоды работы на других людей за деньги разделяются периодами года в два «работы» «на себя» «забесплатно» — количество кавычек может варьироваться. За исключением первых двух раз, когда я после окончания университета сразу перескочил из Itransition в Wargaming. Замечу, что первые года полтора в Wargaming были вот прям тем, что моя душа хотела, за что спасибо всем коллегам — cвоего рода оплачиваемый творческий отпуск :-D но этот период мы засчитывать всё-таки не будем.
+How often? Formally, all my periods of working for other people for money are separated by periods around two years long of "working" "for myself" "for free" — the number of quotes may vary. Except for the first two times, when I jumped straight from Itransition to Wargaming right after university. However, the first year and a half at Wargaming was exactly what my soul wanted, for which I thank all my former colleagues — a kind of paid sabbatical :-D but we won't count that period.
 
-Опираясь на эту информацию обо мне можно много чего надумать, например, что у меня дофига денег (нет), или что я лентяй (вроде нет) или что мне как-то фартит неимоверно (не думаю). Что на этот счёт думают родственники и родители я даже представить боюсь — под конец первого отпуска на лицах родителей отчётливо читалась печаль и безысходность; но к третьему разу они вроде пообвыклись, или смирились — кто ж знает.
+Based on this information, one can hypothesize a lot about me, for example, that I'm loaded with money (I'm not), or that I'm lazy (I hope not), or that I'm incredibly lucky (I don't think so). I can only imagine what my relatives and parents think about all of this — by the end of the first sabbatical, I could clearly read sadness and hopelessness on their faces; but by the third time, they seemed to have gotten used to it, or resigned themselves — who knows.
 
-Так вот, меня периодически спрашивают зачем я это делаю, чем я в это время занимаюсь, откуда деньги беру и так далее.
+People periodically ask me why I spend time on these avantures, what I do during them, where I get the money from, and so on.
 
-Сейчас расскажу.
+Let's talk about it.
 
 <!-- more -->
 
