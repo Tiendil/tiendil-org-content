@@ -75,15 +75,16 @@ The second one was taken consciously, but I wasn't sure if it was the right deci
 
 Now I'm finishing my third sabbatical, which I entered with a full understanding of what I'm doing and why.
 
-## Зачем я ухожу в творческие отпуска
+## Why I take sabbaticals
 
-Даже не буду пытаться советовать вам идти или не идти в творческий отпуск — это очень личное решение, которое зависит от вашего конкретного контекста и того, как вы видите своё будущее.
+I won't try to advise you whether to take a sabbatical or not — it's a very personal decision that depends on your specific context and how you see your future.
 
-Но расскажу, зачем я это делаю.
+Hovever, I can tell you why I'm doing this.
 
-Даже в двух частях: сначала изложу базовую теорию функционирования себя-любимого, потом приведу конкретный перечень причин.
+I’ll break it into two parts: first, I’ll sketch the basic "theory" of how I function, and then I’ll give a concrete list of my reasons for taking sabbaticals.
 
-### Как Tiendil распределяет своё время
+### How Tiendil distributes his time
+
 
 Я так устроен, что в день могу заниматься двумя крупными «проектами». Например, работать работу за деньши днём и читать сложные книги вечером. Или работать за деньги днём и работать для души вечером.
 
