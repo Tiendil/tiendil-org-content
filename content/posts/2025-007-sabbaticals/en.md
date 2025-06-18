@@ -125,7 +125,7 @@ Ideas (weird kind) accumulate that you can't test at work due to your responsibi
 
 Grows the number of ideas for projects that would be interesting to implement. For some time, I dumped some of them into [concept documents for games]{tags:concepts}, but that only works for games and only if it is enough to just toy with the idea without implementing it.
 
-Books also accumulate. In my case, these are often popular science books related to thinking, evolution, or, as in this sabbatical, a collection of books on management. Since I prefer physical books with hard covers, they accumulate quite visually — in the form of a stack in one of the corners.
+Books also accumulate. In my case, these are often popular science books related to thinking, evolution, or, as in this sabbatical, a collection of books on management. Since I prefer physical books with hard covers, they accumulate quite literary — in the form of a stack in one of the corners.
 
 /// note | On reading speed
 
@@ -138,15 +138,15 @@ The stunt of fast reading works only with fiction, when you're reading for the f
 If a person claims to have read 100, say, popular science books in a year, then, in my opinion, either those books have no useful content, or they contain information already known to the person, or they just skimmed through the letters without absorbing anything. Or the person have been doing nothing but reading for a year, which is a fun but a rare case.
 ///
 
-Копится рабочий опыт, который необходимо переварить и усвоить: собрать в кучу, разобрать на части анализом, синтезировать в удобной для мозга форме и вложить в себя обратно. По возможности [через пост в блог]{post:thinking-through-writing}. Делать это в процессе той же работы тяжело, хотя и приходится.
+Let not forget about the accumulation of work experience, that should be processed and digested: gathered together, broken down into parts through analysis, synthesized into a form convenient for the brain, and put back inside. Peferably all this should be done through [writing a blog post]{post:thinking-through-writing}. Doing this in parallel with work is difficult, although, of course, it has to be done.
 
-Скажем так, чтобы хорошо переосмыслить свой опыт, необходимо поставить себя вне системы в рамках которой ты этот опыт получил — посмотреть на всё со стороны. Когда ты внутри системы, в рабочем потоке, сделать это сложно — прокатывает для разбора конкретных ситуаций, но не для осмысления многих лет работы. Чтобы осмыслить, например, ход проекта, необходимо вытащить себя из контекста.
+Let's say, to rethink your experience well, you need to put yourself outside the system in which you got this experience — to look at everything from the side. When you're inside the system, in the workflow, it's hard to do this — it is possible for analyzing specific situations, but not for reflecting on a few years of work. To reflect on, for example, the course of a project, you need to pull yourself out of the context.
 
-Собственно, часто в творческий отпуск уходят на более короткое время и без смены работы. Отпуска по два года с увольнением — это скорее особенность того, как меня по жизни носит, чем какая-то особая практика, которой я специально придерживаюсь.
+That's why, as I understand, often people go on sabbaticals for a shorter duration without changing jobs. Sabbaticals for two years with resignation are more caused by how life carries me than by any special practice I follow.
 
-Кроме накопления подобного технического долга, периодически жизнь подкидывает фронт работ, которые просто комфортнее закрывать без обязательств перед работодателем.
+Besides the accumulation of such debt, sometimes life brings tasks that are simply more comfortable to complete without obligations to spend 8 hours a day at work.
 
-Например, во время второго отпуска мы с Юлей купили квартиру, продали квартиру и переехали в Польшу. В начале третьего отпуска я переехал к жене в Германию и занимался обустройством быта — на закрытие всех тасок по переезду (да, у нас есть семейный проект в Jira) ушёл год (!). Мог бы я это сделать продолжая работать? — Конечно. Компенсировала бы зарплата потерю нервов и здоровья? Не уверен.
+For exmaple, during the second sabbatical, my wife and I bought an apartment, sold it back (yep, unlucky we) and moved to Poland. At the beginning of the third sabbatical, I moved to my wife in Germany where I was busy with setting up our household — it took a year to close all the tasks related to the move (yes, we have a family project in Jira). Could I have done this while continuing working? — Of course. Would the salary compensate for the loss of nerves and health? Not sure.
 
 ## Как планировать творческий отпуск
 
