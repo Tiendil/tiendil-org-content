@@ -230,35 +230,35 @@ Additionally, I want to note that when you taking sabbaticals regularly, your fi
 
 That's why there are no secrets here, just pure improvisation.
 
-### Планирование отпуска
+### Planning a sabbatical
 
-Тут всё просто:
+Everithing is simple here:
 
-- У вас есть список целей, которые вы хотите достичь.
-- Бюджет, который вы не можете превысить.
+- You have a list of goals you want to achieve.
+- You have a budget that you can't exceed.
 
-Поэтому вы садитесь и думаете какие цели вы можете достичь в рамках времени, которое купите себе деньгами. Следите, чтобы не взять невыполнимых задач.
+So, you sit down and think about what goals you can achieve within the time you can buy with your money. Make sure not to take on unachievable ones.
 
-Тут несколько нюансов.
+Here are some nuances.
 
-Во-первых, точно планировать не обязательно. Куда важнее периодически [синхронизировать свои планы с реальностью]{post:life-and-work-with-mistakes}. Если видете, что не успеваиваете — отказываетесь от части планов, если появляется свободное время — добавляете. Не страшно вообще всё перепланировать где-нибудь посредине отпуска, если ваша картина мира поменялась.
+Firstly, you don't have to plan everything precisely. It's much more important to regularly [synchronize your plans with reality]{post:@choose-nearest-language:life-and-work-with-mistakes}. If you see that you're falling behind — drop some of your plans, if you have free time — add something. It's not fatal even to completely replan your sabbatical in the middle if your worldview has changed.
 
-Во-вторых, планировать не обяазательно, ммм… бизнесово. Вряд ли у вас есть какой-то лютый дедлайн к которому надо выпустить продукт «Сделать себя лучше».
+Secondly, the planning doesn't have to be, mmm… business-like. It's unlikely that you have some strict deadlines for releasing a product called "Make Yourself Better".
 
-Как делаю я:
+How I do it:
 
-- Выбираю книги, которые хочу прочитать, и сортирую их по приоритету. Читаю сверху списка до конца отпуска.
-- Выбираю 1-2 проекта, которые очень хочу сделать, и их скоуп подгоняю под оставшееся время, чтобы получить что-то законченное.
-- Докидываю разные обязательные задачи, а-ля «обустроить квартиру», «съездить в отпуск» — обычно эти задачи имеют мягкие дедлайны и выстраиваются по порядку времени.
-- Выбираю группу небольших вещей, который хотелось бы сделать, но можно и не делать. Например, попробовать новый язык програмирования, пройти какую-нибудь игру, подтянуть понимание нейронок, etc. Их делаю, буквально, под настроение, иногда, чтобы отвлечься от более крупных задач.
+- Choose books I want to read and sort them by priority. I read them sequentially from the top of the list until the end of the sabbatical.
+- Choose 1-2 projects that I really want to work on, and adjust their scopes to fit the remaining time, so I can produce something finished.
+- Add various mandatory tasks, like "furnish the apartment", "go on vacation" — these tasks usually have soft deadlines and automatically arrange themselves in chronological order.
+- Choose a group of small tasks that I would like to do, but can skip if I don't have time. For example, try a new programming language, play a game, improve my understanding of neural networks, etc. I work on them, literally, based on my mood, sometimes to distract myself from larger tasks.
 
-В итоге решаешь бытовуху, основное время тратишь на проекты, книги читаешь по настроению — так время и проходит.
+So, I work on mundane tasks, spend most of my time on primary projects, and read books when my mood and time allow it — that's how time passes.
 
-В-третьих, не перегорите! Удалёнщикам и фрилансерам это проще понять, без опыта работы из дома — сложнее.
+Thirdly, don't burn out! It's easier to understand for remote workers and freelancers, but people without experience of remote work may find it harder tograsp.
 
-В творческом отпуске у вас нет формальных выходных и рабочих часов — очень легко начать пахать по 12 часов в день 7 дней в неделю и заметить это, только когда выгорите. Помните, вы не железные — телу и мозгу всё равно нужен отдых, даже если вы занимаетесь любимыми делами.
+You have no formal weekends and working hours during a sabbatical — it's very easy to start working 12 hours a day, 7 days a week, and only notice it when you burn out. Remember, you're not a machine — your body and mind also need rest, even if you're doing what you like.
 
-В-четвёртых, не прогуляйте время. Как противоположность предыдущему пункту, но, что забавно, они часто идут парой. Легко выгореть и постепенно начать работать всё меньше и меньше, при этом не отдыхая нормально в свободное время. В итоге вы просто потратите время, ничего не добившись.
+Fourthly, don't waste your time. It is the opposite of the previous point, but, amusingly, they often go hand in hand. It's easy to burn out and gradually start working less and less, while not resting properly in your free time. In the end, you just waste your time without achieving anything.
 
 ## Профит от регулярных творческих отпусков
 
