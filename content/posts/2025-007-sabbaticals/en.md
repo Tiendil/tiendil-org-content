@@ -288,28 +288,32 @@ Of cause, if you have such a problem. I'm not sure if it's a common thing, maybe
 
 **Growth in income**. I have returned from sabbaticals with a multiple increase in income. This is due to rethinking my experience, understanding what I want and what I can do. But this is not guaranteed. So far, there are only two control points, but if I achieve a third multiple increase, then we can talk about a pattern and a success story.
 
-## Минусы творческих отпусков
+## Disadvantages of sabbaticals
 
-**Жрут деньги** — неизбежное зло, причём в двух ипостасьях.
+**They eat money** — an inevitable evil that comes in two forms.
 
-Во-первых, вы съедаете свою подушку безопасности.
+First, you burn through your financial cushion.
 
-Во-вторых, вы не зарабатываете деньги. Вы теряете не только те деньги, которые проели, но и те, которые могли бы заработать — это может быть очень существенной суммой.
+Second, you don't earn money. You lose not only the money you spent, but also the money you could have earned — this can be a significant amount.
 
-В этом плане я ставлю на кратный рост дохода после отпуска и пока работает. Если бы не форс-мажоры на нашей планете и релокации, я бы сказал, что работает хорошо. Но что работает для меня в моей ситуации, не факт, что будет работать для вас в вашей ситуации. Плюс, абсолютно невозможно утверждать, что просто прыгая между конторами мой доход рос бы медленнее. Вполне возможно, я был бы при больших деньгах, но грустный, с синяками под глазами и перегаром.
+I’m wagering that my pay will multiply after each sabbatical, so far the bet has paid off. If global upheavals and constant relocations hadn’t got in the way, I’d call it a clear-cut win.
 
-**Непонимание окружающих**. Особенно родственников, конечно. На постсоветском пространстве «не работать» не то чтобы прям не принято, это как-то позорно, страшно, да и непонятно просто.
+However, what works for me in my situation might not work for you in yours. There’s also no proof that plain old job-hopping would have grown my salary less. It is possible that I would have been making more money, but I would be sad, with dark circles under my eyes and smelling of booze.
 
-В моём случае я на самообеспечении с университета, помогаю родителям, поэтому рычагов влияния на меня никаких нет, отчего мы особо эти авантюры и не обсуждаем, но по глазам-то я всё вижу :-)
+**Lack of understanding from people around**. Especially from relatives, of course. In the post-Soviet space, the long period without working is not exactly a norm, it is considered shameful, scary, and just incomprehensible.
 
-**Пробелы в резюме**. Необходимо уметь объяснять чем конкретно и почему ты занимался, так сказать, правильно рассказать историю и спозиционировать себя. Если всё сделать грамотно, то это будет плюс к резюме (для толковых работодателей), если неправильно — минус.
+In my case I am on self-support from the university while helping my parents, so there are no levers of influence on me, which is why we don't discuss these adventures much, but sometimes I can see the concern in their eyes :-)
 
-**Временное снижение части рабочих навыков**. Поскольку творческий отпуск предполагает смену деятельности, то часть стандартных рабочих навыков длительное время останется невостребованной. После возвращения к обычной работе они довольно быстро востановятся, но при поиске работы и в первые месяцы может быть сложнее.
+**Gaps in the resume**. You will have to explain what you were doing during the sabbatical, and why you were doing it. If you don't have a good answer, it can be a red flag for potential employers.
 
-В моём случае, например, страдают коммуникационные навыки, потому что я закрываю свои дела в одиночку и реже общаюсь с людьми. Если, например, вы решите год кататься по конференциям, то ваша коммуникация, наоборот, улучшится, но просядут какие-нибудь более прикладные навыки, например, кодинг.
+I'm not sure if modern automated resume filters can properly assess such a situation — you might end up in a big trouble if you're aiming for big companies.
 
-## Итого
+**Temporary decrease in some work skills**. Since a sabbatical implies a change of activity, some standard work skills will remain unused for a long time. After returning to regular work, they will recover fairly quickly, but it may be harder to find a job and in the first months of it.
 
-Как говорит один известный персонаж — «Это мой путь ниндзя».
+In my case, for example, communication skills suffer because I work on my own and communicate with people less often. If, for example, you decide to spend a year attending conferences, your communication skills will improve, but some more practical skills, like coding, may suffer.
 
-Мне этот путь нравится и я его вам, конечно, советую, но ответственность за последствия брать на себя не буду :-)
+## Conclusion
+
+How one of well-known characters says — "That is my nindō! My ninja way!".
+
+I like this path and I recommend it to you, but I won't take responsibility for the consequences :-)
