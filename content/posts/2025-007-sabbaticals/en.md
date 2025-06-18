@@ -166,21 +166,31 @@ Let's walk through each point. But remember — these are my thoughts based on m
 
 ### Goals of a sabbatical
 
-T
-Теоретически, в творческий отпуск можно идти и без внятных целей, в надежде сформулировать их в процессе. Скорее всего, молодые люди так и делают, когда берут `gap year`. Или цель может быть одна, в духе «понять что за дичь происходит в моей жизни», что есть то же самое.
+Theoretically, one can go on a sabbatical without clear goals, hoping to formulate them in the process. Most likely, young people do just that when they take a `gap year`. Or the goal can be as simple as "understand what the hell is going on in my life", which is the same thing as no goals.
 
-Я такой подход не разделяю — даже будучи подростком, я был довольно осознанным молодым человеком — всегда мог сказать чем бы мне было интересно заняться, если бы у меня было больше времени.
+I don't share this approach — even as a teenager, I was a pretty conscious young person — I could always say what I would be interested in doing if I had more time.
 
-Если вы, как я, практикуете осознанность (странно, что у меня до сих пор нет поста на эту тему) — то есть следите за своими мыслями, анализируете их, отслеживаете свои интересы, то у вас, как и у меня, со временем будет копиться большой долг несделанного, необдуманного, etc.
+If you, like me, practice [metacognition](https://en.wikipedia.org/wiki/Metacognition) (strange that I still don't have a post on this topic) — monitor your thoughts, analyze them, track your interests, you’ll soon find yourself with an ever-growing backlog of things left undone and unexamined.
 
-Часть такого долга может иметь вполне физическую природу, например, маячить в виде полуметровой стопки книг в углу комнаты.
+/// note | Don't confuse with mindfulness
 
-Так вот, если у вас в голове постоянно висит такой список, то он вас раздражает, иногда даже бесит — 100%. Если вы словили себя на мысли, что раздражение слишком сильное, то варианта у вас ровно два:
+Initially, I used the term [mindfulness](https://en.wikipedia.org/wiki/Mindfulness), but Wikipedia and ChatGPT corrected me to metacognition, which is a more accurate term.
 
-- либо принудительно очистить его — твёрдо решить «вот это и вот это я точно делать никогда не буду»;
-- либо идти в творческий отпуск и закрывать долги.
+Mindfulness is about sensations without analysis, it goes in pair with various meditations, which I don't understand at all.
 
-Если вы выбрали второй варинт, то этот список и есть ваш набор целей на отпуск. Про его приоритезацию поговорим чуть позже.
+Metacognition, on the other hand, is about analysis and synthesis — active observation and modification.
+///
+
+Part of such backlog can manifest itself in a pretty physical form like a half-meter stack of books in the corner of the room.
+
+So, if you constantly have such a list in your head, it will irritate you, sometimes even piss you off — I'm sure of it.
+
+When you catch yourself thinking that the irritation is too strong, you have two options:
+
+- Either forcefully clear it — firmly decide "I will never do this and that";
+- Or go on a sabbatical and try to complete the backlog.
+
+If you chose the second option, then this list is your set of goals for the sabbatical. We'll talk about prioritizing it later.
 
 ### Решение вопросов с работодателем
 
