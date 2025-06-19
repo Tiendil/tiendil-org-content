@@ -24,8 +24,7 @@ The most interesting posts are highlighted in bold.
 
 You may also be interested in visiting the [Russian version of the blog]{absolute:/ru/posts/best}. It contains much more content, as I’ve been blogging in Russian since 2013 and only started writing bilingual posts in 2024. Over time, I plan to translate all my posts into English, but this requires a lot of time and effort.
 
-<!-- TODO: uncomment when there be interesting posts about thinking -->
-<!-- ## Thinking -->
+## Thinking
 
 /// brigid-collection
 id = "interesting-about-thinking"

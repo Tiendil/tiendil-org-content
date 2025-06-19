@@ -1,6 +1,6 @@
 ---
 title = "Итоги 2020 года для меня и блога"
-tags = [ "blog", "practice", "reflection",]
+tags = [ "blog", "practice", "reflection", "results-of-the-year"]
 published_at = "2020-12-31T12:00:00+00:00"
 seo_description = "Расскажу чем занимался весь год, сколько чего прочитал, сколько написал, какие посты считаю лучшими и что планирую на год следующий."
 seo_image = "images/results-of-2020-for-me-and-the-blog-cover.jpg"

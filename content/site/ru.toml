@@ -122,6 +122,7 @@ databases = "базы данных"
 fiction-books = "художественные книги"
 professional-books = "профессиональные книги"
 popular-science-books = "научно-популярные книги"
+results-of-the-year = "итоги года"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'
