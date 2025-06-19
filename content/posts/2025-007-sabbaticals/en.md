@@ -71,32 +71,32 @@ My first sabbatical was not a conscious decision (in the sense "I'm taking a sab
 
 The second one was taken consciously, but I wasn't sure if it was the right decision. During it, I realized that sabbaticals suit me, and I want to continue practicing them.
 
-Now I'm finishing my third sabbatical, which I entered with a full understanding of what I'm doing and why.
+Now, I'm finishing my third sabbatical, which I entered with a complete understanding of what I'm doing and why.
 
 ## Why I take sabbaticals
 
-I won't try to advise you whether to take a sabbatical or not — it's a very personal decision that depends on your specific context and how you see your future.
+I won't try to advise you whether to take sabbaticals or not — it's a very personal decision that depends on your specific context and how you see your future.
 
-Hovever, I can tell you why I'm doing this.
+Hovever, I can tell you why I do this.
 
-I’ll break it into two parts: first, I’ll sketch the basic "theory" of how I function, and then I’ll give a concrete list of my reasons for taking sabbaticals.
+I’ll break the explanation into two parts: first, I’ll sketch the basic "theory" of how I function, and then I’ll give a concrete list of my reasons for taking sabbaticals.
 
 ### How Tiendil distributes his time
 
-I’m wired so that I can handle only two big "projects" a day. For example, I can work for money during the day and read complex books in the evening. Or work for money during the day and work on personal projects in the evening.
+I’m wired so that I can handle only two big "projects" a day. For example, I can work for money during the day and read complex books in the evening. Or work for money during the day and dedicate the evening to personal projects.
 
 If I concentrate really hard, I can break my life into three big tracks: two during the workdays (day and evening) and one on weekends.
 
-It is my limit. I can't working on four big things for a long time with the level of dedication that I usually have.
+It is my limit. I can't work on four big things for a long time with the level of dedication that I usually have.
 
-When it really matters, I can overdose on caffeine and work in super mode for 1-2 months, but the consequences will be sad, and with age, they become worse and worse. Besides, the super mode is often required for fixing planning mistakes on one of the main tracks.
+When it really matters, I can overdose on caffeine and work in super mode for 1-2 months, but the consequences will be sad, and with age, they become worse and worse. Additionally, the super mode is often necessary for correcting planning mistakes on one of the main tracks.
 
-For better or worse I have more than three interests — you can notice it even by the list of tags on the [main page of the blog]{absolute:/en}.
+For better or worse, I have more than three interests — you can notice it even by the list of tags on the [main page of the blog]{absolute:/en}.
 
 Of course, it's impossible to do everything at once. Therefore, evolutionarily, my interests have consolidated into the following tracks:
 
 - **Paid work** — this is what I do for money.
-- **Personal projects** — I always have one or two active projects. For example, right now it's [Feeds Fun](https://feeds.fun/) and prototyping a game while learning Rust and Godot.
+- **Personal projects** — I always have one or two active projects. For example, currently, I'm working on [Feeds Fun](https://feeds.fun/) and prototyping a game while learning Rust and Godot.
 - **Self-education** — this includes a lot of things, but mainly it’s reading [technical]{tags:professional-books} and [popular science]{tags:popular-science-books} literature, plus [blogging]{post:thinking-through-writing}.
 
 Have I forgotten anything?..
