@@ -1,6 +1,6 @@
 ---
 title = "Открываем лор Сказки под лицензией CC BY 4.0"
-tags = ["practice", "development", "gamedev", "game-design", "open-source", "the-tale", "mmo", "best", "world-design"]
+tags = ["practice", "development", "gamedev", "game-design", "open-source", "the-tale", "mmo", "best", "interesting", "world-design"]
 published_at = "2024-12-10T17:00:00+00:00"
 seo_description = "Мы 12 лет делали текстовую Zero Player MMORPG на русском языке и теперь открываем лор игры под лицензией CC BY 4.0."
 seo_image = ""

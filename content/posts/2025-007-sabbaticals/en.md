@@ -1,6 +1,6 @@
 ---
 title = "My sabbaticals"
-tags = [ "practice", "reflection", "education", "best"]
+tags = [ "practice", "reflection", "education", "best", "thinking", "interesting" ]
 published_at = "2025-06-19T12:00:00+00:00"
 seo_description = "I discuss my personal experience of taking sabbaticals."
 seo_image = "cover.jpg"
