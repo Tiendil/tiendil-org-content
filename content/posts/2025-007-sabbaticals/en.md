@@ -13,9 +13,9 @@ caption = "A game developer reading a book in the middle of a sabbatical, in the
 
 My friends and readers know that I often take sabbaticals.
 
-How often? Formally, all my periods of working for other people for money are separated by periods around two years long of "working" "for myself" "for free" — the number of quotes may vary. Except for the first two times, when I jumped straight from Itransition to Wargaming right after university. However, the first year and a half at Wargaming was precisely what my soul wanted, for which I thank all my former colleagues — a kind of paid sabbatical :-D but we won't count that period.
+How often? Formally, all my periods of working for other people for money are separated by periods around two years long of "working" "for myself" "for free" — the number of quotes may vary. Except for the first two times, when I jumped straight from Itransition to Wargaming right after university. However, the first year and a half at Wargaming was exactly what my soul craved, for which I thank all my former colleagues — a kind of paid sabbatical :-D but we won't count that period.
 
-Based on this information, one can hypothesize a lot about me, for example, that I'm loaded with money (I'm not), that I'm lazy (I hope not), or that I'm incredibly lucky (I don't think so). I can only imagine what my relatives and parents feel about all of this. By the end of the first sabbatical, I could clearly see sadness and hopelessness on their faces, but by the third time, they seemed to have gotten used to it or resigned themselves — who knows.
+Based on this information, one can hypothesize a lot about me, for example, that I'm loaded with money (I'm not), that I'm lazy (I hope not), or that I'm incredibly lucky (I don't think so). I can only imagine what my relatives and parents think about all of this. By the end of the first sabbatical, I could clearly see sadness and hopelessness on their faces, but by the third time, they seemed to have gotten used to it or resigned themselves — who knows.
 
 People periodically ask me why I spend time on these adventures, what I do during them, where I get the money from, and so on.
 
@@ -27,7 +27,7 @@ Let's talk about it.
 
 For residents of the post-Soviet space, a sabbatical is a wild, unfamiliar concept.
 
-The average resident of Belarus, Ukraine, Russia (and any other post-Soviet country) has only heard that poets or artists sometimes go on something called a "creative vacation", often resembling a binge.
+The average resident of Belarus, Ukraine, Russia (and any other post-Soviet country) has only heard that poets or artists sometimes go on something called a "creative vacation", often resembling a drinking binge.
 
 For Western civilization, "sabbatical" is a much more common and understandable concept, deeply rooted in culture.
 
@@ -48,7 +48,7 @@ So, for myself, I use an extensive definition:
 
 > A sabbatical is a period when a person prioritizes their time and efforts to improve themselves and their surroundings.
 
-In the opposite of work or standardized study, when a person spends themselves on fulfilling external KPIs.
+As opposed to regular work or formal study, where you spend yourself meeting external KPIs.
 
 Let's point our attention to some consequences of this definition:
 
@@ -115,13 +115,13 @@ Since in a standard mode, I can only maintain two tracks (and my wife!), and I l
 
 ### On what exactly Tiendil lacks time
 
-Because of the lack of time to the third track, a kind of "technical debt" accumulates. But this debt is not in code, but in, mmm… self-improvement.
+Because at least one track is always idle, a sort of technical debt builds up. But this debt is not in code, but in, mmm… self-improvement.
 
 Here is how it manifests.
 
-Ideas (weird kind) accumulate that you can't test at work due to your responsibility to your employer. Some approaches, architectures, and technologies are not right to test for someone else's money, but it's fine to test in your own projects, after which successful cases can be brought to work.
+Sketchy ideas accumulate that you can't test at work due to your responsibility to your employer. Some approaches, architectures, and technologies are not right to test for someone else's money, but it's fine to test in your own projects, after which successful cases can be brought to work.
 
-Grows the number of ideas for projects that would be interesting to implement. For some time, I dumped some of them into [concept documents for games]{tags:concepts}, but that only works for games and only if it is enough to just toy with the idea without implementing it.
+Project ideas pile up that would be fun to realise. For some time, I dumped some of them into [concept documents for games]{tags:concepts}, but that only works for games and only if it is enough to just toy with the idea without implementing it.
 
 Books also accumulate. In my case, these are often popular science books related to thinking, evolution, or, as in this sabbatical, a collection of books on management. Since I prefer physical books with hard covers, they accumulate quite literary — in the form of a stack in one of the corners.
 
@@ -158,7 +158,7 @@ For a productive sabbatical, you need to:
 
 - Have a list of goals you want to achieve.
 - Resolve questions with your employer somehow.
-- Get money.
+- Secure the money.
 
 Let's walk through each point. Please remember, these are my thoughts based on my experience. You are not me; your situation may be different.
 
