@@ -103,15 +103,15 @@ Have I forgotten anything?..
 
 Well, of course, I have a wife (!) — my beloved person, who must be prioritized above all these tracks. Usually, I manage to do this, but there is always room for improvement.
 
-Moreover, I'm a human being, not a robot. I love watching TV series, playing games, traveling — all that stuff. Sometimes you need to rest, to bring your psyche back in order.
+Moreover, I'm a human being, not a robot. I love watching TV series, playing games, traveling — all that stuff. Sometimes, you need rest to bring your psyche back in order.
 
-Usually, a single track is occupied by a single project. Having multiple projects on a one track is difficult — most of what I do is rather long-term stuff, and if I'll split my attention, nothing will be finished. If I rotate projects, I usually do it with less priority things that are not urgent and don't require constant attention.
+Typically, a single track is dedicated to a single project. Having multiple projects on one track is difficult — most of what I do is rather long-term stuff, and if I split my attention, nothing will be finished. If I rotate projects, I usually do it with less-priority projects that are not urgent and don't require constant attention.
 
-I can’t give up my personal projects or my self-learning — I kinda need them. Without those things I will fill, mmm… not boredom but kind of emotional pain. Especially without pet projects.
+I can’t give up my personal projects or my self-learning — I kinda need them. Without those things, I will feel, mmm… not boredom but a kind of emotional pain, especially without pet projects.
 
 I envy people whose work perfectly matches their professional interests. Finding a well-paid job related to, say, genetic algorithms or developing experimental MMORPGs is quite difficult :-D So I usually work in an interesting but not ideal job. For example, writing backend for mobile games.
 
-Since in a standard mode I can only maintain two tracks (and my wife!) and I love to eat, the tracks are paid work plus personal projects. Self-education suffers because I don't have the energy to seriously learn something after work. Again, this is my peculiarity: I can easily generate ideas or code for 12 hours a day, but modifying my brain with something complex can only be done for about four hours when I'm fresh. I read documentation with pleasure, but reading something like [Scale]{post:@choose-nearest-language:scale} requires me to set aside time specifically for it.
+Since in a standard mode, I can only maintain two tracks (and my wife!), and I love to eat, the tracks are paid work and personal projects. Self-education suffers because I don't have the energy to seriously learn something after work. Again, this is my peculiarity: I can easily generate ideas or code for 12 hours a day, but modifying my brain with something complex can only be done for about four hours when I'm fresh. I read documentation with pleasure, but reading something like [Scale]{post:@choose-nearest-language:scale} requires me to set aside time specifically for it.
 
 ### On what exactly Tiendil lacks time
 
