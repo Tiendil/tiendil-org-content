@@ -2,11 +2,9 @@
 title = "My sabbaticals"
 tags = [ "practice", "reflection", "education", "best"]
 published_at = "2025-06-18T12:00:00+00:00"
-seo_description = "I talk about my personal experience of going on sabbaticals."
+seo_description = "I discuss my personal experience of taking sabbaticals."
 seo_image = "cover.jpg"
 ---
-
-<!--  Copilot instruction: this file is a ongoing translation from Ru to En. The translation is going from the top to the bottom by rewriting Ru text in English, close to ru wording. I.e. sentence to sentence. The english paragraph is writing on the top of ru paragraph then ru version is removed. The translation shoul follow original "ru" style but may be adapted to better represent ideas in the idiomatic english.-->
 
 /// brigid-images
 src = "cover.jpg"
@@ -15,9 +13,9 @@ caption = "A game developer reading a book in the middle of a sabbatical, in the
 
 My friends and readers know that I often take sabbaticals.
 
-How often? Formally, all my periods of working for other people for money are separated by periods around two years long of "working" "for myself" "for free" — the number of quotes may vary. Except for the first two times, when I jumped straight from Itransition to Wargaming right after university. However, the first year and a half at Wargaming was exactly what my soul wanted, for which I thank all my former colleagues — a kind of paid sabbatical :-D but we won't count that period.
+How often? Formally, all my periods of working for other people for money are separated by periods around two years long of "working" "for myself" "for free" — the number of quotes may vary. Except for the first two times, when I jumped straight from Itransition to Wargaming right after university. However, the first year and a half at Wargaming was precisely what my soul wanted, for which I thank all my former colleagues — a kind of paid sabbatical :-D but we won't count that period.
 
-Based on this information, one can hypothesize a lot about me, for example, that I'm loaded with money (I'm not), or that I'm lazy (I hope not), or that I'm incredibly lucky (I don't think so). I can only imagine what my relatives and parents think about all of this — by the end of the first sabbatical, I could clearly read sadness and hopelessness on their faces; but by the third time, they seemed to have gotten used to it, or resigned themselves — who knows.
+Based on this information, one can hypothesize a lot about me, for example, that I'm loaded with money (I'm not), that I'm lazy (I hope not), or that I'm incredibly lucky (I don't think so). I can only imagine what my relatives and parents feel about all of this. By the end of the first sabbatical, I could clearly see sadness and hopelessness on their faces, but by the third time, they seemed to have gotten used to it or resigned themselves — who knows.
 
 People periodically ask me why I spend time on these avantures, what I do during them, where I get the money from, and so on.
 
@@ -31,7 +29,7 @@ For residents of the post-Soviet space, a sabbatical is a wild, unfamiliar conce
 
 The average resident of Belarus, Ukraine, Russia (and any other post-Soviet country) has only heard that poets or artists sometimes go on something called a "creative vacation", often resembling a binge.
 
-For the western civilization, "sabbatical" is a much more common and understandable concept, deeply rooted in culture.
+For Western civilization, "sabbatical" is a much more common and understandable concept, deeply rooted in culture.
 
 This distinktion is a topic for a separate post. Personally, I understand the difference like this: if you strive to survive, you don't have time for vacations. Moreover, there's no time to establish them in culture. In my opinion, the presence of a concept of a sabbatical shows the real difference in the standard of living and freedom much better than economic indicators.
 
