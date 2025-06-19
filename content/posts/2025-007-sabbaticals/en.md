@@ -148,19 +148,19 @@ For exmaple, during the second sabbatical, my wife and I bought an apartment, so
 
 ## How to plan a sabbatical
 
-A sabbatical is not a vacation and not a sick leave.
+A sabbatical is neither a vacation nor a sick leave.
 
-If you, God forbid, burned out at work — take the vacation you are entitled to and rest. Or take a sick leave if it's possible in your country.
+If you, God forbid, are burned out at work — take the vacation you are entitled to and rest. Or take a sick leave if it's possible in your country.
 
-If you have a midlife crisis, maybe you need a subbatical to rethink your life, however, maybe you just need to take your bank card and buy a motorcycle, continuing to live as usual.
+If you have a midlife crisis, maybe you need a sabbatical to rethink your life; however, perhaps you just need to take your bank card and buy a motorcycle, continuing to live as usual.
 
 For a productive sabbatical, you need to:
 
 - Have a list of goals you want to achieve.
-- Somehow resolve questions with your employer.
+- Resolve questions with your employer somehow.
 - Get money.
 
-Let's walk through each point. But remember — these are my thoughts based on my experience. You are not me, your situation may be different.
+Let's walk through each point. Please remember, these are my thoughts based on my experience. You are not me; your situation may be different.
 
 ### Goals of a sabbatical
 
