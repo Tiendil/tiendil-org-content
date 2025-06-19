@@ -144,7 +144,7 @@ That's why, as I understand it, people often take shorter sabbaticals without ch
 
 Besides the accumulation of such debt, sometimes life brings tasks that are simply more comfortable to complete without obligations to spend 8 hours a day at work.
 
-For exmaple, during the second sabbatical, my wife and I bought an apartment, sold it back (yep, unlucky we) and moved to Poland. At the beginning of the third sabbatical, I moved to my wife in Germany, where I was busy setting up our household — it took a year to close all the tasks related to the move (yes, we have a family project in Jira). Could I have done this while continuing to work? — Of course. Would the salary compensate for the loss of nerves and health? Not sure.
+For example, during the second sabbatical, my wife and I bought an apartment, sold it back (yep, unlucky we) and moved to Poland. At the beginning of the third sabbatical, I moved to my wife in Germany, where I was busy setting up our household — it took a year to close all the tasks related to the move (yes, we have a family project in Jira). Could I have done this while continuing to work? — Of course. Would the salary compensate for the loss of nerves and health? Not sure.
 
 ## How to plan a sabbatical
 
@@ -168,7 +168,7 @@ Theoretically, one can go on a sabbatical without clear goals, hoping to formula
 
 I don't share this approach — even as a teenager, I was a pretty conscious young person — I could always say what I would be interested in doing if I had more time.
 
-If you, like me, practice [metacognition](https://en.wikipedia.org/wiki/Metacognition) (strange that I still don't have a post on this topic) — monitor your thoughts, analyze them, track your interests, you’ll soon find yourself with an ever-growing backlog of things left undone and unexamined.
+Suppose you, like me, practice [metacognition](https://en.wikipedia.org/wiki/Metacognition) (strange that I still don't have a post on this topic) — monitor your thoughts, analyze them, track your interests. In that case, you’ll soon find yourself with an ever-growing backlog of things left undone and unexamined.
 
 /// note | Don't confuse with mindfulness
 
@@ -179,13 +179,13 @@ Mindfulness is about sensations without analysis, it goes in pair with various m
 Metacognition, on the other hand, is about analysis and synthesis — active observation and modification.
 ///
 
-Part of such backlog can manifest itself in a pretty physical form like a half-meter stack of books in the corner of the room.
+Part of such a backlog can manifest in a fairly physical form, such as a half-meter stack of books in the corner of the room.
 
 So, if you constantly have such a list in your head, it will irritate you, sometimes even piss you off — I'm sure of it.
 
-When you catch yourself thinking that the irritation is too strong, you have two options:
+When you catch yourself thinking that the irritation is too intense, you have two options:
 
-- Either forcefully clear it — firmly decide "I will never do this and that";
+- Either forcefully clear the backlog — firmly decide "I will never do this and that";
 - Or go on a sabbatical and try to complete the backlog.
 
 If you chose the second option, then this list is your set of goals for the sabbatical. We'll talk about prioritizing it later.
@@ -194,15 +194,15 @@ If you chose the second option, then this list is your set of goals for the sabb
 
 Generally speaking, a sabbatical does not require resignation — especially in the academic environment, where it may even be expected of you.
 
-Outside of academia, it may be harder to take a sabbatical without resigning, but remember that finding and training a new competent employee is a long and expensive process, so a good employer will have motivation to let you go for a while if they are confident in your value. If they are not confident, then the trick won't work.
+Outside of academia, it may be harder to take a sabbatical without resigning, but remember that finding and training a new competent employee is a long and expensive process, so a good employer will have the motivation to let you go for a while if they are confident in your value. If they are not confident, then the trick won't work.
 
-In my case, I always timed my sabbaticals with resignations — it's just more convenient. I haven't found yet a company where I would like to work until retirement, and leaving for a long time in the middle of a project is not very polite for your company and colleagues.
+In my case, I always timed my sabbaticals with resignations — it's just more convenient. I haven't found a company yet where I would like to work until retirement, and leaving for a long time in the middle of a project is not very polite for your company and colleagues.
 
-Also, the cycle "work — subbatical — work — ..." looks quite convinient and logical for me.
+Also, the cycle "work — sabbatical — work — ..." looks quite convenient and logical for me.
 
-I've left jobs by different reasons, but the approach is roughly the same: you bring the current stage of the project to a logical conclusion, when you become less needed, and thus your departure won't hit your colleagues too hard. Then you slip out quietly.
+I've left jobs for different reasons, but the approach is roughly the same: you bring the current stage of the project to a logical conclusion when you become less needed, and thus, your departure won't hit your colleagues too hard. Then you slip out politely.
 
-Of course, all those plans can be heavily influenced by financial circumstances, such as the timing of bonuses, agreements on stock options, etc.
+Of course, all these plans can be heavily influenced by financial circumstances, such as the timing of bonuses, agreements on stock options, etc.
 
 ### The financial side
 
