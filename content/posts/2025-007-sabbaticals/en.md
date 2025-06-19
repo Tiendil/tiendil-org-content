@@ -62,7 +62,7 @@ That's why I see some startup activities, like developing auteur games or trying
 There is no sense in listing all my sabbatical activities — you can read about them in the blog, but I will still briefly list sabbaticals themselves.
 
 1. **2012-2015** — development of the text MMO [The Tale](https://the-tale.org/). The game is stopped, [the lore is available under an open license](https://the-tale.notion.site/), you can check out the [concept document of the game]{post:@choose-nearest-language:the-tale-concept-document} or listen to the [postmortem podcast](https://www.youtube.com/watch?v=5KODCBqhDu0).
-2. **2019-2021** — the sabbatical was focused on improving my thinking methods and polishing my worldview — [detailed report]{post:the-results-of-the-sabbatical-2019-2021}.
+2. **2019-2021** — the sabbatical was focused on improving my thinking methods and polishing my worldview — [detailed report]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}.
 3. **2024-…** — the current sabbatical is dedicated to working on pet projects and improving management theory. See the [2024 report]{post:results-of-2024-for-me-and-the-blog} and all my posts for 2024-2025.
 
 Besides, I practice [annual report posts]{tags:results-of-the-year}, so you can track everything I did in any year since 2020.
