@@ -17,7 +17,7 @@ How often? Formally, all my periods of working for other people for money are se
 
 Based on this information, one can hypothesize a lot about me, for example, that I'm loaded with money (I'm not), that I'm lazy (I hope not), or that I'm incredibly lucky (I don't think so). I can only imagine what my relatives and parents feel about all of this. By the end of the first sabbatical, I could clearly see sadness and hopelessness on their faces, but by the third time, they seemed to have gotten used to it or resigned themselves — who knows.
 
-People periodically ask me why I spend time on these avantures, what I do during them, where I get the money from, and so on.
+People periodically ask me why I spend time on these adventures, what I do during them, where I get the money from, and so on.
 
 Let's talk about it.
 
@@ -31,22 +31,22 @@ The average resident of Belarus, Ukraine, Russia (and any other post-Soviet coun
 
 For Western civilization, "sabbatical" is a much more common and understandable concept, deeply rooted in culture.
 
-This distinktion is a topic for a separate post. Personally, I understand the difference like this: if you strive to survive, you don't have time for vacations. Moreover, there's no time to establish them in culture. In my opinion, the presence of a concept of a sabbatical shows the real difference in the standard of living and freedom much better than economic indicators.
+This distinction is a topic for a separate post. Personally, I understand the difference in this way: if you strive to survive, you don't have time for vacations. Moreover, there's no time to establish them in culture. In my opinion, the concept of a sabbatical highlights the real difference in the standard of living and freedom much more clearly than economic indicators.
 
 /// note | The usage of the term "sabbatical" in this text
 
-The term "creative vacation" (a literal translation of "творческий отпуск" from Russian) has a slightly wider meaning in Russian than the English terms "sabbatical" or "gap year".
+The term "creative vacation" (a literal translation of "творческий отпуск" from Russian) has a slightly broader meaning in Russian than the English terms "sabbatical" or "gap year".
 
-Therefore, since I'm a bearer of the post-Soviet culture, I may use the term sabbatical in a broader sense than it may have in the West.
+Therefore, since I'm a bearer of post-Soviet culture, I may use the term sabbatical in a broader sense than it may have in the West.
 
-However, I still prefer to use "sabbatical" instead of "creative vacation" because the latter sounds weird, loses some nuances of the original meaning, and adds some meanings that are not intended.
+However, I still prefer to use "sabbatical" instead of "creative vacation" because the latter sounds awkward, loses some nuances of the original meaning, and introduces unintended meanings.
 
 Also, I don't see a significant difference between "sabbatical" and "gap year", so I use the term "sabbatical" to refer to both concepts. Maybe this is a consequence of my cultural background.
 ///
 
-So, for myself, I use a very broad definition:
+So, for myself, I use an extensive definition:
 
-> Sabbatical is a period when a person prioritizes their time and efforts on improving themselves and their surroundings.
+> A sabbatical is a period when a person prioritizes their time and efforts to improve themselves and their surroundings.
 
 In the opposite of work or standardized study, when a person spends themselves on fulfilling external KPIs.
 
@@ -59,7 +59,7 @@ That's why I see some startup activities, like developing auteur games or trying
 
 ## My sabbaticals
 
-There are no sense in listing all my sabbatical activities — you can read about them in the blog, but I will still briefly list sabbaticals themselves.
+There is no sense in listing all my sabbatical activities — you can read about them in the blog, but I will still briefly list sabbaticals themselves.
 
 1. **2012-2015** — development of the text MMO [The Tale](https://the-tale.org/). The game is stopped, [the lore is available under an open license](https://the-tale.notion.site/), you can check out the [concept document of the game]{post:@choose-nearest-language:the-tale-concept-document} or listen to the [postmortem podcast](https://www.youtube.com/watch?v=5KODCBqhDu0).
 2. **2019-2021** — the sabbatical was focused on improving my thinking methods and polishing my worldview — [detailed report]{post:the-results-of-the-sabbatical-2019-2021}.
