@@ -15,7 +15,7 @@ My friends and readers know that I often take sabbaticals.
 
 How often? Formally, all my periods of working for other people for money are separated by periods around two years long of "working" "for myself" "for free" — the number of quotes may vary. Except for the first two times, when I jumped straight from Itransition to Wargaming right after university. However, the first year and a half at Wargaming was exactly what my soul craved, for which I thank all my former colleagues — a kind of paid sabbatical :-D but we won't count that period.
 
-Based on this information, one can hypothesize a lot about me, for example, that I'm loaded with money (I'm not), that I'm lazy (I hope not), or that I'm incredibly lucky (I don't think so). I can only imagine what my relatives and parents think about all of this. By the end of the first sabbatical, I could clearly see sadness and hopelessness on their faces, but by the third time, they seemed to have gotten used to it or resigned themselves — who knows.
+Based on this information, one can hypothesize a lot about me, for example, that I'm loaded with money (I'm not), that I'm lazy (I hope not), or that I'm incredibly lucky (I don't think so). I can only imagine what my relatives and parents think about all of this. By the end of the first sabbatical, I could clearly see sadness and hopelessness on their faces, but by the third time, they seemed to have gotten used to it or resigned themselves — who knows. In any case, thanks mom and dad for their support and understanding.
 
 People periodically ask me why I spend time on these adventures, what I do during them, where I get the money from, and so on.
 
