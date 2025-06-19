@@ -260,31 +260,31 @@ Fourthly, don't waste your time. It is the opposite of the previous point, but a
 
 ## Benefits of regular sabbaticals
 
-Again, I can't guarantee that you will have the same results as I do. I will list the benefits based solely on my experience and understanding.
+Again, I cannot guarantee that you will achieve the same results as I did. I will list the benefits based solely on my experience and understanding.
 
-**A handy learning loop emerges: practice->theory->practice->…** On the paid job you develop your practical skills until they outgrow your theoretical understanding of the area; during a sabbatical you catch up on theory until it pulls ahead of your practical skills, then you jump back into practice again.
+**A handy learning loop emerges: practice->theory->practice->…** On the paid job, you develop your practical skills until they outgrow your theoretical understanding of the area; during a sabbatical, you catch up on theory until it pulls ahead of your practical skills, then you jump back into practice again.
 
-Moving in this loop you steadily and quickly grow as a professional. Of course, you can struggle through and catch up on theory while working, but you simply won't have the time and energy to do it properly.
+Moving in this loop, you steadily and quickly grow as a professional. Of course, you can struggle through and catch up on theory while working, but you simply won't have the time and energy to do it properly.
 
 **You get a unique experience**. You work on your own projects, test things you wouldn't test at paid work, read books you wouldn't read otherwise. The experience you gain strengthens your hand when job-hunting, negotiating salary, or backing up your ideas.
 
-For example, I have an experience of the full cycle of MMO game development: from concept to decommissioning. Thanks to this, I find it easier to understand people of various professions and roles both in game development and in software development in general: from QA to product managers and community managers.
+For example, I have experience in the full cycle of MMO game development, from concept to decommissioning. Thanks to this, I find it easier to understand people of various professions and roles both in game development and in software development in general: from QA to product managers and community managers.
 
-I also have a deep understanding of the metaprogramming in Python, thanks to several niche experimental projects I did. This allows me to quickly implement more flexible and reliable solutions.
+I also have a deep understanding of metaprogramming in Python, thanks to several niche experimental projects I've worked on. This allows me to quickly implement more flexible and reliable solutions.
 
-Or, for instance, I made several big architectural mistakes while developing "The Tale", trying to implement my "brilliant" ideas, which I will never repeat in a paid job.
+Or, for instance, I made several big architectural mistakes while developing "The Tale," trying to implement my "brilliant" ideas, which I will never repeat in a paid job.
 
-And let not mention a lot of smaller things I learned along the way.
+And let's not mention the many smaller things I learned along the way.
 
 **You declutter your mind.** — you get rid of the constant irritation and disappointment from unfinished tasks, half-formed thoughts, and so on. It really feels like a weight is lifted off your shoulders, especially when combined with [thinking through writing]{post:thinking-through-writing} practice.
 
-Of cause, if you have such a problem. I'm not sure if it's a common thing, maybe it's just my personal quirks.
+Of course, if you have such a problem. I'm not sure if it's a common thing; perhaps it's just my personal quirk.
 
-**You finish necessary tasks in a comfortable pace**. For example, you don't rush to view apartments at night after a 10-hour workday fixing a bug that cost you 100…0 money, but calmly meet with realtors during the day, with the ability to think and ask the right questions.
+**You finish necessary tasks at a comfortable pace**. For example, you don't rush to view apartments at night after a 10-hour workday fixing a bug that cost the employer 100…0 money, but calmly meet with realtors during the day, with the ability to think and ask the right questions.
 
-**You strengthen your psyche**. The modern culture places a person in a hamster wheel, pushing them to sweat it out without caring about mental stability and health. A sabbatical is an opportunity to step out of the loop, take a breath, and fine-tune the parameters of the wheel for the next run.
+**You strengthen your psyche**. Modern culture places a person in a hamster wheel, pushing them to sweat it out without regard for mental stability and health. A sabbatical is an opportunity to step out of it, take a breath, and fine-tune the parameters of the wheel for the next run.
 
-**Growth in income**. I have returned from sabbaticals with a multiple increase in income. This is due to rethinking my experience, understanding what I want and what I can do. But this is not guaranteed. So far, there are only two control points, but if I achieve a third multiple increase, then we can talk about a pattern and a success story.
+**Growth in income**. I have returned from sabbaticals with a several-fold increase in income. This is due to rethinking my experience, understanding what I want and what I can do. But this is not guaranteed. So far, there are only two control points, but if I achieve a third multiple increase, then we can talk about a pattern and a success story.
 
 ## Disadvantages of sabbaticals
 
@@ -292,26 +292,26 @@ Of cause, if you have such a problem. I'm not sure if it's a common thing, maybe
 
 First, you burn through your financial cushion.
 
-Second, you don't earn money. You lose not only the money you spent, but also the money you could have earned — this can be a significant amount.
+Second, you don't earn money. You lose not only the money you spent but also the money you could have earned — this can be a significant amount.
 
-I’m wagering that my pay will multiply after each sabbatical, so far the bet has paid off. If global upheavals and constant relocations hadn’t got in the way, I’d call it a clear-cut win.
+I’m wagering that my pay will multiply after each sabbatical; so far, the bet has paid off. If global upheavals and constant relocations hadn’t got in the way, I’d call it a clear-cut win.
 
-However, what works for me in my situation might not work for you in yours. There’s also no proof that plain old job-hopping would have grown my salary less. It is possible that I would have been making more money, but I would be sad, with dark circles under my eyes and smelling of booze.
+However, what works for me in my situation might not work for you in yours. There’s also no proof that plain old job-hopping would have grown my salary less. It is possible that I would have been making more money, but I would be sad, with dark circles under my eyes and smelling of booze. Or not, no one knows.
 
-**Lack of understanding from people around**. Especially from relatives, of course. In the post-Soviet space, the long period without working is not exactly a norm, it is considered shameful, scary, and just incomprehensible.
+**Lack of understanding from people around**. Especially from relatives, of course. In the post-Soviet space, a long period without work is not exactly the norm; it is considered shameful, scary, and just incomprehensible.
 
-In my case I am on self-support from the university while helping my parents, so there are no levers of influence on me, which is why we don't discuss these adventures much, but sometimes I can see the concern in their eyes :-)
+In my case, I am on self-support from the university while helping my parents, so there are no levers of influence on me, which is why we don't discuss these adventures much, but sometimes I can see the concern in their eyes :-)
 
-**Gaps in the resume**. You will have to explain what you were doing during the sabbatical, and why you were doing it. If you don't have a good answer, it can be a red flag for potential employers.
+**Gaps in the resume**. You will need to explain what you were doing during the sabbatical and why you chose to do it. If you don't have a good answer, it can be a red flag for potential employers.
 
-I'm not sure if modern automated resume filters can properly assess such a situation — you might end up in a big trouble if you're aiming for big companies.
+I'm not sure if modern automated resume filters can properly assess such a situation — you might end up in big trouble if you're aiming for big companies.
 
 **Temporary decrease in some work skills**. Since a sabbatical implies a change of activity, some standard work skills will remain unused for a long time. After returning to regular work, they will recover fairly quickly, but it may be harder to find a job and in the first months of it.
 
-In my case, for example, communication skills suffer because I work on my own and communicate with people less often. If, for example, you decide to spend a year attending conferences, your communication skills will improve, but some more practical skills, like coding, may suffer.
+In my case, for example, my communication skills suffer because I work independently and communicate with people less frequently. If, for example, you decide to spend a year attending conferences, your communication skills will likely improve, but some more practical skills, such as coding, may suffer.
 
 ## Conclusion
 
-How one of well-known characters says — "That is my nindō! My ninja way!".
+How one of the well-known characters says — "That is my nindō! My ninja way!".
 
-I like this path and I recommend it to you, but I won't take responsibility for the consequences :-)
+I like this path, and I recommend it to you, but I won't take responsibility for the consequences :-)
