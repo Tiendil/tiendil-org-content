@@ -208,29 +208,29 @@ Of course, all these plans can be heavily influenced by financial circumstances,
 
 Honestly, I don't know what to write here.
 
-You need money, so you should earn them somehow :-D
+You need money, so you should earn it somehow :-D
 
-Simplifying, you need to know how many money you spend on average per month and how long you plan to be on sabbatical — from this, the minimum budget logically follows. It's better to double it — just in case of force majeure.
+Simplifying, you need to know how much money you spend on average per month and how long you plan to be on sabbatical — from this, the minimum budget logically follows. It's better to double it — just in case of force majeure.
 
-However, as I mentioned, a sabbatical is not a obstacle to earning money. For example, during my first sabbatical, I partially lived from the income from the game.
+However, as I mentioned, a sabbatical is not an obstacle to earning money. For example, during my first sabbatical, I partially lived from the income from the game.
 
-Plus, during my first sabbatical I moved back to my parents' house, which helped me save a good chunk of money.
+Additionally, during my first sabbatical, I moved back to my parents' house, which helped me save a significant amount of money.
 
 So, everything depends on you and your lifestyle.
 
-My style, let's say, is modest: I’m not into clubbing, cars, designer clothes, or any of that. So, my money has tendency to grow — even during university I didn't spend much, and working in IT accelerated this. But this is in the context of Belarus, where being an IT specialist gives some advantages; in Europe, it's just a job.
+My style, let's say, is modest: I’m not into clubbing, cars, designer clothes, or any of that. So, my money has a tendency to grow — even during university, I didn't spend much, and working in IT accelerated this. But this is in the context of Belarus, where being an IT specialist gives some advantages; in Europe, it's just a job.
 
-So, I would say that to be able to go on long sabbaticals, you need to be a seasoned professional who earns decent money. And don't spend it all on cocaine.
+So, I would say, to be able to go on long sabbaticals, you need to be a seasoned professional who earns decent money. And don't spend it all on cocaine.
 
-It is easier when you are a single loner. After meeting my wife, expenses increased, but still manageable :-D We could say that relocations hit our budget harder than sabbaticals.
+It's easier when you're a single loner. After meeting my wife, expenses increased, but they are still manageable :-D We could say that relocations hit our budget harder than sabbaticals.
 
-Additionally, I want to note that when you taking sabbaticals regularly, your financial situation will be completely different each time. Firstly, you grow as a specialist, secondly, you accumulate obligations, and thirdly, have you seen what's happening around?!
+Also, I want to note that when you take sabbaticals regularly, your financial situation will be completely different each time. Firstly, you grow as a specialist, secondly, you accumulate obligations, and thirdly, have you seen what's happening around?!
 
 That's why there are no secrets here, just pure improvisation.
 
 ### Planning a sabbatical
 
-Everithing is simple here:
+Everything is simple here:
 
 - You have a list of goals you want to achieve.
 - You have a budget that you can't exceed.
@@ -239,24 +239,24 @@ So, you sit down and think about what goals you can achieve within the time you 
 
 Here are some nuances.
 
-Firstly, you don't have to plan everything precisely. It's much more important to regularly [synchronize your plans with reality]{post:@choose-nearest-language:life-and-work-with-mistakes}. If you see that you're falling behind — drop some of your plans, if you have free time — add something. It's not fatal even to completely replan your sabbatical in the middle if your worldview has changed.
+Firstly, you don't have to plan everything precisely. It's much more critical to regularly [synchronize your plans with reality]{post:@choose-nearest-language:life-and-work-with-mistakes}. If you notice that you're falling behind, drop some of your plans; if you have free time, add something. It's not fatal even to completely replan your sabbatical in the middle if your worldview has changed.
 
 Secondly, the planning doesn't have to be, mmm… business-like. It's unlikely that you have some strict deadlines for releasing a product called "Make Yourself Better".
 
 How I do it:
 
-- Choose books I want to read and sort them by priority. I read them sequentially from the top of the list until the end of the sabbatical.
-- Choose 1-2 projects that I really want to work on, and adjust their scopes to fit the remaining time, so I can produce something finished.
-- Add various mandatory tasks, like "furnish the apartment", "go on vacation" — these tasks usually have soft deadlines and automatically arrange themselves in chronological order.
-- Choose a group of small tasks that I would like to do, but can skip if I don't have time. For example, try a new programming language, play a game, improve my understanding of neural networks, etc. I work on them, literally, based on my mood, sometimes to distract myself from larger tasks.
+- Choose books I want to read and sort them by priority. I read them sequentially from the top of the ~~list~~ stack until the end of the sabbatical.
+- Choose 1-2 projects that I really want to work on, and adjust their scopes to fit the remaining time so I can produce something finished.
+- Add various mandatory tasks, such as "furnish the apartment" or "go on vacation" — these tasks usually have soft deadlines and automatically arrange themselves in chronological order.
+- Choose a group of small tasks that I would like to do but can skip if I don't have time. For example, try a new programming language, play a game, improve my understanding of neural networks, etc. I work on them, literally, based on my mood, sometimes as a distraction from larger projects.
 
 So, I work on mundane tasks, spend most of my time on primary projects, and read books when my mood and time allow it — that's how time passes.
 
-Thirdly, don't burn out! It's easier to understand for remote workers and freelancers, but people without experience of remote work may find it harder tograsp.
+Thirdly, don't burn out! It's easier to understand for remote workers and freelancers, but people without experience in remote work may find it harder to grasp.
 
 You have no formal weekends and working hours during a sabbatical — it's very easy to start working 12 hours a day, 7 days a week, and only notice it when you burn out. Remember, you're not a machine — your body and mind also need rest, even if you're doing what you like.
 
-Fourthly, don't waste your time. It is the opposite of the previous point, but, amusingly, they often go hand in hand. It's easy to burn out and gradually start working less and less, while not resting properly in your free time. In the end, you just waste your time without achieving anything.
+Fourthly, don't waste your time. It is the opposite of the previous point, but amusingly, they often go hand in hand. It's easy to burn out and gradually start working less and less while not resting properly in your free time. In the end, you'll just waste your time without achieving anything.
 
 ## Benefits of regular sabbaticals
 
