@@ -77,7 +77,7 @@ Now, I'm finishing my third sabbatical, which I entered with a complete understa
 
 I won't try to advise you whether to take sabbaticals or not — it's a very personal decision that depends on your specific context and how you see your future.
 
-Hovever, I can tell you why I do this.
+However, I can tell you why I do this.
 
 I’ll break the explanation into two parts: first, I’ll sketch the basic "theory" of how I function, and then I’ll give a concrete list of my reasons for taking sabbaticals.
 
@@ -127,26 +127,26 @@ Books also accumulate. In my case, these are often popular science books related
 
 /// note | On reading speed
 
-Sometimes I meet stories about people reading 100 books a year. Frankly, I don't believe them — there is some part of the story they're not telling.
+Sometimes, I hear stories about people reading 100 books a year. Frankly, I don't believe them — there is some part of the story they're not telling.
 
-Of course, I can pass the letters of 100 books through myself fast enough, but it won't bring any value — the information won't be absorbed, the brain won't be rewired.
+Of course, I can pass the letters of 100 books through myself fast enough, but it won't bring any value — the information won't be absorbed, and the brain won't be rewired.
 
-The stunt of fast reading works only with fiction, when you're reading for the flow of the story, not for absorbing new information. And even in that case, likely, only with light fiction, like [Harry Potter]{post:about-book-harry-potter}.
+The stunt of fast reading works only with fiction when you're reading for the flow of the story, not for absorbing new information. And even in that case, likely only with light fiction, like [Harry Potter]{post:about-book-harry-potter}.
 
-If a person claims to have read 100, say, popular science books in a year, then, in my opinion, either those books have no useful content, or they contain information already known to the person, or they just skimmed through the letters without absorbing anything. Or the person have been doing nothing but reading for a year, which is a fun but a rare case.
+If a person claims to have read 100, say, popular science books in a year, then, in my opinion, either those books have no valuable content, or they contain information already known to the person, or they just skimmed through the letters without absorbing anything. Or the person has been doing nothing but reading for a year, which is a fun but rare case.
 ///
 
-Let not forget about the accumulation of work experience, that should be processed and digested: gathered together, broken down into parts through analysis, synthesized into a form convenient for the brain, and put back inside. Peferably all this should be done through [writing a blog post]{post:thinking-through-writing}. Doing this in parallel with work is difficult, although, of course, it has to be done.
+Let us not forget about the accumulation of work experience that needs to be processed and digested: gathered together, broken down into parts through analysis, synthesized into a form convenient for your brain, and stored back inside. Preferably, all this should be done through [writing a blog post]{post:thinking-through-writing}. Doing this in parallel with work is challenging, although it must be done.
 
-Let's say, to rethink your experience well, you need to put yourself outside the system in which you got this experience — to look at everything from the side. When you're inside the system, in the workflow, it's hard to do this — it is possible for analyzing specific situations, but not for reflecting on a few years of work. To reflect on, for example, the course of a project, you need to pull yourself out of the context.
+To rethink your experience well, you need to put yourself outside the system in which you gained this experience — to look at everything from the side. When you're inside the system, within the workflow, it's challenging to do this — it's possible to analyze specific situations but not to reflect on a few years of work. To reflect on, for example, the course of a project, you need to pull yourself out of the context.
 
-That's why, as I understand, often people go on sabbaticals for a shorter duration without changing jobs. Sabbaticals for two years with resignation are more caused by how life carries me than by any special practice I follow.
+That's why, as I understand it, people often take shorter sabbaticals without changing jobs. Sabbaticals for two years with resignation are more caused by how life carries me than by any special practice I follow.
 
 Besides the accumulation of such debt, sometimes life brings tasks that are simply more comfortable to complete without obligations to spend 8 hours a day at work.
 
-For exmaple, during the second sabbatical, my wife and I bought an apartment, sold it back (yep, unlucky we) and moved to Poland. At the beginning of the third sabbatical, I moved to my wife in Germany where I was busy with setting up our household — it took a year to close all the tasks related to the move (yes, we have a family project in Jira). Could I have done this while continuing working? — Of course. Would the salary compensate for the loss of nerves and health? Not sure.
+For exmaple, during the second sabbatical, my wife and I bought an apartment, sold it back (yep, unlucky we) and moved to Poland. At the beginning of the third sabbatical, I moved to my wife in Germany, where I was busy setting up our household — it took a year to close all the tasks related to the move (yes, we have a family project in Jira). Could I have done this while continuing to work? — Of course. Would the salary compensate for the loss of nerves and health? Not sure.
 
-## How to plan a subbatical
+## How to plan a sabbatical
 
 A sabbatical is not a vacation and not a sick leave.
 
