@@ -1,7 +1,7 @@
 ---
 title = "My sabbaticals"
 tags = [ "practice", "reflection", "education", "best"]
-published_at = "2025-06-18T12:00:00+00:00"
+published_at = "2025-06-19T12:00:00+00:00"
 seo_description = "I discuss my personal experience of taking sabbaticals."
 seo_image = "cover.jpg"
 ---
@@ -87,7 +87,7 @@ I’m wired so that I can handle only two big "projects" a day. For example, I c
 
 If I concentrate really hard, I can break my life into three big tracks: two during the workdays (day and evening) and one on weekends.
 
-It is my limit. I can't work on four big things for a long time with the level of dedication that I usually have.
+That’s my limit. I can't work on four big things for a long time with the level of dedication that I usually have.
 
 When it really matters, I can overdose on caffeine and work in super mode for 1-2 months, but the consequences will be sad, and with age, they become worse and worse. Additionally, the super mode is often necessary for correcting planning mistakes on one of the main tracks.
 
@@ -109,7 +109,7 @@ Typically, a single track is dedicated to a single project. Having multiple proj
 
 I can’t give up my personal projects or my self-learning — I kinda need them. Without those things, I will feel, mmm… not boredom but a kind of emotional pain, especially without pet projects.
 
-I envy people whose work perfectly matches their professional interests. Finding a well-paid job related to, say, genetic algorithms or developing experimental MMORPGs is quite difficult :-D So I usually work in an interesting but not ideal job. For example, writing backend for mobile games.
+I envy — in the best possible way — people whose work perfectly matches their professional interests. Finding a well-paid job related to, say, genetic algorithms or developing experimental MMORPGs is quite difficult :-D So I usually work in an interesting but not ideal job. For example, writing backend for mobile games.
 
 Since in a standard mode, I can only maintain two tracks (and my wife!), and I love to eat, the tracks are paid work and personal projects. Self-education suffers because I don't have the energy to seriously learn something after work. Again, this is my peculiarity: I can easily generate ideas or code for 12 hours a day, but modifying my brain with something complex can only be done for about four hours when I'm fresh. I read documentation with pleasure, but reading something like [Scale]{post:@choose-nearest-language:scale} requires me to set aside time specifically for it.
 

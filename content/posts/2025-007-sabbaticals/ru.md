@@ -1,7 +1,7 @@
 ---
 title = "Про мои творческие отпуска a.k.a. sabbaticals"
 tags = [ "practice", "reflection", "education", "best"]
-published_at = "2025-06-18T12:00:00+00:00"
+published_at = "2025-06-19T12:00:00+00:00"
 seo_description = "Рассказываю про личный опыт хождения в творческие отпуска, a.k.a. sabbaticals."
 seo_image = "cover.jpg"
 ---
