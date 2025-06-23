@@ -10,9 +10,9 @@ seo_image = ""
 I have no deep knowledge of psychology, ethics, philosophy, and related stuff. Most of the following thoughts are extremely subjective and non-canonical. This is my personal opinion, my worldview, my subjective experience. Please keep this in mind.
 ///
 
-Lately: months, years, decades — depending on where you live and what [world models]{post:@choose-nearest-language:life-and-work-with-models} you operate with — there have been many events around that raise difficult questions from the fields of ethics, morality, economics, event psychiatry if you watch some TV shows.
+Lately: months, years, decades — depending on where you live and what [world models]{post:@choose-nearest-language:life-and-work-with-models} you operate with — there have been many events around that raise difficult questions from the fields of ethics, morality, economics, even psychiatry if you watch some TV shows.
 
-Answers to these questions are related to the personality of a person, its real, not imaginary, boundaries; or its form, structure, if you prefer. I perceive this phenomenon as the boundaries that separate acceptable and unacceptable behavior for a person.
+These questions concern a person’s real, not imagined, boundaries; or its form, structure, if you prefer. I perceive this phenomenon as the boundaries that separate acceptable and unacceptable behavior for a person.
 
 <!-- more -->
 
@@ -24,7 +24,7 @@ In the years of plenty, most people do not face boundary questions — there is 
 
 However, the serene life has been interrupted, and we are able to look at people as they are, in all their diversity.
 
-A little part of us already had conscious boundaries or quickly established them. I give them respect, even if their life position is significantly different from mine — honesty with oneself is invaluable.
+A little part of us already had conscious boundaries or quickly established them. Kudos to them, even if their life position is significantly different from mine — honesty with oneself is invaluable.
 
 A larger part of the people, however, are in a permanent shock from the need and inability to reconcile their self-image with their real self.
 
@@ -54,7 +54,7 @@ A thought will not materialize by itself. No matter how much you imagine a beaut
 
 Correspondingly, everything that happens in a person's mind and does not manifest in actions has a very indirect relation to reality and to who they truly are.
 
-One's thoughts about how good they are as a person do not make them a good person. One's thoughts about mass murders, eating children, and raping do not make one a serial killer, a cannibal, or a raper.
+One's thoughts about how good they are as a person do not make them a good person. One's thoughts about mass murders, eating children, and rape do not make one a serial killer, a cannibal, or a rapist.
 
 Only actions can make a person one of these things.
 
@@ -134,7 +134,7 @@ Even if we do not understand the part of the consequences or forget about them, 
 
 Every significant event is the consequence of numerous small actions by many people.
 
-Consequently, **there is no impersonal responsibility, no collective responsibility there are many small big personal responsibilities.**
+Consequently, **there is no impersonal responsibility, no collective responsibility; there are many small big personal responsibilities.**
 
 One can try to ignore this, one can try to deceive oneself, but one cannot erase causality from one's brain. This will only lead to a divergence between the virtual self and the real self, and all the subsequent problems.
 
