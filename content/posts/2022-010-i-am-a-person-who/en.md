@@ -42,9 +42,9 @@ Unfortunately, I definitely do not have the qualifications to teach others how t
 
 I live in a material world. If you live in another (and it is quite possible), then what is written below may look like nonsense to you and will hardly be useful.
 
-**I my world, thoughts materialize through actions and this is the only way for an idea to become reality.**
+**In my world, thoughts materialize through actions, and this is the only way for an idea to become reality.**
 
-A thought will not materialize by itself. No matter how much you imagine a beautiful table in your room, it will not appear there. You have to decide how to get it and take action:
+A thought will not materialize by itself. No matter how much you imagine a beautiful table in your room, it will not appear there. You have to decide how to get it and take an action:
 
 - buy it in a store;
 - craft it in a carpentry workshop;
@@ -52,15 +52,15 @@ A thought will not materialize by itself. No matter how much you imagine a beaut
 - ask friends to gift it to you;
 - etc.
 
-Correspondingly, everything that happens in a person's mind and does not manifests in actions has a very indirect relation to reality and to who they truly are.
+Correspondingly, everything that happens in a person's mind and does not manifest in actions has a very indirect relation to reality and to who they truly are.
 
-One's thoughts about how good he/she as a person do not make them a good person. One's thoughts about mass murders, eating children, raping do not make one a serial killer, a cannibal, a raper.
+One's thoughts about how good they are as a person do not make them a good person. One's thoughts about mass murders, eating children, and raping do not make one a serial killer, a cannibal, or a raper.
 
 Only actions can make a person one of these things.
 
-Moreover, as reasonable people, we should strive to consider problems from all sides, including edge cases. Ideally, we should do a full [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) of each situation (I have experimented with [software for it]{post:@choose-nearest-language:morphological-analysis-prototype}). Including analysis of edge, dangerous and just creepy cases.
+Moreover, as reasonable people, we should strive to consider problems from all sides, including edge cases. Ideally, we should do a complete [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) of each situation (I have experimented with [software for it]{post:@choose-nearest-language:morphological-analysis-prototype}). Including analysis of edge, dangerous, and just creepy cases.
 
-Of course, this is not always possible and necessary, but the ideal state of affairs in my worldview is so.
+Of course, this is not always possible or necessary, but in my worldview, the ideal state of affairs is so.
 
 As the world is material, the boundaries of a person are also defined by actions, not thoughts.
 
@@ -69,7 +69,7 @@ As the world is material, the boundaries of a person are also defined by actions
 Every decision embodied in an action clarifies a person's identity.
 
 /// Note | Does thinking a thought also count as an action?
-One can say that thinking a thought is also an action, since we choose what to think, how much time and energy to spend on a thought. This statement may shake the logic of the essay.
+One can say that thinking a thought is also an action since we choose what to think and how much time and energy to spend on a thought. This statement may shake the logic of the essay.
 
 Indeed, "thinking" is an action in the material world, but the thought/idea itself is still an ephemeral thing.
 
