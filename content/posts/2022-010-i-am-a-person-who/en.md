@@ -12,7 +12,7 @@ I have no deep knowledge of psychology, ethics, philosophy, and related stuff. M
 
 Lately: months, years, decades — depending on where you live and what [world models]{post:@choose-nearest-language:life-and-work-with-models} you operate with — there have been many events around that raise difficult questions from the fields of ethics, morality, economics, even psychiatry if you watch some TV shows.
 
-These questions concern a person’s real, not imagined, boundaries; or its form, structure, if you prefer. I perceive this phenomenon as the boundaries that separate acceptable and unacceptable behavior for a person.
+These questions concern a person’s real, not imagined, boundaries — or their very form and structure, if you prefer. I perceive this phenomenon as the boundaries that separate acceptable and unacceptable behavior for a person.
 
 <!-- more -->
 
@@ -26,9 +26,9 @@ However, the serene life has been interrupted, and we are able to look at people
 
 A little part of us already had conscious boundaries or quickly established them. Kudos to them, even if their life position is significantly different from mine — honesty with oneself is invaluable.
 
-A larger part of the people, however, are in a permanent shock from the need and inability to reconcile their self-image with their real self.
+A larger group of the people, however, are in a state of permanent shock from the need and inability to reconcile their self-image with their real self.
 
-Most people, it seems, decided to ignore reality and stick to the ideal picture of the world, where you are all in white and do not get dirty.
+Most people, it seems, have decided to ignore reality and stick to the ideal picture of the world, where you are all in white and do not get dirty.
 
 We can see this in numerous interviews, discussions on online platforms, and conversations with loved ones. This position is widespread among different people and takes innumerable forms, ranging from "We’ve lived through worse; we’ll just stay put on our little homestead as always" among the older generation to "I’m leaving my country because the client does not want to transfer money to it" among IT specialists.
 
@@ -80,11 +80,11 @@ Accordingly, one can consider the choice of how many resources to spend on think
 
 Since actions shape a person's identity, and our choices determine actions, a person can consciously outline and then change their personality.
 
-For this purpose, I have long come up with a question: **I am a person who does what?** I often asked myself this question in 2020. And at the end of 2021, when it came to relocation.
+For this purpose, I came up with a question long ago: **I am a person who does what?** I often asked myself this question in 2020. And at the end of 2021, when it came to relocation.
 
 The whole question sounds like this: **I am a person who will do what in such-and-such situation?**
 
-Till August 2020, I did not pay much attention to this question. I knew it was important, but I could only understand how vital honest answers to it after facing relevant questions.
+Untill August 2020, I did not pay much attention to this question. I knew it was important, but I could only understand how vital honest answers to it after facing relevant questions.
 
 If one answers this question honestly and acts according to the answers, then "inner peace" may not become ideal, but it will significantly improve. Not to mention planning and other things.
 
@@ -134,7 +134,7 @@ Even if we do not understand the part of the consequences or forget about them, 
 
 Every significant event is the consequence of numerous small actions by many people.
 
-Consequently, **there is no impersonal responsibility, no collective responsibility; there are many small big personal responsibilities.**
+Consequently, **there is no impersonal responsibility, no collective responsibility; there are many small but significant personal responsibilities.**
 
 One can try to ignore this, one can try to deceive oneself, but one cannot erase causality from one's brain. This will only lead to a divergence between the virtual self and the real self, and all the subsequent problems.
 
