@@ -2,45 +2,41 @@
 title = "I am a person who…"
 tags = [ "thinking", "society", "practice", "psychology", "reflection", "theory", "interesting", "best"]
 published_at = "2022-05-08T12:00:00+00:00"
-seo_description = "My thoughts on personal responsibility, decision making and the path to a better self."
+seo_description = "My thoughts on personal responsibility, decision-making, and the path to a better self."
 seo_image = ""
 ---
 
-<!-- Note for copilot: it is a translation of the Russian post to English. The translation is go from top to bottom per paragrpah. I'm writing English version on top of Russian, then remove Ru version and continue with the next paragraph. Paragraph translations must be kept close to the original by meaing and mood.  -->
-
-/// Note |
-
 /// Note | Disclaimer
-I have no deep knowlege of psychology, ethics, philosophy and related stuff. Most of the following thoughts are extremely subjective and non-canonical. This is my personal opinion, my worldview, my subjective experience. Please keep this in mind.
+I have no deep knowledge of psychology, ethics, philosophy, and related stuff. Most of the following thoughts are extremely subjective and non-canonical. This is my personal opinion, my worldview, my subjective experience. Please keep this in mind.
 ///
 
 Lately: months, years, decades — depending on where you live and what [world models]{post:@choose-nearest-language:life-and-work-with-models} you operate with — there have been many events around that raise difficult questions from the fields of ethics, morality, economics, event psychiatry if you watch some TV shows.
 
-Answers to these questions are related to the personality of a person, its real, not imaginary, boundaries. Or its form, structure, if you prefer. I perceive this phenomenon as the boundaries that separate acceptable and unacceptable behavior for a person.
+Answers to these questions are related to the personality of a person, its real, not imaginary, boundaries; or its form, structure, if you prefer. I perceive this phenomenon as the boundaries that separate acceptable and unacceptable behavior for a person.
 
 <!-- more -->
 
 When these boundaries are damaged (broken, bypassed), the person loses integrity, and the person suffers.
 
-When the real boundaries of a person do not match the imaginary ones (their mental model), the person not only suffers, but also makes mistakes in planning. For example, they make promises that they cannot keep (do not confuse with promises that a person does not intend to keep).
+When the real boundaries of a person do not align with their imaginary ones (their mental model), the person not only suffers but also makes mistakes in planning. For example, they make promises that they cannot keep (do not confuse the situation with promises that a person does not intend to keep).
 
-In the years of plenty, most people do not face boundary questions — there is no reason to raise them. And therefore the boundaries of the personality are not tested. One can be guided by the existing picture of the ideal self in one's head, rejoice in life and wonderful people around.
+In the years of plenty, most people do not face boundary questions — there is no reason to raise them. And therefore, the boundaries of the personality are not tested. One can be guided by the existing picture of the ideal self in one's mind, rejoice in life and wonderful people around them.
 
-However, the serene life has been interrupted and we are able to look at people as they are, in all their diversity.
+However, the serene life has been interrupted, and we are able to look at people as they are, in all their diversity.
 
-A little part of us already had conscious boundaries or quickly established them. Much respect to them, even if their life position is significantly different from mine — honesty with oneself is worth a lot.
+A little part of us already had conscious boundaries or quickly established them. I give them respect, even if their life position is significantly different from mine — honesty with oneself is invaluable.
 
-A bigger part of the people, however, are in a permanent shock from the need and inability to reconcile their self-image with their real self.
+A larger part of the people, however, are in a permanent shock from the need and inability to reconcile their self-image with their real self.
 
-The most of people, it seems, decided to ignore reality and stick to the ideal picture of the world, where you are all in white and do not get dirty.
+Most people, it seems, decided to ignore reality and stick to the ideal picture of the world, where you are all in white and do not get dirty.
 
-We can see this in numerous interviews, discussions on online platforms, and conversations with loved ones. This position is widespread among different people and takes numerous forms, ranged from "We’ve lived through worse; we’ll just stay put on our little homestead as always" among the older generation, to "I’m leaving my country because the client does not want to transfer money to it" among IT specialists.
+We can see this in numerous interviews, discussions on online platforms, and conversations with loved ones. This position is widespread among different people and takes innumerable forms, ranging from "We’ve lived through worse; we’ll just stay put on our little homestead as always" among the older generation to "I’m leaving my country because the client does not want to transfer money to it" among IT specialists.
 
 I don't know how many people from the last two groups are aware of these issues. For this essay, it is not so important. The important thing is that there are too many of them, in my opinion.
 
-Such a situation not only scares me, but also makes me angry. I dislike lies, especially when people lie to themselves. It is disgusting, repulsive.
+Such a situation not only scares me but also makes me angry. I dislike lies, especially when people lie to themselves. It is disgusting, repulsive.
 
-Unfortunately, I definitely do not have the qualifications to teach other people how to live. But I can try to describe the model that I use to solve questions about the boundaries of my personality. Maybe it will be useful to someone.
+Unfortunately, I definitely do not have the qualifications to teach others how to live. However I can try to describe the model that I use to solve questions about the boundaries of my personality. Maybe it will be helpful to someone.
 
 ## Materiality of the world
 
