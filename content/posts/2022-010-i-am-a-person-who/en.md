@@ -116,25 +116,25 @@ In answering this question, we'll find help in the concept of causality.
 
 Let us also remember that evolution has given us brains so that we can build models and make decisions based on this very causality.
 
-That's why we are able to predict, understand, and be aware not only of the direct consequences of our actions, but also of the subsequent ones in the chain of cause-and-effect relationships. Those that are caused by the results of our actions.
+That's why we are able to predict, understand, and be aware not only of the direct consequences of our actions but also of the subsequent ones in the chain of cause-and-effect relationships. Those that are caused by the results of our actions.
 
 For example:
 
 - If someone breaks a road sign and, later on, a driver using that stretch of road misses the warning and crashes, the person who broke the sign shares responsibility for the accident.
-- If someone calls an ambulance for an old man lying in the bushes, and the doctors promptly diagnose a stroke and save his life, then that life was saved, in part, by the person who made the call.
-- If someone pays taxes to the state, then part of that money is spent on law enforcement agencies, and thus they are one of the reasons for their lawful, just, heroic deeds.
+- If someone calls an ambulance for an older adult lying in the bushes, and the doctors promptly diagnose a stroke and save his life, then that life was saved, in part, by the person who made the call.
+- If someone pays taxes to the state, then part of that money is spent on law enforcement agencies, and thus, they are one of the reasons for their lawful, just, heroic deeds.
 
 **No matter how many causal steps separate us from the result, we will remain one of its causes.** A small, unnoticed, but a cause.
 
-Once I was surprised to discover that there are many people who ignore causality: "I made a mess here, but it doesn't smell because of me." I will not discuss this group further, as I do not understand them at all.
+Once, I was surprised to discover that many people ignore causality: "I made a mess here, but it doesn't smell because of me." I will not discuss this group further as I do not understand them at all.
 
-For the rest, I believe, it is fair to say that we generally understand the consequences of most of our actions — this is not rocket science or even higher mathematics.
+For the rest, I believe it is fair to say that we generally understand the consequences of most of our actions — this is not rocket science or even higher mathematics.
 
-Even if we do not understand the part of the consequences, or forget about them, we will be reminded by books, news, friends, relatives, and well-wishers on the internet.
+Even if we do not understand the part of the consequences or forget about them, we will be reminded by books, news, friends, relatives, and well-wishers on the internet.
 
 Every significant event is the consequence of numerous small actions by many people.
 
-Consequently, **there is no impersonal responsibility, no collective responsibility, there are many small big personal responsibilities.**
+Consequently, **there is no impersonal responsibility, no collective responsibility there are many small big personal responsibilities.**
 
 One can try to ignore this, one can try to deceive oneself, but one cannot erase causality from one's brain. This will only lead to a divergence between the virtual self and the real self, and all the subsequent problems.
 
