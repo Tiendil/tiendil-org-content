@@ -1,18 +1,22 @@
 ---
-title = "Я — человек, который…"
+title = "I am a person who…"
 tags = [ "thinking", "society", "practice", "psychology", "reflection", "theory", "interesting", "best"]
 published_at = "2022-05-08T12:00:00+00:00"
-seo_description = "Мысли о личной ответсвенности, принятии решений и пути к лучшему себе."
+seo_description = "My thoughts on personal responsibility, decision making and the path to a better self."
 seo_image = ""
 ---
 
-/// Note | Оговорка
-Я посредственно знаком с психологией, этикой, философией и сопутствующими штуками. Большинство следующих соображений крайне субъективны и не каноничны. Это моё личное мнение, моя картина мира, мой субъективный опыт. Пожалуйста, учтите это.
+<!-- Note for copilot: it is a translation of the Russian post to English. The translation is go from top to bottom per paragrpah. I'm writing English version on top of Russian, then remove Ru version and continue with the next paragraph. Paragraph translations must be kept close to the original by meaing and mood.  -->
+
+/// Note |
+
+/// Note | Disclaimer
+I have no deep knowlege of psychology, ethics, philosophy and related stuff. Most of the following thoughts are extremely subjective and non-canonical. This is my personal opinion, my worldview, my subjective experience. Please keep this in mind.
 ///
 
-В последнее время: месяцы, годы, десятилетия — смотря где вы живёте и какими [моделями мира]{post:life-and-work-with-models} оперируете — вокруг происходит много событий, которые ставят сложные вопросы из областей этики, морали, экономики, а если смотреть некоторые телепередачи, то и психиатрии.
+Lately: months, years, decades — depending on where you live and what [world models]{post:@choose-nearest-language:life-and-work-with-models} you operate with — there have been many events around that raise difficult questions from the fields of ethics, morality, economics, event psychiatry if you watch some TV shows.
 
-Ответы на эти вопросы касаются личности человека, её реальных, а не воображаемых, границ. Или её формы, структуры, если так удобнее. Я воспринимаю это явление как границы, которые разделяют допустимое и недопустимое поведение для личности.
+Answers to these questions are related to the personality of a person, its real, not imaginary, boundaries. Or its form, structure, if you prefer. I perceive this phenomenon as the boundaries that separate acceptable and unacceptable behavior for a person.
 
 <!-- more -->
 
