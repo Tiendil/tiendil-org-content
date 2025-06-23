@@ -78,28 +78,28 @@ Accordingly, one can consider the choice of how many resources to spend on think
 
 ## I am a person who…
 
-Since actions shape a person's identity, and actions are determined by our choices, a person can consciously outline and then change their personality.
+Since actions shape a person's identity, and our choices determine actions, a person can consciously outline and then change their personality.
 
 For this purpose, I have long come up with a question: **I am a person who does what?** I often asked myself this question in 2020. And at the end of 2021, when it came to relocation.
 
 The whole question sounds like this: **I am a person who will do what in such-and-such situation?**
 
-Till the August 2020, I did not pay much attention to this question. I knew it was important, but I could only understand how important honest answers to it after facing relevant questions.
+Till August 2020, I did not pay much attention to this question. I knew it was important, but I could only understand how vital honest answers to it after facing relevant questions.
 
-If one answers this question honestly, and acts accordingly the answers, then "inner peace" may not become ideal, but will significantly improve. Not to mention planning and other things.
+If one answers this question honestly and acts according to the answers, then "inner peace" may not become ideal, but it will significantly improve. Not to mention planning and other things.
 
-It is important to understand what an "honest answer" is.
+It is essential to understand what an "honest answer" is.
 
-For example, if a person thinks: "I am a person who will fight evil," but does not go to a hypothetical war because they are afraid of dying, then they have lied to themselves. In reality, they are "a person who will not risk their life to fight evil." At least with that specific evil and in that specific life situation.
+For example, if a person thinks: "I am a person who will fight evil," but does not go to a hypothetical war because they are afraid of dying, then they have lied to themselves. In reality, they are "a person who will not risk their life to fight evil." At least with that specific evil and in that particular life situation.
 
 When a person lies to themselves like this, then, simplifying:
 
 - If they accidentally start acting according to their fantasies (get carried away or do it for show), they will make things worse for themselves and others. For example, they may run away from the battlefield, putting their comrades at risk, and will blame themselves for it for the rest of their life.
-- If they start acting in accordance with their real self, but do not get rid of fantasies, they will struggle with shame and other psychological issues.
+- If they start acting by their real self but do not get rid of fantasies, they will struggle with shame and other psychological issues.
 
-By answering honestly, we [synchronize our world model with reality]{post:@choose-nearest-language:life-and-work-with-mistakes}. This is important in itself, but also it is the first step towards conscious management of one's personality, life and everything else.
+By answering honestly, we [synchronize our world model with reality]{post:@choose-nearest-language:life-and-work-with-mistakes}. This is important in itself, but it is also the first step towards conscious management of one's personality, life, and everything else.
 
-Honesty gives as the foundation on which we can plan future changes. For example, we can start asking questions:
+Honesty gives us the foundation on which we can plan future changes. For example, we can start asking questions:
 
 - **Do I want to be a person who will do this in such-and-such situation?**
 - **What do I need to change in myself to become such a person?**
