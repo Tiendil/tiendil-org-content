@@ -1,4 +1,4 @@
----
+    ---
 title = "I am a person who…"
 tags = [ "thinking", "society", "practice", "psychology", "reflection", "theory", "interesting", "best"]
 published_at = "2022-05-08T12:00:00+00:00"
@@ -20,27 +20,27 @@ Answers to these questions are related to the personality of a person, its real,
 
 <!-- more -->
 
-Если границы нарушаются (разрушаются, обходятся), то личность теряет целостность, человек страдает.
+When these boundaries are damaged (broken, bypassed), the person loses integrity, and the person suffers.
 
-Если реальные границы заметно не совпадают с воображаемыми (с ментальной моделью), человек не только страдает, но делает ошибки в планировании. Например, даёт обещания, которые не может выполнить (не путать с обещаниями, которые человек не собирается выполнять).
+When the real boundaries of a person do not match the imaginary ones (their mental model), the person not only suffers, but also makes mistakes in planning. For example, they make promises that they cannot keep (do not confuse with promises that a person does not intend to keep).
 
-В «сытые» годы большинство людей с проблемными вопросами не сталкивается — нет повода их поднимать. А значит границы личности не проверяются. Можно руководствоваться существующей в голове картиной идеального себя, радоваться жизни и тому, что вокруг такие же прекрасные люди как ты.
+In the years of plenty, most people do not face boundary questions — there is no reason to raise them. And therefore the boundaries of the personality are not tested. One can be guided by the existing picture of the ideal self in one's head, rejoice in life and wonderful people around.
 
-Но вот безмятежная жизнь прервалась и мы можем смотреть на людей как они есть, во всём разнообразии.
+However, the serene life has been interrupted and we are able to look at people as they are, in all their diversity.
 
-Небольшая часть нас уже имела осознанные границы или быстро их установила. Респект им и уважуха, даже если их жизненная позиция существенно отличается от моей — честность перед собой дорогого стоит.
+A little part of us already had conscious boundaries or quickly established them. Much respect to them, even if their life position is significantly different from mine — honesty with oneself is worth a lot.
 
-Существенная часть людей пребывает в перманентном шоке от необходимости и неспособности примирить представление о себе с реальным собой.
+A bigger part of the people, however, are in a permanent shock from the need and inability to reconcile their self-image with their real self.
 
-Основная же часть, похоже, решила игнорировать реальность и придерживаться идеальной картины мира, где ты весь в белом и не пачкаешься.
+The most of people, it seems, decided to ignore reality and stick to the ideal picture of the world, where you are all in white and do not get dirty.
 
-Это можно видеть и в многочисленных интервью, и в обсуждениях на онлайн площадках, и в разговорах с близкими. Такая позиция свойственна разным людям и принимает формы от «бывало и хуже, а мы как сидели на хуторе так и будем сидеть» у старшего поколения, до «я уезжаю, потому что заказчик не хочет переводить деньги в мою страну» у айтишников.
+We can see this in numerous interviews, discussions on online platforms, and conversations with loved ones. This position is widespread among different people and takes numerous forms, ranged from "We’ve lived through worse; we’ll just stay put on our little homestead as always" among the older generation, to "I’m leaving my country because the client does not want to transfer money to it" among IT specialists.
 
-Не возьмусь утверждать какая доля людей из последних двух групп проявляет осознанность в этих вопросах. Для данного эссе это не так важно. Важно, что таких людей слишком много, как по мне.
+I don't know how many people from the last two groups are aware of these issues. For this essay, it is not so important. The important thing is that there are too many of them, in my opinion.
 
-Меня такая ситуация не только пугает, но и злит. Не люблю ложь, особенно когда врут себе. Это противно, мерзко.
+Such a situation not only scares me, but also makes me angry. I dislike lies, especially when people lie to themselves. It is disgusting, repulsive.
 
-К сожалению я определённо не обладаю квалификацией, чтобы учить других людей жить. Но я могу попробовать описать модель, которую я использую для решения вопросов с границами своей личности. Может пригодится кому-нибудь.
+Unfortunately, I definitely do not have the qualifications to teach other people how to live. But I can try to describe the model that I use to solve questions about the boundaries of my personality. Maybe it will be useful to someone.
 
 ## Материальность мира
 
