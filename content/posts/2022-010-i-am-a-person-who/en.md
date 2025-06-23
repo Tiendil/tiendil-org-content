@@ -80,68 +80,68 @@ Indeed, "thinking" is an action in the material world, but the thought/idea itse
 Accordingly, one can consider the choice of how many resources to spend on thinking about a thought as an action, but not the mere existence of the thought. Even in such an interpretation, the existence of a thought does not affect reality.
 ///
 
-## Я — человек, который…
+## I am a person who…
 
-Поскольку личность формируется поступками, а поступки определяются нашим выбором, то человек может осознанно очерчивать, а затем изменять свою личность.
+Since actions shape a person's identity, and actions are determined by our choices, a person can consciously outline and then change their personality.
 
-Для этих целей я давно придумал вопрос: **Я — человек, который что?** Его я часто задавал себе в 2020 году. И в конце 2021, когда дело дошло до релокации.
+For this purpose, I have long come up with a question: **I am a person who does what?** I often asked myself this question in 2020. And at the end of 2021, when it came to relocation.
 
-Полная форма вопроса звучит так: **Я — человек, который в такой-то ситуации совершит какой поступок?**
+The whole question sounds like this: **I am a person who will do what in such-and-such situation?**
 
-До августа 2020 этому вопросу я не придавал много значения. Знал, что он важен, но понять насколько важны честные ответы на него смог только столкнувшись с соответствующими вопросами.
+Till the August 2020, I did not pay much attention to this question. I knew it was important, but I could only understand how important honest answers to it after facing relevant questions.
 
-Если отвечать на вопрос честно и, соответственно ответу, совершать поступки, то «душевное спокойствие» может и не станет идеальным, но значительно улучшится. Не говоря о планировании и прочих штуках.
+If one answers this question honestly, and acts accordingly the answers, then "inner peace" may not become ideal, but will significantly improve. Not to mention planning and other things.
 
-Важно понимать, что такое «честный ответ».
+It is important to understand what an "honest answer" is.
 
-Для примера, если человек думает: «Я человек, который пойдёт воевать со злом», но при этом не идёт на условную войну, потому что боится умереть, то он соврал себе. На самом деле, он «человек, который не будет рисковать своей жизнью, чтобы бороться со злом». По крайней мере с тем конкретным злом и в той конкретной жизненной ситуации.
+For example, if a person thinks: "I am a person who will fight evil," but does not go to a hypothetical war because they are afraid of dying, then they have lied to themselves. In reality, they are "a person who will not risk their life to fight evil." At least with that specific evil and in that specific life situation.
 
-Если человек обманывает себя таким образом, то, утрируя:
+When a person lies to themselves like this, then, simplifying:
 
-- Если он случайно начнёт действовать согласно своим фантазиям (словит кураж или для понтов), то сделаете хуже и себе и другим. Например, сбежит с поля боя, подставив товарищей и будет себя пилить за это до конца жизни.
-- Если он начнёт действовать в согласии с реальным собой, но не избавится от фантазий, то будет бороться со стыдом и прочими психологическими штуками.
+- If they accidentally start acting according to their fantasies (get carried away or do it for show), they will make things worse for themselves and others. For example, they may run away from the battlefield, putting their comrades at risk, and will blame themselves for it for the rest of their life.
+- If they start acting in accordance with their real self, but do not get rid of fantasies, they will struggle with shame and other psychological issues.
 
-Отвечая честно мы [синхронизируем свою модель мира с реальностью]{post:life-and-work-with-mistakes}. Это важно само по себе, но также является первым шагом к осознанному управлению своей личностью, жизнью и всем остальным.
+By answering honestly, we [synchronize our world model with reality]{post:@choose-nearest-language:life-and-work-with-mistakes}. This is important in itself, but also it is the first step towards conscious management of one's personality, life and everything else.
 
-Благодаря честности, мы получаем фундамент, на котором можем планировать будущие изменения. Например, можно начать задавать вопросы:
+Honesty gives as the foundation on which we can plan future changes. For example, we can start asking questions:
 
-- **Я хочу быть человеком, который в такой-то ситуации совершит какой поступок?**
-- **Что мне нужно изменить в себе, чтобы стать таким человеком?**
+- **Do I want to be a person who will do this in such-and-such situation?**
+- **What do I need to change in myself to become such a person?**
 
-В заключительной части эссе я хочу поговорить о части вопроса, которую я закрыл фразой «такая-то ситуация».
+In the final part of the essay, I want to address the aspect of the question I brushed aside with the phrase "such-and-such" situation.
 
-А какая она, эта ситуация? Как её понять?
+What, exactly, is this situation? How are we to make sense of it?
 
-Тут нам на помощь придёт понятие причинности.
+In answering this question, we'll find help in the concept of causality.
 
-## Причинность и ответственность
+## Causality and responsibility
 
-[Причинность](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF_%D0%BF%D1%80%D0%B8%D1%87%D0%B8%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8) — ключевое свойство материального мира. По крайней мере ключевое статистическое свойство его макро части, но не будем придираться — мы как раз живём в рамках макромира и полностью подчиняемся законам причинности.
+[Causality](https://en.wikipedia.org/wiki/Causality) is a key property of the material world. At least, it is a key statistical property of its macro part, but let's not be picky — we live in the macro world and are fully subject to the laws of causality.
 
-Вспомним также, что эволюция дала нам мозги, чтобы мы могли строить модели и принимать решения на основе этой самой причинности.
+Let us also remember that evolution has given us brains so that we can build models and make decisions based on this very causality.
 
-Поэтому мы можем предсказывать, понимать, осознавать не только прямые последствия своих поступков, но и следующие за ними по цепочке причинно-следственных связей. Те, причиной которых являются результаты наших поступков.
+That's why we are able to predict, understand, and be aware not only of the direct consequences of our actions, but also of the subsequent ones in the chain of cause-and-effect relationships. Those that are caused by the results of our actions.
 
-Например, назовём действующее лицо актором:
+For example:
 
-- Если актор сломал дорожный знак, а в будущем водитель на этом участке дороги не увидел предупреждение и попал в аварию, то в аварии виноват и актор.
-- Если актор вызвал скорую для валяющегося в кустах старика, врачи вовремя диагностировали инсульт и спасли тому жизнь, то жизнь спасена, в том числе, и актором.
-- Если актор платит налоги государству, то часть их тратится на силовые структуры и тем самым он является одной из причин их законных, справедливых, героических деяний.
+- If someone breaks a road sign and, later on, a driver using that stretch of road misses the warning and crashes, the person who broke the sign shares responsibility for the accident.
+- If someone calls an ambulance for an old man lying in the bushes, and the doctors promptly diagnose a stroke and save his life, then that life was saved, in part, by the person who made the call.
+- If someone pays taxes to the state, then part of that money is spent on law enforcement agencies, and thus they are one of the reasons for their lawful, just, heroic deeds.
 
-**Сколько бы причинно-следственных шагов не отделяло нас от результата, мы будем оставаться одной из его причин.** Маленькой, незаметной, но причиной.
+**No matter how many causal steps separate us from the result, we will remain one of its causes.** A small, unnoticed, but a cause.
 
-Когда-то для меня стало открытием наличие большого количества людей, которые причинность игнорируют: «я тут нагадил, но пахнет не из-за меня». Эту группу я вынесу из обсуждения, так как вообще их не понимаю.
+Once I was surprised to discover that there are many people who ignore causality: "I made a mess here, but it doesn't smell because of me." I will not discuss this group further, as I do not understand them at all.
 
-Для остальных, я думаю, справедливо утверждение, что мы в общих чертах понимаем следствия большинства наших поступков — это не rocket science и даже не высшая математика.
+For the rest, I believe, it is fair to say that we generally understand the consequences of most of our actions — this is not rocket science or even higher mathematics.
 
-Даже если мы не понимаем часть следствий, или забываем о них, то нам напомнят книги, новости, друзья, родственники, доброжелатели в интернетах.
+Even if we do not understand the part of the consequences, or forget about them, we will be reminded by books, news, friends, relatives, and well-wishers on the internet.
 
-И каждое большое событие является следствием небольших поступков множества людей.
+Every significant event is the consequence of numerous small actions by many people.
 
-Получается, **нет обезличенной ответственности, нет коллективной ответственности, есть много маленьких больших личных ответственностей.**
+Consequently, **there is no impersonal responsibility, no collective responsibility, there are many small big personal responsibilities.**
 
-Можно это игнорировать, можно пытаться обманывать себя, но стереть причинность из своего мозга не получится. Это приведёт только к расхождению виртуального Я с реальным и всем последующим проблемам.
+One can try to ignore this, one can try to deceive oneself, but one cannot erase causality from one's brain. This will only lead to a divergence between the virtual self and the real self, and all the subsequent problems.
 
-Единственное, что мы можем сделать, это принять ответственность и решить как с ней поступить.
+The only way to deal with this is to accept the responsibility and decide what to do with it.
 
-**Вы — человек, который сделает со своими ответственностями что?**
+**You are a person who will do with your responsibilities what?**
