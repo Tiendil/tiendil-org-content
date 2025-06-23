@@ -42,37 +42,43 @@ Such a situation not only scares me, but also makes me angry. I dislike lies, es
 
 Unfortunately, I definitely do not have the qualifications to teach other people how to live. But I can try to describe the model that I use to solve questions about the boundaries of my personality. Maybe it will be useful to someone.
 
-## Материальность мира
+## Materiality of the world
 
-Я живу в материальном мире. Если вы живёте в другом (а так очень даже может быть), то написанное далее может выглядеть для вас как бред и вряд ли будет полезно.
+I live in a material world. If you live in another (and it is quite possible), then what is written below may look like nonsense to you and will hardly be useful.
 
-**В моём мире мысли материализуются через поступки и это единственный способ для идеи воплотиться в реальности.**
+**I my world, thoughts materialize through actions and this is the only way for an idea to become reality.**
 
-Мысль не материализуется сама по себе. Сколько бы вы не представляли красивый стол у себя в комнате, он не появится там. Вы должны решить как его получить и совершить поступок:
+A thought will not materialize by itself. No matter how much you imagine a beautiful table in your room, it will not appear there. You have to decide how to get it and take action:
 
-- купить в магазине;
-- сколотить в столярной мастерской;
-- украсть у соседа;
-- выклянчить подарок у знакомых;
+- buy it in a store;
+- craft it in a carpentry workshop;
+- steal it from a neighbor;
+- ask friends to gift it to you;
 - etc.
 
-Соответственно, всё, что происходит у человека в голове и не продолжается в поступках, имеет крайне опосредованное отношение к реальности и к тому, кто он есть на самом деле.
+Correspondingly, everything that happens in a person's mind and does not manifests in actions has a very indirect relation to reality and to who they truly are.
 
-Мысли о том, какой он хороший, не делают человека хорошим. Мысли о массовых убийствах, поедании детей, насилии не делают его убийцей, людоедом, насильникои.
+One's thoughts about how good he/she as a person do not make them a good person. One's thoughts about mass murders, eating children, raping do not make one a serial killer, a cannibal, a raper.
 
-Всем этим человека делают поступки.
+Only actions can make a person one of these things.
 
-Более того, как разумные люди, мы должны стремиться рассматривать проблемы со всех сторон, включая крайние случаи. В идеале, мы должны делать полный [морфологический анализ](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D1%84%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_(%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B5%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE)) каждой ситуации (я экспериментировал с [софтом для него]{post:morphological-analysis-prototype}). Включая анализ крайних, опасных и просто стрёмных случаев.
+Moreover, as reasonable people, we should strive to consider problems from all sides, including edge cases. Ideally, we should do a full [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) of each situation (I have experimented with [software for it]{post:@choose-nearest-language:morphological-analysis-prototype}). Including analysis of edge, dangerous and just creepy cases.
 
-Конечно, это не всегда возможно и нужно, но идеальное положение вещей в моей картине мира таково.
+Of course, this is not always possible and necessary, but the ideal state of affairs in my worldview is so.
 
-Поскольку мир материален, границы личности также определяются поступками, а не мыслями.
+As the world is material, the boundaries of a person are also defined by actions, not thoughts.
 
-**Я — не то, что я думаю. Я — то, что я делаю.**
+**I am not what I think. I am what I do.**
 
-Каждое решение, воплощённое в поступке, уточняет личность человека.
+Every decision embodied in an action clarifies a person's identity.
 
-Можно сказать, что думать мысль — тоже поступок, поскольку мы выбираем что думать, сколько времени и энергии тратить на какую мысль. Это утверждение может пошатать логику эссе, но обратим внимание, что «думать» — это действие в материальном мире, а сама мысль/идея — всё ещё эфемерная штука. Соответственно, поступком можно считать выбор сколько конкретно ресурсов тратить на обдумывание мысли, но не само её наличие. Даже в такой трактовке наличие мысли не влияет на реальность.
+/// Note | Does thinking a thought also count as an action?
+One can say that thinking a thought is also an action, since we choose what to think, how much time and energy to spend on a thought. This statement may shake the logic of the essay.
+
+Indeed, "thinking" is an action in the material world, but the thought/idea itself is still an ephemeral thing.
+
+Accordingly, one can consider the choice of how many resources to spend on thinking about a thought as an action, but not the mere existence of the thought. Even in such an interpretation, the existence of a thought does not affect reality.
+///
 
 ## Я — человек, который…
 
