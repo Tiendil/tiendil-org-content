@@ -123,6 +123,7 @@ fiction-books = "художественные книги"
 professional-books = "профессиональные книги"
 popular-science-books = "научно-популярные книги"
 results-of-the-year = "итоги года"
+scientific-papers = "научные статьи"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'

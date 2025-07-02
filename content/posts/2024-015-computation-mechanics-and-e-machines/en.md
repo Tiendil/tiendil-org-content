@@ -25,4 +25,5 @@ For example, our brain can be represented as an ε-machine. Formally, the state 
 Here is a popular science explanation: <https://www.quantamagazine.org/the-new-math-of-how-large-scale-order-emerges-20240610/>
 
 P.S. I will try to dig into scientific articles. I will tell you if I find something interesting and practical.
+
 P.P.S. I have long been thinking in the direction of a similar thing. Unfortunately, the twists of life do not allow me to seriously dig into science and mathematics. I am always happy when I encounter the results of other people's digging.
