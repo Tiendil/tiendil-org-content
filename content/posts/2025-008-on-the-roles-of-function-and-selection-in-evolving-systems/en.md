@@ -24,34 +24,34 @@ And if you think that understanding evolution is unnecessary, I recommend you to
 /// note | Read the original article for details
 This essay presents my interpretation of the article.
 
-It is quite close to the original, but a literal retelling was not my goal. On the contrary, I pushed to adapt the ideas of the original to my worldview (which I present in this blog).
+It should be close to the original, but a literal retelling was not my goal. On the contrary, I pushed to adapt the ideas of the original to my worldview (which I present in this blog).
 
 Thus, some definitions and terms may differ slightly. In places where this is particularly important, I have left remarks. However, if you value precision, I recommend reading the original article.
 ///
 
 <!-- more -->
 
-Подобное определение позволяет распространить концепцию эволюции на множество типов систем, которые мы можем наблюдать в нашей вселенной. Может быть даже на все.
+Such a definition allows us to extend the concept of evolution to plethora of systems we can observe in our universe. Perhaps even to all of them.
 
-Для примера.
+/// hint | Examples
+1. The evolution of stars begins with the nuclear fusion of hydrogen and helium, which leads to the formation of new elements and isotopes, those new elements initiate further reactions, creating even more new elements and isotopes. This process culminates in a supernova, which significantly increases the diversity of elements in the local region of the universe. Thus, the system evolves from a small set of elements and isotopes to a large variety through "patterned" nuclear synthesis processes.
+2. After forming into planetoids from cosmic dust, chemical elements initiate the "evolution of minerals," which transforms a small initial diversity of elements, under the influence of planetary dynamics, into thousands of stable combinations. For example, Earth has over 5,900 known minerals, with an expectation of discovering about 3,500 more new types.
+3. Biological evolution began with simple molecules but has led to an explosive growth in their diversity and complexity, which in turn initiated the evolution of unicellular organisms and later multicellular organisms.
+///
 
-1. Эволюция звёзд начинается с запуска ядерной реакции водорода и гелия, которая приводит к образованию новых элементов и изотопов, которые запускают новые реакции и образуют ещё больше элементов и изотопов. Заканчивается всё это сверхновой, которая значительно увеличивает разнообразие элементов в локальной области вселенной. Т.е. система эволюционирует от небольшого набора элементов и изотопов к большому их разннобразию через «шаблонные» процессы ядерного синтеза.
-2. Собираясь в планетоиды из космической пыли, химические элементы запускают «эволюцию минералов», которая из небольшого начального разнообразия элементов, под действием планетарной динамики, создаёт тысячи устойчивых комбинаций. Например, на Земле насчитывают более 5900 минералов и ожидают обнаружения ещё около 3500 их новых видов.
-3. Биологическая эволюция началась на базе простых молекул, но в процессе привела к продолжающемуся взрывному росту их разнообразия и сложности, что запустило эволюцию одноклеточных, а позже, и многоклеточных организмов.
+Authors postulate that a system of many interacting agents demonstrates an increase in diversity, distribution, and/or patterned behavior when numerous configurations of the system are subjected to selective pressure.
 
-Авторы постулируют, что система из множества взаимодействующих агентов демонстрирует увеличение разнообразия, распределения и/или шаблонного поведения, когда многочисленные конфигурации системы подвергаются селективному давлению.
+The paper identifies three levels of selection pressure that lead to the evolution.
 
-В статье выделяют три уровня селекции, которые определяют эволюцию систем.
+## First-order selection
 
-## Селекция первого порядка
+> Configurations of matter tend to persist unless kinetically favorable avenues exist for their incorporation into more stable configurations.
 
->Конфигурация материи склонна сохраняться, если не существует кинетически благоприятных путей для её включения в более стабильные конфигурации.
+In other words, systems tend to settle into some energetic optimum, escaping from which (into another) requires a lot of external energy.
 
-Иными словами, системы склонны скатываться к некоторому энергетическому оптимуму, для выхода из которого необходимо много внешней энергии.
+Stars, stellar systems, planets, minerals, etc., may serve as examples here.
 
-Примером тут могут быть звёзды, звёздные системы, планеты, минералы и т.д.
-
-Селекция первого порядка склонна создавать «энергетические карманы», которые служат источниками свободной энергии для систем, которые в них находятся.
+First-order selection tends to create "energy pockets" that serve as sources of free energy for the systems within them.
 
 ## Селекция второго порядка
 
