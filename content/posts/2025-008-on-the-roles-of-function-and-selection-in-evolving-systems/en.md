@@ -63,14 +63,17 @@ The authors note that a key property of such functions is the control of dissipa
 
 - Stars achieve **homeostasis** by balancing gravitational collapse with the kinetic energy generated during nuclear fusion, allowing fusion to continue.
 - Fire achieves **autocatalysis** by heating surrounding materials to combustion temperatures, prolonging the burning process.
-- Life closes a **feedback loop** through various learning mechanisms, including biological evolution and neurocognitive processes, which in turn supports the continuity of information transfer, promotes survival, reproduction, and continuation of metabolic activity.
+- Life closes a **feedback loop** through various learning mechanisms, including biological evolution and neurocognitive processes, which in turn support the continuity of information transfer, promote survival, reproduction, and continuation of metabolic activity.
 
 /// note | Feedback loop
-The original article uses the term "information processing".
+The original article uses the term "information processing" and extends it to biological evolution.
 
-In my opinion, this term is broader than necessary for this case, and thus more vague. Information processing, as a phenomenon, can be directed towards anything, not necessarily towards maintaining stability and/or evolution of the system.
+In my opinion:
 
-"Feedback loop", on the other hand, implies active regulation of the system's state, which more accurately reflects the essence of the phenomenon.
+- The term "information processing" is broader than necessary for this case, and thus more vague. Information processing, as a phenomenon, can be directed towards anything, not necessarily towards maintaining stability and/or evolution of the system.
+- Including biological evolution as one of the types of information processing seems strange to me. I agree that there is a certain logic in this, but for me, it is too unstable.
+
+"Feedback loop", on the other hand, implies active regulation of the system's state and excludes meta-processes, thus, more accurately reflects the essence of the phenomenon.
 ///
 
 Evolving systems can be nested (with no restrictions on nesting), wherein components support the existence of a supersystem while simultaneously evolving within its context. In other words, the supersystem acts as an environment in which subsystems evolve.
