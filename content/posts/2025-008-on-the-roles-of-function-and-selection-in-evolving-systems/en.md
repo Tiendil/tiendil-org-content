@@ -78,17 +78,17 @@ In my opinion:
 
 Evolving systems can be nested (with no restrictions on nesting), wherein components support the existence of a supersystem while simultaneously evolving within its context. In other words, the supersystem acts as an environment in which subsystems evolve.
 
-It is important to note that discussing the functions of such subsystems makes sense only in the context of the supersystem in which they exist and evolve. To understand the function of a system, one must look at both: the system and its context/environment. Or the system and its supersystem, if we stick to the terminology of systems.
+It is essential to note that discussing the functions of such subsystems is only meaningful in the context of the supersystem in which they exist and evolve. To understand the function of a system, one must examine both the system itself and its context or environment. Or the system and its supersystem, if we stick to the terminology of systems.
 
 /// note | Ancillary functions
-The authors call the functions of nested systems as `ancillary functions` (in relation to the supersystem). In my opinion, such terminology unnecessarily disrupts levels of abstraction and confuses, at least me. Therefore, I will not explicitly introduce a new term here and will simply refer to the functions of systems, subsystems, and supersystems.
+The authors call the functions of nested systems `ancillary functions` (in relation to the supersystem). In my opinion, such terminology unnecessarily disrupts levels of abstraction and confuses, at least me. Therefore, I will not explicitly introduce a new term here and will simply refer to the functions of systems, subsystems, and supersystems.
 
 Also, it may be the place where I missed something essential in the original article, so if you find it, please let me know.
 ///
 
 For example, from the perspective of an organism, there may be selection pressure from its community, and the community may experience pressure from higher ecological units of selection, and so on.
 
-Another feature of such processes is their ability to change over time. For instance, there is a theory that insect wings and bird feathers initially served for thermoregulation rather than flight, and only later were adapted for flight, changing their function, and, with time, the functions of the supersystem and neighboring subsystems.
+Another feature of such processes is their ability to change over time. For instance, there is a theory that insect wings and bird feathers initially served a thermoregulatory function rather than flight, and only later were adapted for flight, changing their function, and, over time, the functions of the supersystem and neighboring subsystems.
 
 Such changes in functions lead to a change (expansion) of the system's area of applicability (solution-search space), which alters the kinetic barrier of the system, allowing it to access new/alternative sources of free energy and evolve further.
 
@@ -96,10 +96,10 @@ Such changes in functions lead to a change (expansion) of the system's area of a
 
 > Selection pressure favors systems that can open-endedly produce (invent) new functions, a.k.a. selection pressure for novelty.
 
-The more subsystems are interwoven, the more diverse functions arise, and the harder it becomes to identify causal relationships between them.
+The more subsystems are interwoven, the more diverse functions emerge, and the more challenging it becomes to identify causal relationships between them.
 
 /// note | Selection piramid
-One can notice that the first-order selection creates conditions to start the second-order selection, and the second-order selection creates conditions to start the third-order selection.
+One can observe that the first-order selection creates conditions to start the second-order selection, and the second-order selection creates conditions to start the third-order selection.
 
 We may assume that this pyramid is not limited to three levels and that higher levels of selection may exist, for example, in symbolic or social systems.
 
@@ -114,13 +114,13 @@ Generally, viewing the systems from the vantage point of statistics can be inter
 
 ## Quantitative measurement of evolution
 
-The authors introduce the  quantitative "law of increasing functional information" based on entropy and show that the functional information of a system will increase (the system will evolve) if the set of configurations of the system is subjected to selection based on at least one function.
+The authors introduce the  quantitative `law of increasing functional information` based on entropy and show that the functional information of a system will increase (the system will evolve) if the set of configurations of the system is subjected to selection based on at least one function.
 
-I will not go into details of the formulas, since I have no deep understanding of entropy, and they are not crucial for the essence of the article.
+I will not delve into the details of the formulas, as I have no deep understanding of entropy, and they are not crucial for the essence of the paper.
 
 ## Consequences
 
-At the discussion part of the article, the authors summarize their findings and highlight several interesting implications of their theory. From them I want to highlight one the most interesting.
+In the discussion part of the article, the authors summarize their findings and highlight several interesting implications of their theory. From them, I want to highlight one of the most interesting.
 
 > The rate of evolution of systems can be artificially regulated. The formula for calculating functional information suggests that the rate of evolution of a system can be increased in at least three ways:
 >
