@@ -11,15 +11,15 @@ src = "./cover.jpg"
 caption = '"Evolution of the Grey Aliens" — a famous lost painting by Vrubel. (c) ChatGPT'
 ///
 
-Recently I encountered the scientific paper [On the roles of function and selection in evolving systems](https://www.pnas.org/doi/epub/10.1073/pnas.2310223120) (DOI: 10.1073/pnas.2310223120).
+Recently, I encountered the scientific paper [On the roles of function and selection in evolving systems](https://www.pnas.org/doi/epub/10.1073/pnas.2310223120) (DOI: 10.1073/pnas.2310223120).
 
 [Michael L. Wong](https://miquai.myportfolio.com/mlw) with co-authors concisely describes the phenomenon of evolution as a universal process inherent to our universe (not just the biosphere of planet Earth), and they do so within the context of a systems approach.
 
-Their ideas resonate with my worldview, so I decided to briefly summarize the article for myself and, of course, for you.
+Their ideas resonate with my worldview, so I decided to summarize the article for myself briefly and, of course, for you.
 
-And if you think that understanding evolution is unnecessary, I recommend you to reconsider, as evolution affects not only hedgehogs and monkeys but also software, work teams, countries, ideologies, and even [the thoughts in your head]{post:@choose-nearest-language:genes-memes-memeplexes} — understanding how all this works is very useful.
+And suppose you think that understanding evolution is unnecessary. In that case, I recommend you reconsider, as evolution affects not only hedgehogs and monkeys but also software, work teams, countries, ideologies, and even [the thoughts in your head]{post:@choose-nearest-language:genes-memes-memeplexes} — understanding how all this works is essential.
 
-> The authors define an "evolving system" as a collective [emergent](https://en.wikipedia.org/wiki/Emergence) phenomenon of many interacting components (subsystems of this system), that manifests as an increase in their diversity, distribution, and patterned behavior as time progresses.
+> The authors define an "evolving system" as a collective [emergent](https://en.wikipedia.org/wiki/Emergence) phenomenon of many interacting components (subsystems of this system) that manifests as an increase in their diversity, distribution, and patterned behavior as time progresses.
 
 /// note | Read the original article for details
 This essay presents my interpretation of the article.
@@ -31,17 +31,17 @@ Thus, some definitions and terms may differ slightly. In places where this is pa
 
 <!-- more -->
 
-Such a definition allows us to extend the concept of evolution to plethora of systems we can observe in our universe. Perhaps even to all of them.
+Such a definition enables us to extend the concept of evolution to a plethora of systems we can observe in our universe. Perhaps even to all of them.
 
 /// hint | Examples
-1. The evolution of stars begins with the nuclear fusion of hydrogen and helium, which leads to the formation of new elements and isotopes, those new elements initiate further reactions, creating even more new elements and isotopes. This process culminates in a supernova, which significantly increases the diversity of elements in the local region of the universe. Thus, the system evolves from a small set of elements and isotopes to a large variety through "patterned" nuclear synthesis processes.
+1. The evolution of stars begins with the nuclear fusion of hydrogen and helium, resulting in the formation of new elements and isotopes. These new elements initiate further reactions, creating even more new elements and isotopes. This process culminates in a supernova, which significantly increases the diversity of elements in the local region of the universe. Thus, the system evolves from a small set of elements and isotopes to a large variety through "patterned" nuclear synthesis processes.
 2. After forming into planetoids from cosmic dust, chemical elements initiate the "evolution of minerals," which transforms a small initial diversity of elements, under the influence of planetary dynamics, into thousands of stable combinations. For example, Earth has over 5,900 known minerals, with an expectation of discovering about 3,500 more new types.
 3. Biological evolution began with simple molecules but has led to an explosive growth in their diversity and complexity, which in turn initiated the evolution of unicellular organisms and later multicellular organisms.
 ///
 
 The authors postulate that a system of many interacting agents demonstrates an increase in diversity, distribution, and/or patterned behavior when numerous configurations of the system are subjected to selective pressure.
 
-The paper identifies three levels of selection pressure that lead to the evolution.
+The paper identifies three levels of selection pressure that lead to evolution.
 
 ## First-order selection
 
