@@ -11,13 +11,13 @@ src = "./cover.jpg"
 caption = '"Evolution of the Grey Aliens" — a famous lost painting by Vrubel. (c) ChatGPT'
 ///
 
-Recently I encountered the scientific article [On the roles of function and selection in evolving systems](https://www.pnas.org/doi/epub/10.1073/pnas.2310223120) (DOI: 10.1073/pnas.2310223120).
+Recently I encountered the scientific paper [On the roles of function and selection in evolving systems](https://www.pnas.org/doi/epub/10.1073/pnas.2310223120) (DOI: 10.1073/pnas.2310223120).
 
 [Michael L. Wong](https://miquai.myportfolio.com/mlw) with co-authors concisely describes the phenomenon of evolution as a universal process inherent to our universe (not just the biosphere of planet Earth), and they do so within the context of a systems approach.
 
 Their ideas resonate with my worldview, so I decided to briefly summarize the article for myself and, of course, for you.
 
-And if you think that understanding evolution is unnecessary, I recommend you to reconsider, as evolution affects not only hedgehogs and monkeys but also software, work teams, countries, ideologies, and even [the thoughts in your head]{post:genes-memes-memeplexes} — understanding how all this works is very useful.
+And if you think that understanding evolution is unnecessary, I recommend you to reconsider, as evolution affects not only hedgehogs and monkeys but also software, work teams, countries, ideologies, and even [the thoughts in your head]{post:@choose-nearest-language:genes-memes-memeplexes} — understanding how all this works is very useful.
 
 > The authors define an "evolving system" as a collective [emergent](https://en.wikipedia.org/wiki/Emergence) phenomenon of many interacting components (subsystems of this system), that manifests as an increase in their diversity, distribution, and patterned behavior as time progresses.
 
@@ -26,7 +26,7 @@ This essay presents my interpretation of the article.
 
 It should be close to the original, but a literal retelling was not my goal. On the contrary, I pushed to adapt the ideas of the original to my worldview (which I present in this blog).
 
-Thus, some definitions and terms may differ slightly. In places where this is particularly important, I have left remarks. However, if you value precision, I recommend reading the original article.
+Thus, some definitions and terms may differ slightly. In places where this is particularly important, I have left remarks. However, **if you value precision, I recommend reading the original article.**
 ///
 
 <!-- more -->
@@ -117,11 +117,10 @@ I will not go into details of the formulas, since I have no deep understanding o
 
 ## Consequences
 
+At the discussion part of the article, the authors summarize their findings and highlight several interesting implications of their theory. From them I want to highlight one the most interesting.
 
-В заключении статьи авторы предлагают несколько интересных следствий из своей теории, среди которых мне особенно интересно следующее.
-
-> Скорость эволюции систем можно регулировать искусственно. Формула расчёта фунциональной информации предполагает, что скорость эволюции системы может быть увеличена по крайней мере тремя способами:
+> The rate of evolution of systems can be artificially regulated. The formula for calculating functional information suggests that the rate of evolution of a system can be increased in at least three ways:
 >
-> 1. Увеличением числа и/или разнообразия взаимодействующих агентов.
-> 2. Увеличением числа различных конфигураций системы.
-> 3. Увеличением селективного давления на систему. Например, в химических системах путём более частых циклов нагрева/охлаждения или смачивания/осушения.
+> 1. By increasing the number and/or diversity of interacting agents.
+> 2. By increasing the number of different configurations of the system.
+> 3. By increasing the selective pressure on the system. For example, in chemical systems, this can be achieved through more frequent cycles of heating/cooling or wetting/drying.
