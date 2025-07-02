@@ -1,14 +1,14 @@
 ---
-title = "О роли функции и отбора в эволюционирующих системах"
+title = "On the roles of function and selection in evolving systems"
 tags = [ "theory", "evolution", "systems", "interesting", "biology", "scientific-papers"]
 published_at = "2025-07-02T12:00:00+00:00"
-seo_description = "Упрощённый пересказ статьи «On the roles of function and selection in evolving systems»"
+seo_description = 'A simplified summary of the article "On the roles of function and selection in evolving systems"'
 seo_image = "cover.jpg"
 ---
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "«Эволюция серых человечков» — знаменитое потеряное полотно Врубеля. (с) ChatGPT"
+caption = '"Evolution of the Grey Aliens" — a famous lost painting by Vrubel. (c) ChatGPT'
 ///
 
 На днях попала в поле моего зрения статья [On the roles of function and selection in evolving systems](https://www.pnas.org/doi/epub/10.1073/pnas.2310223120) (DOI: 10.1073/pnas.2310223120).
