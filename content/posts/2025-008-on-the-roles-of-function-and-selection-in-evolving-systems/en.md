@@ -66,11 +66,11 @@ The authors note that a key property of such functions is the control of dissipa
 - Life closes a **feedback loop** through various learning mechanisms, including biological evolution and neurocognitive processes, which in turn support the continuity of information transfer, promote survival, reproduction, and continuation of metabolic activity.
 
 /// note | Feedback loop
-The original article uses the term "information processing" and extends it to biological evolution.
+The original article uses the term `information processing` and extends it to biological evolution.
 
 In my opinion:
 
-- The term "information processing" is broader than necessary for this case, and thus more vague. Information processing, as a phenomenon, can be directed towards anything, not necessarily towards maintaining stability and/or evolution of the system.
+- The term `information processing` is broader than necessary for this case, and thus more vague. Information processing, as a phenomenon, can be directed towards anything, not necessarily towards maintaining stability and/or evolution of the system.
 - Including biological evolution as one of the types of information processing seems strange to me. I agree that there is a certain logic in this, but for me, it is too unstable.
 
 "Feedback loop", on the other hand, implies active regulation of the system's state and excludes meta-processes, thus, more accurately reflects the essence of the phenomenon.
@@ -81,7 +81,7 @@ Evolving systems can be nested (with no restrictions on nesting), wherein compon
 It is important to note that discussing the functions of such subsystems makes sense only in the context of the supersystem in which they exist and evolve. To understand the function of a system, one must look at both: the system and its context/environment. Or the system and its supersystem, if we stick to the terminology of systems.
 
 /// note | Ancillary functions
-The authors call the functions of nested systems as "ancillary functions" (in relation to the supersystem). In my opinion, such terminology unnecessarily disrupts levels of abstraction and confuses, at least me. Therefore, I will not explicitly introduce a new term here and will simply refer to the functions of systems, subsystems, and supersystems.
+The authors call the functions of nested systems as `ancillary functions` (in relation to the supersystem). In my opinion, such terminology unnecessarily disrupts levels of abstraction and confuses, at least me. Therefore, I will not explicitly introduce a new term here and will simply refer to the functions of systems, subsystems, and supersystems.
 
 Also, it may be the place where I missed something essential in the original article, so if you find it, please let me know.
 ///
