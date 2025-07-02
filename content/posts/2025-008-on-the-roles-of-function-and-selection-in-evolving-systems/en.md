@@ -53,40 +53,41 @@ Stars, stellar systems, planets, minerals, etc., may serve as examples here.
 
 First-order selection tends to create "energy pockets" that serve as sources of free energy for the systems within them.
 
-## Селекция второго порядка
+## Second-order selection
 
->Если функция системы способствует её сохранению, то эта функция будет предметом отбора — системы будут эволюционировать в сторону закрепления этой функции.
+> If the function of a system contributes to its persistence, then that function will be subject to selection — systems will evolve towards reinforcing that function.
 
-Под функцией в данном случае понимается процесс, который оказывает причинное влияние на внутреннее состояние системы или её внешнюю среду.
+By "function" in this context, the authors mean a process that causally influences the internal state of the system or its external environment.
 
-Авторы указывают, что ключевым свойством подобных функция является управление рассеянной энергией и выделяет несколько основных видов таких функций:
+Authors note that a key property of such functions is the control of dissipated energy. They highlight several main types of such functions:
 
-- Звёзды достигают **гомеостаза** путём балансировки гравитационного коллапса с кинетической энергией, генерируемой в процессе термоядерного синтеза, что позволяет синтезу продолжаться.
-- Огонь достигает **автокатализа** путём нагрева окружающих материалов до температур горения, что продлевает процесс горения.
-- Жизнь замыкает **цикл обратной связи** через различные механизмы обучения, включая биологическую эволюцию и нейрокогнитивные процессы, что в свою очередь поддерживает преемственность передачи информации, способствует выживанию, распространению и продолжению метаболической активности.
+- Stars achieve **homeostasis** by balancing gravitational collapse with the kinetic energy generated during nuclear fusion, allowing fusion to continue.
+- Fire achieves **autocatalysis** by heating surrounding materials to combustion temperatures, prolonging the burning process.
+- Life closes a **feedback loop** through various learning mechanisms, including biological evolution and neurocognitive processes, which in turn supports the continuity of information transfer, promotes survival, reproduction, and continuation of metabolic activity.
 
-/// note | Цикл обратной связи
-В оригинальной статье используется термин "information processing".
+/// note | Feedback loop
+The original article uses the term "information processing".
 
-На мой взгляд он более широкий, чем необходимо для данного случая, и, тем самым, более размытый. Обработка информации, как явление, может быть направлена на что угодно, не обязательно на поддержание стабильности и/или эволюции системы.
+In my opinion, this term is broader than necessary for this case, and thus more vague. Information processing, as a phenomenon, can be directed towards anything, not necessarily towards maintaining stability and/or evolution of the system.
 
-«Цикл обратной связи», напротив, прердполагает активное регулирование состояния системы, что более точно отражает суть явления.
+"Feedback loop", on the other hand, implies active regulation of the system's state, which more accurately reflects the essence of the phenomenon.
 ///
 
-При этом эволюционирующие системы могут быть вложенными (без ограничений на вложенность), когда компоненты поддерживают существования надсистемы и в то же время эвлюционируют сами в её контексте. Надсистема играет роль окружающей среды в которой эволюционируют подсистемы.
+Evolving systems can be nested (with no restrictions on nesting), wherein components support the existence of a supersystem while simultaneously evolving within its context. In other words, the supersystem acts as an environment in which subsystems evolve.
 
-Важно отметить, что говорить о функциях подобных подсистем имеет смысл только в контексте надсистемы, в которой они
-существуют и эволюционируют. То есть для понимания функции системы необходимо рассматривать обе вещи: и систему и её контекст/окружение. Или систему и надсистему, если оставаться в терминологии систем.
+It is important to note that discussing the functions of such subsystems makes sense only in the context of the supersystem in which they exist and evolve. To understand the function of a system, one must look at both: the system and its context/environment. Or the system and its supersystem, if we stick to the terminology of systems.
 
-/// Note | Вспомогательные функции (ancillary functions )
-Функции вложенных систем авторы, на мой взгляд излишне, называют вспомогательными (по отношению к надсистеме). Подобная термионология нарушает уровни абстрации и путает, по крайней мере меня. Поэтому далее я не буду явно вводить новый термин, а стану говорить просто о функциях систем, подсистем и надсистем.
+/// note | Ancillary functions
+Authors call the functions of nested systems as "ancillary functions" (in relation to the supersystem). In my opinion, such terminology unnecessarily disrupts levels of abstraction and confuses, at least me. Therefore, I will not explicitly introduce a new term here and will simply refer to the functions of systems, subsystems, and supersystems.
+
+Also, it may be the place where I missed something essential in the original article, so if you find it, please let me know.
 ///
 
-Для примера, с перспективы организма может существовать давление отбора со стороны его сообщества, а сообщество может испытывать давление со стороны более высоких экологических единиц отбора и т.д.
+For example, from the perspective of an organism, there may be selection pressure from its community, and the community may experience pressure from higher ecological units of selection, and so on.
 
-Другой особенностью подобных процессов является их способность изменяться со временем. Для примера, есть теория что крылья насекомых и перья птиц изначально служили для терморегуляции, а не для полёта, и только позже были адаптированы для полёта, изменив свою функцию.
+Another feature of such processes is their ability to change over time. For instance, there is a theory that insect wings and bird feathers initially served for thermoregulation rather than flight, and only later were adapted for flight, changing their function, and, with time, the functions of the supersystem and neighboring subsystems.
 
-Подобное изменения функций приводит к изменению (расширению) области применения системы (области поиска решения), что изменяет кинетический барьер системы, позволяя ей получать доступ к новым/альтернативным источникам свободной энергии и эволюционировать дальше.
+Such changes in functions lead to a change (expansion) of the system's area of applicability (solution-search space), which alters the kinetic barrier of the system, allowing it to access new/alternative sources of free energy and evolve further.
 
 ## Селекция третьего порядка
 
