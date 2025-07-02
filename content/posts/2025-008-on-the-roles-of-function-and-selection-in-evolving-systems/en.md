@@ -19,7 +19,7 @@ Their ideas resonate with my worldview, so I decided to briefly summarize the ar
 
 And if you think that understanding evolution is unnecessary, I recommend you to reconsider, as evolution affects not only hedgehogs and monkeys but also software, work teams, countries, ideologies, and even [the thoughts in your head]{post:genes-memes-memeplexes} — understanding how all this works is very useful.
 
-> Authors define an "evolving system" as a collective [emergent](https://en.wikipedia.org/wiki/Emergence) phenomenon of many interacting components (subsystems of this system), that manifests as an increase in their diversity, distribution, and patterned behavior as time progresses.
+> The authors define an "evolving system" as a collective [emergent](https://en.wikipedia.org/wiki/Emergence) phenomenon of many interacting components (subsystems of this system), that manifests as an increase in their diversity, distribution, and patterned behavior as time progresses.
 
 /// note | Read the original article for details
 This essay presents my interpretation of the article.
@@ -39,7 +39,7 @@ Such a definition allows us to extend the concept of evolution to plethora of sy
 3. Biological evolution began with simple molecules but has led to an explosive growth in their diversity and complexity, which in turn initiated the evolution of unicellular organisms and later multicellular organisms.
 ///
 
-Authors postulate that a system of many interacting agents demonstrates an increase in diversity, distribution, and/or patterned behavior when numerous configurations of the system are subjected to selective pressure.
+The authors postulate that a system of many interacting agents demonstrates an increase in diversity, distribution, and/or patterned behavior when numerous configurations of the system are subjected to selective pressure.
 
 The paper identifies three levels of selection pressure that lead to the evolution.
 
@@ -59,7 +59,7 @@ First-order selection tends to create "energy pockets" that serve as sources of 
 
 By "function" in this context, the authors mean a process that causally influences the internal state of the system or its external environment.
 
-Authors note that a key property of such functions is the control of dissipated energy. They highlight several main types of such functions:
+The authors note that a key property of such functions is the control of dissipated energy. They highlight several main types of such functions:
 
 - Stars achieve **homeostasis** by balancing gravitational collapse with the kinetic energy generated during nuclear fusion, allowing fusion to continue.
 - Fire achieves **autocatalysis** by heating surrounding materials to combustion temperatures, prolonging the burning process.
@@ -78,7 +78,7 @@ Evolving systems can be nested (with no restrictions on nesting), wherein compon
 It is important to note that discussing the functions of such subsystems makes sense only in the context of the supersystem in which they exist and evolve. To understand the function of a system, one must look at both: the system and its context/environment. Or the system and its supersystem, if we stick to the terminology of systems.
 
 /// note | Ancillary functions
-Authors call the functions of nested systems as "ancillary functions" (in relation to the supersystem). In my opinion, such terminology unnecessarily disrupts levels of abstraction and confuses, at least me. Therefore, I will not explicitly introduce a new term here and will simply refer to the functions of systems, subsystems, and supersystems.
+The authors call the functions of nested systems as "ancillary functions" (in relation to the supersystem). In my opinion, such terminology unnecessarily disrupts levels of abstraction and confuses, at least me. Therefore, I will not explicitly introduce a new term here and will simply refer to the functions of systems, subsystems, and supersystems.
 
 Also, it may be the place where I missed something essential in the original article, so if you find it, please let me know.
 ///
@@ -89,31 +89,34 @@ Another feature of such processes is their ability to change over time. For inst
 
 Such changes in functions lead to a change (expansion) of the system's area of applicability (solution-search space), which alters the kinetic barrier of the system, allowing it to access new/alternative sources of free energy and evolve further.
 
-## Селекция третьего порядка
+## Third-order selection
 
->Селективное давление способствует системам, которые могут «бесконечно» производить (изобретать) новые функции, a.k.a. происходит селективное давление на новизну.
+> Selection pressure favors systems that can open-endedly produce (invent) new functions, a.k.a. selection pressure for novelty.
 
-Чем более переплетены подсистемы, тем больше разнообразных функций возникает, и тем сложнее выявить причинно-следственные связи между ними.
+The more subsystems are interwoven, the more diverse functions arise, and the harder it becomes to identify causal relationships between them.
 
-/// Note | Пирамида селекции
-Можно обратить внимание, что селекция первого уровня создаёт условия для запуска селекции второго уровня, а селекция второго уровня создаёт условия для запуска селекции третьего уровня.
+/// note | Selection piramid
+One can notice that the first-order selection creates conditions to start the second-order selection, and the second-order selection creates conditions to start the third-order selection.
 
-Можно предположить, что эта пирамида не ограничена тремя уровнями и могут существовать более высокие уровни селекции. Например в символьных или социальных системах.
+We may assume that this pyramid is not limited to three levels and that higher levels of selection may exist, for example, in symbolic or social systems.
 
-Авторы не раскрывают этот вопрос.
+Authors do not elaborate on this question.
 ///
 
-Авторы предполагают, и я с ними солидарен, что в будущем возможен сдвиг парадигмы в биологии, аналогичный переходу от классической механики к квантовой механике.
+The authors hypothesize, and I agree with them, that the paradigm shift is possible in biology in the future, similar to the transition from classical mechanics to quantum mechanics.
 
-Так же как мы заменили локализованные отдельные частицы и дискретные орбитали электронов волновыми функциями и облаками электронов, мы можем однажды заменить биологические индивиды на «размытое/облачное» представление живых систем. Это не отменит существование отдельных биологических единиц, но может существенно скорректировать онтологию биологических процессов.
+Just as we replaced localized individual particles and discrete electron orbitals with wave functions and electron clouds, we may one day replace biological individuals with a "fuzzy/cloud" representation of living systems. This will not negate the existence of individual biological units but may significantly adjust the ontology of biological processes.
 
-Вцелом, статистический взгляд на структуру систем может быть интересен.
+Generally, viewing the systems from the vantage point of statistics can be interesting even in the context of systems engineering. There are some movements in this direction, for example, [Process Mining](https://en.wikipedia.org/wiki/Process_mining).
 
-## Количественное измерение эволюции
+## Quantitative measurement of evolution
 
-Авторы вводят количественный «закон увеличения функциональной информации» на основе энтропии и показывают, что функциональная информация системы будет увеличиваться (система будет эволюционировать), если множество конфигураций системы подвергается отбору хотя бы по одной функции.
+The authors introduce the  quantitative "law of increasing functional information" based on entropy and show that the functional information of a system will increase (the system will evolve) if the set of configurations of the system is subjected to selection based on at least one function.
 
-Формулы приводить не буду, так как плохо разбираюсь в энтропии и для сути статьи они не так важны.
+I will not go into details of the formulas, since I have no deep understanding of entropy, and they are not crucial for the essence of the article.
+
+## Consequences
+
 
 В заключении статьи авторы предлагают несколько интересных следствий из своей теории, среди которых мне особенно интересно следующее.
 
