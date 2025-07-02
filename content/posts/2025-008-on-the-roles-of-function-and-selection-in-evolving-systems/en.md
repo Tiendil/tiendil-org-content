@@ -11,15 +11,23 @@ src = "./cover.jpg"
 caption = '"Evolution of the Grey Aliens" — a famous lost painting by Vrubel. (c) ChatGPT'
 ///
 
-На днях попала в поле моего зрения статья [On the roles of function and selection in evolving systems](https://www.pnas.org/doi/epub/10.1073/pnas.2310223120) (DOI: 10.1073/pnas.2310223120).
+Recently I encountered the scientific article [On the roles of function and selection in evolving systems](https://www.pnas.org/doi/epub/10.1073/pnas.2310223120) (DOI: 10.1073/pnas.2310223120).
 
-[Michael L. Wong](https://miquai.myportfolio.com/mlw) и соавторы лаконечно описывают явление эволюции как универсального процесса своейственного нашей вселенной (а не только биосфере планеты Земля), ещё и в контексте системного подхода.
+[Michael L. Wong](https://miquai.myportfolio.com/mlw) with co-authors concisely describes the phenomenon of evolution as a universal process inherent to our universe (not just the biosphere of planet Earth), and they do so within the context of a systems approach.
 
-Идеи близки моей картине мира, поэтому я решил сделать краткое резюме статьи для себя и, заодно, для вас.
+Their ideas resonate with my worldview, so I decided to briefly summarize the article for myself and, of course, for you.
 
-А если вы думаете, что понимание эволюции вам не нужно, то рекомендую подумать ещё раз, так как эволюции подвержены не только ёжики и обезьянки, но и софт, рабочие коллективы, страны, идеологии и даже [мысли у вас в голове]{post:genes-memes-memeplexes} — понимать как это всё работает очень полезно.
+And if you think that understanding evolution is unnecessary, I recommend you to reconsider, as evolution affects not only hedgehogs and monkeys but also software, work teams, countries, ideologies, and even [the thoughts in your head]{post:genes-memes-memeplexes} — understanding how all this works is very useful.
 
->Авторы определяют «эволюционирующую систему» как коллективный [эмерджентный](https://ru.wikipedia.org/wiki/Эмерджентность) феномен взаимодействия множества компонентов (подсистем) этой системы, который проявляется в увеличении их разнообразия, распределения и шаблонного поведения при движении вперёд по стрелке времени.
+> Authors define an "evolving system" as a collective [emergent](https://en.wikipedia.org/wiki/Emergence) phenomenon of many interacting components (subsystems of this system), that manifests as an increase in their diversity, distribution, and patterned behavior as time progresses.
+
+/// note | Read the original article for details
+This essay presents my interpretation of the article.
+
+It is quite close to the original, but a literal retelling was not my goal. On the contrary, I pushed to adapt the ideas of the original to my worldview (which I present in this blog).
+
+Thus, some definitions and terms may differ slightly. In places where this is particularly important, I have left remarks. However, if you value precision, I recommend reading the original article.
+///
 
 <!-- more -->
 
