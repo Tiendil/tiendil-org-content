@@ -322,3 +322,7 @@ https://chatgpt.com/c/686bc8e0-f708-800d-8108-5da7782cce15
 https://www.holistics.io/blog/how-amazon-measures/
 
 Пример итерации к существенным (meaningful) входным метрикам
+
+-------
+
+Rename the folder to the final slug
