@@ -2,6 +2,7 @@
 exclude = true
 title = "Правильно рулим продуктом через цикл проверки гипотез"
 tags = [ "theory", "development", "business", "systems", "management", "interesting"]
+series = "vantage-on-management"
 published_at = "2025-07-04T12:00:00+00:00"
 seo_description = "TODO"
 seo_image = "cover.jpg"
