@@ -124,6 +124,7 @@ professional-books = "профессиональные книги"
 popular-science-books = "научно-популярные книги"
 results-of-the-year = "итоги года"
 scientific-papers = "научные статьи"
+management = "управление"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'
