@@ -1,5 +1,5 @@
 ---
-title = "Что есть наш продукт"
+title = "Точки зрения на продукт"
 tags = [ "theory", "development", "systems", "management", "interesting", "vantage-on-management"]
 series = "vantage-on-management"
 published_at = "2025-07-04T12:00:00+00:00"
