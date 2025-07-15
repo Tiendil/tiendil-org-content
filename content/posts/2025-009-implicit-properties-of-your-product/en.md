@@ -1,15 +1,15 @@
 ---
-title = "Точки зрения на продукт"
+title = "Points of view on product"
 tags = [ "theory", "development", "systems", "management", "interesting", "vantage-on-management"]
 series = "vantage-on-management"
 published_at = "2025-07-04T12:00:00+00:00"
-seo_description = "Посмотрим на продукт как на длящуюся во времени штуку, хаотическую систему, эволюционирующий организм."
+seo_description = "We'll look at the product as a thing that lasts over time, a chaotic system, an evolving organism."
 seo_image = "cover.jpg"
 ---
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "Эволюционирующий продукт (с) ChatGPT"
+caption = "Evolving product (c) ChatGPT"
 ///
 
 Представим, вы разрабатываете [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) — тамагочи todo-лист для геймеров, или даже что-нибудь менее полезное.
