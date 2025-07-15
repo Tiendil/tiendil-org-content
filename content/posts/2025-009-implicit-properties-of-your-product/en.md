@@ -12,7 +12,7 @@ src = "./cover.jpg"
 caption = "Evolving product (c) ChatGPT"
 ///
 
-<!-- NOTE FOR COPILOT: this is ongoing translation of Russian post into English. The translation goes from top to bottom, paragraph per paragraph. I write English version of the paragraph on top of the Russian one, then I remove the Russian paragraph. YOU MUST TRANSLATE ONLY TEXT UNDER THE CURSOR — NOTHING ELSE. Translate close to Russian text.-->
+<!-- THE RULES COPILOT MUST FOLLOW: this is ongoing translation of Russian post into English. The translation goes from top to bottom, paragraph per paragraph. I write English version of the paragraph on top of the Russian one, then I remove the Russian paragraph. YOU MUST TRANSLATE ONLY TEXT UNDER THE CURSOR — NOTHING ELSE. Translate close to Russian text.-->
 
 Let's imagine you are developing a [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) — a tamagotchi todo-list for gamers, or even something less useful.
 
@@ -26,21 +26,21 @@ Let's start by looking at these properties and follow a logical chain through in
 
 <!-- more -->
 
-## Неочевидные свойства продукта
+## Non-obvious product properties
 
-Вот несколько популярных примеров свойств, о которых любят забывать:
+Here a few popular examples of properties that people often forget about:
 
-- Доступность — возможность пользоваться продуктом в любое время с любого устройства.
-- Поддержка — возможность получить помощь в случае возникновения проблем.
-- Ритм выпуска обновлений — появление новых фич, без которых пользователи пока что могут обойтись, но на которые надеются в будущем.
-- Надёжность — хранение данных пользователей целыми и невредимыми.
-- Безопасность — отсутствие утечек персональной информации, отсутствие вреда для устройств пользователя.
+- Availability — the ability to use the product at any time from any device.
+- Support — the ability to get help in case of problems.
+- Rhythm of updates — the dynamics of adding new features that users can currently do without, but on which they hope for in the future.
+- Reliability — the storage of user data intact and unharmed and similar things.
+- Sacurity & safety — the absence of personal information leaks, the absence of harm to user devices.
 
-Ваши пользователи могут даже расчитывать на конкретные эмоции от вашего продукта. Это касается не только игр, в которых эмоции — один из ключевых компонентов (сравните, для примера, эмоции от [Dark Souls](https://en.wikipedia.org/wiki/Dark_Souls), [Doom](https://en.wikipedia.org/wiki/Doom_(1993_video_game)) и [The Sims](https://en.wikipedia.org/wiki/The_Sims))), но и бизнес-приложений, которые могут фокусироваться на ощущениях контроля, надёжности, осведомлённости, etc.
+Users can even expect specific emotions from the product. This applies not only to games, where emotions are one of the key components (compare, for example, the emotions from [Dark Souls](https://en.wikipedia.org/wiki/Dark_Souls), [Doom](https://en.wikipedia.org/wiki/Doom_(1993_video_game)), and [The Sims](https://en.wikipedia.org/wiki/The_Sims))), but also to business applications that can focus on feelings of control, reliability, awareness, etc.
 
-Конечно, все аспекты вашего продукта по-разному важны для пользователей, а значит с разной силой влияниют на успешность продукта — что-то влияет сильно, что-то слабо — каждый продукт уникален. Но будет неправильно разделять свойства продукта на явные-и-важные и неявные-и-неважные.
+Of course, all aspects of the product are important to users differently, and thus influence the product's success with varying degrees of strength — some have a strong influence, others a weak one — every product is unique. However, it would be incorrect to divide product properties into obvious-and-important and non-obvious-and-unimportant.
 
-Например доступность крайне важна для большинства продуктов. О ней не всегда говорят, потому что она «максимально подразумевается» и вопрос её обеспечения всплывает в менеджерских кругах обычно, когда кто-то уже эпически накосячил, например, запустил маркетинговую активность на 1M DAU без предупреждения разработчиков.
+For example, availability is extremely important for most products. People don't always talk about it because it's "maximally implied," and management often remembers about it only when someone has already epicly messed up, for example, by launching a marketing activity for +1M DAU without consulting developers.
 
 /// note | Более интересным примером могут быть эмоции
 
@@ -107,7 +107,7 @@ Let's start by looking at these properties and follow a logical chain through in
 Поэтому можно утверждать, что:
 
 - **Продавая пользователю продукт, вы продаёте ему и команду, которая в данный момент работает над этим продуктом.**
-- **Изменяя команду, вы сразу изменяете свойства вашего продукта.**
+- **Изменяя команду, вы сразу изменяете свойства продукта.**
 
 Более того, команда не обязательно является сугубо внутренней/скрытой частью продукта.
 
