@@ -9,7 +9,7 @@ seo_image = "cover.jpg"
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "Скриншот тамагочи todo-листа для геймеров (с) ChatGPT"
+caption = "Эволюционирующий продукт (с) ChatGPT"
 ///
 
 Представим, вы разрабатываете [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) — тамагочи todo-лист для геймеров, или даже что-нибудь менее полезное.
