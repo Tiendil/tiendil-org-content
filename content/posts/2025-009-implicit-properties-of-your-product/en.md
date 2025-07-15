@@ -179,18 +179,18 @@ Thus, we can say that we should have two adaptation processes running:
 
 I tell more about steering the product and running the feedback loop in the next post.
 
-## Часть продукта — часть корабля
+## Part of the product — part of the crew
 
-Из логики выше можно вывести множество следствий, части их я посвящну будущие посты. Здесь же я хочу обратить внимание на несколько ключевых и/или интересных.
+From the reasoning above we can draw several conclusions — some of them I’ll cover in future posts. For now, let me highlight a few of the most important (and most interesting).
 
-Во-первых, **роль современного лидера — направлять, а не управлять**. Разница может быть неочевидной, но она значима. Управление предполагает директивность, детализацию и контроль; направление — «мягкую силу» — информирование, обучение, поддержку, поощрение, создание условий для самоорганизации.
+**The role of a modern leader is to guide, not to manage**. The distinction may not be obvious, but it matters. Management implies directive control, detailed planning, and oversight; guidance relies on soft power—informing, coaching, supporting, empowering, and creating the conditions for self-organization
 
-В современном мире один человек не может достоверно знать куда двигаться, но **при наличии опыта и знаний можно понимать как удобнее двигаться и куда точно двигаться не надо**. Если такой человек находится в команде, которая не боится проявлять инициативу, экспериментировать, то она, при его поддержке, будет двигаться в (более) оптимальную сторону.
+In the contemporary world, one person cannot reliably know where to go, but **with experience and knowledge, one can understand how to move more conveniently and where not to go at all**. If such a person is part of a team that is not afraid to take initiative and experiment, with one's support, the team will move in a (more) optimal direction.
 
-**Не стоит разделять управление продуктом и управление командой** (инфраструктурой, процессами, артефактами — выберите своё, далее буду упоминать только команду). Меняя одно мы меняем другое. Разные роли могут иметь разный фокус, но при здоровой организации труда зоны ответственности будут пересекаться. В таких пересечениях следует способствовать возникновению коммуникации и коллаборации, а не вычищать их по правилу «останется только один ответственный».
+**We should not separate product management and team management** (infrastructure management, processes management, artifacts management — choose your own, I will refer only to the team for simplicity). Changing one changes the other. Different roles may have different focus, but with a healthy work organization, areas of responsibility will overlap. In such overlaps, we should encourage communication and collaboration, not eliminate them following the "only one responsible will remain" rule.
 
-**Измеряем ценность продукта, а не ценность команды.** Если продукт наносит достаточно пользы, оставьте его команду в покое. Если не наносит — думайте как изменить продукт. Может быть для этого потребуется изменить команду, а может быть и нет.
+**We should measure the value of the product, not the value of the team.** If the product provides enough value, leave its team alone. If it doesn't, think about how to change the product. This may require changing something in the team, or it may not.
 
-В пару к предыдущему утверждению: **изменяем продукт, а не команду.** Нам важны изменения в свойствах продукта, чтобы их достичь мы направляем его развитие в конкретную сторону. Движение в эту сторону может потребовать изменения в команде, а может и не потребовать.
+In pair with the previous statement: **we should change the product, not the team.** We care about changes in product attributes, and to achieve them, we direct its development in a specific direction. Moving in this direction may require changes in the team, or it may not.
 
-И ещё раз отдельно отмечу, что все эти утверждения справедливы и для инфраструктуры, и для артефактов, и для процессов. С этим часто большие проблемы у инженеров — нам часто интересно покрутить что-нибудь просто потому, что мы можем (интересно что получится), а не потому что это изменит что-то существенное в продукте. Надо следить за собой и, по мере сил, пресекать такие порывы. Но иногда можно и не пресекать:-D
+And let me emphasize once more: all these statements are true for infrastructure, artifacts, and processes as well. Engineers often struggle here — we like to tinker with things simply because we can ("let's see what happens") rather than because it will improve the product. We have to watch ourselves and, as a rule, curb such impulses… though every now and then it’s fine to indulge :-D
