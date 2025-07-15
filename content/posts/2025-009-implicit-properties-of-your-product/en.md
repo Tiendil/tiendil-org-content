@@ -70,27 +70,25 @@ Product’s core functionality comes from code running on servers in real-time. 
 
 Product availability depends not just on the code that’s running but on the operational processes that keep the underlying infrastructure healthy. For as long as the product exists, someone has to watch server health, monitor free space in the database, and tend to countless other details.
 
-Частью продукта являются формальные протяжённые во времени обязательства разработчиков перед пользователями и регуляторами: от сроков на удаление персональных данных согласно GDPR и минимального времени хранения информации о платежах (от 3-5 лет, по-моему, в зависимости от страны), до обязательств по, собственно, хранению информации пользователя существенной для задач нашего SaaS.
+The part of the product is also the lasting obligations of developers to users and regulators: from deadlines for deleting personal data according to GDPR and the minimum time for storing payment information (starts from 3-5 years, depending on the country), to obligations for, generally, storing user information essential for our SaaS functionality.
 
-Можно указать и на более абстрактные свойства. Например, явные или неявные соглашения о скорости/периодичности выпуска новой функциональности, гарантии по исправлению ошибок и поддержке устаревшей функциональности.
+One can also point to more abstract properties, such as explicit or implicit agreements on the speed/frequency of new feature releases, guarantees for bug fixes, and support for deprecated functionality.
 
-В некоторых случаях даже определённые монетизационные активности могут стать длящейся частью продукта. Например, долгое время в моей [пет-ММО](https://the-tale.org) действовало неформальное соглашение между разработчиками и игроками о том, что у нас есть только одно время в году, когда игровую валюту можно купить со скидкой — неделя вокруг чёрной пятницы. Игроки учитывали это в планировании собственных трат и воспринимали как часть предоставляемых услуг.
+In some cases, even certain monetization activities can become a lasting part of the product. For example, for a long time in my [pet-MMO](https://the-tale.org), there was an informal agreement between developers and players that we only have one time a year when in-game currency can be purchased at a discount — the week around Black Friday. Players took this into account when planning their spendings and perceived it as part of the services provided.
 
-/// note | Временное измерение справедливо для всех продуктов
-Я выбрал SaaS для примера, так как это наиболее характерый и современный тип продукта.
+/// note | All products have a temporal dimension
+I chose SaaS as an example because it is the most characteristic and modern type of product.
 
-На самом деле, временное измерения присуще всем продуктам, не только сервисам, даже полностью физическим, как молотки.
+In fact, the temporal dimension is inherent in all products, not only services, but even fully physical ones, like hammers.
 
-В системной инженерии даже говорят, что любая система — это четырёхмерный объет: три физических измерения плюс время. Так как у любой системы есть жизненный цикл от планирования до вывода из эксплутации (даже если они проводятся разными сущностями), а значит части системы проходят через разные состояния, что и является свидетельством временного измерения.
+In systems engineering there’s a saying: every system is a four-dimensional object — three physical dimensions plus time. Since any system has a lifecycle from planning to decommissioning (even if they are conducted by different entities), parts of the system go through different states, which is evidence of the temporal dimension.
 
-По современным практикам даже хороший производитель молотков должен учитывать временное измерение в своём продукте: давать гарантию на молоток, продавать сменные насадки, прокладки для ручек и прочую атрибутику, собирать статистика использования. Конечно, если хочет быть лидером рынка.
+According to the contemporary practices, even a good hammer manufacturer should consider the temporal dimension in their product: provide a warranty for the hammer, sell replaceable heads, handles, and other accessories, collect usage statistics. Of course, if they want to be a market leader.
 
-Другое дело, что игнорирование временного измерения при производстве физических продуктов «традиционно» (как «традиционны» любые пережитки прошлого) и не так критично.
+On the other hand, ignoring the temporal dimension in the production of physical products is "traditional" (like "traditional" are any remnants of the past) and sometimes not so critical.
 ///
 
-Возвращаясь к нашему SaaS.
-
-**Поскольку у нашего продукта есть временное измерение, то его свойства (а значит и успешность) зависят от штук, которые обеспечивают эту длительность: инфрастуктуры, процессов и, в первую очередь, команды.**
+Therefore, **since the product lasts, its attributes (and thus its success) depend on the things that ensure its lasting: infrastructure, processes, and, first of all, the team.**
 
 ## Команда как неотъемлемая часть продукта
 
