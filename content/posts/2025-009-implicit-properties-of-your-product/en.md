@@ -163,21 +163,21 @@ However, as the ideal end result, as a norm, we still want to see a product that
 
 /// hint | Expection is the [immune system](https://en.wikipedia.org/wiki/Immune_system) of the product
 
-В любой сложной системе неизбежно организуется иммунная подсистема, которая отвечает за поддержание целостности родительской системы и её компонентов. Задача этой подсистемы не улучшение надсистемы, а предотвращение её деградации.
+Every complex-enough system inevitably develops an immune subsystem that is responsible for maintaining the integrity of the parent system and its components. The task of this subsystem is not to improve the super-system, but to prevent its degradation.
 
-В организациях и продуктах такая штука редко проявляется в явном виде — вещь дорогая — все экономят. Обычно она существует в виде процессов и ролей, которые частично выполняют её функции: безопасники, peer review, технические и неформальные лидеры, etc.
+In organisations and products, this thing rarely manifests itself explicitly since it is expensive and everyone saves on it. Usually, it exists as processes and roles that partially perform its functions: security officers, peer reviews, technical and informal leaders, etc.
 
-Эта система как раз занимается точечной оценкой влияния на продукт/организацию их компонентов и модификаций их при необходимости. То есть таким «управлением», от которого я в этом тексте отговариваю.
+The system’s role is to make targeted assessments of how each component affects the product or the organisation and to adjust those components when needed. At times this can look like the very top-down management I’m cautioning against in this post.
 
-Этот подход работает, потому что для имунной системы важно не конкретное влияние компонента на конкретный конечный параметр нашего организма, а оценка общей полезности этого компонента: наносит ли он пользы больше, чем вреда.
+This approach works because, the immune system is interested not in how a specific component affects a specific end parameter of the system, but in overall usefulness of that component — does it do more good than harm.
 
-Соответственно можно сказать, что у нас должно быть запущено два процесса адаптации
+Thus, we can say that we should have two adaptation processes running:
 
-- Сверху — руление всем продуктом.
-- Снизу — устранение конркетных больших проблем, которые части продукта не могут решить самостоятельно.
+- On the top level — steering the entire product.
+- On the bottom level — addressing specific large problems that components of the product cannot solve on their own.
 ///
 
-Подробнее про руление продуктом через гипотезы и запуск цикла обратной связи я расскажу в следующем посте.
+I tell more about steering the product and running the feedback loop in the next post.
 
 ## Часть продукта — часть корабля
 
