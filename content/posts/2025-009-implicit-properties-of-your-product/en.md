@@ -20,15 +20,15 @@ This SaaS is your product — what you offer to users — what they pay money fo
 
 But what exactly are you offering? Is it just the ability to feed to-do lists to the tamagotchi?
 
-Beyond the obvious properties, like specific functionality, appearance, and a branded joystick in the package, your product has numerous non-obvious properties that are also important to users and thus affect its success.
+Beyond the obvious attributes, like specific functionality, appearance, and a branded joystick in the package, your product has numerous less-obvious attributes that are also important to users and thus affect its success.
 
-Let's start by looking at these properties and follow a logical chain through increasingly holistic system-level viewpoints on the product and its management.
+Let's start by looking at these attributes and follow a logical chain through increasingly holistic system-level viewpoints on the product and its management.
 
 <!-- more -->
 
-## Non-obvious product properties
+## Less-obvious product attributes
 
-Here a few popular examples of properties that people often forget about:
+Here a few popular examples of attributes that people often forget about:
 
 - Availability — the ability to use the product at any time from any device.
 - Support — the ability to get help in case of problems.
@@ -38,7 +38,7 @@ Here a few popular examples of properties that people often forget about:
 
 Users can even expect specific emotions from the product. This applies not only to games, where emotions are one of the key components (compare, for example, the emotions from [Dark Souls](https://en.wikipedia.org/wiki/Dark_Souls), [Doom](https://en.wikipedia.org/wiki/Doom_(1993_video_game)), and [The Sims](https://en.wikipedia.org/wiki/The_Sims))), but also to business applications that can focus on feelings of control, reliability, awareness, etc.
 
-Of course, all aspects of the product are important to users differently, and thus influence the product's success with varying degrees of strength — some have a strong influence, others a weak one — every product is unique. However, it would be incorrect to divide product properties into obvious-and-important and non-obvious-and-unimportant.
+Of course, all aspects of the product are important to users differently, and thus influence the product's success with varying degrees of strength — some have a strong influence, others a weak one — every product is unique. However, it would be incorrect to divide product attributes into obvious-and-important and non-obvious-and-unimportant.
 
 For example, availability is extremely important for most products. People don't always talk about it because it's "maximally implied," and management often remembers about it only when someone has already epicly messed up, for example, by launching a marketing activity for +1M DAU without consulting developers.
 
@@ -50,17 +50,15 @@ For example, availability is extremely important for most products. People don't
 
 ///
 
-The role of each specific product property in its success usually is ambiguous:
+The role of each specific product attribute in its success usually is ambiguous:
 
-- You may differently assess the role of product properties in its success.
-- Users may differently assess the role of these properties.
+- You may differently assess the role of product attributes in its success.
+- Users may differently assess the role of these attributes.
 - The reality may differ from both your worldview and the users' worldview.
 
-That's why it's important to remember that without managing non-obvious product properties, it will lose value for users just as much as if there were no management of the core functionality.
+That’s why it’s important to remember that if you don’t manage a product’s less-obvious attributes, it will lose just as much value for users as it would if you neglected its core functionality.
 
-Соответственно, мы должны оценивать и учитывать их влияние на успешность продукта, выделять ресусы на их реализацию и поддержку — иными словами, управлять ими.
-
-Чтобы понять чем и как мы конкретно должны управлять, давайте пристальнее посмотрим на форму и содержимое нашего продукта.
+To understand what exactly we should manage and how, let's take a closer look at our product's shape and substance.
 
 ## Наш продукт длится во времени
 
