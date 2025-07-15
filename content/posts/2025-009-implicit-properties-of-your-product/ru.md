@@ -2,7 +2,7 @@
 title = "Точки зрения на продукт"
 tags = [ "theory", "development", "systems", "management", "interesting", "vantage-on-management"]
 series = "vantage-on-management"
-published_at = "2025-07-04T12:00:00+00:00"
+published_at = "2025-07-16T12:00:00+00:00"
 seo_description = "Посмотрим на продукт как на длящуюся во времени штуку, хаотическую систему, эволюционирующий организм."
 seo_image = "cover.jpg"
 ---

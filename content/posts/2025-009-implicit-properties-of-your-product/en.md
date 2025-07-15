@@ -2,7 +2,7 @@
 title = "Points of view on product"
 tags = [ "theory", "development", "systems", "management", "interesting", "vantage-on-management"]
 series = "vantage-on-management"
-published_at = "2025-07-04T12:00:00+00:00"
+published_at = "2025-07-16T12:00:00+00:00"
 seo_description = "We'll look at the product as a thing that lasts over time, a chaotic system, an evolving organism."
 seo_image = "cover.jpg"
 ---
@@ -11,6 +11,8 @@ seo_image = "cover.jpg"
 src = "./cover.jpg"
 caption = "Evolving product (c) ChatGPT"
 ///
+
+<!-- Note for copilot: this is ongoing translation of Russian post into English. The translation goes from top to bottom, paragraph per paragraph. I write English version of the paragraph on top of the Russian one, then I remove the Russian paragraph. -->
 
 Представим, вы разрабатываете [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) — тамагочи todo-лист для геймеров, или даже что-нибудь менее полезное.
 
