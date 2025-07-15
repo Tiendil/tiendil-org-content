@@ -154,14 +154,14 @@ We сan change parts of the organism just for fun. For example, learn to wiggle 
 But that’s true mainly for individuals; in the corporate world fun carries far less weight. There may be cases where a company can organize a whole department (usually R&D) to "entertain" a specific person, yet in that situation it makes more sense to switch abstractions and treat the company as the organism and the department as one of its organs — the result of evolution/adaptation.
 ///
 
-Есть очевидные исключения:
+There some obvious exceptions:
 
-- Если организм болен или просто слаб, мы можем захотеть грубо вмешаться в работу конкретной его части.
-- Если организму не хватает сил для чего-то специфического, мы можем ему помочь витаминчиками или, например, целенаправленными тренировками.
+- When the organism is sick or just weak, we may want to intervene roughly in the work of a specific part of it.
+- If the organism lacks the strength for a specific task, we can bolster it with vitamins, or, say, with targeted training.
 
-Но, как иделаный конечный результат, как норму, мы всё-таки хотим видеть продукт, который адаптируется самостоятельно, без постоянного вмешательства в его части. Такой продукт будет адаптироваться к изменениям внешней среды быстрее и эффективнее, чем может достичь внешнее планирование его изменений. По крайней мере до тех пор, пока среда изменяется достаточно плавно. В случае резких изменений при форс-мажорах, конечно, может потребоваться вмешательство.
+However, as the ideal end result, as a norm, we still want to see a product that is capable to adapt on its own, without constant interventions. Such a product will adapt to changes in the external environment faster and effectively than external centralized planning can achieve. At least as long as the environment changes smoothly. In case of sharp changes or force majeure, intervention still may be required.
 
-/// hint | Исключение — [иммунная система](https://ru.wikipedia.org/wiki/Иммунная_система) нашего продукта
+/// hint | Expection is the [immune system](https://en.wikipedia.org/wiki/Immune_system) of the product
 
 В любой сложной системе неизбежно организуется иммунная подсистема, которая отвечает за поддержание целостности родительской системы и её компонентов. Задача этой подсистемы не улучшение надсистемы, а предотвращение её деградации.
 
