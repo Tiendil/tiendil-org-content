@@ -42,21 +42,21 @@ Of course, all aspects of the product are important to users differently, and th
 
 For example, availability is extremely important for most products. People don't always talk about it because it's "maximally implied," and management often remembers about it only when someone has already epicly messed up, for example, by launching a marketing activity for +1M DAU without consulting developers.
 
-/// note | Более интересным примером могут быть эмоции
+/// note | Emotions can be a more interesting example
 
-- Есть продукты, для которых они жизненно необходимы, например, — игры.
-- Есть продукты, для которых они не особо нужны, например, сюда можно записать монопольные гос. сервисы, безальтернативный SAP и тому подобное.
-- А есть продукты, для которых эмоции важны, но на сколько не до конца понятно и об этом не всегда говорят. Например, приложения для шопинга, или для микротрейдинга.
+- There are products for which they are vital, for example, games.
+- There are products for which they are not particularly required, such as monopolistic government services, non-alternative software corporate software, and so on.
+- And there are products where emotions are important, but it's not entirely clear to what extent, and this is not always discussed. For example, shopping apps or micro-trading apps.
 
 ///
 
-Конечно:
+The role of each specific product property in its success usually is ambiguous:
 
-- Вы можете по-разному оценивать роль свойств продукта в его успехе.
-- Пользователи могут по-разному оценивать роль этих свойств.
-- Реальность может отличаться как от вашей картины мира, так и от картины мира пользователей.
+- You may differently assess the role of product properties in its success.
+- Users may differently assess the role of these properties.
+- The reality may differ from both your worldview and the users' worldview.
 
-Важно, что без сознательного управления неявными свойствами продукта, он будет терять в ценности для пользователей в той же мере, что и при отсутствии сознательного управления той же базовой функциональностью.
+That's why it's important to remember that without managing non-obvious product properties, it will lose value for users just as much as if there were no management of the core functionality.
 
 Соответственно, мы должны оценивать и учитывать их влияние на успешность продукта, выделять ресусы на их реализацию и поддержку — иными словами, управлять ими.
 
