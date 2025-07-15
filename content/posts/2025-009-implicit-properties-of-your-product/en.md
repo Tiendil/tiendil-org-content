@@ -12,17 +12,17 @@ src = "./cover.jpg"
 caption = "Evolving product (c) ChatGPT"
 ///
 
-<!-- Note for copilot: this is ongoing translation of Russian post into English. The translation goes from top to bottom, paragraph per paragraph. I write English version of the paragraph on top of the Russian one, then I remove the Russian paragraph. -->
+<!-- NOTE FOR COPILOT: this is ongoing translation of Russian post into English. The translation goes from top to bottom, paragraph per paragraph. I write English version of the paragraph on top of the Russian one, then I remove the Russian paragraph. YOU MUST TRANSLATE ONLY TEXT UNDER THE CURSOR — NOTHING ELSE. Translate close to Russian text.-->
 
-Представим, вы разрабатываете [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) — тамагочи todo-лист для геймеров, или даже что-нибудь менее полезное.
+Let's imagine you are developing a [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) — a tamagotchi todo-list for gamers, or even something less useful.
 
-Соответственно, этот SaaS — это ваш продукт — то, что вы предлагаете пользователям — то, за что они платят деньги.
+This SaaS is your product — what you offer to users — what they pay money for.
 
-Но что именно вы предлагаете? Только ли возможность кормить тамагочи todo-листами?
+But what exactly are you offering? Is it just the ability to feed to-do lists to the tamagotchi?
 
-Кроме очевидных свойств, вроде конкретной функциональности, внешнего вида и брендированного джойстика в комплекте, ваш продукт обладает множеством неочевидных свойств, которые также важны для пользователей, а значит влияют на его успешность.
+Beyond the obvious properties, like specific functionality, appearance, and a branded joystick in the package, your product has numerous non-obvious properties that are also important to users and thus affect its success.
 
-Давайте начнём с этих свойств и по логической цепочке пройдём через всё более ~~сложные~~ ~~холистические~~ системные точки зрения на продукт и управление им.
+Let's start by looking at these properties and follow a logical chain through increasingly holistic system-level viewpoints on the product and its management.
 
 <!-- more -->
 
