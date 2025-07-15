@@ -90,26 +90,26 @@ On the other hand, ignoring the temporal dimension in the production of physical
 
 Therefore, **since the product lasts, its attributes (and thus its success) depend on the things that ensure its lasting: infrastructure, processes, and, first of all, the team.**
 
-## Команда как неотъемлемая часть продукта
+## The team as an integral part of the product
 
-Можно выбрать точку зрения на проект, когда процессы, артефакты, инфраструктура и прочее — это производные от команды, которая работает над продуктом.
+We can choose a point of view on the project where processes, artifacts, infrastructure, and so on are derived from the team that works on the product.
 
-Если у вас опытная сплочёная команда, то вы быстро реализуете новые фичи, выкатываете их без инцидентов, не профукиваете безопасность, резво отвечаете на вопросы пользователей, и так далее. Тем самым, вы улучшаете соответствующие свойства продукта, увеличиваете его ценность для пользователей и свои доходы.
+If you have an experienced, cohesive team, you quickly implement new features, roll them out without incidents, don't compromise security, respond promptly to user questions, and so on. Thus, you improve the corresponding product attributes, increase its value for users, and your profits.
 
-Команда аккумулирует в себе множество неформализованных знаний о продукте, которые существуют только в головах её членов: неявные соглашения, допущения, связи между частями продукта, быстрые контакты, шаблоны поведения и решения инцидентов, etc. В большинстве случаев эти знания слишком дорого (и долго) формализовать, поэтому они остаются неотъемлемой часть каждого члена команды. Очевидно, чем старше и стабильнее команда, тем больше в ней таких знаний.
+The product team accumulates a lot of unformalized knowledge that exists only in the minds of its members: implicit agreements, assumptions, connections between parts of the product, quick contacts, behavior patterns, incident resolution templates, etc. In most cases, it is too expensive (and time-consuming) to formalize this knowledge, so it remains an integral part of each team member. Obviously, the older and more stable the team, the more such knowledge it accumulates the more efficiently it works, and the more successful its product is.
 
-Допустим вы даже не уволите команду, в просто поменяете сработаных людей на новых случайных. Из-за отсутствия знаний о работающей системе у вас моментально просядут все сопутствующие показатели. Выпуск обновлений замедлится, поддержка станет медленнее, скорее всего даже просядут доступность, надёжность и безопасность.
+Let's imagine you replace the seasoned team members with new random ones. Due to the lack of knowledge about the working system, all related metrics will immediately drop: release speed will slow down, support will become slower, possibly even availability, reliability, and security will suffer.
 
-Пользователи заметят изменения (возможно при первом же обновлении сервиса) и изменят своё поведение — увеличится процент отказов от подписки, снизится LTV, воронка регистраций станет хуже — всё в том же духе.
+Users will notice the changes (possibly at the first update of the service) and change their behavior — the percentage of subscription cancellations will increase, LTV will decrease, the registration funnel will worsen — all in the same spirit.
 
-Поэтому можно утверждать, что:
+So, we can say that:
 
-- **Продавая пользователю продукт, вы продаёте ему и команду, которая в данный момент работает над этим продуктом.**
-- **Изменяя команду, вы сразу изменяете свойства продукта.**
+- **Selling a product to a user means selling them also the team that is currently working on this product.**
+- **By changing the team, you immediately change the product's attributes.**
 
-Более того, команда не обязательно является сугубо внутренней/скрытой частью продукта.
+Moreover, the team is not necessarily a purely internal/hidden part of the product.
 
-В наше время гипертрофированной публичности и социальности, стать внезапным лицом компании может не только CEO или сотрудник поддержки, но и вообще кто угодно из команды. Поэтому вся публичная активность всех сотрудников является частью продукта — независимо от того нравится нам это или нет. Мы можем решать сколько фокуса мы хотим выделять этому аспекту: от полного игнорирования до вложания ресурсов в развитие личных брендов сотрудников и повышения их социальной грамотности — в любом случае, это надо учитывать — полностью спрятать команду сложно.
+In our time of hypertrophied publicity and sociality, the face of the product (and company) can suddenly be not only the official product leader or a member of the support, but anyone from the product team. Therefore, all public activity of every employee is part of the product — whether we like it or not. We can decide how much focus we want to give to this aspect: from completely ignoring to investing resources in developing employees' personal brands and improving their social literacy — in any case, it needs to be taken into account — it's hard to hide the team completely.
 
 ## Продукт как хаотическая система
 
