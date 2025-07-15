@@ -138,18 +138,20 @@ Hence, the horizon of reliable prediction is shrinking to "plan until tomorrow".
 
 When centralized management becomes impossible, but we still need to direct the system somewhere, we are left with two options: either rely on luck or launch evolutionary/adaptive processes through the self-organization of its parts.
 
-## Продукт как эволюционирующая адаптирующаяся система
+## The product as an evolving adaptive system
 
-Если мы запускаем самоорганизацию, то разумно начать смотреть на продукт как на живой организм.
+If we set self-organization in motion, it makes sense to start viewing the product as a living organism.
 
-Для примера, мы не спускаем нашему сердцу график сокращений, а печёнке баланс веществ в крови на сегодня. Мы уверены что они как-нибудь разберутся с этим самостоятельно. Вместо детального управления частями организма мы сосредоточены на нём, как на целом: где он находится, куда двигается и так далее.
+For example, we are not managing our heart's contraction schedule, nor are we managing the liver's approach to balancing substances in the blood. We trust that they will figure it out on their own. Instead of detailed management of body parts, we focus on the body as a whole: where it is, where it should be, and so on.
 
-Нет смысла управлять конкретным органом ради управления этим органом. Мы можем захотеть произвести какие-то измененя в части продукта, но они будут осмысленны только в контексте всего продукта и для нужд всего продукта. Вместо детального планирования и микроменеджмента лучше заняться оценкой свойств продукта и направлением его эволюции в нужную сторону через подталкивание его к необходимым изменениям.
+There is no point in managing a specific organ just for the sake of managing that organ.
+
+We may want to make some changes to a part of the product, but they will only make sense in the context of the entire product and for the needs of the entire product. Instead of detailed planning and micromanagement, it is better to focus on assessing the attributes of the product and directing its evolution by nudging it towards necessary changes.
 
 /// note | Let's do it for fun
-Конечно, можно изменять части организма just for fun. Например, научиться шевелить ушами, или начать есть стероиды, чтобы надуть мышцы.
+We сan change parts of the organism just for fun. For example, learn to wiggle our ears, or start taking steroids to pump up muscles.
 
-Но это справделиво скорее для персоналий, в мире компаний fun имеет меньшую ценность. Есть случаи, когда под конкретного человека может быть организован отдел (обычно R&D), но в этом случае скорее надо менять абстракцию и представлять уже компанию как организм, а отдел как его часть — для продукта это всё-таки не так важно.
+But that’s true mainly for individuals; in the corporate world fun carries far less weight. There may be cases where a company can organize a whole department (usually R&D) to "entertain" a specific person, yet in that situation it makes more sense to switch abstractions and treat the company as the organism and the department as one of its organs — the result of evolution/adaptation.
 ///
 
 Есть очевидные исключения:
