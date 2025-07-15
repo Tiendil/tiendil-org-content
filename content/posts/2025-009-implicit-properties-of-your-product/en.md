@@ -111,31 +111,32 @@ Moreover, the team is not necessarily a purely internal/hidden part of the produ
 
 In our time of hypertrophied publicity and sociality, the face of the product (and company) can suddenly be not only the official product leader or a member of the support, but anyone from the product team. Therefore, all public activity of every employee is part of the product — whether we like it or not. We can decide how much focus we want to give to this aspect: from completely ignoring to investing resources in developing employees' personal brands and improving their social literacy — in any case, it needs to be taken into account — it's hard to hide the team completely.
 
-## Продукт как хаотическая система
+## The product as a chaotic system
 
-Можно выбрать точку зрения на проект, когда команда, процессы, артефакты, инфраструктура и прочее — это сильно связанная сеть из штук, где всё влияет на всё.
+We can choose a point of view on the project where the team, processes, artifacts, infrastructure, and so on are a tightly connected network of things, where everything affects everything.
 
-/// hin | Здесь нет противоречия с прошлым разделом
-Команда может влиять на процессы и, тем самым быть их первопричиной, но уже запущенные процессы в свою очередь будут влиять на команду. Как говориться, одна ошибка и ты ошибся. Это же касается любых других продуктов деятельности команды.
+/// hint | There is no contradiction with the previous section
 
-К тому же, в «традиционных» подходах к управлению любят ставить управленца вне команды и даже вне управляемой системы. Что приводит к спусканию процессов и инфраструктуры сверху, без учёта реального состояния дел. В SOTA практиках от этого стараются максимально уходить, но, честно говоря, я видел попытки, но не видел стопроцентного успеха. Даже на моей прошлой работе вроде бы как все были активно «за», но не во всём у нас получалось. Про «традиционные» и «модерновые» практики я ещё напишу в будущих постах.
+The team can affect processes and thus be their primary cause, but launched processes will in turn influence the team. The same goes for any other products of the team's activity.
+
+Besides, "traditional" management approaches often like to place the manager outside the team and even outside the managed system. This leads to top-down rollout of processes and infrastructure ignoring on-the-ground realities. SOTA practices try to avoid this as much as possible, but honestly, I have seen attempts, but not 100% success. Even at my previous job, everyone strived to "do it right," but we didn't succeed in everything. I will write more about "traditional" and "modern" practices in future posts.
 ///
 
-Поскольку все компоненты продукта связаны в тесную причинно-следственную сеть, то мы имеем в своём рассположении не предсказуемый «линейный» механизм, а [хаотическую систему](https://ru.wikipedia.org/wiki/Теория_хаоса), изменение одной части которой может привести к непредсказуемым последствиям в других частях.
+Since all product components are tightly interconnected, we have not a predictable "linear" mechanism, but a [chaotic system](https://en.wikipedia.org/wiki/Chaos_theory), where changing one component can lead to unpredictable consequences in others.
 
-Хаотическая природа предполагает практическую невозможность надёжного централизованного долгосрочного планирования жизненного пути продукта, в том числе его свойств. Теоретическая возможность, конечно, есть. Вот, например, квантовые компьютеры обещают нам что-то похожее для более прикладных задач.
+The chaotic nature of the product means the practical impossibility of centralized long-term planning of the product's life path, including its attributes. Theoretically, of course, it is possible. For example, quantum computers promise us something similar for more grounded tasks.
 
-/// note | Хаос был всегда, но в меньшей степени
+/// note | Chaos has always been there, but to a lesser extent
 
-Люди всегда организовывалсь в группы и планировали свою совместную деятельность. Большую часть нашей истории это планирование как раз было централизованным. От хаоса оно тоже страдало, но не в той степени, как сейчас — поведение хаотической системы всё-таки можно предсказать до какой-то временной границы.
+People have always organized themselves into groups and planned their joint activities. For most of our history, this planning was centralized. It suffered from chaos too, but not to the extent it does now — the behavior of a chaotic system can still be predicted up to a certain time boundary.
 
-Проблема в том, что изменился масштаб систем, сложность мира и скорость взимодействий в нём.
+The problem is that the scale of systems, the complexity of the world, and the speed of interactions in it have increased.
 
-Поэтому граница достоверного предсказания стремительно приближается к «планируем до завтра». Лет 50 назад планировать можно было значительно дальше, лет 150 — ещё дальше. Мир ускоряется и становится невообразимо сложнее, необходимо учитывать это.
+Hence, the horizon of reliable prediction is shrinking to "plan until tomorrow". Fifty years ago we could plan much further, 150 years ago — even further. The world is accelerating and becoming unimaginably more complex — we need to take this into account.
 
 ///
 
-В условиях, когда централизованное управление системой становится невозможным, а направлять её куда-то всё-таки надо, остаётся либо полагаться на удачу, либо запускать эволюционные/адаптационные процессы через самоорганизацию её частей.
+When centralized management becomes impossible, but we still need to direct the system somewhere, we are left with two options: either rely on luck or launch evolutionary/adaptive processes through the self-organization of its parts.
 
 ## Продукт как эволюционирующая адаптирующаяся система
 
