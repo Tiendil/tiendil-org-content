@@ -34,11 +34,11 @@ Here are a few popular examples of attributes that people often forget about:
 - Reliability — the storage of user data intact and unharmed, and similar things.
 - Security & safety — the absence of personal information leaks, the absence of harm to user devices.
 
-Users can even expect specific emotions from the product. This applies not only to games, where emotions are one of the key components (compare, for example, the emotions from [Dark Souls](https://en.wikipedia.org/wiki/Dark_Souls), [Doom](https://en.wikipedia.org/wiki/Doom_(1993_video_game)), and [The Sims](https://en.wikipedia.org/wiki/The_Sims))), but also to business applications that can focus on feelings of control, reliability, awareness, etc.
+Users can even expect specific emotions from the product. This applies not only to games, where emotions are one of the key components (compare, for example, the feelings from [Dark Souls](https://en.wikipedia.org/wiki/Dark_Souls), [Doom](https://en.wikipedia.org/wiki/Doom_(1993_video_game)), and [The Sims](https://en.wikipedia.org/wiki/The_Sims))), but also to business applications that can focus on feelings of control, reliability, awareness, etc.
 
-Of course, all aspects of the product are important to users differently, and thus influence the product's success with varying degrees of strength — some have a strong influence, others a weak one — every product is unique. However, it would be incorrect to divide product attributes into obvious-and-important and non-obvious-and-unimportant.
+Of course, all aspects of the product are essential to users in different ways, and thus influence the product's success to varying degrees — some have a strong influence, while others have a weak one. Every product is unique. However, it would be incorrect to categorize product attributes strictly into obvious-and-important and non-obvious-and-unimportant.
 
-For example, availability is extremely important for most products. People don't always talk about it because it's "maximally implied," and management often remembers about it only when someone has already epicly messed up, for example, by launching a marketing activity for +1M DAU without consulting developers.
+For example, availability is exceptionally crucial for most products. People don't always talk about it because it's "maximally implied," and management often remembers about it only when someone has already epicly messed up, for example, by launching a marketing activity for +1M DAU without consulting developers.
 
 /// note | Emotions can be a more interesting example
 
@@ -48,7 +48,7 @@ For example, availability is extremely important for most products. People don't
 
 ///
 
-The role of each specific product attribute in its success usually is ambiguous:
+The role of each specific product attribute in its success is usually ambiguous:
 
 - You may differently assess the role of product attributes in its success.
 - Users may differently assess the role of these attributes.
