@@ -155,7 +155,7 @@ But that’s true mainly for individuals; in the corporate world, fun carries fa
 Here are some obvious exceptions:
 
 - When the organism is sick or just weak, we may want to intervene roughly in the work of a specific part of it.
-- If the organism lacks the strength for a specific task, we can bolster it with vitamins, or, say, with targeted training.
+- If the organism lacks the strength for a specific task, we can bolster it with vitamins or, say, with targeted training.
 
 However, as the ideal result, as a norm, we still want to see a product that is capable of adapting on its own, without constant intervention. Such a product will adapt to changes in the external environment faster and effectively than external centralized planning can achieve. At least as long as the environment changes smoothly. In the event of sudden changes or force majeure, intervention may still be required.
 
@@ -179,16 +179,16 @@ I will elaborate on steering the product and running the feedback loop in the ne
 
 ## Part of the product — part of the crew
 
-From the reasoning above we can draw several conclusions — some of them I’ll cover in future posts. For now, let me highlight a few of the most important (and most interesting).
+From the reasoning above, we can draw several conclusions — some of them I’ll cover in future posts. For now, let me highlight a few of the most important (and most interesting).
 
-**The role of a modern leader is to guide, not to manage**. The distinction may not be obvious, but it matters. Management implies directive control, detailed planning, and oversight; guidance relies on soft power—informing, coaching, supporting, empowering, and creating the conditions for self-organization
+**The role of a modern leader is to guide, not to manage**. The distinction may not be obvious, but it matters. Management implies directive control, detailed planning, and oversight; guidance relies on soft power—informing, coaching, supporting, empowering, and creating the conditions for self-organization.
 
-In the contemporary world, one person cannot reliably know where to go, but **with experience and knowledge, one can understand how to move more conveniently and where not to go at all**. If such a person is part of a team that is not afraid to take initiative and experiment, with one's support, the team will move in a (more) optimal direction.
+In the contemporary world, one person cannot reliably know where to go, but **with experience and knowledge, one can understand how to move more conveniently and where not to go at all**. If such a person is part of a team that is not afraid to take initiative and experiment, with their support, the team will move in a (more) optimal direction.
 
-**We should not separate product management and team management** (infrastructure management, processes management, artifacts management — choose your own, I will refer only to the team for simplicity). Changing one changes the other. Different roles may have different focus, but with a healthy work organization, areas of responsibility will overlap. In such overlaps, we should encourage communication and collaboration, not eliminate them following the "only one responsible will remain" rule.
+**We should not separate product management and team management** (infrastructure management, processes management, artifacts management — choose your own, I will refer only to the team for simplicity). Changing one changes the other. Different roles may have different focus, but with a healthy work organization, areas of responsibility will overlap. In such overlaps, we should encourage communication and collaboration, rather than eliminating them by following the "only one responsible will remain" rule.
 
-**We should measure the value of the product, not the value of the team.** If the product provides enough value, leave its team alone. If it doesn't, think about how to change the product. This may require changing something in the team, or it may not.
+**We should measure the value of the product, not the value of the team.** If the product provides enough value, leave its team alone. If not, consider how to improve the product. This may require changes within the team, or it may not.
 
 In pair with the previous statement: **we should change the product, not the team.** We care about changes in product attributes, and to achieve them, we direct its development in a specific direction. Moving in this direction may require changes in the team, or it may not.
 
-And let me emphasize once more: all these statements are true for infrastructure, artifacts, and processes as well. Engineers often struggle here — we like to tinker with things simply because we can ("let's see what happens") rather than because it will improve the product. We have to watch ourselves and, as a rule, curb such impulses… though every now and then it’s fine to indulge :-D
+And let me emphasize once more: all these statements are also true for infrastructure, artifacts, and processes. Engineers often struggle here — we like to tinker with things simply because we can ("let's see what happens") rather than because it will improve the product. We have to watch ourselves and, as a rule, curb such impulses… though now and then it’s fine to indulge :-D
