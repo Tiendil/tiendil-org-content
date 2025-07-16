@@ -12,8 +12,6 @@ src = "./cover.jpg"
 caption = "Evolving product (c) ChatGPT"
 ///
 
-<!-- THE RULES COPILOT MUST FOLLOW: this is ongoing translation of Russian post into English. The translation goes from top to bottom, paragraph per paragraph. I write English version of the paragraph on top of the Russian one, then I remove the Russian paragraph. YOU MUST TRANSLATE ONLY TEXT UNDER THE CURSOR — NOTHING ELSE. Translate close to Russian text.-->
-
 Let's imagine you are developing a [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) — a tamagotchi todo-list for gamers, or even something less useful.
 
 This SaaS is your product — what you offer to users — what they pay money for.
