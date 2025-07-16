@@ -96,7 +96,7 @@ If you have an experienced, cohesive team, you quickly implement new features, r
 
 The product team accumulates a lot of unformalized knowledge that exists only in the minds of its members: implicit agreements, assumptions, connections between parts of the product, quick contacts, behavior patterns, incident resolution templates, etc. In most cases, it is too expensive (and time-consuming) to formalize this knowledge, so it remains an integral part of each team member. Obviously, the older and more stable the team, the more such knowledge it accumulates, the more efficiently it works, and the more successful its product is.
 
-Let's imagine you replace the seasoned team members with new, random ones. Due to a lack of knowledge about the working system, all related metrics will immediately drop: release speed will slow down, support will become slower, and possibly, even availability, reliability, and security will suffer.
+Let's imagine you replace the well-coordinated team members with new, random ones. Due to a lack of knowledge about the working system, all related metrics will immediately drop: release speed will slow down, support will become slower, and possibly, even availability, reliability, and security will suffer.
 
 Users will notice the changes (possibly at the first update of the service) and change their behavior — the percentage of subscription cancellations will increase, LTV will decrease, the registration funnel will worsen — all in the same spirit.
 
