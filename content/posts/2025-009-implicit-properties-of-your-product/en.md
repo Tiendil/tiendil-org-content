@@ -115,9 +115,9 @@ We can choose a point of view on the project where the team, processes, artifact
 
 /// hint | There is no contradiction with the previous section
 
-The team can affect processes and thus be their primary cause, but launched processes will in turn influence the team. The same goes for any other products of the team's activity.
+The team can affect processes and thus be their primary cause, but launched processes will in turn influence the team. The same applies to any other products of the team's activity.
 
-Besides, "traditional" management approaches often like to place the manager outside the team and even outside the managed system. This leads to top-down rollout of processes and infrastructure ignoring on-the-ground realities. SOTA practices try to avoid this as much as possible, but honestly, I have seen attempts, but not 100% success. Even at my previous job, everyone strived to "do it right," but we didn't succeed in everything. I will write more about "traditional" and "modern" practices in future posts.
+Besides, "traditional" management approaches often like to place the manager outside the team and even outside the managed system. This leads to a top-down rollout of processes and infrastructure ignoring on-the-ground realities. SOTA practices try to avoid this as much as possible, but honestly, I have seen attempts, but not 100% success. Even at my previous job, everyone strived to "do it right," but we didn't succeed in everything. I will write more about "traditional" and "modern" practices in future posts.
 ///
 
 Since all product components are tightly interconnected, we have not a predictable "linear" mechanism, but a [chaotic system](https://en.wikipedia.org/wiki/Chaos_theory), where changing one component can lead to unpredictable consequences in others.
