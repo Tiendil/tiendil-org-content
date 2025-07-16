@@ -144,30 +144,30 @@ For example, we are not managing our heart's contraction schedule, nor are we ma
 
 There is no point in managing a specific organ just for the sake of managing that organ.
 
-We may want to make some changes to a part of the product, but they will only make sense in the context of the entire product and for the needs of the entire product. Instead of detailed planning and micromanagement, it is better to focus on assessing the attributes of the product and directing its evolution by nudging it towards necessary changes.
+We may want to make some changes to a part of the product, but they will only make sense in the context of the entire product and for the needs of the entire product. Instead of detailed planning and micromanagement, it is better to focus on assessing the product's attributes and guiding its evolution by nudging it towards necessary changes.
 
 /// note | Let's do it for fun
 We сan change parts of the organism just for fun. For example, learn to wiggle our ears, or start taking steroids to pump up muscles.
 
-But that’s true mainly for individuals; in the corporate world fun carries far less weight. There may be cases where a company can organize a whole department (usually R&D) to "entertain" a specific person, yet in that situation it makes more sense to switch abstractions and treat the company as the organism and the department as one of its organs — the result of evolution/adaptation.
+But that’s true mainly for individuals; in the corporate world, fun carries far less weight. There may be cases where a company can organize a whole department (usually R&D) to "entertain" a specific person, yet in that situation, it makes more sense to switch abstractions and treat the company as the organism and the department as one of its organs — the result of evolution/adaptation.
 ///
 
-There some obvious exceptions:
+Here are some obvious exceptions:
 
 - When the organism is sick or just weak, we may want to intervene roughly in the work of a specific part of it.
 - If the organism lacks the strength for a specific task, we can bolster it with vitamins, or, say, with targeted training.
 
-However, as the ideal end result, as a norm, we still want to see a product that is capable to adapt on its own, without constant interventions. Such a product will adapt to changes in the external environment faster and effectively than external centralized planning can achieve. At least as long as the environment changes smoothly. In case of sharp changes or force majeure, intervention still may be required.
+However, as the ideal result, as a norm, we still want to see a product that is capable of adapting on its own, without constant intervention. Such a product will adapt to changes in the external environment faster and effectively than external centralized planning can achieve. At least as long as the environment changes smoothly. In the event of sudden changes or force majeure, intervention may still be required.
 
-/// hint | Expection is the [immune system](https://en.wikipedia.org/wiki/Immune_system) of the product
+/// hint | Exception is the [immune system](https://en.wikipedia.org/wiki/Immune_system) of the product
 
-Every complex-enough system inevitably develops an immune subsystem that is responsible for maintaining the integrity of the parent system and its components. The task of this subsystem is not to improve the super-system, but to prevent its degradation.
+Every sufficiently complex system inevitably develops an immune subsystem responsible for maintaining the integrity of the parent system and its components. The task of this subsystem is not to improve the super-system, but to prevent its degradation.
 
-In organisations and products, this thing rarely manifests itself explicitly since it is expensive and everyone saves on it. Usually, it exists as processes and roles that partially perform its functions: security officers, peer reviews, technical and informal leaders, etc.
+In organisations and products, this thing rarely manifests itself explicitly since it is expensive, and everyone saves on it. Typically, it exists as processes and roles that partially perform its functions: security officers, peer reviews, technical and informal leaders, etc.
 
-The system’s role is to make targeted assessments of how each component affects the product or the organisation and to adjust those components when needed. At times this can look like the very top-down management I’m cautioning against in this post.
+The system’s role is to make targeted assessments of how each component affects the product or the organisation and to adjust those components when needed. At times, this can look like the very top-down management I’m cautioning against in this post.
 
-This approach works because, the immune system is interested not in how a specific component affects a specific end parameter of the system, but in overall usefulness of that component — does it do more good than harm.
+This approach works because the immune system is interested not in how a specific component affects a specific end parameter of the system, but in the overall usefulness of that component — does it do more good than harm.
 
 Thus, we can say that we should have two adaptation processes running:
 
@@ -175,7 +175,7 @@ Thus, we can say that we should have two adaptation processes running:
 - On the bottom level — addressing specific large problems that components of the product cannot solve on their own.
 ///
 
-I tell more about steering the product and running the feedback loop in the next post.
+I will elaborate on steering the product and running the feedback loop in the next post.
 
 ## Part of the product — part of the crew
 
