@@ -1,4 +1,4 @@
-title = "Эмерджентный блог"
+title = "Эмерджентный гримуар"
 subtitle = "Эссе о разработке игр, мышлении и книгах"
 author = "Елецкий Алексей (Tiendil)"
 
@@ -124,6 +124,8 @@ professional-books = "профессиональные книги"
 popular-science-books = "научно-популярные книги"
 results-of-the-year = "итоги года"
 scientific-papers = "научные статьи"
+management = "управление"
+vantage-on-management = "взгляд на управление"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'

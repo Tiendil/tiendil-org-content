@@ -1,6 +1,6 @@
 ---
 title = "Зачем нужен план"
-tags = [ "thinking", "development", "theory", "interesting"]
+tags = [ "thinking", "development", "theory", "management", "interesting"]
 published_at = "2015-06-01T12:00:00+00:00"
 seo_description = "Обсудим что такое план и зачем он нужен, даже если кажется что он не нужен."
 seo_image = "images/why-do-i-need-a-plan-cover.jpg"
