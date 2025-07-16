@@ -94,9 +94,9 @@ We can choose a point of view on the project where processes, artifacts, infrast
 
 If you have an experienced, cohesive team, you quickly implement new features, roll them out without incidents, don't compromise security, respond promptly to user questions, and so on. Thus, you improve the corresponding product attributes, increase its value for users, and your profits.
 
-The product team accumulates a lot of unformalized knowledge that exists only in the minds of its members: implicit agreements, assumptions, connections between parts of the product, quick contacts, behavior patterns, incident resolution templates, etc. In most cases, it is too expensive (and time-consuming) to formalize this knowledge, so it remains an integral part of each team member. Obviously, the older and more stable the team, the more such knowledge it accumulates the more efficiently it works, and the more successful its product is.
+The product team accumulates a lot of unformalized knowledge that exists only in the minds of its members: implicit agreements, assumptions, connections between parts of the product, quick contacts, behavior patterns, incident resolution templates, etc. In most cases, it is too expensive (and time-consuming) to formalize this knowledge, so it remains an integral part of each team member. Obviously, the older and more stable the team, the more such knowledge it accumulates, the more efficiently it works, and the more successful its product is.
 
-Let's imagine you replace the seasoned team members with new random ones. Due to the lack of knowledge about the working system, all related metrics will immediately drop: release speed will slow down, support will become slower, possibly even availability, reliability, and security will suffer.
+Let's imagine you replace the seasoned team members with new, random ones. Due to a lack of knowledge about the working system, all related metrics will immediately drop: release speed will slow down, support will become slower, and possibly, even availability, reliability, and security will suffer.
 
 Users will notice the changes (possibly at the first update of the service) and change their behavior — the percentage of subscription cancellations will increase, LTV will decrease, the registration funnel will worsen — all in the same spirit.
 
@@ -107,7 +107,7 @@ So, we can say that:
 
 Moreover, the team is not necessarily a purely internal/hidden part of the product.
 
-In our time of hypertrophied publicity and sociality, the face of the product (and company) can suddenly be not only the official product leader or a member of the support, but anyone from the product team. Therefore, all public activity of every employee is part of the product — whether we like it or not. We can decide how much focus we want to give to this aspect: from completely ignoring to investing resources in developing employees' personal brands and improving their social literacy — in any case, it needs to be taken into account — it's hard to hide the team completely.
+In our era of hypertrophied publicity and sociality, the face of the product (and company) can suddenly be not only the official product leader or a member of the support, but anyone from the product team. Therefore, all public activity of every employee is part of the product, whether we like it or not. We can decide how much focus to give to this aspect, ranging from completely ignoring it to investing resources in developing employees' personal brands and improving their social literacy — in any case, it needs to be taken into account — it's hard to hide the team completely.
 
 ## The product as a chaotic system
 
