@@ -60,30 +60,30 @@ To understand what exactly we should manage and how, let's take a closer look at
 
 ## The product lasts
 
-Let’s stick with our hypothetical tamagotchi todo-list SaaS.
+Let’s stick with our hypothetical SaaS to-do list.
 
 Almost all attributes of this SaaS make sense only within a temporal dimension.
 
-Product’s core functionality comes from code running on servers in real-time. If those servers go down, the product instantly "disappears" for users.
+The product’s core functionality comes from code running on servers in real-time. If those servers go down, the product instantly "disappears" for users.
 
-Product availability depends not just on the code that’s running but on the operational processes that keep the underlying infrastructure healthy. For as long as the product exists, someone has to watch server health, monitor free space in the database, and tend to countless other details.
+Product availability depends not only on the code that’s running, but also on the operational processes that keep the underlying infrastructure healthy. For as long as the product exists, someone must monitor server health, track free space in the database, and tend to numerous other details.
 
-The part of the product is also the lasting obligations of developers to users and regulators: from deadlines for deleting personal data according to GDPR and the minimum time for storing payment information (starts from 3-5 years, depending on the country), to obligations for, generally, storing user information essential for our SaaS functionality.
+The part of the product is also the lasting obligations of developers to users and regulators: from deadlines for deleting personal data according to GDPR and the minimum time for storing payment information (starting from 3-5 years, depending on the country), to obligations for, generally, storing user information essential for our SaaS functionality.
 
 One can also point to more abstract properties, such as explicit or implicit agreements on the speed/frequency of new feature releases, guarantees for bug fixes, and support for deprecated functionality.
 
-In some cases, even certain monetization activities can become a lasting part of the product. For example, for a long time in my [pet-MMO](https://the-tale.org), there was an informal agreement between developers and players that we only have one time a year when in-game currency can be purchased at a discount — the week around Black Friday. Players took this into account when planning their spendings and perceived it as part of the services provided.
+In some cases, even certain monetization activities can become a lasting part of the product. For example, for a long time in my [pet MMO](https://the-tale.org), there was an informal agreement between developers and players that we only have one time a year when in-game currency can be purchased at a discount — the week around Black Friday. Players took this into account when planning their spending and perceived it as part of the services provided.
 
 /// note | All products have a temporal dimension
 I chose SaaS as an example because it is the most characteristic and modern type of product.
 
-In fact, the temporal dimension is inherent in all products, not only services, but even fully physical ones, like hammers.
+In fact, the temporal dimension is inherent in all products, not just services, but even entirely physical ones, such as hammers.
 
-In systems engineering there’s a saying: every system is a four-dimensional object — three physical dimensions plus time. Since any system has a lifecycle from planning to decommissioning (even if they are conducted by different entities), parts of the system go through different states, which is evidence of the temporal dimension.
+In systems engineering, there’s a saying: every system is a four-dimensional object — three physical dimensions plus time. Since any system has a lifecycle from planning to decommissioning (even if different entities conduct them), parts of the system go through various states, which is evidence of the temporal dimension.
 
-According to the contemporary practices, even a good hammer manufacturer should consider the temporal dimension in their product: provide a warranty for the hammer, sell replaceable heads, handles, and other accessories, collect usage statistics. Of course, if they want to be a market leader.
+According to contemporary practices, even a good hammer manufacturer should consider the temporal dimension in their product: provide a warranty for the hammer, sell replaceable heads, handles, and other accessories, and collect usage statistics. Of course, if they want to be a market leader.
 
-On the other hand, ignoring the temporal dimension in the production of physical products is "traditional" (like "traditional" are any remnants of the past) and sometimes not so critical.
+On the other hand, ignoring the temporal dimension in the production of physical products is a "traditional" approach (like "traditional" are any remnants of the past) and sometimes not so critical.
 ///
 
 Therefore, **since the product lasts, its attributes (and thus its success) depend on the things that ensure its lasting: infrastructure, processes, and, first of all, the team.**
