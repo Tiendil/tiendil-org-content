@@ -43,7 +43,7 @@ For example, availability is exceptionally crucial for most products. People don
 /// note | Emotions can be a more interesting example
 
 - There are products for which they are vital, for example, games.
-- There are products for which they are not particularly required, such as monopolistic government services, non-alternative software corporate software, and so on.
+- There are products for which they are not particularly required, such as monopolistic government services, non-alternative corporate software, and so on.
 - And there are products where emotions are important, but it's not entirely clear to what extent, and this is not always discussed. For example, shopping apps or micro-trading apps.
 
 ///
