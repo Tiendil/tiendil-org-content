@@ -19,34 +19,34 @@ I do not plan to fantasize or look for new directions, instead, let's repeat the
 
 <!-- more -->
 
-## Общие впечатления
+## General impressions
 
-Я не слежу активно за генерацией графики — больше текстами интересуюсь. Midjourney и весь остальной прогресс за год прошли мимо меня. Поэтому я смотрю именно на разницу в год.
+I have not been actively following graphics generation — more interested in texts. So, Midjourney and all the other progress over the year have passed me by. Therefore, I look specifically at the difference over the year (in comparison with my previous post).
 
-Скорость изменений, качество и открывающиеся возможности поражают.
+The speed of change, quality, and the opportunities that open up are astonishing.
 
-DALL-E стал на порядок более творческим, глубоким, окультуренным. Может быть даже слишком окультуренным. Раньше его работы были похожи по духу на работы школьника с фломастером, имели ожидаемую для школьника семантику. Теперь же DALL-E — это что-то вроде художника с дополнительным образованием в области истории искусства либо философии.
+DALL-E has become so much more creative, nuanced, and cultured—perhaps even a bit over-cultured. Its earlier work felt like the kind of art a kid might make with markers: predictable and school-level. Now, DALL-E is more like a painter with an extra degree in art history or philosophy.”
 
-Может быть с точки зрения профессионала это не заметно или даже явное преувеличение, но для профана вроде меня выглядит именно так. По-умолчанию DALL-E создаёт изображения глубже, чем я ожидаю и прошу, с большей творческой компонентой и вариативностью, чем требуется. Для примера, посмотрите на «творческое переосмысление» стиля [Врубеля](https://ru.wikipedia.org/wiki/%D0%92%D1%80%D1%83%D0%B1%D0%B5%D0%BB%D1%8C,_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87) на заглавной картинке и на альтернативах внизу поста: выглядит похоже, но скорее по духу, чем по стилю. Наверняка это можно тюнить детальными запросами, так как взаимодействие с DALL-E происходит через ChatGPT 4.
+Perhaps, from the professional point of view, it is not noticeable or even an exaggeration, but for a layman like me, it looks exactly like that. By default, DALL-E creates images that are deeper than I expect and ask for, with a greater creative component and variability than required. For example, look at the "creative reimagining" of [Vrubel's style](https://en.wikipedia.org/wiki/Mikhail_Vrubel) in the header image and the alternatives below: it looks similar, but more in spirit than in style. Surely this can be tuned with detailed requests, as interaction with DALL-E happens through ChatGPT 4.
 
-Описанные в прошлом посте проблемы (малый контекст, сильное тяготение к [мемам]{post:genes-memes-memeplexes}, проблема с мелкими деталями) исправлены.
+The problems listed in the previous post (small context, strong tendency towards [memes]{post:genes-memes-memeplexes}, issues with small details) have been resolved.
 
-**Update:** Жена не согласна с тем, что исправлено тяготение к мемам. Если попросить нарисовать хомяка, то DALL-E рисует только сирийцев, игнорируя все прочие виды. Даже если явно попросить. Но я бы это списал на отсутствие конкретных знаний, а не на тяготение к мемам.
+**Update:** My wife disagrees that the tendency towards memes has been fixed. If you ask it to draw a hamster, DALL-E draws only Syrians, ignoring all other species. Even if you ask explicitly. But I would attribute this to a lack of specific knowledge rather than a tendency towards memes.
 
-Предыдущая версия DALL-E выглядела как специфический инструмент для навигации в пространстве мемов, а-ля графический компас. Новая версия приближается к волшебной палочке, которая даёт что просишь. Учитывая скорость прогресса, через год-два будет волшебная палочка. Независимые разработчики ликуют, непродуктовые творцы паникуют.
+The previous version of DALL-E felt like a specific tool for navigating the meme space, like a graphical compass. The new version approaches a magic wand that gives you what you ask for. Given the speed of progress, in a year or two, it, indeed, will be a magic wand. Independent developers rejoice, non-product creators panic.
 
-По прогнозам из предыдущего поста.
+About the prognoses from the previous post.
 
-_«Ввод текста заменят или дополнят кучей ползунков и флажков для более точного выбора направления.»_ На сколько я знаю, реализовано частично в других инструментах.
+_"Text input will be replaced or supplemented with a bunch of sliders and checkboxes for more precise direction selection."_ To my knowledge, this is partially implemented in other tools.
 
-_««Умная» автоматическая генерация бОльшего количества вариантов изображений с помощью автоматических преобразований оригинальной фразы.»_ Реализовано в DALL-E-3: создаётся 4 вариации промта, по ним генерируются картинки. Промты можно увидеть, если открыть вариант картинки в интерфейсе ChatGPT.
+_""Smart" automatic generation of more image variations through automatic transformations of the original phrase."_ Implemented in DALL-E-3: it creates 4 variations of the prompt, and images are generated based on them. You can see the prompts if you open the image variant in the ChatGPT interface.
 
-Два из двух! Читайте мой блог и всегда будете на шаг впереди прогресса :-D
+Two out of two! Read my blog and you'll always be one step ahead of progress :-D
 
-Технические моменты:
+Technical details:
 
-- Все запросы делались в новом чистом контексте. Качество результатов должно быть легко улучшить подсказками.
-- Картинки создаются немного дольше, чем в предыдущей версии. Возможно из-за большой нагрузки на инфраструктуру, а не из-за ограничений модели.
+- All requests were made in a new clean context. The quality of results should be easy to improve with hints.
+- Picture generation takes longer than in the previous version. Possibly due to high load on the infrastructure, not due to model limitations.
 
 ## Используем DALL-E для задач геймдева
 
