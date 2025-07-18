@@ -117,7 +117,7 @@ Moreover, ChatGPT accompanied the screenshots with correct descriptions:
 
 Let's continue.
 
-[NoCraft]{post:concept-document-nocraft}
+[NoCraft]{post:@choose-nearest-language:concept-document-nocraft}
 
 ```
 Screenshot of an indie game "NoCraft" — like StarCraft but without micromanagement. Less reflexes, more strategy. RTS with indirect control, mutations of units and their behaviour. The setting is space, captured by zergs. The graphics style is simplified, cartoonish, frivolous, and vector.
@@ -126,48 +126,46 @@ Screenshot of an indie game "NoCraft" — like StarCraft but without micromanage
 /// brigid-images
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-03-01.jpg"
-alt = "Пример 1 скриншота от DALL-E"
+alt = "Example concept 1 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-03-02.jpg"
-alt = "Пример 2 скриншота от DALL-E"
+alt = "Example concept 2 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-03-03.jpg"
-alt = "Пример 3 скриншота от DALL-E"
+alt = "Example concept 3 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-03-04.jpg"
-alt = "Пример 4 скриншота от DALL-E"
+alt = "Example concept 4 from DALL-E"
 ///
 
 
-Опять, суть уловлена верно, качество отличное, но на лицо путаница в жанрах — на картинках скорее мобильные игры предствлены. Плюс, изображения больше похожи на промо арт, чем на реальные скриншоты.
+Again, the essence is captured correctly, the quality is excellent, but there is a mix-up in genres — the images are more about mobile games. Plus, the images look more like promo art than actual screenshots.
 
-Скормим концепт целиком.
+Let's feed the entire concept to the LLM.
 
 /// brigid-images
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-04-04.jpg"
-alt = "Пример 4 скриншота от DALL-E"
+alt = "Example screenshot 4 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-04-03.jpg"
-alt = "Пример 3 скриншота от DALL-E"
+alt = "Example screenshot 3 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-04-02.jpg"
-alt = "Пример 2 скриншота от DALL-E"
+alt = "Example screenshot 2 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-04-01.jpg"
-alt = "Пример 1 скриншота от DALL-E"
+at = "Example screenshot 1 from DALL-E"
 ///
 
 
-Нда, DALL-E определённо учился на скринах мобилок, фотках настолок и спрайтлистах :-D В основном пошаговых игр. Сходу заставить его создать что-то похожее на StarCraft не получилось.
-
-Придётся пока TBS пилить или ждать ещё год.
+Well… DALL-E difinitely learned from screenshots of mobile games, photos of board games, and sprite sheets :-D Mostly from turn-based strategy games. I couldn't get it to create something similar to StarCraft right away.
 
 ### Детальное описание сцены и концепт-арт
 
