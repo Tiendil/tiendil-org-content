@@ -161,7 +161,7 @@ alt = "Example screenshot 2 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-04-01.jpg"
-at = "Example screenshot 1 from DALL-E"
+alt = "Example screenshot 1 from DALL-E"
 ///
 
 
