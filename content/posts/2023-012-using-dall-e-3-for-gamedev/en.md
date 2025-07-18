@@ -48,15 +48,15 @@ Technical details:
 - All requests were made in a new clean context. The quality of results should be easy to improve with hints.
 - Picture generation takes longer than in the previous version. Possibly due to high load on the infrastructure, not due to model limitations.
 
-## Используем DALL-E для задач геймдева
+## Using DALL-E for game design tasks
 
-Я пробовал несколько направлений использования, те же, что и в прошлом году.
+I tried several directions of use, the same as last year.
 
-### Скриншот игры по концепт-документу
+### Create a fake game screenshot from a concept document
 
-Экспериментировал, конечно, на тех же [концептах]{tags:concepts}, что и в прошлом году.
+I experimented, of course, with the same [concepts]{tags:concepts} as last year (you may want to check russian version of this blog — not all concepts are translated).
 
-[Space Opera Engine]{post:concept-document-for-the-game-s-space-opera-engine}
+[Space Opera Engine]{post:@choose-nearest-language:concept-document-for-the-game-s-space-opera-engine}
 
 ```
 Screenshot of an indie game for PC: a simulator of the universe — multiplayer socio-political sandbox on the scale of Space Opera.
@@ -67,46 +67,46 @@ Stylistics is minimalist. Basic information is presented in text, pictograms, an
 /// brigid-images
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-01-01.jpg"
-alt = "Пример 1 концепта от DALL-E"
+alt = "Example concept 1 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-01-02.jpg"
-alt = "Пример 2 концепта от DALL-E"
+alt = "Example concept 2 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-01-03.jpg"
-alt = "Пример 3 концепта от DALL-E"
+alt = "Example concept 3 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-01-04.jpg"
-alt = "Пример 4 концепта от DALL-E"
+alt = "Example concept 4 from DALL-E
 ///
 
-Отвисла ли у вас челюсть, господа? Готовы ли вы нести деньги за такие игры? Я готов.
+Are your jaws dropped, ladies & gentlemen? Are you ready to pay money for such games? I am ready.
 
-Раз сетка так хорошо справилась с простым запросом, давайте скормим ей весь концепт! На самом деле концепт целиком не влез в контекст — только половина — пришлось удалить ненужные части про маркетинг, риски и прочие скучные вещи.
+Since the LLM showed such good results with a simple request, let's feed it the entire concept! In fact, the entire concept did not fit into the context — only half of it — had to remove unnecessary parts about marketing, risks, and other boring things.
 
 /// brigid-images
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-02-04.jpg"
-alt = "Пример 4 концепта от DALL-E"
+alt = "Example concept 4 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-02-01.jpg"
-alt = "Пример 1 концепта от DALL-E"
+alt = "Example concept 1 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-02-02.jpg"
-alt = "Пример 2 концепта от DALL-E"
+alt = "Example concept 2 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-02-03.jpg"
-alt = "Пример 3 концепта от DALL-E"
+alt = "Example concept 3 from DALL-E"
 ///
 
-Как видим, суть уловлена, но не получилось сконцентрироваться на тексте, как основном способе подачи ситуации. Оно и понятно.
+As you can see, the LLM captured the essence of the concept, but it did not manage to focus on the text as the main approach to presenting the situation in the game — it's understandable.
 
-Более того, ChatGPT сопроводила скриншоты корректным описанием:
+Moreover, ChatGPT accompanied the screenshots with correct descriptions:
 
 ```
 - A minimalist user interface for the game, showcasing a galaxy with various star systems.
@@ -115,7 +115,7 @@ alt = "Пример 3 концепта от DALL-E"
 - An in-game event illustration where a city on a planet is highlighted, presenting a situation for the player to interact with.
 ```
 
-Продолжим.
+Let's continue.
 
 [NoCraft]{post:concept-document-nocraft}
 
