@@ -167,9 +167,9 @@ at = "Example screenshot 1 from DALL-E"
 
 Well… DALL-E difinitely learned from screenshots of mobile games, photos of board games, and sprite sheets :-D Mostly from turn-based strategy games. I couldn't get it to create something similar to StarCraft right away.
 
-### Детальное описание сцены и концепт-арт
+### Detailed scene description and concept art
 
-Поскольку проблема размера контекста из прошлого поста решена полностью, приведу только самый сложный пример из сцен, который сходу отрендерен полностью корректно. Разве что некромант не очень страшный.
+Since the problem of context size from the previous post is completely solved, I will only show the most complex example from the scenes, which was rendered correctly from the first try. Except that the necromancer is not very scary.
 
 ```
 Concept art of an old dwarf-necromancer who stands on the top of a hill. The dwarf has a magically enchanted leg prosthesis, one eye is replaced with a glowing ruby. The hill is surrounded by the inquisition. There are spirits flying in the sky.
@@ -178,23 +178,23 @@ Concept art of an old dwarf-necromancer who stands on the top of a hill. The dwa
 /// brigid-images
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-05-4.jpg"
-alt = "Пример 4 концепта от DALL-E"
+alt = "Example concept 4 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-05-01.jpg"
-alt = "Пример 1 концепта от DALL-E"
+alt = "Example concept 1 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-05-02.jpg"
-alt = "Пример 2 концепта от DALL-E"
+alt = "Example concept 2 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-05-03.jpg"
-alt = "Пример 3 концепта от DALL-E"
+alt = "Example concept 3 from DALL-E"
 ///
 
 
-Но если надо жути, то вот.
+In case you want something scary, here it is.
 
 ```
 Scary old dwarf-necromancer who stands on the top of a hill.
@@ -203,49 +203,48 @@ Scary old dwarf-necromancer who stands on the top of a hill.
 /// brigid-images
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-06-01.jpg"
-alt = "Пример 3 концепта от DALL-E"
+alt = "Example concept 3 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-06-04.jpg"
-alt = "Пример 4 концепта от DALL-E"
+alt = "Example concept 4 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-06-03.jpg"
-alt = "Пример 1 концепта от DALL-E"
+alt = "Example concept 1 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-06-02.jpg"
-alt = "Пример 2 концепта от DALL-E"
+alt = "Example concept 2 from DALL-E"
 ///
 
-### Низкобюджетный pixel art
+### Low-budget pixel art
 
-Даже прошлая версия DALL-E была хороша в pixel art, поэтому сразу было ясно что будет круто.
+Even the previous version of DALL-E was good at pixel art, so it was clear that the new one would be even better.
 
 ```
 Pixel art image of an scary old dwarf-necromancer fighting inquisition
 ```
 
-
 /// brigid-images
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-07-01.jpg"
-alt = "Пример 1 pixel art концепта от DALL-E"
+alt = "Example pixel art concept 1 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-07-02.jpg"
-alt = "Пример 2 pixel art концепта от DALL-E"
+alt = "Example pixel art concept 2 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-07-03.jpg"
-alt = "Пример 3 pixel art концепта от DALL-E"
+alt = "Example pixel art concept 3 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-07-04.jpg"
-alt = "Пример 4 pixel art концепта от DALL-E"
+alt = "Example pixel art concept 4 from DALL-E"
 ///
 
-Но нам, конечно, нужен низкодетализированный pixel art для рогаликов и условных карт.
+But, of caurse, we need low-detailed pixel art for roguelikes and low-resolution maps.
 
 ```
 Grid sprite sheet of very low-detailed pixel art sprites of variants of a scary dwarf-necromancer ready to use in a roguelike game.
@@ -254,25 +253,24 @@ Grid sprite sheet of very low-detailed pixel art sprites of variants of a scary 
 /// brigid-images
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-08-01.jpg"
-alt = "Пример 1 pixel art sprite sheet от DALL-E"
+alt = "Example pixel art sprite sheet 1 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-08-02.jpg"
-alt = "Пример 2 pixel art sprite sheet от DALL-E"
+alt = "Example pixel art sprite sheet 2 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-08-03.jpg"
-alt = "Пример 3 pixel art sprite sheet от DALL-E"
+alt = "Example pixel art sprite sheet 3 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-08-04.jpg"
-alt = "Пример 4 pixel art sprite sheet от DALL-E"
+alt = "Example pixel art sprite sheet 4 from DALL-E"
 ///
 
+I had to tinker with the prompt and the result is still too detailed. It looks like DALL-E now has a strong tendency towards adding details into images. Also, it does not respect the grid boundaries.
 
-С запросом пришлось повозиться и получилось всё-равно слишком детализировано. DALL-E стал откровенно тяготеть к высокой детализации. Плюс, границы сетки просто так не соблюдает.
-
-Для анимаций на этот раз вместо бегуна попросил сделать демона.
+For animations, this time, I asked to create a demon instead of a runner.
 
 ```
 Pixel art sprite sheet of 8 frames of imp casting a fireball.
@@ -281,30 +279,29 @@ Pixel art sprite sheet of 8 frames of imp casting a fireball.
 /// brigid-images
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-09-01.jpg"
-alt = "Пример 1 pixel art sprite sheet с анимацией от DALL-E"
+alt = "Example pixel art sprite sheet with animation 1 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-09-02.jpg"
-alt = "Пример 2 pixel art sprite sheet с анимацией от DALL-E"
+alt = "Example pixel art sprite sheet with animation 2 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-09-03.jpg"
-alt = "Пример 3 pixel art sprite sheet с анимацией от DALL-E"
+alt = "Example pixel art sprite sheet with animation 3 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-09-04.jpg"
-alt = "Пример 4 pixel art sprite sheet с анимацией от DALL-E"
+alt = "Example pixel art sprite sheet with animation 4 from DALL-E"
 ///
 
-Немного пошаманил и вуа-ля — гифка. Кривая конечно. Отчасти, потому, что DALL-E не хочет генерировать выровненные спрайты, отчасти, потому, что я не умею этот результат нарезать на кадры. Надо срочно тренировать нейронку для нарезания спрайтов.
+Did a bit of magic and voilà — a GIF. It's janky, of course. Partly because DALL-E refuses to generate aligned sprites, and partly because I don’t know how to slice the result into frames properly. We really need to train a neural network for sprite slicing ASAP.
 
 /// brigid-images
 src = "./images/using-dall-e-3-for-gamedev-fireball.gif"
-alt = "Пример pixel art анимации от DALL-E"
+alt = "Example pixel art animation from DALL-E"
 ///
 
-
-Возвращаясь к pixel art. Прошлая версия DALL-E не умела в pixel art карты, текущая умеет слишком хорошо — очень детализовано.
+Let's return to the pixel art. The previous version of DALL-E could not create pixel art maps, the current one does it too well — it adds too many details.
 
 ```
 Tiled pixel art map of fantasy kingdom
@@ -313,24 +310,24 @@ Tiled pixel art map of fantasy kingdom
 /// brigid-images
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-10-01.jpg"
-alt = "Пример 1 pixel art карты от DALL-E"
+alt = "Example pixel art map 1 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-10-02.jpg"
-alt = "Пример 2 pixel art карты от DALL-E"
+alt = "Example pixel art map 2 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-10-03.jpg"
-alt = "Пример 3 pixel art карты от DALL-E"
+alt = "Example pixel art map 3 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-10-04.jpg"
-alt = "Пример 4 pixel art карты DALL-E"
+alt = "Example pixel art map 4 from DALL-E"
 ///
 
-Как видите, эти карты назвать «tiled» можно только с большой натяжкой.
+As you can see, calling these maps "tiled" is a bit of a stretch.
 
-Приходится просить точнее.
+So, I had to be more specific with my requests.
 
 ```
 Sprite sheet with tiles of a fantasy kingdom map for a game, top-down perspective.
@@ -339,60 +336,59 @@ Sprite sheet with tiles of a fantasy kingdom map for a game, top-down perspectiv
 /// brigid-images
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-11-01.jpg"
-alt = "Пример 1 pixel art тайлов карты от DALL-E"
+alt = "Example pixel art map tiles 1 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-11-02.jpg"
-alt = "Пример 2 pixel art тайлов карты от DALL-E"
+alt = "Example pixel art map tiles 2 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-11-03.jpg"
-alt = "Пример 3 pixel art тайлов карты от DALL-E"
+alt = "Example pixel art map tiles 3 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-11-04.jpg"
-alt = "Пример 4 pixel art тайлов карты DALL-E"
+alt = "Example pixel art map tiles 4 from DALL-E"
 ///
 
+It's night and day compared to the previous version. But for now, the tiles still don't seem to align well with each other — especially when it comes to roads and rivers. Still, it works great as a draft. Maybe with a carefully crafted and detailed prompt, it’ll be possible to get less detailed but better-fitting tiles.
 
-Небо и земля по сравнению с предыдущей версией. Но пока не похоже, чтобы тайлы хорошо стыковались друг с другом. Особенно в части дорог и рек. Но как заготовка выглядит очень хорошо. Возможно, если аккуратно и детально составить запрос, можно будет получить менее детализированные, но лучше стыкующиеся тайлы.
+I tried to use advanced prompt engineering techniques like chain-of-thoughts for generating spritesheets. But I got stuck at the very beginning — I couldn't get DALL-E to create a square grid for sprites. It stubbornly draws it rotated, in isometric perspective, in 3D, polluted with unrelated images — anything but a clean chessboard grid.
 
-Хотел попробовать использовать продвинутые методы работы с LLM вроде chain-of-thoughts для генерации spritesheets. Но остановился в самом начале — не смог заставить DALL-E создать квадратную сетку для спрайтов. Он упорно рисует её повёрнутой, в изометрии, в 3d, неровной с левыми картинками — любую, но не чистую шахматную сетку.
+### Variants of the cover image
 
-### Варианты заглавной картинки
-
-DALL-E очень хорошо умеет в проработанные изображения. Поэтому вот, как бонус, все варинты заглавной картинки.
+DALL-E is very good at creating detailed images. So, as a bonus, here are all the variants of the cover image.
 
 /// brigid-images
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-12-01.jpg"
-alt = "Вариант 1 картинки из заглавного изображения от DALL-E"
+alt = "Variant of the cover image 1 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-12-02.jpg"
-alt = "Вариант 2 картинки из заглавного изображения от DALL-E"
+alt = "Variant of the cover image 2 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-12-03.jpg"
-alt = "Вариант 3 картинки из заглавного изображения от DALL-E"
+alt = "Variant of the cover image 3 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-12-04.jpg"
-alt = "Вариант 4 картинки из заглавного изображения от DALL-E"
+alt = "Variant of the cover image 4 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-12-05.jpg"
-alt = "Вариант 5 картинки из заглавного изображения от DALL-E"
+alt = "Variant of the cover image 5 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-12-06.jpg"
-alt = "Вариант 6 картинки из заглавного изображения от DALL-E"
+alt = "Variant of the cover image 6 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-12-07.jpg"
-alt = "Вариант 7 картинки из заглавного изображения от DALL-E"
+alt = "Variant of the cover image 7 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-12-08.jpg"
-alt = "Вариант 8 картинки из заглавного изображения от DALL-E"
+alt = "Variant of the cover image 8 from DALL-E"
 ///
