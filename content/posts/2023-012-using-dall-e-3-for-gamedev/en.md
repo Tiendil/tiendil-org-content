@@ -11,11 +11,11 @@ src = "./images/using-dall-e-3-for-gamedev-cover.jpg"
 caption = 'DALL-E: "Draw a Vrubel-style painting of an indie game developer working on her game, like The Demon Seated. With the accent on Vrubel style."'
 ///
 
-Recently I got access to [DALL-E-3](https://openai.com/dall-e-3), which means I can repeat [last year's experiment]{post:@choose-nearest-language:using-dall-e-for-gamedev} and see what has changed.
+Recently, I got access to [DALL-E-3](https://openai.com/dall-e-3), which means I can repeat [last year's experiment]{post:@choose-nearest-language:using-dall-e-for-gamedev} and see what has changed.
 
-I do not plan to fantasize or look for new directions, instead, let's repeat the ideas and requests from last year's post.
+I do not plan to fantasize or look for new directions; instead, let's repeat the ideas and requests from last year's post.
 
-**Warning, heavy traffic** — DALL-E outputs png files sized 1-2 megabytes. I compressed them a bit, but the post will still be heavy.
+**Warning, heavy traffic** — DALL-E outputs PNG files sized 1-2 megabytes. I compressed them a bit, but the post will still be heavy.
 
 <!-- more -->
 
@@ -33,7 +33,7 @@ The problems listed in the previous post (small context, strong tendency towards
 
 **Update:** My wife disagrees that the tendency towards memes has been fixed. If you ask it to draw a hamster, DALL-E draws only Syrians, ignoring all other species. Even if you ask explicitly. But I would attribute this to a lack of specific knowledge rather than a tendency towards memes.
 
-The previous version of DALL-E felt like a specific tool for navigating the meme space, like a graphical compass. The new version approaches a magic wand that gives you what you ask for. Given the speed of progress, in a year or two, it, indeed, will be a magic wand. Independent developers rejoice, non-product creators panic.
+The previous version of DALL-E felt like a specific tool for navigating the meme space, like a graphical compass. The new version approaches a magic wand that gives you what you ask for. Given the speed of progress, in a year or two, it indeed will be a magic wand. Independent developers rejoice, non-product creators panic.
 
 About the prognoses from the previous post.
 
@@ -54,7 +54,7 @@ I tried several directions of use, the same as last year.
 
 ### Create a fake game screenshot from a concept document
 
-I experimented, of course, with the same [concepts]{tags:concepts} as last year (you may want to check russian version of this blog — not all concepts are translated).
+I experimented, of course, with the same [concepts]{tags:concepts} as last year (you may want to check the russian version of this blog — not all concepts are translated).
 
 [Space Opera Engine]{post:@choose-nearest-language:concept-document-for-the-game-s-space-opera-engine}
 
@@ -165,11 +165,11 @@ alt = "Example screenshot 1 from DALL-E"
 ///
 
 
-Well… DALL-E difinitely learned from screenshots of mobile games, photos of board games, and sprite sheets :-D Mostly from turn-based strategy games. I couldn't get it to create something similar to StarCraft right away.
+Well… DALL-E definitely learned from screenshots of mobile games, photos of board games, and sprite sheets :-D Mostly from turn-based strategy games. I couldn't get it to create something similar to StarCraft right away.
 
 ### Detailed scene description and concept art
 
-Since the problem of context size from the previous post is completely solved, I will only show the most complex example from the scenes, which was rendered correctly from the first try. Except that the necromancer is not very scary.
+Since the problem of context size from the previous post is completely solved, I will only show the most complex example from the scenes, which was rendered correctly on the first try, except that the necromancer is not very scary.
 
 ```
 Concept art of an old dwarf-necromancer who stands on the top of a hill. The dwarf has a magically enchanted leg prosthesis, one eye is replaced with a glowing ruby. The hill is surrounded by the inquisition. There are spirits flying in the sky.
@@ -194,7 +194,7 @@ alt = "Example concept 3 from DALL-E"
 ///
 
 
-In case you want something scary, here it is.
+If you're looking for something scary, here it is.
 
 ```
 Scary old dwarf-necromancer who stands on the top of a hill.
@@ -244,7 +244,7 @@ src = "./images/using-dall-e-3-for-gamedev-07-04.jpg"
 alt = "Example pixel art concept 4 from DALL-E"
 ///
 
-But, of caurse, we need low-detailed pixel art for roguelikes and low-resolution maps.
+However, we need low-detail pixel art for roguelikes and low-resolution maps.
 
 ```
 Grid sprite sheet of very low-detailed pixel art sprites of variants of a scary dwarf-necromancer ready to use in a roguelike game.
@@ -268,7 +268,7 @@ src = "./images/using-dall-e-3-for-gamedev-08-04.jpg"
 alt = "Example pixel art sprite sheet 4 from DALL-E"
 ///
 
-I had to tinker with the prompt and the result is still too detailed. It looks like DALL-E now has a strong tendency towards adding details into images. Also, it does not respect the grid boundaries.
+I had to tinker with the prompt, and the result is still too detailed. It looks like DALL-E now has a strong tendency towards adding details to images. Also, it does not respect the grid boundaries.
 
 For animations, this time, I asked to create a demon instead of a runner.
 
@@ -301,7 +301,7 @@ src = "./images/using-dall-e-3-for-gamedev-fireball.gif"
 alt = "Example pixel art animation from DALL-E"
 ///
 
-Let's return to the pixel art. The previous version of DALL-E could not create pixel art maps, the current one does it too well — it adds too many details.
+Let's return to the pixel art. The previous version of DALL-E could not create pixel art maps; the current one does it too well — it adds too many details.
 
 ```
 Tiled pixel art map of fantasy kingdom
