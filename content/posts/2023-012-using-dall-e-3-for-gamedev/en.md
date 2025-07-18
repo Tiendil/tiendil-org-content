@@ -29,7 +29,7 @@ DALL-E has become so much more creative, nuanced, and cultured—perhaps even a 
 
 Perhaps, from the professional point of view, it is not noticeable or even an exaggeration, but for a layman like me, it looks exactly like that. By default, DALL-E creates images that are deeper than I expect and ask for, with a greater creative component and variability than required. For example, look at the "creative reimagining" of [Vrubel's style](https://en.wikipedia.org/wiki/Mikhail_Vrubel) in the header image and the alternatives below: it looks similar, but more in spirit than in style. Surely this can be tuned with detailed requests, as interaction with DALL-E happens through ChatGPT 4.
 
-The problems listed in the previous post (small context, strong tendency towards [memes]{post:genes-memes-memeplexes}, issues with small details) have been resolved.
+The problems listed in the previous post (small context, strong tendency towards [memes]{post:@choose-nearest-language:genes-memes-memeplexes}, issues with small details) have been resolved.
 
 **Update:** My wife disagrees that the tendency towards memes has been fixed. If you ask it to draw a hamster, DALL-E draws only Syrians, ignoring all other species. Even if you ask explicitly. But I would attribute this to a lack of specific knowledge rather than a tendency towards memes.
 
@@ -79,7 +79,7 @@ alt = "Example concept 3 from DALL-E"
 
 [[images]]
 src = "./images/using-dall-e-3-for-gamedev-01-04.jpg"
-alt = "Example concept 4 from DALL-E
+alt = "Example concept 4 from DALL-E"
 ///
 
 Are your jaws dropped, ladies & gentlemen? Are you ready to pay money for such games? I am ready.
