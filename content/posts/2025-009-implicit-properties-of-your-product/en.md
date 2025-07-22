@@ -12,6 +12,10 @@ src = "./cover.jpg"
 caption = "Evolving product (c) ChatGPT"
 ///
 
+/// brigid-series
+tag = "vantage-on-management"
+///
+
 Let's imagine you are developing a [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) — a Tamagotchi-style to-do list for gamers, or even something less useful.
 
 This SaaS is your product — what you offer to users — what they pay money for.
