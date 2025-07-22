@@ -320,6 +320,10 @@ tag = "vantage-on-management"
 
 <!-- TODO: а не путаешь ли ты метрики и свойства, как минимум, надо написать что свойства продукта, для нужд данного эссе, включают его метрики. Или не включают? -->
 
+<!-- TODO: input/output metrics в амазон, leading & lagging indicators: https://workingbackwards.com/concepts/input-metrics/ -->
+
+## Алгоритм поиска гипотез
+
 
 ## TODO: а как заканчивать?
 ## TODO: Закройте обещание: сформулируйте явную «золотую эвристику»
