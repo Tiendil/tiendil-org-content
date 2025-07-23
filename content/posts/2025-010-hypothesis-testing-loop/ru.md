@@ -1,9 +1,9 @@
 ---
-title = "Рулим продуктом через цикл проверки гипотез"
+title = "Цикл проверки гипотез"
 tags = [ "theory", "development", "business", "systems", "management", "interesting", "vantage-on-management"]
 series = "vantage-on-management"
-published_at = "2025-07-22T12:00:00+00:00"
-seo_description = "TODO"
+published_at = "2025-07-24T12:00:00+00:00"
+seo_description = "Как оптимально рулить продуктом через цикл проверки гипотез."
 seo_image = "cover.jpg"
 ---
 
