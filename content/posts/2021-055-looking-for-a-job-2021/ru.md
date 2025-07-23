@@ -16,7 +16,7 @@ seo_image = ""
 
 Не привязан к технологиям, легко переключаюсь на выгодные для текущего проекта.
 
-Резюме: [ru]{absolute:/ru/cv}, [en](absolute:/en/cv}.
+Резюме: [ru]{absolute:/ru/cv}, [en]{absolute:/en/cv}.
 
 Рассматриваю позиции CTO, Tech/Team Lead или R&D разработчика.
 
