@@ -4,10 +4,13 @@ tags = [ "theory", "development", "business", "systems", "management", "interest
 series = "vantage-on-management"
 published_at = "2025-07-22T12:00:00+00:00"
 seo_description = "TODO"
-seo_image = "TODO"
+seo_image = "cover.jpg"
 ---
 
-<!-- TODO: заглавная картинка. -->
+/// brigid-images
+src = "./cover.jpg"
+caption = "Цикл обратной связи (c) Босх и ChatGPT"
+///
 
 /// brigid-series
 tag = "vantage-on-management"
