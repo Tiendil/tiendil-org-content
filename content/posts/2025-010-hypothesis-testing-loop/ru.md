@@ -1,6 +1,6 @@
 ---
 title = "Цикл проверки гипотез"
-tags = [ "theory", "development", "business", "systems", "management", "interesting", "vantage-on-management"]
+tags = [ "theory", "development", "business", "systems", "management", "interesting", "best", "vantage-on-management"]
 series = "vantage-on-management"
 published_at = "2025-07-24T12:00:00+00:00"
 seo_description = "Как оптимально рулить продуктом через цикл проверки гипотез."
