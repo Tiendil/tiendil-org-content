@@ -71,7 +71,7 @@ However, when it comes to **synthesis**, things get trickier. Often, synthesis i
 
 I won’t argue that people have thoughts in their heads — that’s a well-known fact. However, spontaneous ideas are not the best we can use. Anyone who has worked in front-line positions where ideas come from above will understand what I mean :-)
 
-Для формирования гипотез разработано заметное количество практических подходов: от предопределённого списка эвристик в [ТРИЗ](https://ru.wikipedia.org/wiki/Теория_решения_изобретательских_задач) до [морфологического анализа](https://ru.wikipedia.org/wiki/Морфологический_анализ_(изобретательство)) и оптимизаций над ним. Я даже как-то делал [инструмент для морфологического анализа]{post:morphologic-is-open-source}.
+A diverse range of practical approaches has been developed for hypothesis synthesis: from a predefined list of heuristics in [TRIZ](https://en.wikipedia.org/wiki/TRIZ) to [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) and optimizations on it. I even once created a [tool for morphological analysis]{post:@choose-nearest-language:morphologic-is-open-source}.
 
 Сравнительный анализ этих подходов мог бы стать отличной темой для эссе, но оставим его на будущее. В этом тексте я попробую посмотреть на синтез гипотез не «снизу» — от конкретных практик, а «сверху» — от общих свойств продуктов и гипотез. Мы обсудим о каких свойствах продукта выгоднее формировать гипотезы и какие общие подходы к поиску гипотез существуют.
 
