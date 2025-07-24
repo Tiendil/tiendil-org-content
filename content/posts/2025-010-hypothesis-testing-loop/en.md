@@ -160,42 +160,41 @@ Of course, there’s no guaranteed effective way to extract precise predictions 
 Third, quantitative statements are useful for comparing hypotheses. And without comparison, how do we choose what to focus on first?
 ///
 
-## Пространство поиска гипотез
+## Hypothesis search space
 
-Независимо от формы, модель вашего продукта — это сеть причинно-следственных связей, которые определяют что на что влияет. Каждый узел в этой сети — это какое-то свойство продукта или его компонент. Вспомните, когда мы [смотрели на продукт с разных точек зрения]{post:points-of-view-on-a-product}, мы обсуждали, что продукт — это не только то, что видит пользователь, но и команда, процессы, побочные артефакты — всё, что участвует в предоставлении пользователю желаемого.
+Regardless of its form, your product model is a network of cause-and-effect relationships that define what affects what. Each node in this network is a property of the product or of its subsystem. Remember when we [looked at the product from different points of view]{post:points-of-view-on-a-product}, we discussed that a product is not just what the user sees, but also the team, processes, side artifacts — everything that participates in delivering the desired outcome to the user.
 
-Если мы поменяем свойства одного из узлов модели, то изменения начнут распространяться по сети в двух направлениях:
+If we change a property of one of the nodes (a product attribute), the changes will start propagating through the network in two directions:
 
-- По цепочке причинности вперёд: к каким последствиям приведёт изменение узла — какие свойства других узлов изменятся и как.
-- По цепочке причинности назад: какие свойства каких узлов мы должны изменить, чтобы получить изменение в этом узле.
+- Forward through the chain of causality: what consequences will the change lead to — which other nodes will change and how.
+- Backward through the chain of causality: which other nodes we need to change to achieve a change in this node.
 
-Экспериментировать можно с любым узлом сети, даже с несколькими одновременно. От того какой узел мы меняем, будет зависеть картина распространения изменений.
+We may experiment with any node in the network, even with several at once. The pattern of change propagation will depend on which node you alter.
 
 /// brigid-images
-caption = """Упрощённая иллюстрация сети причинности продукта.
+caption = """Simplified illustration of a product causality network.
 
-В реальности, конечно, всё куда запутанней: куча обратных и двунаправленных связей, типов узлов значительно больше и вообще непонятно что происходит — примерно как на четвёртой картинке.
-"""
+In reality, of course, everything is much more complicated: a lot of reverse and bidirectional links, many more types of nodes, and generally no idea what's going on — about like in the fourth picture."""
 galery_class = "brigid-images-2-in-row"
 
 [[images]]
 src = "./causality-net-1.png"
-alt = "Распространение необходимых изменений, если мы хотим изменить конечное свойство продукта."
+alt = "Changes propagation if we change an end product attribute."
 
 [[images]]
 src = "./causality-net-2.png"
-alt = "Распространение последствия изменения одного из ключевых компонентов продукта."
+alt = "Changes propagation if we change an core product attribute."
 
 [[images]]
 src = "./causality-net-3.png"
-alt = "Распространение изменений и необходимых изменений, если мы хотим изменить что-то в середине сети."
+alt = "Changes propagation if we change something in the middle of the network."
 
 [[images]]
 src = "./causality-net-4.png"
-alt = "Как оно всё на самом деле выглядит."
+alt = "More realistic picture of changes propagation"
 ///
 
-Для примера:
+For example:
 
 1. Если мы хотим изменить конечное свойство продукта, например, частоту релизов, мы должны изменить компоненты, от которых она зависит: рабочие процессы, команду, может быть технологии. В итоге изменение одного конечного свойства может потребовать изменений во многих узлах цепочки причинности, которые рассположены перед ним.
 2. Если мы планируем уволить человека из команды, то вызванные этим изменения распространятся вперёд по цепочкам причинности и могут затронуть сразу множество конечных свойств продукта.
