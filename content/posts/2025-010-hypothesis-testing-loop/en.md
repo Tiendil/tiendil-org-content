@@ -61,11 +61,11 @@ src = "./simple-feedback-loop.png"
 caption = "Simple feedback loop"
 ///
 
-The **data collection** and **analysis** steps are well-studied and documented, especially for startups.
+The **data collection** and **analysis** stages are well-studied and documented, especially for startups.
 
-The **implementation** step is largely a socio-engineering challenge. Once you’ve determined exactly what needs to be done or achieved, there’s usually no more conceptual complexity — only technical one: how to implement it, how to launch it, how to evaluate the results within the available resources.
+The **implementation** stage is largely a socio-engineering challenge. Once you’ve determined exactly what needs to be done or achieved, there’s usually no more conceptual complexity — only technical one: how to implement it, how to launch it, how to evaluate the results within the available resources.
 
-However, when it comes to **synthesis**, things get trickier. Often, synthesis is assumed obvious: you see the data after analysis, and hypotheses just pop into your head. There’s literature on synthesis too, but it seems that fewer people are familiar with it compared to other steps.
+However, when it comes to **synthesis**, things get trickier. Often, synthesis is assumed obvious: you see the data after analysis, and hypotheses just pop into your head. There’s literature on synthesis too, but it seems that fewer people are familiar with it compared to other stages.
 
 ### Hypothesis synthesis
 
@@ -79,15 +79,15 @@ In this text, I'll try to approach hypothesis synthesis not from the "bottom up"
 
 By the end, we'll formulate a hypothesis-search algorithm that should significantly improve the quality of product hypotheses —  and, by extension, the product itself.
 
-/// note | Вложенность систем и циклов обратной связи
+/// note | Nested systems and feedback loops
 
-Формально говоря, любая сложна система, включая любой продукт, — это множество вложеных друг в друга систем, в каждой из которых может идти свой цикл обратной связи. Более того, каждый этап цикла может содержать аналогичный «дочерний» цикл, заточенный на оптимизацию конкретного этапа родительского цикла.
+Formally speaking, any complex system, including any product, is a collection of nested (sub)systems where each can have its own feedback loop. Moreover, each stage of the loop can contain a similar "child" loop focused on optimizing a specific stage of the parent loop.
 
-Например:
+For example:
 
-- Отдел маркетинга может проверять подходы к размещению рекламы.
-- Разработка может пробовать альтернативные технологии.
-- Этап сбора данных о рынке может оптимизироваться через проверку гипотез о лучших источника информации.
+- The marketing department can research advertising placement approaches.
+- The development team can experiment with different technologies.
+- The market data collection stage can be optimized by testing hypotheses about the best sources of information.
 
 //// brigid-images
 src = "./complex-feedback-loop.png"
