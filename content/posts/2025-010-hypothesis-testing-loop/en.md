@@ -16,23 +16,23 @@ caption = "The feedback loop (c) Hieronymus Bosch and ChatGPT"
 tag = "vantage-on-management"
 ///
 
-Обычно мы предполагаем, что если у нашего продукта будут такие-то и такие-то свойства, то люди будут готовы платить за него такие-то и такие-то деньги.
+We generally assume that if our product has such and such attributes, then people will be willing to pay such and such money for it.
 
-Иногда мы делаем предположения в явном виде:
+Sometimes we make assumptions explicitly:
 
-> Если перекрасить вывеску в красный и подсветить, посещаемость ресторана в вечернее время увеличится на 10%.
+> If we paint the sign red and light it up, the number of evenings visitors of our restaurant will increase by 10%.
 
-иногда — в неявном:
+sometimes we do it implicitly:
 
-> У меня будет самый крутой парк развлечений на Луне с блэкджеком и инопланетянками.
+> I'll build the coolest theme park on the Moon with blackjack and AI.
 
-но, рискну предположить, что вообще без предположений не обходится никогда.
+but I’d venture that one can’t avoid assumptions altogether.
 
-Эти предположения мы называем [гипотезами](https://ru.wikipedia.org/wiki/Гипотеза).
+These assumptions we call [hypotheses](https://en.wikipedia.org/wiki/Hypothesis).
 
-Основываясь на гипотезах, мы изменяем продукт, измеряем результаты, после чего решаем какие гипотезы верны, какие нет. Верные гипотезы остаются в нашей картине мира и продукте, от неверных мы отказываемся. После чего формируем новые гипотезы и повторяем цикл.
+Based on these hypotheses, we change the product, measure the results, and then decide which hypotheses are right and which are not. The correct hypotheses remain in our worldview and product, we abandon the incorrect ones. After that, we form new hypotheses and repeat the cycle.
 
-Этот цикл крутится вечно, пока существует продукт и является частным случаем [цикла обратной связи](https://ru.wikipedia.org/wiki/Обратная_связь_(техника)).
+This cycle runs perpetually while the product exists and is a special case of the [feedback loop](https://en.wikipedia.org/wiki/Feedback_loop).
 
 Существует огромное количество литературы об этом цикле, его запуске и прочих нюансах. Лучшие практики собраны в [наборы на любой вкус]{post:genes-memes-memeplexes}: от заумной [системной инженерии](https://en.wikipedia.org/wiki/System_engineering) до [Lean Startup](https://en.wikipedia.org/wiki/Lean_startup) и [Agile](https://en.wikipedia.org/wiki/Agile_software_development). Сам цикл называется, наверное, десятками аббревиатур: [PDCA](https://en.wikipedia.org/wiki/Plan–do–check–act), [OODA](https://en.wikipedia.org/wiki/OODA_loop), [DMAIC](https://en.wikipedia.org/wiki/DMAIC), [8D](https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving) — не счесть их — каждый уважающий себя гуру-консультант с книгой добавляет новую.
 
