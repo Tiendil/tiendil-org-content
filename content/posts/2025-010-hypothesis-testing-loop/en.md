@@ -94,15 +94,15 @@ src = "./complex-feedback-loop.png"
 caption = "Как всё работает в реальности"
 ////
 
-Я опущу эти нюансы и буду говорить о продукте как о цельной системе и о единственном цикле обратной связи. По двум причинам.
+I'll set those nuances aside and talk about the product as a consolidated system with just one feedback loop. For two reasons.
 
-Во-первых, так будет проще и понятнее. Чрезмерная детализация усложнит текст, но не принесёт новой информации.
+Firstly, it will be simpler and clearer. Excessive details would complicate the text without adding new information.
 
-Во-вторых, есть принципиальная разница между окружением, в котором существует конечный продукт, и окружением, в котором существуют его компоненты. Окружение продукта — это реальный мир — мы его не конкролируем и плохо понимаем. Окружение компонента — это среда нашей компании — мы её контролируем (!) и понимаем значительно лучше.
+Second, there's a fundamental distinction between the environment in which the whole product exists and the environment in which its subsystems exist. The product's environment is the real world — we don't control it and understand it poorly. The subsystem's environment is our company's environment — we control it (!) and understand it much better.
 
-Поэтому формулировать гипотезы о конечном продукте значительно сложнее, чем о подсистемах, которые его создают/обеспечивают. Именно этой сложности и посвящён текст.
+That’s why formulating hypotheses about the end product is far more challenging than doing so for its subsystems. This text is devoted to that very challenge.
 
-В-третьих, рулить следует именно конечным продуктом, а не его компонентами. Мы частично обсуждали это в [предыдущем посте]{post:points-of-view-on-a-product} и продолжим обсуждать в этом.
+Third, we should steer the end product itself, not its components. We partially discussed this in [the previous post]{post:points-of-view-on-a-product} and will continue the discussion here.
 
 ///
 
