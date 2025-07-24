@@ -67,9 +67,9 @@ The **implementation** step is largely a socio-engineering challenge. Once you�
 
 However, when it comes to **synthesis**, things get trickier. Often, synthesis is assumed obvious: you see the data after analysis, and hypotheses just pop into your head. There’s literature on synthesis too, but it seems that fewer people are familiar with it compared to other steps.
 
-### Синтез гипотез
+### Hypothesis synthesis
 
-Спорить, что у людей в головах появляются мысли, я, конечно, не буду — это общеизвестный факт. Однако, спонтанные идеи — это не лучшее, что мы можем использовать. Кто работал на испонительских позициях, когда идеи спускаются сверху, тот поймёт о чём я :-)
+I won’t argue that people have thoughts in their heads — that’s a well-known fact. However, spontaneous ideas are not the best we can use. Anyone who has worked in front-line positions where ideas come from above will understand what I mean :-)
 
 Для формирования гипотез разработано заметное количество практических подходов: от предопределённого списка эвристик в [ТРИЗ](https://ru.wikipedia.org/wiki/Теория_решения_изобретательских_задач) до [морфологического анализа](https://ru.wikipedia.org/wiki/Морфологический_анализ_(изобретательство)) и оптимизаций над ним. Я даже как-то делал [инструмент для морфологического анализа]{post:morphologic-is-open-source}.
 
