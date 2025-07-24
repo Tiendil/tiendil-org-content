@@ -73,9 +73,11 @@ I won’t argue that people have thoughts in their heads — that’s a well-kno
 
 A diverse range of practical approaches has been developed for hypothesis synthesis: from a predefined list of heuristics in [TRIZ](https://en.wikipedia.org/wiki/TRIZ) to [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) and optimizations on it. I even once created a [tool for morphological analysis]{post:@choose-nearest-language:morphologic-is-open-source}.
 
-Сравнительный анализ этих подходов мог бы стать отличной темой для эссе, но оставим его на будущее. В этом тексте я попробую посмотреть на синтез гипотез не «снизу» — от конкретных практик, а «сверху» — от общих свойств продуктов и гипотез. Мы обсудим о каких свойствах продукта выгоднее формировать гипотезы и какие общие подходы к поиску гипотез существуют.
+A comparative analysis of these approaches would make an excellent essay topic — but let’s save that for another time.
 
-В конце эссе мы придём к стратегии поиска гипотез, которая должна заметно улучшать качество гипотез о продукте, а значит и качество самого продукта.
+In this text, I'll try to approach hypothesis synthesis not from the "bottom up" — from specific practices, but from the "top down" — from the general attributes of products and hypotheses. We’ll discuss which product attributes are most suitable for hypothesis generation and what general approaches to hypothesis search exist.
+
+By the end, we'll formulate a hypothesis-search algorithm that should significantly improve the quality of product hypotheses —  and, by extension, the product itself.
 
 /// note | Вложенность систем и циклов обратной связи
 
