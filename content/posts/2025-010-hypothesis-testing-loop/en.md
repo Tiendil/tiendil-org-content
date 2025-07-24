@@ -106,30 +106,30 @@ Third, we should steer the end product itself, not its components. We partially 
 
 ///
 
-## Гипотезы берутся из моделей
+## We draw hypotheses from models
 
-У каждого из нас в голове есть представление о том, как работает окружающий мир и штуки в нём. Эти представления называются [ментальными моделями]{post:life-and-work-with-models}.
+Each of us carries internal pictures of how the world and everything in it works. We call these pictures [mental models](post:@choose-nearest-language:life-and-work-with-models).
 
-Мы можем применять модели к разным ситуациям и смотреть «что будет если»:
+We can apply these models to different situations and see "what if":
 
-- Если я буду переходить улицу на красный свет светофора, меня собьёт машина.
-- Если я буду переходить улицу на красный свет светофора в лесу в новогоднюю ночь, то скорее всего меня никто не собьёт, так как машин не будет.
+- If I cross the street on a red traffic light, a car will hit me.
+- If I cross the street on a red traffic light in the forest on Cristmas Eve, I probably won't get hit, as there won't be any cars.
 
-**Если вам кажется, что вы не пользуетесь ментальными моделями, то вам только кажется**. Даже интуиция — это обращение к скрытым моделям реальности в глубине нашего мозга, которые мы не осознаём, но которые есть.
+**If you think you’re not using mental models, it only seems that way.** Even intuition just taps into hidden models of reality deep within our brains that we’re not aware of.
 
-Модели могут быть не только ментальными:
+Models may not only be mental:
 
-- Электронные таблицы — для количественных метрик — посчитать EBITDA, покрутить воронку продаж, etc.
-- Текстовые документы, mind maps и прочее — для штук, которые сложно выразить в числах.
-- Хитровывернутыетые алгоритмические штуки — если нужна особая точность или глубина.
-- Отчёты и исследования от авторитетных источников — когда мы доверяем другим больше чем себе.
+- Spreeadsheets — for quantitative metrics — calculate EBITDA, analyze sales funnels, etc.
+- Text documents, mind maps, etc. — for things that are hard to express in numbers.
+- Sophisticated algorithmic tools — for cases demanding special accuracy or insight.
+- Reports from the authoritative sources — when we trust others more than ourselves.
 - …
 
-Не счесть всех возможных вариантов. Для нужд эссе не важно какие именно модели вы используете (их больше одной, правда?), важно как вы их используете.
+Countless possible variations exist. For the purposes of this essay, it doesn't matter which models you use (there are more than one, right?) — what matters is how you use them.
 
-**Мы можем проверять как поведёт себя модель продукта при изменении его параметров. Если поведение модели нам интресно, то одна гипотеза найдена: «При таком-то изменении параметров продукта он поведёт себя таким-то образом».** Мы можем попробовать применить её к реальности и посмотреть что будет.
+**We can test how a product model behaves when we tweak product attributes. If the model's behavior intrigues us, we have found a hypothesis: "With such changes to the product attributes, the product will behave in such a way."** We can then try applying it to reality and see what happens.
 
-Самые храбрые из нас, конечно, не проверяют модели, а сразу изменяют реальный продукт — обратная связь ведь быстрее :-) Но я всё-таки рекомендую опираться на достижения нашей цивилизации, одним из которых, без сомнения, является здравый смысл.
+The bravest among us, of course, don't bother testing models — they change the real product — feedback is much faster, after all :-) But I'd still recommend leaning on one of humanity's greatest achievements: common sense.
 
 /// hint | О детализации гипотез
 
