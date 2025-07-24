@@ -61,11 +61,11 @@ src = "./simple-feedback-loop.png"
 caption = "Simple feedback loop"
 ///
 
-Этапы **сбора данных** и **анализа** хорошо изучены и описаны. Особенно для стартапов.
+The **data collection** and **analysis** steps are well-studied and documented, especially for startups.
 
-Этап **воплощения** — (социо)инженерная задача. Если вы уже решили, что конкретно нужно сделать/достичь, то в большинстве случаев далее нет концептуальной сложности, только техническая: как реализовать, как запустить, как оценить результаты при доступных ресурсах.
+The **implementation** step is largely a socio-engineering challenge. Once you’ve determined exactly what needs to be done or achieved, there’s usually no more conceptual complexity — only technical one: how to implement it, how to launch it, how to evaluate the results within the available resources.
 
-А вот с **синтезом** дела обстоят сложнее. Часто он предполагается само-собой разумеющимся, очевидным: видишь данные после анализа и гипотезы сами собой в голове появляются. По нему тоже есть литература, но знакомится с ней, по моим ощущениям, куда меньшее количество людей.
+However, when it comes to **synthesis**, things get trickier. Often, synthesis is assumed obvious: you see the data after analysis, and hypotheses just pop into your head. There’s literature on synthesis too, but it seems that fewer people are familiar with it compared to other steps.
 
 ### Синтез гипотез
 
