@@ -34,15 +34,16 @@ Based on these hypotheses, we change the product, measure the results, and then 
 
 This cycle runs perpetually while the product exists and is a special case of the [feedback loop](https://en.wikipedia.org/wiki/Feedback_loop).
 
-Существует огромное количество литературы об этом цикле, его запуске и прочих нюансах. Лучшие практики собраны в [наборы на любой вкус]{post:genes-memes-memeplexes}: от заумной [системной инженерии](https://en.wikipedia.org/wiki/System_engineering) до [Lean Startup](https://en.wikipedia.org/wiki/Lean_startup) и [Agile](https://en.wikipedia.org/wiki/Agile_software_development). Сам цикл называется, наверное, десятками аббревиатур: [PDCA](https://en.wikipedia.org/wiki/Plan–do–check–act), [OODA](https://en.wikipedia.org/wiki/OODA_loop), [DMAIC](https://en.wikipedia.org/wiki/DMAIC), [8D](https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving) — не счесть их — каждый уважающий себя гуру-консультант с книгой добавляет новую.
 
-Запуск цикла обратной связи критически важен, без него совсем никуда — смерть, смерть, гроб для вашего продукта, как и для любого другого начинания.
+There’s a wealth of literature on this cycle, its implementation, and its various nuances. The best practices are packaged into [kits for every taste]{post:@choose-nearest-language:genes-memes-memeplexes}: from intricate [system engineering](https://en.wikipedia.org/wiki/System_engineering) to [Lean Startup](https://en.wikipedia.org/wiki/Lean_startup) and [Agile](https://en.wikipedia.org/wiki/Agile_software_development). The cycle itself is known by dozens of acronyms: [PDCA](https://en.wikipedia.org/wiki/Plan–do–check–act), [OODA](https://en.wikipedia.org/wiki/OODA_loop), [DMAIC](https://en.wikipedia.org/wiki/DMAIC), [8D](https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving) — too many to count — every self-respecting guru-consultant with a book under their belt adds a new one.
 
-Но кроме самого факта запуска важно и что конкретно вы в этом цикле делаете.
+Kicking off the feedback loop is absolutely crucial — without it, the product is toast, as any other endeavor.
 
-Этот вопрос в литературе раскрыт не так хорошо, как хотелось бы. Одно дело — рассматривать упрощённые кейсы в книгах. Другое — пытаться в реальном времени направлять реальный продукт со всеми его переусложнённостью, непрозрачностью, запутанностью, задержками, отсутствием данных и так далее.
+However, it's not enough just to launch the loop — what you do within it is just as important.
 
-Поэтому в этом очень длинном эссе я попробую глубже копнуть один из конкретных этапов цикла обратной связи, которому уделено незаслуженно мало внимания — синтез гипотез.
+The latter isn’t covered as thoroughly in the literature as it should be. One thing is to look at simplified cases in books. Another is to steer a real-world product in real-time with all its complexity, opacity, confusion, delays, data gaps, and so on.
+
+That's why, in this long essay, I’ll try to delve deeper into one specific stage of the feedback loop that’s often unjustly overlooked — hypothesis synthesis.
 
 <!-- more -->
 
