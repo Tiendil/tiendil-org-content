@@ -179,11 +179,11 @@ galery_class = "brigid-images-2-in-row"
 
 [[images]]
 src = "./causality-net-1.png"
-alt = "Changes propagation if we change an end product attribute."
+alt = "Changes propagation if we change an downstream product attribute."
 
 [[images]]
 src = "./causality-net-2.png"
-alt = "Changes propagation if we change an core product attribute."
+alt = "Changes propagation if we change an upstream product attribute."
 
 [[images]]
 src = "./causality-net-3.png"
@@ -196,22 +196,25 @@ alt = "More realistic picture of changes propagation"
 
 For example:
 
-1. Если мы хотим изменить конечное свойство продукта, например, частоту релизов, мы должны изменить компоненты, от которых она зависит: рабочие процессы, команду, может быть технологии. В итоге изменение одного конечного свойства может потребовать изменений во многих узлах цепочки причинности, которые рассположены перед ним.
-2. Если мы планируем уволить человека из команды, то вызванные этим изменения распространятся вперёд по цепочкам причинности и могут затронуть сразу множество конечных свойств продукта.
-3. Мы можем менять и что-то в середине сети, например, какой-то рабочий процесс. В этом случае изменения и требуемые изменения могут распространяться в обе стороны. Так как расстрояние до начальных и конечных узлов меньше, то оба крыла изменений будут уже.
+1. If we want to change a downstream product attribute, like release frequency, we need to modify the components it depends on: workflows, team, maybe technologies. At the end, changing one downstream attribute may require changes across nodes in the causal chain that lie upstream of it.
+2. If we plan to fire a team member, the changes triggered by this will propagate forward through the causal chains and may affect numerous downstream product attributes at once.
+3. We can also change something in the middle of the network, like a specific workflow. In this case, the changes and required changes will start propagating in both directions. Since the distance to both upstream and downstream nodes is shorter, both "wings" of the changes will be smaller.
 
-/// note | О «конечных» и «начальных» свойствах продукта
-Для удобства я далее буду говорить о некоторых свойствах продукта как о «конечных» и «начальных». Понимать их надо именно в контексте сети причинности:
+/// note | downstream and upstream attributes
 
-- **конечные свойства** — это свойства, которые в большей степени являются следствиями изменений в других узлах сети, чем причиной изменений в них. Например, частота релизов — это следствие работы команды, процессов, технологий и прочего, но на внутреннее состояние продукта влияет слабо.
-- **начальные свойства** — это свойства, которые в большей степени являются причиной изменений в других узлах сети, чем следствием изменений в них. Например, конкретные члены команды, обычно, влияют на огромное количество конечных свойств продукта, но сами не зависят от них.
+For convenience, I’ll refer to certain product properties as "downstream" and "upstream". These terms should be understood specifically in the context of a causal network:
 
-Поскольку продукт — это сложная хаотичная система, не буду чрезмерно формализировать эти понятия, например, утверждать, что конечные свойства вообще не должны ни на что влиять. Для нужд этого эссе достаточно приведённого выше нечёткого определения.
+- **downstream attributes** — these are properties/components that are more a consequence of changes in other nodes of the network than a cause of changes in them. For example, release frequency is a consequence of the work of the team, processes, technologies, and so on, but it has little influence on the internal state of the product.
+- **upstream attributes** — these are properties/components that are more a cause of changes in other nodes of the network than a consequence of changes in them. For example, specific team members usually influence a large number of downstream product attributes but are not influenced by them.
+
+Since the product is a complex chaotic system, I won't overly formalize these concepts, for instance, I won't claim that downstream attributes should not affect anything at all. For the purposes of this essay, the above fuzzy definition is sufficient.
 ///
 
-Чем прозорливее мы выбираем узлы для экспериментов с моделями, тем лучше будут наши гипотезы, тем быстрее и эффективнее будут происходить изменения, тем успешнее будет наш продукт.
+The more wisely we choose the nodes for our experiments with product models, the better our hypotheses will be, the faster and more effectively we'll change the product — the more successful it will be.
 
-Отсюда возникает резонный вопрос: какова лучшая стратегия поиска гипотез?
+This naturally raises a reasonable question: what's the best strategy for hypothesis discovery?
+
+<!-- TODO: use downstream/upstream in the Ru text -->
 
 ## Тривиальные стратегии поиска гипотез
 
