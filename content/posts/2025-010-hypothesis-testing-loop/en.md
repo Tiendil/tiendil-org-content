@@ -47,18 +47,18 @@ That's why, in this long essay, I’ll try to delve deeper into one specific sta
 
 <!-- more -->
 
-## Ещё одно описание цикла обратной связи
+## Yet another feedback loop description
 
-Не буду отставать от трендов. Чтобы далее мы были с вами на одной волне, вот мой вариант цикла:
+To not fall behind the trends and be on the same page with you, here’s my take on the cycle:
 
-1. **Сбор данных** — собираем данные о текущем состоянии системы и её окружения.
-2. **Анализ** — наводим порядок в данных: структурируем, определяем закономерности, разделяем на группы — выявляем ортогональные свойства системы, которыми мы сможем оперировать на следующем этапе.
-3. **Синтез** — формируем гипотезы, опираясь на выявленные свойства.
-4. **Воплощение** — производим изменения в системе на основе гипотез.
+1. **Data collection** — we gather data about the current state of the system and its environment.
+2. **Analysis** — we clean up the data: structure it, identify patterns, group it — reveal the orthogonal properties of the system that we can operate with in the next stage.
+3. **Synthesis** — we form hypotheses based on the identified properties.
+4. **Implementation** — we make changes to the system based on the hypotheses.
 
 /// brigid-images
 src = "./simple-feedback-loop.png"
-caption = "Простой цикл обратной связи"
+caption = "Simple feedback loop"
 ///
 
 Этапы **сбора данных** и **анализа** хорошо изучены и описаны. Особенно для стартапов.
