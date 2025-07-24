@@ -131,31 +131,33 @@ Countless possible variations exist. For the purposes of this essay, it doesn't 
 
 The bravest among us, of course, don't bother testing models — they change the real product — feedback is much faster, after all :-) But I'd still recommend leaning on one of humanity's greatest achievements: common sense.
 
-/// hint | О детализации гипотез
+/// hint | How detailed should a hypothesis be?
 
-Будем честны, большинство людей редко формулирует гипотезы в сколь-нибудь явном виде. Куда чаще гипотеза звучит так:
+Let's be honest, most people rarely formulate hypotheses in any explicit way. More often, a hypothesis sounds like this:
 
-> У нас что-нибудь увеличится, если мы сделаем что-нибудь ненужное.
+> Something in the product will grow if we do something unnecessary.
 
-или
+or
 
-> Зуб даю, все наши клиенты этого хотят, я даже их спрашивать о такой банальщине не буду.
+> I swear on my life — every client wants this, so there's no need even to ask them.
 
-Часто сложно добиться хотя бы чёткой качественной формулировки вроде
+Often, it’s hard to obtain even a well-defined qualitative formulation such as
 
-> Мы увеличим удержание пользователей, если сделем фичу X.
+> We'll increase user retention if we implement feature X.
 
-Ещё реже гипотезы формируются с явными числовыми предсказаниями. Большинство людей не понимает зачем это делать и не верит, что это возможно.
+Hypotheses with clear numerical predictions are even rarer. Most people don't see the point of doing it — and don't believe it's even possible.
 
-В то же время, максимально чётко формулировать гипотезу **перед** реализацией изменений и измерением результатов — это, извините за тавтологию, максимально необходимый шаг.
+At the same time, formulating a hypothesis with maximum thoroughness **before** implementing changes and measuring results is, sorry for the tautology, a maximally necessary action.
 
-Во-первых, это требование вытекает из [критериев фальсифицируемости Поппера](https://ru.wikipedia.org/wiki/Фальсифицируемость) — одной из базовых концепций на которой мы строим науку последние лет 100. Инженерию и безнес мы, кстати, тоже на них строим, но не все об этом задумываются. Один из будущих постов я надеюсь посвятить теме близости науки и софтостроения.
+First, this requirement stems from [Popper's falsifiability criteria](https://en.wikipedia.org/wiki/Falsifiability) — one of the fundamental concepts on which we've built science for the last 100 years. We build engineering and business on it too, but not everyone notices this. By the way, I hope to dedicate one of the future posts to the topic of the similarity between science and software engineering.
 
-Подход «Сделаем без предсказания, потом посмотрим на результаты и сделаем выводы» системно не работает. Он приводит к неверным долгосрочным выводам, потери важной информации. Этот подход настолько вреден, что учёные даже придумали для него специальный термин [HARKing](https://en.wikipedia.org/wiki/HARKing) — Hypothesizing After the Results are Known — чтобы шеймить тех, кто им пользуется.
+The approach of "Let's do it without a prediction, then look at the results and draw conclusions" systematically fails. It leads to incorrect long-term conclusions and loss of significant information. This approach is so harmful that scientists even coined a special term for it [HARKing](https://en.wikipedia.org/wiki/HARKing) — Hypothesizing After the Results are Known — to shame those who use it.
 
-Во-вторых, чем точнее вы сформулировали гипотезу, чем большему вы научитесь после её проверки.
+Second, the more thoroughly you formulate a hypothesis, the more you'll learn after validating it.
 
-Понятное дело, что нет гарантировнного эффективного способа вытащить из моделей точные предсказания, особенно числовые. В конце-концов все модели — это упрощение реальности, следовательно — потеря точности. Но это не значит, что мы не должны пытаться это сделать. Чем более детальное (и обоснованное) предсказание мы делаем, тем более точно и детально мы сможем оценить его ошибку, тем точнее мы скорректируем работу своих моделей после проверки этого предсказания.
+Of course, there’s no guaranteed effective way to extract precise predictions from models, especially numerical predictions from our heads. After all, models are simplifications of reality, hence the loss of accuracy. But that doesn't mean we shouldn't try. The more detailed (and justified) our prediction is, the more accurately and thoroughly we can assess its error, and the better we can adjust our models after validating this prediction.
+
+Third, quantitative statements are useful for comparing hypotheses. And without comparison, how do we choose what to focus on first?
 ///
 
 ## Пространство поиска гипотез
