@@ -279,18 +279,6 @@ In the logic of this post, such internal attributes are also considered as downs
 
 Relying on the heuristics above, we can say that **we are interested in hypotheses about measurable changes in individual downstream product attributes through measurable individual changes in their immediate causal environment**. For example, the mentioned earlier case of reducing the churn rate through improving support response time.
 
-/// note | Remember that everything affects everything
-
-Finding a lever that will change only a single product attribute is a near-impossible task. As we discussed in the previous post, a product is a highly interconnected [chaotic](https://en.wikipedia.org/wiki/Chaos_theory) system — a small change will inevitably ripple through the entire system.
-
-So the point isn’t in finding the perfect one-to-one change, like `X → Y`. The real goal is to find an `X` such that influencing it produces a ripple of changes at least one of which is valuable to us, and the rest are insignificant.
-
-For example, simplifying:
-
-> If we implement feature X, our LTV will increase by 10%, DAU will increase by 30%, and the rest of the metrics will fluctuate randomly by 0.1%.
-
-///
-
 Let’s align this statement with the heuristics:
 
 1. We aim to use one lever to influence a small set of attributes.
@@ -313,17 +301,19 @@ There may be exceptions like sports cars, stunt vehicles, and other specialized 
 We can notice how the complexity of steering increases with the depth of control, in the example of gearboxes: switching from automatic to manual transmission is quite challenging, even though the car itself remains conceptually the same.
 ///
 
-### Длинные цепочки причинно-следственных связей неизбежны
+### Как быть с распространением изменений
 
-Выше я указывал, что мы стремимся избегать длинных цепочек причинно-следственных связей. Однако полностью их не избежать — любое наше вмешательство неизбежно распространится широко и глубоко по цепочке причинности.
+Finding a lever that will change only a single product attribute is a near-impossible task. As we discussed in the previous post, a product is a highly interconnected [chaotic](https://en.wikipedia.org/wiki/Chaos_theory) system — a small change will inevitably ripple through the entire system.
 
-Суть хорошей гипотезы не в том, чтобы учесть все возможные последствия, все возможные пути распространения изменений — это редко возможно.
+That's why the point isn't in finding the perfect one-to-one change, like `X → Y`; neither is it in accounting for all possible consequences, all possible paths of change propagation.
 
-**Суть хорошей гипотезы в том, чтобы локализировать и максимально точно предсказать существенные для нас изменения.** Именно тогда мы сможем эффективно использовать предсказание: изменить продукт понятным нам образом и получить необходимый нам результат. Обратите внимание, под существенными изменениями я понимаю не только положительные, но и отрицательные.
+**The essence of a good hypothesis is to localize and predict, as precisely as possible, the changes that matter to us.** Only then can we effectively use the prediction: change the product in a way we understand and achieve the result we need. Note that by significant changes, I mean not only positive ones but also negative ones.
 
-Чем короче цепочка причинности от нашего рычага к интересным нам свойствам продукта, тем точнее мы сможем предсказать изменения в них, тем проще нам будет добиться этих изменений.
+For example, simplifying:
 
-Все остальные «побочные» изменения, которые неизбежно распространяются дельше и глубже, мы можем считать следствиями жизнедеятельности продукта и работать с ними в рабочем порядке. Иногда это ознаечает какие-то стандартные рутинные действия. Иногда мы будем пропускать существенные негативные следствия и у нас будет появляться новая крупная проблема — [все неизбежно ошибаются]{post:life-and-work-with-mistakes} — это нормальный процесс, важны не факты ошибок, а их частота.
+> If we implement feature X, our LTV will increase by 10%, DAU will increase by 30%, and the rest of the metrics will fluctuate randomly by 0.1%.
+
+All other "side effects" that inevitably ripple further and deeper can be treated as consequences of the product's life cycle, and we can handle them in a routine manner. Sometimes this means some standard routine actions. Other times, we might overlook significant negative consequences and end up with a new major problem — [everyone makes mistakes]{post:@choose-nearest-language:life-and-work-with-mistakes} — this is a normal process, what matters is not the facts of mistakes, but their frequency.
 
 ### Метрики поведения продукта как рычаги и целевые показатели
 
