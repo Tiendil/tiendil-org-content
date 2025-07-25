@@ -366,20 +366,22 @@ We search for levers by tracing the chain of causality backward from the target 
 
 The world is a complex place and everyone makes mistakes, so it’s not enough to simply identify some levers. It’s also essential to retrospectively analyze how changes in those levers affect the targets — to check whether the hypothesis actually worked. If it didn't, there's a good chance we either wrongly assessed the lever's impact on the target metric or misdefined the metric itself.
 
-/// note | Пример поиска правильной метрики от Amazon
+/// note | Example of righ metric search from Amazon
 
-К сожалению я пока не добрался до [Working Backwards](https://www.amazon.com/Working-Backwards-Insights-Stories-Secrets/dp/1250267595) — книги о рабочей культуре Amazon, но хочу привести показательный пример из неё. Сам пример взят из поста [Goodhart's Law Isn't as Useful as You Might Think](https://commoncog.com/goodharts-law-not-useful/) (у меня есть [заметки по его мотивам]{post:goodharts-law-not-useful}).
+Unfortunately, I haven't yet gotten around to reading [Working Backwards](https://www.amazon.com/Working-Backwards-Insights-Stories-Secrets/dp/1250267595) — a book about Amazon's work culture, but I want to share a telling example from it. The example is taken from the post [Goodhart's Law Isn't as Useful as You Might Think](https://commoncog.com/goodharts-law-not-useful/) (I have [notes based on it]{post:@choose-nearest-language:goodharts-law-not-useful}).
 
-В какой-то момент Amazon решил, что хорошей метрикой-рычагом будет «количество новых страниц с информацией о товарах». Метрика стала KPI.
+At some point, Amazon decided that the number of new product detail pages would make a good lever-metric. It was promoted to a KPI.
 
-Вскоре обнаружилось, что команды начали создавать огромное количество страниц с товарами, которые не пользовались спросом и не приводили к росту доходов.
+Soon they discovered that teams had started creating a huge number of product pages for items that had no demand—this had no effect on revenue growth.
 
-Пришлось запускать эволюционную оптимизацию метрики, которая в итоге прошла через ряд итераций:
+As a result, they had to kick off an evolutionary optimization of the metric, which went through several iterations:
 
-- Количество страниц с информацией о товарах.
-- Количество просмотров страниц с информацией о товарах.
-- Процент просмотров страниц товаров с товарами на складе.
-- Процент просмотров страниц товаров с товарами на складе и готовыми быть доставленными за 1-2 дня.
+- Number of product detail pages.
+- Number of views of product detail pages.
+- Percentage of views of pages for in-stock products.
+- Percentage of views of pages for in-stock products available for delivery within 1–2 days.
+
+The last version turned out to be sufficiently correlated with revenue growth and became a lever that teams started using to influence the product.
 ///
 
 ## Алгоритм поиска гипотез
