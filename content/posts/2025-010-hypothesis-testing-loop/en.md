@@ -271,7 +271,9 @@ In the logic of this post, such internal attributes are also considered as downs
 
 **The longer the chain of cause-and-effect between the effort application point and the managed thing, the harder it is to steer**, the more noticable will be the divergence between actual changes and predicted ones. In other words, if we are interested in specific changes in attribute X, we should try to manage it through the node X itself or its immediate causal environment.
 
-**Единичные крупные изменения работают чётче и оказывают более понятное влияние, чем множественные мелкие.** Множественные мелкие изменения имеют сложную сеть зависимостей и, как следствие, комплексный поток неочевидных следствий, который сложно отслеживать и, тем более, направлять без ошибок. В этом контексте мне нравится совет [Сида Мейра](https://ru.wikipedia.org/wiki/Мейер,_Сид) — легендарного дизайнера игр, создателя серии [Civilization](https://en.wikipedia.org/wiki/Civilization_(video_game)) — про изменение параметров игрового баланса: «Double it or cut it in half. You are more wrong than you think».
+**Individual major changes produce clearer and more traceble effects than multiple small ones.** Multiple small changes lead to a complex network of dependencies and, consequently, a complex flow of non-obvious consequences that are hard to track and even harder to direct without errors. In this context, I like the advice of [Sid Meier](https://en.wikipedia.org/wiki/Sid_Meier) — a legendary game designer and creator of the [Civilization](https://en.wikipedia.org/wiki/Civilization_(video_game)) series — about changing game balance parameters:
+
+> Double it or cut it in half. You are more wrong than you think.
 
 ## Набрасываем стратегию поиска гипотез
 
