@@ -347,22 +347,24 @@ We can not affect target metrics directly, but we can affect them indirectly, th
 
 /// hint | North Star Metrics
 
-Целевые показатели семантически близки к [North Star Metrics](https://mixpanel.com/blog/north-star-metric/).
+Targets are semantically close to [North Star Metrics](https://mixpanel.com/blog/north-star-metric/).
 
-Термин этот пока не до конца устаялся, но значит что-то вроде «метрики, которые наиболее хорошо предсказывают/характеризуют долгосрочный успех компании».
+The term isn't fully established yet, but it roughly means "metrics that best predict or characterize a company's long-term success.
 
-Предлагаю не разбираться одно это и тоже с нашими целевыми показателями или нет, достаточно, что это концептуально близкая штука и по ним есть интересные посты в сети.
+Let's not get bogged down in whether North Star Metrics are the same as our target metrics or not. It's enough that they are conceptually similar, and there are some interesting posts about them.
 ///
 
-**Рычаги** — это метрики, на которые мы можем влиять непосредственно, они находятся под прямым контролем команды.
+**Levers** are metrics that we can influence directly, they are under the team's direct control.
 
-Например: скорость загрузки страницы сайта, время ответа поддержки, количество багов в релизе, структура пользовательского интерфейса (выраженная количественно, например, в скорости выполнения типичных задач).
+For instance, a page load speed, support response time, number of bugs in a release, user interface properties (quantitatively expressed, for example, in the time to perform typical tasks).
 
-Метрики рычагов, часто могут становиться [KPI](https://en.wikipedia.org/wiki/Performance_indicator).
+Levers' metrics often can become a [KPI](https://en.wikipedia.org/wiki/Performance_indicator).
 
-Основная разница между рычагами и целевыми показателями в том, что целевые показатели, обычно известны, а рычаги нужно активно искать.
+The key difference between levers and targets is that target metrics are typically well-defined from the start, whereas levers require active exploration and identification.
 
-Мы ищем рычаги разворачивая цепочку причинности от целевых показателей к узлам, которые мы можем контролировать предсказуемым и понятным образом. Мир сложная штука и все ошибаются, поэтому важно не только найти «какие-то рычаги», но и ретроспективно анализировать влияние их измерений на целевые показатели — проверять сработала гипотеза или нет. Если гипотеза не сработала, велика вероятность, что мы неправильно оценили влияние рычага на целевой показатель, либо неверно сформулировали саму метрику.
+We search for levers by tracing the chain of causality backward from the target metrics to the nodes we can control in a predictable and understandable way.
+
+The world is a complex place and everyone makes mistakes, so it’s not enough to simply identify some levers. It’s also essential to retrospectively analyze how changes in those levers affect the targets — to check whether the hypothesis actually worked. If it didn't, there's a good chance we either wrongly assessed the lever's impact on the target metric or misdefined the metric itself.
 
 /// note | Пример поиска правильной метрики от Amazon
 
