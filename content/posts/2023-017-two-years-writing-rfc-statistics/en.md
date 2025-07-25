@@ -1,6 +1,6 @@
 ---
 title = "Two years of writing RFCs — statistics"
-tags = [ "thinking", "practice", "development", "reflection", "systems", "theory",]
+tags = [ "thinking", "practice", "development", "reflection", "systems", "theory", "management", "best", "interesting"]
 published_at = "2024-05-01T12:00:00+00:00"
 seo_description = "Statistics for two years of practicing writing RFC in the team. With notes on the correlation of metrics with the dynamics of the team."
 seo_image = "images/two-years-writing-rfc-statistics-rfc-count-per-year.png"

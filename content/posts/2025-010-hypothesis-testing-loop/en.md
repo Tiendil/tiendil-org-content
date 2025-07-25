@@ -390,16 +390,16 @@ As the result of our reasoning, we can formulate the following algorithm for hyp
 
 1. **Identify your target metrics** (North Star Metrics).
 2. **Map out a causal diagram** connecting target metrics to "hypothetical" lever-metrics.
-   [Amazon provides a good example](https://workingbackwards.com/concepts/input-metrics/).
+    [Amazon provides a good example](https://workingbackwards.com/concepts/input-metrics/).
 3. **Analyze each lever**:
-   - How does it influence the target metrics?
-   - What significant side effects may occur in other product attributes?
+    - How does it influence the target metrics?
+    - What significant side effects may occur in other product attributes?
 4. **Select the levers that are practical to work with and formulate hypotheses** like "If we increase metric X by N%, then target metric Y will grow by M% within T time".
 5. **Choose the most promising hypotheses to implement.**
 6. **After implementing them, analyze how the product actually behaves**, compare real-world metrics with expectations.
 7. **If the hypothesis doesn’t hold up**:
-   - Either try to evolve the lever metric — go back to step 2;
-   - Or abandon the hypothesis — roll back the changes or put functionality on hold.
+    - Either try to evolve the lever metric — go back to step 2;
+    - Or abandon the hypothesis — roll back the changes or put functionality on hold.
 8. **If the hypothesis works, continue following it.**
 
 /// hint | Micromanagement as a consequence of long causal chains
@@ -417,7 +417,7 @@ Correct hypothesis chain:
 > 1. "We will increase revenue by 10% in 3 months if we implement feature X" => we launch "Project X" — create a subsystem "Project X" about which we can also hypothesize.
 > 2. "To implement 'Project X', we need a team of 5 people" => we launch "activity to find 5 people" — create another subsystem with its own hypotheses.
 > 3. "Hiring 5 people in the current situation is more profitable than taking 5 people from other tasks" => we launch "activity to hire 5 people" — an even more localized activity that can also have its own feedback loop.
-> 4 …
+> 4. …
 
 Hypotheses with the short causal chain are also good because each of them creates a fork in planning — a point for searching opportunities, a point for possible maneuvering (if something goes wrong).
 
