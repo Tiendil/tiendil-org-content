@@ -236,13 +236,13 @@ Are there better strategies, more effective ones?
 
 Yes, there are. The simplest thing we can do is narrow down the search area of potential hypotheses. To do this, let's think about what kind of hypotheses would be more convenient to steer the product. I’ve already touched on this topic in [the previous post]{post:points-of-view-on-a-product}.
 
-## Эвристики об удобных продуктовых гипотезах
+## Heuristics for useful product hypotheses
 
-Гипотеза, по сути, это утверждение «если мы повернём рычаги X, Y, Z то в продукте произойдут изменения A, B, C, D, E».
+At its core, a hypothesis is a statement like: "If we pull levers X, Y, and Z, then changes A, B, C, D, E will happen in the product."
 
-Очевидно, что одними рычагами управлять удобнее, чем другими, следовательно, мы можем определить набор удобных рычагов и искать гипотезы только вокруг них.
+It’s clear that some levers are easier to work with than others. That means we can narrow the hypothesis search area to only include hypotheses with convenient levers.
 
-Для этого воспользуемся рядом эвристик, надеюсь, очевидных :-)
+To achieve this, let's use a few heuristics that I hope are obvious-enough :-)
 
 **Чем больше рычагов нам необходимо одновременно двигать, тем сложнее это делать.** Поэтому гипотезы, в идеале, должны быть про влияние на одно свойство/компонент.
 
