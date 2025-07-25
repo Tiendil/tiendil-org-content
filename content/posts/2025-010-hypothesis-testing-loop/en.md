@@ -424,13 +424,12 @@ Hypotheses with the short causal chain are also good because each of them create
 If we follow an incorrect hypothesis, like the one about hiring 5 developers, and it doesn't work out, we roll back to the very beginning. If we follow a chain of hypotheses, we only step back one stage.
 ///
 
+## Side notes
 
-## Заметки на полях
+There are a few things I’d like to highlight additionally.
 
-Есть несколько вещей, на которые я хотел бы дополнительно обратить внимание.
+**Strictly following formal processes may be a good thing, but overdoing it can backfire.**
 
-**Точное следование формальным процессам — это хорошо, но много хорошего тоже вредно.**
+Don't lose your head and put formality ahead of common sense. The smaller your company or team, the more resources will be eaten up by meticulous hypothesis crafting, metric tracking, dashboard maintenance, and so on — leaving less time for the actual work. It's always wise to seek balance and cut corners where it makes sense.
 
-Не надо терять голову и ставить формальности перед здравым смыслом. Чем меньше компания/команда — тем большую долю ресурсов будут съедать дотошный поиск гипотез, сбор метрик, поддержка дашбордов и прочее — тем меньше времени останется на саму работу. Всегда полезно искать баланс и разумно срезать углы.
-
-**Объективно измерять взаимодействие продукта со средой значительно легче, чем его внутренее состояние.** Не меряйте культуру и людей количественно, особенно с помощью прямолинейных метрик — это всегда выйдет против вас. В прошлом посте мы говорили про важность самоорганизации; формальные метрики и KPI — её главный враг. Если вы хотите чтобы ваши коллеги перестали общаться, учиться и помогать друг другу — поставьте перед ними количественное KPI, желательно мешающие друг другу.
+**It's much easier to objectively measure a product's interaction with its environment than to measure its internal state.** Don’t try to quantify culture or people — especially using blunt metrics. It will always backfire. In the previous post, we talked about the importance of self-organization; superficial metrics and KPIs are its worst enemy. If you want your teammates to stop communicating, stop learning, and stop helping each other — just give them conflicting quantitive KPIs.
