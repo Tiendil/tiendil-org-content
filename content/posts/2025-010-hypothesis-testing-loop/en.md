@@ -402,26 +402,26 @@ As the result of our reasoning, we can formulate the following algorithm for hyp
    - Or abandon the hypothesis — roll back the changes or put functionality on hold.
 8. **If the hypothesis works, continue following it.**
 
-/// hint | Микроменеджмент как следствие длинных цепочек причинности
+/// hint | Micromanagement as a consequence of long causal chains
 
-Не забываем ограничивать длинну цепочек между рычагом и целевой метрикой — не стоит заниматься мироменеджментом.
+Let's not forget to limit the length of chains between the lever and the target metric — we shouldn't engage in micromanagement.
 
-Например, не стоит пытаться управлять выручкой через найм или увольнения людей. Увольнения могут быть частью действий по воплощению гипотезы, но не частью самой гипотезы.
+For example, try not to manage revenue by hiring or firing people. Layoffs can be part of implementing a hypothesis, but they shouldn't be part of the hypothesis itself.
 
-Плохая гипотеза:
+Incorrect hypothesis:
 
-> Мы увеличим выручку на 10% за 3 месяца, если наймём 5 новых разработчиков.
+> We will increase revenue by 10% in 3 months if we hire 5 new developers.
 
-Хорошая цепочка гипотез:
+Correct hypothesis chain:
 
-> 1. «Мы увеличим выручку на 10% за 3 месяца, если реализуем фичу X» => мы запускаем «проект X» — создаём подсистему «проект X» о которой мы тоже можем выдвигать гипотезы.
-> 2. «Чтобы реализовать «проект X» нам необходима команда из 5 человек» => мы запускаем «активность по поиску 5 человек» — создаём  ещё одну подсистему со своими гипотезами.
-> 3. «Нанять 5 человек в текущей ситуации выгоднее, чем снять 5 человек с других задач» => мы запускаем «активность по найму 5 человек» — ещё более локализованная активность в которой тоже может быть свой цикл обратной связи.
+> 1. "We will increase revenue by 10% in 3 months if we implement feature X" => we launch "Project X" — create a subsystem "Project X" about which we can also hypothesize.
+> 2. "To implement 'Project X', we need a team of 5 people" => we launch "activity to find 5 people" — create another subsystem with its own hypotheses.
+> 3. "Hiring 5 people in the current situation is more profitable than taking 5 people from other tasks" => we launch "activity to hire 5 people" — an even more localized activity that can also have its own feedback loop.
 > 4 …
 
-Гипотезы с короткой цепочкой причинности хороши ещё и тем, что каждая из них создаёт развилку в планировании — точку поиска возможностей, точку возможного манёвра (если что-то пойдёт не так).
+Hypotheses with the short causal chain are also good because each of them creates a fork in planning — a point for searching opportunities, a point for possible maneuvering (if something goes wrong).
 
-Если мы последуем за плохой гипотезой и найм 5 разработчиков не сработате, то мы откатимся в самое начало. Если последуем цепочке хороших гипотез, то мы только отойдём на шаг назад.
+If we follow an incorrect hypothesis, like the one about hiring 5 developers, and it doesn't work out, we roll back to the very beginning. If we follow a chain of hypotheses, we only step back one stage.
 ///
 
 
