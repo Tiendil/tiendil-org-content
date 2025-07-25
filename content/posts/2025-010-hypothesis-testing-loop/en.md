@@ -214,29 +214,27 @@ The more wisely we choose the nodes for our experiments with product models, the
 
 This naturally raises a reasonable question: what's the best strategy for hypothesis discovery?
 
-<!-- TODO: use downstream/upstream in the Ru text -->
+## Trivial strategies for hypothesis search
 
-## Тривиальные стратегии поиска гипотез
+- **Brute force** — we methodically check what happens if we change each possible node in the product model.
+- **Random search** — we try to change random model nodes, hoping for a lucky hit.
+- **Using ~~intuition~~ experience** — almost like random search, but we strive to use our brains to avoid wasting time on completely meaningless options.
 
-- **Полный перебор** — садимся и методчично думаем что будет, если изменить каждый из возможных узлов в модели продукта.
-- **Случайный поиск** — в высшем обществе «метод научного тыка» — пробуем крутить случайные параметры модели, надеясь что повезёт.
-- **Использование ~~интуиции~~ опыта** — почти как случайный поиск, но пытаемся использовать мозг, чтобы не тратить время на совсем уж бессмысленные варианты.
+Obviously, brute force and random search are not the most effective strategies, as product development is a complex and endeavor:
 
-Очевидно, полный перебор и случайный поиск — не самые эффективные стратегии, так как разработка любого продукта — вещь сложная и многогранная:
+- Brute force will take too long, as the number of possible changes is enormous.
+- Random search will be ineffective, as the number of potential negative and neutral changes is orders of magnitude greater than the number of positive ones. Just like in biology.
 
-- Перебор всех  изменений изменений займёт слишком много времени.
-- Случайный поиск будет малорезульативен, так как потенциальных негативных и нейтральных изменений на порядки больше, чем позитивных. Всё как в биологии.
+I’ve got nothing against intuition or experience — use them myself, and they even work sometimes :-) But they do come with a few problems:
 
-Против интуиции и опыта ничего не имею, сам пользуюсь, иногда работают :-) Проблем у них несколько:
+- Not everyone has them.
+- The area of their positive application is usually narrower than it seems. You might have experience in one or two very specific areas, but it's unlikely you'll have enough experience in all the areas that are significant for the product.
 
-- Не у всех они есть.
-- Область их позитивного использования обычно уже, чем кажется. У вас может быть опыт в одной или паре очень конкретных областей, но вряд ли будет достаточный опыт во всех областях, которые существенны для продукта.
+Experience and intuition work well for "basic" changes like "any seasoned specialist in X knows you should do Y if Z". Following such hypotheses can help you build an average product, maybe slightly above average, but you'll miss out on numerous more effective local improvements — they would slip through the wide mesh of the intuition-and-experience sieve.
 
-Опыт и интуиция хорошо работают для крупных «базовых» изменений вроде «любому состоявшемуся специалисту в X понятно, что надо делать Y если Z». Следование таким гипотезам поможет сделать средний продукт, может быть чуть выше среднего, но вы упустите огромное количество более эффективных локальных изменений, которые просачаться через крупные ячейки сита интуиции и опыта.
+Are there better strategies, more effective ones?
 
-Могут ли быть другие стратегии, более эффективные?
-
-Конечно могут. Самое простое, что мы можем сделать — это сузить область поиска возможных гипотез. Для этого давайте подумаем какого рода гипотезы будут удобнее для управления продуктом. Я уже частично касался этого вопроса в [предыдущем посте]{post:points-of-view-on-a-product}.
+Yes, there are. The simplest thing we can do is narrow down the search area of potential hypotheses. To do this, let's think about what kind of hypotheses would be more convenient to steer the product. I’ve already touched on this topic in [the previous post]{post:points-of-view-on-a-product}.
 
 ## Эвристики об удобных продуктовых гипотезах
 
