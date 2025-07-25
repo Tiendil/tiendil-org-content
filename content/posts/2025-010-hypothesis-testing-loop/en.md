@@ -315,25 +315,26 @@ For example, simplifying:
 
 All other "side effects" that inevitably ripple further and deeper can be treated as consequences of the product's life cycle, and we can handle them in a routine manner. Sometimes this means some standard routine actions. Other times, we might overlook significant negative consequences and end up with a new major problem — [everyone makes mistakes]{post:@choose-nearest-language:life-and-work-with-mistakes} — this is a normal process, what matters is not the facts of mistakes, but their frequency.
 
-### Метрики поведения продукта как рычаги и целевые показатели
+### Product metrics as levers and targets
 
-Поскольку мы:
+Since we:
 
-- Заинтересованы в управлении конечными свойствами продукта через их ближашее причинное окружение.
-- Рассматриваем продукт как единое целое, а не набор отдельных частей.
-- Хотим управлять продуктом через измеримые свойства.
+- Are interested in influencing downstream product attributes via their causal neighborhood.
+- Treat the product as a unified whole rather than a collection of separate parts
+- Want to manage the product through measurable properties.
 
-Можно утверждать, что **нам интересно манипулировать метриками поведения продукта во внешней среде** — количественным измерением того как он взаимодействует с ней. Обычно это метрики взаимодействия с пользователями, клиентами, потоки ресурсов в продукт и из него, etc.
+We can say that **we are interested in manipulating metrics of product behavior in the external environment** — a quantitative measurement of how it interacts with it. Typically, these are user interaction metrics, resource flows into and out of the product, and so on.
 
-Причём метрики могут быть как нашими целевыми показателями, так и рычагами с помощью которых мы пытаемся влиять на них.
+Moreover, these metrics can be both our target indicators and levers through which we try to influence them.
 
-Давайте наконец обсудим что есть что и как соотносится с метриками.
+Let's at last  discuss what's what.
 
-/// note | Другие термины
+/// note | Alternative terms
 
-Амазон использует термины [input/output metrics](https://workingbackwards.com/concepts/input-metrics/) примерно в таком же смысле как рычаги и целевые показатели в этом тексте.
+Amazon uses the terms [input/output metrics](https://workingbackwards.com/concepts/input-metrics/) in a similar sense to levers and targets in this text.
 
-Также я встречал отсылки на leading/lagging indicators, как на аналогичные по значению термины, но, на мой взгляд, они про другое.
+Also I’ve encountered references to leading/lagging indicators as analogous terms, but in my opinion, they have a slightly different meaning.
+
 ///
 
 **Целевые показатели** определяются нашим видением продукта, стратегией его развития и логикой его иммунной системы; они отображают наши цели, ценности и риски. Это что-то, что мы безусловно хотим достичь, увеличивать или предотвращать.
