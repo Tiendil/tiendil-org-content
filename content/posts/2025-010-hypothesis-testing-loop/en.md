@@ -337,13 +337,13 @@ Also I’ve encountered references to leading/lagging indicators as analogous te
 
 ///
 
-**Целевые показатели** определяются нашим видением продукта, стратегией его развития и логикой его иммунной системы; они отображают наши цели, ценности и риски. Это что-то, что мы безусловно хотим достичь, увеличивать или предотвращать.
+**Targets** are defined by our product vision, its development strategy, and the logic of its immune system; they reflect our goals, values, and risks. They are something we absolutely want to achieve, increase, or prevent.
 
-Например, если мы делаем MMORPG, одним из наших стратегических показателей будет Life Time пользователей, оно для нас критично даже в отрыве от прямых доходов, так как ценность MMORPG для игрока определяется её сообществом и нам важно наличие активных игроков, даже если некоторые из них приносят недостаточно прямого дохода. С другой стороны, если мы делаем гиперказуальную однодневку, то LT для нас имеет значительно меньший приоритет — мы знаем, что эта метрика будет низкой — это часть нашей стратегии.
+For example, if we are developing MMORPG, one of our strategic targets will be user Life Time. It's critical for us even apart from direct revenue, as the value of an MMORPG for a player is derived from its community. That means it’s important to keep active players around even if some of them don’t generate much direct income. On the other hand, if we are developing a hyper-casual one-day game, then Life Time becomes much less important — we know that metric will be low — it's part of our strategy.
 
-Риски тоже могут порождать целевые показатели. Например, мы можем хотеть чтобы время исправления уязвимостей не превышало установленный барьер. Эта метрика также не относится непосредственно к прибыли, но она важна для увеличения предсказуемости нашего планирования — устранения непредвиденных ситуаций, которые могут перевернуть все планы нашей работы.
+Risks are also can be a source for a target metrics. For instance, we might want to define a maximum acceptable time to fix vulnerabilities. While this metric doesn't directly linked to revenue, it is crucial for improving the predictability of our planning by minimizing unexpected disruptions that can derail our work plans.
 
-Мы не можем изменить целевые показатели напрямую, но можем влиять на них через сеть причинно-следственных связей, которые связывают их с рычагами.
+We can not affect target metrics directly, but we can affect them indirectly, through the causal network that links them to the levers at our disposal
 
 /// hint | North Star Metrics
 
