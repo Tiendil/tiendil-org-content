@@ -275,18 +275,20 @@ In the logic of this post, such internal attributes are also considered as downs
 
 > Double it or cut it in half. You are more wrong than you think.
 
-## Набрасываем стратегию поиска гипотез
+## Sketching out a hypothesis search strategy
 
-Опираясь на эвристики, мы можем утверждать, что **нас интересуют гипотезы об изменении единичных конечных свойств продукта через измеримые единичные изменения в их ближайшем причинном окружении**. Например, всё тот же случай с уменьшением процента отказов от подписки через ускорение работы поддержки.
+Relying on the heuristics above, we can say that **we are interested in hypotheses about measurable changes in individual downstream product attributes through measurable individual changes in their immediate causal environment**. For example, the mentioned earlier case of reducing the churn rate through improving support response time.
 
-/// note | Помним, что всё влияет на всё
-Найти рычаг переключение которого приведёт к изменению единственного свойства продукта — задача непосильная. Как мы обсуждали в предыдущем посте, продукт — это сильно связанная [хаотическая](https://ru.wikipedia.org/wiki/Теория_хаоса) система — небольшое изменение неизбежно повлечёт распространение изменений по всей системе.
+/// note | Remember that everything affects everything
 
-Суть не в том, чтобы найти именно изменение `X->Y`, а в том, чтобы среди всех возможных следсвий единичного изменения `X` выделялось одно или несколько существенных и множество малых и/или незначимых.
+Finding a lever that will change only a single product attribute is a near-impossible task. As we discussed in the previous post, a product is a highly interconnected [chaotic](https://en.wikipedia.org/wiki/Chaos_theory) system — a small change will inevitably ripple through the entire system.
 
-Например, утрируя
+So the point isn’t in finding the perfect one-to-one change, like `X → Y`. The real goal is to find an `X` such that influencing it produces a ripple of changes at least one of which is valuable to us, and the rest are insignificant.
 
-> Если мы сделаем фичу X, то у нас вырастет LTV на 10%, DAU на 30%, а остальные показатели, как мы ожидаем, будут случайно колебаться на 0.1%.
+For example, simplifying:
+
+> If we implement feature X, our LTV will increase by 10%, DAU will increase by 30%, and the rest of the metrics will fluctuate randomly by 0.1%.
+
 ///
 
 Соотнесём это утверждение с эвристиками:
