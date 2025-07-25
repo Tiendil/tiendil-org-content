@@ -291,25 +291,26 @@ For example, simplifying:
 
 ///
 
-Соотнесём это утверждение с эвристиками:
+Let’s align this statement with the heuristics:
 
-1. Мы стремимся использовать один рычаг для влияния на небольшое множество свойств.
-2. Мы стремимся делать гипотезы об изменении конечных свойств продукта.
-3. Мы стремимся делать гипотезы об измеримом влиянии на измеримые свойства, поскольку конечные свойства продукта измеримы лучше, чем внутренние.
-4. Мы стремимся избегать длинных цепочек причинно-следственных связей, для чего манипулируем свойствами продукта из причинного окружения целевого свойства. Подробнее про длинные причинно-следственные цепочки будет ниже.
-5. Мы стремимся минимизироть количество точек изменения.
+1. We aim to use one lever to influence a small set of attributes.
+2. We aim to make hypotheses about changes in downstream product attributes.
+3. We aim to make hypotheses about measurable changes in measurable attributes, as downstream product attributes are easier to measure.
+4. We aim to avoid long cause-and-effect chains; for this, we manipulate the properties of the product from the causal neighborhood of the target attribute. More on long cause-and-effect chains will be discussed below.
+5. We aim to minimize the number of change points.
 
-То есть **мы управляем продуктом как единым целым**, а не пытаемся рулить каждой его частью отдельно — это соотносится с выводами из предыдущего поста.
+In other words, **we steer the product as a whole**, rather than trying to control each part separately — this aligns with the conclusions from the previous post.
 
-/// hint | Аналогия с управлением автомобилем
-Интерфейс управления автомобилем заточен на то, чтобы водитель управлял машиной как единым целым.
+/// hint | Analogy with steering a car
 
-- Водитель может ускорять его, замедлять, оценивать положение в пространстве через зеркала, и так далее.
-- Водитель не управляет каждым колесом отдельно, не управляет каждой свечой зажигания, не регулирует давление в шинах в реальном времени и так далее.
+A car's control interface is designed for the driver to operate the vehicle as a single, unified whole.
 
-Есть исключения в виде спортивных автомобилей, трюковых и прочих специализированных машин, но в подавляющем большинстве случаев управление автомобилем — это управление единым целым.
+- The driver can accelerate it, brake, estimate position using mirrors, and so on.
+- The driver doesn't control each wheel individually, doesn't manage every spark plug, doesn't regulate tire pressure in real time, and so on.
 
-Резкий рост сложности управления при увеличении его глубины можно заметить даже на примере коробки передач: переходить с автоматической на механическую довольно сложно, хотя сам автомобиль концептуально остаётся тем же самым.
+There may be exceptions like sports cars, stunt vehicles, and other specialized transport, but in the majority of cases, driving a car means operating it as a whole.
+
+We can notice how the complexity of steering increases with the depth of control, in the example of gearboxes: switching from automatic to manual transmission is quite challenging, even though the car itself remains conceptually the same.
 ///
 
 ### Длинные цепочки причинно-следственных связей неизбежны
