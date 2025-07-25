@@ -384,22 +384,23 @@ As a result, they had to kick off an evolutionary optimization of the metric, wh
 The last version turned out to be sufficiently correlated with revenue growth and became a lever that teams started using to influence the product.
 ///
 
-## Алгоритм поиска гипотез
+## Algorithm for hypothesis search
 
-Как итог наших рассуждений, мы можем сформулировать следующий алгоритм поиска гипотез:
+As the result of our reasoning, we can formulate the following algorithm for hypothesis search:
 
-1. Определяем наши целевые показатели (North Star Metrics).
-2. Для них рисуем карту причинности, которая связывает их с «гипотетическими» метриками-рычагами. [Пример можно найти у Amazon](https://workingbackwards.com/concepts/input-metrics/).
-3. Анализируем каждый рычаг:
-    - как он влияет на целевые показатели;
-    - какое существенное влияние он может оказывать на другие свойства продукта;
-4. Выбираем удобные нам рычаги и формулируем гипотезы вида «Если мы достигнем увеличения метрики X (на N%), то целевой показатель Y вырастет (на M%) за T времени».
-5. Самые интересные гипотезы берём в работу.
-6. После реализации гипотез, анализируем новое поведение продукта, сравниваем с ожидаемым.
-7. Если гипотеза не работает:
-    - или пробуем оптимизировать её рычаговую метрику — возвращаемся на этап 2;
-    - или отказываемся от гипотезы — откатываем изменения или замораживаем их развитие.
-8. Если гипотеза работает, продолжаем ей следовать.
+1. **Identify your target metrics** (North Star Metrics).
+2. **Map out a causal diagram** connecting target metrics to "hypothetical" lever-metrics.
+   [Amazon provides a good example](https://workingbackwards.com/concepts/input-metrics/).
+3. **Analyze each lever**:
+   - How does it influence the target metrics?
+   - What significant side effects may occur in other product attributes?
+4. **Select the levers that are practical to work with and formulate hypotheses** like "If we increase metric X by N%, then target metric Y will grow by M% within T time".
+5. **Choose the most promising hypotheses to implement.**
+6. **After implementing them, analyze how the product actually behaves**, compare real-world metrics with expectations.
+7. **If the hypothesis doesn’t hold up**:
+   - Either try to evolve the lever metric — go back to step 2;
+   - Or abandon the hypothesis — roll back the changes or put functionality on hold.
+8. **If the hypothesis works, continue following it.**
 
 /// hint | Микроменеджмент как следствие длинных цепочек причинности
 
