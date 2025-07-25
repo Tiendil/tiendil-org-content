@@ -244,27 +244,27 @@ It’s clear that some levers are easier to work with than others. That means we
 
 To achieve this, let's use a few heuristics that I hope are obvious-enough :-)
 
-**Чем больше рычагов нам необходимо одновременно двигать, тем сложнее это делать.** Поэтому гипотезы, в идеале, должны быть про влияние на одно свойство/компонент.
+**The more levers we need to move simultaneously, the harder it is to steer.** Therefore, ideally, hypotheses should be about influencing one attribute/component at a time.
 
-**Конечные свойства продукта чаще важнее для нас, чем прочие.** В конце концов обычно ради именно части из них вся движуха и затевается.
+**The downstream attributes often matter more to us than others.** After all, usually, the whole product development is about achieving specific downstream attributes like sizable revenue.
 
-/// note | «Конечные» vs «внешние» a.k.a. фенотипические свойства
+/// note | "Downstream" attributes vs "external" attributes
 
-Кроме конечных и начальных свойств, если смотреть на продукт, как на целое,  можно выделять внешние и внутрение свойства.
+Besides the downstream and upstream attributes, if we look at the product as a whole, we can distinguish between external and internal attributes.
 
-Внешние свойства — это то, как наш продукт выглядит из вне: графический интерпейс, заработанные и потреченные нами деньги, метрики поведений пользователей.
+External attributes are how our product looks from the outside: graphical interface, money earned and spent, user behavior metrics.
 
-Внутренние свойства — это то, как наш продукт устроен внутри: культура компании, наши процессы, особенности коллег.
+Internal attributes are how our product is structured internally: company culture, work processes, colleagues' peculiarities.
 
-В былые времена можно было поставить достаточно сильный знак равенства между конечными и внешними свойствами, поскольку во главу угла ставилась максимальная внешняя эффективность продукта/компании.
+In good old times, one could draw a strong equivalence between downstream and external attributes, as everyone prioritized maximizing external efficiency of the product/company.
 
-Не люблю цветовые абстракции, но раз уже они популярны нынче…
+I don't like color-based terms, but since they are popular these days…
 
-Утверждение о безусловной важности внешних свойств справедливо для оранжевых организаций, которые ориентированы на максимальную внешнюю эффективность. Также они справедливы для типов организаций, которые были перед оранжевыми.
+The statement about the unconditional importance of external attributes is true for orange organizations, which are focused on maximizing external efficiency. It also holds true for the types of organizations that were before the orange ones.
 
-Для набирающего силу нового типа организаций — [бирюзовых](https://en.wikipedia.org/wiki/Teal_organisation) — некоторые внутрении свойства могут быть так же важны как внешние, например, культура команды, или количество высаженных деревьев, или среднее время жизни людей в обслуживаемом медицинской организацией квартале.
+However, for the rising new type of organizations — [teal](https://en.wikipedia.org/wiki/Teal_organisation) — some internal attributes can be as important as external ones, such as team culture, the number of trees planted, or the average lifespan of people in the neighborhood of a medical organization.
 
-В нашей логике такие внутрениие свойства также являются конечными, что соответствует их логике «точек схождения усилий компании». Соответственно, далее я говорю и про них в том числе.
+In the logic of this post, such internal attributes are also considered as downstream attributes, as they correspond to the "convergence points of the company's efforts". Therefore, throughout the remainder of this text, let's remember that  downstream attributes can be both external and internal.
 ///
 
 **Мы хотим управлять продуктом измеримо**, желательно с помощью количественных метрик, которые по сути являются количественными свойствами продукта. Это просто удобнее. Нам необходимо понимать, что мы сейчас находимся в состоянии A с такими-то свойствами, если мы изменим что-то, то должны придти в состояние B с такими-то свойствами за такое-то время.
