@@ -63,7 +63,7 @@ caption = "Simple feedback loop"
 
 The **data collection** and **analysis** stages are well-studied and documented, especially for startups.
 
-The **implementation** stage is largely a socio-engineering challenge. Once you've determined exactly what needs to be done or achieved, there's usually no more conceptual complexity — only technical one: how to implement it, how to launch it, how to evaluate the results within the available resources.
+The **implementation** stage is largely a (socio)engineering challenge. Once you've determined exactly what needs to be done or achieved, there's usually no more conceptual complexity — only technical one: how to implement it, how to launch it, how to evaluate the results within the available resources.
 
 However, when it comes to **synthesis**, things get trickier. Often, synthesis is assumed obvious: you see the data after analysis, and hypotheses just pop into your head. There's literature on synthesis too, but it seems that fewer people are familiar with it compared to other stages.
 
