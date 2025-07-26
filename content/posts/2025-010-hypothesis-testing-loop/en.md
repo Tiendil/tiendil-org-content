@@ -108,7 +108,7 @@ Third, we should steer the end product itself, not its components. We partially 
 
 ## We draw hypotheses from models
 
-Each of us carries internal pictures of how the world and everything in it works. We call these pictures [mental models](post:@choose-nearest-language:life-and-work-with-models).
+Each of us carries internal pictures of how the world and everything in it works. We call these pictures [mental models]{post:@choose-nearest-language:life-and-work-with-models}.
 
 We can apply these models to different situations and see "what if":
 
@@ -200,7 +200,7 @@ For example:
 2. If we plan to fire a team member, the changes triggered by this will propagate forward through the causal chains and may affect numerous downstream product attributes at once.
 3. We can also change something in the middle of the network, like a specific workflow. In this case, the changes and required changes will start propagating in both directions. Since the distance to both upstream and downstream nodes is shorter, both "wings" of the changes will be smaller.
 
-/// note | downstream and upstream attributes
+/// note | Downstream and upstream attributes
 
 For convenience, I'll refer to certain product properties as "downstream" and "upstream". These terms should be understood specifically in the context of a causal network:
 
