@@ -220,7 +220,7 @@ This naturally raises a reasonable question: what's the best strategy for hypoth
 - **Random search** — we try to change random model nodes, hoping for a lucky hit.
 - **Using ~~intuition~~ experience** — almost like random search, but we strive to use our brains to avoid wasting time on completely meaningless options.
 
-Obviously, brute force and random search are not the most effective strategies, as product development is a complex and endeavor:
+Obviously, brute force and random search are not the most effective strategies, as product development is a complex endeavor:
 
 - Brute force will take too long, as the number of possible changes is enormous.
 - Random search will be ineffective, as the number of potential negative and neutral changes is orders of magnitude greater than the number of positive ones. Just like in biology.
@@ -264,14 +264,14 @@ The statement about the unconditional importance of external attributes is true 
 
 However, for the rising new type of organizations — [teal](https://en.wikipedia.org/wiki/Teal_organisation) — some internal attributes can be as important as external ones, such as team culture, the number of trees planted, or the average lifespan of people in the neighborhood of a medical organization.
 
-In the logic of this post, such internal attributes are also considered as downstream attributes, as they correspond to the "convergence points of the company's efforts". Therefore, throughout the remainder of this text, let's remember that  downstream attributes can be both external and internal.
+In the logic of this post, such internal attributes are also considered as downstream attributes, as they correspond to the "convergence points of the company's efforts". Therefore, throughout the remainder of this text, let's remember that downstream attributes can be both external and internal.
 ///
 
 **We want to manage the product measurably**, preferably using quantitative metrics, which are essentially quantitative attributes of the product. It's just more convenient. When steering the product, we need to understand that we are currently in state A with certain attributes, and if we change something, we should arrive at state B with certain attributes within a certain time frame.
 
 **The longer the chain of cause-and-effect between the effort application point and the managed thing, the harder it is to steer**, the more noticable will be the divergence between actual changes and predicted ones. In other words, if we are interested in specific changes in attribute X, we should try to manage it through the node X itself or its immediate causal environment.
 
-**Individual major changes produce clearer and more traceble effects than multiple small ones.** Multiple small changes lead to a complex network of dependencies and, consequently, a complex flow of non-obvious consequences that are hard to track and even harder to direct without errors. In this context, I like the advice of [Sid Meier](https://en.wikipedia.org/wiki/Sid_Meier) — a legendary game designer and creator of the [Civilization](https://en.wikipedia.org/wiki/Civilization_(video_game)) series — about changing game balance parameters:
+**Individual major changes produce clearer and more traceable effects than multiple small ones.** Multiple small changes lead to a complex network of dependencies and, consequently, a complex flow of non-obvious consequences that are hard to track and even harder to direct without mistakes. In this context, I like the advice of [Sid Meier](https://en.wikipedia.org/wiki/Sid_Meier) — a legendary game designer and creator of the [Civilization](https://en.wikipedia.org/wiki/Civilization_(video_game)) series — about changing game balance parameters:
 
 > Double it or cut it in half. You are more wrong than you think.
 
