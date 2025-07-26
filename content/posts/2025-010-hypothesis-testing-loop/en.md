@@ -94,9 +94,9 @@ src = "./complex-feedback-loop.png"
 caption = "Как всё работает в реальности"
 ////
 
-I'll set those nuances aside and talk about the product as a consolidated system with just one feedback loop. For two reasons.
+I'll set those nuances aside and talk about the product as a consolidated system with a single feedback loop, for two reasons.
 
-Firstly, it will be simpler and clearer. Excessive details would complicate the text without adding new information.
+First, it will be simpler and clearer. Excessive details would complicate the text without adding new information.
 
 Second, there's a fundamental distinction between the environment in which the whole product exists and the environment in which its subsystems exist. The product's environment is the real world — we don't control it and understand it poorly. The subsystem's environment is our company's environment — we control it (!) and understand it much better.
 
