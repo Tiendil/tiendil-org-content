@@ -162,14 +162,14 @@ Third, quantitative statements are useful for comparing hypotheses. And without 
 
 ## Hypothesis search space
 
-Regardless of its form, your product model is a network of cause-and-effect relationships that define what affects what. Each node in this network is a property of the product or of its subsystem. Remember when we [looked at the product from different points of view]{post:points-of-view-on-a-product}, we discussed that a product is not just what the user sees, but also the team, processes, side artifacts — everything that participates in delivering the desired outcome to the user.
+Regardless of its form, your product model is a network of cause-and-effect relationships that describes what affects what. Each node in this network is a property of the product or of its subsystem. Remember when we [looked at the product from different points of view]{post:points-of-view-on-a-product}, we discussed that a product is not just what the user sees, but also the team, processes, side artifacts — everything that participates in delivering the desired outcome to the user.
 
 If we change a property of one of the nodes (a product attribute), the changes will start propagating through the network in two directions:
 
 - Forward through the chain of causality: what consequences will the change lead to — which other nodes will change and how.
-- Backward through the chain of causality: which other nodes we need to change to achieve a change in this node.
+- Backward through the chain of causality: which other nodes do we need to change to achieve a change in this node.
 
-We may experiment with any node in the network, even with several at once. The pattern of change propagation will depend on which node you alter.
+We can experiment with any node in the network, even multiple nodes at once. The pattern of change propagation will depend on which node you alter.
 
 /// brigid-images
 caption = """Simplified illustration of a product causality network.
@@ -179,7 +179,7 @@ galery_class = "brigid-images-2-in-row"
 
 [[images]]
 src = "./causality-net-1.png"
-alt = "Changes propagation if we change an downstream product attribute."
+alt = "Changes propagation if we change a downstream product attribute."
 
 [[images]]
 src = "./causality-net-2.png"
@@ -204,13 +204,13 @@ For example:
 
 For convenience, I'll refer to certain product properties as "downstream" and "upstream". These terms should be understood specifically in the context of a causal network:
 
-- **downstream attributes** — these are properties/components that are more a consequence of changes in other nodes of the network than a cause of changes in them. For example, release frequency is a consequence of the work of the team, processes, technologies, and so on, but it has little influence on the internal state of the product.
+- **downstream attributes** — these are properties/components that are more a consequence of changes in other nodes of the network than a cause of changes in them. For example, release frequency is a consequence of the work of the team, processes, technologies, and so on, but it has less influence on the internal state of the product.
 - **upstream attributes** — these are properties/components that are more a cause of changes in other nodes of the network than a consequence of changes in them. For example, specific team members usually influence a large number of downstream product attributes but are not influenced by them.
 
-Since the product is a complex chaotic system, I won't overly formalize these concepts, for instance, I won't claim that downstream attributes should not affect anything at all. For the purposes of this essay, the above fuzzy definition is sufficient.
+Since the product is a complex chaotic system, I won't overly formalize these concepts; for instance, I won't claim that downstream attributes should not affect anything at all. For the purposes of this essay, the above fuzzy definition is sufficient.
 ///
 
-The more wisely we choose the nodes for our experiments with product models, the better our hypotheses will be, the faster and more effectively we'll change the product — the more successful it will be.
+The more wisely we choose the nodes for our experiments with product models, the better our hypotheses will be, the faster and more effectively we'll change the product, and the more successful it will be.
 
 This naturally raises a reasonable question: what's the best strategy for hypothesis discovery?
 
