@@ -228,7 +228,7 @@ Obviously, brute force and random search are not the most effective strategies, 
 I've got nothing against intuition or experience — use them myself, and they even work sometimes :-) But they do come with a few problems:
 
 - Not everyone has them.
-- The area of their positive application is usually narrower than it seems. You might have experience in one or two very specific areas, but it's unlikely you'll have enough experience in all the areas that are significant for the product.
+- The area of their positive application is usually narrower than it seems. You may have experience in one or two very specific areas, but it's unlikely that you'll have sufficient expertise in all the areas that are significant for the product.
 
 Experience and intuition work well for "basic" changes like "any seasoned specialist in X knows you should do Y if Z". Following such hypotheses can help you build an average product, maybe slightly above average, but you'll miss out on numerous more effective local improvements — they would slip through the wide mesh of the intuition-and-experience sieve.
 
