@@ -372,7 +372,7 @@ Unfortunately, I haven't yet gotten around to reading [Working Backwards](https:
 
 At some point, Amazon decided that the number of new product detail pages would make a good lever-metric. It was promoted to a KPI.
 
-Soon they discovered that teams had started creating a huge number of product pages for items that had no demand—this had no effect on revenue growth.
+Soon, they discovered that teams had started creating a huge number of product pages for items that had no demand—this had no effect on revenue growth.
 
 As a result, they had to kick off an evolutionary optimization of the metric, which went through several iterations:
 
@@ -386,11 +386,11 @@ The last version proved to be sufficiently correlated with revenue growth and be
 
 ## Algorithm for hypothesis search
 
-As the result of our reasoning, we can formulate the following algorithm for hypothesis search:
+As a result of our reasoning, we can formulate the following algorithm for hypothesis search:
 
 1. **Identify your target metrics** (North Star Metrics).
 2. **Map out a causal diagram** connecting target metrics to "hypothetical" lever-metrics.
-    [Amazon provides a good example](https://workingbackwards.com/concepts/input-metrics/).
+    [Amazon provides a good explanation](https://workingbackwards.com/concepts/input-metrics/).
 3. **Analyze each lever**:
     - How does it influence the target metrics?
     - What significant side effects may occur in other product attributes?
@@ -398,7 +398,7 @@ As the result of our reasoning, we can formulate the following algorithm for hyp
 5. **Choose the most promising hypotheses to implement.**
 6. **After implementing them, analyze how the product actually behaves**, compare real-world metrics with expectations.
 7. **If the hypothesis doesn't hold up**:
-    - Either try to evolve the lever metric — go back to step 2;
+    - Either try to evolve the lever-metric — go back to step 2;
     - Or abandon the hypothesis — roll back the changes or put functionality on hold.
 8. **If the hypothesis works, continue following it.**
 
@@ -415,21 +415,21 @@ Incorrect hypothesis:
 Correct hypothesis chain:
 
 > 1. "We will increase revenue by 10% in 3 months if we implement feature X" => we launch "Project X" — create a subsystem "Project X" about which we can also hypothesize.
-> 2. "To implement 'Project X', we need a team of 5 people" => we launch "activity to find 5 people" — create another subsystem with its own hypotheses.
+> 2. "To implement 'Project X', we need a team of 5 people" => we launch "an activity to find 5 people" — create another subsystem with its own hypotheses.
 > 3. "Hiring 5 people in the current situation is more profitable than taking 5 people from other tasks" => we launch "activity to hire 5 people" — an even more localized activity that can also have its own feedback loop.
 > 4. …
 
 Hypotheses with the short causal chain are also good because each of them creates a fork in planning — a point for searching opportunities, a point for possible maneuvering (if something goes wrong).
 
-If we follow an incorrect hypothesis, like the one about hiring 5 developers, and it doesn't work out, we roll back to the very beginning. If we follow a chain of hypotheses, we only step back one stage.
+If we follow an incorrect hypothesis, like the one about hiring 5 developers, and it doesn't work out, we roll back to the very beginning. If we follow a chain of hypotheses, we only take one step back.
 ///
 
 ## Side notes
 
-There are a few things I'd like to highlight additionally.
+There are a few additional points I'd like to highlight.
 
 **Strictly following formal processes may be a good thing, but overdoing it can backfire.**
 
-Don't lose your head and put formality ahead of common sense. The smaller your company or team, the more resources will be eaten up by meticulous hypothesis crafting, metric tracking, dashboard maintenance, and so on — leaving less time for the actual work. It's always wise to seek balance and cut corners where it makes sense.
+Don't lose your head and prioritize formality over common sense. The smaller your company or team, the more resources will be eaten up by meticulous hypothesis crafting, metric tracking, dashboard maintenance, and so on — leaving less time for the actual work. It's always wise to seek balance and cut corners where it makes sense.
 
-**It's much easier to objectively measure a product's interaction with its environment than to measure its internal state.** Don't try to quantify culture or people — especially using blunt metrics. It will always backfire. In the previous post, we talked about the importance of self-organization; superficial metrics and KPIs are its worst enemy. If you want your teammates to stop communicating, stop learning, and stop helping each other — just give them conflicting quantitive KPIs.
+**It's much easier to objectively measure a product's interaction with its environment than to measure its internal state.** Don't try to quantify culture or people — especially using blunt metrics. It will always backfire. In the previous post, we discussed the importance of self-organization; superficial metrics and KPIs are its greatest enemies. If you want your teammates to stop communicating, stop learning, and stop helping each other, just give them conflicting quantitative KPIs.
