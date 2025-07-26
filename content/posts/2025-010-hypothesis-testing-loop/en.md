@@ -20,36 +20,36 @@ We generally assume that if our product has such and such attributes, then peopl
 
 Sometimes we make assumptions explicitly:
 
-> If we paint the sign red and light it up, the number of evenings visitors of our restaurant will increase by 10%.
+> If we paint the sign red and light it up, the number of evening visitors to our restaurant will increase by 10%.
 
 sometimes we do it implicitly:
 
 > I'll build the coolest theme park on the Moon with blackjack and AI.
 
-but I’d venture that one can’t avoid assumptions altogether.
+but I'd venture that one can't avoid assumptions altogether.
 
 These assumptions we call [hypotheses](https://en.wikipedia.org/wiki/Hypothesis).
 
-Based on these hypotheses, we change the product, measure the results, and then decide which hypotheses are right and which are not. The correct hypotheses remain in our worldview and product, we abandon the incorrect ones. After that, we form new hypotheses and repeat the cycle.
+Based on these hypotheses, we modify the product, measure the results, and then decide which hypotheses are right and which are not. The correct hypotheses remain in our worldview and product; we abandon the incorrect ones. After that, we form new hypotheses and repeat the cycle.
 
 This cycle runs perpetually while the product exists and is a special case of the [feedback loop](https://en.wikipedia.org/wiki/Feedback_loop).
 
 
-There’s a wealth of literature on this cycle, its implementation, and its various nuances. The best practices are packaged into [kits for every taste]{post:@choose-nearest-language:genes-memes-memeplexes}: from intricate [system engineering](https://en.wikipedia.org/wiki/System_engineering) to [Lean Startup](https://en.wikipedia.org/wiki/Lean_startup) and [Agile](https://en.wikipedia.org/wiki/Agile_software_development). The cycle itself is known by dozens of acronyms: [PDCA](https://en.wikipedia.org/wiki/Plan–do–check–act), [OODA](https://en.wikipedia.org/wiki/OODA_loop), [DMAIC](https://en.wikipedia.org/wiki/DMAIC), [8D](https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving) — too many to count — every self-respecting guru-consultant with a book under their belt adds a new one.
+There's a wealth of literature on this cycle, its implementation, and its various nuances. The best practices are packaged into [kits for every taste]{post:@choose-nearest-language:genes-memes-memeplexes}: from intricate [system engineering](https://en.wikipedia.org/wiki/System_engineering) to [Lean Startup](https://en.wikipedia.org/wiki/Lean_startup) and [Agile](https://en.wikipedia.org/wiki/Agile_software_development). The cycle itself is known by dozens of acronyms: [PDCA](https://en.wikipedia.org/wiki/Plan–do–check–act), [OODA](https://en.wikipedia.org/wiki/OODA_loop), [DMAIC](https://en.wikipedia.org/wiki/DMAIC), [8D](https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving) — too many to count — every self-respecting guru-consultant with a book under their belt adds a new one.
 
-Kicking off the feedback loop is absolutely crucial — without it, the product is toast, as any other endeavor.
+Kicking off the feedback loop is absolutely crucial — without it, the product is toast, like any other endeavor.
 
 However, it's not enough just to launch the loop — what you do within it is just as important.
 
-The latter isn’t covered as thoroughly in the literature as it should be. One thing is to look at simplified cases in books. Another is to steer a real-world product in real-time with all its complexity, opacity, confusion, delays, data gaps, and so on.
+The latter isn't covered as thoroughly in the literature as it should be. One thing is to look at simplified cases in books. Another is to steer a real-world product in real-time, dealing with all its complexity, opacity, confusion, delays, data gaps, and so on.
 
-That's why, in this long essay, I’ll try to delve deeper into one specific stage of the feedback loop that’s often unjustly overlooked — hypothesis synthesis.
+That's why, in this long essay, I'll try to delve deeper into one specific stage of the feedback loop that's often unjustly overlooked — hypothesis synthesis.
 
 <!-- more -->
 
 ## Yet another feedback loop description
 
-To not fall behind the trends and be on the same page with you, here’s my take on the cycle:
+To not fall behind the trends and be on the same page with you, here's my take on the cycle:
 
 1. **Data collection** — we gather data about the current state of the system and its environment.
 2. **Analysis** — we clean up the data: structure it, identify patterns, group it — reveal the orthogonal properties of the system that we can operate with in the next stage.
@@ -63,19 +63,19 @@ caption = "Simple feedback loop"
 
 The **data collection** and **analysis** stages are well-studied and documented, especially for startups.
 
-The **implementation** stage is largely a socio-engineering challenge. Once you’ve determined exactly what needs to be done or achieved, there’s usually no more conceptual complexity — only technical one: how to implement it, how to launch it, how to evaluate the results within the available resources.
+The **implementation** stage is largely a socio-engineering challenge. Once you've determined exactly what needs to be done or achieved, there's usually no more conceptual complexity — only technical one: how to implement it, how to launch it, how to evaluate the results within the available resources.
 
-However, when it comes to **synthesis**, things get trickier. Often, synthesis is assumed obvious: you see the data after analysis, and hypotheses just pop into your head. There’s literature on synthesis too, but it seems that fewer people are familiar with it compared to other stages.
+However, when it comes to **synthesis**, things get trickier. Often, synthesis is assumed obvious: you see the data after analysis, and hypotheses just pop into your head. There's literature on synthesis too, but it seems that fewer people are familiar with it compared to other stages.
 
 ### Hypothesis synthesis
 
-I won’t argue that people have thoughts in their heads — that’s a well-known fact. However, spontaneous ideas are not the best we can use. Anyone who has worked in front-line positions where ideas come from above will understand what I mean :-)
+I won't argue that people have thoughts in their heads — that's a well-known fact. However, spontaneous ideas are not the best we can use. Anyone who has worked in front-line positions where ideas come from above will understand what I mean :-)
 
 A diverse range of practical approaches has been developed for hypothesis synthesis: from a predefined list of heuristics in [TRIZ](https://en.wikipedia.org/wiki/TRIZ) to [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) and optimizations on it. I even once created a [tool for morphological analysis]{post:@choose-nearest-language:morphologic-is-open-source}.
 
-A comparative analysis of these approaches would make an excellent essay topic — but let’s save that for another time.
+A comparative analysis of these approaches would make an excellent essay topic — but let's save that for another time.
 
-In this text, I'll try to approach hypothesis synthesis not from the "bottom up" — from specific practices, but from the "top down" — from the general attributes of products and hypotheses. We’ll discuss which product attributes are most suitable for hypothesis generation and what general approaches to hypothesis search exist.
+In this text, I'll try to approach hypothesis synthesis not from the "bottom up" — from specific practices, but from the "top down" — from the general attributes of products and hypotheses. We'll discuss which product attributes are most suitable for hypothesis generation and what general approaches to hypothesis search exist.
 
 By the end, we'll formulate a hypothesis-search algorithm that should significantly improve the quality of product hypotheses —  and, by extension, the product itself.
 
@@ -100,7 +100,7 @@ Firstly, it will be simpler and clearer. Excessive details would complicate the 
 
 Second, there's a fundamental distinction between the environment in which the whole product exists and the environment in which its subsystems exist. The product's environment is the real world — we don't control it and understand it poorly. The subsystem's environment is our company's environment — we control it (!) and understand it much better.
 
-That’s why formulating hypotheses about the end product is far more challenging than doing so for its subsystems. This text is devoted to that very challenge.
+That's why formulating hypotheses about the end product is far more challenging than doing so for its subsystems. This text is devoted to that very challenge.
 
 Third, we should steer the end product itself, not its components. We partially discussed this in [the previous post]{post:points-of-view-on-a-product} and will continue the discussion here.
 
@@ -115,7 +115,7 @@ We can apply these models to different situations and see "what if":
 - If I cross the street on a red traffic light, a car will hit me.
 - If I cross the street on a red traffic light in the forest on Cristmas Eve, I probably won't get hit, as there won't be any cars.
 
-**If you think you’re not using mental models, it only seems that way.** Even intuition just taps into hidden models of reality deep within our brains that we’re not aware of.
+**If you think you're not using mental models, it only seems that way.** Even intuition just taps into hidden models of reality deep within our brains that we're not aware of.
 
 Models may not only be mental:
 
@@ -141,7 +141,7 @@ or
 
 > I swear on my life — every client wants this, so there's no need even to ask them.
 
-Often, it’s hard to obtain even a well-defined qualitative formulation such as
+Often, it's hard to obtain even a well-defined qualitative formulation such as
 
 > We'll increase user retention if we implement feature X.
 
@@ -155,7 +155,7 @@ The approach of "Let's do it without a prediction, then look at the results and 
 
 Second, the more thoroughly you formulate a hypothesis, the more you'll learn after validating it.
 
-Of course, there’s no guaranteed effective way to extract precise predictions from models, especially numerical predictions from our heads. After all, models are simplifications of reality, hence the loss of accuracy. But that doesn't mean we shouldn't try. The more detailed (and justified) our prediction is, the more accurately and thoroughly we can assess its error, and the better we can adjust our models after validating this prediction.
+Of course, there's no guaranteed effective way to extract precise predictions from models, especially numerical predictions from our heads. After all, models are simplifications of reality, hence the loss of accuracy. But that doesn't mean we shouldn't try. The more detailed (and justified) our prediction is, the more accurately and thoroughly we can assess its error, and the better we can adjust our models after validating this prediction.
 
 Third, quantitative statements are useful for comparing hypotheses. And without comparison, how do we choose what to focus on first?
 ///
@@ -202,7 +202,7 @@ For example:
 
 /// note | downstream and upstream attributes
 
-For convenience, I’ll refer to certain product properties as "downstream" and "upstream". These terms should be understood specifically in the context of a causal network:
+For convenience, I'll refer to certain product properties as "downstream" and "upstream". These terms should be understood specifically in the context of a causal network:
 
 - **downstream attributes** — these are properties/components that are more a consequence of changes in other nodes of the network than a cause of changes in them. For example, release frequency is a consequence of the work of the team, processes, technologies, and so on, but it has little influence on the internal state of the product.
 - **upstream attributes** — these are properties/components that are more a cause of changes in other nodes of the network than a consequence of changes in them. For example, specific team members usually influence a large number of downstream product attributes but are not influenced by them.
@@ -225,7 +225,7 @@ Obviously, brute force and random search are not the most effective strategies, 
 - Brute force will take too long, as the number of possible changes is enormous.
 - Random search will be ineffective, as the number of potential negative and neutral changes is orders of magnitude greater than the number of positive ones. Just like in biology.
 
-I’ve got nothing against intuition or experience — use them myself, and they even work sometimes :-) But they do come with a few problems:
+I've got nothing against intuition or experience — use them myself, and they even work sometimes :-) But they do come with a few problems:
 
 - Not everyone has them.
 - The area of their positive application is usually narrower than it seems. You might have experience in one or two very specific areas, but it's unlikely you'll have enough experience in all the areas that are significant for the product.
@@ -234,13 +234,13 @@ Experience and intuition work well for "basic" changes like "any seasoned specia
 
 Are there better strategies, more effective ones?
 
-Yes, there are. The simplest thing we can do is narrow down the search area of potential hypotheses. To do this, let's think about what kind of hypotheses would be more convenient to steer the product. I’ve already touched on this topic in [the previous post]{post:points-of-view-on-a-product}.
+Yes, there are. The simplest thing we can do is narrow down the search area of potential hypotheses. To do this, let's think about what kind of hypotheses would be more convenient to steer the product. I've already touched on this topic in [the previous post]{post:points-of-view-on-a-product}.
 
 ## Heuristics for useful product hypotheses
 
 At its core, a hypothesis is a statement like: "If we pull levers X, Y, and Z, then changes A, B, C, D, E will happen in the product."
 
-It’s clear that some levers are easier to work with than others. That means we can narrow the hypothesis search area to only include hypotheses with convenient levers.
+It's clear that some levers are easier to work with than others. That means we can narrow the hypothesis search area to only include hypotheses with convenient levers.
 
 To achieve this, let's use a few heuristics that I hope are obvious-enough :-)
 
@@ -279,7 +279,7 @@ In the logic of this post, such internal attributes are also considered as downs
 
 Relying on the heuristics above, we can say that **we are interested in hypotheses about measurable changes in individual downstream product attributes through measurable individual changes in their immediate causal environment**. For example, the mentioned earlier case of reducing the churn rate through improving support response time.
 
-Let’s align this statement with the heuristics:
+Let's align this statement with the heuristics:
 
 1. We aim to use one lever to influence a small set of attributes.
 2. We aim to make hypotheses about changes in downstream product attributes.
@@ -333,13 +333,13 @@ Let's at last  discuss what's what.
 
 Amazon uses the terms [input/output metrics](https://workingbackwards.com/concepts/input-metrics/) in a similar sense to levers and targets in this text.
 
-Also I’ve encountered references to leading/lagging indicators as analogous terms, but in my opinion, they have a slightly different meaning.
+Also I've encountered references to leading/lagging indicators as analogous terms, but in my opinion, they have a slightly different meaning.
 
 ///
 
 **Targets** are defined by our product vision, its development strategy, and the logic of its immune system; they reflect our goals, values, and risks. They are something we absolutely want to achieve, increase, or prevent.
 
-For example, if we are developing MMORPG, one of our strategic targets will be user Life Time. It's critical for us even apart from direct revenue, as the value of an MMORPG for a player is derived from its community. That means it’s important to keep active players around even if some of them don’t generate much direct income. On the other hand, if we are developing a hyper-casual one-day game, then Life Time becomes much less important — we know that metric will be low — it's part of our strategy.
+For example, if we are developing MMORPG, one of our strategic targets will be user Life Time. It's critical for us even apart from direct revenue, as the value of an MMORPG for a player is derived from its community. That means it's important to keep active players around even if some of them don't generate much direct income. On the other hand, if we are developing a hyper-casual one-day game, then Life Time becomes much less important — we know that metric will be low — it's part of our strategy.
 
 Risks are also can be a source for a target metrics. For instance, we might want to define a maximum acceptable time to fix vulnerabilities. While this metric doesn't directly linked to revenue, it is crucial for improving the predictability of our planning by minimizing unexpected disruptions that can derail our work plans.
 
@@ -364,7 +364,7 @@ The key difference between levers and targets is that target metrics are typical
 
 We search for levers by tracing the chain of causality backward from the target metrics to the nodes we can control in a predictable and understandable way.
 
-The world is a complex place and everyone makes mistakes, so it’s not enough to simply identify some levers. It’s also essential to retrospectively analyze how changes in those levers affect the targets — to check whether the hypothesis actually worked. If it didn't, there's a good chance we either wrongly assessed the lever's impact on the target metric or misdefined the metric itself.
+The world is a complex place and everyone makes mistakes, so it's not enough to simply identify some levers. It's also essential to retrospectively analyze how changes in those levers affect the targets — to check whether the hypothesis actually worked. If it didn't, there's a good chance we either wrongly assessed the lever's impact on the target metric or misdefined the metric itself.
 
 /// note | Example of righ metric search from Amazon
 
@@ -397,7 +397,7 @@ As the result of our reasoning, we can formulate the following algorithm for hyp
 4. **Select the levers that are practical to work with and formulate hypotheses** like "If we increase metric X by N%, then target metric Y will grow by M% within T time".
 5. **Choose the most promising hypotheses to implement.**
 6. **After implementing them, analyze how the product actually behaves**, compare real-world metrics with expectations.
-7. **If the hypothesis doesn’t hold up**:
+7. **If the hypothesis doesn't hold up**:
     - Either try to evolve the lever metric — go back to step 2;
     - Or abandon the hypothesis — roll back the changes or put functionality on hold.
 8. **If the hypothesis works, continue following it.**
@@ -426,10 +426,10 @@ If we follow an incorrect hypothesis, like the one about hiring 5 developers, an
 
 ## Side notes
 
-There are a few things I’d like to highlight additionally.
+There are a few things I'd like to highlight additionally.
 
 **Strictly following formal processes may be a good thing, but overdoing it can backfire.**
 
 Don't lose your head and put formality ahead of common sense. The smaller your company or team, the more resources will be eaten up by meticulous hypothesis crafting, metric tracking, dashboard maintenance, and so on — leaving less time for the actual work. It's always wise to seek balance and cut corners where it makes sense.
 
-**It's much easier to objectively measure a product's interaction with its environment than to measure its internal state.** Don’t try to quantify culture or people — especially using blunt metrics. It will always backfire. In the previous post, we talked about the importance of self-organization; superficial metrics and KPIs are its worst enemy. If you want your teammates to stop communicating, stop learning, and stop helping each other — just give them conflicting quantitive KPIs.
+**It's much easier to objectively measure a product's interaction with its environment than to measure its internal state.** Don't try to quantify culture or people — especially using blunt metrics. It will always backfire. In the previous post, we talked about the importance of self-organization; superficial metrics and KPIs are its worst enemy. If you want your teammates to stop communicating, stop learning, and stop helping each other — just give them conflicting quantitive KPIs.
