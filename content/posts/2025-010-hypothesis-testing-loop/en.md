@@ -323,23 +323,23 @@ Since we:
 - Treat the product as a unified whole rather than a collection of separate parts
 - Want to manage the product through measurable properties.
 
-We can say that **we are interested in manipulating metrics of product behavior in the external environment** — a quantitative measurement of how it interacts with it. Typically, these are user interaction metrics, resource flows into and out of the product, and so on.
+We can say that **we are interested in manipulating metrics of product behavior in the external environment** — a quantitative measure of how it interacts with it. Typically, these are user interaction metrics, resource flows into and out of the product, and so on.
 
-Moreover, these metrics can be both our target indicators and levers through which we try to influence them.
+Moreover, these metrics can serve as both our target indicators and levers through which we attempt to influence them.
 
-Let's at last  discuss what's what.
+Let's at last discuss what's what.
 
 /// note | Alternative terms
 
 Amazon uses the terms [input/output metrics](https://workingbackwards.com/concepts/input-metrics/) in a similar sense to levers and targets in this text.
 
-Also I've encountered references to leading/lagging indicators as analogous terms, but in my opinion, they have a slightly different meaning.
+Also, I've encountered references to leading/lagging indicators as analogous terms, but in my opinion, they have a slightly different meaning.
 
 ///
 
 **Targets** are defined by our product vision, its development strategy, and the logic of its immune system; they reflect our goals, values, and risks. They are something we absolutely want to achieve, increase, or prevent.
 
-For example, if we are developing MMORPG, one of our strategic targets will be user Life Time. It's critical for us even apart from direct revenue, as the value of an MMORPG for a player is derived from its community. That means it's important to keep active players around even if some of them don't generate much direct income. On the other hand, if we are developing a hyper-casual one-day game, then Life Time becomes much less important — we know that metric will be low — it's part of our strategy.
+For example, if we are developing an MMORPG, one of our strategic targets will be user Life Time. It's critical for us, even apart from direct revenue, as the value of an MMORPG for a player is derived from its community. That means it's essential to keep active players around even if some of them don't generate much direct income. On the other hand, if we are developing a hyper-casual one-day game, then Life Time becomes much less important — we know that metric will be low — it's part of our strategy.
 
 Risks are also can be a source for a target metrics. For instance, we might want to define a maximum acceptable time to fix vulnerabilities. While this metric doesn't directly linked to revenue, it is crucial for improving the predictability of our planning by minimizing unexpected disruptions that can derail our work plans.
 
