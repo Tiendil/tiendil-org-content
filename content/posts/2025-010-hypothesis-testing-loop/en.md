@@ -269,7 +269,7 @@ In the logic of this post, such internal attributes are also considered as downs
 
 **We want to manage the product measurably**, preferably using quantitative metrics, which are essentially quantitative attributes of the product. It's just more convenient. When steering the product, we need to understand that we are currently in state A with certain attributes, and if we change something, we should arrive at state B with certain attributes within a certain time frame.
 
-**The longer the chain of cause-and-effect between the effort application point and the managed thing, the harder it is to steer**, the more noticable will be the divergence between actual changes and predicted ones. In other words, if we are interested in specific changes in attribute X, we should try to manage it through the node X itself or its immediate causal environment.
+**The longer the chain of cause-and-effect between the effort application point and the managed thing, the harder it is to steer**, the more noticeable will be the divergence between actual changes and predicted ones. In other words, if we are interested in specific changes in attribute X, we should try to manage it through the node X itself or its immediate causal environment.
 
 **Individual major changes produce clearer and more traceable effects than multiple small ones.** Multiple small changes lead to a complex network of dependencies and, consequently, a complex flow of non-obvious consequences that are hard to track and even harder to direct without mistakes. In this context, I like the advice of [Sid Meier](https://en.wikipedia.org/wiki/Sid_Meier) — a legendary game designer and creator of the [Civilization](https://en.wikipedia.org/wiki/Civilization_(video_game)) series — about changing game balance parameters:
 
@@ -284,7 +284,7 @@ Let's align this statement with the heuristics:
 1. We aim to use one lever to influence a small set of attributes.
 2. We aim to make hypotheses about changes in downstream product attributes.
 3. We aim to make hypotheses about measurable changes in measurable attributes, as downstream product attributes are easier to measure.
-4. We aim to avoid long cause-and-effect chains; for this, we manipulate the properties of the product from the causal neighborhood of the target attribute. More on long cause-and-effect chains will be discussed below.
+4. We aim to avoid long cause-and-effect chains; for this, we manipulate the properties of the product from the causal neighborhood of the target attribute. More on long cause-and-effect chains and change propagation will be discussed below.
 5. We aim to minimize the number of change points.
 
 In other words, **we steer the product as a whole**, rather than trying to control each part separately — this aligns with the conclusions from the previous post.
@@ -296,9 +296,9 @@ A car's control interface is designed for the driver to operate the vehicle as a
 - The driver can accelerate it, brake, estimate position using mirrors, and so on.
 - The driver doesn't control each wheel individually, doesn't manage every spark plug, doesn't regulate tire pressure in real time, and so on.
 
-There may be exceptions like sports cars, stunt vehicles, and other specialized transport, but in the majority of cases, driving a car means operating it as a whole.
+There may be exceptions, such as sports cars, stunt vehicles, and other specialized things, but in the majority of cases, driving a car means operating it as a whole.
 
-We can notice how the complexity of steering increases with the depth of control, in the example of gearboxes: switching from automatic to manual transmission is quite challenging, even though the car itself remains conceptually the same.
+We can notice how the complexity of steering increases with the depth of control, in the example of gearboxes. Switching from automatic to manual transmission is quite challenging, even though the car itself remains conceptually the same.
 ///
 
 ### Как быть с распространением изменений
