@@ -313,7 +313,7 @@ For example, simplifying:
 
 > If we implement feature X, our LTV will increase by 10%, DAU will increase by 30%, we'll lose 1% of users (due to old PCs), and the rest of the metrics will fluctuate randomly by a small delta.
 
-All other "side effects" that inevitably ripple further and deeper can be treated as consequences of the product's life cycle, and we can handle them in a routine manner. Sometimes this means some standard routine actions. Other times, we might overlook significant negative consequences and end up with a new major problem — [everyone makes mistakes]{post:@choose-nearest-language:life-and-work-with-mistakes} — this is a normal process, what matters is not the facts of mistakes, but their frequency.
+All other "side effects" that inevitably ripple further and deeper can be treated as consequences of the product's life cycle, and we can handle them in a routine manner. Sometimes this means some standard routine actions. Other times, we might overlook significant negative consequences and end up with a new major problem — [everyone makes mistakes]{post:@choose-nearest-language:life-and-work-with-mistakes} — this is a normal process, what matters is not the facts of errors, but their frequency.
 
 ### Product metrics as levers and targets
 
@@ -341,9 +341,9 @@ Also, I've encountered references to leading/lagging indicators as analogous ter
 
 For example, if we are developing an MMORPG, one of our strategic targets will be user Life Time. It's critical for us, even apart from direct revenue, as the value of an MMORPG for a player is derived from its community. That means it's essential to keep active players around even if some of them don't generate much direct income. On the other hand, if we are developing a hyper-casual one-day game, then Life Time becomes much less important — we know that metric will be low — it's part of our strategy.
 
-Risks are also can be a source for a target metrics. For instance, we might want to define a maximum acceptable time to fix vulnerabilities. While this metric doesn't directly linked to revenue, it is crucial for improving the predictability of our planning by minimizing unexpected disruptions that can derail our work plans.
+Risks can also be a source for target metrics. For instance, we might want to define a maximum acceptable time frame for fixing vulnerabilities. While this metric isn't directly linked to revenue, it can be part of our guarantees to users.
 
-We can not affect target metrics directly, but we can affect them indirectly, through the causal network that links them to the levers at our disposal
+We cannot directly affect target metrics, but we can influence them indirectly through the causal network that links them to the levers at our disposal.
 
 /// hint | North Star Metrics
 
@@ -356,17 +356,17 @@ Let's not get bogged down in whether North Star Metrics are the same as our targ
 
 **Levers** are metrics that we can influence directly, they are under the team's direct control.
 
-For instance, a page load speed, support response time, number of bugs in a release, user interface properties (quantitatively expressed, for example, in the time to perform typical tasks).
+For instance, page load speed, support response time, the number of bugs in a release, user interface properties (quantitatively expressed, for example, in the time required to perform typical tasks).
 
 Levers' metrics often can become a [KPI](https://en.wikipedia.org/wiki/Performance_indicator).
 
 The key difference between levers and targets is that target metrics are typically well-defined from the start, whereas levers require active exploration and identification.
 
-We search for levers by tracing the chain of causality backward from the target metrics to the nodes we can control in a predictable and understandable way.
+We search for levers by tracing the chain of causality backward from the target metrics to the nodes we can control predictably and understandably.
 
-The world is a complex place and everyone makes mistakes, so it's not enough to simply identify some levers. It's also essential to retrospectively analyze how changes in those levers affect the targets — to check whether the hypothesis actually worked. If it didn't, there's a good chance we either wrongly assessed the lever's impact on the target metric or misdefined the metric itself.
+The world is a complex place, and everyone makes mistakes, so it's not enough to simply identify some levers. It's also essential to retrospectively analyze how changes in those levers affect the targets — to check whether the hypothesis actually worked. If it didn't, there's a good chance we either wrongly assessed the lever's impact on the target metric or misdefined the metric itself.
 
-/// note | Example of righ metric search from Amazon
+/// note | Example of proper metric search from Amazon
 
 Unfortunately, I haven't yet gotten around to reading [Working Backwards](https://www.amazon.com/Working-Backwards-Insights-Stories-Secrets/dp/1250267595) — a book about Amazon's work culture, but I want to share a telling example from it. The example is taken from the post [Goodhart's Law Isn't as Useful as You Might Think](https://commoncog.com/goodharts-law-not-useful/) (I have [notes based on it]{post:@choose-nearest-language:goodharts-law-not-useful}).
 
@@ -381,7 +381,7 @@ As a result, they had to kick off an evolutionary optimization of the metric, wh
 - Percentage of views of pages for in-stock products.
 - Percentage of views of pages for in-stock products available for delivery within 1–2 days.
 
-The last version turned out to be sufficiently correlated with revenue growth and became a lever that teams started using to influence the product.
+The last version proved to be sufficiently correlated with revenue growth and became a lever that teams began using to influence the product.
 ///
 
 ## Algorithm for hypothesis search
