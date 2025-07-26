@@ -113,13 +113,13 @@ Each of us carries internal pictures of how the world and everything in it works
 We can apply these models to different situations and see "what if":
 
 - If I cross the street on a red traffic light, a car will hit me.
-- If I cross the street on a red traffic light in the forest on Cristmas Eve, I probably won't get hit, as there won't be any cars.
+- If I cross the street on a red traffic light in the forest on Christmas Eve, I probably won't get hit, as there won't be any cars.
 
 **If you think you're not using mental models, it only seems that way.** Even intuition just taps into hidden models of reality deep within our brains that we're not aware of.
 
 Models may not only be mental:
 
-- Spreeadsheets — for quantitative metrics — calculate EBITDA, analyze sales funnels, etc.
+- Spreadsheets — for quantitative metrics — calculate EBITDA, analyze sales funnels, etc.
 - Text documents, mind maps, etc. — for things that are hard to express in numbers.
 - Sophisticated algorithmic tools — for cases demanding special accuracy or insight.
 - Reports from the authoritative sources — when we trust others more than ourselves.
@@ -127,9 +127,9 @@ Models may not only be mental:
 
 Countless possible variations exist. For the purposes of this essay, it doesn't matter which models you use (there are more than one, right?) — what matters is how you use them.
 
-**We can test how a product model behaves when we tweak product attributes. If the model's behavior intrigues us, we have found a hypothesis: "With such changes to the product attributes, the product will behave in such a way."** We can then try applying it to reality and see what happens.
+**We can test how a product model behaves when we tweak the product's attributes in it. If the resulting model's behavior intrigues us, we have found a hypothesis: "With such changes to the product attributes, the product will behave in such a way."** We can then try applying it to reality and see what happens.
 
-The bravest among us, of course, don't bother testing models — they change the real product — feedback is much faster, after all :-) But I'd still recommend leaning on one of humanity's greatest achievements: common sense.
+The bravest among us, of course, don't bother testing models — they change the real product — feedback is much faster, after all :-) But I'd still recommend leaning on one of humanity's greatest achievements — common sense.
 
 /// hint | How detailed should a hypothesis be?
 
@@ -145,13 +145,13 @@ Often, it's hard to obtain even a well-defined qualitative formulation such as
 
 > We'll increase user retention if we implement feature X.
 
-Hypotheses with clear numerical predictions are even rarer. Most people don't see the point of doing it — and don't believe it's even possible.
+Hypotheses with clear numerical predictions are even rarer. Most people don't see the point of making them; some don't believe it's even possible.
 
 At the same time, formulating a hypothesis with maximum thoroughness **before** implementing changes and measuring results is, sorry for the tautology, a maximally necessary action.
 
-First, this requirement stems from [Popper's falsifiability criteria](https://en.wikipedia.org/wiki/Falsifiability) — one of the fundamental concepts on which we've built science for the last 100 years. We build engineering and business on it too, but not everyone notices this. By the way, I hope to dedicate one of the future posts to the topic of the similarity between science and software engineering.
+First, this requirement stems from [Popper's falsifiability criteria](https://en.wikipedia.org/wiki/Falsifiability) — one of the fundamental concepts on which we've built science for the last 100 years. We build engineering and business on it, too, but not everyone notices this. By the way, I hope to dedicate one of the future posts to the topic of the similarity between science and software engineering.
 
-The approach of "Let's do it without a prediction, then look at the results and draw conclusions" systematically fails. It leads to incorrect long-term conclusions and loss of significant information. This approach is so harmful that scientists even coined a special term for it [HARKing](https://en.wikipedia.org/wiki/HARKing) — Hypothesizing After the Results are Known — to shame those who use it.
+The approach of "Let's do it without a prediction, then look at the results and draw conclusions" systematically fails. It leads to incorrect long-term conclusions and loss of significant information. This approach is so harmful that scientists have even coined a special term for it — [HARKing](https://en.wikipedia.org/wiki/HARKing) — Hypothesizing After the Results are Known — to shame those who use it.
 
 Second, the more thoroughly you formulate a hypothesis, the more you'll learn after validating it.
 
