@@ -301,7 +301,7 @@ There may be exceptions, such as sports cars, stunt vehicles, and other speciali
 We can notice how the complexity of steering increases with the depth of control, in the example of gearboxes. Switching from automatic to manual transmission is quite challenging, even though the car itself remains conceptually the same.
 ///
 
-### Как быть с распространением изменений
+### Change propagation
 
 Finding a lever that will change only a single product attribute is a near-impossible task. As we discussed in the previous post, a product is a highly interconnected [chaotic](https://en.wikipedia.org/wiki/Chaos_theory) system — a small change will inevitably ripple through the entire system.
 
@@ -311,7 +311,7 @@ That's why the point isn't in finding the perfect one-to-one change, like `X →
 
 For example, simplifying:
 
-> If we implement feature X, our LTV will increase by 10%, DAU will increase by 30%, and the rest of the metrics will fluctuate randomly by 0.1%.
+> If we implement feature X, our LTV will increase by 10%, DAU will increase by 30%, we'll lose 1% of users (due to old PCs), and the rest of the metrics will fluctuate randomly by a small delta.
 
 All other "side effects" that inevitably ripple further and deeper can be treated as consequences of the product's life cycle, and we can handle them in a routine manner. Sometimes this means some standard routine actions. Other times, we might overlook significant negative consequences and end up with a new major problem — [everyone makes mistakes]{post:@choose-nearest-language:life-and-work-with-mistakes} — this is a normal process, what matters is not the facts of mistakes, but their frequency.
 
