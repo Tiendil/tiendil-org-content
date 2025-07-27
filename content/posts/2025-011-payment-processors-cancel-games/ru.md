@@ -14,7 +14,7 @@ seo_image = ""
 
 ## Что случилось
 
-Мелкая, но похоже дофига влиятельная, группа ханжей из Австралии [написала письмо главам монопольных платёжных систем](https://www.collectiveshout.org/open-letter-to-payment-processors) с жалобой на NSFW (Not Safe For Work) игры.
+Мелкая, но похоже дофига влиятельная, группа ханжей из Австралии [написала письмо главам крупнейших платёжных систем](https://www.collectiveshout.org/open-letter-to-payment-processors) с жалобой на NSFW (Not Safe For Work) игры.
 
 /// NSFW
 
