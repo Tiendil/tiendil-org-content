@@ -88,9 +88,9 @@ The gamedev community (not just NSFW, but all of it) is currently in a state of 
 
 **If you want to support developers, just go to the forum of your favorite NSFW game and write a few kind words to its authors.** I'm sure many readers of this blog played at least one :-) Believe me, player support is a very powerful thing and motivation.
 
-## Моё мнение
+## My opinion
 
-Во-первых, **это реально касается всех геймеров и всех разработчиков игр**. Это не проблемы какой-то узкой группы маргиналов.
+First, **the situation really affects all gamers and all game developers**. This isn't just a problem of some narrow group of marginalized people.
 
 Сейчас днём с огнём не сыщешь хорошую игру, до которой нельзя докопаться. Ведьмак, Doom, Fallout, Baldur's Gate, Diablo, Cyberpunk, GTA, Counter-Strike, etc. — все эти игры можно обвинить в чём угодно, от насилия до сексизма, и это не говоря о том, что во многих есть «элементы для взрослых».
 
