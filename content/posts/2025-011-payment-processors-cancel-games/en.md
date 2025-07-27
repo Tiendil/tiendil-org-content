@@ -21,7 +21,7 @@ Let's me tell about:
 - What I think about it.
 - What I want to advise those who engage in such nonsense.
 
-I strive to minimize the use of harsh language in this post, but I've kept some, as it most accurately conveys my opinion about the situation. This post, like the entire blog, expresses my personal opinion.
+I strive to minimize the use of harsh language in this post, but I've kept some, as it most accurately conveys my opinion about the situation. This post, like the entire blog, expresses my personal opinion. If you can't or not allowed to read harsh language, please, skip this text.
 
 <!-- more -->
 
@@ -84,9 +84,9 @@ Additionally, Itch.io announced a process of "remoderation" for published NSFW g
 
 As a result, a significant part of the gaming industry has been completely cut off from the market and its own players. This affects both game studios specializing in NSFW games and enthusiasts who made games simply for themselves as a form of expression, emotional release, or hell, just to jerk off and earn some respect in their fetish community.
 
-Сообщество игроделов (не только NSFW, а вообще) сейчас в лёгком шоке пребывает и пытается как-то сорганизоваться, но пока что перспективы туманны, что делать не до конца понятно.
+The gamedev community (not just NSFW, but all of it) is currently in a state of a light shock and is trying to organize itself, but the prospects are still unclear, and what to do is not fully understood.
 
-Поэтому, **если вы хотите поддержать людей, просто сходите на форум любимой NSFW игры и напишите её разрабам пару добрых слов поддержки**. Я вот прям уверен, что у многих читателей этого блога такие игры есть :-) Поверьте на слово, поддержка твоих игроков  — это очень сильная штука и мотивация.
+**If you want to support developers, just go to the forum of your favorite NSFW game and write a few kind words to its authors.** I'm sure many readers of this blog played at least one :-) Believe me, player support is a very powerful thing and motivation.
 
 ## Моё мнение
 
