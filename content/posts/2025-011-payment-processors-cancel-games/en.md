@@ -82,7 +82,7 @@ Rule 15 not only puts payment processors de facto ABOVE the law (see Rule 6), bu
 
 Additionally, Itch.io announced a process of "remoderation" for published NSFW games, which may or may not improve the situation. Knowing how these things work, I wouldn't expect anything good. I think Steam is doing something similar, but I couldn't find a confirmation.
 
-As a result, a significant part of the gaming industry has been completely cut off from the market and its own players. This affects both game studios specializing in NSFW games and enthusiasts who made games simply for themselves as a form of expression / emotional release / or hell, just to jerk off and earn some respect in their fetish community.
+As a result, a significant part of the gaming industry has been completely cut off from the market and its own players. This affects both game studios specializing in NSFW games and enthusiasts who made games simply for themselves as a form of expression, emotional release, or hell, just to jerk off and earn some respect in their fetish community.
 
 Сообщество игроделов (не только NSFW, а вообще) сейчас в лёгком шоке пребывает и пытается как-то сорганизоваться, но пока что перспективы туманны, что делать не до конца понятно.
 
