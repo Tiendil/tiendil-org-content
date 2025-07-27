@@ -56,15 +56,15 @@ What I don't understand is the complete lack of visible resistance and the absen
 
 ///
 
-24 июля 2025 [Itch.io удалил из поиска все NSFW игры](https://itch.io/updates/update-on-nsfw-content).
+On July 24, 2025, [Itch.io removed all NSFW games from search results](https://itch.io/updates/update-on-nsfw-content).
 
-16 июля 2025 [Steam просто удалил сотни игр](https://www.pcgamer.com/software/platforms/valve-confirms-credit-card-companies-pressured-it-to-delist-certain-adult-games-from-steam/) и [добавили шедевральное 15 правило](https://partner.steamgames.com/doc/gettingstarted/onboarding?utm_source=chatgpt.com) в ограничения публикуемого контента:
+On July 16, 2025, [Steam removed hundreds of games](https://www.pcgamer.com/software/platforms/valve-confirms-credit-card-companies-pressured-it-to-delist-certain-adult-games-from-steam/) and [added a new delightful 15th rule](https://partner.steamgames.com/doc/gettingstarted/onboarding?utm_source=chatgpt.com) to its content restrictions:
 
 > [15] Content that **MAY** violate the rules and standards set forth by Steam’s payment processors and related card networks and banks, or internet network providers. In particular, certain kinds of adult only content.
 
-Жирные капс — это моё выделение.
+The bolded caps are my marks.
 
-При этом у них уже есть правила:
+And this is despite the fact that they already have the following rules:
 
 > [1] Hate speech, i.e. speech that promotes hatred, violence or discrimination against groups of people based on ethnicity, religion, gender, age, disability or sexual orientation
 >
