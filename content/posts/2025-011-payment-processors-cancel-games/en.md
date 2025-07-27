@@ -124,15 +124,17 @@ The bad news is that progress doesn't run on a schedule. Whether we live to see 
 
 The good news is that for the last fifty years, progress has been winning: in music, in cinema, in philosophy, and in human rights. We must ensure that it also wins in gaming.
 
-## Мои советы ханжам
+## My advice to hypocrites
 
-### Научитесь уважать личные дела других людей
+### Learn to respect the personal affairs of others
 
-Я всегда жил по принципу, простите за грубую формулировку, **«каждый дрочит как хочет»**. Пока ты не вредишь другим, не нарушаешь закон и не нарушаешь права других людей, то должен иметь право делать что душе угодно.
+I've always lived by the principle — pardon the blunt phrasing — **"everyone gets off as they want"** (kind of Russian idiom). Keeping the context in mind, I think the phrasing is appropriate. As long as you don't harm others, break the law, or violate the rights of others, you should have the right to do whatever you please.
 
-Я глубоко убеждён, что без следования этому принципу человек причиняет боль и себе и другим.
+I'm deeply convinced that without following this principle, a person ends up hurting both themselves and others.
 
-Поэтому всем рекомендую хотя бы пару минут искренне подумать над этой идей, подумать, как бы сложилась ваша жизнь, если бы вас не тянуло лезть в дела других людей. Было бы вам спокойнее? Появилось бы у вас больше времени на себя и ваших близких? Спали бы вы лучше?
+That's why I recommend everyone to think, at least for a couple of minutes, about this idea: how your life might have turned out if you didn't feel the urge to meddle in other people's business. Would you feel calmer? Would you have more time for yourself and your loved ones? Would you sleep better?
+
+In my opinion, the answer to all these questions is "yes".
 
 ### Не перекладывайте свою ответственность на других
 
