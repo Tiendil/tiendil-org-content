@@ -3,10 +3,13 @@ title = "Платёжные системы запрещают игры"
 tags = [ "practice", "gamedev", "society", "monetization", "business", "state"]
 published_at = "2025-07-28T12:00:00+00:00"
 seo_description = "Монополисты на рынке электронных платежей отменяют игры, которые им «не нравятся», топовые игровые магазины берут под козырек и не пытаются сопротивляться."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
 
-<!-- TODO: cover image -->
+/// brigid-images
+src = "./cover.jpg"
+caption = "[The Examination of a Witch](https://en.wikipedia.org/wiki/The_Examination_of_a_Witch_%28painting%29) (с) [T.H.Matteson.](https://en.wikipedia.org/wiki/T._H._Matteson). Изображение взято из Wikipedia."
+///
 
 Прошу прощения за желтизну заголовка, к сожалению всё так и есть.
 
