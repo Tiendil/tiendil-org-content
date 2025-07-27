@@ -13,7 +13,7 @@ caption = "[The Examination of a Witch](https://en.wikipedia.org/wiki/The_Examin
 
 Apologies for the clickbait headline — unfortunately, that's exactly what's happening.
 
-Just because not all games are being banned right now, or not the ones you personally play, doesn't mean your favorite shooter won't be banned in a year or two because it "doesn't align with the values" of some ~~secretary~~ mistress of a deputy director at some MonopolyCard.
+Just because not all games are being banned right now, or not the ones you personally play, doesn't mean your favorite shooter won't be banned in a year or two because it "doesn't align with the values" of some deputy deputy's mistress (or lover) at MonopolyPayCard.
 
 Let's me tell about:
 
@@ -21,7 +21,7 @@ Let's me tell about:
 - What I think about it.
 - What I want to advise those who engage in such nonsense.
 
-Я постарался снизить количество грубой лексики в тексте, но оставил некоторую, так как она наиболее точно передаёт моё мнение о происходящем. Этот пост, как и весь блог, выражает моё личное мнение.
+I strive to minimize the use of harsh language in this post, but I've kept some, as it most accurately conveys my opinion about the situation. This post, like the entire blog, expresses my personal opinion.
 
 <!-- more -->
 
