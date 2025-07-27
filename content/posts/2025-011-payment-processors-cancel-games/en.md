@@ -78,7 +78,7 @@ And this is despite the fact that they already have the following rules:
 >
 > [8] Content that exploits children in any way
 
-Мало того, что 15-ое правило де-факто ставит платёжные системы НАД законом (см. пункт 6), так оно ещё и имеет безгранично широкую трактовку. Нет никаких чётких критериев что запрещно, правило буквально означает «если ваша игра не понравится кому-нибудь в плтатёжках или кто-нибудь в Steam решит, что эта игра не понравится кому-нибудь в платёжках, то вашей игре кранты».
+Rule 15 not only puts payment processors de facto ABOVE the law (see Rule 6), but also has an absurdly vague interpretation. There are no clear criteria for what is forbidden; the rule literally means "if your game doesn't please someone in the payment processors or if someone at Steam thinks that this game won't please someone in the payment processors, then your game is toast."
 
 В дополнение, Itch.io заявил о запуске процесса «ремодерации» опубликованных NSFW игр, после которого может станет лучше, а может и нет. Зная как это всё работает, я бы не рассчитывал на что-то хорошее. По-моему Steam занялся чем-то похожим, но сходу найти подтверждение у меня не получилось.
 
