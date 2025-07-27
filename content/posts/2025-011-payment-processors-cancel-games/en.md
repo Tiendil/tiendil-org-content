@@ -92,15 +92,15 @@ The gamedev community (not just NSFW, but all of it) is currently in a state of 
 
 First, **the situation really affects all gamers and all game developers**. This isn't just a problem of some narrow group of marginalized people.
 
-Сейчас днём с огнём не сыщешь хорошую игру, до которой нельзя докопаться. Ведьмак, Doom, Fallout, Baldur's Gate, Diablo, Cyberpunk, GTA, Counter-Strike, etc. — все эти игры можно обвинить в чём угодно, от насилия до сексизма, и это не говоря о том, что во многих есть «элементы для взрослых».
+These days, it's nearly impossible to find a good game that can't be criticized for something. The Witcher, Doom, Fallout, Baldur's Gate, Diablo, Cyberpunk, GTA, Counter-Strike, etc. — all these games can be accused of anything from excessive violence to sexism, not to mention that many of them contain "adult elements".
 
-Если мы позволим необразованным @##@$% решать что дозволено, а что нет, — ничего дозволенного не останется.
+If we allow uneducated @##@$% to decide what is allowed and what isn't, there will be nothing left that is allowed.
 
-Ёлки палки, даже в политкорректном попсовом [Baldur's Gate 3]{post:@choose-nearest-language:rpg-of-winning-marketing} есть целый бог мазохизма и игрок может пройти ммм… ритуал с одним из его последователей. Это ещё не беря во внимание медведя.
+For heaven's sake, even in the politically correct mainstream pop game [Baldur's Gate 3]{post:@choose-nearest-language:rpg-of-winning-marketing} there is a whole "god of masochism", and the player can go through a mmm… ritual with one of his followers. Not to mention The Bear.
 
-Суть многих игр, особенно RPG, не только в развлечении, но и в поднятии сложных и острых вопросов; в безопасном исследовании нашей культуры, этики, морали. То же самое касается литературы, кино и любого другого вида искусства.
+The essence of many games, especially RPGs, is not only in entertainment but also in raising complex and sensitive questions; in safely exploring our culture, ethics, and morality. The same applies to literature, cinema, and any other form of art.
 
-Если мы позволим ханжам и ханжеским компаниям диктовать, что можно, а что нельзя, мир быстро скатится в антиутопии, в RPG про которые мы так любим играть. Только в RPG мы играем за всесильного протогониста, который спасает мир, а в реальной жизни нас будут давить по одиночке, как сейчас давят во многих не столь благополучных странах.
+If we let hypocrites and hypocritical corporations dictate what is allowed and what isn't, the world will quickly descend into dystopia — one of the kinds about which our favorite RPGs are. Only in RPGs we play as all-powerful protagonists who save the world, whereas in real life, we'll be crushed one by one, just like people are in many less fortunate countries today.
 
 **Надо объединяться и давать отпор.**
 
