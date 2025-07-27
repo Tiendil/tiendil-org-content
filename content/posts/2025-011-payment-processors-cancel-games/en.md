@@ -92,6 +92,8 @@ The gamedev community (not just NSFW, but all of it) is currently in a state of 
 
 First, **the situation really affects all gamers and all game developers**. This isn't just a problem of some narrow group of marginalized people.
 
+Even the moderators of [r/gamedev](https://www.reddit.com/r/gamedev/) (1.9M members) are saying the same thing — [here’s their post](https://www.reddit.com/r/gamedev/comments/1m9yhyj/a_note_on_the_recent_nsfw_content_removals_and/).
+
 These days, it's nearly impossible to find a good game that can't be criticized for something. The Witcher, Doom, Fallout, Baldur's Gate, Diablo, Cyberpunk, GTA, Counter-Strike, etc. — all these games can be accused of anything from excessive violence to sexism, not to mention that many of them contain "adult elements".
 
 If we allow uneducated @##@$% to decide what is allowed and what isn't, there will be nothing left that is allowed.
