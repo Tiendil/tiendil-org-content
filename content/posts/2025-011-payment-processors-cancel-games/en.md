@@ -124,7 +124,7 @@ The bad news is that progress doesn't run on a schedule. Whether we live to see 
 
 The good news is that for the last fifty years, progress has been winning: in music, in cinema, in philosophy, and in human rights. We must ensure that it also wins in gaming.
 
-## My advice to hypocrites
+## My advice to potential hypocrites
 
 ### Learn to respect the personal affairs of others
 
@@ -136,18 +136,18 @@ That's why I recommend everyone to think, at least for a couple of minutes, abou
 
 In my opinion, the answer to all these questions is "yes".
 
-### Не перекладывайте свою ответственность на других
+### Quit blaming others for your own mess
 
-Если вы считаете, что какая-то книжка или игрушка может «испортить» вашего ребёнка, то это не книжка/игрушка плохие, это вы стали такими родителями, авторитет которых ниже чем авторитет какого-то noname автора.
+If you think that some book or game can "ruin" your child, then it is not the book/game that is bad, it is you who have become such a parent, whose authority is lower than the authority of some noname author.
 
-Если у вас вызывает гнев то, что другой человек как-то не так одевается, не так танцует, не то ест, рисует странное, то это не проблема этого человека, это у вас нет самоконтроля, это вы не научились принимать других людей как равных вам.
+If you become angry because someone else dresses differently, dances differently, eats differently, or draws something you don't like, then the problem is not with that person. You haven't learned to accept other people as equals, and your self-control is poor — imrove it.
 
-Вкладывайте время и силы в то, чтобы расти как личность, а не в то, чтобы ненавистью и страхом закапывать других людей.
+Invest your time and energy into growing as a person — not into burying others under your fear and hatred.
 
-### Уважайте законы, государство и сограждан
+### Respect the laws, the state, and your fellow citizens
 
-Если вы считаете, что какая-то штука нарушает законы вашей страны — идите в суд — они для того и существуют, чтобы решать споры между равными людьми.
+If you think that some book or game violates the laws of your country, then go to court — that's what courts are for, to resolve disputes between equal people.
 
-Если вам не нравится какие решения принимают суды, идите в политику и меняйте законы. Если вас поддержит большинство людей, то вы сможете измените вашу страну в лучшую для вас сторону. Если не поддержат, то может что-то не так с вами и вашими взглядами?
+If you don't like resolutions made by the courts, then go into politics and change the laws. If you can convince a majority of people that your views are correct, then you can change your country for the better. If you can't convince them, maybe there's something wrong with you and your views?
 
-Использовать монополистов чтобы принуждать зависимых от них людей — это трусливый и подлый способ, который никогда в истории не приводил к чему-то хорошему.
+Using monopolists to pressure people who depend on them is a cowardly and underhanded tactic — one that has never led to anything good in the course of history.
