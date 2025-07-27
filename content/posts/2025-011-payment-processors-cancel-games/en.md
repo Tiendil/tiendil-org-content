@@ -35,7 +35,7 @@ NSFW is a term/tag that currently covers a vast spectrum of works that are not m
 
 - LGBTQ+ visual novels with romance, which may really contain nothing but romance;
 - numerous plots involving drugs and mushrooms;
-- games about sex, both classic approachs and more unconventional, including taboo topics;
+- games about sex, both classic approaches and more unconventional, including taboo topics;
 - games with hyper-violence, ranging from excessive blood and guts to sexual violence;
 
 This time, the main blow fell on games with sexual content — but the line here is very thin, blurry, and ultimately in the eye of the beholder.
@@ -140,7 +140,7 @@ In my opinion, the answer to all these questions is "yes".
 
 If you think that some book or game can "ruin" your child, then it is not the book/game that is bad, it is you who have become such a parent, whose authority is lower than the authority of some noname author.
 
-If you become angry because someone else dresses differently, dances differently, eats differently, or draws something you don't like, then the problem is not with that person. You haven't learned to accept other people as equals, and your self-control is poor — imrove it.
+If you become angry because someone else dresses differently, dances differently, eats differently, or draws something you don't like, then the problem is not with that person. You haven't learned to accept other people as equals, and your self-control is poor — improve it.
 
 Invest your time and energy into growing as a person — not into burying others under your fear and hatred.
 
