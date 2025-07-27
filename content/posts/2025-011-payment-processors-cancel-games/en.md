@@ -152,15 +152,14 @@ If you don't like resolutions made by the courts, then go into politics and chan
 
 Using monopolists to pressure people who depend on them is a cowardly and underhanded tactic — one that has never led to anything good in the course of history.
 
+## I want to help, what can I do?
 
-## Что делать сочувствующим
+If you know developers of NSFW games, support them. Write a few kind words to them if you've played their games. If you haven't played, just tell them that they are not alone against the corporations.
 
-Если вы знаете разработчиков NSFW игр, то поддержите их. Напишите им пару добрых слов, если вы играли в их игры. Если не играли, то просто скажите, что они не остались один на один против корпораций.
+Tell your friends about the situation. Share this post, or write your own. The more people know about the problem, the more likely it is that something will change.
 
-Рассказывайте о проблеме если вам есть кому рассказывать. Можете сделать репост этого поста, можете написать свой.
+Complain directly to the payment systems: [instructions](https://www.reddit.com/r/itchio/comments/1m83s71/things_you_can_do_to_counteract_payment/).
 
-Напишите жалобы напрямую платёжным системам: [инструкция](https://www.reddit.com/r/itchio/comments/1m83s71/things_you_can_do_to_counteract_payment/).
+Sign the petition on [Change.org](https://www.change.org/p/tell-mastercard-visa-activist-groups-stop-controlling-what-we-can-watch-read-or-play)
 
-Подпишите петицию на [Change.org](https://www.change.org/p/tell-mastercard-visa-activist-groups-stop-controlling-what-we-can-watch-read-or-play)
-
-Если есть возможность, поддержите [Fair Access to Banking Act](https://www.reddit.com/r/gamingnews/comments/1m4ucte/the_fair_access_to_banking_act_and_steam_this/) (US) — этот закон запрещает платёжным системам отказывать в обслуживании по политическим или моральным причинам.
+If you can, support the [Fair Access to Banking Act](https://www.reddit.com/r/gamingnews/comments/1m4ucte/the_fair_access_to_banking_act_and_steam_this/) (US) — this bill would prohibit payment card networks and large banks from denying services for political or reputational ("moral") reasons when the activity is lawful and meets objective risk standards.
