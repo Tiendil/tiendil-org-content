@@ -1,6 +1,6 @@
 ---
 title = "Платёжные системы запрещают игры"
-tags = [ "practice", "gamedev", "society", "monetization", "business", "state"]
+tags = [ "practice", "gamedev", "society", "monetization", "business"]
 published_at = "2025-07-28T12:00:00+00:00"
 seo_description = "Монополисты на рынке электронных платежей отменяют игры, которые им «не нравятся», топовые игровые магазины берут под козырек и не пытаются сопротивляться."
 seo_image = "./cover.jpg"

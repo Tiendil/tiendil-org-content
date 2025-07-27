@@ -1,17 +1,18 @@
 ---
-title = "Платёжные системы запрещают игры"
-tags = [ "practice", "gamedev", "society", "monetization", "business", "state"]
+title = "Payment processors cancel games"
+tags = [ "practice", "gamedev", "society", "monetization", "business"]
 published_at = "2025-07-28T12:00:00+00:00"
-seo_description = "Монополисты на рынке электронных платежей отменяют игры, которые им «не нравятся», топовые игровые магазины берут под козырек и не пытаются сопротивляться."
+seo_description = "Monopolists in the electronic payments market are canceling games they "don't like," and the top game stores fall in line without putting up a fight."
 seo_image = "./cover.jpg"
 ---
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "[The Examination of a Witch](https://en.wikipedia.org/wiki/The_Examination_of_a_Witch_%28painting%29) (с) [T.H.Matteson.](https://en.wikipedia.org/wiki/T._H._Matteson). Изображение взято из Wikipedia."
+caption = "[The Examination of a Witch](https://en.wikipedia.org/wiki/The_Examination_of_a_Witch_%28painting%29) (с) [T.H.Matteson.](https://en.wikipedia.org/wiki/T._H._Matteson). The image is taken from Wikipedia."
 ///
 
-Прошу прощения за желтизну заголовка, к сожалению всё так и есть.
+Apologies for the clickbait headline — unfortunately, that's exactly what's happening.
+
 
 То что пока запрещают не все игры, или не те игры, в которые играете именно вы, не означает, что через год не запретят ваш любимый шутан, потому что он «не соответствует ценностям» ~~секретарши~~ любовницы зам-зама какого-нибудь MonopolyCard.
 
