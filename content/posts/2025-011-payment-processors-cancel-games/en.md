@@ -110,19 +110,19 @@ I have never heard anyone say, "a book made me kill" or "I raped people because 
 
 But there are plenty of personal stories about how books, movies, and games helped people cope with difficult experiences, overcome depression, find friends, and discover themselves — to make sense of the world around them.
 
-Edgy, boundary-pushing works are especially important for young people who are just beginning to explore the world and themselves. They offer a safe way to engage with complex and difficult questions — ones that trully shouldn’t be tested in real life, but that everyone needs to **consciously** grapple with.
+Edgy, boundary-pushing works are especially important for young people who are just beginning to explore the world and themselves. They offer a safe way to engage with complex and difficult questions — ones that often shouldn’t be tested in real life, but that everyone needs to **consciously** grapple with.
 
-Я хочу сделать особый упор на «осознанно». Запомнить что «так делать нельзя, потому что боженька/папка/гуру запретил» — это не осознанно разобраться — это труссливо спрятаться от мира, вырезать часть своего критического мышления и заполнить эту дыру страхом.
+I want to emphasize "consciously". Imprinting in mind that "you can't do this because God/The Book/Father/Mother/Guru forbade it" is not consciously grappling with the issue — it's cowardly hiding from the world, cutting out part of your critical thinking, and filling that void with fear.
 
-Люди, которые совершили подобное насилие над собой, не в состоянии двигать прогресс, не способны создавать новое, не способны понимать новое. Из-за этого они пребывают в страхе, не видят ничего кроме страха. Страх рождает ненависть и через неё они пытаются заставить весь мир жить в таком же страхе, поскольку ничего кроме страха они не познали.
+People who've inflicted that kind of violence on themselves are no longer capable of driving progress; they struggle to create new things or understand new ideas. As a result, they live in fear, seeing nothing but fear. Fear breeds hatred, and through it, they try to force the whole world to live in the same fear, since they have known nothing else.
 
-Именно такие люди рождают концепт мыслепреступления, поскольку даже помыслить не могут о том, что достойный человек может иметь волю не скованную страхом и ненавистью.
+It’s people like this who give birth to the very concept of thoughtcrime, because they can't conceive that a worthy person can have a will unbound by fear and hatred.
 
-Хорошая новость в том, что все «спорные» произведения — это следствие прогресса, а прогресс не остановить — это одна из немногих сил, которая рано или поздно сминает всё на своём пути. Как бы много сил этим людям не давали бабло и ненависть, они будут раздавалены им.
+The good news is that most "controversial" works are a result of progress, and progress is unstoppable — it's one of the few forces that eventually crushes everything in its path. No matter how much power these people gain through money and hatred, they will be destroyed by it.
 
-Плохая новость в том, что время для прогресса не существенно. Увидим ли мы падение ханжей при нашей жизни или до своей смерти будем жить в страхе и ненависти, зависит только от нас — от наших усилий.
+The bad news is that progress doesn't run on a schedule. Whether we live to see the fall of the hypocrites or spend the rest of our lives in fear and hatred depends only on us — on our efforts.
 
-Хорошая новость в том, что последние полвека прогресс побеждает: в музыке, в кино, в философии и правах людей. Мы должны сделать так, чтобы он победил и в играх.
+The good news is that for the last fifty years, progress has been winning: in music, in cinema, in philosophy, and in human rights. We must ensure that it also wins in gaming.
 
 ## Мои советы ханжам
 
