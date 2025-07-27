@@ -25,20 +25,20 @@ I strive to minimize the use of harsh language in this post, but I've kept some,
 
 <!-- more -->
 
-## Что случилось
+## What happened
 
-Мелкая, но похоже дофига влиятельная, группа ханжей из Австралии [написала письмо главам крупнейших платёжных систем](https://www.collectiveshout.org/open-letter-to-payment-processors) с жалобой на NSFW (Not Safe For Work) игры.
+A small but seemingly very influential group of hypocrites from Australia [wrote a letter to the heads of major payment processors](https://www.collectiveshout.org/open-letter-to-payment-processors) complaining about NSFW (Not Safe For Work) games.
 
 /// note | NSFW
 
-NSFW — это термин/тег, который сейчас покрывает огромный спект произведений, включая игры, для примера:
+NSFW is a term/tag that currently covers a vast spectrum of works that are not meant for public display, including games. For example:
 
-- подростковые LGBTQ+ визуальные новеллы с романтикой, в которых кроме романтики ничего и нет;
-- всякие сюжеты с наркотиками и грибами;
-- игры про секс, как классический, так и не очень, в том числе табуированные темы;
-- игры с гипернасилием, от просто чрезмерного количества крови и кишок до сексуального насилия;
+- LGBTQ+ visual novels with romance, which may really contain nothing but romance;
+- numerous plots involving drugs and mushrooms;
+- games about sex, both classic approachs and more unconventional, including taboo topics;
+- games with hyper-violence, ranging from excessive blood and guts to sexual violence;
 
-Основной удар в этот раз приняли игры с сексуальным контентом, но грань тут очень тонкая, зыбкая и находится в глазах смотрящего.
+This time, the main blow fell on games with sexual content — but the line here is very thin, blurry, and ultimately in the eye of the beholder.
 
 ///
 
