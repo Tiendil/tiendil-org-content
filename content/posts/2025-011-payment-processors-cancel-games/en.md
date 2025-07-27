@@ -102,15 +102,15 @@ The essence of many games, especially RPGs, is not only in entertainment but als
 
 If we let hypocrites and hypocritical corporations dictate what is allowed and what isn't, the world will quickly descend into dystopia — one of the kinds about which our favorite RPGs are. Only in RPGs we play as all-powerful protagonists who save the world, whereas in real life, we'll be crushed one by one, just like people are in many less fortunate countries today.
 
-**Надо объединяться и давать отпор.**
+**We must unite and resist.**
 
-Во-вторых, нет никаких объективных свидетельств вредности мыслей, идей, игр, книг, фильмов и т.д.
+Second, there is no objective evidence that thoughts, ideas, games, books, movies, etc. are harmful.
 
-Я в жизни не слышал, чтобы человек говорил «книга заставила меня убить» или «я поиграл в игрушку и пошёл насиловать людей».
+I have never heard anyone say, "a book made me kill" or "I raped people because I played a game about rape."
 
-Зато есть достаточно личных историй, как книги, фильмы и игры помогали людям справиться с тяжёлыми переживаниями, преодолеть депрессию, найти друзей, обрести себя — разобраться в мире вокруг.
+But there are plenty of personal stories about how books, movies, and games helped people cope with difficult experiences, overcome depression, find friends, and discover themselves — to make sense of the world around them.
 
-Подобные, on-the-edge, произведения особенно важны для молодых людей, которые только начинают познавать мир и себя — это способ безопасно исследовать сложные и острые вопросы, которые в реальной жизни проверять действительно не стоит, но в которых должен **осознанно** разобраться каждый человек.
+Edgy, boundary-pushing works are especially important for young people who are just beginning to explore the world and themselves. They offer a safe way to engage with complex and difficult questions — ones that trully shouldn’t be tested in real life, but that everyone needs to **consciously** grapple with.
 
 Я хочу сделать особый упор на «осознанно». Запомнить что «так делать нельзя, потому что боженька/папка/гуру запретил» — это не осознанно разобраться — это труссливо спрятаться от мира, вырезать часть своего критического мышления и заполнить эту дыру страхом.
 
