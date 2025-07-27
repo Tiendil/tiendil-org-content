@@ -42,17 +42,17 @@ This time, the main blow fell on games with sexual content — but the line here
 
 ///
 
-Монополисты от платежей сделали наезд на монополистов от игр — Steam, itch.io. О том кто конкретно из платёжных систем давил на магазины не известно — все молчат — но компаний с подобной силой, на мой взгляд, ровно две.
+The payment monopolists went after the gaming monopolists — [Steam](https://store.steampowered.com/) and [Itch.io](https://itch.io/). No one’s saying which processor applied the pressure, but in my opinion, only two companies have that kind of leverage.
 
-Монополисты от игр **быстро** взяли под козырёк, без малейшего сопротивления.
+The stores **quickly** complied, without the slightest resistance.
 
-/// note | О слабой позиции Steam & Itch.io
+/// note | About the weak position of Steam & Itch.io
 
-Безусловно, игровые магазины находятся в слабой позиции перед платёжными системами, которые могут легко отрезать процентов 90, если не все 100 платежей, что сделает работу магазинов невозможной.
+Obviously, game stores are in a weak position compared to payment processors, which can easily cut off 90%, if not 100%, of all transactions — effectively making it impossible for the stores to operate.
 
-Это слабую позицию я понимаю и сопереживаю ей.
+I understand and empathize with this weak position.
 
-Чего я не понимаю, так это полного отсутствия видимого сопротивления и отсутствию движения по огласке проблемы. Особенно со стороны Steam, который тоже таки сервис планетарного значения: каждый час [онлайн 25M-35M игроков](https://store.steampowered.com/charts) (!), месячная аудитория больше 100 миллионов. Сделать ответный удар по репутации платёжных систем Steam в состоянии.
+What I don't understand is the complete lack of visible resistance and the absence of any movement towards raising awareness of the issue. Especially from Steam, which is also a planetary-scale service: every hour [it has 25M-35M players online](https://store.steampowered.com/charts) (!), with a monthly audience exceeding 100 million. Steam can strike back at the reputation of payment systems if it wants to.
 
 ///
 
