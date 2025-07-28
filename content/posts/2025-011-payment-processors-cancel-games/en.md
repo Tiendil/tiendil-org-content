@@ -2,7 +2,7 @@
 title = "Payment processors cancel games"
 tags = [ "practice", "gamedev", "society", "monetization", "business"]
 published_at = "2025-07-28T12:00:00+00:00"
-seo_description = "Monopolists in the electronic payments market are canceling games they "don't like," and the top game stores fall in line without putting up a fight."
+seo_description = "Monopolists in the electronic payments market are canceling games they "don't like", and the top game stores fall in line without putting up a fight."
 seo_image = "./cover.jpg"
 ---
 
@@ -15,13 +15,13 @@ Apologies for the clickbait headline — unfortunately, that's exactly what's ha
 
 Just because not all games are being banned right now, or not the ones you personally play, doesn't mean your favorite shooter won't be banned in a year or two because it "doesn't align with the values" of some deputy deputy's mistress (or lover) at MonopolyPayCard.
 
-Let's me tell about:
+Let me tell you about:
 
 - What happened.
 - What I think about it.
 - What I want to advise those who engage in such nonsense.
 
-I strive to minimize the use of harsh language in this post, but I've kept some, as it most accurately conveys my opinion about the situation. This post, like the entire blog, expresses my personal opinion. If you can't or not allowed to read harsh language, please, skip this text.
+I strive to minimize the use of harsh language in this post, but I've kept some, as it most accurately conveys my opinion about the situation. This post, like the entire blog, expresses my personal opinion. If you can't or are not allowed to read harsh language, please skip this text.
 
 <!-- more -->
 
@@ -42,7 +42,7 @@ This time, the main blow fell on games with sexual content — but the line here
 
 ///
 
-The payment monopolists went after the gaming monopolists — [Steam](https://store.steampowered.com/) and [Itch.io](https://itch.io/). No one’s saying which processor applied the pressure, but in my opinion, only two companies have that kind of leverage.
+The payment monopolists went after the gaming monopolists — [Steam](https://store.steampowered.com/) and [Itch.io](https://itch.io/). No one's saying which processor applied the pressure, but in my opinion, only two companies have that kind of leverage.
 
 The stores **quickly** complied, without the slightest resistance.
 
@@ -52,7 +52,7 @@ Obviously, game stores are in a weak position compared to payment processors, wh
 
 I understand and empathize with this weak position.
 
-What I don't understand is the complete lack of visible resistance and the absence of any movement towards raising awareness of the issue. Especially from Steam, which is also a planetary-scale service: every hour [it has 25M-35M players online](https://store.steampowered.com/charts) (!), with a monthly audience exceeding 100 million. Steam can strike back at the reputation of payment systems if it wants to.
+What I don't understand is the complete lack of visible resistance and the absence of any movement towards raising awareness of the issue. Especially from Steam, which is also a planetary-scale service: [every hour it has 25M-35M players online](https://store.steampowered.com/charts) (!), with a monthly audience exceeding 100 million. Steam can strike back at the reputation of payment systems if it wants to.
 
 ///
 
@@ -60,7 +60,7 @@ On July 24, 2025, [Itch.io removed all NSFW games from search results](https://i
 
 On July 16, 2025, [Steam removed hundreds of games](https://www.pcgamer.com/software/platforms/valve-confirms-credit-card-companies-pressured-it-to-delist-certain-adult-games-from-steam/) and [added a new delightful 15th rule](https://partner.steamgames.com/doc/gettingstarted/onboarding?utm_source=chatgpt.com) to its content restrictions:
 
-> [15] Content that **MAY** violate the rules and standards set forth by Steam’s payment processors and related card networks and banks, or internet network providers. In particular, certain kinds of adult only content.
+> [15] Content that **MAY** violate the rules and standards set forth by Steam's payment processors and related card networks and banks, or internet network providers. In particular, certain kinds of adult only content.
 
 The bolded caps are my marks.
 
@@ -92,7 +92,7 @@ The gamedev community (not just NSFW, but all of it) is currently in a state of 
 
 First, **the situation really affects all gamers and all game developers**. This isn't just a problem of some narrow group of marginalized people.
 
-Even the moderators of [r/gamedev](https://www.reddit.com/r/gamedev/) (1.9M members) are saying the same thing — [here’s their post](https://www.reddit.com/r/gamedev/comments/1m9yhyj/a_note_on_the_recent_nsfw_content_removals_and/).
+Even the moderators of [r/gamedev](https://www.reddit.com/r/gamedev/) (1.9M members) are saying the same thing — [here's their post](https://www.reddit.com/r/gamedev/comments/1m9yhyj/a_note_on_the_recent_nsfw_content_removals_and/).
 
 These days, it's nearly impossible to find a good game that can't be criticized for something. The Witcher, Doom, Fallout, Baldur's Gate, Diablo, Cyberpunk, GTA, Counter-Strike, etc. — all these games can be accused of anything from excessive violence to sexism, not to mention that many of them contain "adult elements".
 
@@ -100,7 +100,7 @@ If we allow uneducated @##@$% to decide what is allowed and what isn't, there wi
 
 For heaven's sake, even in the politically correct mainstream pop game [Baldur's Gate 3]{post:@choose-nearest-language:rpg-of-winning-marketing} there is a whole "god of masochism", and the player can go through a mmm… ritual with one of his followers. Not to mention The Bear.
 
-The essence of many games, especially RPGs, is not only in entertainment but also in raising complex and sensitive questions; in safely exploring our culture, ethics, and morality. The same applies to literature, cinema, and any other form of art.
+The essence of many games, especially RPGs, is not only in entertainment but also in raising complex and sensitive questions; in safely exploring our culture, ethics, and morality. The same applies to literature, cinema, and all other forms of art.
 
 If we let hypocrites and hypocritical corporations dictate what is allowed and what isn't, the world will quickly descend into dystopia — one of the kinds about which our favorite RPGs are. Only in RPGs we play as all-powerful protagonists who save the world, whereas in real life, we'll be crushed one by one, just like people are in many less fortunate countries today.
 
@@ -110,21 +110,21 @@ Second, there is no objective evidence that thoughts, ideas, games, books, movie
 
 I have never heard anyone say, "a book made me kill" or "I raped people because I played a game about rape."
 
-But there are plenty of personal stories about how books, movies, and games helped people cope with difficult experiences, overcome depression, find friends, and discover themselves — to make sense of the world around them.
+However, there are numerous personal stories about how books, movies, and games have helped people cope with difficult experiences, overcome depression, find friends, and discover themselves — to make sense of the world around them.
 
-Edgy, boundary-pushing works are especially important for young people who are just beginning to explore the world and themselves. They offer a safe way to engage with complex and difficult questions — ones that often shouldn’t be tested in real life, but that everyone needs to **consciously** grapple with.
+Edgy, boundary-pushing works are especially important for young people who are just beginning to explore the world and themselves. They offer a safe way to engage with complex and difficult questions — ones that often shouldn't be tested in real life, but that everyone needs to **consciously** grapple with.
 
 I want to emphasize "consciously". Imprinting in mind that "you can't do this because God/The Book/Father/Mother/Guru forbade it" is not consciously grappling with the issue — it's cowardly hiding from the world, cutting out part of your critical thinking, and filling that void with fear.
 
 People who've inflicted that kind of violence on themselves are no longer capable of driving progress; they struggle to create new things or understand new ideas. As a result, they live in fear, seeing nothing but fear. Fear breeds hatred, and through it, they try to force the whole world to live in the same fear, since they have known nothing else.
 
-It’s people like this who give birth to the very concept of thoughtcrime, because they can't conceive that a worthy person can have a will unbound by fear and hatred.
+It's people like this who give birth to the very concept of thoughtcrime, because they can't conceive that a worthy person can have a will unbound by fear and hatred.
 
 The good news is that most "controversial" works are a result of progress, and progress is unstoppable — it's one of the few forces that eventually crushes everything in its path. No matter how much power these people gain through money and hatred, they will be destroyed by it.
 
 The bad news is that progress doesn't run on a schedule. Whether we live to see the fall of the hypocrites or spend the rest of our lives in fear and hatred depends only on us — on our efforts.
 
-The good news is that for the last fifty years, progress has been winning: in music, in cinema, in philosophy, and in human rights. We must ensure that it also wins in gaming.
+The good news is that over the last fifty years, progress has been winning: in music, in cinema, in philosophy, and in human rights. We must ensure that it also wins in gaming.
 
 ## My advice to potential hypocrites
 
@@ -134,7 +134,7 @@ I've always lived by the principle — pardon the blunt phrasing — **"everyone
 
 I'm deeply convinced that without following this principle, a person ends up hurting both themselves and others.
 
-That's why I recommend everyone to think, at least for a couple of minutes, about this idea: how your life might have turned out if you didn't feel the urge to meddle in other people's business. Would you feel calmer? Would you have more time for yourself and your loved ones? Would you sleep better?
+That's why I recommend that everyone think, at least for a couple of minutes, about this idea: how your life might have turned out if you hadn't felt the urge to meddle in other people's business. Would you feel calmer? Would you have more time for yourself and your loved ones? Would you sleep better?
 
 In my opinion, the answer to all these questions is "yes".
 
@@ -142,7 +142,7 @@ In my opinion, the answer to all these questions is "yes".
 
 If you think that some book or game can "ruin" your child, then it is not the book/game that is bad, it is you who have become such a parent, whose authority is lower than the authority of some noname author.
 
-If you become angry because someone else dresses differently, dances differently, eats differently, or draws something you don't like, then the problem is not with that person. You haven't learned to accept other people as equals, and your self-control is poor — improve it.
+If you become angry because someone else dresses differently, dances differently, eats differently, or draws something you don't like, then the problem is not with that person. It is you who haven't learned to accept other people as equals, and your self-control is poor — improve it.
 
 Invest your time and energy into growing as a person — not into burying others under your fear and hatred.
 
