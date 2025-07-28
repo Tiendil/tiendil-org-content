@@ -2,7 +2,7 @@
 title = "Payment processors cancel games"
 tags = [ "practice", "gamedev", "society", "monetization", "business"]
 published_at = "2025-07-28T12:00:00+00:00"
-seo_description = "Monopolists in the electronic payments market are canceling games they "don't like", and the top game stores fall in line without putting up a fight."
+seo_description = "Monopolists in the electronic payments market are canceling games they \"don't like\", and the top game stores fall in line without putting up a fight."
 seo_image = "./cover.jpg"
 ---
 
