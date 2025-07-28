@@ -126,6 +126,18 @@ The bad news is that progress doesn't run on a schedule. Whether we live to see 
 
 The good news is that over the last fifty years, progress has been winning: in music, in cinema, in philosophy, and in human rights. We must ensure that it also wins in gaming.
 
+## I want to help, what can I do?
+
+If you know developers of NSFW games, support them. Write a few kind words to them if you've played their games. If you haven't played, just tell them that they are not alone against the corporations.
+
+Tell your friends about the situation. Share this post, or write your own. The more people know about the problem, the more likely it is that something will change.
+
+Complain directly to the payment systems: [instructions](https://www.reddit.com/r/itchio/comments/1m83s71/things_you_can_do_to_counteract_payment/).
+
+Sign the petition on [Change.org](https://www.change.org/p/tell-mastercard-visa-activist-groups-stop-controlling-what-we-can-watch-read-or-play)
+
+If you can, support the [Fair Access to Banking Act](https://www.reddit.com/r/gamingnews/comments/1m4ucte/the_fair_access_to_banking_act_and_steam_this/) (US) — this bill would prohibit payment card networks and large banks from denying services for political or reputational ("moral") reasons when the activity is lawful and meets objective risk standards.
+
 ## My advice to potential hypocrites
 
 ### Learn to respect the personal affairs of others
@@ -153,15 +165,3 @@ If you think that some book or game violates the laws of your country, then go t
 If you don't like resolutions made by the courts, then go into politics and change the laws. If you can convince a majority of people that your views are correct, then you can change your country for the better. If you can't convince them, maybe there's something wrong with you and your views?
 
 Using monopolists to pressure people who depend on them is a cowardly and underhanded tactic — one that has never led to anything good in the course of history.
-
-## I want to help, what can I do?
-
-If you know developers of NSFW games, support them. Write a few kind words to them if you've played their games. If you haven't played, just tell them that they are not alone against the corporations.
-
-Tell your friends about the situation. Share this post, or write your own. The more people know about the problem, the more likely it is that something will change.
-
-Complain directly to the payment systems: [instructions](https://www.reddit.com/r/itchio/comments/1m83s71/things_you_can_do_to_counteract_payment/).
-
-Sign the petition on [Change.org](https://www.change.org/p/tell-mastercard-visa-activist-groups-stop-controlling-what-we-can-watch-read-or-play)
-
-If you can, support the [Fair Access to Banking Act](https://www.reddit.com/r/gamingnews/comments/1m4ucte/the_fair_access_to_banking_act_and_steam_this/) (US) — this bill would prohibit payment card networks and large banks from denying services for political or reputational ("moral") reasons when the activity is lawful and meets objective risk standards.
