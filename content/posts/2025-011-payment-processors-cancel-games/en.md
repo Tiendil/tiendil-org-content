@@ -98,7 +98,7 @@ These days, it's nearly impossible to find a good game that can't be criticized 
 
 If we allow uneducated @##@$% to decide what is allowed and what isn't, there will be nothing left that is allowed.
 
-For heaven's sake, even in the politically correct mainstream pop game [Baldur's Gate 3]{post:@choose-nearest-language:rpg-of-winning-marketing} there is a whole "god of masochism", and the player can go through a mmm… ritual with one of his followers. Not to mention The Bear.
+For heaven's sake, even in the politically correct mainstream pop game Baldur's Gate 3 there is a whole "god of masochism" mentioned, and the player can go through a mmm… ritual with one of his followers. Not to mention The Bear.
 
 The essence of many games, especially RPGs, is not only in entertainment but also in raising complex and sensitive questions; in safely exploring our culture, ethics, and morality. The same applies to literature, cinema, and all other forms of art.
 
