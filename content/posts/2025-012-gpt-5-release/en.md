@@ -42,10 +42,10 @@ Let's me add a few more thoughts.
 
 <!-- more -->
 
-Глобальные проекты вроде Stargate не повлияют на ситуацию в той степени, в которой надеются их создатели. Так как проблема не в нехватке железа и датацентров, а в ограничениях архитектуры моделей и железа. Эти проблемы не решаются постройкой датацентров, они решаются расширением R&D через:
+Global projects like Stargate will not affect the situation to the extent their creators hope. The problem isn't a shortage of hardware or data centers, but the limitations of model and hardware architectures. These problems can't be solved by building more data centers — they're solved by scaling R&D through:
 
-- подготовку и найм кадров;
-- запуск рискованных экспериментов;
+- training and hiring specialists;
+- launching high-risk experiments;
 
 Если с первым всё почти нормально (хайп помогает, через 5-10 лет у нас будет много молодых спецов), то со вторым — нет. Текущие лидеры стали слишком крупными и зависимыми от инвесторов (на западе) и государства (в Китае) — они не в состоянии рисковать. Ни OpenAI, ни Google, ни Meta сейчас не могут сделать резкий разворот в пользу какой-либо технологии альтернативной текущим LLM, какой-бы перспективной она ни была. Чтобы случился следующий этап взрывного роста (который рано или поздно случится и может таки приведёт к сильному ИИ) нужна «ещё одна OpenAI».
 
