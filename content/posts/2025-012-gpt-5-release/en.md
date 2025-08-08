@@ -22,24 +22,23 @@ alt = "«Случайно» уменьшили один из столбцов н
 alt = """Someone "accidentally" reduced one of the bars in the chart by about three times."""
 ///
 
-1.
-1. Сеть стала, в среднем, немного (на проценты) умнее.
-2. В некоторых аспектах сеть стала значительно умнее (на десятки процентов).
-3. В некоторых аспектах сеть стала глупее(!).
-4. API стало дешевле, или нет, — смотря как вы его используете.
-5. OpenAI сознательно вводят людей в заблуждение по поводу способностей новой модели — смотрите скрины.
+1. The LLM has become, on average, slightly (by a few percent) smarter.
+2. In some aspects, the LLM has become significantly smarter (by tens of percent).
+3. In some aspects, the LLM has become a bit dumber(!).
+4. The API has become cheaper, or not, — it depends on how you use it.
+5. OpenAI is deliberately misleading people about the capabilities of the new model — see the screenshots.
 
-=> Мировой лидер в LLM начал вязнуть в болоте, скорее всего за ним последуют все остальные.
+=> The world's LLM leader has begun to bog down, and the rest will likely follow.
 
-Когда у вас всё хорошо и вы совершаете очередной прорыв, вы не мухлюете с картинками.
+When everything is going well and you make another breakthrough, you don't cheat with the pictures.
 
-Это не значит, что прогресс закончился, но это значит что развитие технологий переходит из взрывной фазы «открытия нового» в более-менее линейную фазу «оптимизации технологий в 100500 направлениях, когда рук хватает для только 100».
+This doesn't mean that progress has stopped, but it does mean that the growth of technology is transitioning from the explosive phase of "discovering new things" to a more or less steady phase of "optimizing technologies in a million directions, where there are only enough hands for a hundred."
 
-Близится фаза «разочарования» из [цикла хайпа](https://en.wikipedia.org/wiki/Gartner_hype_cycle).
+We are close to the "disillusionment" phase of the [Gartner hype cycle](https://en.wikipedia.org/wiki/Gartner_hype_cycle).
 
-В связи с этим напомню о своём [прогнозе о будущем ИИ](https://tiendil.org/ru/posts/ai-notes-2024-prognosis)  — пока сбывается.
+In this regard, I would like to remind you of my [AI future prognosis]{post:ai-notes-2024-prognosis} — so far, it's holding up.
 
-Добавлю вот ещё что.
+Let's me add a few more thoughts.
 
 <!-- more -->
 
