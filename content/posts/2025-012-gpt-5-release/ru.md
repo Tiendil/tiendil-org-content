@@ -3,12 +3,19 @@ title = "Саммари презентации ChatGPT 5 без маркетин
 tags = [ "practice", "theory", "futurology", "neural-networks"]
 published_at = "2025-08-08T12:00:00+00:00"
 seo_description = "Саммари презентации ChatGPT 5 без маркетингового булшита"
-seo_image = "./cover.jpg"
+seo_image = "./lie-1.jpg"
 ---
 
 /// brigid-images
-src = "./cover.jpg"
-caption = ""
+caption = "Кто считает, что это случайность, пусть первым бросит в меня камень."
+
+[[images]]
+src = "./lie-1.jpg"
+alt = ""
+
+[[images]]
+src = "./lie-2.jpg"
+alt = ""
 ///
 
 1. Сеть стала, в среднем, немного (на проценты) умнее.
