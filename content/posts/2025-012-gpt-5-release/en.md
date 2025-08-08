@@ -18,7 +18,6 @@ alt = """Someone "accidentally" doubled one of the bars in the chart."""
 
 [[images]]
 src = "./lie-2.jpg"
-alt = "«Случайно» уменьшили один из столбцов на графике раза в три."
 alt = """Someone "accidentally" reduced one of the bars in the chart by about three times."""
 ///
 
@@ -32,13 +31,13 @@ alt = """Someone "accidentally" reduced one of the bars in the chart by about th
 
 When everything is going well and you make another breakthrough, you don't cheat with the pictures.
 
-This doesn't mean that progress has stopped, but it does mean that the growth of technology is transitioning from the explosive phase of "discovering new things" to a more or less steady phase of "optimizing technologies in a million directions, where there are only enough hands for a hundred."
+This doesn't mean that progress has stopped. Still, it does mean that the growth of technology is transitioning from the explosive phase of "discovering new things" to a more or less steady phase of "optimizing technologies in a million directions, where there are only enough hands for a hundred."
 
 We are close to the "disillusionment" phase of the [Gartner hype cycle](https://en.wikipedia.org/wiki/Gartner_hype_cycle).
 
 In this regard, I would like to remind you of my [AI future prognosis]{post:ai-notes-2024-prognosis} — so far, it's holding up.
 
-Let's me add a few more thoughts.
+Let me add a few more thoughts.
 
 <!-- more -->
 
@@ -51,13 +50,13 @@ The first point is more or less fine (the hype helps, and in 5–10 years we'll 
 
 Why can't the big players make a pivot?
 
-The contemporary LLM technologies are already making them money, huge budgets are spent on their optimization, and the further optimization and profit from it are predictable, even if they don't promise explosive growth. Any new technology will require comparable investments in optimization just to reach parity with current LLMs, while always carrying a significant risk of failure and wasting billions.
+Contemporary LLM technologies are already generating revenue, huge budgets have been spent on their optimization, and the further optimization and profit from it are predictable, even if they don't promise explosive growth. Any new technology will require comparable investments in optimization just to reach parity with current LLMs, while always carrying a significant risk of failure and wasting billions.
 
 The same is true for technologies built on top of LLMs that use them as basic components — the search space for successful solutions is too vast, and the solution may require tuning LLMs in a new direction, which could be orthogonal or even opposite to the current one.
 
 That's why, until the limits of optimization of current hardware and LLM architectures are fully exhausted, significant money won't be invested in searching for alternatives. And we are still far from exhausting the optimization opportunities.
 
-Let's don’t look far for an example — take GPUs and parallel computing.
+Let's not look far for an example — take GPUs and parallel computing.
 
 Simplifying:
 
@@ -65,6 +64,6 @@ Simplifying:
 - Did we build expensive supercomputers on existing technologies that tried parallel computing? Yes!
 - Did we develop architectures for parallel computing? For decades!
 - But the first mass-produced hardware with mass parallelism appeared in narrow niches: for computer games, complex rendering, and science. Because only in these fields it was absolutely necessary. Only when practice confirmed the correctness and validity of the path, and the technology itself quietly overcame its childhood diseases, did mass adoption begin. For example, browsers started using GPUs for rendering only around 2010.
-- Was there a theoretical possibility to invest more billions in the development of "video cards" to achieve comparable results years earlier through scaling R&D? Yes, but no one wanted to take such a risk (besides NVIDIA?) when everything was already working fine, and there were many safer directions for investing in progress and profit.
+- Was there a theoretical possibility to invest more billions in the development of "video cards" to achieve comparable results years earlier through scaling R&D? Yes, but no one wanted to take such a risk (besides NVIDIA?) when everything was already working fine. There were many safer directions for investing in progress and profit.
 
-The same is happening with LLMs right now. Until we fully digest all the possibilities they have opened for us, the emergence of something more powerful is likely to happen by chance rather than through deliberate efforts.
+The same is happening with LLMs right now. Until we fully digest all the possibilities they have opened for us, the emergence of something more powerful is likely to occur by chance rather than through deliberate efforts.
