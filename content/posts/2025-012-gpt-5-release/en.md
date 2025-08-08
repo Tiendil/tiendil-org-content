@@ -63,7 +63,7 @@ Simplifying:
 - Was it always obvious that mass parallel computing is a powerful and necessary thing? Of course!
 - Did we build expensive supercomputers on existing technologies that tried parallel computing? Yes!
 - Did we develop architectures for parallel computing? For decades!
-- But the first mass-produced hardware with mass parallelism appeared in narrow niches: for computer games, complex rendering, and science. Because only in these fields it was absolutely necessary. Only when practice confirmed the correctness and validity of the path, and the technology itself quietly overcame its childhood diseases, did mass adoption begin. For example, browsers started using GPUs for rendering only around 2010.
+- But the first mass-produced hardware with mass parallelism appeared in narrow niches: for computer games, complex rendering, and science. Because only in these fields it was absolutely necessary. Only when practice confirmed the correctness and validity of the path, and the technology itself quietly overcame its teething problems, did mass adoption begin. For example, browsers started using GPUs for rendering only around 2010.
 - Was there a theoretical possibility to invest more billions in the development of "video cards" to achieve comparable results years earlier through scaling R&D? Yes, but no one wanted to take such a risk (besides NVIDIA?) when everything was already working fine. There were many safer directions for investing in progress and profit.
 
-The same is happening with LLMs right now. Until we fully digest all the possibilities they have opened for us, the emergence of something more powerful is likely to occur by chance rather than through deliberate efforts.
+The same is happening with LLMs right now. Until we fully digest all the possibilities they have opened for us, the emergence of something conceptually more powerful is more likely to appear as a lucky accident than as the result of deliberate effort.
