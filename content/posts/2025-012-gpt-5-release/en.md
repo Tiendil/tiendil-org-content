@@ -49,18 +49,22 @@ Global projects like Stargate will not affect the situation to the extent their 
 
 The first point is more or less fine (the hype helps, and in 5–10 years we'll have plenty of young specialists), but the second one isn't. The current leaders have grown too big and too dependent on investors (in the West) and the state (in China) — they simply can't take risks. Neither OpenAI, nor Google, nor Meta can now make a sharp pivot toward any technology that is architecturally alternative to today's LLMs, no matter how promising it might be. For the next phase of explosive growth — which will come sooner or later, and may even lead to strong AI — we need "yet another OpenAI".
 
-Почему крупные игроки не могут сделать разворот. Текущие технологии LLM уже приносят им деньги, в их оптимизацию залиты огромные бюджеты и их дальнейшая оптимизация и профит от неё предсказуемы, хоть и не обещают взрывного роста. Любая новая технология потребует сопоставимых вложений в оптимизацию, чтобы хотя бы достичь паритета с текущими LLM, при этом всегда будет большой риск ошибиться и выкинуть миллиарды в трубу.
+Why can't the big players make a pivot?
 
-Поэтому пока пределы оптимизации текущего железа и архитектуры LLM не будут исчерпаны прям полностью, в поиск альтернатив существенных денег вкладываться не будет. А до исчерпания направлений оптимизации ещё как до луны.
+The contemporary LLM technologies are already making them money, huge budgets are spent on their optimization, and the further optimization and profit from it are predictable, even if they don't promise explosive growth. Any new technology will require comparable investments in optimization just to reach parity with current LLMs, while always carrying a significant risk of failure and wasting billions.
 
-За примером ходить далеко не надо — взять те же видеокарты и параллельные вычисления.
+The same is true for technologies built on top of LLMs that use them as basic components — the search space for successful solutions is too vast, and the solution may require tuning LLMs in a new direction, which could be orthogonal or even opposite to the current one.
 
-Утрируя:
+That's why, until the limits of optimization of current hardware and LLM architectures are fully exhausted, significant money won't be invested in searching for alternatives. And we are still far from exhausting the optimization opportunities.
 
-- Было ли всегда очевидно что массовые параллельные вычисления — это мощная и нужна штука? Конечно!
-- Строили ли дорогие суперкомпьютеры на существующих технологиях, которые пытались в параллельные вычисления? Да!
-- Разрабатывали ли архитектуры для параллельных вычислений? Десятилетиями!
-- Но первое массовое по объёмам поставок железо с массовым параллелизмом появилось в узких нишах: для компьютерных игр, сложного рендера и науки. Потому, что именно в этих отраслях без него было вообще никуда. Только когда практика подтвердила правильность и верность пути, а сама технология тихонько преодолела детские болезни, началась её массовое внедрение. Например, браузеры начали использовать GPU при рендере примерно в 2010-ых.
-- Была ли теоретическая возможность вложить больше миллиардов в разработку «видюх», чтобы получить сопоставимый результат на годы раньше через масштабирование R&D? Была, но только никому не нужен был подобный риск, когда всё и так работало и было множество направлений для более безопасного инвестирования в прогресс и прибыль.
+Let's don’t look far for an example — take GPUs and parallel computing.
 
-С LLM сейчас то же самое происходит. Пока мы не переварим все возможности, которые они для нас открыли, появление чего-то более мощного возможно скорее ввиду счастливой случайности, чем в силу целенаправленных усилий.
+Simplifying:
+
+- Was it always obvious that mass parallel computing is a powerful and necessary thing? Of course!
+- Did we build expensive supercomputers on existing technologies that tried parallel computing? Yes!
+- Did we develop architectures for parallel computing? For decades!
+- But the first mass-produced hardware with mass parallelism appeared in narrow niches: for computer games, complex rendering, and science. Because only in these fields it was absolutely necessary. Only when practice confirmed the correctness and validity of the path, and the technology itself quietly overcame its childhood diseases, did mass adoption begin. For example, browsers started using GPUs for rendering only around 2010.
+- Was there a theoretical possibility to invest more billions in the development of "video cards" to achieve comparable results years earlier through scaling R&D? Yes, but no one wanted to take such a risk (besides NVIDIA?) when everything was already working fine, and there were many safer directions for investing in progress and profit.
+
+The same is happening with LLMs right now. Until we fully digest all the possibilities they have opened for us, the emergence of something more powerful is likely to happen by chance rather than through deliberate efforts.
