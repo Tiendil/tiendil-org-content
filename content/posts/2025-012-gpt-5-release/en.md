@@ -47,7 +47,7 @@ Global projects like Stargate will not affect the situation to the extent their 
 - training and hiring specialists;
 - launching high-risk experiments;
 
-Если с первым всё почти нормально (хайп помогает, через 5-10 лет у нас будет много молодых спецов), то со вторым — нет. Текущие лидеры стали слишком крупными и зависимыми от инвесторов (на западе) и государства (в Китае) — они не в состоянии рисковать. Ни OpenAI, ни Google, ни Meta сейчас не могут сделать резкий разворот в пользу какой-либо технологии альтернативной текущим LLM, какой-бы перспективной она ни была. Чтобы случился следующий этап взрывного роста (который рано или поздно случится и может таки приведёт к сильному ИИ) нужна «ещё одна OpenAI».
+The first point is more or less fine (the hype helps, and in 5–10 years we'll have plenty of young specialists), but the second one isn't. The current leaders have grown too big and too dependent on investors (in the West) and the state (in China) — they simply can't take risks. Neither OpenAI, nor Google, nor Meta can now make a sharp pivot toward any technology that is architecturally alternative to today's LLMs, no matter how promising it might be. For the next phase of explosive growth — which will come sooner or later, and may even lead to strong AI — we need "yet another OpenAI".
 
 Почему крупные игроки не могут сделать разворот. Текущие технологии LLM уже приносят им деньги, в их оптимизацию залиты огромные бюджеты и их дальнейшая оптимизация и профит от неё предсказуемы, хоть и не обещают взрывного роста. Любая новая технология потребует сопоставимых вложений в оптимизацию, чтобы хотя бы достичь паритета с текущими LLM, при этом всегда будет большой риск ошибиться и выкинуть миллиарды в трубу.
 
