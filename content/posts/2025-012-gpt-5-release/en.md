@@ -1,26 +1,28 @@
 ---
-title = "Саммари презентации GPT-5 без маркетинговой мишуры"
+title = "Summary of GPT-5 presentation without marketing pixie dust"
 tags = [ "practice", "theory", "futurology", "neural-networks"]
 published_at = "2025-08-08T12:00:00+00:00"
-seo_description = "Саммари презентации GPT-5 без маркетинговой мишуры — прогресс замедляется."
+seo_description = "Summary of GPT-5 presentation without marketing pixie dust — progress is slowing down."
 seo_image = "./lie-1.jpg"
 ---
 
 /// brigid-images
-caption = """Кто считает, что это случайность, пусть первым бросит в меня камень.
+caption = """Let he who thinks this is a coincidence cast the first stone at me.
 
-Если что, в том же научном сообществе разбирательство по поводу таких графиков может дойти вплоть до остракизма авторов. Но это ж бизнес, маркетинг — все так делают, правда?
+For the record, in the scientific community, disputes over such plots can go as far as ostracizing the authors. But this is business, marketing — so it's fine, right?
 """
 
 [[images]]
 src = "./lie-1.jpg"
-alt = "«Случайно» увеличили один из столбцов на графике в два раза."
+alt = """Someone "accidentally" doubled one of the bars in the chart."""
 
 [[images]]
 src = "./lie-2.jpg"
 alt = "«Случайно» уменьшили один из столбцов на графике раза в три."
+alt = """Someone "accidentally" reduced one of the bars in the chart by about three times."""
 ///
 
+1.
 1. Сеть стала, в среднем, немного (на проценты) умнее.
 2. В некоторых аспектах сеть стала значительно умнее (на десятки процентов).
 3. В некоторых аспектах сеть стала глупее(!).
