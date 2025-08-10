@@ -1,7 +1,7 @@
 ---
 title = "Aliaksei Yaletski"
 published_at = "0001-01-01T00:00:00+00:00"
-template = "article_wide.html.j2"
+template = "theme/article_wide.html.j2"
 seo_description = "A few words about me."
 seo_image = "images/new_avatar_very_small.jpg"
 ---
