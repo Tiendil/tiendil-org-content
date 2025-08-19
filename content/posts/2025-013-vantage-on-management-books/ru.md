@@ -83,11 +83,17 @@ tag = "vantage-on-management"
 
 В итоге, не смотря на то, что все книги хороши, во время чтения я периодически громко ругался и бил себя рукой по лбу.
 
-## Esential scrum (2013)
+## Essential scrum (2013)
 
-<!-- TODO: add book cover -->
+/// brigid-images
+galery_class = "brigid-images-to-left brigid-images-1/4"
+src = "./cover-essential-scrum.jpg"
+alt = "Обложка Essential Scrum"
+///
 
-Детальный рабор Scrum с картинками: «с нуля до скрам мастера».
+Детальный разбор [Scrum](https://ru.wikipedia.org/wiki/Scrum) с картинками: «с нуля до скрам мастера».
+
+Автор — [Ken Rubin](https://innolution.com/essential-scrum/about-the-author) — консультант с 1980-ых; технический бэкграунд в [Smalltalk](https://ru.wikipedia.org/wiki/Smalltalk) и [ООП](https://ru.wikipedia.org/wiki/Объектно-ориентированное_программирование); большой опыт на руководящих позициях и в предпринемательской деятельности. Один из пионеров Scrum.
 
 ### Книга полезна когда
 
