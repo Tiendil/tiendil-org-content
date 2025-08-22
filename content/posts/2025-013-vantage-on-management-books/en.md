@@ -102,30 +102,30 @@ In the end, even though all the books are good, I still found myself swearing ou
 /// brigid-images
 galery_class = "brigid-images-to-left brigid-images-1/4"
 src = "./cover-essential-scrum.jpg"
-alt = "Обложка «Essential Scrum»"
+alt = "Cover of \"Essential Scrum\""
 ///
 
-Детальный разбор [Scrum](https://ru.wikipedia.org/wiki/Scrum) с картинками: «с нуля до Scrum-мастера».
+A detailed explanation of [Scrum](https://en.wikipedia.org/wiki/Scrum) with pictures: "from scratch to Scrum Master".
 
-Автор — [Ken Rubin](https://innolution.com/essential-scrum/about-the-author) — консультант и тренер с 1980-х; технический бэкграунд в [Smalltalk](https://ru.wikipedia.org/wiki/Smalltalk) и [ООП](https://ru.wikipedia.org/wiki/Объектно-ориентированное_программирование); большой опыт на руководящих позициях и в предпринимательской деятельности. Один из пионеров Scrum.
+The author — [Ken Rubin](https://innolution.com/essential-scrum/about-the-author) — a consultant and trainer since the 1980s; has a technical background in [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) and [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming); has extensive experience in management positions and entrepreneurship. One of the pioneers of Scrum.
 
-### Книга полезна, когда
+### The book is useful when
 
-- Вы интересуетесь историей.
-- У вас на работе полная жесть и необходимо быстро внедрить что-то рабочее, стандартизированное и понятное всем.
-- У вас на работе было всё хорошо, но потом пришёл человек с горящими глазами и начал внедрять «идиоматический и единственно верный вариант Scrum», и вам срочно надо начать разговаривать с этим человеком на одном языке, чтобы остановить или поддержать безумие.
-- Вы любите заставлять людей страдать, но работать по водопаду вам не разрешают.
-- Вы — аутсорс — и заказчик ничего, кроме Scrum, не понимает.
+- You're interested in history.
+- Your organization is in a total mess, and you need to quickly roll out something that works, standardized, and understandable.
+- Things were fine until someone with shining eyes showed up and started pushing the "idiomatic and only true version of Scrum", and you suddenly need to speak the same language to either stop or support the madness.
+- You enjoy making people suffer, but you're not allowed to use [Waterfall](https://en.wikipedia.org/wiki/Waterfall_model) anymore.
+- You are an outsourcer, and the client understands nothing but Scrum.
 
-### Заметки
+### Notes
 
-Концепция Scrum возникла около 1986 — это по сути мой ровесник. Вещь хорошая, но в чистом виде уже устарела.
+The concept of Scrum dates back to around 1986 — basically, it's my peer. It's a good thing, but in its pure form it's already outdated.
 
-В начале книги её хвалят за понятность и лаконичность картинок. На мой взгляд, стиль «псевдо-3D с рюшечками, градиентами и шрифтом курсив-от-руки» очень далёк от лаконичности, но хорошо намекает на исторический контекст и целевую аудиторию.
+At the beginning of the book, the author praises the clarity and conciseness of the illustrations. In my opinion, the "pseudo-3D with frills, gradients, and handwritten italics" style is very far from conciseness, but it does hint at the historical context and target audience.
 
-В книге автор указывает, что многие смотрят на Scrum как на модифицированный водопад для нового времени, и утверждает, что это не так. Но, учитывая фокус и манеру подачи материала, я бы сказал, что это как раз и есть водопад, модифицированный под быструю обратную связь. То есть не вся концепция Scrum, а именно конкретный Scrum из книги.
+The author points a lot of people look at Scrum as a modified Waterfall for the new age, and claims that this is not the case. However, given the focus of the book and manner of presentation, I would say that this is exactly as it is — a Waterfall modified for quick feedback. I mean not the entire Scrum concept, but the specific Scrum from the book.
 
-Во время чтения этой книги я чуть лоб себе рукой не разбил, столько раз ладонь в него влетала.
+While reading this book, I almost broke my forehead from all the facepalms.
 
 ## Succeeding with Agile (2010)
 
