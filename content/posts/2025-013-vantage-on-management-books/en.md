@@ -36,13 +36,13 @@ So, let's get started.
 
 <!-- more -->
 
-## Примечания
+## Notes
 
-Я организовал чтение в историческом порядке: от более базовых и древних концепций к более новым и продвинутым. Примерно в таком же порядке книги идут в этом посте. Конечно, это условная сортировка — книги так или иначе пересекаются по идеям и по времени — все они вышли за последние лет 20.
+I organized my reading in historical order: from more basic and older concepts to newer and more advanced ones. The books in this post are listed roughly in the same sequence. Of course, this sorting is only approximate — the books overlap in ideas, as they were all published within the last 20 years.
 
-Также хочу напомнить, что любая именованная штука — Scrum, Kanban, бирюзовость, Humanocracy, etc. — это, де-факто, [мемплекс]{post:genes-memes-memeplexes} — набор атомарных практик и идей, которые для удобства объединили в группу. То, что для кого-то именно этот набор оказался удачным, не означает, что тот же набор окажется удачным для вас.
+I also want to remind you that any named thing — Scrum, Kanban, Teal organization, Humanocracy, etc. — is, de facto, a [memeplex]{post:@choose-nearest-language:genes-memes-memeplexes} — a set of atomic practices and ideas that have been grouped together for convenience. Just because this particular set has worked well for someone doesn't mean it will work well for you.
 
-Изучать подобные именованные наборы практик необходимо не для того, чтобы бездумно их внедрять, а для того, чтобы разобрать их на атомарные составляющие, понять, как они взаимодействуют между собой и, пользуясь этими знаниями, собрать свой собственный уникальный набор практик для своего коллектива.
+We should study such named sets of practices not to mindlessly follow them, but to break them down into atomic practices, understand how they interact with each other, and use this knowledge to assemble our own unique set of practices for our team/organization.
 
 ## Общие недостатки
 
