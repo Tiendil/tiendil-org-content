@@ -71,29 +71,31 @@ Much of the attention in the books is often given to large companies and large p
 
 The older the book, the more it is steeped in, let's say, caricatured masculinity. I used to think that all those baseball, sports, cars, and survivalist analogies were just a relic of the 1980s and of pseudo–improvement courses. But apparently not — authors still use those analogues, which means the target audience for management books is responsive to them.
 
-Во-вторых, большинство книг — не только учебники, но и агитки конкретных практик. Это значит, что в них больше времени уделено позитивным примерам; негативные сценарии рассматриваются меньше, абстрактно и не так глубоко.
+**Second**, most books are not just textbooks, but also manifestos of specific practices. Thus, most of the place is devoted to positive examples; negative scenarios are discussed less, abstractly, and not as deeply.
 
-В то же время мы помним, что все счастливые семьи счастливы одинаково, а каждая несчастная семья несчастлива по-своему. Поэтому **главная проблема любого коллектива не в том, как сделать правильно, а в том, как определить и переработать свою  уникальную неправильность**. Именно на глубокие разборы негативных сценариев я надеялся перед началом чтения, именно их я почти не встретил.
+At the same time, we remember that "all happy families are alike; while each unhappy family is unhappy in its own way". So, **the primary problem of any collective is not how to do things "right," but how to identify and work through its own unique wrongness**. That's why, when I started reading, I hoped to find deep dives into negative scenarios; instead, I almost did not find them.
 
-Все книги, которые в центр ставили мемплекс — набор практик, идут по тонкой грани между перечнем полезных инструментов и карго культом. Соответственно, у меня есть непроверяемое предположение, что большинство людей, которые этими наборами пользуются, не понимают, почему эти наборы такие, какие они есть и как они работают.
+All the books that focus on a memeplex — a set of practices — walk a fine line between a list of useful tools and cargo cult. Accordingly, I have an untestable
 
-/// hint | Многие авторы мотивированы монетизацией себя
-Можно обратить внимание, что большинство авторов книг из поста работают консультантами, иногда даже имеют собственные консалтинговые компании.
+All the books that focus on the memeplex — a set of practices —  walk a fine line between a list of useful tools and a [cargo cult](https://en.wikipedia.org/wiki/Cargo_cult). Accordingly, I have an unprovable suspicion that most people who use these sets don't really understand why they are the way they are or how they actually work.
 
-Это значит, что выпуск книги для них — это не только способ поделиться опытом, но и продвижение своего бренда, и возможность продать услуги.
+/// hint | Most of the authors are motivated by self-monetization
+One may notice that most of the books' authors in this post work as consultants, and some even have their own consulting companies.
 
-Поэтому содержимое книг неизбежно будет искажено. Я думаю, что перекос в сторону положительных примеров и практик, против разбора возможных негативных сценариев, связан именно с этим.
+This means that, for them, publishing a book is not only a way to share their experience, but also a means of promoting their brand and selling services.
 
-Имейте это в виду, когда будете читать книги. В целом, всегда лучше помнить о мотивации человека, который вас в чём-то убеждает.
+Therefore, the content of the books will inevitably be biased. I think the bias towards positive examples and practices, as opposed to analyzing possible negative scenarios, is related to this nuance.
+
+Please, keep this in mind while reading the books. In general, it's always better to take in account the motivation of the person who is trying to convince you of something.
 ///
 
-В-третьих, почему-то все очень упорно стремятся выводить менеджерские практики из практик управления на заводах, особенно на японских, особенно из управления цехами и конвейерами, а не, для примера, из работы инженерных бюро и научных коллективов. Я этот подход в крайней степени не разделяю и не одобряю, особенно для нашего времени, особенно для разработки ПО.
+**Third**, for some reason everyone strives to derive modern management practices from the history of management in factories, especially from Japanese ones, and especially from shop floors and assembly lines, rather than, for example, from the work of engineering offices or research/science teams. I fundamentally disagree with and disapprove of this approach, particularly in our time and especially when it comes to software development.
 
-В одном из следующих постов я остановлюсь именно на большей близости инженерных коллективов к научным, чем к производственным, и на том, что это означает для менеджмента.
+In one of the upcoming posts, I'll focus on how engineering teams are closer in nature to scientific ones than to production units — and what that means for management.
 
-В-четвёртых, особенностям разработки ПО в книгах тоже уделяется мало внимания (кроме Scrum/Kanban, конечно), поэтому переносить практики в IT-сектор надо осторожно, с учётом его специфики.
+**Fourth**, the books pay little attention to the peculiarities of software development (except for Scrum/Kanban, of course), described practices should be transferred to the IT sector with caution, taking into account its specifics.
 
-В итоге, несмотря на то, что все книги хороши, во время чтения я периодически громко ругался и бил себя рукой по лбу.
+In the end, even though all the books are good, I still found myself swearing out loud and facepalming from time to time while reading them.
 
 ## Essential Scrum (2013)
 
