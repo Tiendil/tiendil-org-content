@@ -52,19 +52,19 @@ First, most of these books are written by managers for managers. Sometimes even 
 
 The practical problems of frontline workers are touched on only lightly and superficially, as are the issues of their interaction with managers and the described practices. Instead, the focus often shifts to how managers and businesses interact with each other and with teams as a whole — essentially, on how to make things more convenient for the managers themselves. This is especially true of books that conceptually precede the "teal organizations." The gap between managers and frontline employees sometimes shows through quite starkly, and I'm not even sure the authors — or a significant part of their intended audience — notice it. At times this leads to rather questionable claims from a practical standpoint.
 
-/// note | На примере пользовательских историй
+/// note | On the example of User Stories
 
-Не всегда, но часто планирование изменений продукта происходит в терминах [User Story](https://en.wikipedia.org/wiki/User_story).
+Not always, but often, we plan product changes in terms of [User Stories](https://en.wikipedia.org/wiki/User_story).
 
-Для «бизнеса» User Story — это атомы работы, он «не видит» реальных задач, на которые они распадаются у программистов, так как они для него бессмысленны.
+For "business", a User Story is an atom of work; they "don't see" the practical tasks a User Story breaks down into for programmers, as those tasks are meaningless to the business.
 
-Для «разработки» же User Story часто — это целый фронт работ из множества конкретных атомарных задач — единиц реального изменения продукта.
+At the same time, for "development", a User Story may be a whole front of work consisting of many specific atomic tasks — units of real product change.
 
-В контексте разработки, для условных программистов, каждая такая атомарная задача имеет такую же семантику, что User Story для бизнеса.
+In the context of development, from a programmer's perspective, each such atomic task has the same semantics as a User Story for the business.
 
-Это различие в контексте и семантике буквально вечный камень раздора — я не встречал команд, в которых по этому поводу был бы полный консенсус и у разработки не было вопросов что есть что.
+This distinction in context and semantics is literally an eternal petra scandalis — I have never encountered a team with a complete consensus on the matter, and where the developers had no questions about types of tasks.
 
-Ни в одной из книг это различие в восприятии работы не рассматривалось — все они описывают ситуации на 1-2 уровня абстракции вверх.
+However, no book covers this or similar distinctions in work perception — they all describe situations at 1-2 levels of abstraction above.
 ///
 
 Большая часть внимания в книгах часто уделена крупным компаниям и крупным проектам. Это не всегда плохо, но это всегда надо иметь в виду. У компаний размером в 10, 100, 1000 и 10000 человек совсем разные проблемы и совсем разные критерии успешности их решения.
