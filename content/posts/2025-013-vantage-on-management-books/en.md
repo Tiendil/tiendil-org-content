@@ -48,7 +48,7 @@ We should study such named sets of practices not to mindlessly follow them, but 
 
 Despite the differences in authors, topics, and time of publication, the books share a number of common traits — not all of them positive.
 
-First, most of these books are written by managers for managers. Sometimes even by consultants for top managers. This leaves its mark on both the style of writing and the topics they choose to cover.
+**First**, most of these books are written by managers for managers. Sometimes even by consultants for top managers. This leaves its mark on both the style of writing and the topics they choose to cover.
 
 The practical problems of frontline workers are touched on only lightly and superficially, as are the issues of their interaction with managers and the described practices. Instead, the focus often shifts to how managers and businesses interact with each other and with teams as a whole — essentially, on how to make things more convenient for the managers themselves. This is especially true of books that conceptually precede the "teal organizations." The gap between managers and frontline employees sometimes shows through quite starkly, and I'm not even sure the authors — or a significant part of their intended audience — notice it. At times this leads to rather questionable claims from a practical standpoint.
 
@@ -67,9 +67,9 @@ This distinction in context and semantics is literally an eternal petra scandali
 However, no book covers this or similar distinctions in work perception — they all describe situations at 1-2 levels of abstraction above.
 ///
 
-Большая часть внимания в книгах часто уделена крупным компаниям и крупным проектам. Это не всегда плохо, но это всегда надо иметь в виду. У компаний размером в 10, 100, 1000 и 10000 человек совсем разные проблемы и совсем разные критерии успешности их решения.
+Much of the attention in the books is often given to large companies and large projects. This isn't always a bad thing, but it's something you should always keep in mind. Companies with 10, 100, 1000, or 10000 employees face very different problems and have very different criteria for what counts as a successful solution.
 
-Чем старше книга, тем больше в ней, как бы это сказать, карикатурной маскулинности. Я раньше думал, что все эти аналогии с бейсболом, спортом, машинами, выживачём — это привет из 1980-х и из псевдо-курсов саморазвития. Но, похоже, нет, целевая аудитория менеджментских книг за последние лет 20 всё ещё живёт в этой парадигме.
+The older the book, the more it is steeped in, let's say, caricatured masculinity. I used to think that all those baseball, sports, cars, and survivalist analogies were just a relic of the 1980s and of pseudo–improvement courses. But apparently not — authors still use those analogues, which means the target audience for management books is responsive to them.
 
 Во-вторых, большинство книг — не только учебники, но и агитки конкретных практик. Это значит, что в них больше времени уделено позитивным примерам; негативные сценарии рассматриваются меньше, абстрактно и не так глубоко.
 
