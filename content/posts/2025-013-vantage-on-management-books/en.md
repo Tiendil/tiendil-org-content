@@ -44,13 +44,13 @@ I also want to remind you that any named thing — Scrum, Kanban, Teal organizat
 
 We should study such named sets of practices not to mindlessly follow them, but to break them down into atomic practices, understand how they interact with each other, and use this knowledge to assemble our own unique set of practices for our team/organization.
 
-## Общие недостатки
+## Common Drawbacks
 
-Несмотря на различие в авторах, темах и времени издания, у книг есть ряд общих черт, не все из которых я бы назвал положительными.
+Despite the differences in authors, topics, and time of publication, the books share a number of common traits — not all of them positive.
 
-Во-первых, большинство книг написано менеджерами для менеджеров. Иногда даже консультантами для топ-менеджеров. Это накладывает отпечаток на стиль изложения и на затрагиваемые темы.
+First, most of these books are written by managers for managers. Sometimes even by consultants for top managers. This leaves its mark on both the style of writing and the topics they choose to cover.
 
-Практические проблемы работников руками затрагиваются мало и поверхностно, как и проблемы их взаимодействия с менеджерами и описываемыми практиками. Фокус часто идёт на то, как управленцы и бизнес взаимодействуют друг с другом и с рабочими командами как единым целым — на то, как управленцам делать это удобно для себя. Особенно это касается книг, которые концептуально находятся до бирюзовых организаций. Этот разрыв между управленцами и исполнителями местами проступает очень явно, и я даже не уверен, что авторы книг или существенная часть их целевой аудитории его замечает. Иногда это приводит к довольно спорным, с точки зрения практики, утверждениям.
+The practical problems of frontline workers are touched on only lightly and superficially, as are the issues of their interaction with managers and the described practices. Instead, the focus often shifts to how managers and businesses interact with each other and with teams as a whole — essentially, on how to make things more convenient for the managers themselves. This is especially true of books that conceptually precede the "teal organizations." The gap between managers and frontline employees sometimes shows through quite starkly, and I'm not even sure the authors — or a significant part of their intended audience — notice it. At times this leads to rather questionable claims from a practical standpoint.
 
 /// note | На примере пользовательских историй
 
