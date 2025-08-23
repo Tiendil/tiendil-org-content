@@ -244,28 +244,28 @@ The author — Frederic Laloux — is a consultant and coach, besides that, I co
 
 ### Notes
 
-**Автор провёл исследование и построил последовательную теорию на его основе.** Нельзя утверждать, что эта теория детальна или полностью верна, но уже сам факт подобной работы заметно выделяет книгу и ряда прочих.
+**The author conducted research and built a coherent theory on its basis.** One cannot claim that this theory is detailed enough or completely correct, but the very fact of such work makes the book stand out from many others.
 
-Frederic Laloux вводит классификацию организаций по фокусу управления, целям и уровню доверия. После чего показывает, как в ходе истории человечества эти организации эволюционировали от «красных» (авторитарных) к «бирюзовым» (самоуправляемым). После чего на реальных примерах описывает, как устроены бирюзовые организации, переход к которым только-только начался.
+Frederic Laloux introduces a classification of organizations based on management focus, goals, and level of trust. He then shows how, throughout human history, organizations have evolved from "red" (authoritarian) to "teal" (self-managing). Finally, using real-life cases, he describes how today's frontier organizations — the teal ones — operate, noting that they are only just beginning to emerge.
 
-Поскольку «бирюзовые» организации только начинают появляться, то автор явно указывает, что книга не может быть учебником — никто не знает, как правильно делать.
+Since teal organizations are only beginning to emerge, the author points out that the book cannot serve as a textbook — no one really knows how to cook teal organizations properly.
 
-И если меня когда-нибудь попросят привести пример самого неудачного именования в истории человечества, то я приведу цветовую классификацию организаций из этой книги. Для меня, как и для многих, я думаю, «художественное» название категорий вместо «качественного» — это огромный красный флаг. По этой причине я годы обходил Reinventing Organizations стороной — ну какой профи в здравом уме будет делить организации по цветам? Оказалось, некоторые будут :-D
+And if I'm ever asked to name the most unfortunate labeling in human history, I'd point to the color classification of organizations from this book. For me — and, I suspect, for a lot of others — a "poetic" naming of categories instead of a "qualitative" one is a huge red flag. For this reason, I avoided Reinventing Organizations for years — I mean, what professional in their right mind would classify organizations by colors? Turns out, some do :-D
 
-Чтобы не было недопонимания, автор явно указывает, что:
+To avoid misunderstandings, the author explicitly states that:
 
-- Некорректно утверждать, что такая-то организация имеет чистый Х цвет — всегда происходит смешение цветов.
-- Хотя типы организаций появлялись со временем, полного замещения не идёт. Всегда существуют организации всех цветов. Некоторые ниши требуют более «примитивной» организации; другие не оказывают достаточного давления  для перехода к более сложной организации.
+- It is incorrect to claim that a certain organization has a pure color X — there is always a mix of colors.
+- Though the new types of organizations emerge with time, new ones do not completely replace the old ones. Organizations of all colors always coexist. Some niches require a more "primitive" approach; others do not exert enough pressure to transition to a more complex structure.
 
-То есть автор выступает скорее с позиции мотивированного исследователя, чем догматичного агитатора.
+In other words, the author speaks more from the position of a motivated researcher than a dogmatic propagandist.
 
-В книге разбирается 11.5 организаций, размером от 90 до 40000 человек, возрастом от полувека до 5-10 лет. Истории организаций и описанные практики интересны даже без учёта их бирюзовости, поэтому почитать будет полезно даже если вы не заинтересованы в цветовой дифференциации штанов.
+The book explores 11.5 organizations, ranging in size from 90 to 40000 people, and ages from half a century to 5-10 years. The stories of these organizations and the practices described are interesting even without considering their "tealness," so the book will be useful even if you're not interested in the color-coded pants differentiation.
 
-Кстати, ни одна из исследованных организаций не является собственностью работников. То есть права собственности и стиль управления — это ортогональные вещи — коммунизмом и не пахнет.
+By the way, none of the organizations studied are owned by their employees. In other words, ownership rights and management style are orthogonal things.
 
-По мнению автора, оба предположения: «все работники ленивые глупые лжецы и воры» и «все работники инициативные умные и ответственные специалисты» — самоисполняющиеся пророчества. Как менеджмент смотрит на людей, так они и ведут себя. Полностью с этим солидарен.
+Author claims that both statements: "all employees are lazy, stupid liars and thieves" and "all employees are proactive, smart, and responsible specialists" are self-fulfilling prophecies. How management views people is how they behave. I fully agree with this.
 
-Frederic Laloux часто упоминает отсутствие политических интриг и прочего негатива в бирюзовых организациях. На мой взгляд, это может быть не только признаком успешности концепции, но и ошибкой выжившего или следствием малой распространнённости модели — в такие организации могут попадать более мотивированные и зрелые люди, чем в среднем по планете.
+Also, Frederic Laloux often mentions the absence of political intrigue and other negativity in teal organizations. In my view, this may have various explanations: from a sign of the success of the tial concept to the survivor bias or the result of the small spread of the model — in the current state of the world, such organizations may attract more motivated and mature people than the average on the planet.
 
 /// note | Мой опыт «бирюзовости»
 
