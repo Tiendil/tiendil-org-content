@@ -107,7 +107,7 @@ alt = "Cover of \"Essential Scrum\""
 
 A detailed explanation of [Scrum](https://en.wikipedia.org/wiki/Scrum) with pictures: "from scratch to Scrum Master".
 
-The author — [Ken Rubin](https://innolution.com/essential-scrum/about-the-author) — a consultant and trainer since the 1980s; has a technical background in [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) and [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming); has extensive experience in management positions and entrepreneurship. One of the pioneers of Scrum.
+The author — [Ken Rubin](https://innolution.com/essential-scrum/about-the-author) — a consultant and coach since the 1980s; has a technical background in [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) and [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming); has extensive experience in management positions and entrepreneurship. One of the pioneers of Scrum.
 
 ### The book is useful when
 
@@ -135,16 +135,16 @@ src = "./cover-succeeding-with-agile.jpg"
 alt = "Обложка «Succeeding with Agile»"
 ///
 
-Книга о том, как менеджеру жить со Scrum или внедрять Scrum. Можно распространить на прочий Agile, при условии осмысленной корректировки идей из книги.
+The book is about how a manager can live with Scrum or implement Scrum. Its ideas can be applied to other Agile methodologies, provided you thoughtfully adjust those ideas to your specific circumstances.
 
-Автор — [Mike Cohn](https://en.wikipedia.org/wiki/Mike_Cohn) — консультант и тренер с 1990-х; бэкграунд в [С](https://ru.wikipedia.org/wiki/Си_(язык_программирования)) и [C++](https://ru.wikipedia.org/wiki/C%2B%2B); основатель консультационного агентства, которое занимается внедрением Agile и Scrum в компаниях. Один из пионеров Scrum.
+The author — [Mike Cohn](https://en.wikipedia.org/wiki/Mike_Cohn) — a consultant and coach since the 1990s; has a background in [C](https://en.wikipedia.org/wiki/C_(programming_language)) and [C++](https://en.wikipedia.org/wiki/C%2B%2B); founder of a consulting agency that implements Agile and Scrum in companies. One of the pioneers of Scrum.
 
-### Книга полезна, когда
+### The book is useful when
 
-- Вы живёте со Scrum или чем-то похожим и вам надо как-то разруливать рабочие вопросы. В основном среди менеджеров.
-- Вы живёте со Scrum или чем-то похожим и хотите улучшить процессы, но не знаете с чего начать.
+- You already use Scrum or something similar and need to sort out work issues, mostly among managers.
+- You already use Scrum or something similar and want to improve processes, but don't know where to start.
 
-### Заметки
+### Notes
 
 Респект за то, что автор явно отметил, что все мемплексы, которые продают в книгах и на курсах, это не руководство к действию, а образец, который надо гнуть под себя и свои конкретные обстоятельства.
 
