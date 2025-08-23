@@ -132,7 +132,7 @@ While reading this book, I almost broke my forehead from all the facepalms.
 /// brigid-images
 galery_class = "brigid-images-to-left brigid-images-1/4"
 src = "./cover-succeeding-with-agile.jpg"
-alt = "Обложка «Succeeding with Agile»"
+alt = "Cover of \"Succeeding with Agile\""
 ///
 
 The book is about how a manager can live with Scrum or implement Scrum. Its ideas can be applied to other Agile methodologies, provided you thoughtfully adjust those ideas to your specific circumstances.
@@ -146,11 +146,11 @@ The author — [Mike Cohn](https://en.wikipedia.org/wiki/Mike_Cohn) — a consu
 
 ### Notes
 
-Респект за то, что автор явно отметил, что все мемплексы, которые продают в книгах и на курсах, это не руководство к действию, а образец, который надо гнуть под себя и свои конкретные обстоятельства.
+Respect to the author for clearly pointing out that all memplexes from books and courses are not a guide to action, but a template that one should bent to fit their own specific needs.
 
-Для пилотного проекта по внедрению Scrum автор предлагает брать проект, размер которого не превышает 5 команд :-D Поэтому рискну предположить, что если у вас меньше 5 команд в компании, то можно и не чесаться по поводу внедрения Scrum :-D
+**For a pilot Scrum project, the author suggests taking a project not larger than 5 teams :-D** So I dare to assume that if you have fewer than 5 teams in your company, you probably don’t need to bother with Scrum at all :-D
 
-Под разными соусами в книге проталкивается идея, что надо «встряхивать» команду периодически. Теперь-то понятно, по какой методологии работает власть в Беларуси.
+The book pushes, in various guises, the idea that you need to "jolt" the team from time to time. Now it's clear which methodology the Belarusian government works with (local humor).
 
 ## Kanban (2010)
 
