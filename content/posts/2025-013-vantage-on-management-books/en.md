@@ -193,31 +193,31 @@ At the beginning of the book, the author states that Kanban is about processes a
 /// brigid-images
 galery_class = "brigid-images-to-left brigid-images-1/4"
 src = "./cover-the-lean-startup.jpg"
-alt = "Обложка «The Lean Startup»"
+alt = "The cover of \"The Lean Startup\""
 ///
 
-Как запускать [цикл обратной связи]{post:hypothesis-testing-loop} на примере стартапов.
+How to kick off a [feedback loop]{post:hypothesis-testing-loop} on the example of startups.
 
-Автор — [Eric Ries](https://en.wikipedia.org/wiki/Eric_Ries) — опытный стартапер, начинавший по технической траектории.
+The author — [Eric Ries](https://en.wikipedia.org/wiki/Eric_Ries) — is an experienced startup founder who started out on a technical path.
 
-### Книга полезна, когда
+### The book is useful when
 
-- Всегда. The Lean Startup надо бы выдавать каждому лет в 20, чтобы казуально прояснить некоторые моменты нашего взаимодействия со вселенной и помочь молодым предпринимателям избежать тривиальных ошибок.
-- Вы запускаете стартап, начинаете разработку нового продукта, или просто вписываетесь в какую-то авантюру.
-- У вас в компании/команде не знают что делать дальше, нет стратегии, вы не понимаете что происходит.
-- Вам необходимо действовать в условиях экстримальной неопределённости.
+- **Always**. We better gift The Lean Startup to every 20-year-old to casually clarify some aspects of our interaction with the universe and help young entrepreneurs avoid trivial mistakes.
+- You're launching a startup, starting a new product, or just getting involved in some venture.
+- Your company/team does not know what to do next, there is no strategy, you don't understand what's going on.
+- You need to act in conditions of extreme uncertainty.
 
-### Заметки
+### Notes
 
-Автор по технической траектории дорос до CTO, и это заметно (в отличие от других книг) по стилю изложения и фокусу.
+The author built his career on a technical track and rose to the position of CTO, which is evident in both the style of presentation and the focus (unlike in other books).
 
-В книге много примеров реальных бизнес-задач.
+The book contains many examples of real business cases.
 
-Сама книга про стартапы, и автор периодически указывает на их концептуальные отличия от более стабильных бизнесов. На мой взгляд, в наше время всё в той или иной степени является стартапом, поэтому книга будет полезна всем. Главное с умом выбирать абстракции.
+The book itself is about startups, and the author occasionally points out their conceptual differences from more established businesses. In my view, nowadays everything is a startup to some degree, so the book will be useful to everyone. The key is to choose abstractions wisely.
 
-В The Lean Startup изложена интересная концепция измерения прогресса через количество проверенных гипотез вместо количества денег, задач, клиентов или выпущенной продукции. Так как в условиях большой неопределённости не так важно с какой скоростью ты идёшь, как куда конкретно идёшь. Соответственно, жизнеспособность стартапа можно измерять в количестве радикальных поворотов (pivots), которые он ещё может сделать.
+The Lean Startup suggests an interesting concept of measuring progress through the number of validated hypotheses rather than the amount of money, tasks, clients, or unit delivered. In conditions of high uncertainty, it's not so important how fast you're moving, but where exactly you're heading. Accordingly, the viability of a startup can be measured by how many radical pivots it still can make.
 
-Если будете читать книгу, я бы предложил смотреть на её идеи как на сближение науки, инженерии и менеджмента.
+In case you plan to read the book, I suggest looking at its ideas through the lens of bridging science, engineering, and management.
 
 ## Reinventing Organizations (2014)
 
