@@ -224,25 +224,25 @@ In case you plan to read the book, I suggest looking at its ideas through the le
 /// brigid-images
 galery_class = "brigid-images-to-left brigid-images-1/4"
 src = "./cover-reinventing-organizations.jpg"
-alt = "Обложка «Reinventing Organizations»"
+alt = "The cover of \"Reinventing Organizations\""
 ///
 
-Как людям работать вместе **правильно**: эффективно, слаженно, без стресса и без страданий, когда все остаются довольны результатом. ~~А не так как у вас там в конторе работают.~~
+How people can work together **the right way**: effectively, smoothly, without stress and without suffering, when everyone satisfied with the result. ~~Not the way things are done at your office.~~
 
-Автор — Frederic Laloux — консультант и тренер, кроме этого ничего примечательного из биографии не нашёл, кроме этой крутой книги.
+The author — Frederic Laloux — is a consultant and coach, besides that, I couldn't find anything remarkable in his biography except for this cool book.
 
-### Книга полезна, когда
+### The book is useful when
 
-- Всегда. Чтобы знать, что работать можно по-другому. Особенно рекомендую сотрудникам на исполнительных ролях, чтобы видеть в какую сторону толкать менеджмент при возможности и осознанно выбирать место работы.
-- «Вы получили власть, которая и не снилась вашему отцу» (с), но хотите использовать её во благо коллективу и компании.
-- Вы достаточно авторитетны/влиятельны в коллективе, чтобы вести осмысленные разговоры о том, как работать лучше, но не уверены в какую сторону двигаться. Или вы планируете стать таким человеком ;-)
-- Вы верите в людей/коллег и вас корёжит от того, как во многих современных организациях в них не верят.
-- Текущая контора вынимает из вас душу и вы хотите её починить.
-- Вы интересуетесь самоорганизацией коллективов.
-- Вы интересуетесь практическими примерами нестандартных подходов к управлению.
-- Вы хотите расширить набор знакомых вам атомарных практик управления, добавив в него «неклассические».
+- **Always**. To know that there are other ways to work. I especially recommend it to people in frontline roles, so they can see which direction to push management when a chance arises and consciously choose where to work.
+- "You have gained power your father never dreamed of" (c), but you want to use it for the good of the team and the company.
+- You have enough authority/influence in the collective to initiate meaningful conversations about how to work better, but you're not sure which direction to take. Or you plan to become such a person ;-)
+- You believe in people/colleagues, and it makes you cringe to see how many modern organizations don't.
+- Your current place of work is draining your soul, and you want to fix it.
+- You are interested in self-organization.
+- You are interested in practical cases of non-standard management approaches.
+- You want to expand your set of atomic management practices by adding some "non-classical" ones.
 
-### Заметки
+### Notes
 
 **Автор провёл исследование и построил последовательную теорию на его основе.** Нельзя утверждать, что эта теория детальна или полностью верна, но уже сам факт подобной работы заметно выделяет книгу и ряда прочих.
 
