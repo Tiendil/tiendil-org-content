@@ -267,24 +267,24 @@ Author claims that both statements: "all employees are lazy, stupid liars and th
 
 Also, Frederic Laloux often mentions the absence of political intrigue and other negativity in teal organizations. In my view, this may have various explanations: from a sign of the success of the tial concept to the survivor bias or the result of the small spread of the model — in the current state of the world, such organizations may attract more motivated and mature people than the average on the planet.
 
-/// note | Мой опыт «бирюзовости»
+/// note | My tail experience
 
-Элементы «бирюзовости» сейчас стараются внедрять везде — в топовых стартапах и компаниях вы их точно найдёте. Ну и я, соответственно, пару раз видел, как это происходит. В моём случае это приходило всегда сверху и без глубоких объяснений — по инициативе высокого менеджмента. Поэтому успешно внедрялось только то, что было направлено на этот самый высокий менеджмент.
+Tealness is a popular concept these days — a lot of companies strive to implement at least some of its elements — you'll definitely spot them in top startups and IT companies. I've personally seen it happen a couple of times. In my experience, senior management always pushed it from the top, without any deep explanation. So in the end, only practices aimed at senior management itself actually took hold.
 
-Например, еженедельные/месячные собрания с видеотрансляцией на всю компанию действительно помогали увеличивать прозрачность. До тех пор, пока их не начинали абьюзить для внутреннего пиара команд/продуктов.
+For example, weekly/monthly meetings with video broadcasts to the whole company really helped increase transparency. Until people started abusing them for internal PR of teams/products.
 
-А вот практики, направленные на рядовых сотрудников не приживались. Если сказать «соберитесь в гильдию» или «давайте по пятницам все будем знакомиться и весело болтать друг с другом» и не объяснить зачем, не дать пример и не помочь с освобождением времени, то люди с реальными дедлайнами, распланированной работой и распланированным стрессом, конечно попробуют (из уважения), но в итоге всё заглохнет, так как мешает устоявшемуся (и работающему!) ритму.
+However practices aimed at frontline employees never took root. If you just say "form a guild" or "let's all hang out and chat cheerfully every Friday" without explaining why, without giving an example, and without helping free up time, then people with real deadlines, planned work, and scheduled stress will, of course, give it a try (out of respect), but in the end it all fizzles out because of interfering with the established (and working!) pace.
 
-Чтобы поменять ритм, надо менять культуру производства, демонстрировать преимущества нового подхода, желательно на собственном примере. Естественно, менеджмент сам это сделать не может, это должны делать обученные и мотивированные союзники снизу с авторитетом в командах. Ну или менеджмент, который вот прям руками работает — это возможно, но даётся тяжело — цените таких людей.
+To change the pace, you need to change the production culture, to demonstrate the benefits of the new approach, preferably on your own example. Naturally, management itself can't do this; it has to be done by trained and motivated allies from below who have authority within the teams. Or by managers who actually work hands-on — which is possible, but comes hard. Value such people.
 
-На прошлой работе я, не зная о концепции, на основании опыта и интуиции пытался двигать команду в сторону бирюзовости, и себя заодно. Не уверен, правда, кто кого сдвинул больше: я команду или команда меня :-D Могу отметить пару вещей:
+On my last job, not knowing about the concept, I tried to move the team towards tealness based on my experience and intuition, and myself along the way. I'm not sure who moved whom more: me the team or the team me :-D Based on this experience, I can note a couple of things:
 
-1. Временами было пипец как сложно, особенно в части передачи решений с персонального на коллективный уровень, особенно процессных решений. Сложно объяснять другим мотивацию, сложно контролировать себя, особенно, когда «знаешь как правильно делать».
-2. Это реально работает и команда начинает действовать как «живой организм» — без централизованного контроля. Скорость реакции на события заметно увеличивается. Только перед этим пришлось пройти через немного боли и страданий :-D
-3. Внедрение подобных практик без поддержки и/или понимания сверху сильно ограничено и сопряжено с большими тратами психологической энергии — очень легко выгореть, легко упереться в стену. Это и автор книги отмечает.
-4. Прочитай я Reinventing Organizations перед устройством на работу, было бы гораздо проще доносить свои идеи.
+1. At times, it was insanely difficult — especially when it came to transferring decisions from the personal to the collective level, particularly process-related ones. It's hard to explain your motivation to others, hard to keep yourself in check, especially when you "know the right way to do things".
+2. It really works, and the team starts to act like a "living organism" — without centralized control. The speed of response to events significantly increases. But to achieve this, everyone had to go through a bit of pain and suffering :-D
+3. Introducing such practices without support and/or understanding from the top is severely limited and correlated with high psychological costs — it's very easy to burn out, and easy to hit a wall. Frederic also notes this.
+4. If I had read Reinventing Organizations before, it would have been much easier to convey my ideas.
 
-В целом, изложенное в книге очень хорошо коррелирует с моим опытом и моей идеологией.
+Overall, the ideas presented in the book correlate very well with my experience and ideology.
 ///
 
 ## Humanocracy (2020)
