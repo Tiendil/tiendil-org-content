@@ -102,7 +102,7 @@ In the end, even though all the books are good, I still found myself swearing ou
 /// brigid-images
 galery_class = "brigid-images-to-left brigid-images-1/4"
 src = "./cover-essential-scrum.jpg"
-alt = "Cover of \"Essential Scrum\""
+alt = "The cover of \"Essential Scrum\""
 ///
 
 A detailed explanation of [Scrum](https://en.wikipedia.org/wiki/Scrum) with pictures: "from scratch to Scrum Master".
@@ -132,10 +132,10 @@ While reading this book, I almost broke my forehead from all the facepalms.
 /// brigid-images
 galery_class = "brigid-images-to-left brigid-images-1/4"
 src = "./cover-succeeding-with-agile.jpg"
-alt = "Cover of \"Succeeding with Agile\""
+alt = "The cover of \"Succeeding with Agile\""
 ///
 
-The book is about how a manager can live with Scrum or implement Scrum. Its ideas can be applied to other Agile methodologies, provided you thoughtfully adjust those ideas to your specific circumstances.
+The book is about how a manager can live with Scrum or adopt Scrum. Its ideas can be applied to other Agile methodologies, provided you thoughtfully adjust those ideas to your specific circumstances.
 
 The author — [Mike Cohn](https://en.wikipedia.org/wiki/Mike_Cohn) — a consultant and coach since the 1990s; has a background in [C](https://en.wikipedia.org/wiki/C_(programming_language)) and [C++](https://en.wikipedia.org/wiki/C%2B%2B); founder of a consulting agency that implements Agile and Scrum in companies. One of the pioneers of Scrum.
 
@@ -157,35 +157,36 @@ The book pushes, in various guises, the idea that you need to "jolt" the team fr
 /// brigid-images
 galery_class = "brigid-images-to-left brigid-images-1/4"
 src = "./cover-kanban.jpg"
-alt = "Обложка «Kanban»"
+alt = "The cover of \"Kanban\""
 ///
 
-Детальный разбор [Kanban](https://ru.wikipedia.org/wiki/Канбан) с картинками.
+Detailed explanation of [Kanban](https://en.wikipedia.org/wiki/Kanban) with pictures.
 
-Автор — [David J. Anderson](https://en.wikipedia.org/wiki/David_J._Anderson_(author)) — конечно же консультант и тренер, менеджер с 1991, пионер Kanban. Ссылки на опыт на исполнительских позициях мне найти не удалось, но это не значит, что его нет.
+The author — [David J. Anderson](https://en.wikipedia.org/wiki/David_J._Anderson_(author)) — a consultant and coach, manager since 1991, a pioneer of Kanban. I couldn't find links to his experience on frontline positions, but that doesn't mean he has none.
 
-### Книга полезна, когда
+### The book is useful when
 
-- Вы хотите разобраться с Kanban или вам надо объяснять его другим людям.
-- Вы часто используете слова «эволюция», «адаптация», «оптимизация» если не в речи, то в мыслях и хотите использовать их чаще.
-- Вы хотите заниматься **инженерией** рабочих процессов и не причинять этим страданий себе и окружающим.
-- Вы хотите внедрить общепринятую ready-to-use методологию организации работы, соответствующую современным реалиям.
+- You want to understand Kanban or need to explain it to others.
+- You often use the words "evolution," "adaptation," "optimization" in your speech or thoughts and want to use them more often.
+- You want to practice process **engineering** without causing suffering to yourself and those around you.
+- You want to adopt a widely accepted ready-to-use methodology for organizing
+- You want to adopt a commonly recognized, ready-to-use framework for work organization that fits modern realities.
 
-### Заметки
+### Notes
 
-По сути, Kanban — это первый достаточно проработанный, консистентный и доступный набор практик для реально гибкой разработки. Scrum не считается, так как он гибкий только на словах. Исторический Agile манифест не считается, так как он именно манифест — не все могут им пользоваться.
+Essentially, Kanban is the first well-developed, consistent, and accessible set of practices for truly flexible development. Scrum doesn't count, since it's flexible only in words. The historical [Agile Manifesto](https://agilemanifesto.org/principles.html) doesn't count either, since it's just a manifesto — not everyone can make use of it.
 
-Kanban разрабатывался между 2002 и 2007, что уже делает его на порядок более актуальным и современным, чем Scrum.
+Kanban was developed between 2002 and 2007, which already makes it significantly more relevant and modern than Scrum.
 
-Kanban про эволюцию и изменение процессов. Соответственно, автор указывает, что не может быть теста/чек-листа на уровень внедрения Kanban. В то же время на сайте консультационной компании автора есть его изображение рядом с большой таблицей «Kanban Maturity Model» — Kanban канбаном, а продавать консультации как-то надо.
+Kanban is about evolution and changing processes. Accordingly, the author states that there can't be a test/checklist for the level of Kanban adoption. At the same time, on the author's consulting company's website, there's a picture of him next to a large table titled "Kanban Maturity Model" — Kanban or not, you have to sell consultations somehow.
 
-Что мне нравится в Kanban, так это перенос фокуса с бабла (которое не всегда можно посчитать достоверно) на процессы, по которым работает команда. И это правильно.
+What I like about Kanban is that it shifts the focus from money-related metrics (which are not always reliably measurable) to the processes the team works with. And that's the right approach.
 
-Автор настаивает, что инженерная команда (и инженерный менеджмент) не должны иметь влияния на приоритезацию. По крайней мере большого влияния. Я с этим в корне не согласен, как и с некоторыми другими утверждениями из книги.
+The author insists that the engineering team (and engineering management) should not have much influence on prioritization. I fundamentally disagree with this, as well as with some other claims in the book.
 
-Автор справедливо указывает на то, что важность приоритезации задач очень преувеличена. В большинстве случаев и так ясно, что обязательно нужно делать следующим. Эту простую мысль я год пытался в Palta донести до некоторых коллег, но не смог. Приятно, когда с тобой соглашаются авторитетные люди.
+David J. Anderson rightly points out that the importance of task prioritization is greatly exaggerated. In most cases, it's already clear what needs to be done next. I tried to convey this simple idea to some colleagues at Palta for a year, but failed. It's nice to know that some of the authoritative people agree with you.
 
-В начале книги автор говорит, что Kanban о процессах и оптимизациях, а не о досках с задачами. Но книга, судя по распределению тем по тексту, всё-таки о досках :-D
+At the beginning of the book, the author states that Kanban is about processes and optimizations, not about task boards. But judging by how the topics are distributed throughout the text, the book still ends up being about boards :-D And a bit about processes and optimizations.
 
 ## The Lean Startup (2011)
 
