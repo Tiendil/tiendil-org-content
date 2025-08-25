@@ -292,38 +292,38 @@ Overall, the ideas presented in the book correlate very well with my experience 
 /// brigid-images
 galery_class = "brigid-images-to-left brigid-images-1/4"
 src = "./cover-humanocracy.jpg"
-alt = "Обложка «Humanocracy»"
+alt = "The cover of \"Humanocracy\""
 ///
 
-Книга о вреде бюрократии и пользе [меритократии](https://ru.wikipedia.org/wiki/Меритократия): как и почему надо бороть первую и внедрять вторую.
+The book is about the harm bureaucracy brings and, partially, about the benefits of [meritocracy](https://en.wikipedia.org/wiki/Meritocracy): how and why to fight the former and implement the latter.
 
-Авторы:
+The authors:
 
-- [Gary Hamel](https://en.wikipedia.org/wiki/Gary_Hamel) — консультант и тренер, основатель консультационной компании, преподаёт как приглашённый профессор в [London Business School](https://en.wikipedia.org/wiki/London_Business_School). Если покопаться, можно найти [список любопытных управленческих экспериментов](https://www.garyhamel.com/about), которые он проводил в компаниях.
-- [Michele Zanini](https://www.michelezanini.com/about-me/) — консультант и тренер, основатель консультационной компании (на пару с Gary Hamel), до этого работал аналитиком с фокусом на международную политику, Средний Восток и Восточную Европу.
+- [Gary P. Hamel](https://en.wikipedia.org/wiki/Gary_P._Hamel) — a consultant and coach, founder of a consulting company, teaches as a visiting professor at [London Business School](https://en.wikipedia.org/wiki/London_Business_School). If you dig around, you can find a [list of interesting management experiments](https://www.garyhamel.com/about) he has conducted in companies.
+- [Michele Zanini](https://www.michelezanini.com/about-me/) — a consultant and coach, founder of a consulting company (together with Gary Hamel), previously worked as an analyst focusing on international politics, the Middle East, and Eastern Europe.
 
-### Книга полезна, когда
+### The book is useful when
 
-- Вы планируете бороться с бюрократией в своей организации/команде.
-- Вы хотите больше делегировать: работы И ответственности.
-- Вы посчитали зарплаты менеджеров в головном офисе и сходу можете назвать 10 направлений куда эти деньги можно потратить с бОльшей пользой.
-- Вы хотите оздоровить рабочую культуру в своей организации/команде.
-- Вы хотите расширить набор управленческих инструментов, добавив в него «неклассические».
-- Вы хотите посмеяться над прикольными фактами и статистикой из области «когда перестарались с бюрократией».
+- You plan to fight bureaucracy in your organization/team.
+- You want to delegate more: both work and responsibility.
+- You've added up the salaries of the head office managers and can instantly name 10 better ways to spend that money.
+- You want to ameliorate the work culture in your organization/team.
+- You want to expand your set of atomic management practices by adding some "non-classical" ones.
+- You want to laugh at some funny facts and stats from the world of "bureaucracy gone wild".
 
-### Заметки
+### Notes
 
-Как можно догадаться по названию, книга предполагает концепцию альтернативную классической иерархической бюрократии, когда всё про людей и для людей. Но я бы сказал, что на текущий момент это скорее маркетинговое название, чем готовый мемплекс. Поэтому на книгу можно смотреть как на сильную аргументированную агитку против бюрократического рака с набором SOTA методов лечения и профилактики. И немного как на сборник прикольных историй.
+As the title suggests, the book offers a concept that stands as an alternative to the classic hierarchical bureaucracy — one that's all about people and for people. Still, I'd say that for now it's more of a marketing label than a fully-formed memeplex. So you can read it as a powerful, well-argued manifesto against bureaucratic cancer, accompanied by a set of SOTA methods for treatment and prevention. And, to some extent, as a collection of amusing stories.
 
-Перечислять аргументы и практики против бюрократии не буду — это стало бы пересказом книги.
+I won't list the arguments and practices against bureaucracy here — that becomes a retelling of the book.
 
-Лучше поделюсь парой забавных штук, которые выписал:
+Better, I'll share a couple of fun things I noted:
 
-- В какой-то момент в немецком [SAP](https://ru.wikipedia.org/wiki/SAP) обнаружили, что у них больше 50000 KPI. Будучи резидентом Германии, могу добавить, что ещё 150000 KPI они, скорее всего, пропустили.
-- Сталелитейный завод с децентрализацией управления имеет штаб-квартиру в 200 человек, с централизацией — 1000.
-- Учёные посчитали, что корреляция между реальной производительностью и самооценкой в среднем 0.29, а у менеджеров — 0.04 (!).
+- At some point, the German [SAP](https://en.wikipedia.org/wiki/SAP) discovered they had over 50000 KPIs. Being a resident of Germany, I can add that they probably missed another 150000 ones.
+- A steel plant with decentralized management has a headquarters of 200 people, while one with centralized management has 1000.
+- One of scientific studies found that [correlation](https://en.wikipedia.org/wiki/Correlation) between real productivity and self-assessed productivity is on average 0.29, while for managers it's 0.04 (!).
 
-Книга завершается утверждением, что бюрократию можно перестроить изнутри. В то же время, Reinventing Organizations утверждает, что сходные преобразования нельзя сделать без поддержи в самого верха. Я пока склоняюсь к мнению из Reinventing Organization.
+The book ends with a statement that bureaucracy can be restructured from within. At the same time, Reinventing Organizations claims that similar transformations cannot be made without support from the very top. I'm currently leaning towards the opinion from Reinventing Organizations.
 
 ## Many Voices One Song (2018)
 
