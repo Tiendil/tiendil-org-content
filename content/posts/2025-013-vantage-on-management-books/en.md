@@ -369,75 +369,75 @@ Overall, while the book is about sociocracy as a concept, it also serves well as
 /// brigid-images
 galery_class = "brigid-images-to-left brigid-images-1/4"
 src = "./cover-team-of-teams.jpg"
-alt = "Обложка «Team of Teams»"
+alt = "The cover of \"Team of Teams\""
 ///
 
-Книга о том, как генерал армии США перестраивал [объединённую группировку войск](https://en.wikipedia.org/wiki/Joint_task_force) для войны с [Аль-Каидой](https://ru.wikipedia.org/wiki/Аль-Каида) в [Ираке](https://ru.wikipedia.org/wiki/Ирак). 50% военных баек, 25% военных понтов и похвалы, 25% менеджмента.
+The book tells how a U.S. Army general refactored a [joint task force](https://en.wikipedia.org/wiki/Joint_task_force) to fight [Al-Qaeda](https://en.wikipedia.org/wiki/Al-Qaeda) in [Iraq](https://en.wikipedia.org/wiki/Iraq). 50% of military anecdotes, 25% of military showmanship and praise, 25% of management.
 
-Автор — [Stanley McChrystal](https://ru.wikipedia.org/wiki/Маккристал,_Стэнли) — генерал армии США в отставке, ~~не консультант и тренер~~ после отставки открыл консультационную компанию. В 2010 поссорился с администрацией президента США, из-за чего и ушёл в отставку.
+The author — [Stanley McChrystal](https://en.wikipedia.org/wiki/Stanley_A._McChrystal) — a retired U.S. Army general, ~~not a consultant or coach~~ after retirement, he founded a consulting company. In 2010, he came into conflict with the U.S. President’s administration, which led to his resignation.
 
-Соавторы: Tantum Collins, David Silverman, Chris Fussell.
+Co-authors: Tantum Collins, David Silverman, Chris Fussell.
 
-### Книга полезна, когда
+### The book is useful when
 
-- Ваша команда/компания не успевает реагировать на изменения окружения и вам надо с этим что-то делать.
-- Вам нужно получить преимущество перед более крупным, организованным и централизованным конкурентом.
-- Вы лидер крупного коллектива (или хотите им стать) и ищите референсы для выстраивания собственного поведения.
-- Вам надоело читать «теорию», вы хотите заметки практика.
-- Вы любите военные байки. В книге есть и рассказы про гражданские организации, но в основном это военный и околовоенный контекст. Например, есть описание работы медиков в гражданской больнице в экстремальных условиях.
+- Your team/organization slowly responds to changes in the environment, and you need to do something about it.
+- You need an advantage over a larger, more organized, and more centralized competitor.
+- You are a leader of a large collective (or want to become one) and are looking for references to build your own behavior.
+- You're tired of reading "theory" and want practical notes.
+- You love military anecdotes. The book also includes stories about civilian organizations, but mostly in a military or near-military context. For example, there's a description of how medics work in a civilian hospital under extreme conditions.
 
-### Заметки
+### Notes
 
-**Книга более крутая, чем кажется с первого взгляда.**
+**The book is cooler than it seems at first glance.**
 
-Поначалу я относился к Team of Teams скептически. Армейский генерал пишет о менеджменте — зная про организацию армии на постсоветском пространстве, я ожидал лютой кринжатины. Но по прочтению пришёл к выводу, что книга правильная не только по содержанию, но и по концепции — одна простая книга для раскрытия одной конкретной идеи с опорой на конкретный практический опыт — последовательное раскрытие идеи, передача авторского опыта и ощущений — таких книг должно быть больше.
+At first I was skeptical about Team of Teams. An army general writing about management — given what I know about how armies are organized in the post-Soviet space, I was expecting pure cringe. But after reading it, I came to the conclusion that the book is solid not only in content but also in concept: one simple book devoted to one specific idea, grounded in real practical experience. A clear development of the idea, combined with the author's personal experience and impressions — we need more books like this.
 
-Проблему, с которой столкнулись Task Force, можно описать так.
+One can describe the problem faced by the Task Force as follows.
 
-Максимально организованная, информированная, оптимизированная **централизованная** структура столкнулась с неэффективной, неинформированной, неорганизованной **децентрализованной** структурой и начала проигрывать, потому что не успевала за ней. Битвы выигрывались — война ~~проигрывалась~~ не выигрывалась. Чтобы переломить ход событий, приняли решение сплющивать иерархии, устранять централизацию и передавать принятие решений вниз к исполнителям.
+A highly organized, informed, optimized **centralized** structure encountered an inefficient, uninformed, disorganized **decentralized** structure and started losing because it couldn't keep pace. They were winning battles, but not the war. To turn things around, the command decided to flatten hierarchies, remove centralization, and push decision-making down to frontlines.
 
-/// note | Централизация vs децентрализация
-Если я правильно уловил суть, то причину проигрывания централизации перед децентрализацией автор видит в резком сокращении горизонта планирования из-за усложнения связей и ускорения коммуникаций в мире.
+/// note | Centralization vs decentralization
+If I understood the essence correctly, the author sees the reason for centralization losing to decentralization in the sharp reduction of planning horizons due to the increasing complexity of connections and acceleration of communications in the world.
 
-Так как скорость прохождения информации и решений по глубокой иерархии не уменьшается, а скорость изменения окружения только растёт, то в какой-то момент централизованная структура перестаёт успевать за изменениями и начинает отдавать распоряжения с запозданием, что приводит к накоплению ошибок (от краткосрочных, до стратегических).
+Since the speed of information and decision flow through a deep hierarchy doesn’t increase, while the pace of environmental change keeps accelerating, at some point, a centralized structure can no longer keep up. It starts issuing orders with delays, which leads to an accumulation of mistakes — from short-term to strategic.
 
-Иными словами, всегда существует временной предел предсказуемости, который ограничивает время на принятие и воплощение решений. Сейчас этот предел очень быстро сокращается и всем необходимо адаптироваться к новым условиям.
+In other words, there is always a temporal limit of predictability that restricts the time available for making and implementing decisions. Currently, this limit is rapidly shrinking, and everyone needs to adapt to the new conditions.
 
-Я как раз об этом писал в примечании к [первому посту этой серии]{post:points-of-view-on-a-product}.
+I've already touched this topic in the [first post of this series]{post:points-of-view-on-a-product}.
 
-Можно ёщё более кратко сформулировать: **необходимо развивать спинной мозг организации в пару к головному**.
+Put simply: **an organization needs to develop a spinal cord to go with its brain.**
 ///
 
-Ретроспективно изменения оформились в концепцию «команды команд»:
+Retrospectively, the changes took shape in the concept of "team of teams":
 
-- Объединение людей в команды, которые наделены широкими полномочиями по принятию решений.
-- Налаживание горизонтальных связей между командами всеми доступными способами: от организации рабочего пространства, до постоянного долгосрочного обмена членами команд друг с другом. Это создаёт горизонтальные коммуникационные связи, по которым информация идёт сразу кому надо, без путешествия вверх-вниз по нескольким иерархиям.
-- Создание культуры, которая поощряет инициативу, автономность и ответственность.
+- Bring people together into teams with broad decision-making authority.
+- Establish horizontal links between teams by every available means — from how the workspace is organized to ongoing long-term team member exchanges. This creates horizontal communication channels through which information goes directly to those who need it, without traveling up and down multiple hierarchies.
+- Nurture culture that encourages initiative, autonomy, and responsibility.
 
-В этом плане, Team of Teams сильно перекликается с Социократией.
+In this way, Team of Teams strongly resonates with Sociocracy.
 
-/// note | Любопытный пример про [адмирала Нельсона](https://ru.wikipedia.org/wiki/Нельсон,_Горацио)
+/// note | A curious example with [Admiral Nelson](https://en.wikipedia.org/wiki/Horatio_Nelson)
 
-Одновременно и байка, и демонстрация идеи книги.
+It's both an anecdote and a demonstration of the book's primary idea.
 
-До Нельсона основной стратегией флотов было централизованное командование: флагман передавал приказы всем кораблям, те их выполняли. Естественно, если что-то случалось с флагманом или связь с ним терялась (из-за дыма, шторма и т.д.), то флот оказывался без командования и не мог действовать эффективно.
+Before Nelson, the primary strategy for operating a fleet was centralized command: the flagship would issue orders to all ships, and they would execute them. Naturally, if something happened to the flagship or communication with it was lost (due to smoke, storm, etc.), the fleet would be left without command and couldn't act effectively.
 
-Нельсон же создал культуру, в которой капитаны кораблей действовали автономно, принимая решения на основе общей стратегии и ситуации. Это позволило флоту быстрее реагировать на изменения, применять новые тактические приёмы и стало залогом ключевых побед.
+Nelson, in turn, created a culture where ship captains acted autonomously, making decisions based on the overall strategy and situation at hand. This allowed the fleet to respond more quickly to changes, adopt new tactical approaches, and secure key victories.
 
-Культура была настолько успешной, что Нельсон даже выиграл бой, в котором его смертельно ранили — капитаны кораблей просто не заметили отсутствие командира.
+The culture was so successful that Nelson even won a battle in which he was fatally wounded — the ship captains simply didn't notice the absence of their commander and continued to act according to the established strategy.
 
-По-моему, в [Войне и мире](https://ru.wikipedia.org/wiki/Война_и_мир) схожий подход приписывали [Кутузову](https://ru.wikipedia.org/wiki/Кутузов,_Михаил_Илларионович), но [Толстой](https://ru.wikipedia.org/wiki/Толстой,_Лев_Николаевич) карикатурно демонстрировал его через бездействие старика. Ещё в школе мне казалось, что как-то неправильно Кутузова там отображают.
+To my mind, a similar approach was ascribed to [Mikhail Kutuzov](https://en.wikipedia.org/wiki/Mikhail_Kutuzov) in the [War and Peace](https://en.wikipedia.org/wiki/War_and_Peace), but [Leo Tolstoy](https://en.wikipedia.org/wiki/Leo_Tolstoy) caricatured it as the old man's inaction. Even back in school, it seemed to me that Kutuzov was depicted there in a rather unfair way.
 
-Другая байка из Team of Teams на ту же тему: во время [Вьетнамской войны](https://ru.wikipedia.org/wiki/Война_во_Вьетнаме) полевые медики обнаружили, что ведущего хирурга выгоднее убрать от стола — это позволяет множеству людей работать одновременно, а ведущему хирургу распространять свою экспертизу на всю команду сразу.
+Another war-related story from Team of Teams: during the [Vietnam War](https://en.wikipedia.org/wiki/Vietnam_War), field medics found that it was more beneficial to remove the lead surgeon from the operating table — this allowed many people to work simultaneously, while the lead surgeon could spread their expertise across the entire team.
 ///
 
-В общем, книга про то, как отпустить вожжи и расслабиться.
+In short, the book is about stepping back and letting things flow :-)
 
-Вот ещё несколько забавных заметок по книге:
+Here are some more interesting notes:
 
-- **Это единственная книга, в которой как пример организационной структуры приводится научная организация ([NASA](https://ru.wikipedia.org/wiki/НАСА))**.
-- Реформы в Task Force, отчасти, привели к одной из крупнейших утечек секретных армейских данных в [WikiLeaks](https://wikileaks.org/). Автор книги стоит на позиции, что это неизбежный риск и даже с его учётом реформы стоили того.
-- В какой-то момент командование отдало принятие решений по воздушным ударам подчинённым. Если армейский генерал может позволить такую вольность в условиях военной операции, то рядовой менеджер и подавно должен быть в состоянии сделать это.
+- **This is the only book that uses a scientific organization — [NASA](https://en.wikipedia.org/wiki/NASA) — as an example of organizational structure.**
+- The reforms in the Task Force partly led to one of the largest leaks of secret army data to [WikiLeaks](https://wikileaks.org/). The author takes the position that this is an inevitable risk, and even considering it, the reforms were worth it. I’m not sure it would make sense for the general responsible to claim anything else — but still.
+- At some point, the command delegated decision-making on airstrikes to subordinates. If an army general can afford such liberty in a military operation, then a regular manager should definitely be able to do similar things.
 
 ## Managing Science (2017)
 
