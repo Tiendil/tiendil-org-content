@@ -3,15 +3,13 @@ title = "What to read"
 tags = [ "theory", "development", "books", "interesting", "professional-books", "management", "vantage-on-management"]
 series = "vantage-on-management"
 published_at = "2025-08-13T12:00:00+00:00"
-seo_description = "Review of top management books with comments: what, when to read and why."
+seo_description = "Review of top management books with commentary: what to read, when to read it, and why."
 seo_image = "./cover.jpg"
 ---
 
-<!-- Note for COPILOT: it is ongoing translation from Russian to English. New English text is writen about Russian. You should translate maximally close to original, but use idiomatic wording if possible. -->
-
 /// brigid-images
 src = "./cover.jpg"
-caption = "The books from the post."
+caption = "Books featured in the post."
 ///
 
 /// brigid-series
@@ -20,7 +18,7 @@ tag = "vantage-on-management"
 
 At my last job, I sometimes found it difficult to convey my brilliant management ideas to colleagues. After some reflection, I realized I had drifted into an overly narrow and specific conceptual field, which often forced me to translate concepts from my internal representations into more or less commonly accepted terms on the fly. Not only is this hard, but people don't always see you as a smart person while you're doing it :-D
 
-Thus I decided to catch up with the latest achievements of human thought and, about a year ago, purchased up on 9 top management books. With the idea of surveying the situation from a bird's-eye view, updating my vocabulary, and gathering digestible arguments for the future.
+Thus I decided to catch up with the latest achievements of human thought and, about a year ago, stocked up on 9 top-rated management books. With the idea of surveying the situation from a bird's-eye view, firming up my glossary, and gathering digestible arguments for the future.
 
 I spent the whole of last year reading these books but, against my usual habit, didn't write any reviews:
 
@@ -30,7 +28,9 @@ I spent the whole of last year reading these books but, against my usual habit, 
 
 Instead of multiple reviews, I decided to prepare a single overview post with brief descriptions of each book, recommendations on when to read it, and a few notes. You're reading it right now.
 
-Attention! The comments on the books are somewhat biased — they reflect my personal opinion.
+/// note | Disclaimer
+The comments on the books are somewhat biased — they reflect my personal opinion.
+///
 
 So, let's get started.
 
