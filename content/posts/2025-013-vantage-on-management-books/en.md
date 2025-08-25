@@ -444,40 +444,40 @@ Here are some more interesting notes:
 /// brigid-images
 galery_class = "brigid-images-to-left brigid-images-1/4"
 src = "./cover-managing-science.jpg"
-alt = "Обложка «Managing Science»"
+alt = "The cover of \"Managing Science\""
 ///
 
-Книга о том, как управляют крупными научными коллективами.
+The book is about how large scientific organizations are managed.
 
-Автор — [Ken Peach](https://scholar.google.com/citations?user=liE4ka8AAAAJ&hl=en) — физик с глубоким опытом топ-менеджера —  был «Deputy Head of the Particle Physics Experiments Division» в [CERN](https://ru.wikipedia.org/wiki/ЦЕРН), возглавлял/организовывал несколько институтов.
+The author — [Ken Peach](https://scholar.google.com/citations?user=liE4ka8AAAAJ&hl=en) — a physicist with deep experience as a top manager — was the "Deputy Head of the Particle Physics Experiments Division" at [CERN](https://en.wikipedia.org/wiki/CERN), headed/organized several institutes.
 
-### Книга полезна, когда
+### The book is useful when
 
-- Вы собираетесь делать карьеру в науке и хотите понять, как там всё устроено.
-- Вы получили менеджерскую роль в науке и хотите быстро сориентироваться.
-- Вам интересна практическая сторона управления большими коллективами, рассказанная от первого лица.
-- На вас спускают стрёмные бюрократические регуляции, например, квоты на найм, и вам нужно придумать, как не разрушить ими всё построенное непосильным трудом.
-- Вы любите ужастики про бюрократию.
+- You plan to build a career in science and want to understand how things work there.
+- You received a managerial role in the science area and want to quickly get oriented.
+- You are interested in practical aspects of managing large teams, described from a first-person perspective.
+- You get hit with shady bureaucratic regulations — say, hiring quotas — and you have to figure out how not to let them wreck everything you've built through hard work.
+- You like the scary stories about bureaucracy.
 
-### Заметки
+### Notes
 
-**Книга — лидер среди перечисленных по практическим примерам разруливания негативных сценариев.** Но это не значит, что их в ней очень много.
+**This book leads the pack in terms of practical examples of handling negative scenarios.** That doesn't mean it has a great many of them, though.
 
-Managing Science выглядит больше как фактологическое описание устройства науки с точки зрения менеджмента, чем как сборник лучших практик или описание философии управления. Безусловно, и практики, и философия там есть, но они скорее сопровождают описание здания научной организации, чем являются основой книги.
+Managing Science looks more like a factual description of how science is organized from a management perspective than a collection of best practices or a description of management philosophy. Certainly, practices and philosophy are present there too, but they rather accompany the description of the scientific organization's "building" than form the basis of the book.
 
-То есть книга не о том, как должно быть, а о том, как есть.
+So, the book is not about how things should be, but about how they are.
 
-С одной стороны, это ожидаемо от труда учёного-физика, с другой стороны я надеялся всё-таки на философию и практики, так как меня очень интересует заимствование опыта научных коллективов. Тем более печально, что это единственная заинтересовавшая меня книга на тему менеджмента в науке, из всего, что я смог нагуглить. Буду искать дальше; если вы знаете что-то интересное — дайте знать, буду благодарен.
+From one side, this is expected from the work of a physicist; from the other side, I hoped for more philosophy and practices, as I'm very interested in borrowing management experience from scientific collectives. It's a pity, because this is the only book on management in science that caught my interest. I'll keep looking; if you know any others, please let me know, I'll be grateful.
 
-Несмотря на описательный характер, практики и философия поданы хорошо: современны, рациональны и согласуются с прочими книгами из этого поста, так что читать как учебник книгу тоже можно. Может быть для кого-то подобный формат будет даже удобнее.
+Despite the descriptive nature, the practices and philosophy are well presented: up-to-date, rational, and consistent with other books in this post, so you can also read the book as a textbook. Perhaps for some, this format will even be more convenient.
 
-В целом автор критически смотрит на здание современной научной бюрократии, но в то же время признаёт, что бюрократия и регуляции неизбежны, особенно в отрасли, которая финансируется государством.
+Overall, the author keeps a critical eye on the building of modern scientific bureaucracy. However, he also acknowledges that bureaucracy and regulations are inevitable, especially in a state-funded industry.
 
-В книге высказано много здравых и интересных идей, особенно мне понравилась эта:
+The book contains many interesting ideas; I especially like this one:
 
-> Под хорошим лидерством возможно, что каждый член команды будет работать превосходно, соответственно, работу ни одного члена команды нельзя будет назвать неудовлетворительной или требующей значительных улучшений.
+> Under good leadership, it is possible that every member of the team performs excellently and then none are unsatisfactory or in need of significant improvements.
 
-Я бы очень рекомендовал всем HR и менеджерам подумать над этой концепцией, прежде чем начинать очередную аттестацию сотрудников.
+I would highly recommend that all HR and managers ponder this concept before starting another round of employee evaluations.
 
 ## Что из перечисленного почитать технарю?
 
