@@ -52,7 +52,7 @@ Despite the differences in authors, topics, and time of publication, the books s
 
 The practical problems of frontline workers are touched on only lightly and superficially, as are the issues of their interaction with managers and the described practices. Instead, the focus often shifts to how managers and businesses interact with each other and with teams as a whole — essentially, on how to make things more convenient for the managers themselves. This is especially true of books that conceptually precede the "teal organizations." The gap between managers and frontline employees sometimes shows through quite starkly, and I'm not even sure the authors — or a significant part of their intended audience — notice it. At times this leads to rather questionable claims from a practical standpoint.
 
-/// note | On the example of User Stories
+/// note | Using User Stories as an example
 
 Not always, but often, we plan product changes in terms of [User Stories](https://en.wikipedia.org/wiki/User_story).
 
@@ -62,20 +62,19 @@ At the same time, for "development", a User Story may be a whole front of work c
 
 In the context of development, from a programmer's perspective, each such atomic task has the same semantics as a User Story for the business.
 
-This distinction in context and semantics is literally an eternal petra scandalis — I have never encountered a team with a complete consensus on the matter, and where the developers had no questions about types of tasks.
+This distinction in context and semantics is literally a constant source of friction — I have never encountered a team with a complete consensus on the matter, and where the developers had no questions about types of tasks.
 
 However, no book covers this or similar distinctions in work perception — they all describe situations at 1-2 levels of abstraction above.
 ///
 
 Much of the attention in the books is often given to large companies and large projects. This isn't always a bad thing, but it's something you should always keep in mind. Companies with 10, 100, 1000, or 10000 employees face very different problems and have very different criteria for what counts as a successful solution.
 
-The older the book, the more it is steeped in, let's say, caricatured masculinity. I used to think that all those baseball, sports, cars, and survivalist analogies were just a relic of the 1980s and of pseudo–improvement courses. But apparently not — authors still use those analogues, which means the target audience for management books is responsive to them.
+The older the book, the more it is steeped in, let's say, caricatured masculinity. I used to think that all those baseball, sports, cars, and survivalist analogies were just a relic of the 1980s and of pseudo–improvement courses. But apparently not
+— authors still use those analogies, which means the target audience for management books is responsive to them.
 
 **Second**, most books are not just textbooks, but also manifestos of specific practices. Thus, most of the place is devoted to positive examples; negative scenarios are discussed less, abstractly, and not as deeply.
 
 At the same time, we remember that "all happy families are alike; while each unhappy family is unhappy in its own way". So, **the primary problem of any collective is not how to do things "right," but how to identify and work through its own unique wrongness**. That's why, when I started reading, I hoped to find deep dives into negative scenarios; instead, I almost did not find them.
-
-All the books that focus on a memeplex — a set of practices — walk a fine line between a list of useful tools and cargo cult. Accordingly, I have an untestable
 
 All the books that focus on the memeplex — a set of practices —  walk a fine line between a list of useful tools and a [cargo cult](https://en.wikipedia.org/wiki/Cargo_cult). Accordingly, I have an unprovable suspicion that most people who use these sets don't really understand why they are the way they are or how they actually work.
 
@@ -86,7 +85,7 @@ This means that, for them, publishing a book is not only a way to share their ex
 
 Therefore, the content of the books will inevitably be biased. I think the bias towards positive examples and practices, as opposed to analyzing possible negative scenarios, is related to this nuance.
 
-Please, keep this in mind while reading the books. In general, it's always better to take in account the motivation of the person who is trying to convince you of something.
+Please keep this in mind while reading the books. In general, it's always better to take in account the motivation of the person who is trying to convince you of something.
 ///
 
 **Third**, for some reason everyone strives to derive modern management practices from the history of management in factories, especially from Japanese ones, and especially from shop floors and assembly lines, rather than, for example, from the work of engineering offices or research/science teams. I fundamentally disagree with and disapprove of this approach, particularly in our time and especially when it comes to software development.
@@ -123,7 +122,7 @@ The concept of Scrum dates back to around 1986 — basically, it's my peer. It's
 
 At the beginning of the book, the author praises the clarity and conciseness of the illustrations. In my opinion, the "pseudo-3D with frills, gradients, and handwritten italics" style is very far from conciseness, but it does hint at the historical context and target audience.
 
-The author points a lot of people look at Scrum as a modified Waterfall for the new age, and claims that this is not the case. However, given the focus of the book and manner of presentation, I would say that this is exactly as it is — a Waterfall modified for quick feedback. I mean not the entire Scrum concept, but the specific Scrum from the book.
+The author points out that a lot of people look at Scrum as a modified Waterfall for the new age, and claims that this is not the case. However, given the focus of the book and manner of presentation, I would say that this is precisely the case — a Waterfall modified for quick feedback. I mean not the entire Scrum concept, but the specific Scrum from the book.
 
 While reading this book, I almost broke my forehead from all the facepalms.
 
@@ -146,7 +145,7 @@ The author — [Mike Cohn](https://en.wikipedia.org/wiki/Mike_Cohn) — a consu
 
 ### Notes
 
-Respect to the author for clearly pointing out that all memplexes from books and courses are not a guide to action, but a template that one should bent to fit their own specific needs.
+Respect to the author for clearly pointing out that all memplexes from books and courses are not a guide to action, but a template that one should bend to fit their own specific needs.
 
 **For a pilot Scrum project, the author suggests taking a project not larger than 5 teams :-D** So I dare to assume that if you have fewer than 5 teams in your company, you probably don’t need to bother with Scrum at all :-D
 
@@ -169,7 +168,6 @@ The author — [David J. Anderson](https://en.wikipedia.org/wiki/David_J._Anders
 - You want to understand Kanban or need to explain it to others.
 - You often use the words "evolution," "adaptation," "optimization" in your speech or thoughts and want to use them more often.
 - You want to practice process **engineering** without causing suffering to yourself and those around you.
-- You want to adopt a widely accepted ready-to-use methodology for organizing
 - You want to adopt a commonly recognized, ready-to-use framework for work organization that fits modern realities.
 
 ### Notes
