@@ -315,9 +315,9 @@ As the title suggests, the book offers a concept that stands as an alternative t
 
 I won't list the arguments and practices against bureaucracy here — that becomes a retelling of the book.
 
-Better, I'll share a couple of fun things I noted:
+Instead, I'll share a couple of fun things I noted:
 
-- At some point, the German [SAP](https://en.wikipedia.org/wiki/SAP) discovered they had over 50000 KPIs. Being a resident of Germany, I can add that they probably missed another 150000 ones.
+- At some point, the [SAP](https://en.wikipedia.org/wiki/SAP) in Germany discovered they had over 50000 KPIs. Being a resident of Germany, I can add that they probably missed another 150000 ones.
 - A steel plant with decentralized management has a headquarters of 200 people, while one with centralized management has 1000.
 - One of scientific studies found that [correlation](https://en.wikipedia.org/wiki/Correlation) between real productivity and self-assessed productivity is on average 0.29, while for managers it's 0.04 (!).
 
@@ -370,7 +370,7 @@ src = "./cover-team-of-teams.jpg"
 alt = "The cover of \"Team of Teams\""
 ///
 
-The book tells how a U.S. Army general refactored a [joint task force](https://en.wikipedia.org/wiki/Joint_task_force) to fight [Al-Qaeda](https://en.wikipedia.org/wiki/Al-Qaeda) in [Iraq](https://en.wikipedia.org/wiki/Iraq). 50% of military anecdotes, 25% of military showmanship and praise, 25% of management.
+The book tells how a U.S. Army general "refactored" a [joint task force](https://en.wikipedia.org/wiki/Joint_task_force) to fight [Al-Qaeda](https://en.wikipedia.org/wiki/Al-Qaeda) in [Iraq](https://en.wikipedia.org/wiki/Iraq). 50% of military anecdotes, 25% of military showmanship and praise, 25% of management.
 
 The author — [Stanley McChrystal](https://en.wikipedia.org/wiki/Stanley_A._McChrystal) — a retired U.S. Army general, ~~not a consultant or coach~~ after retirement, he founded a consulting company. In 2010, he came into conflict with the U.S. President’s administration, which led to his resignation.
 
@@ -477,34 +477,34 @@ The book contains many interesting ideas; I especially like this one:
 
 I'd really suggest HR and managers think about this idea before kicking off another round of evaluations.
 
-## What an engineer should read from the list?
+## What should an engineer read from the list?
 
 If you want to quickly level up in management, I would recommend reading:
 
 - Kanban — to form a set of practices for operational management that can be customized in an engineering style.
 - The Lean Startup — to form a set of strategic management practices that can be applied in an engineering style.
-- Reinventing Organizations — to form a set of cultur-building practices.
+- Reinventing Organizations — to form a set of culture-building practices.
 
 ### Do I need it, really?
 
 In my opinion, yes, you do.
 
 - Management is not rocket science. Most of the practices are quite simple if formulated clearly enough (which many people just don't do). C++ templates or, say, database transactions are way more complex.
-- Everything is moving, one way or another, toward flat structures where every team member knows a bit about management — which makes these knowlege important both for your effectiveness and for your career.
+- Everything is moving, one way or another, toward flat structures where every team member knows a bit about management — which makes these knowledge important both for your effectiveness and for your career.
 - Pushing flat structures, decentralization, and self-management is more beneficial for employees in frontline positions.
 
-## And what with the books on psychology, communication?
+## And what about books on psychology and communication?
 
 Currently I am **very** skeptical about using professional tools from psychologists/psychiatrists/any other non-technical areas in management. These tools were developed for different contexts and for people with different education, not for managers.
 
-For example, for use by psychotherapists with PhDs on married couples in the 1970s. This has nothing to do with professional collectives in the 2020s :-)
+For example, for use by psychotherapists with PhDs working with married couples in the 1970s. This has nothing to do with teams of professionals in the 2020s :-)
 
 **In nearly 20 years of working in IT, I've never seen a successful use of such tools.** What I've seen, many times over, is their misuse, which only fuels conflicts, breeds distrust, and sows discord.
 
 I won't wax lyrical here, but briefly, my reasoning is:
 
 - An average manager is not competent enough to use tools that require specialized non-managerial education. And they don't have time to acquire such competence.
-- An average frontline employee is smart enough to notice unprofessional attempts to use such tools on them, but not competent enough to understand why and for what purpose they are being used. Often, there's no time to conciously process what's happening, and the reaction is subconscious.
-- As a result, conflicts arise instantly out of nowhere: "I'm being manipulated," "HR is lying," "manager is doing nonsense".
+- An average frontline employee is smart enough to notice unprofessional attempts to use such tools on them, but not competent enough to understand why and for what purpose they are being used. Often, there's no time to consciously process what's happening, and the reaction is subconscious.
+- As a result, conflicts arise instantly out of nowhere: "I'm being manipulated," "HR is lying," "manager is acting foolishly".
 
 As soon as I find something worthwhile specifically about professional culture, that is close to reality, I'll definitely study it and share my thoughts.
