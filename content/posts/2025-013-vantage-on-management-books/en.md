@@ -18,7 +18,7 @@ tag = "vantage-on-management"
 
 At my last job, I sometimes found it difficult to convey my brilliant management ideas to colleagues. After some reflection, I realized I had drifted into an overly narrow and specific conceptual field, which often forced me to translate concepts from my internal representations into more or less commonly accepted terms on the fly. Not only is this hard, but people don't always see you as a smart person while you're doing it :-D
 
-Thus I decided to catch up with the latest achievements of human thought and, about a year ago, stocked up on 9 top-rated management books. With the idea of surveying the situation from a bird's-eye view, firming up my glossary, and gathering digestible arguments for the future.
+Thus I decided to catch up with the latest achievements of human thought and, about a year ago, stocked up on 9 top-rated management books. With the idea of surveying the situation from a bird's-eye view, standardizing my glossary, and gathering arguments for the future.
 
 I spent the whole of last year reading these books but, against my usual habit, didn't write any reviews:
 
@@ -72,7 +72,7 @@ Much of the attention in the books is often given to large companies and large p
 The older the book, the more it is steeped in, let's say, caricatured masculinity. I used to think that all those baseball, sports, cars, and survivalist analogies were just a relic of the 1980s and of pseudo–improvement courses. But apparently not
 — authors still use those analogies, which means the target audience for management books is responsive to them.
 
-**Second**, most books are not just textbooks, but also manifestos of specific practices. Thus, most of the place is devoted to positive examples; negative scenarios are discussed less, abstractly, and not as deeply.
+**Second**, most books are not just textbooks, but also manifestos of specific practices. Thus, most of the space is devoted to positive examples; negative scenarios are discussed less, abstractly, and not as deeply.
 
 At the same time, we remember that "all happy families are alike; while each unhappy family is unhappy in its own way". So, **the primary problem of any collective is not how to do things "right," but how to identify and work through its own unique wrongness**. That's why, when I started reading, I hoped to find deep dives into negative scenarios; instead, I almost did not find them.
 
@@ -149,7 +149,7 @@ Respect to the author for clearly pointing out that all memplexes from books and
 
 **For a pilot Scrum project, the author suggests taking a project not larger than 5 teams :-D** So I dare to assume that if you have fewer than 5 teams in your company, you probably don’t need to bother with Scrum at all :-D
 
-The book pushes, in various guises, the idea that you need to "jolt" the team from time to time. Now it's clear which methodology the Belarusian government works with (local humor).
+The book pushes, in various guises, the idea that you need to "jolt" the team from time to time. Now it's clear which methodology the Belarusian government works by (local humor).
 
 ## Kanban (2010)
 
@@ -161,7 +161,7 @@ alt = "The cover of \"Kanban\""
 
 Detailed explanation of [Kanban](https://en.wikipedia.org/wiki/Kanban) with pictures.
 
-The author — [David J. Anderson](https://en.wikipedia.org/wiki/David_J._Anderson_(author)) — a consultant and coach, manager since 1991, a pioneer of Kanban. I couldn't find references to his experience on frontline positions, but that doesn't mean he has none.
+The author — [David J. Anderson](https://en.wikipedia.org/wiki/David_J._Anderson_(author)) — a consultant and coach, manager since 1991, a pioneer of Kanban. I couldn't find references to his experience in frontline positions, but that doesn't mean he has none.
 
 ### The book is useful when
 
@@ -182,7 +182,7 @@ What I like about Kanban is that it shifts the focus from money-related metrics 
 
 The author insists that the engineering team (and engineering management) should not have much influence on prioritization. I fundamentally disagree with this, as well as with some other claims in the book.
 
-David J. Anderson rightly points out that the importance of task prioritization is greatly exaggerated. In most cases, it's already clear what needs to be done next. I tried to convey this simple idea to some colleagues at Palta for a year, but failed. It's nice to know that some of the authoritative people agree with you.
+David J. Anderson rightly points out that the importance of task prioritization is greatly exaggerated. In most cases, it's already clear what needs to be done next. I tried to convey this simple idea to some colleagues at Palta for a year, but failed. It's nice to know that some authoritative people agree with you.
 
 At the beginning of the book, the author states that Kanban is about processes and optimizations, not about task boards. But judging by how the topics are distributed throughout the text, the book still ends up being about boards :-D And a bit about processes and optimizations.
 
@@ -273,13 +273,13 @@ For example, weekly/monthly meetings with video broadcasts to the whole company 
 
 However, practices aimed at frontline employees never took root. If you just say "form a guild" or "let's all hang out and chat cheerfully every Friday" without explaining why, without giving an example, and without helping free up time, then people with real deadlines, planned work, and scheduled stress will, of course, give it a try (out of respect), but in the end it all fizzles out because of interfering with the established (and working!) pace.
 
-To change the pace, you need to change the production culture, to demonstrate the benefits of the new approach, preferably on your own example. Naturally, management itself can't do this; it has to be done by trained and motivated allies from below who have authority within the teams. Or by managers who actually work hands-on — which is possible, but comes hard. Value such people.
+To change the pace, you need to change the work culture, to demonstrate the benefits of the new approach, preferably on your own example. Naturally, management itself can't do this; it has to be done by trained and motivated allies from below who have authority within the teams. Or by managers who actually work hands-on — which is possible, but comes hard. Value such people.
 
 At my last job, not knowing about the concept, I tried to move the team towards tealness based on my experience and intuition, and myself along the way. I'm not sure who moved whom more: me the team or the team me :-D Based on this experience, I can note a couple of things:
 
 1. At times, it was insanely difficult — especially when it came to transferring decisions from the personal to the collective level, particularly process-related ones. It's hard to explain your motivation to others, hard to keep yourself in check, especially when you "know the right way to do things".
 2. It really works, and the team starts to act like a "living organism" — without centralized control. The speed of response to events significantly increases. But to achieve this, everyone had to go through a bit of pain and suffering :-D
-3. Introducing such practices without support and/or understanding from the top is severely limited and correlated with high psychological costs — it's very easy to burn out, and easy to hit a wall. Frederic also notes this.
+3. Introducing such practices without support and/or understanding from the top is severely limited and is associated with with high psychological costs — it's very easy to burn out, and easy to hit a wall. Frederic also notes this.
 4. If I had read Reinventing Organizations before, it would have been much easier to convey my ideas.
 
 Overall, the ideas presented in the book correlate very well with my experience and ideology.
@@ -379,7 +379,7 @@ Co-authors: Tantum Collins, David Silverman, Chris Fussell.
 
 - Your team/organization slowly responds to changes in the environment, and you need to do something about it.
 - You need an advantage over a larger, more organized, and more centralized competitor.
-- You are a leader of a large collective (or want to become one) and are looking for references to build your own behavior.
+- You are a leader of a large organization/team (or want to become one) and are looking for references to build your own behavior.
 - You're tired of reading "theory" and want practical notes.
 - You love military anecdotes. The book also includes stories about civilian organizations, but mostly in a military or near-military context. For example, there's a description of how medics work in a civilian hospital under extreme conditions.
 
@@ -396,7 +396,7 @@ A highly organized, informed, optimized **centralized** structure encountered an
 /// note | Centralization vs decentralization
 If I understood the essence correctly, the author sees the reason for centralization losing to decentralization in the sharp reduction of planning horizons due to the increasing complexity of connections and acceleration of communications in the world.
 
-Since the speed of information and decision flow through a deep hierarchy doesn’t increase, while the pace of environmental change keeps accelerating, at some point, a centralized structure can no longer keep up. It starts issuing orders with delays, which leads to an accumulation of mistakes — from short-term to strategic.
+Since the time of information and decision flow through a deep hierarchy doesn’t decrease, while the pace of environmental change keeps accelerating, at some point, a centralized structure can no longer keep up. It starts issuing orders with delays, which leads to an accumulation of mistakes — from short-term to strategic.
 
 In other words, there is always a temporal limit of predictability that restricts the time available for making and implementing decisions. Currently, this limit is rapidly shrinking, and everyone needs to adapt to the new conditions.
 
