@@ -330,38 +330,39 @@ The book ends with a statement that bureaucracy can be restructured from within.
 /// brigid-images
 galery_class = "brigid-images-to-left brigid-images-1/4"
 src = "./cover-many-voices-one-song.jpg"
-alt = "Обложка «Many Voices One Song»"
+alt = "The cover of \"Many Voices One Song\""
 ///
 
-Книга про социократию — набор инструментов и принципов, которые помогают распределить власть по коллективу/сообществу.
+The book is about sociocracy — a set of tools and principles that help distribute power across a collective/community.
 
-Авторы:
+The authors:
 
-- [Ted J. Rau](https://www.linkedin.com/in/ted-rau-bb75a513b/) — доктор лингвистики (синтакс и семантика) и, конечно, консультант и тренер; сооснователь [Sociocracy For All](https://www.sociocracyforall.org/).
-- [Jerry Koch-Gonzalez](https://www.linkedin.com/in/jerry-koch-gonzalez/) — консультант и тренер; сооснователь [Sociocracy For All](https://www.sociocracyforall.org/).
+- [Ted J. Rau](https://www.linkedin.com/in/ted-rau-bb75a513b/) — a PhD in linguistics (syntax and semantics) and, of course, a consultant and coach; co-founder of [Sociocracy For All](https://www.sociocracyforall.org/).
+- [Jerry Koch-Gonzalez](https://www.linkedin.com/in/jerry-koch-gonzalez/) — consultant and coach; co-founder of [Sociocracy For All](https://www.sociocracyforall.org/).
 
-### Книга полезна, когда
+### The book is useful when
 
-- Вы искренне решили внедрять децентрализацию у себя в команде/организации и вам нужен готовый набор практик для старта.
-- Вы хотите увеличить уровень самостоятельности людей и команд.
-- У вас в команде/организации есть проблемы с коммуникацией и делегированием и вы хотите их решить.
+- You sincerely decided to adopt decentralization in your team/organization and need a ready-to-use set of practices to start with.
+- You want to increase the level of autonomy of people and teams.
+- You have problems with communication and delegation in your team/organization and want to solve them.
 
-### Заметки
+### Notes
 
-В отличие от Humanocracy, эта книга представляет законченный мемплекс. В него входит несколько ключевых концепций:
+Unlike Humanocracy, this book presents a complete memeplex, which includes several key concepts:
 
-- Круг — группа людей, которые работают вместе и вместе решают как надо работать. По сути, автономная команда, но с нюансами. Круги организуются в своего рода иерархию, тоже с нюансами.
-- Принятие решений по consent — если X сделал предложение группе/кругу, то это предложение будет принято, если никто не выдвинет существенных возражений.
-- Роль лидера круга — помогает кругу двигаться в нужную сторону, что-то вроде менеджера-через-авторитет, но не менеджер :-)
-- Роль делегата круга — представитель интересов дочернего круга в родительском.
-- Двойная связанность — каждый круг связан с родительским через двух представителей: лидера и делегата. По словам авторов, это позволяет избежать кучи проблем: от искажения информации до манипуляций и злоупотреблений властью.
+- Circle — a group of people who work together and decide together how to work. Essentially, an autonomous team, but with nuances. Circles are organized into a kind of hierarchy, also with nuances.
+- Decision-making by consent —
+- Принятие решений по consent — if somebody puts forward a proposal to the circle, it will be adopted unless someone raises a significant objection.
+- The role of the circle leader — helps the circle move in the right direction, something like a manager-through-respect but not actually a manager :-)
+- The role of the circle delegate — a representative of the interests of the child circle in the parent circle.
+- Double-linking — each circle is connected to the parent one through two representatives: the leader and the delegate. According to the authors, this helps avoid a bunch of problems: from information distortion to manipulation and abuse of power.
 
-Описываемая структура местами хорошо перекликается с моими личными взглядами, но я не могу сказать, что со всем в книге согласен или что на 100% уверен в её работоспособности. Например:
+The structure described resonates well with my personal views, but I can't say I agree with everything in the book or that I'm 100% sure of its effectiveness. For example:
 
-- Социократия, на мой взгляд, требует от коллег зрелости чуть большей, чем я видел в реальных командах. С другой стороны, зрелость — вещь наживная и её можно нарабатывать, поэтому это проблема не концептуальная, а чисто практическая.
-- Многие примеры коммуникаций и решения проблем в коммуникациях выглядят очень западно-центристскими — не всем культурам это подойдёт.
+- Sociocracy, in my opinion, requires a bit more maturity from colleagues than I've seen in real teams. On the other hand, maturity is something that can be developed, so this is not a conceptual problem, but a purely practical one.
+- Many of the communications and problem-solving examples in the book seem very [Western-centric](https://en.wikipedia.org/wiki/Psychology#WEIRD_bias), so they may not suit all cultures.
 
-В целом же, хотя книга и про социократию, как концепт, она будет хороша и как просто справочник по практикам организации труда. Местами практики и инструменты описаны настолько детально, что часть текста я пропускал как воду. Но если вам нужно быстро внедрить одну из подобных практик, то подобное детальное описание поможет донести мысль ну прям до всех коллег.
+Overall, while the book is about sociocracy as a concept, it also serves well as a handbook for work organization practices. Some practices and tools are described in such detail that I skimmed through parts of the text. But if you need to quickly implement one of these practices, such detailed descriptions will help convey the idea to all colleagues.
 
 ## Team of Teams (2015)
 
