@@ -479,21 +479,21 @@ The book contains many interesting ideas; I especially like this one:
 
 I'd really suggest HR and managers think about this idea before kicking off another round of evaluations.
 
-## Что из перечисленного почитать технарю?
+## What an engineer should read from the list?
 
-Если вы хотите быстренько прокачаться в менеджменте, то я бы рекомендовал прочитать:
+If you want to quickly level up in management, I would recommend reading:
 
-- Kanban — чтобы иметь набор практик для оперативного управления, которые можно настраивать в инженерном стиле.
-- The Lean Startup — чтобы иметь набор стратегических практик, которые можно применять в инженерном стиле.
-- Reinventing Organizations — чтобы иметь набор культурных практик.
+- Kanban — to form a set of practices for operational management that can be customized in an engineering style.
+- The Lean Startup — to form a set of strategic management practices that can be applied in an engineering style.
+- Reinventing Organizations — to form a set of cultur-building practices.
 
-### А надо ли?
+### Do I need it, really?
 
-На мой взгляд, надо:
+In my opinion, yes, you do.
 
-- Это не rocket science. Многие практики управления довольно просты, если их достаточно чётко сформулировать (чего многие не делают). Шаблоны в C++ или, там, транзакции в базах данных куда сложнее.
-- Всё так или иначе движется к плоским структурам, когда каждый член команды немного шарит в менеджменте => важно для вашей эффективности и для карьеры.
-- Пушить плоские структуры, децентрализацию, самоуправление выгоднее работникам на исполнительных позициях.
+- Management is not rocket science. Most of the practices are quite simple if formulated clearly enough (which many people just don't do). C++ templates or, say, database transactions are way more complex.
+- Everything is moving, one way or another, toward flat structures where every team member knows a bit about management — which makes these knowlege important both for your effectiveness and for your career.
+- Pushing flat structures, decentralization, and self-management is more beneficial for employees in frontline positions.
 
 ## А как же книги про психологию, общение?
 
