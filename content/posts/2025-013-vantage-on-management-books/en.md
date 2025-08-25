@@ -495,18 +495,18 @@ In my opinion, yes, you do.
 - Everything is moving, one way or another, toward flat structures where every team member knows a bit about management — which makes these knowlege important both for your effectiveness and for your career.
 - Pushing flat structures, decentralization, and self-management is more beneficial for employees in frontline positions.
 
-## А как же книги про психологию, общение?
+## And what with the books on psychology, communication?
 
-На текущий момент я **очень** скептически отношусь к использованию профессиональных инструментов психологов/психиатров/кого-угодно в менеджменте. Эти инструменты разрабатывались для других контекстов и для людей с другим образованием, не для менеджеров.
+Currently I am **very** skeptical about using professional tools from psychologists/psychiatrists/any other non-technical areas in management. These tools were developed for different contexts and for people with different education, not for managers.
 
-Например, для использования психотерапевтами с PhD на семейных парах в 1970-х. Это вообще никак не относится к профессиональному коллективу из 2020-х :-)
+For example, for use by psychotherapists with PhDs on married couples in the 1970s. This has nothing to do with professional collectives in the 2020s :-)
 
-За почти 20 лет работы в IT я ни разу не видел успешного использования подобных инструментов. Зато очень много раз видел их неправильное использование, которое только раздувало конфликт, вносило недоверие и раздор.
+**In nearly 20 years of working in IT, I've never seen a successful use of such tools.** What I've seen, many times over, is their misuse, which only fuels conflicts, breeds distrust, and sows discord.
 
-Не хочу растекаться пером по тексту, но вкратце моя логика такова:
+I won't wax lyrical here, but briefly, my reasoning is:
 
-- Средний управленец недостаточно компетентен для использования инструментов, требующих специализированного неуправленческого образования. И у него нет времени набрать эту компетенцию.
-- Средний технарь достаточно умён, чтобы замечать попытки непрофессионального использования таких инструментов на себе, но недостаточно компетентен, чтобы понимать зачем и почему их пытаются использовать. Часто ещё и времени осознать всё это нет, реакция идёт на подсознательном уровне.
-- Как результат, возникают моментальные конфликты на пустом месте: «мной манипулируют», «HR врёт», «менеджер творит чушь».
+- An average manager is not competent enough to use tools that require specialized non-managerial education. And they don't have time to acquire such competence.
+- An average frontline employee is smart enough to notice unprofessional attempts to use such tools on them, but not competent enough to understand why and for what purpose they are being used. Often, there's no time to conciously process what's happening, and the reaction is subconscious.
+- As a result, conflicts arise instantly out of nowhere: "I'm being manipulated," "HR is lying," "manager is doing nonsense".
 
-Как только найду что-нибудь стоящее именно про профессиональную культуру, приближённое к реальности, обязательно изучу и поделюсь.
+As soon as I find something worthwhile specifically about professional culture, that is close to reality, I'll definitely study it and share my thoughts.
