@@ -213,7 +213,7 @@ The book contains many examples of real business cases.
 
 The book itself is about startups, and the author occasionally points out their conceptual differences from more established businesses. In my view, nowadays everything is a startup to some degree, so the book will be useful to everyone. The key is to choose abstractions wisely.
 
-The Lean Startup suggests an interesting concept of measuring progress through the number of validated hypotheses rather than the amount of money, tasks, clients, or unit delivered. In conditions of high uncertainty, it's not so important how fast you're moving, but where exactly you're heading. Accordingly, the viability of a startup can be measured by how many radical pivots it still can make.
+The Lean Startup suggests an interesting concept of measuring progress through the number of validated hypotheses rather than the amount of money, tasks, clients, or units delivered. In conditions of high uncertainty, it's not so important how fast you're moving, but where exactly you're heading. Accordingly, the viability of a startup can be measured by how many radical pivots it still can make.
 
 In case you plan to read the book, I suggest looking at its ideas through the lens of bridging science, engineering, and management.
 
@@ -225,7 +225,7 @@ src = "./cover-reinventing-organizations.jpg"
 alt = "The cover of \"Reinventing Organizations\""
 ///
 
-How people can work together **the right way**: effectively, smoothly, without stress and without suffering, when everyone satisfied with the result. ~~Not the way things are done at your office.~~
+How people can work together **the right way**: effectively, smoothly, without stress and without suffering, when everyone is satisfied with the result. ~~Not the way things are done at your office.~~
 
 The author — Frederic Laloux — is a consultant and coach, besides that, I couldn't find anything remarkable in his biography except for this cool book.
 
@@ -246,7 +246,7 @@ The author — Frederic Laloux — is a consultant and coach, besides that, I co
 
 Frederic Laloux introduces a classification of organizations based on management focus, goals, and level of trust. He then shows how, throughout human history, organizations have evolved from "red" (authoritarian) to "teal" (self-managing). Finally, using real-life cases, he describes how today's frontier organizations — the teal ones — operate, noting that they are only just beginning to emerge.
 
-Since teal organizations are only beginning to emerge, the author points out that the book cannot serve as a textbook — no one really knows how to cook teal organizations properly.
+Since teal organizations are only beginning to emerge, the author points out that the book cannot serve as a textbook — no one really knows how to build teal organizations properly.
 
 And if I'm ever asked to name the most unfortunate labeling in human history, I'd point to the color classification of organizations from this book. For me — and, I suspect, for a lot of others — a "poetic" naming of categories instead of a "qualitative" one is a huge red flag. For this reason, I avoided Reinventing Organizations for years — I mean, what professional in their right mind would classify organizations by colors? Turns out, some do :-D
 
@@ -261,21 +261,21 @@ The book explores 11.5 organizations, ranging in size from 90 to 40000 people, a
 
 By the way, none of the organizations studied are owned by their employees. In other words, ownership rights and management style are orthogonal things.
 
-Author claims that both statements: "all employees are lazy, stupid liars and thieves" and "all employees are proactive, smart, and responsible specialists" are self-fulfilling prophecies. How management views people is how they behave. I fully agree with this.
+The author claims that both statements: "all employees are lazy, stupid liars and thieves" and "all employees are proactive, smart, and responsible specialists" are self-fulfilling prophecies. How management views people is how they behave. I fully agree with this.
 
-Also, Frederic Laloux often mentions the absence of political intrigue and other negativity in teal organizations. In my view, this may have various explanations: from a sign of the success of the tial concept to the survivor bias or the result of the small spread of the model — in the current state of the world, such organizations may attract more motivated and mature people than the average on the planet.
+Also, Frederic Laloux often mentions the absence of political intrigue and other negativity in teal organizations. In my view, this may have various explanations: from a sign of the success of the teal concept to the survivor bias or the result of the small spread of the model — in the current state of the world, such organizations may attract more motivated and mature people than the average on the planet.
 
-/// note | My tail experience
+/// note | My teal experience
 
 Tealness is a popular concept these days — a lot of companies strive to implement at least some of its elements — you'll definitely spot them in top startups and IT companies. I've personally seen it happen a couple of times. In my experience, senior management always pushed it from the top, without any deep explanation. So in the end, only practices aimed at senior management itself actually took hold.
 
 For example, weekly/monthly meetings with video broadcasts to the whole company really helped increase transparency. Until people started abusing them for internal PR of teams/products.
 
-However practices aimed at frontline employees never took root. If you just say "form a guild" or "let's all hang out and chat cheerfully every Friday" without explaining why, without giving an example, and without helping free up time, then people with real deadlines, planned work, and scheduled stress will, of course, give it a try (out of respect), but in the end it all fizzles out because of interfering with the established (and working!) pace.
+However, practices aimed at frontline employees never took root. If you just say "form a guild" or "let's all hang out and chat cheerfully every Friday" without explaining why, without giving an example, and without helping free up time, then people with real deadlines, planned work, and scheduled stress will, of course, give it a try (out of respect), but in the end it all fizzles out because of interfering with the established (and working!) pace.
 
 To change the pace, you need to change the production culture, to demonstrate the benefits of the new approach, preferably on your own example. Naturally, management itself can't do this; it has to be done by trained and motivated allies from below who have authority within the teams. Or by managers who actually work hands-on — which is possible, but comes hard. Value such people.
 
-On my last job, not knowing about the concept, I tried to move the team towards tealness based on my experience and intuition, and myself along the way. I'm not sure who moved whom more: me the team or the team me :-D Based on this experience, I can note a couple of things:
+At my last job, not knowing about the concept, I tried to move the team towards tealness based on my experience and intuition, and myself along the way. I'm not sure who moved whom more: me the team or the team me :-D Based on this experience, I can note a couple of things:
 
 1. At times, it was insanely difficult — especially when it came to transferring decisions from the personal to the collective level, particularly process-related ones. It's hard to explain your motivation to others, hard to keep yourself in check, especially when you "know the right way to do things".
 2. It really works, and the team starts to act like a "living organism" — without centralized control. The speed of response to events significantly increases. But to achieve this, everyone had to go through a bit of pain and suffering :-D
@@ -410,7 +410,7 @@ Retrospectively, the changes took shape in the concept of "team of teams":
 
 - Bring people together into teams with broad decision-making authority.
 - Establish horizontal links between teams by every available means — from how the workspace is organized to ongoing long-term team member exchanges. This creates horizontal communication channels through which information goes directly to those who need it, without traveling up and down multiple hierarchies.
-- Nurture culture that encourages initiative, autonomy, and responsibility.
+- Nurture a culture that encourages initiative, autonomy, and responsibility.
 
 In this way, Team of Teams strongly resonates with Sociocracy.
 
@@ -424,7 +424,7 @@ Nelson, in turn, created a culture where ship captains acted autonomously, makin
 
 The culture was so successful that Nelson even won a battle in which he was fatally wounded — the ship captains simply didn't notice the absence of their commander and continued to act according to the established strategy.
 
-To my mind, a similar approach was ascribed to [Mikhail Kutuzov](https://en.wikipedia.org/wiki/Mikhail_Kutuzov) in the [War and Peace](https://en.wikipedia.org/wiki/War_and_Peace), but [Leo Tolstoy](https://en.wikipedia.org/wiki/Leo_Tolstoy) caricatured it as the old man's inaction. Even back in school, it seemed to me that Kutuzov was depicted there in a rather unfair way.
+To my mind, a similar approach was ascribed to [Mikhail Kutuzov](https://en.wikipedia.org/wiki/Mikhail_Kutuzov) in [War and Peace](https://en.wikipedia.org/wiki/War_and_Peace), but [Leo Tolstoy](https://en.wikipedia.org/wiki/Leo_Tolstoy) caricatured it as the old man's inaction. Even back in school, it seemed to me that Kutuzov was depicted there in a rather unfair way.
 
 Another war-related story from Team of Teams: during the [Vietnam War](https://en.wikipedia.org/wiki/Vietnam_War), field medics found that it was more beneficial to remove the lead surgeon from the operating table — this allowed many people to work simultaneously, while the lead surgeon could spread their expertise across the entire team.
 ///
@@ -453,7 +453,7 @@ The author — [Ken Peach](https://scholar.google.com/citations?user=liE4ka8AAAA
 
 - You plan to build a career in science and want to understand how things work there.
 - You received a managerial role in the science area and want to quickly get oriented.
-- You are interested in practical aspects of managing large teams, described from a first-person perspective.
+- You are interested in the practical aspects of managing large teams, described from a first-person perspective.
 - You get hit with shady bureaucratic regulations — say, hiring quotas — and you have to figure out how not to let them wreck everything you've built through hard work.
 - You like the scary stories about bureaucracy.
 
@@ -469,11 +469,11 @@ From one side, this is expected from the work of a physicist; from the other sid
 
 Despite the descriptive nature, the practices and philosophy are well presented: up-to-date, rational, and consistent with other books in this post, so you can also read the book as a textbook. Perhaps for some, this format will even be more convenient.
 
-Overall, the author keeps a critical eye on the building of modern scientific bureaucracy. However, he also acknowledges that bureaucracy and regulations are inevitable, especially in a state-funded industry.
+Overall, the author keeps a critical eye on the edifice of modern scientific bureaucracy. However, he also acknowledges that bureaucracy and regulations are inevitable, especially in a state-funded industry.
 
 The book contains many interesting ideas; I especially like this one:
 
-> Under good leadership, it is possible that every member of the team performs excellently and then none are unsatisfactory or in need of significant improvements.
+> Under good leadership, it is possible that **every** member of the team performs excellently and then **none** are unsatisfactory or in need of significant improvements in performance; forcing quotas on the various grades means **inevitably** that the gades do not mean what they purport to mean.
 
 I'd really suggest HR and managers think about this idea before kicking off another round of evaluations.
 
