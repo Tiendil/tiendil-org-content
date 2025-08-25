@@ -85,7 +85,7 @@ This means that, for them, publishing a book is not only a way to share their ex
 
 Therefore, the content of the books will inevitably be biased. I think the bias towards positive examples and practices, as opposed to analyzing possible negative scenarios, is related to this nuance.
 
-Please keep this in mind while reading the books. In general, it's always better to take in account the motivation of the person who is trying to convince you of something.
+Please keep this in mind while reading the books. In general, it's always better to take into account the motivation of the person who is trying to convince you of something.
 ///
 
 **Third**, for some reason everyone strives to derive modern management practices from the history of management in factories, especially from Japanese ones, and especially from shop floors and assembly lines, rather than, for example, from the work of engineering offices or research/science teams. I fundamentally disagree with and disapprove of this approach, particularly in our time and especially when it comes to software development.
@@ -111,10 +111,10 @@ The author — [Ken Rubin](https://innolution.com/essential-scrum/about-the-auth
 ### The book is useful when
 
 - You're interested in history.
-- Your organization is in a total mess, and you need to quickly roll out something that works, standardized, and understandable.
+- Your organization is in a total mess, and you need to quickly roll out something that works, is standardized, and is understandable.
 - Things were fine until someone with shining eyes showed up and started pushing the "idiomatic and only true version of Scrum", and you suddenly need to speak the same language to either stop or support the madness.
 - You enjoy making people suffer, but you're not allowed to use [Waterfall](https://en.wikipedia.org/wiki/Waterfall_model) anymore.
-- You are an outsourcer, and the client understands nothing but Scrum.
+- You are an outsourcing vendor, and the client understands nothing but Scrum.
 
 ### Notes
 
@@ -161,7 +161,7 @@ alt = "The cover of \"Kanban\""
 
 Detailed explanation of [Kanban](https://en.wikipedia.org/wiki/Kanban) with pictures.
 
-The author — [David J. Anderson](https://en.wikipedia.org/wiki/David_J._Anderson_(author)) — a consultant and coach, manager since 1991, a pioneer of Kanban. I couldn't find links to his experience on frontline positions, but that doesn't mean he has none.
+The author — [David J. Anderson](https://en.wikipedia.org/wiki/David_J._Anderson_(author)) — a consultant and coach, manager since 1991, a pioneer of Kanban. I couldn't find references to his experience on frontline positions, but that doesn't mean he has none.
 
 ### The book is useful when
 
@@ -313,13 +313,13 @@ The authors:
 
 As the title suggests, the book offers a concept that stands as an alternative to the classic hierarchical bureaucracy — one that's all about people and for people. Still, I'd say that for now it's more of a marketing label than a fully-formed memeplex. So you can read it as a powerful, well-argued manifesto against bureaucratic cancer, accompanied by a set of SOTA methods for treatment and prevention. And, to some extent, as a collection of amusing stories.
 
-I won't list the arguments and practices against bureaucracy here — that becomes a retelling of the book.
+I won't list the arguments and practices against bureaucracy here — that would be a retelling of the book.
 
 Instead, I'll share a couple of fun things I noted:
 
-- At some point, the [SAP](https://en.wikipedia.org/wiki/SAP) in Germany discovered they had over 50000 KPIs. Being a resident of Germany, I can add that they probably missed another 150000 ones.
+- At some point, [SAP](https://en.wikipedia.org/wiki/SAP) in Germany discovered they had over 50000 KPIs. Being a resident of Germany, I can add that they probably missed another 150000 ones.
 - A steel plant with decentralized management has a headquarters of 200 people, while one with centralized management has 1000.
-- One of scientific studies found that [correlation](https://en.wikipedia.org/wiki/Correlation) between real productivity and self-assessed productivity is on average 0.29, while for managers it's 0.04 (!).
+- One scientific study found that [correlation](https://en.wikipedia.org/wiki/Correlation) between real productivity and self-assessed productivity is on average 0.29, while for managers it's 0.04 (!).
 
 The book ends with a statement that bureaucracy can be restructured from within. At the same time, Reinventing Organizations claims that similar transformations cannot be made without support from the very top. I'm currently leaning towards the opinion from Reinventing Organizations.
 
@@ -349,8 +349,7 @@ The authors:
 Unlike Humanocracy, this book presents a complete memeplex, which includes several key concepts:
 
 - Circle — a group of people who work together and decide together how to work. Essentially, an autonomous team, but with nuances. Circles are organized into a kind of hierarchy, also with nuances.
-- Decision-making by consent —
-- Принятие решений по consent — if somebody puts forward a proposal to the circle, it will be adopted unless someone raises a significant objection.
+- Decision-making by consent — if somebody puts forward a proposal to the circle, it will be adopted unless someone raises a significant objection.
 - The role of the circle leader — helps the circle move in the right direction, something like a manager-through-respect but not actually a manager :-)
 - The role of the circle delegate — a representative of the interests of the child circle in the parent circle.
 - Double-linking — each circle is connected to the parent one through two representatives: the leader and the delegate. According to the authors, this helps avoid a bunch of problems: from information distortion to manipulation and abuse of power.
@@ -473,7 +472,7 @@ Overall, the author keeps a critical eye on the edifice of modern scientific bur
 
 The book contains many interesting ideas; I especially like this one:
 
-> Under good leadership, it is possible that **every** member of the team performs excellently and then **none** are unsatisfactory or in need of significant improvements in performance; forcing quotas on the various grades means **inevitably** that the gades do not mean what they purport to mean.
+> Under good leadership, it is possible that **every** member of the team performs excellently and then **none** are unsatisfactory or in need of significant improvements in performance; forcing quotas on the various grades means **inevitably** that the grades do not mean what they purport to mean.
 
 I'd really suggest HR and managers think about this idea before kicking off another round of evaluations.
 
@@ -490,7 +489,7 @@ If you want to quickly level up in management, I would recommend reading:
 In my opinion, yes, you do.
 
 - Management is not rocket science. Most of the practices are quite simple if formulated clearly enough (which many people just don't do). C++ templates or, say, database transactions are way more complex.
-- Everything is moving, one way or another, toward flat structures where every team member knows a bit about management — which makes these knowledge important both for your effectiveness and for your career.
+- Everything is moving, one way or another, toward flat structures where every team member knows a bit about management — which makes this knowledge important both for your effectiveness and for your career.
 - Pushing flat structures, decentralization, and self-management is more beneficial for employees in frontline positions.
 
 ## And what about books on psychology and communication?
