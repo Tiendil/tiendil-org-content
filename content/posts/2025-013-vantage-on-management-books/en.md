@@ -477,7 +477,7 @@ The book contains many interesting ideas; I especially like this one:
 
 > Under good leadership, it is possible that every member of the team performs excellently and then none are unsatisfactory or in need of significant improvements.
 
-I would highly recommend that all HR and managers ponder this concept before starting another round of employee evaluations.
+I'd really suggest HR and managers think about this idea before kicking off another round of evaluations.
 
 ## Что из перечисленного почитать технарю?
 
