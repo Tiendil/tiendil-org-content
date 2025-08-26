@@ -16,11 +16,11 @@ caption = "Books featured in the post."
 tag = "vantage-on-management"
 ///
 
-At my last job, I sometimes found it difficult to convey my brilliant management ideas to colleagues. After some reflection, I realized I had drifted into an overly narrow and specific conceptual field, which often forced me to translate concepts from my internal representations into more or less commonly accepted terms on the fly. Not only is this hard, but people don't always see you as a smart person while you're doing it :-D
+At my last job, I sometimes found it challenging to convey my brilliant management ideas to colleagues. After some reflection, I realized I had drifted into an overly narrow and specific conceptual field, which often forced me to translate concepts from my internal representations into more or less commonly accepted terms on the fly. Not only is this hard, but people don't always see you as a smart person while you're doing it :-D
 
-Thus I decided to catch up with the latest achievements of human thought and, about a year ago, stocked up on 9 top-rated management books. With the idea of surveying the situation from a bird's-eye view, standardizing my glossary, and gathering arguments for the future.
+Thus, I decided to catch up with the latest achievements of human thought and, about a year ago, stocked up on 9 top-rated management books. With the idea of surveying the situation from a bird's-eye view, standardizing my glossary, and gathering arguments for the future.
 
-I spent the whole of last year reading these books but, against my usual habit, didn't write any reviews:
+I spent the whole of last year reading these books, but, against my usual habit, didn't write any reviews:
 
 - At my pace of writing, a review of 9 books would have taken a whole month.
 - All the books are top-tier — lots of readers, high ratings, plenty of reviews online — no point in repeating.
@@ -40,17 +40,17 @@ So, let's get started.
 
 I organized my reading in historical order: from more basic and older concepts to newer and more advanced ones. The books in this post are listed roughly in the same sequence. Of course, this sorting is only approximate — the books overlap in ideas, as they were all published within the last 20 years.
 
-I also want to remind you that any named thing — Scrum, Kanban, Teal organization, Humanocracy, etc. — is, de facto, a [memeplex]{post:@choose-nearest-language:genes-memes-memeplexes} — a set of atomic practices and ideas that have been grouped together for convenience. Just because this particular set has worked well for someone doesn't mean it will work well for you.
+I also want to remind you that any named thing — Scrum, Kanban, Teal organization, Humanocracy, etc. — is, de facto, a [memeplex]{post:@choose-nearest-language:genes-memes-memeplexes} — a set of atomic practices and ideas that have been grouped for convenience. Just because this particular set has worked well for someone doesn't mean it will work well for you.
 
-We should study such named sets of practices not to mindlessly follow them, but to break them down into atomic practices, understand how they interact with each other, and use this knowledge to assemble our own unique set of practices for our team/organization.
+We should study such named sets of practices, not to mindlessly follow them, but to break them down into atomic practices, understand how they interact with each other, and use this knowledge to assemble our own unique set of practices for our team/organization.
 
 ## Common Drawbacks
 
-Despite the differences in authors, topics, and time of publication, the books share a number of common traits — not all of them positive.
+Despite the differences in authors, topics, and time of publication, the books share a several common traits — not all of them positive.
 
-**First**, most of these books are written by managers for managers. Sometimes even by consultants for top managers. This leaves its mark on both the style of writing and the topics they choose to cover.
+**First**, most of these books are written by managers for managers. Sometimes, even by consultants for top managers. This leaves its mark on both the style of writing and the topics they choose to cover.
 
-The practical problems of frontline workers are touched on only lightly and superficially, as are the issues of their interaction with managers and the described practices. Instead, the focus often shifts to how managers and businesses interact with each other and with teams as a whole — essentially, on how to make things more convenient for the managers themselves. This is especially true of books that conceptually precede the "teal organizations." The gap between managers and frontline employees sometimes shows through quite starkly, and I'm not even sure the authors — or a significant part of their intended audience — notice it. At times this leads to rather questionable claims from a practical standpoint.
+The practical problems of frontline workers are touched on only lightly and superficially, as are the issues of their interaction with managers and the described practices. Instead, the focus often shifts to how managers and businesses interact with each other and with teams as a whole — essentially, on how to make things more convenient for the managers themselves. This is especially true of books that conceptually precede the "teal organizations." The gap between managers and frontline employees sometimes shows through quite starkly, and I'm not even sure the authors — or a significant part of their intended audience — notice it. At times, this leads to rather questionable claims from a practical standpoint.
 
 /// note | Using User Stories as an example
 
@@ -62,19 +62,18 @@ At the same time, for "development", a User Story may be a whole front of work c
 
 In the context of development, from a programmer's perspective, each such atomic task has the same semantics as a User Story for the business.
 
-This distinction in context and semantics is literally a constant source of friction — I have never encountered a team with a complete consensus on the matter, and where the developers had no questions about types of tasks.
+This distinction in context and semantics is literally a constant source of friction — I have never encountered a team with a complete consensus on the matter, and where the developers had no questions about the types of tasks.
 
 However, no book covers this or similar distinctions in work perception — they all describe situations at 1-2 levels of abstraction above.
 ///
 
 Much of the attention in the books is often given to large companies and large projects. This isn't always a bad thing, but it's something you should always keep in mind. Companies with 10, 100, 1000, or 10000 employees face very different problems and have very different criteria for what counts as a successful solution.
 
-The older the book, the more it is steeped in, let's say, caricatured masculinity. I used to think that all those baseball, sports, cars, and survivalist analogies were just a relic of the 1980s and of pseudo–improvement courses. But apparently not
-— authors still use those analogies, which means the target audience for management books is responsive to them.
+The older the book, the more it is steeped in, let's say, caricatured masculinity. I used to think that all those baseball, sports, cars, and survivalist analogies were just a relic of the 1980s and of pseudo–improvement courses. But apparently not — authors still use those analogies, which means the target audience for management books is responsive to them.
 
 **Second**, most books are not just textbooks, but also manifestos of specific practices. Thus, most of the space is devoted to positive examples; negative scenarios are discussed less, abstractly, and not as deeply.
 
-At the same time, we remember that "all happy families are alike; while each unhappy family is unhappy in its own way". So, **the primary problem of any collective is not how to do things "right," but how to identify and work through its own unique wrongness**. That's why, when I started reading, I hoped to find deep dives into negative scenarios; instead, I almost did not find them.
+At the same time, we remember that "all happy families are alike; while each unhappy family is unhappy in its own way". So, **the primary problem of any team is not how to do things "right," but how to identify and work through its own unique wrongness**. That's why, when I started reading, I hoped to find deep dives into negative scenarios; instead, I almost did not see them.
 
 All the books that focus on the memeplex — a set of practices —  walk a fine line between a list of useful tools and a [cargo cult](https://en.wikipedia.org/wiki/Cargo_cult). Accordingly, I have an unprovable suspicion that most people who use these sets don't really understand why they are the way they are or how they actually work.
 
