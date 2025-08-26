@@ -87,7 +87,7 @@ Therefore, the content of the books will inevitably be biased. I think the bias 
 Please keep this in mind while reading the books. In general, it's always better to take into account the motivation of the person who is trying to convince you of something.
 ///
 
-**Third**, for some reason everyone strives to derive modern management practices from the history of management in factories, especially from Japanese ones, and especially from shop floors and assembly lines, rather than, for example, from the work of engineering offices or research/science teams. I fundamentally disagree with and disapprove of this approach, particularly in our time and especially when it comes to software development.
+**Third**, for some reason, everyone strives to derive modern management practices from the history of management in factories, especially from Japanese ones, and especially from shop floors and assembly lines, rather than, for example, from the work of engineering offices or research/science teams. I fundamentally disagree with and disapprove of this approach, particularly in our time and especially when it comes to software development.
 
 In one of the upcoming posts, I'll focus on how engineering teams are closer in nature to scientific ones than to production units — and what that means for management.
 
@@ -105,7 +105,7 @@ alt = "The cover of \"Essential Scrum\""
 
 A detailed explanation of [Scrum](https://en.wikipedia.org/wiki/Scrum) with pictures: "from scratch to Scrum Master".
 
-The author — [Ken Rubin](https://innolution.com/essential-scrum/about-the-author) — a consultant and coach since the 1980s; has a technical background in [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) and [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming); has extensive experience in management positions and entrepreneurship. One of the pioneers of Scrum.
+The author — [Ken Rubin](https://innolution.com/essential-scrum/about-the-author) — a consultant and coach since the 1980s; has a technical background in [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) and [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming); has extensive experience in management positions and entrepreneurship; one of the pioneers of Scrum.
 
 ### The book is useful when
 
@@ -160,7 +160,7 @@ alt = "The cover of \"Kanban\""
 
 Detailed explanation of [Kanban](https://en.wikipedia.org/wiki/Kanban) with pictures.
 
-The author — [David J. Anderson](https://en.wikipedia.org/wiki/David_J._Anderson_(author)) — a consultant and coach, manager since 1991, a pioneer of Kanban. I couldn't find references to his experience in frontline positions, but that doesn't mean he has none.
+The author — [David J. Anderson](https://en.wikipedia.org/wiki/David_J._Anderson_(author)) — a consultant and coach, a manager since 1991, a pioneer of Kanban. I couldn't find references to his experience in frontline positions, but that doesn't mean he has none.
 
 ### The book is useful when
 
@@ -195,11 +195,11 @@ alt = "The cover of \"The Lean Startup\""
 
 How to kick off a [feedback loop]{post:hypothesis-testing-loop} on the example of startups.
 
-The author — [Eric Ries](https://en.wikipedia.org/wiki/Eric_Ries) — is an experienced startup founder who started out on a technical path.
+The author — [Eric Ries](https://en.wikipedia.org/wiki/Eric_Ries) — an experienced startup founder who started on a technical path.
 
 ### The book is useful when
 
-- **Always**. We better gift The Lean Startup to every 20-year-old to casually clarify some aspects of our interaction with the universe and help young entrepreneurs avoid trivial mistakes.
+- **Always**. We'd better gift The Lean Startup to every 20-year-old to casually clarify some aspects of our interaction with the universe and help young entrepreneurs avoid trivial mistakes.
 - You're launching a startup, starting a new product, or just getting involved in some venture.
 - Your company/team does not know what to do next, there is no strategy, you don't understand what's going on.
 - You need to act in conditions of extreme uncertainty.
@@ -210,9 +210,9 @@ The author built his career on a technical track and rose to the position of CTO
 
 The book contains many examples of real business cases.
 
-The book itself is about startups, and the author occasionally points out their conceptual differences from more established businesses. In my view, nowadays everything is a startup to some degree, so the book will be useful to everyone. The key is to choose abstractions wisely.
+The book itself is about startups, and the author occasionally points out their conceptual differences from more established businesses. In my view, nowadays, everything is a startup to some degree, so the book will be helpful to everyone. The key is to choose abstractions wisely.
 
-The Lean Startup suggests an interesting concept of measuring progress through the number of validated hypotheses rather than the amount of money, tasks, clients, or units delivered. In conditions of high uncertainty, it's not so important how fast you're moving, but where exactly you're heading. Accordingly, the viability of a startup can be measured by how many radical pivots it still can make.
+The Lean Startup suggests an interesting concept of measuring progress through the number of validated hypotheses rather than the amount of money, tasks, clients, or units delivered. In conditions of high uncertainty, it's not so important how fast you're moving, but where exactly you're heading. Accordingly, the viability of a startup can be measured by how many radical pivots it can still make.
 
 In case you plan to read the book, I suggest looking at its ideas through the lens of bridging science, engineering, and management.
 
