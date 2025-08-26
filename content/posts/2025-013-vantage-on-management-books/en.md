@@ -422,7 +422,7 @@ Nelson, in turn, created a culture where ship captains acted autonomously, makin
 
 The culture was so successful that Nelson even won a battle in which he was fatally wounded — the ship captains simply didn't notice the absence of their commander and continued to act according to the established strategy.
 
-To my mind, a similar approach was ascribed to [Mikhail Kutuzov](https://en.wikipedia.org/wiki/Mikhail_Kutuzov) in [War and Peace](https://en.wikipedia.org/wiki/War_and_Peace), but [Leo Tolstoy](https://en.wikipedia.org/wiki/Leo_Tolstoy) caricatured it as the old man's inaction. Even back in school, it seemed to me that Kutuzov was depicted there in a rather unfair way.
+To my mind, a similar approach is attributed to [Mikhail Kutuzov](https://en.wikipedia.org/wiki/Mikhail_Kutuzov) in [War and Peace](https://en.wikipedia.org/wiki/War_and_Peace) by [Leo Tolstoy](https://en.wikipedia.org/wiki/Leo_Tolstoy). Characters often mistake this strategy for an old man’s inaction, which reveals more about them than it does about him.
 
 Another war-related story from Team of Teams: during the [Vietnam War](https://en.wikipedia.org/wiki/Vietnam_War), field medics found that it was more beneficial to remove the lead surgeon from the operating table — this allowed many people to work simultaneously, while the lead surgeon could spread their expertise across the entire team.
 ///
