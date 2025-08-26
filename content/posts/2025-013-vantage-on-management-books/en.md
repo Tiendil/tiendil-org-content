@@ -226,7 +226,7 @@ alt = "The cover of \"Reinventing Organizations\""
 
 How people can work together **the right way**: effectively, smoothly, without stress and without suffering, when everyone is satisfied with the result. ~~Not the way things are done at your office.~~
 
-The author — Frederic Laloux — is a consultant and coach, besides that, I couldn't find anything remarkable in his biography except for this cool book.
+The author — Frederic Laloux — is a consultant and coach; besides that, I couldn't find anything remarkable in his biography except for this cool book.
 
 ### The book is useful when
 
@@ -252,13 +252,13 @@ And if I'm ever asked to name the most unfortunate labeling in human history, I'
 To avoid misunderstandings, the author explicitly states that:
 
 - It is incorrect to claim that a certain organization has a pure color X — there is always a mix of colors.
-- Though the new types of organizations emerge with time, new ones do not completely replace the old ones. Organizations of all colors always coexist. Some niches require a more "primitive" approach; others do not exert enough pressure to transition to a more complex structure.
+- Though the new types of organizations emerge with time, new ones do not entirely replace the old ones. Organizations of all colors always coexist. Some niches require a more "primitive" approach; others do not exert enough pressure to transition to a more complex structure.
 
 In other words, the author speaks more from the position of a motivated researcher than a dogmatic propagandist.
 
-The book explores 11.5 organizations, ranging in size from 90 to 40000 people, and ages from half a century to 5-10 years. The stories of these organizations and the practices described are interesting even without considering their "tealness," so the book will be useful even if you're not interested in the color-coded pants differentiation.
+The book explores 11.5 organizations, ranging in size from 90 to 40000 people, and ages from half a century to 5-10 years. The stories of these organizations and the practices described are interesting even without considering their "tealness," so the book will be helpful even if you're not interested in the color-coded pants differentiation.
 
-By the way, none of the organizations studied are owned by their employees. In other words, ownership rights and management style are orthogonal things.
+By the way, none of the organizations studied is owned by its employees. In other words, ownership rights and management style are orthogonal things.
 
 The author claims that both statements: "all employees are lazy, stupid liars and thieves" and "all employees are proactive, smart, and responsible specialists" are self-fulfilling prophecies. How management views people is how they behave. I fully agree with this.
 
@@ -266,11 +266,11 @@ Also, Frederic Laloux often mentions the absence of political intrigue and other
 
 /// note | My teal experience
 
-Tealness is a popular concept these days — a lot of companies strive to implement at least some of its elements — you'll definitely spot them in top startups and IT companies. I've personally seen it happen a couple of times. In my experience, senior management always pushed it from the top, without any deep explanation. So in the end, only practices aimed at senior management itself actually took hold.
+Tealness is a popular concept these days — many companies strive to implement at least some of its elements — you'll definitely spot them in top startups and IT companies. I've personally seen it happen a couple of times. In my experience, senior management always pushed it from the top, without any deep explanation. So in the end, only practices aimed at senior management itself actually took hold.
 
 For example, weekly/monthly meetings with video broadcasts to the whole company really helped increase transparency. Until people started abusing them for internal PR of teams/products.
 
-However, practices aimed at frontline employees never took root. If you just say "form a guild" or "let's all hang out and chat cheerfully every Friday" without explaining why, without giving an example, and without helping free up time, then people with real deadlines, planned work, and scheduled stress will, of course, give it a try (out of respect), but in the end it all fizzles out because of interfering with the established (and working!) pace.
+However, practices aimed at frontline employees never took root. If you just say "form a guild" or "let's all hang out and chat cheerfully every Friday" without explaining why, without giving an example, and without helping free up time, then people with real deadlines, planned work, and scheduled stress will, of course, give it a try (out of respect), but, in the end, it all fizzles out because of interfering with the established (and working!) pace.
 
 To change the pace, you need to change the work culture, to demonstrate the benefits of the new approach, preferably on your own example. Naturally, management itself can't do this; it has to be done by trained and motivated allies from below who have authority within the teams. Or by managers who actually work hands-on — which is possible, but comes hard. Value such people.
 
