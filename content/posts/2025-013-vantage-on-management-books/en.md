@@ -1,5 +1,5 @@
 ---
-title = "What to read"
+title = "What to read, when, and why"
 tags = [ "theory", "development", "books", "interesting", "professional-books", "management", "vantage-on-management"]
 series = "vantage-on-management"
 published_at = "2025-08-13T12:00:00+00:00"
@@ -46,7 +46,7 @@ We should study such named sets of practices, not to mindlessly follow them, but
 
 ## Common Drawbacks
 
-Despite the differences in authors, topics, and time of publication, the books share a several common traits — not all of them positive.
+Despite the differences in authors, topics, and time of publication, the books share several common traits — not all of them positive.
 
 **First**, most of these books are written by managers for managers. Sometimes, even by consultants for top managers. This leaves its mark on both the style of writing and the topics they choose to cover.
 
