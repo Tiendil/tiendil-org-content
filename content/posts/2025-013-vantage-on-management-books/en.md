@@ -272,13 +272,13 @@ For example, weekly/monthly meetings with video broadcasts to the whole company 
 
 However, practices aimed at frontline employees never took root. If you just say "form a guild" or "let's all hang out and chat cheerfully every Friday" without explaining why, without giving an example, and without helping free up time, then people with real deadlines, planned work, and scheduled stress will, of course, give it a try (out of respect), but, in the end, it all fizzles out because of interfering with the established (and working!) pace.
 
-To change the pace, you need to change the work culture, to demonstrate the benefits of the new approach, preferably on your own example. Naturally, management itself can't do this; it has to be done by trained and motivated allies from below who have authority within the teams. Or by managers who actually work hands-on — which is possible, but comes hard. Value such people.
+To change the pace, you need to change the work culture and demonstrate the benefits of the new approach, preferably by your own example. Naturally, management itself can't do this; it has to be done by trained and motivated allies from below who have authority within the teams. Or by managers who actually work hands-on, which is possible, but comes hard — we should value such people.
 
-At my last job, not knowing about the concept, I tried to move the team towards tealness based on my experience and intuition, and myself along the way. I'm not sure who moved whom more: me the team or the team me :-D Based on this experience, I can note a couple of things:
+At my last job, not knowing about the concept, I tried to move the team towards tealness based on my experience and intuition, and myself along the way. I'm not sure who moved whom more: me the team, or the team me :-D Based on this experience, I can note a couple of things:
 
 1. At times, it was insanely difficult — especially when it came to transferring decisions from the personal to the collective level, particularly process-related ones. It's hard to explain your motivation to others, hard to keep yourself in check, especially when you "know the right way to do things".
 2. It really works, and the team starts to act like a "living organism" — without centralized control. The speed of response to events significantly increases. But to achieve this, everyone had to go through a bit of pain and suffering :-D
-3. Introducing such practices without support and/or understanding from the top is severely limited and is associated with with high psychological costs — it's very easy to burn out, and easy to hit a wall. Frederic also notes this.
+3. Introducing such practices without support and/or understanding from the top is severely limited and is associated with high psychological costs — it's very easy to burn out, and easy to hit a wall. Frederic also notes this.
 4. If I had read Reinventing Organizations before, it would have been much easier to convey my ideas.
 
 Overall, the ideas presented in the book correlate very well with my experience and ideology.
@@ -341,7 +341,7 @@ The authors:
 
 - You sincerely decided to adopt decentralization in your team/organization and need a ready-to-use set of practices to start with.
 - You want to increase the level of autonomy of people and teams.
-- You have problems with communication and delegation in your team/organization and want to solve them.
+- You have problems with communication and delegation in your team/organization, and want to solve them.
 
 ### Notes
 
@@ -386,16 +386,16 @@ Co-authors: Tantum Collins, David Silverman, Chris Fussell.
 
 **The book is cooler than it seems at first glance.**
 
-At first I was skeptical about Team of Teams. An army general writing about management — given what I know about how armies are organized in the post-Soviet space, I was expecting pure cringe. But after reading it, I came to the conclusion that the book is solid not only in content but also in concept: one simple book devoted to one specific idea, grounded in real practical experience. A clear development of the idea, combined with the author's personal experience and impressions — we need more books like this.
+At first, I was skeptical about Team of Teams. An army general writing about management — given what I know about how armies are organized in the post-Soviet space, I was expecting pure cringe. But after reading it, I concluded that the book is solid not only in content but also in concept: one simple book devoted to one specific idea, grounded in real practical experience. A clear development of the idea, combined with the author's personal experience and impressions — we need more books like this.
 
 One can describe the problem faced by the Task Force as follows.
 
 A highly organized, informed, optimized **centralized** structure encountered an inefficient, uninformed, disorganized **decentralized** structure and started losing because it couldn't keep pace. They were winning battles, but not the war. To turn things around, the command decided to flatten hierarchies, remove centralization, and push decision-making down to frontlines.
 
 /// note | Centralization vs decentralization
-If I understood the essence correctly, the author sees the reason for centralization losing to decentralization in the sharp reduction of planning horizons due to the increasing complexity of connections and acceleration of communications in the world.
+If I understand the essence correctly, the author sees the reason for centralization losing to decentralization in the sharp reduction of planning horizons due to the increasing complexity of connections and acceleration of communications in the world.
 
-Since the time of information and decision flow through a deep hierarchy doesn't decrease, while the pace of environmental change keeps accelerating, at some point, a centralized structure can no longer keep up. It starts issuing orders with delays, which leads to an accumulation of mistakes — from short-term to strategic.
+Since the time of information and decision flow through a deep hierarchy doesn't decrease, while the pace of environmental change keeps accelerating, at some point, a centralized structure can eventually no longer keep up. It starts issuing orders with delays, which leads to an accumulation of mistakes — from short-term to strategic.
 
 In other words, there is always a temporal limit of predictability that restricts the time available for making and implementing decisions. Currently, this limit is rapidly shrinking, and everyone needs to adapt to the new conditions.
 
