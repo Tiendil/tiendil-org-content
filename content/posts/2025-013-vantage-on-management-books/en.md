@@ -147,7 +147,7 @@ The author — [Mike Cohn](https://en.wikipedia.org/wiki/Mike_Cohn) — a consu
 
 Respect to the author for clearly pointing out that all memplexes from books and courses are not a guide to action, but a template that one should bend to fit their own specific needs.
 
-**For a pilot Scrum project, the author suggests taking a project not larger than 5 teams :-D** So I dare to assume that if you have fewer than 5 teams in your company, you probably don’t need to bother with Scrum at all :-D
+**For a pilot Scrum project, the author suggests taking a project not larger than 5 teams :-D** So I dare to assume that if you have fewer than 5 teams in your company, you probably don't need to bother with Scrum at all :-D
 
 The book pushes, in various guises, the idea that you need to "jolt" the team from time to time. Now it's clear which methodology the Belarusian government works by (local humor).
 
@@ -371,7 +371,7 @@ alt = "The cover of \"Team of Teams\""
 
 The book tells how a U.S. Army general "refactored" a [joint task force](https://en.wikipedia.org/wiki/Joint_task_force) to fight [Al-Qaeda](https://en.wikipedia.org/wiki/Al-Qaeda) in [Iraq](https://en.wikipedia.org/wiki/Iraq). 50% of military anecdotes, 25% of military showmanship and praise, 25% of management.
 
-The author — [Stanley McChrystal](https://en.wikipedia.org/wiki/Stanley_A._McChrystal) — a retired U.S. Army general, ~~not a consultant or coach~~ after retirement, he founded a consulting company. In 2010, he came into conflict with the U.S. President’s administration, which led to his resignation.
+The author — [Stanley McChrystal](https://en.wikipedia.org/wiki/Stanley_A._McChrystal) — a retired U.S. Army general, ~~not a consultant or coach~~ after retirement, he founded a consulting company. In 2010, he came into conflict with the U.S. President's administration, which led to his resignation.
 
 Co-authors: Tantum Collins, David Silverman, Chris Fussell.
 
@@ -396,7 +396,7 @@ A highly organized, informed, optimized **centralized** structure encountered an
 /// note | Centralization vs decentralization
 If I understood the essence correctly, the author sees the reason for centralization losing to decentralization in the sharp reduction of planning horizons due to the increasing complexity of connections and acceleration of communications in the world.
 
-Since the time of information and decision flow through a deep hierarchy doesn’t decrease, while the pace of environmental change keeps accelerating, at some point, a centralized structure can no longer keep up. It starts issuing orders with delays, which leads to an accumulation of mistakes — from short-term to strategic.
+Since the time of information and decision flow through a deep hierarchy doesn't decrease, while the pace of environmental change keeps accelerating, at some point, a centralized structure can no longer keep up. It starts issuing orders with delays, which leads to an accumulation of mistakes — from short-term to strategic.
 
 In other words, there is always a temporal limit of predictability that restricts the time available for making and implementing decisions. Currently, this limit is rapidly shrinking, and everyone needs to adapt to the new conditions.
 
@@ -433,7 +433,7 @@ In short, the book is about stepping back and letting things flow :-)
 Here are some more interesting notes:
 
 - **This is the only book that uses a scientific organization — [NASA](https://en.wikipedia.org/wiki/NASA) — as an example of organizational structure.**
-- The reforms in the Task Force partly led to one of the largest leaks of secret army data to [WikiLeaks](https://wikileaks.org/). The author takes the position that this is an inevitable risk, and even considering it, the reforms were worth it. I’m not sure it would make sense for the general responsible to claim anything else — but still.
+- The reforms in the Task Force partly led to one of the largest leaks of secret army data to [WikiLeaks](https://wikileaks.org/). The author takes the position that this is an inevitable risk, and even considering it, the reforms were worth it. I'm not sure it would make sense for the general responsible to claim anything else — but still.
 - At some point, the command delegated decision-making on airstrikes to subordinates. If an army general can afford such liberty in a military operation, then a regular manager should definitely be able to do similar things.
 
 ## Managing Science (2017)
