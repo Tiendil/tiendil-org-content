@@ -463,9 +463,9 @@ Managing Science looks more like a factual description of how science is organiz
 
 So, the book is not about how things should be, but about how they are.
 
-From one side, this is expected from the work of a physicist; from the other side, I hoped for more philosophy and practices, as I'm very interested in borrowing management experience from scientific collectives. It's a pity, because this is the only book on management in science that caught my interest. I'll keep looking; if you know any others, please let me know, I'll be grateful.
+On one hand, this is expected from a work of a physicist; on the other hand, I had hoped for more philosophical and practical insights, as I'm very interested in borrowing management experience from scientific collectives. It's a pity, because this is the only book on management in science that caught my interest. I'll keep looking; if you know any others, please let me know. I'll be grateful.
 
-Despite the descriptive nature, the practices and philosophy are well presented: up-to-date, rational, and consistent with other books in this post, so you can also read the book as a textbook. Perhaps for some, this format will even be more convenient.
+Despite the book's descriptive nature, the practices and philosophy are well presented: up-to-date, rational, and consistent with other books in this post, so you can also read the book as a textbook. Perhaps for some, this format will even be more convenient.
 
 Overall, the author keeps a critical eye on the edifice of modern scientific bureaucracy. However, he also acknowledges that bureaucracy and regulations are inevitable, especially in a state-funded industry.
 
@@ -488,12 +488,12 @@ If you want to quickly level up in management, I would recommend reading:
 In my opinion, yes, you do.
 
 - Management is not rocket science. Most of the practices are quite simple if formulated clearly enough (which many people just don't do). C++ templates or, say, database transactions are way more complex.
-- Everything is moving, one way or another, toward flat structures where every team member knows a bit about management — which makes this knowledge important both for your effectiveness and for your career.
+- Everything is moving, one way or another, toward flat structures where every team member knows a bit about management, which makes this knowledge important both for your effectiveness and for your career.
 - Pushing flat structures, decentralization, and self-management is more beneficial for employees in frontline positions.
 
 ## And what about books on psychology and communication?
 
-Currently I am **very** skeptical about using professional tools from psychologists/psychiatrists/any other non-technical areas in management. These tools were developed for different contexts and for people with different education, not for managers.
+Currently, I am **very** skeptical about using professional tools from psychologists/psychiatrists/any other non-technical areas in management. These tools were developed for different contexts and for people with varying levels of education, not for managers.
 
 For example, for use by psychotherapists with PhDs working with married couples in the 1970s. This has nothing to do with teams of professionals in the 2020s :-)
 
@@ -505,4 +505,4 @@ I won't wax lyrical here, but briefly, my reasoning is:
 - An average frontline employee is smart enough to notice unprofessional attempts to use such tools on them, but not competent enough to understand why and for what purpose they are being used. Often, there's no time to consciously process what's happening, and the reaction is subconscious.
 - As a result, conflicts arise instantly out of nowhere: "I'm being manipulated," "HR is lying," "manager is acting foolishly".
 
-As soon as I find something worthwhile specifically about professional culture, that is close to reality, I'll definitely study it and share my thoughts.
+As soon as I find something worthwhile, specifically about professional culture, that is close to reality, I'll definitely study it and share my thoughts.
