@@ -10,7 +10,7 @@ package-mode = false
 python = "^3.12"
 
 uvicorn = {extras = ["standard"], version = "0.*"}
-brigid = "^0.14.0"
+brigid = "^0.14.1"
 
 # brigid = {path = "../../brigid", develop = true}
 
