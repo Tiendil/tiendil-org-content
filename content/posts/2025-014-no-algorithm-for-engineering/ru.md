@@ -3,11 +3,14 @@ title = "Нет алгоритма для инженерии"
 tags = [ "theory", "development", "interesting", "management", "vantage-on-management"]
 series = "vantage-on-management"
 published_at = "2025-09-24T12:00:00+00:00"
-seo_description = "Инженеры создают новое, а значит их работу нельзя регламентировать детальными инструкциями. В этом посте я объясняю почему и что из этого следует для менеджмента инженерных коллективов."
-seo_image = ""
+seo_description = "Инженеры создают новое, а значит их работу нельзя регламентировать детальными инструкциями. Что из этого следует для менеджмента инженерных коллективов?"
+seo_image = "./cover.jpg"
 ---
 
-<!-- TODO: cover -->
+/// brigid-images
+src = "./cover.jpg"
+caption = "«Инженер Сидящий» © ChatGPT + Врубель"
+///
 
 /// brigid-series
 tag = "vantage-on-management"
