@@ -8,7 +8,6 @@ seo_image = ""
 ---
 
 <!-- TODO: cover -->
-<!-- TODO: rename directory with this post accoring to its caption -->
 
 /// brigid-series
 tag = "vantage-on-management"
