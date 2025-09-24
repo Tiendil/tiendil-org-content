@@ -64,7 +64,7 @@ Bias is inevitable. For example, software engineering offers the fastest route f
 
 ///
 
-## Engineers produce novelty
+## Engineers produce new information
 
 Even in the era of [drawing boards](https://en.wikipedia.org/wiki/Drafting_table), the essence of engineering work was not to copy a drawing one-to-one, but to add something new or create it from scratch. There were even specific roles like "tracer" or "drafting assistant" whose job was to relieve engineers of the repetitive operations.
 
@@ -78,16 +78,15 @@ It was a tough time."""
 
 Nowadays, specialized software makes it possible to eliminate the vast majority of routine operations and focus on the essence of engineering work — creating something new.
 
+**It is impossible to create novelty by following a detailed instruction.**
 
-**Процесс создание нового невозможно воспроизвести следуя детальной инструкции**.
+If an engineer records all their actions from start to successful result and passes this instruction to another person as an exact set of instructions, the output will be a copy of the result, for example, a copy of a tractor blueprint or a program with functionality identical to the original.
 
-Если инженер запишет все свои действия от начала до успешного результата и передаст эту инструкцию другому человеку (исполнителю) как точную инструкцию, то на выходе получится копия результата, например, копия чертежа трактора, или программа с функциональностью полностью аналогичной оригинальтной программе.
+We end up with a meaningless and costly process of copying already existing information that does not create new value.
 
-Мы получим бессмысленный и дорогой процесс копирования уже существующей информации, который не создаст новую ценность.
+This is especially evident in software engineering, as it deals almost entirely with pure information and is therefore less dependent on physical constraints. We can instantly create many copies of the same program, but by reproducing a copy of information, we do not create something new. Therefore, if programmers perform repetitive detailed work (for example, writing code for each interface button from scratch), it is highly likely that something is going wrong somewhere.
 
-Это особенно заметно на примере програмной инженерии, так как в ней мы работает практически с чистой информацией, а значит меньше всего зависим от физических ограничений. Воспроизводя копию информации мы не создаём новое. Поэтому, если программисты делают повторяемую низкодетализированную работу (например, с нуля пишут код для кнопок интерфейса), с большой вероятностью где-то что-то идёт не так.
-
-Напротив, если дать человеку (исполнителю) инструкцию, например, по работе на конвейере, то на каждом цикле завершения интрукции на выходе будет копия физического продукта, которая будет иметь собственную ценность.
+By contrast, if we give a person an instruction, for example, on how to work on an assembly line, then at each cycle of completing the instruction, there will be a copy of a physical product at the output, which will have its own value.
 
 ## Для инженера не может быть детальных инструкций
 
