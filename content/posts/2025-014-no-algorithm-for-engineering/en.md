@@ -36,15 +36,15 @@ That's why in this and the next couple of posts I want to discuss the role of cr
 
 <!-- more -->
 
-/// note | Оговорки
+/// note | Disclaimers
 
-**В каждой работе есть творческая составляющая**
+**Every job has a creative component**
 
-Для нужд этого эссе и последующих я переодически буду говорить об инженерных и научных коллективах как о «творческих коллективах».
+For the purposes of this essay and the ones that follow, I may occasionally refer to engineering and scientific teams as "creative teams".
 
-Это не значит, что я отказываю всем прочим в творческой компоненте — она есть в любой работе и часто зависит скорее от человека, чем от его роли.
+That does not mean I deny the creative component to all other jobs — it exists in every job and often depends more on the person than on their role.
 
-Однако мы должны признать, что есть работа, которая требует больше творчества, а есть работа, которая требует меньше творчества. Это отличие неизбежно влияет на то, как люди делают свою работу, а значит, и на то, как управлять ими.
+However, we must acknowledge that some work demands more creativity, while other demand less. This distinction inevitably affects how people do their jobs and, consequently, how to manage them in the best way.
 
 **В мире нет места абсолюту**
 
