@@ -186,18 +186,18 @@ Unfortunately, we can't. Task estimation is a probabilistic quantity, so tasks w
 In this regard, it would be interesting to try estimating tasks using intervals in practice. I even managed to find some discussions on the topic, but I haven't come across any really illustrative examples.
 ///
 
-## Практические следствия
+## Practical consequences
 
-Необходимо понимать какой тип работ выполняет команда и практики для какого типа работ мы пытаемся использовать. Если эти типы работ разные — мы делаем что-то не так и, скорее всего, вредим команде, компании и продукту.
+It's essential to understand what type of work the team is doing and what type of work the practices we're applying are meant for. If those types differ, we're doing something wrong and are likely harming the team, the company, and the product.
 
-Для работы с известным фиксированным результатом мы создаём и оптимизируем инструкции. Мы можем количественно измерять эффективность работы на индивидуальном уровне для оптимизации инструкций и развития профессиональных навыков людей.
+For the work with a known fixed outcome, we create and optimize instructions. We can quantitatively measure individual performance to optimize instructions and develop people's professional skills.
 
-Для творческой работы мы задаём ограничения исходя из желаемых метрик продукта и нарабатываем базу рекомендаций на основе практики. Мы оптимизируем продукт и его команду, а не конкретных людей. Для развития профессиональных навыков людей мы используем качественную экспертную оценку.
+For the creative work, we set constraints based on the desired product metrics and build a knowledge base of guidelines based on practice. We optimize the product and its team, not specific individuals. For developing people's professional skills, we use qualitative expert evaluation.
 
-## Теоретические следствия
+## Theoretical consequences
 
-На мой взгляд, необходимо разворачивать базовые концепции управления в сторону управления творческими коллективами и на основе нового базиса формировать концептуально новые наборы практик.
+In my opinion, we should pivot the basic concepts of management towards managing creative teams and, based on this new basis, form conceptually new sets of practices.
 
-Сейчас происходит глобальные сдвиг распределения типа работ/профессий/ролей в сторону творческих, со временем их доля будет только возрастать. Массовая автоматизация, внедрения ИИ и робототехники этому отлично способствует. Направляя новый мир старыми методами мы будем не только тратить ресурсы впустую, но и плодить страдания среди работников и клиентов.
+There is going a global shift in the distribution of job types, professions, and roles toward creative work. Over time, the share of creative jobs will only increase. Large-scale automation, along with the spread of AI and robotics, strongly accelerates this trend. Steering the new world with old methods will not only waste resources but also create suffering for both workers and customers.
 
-В частности, на мой взгляд, инженерии надо заимствовать практики у науки — организовывать команды как научные лаборатории. Почему это надо делать и как я попробую раскрыть в следующих постах.
+In particular, I believe engineering should borrow practices from science and organize teams like research laboratories. Why this is important and how to do it I'll try to explore in the next posts.
