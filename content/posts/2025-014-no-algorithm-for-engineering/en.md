@@ -38,7 +38,7 @@ That's why in this and the next couple of posts I want to discuss the role of cr
 
 /// note | Disclaimers
 
-**Every job has a creative component**
+**Every job has a creative component.**
 
 For the purposes of this essay and the ones that follow, I may occasionally refer to engineering and scientific teams as "creative teams".
 
@@ -46,21 +46,21 @@ That does not mean I deny the creative component to all other jobs — it exists
 
 However, we must acknowledge that some work demands more creativity, while other demand less. This distinction inevitably affects how people do their jobs and, consequently, how to manage them in the best way.
 
-**В мире нет места абсолюту**
+**There is no place for absolutes in this world.**
 
-Жизнь — сложная штука — редко встречаются коллективы на 100% творческие или на 100% не-творческие. Иногда задачи смешиваются, иногда чередуются.
+Life is a complex thing — there are rarery teams that are 100% creative or 100% non-creative. Sometimes tasks are mixed, sometimes they alternate.
 
-Тот же софт имет разные виды жизненных циклов; бывают разные ситуации. Например, этап длительной поддержки или вывода из эксплуатации может быть значительно ближе по духу к регламентированному физическому производству, чем к программной инженерии, так как во время него может быть экономически выгоднее делать повторяющуюся работу вместо её творческого переосмысления, такого как автоматизация.
+Let's look at software development — it has a variety of life cycles; circumstances vary. For example, a long-term support or decommissioning phase can be much closer in spirit to instruction-driven physical production than to software engineering, because during that time it may be more economical to perform repetitive work rather than to rethink it creatively — for instance, through automation.
 
-Поэтому, при выбор практик управления надо знать меру, как и в любом другом деле.
+Therfore, when selecting management practices, one must know how far to go, as in any other matter.
 
-**Инженерия — огромная область — невозможно охватить всё**
+**Engineering is a vast field — it's impossible to cover everything.**
 
-Как бы мне ни хотелось, рассмотреть все возможные инженерные и около инженерные коллективы не получится — мне не хватит ни времени, ни опыта.
+As much as I'd like to, I can't cover every possible engineering and near-engineering teams — I simply lack both the time and the firsthand experience.
 
-Поэтому, как и все в этом блоге, я пишу через призму своего личного опыта — это програмная инженерия: сложный бэкенд, игровая и бизнес логика, средний фронтенд; инженерный менеджмент; геймдизайн; комьюнити менеджмент; etc.
+So, as with everything in this blog, I write through the prism of my personal experience — which is software engineering.
 
-Искажения неизбежны. Например, программная инженерия имеет самый быстрый путь доставки продукта потребителю, иногда достаточно всего несколько секунд, чтобы миллионы человек получили обновление софта, и ещё столько же, чтобы разработчики увидели изменение метрик. Поэтому я хуже представляю реалии инжерии, которая направлена на производство сложных физических объектов, таких как самолёты, автомобили, здания, микросхемы.
+Bias is inevitable. For example, software engineering offers the fastest route for delivering a product to users — sometimes it takes only seconds for millions of people to receive an update and just as little time for developers to see the metrics change. Because of that, I have a less clear picture of the realities of engineering aimed at producing complex physical objects like airplanes, cars, buildings, microchips.
 
 ///
 
