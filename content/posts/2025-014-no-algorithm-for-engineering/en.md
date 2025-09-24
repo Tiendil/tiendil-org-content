@@ -132,50 +132,50 @@ Such meta-algorithms are, by their nature, [fractal](https://en.wikipedia.org/wi
 Therefore, a meta-algorithm is not an instruction but a guideline. An engineer, in turn, decides how exactly to follow this guideline at each step of the algorithm and whether to follow it at all.
 ///
 
-## Работу инженера ~~нельзя~~ сложно измерить на индивидуальном уровне
+## It is ~~impossible~~ difficult to measure an engineer's work on an individual level
 
-Поскольку каждый инженер:
+Since every engineer:
 
-- Работает в уникальном контексте (пространстве решений) — создаёт конкретное новое новое.
-- Исследует пространство решений по-своему — выполняет уникальные для себя операции в уникальном порядке.
+- Works in a unique context (solution space) — creates specific new novelty.
+- Explores the solution space in their own way — carries out unique operations in a unique order.
 
-**Сложно объективно сравнивать работу двух инженеров.**
+**It is difficult to objectively compare the work of two engineers.**
 
-Для примера. Опустим тривиальный классический случай подсчёта строк кода на человека. Давайте сравнивать количество ошибок, которые программист вносит в продукт в единицу времени. Если программист A вносит X ошибок в месяц, а программист Б — 2X, при одном и том же количестве закрытых задач. Значит ли это что программист Б в 2 раза хуже программиста А?
+For example. Let's skip the trivial classic case of counting lines of code per person. Let's compare the number of bugs a programmer introduces into the product per unit of time. If programmer A introduces X bugs per month, and programmer B — 2X, with the same number of closed tasks. Does that mean programmer B is twice as bad as programmer A?
 
-Нет конечно, потому что программист Б мог работать с более сложным кодом, или под большим давлением сроков, или с менее зрелым стэком технологий, или с новым для него фреймворком, или в менее зрелой команде, или ошибки программистов имеют разный уровень последствий, или [QA](https://en.wikipedia.org/wiki/Quality_assurance) проще работать с функциональностью над которой работает Б.
+Of cource not. Programmer B might have worked with more complex code, under tighter deadlines, with a less mature technology stack, with a framework new to them, or in a less mature team, or it is easier for [QA](https://en.wikipedia.org/wiki/Quality_assurance) to work with the functionality that B is producing.
 
-Эффект всех упомятнутых нюансов, как и многих других, не измерим количественно. Нет метрики, которая позволит осмысленно количественно сравнивать сложность кода, зрелость стеков технологий, уровень владения фреймворком и прочие подобные штуки.
+An effect of all these nuances, as well as many others, is not quantitatively measurable. There is no metric that would allow us to meaningfully quantitatively compare the complexity of code, the maturity of technology stacks, the level of framework proficiency, and other such things.
 
-Эти нюансы можно измерить качественно, но только на основе экспертной оценки, которая, в свою очередь, будет субъективной и не воспроизводимой. Подобная оценка, если мы хотим иметь её достоверной, потребует от эксперта глубокого погружения в контекст, что займёт много времени и сил. По сути, сделать её может только более опытной член той же команды, например, тех. лид.
+These nuances can be measured qualitatively, but only based on expert evaluation, which, in turn, will be subjective and non-reproducible. Such an evaluation, if we want it to be reliable, will require the expert to deeply immerse themselves in the team's context, which will take a lot of time and effort. Essentially, only a more experienced member of the same team, such as a tech lead, can do it.
 
-Мы можем преобразовать качественную оценку в статистически значимую количественную, например:
+We may try to convert qualitative assessment into statistically significant quantitative data, for example:
 
-- Собрав множество экспертов, которые независимо друг от друга оценят контекст и работу инженера.
-- Попросив команду качественно оценить работу друг друга.
+- By gathering a group of experts who independently evaluate the context and work of the engineer.
+- By asking the team to qualitatively assess each other's work.
 
-Но это будет дорого и долго:
+But it will be costly and time-consuming:
 
-- Если мы собрали команду экспертов для оценки команды инженеров, то теперь у нас есть две команды — будет дешевле оставить одну команду экспертов работать над оригинальным продуктом.
-- Чтобы команда могла оценивать друг друга, она должна быть достаточно зрелой и каждый член команды должен обладать знанимями контекста всех остальных членов команды — то есть должно быть достигнуто почти 100% перекрытие знаний. Это возможно, но тоже дорого и сильно замедляет работу. Кроме того, у нас появляются этические и культурные риски.
+- In case we gather a team of experts to evaluate the engineering team, we now have two teams — it will be cheaper to left one team of experts work on the original product.
+- For a team to evaluate each other, it must be sufficiently mature, and every member has to understand the context of all the others — in other words, there must be nearly 100 % knowledge overlap. This is possible, but it's costly and significantly slows the work. In addition, it introduces ethical and cultural risks.
 
-Мы даже не можем сравнить работу одного и тогоже человека в разные периоды.
+We event can not compare the work of the same person at different times.
 
-Попробуйте, для примера, собрать данные по эффективности работы одного fullstack разработчика, когда он в первую неделю пишет кнопочки для фронта. во вторую — микросервис, в третью — настраивает репликацию базы и оптимизируюет запросы к ней, а всю четвёртую занимается код ревью и разговорами со стейкхолдерами.
+Take, for example, a full-stack developer who in the first week core buttons on the frontend, in the second week implements a microservice, in the third week sets up database replication and optimizes queries, and in the fourth week does code reviews and talks to stakeholders.
 
-Поэтому.
+That's why.
 
-**Фокус управления инженерными коллективами смещается с персонального уровня на уровень команды и продукта.**
+**The focus of managing engineering teams shifts from the individual level to the level of the team and the product.**
 
-Мы оптимизируем не людей, а рабочие процессы (в рамках которых действуют люди), потоки информации (между людьми и процессами) и метрики продукта ([частью которого является наша команда]{post:points-of-view-on-a-product}).
+We optimize not the people, but the work processes (within which people operate), the flows of information (between people and processes), and the product metrics ([of which our team is a part]{post:points-of-view-on-a-product})
 
-Это позволяет нам оперировать в рамках более-менее объективных метрик и, тем самым, принимать более осмысленные решения.
+This approach allows us to operate within more-or-less objective metrics and, thereby, make more meaningful decisions.
 
-Именно про это такие штуки как [Kanban, Teal Organizations, Lean Startup]{post:vantage-on-management-books}.
+This is exactly what things like [Kanban, Teal Organizations, and Lean Startup]{post:vantage-on-management-books} are about.
 
-Перефразируя.
+Rephrasing.
 
-**Мы оптимизируем рекомендации и ограничения для нашей команды.**
+**We optimize guidelines and constraints for our team.**
 
 /// note | Даже на командном уровне есть нюансы
 
