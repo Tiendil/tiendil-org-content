@@ -121,13 +121,15 @@ Constraints are boundaries that should not be crossed. For example: never releas
 
 /// note | Meta-algorithm is not an instruction
 
-Можно попытаться утверждать, что какой-нибудь классический цикл в духе «сбор данных -> анализ -> синтез -> воплощение» — это инструкция, а значит инженерная работа может быть описана инструкцией.
+One may say that some classic cycle like "data collection -> analysis -> synthesis -> implementation" is an instruction, and therefore engineering work can be described by an instruction.
 
-Но каждый этап такого цикла не предполагает каких-то конкретных действий и максимально зависит от контекста: начиная от области в которой мы действуем и заканчивая особенностями конкретной задачи. Например, для действия «анализ» в одном случае нам может потребоваться запускать новый проект с разработкой специализированного софта и разворачиванием инфраструктуры, а в другом случае будет достаточно подойти к коллеге-эксперту и спросить его мнение.
+However, every stage of such a cycle does not imply any specific actions and is highly context-dependent: from the field we operate in to the specifics of the particular task.
 
-Подобные мета-алгоритмы, по своей природе [фрактальны](https://ru.wikipedia.org/wiki/Фрактал)/[рекусивны](https://ru.wikipedia.org/wiki/Рекурсия) — каждый их этап может разворачиваться в применение оригинального алгорима на меньшем уровне. Пример можно найти в недавнем посте про [цикл проверки гипотез]{post:hypothesis-testing-loop}.
+For example, for the action "analysis," in one case we may need to launch a new project to develop specialized software and deploy infrastructure (which will lead to the launch of a sub-cycle), while in another case it may be sufficient to approach an expert colleague and ask for their opinion.
 
-Соответственно, мета-алгоритм является не инструкцией, а рекомендацией. Инженер, в свою очередь, решает как именно именно следовать этой рекомендации на каждом шаге алгоритма и следовать ли вообще.
+Such meta-algorithms are, by their nature, [fractal](https://en.wikipedia.org/wiki/Fractal)/[recursive](https://en.wikipedia.org/wiki/Recursion) — each of their stages can unfold into the application of the original algorithm at a smaller scale. An example can be found in a recent post about the [hypothesis testing loop]{post:hypothesis-testing-loop}.
+
+Therefore, a meta-algorithm is not an instruction but a guideline. An engineer, in turn, decides how exactly to follow this guideline at each step of the algorithm and whether to follow it at all.
 ///
 
 ## Работу инженера ~~нельзя~~ сложно измерить на индивидуальном уровне
