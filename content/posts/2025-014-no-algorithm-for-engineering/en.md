@@ -88,23 +88,23 @@ This is especially evident in software engineering, as it deals almost entirely 
 
 By contrast, if we give a person an instruction, for example, on how to work on an assembly line, then at each cycle of completing the instruction, there will be a copy of a physical product at the output, which will have its own value.
 
-## Для инженера не может быть детальных инструкций
+## There can be no detailed instructions for an engineer
 
-Итак, детальные инструкции не подходят для инженерной работы, так как они не приведут к созданию новой информации, а значит не создадут ценность.
+So, detailed instructions are not suitable for engineering work, as they will not lead to the creation of new information, and therefore will not create value.
 
-Поэтому.
+Thats why.
 
-**Инженеры действуют в рамках рекомендаций и ограничений, а не в рамках инструкций**.
+**Engineers act within guidelines and constraints, not within instructions.**
 
-/// note | Ошеломляющая разница в размерах пространства возможного поведения
+/// note | The overwhelming difference in the size of the space of possible actions
 
-Каждый работник всегда действует в рамках некоего пространства возможного поведения. Границы этого пространства определяется многими факторами, включая область деятельности, доступные ресурсы, навыки и опыт человека, внешние условия, etc.
+Every worker always acts within some space of possible actions. The boundaries of this space are determined by many factors, including the field of activity, available resources, skills and experience of the person, external conditions, etc.
 
-Но больше всего на размер этого пространства влияет степень свободы, предоставляемая человеку в его деятельности. Определение этой свободы «через инструкции» или «через рекомендации и ограничения» приводят к радикальному отличию в размере этого пространства и свойств результата труда.
+But the most significant factor affecting the size of this space is the degree of freedom granted to a person in their work. Defining this freedom "through instructions" versus "through guidelines and constraints" leads to a radical difference in the size of this space and the qualities of the work result.
 
-Детальные интрукции задают очень узкие рамки, делают результат каждого шага работинка «предсказуемым», а значит конечный результат тоже становится предсказуемым. С помощью инструкций мы **сужаем [пространство решений](https://ru.wikipedia.org/wiki/Область_допустимых_решений)** до очень узкой области, чтобы получать одинаковый результат каждый раз. Например, получать одинаковые чайники на конвейере.
+Detailed instructions set very narrow boundaries, making steps of the worker "predictable", which leads to a predictable final result. With instructions, we **narrow the [solution space](https://en.wikipedia.org/wiki/Feasible_region)** to a very narrow area to guarantee the same result every time. For example, to produce identical kettles on a conveyor belt.
 
-Рекомендации и ограничения задают широкие рамки, что делает поведение конкретного работника «непредсказуемым», а значит конечный результат труда будет содержать новизну. С помощью рекомендаций и ограничений мы **формируеем пространство решений**, чтобы получать разные результаты с новизной и нужными нам свойствами. Например, получать чертежи разных моделей автомобилей.
+Guidelines and constraints set broad boundaries, making steps of the worker "unpredictable", which leads to a novelty in the final result. With guidelines and constraints, we **shape the solution space** to guarantee an existence of a spectrum of possible results with novelty and desired properties. For example, to produce blueprints of different car models.
 
 **В момент, когда рекомендации и ограничения превращаются в детальные инструкции, эффективность инженера падает на порядки** — сокращается область его возможного поведения, а значит и область решений, которую он может исследовать.
 
