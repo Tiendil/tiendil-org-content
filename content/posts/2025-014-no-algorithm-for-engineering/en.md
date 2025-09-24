@@ -115,11 +115,11 @@ Here are some real-life examples of the difference between these approaches:
 - Music: playing from sheet music versus improvisation. The former guarantees a faithful performance of a known piece, while the latter offers the chance to create a new masterpiece.
 ///
 
-Рекомендации — это [эвристики](https://ru.wikipedia.org/wiki/Эвристика) о том, как (скорее всего) может быть выгодно действовать в конкретной ситуации. Хорошим примером рекомендаций могут быть [ТРИЗ](https://ru.wikipedia.org/wiki/Теория_решения_изобретательских_задач), [шаблоны проектирования](https://ru.wikipedia.org/wiki/Шаблон_проектирования) или всевозможные [циклы обратной связи]{post:hypothesis-testing-loop}.
+Guidelines are [heuristics](https://en.wikipedia.org/wiki/Heuristic) on how (most likely) to act in a specific situation to achieve a desired outcome. A good example of guidelines can be [TRIZ](https://en.wikipedia.org/wiki/Theory_of_Inventive_Problem_Solving), [design patterns](https://en.wikipedia.org/wiki/Design_pattern_(computer_science)), or various [feedback loops]{post:hypothesis-testing-loop}.
 
-Ограничения — это рамки, которые нельзя пересекать. Например, не выпускать лекарство без проведения клинических испытаний, использовать только сертифицированные компоненты, расчитывать конструкцию на заданную максимальную нагрузку, придерживаться стандартов и регуляций, etc.
+Constraints are boundaries that should not be crossed. For example: never releasing a drug without clinical trials, using only certified components, designing a structure for a specified maximum load, adhering to standards and regulations, and so on.
 
-/// note | Мета-алгоритм — это не инструкция
+/// note | Meta-algorithm is not an instruction
 
 Можно попытаться утверждать, что какой-нибудь классический цикл в духе «сбор данных -> анализ -> синтез -> воплощение» — это инструкция, а значит инженерная работа может быть описана инструкцией.
 
