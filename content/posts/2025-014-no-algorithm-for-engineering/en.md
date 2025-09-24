@@ -177,13 +177,13 @@ Rephrasing.
 
 **We optimize guidelines and constraints for our team.**
 
-/// note | Даже на командном уровне есть нюансы
+/// note | Even at the team level, there are nuances
 
-Допустим команда совместно оценивает задачи в [Story Points](https://ru.wikipedia.org/wiki/Покер_планирования) (SP). Можем ли мы сказать, что две задачи в 5 SP эквивалентны по сложности и одинаково скажутся на динамике продукта?
+Assume a team together estimates tasks in [Story Points](https://en.wikipedia.org/wiki/Planning_poker) (SP). Can we say that two tasks estimated at 5 SP are equal in complexity and will equally affect the product's dynamics?
 
-К сожалению, не можем. Оценка задачи — это вероятностная величина, поэтому задачи с одинаковой оценкой могут иметь разную [неопределённость](https://ru.wikipedia.org/wiki/Дисперсия_случайной_величины). Допустим у нас команда из 5 человек: 4 фронтендера и 1 бэкендер. Такая команда будет оценивать задачи по фронтенду с большой точностью (низкая неопределённость), а задачи по бэкенду — с низкой точностью (высокая неопределённость). Соответственно, в одном случае 5SP будет означать «примерно 4-6SP», а в другом — «примерно 2-8SP».
+Unfortunately, we can't. Task estimation is a probabilistic quantity, so tasks with the same estimate can have different levels of [uncertainty](https://en.wikipedia.org/wiki/Variance). Suppose we have a team of 5 people: 4 frontend developers and 1 backend developer. Such a team will estimate frontend tasks with high accuracy (low uncertainty) and backend tasks with low accuracy (high uncertainty). Accordingly, in one case 5 SP might mean "about 4–6 SP", while in another it might mean "about 2–8 SP".
 
-В этом плане было бы интересно попробовать на практике оценивать задачи интервалами. Мне даже удалось нагуглить какие-то рассуждения по этой теме, но откровенно показательных примеров я не нашёл.
+In this regard, it would be interesting to try estimating tasks using intervals in practice. I even managed to find some discussions on the topic, but I haven't come across any really illustrative examples.
 ///
 
 ## Практические следствия
