@@ -106,13 +106,13 @@ Detailed instructions set very narrow boundaries, making steps of the worker "pr
 
 Guidelines and constraints set broad boundaries, making steps of the worker "unpredictable", which leads to a novelty in the final result. With guidelines and constraints, we **shape the solution space** to guarantee an existence of a spectrum of possible results with novelty and desired properties. For example, to produce blueprints of different car models.
 
-**В момент, когда рекомендации и ограничения превращаются в детальные инструкции, эффективность инженера падает на порядки** — сокращается область его возможного поведения, а значит и область решений, которую он может исследовать.
+**The moment guidelines and constraints turn into detailed instructions, the efficiency of an engineer drops by orders of magnitude** — instructions shrink the area of possible actions, and therefore the area of solutions that can be explored.
 
-Вот несколько примеров отличия этих подходов из жизни:
+Here are some real-life examples of the difference between these approaches:
 
-- Белый и чёрный списки для разрешённых действий. Например, для доступа к сайтам. Если вы добавите 3 сайта в белый список, то человек сможет посещать только эти 3 сайта. Если вы добавите 3 сайта в чёрный список, то человек может и не заметить, что у него есть ограничения.
-- Фиксированная школьная форма vs свободный «приличный» стиль одежды. Первая создаёт однотипность, но производит гарантированный стиль для всей школы. Вторая создаёт спектр стилей, давая шанс появлению ярких запомниющихся образов, но не гарантирует, что все ученики будут одеты достаточно прилично для представления школы.
-- Музыка: игра по нотам vs джазовая импровизация. Первая гарантирует воспроизведение известного произведения, вторая даёт шанс на создание нового шедевра.
+- White and black lists for allowed actions. Let's say, for website access. If you add 3 websites to the white list, a person can only visit those 3 sites. If you add 3 websites to the black list, a person may not even notice they have restrictions.
+- Mandatory school uniform vs free "decent" dress code. The first creates uniformity but guarantees an expected level of style for the whole school. The second creates a spectrum of styles, giving a chance for bright memorable images to appear, but does not guarantee that all students will be dressed decently enough to represent the school.
+- Music: playing from sheet music versus improvisation. The former guarantees a faithful performance of a known piece, while the latter offers the chance to create a new masterpiece.
 ///
 
 Рекомендации — это [эвристики](https://ru.wikipedia.org/wiki/Эвристика) о том, как (скорее всего) может быть выгодно действовать в конкретной ситуации. Хорошим примером рекомендаций могут быть [ТРИЗ](https://ru.wikipedia.org/wiki/Теория_решения_изобретательских_задач), [шаблоны проектирования](https://ru.wikipedia.org/wiki/Шаблон_проектирования) или всевозможные [циклы обратной связи]{post:hypothesis-testing-loop}.
