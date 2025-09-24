@@ -16,11 +16,11 @@ caption = "\"Engineer Seated\" © ChatGPT + [Vrubel](https://en.wikipedia.org/wi
 tag = "vantage-on-management"
 ///
 
-Лет 5 хотел написать этот пост и всё ещё не до конца понимаю почему его надо писать — на мой взгляд эти вещи очевидны.
+I wanted to write this post for 5 years, give or take, and I still don't fully understand why it needs to be written — in my opinion, these things are obvious.
 
-Но я также не понимаю некоторых явлений из рабочей практики и теории, например.
+However, I also don't understand some phenomena from work practice and theory, for example.
 
-**Почему ~~все~~ большинство теорий о менеджменте выводится из опыта физического регламентированного производства, а не из опыта инженерных и научных коллективов.** Регламентированного — в смысле когда работа заключается в следовании инструкциям.
+**Why ~~every~~ most management theories are derived from the experience of physical instruction-driven production, rather than from the experience of engineering and scientific teams?** Instruction-driven — in the sense that the work consists of following detailed instructions.
 
 К слову, в прошлом посте с [обзором топовых книг о менеджменте]{post:vantage-on-management-books} на 8 книг был только 1 пример научного коллектива ([NASA](https://ru.wikipedia.org/wiki/НАСА)) — это меня в некоторой степени шокировало (книг в посте 9, последняя посвящена строго менеджменту в науке, поэтому её не считаю). Пара примеров инженерных и творческих коллективов тоже было, но они скорее исключения из правила.
 
