@@ -64,19 +64,20 @@ Bias is inevitable. For example, software engineering offers the fastest route f
 
 ///
 
-## Инженеры производят новую информацию
+## Engineers produce novelty
 
-Даже во времена [кульманов](https://ru.wikipedia.org/wiki/Кульман_(чертёжный_инструмент)) сутью инженерной работы было не копирование чертежа один к одному из головы или с другого чертежа, а привнесение нового или создание нового с нуля. Существовала даже отдельная роль «чертёжник-копировщик», чтобы снять повторяющуюся работу с инженера.
+Even in the era of [drawing boards](https://en.wikipedia.org/wiki/Drafting_table), the essence of engineering work was not to copy a drawing one-to-one, but to add something new or create it from scratch. There were even specific roles like "tracer" or "drafting assistant" whose job was to relieve engineers of the repetitive operations.
 
 /// brigid-images
 src = "./engineering-drawing-board.jpg"
 caption = """
-«A pony engineer working on engineering drawing board» © ChatGPT + [Кэнтаро Миура](https://ru.wikipedia.org/wiki/Миура,_Кэнтаро).
+"A pony engineer working on engineering drawing board" © ChatGPT + [Kentaro Miura](https://en.wikipedia.org/wiki/Kentaro_Miura).
 
-Тяжёлое было время."""
+It was a tough time."""
 ///
 
-В наше время, наличие специализированного софта позволяет устранить множество рутинных операций и сосредоточиться на сути инженерной работы — создании нового.
+Nowadays, specialized software makes it possible to eliminate the vast majority of routine operations and focus on the essence of engineering work — creating something new.
+
 
 **Процесс создание нового невозможно воспроизвести следуя детальной инструкции**.
 
