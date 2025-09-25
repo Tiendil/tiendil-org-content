@@ -171,7 +171,7 @@ We optimize not the people, but the work processes (within which people operate)
 
 This approach allows us to operate within more-or-less objective metrics and, thereby, make more meaningful decisions.
 
-This is exactly what things like [Kanban, Teal Organizations, and Lean Startup]{post:vantage-on-management-books} are about.
+This is exactly what things like [Kanban, Teal Organizations, and Lean Startup]{post:vantage-on-management-books} are about. It's worth noting that these sets of practices also emerged from the experience of working on factory floors — so not everything there is bad for an engineer — as I said, one must know the measure and choose practices wisely.
 
 Rephrasing.
 
