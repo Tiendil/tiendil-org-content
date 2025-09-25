@@ -44,23 +44,23 @@ For the purposes of this essay and the ones that follow, I may occasionally refe
 
 That does not mean I deny the creative component to all other jobs — it exists in every job and often depends more on the person than on their role.
 
-However, we must acknowledge that some work demands more creativity, while other demand less. This distinction inevitably affects how people do their jobs and, consequently, how to manage them in the best way.
+However, we must acknowledge that some work demands more creativity, while others demand less. This distinction inevitably affects how people do their jobs and, consequently, how to manage them in the best way.
 
 **There is no place for absolutes in this world.**
 
-Life is a complex thing — there are rarery teams that are 100% creative or 100% non-creative. Sometimes tasks are mixed, sometimes they alternate.
+Life is a complex thing — there are rarely teams that are 100% creative or 100% non-creative. Sometimes tasks are mixed, sometimes they alternate.
 
 Let's look at software development — it has a variety of life cycles; circumstances vary. For example, a long-term support or decommissioning phase can be much closer in spirit to instruction-driven physical production than to software engineering, because during that time it may be more economical to perform repetitive work rather than to rethink it creatively — for instance, through automation.
 
-Therfore, when selecting management practices, one must know how far to go, as in any other matter.
+Therefore, when selecting management practices, one must know how far to go, as in any other matter.
 
 **Engineering is a vast field — it's impossible to cover everything.**
 
 As much as I'd like to, I can't cover every possible engineering and near-engineering teams — I simply lack both the time and the firsthand experience.
 
-So, as with everything in this blog, I write through the prism of my personal experience — which is software engineering.
+So, as with everything in this blog, I write through the prism of my personal experience, which is software engineering.
 
-Bias is inevitable. For example, software engineering offers the fastest route for delivering a product to users — sometimes it takes only seconds for millions of people to receive an update and just as little time for developers to see the metrics change. Because of that, I have a less clear picture of the realities of engineering aimed at producing complex physical objects like airplanes, cars, buildings, microchips.
+Bias is inevitable. For example, software engineering offers the fastest route for delivering a product to users — sometimes it takes only seconds for millions of people to receive an update, and just as little time for developers to see the metrics change. Because of that, I have a less clear picture of the realities of engineering aimed at producing complex physical objects such as airplanes, cars, buildings, microchips.
 
 ///
 
