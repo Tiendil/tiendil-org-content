@@ -136,7 +136,7 @@ Therefore, a meta-algorithm is not an instruction but a guideline. An engineer, 
 
 Since every engineer:
 
-- Works in a unique context (solution space) — creates specific new novelty.
+- Works in a unique context (solution space) — creates specific novelty.
 - Explores the solution space in their own way — carries out unique operations in a unique order.
 
 **It is difficult to objectively compare the work of two engineers.**
