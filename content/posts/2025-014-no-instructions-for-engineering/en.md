@@ -2,7 +2,7 @@
 title = "No instructions for engineering"
 tags = [ "theory", "development", "interesting", "management", "vantage-on-management"]
 series = "vantage-on-management"
-published_at = "2025-09-24T12:00:00+00:00"
+published_at = "2025-09-25T12:00:00+00:00"
 seo_description = "Engineers create novelty, so their work cannot be regulated by detailed instructions. What does this imply for managing engineering teams?"
 seo_image = "./cover.jpg"
 ---
