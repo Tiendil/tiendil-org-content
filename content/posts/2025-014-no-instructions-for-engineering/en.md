@@ -66,12 +66,12 @@ Bias is inevitable. For example, software engineering offers the fastest route f
 
 ## Engineers produce new information
 
-Even in the era of [drawing boards](https://en.wikipedia.org/wiki/Drafting_table), the essence of engineering work was not to copy a drawing one-to-one, but to add something new or create it from scratch. There were even specific roles like "tracer" or "drafting assistant" whose job was to relieve engineers of the repetitive operations.
+Even in the era of [drawing boards](https://en.wikipedia.org/wiki/Drafting_table), the essence of engineering work was not to copy a drawing one-to-one, but to add something new or create it from scratch. There were even specific roles, such as "tracer" or "drafting assistant," whose job was to relieve engineers of repetitive operations.
 
 /// brigid-images
 src = "./engineering-drawing-board.jpg"
 caption = """
-"A pony engineer working on engineering drawing board" © ChatGPT + [Kentaro Miura](https://en.wikipedia.org/wiki/Kentaro_Miura).
+"A pony engineer working on an engineering drawing board" © ChatGPT + [Kentaro Miura](https://en.wikipedia.org/wiki/Kentaro_Miura).
 
 It was a tough time."""
 ///
@@ -80,19 +80,19 @@ Nowadays, specialized software makes it possible to eliminate the vast majority 
 
 **It is impossible to create novelty by following a detailed instruction.**
 
-If an engineer records all their actions from start to successful result and passes this instruction to another person as an exact set of instructions, the output will be a copy of the result, for example, a copy of a tractor blueprint or a program with functionality identical to the original.
+Suppose an engineer records all their actions from start to successful result and passes this records to another person as an exact set of instructions. In that case, the output will be a copy of the result, for example, a copy of a tractor blueprint or a program with functionality identical to the original.
 
 We end up with a meaningless and costly process of copying already existing information that does not create new value.
 
-This is especially evident in software engineering, as it deals almost entirely with pure information and is therefore less dependent on physical constraints. We can instantly create many copies of the same program, but by reproducing a copy of information, we do not create something new. Therefore, if programmers perform repetitive detailed work (for example, writing code for each interface button from scratch), it is highly likely that something is going wrong somewhere.
+This is especially evident in software engineering, as it deals almost entirely with pure information and is therefore less dependent on physical constraints. We can instantly create multiple copies of the same program, but by reproducing information, we do not create something new. Therefore, if programmers perform repetitive detailed work (for example, writing code for each interface button from scratch), it is highly likely that something is going wrong somewhere.
 
 By contrast, if we give a person an instruction, for example, on how to work on an assembly line, then at each cycle of completing the instruction, there will be a copy of a physical product at the output, which will have its own value.
 
 ## There can be no detailed instructions for an engineer
 
-So, detailed instructions are not suitable for engineering work, as they will not lead to the creation of new information, and therefore will not create value.
+So, detailed instructions are not suitable for engineering work, as they do not lead to the creation of new information, and consequently do not create value.
 
-Thats why.
+That's why.
 
 **Engineers act within guidelines and constraints, not within instructions.**
 
@@ -100,18 +100,18 @@ Thats why.
 
 Every worker always acts within some space of possible actions. The boundaries of this space are determined by many factors, including the field of activity, available resources, skills and experience of the person, external conditions, etc.
 
-But the most significant factor affecting the size of this space is the degree of freedom granted to a person in their work. Defining this freedom "through instructions" versus "through guidelines and constraints" leads to a radical difference in the size of this space and the qualities of the work result.
+However, the most significant factor affecting the size of this space is the degree of freedom granted to a person in their work. Defining this freedom "through instructions" versus "through guidelines and constraints" leads to a radical difference in the size of this space and the qualitative properties of the work result.
 
-Detailed instructions set very narrow boundaries, making steps of the worker "predictable", which leads to a predictable final result. With instructions, we **narrow the [solution space](https://en.wikipedia.org/wiki/Feasible_region)** to a very narrow area to guarantee the same result every time. For example, to produce identical kettles on a conveyor belt.
+Detailed instructions set very narrow boundaries, making the steps of the worker "predictable", which leads to a predictable final result. With instructions, we **narrow the [solution space](https://en.wikipedia.org/wiki/Feasible_region)** to a tiny area to guarantee the same result every time. For example, to produce identical kettles on a conveyor belt.
 
-Guidelines and constraints set broad boundaries, making steps of the worker "unpredictable", which leads to a novelty in the final result. With guidelines and constraints, we **shape the solution space** to guarantee an existence of a spectrum of possible results with novelty and desired properties. For example, to produce blueprints of different car models.
+Guidelines and constraints set broad boundaries, making the steps of the worker "unpredictable", which leads to a novelty in the final result. With guidelines and constraints, we **shape the solution space** to ensure the existence of a spectrum of possible results with novelty and desired properties. For example, to produce blueprints of different car models.
 
 **The moment guidelines and constraints turn into detailed instructions, the efficiency of an engineer drops by orders of magnitude** — instructions shrink the area of possible actions, and therefore the area of solutions that can be explored.
 
 Here are some real-life examples of the difference between these approaches:
 
-- White and black lists for allowed actions. Let's say, for website access. If you add 3 websites to the white list, a person can only visit those 3 sites. If you add 3 websites to the black list, a person may not even notice they have restrictions.
-- Mandatory school uniform vs free "decent" dress code. The first creates uniformity but guarantees an expected level of style for the whole school. The second creates a spectrum of styles, giving a chance for bright memorable images to appear, but does not guarantee that all students will be dressed decently enough to represent the school.
+- Allowlists and denylists for allowed actions. Let's say, for website access. If you add 3 websites to an allowlist, a person can only visit those 3 sites. If you add 3 websites to a denylist, a person may not even notice they have restrictions.
+- Mandatory school uniform vs free "decent" dress code. The first creates uniformity but guarantees an expected level of style for the entire school. The second creates a spectrum of styles, giving a chance for bright memorable images to appear, but it does not guarantee that all students will be dressed decently enough to represent the school.
 - Music: playing from sheet music versus improvisation. The former guarantees a faithful performance of a known piece, while the latter offers the chance to create a new masterpiece.
 ///
 
