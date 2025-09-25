@@ -117,13 +117,13 @@ Here are some real-life examples of the difference between these approaches:
 
 Guidelines are [heuristics](https://en.wikipedia.org/wiki/Heuristic) on how (most likely) to act in a specific situation to achieve a desired outcome. A good example of guidelines can be [TRIZ](https://en.wikipedia.org/wiki/Theory_of_Inventive_Problem_Solving), [design patterns](https://en.wikipedia.org/wiki/Design_pattern_(computer_science)), or various [feedback loops]{post:hypothesis-testing-loop}.
 
-Constraints are boundaries that should not be crossed. For example: never releasing a drug without clinical trials, using only certified components, designing a structure for a specified maximum load, adhering to standards and regulations, and so on.
+Constraints are boundaries that should not be crossed. For example: never releasing a drug without clinical trials, using only certified components, designing a building for a specified maximum load, adhering to standards and regulations, and so on.
 
 /// note | Meta-algorithm is not an instruction
 
-One may say that some classic cycle like "data collection -> analysis -> synthesis -> implementation" is an instruction, and therefore engineering work can be described by an instruction.
+One may say that a classic loop, such as "data collection -> analysis -> synthesis -> implementation", is an instruction, and therefore, engineering work can be described by an instruction.
 
-However, every stage of such a cycle does not imply any specific actions and is highly context-dependent: from the field we operate in to the specifics of the particular task.
+However, every stage of such a cycle does not imply any specific actions and is highly context-dependent, ranging from the field we operate in to the specifics of the particular task.
 
 For example, for the action "analysis," in one case we may need to launch a new project to develop specialized software and deploy infrastructure (which will lead to the launch of a sub-cycle), while in another case it may be sufficient to approach an expert colleague and ask for their opinion.
 
@@ -143,9 +143,9 @@ Since every engineer:
 
 For example. Let's skip the trivial classic case of counting lines of code per person. Let's compare the number of bugs a programmer introduces into the product per unit of time. If programmer A introduces X bugs per month, and programmer B — 2X, with the same number of closed tasks. Does that mean programmer B is twice as bad as programmer A?
 
-Of cource not. Programmer B might have worked with more complex code, under tighter deadlines, with a less mature technology stack, with a framework new to them, or in a less mature team, or it is easier for [QA](https://en.wikipedia.org/wiki/Quality_assurance) to work with the functionality that B is producing.
+Of course not. Programmer B might have worked with more complex code, under tighter deadlines, with a less mature technology stack, with a framework new to them, or in a less mature team, or it is easier for [QA](https://en.wikipedia.org/wiki/Quality_assurance) to work with the functionality that B is producing.
 
-An effect of all these nuances, as well as many others, is not quantitatively measurable. There is no metric that would allow us to meaningfully quantitatively compare the complexity of code, the maturity of technology stacks, the level of framework proficiency, and other such things.
+An effect of all these nuances, as well as many others, is not quantitatively measurable. There is no metric that allows us to meaningfully and quantitatively compare the complexity of code, the maturity of technology stacks, the level of framework proficiency, and other similar things.
 
 These nuances can be measured qualitatively, but only based on expert evaluation, which, in turn, will be subjective and non-reproducible. Such an evaluation, if we want it to be reliable, will require the expert to deeply immerse themselves in the team's context, which will take a lot of time and effort. Essentially, only a more experienced member of the same team, such as a tech lead, can do it.
 
@@ -156,12 +156,12 @@ We may try to convert qualitative assessment into statistically significant quan
 
 But it will be costly and time-consuming:
 
-- In case we gather a team of experts to evaluate the engineering team, we now have two teams — it will be cheaper to left one team of experts work on the original product.
+- In case we gather a team of experts to evaluate the engineering team, we now have two teams — it will be cheaper to leave a single team of experts to work on the original product.
 - For a team to evaluate each other, it must be sufficiently mature, and every member has to understand the context of all the others — in other words, there must be nearly 100 % knowledge overlap. This is possible, but it's costly and significantly slows the work. In addition, it introduces ethical and cultural risks.
 
-We event can not compare the work of the same person at different times.
+We can not even compare the work of the same person at different times.
 
-Take, for example, a full-stack developer who in the first week core buttons on the frontend, in the second week implements a microservice, in the third week sets up database replication and optimizes queries, and in the fourth week does code reviews and talks to stakeholders.
+Take, for example, a full-stack developer who in the first week core buttons on the frontend, in the second week implements a microservice, in the third week sets up database replication and optimizes queries, and in the fourth week conducts code reviews and talks to stakeholders.
 
 That's why.
 
@@ -179,9 +179,9 @@ Rephrasing.
 
 /// note | Even at the team level, there are nuances
 
-Assume a team together estimates tasks in [Story Points](https://en.wikipedia.org/wiki/Planning_poker) (SP). Can we say that two tasks estimated at 5 SP are equal in complexity and will equally affect the product's dynamics?
+Assume a team together estimates tasks in [Story Points](https://en.wikipedia.org/wiki/Planning_poker) (SP). Can we say that two tasks estimated at 5 SP are equal in complexity and will equally impact the product's dynamics?
 
-Unfortunately, we can't. Task estimation is a probabilistic quantity, so tasks with the same estimate can have different levels of [uncertainty](https://en.wikipedia.org/wiki/Variance). Suppose we have a team of 5 people: 4 frontend developers and 1 backend developer. Such a team will estimate frontend tasks with high accuracy (low uncertainty) and backend tasks with low accuracy (high uncertainty). Accordingly, in one case 5 SP might mean "about 4–6 SP", while in another it might mean "about 2–8 SP".
+Unfortunately, we can't. Task estimation is a probabilistic quantity, so tasks with the same estimate can have different levels of [uncertainty](https://en.wikipedia.org/wiki/Variance). Suppose we have a team of 5 people: 4 frontend developers and 1 backend developer. Such a team will estimate frontend tasks with high accuracy (low uncertainty) and backend tasks with low accuracy (high uncertainty). Accordingly, in one case, 5 SP might mean "about 4–6 SP", while in another it might mean "about 2–8 SP".
 
 In this regard, it would be interesting to try estimating tasks using intervals in practice. I even managed to find some discussions on the topic, but I haven't come across any really illustrative examples.
 ///
