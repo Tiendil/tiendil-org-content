@@ -22,7 +22,7 @@ However, I also don't understand some phenomena from work practice and theory, f
 
 **Why ~~every~~ most management theories are derived from the experience of physical instruction-driven production, rather than from the experience of engineering and scientific teams?** Instruction-driven — in the sense that the work consists of following detailed instructions.
 
-Of course, people wrote many books with sets of specific practices in the spirit of "How I was an Engineering Manager" or "How we do management at Google," but they are not theories — they are sets of practices for specific cases — to apply these practices wisely, one must have the corresponding theory in mind.
+Of course, people wrote many books with sets of specific practices in the spirit of "How I was an Engineering Manager" or "How we do management at Google". However, they are not theories — they are sets of practices for specific cases — to apply these practices wisely, one must have the corresponding theory in mind.
 
 **Why do management practices for instruction-driven teams keep seeping into the management of creative teams?** From attempts to lock in output quotas to using team velocity as a KPI. From trying to utilize 100% of an engineer's time to (implicitly) demanding a blood oath on every estimate. Not to mention denying autonomy in decision-making, imposing rigid schedules, and forcing work in the office.
 
@@ -30,9 +30,9 @@ Both questions are, of course, rhetorical.
 
 The answer to the first one: "That's how it historically evolved" — until the 1980s, it indeed made sense to derive management, crudely speaking, from the organization of manual labor on factory floors. And even then, it wasn't always the case — fortunately, NASA took a different path. But that was half a century ago; we now live literally in the future compared to that time, yet we continue to rely on its concepts — and that's the answer to the second question.
 
-Meanwile, cause-and-effect relationships still there: no matter how strong your team or how brilliant your idea, if you force them through an ill-suited mechanism — alien concepts, alien processes — you'll end up with a poor product and suffering people.
+Meanwhile, cause-and-effect relationships are still there: no matter how strong your team or how brilliant your idea, if you force them through an ill-suited mechanism — alien concepts, alien processes — you'll end up with a poor product and suffering people.
 
-That's why in this and the next couple of posts I want to discuss the role of creativity in engineering work: why it's critically important and where to look for inspiration in managing creative teams.
+That's why in this and the next couple of posts, I want to discuss the role of creativity in engineering work: why it's critically important and where to look for inspiration in managing creative teams.
 
 <!-- more -->
 
