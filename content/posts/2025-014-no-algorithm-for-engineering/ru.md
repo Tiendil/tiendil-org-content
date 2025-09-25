@@ -1,5 +1,5 @@
 ---
-title = "Нет алгоритма для инженерии"
+title = "Нет инструкций для инженерии"
 tags = [ "theory", "development", "interesting", "management", "vantage-on-management"]
 series = "vantage-on-management"
 published_at = "2025-09-24T12:00:00+00:00"
