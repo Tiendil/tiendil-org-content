@@ -9,7 +9,9 @@ seo_image = "./cover.jpg"
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "\"Engineer Seated\" © ChatGPT + [Vrubel](https://en.wikipedia.org/wiki/Mikhail_Vrubel)"
+caption = """
+\"Engineer Seated\" © ChatGPT + [Vrubel](https://en.wikipedia.org/wiki/Mikhail_Vrubel)
+"""
 ///
 
 /// brigid-series
@@ -71,9 +73,10 @@ Even in the era of [drawing boards](https://en.wikipedia.org/wiki/Drafting_table
 /// brigid-images
 src = "./engineering-drawing-board.jpg"
 caption = """
-"A pony engineer working on an engineering drawing board" © ChatGPT + [Kentaro Miura](https://en.wikipedia.org/wiki/Kentaro_Miura).
+A pony engineer working on an engineering drawing board © ChatGPT + [Kentaro Miura](https://en.wikipedia.org/wiki/Kentaro_Miura).
 
-It was a tough time."""
+It was a tough time.
+"""
 ///
 
 Nowadays, specialized software makes it possible to eliminate the vast majority of routine operations and focus on the essence of engineering work — creating something new.
