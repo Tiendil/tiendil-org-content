@@ -188,16 +188,16 @@ In this regard, it would be interesting to try estimating tasks using intervals 
 
 ## Practical consequences
 
-It's essential to understand what type of work the team is doing and what type of work the practices we're applying are meant for. If those types differ, we're doing something wrong and are likely harming the team, the company, and the product.
+It's essential to understand the type of work the team is doing and the type of work the practices we're applying are intended for. If those types differ, we're doing something wrong and are likely harming the team, the company, and the product.
 
 For the work with a known fixed outcome, we create and optimize instructions. We can quantitatively measure individual performance to optimize instructions and develop people's professional skills.
 
-For the creative work, we set constraints based on the desired product metrics and build a knowledge base of guidelines based on practice. We optimize the product and its team, not specific individuals. For developing people's professional skills, we use qualitative expert evaluation.
+For the creative work, we set constraints based on the desired product metrics and build a knowledge base of guidelines based on practice. We optimize the product and its team, not specific individuals. To develop people's professional skills, we utilize qualitative expert evaluation.
 
 ## Theoretical consequences
 
 In my opinion, we should pivot the basic concepts of management towards managing creative teams and, based on this new basis, form conceptually new sets of practices.
 
-There is going a global shift in the distribution of job types, professions, and roles toward creative work. Over time, the share of creative jobs will only increase. Large-scale automation, along with the spread of AI and robotics, strongly accelerates this trend. Steering the new world with old methods will not only waste resources but also create suffering for both workers and customers.
+There is a global shift in the distribution of job types, professions, and roles toward creative work. Over time, the share of creative jobs will only increase. Large-scale automation, along with the widespread adoption of AI and robotics, strongly accelerates this trend. Steering the new world with old methods will not only waste resources but also create suffering for both workers and customers.
 
-In particular, I believe engineering should borrow practices from science and organize teams like research laboratories. Why this is important and how to do it I'll try to explore in the next posts.
+In particular, I believe engineering should borrow practices from science and organize teams in a manner similar to research laboratories. I'll try to explore why this is important and how to do it in the following posts.
