@@ -4,10 +4,14 @@ tags = [ "theory", "development", "interesting", "management", "vantage-on-manag
 series = "vantage-on-management"
 published_at = "2025-10-17T12:00:00+00:00"
 seo_description = ""
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
 
-<!-- TODO: cover -->
+/// brigid-images
+src = "./cover.jpg"
+caption = "Наглядная иллюстрация инженерного и научного подходов."
+///
+
 <!-- TODO: description -->
 <!-- TODO: update tags -->
 <!-- TODO: нужна ли вторая часть «наука — это инженерия» именно в этом посте-->
