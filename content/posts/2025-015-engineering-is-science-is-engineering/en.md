@@ -126,29 +126,29 @@ Even the specification of a nut, formally, describes it in 4D, as it implicitly 
 For the purposes of this essay, this nuance is not essential, but I always try to include a note about it, since it is critically important for engineering.
 ///
 
-Концептуально тем же самым занимается и наука — создаёт модели окружающей реальности, только более глобальные. Поэтому между **идиоматическими** научными и инженерными моделями существует небольшая разница.
+Conceptually, science does the same thing — it creates models of the surrounding reality, only on a broader scale. That's why there is little difference between **idiomatic** scientific and engineering models.
 
-Свойство модели | Наука | Инженерия
----------|------ | ---------
-Фокус | **Объяснить**<br/> Почему что-то работает так, а не иначе. | **Предсказать**<br/> Как должна быть устроена штука, чтобы она вела себя должным образом в конкретной среде.
-Тип | **Универсальная**<br/>Как всегда работает мир. | **Частная**<br/> Как мир должен будет работать в очень конкретных условиях
+| Model property | Science | Engineering |
+| -------------- | ------- | ----------- |
+| **Focus**             | **Explanation**<br/>Why something works the way it does (and not otherwise). | **Prediction**<br/>How something should be designed to behave properly in a specific environment. |
+| **Type**              | **Universal**<br/>How the world always works.                               | **Particular**<br/>How the world should work under very specific conditions.
 
-Примеры научных моделей: `e = mc^2`, [теория всего](https://ru.wikipedia.org/wiki/Теория_всего).
+Examples of scientific models: `e = mc^2`, [theory of everything](https://en.wikipedia.org/wiki/Theory_of_everything).
 
-Примеры инженерных моделей: чертёж конкретного моста, схема микропроцессора.
+Examples of engineering models: detailed design of a specific bridge, microprocessor schematic.
 
-Эти различия важны на практике — они могут отражаться в приоритетах, используемых инструментах и процессах — но, на мой взгляд, они не достаточно существенны, чтобы говорить о концептуальной разнице в процессе создания моделей между наукой и инженерией.
+These differences matter in practice — they can be reflected in priorities, tools, and processes — but in my view, they are not significant enough to speak of a conceptual difference in the model creation between science and engineering.
 
-/// note | А на самом деле…
+/// note | In reality…
 
-На таблицу выше может резко среагировать и профессиональный учёный и профессиональный инженер, так как каждая дисциплина так или иначе использует оба типа моделей. В науке вы найдёте много чисто предсказательных моделей, в инженерии можно найти объяснительные модели.
+The table above might provoke a strong reaction from both professional scientists and professional engineers, since each discipline uses both types of models to some extent. In science, you can find many purely predictive models, while in engineering, there are also explanatory ones.
 
-Но всё-таки сложно спорить с тем, что:
+Still, it is hard to argue with the fact that:
 
-- Идеальный продукт науки — это универсальная модель, которая объясняет что-то.
-- Идеальный продукт инженерии — это очень специфическая, часто упрощённая модель, которая предсказывает что-то.
+- The ideal scientific product is a universal model that explains something.
+- The ideal engineering product is a very specific, often simplified model that predicts something.
 
-Однако мы живём не в идеальном мире, плюс, дисциплины стремятся друг к другу (о чём этот пост), поэтому в реальности границы размыты. Наука даже пытается бороться с предсказательными моделями, например, некоторые журналы отказываются публиковать статьи, которые не объясняют явление, а только предсказывают его. С точки зрения науки, это, скорее всего, позитивная тенденция, но, на мой взгляд, полная победа (полное разделение типов моделей) невозможна из-за природы ммм…, пусть будет, информации и мира в целом.
+However, we don't live in an ideal world, disciplines are converging (which is what this post is about), so in reality, the boundaries are blurred. Science even tries to confront purely predictive models: for example, some journals refuse to publish papers that merely predict a phenomenon without explaining it. From the scientific point of view, this is probably a positive trend; but in my opinion, complete victory — a full separation of model types — is impossible because of the very nature of, well… let's say, information and the world itself.
 ///
 
 ### Инженеры действуют в условиях неопределённости
