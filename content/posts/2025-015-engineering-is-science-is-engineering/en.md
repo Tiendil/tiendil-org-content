@@ -151,33 +151,34 @@ Still, it is hard to argue with the fact that:
 However, we don't live in an ideal world, disciplines are converging (which is what this post is about), so in reality, the boundaries are blurred. Science even tries to confront purely predictive models: for example, some journals refuse to publish papers that merely predict a phenomenon without explaining it. From the scientific point of view, this is probably a positive trend; but in my opinion, complete victory — a full separation of model types — is impossible because of the very nature of, well… let's say, information and the world itself.
 ///
 
-### Инженеры действуют в условиях неопределённости
+### Engineers operate under uncertainty
 
-Как и учёные.
+As do scientists.
 
-Невозможность создания чётких инструкций для инженера (см. [предыдущий пост]{post:no-instructions-for-engineering}) сама по себе предполагает работу в условиях неопределённости. Но я хотел бы дополнительно остановиться на паре моментов.
+The imposibility of creating precise instructions for an engineer (see [previous post]{post:no-instructions-for-engineering}) itself implies working under uncertainty. But I would like to elaborate on a couple of points.
 
-**Инженеры и учёные находятся в одинаковом положении по отношению к обучению и добыче знаний.**
+**Engineers and scientists are in the same position regarding learning and acquiring knowledge.**
 
-Институционализированное обучение отстаёт на 5-20 лет от [SOTA](https://en.wikipedia.org/wiki/State_of_the_art) практик — это справедливо и для инженерии, и для науки — даром что специалистов для обоих областей готовят в одних и тех же университетах.
+institutionalized education lags 5-20 years behind [SOTA](https://en.wikipedia.org/wiki/State_of_the_art) — that's true for both engineering and science — specialists for both fields are educated in the same universities.
 
-Это неизбежное зло институционализированного образования: чтобы написать хороший учебник, создать качественный курс, его автор должен получить практический опыт, а это занимает годы. Не говоря о том, что подготовка и полировка учебных материалов тоже занимает ни один год.
+It's an inevitable drawback of institutionalized education: writing a good textbook or developing a solid course requires real-world experience that takes years to acquire. Not to mention that preparing and polishing educational materials can also take years.
 
-Поэтому специалистам приходится учиться на практике, используя одинаковые практики (извините за невольную тавтологию):
+Therefore, professionals have to learn through practice, using the same practices (pardon the unintentional tautology):
 
-1. систему менторства;
-2. конференции и прочий нетворкинг;
-3. чтение статей, блогов, книг;
-4. эксперименты и исследование.
+1. mentorship systems;
+2. conferences and other networking;
+3. reading papers, blogs, books;
+4. experiments and research.
 
-Существенная разница, пожалуй, только в уровне формализации:
+The only real difference, perhaps, lies in the level of formalization:
 
-- Наука построила формальную всеобщую систему публикаций, менторства, установила процедуры проведения экспериментов.
-- Инженерия использует, в основном, неформальный подход.
+- Science has created a formal universal system of publication and mentorship; established standardized procedures for conducting experiments.
+- Engineering, on the other hand, relies mostly on informal approaches.
 
-У каждого пути есть свои плюсы и минусы, обсуждение которых выходит за рамки этого поста.
+Each approach has its pros and cons, which are beyond the scope of this post.
 
-**Окружающая среда всегда имеет компонент неизвестности** — это также справедливо и для инженерии, и для науки.
+**The environment always contains an element of uncertainty** — that's true for both engineering and science.
+
 
 В случае науки неизвестность происходит как из неполной информации о мире (например, в физике) так и из самой изменчивости изучаемой среды (например, в биологии или социальных науках).
 
