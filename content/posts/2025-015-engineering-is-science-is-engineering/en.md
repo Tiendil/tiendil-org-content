@@ -104,25 +104,26 @@ Even [Elon Musk confirms this](https://x.com/elonmusk/status/1950254103474446728
 Was the degree of originality formulated as a formalization of existing scientific practice, or did scientific practice emerge as a result of following this criterion?
 ///
 
-### Инженеры производят модели окружающей реальности
+### Engineers produce models of the surrounding reality
 
-Суть примерно та же, что и в предыдущем пункте, но на чуть более высоком уровне абстракции.
+The idea is the same as in the previous section, but at a slightly higher level of abstraction.
 
-Работа инженера заключается в описании на формальном языке некоторого артефакта, который будет демонстрировать необходимые свойства в заданной среде. Иногда не только в описании, но и в создании — для нужд этого текста это не существенно.
+An engineer's work consists in describing, in a formal language, an artifact that will exhibit the required properties within a given environment.
 
-Примеры артефактов:
+Here are some examples of artifacts:
 
-- Здание, которое будет устойчиво к землетрясениям в 7 баллов по шкале Рихтера, будет иметь уровень энергопотребления не выше X и будет пригодно для проживания при температурах от -30 до +50 градусов. При условии, что оно будет построено на такой-то почве, из таких-то материалов, с такими-то технологиями.
-- Программа учёта налогов, которая корректно посчитает налоги согласно законам страны N в таком-то временном интервале, будет работать на платформах Windows и Linux и будет соответствовать таким-то ожиданиям пользователей по безопасности. Требования законодательства, свойства платформ, ожидания пользователей — всё части внешней среды.
+- A building that will be earthquake-resistant up to 7 on the Richter scale, will have an energy consumption level not exceeding X, and will be habitable at temperatures from -30 to +50 celsius. Provided that it is built on such-and-such ground, from such-and-such materials, using such-and-such technologies.
+- A tax accounting program that correctly calculates taxes according to the laws of country N within a given time period, runs on Windows and Linux platforms, and meets certain user expectations for security. The legal requirements, platform properties, and user expectations — all these are parts of the external environment.
 
-Инженерное описание артефакта, по сути, является частной моделью реальности — оно неизбежно предсказывает поведение небольшого её кусочка. Как и любая модель, оно имеет область применения, ограничения, допущения, уровень точности и прочее.
+Thus, an engineering description of an artifact is, in essence, a particular model of reality — it inevitably predicts the behavior of a small part of it. Like any model, it has its scope of applicability, limitations, assumptions, level of accuracy, and so on.
 
-/// note | Формально
-С современной точки зрения инженеры описывают 4D-системы (3D-пространство + время), которые могут включать не только физические неодушевлённые объекты, но и людей, процессы, потоки информации и прочее.
+/// note | Formally speaking
 
-Даже спецификация гайки, формально, описывает её в 4D, так как неявно учитывает изменение свойств гайки со временем (например, износ) через указания на материалы и условия эксплуатации.
+From a modern perspective, engineers describe 4D-systems (3D space + time), which can include not only physical inanimate objects but also people, processes, information flows, and so on.
 
-Для нужд данного эссе этот нюанс несущественен, но я всегда стараюсь давать сноску на него, так как для инженерии он критически важен.
+Even the specification of a nut, formally, describes it in 4D, as it implicitly accounts for changes in the nut's properties over time (e.g., wear and tear) through references to materials and operating conditions.
+
+For the purposes of this essay, this nuance is not essential, but I always try to include a note about it, since it is critically important for engineering.
 ///
 
 Концептуально тем же самым занимается и наука — создаёт модели окружающей реальности, только более глобальные. Поэтому между **идиоматическими** научными и инженерными моделями существует небольшая разница.
