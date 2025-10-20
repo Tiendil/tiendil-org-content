@@ -1,6 +1,6 @@
 ---
 title = "Review of the book \"The Signal and the Noise\""
-tags = ["books", "thinking", "theory", "practice", "interesting", "popular-science-books"]
+tags = ["books", "thinking", "theory", "practice", "interesting", "popular-science-books", "science"]
 published_at = "2024-07-16T12:00:00+00:00"
 seo_description = "Review of the book \"The Signal and the Noise\". A good overview of forecasting approaches using specific significant cases as examples."
 seo_image = "./cover_en.jpg"

@@ -1,6 +1,6 @@
 ---
 title = "On the roles of function and selection in evolving systems"
-tags = [ "theory", "evolution", "systems", "interesting", "biology", "scientific-papers"]
+tags = [ "theory", "evolution", "systems", "interesting", "biology", "scientific-papers", "science"]
 published_at = "2025-07-02T12:00:00+00:00"
 seo_description = 'A simplified summary of the article "On the roles of function and selection in evolving systems"'
 seo_image = "cover.jpg"

@@ -1,6 +1,6 @@
 ---
 title = "О книге «Человек говорящий — эволюция и язык»"
-tags = [ "books", "systems", "theory", "evolution", "popular-science-books"]
+tags = [ "books", "systems", "theory", "evolution", "popular-science-books", "science"]
 published_at = "2019-09-23T12:00:00+00:00"
 seo_description = "Краткий обзор книги «Человек говорящий — эволюция и язык». Гипотеза: язык появился не как средство коммуникации, а как механизм внутреннего мышления."
 seo_image = "images/talking-man-book.jpg"

@@ -1,6 +1,6 @@
 ---
 title = "О книге «WTF?»"
-tags = [ "business", "state", "books", "thinking", "practice", "theory", "futurology", "evolution", "economics", "interesting", "best", "popular-science-books"]
+tags = [ "business", "state", "books", "thinking", "practice", "theory", "futurology", "evolution", "economics", "interesting", "best", "professional-books"]
 published_at = "2020-09-30T12:00:00+00:00"
 seo_description = "Отзыв на книгу Тима О’Рейли «WTF?» Бизнес-модели будущего, подрывные технологии и этика."
 seo_image = "images/wtf-cover.png"

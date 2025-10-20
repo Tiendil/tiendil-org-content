@@ -1,6 +1,6 @@
 ---
 title = "О книге «Искусство Войны»"
-tags = [ "state", "books", "theory", "popular-science-books"]
+tags = [ "state", "books", "theory", "popular-philosophy-books"]
 published_at = "2020-03-11T12:00:00+00:00"
 seo_description = "Пара слов о классике — книге «Искусство войны»."
 seo_image = "images/art-of-war-book.jpg"

@@ -1,6 +1,6 @@
 ---
 title = "О книге «Как устроена экономика»"
-tags = [ "theory", "society", "books", "economics", "state", "interesting", "popular-science-books"]
+tags = [ "theory", "society", "books", "economics", "state", "interesting", "popular-science-books", "science"]
 published_at = "2024-04-01T12:00:00+00:00"
 seo_description = "Отзыв на книгу Ха-Джун Чан «Как устроена экономика». Отличное введение в экономику. Раскрыта сложность, неоднозначность и политизированность явления."
 seo_image = "./images/cover_ru.jpg"

@@ -122,10 +122,13 @@ databases = "базы данных"
 fiction-books = "художественные книги"
 professional-books = "профессиональные книги"
 popular-science-books = "научно-популярные книги"
+popular-philosophy-books = "философско-популярные книги" # TODO
+history-books = "исторические книги" # TODO
 results-of-the-year = "итоги года"
-scientific-papers = "научные статьи"
+scientific-papers = "научные статьи"  # TODO
 management = "управление"
 vantage-on-management = "взгляд на управление"
+science = "наука"
 
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'
