@@ -3,7 +3,7 @@ title = "Engineering is science is engineering"
 tags = [ "theory", "development", "interesting", "management", "vantage-on-management", "science"]
 series = "vantage-on-management"
 published_at = "2025-10-17T12:00:00+00:00"
-seo_description = "I'll show that engineering and science are conceptually close and are increasingly converging in the modern world, meaning they can borrow practices from each other."
+seo_description = "I'll show that engineering and science are conceptually close and are increasingly converging, meaning they can borrow practices from each other."
 seo_image = "./cover.jpg"
 ---
 
@@ -54,6 +54,14 @@ From the philosophical vantage, engineering and science produce different kinds 
 - Engineering produces applied knowledge — how to make a specific thing that will interact with the world in a predictable way — a bridge blueprint, the [source code of the blog](https://github.com/Tiendil/brigid) you're reading now, the design drawings of the Large Hadron Collider.
 
 Science imposes many constraints on the knowledge it produces — for example, the [degree of originality](https://en.wikipedia.org/wiki/Research#Original_researchy) — the knowledge must be new to the scientific community, not merely useful.
+
+/// brigid-images
+src = "./scientific-novelty.jpg"
+caption = """
+Illustration of the current state of novelty production in science.<br/>
+Images were taken from [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/).
+"""
+///
 
 A substantial part of the knowledge produced by engineering doesn't fit within these constraints. Therefore, one could say that the two have nothing in common — and leave it at that.
 
@@ -259,7 +267,7 @@ caption = "Вот так это всё выглядит в инженерных 
 
 <!-- TODO: перевести пост о сумме технологий на английский, он короткий -->
 
-[Станислав Лем](https://ru.wikipedia.org/wiki/Лем,_Станислав) ещё в [Сумме технологии]{post:summa-technologiae} в 1960-х годах писал, что человечество может отойти от объяснительных моделей в сторону предсказательных.
+[Станислав Лем](https://ru.wikipedia.org/wiki/Лем,_Станислав) ещё в [Сумме технологии]{post:@choose-nearest-language:summa-technologiae} в 1960-х годах писал, что человечество может отойти от объяснительных моделей в сторону предсказательных.
 
 Книга очень интересная — выдающийся футурологический труд, который остаётся актуальным даже через 60 лет после написания. Причём не только остаётся актуальным, но и во многом сбывается.
 
