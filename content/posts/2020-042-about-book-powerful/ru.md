@@ -1,6 +1,6 @@
 ---
 title = "О книге «Сильнейшие»"
-tags = [ "business", "books", "practice", "psychology", "theory", "interesting", "best", "professional-books"]
+tags = [ "business", "books", "practice", "psychology", "theory", "interesting", "best", "professional-books", "management"]
 published_at = "2020-10-26T12:00:00+00:00"
 seo_description = "Отзыв о книге Патти МакКорд «Сильнейшие: бизнес по правилам Netflix» — обязательно к прочтению для понимания важности работы над культурой компании."
 seo_image = "images/powerful-cover.jpg"
