@@ -24,12 +24,13 @@ That's why, in this post, I will try to show that engineering is conceptually mu
 
 <!-- more -->
 
-/// note | Оговорки
-В [предыдущем посте]{post:no-instructions-for-engineering} есть целый раздел, посвящённый оговоркам при обсуждении инженерии и творчества. Не буду их повторять здесь.
+/// note | Disclaimers
 
-Если какие-то утверждения кажутся вам спорными, преувеличенными или вы не видите рассмотрения важных частных случаев, пожалуйста, первым делом прочитайте тот раздел.
+In the [previous post]{post:no-instructions-for-engineering}, there is a whole disclaimer section regarding discussing engineering and creativity. I will not repeat them here.
 
-Также в этом посте будет значительно больше текста со стороны инженерии, чем со стороны науки. Потому что я нахожусь со стороны инженерии и, в первую очередь, заинтересован в улучшении своей жизни :-)
+In case some statements seem controversial for you, exaggerated, or you do not see mentioning important special cases, please first read that section.
+
+Also note that this essay contains significantly more text from the engineering side than from the science side. Because I am on the engineering side and primarily interested in improving my life :-)
 ///
 
 ## Почему инженерия похожа на науку
