@@ -1,15 +1,15 @@
 ---
-title = "Инженерия — это наука — это инженерия"
+title = "Engineering is science is engineering"
 tags = [ "theory", "development", "interesting", "management", "vantage-on-management", "science"]
 series = "vantage-on-management"
 published_at = "2025-10-17T12:00:00+00:00"
-seo_description = "Покажем, что инженерия и наука концептуально близки и в современном мире всё больше сближаются, а значит, могут заимствовать практики друг у друга."
+seo_description = "I'll show that engineering and science are conceptually close and are increasingly converging in the modern world, meaning they can borrow practices from each other."
 seo_image = "./cover.jpg"
 ---
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "Наглядная иллюстрация инженерного и научного подходов."
+caption = "A visual depiction of engineering and scientific approaches."
 ///
 
 /// brigid-series
