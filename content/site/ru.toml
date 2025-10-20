@@ -130,6 +130,10 @@ management = "управление"
 vantage-on-management = "взгляд на управление"
 science = "наука"
 
+# TODO: Maybe we need tag "engineering" in pair to "science" tag?
+# But it will intersect significantly with "development" tag.
+# Need to think about it.
+
 [theme_translations]
 tags_filter_header = 'Нашли эссе:'
 last_posts_header = 'Последние эссе'

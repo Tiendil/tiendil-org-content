@@ -1,6 +1,6 @@
 ---
 title = "Инженерия — это наука — это инженерия"
-tags = [ "theory", "development", "interesting", "management", "vantage-on-management"]
+tags = [ "theory", "development", "interesting", "management", "vantage-on-management", "science"]
 series = "vantage-on-management"
 published_at = "2025-10-17T12:00:00+00:00"
 seo_description = ""
@@ -13,8 +13,6 @@ caption = "Наглядная иллюстрация инженерного и �
 ///
 
 <!-- TODO: description -->
-<!-- TODO: update tags -->
-<!-- TODO: нужна ли вторая часть «наука — это инженерия» именно в этом посте-->
 
 /// brigid-series
 tag = "vantage-on-management"
