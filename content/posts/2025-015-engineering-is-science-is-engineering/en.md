@@ -75,16 +75,16 @@ Engineering advances in [deep learning](https://en.wikipedia.org/wiki/Deep_learn
 
 ///
 
-Большие языковые модели — это отличный пример синергии и эмерджентности взаимодействия науки и инженерии, переплетения видов знаний:
+Large language models are an excellent example of the synergy and emergence arising from the interaction between science and engineering — an intertwining of different kinds of knowledge.
 
-1. Физики открыли новые свойства полупроводников — наука сдвинула фронтир.
-2. Благодаря чему инженеры [NVIDIA](https://ru.wikipedia.org/wiki/Nvidia) создали новые вычислительные архитектуры — инженерия сдвинула фронтир.
-3. Это позволило учёным сделать несколько концептуальных прорывов в нейронных сетях — наука сдвинула фронтир.
-4. После чего инженеры [OpenAI](https://ru.wikipedia.org/wiki/OpenAI) отмасштабировали новые сети — инженерия сдвинула фронтир — и [мы получили то, что получили]{post:ai-notes-2024-the-current-state}.
+1. Physicists discovered new properties of semiconductors — science pushed the frontier.
+2. This enabled [NVIDIA](https://en.wikipedia.org/wiki/Nvidia) engineers to create new computing architectures — engineering pushed the frontier.
+3. That, in turn, allowed scientists to make several conceptual breakthroughs in neural networks — science pushed the frontier.
+4. Then [OpenAI](https://en.wikipedia.org/wiki/OpenAI) engineers scaled up the new networks — engineering pushed the frontier — and [we got what we got]{post:ai-notes-2024-the-current-state}.
 
-Я бы даже сказал, что в области искусственного интеллекта граница между наукой и инженерией уже стёрта.
+I'd even say that in the field of artificial intelligence, the boundary between science and engineering has already disappeared.
 
-Это даже [Elon Musk подтверждает](https://x.com/elonmusk/status/1950254103474446728) в свойственной ему грубоватой манере:
+Even [Elon Musk confirms this](https://x.com/elonmusk/status/1950254103474446728) in his typically blunt manner:
 
 > This false nomenclature of “researcher” and “engineer”, which is a thinly-masked way of describing a two-tier engineering system, is being deleted from @xAI today.
 >
@@ -92,8 +92,8 @@ Engineering advances in [deep learning](https://en.wikipedia.org/wiki/Deep_learn
 >
 > Researcher is a relic term from academia.
 
-/// note | Кстати, вот вам головоломка, если хотите поломать голову философией
-Критерий новизны появился как формализация сути научной практики или научная практика сформировалась в результате следования этому критерию?
+/// note | By the way, here's a little puzzle for you, if you're into philosophy.
+Was the degree of originality formulated as a formalization of existing scientific practice, or did scientific practice emerge as a result of following this criterion?
 ///
 
 ### Инженеры производят модели окружающей реальности
