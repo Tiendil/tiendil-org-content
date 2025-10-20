@@ -16,11 +16,11 @@ caption = "A visual depiction of engineering and scientific approaches."
 tag = "vantage-on-management"
 ///
 
-В [предыдущем посте]{post:no-instructions-for-engineering} мы обсудили, что инженерия — это творческая деятельность, которая не сводится к исполнению инструкций. Поэтому для управления инженерными коллективами необходимо использовать практики, созданные для творческих коллективов.
+In the [previous post]{post:no-instructions-for-engineering}, we discussed that engineering is a creative activity that cannot be reduced to following instructions. Therefore, to manage engineering teams, it is necessary to use practices intended for creative teams.
 
-А что может быть более творческим, чем ~~вокально-инструментальный ансамбль~~ наука?
+And what could be more creative than ~~a jazz band~~ science?
 
-Поэтому в этом посте я попытаюсь показать, что инженерия концептуально значительно ближе к науке, чем может показаться на первый взгляд. А также, что в современном мире эти дисциплины всё больше сближаются. Я бы даже поставил на то, что граница между ними сотрётся.
+That's why, in this post, I will try to show that engineering is conceptually much closer to science than it may seem at first glance, and that in the modern world, these disciplines are converging with increasing speed. I would even bet that the boundary between them will disappear someday in the future.
 
 <!-- more -->
 
