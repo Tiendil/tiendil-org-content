@@ -63,15 +63,15 @@ However, I would like to point out the following nuances.
 
 Since we're talking about human activity, what matters more to us are the similarities in tools, processes, and the ways of interacting with the final product, rather than the differences in the philosophical definitions of its essence. If something looks like a duck, swims like a duck, and quacks like a duck, [it's probably a duck](https://en.wikipedia.org/wiki/Duck_test).
 
-**Во-вторых**, де-факто, многие научные дисциплины сейчас производят огромное количество прикладного знания, научная новизна которого стоит под вопросом, если следовать букве ~~закона~~ науки. В то же время, многие инженерные отрасли давно оперируют на фронтире человеческих знаний и двигают его вперёд.
+**Second**, de facto, many scientific disciplines today produce vast amounts of applied knowledge whose scientific novelty is questionable if one follows the letter of ~~law~~ science. At the same time, many branches of engineering have a long history of operating at the frontier of human knowledge — and continue to push it forward.
 
-Можно сказать, что границы между научным и инженерным знанием размываются.
+One could say that the boundary between scientific and engineering knowledge is blurring.
 
-/// note | Для примера
+/// note | As an example
 
-Большой объём работ в биоинформатике, физике, химии сейчас посвящён разработке софта или физических приборов на основе уже существующих научных знаний.
+A large portion of work in bioinformatics, physics, and chemistry today is devoted to developing software or physical instruments based on existing scientific knowledge.
 
-Инженерные достижения в области [глубокого обучения](https://ru.wikipedia.org/wiki/Глубокое_обучение) и [LLM](https://ru.wikipedia.org/wiki/Большая_языковая_модель) в частности, сейчас открывают целый новый фронтир для научных исследований: от классического Computer Science, до лингвистики, психологии, когнитивных наук и философии.
+Engineering advances in [deep learning](https://en.wikipedia.org/wiki/Deep_learning) — and [LLMs](https://en.wikipedia.org/wiki/Large_language_model) in particular — are opening up an entirely new frontier for scientific research, ranging from classical computer science to linguistics, psychology, cognitive science, and philosophy.
 
 ///
 
