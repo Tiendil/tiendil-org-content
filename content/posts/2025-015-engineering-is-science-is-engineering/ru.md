@@ -3,7 +3,7 @@ title = "Инженерия — это наука — это инженерия"
 tags = [ "theory", "development", "interesting", "management", "vantage-on-management", "science"]
 series = "vantage-on-management"
 published_at = "2025-10-17T12:00:00+00:00"
-seo_description = ""
+seo_description = "Покажем что инженерия и наука концептуально близки и в современном мире всё больше сближаются, а значит могут заимствовать практики друг у друга."
 seo_image = "./cover.jpg"
 ---
 
@@ -11,8 +11,6 @@ seo_image = "./cover.jpg"
 src = "./cover.jpg"
 caption = "Наглядная иллюстрация инженерного и научного подходов."
 ///
-
-<!-- TODO: description -->
 
 /// brigid-series
 tag = "vantage-on-management"
