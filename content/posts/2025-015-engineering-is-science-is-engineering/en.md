@@ -33,27 +33,27 @@ In case some statements seem controversial for you, exaggerated, or you do not s
 Also note that this essay contains significantly more text from the engineering side than from the science side. Because I am on the engineering side and primarily interested in improving my life :-)
 ///
 
-## Почему инженерия похожа на науку
+## Why engineering resembles science
 
-### Инженеры производят новое знание
+### Engineers produce new knowledge
 
-В предыдущем посте я говорил, что инженерия производит новую информацию.
+In the previous post, we discussed that engineering produces new information.
 
-В этом же посте я хочу сделать более сильное утверждение и указать, что производимая инженерией информация — это новое знание о мире.
+In this post, I want to make a stronger statement and point out that the information produced by engineering is new knowledge about the world.
 
-Есть разные определения знания, для наших целей я воспользуюсь следующим:
+There are numerous definitions of knowledge; for our purposes, let me use the following one:
 
-> Знание — это организованная сильно связанная информация, которая позволяет создавать достоверные [модели]{post:@choose-nearest-language:life-and-work-with-models} поведения окружающей реальности или может использоваться таковыми моделями.
+> Knowledge is organized, strongly connected information that enables the creation of reliable [models]{post:@choose-nearest-language:life-and-work-with-models} of the behavior of the surrounding reality, or can be used by such models.
 
-- Записи о случаях взрыва различных веществ — это информация.
-- Формальное описание двигателя с заданным [КПД](https://ru.wikipedia.org/wiki/Коэффициент_полезного_действия) — это знание.
+- Records of explosions of various substances are information.
+- A formal description of an engine with a given [energy conversion efficiency](https://en.wikipedia.org/wiki/Energy_conversion_efficiency) is knowledge.
 
-С философской точки зрения, инженерия и наука производят разные виды знания:
+From the philosophical vantage, engineering and science produce different kinds of knowledge:
 
-- Наука ~~иногда~~ производит концептуально новое знание о мире — как мир работает — структура ДНК, закон всемирного тяготения Ньютона, формула зависимости энергии от массы Эйнштейна.
-- Инженерия производит прикладное знание — как сделать конкретную штуку, которая будет взаимодействовать с миром предсказуемым образом — чертёж моста, [код блога](https://github.com/Tiendil/brigid), который вы сейчас читаете, чертежи большого адронного коллайдера.
+- Science ~~sometimes~~ produces conceptually new knowledge about the world — how the world works — the structure of DNA, Newton’s law of universal gravitation, Einstein’s formula relating energy and mass.
+- Engineering produces applied knowledge — how to make a specific thing that will interact with the world in a predictable way — a bridge blueprint, the [source code of the blog](https://github.com/Tiendil/brigid) you're reading now, the design drawings of the Large Hadron Collider.
 
-Наука накладывает множество ограничений на производимое знание, например, [критерий новизны](https://ru.wikipedia.org/wiki/Новизна) — знание должно быть новым для научного сообщества, а не просто полезным.
+Science imposes many constraints on the knowledge it produces — for example, the [degree of originality](https://en.wikipedia.org/wiki/Research#Original_researchy) — the knowledge must be new to the scientific community, not merely useful.
 
 Существенная часть знаний, которые производит инженерия, не подходит под эти ограничения. Поэтому можно было бы сказать, что общего между ними нет и закрыть вопрос.
 
