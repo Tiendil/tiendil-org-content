@@ -55,13 +55,13 @@ From the philosophical vantage, engineering and science produce different kinds 
 
 Science imposes many constraints on the knowledge it produces — for example, the [degree of originality](https://en.wikipedia.org/wiki/Research#Original_researchy) — the knowledge must be new to the scientific community, not merely useful.
 
-Существенная часть знаний, которые производит инженерия, не подходит под эти ограничения. Поэтому можно было бы сказать, что общего между ними нет и закрыть вопрос.
+A substantial part of the knowledge produced by engineering doesn't fit within these constraints. Therefore, one could say that the two have nothing in common — and leave it at that.
 
-Но я хотел бы обратить внимание на следующие нюансы.
+However, I would like to point out the following nuances.
 
-**Во-первых**, добыча обоих видов знаний происходит однотипно — через исследование пространства решений — и требует одного и того же набора навыков и инструментов.
+**First**, both kinds of knowledge are obtained in the same way — through exploring the [space of possible solutions](https://en.wikipedia.org/wiki/Feasible_region) — and require the same set of skills and tools.
 
-Поскольку мы говорим о человеческой деятельности, то для нас как раз важнее сходство в инструментах, процессах и типах взаимодействия с конечным продуктом, чем различия в философских определениях его сути. Если что-то выглядит как утка, плавает как утка и крякает как утка, то, скорее всего, это утка.
+Since we're talking about human activity, what matters more to us are the similarities in tools, processes, and the ways of interacting with the final product, rather than the differences in the philosophical definitions of its essence. If something looks like a duck, swims like a duck, and quacks like a duck, [it's probably a duck](https://en.wikipedia.org/wiki/Duck_test).
 
 **Во-вторых**, де-факто, многие научные дисциплины сейчас производят огромное количество прикладного знания, научная новизна которого стоит под вопросом, если следовать букве ~~закона~~ науки. В то же время, многие инженерные отрасли давно оперируют на фронтире человеческих знаний и двигают его вперёд.
 
