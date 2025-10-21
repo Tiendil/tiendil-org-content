@@ -254,11 +254,11 @@ Therefore, good engineering practice includes designing product architecture and
 
 Today, in some areas of software development (such as web services and online games), it's possible to run dozens of parallel experiments continuously — both business and technical. This approach is now considered a best practice in itself.
 
-## Почему наука похожа на инженерию
+## Why science resembles engineering
 
-На схожесть инженерии и науки можно посмотреть и с другой стороны.
+We can look at the similarities between engineering and science from another angle as well.
 
-Поскольку я не учёный и хуже понимаю научную сторону вопроса, ограничусь только базовыми наблюдениями. Было бы интересно услышать мнение профессиональных учёных по этому поводу.
+Hovewer, since I'm not a scientist and understand the scientific side of the issue less well, I'll limit myself to some basic observations. It would be interesting to hear the opinions of professional scientists on this topic.
 
 ### Возрастает доля предсказательных моделей
 
