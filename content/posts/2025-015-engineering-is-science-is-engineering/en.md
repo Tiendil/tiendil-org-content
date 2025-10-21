@@ -285,7 +285,7 @@ This, in addition to scientific practices aimed at reproducibility of experiment
 
 As a result, the production of engineering artifacts is becoming an integral part of scientific work, which manifests itself in various forms:
 
-- Through additional publication requirements — providing ~~working~~ code and data (understandable to both humans and machines), public demos as best practices, etc.
+- Through additional publication requirements — providing ~~working~~ code and data (understandable to both humans and machines), public demos as a best practice, etc.
 - Through collaboration on open-source projects for creating toolkits with deterministic and consistent behavior. From general-purpose libraries like [SciPy](https://scipy.org/) to specialized toolkits like [Bioconductor](https://bioconductor.org/) for bioinformatics.
 - Through the creation of public repositories of standardized datasets, such as [Gene Expression Omnibus](https://www.ncbi.nlm.nih.gov/geo/), [WikiPathways](https://www.wikipathways.org/), etc.
 
@@ -303,7 +303,7 @@ These problems — the consequences of shared goals and methods — are so well-
 
 **Assessing colleagues' competence** — especially at higher levels, when a person must be judged not by standardized foundational knowledge, but by their ability to learn, to operate with meta-concepts, to organize work and manage knowledge, to make long-term decisions, and to act under uncertainty, etc.
 
-[The Hirsch index](https://en.wikipedia.org/wiki/Hirsch_index) is an interesting and useful tool for this, but it's far from perfect — it has its own flaws.
+[The h-index](https://en.wikipedia.org/wiki/Hirsch_index) is an interesting and useful tool for this, but it's far from perfect — it has its own flaws.
 
 **Transparency of teams' work** — both for insiders and for external observers. No one really knows what those engineers over there — or those scientists over there — are actually doing.
 
