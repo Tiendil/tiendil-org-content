@@ -191,7 +191,7 @@ In my opinion, that's why engineering is becoming more and more like science in 
 
 Using software development as an example.
 
-Contemporary reality is such that if your project lasts several years, at the start of the next one you are forced to reassemble the entire tech stack from scratch, maybe even from the hardware level, reconsidering the architecture for new requirements. If your product lives even longer, you will most likely need to change its technologies on the fly, and this must be accounted for in planning, architecture, etc.
+Contemporary reality is such that if your project lasts several years, at the start of the next one you are forced to reassemble the entire tech stack from scratch, maybe even down to the hardware level, reconsidering the architecture for new requirements. If your product lives even longer, you will most likely need to change its technologies on the fly, and this must be accounted for in planning, architecture, etc.
 
 The necessity of reassembling the stack stems not only from the pace of changes in the technosphere, but also from the knowledge developers gain through their work. The volume of information about technologies, tools, architectures today is such that you won't find two developers who are in a completely identical context and will make completely identical decisions.
 
