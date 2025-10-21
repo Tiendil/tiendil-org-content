@@ -258,7 +258,7 @@ However, since I'm not a scientist and understand the scientific side of the iss
 
 ### The share of predictive models is increasing
 
-In my opinion, this trend existed even before the rise of machine learning, but now it has become much more noticeable. Especially when looking at the application of deep learning and LLMs, which struggle with explanations but have [enormous potential in predictive power]{post:ai-notes-2024-generative-knowledge-base}, leading to the emergence of systems like [AlphaFold](https://en.wikipedia.org/wiki/AlphaFold) or the recent [fluid dynamics simulation by DeepMind](https://arxiv.org/abs/2509.14185).
+In my opinion, this trend existed even before the rise of machine learning, but now it has become much more noticeable. Especially when looking at the application of deep learning and LLMs, which struggle with explanations but have [enormous predictive power]{post:ai-notes-2024-generative-knowledge-base}, leading to the emergence of systems like [AlphaFold](https://en.wikipedia.org/wiki/AlphaFold) or the recent [fluid dynamics simulation by DeepMind](https://arxiv.org/abs/2509.14185).
 
 As I see it, science might prefer to focus purely on explanatory models, but the reality is that predictive models often prove to be more useful and practically applicable.
 
