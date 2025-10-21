@@ -28,7 +28,7 @@ That's why, in this post, I will try to show that engineering is conceptually mu
 
 In the [previous post]{post:no-instructions-for-engineering}, there is a whole disclaimer section about discussing engineering and creativity. I won't repeat them here.
 
-If any statements strike you as controversial, exaggerated, or you do not see important special cases mentioned, please first read that section.
+If any statements strike you as controversial, exaggerated, or if you do not see important special cases mentioned, please first read that section.
 
 Also note that this essay contains significantly more from the engineering side than from the science side. Because I am on the engineering side and primarily interested in improving my life :-)
 ///
@@ -39,7 +39,7 @@ Also note that this essay contains significantly more from the engineering side 
 
 In the previous post, we discussed that engineering produces new information.
 
-In this post, I want to make a stronger statement and point out that the information produced by engineering is new knowledge about the world.
+In this post, I aim to make a stronger statement and point out that the information produced by engineering is new knowledge about the world.
 
 There are numerous definitions of knowledge; for our purposes, let me use the following one:
 
