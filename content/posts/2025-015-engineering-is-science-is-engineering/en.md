@@ -214,13 +214,13 @@ Architects build scale models not out of idle curiosity. Nor should we forget ab
 
 However, engineers work under stronger economic and time pressures, follow less formal procedures, which often changes the form of experimentation and blurs the line between experiment and implementation.
 
-**Во-первых**, целью инженера обычно является не создание на 100% SOTA артефакта, а создание «достаточно хорошего» артефакта в заданных ограничениях (по времени, деньгам, ресурсам). Поэтому мы можем пренебрегать частью экспериментов, если мы понимаем, что «хорошо известное» решение будет «достаточно подходящим».
+**First**, an engineer's goal is usually not to create a 100% SOTA artifact, but to create a "good enough" artifact within given constraints (time, money, resources). Therefore, we can neglect some experiments if we believe that a "well-known" solution will be "good enough".
 
-Но это не значит, что экспериментов не было. Прежде чем стать «хорошо известным» решением, это решение прошло через множество реализаций, которые и были экспериментами, подтвердившими его свойства и сделавшими его «хорошо известным».
+Note, that does not mean there were no experiments. Before becoming a "well-known" solution, that solution went through many implementations, which indeed were experiments that confirmed its properties and made it "well-known".
 
-**Во-вторых**, мы смотрим на стоимость эксперимента в сравнении со стоимостью исправления последствий ошибки. Если стоимость эксперимента выше стоимости исправления ошибки, то мы можем пренебречь экспериментом как отдельной активностью. Вместо этого мы ставим эксперимент сразу на «живом пациенте».
+**Second**, we always compare the cost of an experiment with the cost of fixing the consequences of a wrong decision. When conducting an experiment is more expensive than fixing a potential mistake, we can skip the experiment as a separate activity. Instead, we run the experiment directly on the "live patient".
 
-Для стороннего наблюдателя это может выглядеть как отсутствие эксперимента, но на самом деле это просто более рисковое экспериментирование :-)
+For an outside observer, this may look like the absence of an experiment, however, it's just riskier experimentation :-)
 
 /// note | Пример из моей практики
 
