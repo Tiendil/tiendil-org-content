@@ -187,21 +187,23 @@ In the case of engineering, uncertainty is mostly comes from the variability of 
 – From the dynamics of user preferences and behavior — we can't assume users will engage with a new artifact the same way they did with previous versions or analogs.
 – From the dynamics of the [anthroposphere](https://en.wikipedia.org/wiki/Anthroposphere) — we don't operate in a vacuum; the results of our work should interact smoothly with the artifacts produced by other engineers.
 
-Ещё полвека назад изменения в окружающей среде происходили медленно — часто ими можно было пренебрегать. Но сейчас темп изменений ускорился на порядки, особенно в разработке программного обеспечения.
+As recently as half a century ago, changes in the environment occurred slowly — often they could be neglected for a some time. But now the pace of change has accelerated by orders of magnitude, especially in software development.
 
-На мой взгляд, именно из-за возрастающей скорости изменений в окружающей среде инженерия по духу всё ближе приближается к науке и всё больше отдаляется от классического фабричного производства с исчерпывающими инструкциями.
+In my opinion, that's why engineering is becoming more and more like science in spirit, and moving away from classical factory production with exhaustive instructions — we have to deal with novelty more and more.
 
-/// note | Пересобирая стек технологий, мы узнаём новое
+/// note | By reassembling our tech stack, we discover new things
 
-На примере IT.
+On the example of software development.
 
-Современное положение дел таково, что если ваш проект длится несколько лет, то при начале следующего вы вынуждены полностью пересобирать весь стек технологий, чуть ли не от железа, пересматривать архитектуру под новые требования. Если ваш продукт живёт ещё дольше, скорее всего вам потребуется менять его технологии на ходу и это надо закладывать в планирование, архитектуру, etc.
+Contemporary reality is such that if your project lasts several years, at the start of the next one you are forced to reassemble the entire tech stack from scratch, maybe even from the hardware level, reconsidering the architecture for new requirements. If your product lives even longer, you will most likely need to change its technologies on the fly, and this must be accounted for in planning, architecture, etc.
 
-Это не значит, что каждый раз вы полностью начинаете заново, но существенную часть ваших инструментов придётся заменить либо обновить — если вы хотите оставаться на фронтире и делать топовые продукты.
+Necessity of reassembling the stack stems not only from the pace of changes in the anthroposphere, but also from the knowledge developers gain through their work. The volume of information about technologies, tools, architectures today is such that you won't find two developers who are in a completely identical context and will make completely identical decisions.
 
-Соответственно, выбирая что-то новое, мы должны получить знания о принципах его работы и о его взаимодействии с окружением, с другими инструментами. Если нам везёт, у нас есть исчерпывающая документация, но обычно мы изучаем это экспериментально: делаем прототипы, изучаем поведение технологий в интересных нам сценариях, etc.
+It doesn't mean that every time you start from scratch, but a significant part of your tools will have to be replaced or updated if you want to stay at the frontier and make top-notch products.
 
-Кстати, исчерпывающей документации я в жизни не видел :-)
+Accordingly, when adopting something new, we have to understand both its operating principles and its interactions with the surrounding environment and other tools. If we're lucky, there's thorough documentation — but more often, we learn through experimentation: building prototypes and observing how the technologies behave in the scenarios we care about.
+
+By the way, I've never seen truly comprehensive documentation in my life :-)
 ///
 
 ### Инженеры познают реальность через эксперимент
