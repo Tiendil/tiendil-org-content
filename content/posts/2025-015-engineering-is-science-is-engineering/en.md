@@ -26,9 +26,9 @@ That's why, in this post, I will try to show that engineering is conceptually mu
 
 /// note | Disclaimers
 
-In the [previous post]{post:no-instructions-for-engineering}, there is a whole disclaimer section about discussing engineering and creativity. I will not repeat them here.
+In the [previous post]{post:no-instructions-for-engineering}, there is a whole disclaimer section about discussing engineering and creativity. I won't repeat them here.
 
-In case some statements seem controversial to you, exaggerated, or you do not see important special cases mentioned, please first read that section.
+If any statements strike you as controversial, exaggerated, or you do not see important special cases mentioned, please first read that section.
 
 Also note that this essay contains significantly more from the engineering side than from the science side. Because I am on the engineering side and primarily interested in improving my life :-)
 ///
