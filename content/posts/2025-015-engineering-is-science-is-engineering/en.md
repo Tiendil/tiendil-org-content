@@ -104,25 +104,25 @@ Even [Elon Musk confirms this](https://x.com/elonmusk/status/1950254103474446728
 
 The idea is the same as in the previous section, but at a slightly higher level of abstraction.
 
-An engineer's work consists in describing, in a formal language, an artifact that will exhibit the required properties within a given environment.
+An engineer's work consists of describing, in a formal language, an artifact that will exhibit the required properties within a given environment.
 
 Here are some examples of artifacts:
 
-- A building that will be earthquake-resistant up to 7 on the Richter scale, will have an energy consumption level not exceeding X, and will be habitable at temperatures from -30 to +50 celsius. Provided that it is built on such-and-such ground, from such-and-such materials, using such-and-such technologies.
+- A building that will be earthquake-resistant up to 7 on the Richter scale, will have an energy consumption level not exceeding X, and will be habitable at temperatures from -30 to +50 °C. Provided that it is built on such-and-such ground, from such-and-such materials, using such-and-such technologies.
 - A tax accounting program that correctly calculates taxes according to the laws of country N within a given time period, runs on Windows and Linux platforms, and meets certain user expectations for security. The legal requirements, platform properties, and user expectations — all these are parts of the external environment.
 
 Thus, an engineering description of an artifact is, in essence, a particular model of reality — it inevitably predicts the behavior of a small part of it. Like any model, it has its scope of applicability, limitations, assumptions, level of accuracy, and so on.
 
 /// note | Formally speaking
 
-From a modern perspective, engineers describe 4D-systems (3D space + time), which can include not only physical inanimate objects but also people, processes, information flows, and so on.
+From a modern perspective, engineers describe 4D systems (3D space + time), which can include not only physical inanimate objects but also people, processes, information flows, and so on.
 
 Even the specification of a nut, formally, describes it in 4D, as it implicitly accounts for changes in the nut's properties over time (e.g., wear and tear) through references to materials and operating conditions.
 
 For the purposes of this essay, this nuance is not essential, but I always try to include a note about it, since it is critically important for engineering.
 ///
 
-Conceptually, science does the same thing — it creates models of the surrounding reality, only on a broader scale. That's why there is little difference between **idiomatic** scientific and engineering models.
+Conceptually, science does the same thing — it creates models of the surrounding reality, only on a broader scale. That's why there is little difference between **idealized** scientific and engineering models.
 
 | Model property | Science | Engineering |
 | -------------- | ------- | ----------- |
@@ -144,7 +144,7 @@ Still, it is hard to argue with the fact that:
 - The ideal scientific product is a universal model that explains something.
 - The ideal engineering product is a very specific, often simplified model that predicts something.
 
-However, we don't live in an ideal world, disciplines are converging (which is what this post is about), so in reality, the boundaries are blurred. Science even tries to confront purely predictive models: for example, some journals refuse to publish papers that merely predict a phenomenon without explaining it. From the scientific point of view, this is probably a positive trend; but in my opinion, complete victory — a full separation of model types — is impossible because of the very nature of, well… let's say, information and the world itself.
+However, we don't live in an ideal world, disciplines are converging (which is what this post is about), so in reality, the boundaries are blurred. Science even tries to confront purely predictive models: for example, some journals refuse to publish papers that merely predict a phenomenon without explaining it. From a scientific point of view, this is probably a positive trend; but in my opinion, complete victory — a full separation of model types — is impossible because of the very nature of, well… let's say, information and the world itself.
 ///
 
 ### Engineers operate under uncertainty
@@ -168,7 +168,7 @@ Therefore, professionals have to learn through practice, using the same practice
 
 The only real difference, perhaps, lies in the level of formalization:
 
-- Science has created a formal universal system of publication and mentorship; established standardized procedures for conducting experiments.
+- Science has created a formal, universal system of publication and mentorship, and has established standardized procedures for conducting experiments.
 - Engineering, on the other hand, relies mostly on less formal approaches.
 
 Each approach has its pros and cons, which are beyond the scope of this post.
@@ -189,13 +189,13 @@ In my opinion, that's why engineering is becoming more and more like science in 
 
 /// note | By reassembling our tech stack, we discover new things
 
-On the example of software development.
+Using software development as an example.
 
 Contemporary reality is such that if your project lasts several years, at the start of the next one you are forced to reassemble the entire tech stack from scratch, maybe even from the hardware level, reconsidering the architecture for new requirements. If your product lives even longer, you will most likely need to change its technologies on the fly, and this must be accounted for in planning, architecture, etc.
 
-Necessity of reassembling the stack stems not only from the pace of changes in the anthroposphere, but also from the knowledge developers gain through their work. The volume of information about technologies, tools, architectures today is such that you won't find two developers who are in a completely identical context and will make completely identical decisions.
+The necessity of reassembling the stack stems not only from the pace of changes in the anthroposphere, but also from the knowledge developers gain through their work. The volume of information about technologies, tools, architectures today is such that you won't find two developers who are in a completely identical context and will make completely identical decisions.
 
-It doesn't mean that every time you start from scratch, but a significant part of your tools will have to be replaced or updated if you want to stay at the frontier and make top-notch products.
+This doesn't mean that you start from scratch every time, but a significant part of your tools will have to be replaced or updated if you want to stay at the frontier and make top-notch products.
 
 Accordingly, when adopting something new, we have to understand both its operating principles and its interactions with the surrounding environment and other tools. If we're lucky, there's thorough documentation — but more often, we learn through experimentation: building prototypes and observing how the technologies behave in the scenarios we care about.
 
