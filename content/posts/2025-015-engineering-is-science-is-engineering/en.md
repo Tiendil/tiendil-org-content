@@ -90,7 +90,7 @@ Large language models are an excellent example of the synergy and emergence aris
 3. That, in turn, allowed scientists to make several conceptual breakthroughs in neural networks — science pushed the frontier.
 4. Then [OpenAI](https://en.wikipedia.org/wiki/OpenAI) engineers scaled up the new networks — engineering pushed the frontier — and [we got what we got]{post:ai-notes-2024-the-current-state}.
 
-I'd even say that in the field of artificial intelligence, the boundary between science and engineering has already disappeared.
+I'd even say that in the field of artificial intelligence, the boundary between science and engineering has almost disappeared.
 
 Even [Elon Musk confirms this](https://x.com/elonmusk/status/1950254103474446728) in his typically blunt manner:
 
