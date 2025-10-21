@@ -206,11 +206,11 @@ Accordingly, when adopting something new, we have to understand both its operati
 By the way, I've never seen truly comprehensive documentation in my life :-)
 ///
 
-### Инженеры познают реальность через эксперимент
+### Engineers comprehend reality through experimentation
 
-Стороннему наблюдателю (да и многим внутри профессии) может казаться, что эксперимент занимает довольно малую часть инженерной работы. Но это не так.
+To an outside observer — and even to many within the profession — it may seem that experimentation makes up only a small part of engineering work. But that's not the case.
 
-Те же архитекторы строят макеты зданий не от избытка свободного времени. Не будем забывать и о проведении экспериментов [in silico](https://ru.wikipedia.org/wiki/In_silico) в виде всевозможных расчётов и симуляций: от определения надёжности конструкций до симуляций устойчивости серверной инфраструктуры к [(D)DoS-атакам](https://ru.wikipedia.org/wiki/DoS-атака).
+Architects build scale models not out of idle curiosity. Nor should we forget about [in silico](https://en.wikipedia.org/wiki/In_silico) experiments — a broad range of calculations and simulations: from evaluating the reliability of structures to testing the robustness of server infrastructure against [(D)DoS attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack).
 
 На инженеров сильнее давят экономические и временные факторы, из-за чего форма эксперимента может меняться, а граница между экспериментом и реализацией стирается.
 
