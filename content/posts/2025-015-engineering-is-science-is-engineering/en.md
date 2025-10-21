@@ -232,7 +232,7 @@ There were reasons for this choice:
 
 So, the choice was between:
 
-1. Abandon orchestration and sacrifice important guarantees it provides.
+1. Abandon orchestration and sacrifice the important guarantees it provides.
 2. Take a risk and choose a random off-the-shelf solution that might turn out to be fatally incompatible with future requirements.
 3. Implement a minimal in-house solution and improve it iteratively, gathering data on its usability and efficiency from a live project — in other words, through experimentation.
 
