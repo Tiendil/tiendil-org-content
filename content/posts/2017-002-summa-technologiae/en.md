@@ -1,8 +1,8 @@
 ---
-titla ="Summa Technologiae book review"
+title ="Summa Technologiae book review"
 tags = [ "books", "society", "systems", "theory", "futurology", "evolution", "interesting", "best", "popular-philosophy-books"]
 published_at = "2017-07-28T12:00:00+00:00"
-seo_description = "Summa Technologiae is a collection of long-term forecasts for the development of humanity, from the perspective of an evolutionary view on society and technology."
+seo_description = "Summa Technologiae is a collection of long-term forecasts for humanity's development, based on an evolutionary view of society and technology."
 seo_image = "images/summa_technologiae.jpg"
 ---
 
