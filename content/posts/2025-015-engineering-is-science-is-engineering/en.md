@@ -48,7 +48,7 @@ There are numerous definitions of knowledge; for our purposes, let me use the fo
 - Records of explosions of various substances are information.
 - A formal description of an engine with a given [energy conversion efficiency](https://en.wikipedia.org/wiki/Energy_conversion_efficiency) is knowledge.
 
-From a philosophical vantage point, engineering and science produce different kinds of knowledge:
+From a philosophical standpoint, engineering and science produce different kinds of knowledge:
 
 - Science ~~sometimes~~ produces conceptually new knowledge about the world — how the world works — the structure of DNA, Newton's law of universal gravitation, Einstein's formula relating energy and mass.
 - Engineering produces applied knowledge — how to make a specific thing that will interact with the world in a predictable way — a bridge blueprint, the [source code of the blog](https://github.com/Tiendil/brigid) you're reading now, the design drawings of the Large Hadron Collider.
@@ -181,7 +181,7 @@ In the case of engineering, uncertainty mostly comes from the variability of the
 
 – From the dynamics of regulations (for example, in medicine or finance) — we should keep track of changes and adapt our artifacts accordingly.
 – From the dynamics of user preferences and behavior — we can't assume users will engage with a new artifact the same way they did with previous versions or analogs.
-– From the dynamics of the [anthroposphere](https://en.wikipedia.org/wiki/Anthroposphere) — we don't operate in a vacuum; the results of our work should interact smoothly with the artifacts produced by other engineers.
+– From the dynamics of the [technosphere](https://en.wikipedia.org/wiki/Anthroposphere) — we don't operate in a vacuum; the results of our work should interact smoothly with the artifacts produced by other engineers.
 
 As recently as half a century ago, changes in the environment occurred slowly — often they could be neglected for some time. But now the pace of change has accelerated by orders of magnitude, especially in software development.
 
@@ -193,7 +193,7 @@ Using software development as an example.
 
 Contemporary reality is such that if your project lasts several years, at the start of the next one you are forced to reassemble the entire tech stack from scratch, maybe even from the hardware level, reconsidering the architecture for new requirements. If your product lives even longer, you will most likely need to change its technologies on the fly, and this must be accounted for in planning, architecture, etc.
 
-The necessity of reassembling the stack stems not only from the pace of changes in the anthroposphere, but also from the knowledge developers gain through their work. The volume of information about technologies, tools, architectures today is such that you won't find two developers who are in a completely identical context and will make completely identical decisions.
+The necessity of reassembling the stack stems not only from the pace of changes in the technosphere, but also from the knowledge developers gain through their work. The volume of information about technologies, tools, architectures today is such that you won't find two developers who are in a completely identical context and will make completely identical decisions.
 
 This doesn't mean that you start from scratch every time, but a significant part of your tools will have to be replaced or updated if you want to stay at the frontier and make top-notch products.
 
@@ -287,7 +287,7 @@ As a result, the production of engineering artifacts is becoming an integral par
 
 - Through additional publication requirements — providing ~~working~~ code and data (understandable to both humans and machines), public demos as best practices, etc.
 - Through collaboration on open-source projects for creating toolkits with deterministic and consistent behavior. From general-purpose libraries like [SciPy](https://scipy.org/) to specialized toolkits like [Bioconductor](https://bioconductor.org/) for bioinformatics.
-- Through the creation of public repositories of standardized datasets, such as [Gene Expression Omnibus](https://www.ncbi.nlm.nih.gov/geo/), [Wiki Pathways](https://www.wikipathways.org/), etc.
+- Through the creation of public repositories of standardized datasets, such as [Gene Expression Omnibus](https://www.ncbi.nlm.nih.gov/geo/), [WikiPathways](https://www.wikipathways.org/), etc.
 
 ## Shared challenges of science and engineering
 
