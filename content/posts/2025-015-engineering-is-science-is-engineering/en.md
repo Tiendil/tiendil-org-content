@@ -20,7 +20,7 @@ In the [previous post]{post:no-instructions-for-engineering}, we discussed that 
 
 And what could be more creative than ~~a jazz band~~ science?
 
-That's why, in this post, I will try to show that engineering is conceptually much closer to science than it may seem at first glance, and that in the modern world, these disciplines are converging ever faster. I would even bet that the boundary between them will disappear someday.
+That's why, in this post, I will try to show that engineering is conceptually much closer to science than it may seem at first glance, and that in the modern world, these disciplines are converging ever faster. I would even bet that the boundary between them will eventually disappear.
 
 <!-- more -->
 
