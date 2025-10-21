@@ -252,7 +252,7 @@ Today, in some areas of software development (such as web services and online ga
 
 ## Why science resembles engineering
 
-We can look at the similarities between engineering and science from another angle as well.
+We can also look at the similarities between engineering and science from another angle.
 
 However, since I'm not a scientist and understand the scientific side of the issue less well, I'll limit myself to some basic observations. It would be interesting to hear the opinions of professional scientists on this topic.
 
