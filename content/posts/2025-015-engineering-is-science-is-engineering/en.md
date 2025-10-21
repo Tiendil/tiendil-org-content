@@ -50,7 +50,7 @@ There are numerous definitions of knowledge; for our purposes, let me use the fo
 
 From the philosophical vantage, engineering and science produce different kinds of knowledge:
 
-- Science ~~sometimes~~ produces conceptually new knowledge about the world — how the world works — the structure of DNA, Newton’s law of universal gravitation, Einstein’s formula relating energy and mass.
+- Science ~~sometimes~~ produces conceptually new knowledge about the world — how the world works — the structure of DNA, Newton's law of universal gravitation, Einstein's formula relating energy and mass.
 - Engineering produces applied knowledge — how to make a specific thing that will interact with the world in a predictable way — a bridge blueprint, the [source code of the blog](https://github.com/Tiendil/brigid) you're reading now, the design drawings of the Large Hadron Collider.
 
 Science imposes many constraints on the knowledge it produces — for example, the [degree of originality](https://en.wikipedia.org/wiki/Research#Original_researchy) — the knowledge must be new to the scientific community, not merely useful.
@@ -293,32 +293,32 @@ As a result, the production of engineering artifacts is becoming an integral par
 - Through collaboration on open-source projects for creating toolkits with deterministic and consistent behavior. From general-purpose libraries like [SciPy](https://scipy.org/) to specialized toolkits like [Bioconductor](https://bioconductor.org/) for bioinformatics.
 - Through the creation of public repositories of standardized datasets, such as [Gene Expression Omnibus](https://www.ncbi.nlm.nih.gov/geo/), [Wiki Pathways](https://www.wikipathways.org/), etc.
 
-## Общие проблемы науки и инженерии
+## Shared challenges of science and engineering
 
-Кое в чём инженерия и наука сближаются, а в кое в чём они уже почти слились воедино, например, в проблемах.
+In something, engineering and science are converging — and in something, they've almost merged entirely, for example, in their problems.
 
-Проблемы эти — следствия родственных целей и методов — настолько заезжены, что я их просто перечислю, без влезания в детали.
+These problems — the consequences of shared goals and methods — are so well-worn that I'll just list them without going into details.
 
-**Перекос в сторону оглашения позитивных результатов и замалчивания негативных**. В науке это известно как [проблема публикационного смещения](https://en.wikipedia.org/wiki/Publication_bias). Инженерия, как всегда, не особо стремится формализовать свои проблемы, но все мы знаем, что ситуация та же. Все любят писать, как круто они чего-нибудь отрефакторили, если метрики положительные, но попробуйте найти пост о неудачном рефакторинге.
+**A bias toward publishing positive results while ignoring negative ones.** In science, this is known as the [publication bias](https://en.wikipedia.org/wiki/Publication_bias). Engineering, as usual, doesn't strive to formalize its problems, hovewer, we all know the situation is the same. Everyone loves to brag about how brilliantly they refactored something when the metrics look good — but try finding a post about a failed refactoring.
 
-**[Закон Конвея](https://ru.wikipedia.org/wiki/Закон_Конвея)** портит жизнь людям в обеих областях. Организационная структура влияет и на то, что вы исследуете, и на то, что вы проектируете.
+**[Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law)** makes life difficult for people in both fields: organizational structure shapes not only what you study, but also what you design.
 
-**Общие этические проблемы**: как не навредить, как сохранить данные людей в безопасности. Масштаб этих проблем примерно одинаков.
+**Shared ethical challenges**: how not to cause harm, how to keep people's data safe. The scale of these issues is roughly the same in both domains.
 
-**Оценка компетенции коллег** — особенно на высоком уровне, когда человека нужно судить не по знанию стандартизированного базиса, а по способности к обучению, к оперированию мета-понятиями, к организации труда и управлению знаниями, к принятию долгоиграющих решений и действиям в условиях неопределённости, etc.
+**Assessing colleagues' competence** — especially at higher levels, when a person must be judged not by standardized foundational knowledge, but by their ability to learn, to operate with meta-concepts, to organize work and manage knowledge, to make long-term decisions, and to act under uncertainty, etc.
 
-[Индекс Хирша](https://ru.wikipedia.org/wiki/Индекс_Хирша) — интересный и полезный инструмент для решения этой проблемы, но он далеко не идеален — имеет свои недостатки.
+[The Hirsch index](https://en.wikipedia.org/wiki/Hirsch_index) is an interesting and useful tool for this, but it's far from perfect — it has its own flaws.
 
-**Прозрачность работы коллективов** — как для их сотрудников, так и для внешних наблюдателей. Никто не знает, чего там конкретно делают как вон-те-вон инженеры, так и вон-те-вон учёные.
+**Transparency of teams work** — both for insiders and for external observers. No one really knows what those engineers over there — or those scientists over there — are actually doing.
 
-## Допустим, инженерия и наука близки
+## Suppose engineering and science are alike
 
-Надеюсь, я достаточно убедительно показал, что это так.
+I hope I provided enough evidence to show that they are.
 
-Что же из этого следует?
+So what follows from that?
 
-То, что мы можем учиться друг у друга, заимствовать успешные практики.
+That we can learn from each other, borrow successful practices.
 
-Не мне учить учёных, что заимствовать у нас, инженеров, зато у меня есть некоторые мысли по поводу того, что мы, инженеры, можем заимствовать у учёных.
+It's not my place to tell scientists what they should borrow from us, engineers, hovewer, I do have some thoughts on what we might borrow from scientists.
 
-Про это поговорим в следующем посте.
+That's what we'll talk about in the next post.
