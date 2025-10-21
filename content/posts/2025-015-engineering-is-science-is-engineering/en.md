@@ -179,14 +179,13 @@ Each approach has its pros and cons, which are beyond the scope of this post.
 
 **The environment always contains an element of uncertainty** — that's true for both engineering and science.
 
+In the case of science, uncertainty arises both from incomplete information about the world (as in physics) and from the inherent variability of the environment being studied (as in biology or the social sciences).
 
-В случае науки неизвестность происходит как из неполной информации о мире (например, в физике) так и из самой изменчивости изучаемой среды (например, в биологии или социальных науках).
+In the case of engineering, uncertainty is mostly comes from the variability of the environment in which the artifact will be used:
 
-В случае инженерии неизвестность в основном определяется изменчивостью среды, в которой артефакт будет использоваться:
-
-- Динамикой регуляций (например, в медицине или финансах) — мы должны следить за их изменениями и адаптировать артефакты.
-- Динамикой пользовательских предпочтений и поведения — мы не можем быть уверены, что пользователи будут готовы взаимодействовать с новым артефактом так, как они взаимодействовали с предыдущими версиями или аналогами.
-- Динамикой [техносферы](https://ru.wikipedia.org/wiki/Техносфера) — мы существуем не в вакууме, результат нашей работы должен корректно взаимодействовать с результатами работы других инженеров.
+– From the dynamics of regulations (for example, in medicine or finance) — we should keep track of changes and adapt our artifacts accordingly.
+– From the dynamics of user preferences and behavior — we can't assume users will engage with a new artifact the same way they did with previous versions or analogs.
+– From the dynamics of the [anthroposphere](https://en.wikipedia.org/wiki/Anthroposphere) — we don't operate in a vacuum; the results of our work should interact smoothly with the artifacts produced by other engineers.
 
 Ещё полвека назад изменения в окружающей среде происходили медленно — часто ими можно было пренебрегать. Но сейчас темп изменений ускорился на порядки, особенно в разработке программного обеспечения.
 
