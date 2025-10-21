@@ -53,7 +53,7 @@ From the philosophical vantage, engineering and science produce different kinds 
 - Science ~~sometimes~~ produces conceptually new knowledge about the world — how the world works — the structure of DNA, Newton's law of universal gravitation, Einstein's formula relating energy and mass.
 - Engineering produces applied knowledge — how to make a specific thing that will interact with the world in a predictable way — a bridge blueprint, the [source code of the blog](https://github.com/Tiendil/brigid) you're reading now, the design drawings of the Large Hadron Collider.
 
-Science imposes many constraints on the knowledge it produces — for example, the [degree of originality](https://en.wikipedia.org/wiki/Research#Original_researchy) — the knowledge must be new to the scientific community, not merely useful.
+Science imposes many constraints on the knowledge it produces — for example, the [degree of originality](https://en.wikipedia.org/wiki/Research#Original_research) — the knowledge must be new to the scientific community, not merely useful.
 
 /// brigid-images
 src = "./scientific-novelty.jpg"
@@ -155,7 +155,7 @@ However, we don't live in an ideal world, disciplines are converging (which is w
 
 As do scientists.
 
-The imposibility of creating precise instructions for an engineer (see [previous post]{post:no-instructions-for-engineering}) itself implies working under uncertainty. But I would like to elaborate on a couple of points.
+The impossibility of creating precise instructions for an engineer (see [previous post]{post:no-instructions-for-engineering}) itself implies working under uncertainty. But I would like to elaborate on a couple of points.
 
 **Engineers and scientists are in the same position regarding learning and acquiring knowledge.**
 
@@ -181,13 +181,13 @@ Each approach has its pros and cons, which are beyond the scope of this post.
 
 In the case of science, uncertainty arises both from incomplete information about the world (as in physics) and from the inherent variability of the environment being studied (as in biology or the social sciences).
 
-In the case of engineering, uncertainty is mostly comes from the variability of the environment in which the artifact will be used:
+In the case of engineering, uncertainty mostly comes from the variability of the environment in which the artifact will be used:
 
 – From the dynamics of regulations (for example, in medicine or finance) — we should keep track of changes and adapt our artifacts accordingly.
 – From the dynamics of user preferences and behavior — we can't assume users will engage with a new artifact the same way they did with previous versions or analogs.
 – From the dynamics of the [anthroposphere](https://en.wikipedia.org/wiki/Anthroposphere) — we don't operate in a vacuum; the results of our work should interact smoothly with the artifacts produced by other engineers.
 
-As recently as half a century ago, changes in the environment occurred slowly — often they could be neglected for a some time. But now the pace of change has accelerated by orders of magnitude, especially in software development.
+As recently as half a century ago, changes in the environment occurred slowly — often they could be neglected for some time. But now the pace of change has accelerated by orders of magnitude, especially in software development.
 
 In my opinion, that's why engineering is becoming more and more like science in spirit, and moving away from classical factory production with exhaustive instructions — we have to deal with novelty more and more.
 
@@ -216,7 +216,7 @@ However, engineers work under stronger economic and time pressures, follow less 
 
 **First**, an engineer's goal is usually not to create a 100% SOTA artifact, but to create a "good enough" artifact within given constraints (time, money, resources). Therefore, we can neglect some experiments if we believe that a "well-known" solution will be "good enough".
 
-Note, that does not mean there were no experiments. Before becoming a "well-known" solution, that solution went through many implementations, which indeed were experiments that confirmed its properties and made it "well-known".
+Note, this does not mean there were no experiments. Before becoming a "well-known" solution, that solution went through many implementations, which indeed were experiments that confirmed its properties and made it "well-known".
 
 **Second**, we always compare the cost of an experiment with the cost of fixing the consequences of a wrong decision. When conducting an experiment is more expensive than fixing a potential mistake, we can skip the experiment as a separate activity. Instead, we run the experiment directly on the "live patient".
 
@@ -234,9 +234,9 @@ There were reasons for this choice:
 4. Orchestration was a key component of the system. Choosing the wrong base technology would make fixing the mistake either expensive or impossible.
 5. Most of the third-party systems did not match the team's technology stack, meaning it would be difficult for us to understand their behavior, maintain, and modify them.
 
-So, the choise was between:
+So, the choice was between:
 
-1. Abadon orchestration and sacrifice important guarantees it provides.
+1. Abandon orchestration and sacrifice important guarantees it provides.
 2. Take a risk and choose a random off-the-shelf solution that might turn out to be fatally incompatible with future requirements.
 3. Implement minimal in-house solution and improve it iteratively, gathering data on its usability and efficiency from a live project — in other words, through experimentation.
 
@@ -258,7 +258,7 @@ Today, in some areas of software development (such as web services and online ga
 
 We can look at the similarities between engineering and science from another angle as well.
 
-Hovewer, since I'm not a scientist and understand the scientific side of the issue less well, I'll limit myself to some basic observations. It would be interesting to hear the opinions of professional scientists on this topic.
+However, since I'm not a scientist and understand the scientific side of the issue less well, I'll limit myself to some basic observations. It would be interesting to hear the opinions of professional scientists on this topic.
 
 ### The share of predictive models is increasing
 
@@ -281,7 +281,7 @@ Two trends are pushing science toward a greater use of engineering practices.
 
 **First**, scientific tools and processes are becoming more complex — that calls for ever more sophisticated pipelines for experimentation, data collection, and analysis.
 
-A scientific pipeline is, in essence, an engineering artifact (that encompass hardware, software, data storage, configuration, and even people), and therefore demands engineering skills and practices to build and maintain it.
+A scientific pipeline is, in essence, an engineering artifact (that encompasses hardware, software, data, configuration, and even people), and therefore demands engineering skills and practices to build and maintain it.
 
 **Second**, the requirements for reproducibility of scientific results are increasing (we won't discuss the reasons here), as well as the control over their compliance.
 
@@ -299,7 +299,7 @@ In something, engineering and science are converging — and in something, they'
 
 These problems — the consequences of shared goals and methods — are so well-worn that I'll just list them without going into details.
 
-**A bias toward publishing positive results while ignoring negative ones.** In science, this is known as the [publication bias](https://en.wikipedia.org/wiki/Publication_bias). Engineering, as usual, doesn't strive to formalize its problems, hovewer, we all know the situation is the same. Everyone loves to brag about how brilliantly they refactored something when the metrics look good — but try finding a post about a failed refactoring.
+**A bias toward publishing positive results while ignoring negative ones.** In science, this is known as the [publication bias](https://en.wikipedia.org/wiki/Publication_bias). Engineering, as usual, doesn't strive to formalize its problems, however, we all know the situation is the same. Everyone loves to brag about how brilliantly they refactored something when the metrics look good — but try finding a post about a failed refactoring.
 
 **[Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law)** makes life difficult for people in both fields: organizational structure shapes not only what you study, but also what you design.
 
@@ -309,7 +309,7 @@ These problems — the consequences of shared goals and methods — are so well-
 
 [The Hirsch index](https://en.wikipedia.org/wiki/Hirsch_index) is an interesting and useful tool for this, but it's far from perfect — it has its own flaws.
 
-**Transparency of teams work** — both for insiders and for external observers. No one really knows what those engineers over there — or those scientists over there — are actually doing.
+**Transparency of teams' work** — both for insiders and for external observers. No one really knows what those engineers over there — or those scientists over there — are actually doing.
 
 ## Suppose engineering and science are alike
 
