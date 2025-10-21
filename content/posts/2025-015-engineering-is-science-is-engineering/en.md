@@ -100,10 +100,6 @@ Even [Elon Musk confirms this](https://x.com/elonmusk/status/1950254103474446728
 >
 > Researcher is a relic term from academia.
 
-/// note | By the way, here's a little puzzle for you, if you're into philosophy.
-Was the degree of originality formulated as a formalization of existing scientific practice, or did scientific practice emerge as a result of following this criterion?
-///
-
 ### Engineers produce models of the surrounding reality
 
 The idea is the same as in the previous section, but at a slightly higher level of abstraction.
