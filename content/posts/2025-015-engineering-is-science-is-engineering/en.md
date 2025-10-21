@@ -319,6 +319,6 @@ So what follows from that?
 
 That we can learn from each other, borrow successful practices.
 
-It's not my place to tell scientists what they should borrow from us, engineers, hovewer, I do have some thoughts on what we might borrow from scientists.
+It's not my place to tell scientists what they should borrow from us, engineers, however, I do have some thoughts on what we might borrow from scientists.
 
 That's what we'll talk about in the next post.
