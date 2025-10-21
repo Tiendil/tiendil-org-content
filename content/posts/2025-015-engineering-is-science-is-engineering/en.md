@@ -59,7 +59,7 @@ Science imposes many constraints on the knowledge it produces — for example, t
 src = "./scientific-novelty.jpg"
 caption = """
 Illustration of the current state of novelty production in science.<br/>
-Images were taken from [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/).
+Images are taken from [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/).
 """
 ///
 
@@ -285,13 +285,13 @@ This, in addition to scientific practices aimed at reproducibility of experiment
 
 As a result, the production of engineering artifacts is becoming an integral part of scientific work, which manifests itself in various forms:
 
-- Through additional publication requirements: providing ~~working~~ code, data (understandable to both humans and machines); public demos as best practices, etc.
+- Through additional publication requirements — providing ~~working~~ code and data (understandable to both humans and machines), public demos as best practices, etc.
 - Through collaboration on open-source projects for creating toolkits with deterministic and consistent behavior. From general-purpose libraries like [SciPy](https://scipy.org/) to specialized toolkits like [Bioconductor](https://bioconductor.org/) for bioinformatics.
 - Through the creation of public repositories of standardized datasets, such as [Gene Expression Omnibus](https://www.ncbi.nlm.nih.gov/geo/), [Wiki Pathways](https://www.wikipathways.org/), etc.
 
 ## Shared challenges of science and engineering
 
-In something, engineering and science are converging — and in something, they've almost merged entirely, for example, in their problems.
+In some ways, engineering and science are converging — and in others, they've almost merged entirely, for example, in their problems.
 
 These problems — the consequences of shared goals and methods — are so well-worn that I'll just list them without going into details.
 
@@ -313,8 +313,8 @@ I hope I provided enough evidence to show that they are.
 
 So what follows from that?
 
-That we can learn from each other, borrow successful practices.
+That we can learn from each other and borrow successful practices.
 
-It's not my place to tell scientists what they should borrow from us, engineers, however, I do have some thoughts on what we might borrow from scientists.
+It's not my place to tell scientists what they should borrow from us engineers; however, I do have some thoughts on what we might borrow from scientists.
 
 That's what we'll talk about in the next post.
