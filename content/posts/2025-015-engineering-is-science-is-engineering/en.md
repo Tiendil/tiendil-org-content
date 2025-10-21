@@ -212,7 +212,7 @@ To an outside observer — and even to many within the profession — it may see
 
 Architects build scale models not out of idle curiosity. Nor should we forget about [in silico](https://en.wikipedia.org/wiki/In_silico) experiments — a broad range of calculations and simulations: from evaluating the reliability of structures to testing the robustness of server infrastructure against [(D)DoS attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack).
 
-На инженеров сильнее давят экономические и временные факторы, из-за чего форма эксперимента может меняться, а граница между экспериментом и реализацией стирается.
+However, engineers work under stronger economic and time pressures, follow less formal procedures, which often changes the form of experimentation and blurs the line between experiment and implementation.
 
 **Во-первых**, целью инженера обычно является не создание на 100% SOTA артефакта, а создание «достаточно хорошего» артефакта в заданных ограничениях (по времени, деньгам, ресурсам). Поэтому мы можем пренебрегать частью экспериментов, если мы понимаем, что «хорошо известное» решение будет «достаточно подходящим».
 
