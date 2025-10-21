@@ -220,7 +220,7 @@ To an outside observer, this may look like the absence of an experiment, however
 
 /// note | An example from my practice
 
-At the start of a new project at my previous job, I pushed the team to implement our own [distributed transaction orchestration](https://microservices.io/patterns/data/saga.html) rather than use one of the existing solutions.
+At the start of a new project at my previous job, I advocated for our own [distributed transaction orchestration](https://microservices.io/patterns/data/saga.html) rather than use one of the existing solutions.
 
 There were reasons for this choice:
 
