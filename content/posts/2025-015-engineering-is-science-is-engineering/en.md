@@ -243,16 +243,16 @@ So, the choise was between:
 I pushed the third option. Retrospectively, in my opinion, it was the right choice, although it sparked some debates.
 ///
 
-Отчасти именно поэтому разработку ПО часто сравнивают с собиранием самолёта в полёте — мы пробуем решения сразу на запущенных продуктах с готовностью быстро откатить, заменить или доработать внесённые изменения, если данные показывают нежелательный результат.
+That's partly why software development is often compared to assembling an airplane mid-flight — we try out solutions directly on running systems, prepared to roll back, replace, or adjust them quickly if the data indicates an undesirable result.
 
 /// brigid-youtube
 id = "Y7XW-mewUm8"
-caption = "Вот так это всё выглядит в инженерных фантазиях."
+caption = "How it all looks in engineering fantasies."
 ///
 
-Соответственно, частью хорошей инженерной работы является организация архитектуры продукта и процессов таким образом, чтобы они позволяли проводить эксперименты быстро и с минимальными издержками.
+Therefore, good engineering practice includes designing product architecture and processes in a way that enables fast and low-cost experimentation.
 
-В настоящее время, в некоторых областях разработки ПО (например, в веб-сервисах, онлайн-играх), возможно организовать работу с постоянно идущими десятками параллельных экспериментов (как бизнесовых, так и технических). И это, само по себе, сейчас считается лучшей практикой.
+Today, in some areas of software development (such as web services and online games), it's possible to run dozens of parallel experiments continuously — both business and technical. This approach is now considered a best practice in itself.
 
 ## Почему наука похожа на инженерию
 
