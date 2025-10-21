@@ -144,7 +144,7 @@ Still, it is hard to argue with the fact that:
 - The ideal scientific product is a universal model that explains something.
 - The ideal engineering product is a very specific, often simplified model that predicts something.
 
-However, we don't live in an ideal world, disciplines are converging (which is what this post is about), so in reality, the boundaries are blurred. Science even tries to confront purely predictive models: for example, some journals refuse to publish papers that merely predict a phenomenon without explaining it. From a scientific point of view, this is probably a positive trend; but in my opinion, complete victory — a full separation of model types — is impossible because of the very nature of, well… let's say, information and the world itself.
+However, we don't live in an ideal world, disciplines are converging (which is what this post is about), so in reality, the boundaries are blurred. Science even tries to confront purely predictive models: for example, some journals refuse to publish papers that merely predict a phenomenon without explaining it. From a scientific point of view, this is probably a positive trend; still, in my opinion, complete victory — a full separation of model types — is impossible because of the very nature of, well… let's say, information and the world itself.
 ///
 
 ### Engineers operate under uncertainty
