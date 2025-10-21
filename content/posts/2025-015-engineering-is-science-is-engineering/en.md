@@ -3,7 +3,7 @@ title = "Engineering is science is engineering"
 tags = [ "theory", "development", "interesting", "management", "vantage-on-management", "science"]
 series = "vantage-on-management"
 published_at = "2025-10-21T12:00:00+00:00"
-seo_description = "I'll show that engineering and science are conceptually close and are increasingly converging, meaning they can borrow practices from each other."
+seo_description = "I'll demonstrate that engineering and science are conceptually close and increasingly converging, meaning they can borrow practices from each other."
 seo_image = "./cover.jpg"
 ---
 
