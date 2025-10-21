@@ -208,7 +208,7 @@ To an outside observer — and even to many within the profession — it may see
 
 Architects build scale models not out of idle curiosity. Nor should we forget about [in silico](https://en.wikipedia.org/wiki/In_silico) experiments — a broad range of calculations and simulations: from evaluating the reliability of structures to testing the robustness of server infrastructure against [(D)DoS attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack).
 
-However, engineers work under stronger economic and time pressures, follow less formal procedures, which often changes the form of experimentation and blurs the line between experiment and implementation.
+However, engineers work under stronger economic and time pressures and follow less formal procedures, which often changes the form of experimentation and blurs the line between experiment and implementation.
 
 **First**, an engineer's goal is usually not to create a 100% SOTA artifact, but to create a "good enough" artifact within given constraints (time, money, resources). Therefore, we can neglect some experiments if we believe that a "well-known" solution will be "good enough".
 
@@ -216,7 +216,7 @@ Note, this does not mean there were no experiments. Before becoming a "well-know
 
 **Second**, we always compare the cost of an experiment with the cost of fixing the consequences of a wrong decision. When conducting an experiment is more expensive than fixing a potential mistake, we can skip the experiment as a separate activity. Instead, we run the experiment directly on the "live patient".
 
-For an outside observer, this may look like the absence of an experiment, however, it's just riskier experimentation :-)
+To an outside observer, this may look like the absence of an experiment, however, it's just riskier experimentation.
 
 /// note | An example from my practice
 
@@ -234,9 +234,9 @@ So, the choice was between:
 
 1. Abandon orchestration and sacrifice important guarantees it provides.
 2. Take a risk and choose a random off-the-shelf solution that might turn out to be fatally incompatible with future requirements.
-3. Implement minimal in-house solution and improve it iteratively, gathering data on its usability and efficiency from a live project — in other words, through experimentation.
+3. Implement a minimal in-house solution and improve it iteratively, gathering data on its usability and efficiency from a live project — in other words, through experimentation.
 
-I pushed the third option. Retrospectively, in my opinion, it was the right choice, although it sparked some debates.
+I pushed the third option. In retrospect, it was the right choice, although it sparked some debates.
 ///
 
 That's partly why software development is often compared to assembling an airplane mid-flight — we try out solutions directly on running systems, prepared to roll back, replace, or adjust them quickly if the data indicates an undesirable result.
@@ -258,7 +258,7 @@ However, since I'm not a scientist and understand the scientific side of the iss
 
 ### The share of predictive models is increasing
 
-In my opinion, this trend was even before the rise of machine learning, but now it has become much more noticeable. Especially when looking at the application of deep learning and LLMs, which have problems with explanations but have [enormous potential in predictive power]{post:ai-notes-2024-generative-knowledge-base}, leading to the emergence of systems like [AlphaFold](https://en.wikipedia.org/wiki/AlphaFold) or the recent [fluid dynamics simulation by DeepMind](https://arxiv.org/abs/2509.14185).
+In my opinion, this trend existed even before the rise of machine learning, but now it has become much more noticeable. Especially when looking at the application of deep learning and LLMs, which struggle with explanations but have [enormous potential in predictive power]{post:ai-notes-2024-generative-knowledge-base}, leading to the emergence of systems like [AlphaFold](https://en.wikipedia.org/wiki/AlphaFold) or the recent [fluid dynamics simulation by DeepMind](https://arxiv.org/abs/2509.14185).
 
 As I see it, science might prefer to focus purely on explanatory models, but the reality is that predictive models often prove to be more useful and practically applicable.
 
@@ -268,7 +268,7 @@ As early as the 1960s, [Stanisław Lem](https://en.wikipedia.org/wiki/Stanisław
 
 The book is astounding — it is an outstanding work of futurology that remains relevant even 60 years after its writing. Moreover, much of it is coming true right now.
 
-Summa Technologiae is definitely the must-read — one of the few books I've reread several times and will probably reread again.
+Summa Technologiae is definitely a must-read — one of the few books I've reread several times and will probably reread again.
 ///
 
 ### The role of engineering practices in science is growing
@@ -279,7 +279,7 @@ Two trends are pushing science toward a greater use of engineering practices.
 
 A scientific pipeline is, in essence, an engineering artifact (that encompasses hardware, software, data, configuration, and even people), and therefore demands engineering skills and practices to build and maintain it.
 
-**Second**, the requirements for reproducibility of scientific results are increasing (we won't discuss the reasons here), as well as the control over their compliance.
+**Second**, the requirements for reproducibility of scientific results are increasing (we won't discuss the reasons here), as well as oversight to ensure compliance.
 
 This, in addition to scientific practices aimed at reproducibility of experiments, requires the use of engineering practices aimed at reproducibility of artifacts that accompany scientific experiments and scientific work in general.
 
