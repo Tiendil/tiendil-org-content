@@ -195,7 +195,7 @@ Contemporary reality is such that if your project lasts several years, at the st
 
 The necessity of reassembling the stack stems not only from the pace of changes in the technosphere but also from the knowledge developers gain through their work. The volume of information about technologies, tools, and architectures today is so vast that you won't find two developers who are in a completely identical context and/or will make completely identical decisions.
 
-This doesn't mean that you start from scratch every time, but a significant part of your tools will have to be replaced or updated if you want to stay at the frontier and build top-tier products.
+This doesn't mean you start from scratch every time, but a significant part of your tools will have to be replaced or updated if you want to stay at the frontier and build top-tier products.
 
 Accordingly, when adopting something new, we have to understand both its operating principles and its interactions with the surrounding environment and other tools. If we're lucky, there's thorough documentation — but more often, we learn through experimentation: building prototypes and observing how the technologies behave in the scenarios we care about.
 
