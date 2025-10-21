@@ -222,25 +222,25 @@ Note, that does not mean there were no experiments. Before becoming a "well-know
 
 For an outside observer, this may look like the absence of an experiment, however, it's just riskier experimentation :-)
 
-/// note | Пример из моей практики
+/// note | An example from my practice
 
-Начиная новый проект на последней работе, я выбрал делать собственную реализацию [оркестрации распределённых транзакций](https://microservices.io/patterns/data/saga.html) вместо использования одного из готовых решений.
+At the start of a new project at my previous job, I pushed the team to implement our own [distributed transaction orchestration](https://microservices.io/patterns/data/saga.html) rather than use one of the existing solutions.
 
-Сделано это было по следующим причинам:
+There were reasons for this choice:
 
-1. Не были известны все требования к нашему продукту.
-2. Время на надёжное исследование готовых решений (с учётом пункта 1) было значительно больше, чем время на реализацию первой версии собственного решения.
-3. Оркестрацию нужно было делать либо сразу (одной из первых систем проекта), либо в будущем мучительно на неё мигрировать, поэтому окно возможности было довольно узким — несколько недель.
-4. Оркестрация была ключевым компонентом системы, в случае выбора неверной базовой технологии исправление ошибки было бы либо дорогим, либо невозможным.
-5. Большинство сторонних систем не совпадали по технологиям со стеком команды, значит нам было бы сложно понимать их поведение, поддерживать и модифицировать их.
+1. We didn't know all the requirements for our product yet.
+2. The time required for a thorough investigation of existing solutions (considering point 1) was significantly longer than the time needed to implement the first version of our own solution.
+3. We could either implement orchestration from the start (as one of the project's first systems) or painfully migrate to it later, so the window of opportunity was quite narrow — just a few weeks.
+4. Orchestration was a key component of the system. Choosing the wrong base technology would make fixing the mistake either expensive or impossible.
+5. Most of the third-party systems did not match the team's technology stack, meaning it would be difficult for us to understand their behavior, maintain, and modify them.
 
-Соответственно, выбор был между:
+So, the choise was between:
 
-1. Отказаться от оркестрации и пожертвовать важными гарантиями, которые она даёт.
-2. Рискнуть и выбрать случайное готовое решение, которое может оказаться фатально несовместимым с будущими требованиями.
-3. Реализовать собственную систему с минимальной функциональностью, после чего доводить её до ума, собирая данные о её удобстве и эффективности с живого проекта, то есть экспериментируя.
+1. Abadon orchestration and sacrifice important guarantees it provides.
+2. Take a risk and choose a random off-the-shelf solution that might turn out to be fatally incompatible with future requirements.
+3. Implement minimal in-house solution and improve it iteratively, gathering data on its usability and efficiency from a live project — in other words, through experimentation.
 
-Я выбрал третий вариант. Ретроспективно, на мой взгляд, правильно, хотя копий вокруг этого решения было сломано много.
+I pushed the third option. Retrospectively, in my opinion, it was the right choice, although it sparked some debates.
 ///
 
 Отчасти именно поэтому разработку ПО часто сравнивают с собиранием самолёта в полёте — мы пробуем решения сразу на запущенных продуктах с готовностью быстро откатить, заменить или доработать внесённые изменения, если данные показывают нежелательный результат.
