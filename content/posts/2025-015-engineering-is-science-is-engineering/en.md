@@ -275,19 +275,23 @@ The book is astounding — it is an outstanding work of futurology that remains 
 Summa Technologiae is definitely the must-read — one of the few books I've reread several times and will probably reread again.
 ///
 
-### Возрастает роль инженерных практик в науке
+### The role of engineering practices in science is growing
 
-Сразу два явления толкают науку в сторону большего использования инженерных практик.
+Two trends are pushing science toward a greater use of engineering practices.
 
-**Во-первых**, усложняются научные инструменты и процессы — это требует выстраивания всё более сложных пайплайнов для проведения экспериментов, сбора и анализа данных. Научный пайплайн, по сути, является инженерным артефактом (включает в себя устройства, софт, хранилища данных, конфигурацию всего этого добра, даже людей), а значит требует инженерных навыков и практик для его создания и поддержки.
+**First**, scientific tools and processes are becoming more complex — that calls for ever more sophisticated pipelines for experimentation, data collection, and analysis.
 
-**Во-вторых**, возрастают требования к воспроизводимости научных результатов (причины этого затрагивать не будем) и контроль за их соблюдением. Это, помимо научных практик, направленных на воспроизводимость экспериментов, требует использования инженерных практик, направленных на воспроизводимость артефактов, которые сопровождают научные эксперименты и научную работу в целом.
+A scientific pipeline is, in essence, an engineering artifact (that encompass hardware, software, data storage, configuration, and even people), and therefore demands engineering skills and practices to build and maintain it.
 
-В итоге производство инженерных артефактов становится неотъемлемой частью научной работы, что проявляется в разных формах:
+**Second**, the requirements for reproducibility of scientific results are increasing (we won't discuss the reasons here), as well as the control over their compliance.
 
-- В виде дополнительных требований к публикациям: предоставление ~~работающего~~ кода, данных (понятных и человеку и машине), публичные демо как best practice, etc.
-- В виде коллаборации над проектами с открытым кодом для создания наборов инструментов с детерминированным согласованным поведением. От библиотек общего назначения вроде [SciPy](https://scipy.org/) до специализированных наборов инструментария вроде [Bioconductor](https://bioconductor.org/) для биоинформатики.
-- В виде создания публичных хранилищ стандартизированных наборов данных: [Gene Expression Omnibus](https://www.ncbi.nlm.nih.gov/geo/), [Wiki Pathways](https://www.wikipathways.org/), etc.
+This, in addition to scientific practices aimed at reproducibility of experiments, requires the use of engineering practices aimed at reproducibility of artifacts that accompany scientific experiments and scientific work in general.
+
+As a result, the production of engineering artifacts is becoming an integral part of scientific work, which manifests itself in various forms:
+
+- Through additional publication requirements: providing ~~working~~ code, data (understandable to both humans and machines); public demos as best practices, etc.
+- Through collaboration on open-source projects for creating toolkits with deterministic and consistent behavior. From general-purpose libraries like [SciPy](https://scipy.org/) to specialized toolkits like [Bioconductor](https://bioconductor.org/) for bioinformatics.
+- Through the creation of public repositories of standardized datasets, such as [Gene Expression Omnibus](https://www.ncbi.nlm.nih.gov/geo/), [Wiki Pathways](https://www.wikipathways.org/), etc.
 
 ## Общие проблемы науки и инженерии
 
