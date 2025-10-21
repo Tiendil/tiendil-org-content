@@ -216,7 +216,7 @@ Note, this does not mean there were no experiments. Before becoming a "well-know
 
 **Second**, we always compare the cost of an experiment with the cost of fixing the consequences of a wrong decision. When conducting an experiment is more expensive than fixing a potential mistake, we can skip the experiment as a separate activity. Instead, we run the experiment directly on the "live patient".
 
-To an outside observer, this may look like the absence of an experiment, however, it's just riskier experimentation.
+To an outside observer, this may look like the absence of an experiment; however, it's just riskier experimentation.
 
 /// note | An example from my practice
 
