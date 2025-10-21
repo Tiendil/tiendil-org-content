@@ -20,17 +20,17 @@ In the [previous post]{post:no-instructions-for-engineering}, we discussed that 
 
 And what could be more creative than ~~a jazz band~~ science?
 
-That's why, in this post, I will try to show that engineering is conceptually much closer to science than it may seem at first glance, and that in the modern world, these disciplines are converging with increasing speed. I would even bet that the boundary between them will disappear someday in the future.
+That's why, in this post, I will try to show that engineering is conceptually much closer to science than it may seem at first glance, and that in the modern world, these disciplines are converging ever faster. I would even bet that the boundary between them will disappear someday.
 
 <!-- more -->
 
 /// note | Disclaimers
 
-In the [previous post]{post:no-instructions-for-engineering}, there is a whole disclaimer section regarding discussing engineering and creativity. I will not repeat them here.
+In the [previous post]{post:no-instructions-for-engineering}, there is a whole disclaimer section about discussing engineering and creativity. I will not repeat them here.
 
-In case some statements seem controversial for you, exaggerated, or you do not see mentioning important special cases, please first read that section.
+In case some statements seem controversial to you, exaggerated, or you do not see important special cases mentioned, please first read that section.
 
-Also note that this essay contains significantly more text from the engineering side than from the science side. Because I am on the engineering side and primarily interested in improving my life :-)
+Also note that this essay contains significantly more from the engineering side than from the science side. Because I am on the engineering side and primarily interested in improving my life :-)
 ///
 
 ## Why engineering resembles science
@@ -48,7 +48,7 @@ There are numerous definitions of knowledge; for our purposes, let me use the fo
 - Records of explosions of various substances are information.
 - A formal description of an engine with a given [energy conversion efficiency](https://en.wikipedia.org/wiki/Energy_conversion_efficiency) is knowledge.
 
-From the philosophical vantage, engineering and science produce different kinds of knowledge:
+From a philosophical vantage point, engineering and science produce different kinds of knowledge:
 
 - Science ~~sometimes~~ produces conceptually new knowledge about the world — how the world works — the structure of DNA, Newton's law of universal gravitation, Einstein's formula relating energy and mass.
 - Engineering produces applied knowledge — how to make a specific thing that will interact with the world in a predictable way — a bridge blueprint, the [source code of the blog](https://github.com/Tiendil/brigid) you're reading now, the design drawings of the Large Hadron Collider.
