@@ -295,7 +295,7 @@ In some ways, engineering and science are converging — and in others, they've 
 
 These problems — the consequences of shared goals and methods — are so well-worn that I'll just list them without going into details.
 
-**A bias toward publishing positive results while ignoring negative ones.** In science, this is known as the [publication bias](https://en.wikipedia.org/wiki/Publication_bias). Engineering, as usual, doesn't strive to formalize its problems, however, we all know the situation is the same. Everyone loves to brag about how brilliantly they refactored something when the metrics look good — but try finding a post about a failed refactoring.
+**A bias toward publishing positive results while ignoring negative ones.** In science, this is known as the [publication bias](https://en.wikipedia.org/wiki/Publication_bias). Engineering, as usual, doesn't strive to formalize its problems; however, we all know the situation is the same. Everyone loves to brag about how brilliantly they refactored something when the metrics look good — but try finding a post about a failed refactoring.
 
 **[Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law)** makes life difficult for people in both fields: organizational structure shapes not only what you study, but also what you design.
 
