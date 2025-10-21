@@ -1,6 +1,6 @@
 ---
 title = "Когда надо слушать пользователей"
-tags = [ "thinking", "development", "theory",]
+tags = [ "thinking", "development", "theory", "management"]
 published_at = "2015-11-16T12:00:00+00:00"
 seo_description = "Разбор случаев, когда стоит слушать пользователей и когда не стоит."
 seo_image = "images/Good-Idea-Bad-Idea-by-Icefields.jpg"

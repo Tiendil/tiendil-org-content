@@ -1,6 +1,6 @@
 ---
 title = "О книге «Фрикономика»"
-tags = [ "books", "economics", "popular-science-books"]
+tags = [ "books", "economics", "popular-philosophy-books"]
 published_at = "2020-08-31T12:00:00+00:00"
 seo_description = "Отзыв о книге «Фрикономика» — скучное собрание баек."
 seo_image = "images/freakonomics-cover.jpg"

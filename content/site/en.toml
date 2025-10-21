@@ -119,10 +119,13 @@ databases = "databases"
 fiction-books = "fiction books"
 professional-books = "professional books"
 popular-science-books = "popular science books"
+popular-philosophy-books = "popular philosophy books"
+history-books = "history books"
 results-of-the-year = "results of the year"
 scientific-papers = "scientific papers"
 management = "management"
 vantage-on-management = "vantage on management"
+science = "science"
 
 [theme_translations]
 tags_filter_header = 'Found essays:'

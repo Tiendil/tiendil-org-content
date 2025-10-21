@@ -1,6 +1,6 @@
 ---
 title = "О книге «Объясняя религию»"
-tags = [ "books", "society", "psychology", "systems", "theory", "evolution", "interesting", "popular-science-books"]
+tags = [ "books", "society", "psychology", "systems", "theory", "evolution", "interesting", "popular-science-books", "science"]
 published_at = "2018-01-25T12:00:00+00:00"
 seo_description = "Отзыв на книгу «Объясняя религию». Научно-популярное изложение взглядов автора на происхождение религии вследствие естественных эволюционных процессов."
 seo_image = "images/explaining-religion.jpg"

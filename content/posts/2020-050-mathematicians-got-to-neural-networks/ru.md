@@ -1,6 +1,6 @@
 ---
 title = "Математики добрались до нейронных сетей"
-tags = [ "neural-networks", "theory",]
+tags = [ "neural-networks", "theory", "scientific-papers", "science"]
 published_at = "2020-12-09T12:00:00+00:00"
 seo_description = "Исследователи утверждают, что нейронные сети, обученные методом градиентного спуска, близки такой штуке как kernel machines."
 seo_image = ""

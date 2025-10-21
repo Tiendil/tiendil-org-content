@@ -1,6 +1,6 @@
 ---
 title = "О книге «Онтогенез — от клетки до человека»"
-tags = [ "books", "systems", "theory", "evolution", "interesting", "biology", "popular-science-books"]
+tags = [ "books", "systems", "theory", "evolution", "interesting", "biology", "popular-science-books", "science"]
 published_at = "2016-12-25T12:00:00+00:00"
 seo_description = "Отзыв на книгу «Онтогенез — от клетки до человека». Будет интересна всем, кто интересуется системной инженерией, самоорганизацией и эволюцией."
 seo_image = "images/ontogenesis_from_cell_to_human.jpg"

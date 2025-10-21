@@ -1,6 +1,6 @@
 ---
 title = "Кораблекрушение"
-tags = [ "books", "practice", "interesting", "best", "cooks-first-around-the-world", "popular-science-books"]
+tags = [ "books", "practice", "interesting", "best", "cooks-first-around-the-world", "history-books"]
 series = "cooks-first-around-the-world"
 published_at = "2021-02-05T12:00:00+00:00"
 seo_description = "Четвёртая часть заметок о первом кругосветном плавании Кука — кораблекрушение."
