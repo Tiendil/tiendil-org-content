@@ -109,7 +109,7 @@ An engineer's work consists of describing, in a formal language, an artifact tha
 Here are some examples of artifacts:
 
 - A building that will be earthquake-resistant up to 7 on the Richter scale, will have an energy consumption level not exceeding X, and will be habitable at temperatures from -30 to +50 °C. Provided that it is built on such-and-such ground, from such-and-such materials, using such-and-such technologies.
-- A tax accounting program that correctly calculates taxes according to the laws of country N within a given time period, runs on Windows and Linux platforms, and meets certain user expectations for security. The legal requirements, platform properties, and user expectations — all these are parts of the external environment.
+- A tax accounting program that correctly calculates taxes according to the laws of country N within a given time period, runs on Windows and Linux platforms, and meets certain user expectations for security. The legal requirements, platform properties, and user expectations are all parts of the external environment.
 
 Thus, an engineering description of an artifact is, in essence, a particular model of reality — it inevitably predicts the behavior of a small part of it. Like any model, it has its scope of applicability, limitations, assumptions, level of accuracy, and so on.
 
