@@ -67,9 +67,9 @@ A substantial part of the knowledge produced by engineering doesn't fit within t
 
 However, I would like to point out the following nuances.
 
-**First**, both kinds of knowledge are obtained in the same way — through exploring the [space of possible solutions](https://en.wikipedia.org/wiki/Feasible_region) — and require the same set of skills and tools.
+**First**, both kinds of knowledge are produced in the same way — through exploring the [space of possible solutions](https://en.wikipedia.org/wiki/Feasible_region) — and require the same set of skills and tools.
 
-Since we're talking about human activity, what matters more to us are the similarities in tools, processes, and the ways of interacting with the final product, rather than the differences in the philosophical definitions of its essence. If something looks like a duck, swims like a duck, and quacks like a duck, [it's probably a duck](https://en.wikipedia.org/wiki/Duck_test).
+Since we're talking about human activity, what matters more to us are the similarities in tools, processes, and the ways we interact with the end product, rather than the differences in the philosophical definitions of its essence. If something looks like a duck, swims like a duck, and quacks like a duck, [it's probably a duck](https://en.wikipedia.org/wiki/Duck_test).
 
 **Second**, de facto, many scientific disciplines today produce vast amounts of applied knowledge whose scientific novelty is questionable if one follows the letter of ~~law~~ science. At the same time, many branches of engineering have a long history of operating at the frontier of human knowledge — and continue to push it forward.
 
