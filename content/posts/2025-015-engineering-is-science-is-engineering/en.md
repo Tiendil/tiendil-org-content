@@ -119,7 +119,7 @@ From a modern perspective, engineers describe 4D systems (3D space + time), whic
 
 Even the specification of a nut, formally, describes it in 4D, as it implicitly accounts for changes in the nut's properties over time (e.g., wear and tear) through references to materials and operating conditions.
 
-For the purposes of this essay, this nuance is not essential, but I always try to include a note about it, since it is critically important for engineering.
+For this essay, this nuance is not essential, but I always try to include a note about it, since it is critically important for engineering.
 ///
 
 Conceptually, science does the same thing — it creates models of the surrounding reality, only on a broader scale. That's why there is little difference between **idealized** scientific and engineering models.
