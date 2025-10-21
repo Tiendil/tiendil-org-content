@@ -53,7 +53,7 @@ From a philosophical standpoint, engineering and science produce different kinds
 - Science ~~sometimes~~ produces conceptually new knowledge about the world — how the world works — the structure of DNA, Newton's law of universal gravitation, Einstein's formula relating energy and mass.
 - Engineering produces applied knowledge — how to make a specific thing that will interact with the world in a predictable way — a bridge blueprint, the [source code of the blog](https://github.com/Tiendil/brigid) you're reading now, the design drawings of the Large Hadron Collider.
 
-Science imposes many constraints on the knowledge it produces — for example, the [degree of originality](https://en.wikipedia.org/wiki/Research#Original_research) — the knowledge must be new to the scientific community, not merely useful.
+Science imposes many constraints on the knowledge it produces — for example, the [novelty criterion](https://en.wikipedia.org/wiki/Research#Original_research) — the knowledge must be new to the scientific community, not merely useful.
 
 /// brigid-images
 src = "./scientific-novelty.jpg"
