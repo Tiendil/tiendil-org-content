@@ -268,13 +268,11 @@ As I see it, science might prefer to focus purely on explanatory models, but the
 
 /// note | This idea is not new
 
-<!-- TODO: перевести пост о сумме технологий на английский, он короткий -->
+As early as the 1960s, [Stanisław Lem](https://en.wikipedia.org/wiki/Stanisław_Lem) suggested in [Summa Technologiae]{post:@choose-nearest-language:summa-technologiae} that humanity could shift from explanatory models to predictive ones.
 
-[Станислав Лем](https://ru.wikipedia.org/wiki/Лем,_Станислав) ещё в [Сумме технологии]{post:@choose-nearest-language:summa-technologiae} в 1960-х годах писал, что человечество может отойти от объяснительных моделей в сторону предсказательных.
+The book is astounding — it is an outstanding work of futurology that remains relevant even 60 years after its writing. Moreover, much of it is coming true right now.
 
-Книга очень интересная — выдающийся футурологический труд, который остаётся актуальным даже через 60 лет после написания. Причём не только остаётся актуальным, но и во многом сбывается.
-
-Книга обязательна к прочтению — одна из немногих, которые я перечитывал несколько раз и, возможно, буду перечитывать ещё.
+Summa Technologiae is definitely the must-read — one of the few books I've reread several times and will probably reread again.
 ///
 
 ### Возрастает роль инженерных практик в науке
