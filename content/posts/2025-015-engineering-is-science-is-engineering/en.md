@@ -212,7 +212,7 @@ However, engineers work under stronger economic and time pressures and follow le
 
 **First**, an engineer's goal is usually not to create a 100% SOTA artifact, but to create a "good enough" artifact within given constraints (time, money, resources). Therefore, we can neglect some experiments if we believe that a "well-known" solution will be "good enough".
 
-Note, this does not mean there were no experiments. Before becoming a "well-known" solution, that solution went through many implementations, which indeed were experiments that confirmed its properties and made it "well-known".
+Note, this does not mean there were no experiments. Before becoming a "well-known" solution, it went through many implementations, which were indeed experiments that confirmed its properties and made it "well-known".
 
 **Second**, we always compare the cost of an experiment with the cost of fixing the consequences of a wrong decision. When conducting an experiment is more expensive than fixing a potential mistake, we can skip the experiment as a separate activity. Instead, we run the experiment directly on the "live patient".
 
