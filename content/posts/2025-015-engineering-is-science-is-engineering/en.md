@@ -303,7 +303,7 @@ These problems — the consequences of shared goals and methods — are so well-
 
 **Assessing colleagues' competence** — especially at higher levels, when a person must be judged not by standardized foundational knowledge, but by their ability to learn, to operate with meta-concepts, to organize work and manage knowledge, to make long-term decisions, and to act under uncertainty, etc.
 
-[The h-index](https://en.wikipedia.org/wiki/Hirsch_index) is an interesting and useful tool for this, but it's far from perfect — it has its own flaws.
+[The h-index](https://en.wikipedia.org/wiki/Hirsch_index) is an interesting and valuable tool for this, but it's far from perfect — it has its own flaws.
 
 **Transparency of teams' work** — both for insiders and for external observers. No one really knows what those engineers over there — or those scientists over there — are actually doing.
 
