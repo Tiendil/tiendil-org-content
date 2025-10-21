@@ -260,13 +260,13 @@ We can look at the similarities between engineering and science from another ang
 
 Hovewer, since I'm not a scientist and understand the scientific side of the issue less well, I'll limit myself to some basic observations. It would be interesting to hear the opinions of professional scientists on this topic.
 
-### Возрастает доля предсказательных моделей
+### The share of predictive models is increasing
 
-На мой взгляд, эта тенденция была и до взлёта машинного обучения, но сейчас она стала куда заметней. Особенно, если смотреть на применение глубокого обучения и LLM, у которых проблемы с объяснениями, но [огромный потенциал в предсказательной силе]{post:ai-notes-2024-generative-knowledge-base}, что ведёт к появлению систем вроде [AlphaFold](https://ru.wikipedia.org/wiki/AlphaFold) или недавней [симуляции динамики жидкости от DeepMind](https://arxiv.org/abs/2509.14185).
+In my opinion, this trend was even before the rise of machine learning, but now it has become much more noticeable. Especially when looking at the application of deep learning and LLMs, which have problems with explanations but have [enormous potential in predictive power]{post:ai-notes-2024-generative-knowledge-base}, leading to the emergence of systems like [AlphaFold](https://ru.wikipedia.org/wiki/AlphaFold) or the recent [fluid dynamics simulation by DeepMind](https://arxiv.org/abs/2509.14185).
 
-Я вижу ситуацию так, что наука может быть и хотела бы сосредоточиться сугубо на объяснительных моделях, но реальность сейчас такова, что предсказательные модели зачастую оказываются более полезными и практически применимыми.
+As I see it, science might prefer to focus purely on explanatory models, but the reality is that predictive models often prove to be more useful and practically applicable.
 
-/// note | Идея не нова
+/// note | This idea is not new
 
 <!-- TODO: перевести пост о сумме технологий на английский, он короткий -->
 
