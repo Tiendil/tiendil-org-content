@@ -239,7 +239,7 @@ So, the choice was between:
 I pushed the third option. In retrospect, it was the right choice, although it sparked some debates.
 ///
 
-That's partly why software development is often compared to assembling an airplane mid-flight — we try out solutions directly on running systems, prepared to roll back, replace, or adjust them quickly if the data indicates an undesirable result.
+That's partly why software development is often compared to building the plane while flying it — we try out solutions directly on running systems, prepared to roll back, replace, or adjust them quickly if the data indicates an undesirable result.
 
 /// brigid-youtube
 id = "Y7XW-mewUm8"
