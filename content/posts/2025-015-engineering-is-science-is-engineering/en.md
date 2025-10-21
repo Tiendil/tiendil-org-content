@@ -313,7 +313,7 @@ I hope I provided enough evidence to show that they are.
 
 So what follows from that?
 
-That we can learn from each other and borrow successful practices.
+That we can learn from one another and borrow successful practices.
 
 It's not my place to tell scientists what they should borrow from us engineers; however, I do have some thoughts on what we might borrow from scientists.
 
