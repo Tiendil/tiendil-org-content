@@ -168,7 +168,7 @@ Therefore, professionals have to learn through practice, using the same practice
 
 The only real difference, perhaps, lies in the level of formalization:
 
-- Science has created a formal, universal system of publication and mentorship, and has established standardized procedures for conducting experiments.
+- Science has created a formal, universal system of publishing and mentoring, and has established standardized procedures for conducting experiments.
 - Engineering, on the other hand, relies mostly on less formal approaches.
 
 Each approach has its pros and cons, which are beyond the scope of this post.
