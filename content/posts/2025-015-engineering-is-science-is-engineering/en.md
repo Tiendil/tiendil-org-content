@@ -2,7 +2,7 @@
 title = "Engineering is science is engineering"
 tags = [ "theory", "development", "interesting", "management", "vantage-on-management", "science"]
 series = "vantage-on-management"
-published_at = "2025-10-17T12:00:00+00:00"
+published_at = "2025-10-21T12:00:00+00:00"
 seo_description = "I'll show that engineering and science are conceptually close and are increasingly converging, meaning they can borrow practices from each other."
 seo_image = "./cover.jpg"
 ---
@@ -159,7 +159,7 @@ The imposibility of creating precise instructions for an engineer (see [previous
 
 **Engineers and scientists are in the same position regarding learning and acquiring knowledge.**
 
-institutionalized education lags 5-20 years behind [SOTA](https://en.wikipedia.org/wiki/State_of_the_art) — that's true for both engineering and science — specialists for both fields are educated in the same universities.
+Institutionalized education lags 5-20 years behind [SOTA](https://en.wikipedia.org/wiki/State_of_the_art) practices — that's true for both engineering and science — specialists for both fields are educated in the same universities.
 
 It's an inevitable drawback of institutionalized education: writing a good textbook or developing a solid course requires real-world experience that takes years to acquire. Not to mention that preparing and polishing educational materials can also take years.
 
@@ -173,7 +173,7 @@ Therefore, professionals have to learn through practice, using the same practice
 The only real difference, perhaps, lies in the level of formalization:
 
 - Science has created a formal universal system of publication and mentorship; established standardized procedures for conducting experiments.
-- Engineering, on the other hand, relies mostly on informal approaches.
+- Engineering, on the other hand, relies mostly on less formal approaches.
 
 Each approach has its pros and cons, which are beyond the scope of this post.
 
