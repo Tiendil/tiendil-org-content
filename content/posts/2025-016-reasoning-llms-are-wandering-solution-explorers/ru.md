@@ -3,8 +3,13 @@ title = "Reasoning LLMs are Wandering Solution Explorers"
 tags = [ "theory", "thinking", "neural-networks", "scientific-papers", "science"]
 published_at = "2025-10-22T12:00:00+00:00"
 seo_description = "Современные «Reasoning LLM» занимаются скорее «случайным блужданием в пространстве решений», чем «систематическим поиском решений»."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
+
+/// brigid-images
+src = "./cover.jpg"
+caption = "Иллюстрация проблемы (с) ChatGPT"
+///
 
 На arXiv появилась [интересная статья](https://arxiv.org/abs/2505.20296) в пользу того, что современные Reasoning LLM занимаются скорее «случайным блужданием в пространстве решений», чем «систематическим поиском решений».
 
