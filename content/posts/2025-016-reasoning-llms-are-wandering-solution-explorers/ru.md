@@ -2,7 +2,7 @@
 title = "Reasoning LLMs are Wandering Solution Explorers"
 tags = [ "theory", "thinking", "neural-networks", "scientific-papers", "science"]
 published_at = "2025-10-22T12:00:00+00:00"
-seo_description = ""
+seo_description = "Современные «Reasoning LLM» занимаются скорее «случайным блужданием в пространстве решений», чем «систематическим поиском решений»."
 seo_image = ""
 ---
 
