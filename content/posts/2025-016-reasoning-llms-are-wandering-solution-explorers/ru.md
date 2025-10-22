@@ -1,6 +1,6 @@
 ---
 title = "Reasoning LLMs are Wandering Solution Explorers"
-tags = [ "theory", "development", "interesting", "management", "vantage-on-management", "science"]
+tags = [ "theory", "thinking", "neural-networks", "scientific-papers", "science"]
 published_at = "2025-10-22T12:00:00+00:00"
 seo_description = ""
 seo_image = ""
