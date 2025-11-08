@@ -46,4 +46,4 @@ I have a hypothesis about where all this vibe-coding hype comes from:
 
 All this creates such a polluted information space that the actual state of affairs becomes indistinguishable.
 
-And this isn't the first time in recent decades: blockchain were drowning in hype the same way; the world didn't flip, but we did get "one more useful technology". Before blockchain, there were smaller hype waves like NoSQL, nanotubes (I even saw a site offering to ship them by the truckload!), and even Ajax (a.k.a. Web 2.0) went through that phase.
+And this isn't the first time in recent decades: blockchain was drowning in hype the same way; the world didn't flip, but we did get "one more useful technology". Before blockchain, there were smaller hype waves like NoSQL, nanotubes (I even saw a site offering to ship them by the truckload!), and even Ajax (a.k.a. Web 2.0) went through that phase.
