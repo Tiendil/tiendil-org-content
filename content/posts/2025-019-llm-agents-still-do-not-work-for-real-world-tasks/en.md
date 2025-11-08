@@ -1,4 +1,4 @@
-title = "LLM agents still do not work for real-world tasks"
+title = "LLM agents still aren't fit for real-world tasks"
 tags = [ "practice", "development", "backend", "neural-networks", "scientific-papers"]
 published_at = "2025-11-08T12:00:00+00:00"
 seo_description = "Once again I tried LLM agents on real, routine programming tasks — once again they didn't help."
@@ -44,6 +44,6 @@ I have a hypothesis about where all this vibe-coding hype comes from:
 - As a result, LLMs are tuned in the wrong directions and optimized for the wrong metrics.
 - Then it all passes through our beloved ~~industry leaders~~ startup folks, who partly don't realize automation existed before AI (so they credit new tools for old wins) and partly just lie openly (because the money must flow).
 
-All this creates such a polluted information field that the actual state of affairs becomes indistinguishable.
+All this creates such a polluted information space that the actual state of affairs becomes indistinguishable.
 
 And this isn't the first time in recent decades: blockchain were drowning in hype the same way; the world didn't flip, but we did get "one more useful technology". Before blockchain, there were smaller hype waves like NoSQL, nanotubes (I even saw a site offering to ship them by the truckload!), and even Ajax (a.k.a. Web 2.0) went through that phase.
