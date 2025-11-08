@@ -35,19 +35,12 @@ A news reader with tags and neural networks. Available online, self-hosted if de
 
 The engine on which this site runs.
 
-### The Tale
+### Changy
 
-_Russian language only :-(_
+- GitHub: [github.com/Tiendil/changy](https://github.com/Tiendil/changy)
+- PyPI: [pypi.org/project/changy](https://pypi.org/project/changy/)
 
-- Website: [the-tale.org](https://the-tale.org/)
-- GitHub: [github.com/the-tale](https://github.com/the-tale)
-<!-- TODO: uncomment? -->
-<!-- - [Concept document](/en/the-tale-concept-document) -->
-<!-- - Read more in posts tagged [the-tale.org](/en/tags/the-tale) -->
-
-A browser-based multiplayer text zero player game & political sandbox with extensive text generation in Russian language.
-
-Players indirectly control their heroes but can change the whole game world. The game is distinguished by its interesting lore and advanced text generation.
+Simple changelog manager with the idea that humans write changelogs for humans, not for robots.
 
 ### Pynames
 
@@ -65,6 +58,21 @@ A character name generator. Supports English and Russian. Generates all cases in
 ## Not Supported
 
 My projects that I have discontinued support for various reasons.
+
+### The Tale
+
+_Russian language only :-(_
+
+- Website: [the-tale.org](https://the-tale.org/)
+- GitHub: [github.com/the-tale](https://github.com/the-tale)
+<!-- TODO: uncomment? -->
+<!-- - [Concept document](/en/the-tale-concept-document) -->
+<!-- - Read more in posts tagged [the-tale.org](/en/tags/the-tale) -->
+
+A browser-based multiplayer text zero player game & political sandbox with extensive text generation in Russian language.
+
+Players indirectly control their heroes but can change the whole game world. The game is distinguished by its interesting lore and advanced text generation.
+
 
 ### Smart Imports
 

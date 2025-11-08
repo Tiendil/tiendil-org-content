@@ -34,16 +34,12 @@ seo_image = ""
 
 Движок на котором работает этот сайт.
 
-### Сказка
+### Changy
 
-- Сайт: [the-tale.org](https://the-tale.org/)
-- GitHub: [github.com/the-tale](https://github.com/the-tale)
-- [Концепт-документ]{post:the-tale-concept-document}
-- Подробнее в постах по тегу [the-tale.org]{tags:the-tale} <!-- TODO: autorender correct tag name -->
+- GitHub: [github.com/Tiendil/changy](https://github.com/Tiendil/changy)
+- PyPI: [pypi.org/project/changy](https://pypi.org/project/changy/)
 
-Браузерная многопользовательская текстовая zero player game & политическая песочница с крутой генерацией текста на русском языке.
-
-Игроки управляют своими протагонистами косвенно, зато могут изменять весь мир игры. Игра отличается интересным лором и продвинутой генерацией текста.
+Простая утилита для ведения changelog, основанна на идее, что люди пишут changelog для людей, а не для роботов.
 
 ### Pynames
 
@@ -61,6 +57,18 @@ seo_image = ""
 ## Не поддерживаются
 
 Мои проекты, поддержку которых я прекратил по разным причинам.
+
+### Сказка
+
+- Сайт: [the-tale.org](https://the-tale.org/)
+- GitHub: [github.com/the-tale](https://github.com/the-tale)
+- [Концепт-документ]{post:the-tale-concept-document}
+- Подробнее в постах по тегу [the-tale.org]{tags:the-tale} <!-- TODO: autorender correct tag name -->
+
+Браузерная многопользовательская текстовая zero player game & политическая песочница с крутой генерацией текста на русском языке.
+
+Игроки управляют своими протагонистами косвенно, зато могут изменять весь мир игры. Игра отличается интересным лором и продвинутой генерацией текста.
+
 
 ### Smart Imports
 
