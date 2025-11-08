@@ -4,7 +4,7 @@ tags = [ "practice", "development", "open-source", "backend"]
 published_at = "2025-11-06T12:00:00+00:00"
 seo_description = "Let me vent about Ory's sketchy authentication architecture that demands multiple services and extra round-trips just to add a single header."
 seo_image = "./cover.jpg"
--------------------------
+---
 
 /// brigid-images
 src = "./cover.jpg"
