@@ -7,7 +7,7 @@ seo_image = "./cover.jpg"
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "Запрос ко вселенной на человечный auth proxy (с) ChatGPT & Hieronymus Bosch."
+caption = "AI агенты показывают результат своей работы программисту (с) ChatGPT & Hieronymus Bosch."
 ///
 
 На это неделе протестил LLM на реальных задачах из своего программирования. Опять.
