@@ -8,7 +8,7 @@ seo_image = "./cover.jpg"
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "Tiendil пытается понять как работает Ory (© ChatGPT & Hieronymus Bosch)."
+caption = "Tiendil пытается понять как работает Ory (c) ChatGPT & Hieronymus Bosch."
 ///
 
 Пожалуюсь вам, так как либо сюда писать, либо в спортлото.

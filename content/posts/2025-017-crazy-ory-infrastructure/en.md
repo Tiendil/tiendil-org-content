@@ -8,7 +8,7 @@ seo_image = "./cover.jpg"
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "Tiendil trying to understand how Ory works (© ChatGPT & Hieronymus Bosch)."
+caption = "Tiendil trying to understand how Ory works (c) ChatGPT & Hieronymus Bosch."
 ///
 
 I'm going to vent here — either that or shout into the void.
