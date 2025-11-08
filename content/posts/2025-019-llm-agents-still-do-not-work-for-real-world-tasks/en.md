@@ -1,7 +1,7 @@
 title = "LLM agents are still unfit for real-world tasks"
 tags = [ "practice", "development", "backend", "neural-networks", "scientific-papers"]
 published_at = "2025-11-08T12:00:00+00:00"
-seo_description = "Once again I tried LLM agents on real, routine programming tasks — once again they didn't help."
+seo_description = "Once again, I tried LLM agents on real, routine programming tasks — once again, they didn't help."
 seo_image = "./cover.jpg"
 ---
 
@@ -10,7 +10,7 @@ src = "./cover.jpg"
 caption = "AI agents show their work to a programmer (c) ChatGPT & Hieronymus Bosch."
 ///
 
-This week I tested LLMs on real tasks from my day-to-day programming. Again.
+This week, I tested LLMs on real tasks from my day-to-day programming. Again.
 
 <!-- more -->
 
@@ -39,8 +39,8 @@ By the way, a study just came out showing that [LLM agents are basically ineffec
 I have a hypothesis about where all this vibe-coding hype comes from:
 
 - The people building LLMs are researchers — they have little production experience.
-- The people building LLM benchmarks are researchers too.
-- For researchers, a programmer's job is to hack a cool in-memory sort or a clever tree traversal to save two CPU cycles per hour.
+- The people building LLM benchmarks are researchers, too.
+- For researchers, a programmer's job is to hack a cool in-memory sort algorithm or a clever tree traversal logic to save two CPU cycles per hour.
 - As a result, LLMs are tuned in the wrong directions and optimized for the wrong metrics.
 - Then it all passes through our beloved ~~industry leaders~~ startup folks, who partly don't realize automation existed before AI (so they credit new tools for old wins) and partly just lie openly (because the money must flow).
 
