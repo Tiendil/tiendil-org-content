@@ -1,3 +1,4 @@
+---
 title = "Хотите крутой open source проект себе в портфолио?"
 tags = [ "practice", "development", "open-source", "backend"]
 published_at = "2025-11-07T12:00:00+00:00"

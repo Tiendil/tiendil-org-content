@@ -1,3 +1,4 @@
+---
 title = "LLM agents are still unfit for real-world tasks"
 tags = [ "practice", "development", "backend", "neural-networks", "scientific-papers"]
 published_at = "2025-11-08T12:00:00+00:00"
