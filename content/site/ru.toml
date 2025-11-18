@@ -22,6 +22,11 @@ author = "Елецкий Алексей (Tiendil)"
   slug = "projects"
 
 [[menu]]
+  type = "article"
+  name = "MCP"
+  slug = "mcp"
+
+[[menu]]
   type = "feed"
   css_classes = "ti ti-rss"
   name = ""
