@@ -7,7 +7,7 @@ seo_image = ""
 
 This blog has its own MCP ([Model Context Protocol](https://en.wikipedia.org/wiki/Model_Context_Protocol)) server that you can hook up to your favorite AI system to make reading my posts easier for both you and it.
 
-MCP server address: [https://tiendil.org/mcp/](https://tiendil.org/mcp/)
+MCP server address: https://tiendil.org/mcp/
 
 The server is running in an experimental mode, I'd appreciate any feedback or suggestions for improvement.
 
