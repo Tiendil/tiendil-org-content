@@ -41,13 +41,6 @@ author = "Елецкий Алексей (Tiendil)"
 
 [[menu]]
   type = "external"
-  css_classes = "ti ti-brand-discord"
-  name = ""
-  tooltip = "Discord сервер"
-  url = "https://discord.gg/ZyNy28ZXM6"
-
-[[menu]]
-  type = "external"
   css_classes = "ti ti-brand-twitter"
   name = ""
   tooltip = "Twitter"
