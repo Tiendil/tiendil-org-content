@@ -84,9 +84,11 @@ There where tree primary problems.
 
 The reflection posts end up long and don't come easy — I didn't expect to accumulate such a volume of thoughts. On the other hand, I like how all these thoughts agree with each other and come together into a coherent picture.
 
-**Second**, I decided to implement "proper" authentication in [Feeds Fun](https://feeds.fun), which led me to spend 2-3 months diving into complex protocols and sketchy (with all due respect) software. This activity spawned several whining posts ([1]{post:crazy-ory-infrastructure}, [2]{post:cool-open-source-project-for-portfolio}, [3]{post:llm-agents-are-still-unfit-for-real-world-tasks}). Similar functionality could have been assembled ~~out of duct tape and prayers~~ in a month, but I really didn't want to implement security by hand — it's risky. Plus, it was a good opportunity to close this gap in my technical knowledge — the last time I implemented full-fledged authentication was in 2012, and things were different back then.
+**Second**, I could skip some experiments in [Feeds Fun](https://feeds.fun) and not implement some features, as they seem less important now than at the beginning of the year. This would have saved some time. But this is clearly post factum knowledge.
 
-**Third**, I spread myself too thin. There were two main projects this year: Feeds Fun and management books. But besides that, I decided to prototype a game for fun, which I had been working on as part of the [World Builders 2023 school]{tags:world-builders-2023}.
+**Third**, I decided to implement "proper" authentication in [Feeds Fun](https://feeds.fun), which led me to spend 2-3 months diving into complex protocols and sketchy (with all due respect) software. This activity spawned several whining posts ([1]{post:crazy-ory-infrastructure}, [2]{post:cool-open-source-project-for-portfolio}, [3]{post:llm-agents-are-still-unfit-for-real-world-tasks}). Similar functionality could have been assembled ~~out of duct tape and prayers~~ in a month, but I really didn't want to implement security by hand — it's risky. Plus, it was a good opportunity to close this gap in my technical knowledge — the last time I implemented full-fledged authentication was in 2012, and things were different back then.
+
+**Fourht**, I spread myself too thin. There were two main projects this year: Feeds Fun and management books. But besides that, I decided to prototype a game for fun, which I had been working on as part of the [World Builders 2023 school]{tags:world-builders-2023}.
 
 I can not say that I spent a huge amount of time on the game — I do such perversions in the evenings when my brain stops working, but I can still code on reflex. However, some time was lost, partially because not all of development could be done purely on reflex — I had to take days away from the main projects. I estimate the lost time to be about 6 weeks, but it's not time that would have compensated the whole delay on the main projects.
 
@@ -100,6 +102,7 @@ The knowledge has to be digested. To achieve this, I need to write as many posts
 
 **Conclusion**: next time, be significantly more pessimistic in estimating the amount of work required to analyze the books I read for learning. Especially when they are stacked together to cover a specific topic.
 
+### Delays in the development of Feeds Fun
 ### Задержки в разработке Feeds Fun
 
 Фичи Feeds Fun я и так режу дай бог каждому. Пользуясь послезнанием, по итогам экспериментов из первой половины года, я мог бы сэкономить месяц-два работы, но это именно постзнание.
