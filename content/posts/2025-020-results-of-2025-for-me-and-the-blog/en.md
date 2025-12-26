@@ -249,31 +249,31 @@ Modern science fiction leaves me completely cold. Perhaps it's age. Perhaps the 
 
 ## Plans for the next year
 
-1. Выйти из творческого отпуска.
+1. Finish the sabbatical.
 
-Надо было сделать в этом году, но что не успел, то не успел.
+Wanted to do it this year, but what is not done is not done.
 
-Для этого надо:
+To achieve this, I need to:
 
-1.1. Закончить с итоговыми постами по менеджменту.
-1.2. Провести эксперимент с монетизацией Feeds Fun.
-1.3. После эксперимента либо продолжить заниматься Feeds Fun как работой, либо найти работу.
+1.1. Finish the the [Vantage on management]{tags:vantage-on-management} post series.
+1.2. Finish the Feeds Fun monetization experiment.
+1.3. After the experiment, either continue working on Feeds Fun as a job, or find a job.
 
-Должен справиться за полгода.
+Should be done in a half of year.
 
-2. Начать систематически тренировать разговорный английский.
+2. Start systematically practicing spoken English.
 
-3. Разобраться с разработкой в паре с LLM агентами.
+3. Figure out how to develop software together with LLM agents.
 
-Агенты однозначно станут темой 2026 года и новой реальностью разработки софта. Однако сейчас никто не знает в точности как эта реальность будет выглядеть. Практика должна прояснить это в следующем году.
+Agents will clearly become the topic of 2026 and the new reality of software development. However, right now no one knows exactly what this reality will look like. Practice should clarify this in the next year.
 
-Надо быть в тренде, чтобы оставаться в топе :-D
+You have to stay on trend to be on top :-D
 
-4. Продолжать эксперименты с геймдевом.
+4. Continue experiments with gamedev.
 
-Конкретной цели не ставлю, на текущий момент это просто хобби.
+There is no specific goals — just fun prototyping.
 
-5. Похудеть ещё на 5-10 кг
+5. Drop 5-10 kg more.
 
-- На пять — чтобы вернуться в норму.
-- На десять — в качестве эксперимента.
+- Drop 5 kg to return to what I consider normal weight for myself.
+- Drop 10 kg to see how it feels — a little experiment.
