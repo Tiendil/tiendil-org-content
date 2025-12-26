@@ -136,17 +136,17 @@ However:
 
 That is why, for now, I consider the time spent on World Builders to be useful unplanned expenses.
 
-## Итоги по планам на 2025 год
+## Progress on 2025 plans
 
-> Определиться с будущим [Feeds Fun](https://feeds.fun/): бизнес или хобби. Попиарить, собрать фидбек, пофиксить, попиарить ещё раз, сделать несколько таких циклов, принять решение.
+> Decide the future of [Feeds Fun](https://feeds.fun/): business or hobby. Promote it, gather feedback, fix issues, promote again, repeat the cycle a few times, and then make a decision.
 
-В процессе — будет тестовый запуск монетизации, после чего решу, насколько имеет смысл вкладываться в развитие проекта.
+In the process — there will be test monetization launch, after which I will decide how much sense is in the investing in the development of the project.
 
-В конце весны сделал [тест маркетинга]{post:feeds-fun-marketing-test}. Результаты неоднозначные, возможно из-за чрезмерной сложности доступа к главной фиче проекта — тегам. Чтобы читалка начала ставить теги новостям пользователя, тот должен ввести API ключ OpenAI или Gemini — определённо, это не каждый захочет делать. Поэтому хочу включить монетизацию и повторить тест с более комфортным для пользователя сценарием.
+I did a [marketing test]{post:feeds-fun-marketing-test} at the end of spring. The results were ambiguous, possibly due to the excessive complexity of accessing the main feature of the project — tags. The user must enter an OpenAI or Gemini API key to get tagging for their news — definitely, not everyone will want to do this. Therefore, I want to replace the API key input with a subscription purchase and repeat the test with a scenario more familiar to the user.
 
-К сожалению, в быструю итерацию не получилось, так как Feeds Fun не единственная активность в этом году.
+Unfortunately, I failed into a quick iteration, as Feeds Fun is not the only activity this year. It is hard to iterate over a project when you also should iterate between projects.
 
-Оптимизма добавляет то, что люди читалкой интересуются. На текущий момент у [репозитория](https://github.com/Tiendil/feeds.fun) 312 звёздочек — теперь это мой самый звёздный проект.
+What adds to the optimism is that people are interested in the reader. At the moment, the [repository](https://github.com/Tiendil/feeds.fun) has 319 stars — from the last month, it is my most starred project.
 
 > Сделать MVP [игры]{post:simulation-of-public-opinion-in-a-game}, которую очертил на занятиях [World Builders]{tags:world-builders-2023}.
 
@@ -245,6 +245,7 @@ That is why, for now, I consider the time spent on World Builders to be useful u
 
 На современную фантастику не тянет совсем. Либо возраст, либо классика рулит. Скорее всего и то и другое.
 
+## Plans for the next year
 ## Планы на следующий год
 
 1. Выйти из творческого отпуска.
