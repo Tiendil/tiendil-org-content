@@ -226,18 +226,18 @@ Now I drink two kinds of tea:
 
 Not yet. Waiting for the results of the Feeds Fun monetization experiment.
 
-## Вне планов на год
+## Outside of the yearly plans
 
-Некоторые вещи не входили в планы, но случились.
+Some things weren't planned but happened.
 
-### Похудел на 10 кг
+### Dropped 10 kg
 
-Совершенно внезапно скинул себя со 100 до 90 кг.
+Absolutely unexpectedly moved from 100 to 90 kg.
 
-Методику можно описать просто и сложно.
+The methodology can be described simply and complexly.
 
-1. Просто — перестал жрать после 6 вечера.
-2. Сложно — научился определять когда я хочу есть от голода, а когда — для комфорта или эмоций. Перестал есть во втором случае. Поначалу было сложно, но сейчас это почти привычка.
+1. Simply — stopped eating after 6 pm.
+2. Complexly — learned to distinguish between hunger and emotional eating and stopped eating for comfort/emotions. Initially it was hard, but now it's almost a habit.
 
 ### Посмотрел весь Stargate
 
