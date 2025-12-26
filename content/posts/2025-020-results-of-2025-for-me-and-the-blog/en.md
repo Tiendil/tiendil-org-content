@@ -167,25 +167,25 @@ The results of this activity are ambiguous:
 
 Perhaps I should have chosen [Zig](https://ziglang.org/) instead of Rust, but I am still not sure about that. I think, with time, Rust and Zig will split the whole area currently occupied by C/C++ and do so not in competition, but side by side.
 
-> Определиться будет какое-то финансовое взаимодействие с Mad Crusaders или нет.
+> Decide whether there will be any financial collaboration with Mad Crusaders or not.
 
-Определилось, финансирования не получилось.
+The funding didn't work out.
 
-Вместо разработки пакета игр, организаторы школы сейчас пилят что-то вроде генератора/конструктора интеллектуальной собственности (вымышленных миров) на LLM агентах. Это сейчас модно и перспективно, удачи им, надеюсь получится. Хотя у меня есть некоторые сомнения насчёт успеха задумки именно их небольшими силами.
+Instead of developing a package of games, the people behind the school are now working on something like a generator/builder of intellectual property (fictional worlds) based on LLM agents. A threndy and promising direction, good luck to them, I hope it works out. Although I have some doubts about the success of their idea taking into account their resources.
 
-> Если продолжу сотрудничество с Mad Crusaders, то начать делать игру с ними на базе MVP.
+> If the partnership with Mad Crusaders continues, start making a game with them based on MVP.
 
-Игра не делается.
+No game, obviously.
 
-> Если не продолжу сотрудничество с Mad Crusaders И MVP будет играбельный И будет время, выпустить игру в Steam в виде авторской поделки от соло-разработчика.
+> If I stop working with Mad Crusaders, AND the MVP is playable, AND I have the time, I’ll release the game on Steam as an indie project by a solo developer.
 
-Даже близко не подошёл к этому.
+Yep, again, no game.
 
-> Начать систематически тренировать разговорный английский.
+> Start systematically practicing spoken English.
 
-Мой провал десятилетия — вечно откладываю на потом и не нахожу времени.
+The fail of the decade for me — always postpone this and never find the time.
 
-> Выучить 1000 новых английских слов. Художественная литература в помощь.
+> Learn 1000 new English words. Fiction literature should help there.
 
 Успех года. Сейчас у меня 645 карточек с выученными словами. Поскольку 1000 я брал для красивого числа (100 — мало), считаю это большим прогрессом для себя. Результат виден в реальной жизни — новые слова мелькают то в сериалах, то в книгах, то в постах.
 
