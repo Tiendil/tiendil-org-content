@@ -148,22 +148,24 @@ Unfortunately, I failed into a quick iteration, as Feeds Fun is not the only act
 
 What adds to the optimism is that people are interested in the reader. At the moment, the [repository](https://github.com/Tiendil/feeds.fun) has 319 stars — from the last month, it is my most starred project.
 
-> Сделать MVP [игры]{post:simulation-of-public-opinion-in-a-game}, которую очертил на занятиях [World Builders]{tags:world-builders-2023}.
+> Make an MVP of the [game]{post:simulation-of-public-opinion-in-a-game} I outlined during the [World Builders]{tags:world-builders-2023} classes.
 
-Начинал я это мероприятие с мыслью «быстро сделать что-то работающее», но вскоре решил, что буду потихоньку прототипировать для души, так как возникало много сложных вопросов, решать которые быстро и влоб не получалось. Учитывая меньший приоритет, чем у основных проектов.
+I started this endeavor with a plan to "quickly make something that works", but soon decided that I would slowly prototype for the fun of it, as many complex questions arose that could not be solved quickly and head-on (given the lower priority compared to the main projects).
 
-В итоге я полез разбираться с [Rust](https://rust-lang.org/) и [Godot](https://godotengine.org/), а вместо самой игры у меня теперь есть прототип движка детерминированной игровой логики в котором я пытаюсь порешать проблемы, наболевшие ещё во время разработки [Сказки](https://the-tale.org). Оптимисты могут считать это разработкой движка для Сказки 2.0, но я пока не оптимист :-D Сверху на это наложилось несколько итераций геймдизайна, а в последний месяц туда же добавились эксперименты с LLM агентами.
+As a result, I started diving into [Rust](https://rust-lang.org/) and [Godot](https://godotengine.org/). So, instead of the game itself, I now have a prototype of a deterministic game logic engine in which I am trying to solve problems I thought about back during the development of [The Tale](https://the-tale.org). Optimists may consider this as developing an engine for "The Tale 2.0", however, I am not an optimist yet :-D
 
-Итераций геймдизайна было довольно много и они были ммм… интеллектуально болезненными, но полезными глобально. Сделать механизм генерации эмерджентных историй, который может конфигурировать и контролировать человек, оказалось не так-то просто. По крайней мере не так-то просто без команды и бюджета. У меня там уже чуть ли не логическое программирование используется :-D
+On top of that, there were several iterations of game design, and in the last month I started experimenting with LLM agents.
 
-В итоге этой активности:
+There were a lot of game design iteration and they were, let's say, intellectually painful, but globally useful. It turned out to be not so simple to create a mechanism for generating emergent stories that a person can configure and control. At least not so simple without a team and a budget. There are even some logical programming approaches used in the engine :-D
 
-- Пост про Rust будет в следующем году — язык интересный и разносторонний, очень неоднозначные впечатления.
-- Поста про Godot не будет — я окончательно убедился, что не могу работать с визуальными редакторами — прям бесит — профессиональная деформация. Поэтому объективно оценить этот движок не могу. Если буду делать игру, то всё в ней будет описываться кодом и конфигами.
-- Возможно, в следующем году релизну утилиту для LLM агентов, которая позволяет им держать фокус на выполняемой задаче.
-- Возможно, в следующем году будет какая-нибудь прикольная демка, но я особо не рассчитываю на это.
+The results of this activity are ambiguous:
 
-Возможно, вместо Rust стоило выбрать [Zig](https://ziglang.org/), но я всё ещё в этом не уверен. Думаю, что Rust и Zig в будущем на пару попилят всю область, захваченную сейчас C/C++. Причём именно совместно.
+- The post about Rust will be in the next year — the language is interesting and versatile, very ambiguous impressions.
+- There will be no post about Godot — it looks like working with visual editors literary pisses me off — professional deformation. Therefore, I cannot objectively evaluate the engine. If I make a game, everything in it will be described by code and configs.
+- It is possible that next year I will release a tool for LLM agents that helps them keep focus on the task at hand.
+- It is possible that next year there will be some cool demo, but I don't count on it much.
+
+Perhaps I should have chosen [Zig](https://ziglang.org/) instead of Rust, but I am still not sure about that. I think, with time, Rust and Zig will split the whole area currently occupied by C/C++ and do so not in competition, but side by side.
 
 > Определиться будет какое-то финансовое взаимодействие с Mad Crusaders или нет.
 
