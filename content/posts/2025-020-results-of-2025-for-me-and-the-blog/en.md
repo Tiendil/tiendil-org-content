@@ -239,16 +239,15 @@ The methodology can be described simply and complexly.
 1. Simply — stopped eating after 6 pm.
 2. Complexly — learned to distinguish between hunger and emotional eating and stopped eating for comfort/emotions. Initially it was hard, but now it's almost a habit.
 
-### Посмотрел весь Stargate
+### Watched the entire [Stargate](https://en.wikipedia.org/wiki/Stargate) shows
 
-Заняло около девяти месяцев.
+It takes me around nine months.
 
-Постепенно пересматриваю всю классику ~~около~~научной фантастики, которую упустил в молодости. До этого [X-Files]{post:the-truth-is-out-there} пересмотрел и где-то половину Star Trek — надо бы досмотреть. Впереди ещё «Вавилон 5».
+I steadily go through all classic ~~near~~science fiction that I missed in my youth. Before that, I watched [X-Files]{post:@choose-nearest-language:the-truth-is-out-there} and about half of [Star Trek](https://en.wikipedia.org/wiki/Star_Trek). [Babylon 5](https://en.wikipedia.org/wiki/Babylon_5) is still ahead.
 
-На современную фантастику не тянет совсем. Либо возраст, либо классика рулит. Скорее всего и то и другое.
+Modern science fiction leaves me completely cold. Perhaps it's age. Perhaps the classic shows rule. Most likely, both.
 
 ## Plans for the next year
-## Планы на следующий год
 
 1. Выйти из творческого отпуска.
 
