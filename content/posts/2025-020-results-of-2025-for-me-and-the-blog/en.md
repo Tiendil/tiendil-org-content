@@ -112,13 +112,16 @@ It looks like I was waiting for some significant failure that would show that it
 
 **Conclusion**: be more decisive, do not play "too safe", do not try to "outplay the universe". In fact, this is a big problem of mine: when I plan something on the personal side, I try to account for all possible scenarios, which wastes time. I need to watch myself. Interestingly, this manifests itself much less on the work side — maybe I am more responsible when I spend other people's money.
 
-### Разбирательство с аутентификацией
+### Authentication overhead
 
-Ситуация с тратой времени на аутентификацию неприятная. Частично я навлёк её на себя сам, частично — shit happens. Так получилось, что я не пересекался с нормальной аутентификацией довольно давно, из-за чего пришлось за раз поднимать большой пласт информации.
+The situation with the time spent on the authentication research is unpleasant. Partly I brought it on myself, partly —
+shit happens. It just so happened that I hadn't dealt with proper authentication for quite a while, which meant I had to absorb a large amount of information at once.
 
-Плюс ситуации в том, что это разовая задержка, в будущем я эти знания надеюсь переиспользовать.
+The positive side is that it is a one-time delay, in the future I hope to reuse this knowledge.
 
-Можно сказать, воспользовался возможностью. Опыт показывает, что использование подобных возможностей чаще приносит пользу, чем вред.
+One can say that I took the opportunity. Experience shows that taking such opportunities more often brings benefits than harm.
+
+For now, there are no conclusions here — time will show.
 
 ### World Builders
 
