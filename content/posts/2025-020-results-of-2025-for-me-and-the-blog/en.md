@@ -86,11 +86,9 @@ The reflection posts end up long and don't come easy — I didn't expect to accu
 
 **Second**, I decided to implement "proper" authentication in [Feeds Fun](https://feeds.fun), which led me to spend 2-3 months diving into complex protocols and sketchy (with all due respect) software. This activity spawned several whining posts ([1]{post:crazy-ory-infrastructure}, [2]{post:cool-open-source-project-for-portfolio}, [3]{post:llm-agents-are-still-unfit-for-real-world-tasks}). Similar functionality could have been assembled ~~out of duct tape and prayers~~ in a month, but I really didn't want to implement security by hand — it's risky. Plus, it was a good opportunity to close this gap in my technical knowledge — the last time I implemented full-fledged authentication was in 2012, and things were different back then.
 
-В-третьих, распыляться плохо. Основных проектов в этом году было два: Feeds Fun и книги по менеджменту. Но кроме этого я «для души» решил попрототипировать игру, которую прорабатывал в рамках [школы World Builders 2023]{tags:world-builders-2023}.
+**Third**, I spread myself too thin. There were two main projects this year: Feeds Fun and management books. But besides that, I decided to prototype a game for fun, which I had been working on as part of the [World Builders 2023 school]{tags:world-builders-2023}.
 
-Не могу сказать, что на игру прямо огромное время потрачено — я такими извращениями занимаюсь вечерами, когда мозг перестаёт работать, но всё ещё можно кодить на рефлексах. Однако какое-то время потеряно, в том числе и потому, что не всегда эти штуки можно было делать сугубо на рефлексах — приходилось забирать дни у основных проектов. Я оцениваю потерянное время где-то недель в 6, но это не то время, которое компенсировало бы отставание по основным проектам.
-
-Подробнее про игру будет в главе о достижении планов.
+I can not say that I spent a huge amount of time on the game — I do such perversions in the evenings when my brain stops working, but I can still code on reflex. However, some time was lost, partially because not all of development could be done purely on reflex — I had to take days away from the main projects. I estimate the lost time to be about 6 weeks, but it's not time that would have compensated the whole delay on the main projects.
 
 ## Анализ срыва планов
 
