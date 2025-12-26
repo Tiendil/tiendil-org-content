@@ -207,24 +207,24 @@ Stopped at five. At the middle of the year, I realized that manual translation t
 
 Currently I don't know what to do with the translation of the old posts. Most likely, I will wait until AI learns to translate texts preserving the author's style and will process the old posts with it.
 
-> Закончить подтягивание менеджерских знаний.
+> Finish improving my management theory.
 
-Почти закончил, всего два поста осталось :-D
+Almost done, just two posts left :-D
 
-> Слезть с колы и не подсесть на альтернативный кофеин.
+> Quit drinking cola without getting hooked on an alternative source of caffeine.
 
-Внезапно слез.
+Unexpectedly succeeded.
 
-За второе полугодие 2024 на колу было потрачено около 1000 eur, за весь 2025 год — около 250 eur. Получается экономия в восемь раз год к году.
+In the second half of 2024 I spent about 1000 eur on cola, and in the whole 2025 — about 250 eur. It looks like an eightfold year-over-year saving.
 
-Теперь пью два вида чая:
+Now I drink two kinds of tea:
 
-- China Mannong Pu Erh — люто штырящий чай, если надо сконцентрироваться на работе.
-- Rooibos Lemon — не чай, без кофеина, но заваривается и пьётся как чай. Пью в основном его, чтобы зазря не кофеиниться.
+- China Monnong Pu Erh is an extremely stimulating tea if you need to concentrate at work.
+- Rooibos Lemon is not a tea, caffeine-free, but steeped and drunk like tea. I mostly drink it to not coffeinate myself.
 
-> Начать искать работу, если проекты мои не выстрелят.
+> Start looking for a job if my projects don’t work out.
 
-Жду завершения экспериментов с Feeds Fun.
+Not yet. Waiting for the results of the Feeds Fun monetization experiment.
 
 ## Вне планов на год
 
