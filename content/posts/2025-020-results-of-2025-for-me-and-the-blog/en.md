@@ -201,11 +201,11 @@ For me personally, writing forces words through a greater number of neural pathw
 
 I have an impression that periodic iteration over the cards is now a habit. Waiting to see how it goes next year.
 
-> Перевести топ 10 русскоязычных постов на английский.
+> Translate the top 10 Russian blog posts into English.
 
-Перевёл только 5 из 10. В середине года понял, что ручной перевод занимает слишком много времени и не приводит к существенному росту посещаемости англоязычной версии блога.
+Stopped at five. At the middle of the year, I realized that manual translation takes too much time and does not lead to a significant increase in traffic to the English version of the blog.
 
-Пока не знаю, что с этим делать. Скорее всего подожду, пока ИИ научится переводить тексты с сохранением стиля автора и натравлю его на старые посты.
+Currently I don't know what to do with the translation of the old posts. Most likely, I will wait until AI learns to translate texts preserving the author's style and will process the old posts with it.
 
 > Закончить подтягивание менеджерских знаний.
 
