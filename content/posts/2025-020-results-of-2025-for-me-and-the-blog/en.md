@@ -125,16 +125,16 @@ For now, there are no conclusions here — time will show.
 
 ### World Builders
 
-Если смотреть на все два года творческого отпуска, то самый большой проблемный момент — это моё участие в школе World Builders. Возможность участия в ней всплыла перед самым началом отпуска и уже тогда было очевидно, что с основными планами на него эта активность не совпадает, а значит несёт риск.
+Looking back on the whole two years of subbatical, the biggest questionable point is my participation in the World Builders school. The opportunity to participate in it came up just before the start of the sabbatical, and it was already clear then that this activity would not align with my primary plans, thus it carries risk.
 
-Теоретически, если бы я школу проигнорил, выиграл бы месяцев шесть (за два года) — как раз накопившееся время отставания.
+Theoretically, if I had ignored the school, I would have won about six months (over two years) — right equal as the accumulated delay time.
 
-Однако:
+However:
 
-- Мой опыт показывает, что подвернувшиеся уникальные возможности лучше использовать, чем игнорировать.
-- Я таки почерпнул специфичную для меня полезную информацию, синхронизировался с реальностью в важных для меня местах.
+- My experience shows that unique opportunities that arise are better to be used than ignored.
+- I still picked up some valuable, highly specific insights and synced with reality in important areas for me.
 
-Поэтому, пока что я отношу время, потраченное на World Builders, к полезным незапланированным издержкам.
+That is why, for now, I consider the time spent on World Builders to be useful unplanned expenses.
 
 ## Итоги по планам на 2025 год
 
