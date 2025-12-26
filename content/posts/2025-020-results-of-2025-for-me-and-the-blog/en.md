@@ -32,16 +32,16 @@ The number of subscribers in [the Russian-speaking Telegram](https://t.me/tiendi
 
 I've wrote 20 posts this year — closer to my "work" norm than to the "sabbatical" norm. The reason was a spectacular schedule slip in the second half of the year, which I'll explain below.
 
+**The top new posts for 2025**
 
-**Топ новых постов за 2025 год**
-
- # | Русскоязычная версия  | Англоязычная версия
+ # | English version  | Russian version
 --- | ------------- | -------------
-1 | []{post:harsh-reality-of-gamedev}  | []{post:@lang=en:@lang-title=ru:eu-key-principles-on-in-game-virtual-currencies}
-2 | []{post:sabbaticals}  | []{post:@lang=en:@lang-title=ru:engineering-is-science-is-engineering}
-3 | []{post:vantage-on-management-books}  | []{post:@lang=en:@lang-title=ru:automatic-quests-generator} (перевод старого поста)
-4 | []{post:gpt-5-release}  | []{post:@lang=en:@lang-title=ru:feeds-fun-marketing-test}
-5 | []{post:payment-processors-cancel-games}  | []{post:@lang=en:@lang-title=ru:no-instructions-for-engineering}
+1 | []{post:eu-key-principles-on-in-game-virtual-currencies}  | []{post:@lang=ru:@lang-title=en:harsh-reality-of-gamedev}
+2 | []{post:engineering-is-science-is-engineering}  | []{post:@lang=ru:@lang-title=en:sabbaticals}
+3 | []{post:automatic-quests-generator} (translation of an old post)  | []{post:@lang=ru:@lang-title=en:vantage-on-management-books}
+4 | []{post:feeds-fun-marketing-test}  | []{post:@lang=ru:@lang-title=en:gpt-5-release}
+5 | []{post:no-instructions-for-engineering}  | []{post:@lang=ru:@lang-title=en:payment-processors-cancel-games}
+
 
 **Топ всех постов за 2025 год**
 
