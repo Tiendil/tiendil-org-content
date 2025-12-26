@@ -103,13 +103,14 @@ The knowledge has to be digested. To achieve this, I need to write as many posts
 **Conclusion**: next time, be significantly more pessimistic in estimating the amount of work required to analyze the books I read for learning. Especially when they are stacked together to cover a specific topic.
 
 ### Delays in the development of Feeds Fun
-### Задержки в разработке Feeds Fun
 
-Фичи Feeds Fun я и так режу дай бог каждому. Пользуясь послезнанием, по итогам экспериментов из первой половины года, я мог бы сэкономить месяц-два работы, но это именно постзнание.
+I already cut features in Feeds Fun pretty aggressively. Looking back at the experiments from the first half of the year, I could have saved a month or two of work — but that knowledge only exists in hindsight.
 
-С другой стороны, если бы я в начале саббатикала (2 года назад) решил, что точно буду включать монетизацию в Feeds Fun, я бы мог суммарно сэкономить 3-6 месяцев работы за счёт пропуска некоторых фич, исследований, экспериментов.
+From the other side, if at the beginning of the sabbatical (2 years ago) I had decided that I would definitely turn on monetization in Feeds Fun, I could have saved a total of 3-6 months of work by skipping some features, research, experiments.
 
-**Вывод**: быть более решительным, не играть «слишком безопасно», не пытаться «переиграть вселенную». На самом деле, это довольно большая моя проблема: когда я планирую что-то на личном фронте, то пытаюсь заложиться на все варианты развития событий, из-за чего теряю время. Надо следить за собой. Любопытно, что на рабочем фронте это значительно меньше проявляется.
+It looks like I was waiting for some significant failure that would show that it makes no sense to continue working on the project, so I moved slowly, testing hypotheses like "what if it doesn't work out here or there". An epic failure did not happen, but the progress slowed down.
+
+**Conclusion**: be more decisive, do not play "too safe", do not try to "outplay the universe". In fact, this is a big problem of mine: when I plan something on the personal side, I try to account for all possible scenarios, which wastes time. I need to watch myself. Interestingly, this manifests itself much less on the work side — maybe I am more responsible when I spend other people's money.
 
 ### Разбирательство с аутентификацией
 
