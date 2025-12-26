@@ -35,33 +35,32 @@ I've wrote 20 posts this year — closer to my "work" norm than to the "sabbatic
 **The top new posts for 2025**
 
  # | English version  | Russian version
---- | ------------- | -------------
+-- | ---------------- | ---------------
 1 | []{post:eu-key-principles-on-in-game-virtual-currencies}  | []{post:@lang=ru:@lang-title=en:harsh-reality-of-gamedev}
 2 | []{post:engineering-is-science-is-engineering}  | []{post:@lang=ru:@lang-title=en:sabbaticals}
 3 | []{post:automatic-quests-generator} (translation of an old post)  | []{post:@lang=ru:@lang-title=en:vantage-on-management-books}
 4 | []{post:feeds-fun-marketing-test}  | []{post:@lang=ru:@lang-title=en:gpt-5-release}
 5 | []{post:no-instructions-for-engineering}  | []{post:@lang=ru:@lang-title=en:payment-processors-cancel-games}
 
+**The overall top posts for 2025**
 
-**Топ всех постов за 2025 год**
+ # | English version  | Russian version
+-- | ---------------- | ---------------
+1 | []{post:eu-key-principles-on-in-game-virtual-currencies}  | []{post:@lang=ru:@lang-title=en:slay-the-princess-combinatoric-narrative}
+2 | []{post:dungeon-generation-from-simple-to-complex}  | []{post:@lang=ru:@lang-title=en:my-gpts}
+3 | []{post:slay-the-princess-combinatoric-narrative}  | []{post:@lang=ru:@lang-title=en:dungeon-generation-from-simple-to-complex}
+4 | []{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}  | []{post:@lang=ru:@lang-title=en:how-to-design-a-dungeon}
+5 | []{post:about-book-harry-potter}  | []{post:@lang=ru:@lang-title=en:julia-experience}
 
- # | Русскоязычная версия  | Англоязычная версия
---- | ------------- | -------------
-1 | []{post:slay-the-princess-combinatoric-narrative}  | []{post:@lang=en:@lang-title=ru:eu-key-principles-on-in-game-virtual-currencies}
-2 | []{post:my-gpts}  | []{post:@lang=en:@lang-title=ru:dungeon-generation-from-simple-to-complex}
-3 | []{post:dungeon-generation-from-simple-to-complex}  | []{post:@lang=en:@lang-title=ru:slay-the-princess-combinatoric-narrative}
-4 | []{post:how-to-design-a-dungeon}  | []{post:@lang=en:@lang-title=ru:fun-case-of-speeding-up-data-retrieval-with-psycopg}
-5 | []{post:julia-experience}  | []{post:@lang=en:@lang-title=ru:about-book-harry-potter}
+Fun fact:
 
-Интересная статистика:
+- The amount of traffic from the AI services increased 11 times: from 7 to 79 (ChatGPT — 50, Perplexity — 29).
+- The amount of traffic from DuckDuckGo nearly tripled: from 15 to 46.
 
-- Количество переходов из ИИ сервисов выросло в 11 раз: с 7 до 79 (ChatGPT — 50, Perplexity — 29).
-- Количество переходов из DuckDuckGo выросло почти в 3 раза: с 15 до 46.
+**Top 10 countries by unique visitors**
 
-**Топ 10 стран по уникальным посетителям**
-
-Страна  | Уникальные посетители
-------------- | -------------
+Country  | Unique Visitors
+-------- | ----------------
 🇷🇺 Russian Federation | 7.5k
 🇺🇸 United States | 1.5k
 🇩🇪 Germany | 743
@@ -73,7 +72,7 @@ I've wrote 20 posts this year — closer to my "work" norm than to the "sabbatic
 🇵🇱 Poland | 334
 🇸🇬 Singapore | 275
 
-Германия расположилась так высоко, потому что я — самый активный читатель этого блога :-D
+The Germany placement is on the high side because I am the most active reader of this blog :-D
 
 ## Срыв планов
 
