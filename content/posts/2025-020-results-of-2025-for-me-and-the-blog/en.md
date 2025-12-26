@@ -8,27 +8,30 @@ seo_image = "cover.png"
 
 /// brigid-images
 src = "cover.png"
-caption = "Blog statistics for 2025."
+caption = "Blog metrics for 2025."
 ///
 
 The New Year is near, it's time to sum up the results of this year. Let me tell you what I was doing in 2025, how my [plans for the past year]{post:results-of-2024-for-me-and-the-blog} went, and what my plans are for the coming year.
 
 <!-- more -->
 
-## Статистика блога
+## Blog metrics
 
-Это, пожалуй, первый год, когда посещаемость блога перестала расти, возможно даже пошла на спад.
+This is probably the first year when the blog's traffic stopped growing, and may have even declined.
 
-В причинах не уверен. Движок за год стал только лучше: быстрее и корректнее. По статистике Google количество показов в поиске выросло почти в два раза, средняя позиция в выдаче улучшилась с 12 до 8, в то же время количество кликов и CTR уменьшились. Есть две гипотезы:
+I am not sure about the causes. The engine has only improved over the year — the blog became faster and more accurate. According to Google, the number of impressions in search nearly doubled, the average position in the results improved from 12 to 8, while the number of clicks and CTR decreased. There are two hypotheses:
 
-1. Магия поисковых алгоритмов — судя по консоли Google.
-2. Бан интернета в РФ — судя по статистике посещаемости по странам — просадка именно в РФ.
+1. The black magic of search algorithms — according to Google Search Console.
+2. The ban of the internet in Russia — judging by per-country traffic statistics — the decline is mostly in Russia.
 
-ChatGPT подсказывает, что блог мог начать показываться по более широким/менее «моим» запросам: impressions растут, средняя позиция улучшается, но контент менее релевантен пользователю, поэтому кликов меньше. Говорит, это типичный паттерн, особенно если контент стал лучше «понятен» поисковику.
+ChatGPT suggests that the blog may have started to appear for broader/less "my" queries: impressions are growing, the average position is improving, but the content is less relevant to the user which leads to fewer clicks. AI says this is a typical pattern, especially if the content has become better "understood" by the search engine.
 
-За год написал 20 постов — это ближе к моей «рабочей» норме, чем к норме «творческого отпуска». О причинах будет ниже.
+The number of subscribers in [the Russian-speaking Telegram](https://t.me/tiendil_org_ru) increased by 27% and now stands at 118 people. The [English-speaking Telegram](https://t.me/tiendil_org_en) is completely inactive, apparently the English-speaking internet works differently. The blog's Discord servers are dead, I'll delete them soon.
 
-Количество подписчиков в [русскоязычном Телеграме](https://t.me/tiendil_org_ru) выросло на 27% и теперь составляет 118 человек. [Англоязычный Телеграм](https://t.me/tiendil_org_en) неактивен абсолютно, видимо англоязычный интернет как-то по-другому работает. Дискорд-серверы блога мертвы, надо бы их удалить.
+## Posts
+
+I've wrote 20 posts this year — closer to my "work" norm than to the "sabbatical" norm. The reason was a spectacular schedule slip in the second half of the year, which I'll explain below.
+
 
 **Топ новых постов за 2025 год**
 
