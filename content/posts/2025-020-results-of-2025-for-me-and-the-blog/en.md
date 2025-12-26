@@ -94,12 +94,11 @@ I can not say that I spent a huge amount of time on the game — I do such perve
 
 Not a final thoughts. Obviously, I will mull over this situation for a longer time, but for now it looks more like an inevitable delay: I went on sabbatical to do specific things, and these things need to be completed in order to exit subbatical with a positive result.
 
-### Недооценка времени на обучение
+### Underestimation of time for management books
 
-Знания по менеджменту должны быть усвоены, для этого надо написать столько постов, сколько надо, чтобы разложить знания по полочкам. Это мой личный процесс обучения. Если я его не пройду, то потом будет хуже и мне, и тем людям, к кому я буду
-пытаться эти знания применить.
+The knowledge has to be digested. To achieve this, I need to write as many posts as necessary to put my thoughts in order. This is my personal learning process. If I don't go through it, it will end up worse for me and for the people to whom I will try to apply this knowledge.
 
-**Вывод**: в следующий раз быть значительно более пессимистичным в оценке объёма работы по анализу книг, которые я читаю для обучения. Особенно когда они идут одной стопкой для покрытия конкретной темы.
+**Conclusion**: next time, be significantly more pessimistic in estimating the amount of work required to analyze the books I read for learning. Especially when they are stacked together to cover a specific topic.
 
 ### Задержки в разработке Feeds Fun
 
