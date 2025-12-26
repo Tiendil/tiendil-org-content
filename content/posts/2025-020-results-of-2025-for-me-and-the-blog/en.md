@@ -90,9 +90,9 @@ The reflection posts end up long and don't come easy — I didn't expect to accu
 
 I can not say that I spent a huge amount of time on the game — I do such perversions in the evenings when my brain stops working, but I can still code on reflex. However, some time was lost, partially because not all of development could be done purely on reflex — I had to take days away from the main projects. I estimate the lost time to be about 6 weeks, but it's not time that would have compensated the whole delay on the main projects.
 
-## Анализ срыва планов
+## Analysis of failures
 
-Я ещё буду долго крутить эту ситуацию в голове, но пока это скорее выглядит как неизбежная задержка: я уходил в саббатикал чтобы сделать конкретные штуки и эти штуки надо завершить, чтобы из него выйти с позитивным результатом.
+Not a final thoughts. Obviously, I will mull over this situation for a longer time, but for now it looks more like an inevitable delay: I went on sabbatical to do specific things, and these things need to be completed in order to exit subbatical with a positive result.
 
 ### Недооценка времени на обучение
 
