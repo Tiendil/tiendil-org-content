@@ -2,16 +2,16 @@
 title = "Results of 2025 for me and my blog"
 tags = [ "blog", "practice", "reflection", "results-of-the-year"]
 published_at = "2025-12-27T12:00:00+00:00"
-seo_description = "Рассказываю, чем занимался в 2025 году, что с планами на год уходящий, что с ними же на год грядущий."
+seo_description = What I was doing in 2025, how my plans for the past year went, and what are my plans for the coming year.
 seo_image = "cover.png"
 ---
 
 /// brigid-images
 src = "cover.png"
-caption = "Статистика блога за 2025 год."
+caption = "Blog statistics for 2025."
 ///
 
-Близится Новый Год, пора подводить итоги этого года. Расскажу, чем занимался в 2025 году, что с [планами на год уходящий]{post:results-of-2024-for-me-and-the-blog}, что с ними же на год грядущий.
+The New Year is near, it's time to sum up the results of this year. Let me tell you what I was doing in 2025, how my [plans for the past year]{post:results-of-2024-for-me-and-the-blog} went, and what my plans are for the coming year.
 
 <!-- more -->
 
