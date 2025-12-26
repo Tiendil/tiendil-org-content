@@ -74,15 +74,15 @@ Country  | Unique Visitors
 
 The Germany placement is on the high side because I am the most active reader of this blog :-D
 
-## Срыв планов
+## Failed plans
 
-Первая половина года прошла довольно хорошо. Вторая половина обернулась эпическим провалом по всем фронтам — надо было меньше бахвалиться в посте про [мои саббатикалы]{post:sabbaticals} :-D
+The first half of the year went quite well. The second half turned into an epic failure on all fronts — I should have bragged less in the post about [my sabbaticals]{post:sabbaticals} :-D
 
-Проблемы оказалось три.
+There where tree primary problems.
 
-Во-первых, в качестве отчёта по подтягиванию менеджерской теории я планировал написать всего два поста. В итоге [написал пять]{post:points-of-view-on-a-product} и запланировано ещё два :-D И это ещё при том, что я специально объединил обзоры всех книг в одни пост.
+**First**, as a finalization of my research into management theory, I planned to write just two posts. As it turned out, I [wrote five]{post:points-of-view-on-a-product} and have two more planned :-D And this is despite the fact that I specifically combined all [book reviews]{post:vantage-on-management-books} into the single post.
 
-Отчётные посты выходят большими и даются тяжело — не думал, что накопится такой объём мыслей. С другой стороны, мне нравится как все эти мысли согласуются друг с другом и собираются в цельную картину.
+The reflection posts end up long and don't come easy — I didn't expect to accumulate such a volume of thoughts. On the other hand, I like how all these thoughts agree with each other and come together into a coherent picture.
 
 Во-вторых, я решил сделать «правильную» аутентификацию в [Feeds Fun](https://feeds.fun), из-за чего на 2-3 месяца погрузился в стрёмные протоколы и ещё более стрёмный софт. Эта активность породила несколько постов нытья ([1]{post:crazy-ory-infrastructure}, [2]{post:cool-open-source-project-for-portfolio}, [3]{post:llm-agents-are-still-unfit-for-real-world-tasks}). Похожую функциональность можно было бы собрать ~~из говна и палок~~ за месяц, но очень не хотелось делать безопасность руками — чревато. Плюс, давно пора было закрыть этот пробел в технических знаниях — последний раз я делал полноценную аутентификацию в 2012 году и тогда всё было по-другому.
 
