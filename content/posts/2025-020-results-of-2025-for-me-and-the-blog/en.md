@@ -54,7 +54,7 @@ I've written 20 posts this year — closer to my usual working pace than to my s
 
 Fun fact:
 
-- The amount of traffic from the AI services increased 11 times: from 7 to 79 (ChatGPT — 50, Perplexity — 29).
+- The amount of traffic from AI services increased 11 times: from 7 to 79 (ChatGPT — 50, Perplexity — 29).
 - The amount of traffic from DuckDuckGo nearly tripled: from 15 to 46.
 
 **Top 10 countries by unique visitors**
@@ -84,9 +84,9 @@ There were several problems.
 
 The reflection posts end up long and don't come easily — I didn't expect to accumulate such a volume of thoughts. On the other hand, I like how all these thoughts agree with each other and come together into a coherent picture.
 
-**Second**, I could skip some experiments in [Feeds Fun](https://feeds.fun) and not implement some features, as they seem less important now than at the beginning of the year. This would have saved some time. But this is clearly post facto knowledge.
+**Second**, I could skip some experiments in [Feeds Fun](https://feeds.fun) and not implement some features, as they seem less important now than at the beginning of the year. This would have saved some time. But this is clearly knowledge available only in hindsight.
 
-**Third**, I decided to implement "proper" authentication in [Feeds Fun](https://feeds.fun), which led me to spend 2-3 months diving into complex protocols and sketchy (with all due respect) software. This activity spawned several whining posts ([1]{post:crazy-ory-infrastructure}, [2]{post:cool-open-source-project-for-portfolio}, [3]{post:llm-agents-are-still-unfit-for-real-world-tasks}). Similar functionality could have been assembled ~~out of duct tape and prayers~~ in a month, but I really didn't want to implement security by hand — it's risky. Plus, it was a good opportunity to close this gap in my technical knowledge — the last time I implemented full-fledged authentication was in 2012, and things were different back then.
+**Third**, I decided to implement "proper" authentication in [Feeds Fun](https://feeds.fun), which led me to spend 2-3 months diving into complex protocols and questionable (with all due respect) software. This activity spawned several whining posts ([1]{post:crazy-ory-infrastructure}, [2]{post:cool-open-source-project-for-portfolio}, [3]{post:llm-agents-are-still-unfit-for-real-world-tasks}). Similar functionality could have been assembled ~~out of duct tape and prayers~~ in a month, but I really didn't want to implement security by hand — it's risky. Plus, it was a good opportunity to close this gap in my technical knowledge — the last time I implemented full-fledged authentication was in 2012, and things were different back then.
 
 **Fourth**, I spread myself too thin. There were two main projects this year: Feeds Fun and management books. But besides that, I decided to prototype a game for fun, which I had been working on as part of the [World Builders 2023 school]{tags:world-builders-2023}.
 
@@ -94,7 +94,7 @@ I can not say that I spent a huge amount of time on the game — I do such perve
 
 ## Analysis of failures
 
-Not final thoughts. Obviously, I will mull over this situation for a longer time, but for now it looks more like an inevitable delay: I went on sabbatical to do specific things, and these things need to be completed in order to exit sabbatical with positive results.
+These are not final thoughts. Obviously, I will mull over this situation for a longer time, but for now it looks more like an inevitable delay: I went on sabbatical to do specific things, and these things need to be completed in order to exit sabbatical with positive results.
 
 ### Underestimation of time for management books
 
@@ -110,7 +110,7 @@ On the other hand, if at the beginning of the sabbatical (2 years ago) I had dec
 
 It looks like I was waiting for some significant failure that would show that it makes no sense to continue working on the project, so I moved slowly, testing hypotheses like "what if it doesn't work out here or there". An epic failure did not happen, but the progress slowed.
 
-**Conclusion**: be more decisive, do not play “too safe”, do not try to “outplay the universe”. In fact, this is a big problem of mine: when I plan something on the personal side, I try to account for every possible scenario, which wastes time. I need to watch myself. Interestingly, this manifests itself much less on the work side — maybe I am more responsible when I spend other people’s money
+**Conclusion**: be more decisive, do not play “too safe”, do not try to "outsmart reality". In fact, this is a big problem of mine: when I plan something on the personal side, I try to account for every possible scenario, which wastes time. I need to watch myself. Interestingly, this manifests itself much less on the work side — maybe I am more responsible when I spend other people’s money
 
 ### Authentication overhead
 
@@ -124,7 +124,7 @@ For now, there are no conclusions here — time will show.
 
 ### World Builders
 
-Looking back on the whole two years of subbatical, the biggest questionable point is my participation in the World Builders school. The opportunity to participate in it came up just before the start of the sabbatical, and it was already clear then that this activity would not align with my primary plans, thus it carries risk.
+Looking back on the whole two years of sabbatical, the biggest questionable point is my participation in the World Builders school. The opportunity to participate in it came up just before the start of the sabbatical, and it was already clear then that this activity would not align with my primary plans, thus it carries risk.
 
 Theoretically, if I had ignored the school, I would have won about six months (over two years) — right equal as the accumulated delay time.
 
@@ -160,7 +160,7 @@ There were a lot of game design iterations and they were, let's say, intellectua
 The results of this activity are ambiguous:
 
 - The post about Rust will be next year — the language is interesting and versatile. I have very ambiguous impressions.
-- There will be no post about Godot — it looks like working with visual editors literally pisses me off — professional deformation. Therefore, I cannot objectively evaluate the engine. If I make a game, everything in it will be defined by code and config files.
+- There will be no post about Godot — it looks like working with visual editors literally pisses me off — professional bias. Therefore, I cannot objectively evaluate the engine. If I make a game, everything in it will be defined by code and config files.
 - It is possible that next year I will release a tool for LLM agents that helps them keep focus on the task at hand.
 - It is possible there will be a cool demo next year, but I don’t count on it much.
 
@@ -172,7 +172,7 @@ The funding didn't work out.
 
 Instead of developing a package of games, the people behind the school are now working on something like a generator/builder of intellectual property (fictional worlds) based on LLM agents. A trendy and promising direction, good luck to them. I hope it works out. Although I have some doubts about the success of their idea, taking into account their resources.
 
-> If the partnership with Mad Crusaders continues, start making a game with them based on MVP.
+> If the partnership with Mad Crusaders continues, start making a game based on the MVP.
 
 No game, obviously.
 
@@ -186,14 +186,14 @@ The failure of the decade for me — always postponing this and never finding th
 
 > Learn 1000 new English words. Fiction literature should help there.
 
-The success of the year. Currently, I have 645 flashcards with learned words. Since I chose 1000 only for a nice round number (100 is too few), I consider this a big progress for myself. The result is visible in real life — new words pop up now and then in TV shows, books, and posts.
+A major success of the year. Currently, I have 645 flashcards with learned words. Since I chose 1000 only for a nice round number (100 is too few), I consider this a big progress for myself. The result is visible in real life — new words pop up now and then in TV shows, books, and posts.
 
 I use [DouCards](https://play.google.com/store/apps/details?id=com.duocards.app) to learn words. In the spring, I did a little research on software for this task and settled on it. Each flashcard is accompanied by an associated picture, usage examples, and audio. AI generates translations and examples.
 
 I use a paper notebook alongside the app to activate different types of memory — without it, learning didn't work for me — words didn't stick. The process looks like this:
 
 - DuoCards shows me a new card.
-- I wrote the word and its translation in the notebook.
+- I write the word and its translation in the notebook.
 - I check my answer with the app. If I made a mistake, I write the correct translation in the notebook.
 
 For me personally, writing forces words through more neural pathways, making them easier to remember.
@@ -214,11 +214,11 @@ Almost done, just two posts left :-D
 
 Unexpectedly succeeded.
 
-In the second half of 2024, I spent about 1000 eur on cola, and in the whole of 2025, about 250 eur. It looks like an eightfold year-over-year saving.
+In the second half of 2024, I spent about €1000 on cola, and in the whole of 2025, about €250. It looks like an eightfold year-over-year saving.
 
 Now I drink two kinds of tea:
 
-- China Monnong Pu Erh is an extremely stimulating tea if you need to concentrate at work.
+- Chinese Monnong Pu Erh is an extremely stimulating tea if you need to concentrate at work.
 - Rooibos Lemon is not a tea, and is a caffeine-free, but steeped and drunk like tea. I mostly drink it to not caffeinate myself.
 
 > Start looking for a job if my projects don’t work out.
