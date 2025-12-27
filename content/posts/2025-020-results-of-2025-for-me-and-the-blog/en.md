@@ -114,10 +114,9 @@ It looks like I was waiting for some significant failure that would show that it
 
 ### Authentication overhead
 
-The situation with the time spent on the authentication research is unpleasant. Partly I brought it on myself, partly —
-shit happens. It just so happened that I hadn't dealt with proper authentication for quite a while, which meant I had to absorb a large amount of information at once.
+The situation with the time spent on the authentication research is unpleasant. Partly I brought it on myself, partly — shit happens. It just so happened that I hadn't dealt with proper authentication for quite a while, which meant I had to absorb a large amount of information at once.
 
-The positive side is that it is a one-time delay, in the future I hope to reuse this knowledge.
+The positive side is that it is a one-time delay, I hope to reuse this knowledge in the future.
 
 One can say that I took the opportunity. Experience shows that taking such opportunities more often brings benefits than harm.
 
@@ -131,7 +130,7 @@ Theoretically, if I had ignored the school, I would have won about six months (o
 
 However:
 
-- My experience shows that unique opportunities that arise are better to be used than ignored.
+- My experience shows that the unique opportunities that arise are better used than ignored.
 - I still picked up some valuable, highly specific insights and synced with reality in important areas for me.
 
 That is why, for now, I consider the time spent on World Builders to be useful unplanned expenses.
