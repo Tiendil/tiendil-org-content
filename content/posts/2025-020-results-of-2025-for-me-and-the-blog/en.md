@@ -236,13 +236,13 @@ Absolutely unexpectedly moved from 100 to 90 kg.
 The methodology can be described simply and complexly.
 
 1. Simply — stopped eating after 6 pm.
-2. Complexly — learned to distinguish between hunger and emotional eating and stopped eating for comfort/emotions. Initially it was hard, but now it's almost a habit.
+2. Complexly — learned to distinguish between hunger and emotional eating and stopped eating for comfort/emotions. Initially, it was hard, but now it's almost a habit.
 
 ### Watched the entire [Stargate](https://en.wikipedia.org/wiki/Stargate) shows
 
 It takes me around nine months.
 
-I steadily go through all classic ~~near~~science fiction that I missed in my youth. Before that, I watched [X-Files]{post:@choose-nearest-language:the-truth-is-out-there} and about half of [Star Trek](https://en.wikipedia.org/wiki/Star_Trek). [Babylon 5](https://en.wikipedia.org/wiki/Babylon_5) is still ahead.
+I steadily go through all the classic ~~near-~~science fiction that I missed in my youth. Before that, I watched [X-Files]{post:@choose-nearest-language:the-truth-is-out-there} and about half of [Star Trek](https://en.wikipedia.org/wiki/Star_Trek). [Babylon 5](https://en.wikipedia.org/wiki/Babylon_5) is still ahead.
 
 Modern science fiction leaves me completely cold. Perhaps it's age. Perhaps the classic shows rule. Most likely, both.
 
@@ -250,29 +250,29 @@ Modern science fiction leaves me completely cold. Perhaps it's age. Perhaps the 
 
 1. Finish the sabbatical.
 
-Wanted to do it this year, but what is not done is not done.
+   Wanted to do it this year, but what is not done is not done.
 
-To achieve this, I need to:
+   To achieve this, I need to:
 
-1.1. Finish the the [Vantage on management]{tags:vantage-on-management} post series.
-1.2. Finish the Feeds Fun monetization experiment.
-1.3. After the experiment, either continue working on Feeds Fun as a job, or find a job.
+   1.1. Finish the [Vantage on management]{tags:vantage-on-management} post series.
+   1.2. Finish the Feeds Fun monetization experiment.
+   1.3. After the experiment, either continue working on Feeds Fun as a job or find a job.
 
-Should be done in a half of year.
+   It should be done in half a year.
 
 2. Start systematically practicing spoken English.
 
 3. Figure out how to develop software together with LLM agents.
 
-Agents will clearly become the topic of 2026 and the new reality of software development. However, right now no one knows exactly what this reality will look like. Practice should clarify this in the next year.
+Agents will clearly become the topic of 2026 and the new reality of software development. However, right now, no one knows exactly what this reality will look like. Practice should clarify this in the next year.
 
 You have to stay on trend to be on top :-D
 
 4. Continue experiments with gamedev.
 
-There is no specific goals — just fun prototyping.
+There are no specific goals — just fun prototyping.
 
 5. Drop 5-10 kg more.
 
-- Drop 5 kg to return to what I consider normal weight for myself.
-- Drop 10 kg to see how it feels — a little experiment.
+  - Drop 5 kg to return to what I consider normal weight for myself.
+  - Drop 10 kg to see how it feels — a little optional experiment.
