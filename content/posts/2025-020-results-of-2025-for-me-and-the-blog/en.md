@@ -139,32 +139,32 @@ That is why, for now, I consider the time spent on World Builders to be useful u
 
 > Decide the future of [Feeds Fun](https://feeds.fun/): business or hobby. Promote it, gather feedback, fix issues, promote again, repeat the cycle a few times, and then make a decision.
 
-In the process — there will be test monetization launch, after which I will decide how much sense is in the investing in the development of the project.
+In the process, there will be a test monetization launch, after which I will decide whether it makes sense to invest in the project's development.
 
-I did a [marketing test]{post:feeds-fun-marketing-test} at the end of spring. The results were ambiguous, possibly due to the excessive complexity of accessing the main feature of the project — tags. The user must enter an OpenAI or Gemini API key to get tagging for their news — definitely, not everyone will want to do this. Therefore, I want to replace the API key input with a subscription purchase and repeat the test with a scenario more familiar to the user.
+I did a [marketing test]{post:feeds-fun-marketing-test} at the end of spring. The results were ambiguous, possibly due to the excessive complexity of accessing the project's main feature — tags. The user must enter an OpenAI or Gemini API key to get tagging for their news — definitely, not everyone will want to do this. Therefore, I want to replace the API key input with a subscription purchase and repeat the test with a scenario more familiar to the user.
 
-Unfortunately, I failed into a quick iteration, as Feeds Fun is not the only activity this year. It is hard to iterate over a project when you also should iterate between projects.
+Unfortunately, I failed to develop through quick iterations, as Feeds Fun is not the only activity this year. It is hard to iterate over a project when you also have to iterate between projects.
 
-What adds to the optimism is that people are interested in the reader. At the moment, the [repository](https://github.com/Tiendil/feeds.fun) has 319 stars — from the last month, it is my most starred project.
+What adds to the optimism is that people are interested in the reader. At the moment, the [repository](https://github.com/Tiendil/feeds.fun) has 320 stars — from the last month, it is my most starred project.
 
 > Make an MVP of the [game]{post:simulation-of-public-opinion-in-a-game} I outlined during the [World Builders]{tags:world-builders-2023} classes.
 
 I started this endeavor with a plan to "quickly make something that works", but soon decided that I would slowly prototype for the fun of it, as many complex questions arose that could not be solved quickly and head-on (given the lower priority compared to the main projects).
 
-As a result, I started diving into [Rust](https://rust-lang.org/) and [Godot](https://godotengine.org/). So, instead of the game itself, I now have a prototype of a deterministic game logic engine in which I am trying to solve problems I thought about back during the development of [The Tale](https://the-tale.org). Optimists may consider this as developing an engine for "The Tale 2.0", however, I am not an optimist yet :-D
+As a result, I started diving into [Rust](https://rust-lang.org/) and [Godot](https://godotengine.org/). So, instead of the game itself, I now have a prototype of a deterministic game logic engine in which I try to solve problems I thought about during the development of [The Tale](https://the-tale.org). Optimists may consider this as developing an engine for "The Tale 2.0", however, I am not an optimist yet :-D
 
-On top of that, there were several iterations of game design, and in the last month I started experimenting with LLM agents.
+On top of that, there were several iterations of game design, and in the last month, I started experimenting with LLM coding agents.
 
-There were a lot of game design iteration and they were, let's say, intellectually painful, but globally useful. It turned out to be not so simple to create a mechanism for generating emergent stories that a person can configure and control. At least not so simple without a team and a budget. There are even some logical programming approaches used in the engine :-D
+There were a lot of game design iterations and they were, let's say, intellectually painful, but globally useful. It turned out to be not so simple to create a mechanism for generating emergent stories that a person can configure and control. At least not so simple without a team and a budget. There are even some logical programming approaches used in the engine :-D
 
 The results of this activity are ambiguous:
 
-- The post about Rust will be in the next year — the language is interesting and versatile, very ambiguous impressions.
-- There will be no post about Godot — it looks like working with visual editors literary pisses me off — professional deformation. Therefore, I cannot objectively evaluate the engine. If I make a game, everything in it will be described by code and configs.
+- The post about Rust will be next year — the language is interesting and versatile. I have very ambiguous impressions.
+- There will be no post about Godot — it looks like working with visual editors literally pisses me off — professional deformation. Therefore, I cannot objectively evaluate the engine. If I make a game, everything in it will be defined by code and config files.
 - It is possible that next year I will release a tool for LLM agents that helps them keep focus on the task at hand.
-- It is possible that next year there will be some cool demo, but I don't count on it much.
+- It is possible there will be a cool demo next year, but I don’t count on it much.
 
-Perhaps I should have chosen [Zig](https://ziglang.org/) instead of Rust, but I am still not sure about that. I think, with time, Rust and Zig will split the whole area currently occupied by C/C++ and do so not in competition, but side by side.
+Perhaps I should have chosen [Zig](https://ziglang.org/) instead of Rust, but I am still not  sure. I think, over time, Rust and Zig will split the space currently occupied by C/C++, not in competition but side by side.
 
 > Decide whether there will be any financial collaboration with Mad Crusaders or not.
 
