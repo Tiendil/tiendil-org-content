@@ -170,7 +170,7 @@ Perhaps I should have chosen [Zig](https://ziglang.org/) instead of Rust, but I 
 
 The funding didn't work out.
 
-Instead of developing a package of games, the people behind the school are now working on something like a generator/builder of intellectual property (fictional worlds) based on LLM agents. A threndy and promising direction, good luck to them, I hope it works out. Although I have some doubts about the success of their idea taking into account their resources.
+Instead of developing a package of games, the people behind the school are now working on something like a generator/builder of intellectual property (fictional worlds) based on LLM agents. A trendy and promising direction, good luck to them. I hope it works out. Although I have some doubts about the success of their idea, taking into account their resources.
 
 > If the partnership with Mad Crusaders continues, start making a game with them based on MVP.
 
@@ -182,7 +182,7 @@ Yep, again, no game.
 
 > Start systematically practicing spoken English.
 
-The fail of the decade for me — always postpone this and never find the time.
+The failure of the decade for me — always postponing this and never finding the time.
 
 > Learn 1000 new English words. Fiction literature should help there.
 
