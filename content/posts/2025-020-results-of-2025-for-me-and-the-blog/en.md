@@ -11,7 +11,7 @@ src = "cover.png"
 caption = "Blog metrics for 2025."
 ///
 
-The New Year is near, it's time to sum up the results of this year. Let me tell you what I was doing in 2025, how my [plans for the past year]{post:results-of-2024-for-me-and-the-blog} went, and what my plans are for the coming year.
+The New Year is near, so it's time to sum up the results of the year. Let me tell you what I was doing in 2025, how my [plans for the past year]{post:results-of-2024-for-me-and-the-blog} went, and what my plans are for the coming year.
 
 <!-- more -->
 
@@ -19,18 +19,18 @@ The New Year is near, it's time to sum up the results of this year. Let me tell 
 
 This is probably the first year the blog's traffic stopped growing and may even have declined.
 
-I am not sure about the causes. The engine has only improved over the year — the blog became faster and more accurate. According to Google, the number of impressions in search nearly doubled, the average position in the results improved from 12 to 8, while the number of clicks and CTR decreased. There are two hypotheses:
+I am not sure about the causes. The engine has only improved over the year — the blog became faster and better is SEO. According to Google, the number of impressions in search nearly doubled, the average search position improved from 12 to 8, while the number of clicks and CTR decreased. There are two hypotheses:
 
 1. The black magic of search algorithms — according to Google Search Console.
-2. The ban of the internet in Russia — judging by per-country traffic statistics — the decline is mostly in Russia.
+2. The internet restrictions in Russia — judging by per-country traffic statistics — the decline is mostly in Russia.
 
-ChatGPT suggests that the blog may have started to appear for broader/less "my" queries: impressions are growing, the average position is improving, but the content is less relevant to the user, which leads to fewer clicks. AI says this is a typical pattern, especially if the content has become better "understood" by the search engine.
+ChatGPT suggests that the blog may have started to appear for broader/less "my" queries: impressions are growing, the average position is improving, but the content is less relevant to the user, which leads to fewer clicks. According to the AI, this is a typical pattern, especially if the content has become better "understood" by the search engine.
 
-The number of subscribers on [the Russian-language Telegram channel](https://t.me/tiendil_org_ru) increased by 27% and now stands at 118. The [English-language Telegram channel](https://t.me/tiendil_org_en) is completely inactive, apparently the English-speaking internet works differently. The blog's Discord servers are dead, I'll delete them soon.
+The number of subscribers on [the Russian-language Telegram channel](https://t.me/tiendil_org_ru) increased by 27% and now stands at 118. The [English-language Telegram channel](https://t.me/tiendil_org_en) is completely inactive, apparently, the English-speaking internet works differently. The blog's Discord servers are dead, I'll delete them soon.
 
 ## Posts
 
-I've written 20 posts this year — closer to my "work" norm than to the "sabbatical" norm. The reason was a spectacular schedule slip in the second half of the year, which I'll explain below.
+I've written 20 posts this year — closer to my usual working pace than to my sabbatical pace. The reason was a spectacular schedule slip in the second half of the year, which I'll explain below.
 
 **The top new posts for 2025**
 
