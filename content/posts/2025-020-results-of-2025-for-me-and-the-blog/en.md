@@ -202,9 +202,9 @@ I have an impression that periodic iteration over the cards is now a habit. Wait
 
 > Translate the top 10 Russian blog posts into English.
 
-Stopped at five. At the middle of the year, I realized that manual translation takes too much time and does not lead to a significant increase in traffic to the English version of the blog.
+Stopped at five. In the middle of the year, I realized that manual translation takes too much time and does not significantly increase traffic to the English version of the blog.
 
-Currently I don't know what to do with the translation of the old posts. Most likely, I will wait until AI learns to translate texts preserving the author's style and will process the old posts with it.
+Currently, I don’t know what to do with the translation of the old posts. Most likely, I will wait until AI learns to translate texts preserving the author’s style, and will process the old posts with it.
 
 > Finish improving my management theory.
 
@@ -214,12 +214,12 @@ Almost done, just two posts left :-D
 
 Unexpectedly succeeded.
 
-In the second half of 2024 I spent about 1000 eur on cola, and in the whole 2025 — about 250 eur. It looks like an eightfold year-over-year saving.
+In the second half of 2024, I spent about 1000 eur on cola, and in the whole of 2025, about 250 eur. It looks like an eightfold year-over-year saving.
 
 Now I drink two kinds of tea:
 
 - China Monnong Pu Erh is an extremely stimulating tea if you need to concentrate at work.
-- Rooibos Lemon is not a tea, caffeine-free, but steeped and drunk like tea. I mostly drink it to not coffeinate myself.
+- Rooibos Lemon is not a tea, and is a caffeine-free, but steeped and drunk like tea. I mostly drink it to not caffeinate myself.
 
 > Start looking for a job if my projects don’t work out.
 
