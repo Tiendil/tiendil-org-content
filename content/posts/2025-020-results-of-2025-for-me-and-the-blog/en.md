@@ -186,17 +186,17 @@ The failure of the decade for me — always postponing this and never finding th
 
 > Learn 1000 new English words. Fiction literature should help there.
 
-The success of the year. Currently I have 645 flashcards with learned words. Since I chose 1000 only for a nice round number (100 is too few), I consider this a big progress for myself. The result is visible in real life — new words pop up now and then in TV shows, books, and posts.
+The success of the year. Currently, I have 645 flashcards with learned words. Since I chose 1000 only for a nice round number (100 is too few), I consider this a big progress for myself. The result is visible in real life — new words pop up now and then in TV shows, books, and posts.
 
-I use [DouCards](https://play.google.com/store/apps/details?id=com.duocards.app) to learn words. In the spring, I did a small research on software for this task and settled on it. Each flashcard is accompanied by an associated picture, usage examples, and audio. AI generates translations and examples.
+I use [DouCards](https://play.google.com/store/apps/details?id=com.duocards.app) to learn words. In the spring, I did a little research on software for this task and settled on it. Each flashcard is accompanied by an associated picture, usage examples, and audio. AI generates translations and examples.
 
-I use a paper notebook alongside the app to activate different types of memory — without it learning didn't work for me — words didn't stick. The process looks like this:
+I use a paper notebook alongside the app to activate different types of memory — without it, learning didn't work for me — words didn't stick. The process looks like this:
 
 - DuoCards shows me a new card.
-- I wrote the word with a translation into the notebook.
+- I wrote the word and its translation in the notebook.
 - I check my answer with the app. If I made a mistake, I write the correct translation in the notebook.
 
-For me personally, writing forces words through a greater number of neural pathways, which makes them easier to remember.
+For me personally, writing forces words through more neural pathways, making them easier to remember.
 
 I have an impression that periodic iteration over the cards is now a habit. Waiting to see how it goes next year.
 
