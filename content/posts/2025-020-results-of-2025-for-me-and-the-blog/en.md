@@ -233,10 +233,10 @@ Some things weren't planned but happened.
 
 Absolutely unexpectedly moved from 100 to 90 kg.
 
-The methodology can be described simply and complexly.
+The methodology can be described in a simple way and a complex way.
 
-1. Simply — stopped eating after 6 pm.
-2. Complexly — learned to distinguish between hunger and emotional eating and stopped eating for comfort/emotions. Initially, it was hard, but now it's almost a habit.
+1. Simple way — I stopped eating after 6 pm.
+2. Complex way — I learned to distinguish between hunger and emotional eating and stopped eating for comfort/emotions. Initially, it was hard, but now it's almost a habit.
 
 ### Watched the entire [Stargate](https://en.wikipedia.org/wiki/Stargate) shows
 
