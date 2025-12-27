@@ -19,14 +19,14 @@ The New Year is near, so it's time to sum up the results of the year. Let me tel
 
 This is probably the first year the blog's traffic stopped growing and may even have declined.
 
-I am not sure about the causes. The engine has only improved over the year — the blog became faster and better is SEO. According to Google, the number of impressions in search nearly doubled, the average search position improved from 12 to 8, while the number of clicks and CTR decreased. There are two hypotheses:
+I am not sure about the causes. The engine has only improved over the year — the blog became faster and better at technical SEO. According to Google, the number of impressions in search nearly doubled, the average search position improved from 12 to 8, while the number of clicks and CTR decreased. There are two hypotheses:
 
 1. The black magic of search algorithms — according to Google Search Console.
 2. The internet restrictions in Russia — judging by per-country traffic statistics — the decline is mostly in Russia.
 
 ChatGPT suggests that the blog may have started to appear for broader/less "my" queries: impressions are growing, the average position is improving, but the content is less relevant to the user, which leads to fewer clicks. According to the AI, this is a typical pattern, especially if the content has become better "understood" by the search engine.
 
-The number of subscribers on [the Russian-language Telegram channel](https://t.me/tiendil_org_ru) increased by 27% and now stands at 118. The [English-language Telegram channel](https://t.me/tiendil_org_en) is completely inactive, apparently, the English-speaking internet works differently. The blog's Discord servers are dead, I'll delete them soon.
+The number of subscribers on [the Russian-language Telegram channel](https://t.me/tiendil_org_ru) increased by 27% and now stands at 118. The [English-language Telegram channel](https://t.me/tiendil_org_en) is completely inactive, apparently, the English-speaking internet works differently. The blog's Discord servers are dead, I'll remove them soon.
 
 ## Posts
 
@@ -74,7 +74,7 @@ Country  | Unique Visitors
 
 The Germany placement is on the high side because I am the most active reader of this blog :-D
 
-## Failed plans
+## Schedule slip
 
 The first half of the year went quite well. The second half turned into an epic failure on all fronts — I should have bragged less in the post about [my sabbaticals]{post:sabbaticals} :-D
 
@@ -84,13 +84,13 @@ There were several problems.
 
 The reflection posts end up long and don't come easily — I didn't expect to accumulate such a volume of thoughts. On the other hand, I like how all these thoughts agree with each other and come together into a coherent picture.
 
-**Second**, I could skip some experiments in [Feeds Fun](https://feeds.fun) and not implement some features, as they seem less important now than at the beginning of the year. This would have saved some time. But this is clearly knowledge available only in hindsight.
+**Second**, I could skip some experiments in [Feeds Fun](https://feeds.fun) and not implement some features, as they seem less important now than at the beginning of the year. This would have saved some time. But this is clearly hindsight.
 
 **Third**, I decided to implement "proper" authentication in [Feeds Fun](https://feeds.fun), which led me to spend 2-3 months diving into complex protocols and questionable (with all due respect) software. This activity spawned several whining posts ([1]{post:crazy-ory-infrastructure}, [2]{post:cool-open-source-project-for-portfolio}, [3]{post:llm-agents-are-still-unfit-for-real-world-tasks}). Similar functionality could have been assembled ~~out of duct tape and prayers~~ in a month, but I really didn't want to implement security by hand — it's risky. Plus, it was a good opportunity to close this gap in my technical knowledge — the last time I implemented full-fledged authentication was in 2012, and things were different back then.
 
 **Fourth**, I spread myself too thin. There were two main projects this year: Feeds Fun and management books. But besides that, I decided to prototype a game for fun, which I had been working on as part of the [World Builders 2023 school]{tags:world-builders-2023}.
 
-I can not say that I spent a huge amount of time on the game — I do such perversions in the evenings when my brain stops working, but I can still code on reflex. However, some time was lost, partially because not all of the development could be done purely on reflex — I had to take days away from the main projects. I estimate the lost time at about 6 weeks, but it’s not enough to compensate for the full delay on the main projects.
+I can't say that I spent a huge amount of time on the game — I work on such odd things in the evenings when my brain stops working, but I can still code on autopilot. However, some time was lost, partly because not all of the development could be done that way — I had to take days away from the main projects. I estimate the lost time at about six weeks, but that wouldn't have been enough to make up for the overall delay on the main projects.
 
 ## Analysis of failures
 
@@ -110,7 +110,7 @@ On the other hand, if at the beginning of the sabbatical (2 years ago) I had dec
 
 It looks like I was waiting for some significant failure that would show that it makes no sense to continue working on the project, so I moved slowly, testing hypotheses like "what if it doesn't work out here or there". An epic failure did not happen, but the progress slowed.
 
-**Conclusion**: be more decisive, do not play “too safe”, do not try to "outsmart reality". In fact, this is a big problem of mine: when I plan something on the personal side, I try to account for every possible scenario, which wastes time. I need to watch myself. Interestingly, this manifests itself much less on the work side — maybe I am more responsible when I spend other people’s money
+**Conclusion**: be more decisive, do not play “too safe”, do not try to "outsmart reality". In fact, this is a big problem of mine: when I plan something on the personal side, I try to account for every possible scenario, which wastes time. I need to watch myself. Interestingly, this manifests itself much less on the work side — maybe I am more responsible when I spend other people's money
 
 ### Authentication overhead
 
@@ -162,7 +162,7 @@ The results of this activity are ambiguous:
 - The post about Rust will be next year — the language is interesting and versatile. I have very ambiguous impressions.
 - There will be no post about Godot — it looks like working with visual editors literally pisses me off — professional bias. Therefore, I cannot objectively evaluate the engine. If I make a game, everything in it will be defined by code and config files.
 - It is possible that next year I will release a tool for LLM agents that helps them keep focus on the task at hand.
-- It is possible there will be a cool demo next year, but I don’t count on it much.
+- It is possible there will be a cool demo next year, but I don't count on it much.
 
 Perhaps I should have chosen [Zig](https://ziglang.org/) instead of Rust, but I am still not  sure. I think, over time, Rust and Zig will split the space currently occupied by C/C++, not in competition but side by side.
 
@@ -176,7 +176,7 @@ Instead of developing a package of games, the people behind the school are now w
 
 No game, obviously.
 
-> If I stop working with Mad Crusaders, AND the MVP is playable, AND I have the time, I’ll release the game on Steam as an indie project by a solo developer.
+> If I stop working with Mad Crusaders, AND the MVP is playable, AND I have the time, I'll release the game on Steam as an indie project by a solo developer.
 
 Yep, again, no game.
 
@@ -204,7 +204,7 @@ I have an impression that periodic iteration over the cards is now a habit. Wait
 
 Stopped at five. In the middle of the year, I realized that manual translation takes too much time and does not significantly increase traffic to the English version of the blog.
 
-Currently, I don’t know what to do with the translation of the old posts. Most likely, I will wait until AI learns to translate texts preserving the author’s style, and will process the old posts with it.
+Currently, I don't know what to do with the translation of the old posts. Most likely, I will wait until AI learns to translate texts preserving the author's style, and will process the old posts with it.
 
 > Finish improving my management theory.
 
@@ -221,7 +221,7 @@ Now I drink two kinds of tea:
 - Chinese Monnong Pu Erh is an extremely stimulating tea if you need to concentrate at work.
 - Rooibos Lemon is not a tea, and is a caffeine-free, but steeped and drunk like tea. I mostly drink it to not caffeinate myself.
 
-> Start looking for a job if my projects don’t work out.
+> Start looking for a job if my projects don't work out.
 
 Not yet. Waiting for the results of the Feeds Fun monetization experiment.
 
