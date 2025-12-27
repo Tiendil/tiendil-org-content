@@ -72,7 +72,7 @@ Country  | Unique Visitors
 🇵🇱 Poland | 334
 🇸🇬 Singapore | 275
 
-The Germany placement is on the high side because I am the most active reader of this blog :-D
+Germany ranks so high because I'm the blog's most active reader :-D
 
 ## Schedule slip
 
@@ -188,7 +188,7 @@ The failure of the decade for me — always postponing this and never finding th
 
 A major success of the year. Currently, I have 645 flashcards with learned words. Since I chose 1000 only for a nice round number (100 is too few), I consider this a big progress for myself. The result is visible in real life — new words pop up now and then in TV shows, books, and posts.
 
-I use [DouCards](https://play.google.com/store/apps/details?id=com.duocards.app) to learn words. In the spring, I did a little research on software for this task and settled on it. Each flashcard is accompanied by an associated picture, usage examples, and audio. AI generates translations and examples.
+I use [DuoCards](https://play.google.com/store/apps/details?id=com.duocards.app) to learn words. In the spring, I did a little research on software for this task and settled on it. Each flashcard is accompanied by an associated picture, usage examples, and audio. AI generates translations and examples.
 
 I use a paper notebook alongside the app to activate different types of memory — without it, learning didn't work for me — words didn't stick. The process looks like this:
 
@@ -218,7 +218,7 @@ In the second half of 2024, I spent about €1000 on cola, and in the whole of 2
 
 Now I drink two kinds of tea:
 
-- Chinese Monnong Pu Erh is an extremely stimulating tea if you need to concentrate at work.
+- China Monnong Pu Erh is an extremely stimulating tea if you need to concentrate at work.
 - Rooibos Lemon is not a tea, and is a caffeine-free, but steeped and drunk like tea. I mostly drink it to not caffeinate myself.
 
 > Start looking for a job if my projects don't work out.
