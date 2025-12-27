@@ -264,13 +264,13 @@ Modern science fiction leaves me completely cold. Perhaps it's age. Perhaps the 
 
 3. Figure out how to develop software together with LLM agents.
 
-Agents will clearly become the topic of 2026 and the new reality of software development. However, right now, no one knows exactly what this reality will look like. Practice should clarify this in the next year.
+   Agents will clearly become the topic of 2026 and the new reality of software development. However, right now, no one knows exactly what this reality will look like. Practice should clarify this in the next year.
 
-You have to stay on trend to be on top :-D
+   You have to stay on trend to be on top :-D
 
 4. Continue experiments with gamedev.
 
-There are no specific goals — just fun prototyping.
+   There are no specific goals — just fun prototyping.
 
 5. Drop 5-10 kg more.
 
