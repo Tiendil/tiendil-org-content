@@ -41,13 +41,6 @@ author = "Aliaksei Yaletski (Tiendil)"
 
 [[menu]]
   type = "external"
-  css_classes = "ti ti-brand-discord"
-  name = ""
-  tooltip = "Discord server"
-  url = "https://discord.gg/2JNHAV7uMP"
-
-[[menu]]
-  type = "external"
   css_classes = "ti ti-brand-twitter"
   name = ""
   tooltip = "Twitter"
