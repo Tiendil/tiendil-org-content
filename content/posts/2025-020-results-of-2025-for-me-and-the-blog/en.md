@@ -94,7 +94,7 @@ I can not say that I spent a huge amount of time on the game — I do such perve
 
 ## Analysis of failures
 
-Not a final thoughts. Obviously, I will mull over this situation for a longer time, but for now it looks more like an inevitable delay: I went on sabbatical to do specific things, and these things need to be completed in order to exit subbatical with a positive result.
+Not final thoughts. Obviously, I will mull over this situation for a longer time, but for now it looks more like an inevitable delay: I went on sabbatical to do specific things, and these things need to be completed in order to exit sabbatical with positive results.
 
 ### Underestimation of time for management books
 
@@ -106,11 +106,11 @@ The knowledge has to be digested. To achieve this, I need to write as many posts
 
 I already cut features in Feeds Fun pretty aggressively. Looking back at the experiments from the first half of the year, I could have saved a month or two of work — but that knowledge only exists in hindsight.
 
-From the other side, if at the beginning of the sabbatical (2 years ago) I had decided that I would definitely turn on monetization in Feeds Fun, I could have saved a total of 3-6 months of work by skipping some features, research, experiments.
+On the other hand, if at the beginning of the sabbatical (2 years ago) I had decided that I would definitely turn on monetization in Feeds Fun, I could have saved 3-6 months of work by skipping some features, research, and experiments.
 
-It looks like I was waiting for some significant failure that would show that it makes no sense to continue working on the project, so I moved slowly, testing hypotheses like "what if it doesn't work out here or there". An epic failure did not happen, but the progress slowed down.
+It looks like I was waiting for some significant failure that would show that it makes no sense to continue working on the project, so I moved slowly, testing hypotheses like "what if it doesn't work out here or there". An epic failure did not happen, but the progress slowed.
 
-**Conclusion**: be more decisive, do not play "too safe", do not try to "outplay the universe". In fact, this is a big problem of mine: when I plan something on the personal side, I try to account for all possible scenarios, which wastes time. I need to watch myself. Interestingly, this manifests itself much less on the work side — maybe I am more responsible when I spend other people's money.
+**Conclusion**: be more decisive, do not play “too safe”, do not try to “outplay the universe”. In fact, this is a big problem of mine: when I plan something on the personal side, I try to account for every possible scenario, which wastes time. I need to watch myself. Interestingly, this manifests itself much less on the work side — maybe I am more responsible when I spend other people’s money
 
 ### Authentication overhead
 
