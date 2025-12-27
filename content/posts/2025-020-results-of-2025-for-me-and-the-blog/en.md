@@ -50,7 +50,7 @@ I've written 20 posts this year — closer to my usual working pace than to my s
 2 | []{post:dungeon-generation-from-simple-to-complex}  | []{post:@lang=ru:@lang-title=en:my-gpts}
 3 | []{post:slay-the-princess-combinatoric-narrative}  | []{post:@lang=ru:@lang-title=en:dungeon-generation-from-simple-to-complex}
 4 | []{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}  | []{post:@lang=ru:@lang-title=en:how-to-design-a-dungeon}
-5 | []{post:about-book-harry-potter}  | []{post:@lang=ru:@lang-title=en:julia-experience}
+5 | []{post:about-book-harry-potter}  | []{post:@lang=ru:@lang-title=ru:julia-experience}
 
 Fun fact:
 
@@ -80,7 +80,7 @@ The first half of the year went quite well. The second half turned into an epic 
 
 There were several problems.
 
-**First**, as a final step in my research into management theory, I planned to write just two posts. As it turned out, I [wrote five]{post:points-of-view-on-a-product} and have two more planned :-D And this is despite the fact that I specifically combined all [book reviews]{post:vantage-on-management-books} into the single post.
+**First**, as a final step in my research into management theory, I planned to write just two posts. As it turned out, I [wrote five]{tags:vantage-on-management} and have two more planned :-D And this is despite the fact that I specifically combined all [book reviews]{post:vantage-on-management-books} into the single post.
 
 The reflection posts end up long and don't come easily — I didn't expect to accumulate such a volume of thoughts. On the other hand, I like how all these thoughts agree with each other and come together into a coherent picture.
 
