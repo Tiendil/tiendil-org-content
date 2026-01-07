@@ -25,9 +25,9 @@ seo_image = ""
 
 ## Специфика продукта
 
-Feeds Fun — это «классическая» web читалка новостей — пользователь подписывается на потоки новостей, читалка скачивает новости себе на сервер и показывает их пользователю. Сейчас это только [RSS](https://ru.wikipedia.org/wiki/RSS) и [ATOM](https://ru.wikipedia.org/wiki/Atom), но в будущем будут и другие источники: соцсети, email-рассылки, автоматически забирать новости с веб-сайтов, etc.
+Feeds Fun — это «классическая» web читалка новостей — пользователь подписывается на потоки новостей, читалка скачивает новости себе на сервер и показывает их пользователю. Сейчас это только [RSS](https://ru.wikipedia.org/wiki/RSS) и [ATOM](https://ru.wikipedia.org/wiki/Atom), но в будущем будут и другие источники: соцсети, email-рассылки, автоматический пасринг сайтов, etc.
 
-Самые известные аналоги [Google Reader](https://ru.wikipedia.org/wiki/Google_Reader) (ныне почил), [Feedly](https://feedly.com/), [Inoreader](https://www.inoreader.com/).
+Самые известные аналоги [Google Reader](https://ru.wikipedia.org/wiki/Google_Reader) (ныне почивший), [Feedly](https://feedly.com/), [Inoreader](https://www.inoreader.com/).
 
 Общая черта всех SaaS читалок — очень дешёвая серверная инфраструктура:
 
