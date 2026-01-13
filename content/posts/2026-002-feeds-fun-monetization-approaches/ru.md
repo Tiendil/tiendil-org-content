@@ -344,3 +344,11 @@ Feeds Fun плохо вписывается в подобную картину. 
 - Не поможет ли вечная красная нотификашка «у вас есть непротеганные новости» с вариантом, когда мы не ограничиваем добавление подписок для пользователя?
 - тоже проблема, что сначала пользователи могут добавлять подписки, а только потом платить => добавленные подписки не протегаются.
 - Использовать конкурентов не для расчёта цен, а для сравнения результатов моделирования. Брать цены конкурентов и смотреть что на них можно купить в нашем сервисе.
+- Gross margin is a key profitability metric showing the percentage of revenue left after subtracting the direct costs (Cost of Goods Sold - COGS) to produce or sell a product, indicating how efficiently a company makes its core offerings before overheads, and is calculated as (Revenue - COGS) / Revenue, revealing funds available for operations, debt, and profit. A higher margin signifies better production efficiency and pricing power, while a lower one might signal high costs or price pressure.
+- CAC лучше добавить с каким-то допущением? но он же не включён в **recurring траты**, но у тебя есть количества пользователей => ты можешь учитывать его на душу пользователя. Как и все прочие общие траты.
+- Явно отметить, что свою зп я не включаю в траты.
+- Попробовать найти статистику по количству подписок в среднем на человека. Если не получится найти, то можно вывести из тиров конкурентов.
+- COGS: https://www.cloudzero.com/blog/saas-cogs/
+- Добавить очень богатый VIP ценник.
+- Gross margin: https://www.cloudzero.com/blog/saas-gross-margin/
+- https://blog.asmartbear.com/higher-pricing/
