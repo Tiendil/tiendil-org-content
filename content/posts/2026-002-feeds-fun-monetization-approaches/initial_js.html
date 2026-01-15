@@ -22,14 +22,24 @@ function T(text) {
 }
 
 const subscribersNumber = [{id: 'subscribers_100',
-                           name: '100 Subscribers',
-                           addToFilter: true},
+                            name: '100 Subscribers',
+                            value: 100},
                            {id: 'subscribers_1000',
-                           name: '1000 Subscribers',
-                           addToFilter: true},
+                            name: '1000 Subscribers',
+                            value: 1000},
                            {id: 'subscribers_10000',
-                           name: '10000 Subscribers',
-                           addToFilter: true}];
+                            name: '10000 Subscribers',
+                            value: 10000}];
+
+class marginLevels = [
+    {id: 'x1', name: 'x1', value: 1},
+    {id: 'x2', name: 'x2', value: 2},
+    {id: 'x3', name: 'x3', value: 3},
+    {id: 'x5', name: 'x5', value: 5},
+    {id: 'x10', name: 'x10', value: 10}
+    {id: 'x20', name: 'x20', value: 20}
+    {id: 'x50', name: 'x50', value: 50}
+]
 
  // translate filters
  // for (let filterId in filters) {
