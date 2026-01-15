@@ -21,7 +21,7 @@ function T(text) {
    return translations[text];
 }
 
-const subscribersNumber = [{id: 'subscribers_100',
+const subscriberNumbers = [{id: 'subscribers_100',
                             name: '100 Subscribers',
                             value: 100},
                            {id: 'subscribers_1000',
@@ -41,41 +41,154 @@ class marginLevels = [
     {id: 'x50', name: 'x50', value: 50}
 ]
 
- // translate filters
- // for (let filterId in filters) {
- //   let filter = filters[filterId];
- //   filter.name = T(filter.name);
- // }
+const daysInMonth = 30;
+const COGS = 0.0007145;
+const quotaStep = 100;
+const baseSubscriptionTokens = quotaStep;
+const audience = [
+    {fraction: 0.8, newsPerDay: 25},
+    {fraction: 0.16, newsPerDay: 100},
+    {fraction: 0.04, newsPerDay: 1000}
+]
 
-var fullData = null;
+function modelQuotaSteps(usersNumber, subMarginX, tokenMarginX, extraTokensPurchased) {
 
-var filterA = 'all';
-var filterB = 'adults (30-39)';
+    const groups = [];
 
-var heatmapFilterA = 'q_world_style';
-var heatmapFilterB = 'q_plot_style';
+    for (let i = 0; i < audience.length; i++) {
+        const users = audience[i];
 
-function groupMapper(groups) {
-    return function(row) {
-        const resultGroups = [];
+        const subTokenMargin = COGS * subMarginX;
+        const subTokenPrice = COGS + subTokenMargin;
 
-        for (let groupIndex in groups) {
-            const group = groups[groupIndex];
+        const extraTokenMargin = COGS * tokenMarginX;
+        const extraTokenPrice = COGS + extraTokenMargin;
 
-            if (group.predicate(row)) {
-                resultGroups.push(group.id);
-            }
-        }
+        const newsPerMonth = users.newsPerDay * daysInMonth;
 
-        return resultGroups;
+        const qoutaLevel = Math.ceil(Math.newsPerMonth / quotaStep);
+        const purchasedSubTokens = quotLevel * quotaStep;
+
+        const subMonthPrice = purchaedSubTokens * subTokenPrice;
+        const subMonthSpending = purchaedSubTokens * COGS;
+        const subMonthMargin = subMonthPrice - subMonthSpending;
+
+        const extraMonthPrice = extraTokensPurchased * extraTokenPrice;
+        const extraMonthSpending = extraTokensPurchased * COGS;
+        const extraMonthMargin = extraMonthPrice - extraMonthSpending;
+
+        const subGrossMargin = subMonthMargin * users.fraction * usersNumber;
+        const extraGrossMargin = extraMonthMargin * users.fraction * usersNumber;
+        const totalGrossMargin = subGrossMargin + extraGrossMargin;
+
+        groups.push({
+            subStepPrice: quotaStep * subTokenPrice,
+            subPrice: subMonthPrice,
+            tokensPrice: extraMonthPrice,
+
+            subMargin: subMonthMargin,
+            tokenMargin: extraMonthMargin,
+            grossMargin: totalGrossMargin
+        });
+    }
+
+    return {
+        usersNumber: usersNumber,
+        subMarginX: subMarginX,
+        tokenMarginX: tokenMarginX,
+
+        grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0),
+        subMargin: groups.reduce((a, b) => a + b.subMargin, 0),
+        tokenMargin: groups.reduce((a, b) => a + b.tokenMargin, 0)
+
+        groups: groups
     };
+
 }
 
-function groupIds(groups) {
-    return groups.map(function(group) {
-        return group.id;
-    });
+function modelQuotaStepsNoTokens(usersNumber, subMarginX, tokenMarginX) {
+    return modelQuotaSteps(usersNumber, subMarginX, tokenMarginX, 0);
 }
+
+function modelQuotaStepsHasTokens(usersNumber, subMarginX, tokenMarginX) {
+    return modelQuotaSteps(usersNumber, subMarginX, tokenMarginX, quotaStep * 0.5);
+}
+
+
+function modelBaseSub(usersNumber, subMarginX, tokenMarginX) {
+
+    const groups = [];
+
+    for (let i = 0; i < audience.length; i++) {
+        const users = audience[i];
+
+        const subTokenMargin = COGS * subMarginX;
+        const subTokenPrice = COGS + subTokenMargin;
+
+        const extraTokenMargin = COGS * tokenMarginX;
+        const extraTokenPrice = COGS + extraTokenMargin;
+
+        const newsPerMonth = users.newsPerDay * daysInMonth;
+
+        const extraTokensPurchased = newsPerMonth - baseSubscriptionTokens;
+
+        const subMonthPrice = baseSubscriptionTokens * subTokenPrice
+        const subMonthSpending = baseSubscriptionTokens * COGS;
+        const subMonthMargin = subMonthPrice - subMonthSpending;
+
+        const extraMonthPrice = extraTokensPurchased * extraTokenPrice;
+        const extraMonthSpending = extraTokensPurchased * COGS;
+        const extraMonthMargin = extraMonthPrice - extraMonthSpending;
+
+        const subGrossMargin = subMonthMargin * users.fraction * usersNumber;
+        const extraGrossMargin = extraMonthMargin * users.fraction * usersNumber;
+        const totalGrossMargin = subGrossMargin + extraGrossMargin;
+
+        groups.push({
+            subStepPrice: quotaStep * subTokenPrice,
+            subPrice: subMonthPrice,
+            tokensPrice: extraMonthPrice,
+
+            subMargin: subMonthMargin,
+            tokenMargin: extraMonthMargin,
+            grossMargin: totalGrossMargin
+        });
+    }
+
+    return {
+        usersNumber: usersNumber,
+        subMarginX: subMarginX,
+        tokenMarginX: tokenMarginX,
+
+        grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0),
+        subMargin: groups.reduce((a, b) => a + b.subMargin, 0),
+        tokenMargin: groups.reduce((a, b) => a + b.tokenMargin, 0)
+
+        groups: groups
+    };
+
+}
+
+var fullData = [];
+
+for (subscribers of subscriberNumbers) {
+    for (subMarginLevel of marginLevels) {
+        for (tokenMarginLevel of marginLevels) {
+            fullData.push(modelQuotaStepsNoTokens(subscribers.value,
+                                                  subMarginLevel.value,
+                                                  tokenMarginLevel.value));
+            fullData.push(modelQuotaStepsHasTokens(subscribers.value,
+                                                   subMarginLevel.value,
+                                                   tokenMarginLevel.value));
+            fullData.push(modelBaseSub(subscribers.value,
+                                       subMarginLevel.value,
+                                       tokenMarginLevel.value));
+        }
+    }
+}
+
+// var filterA = 'all';
+// var filterB = 'adults (30-39)';
 
 function getPlotData(filteredData, map, uniqueValues) {
     var mappedData = filteredData.map(map);
