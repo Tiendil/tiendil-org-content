@@ -12,14 +12,14 @@ const redrawPlots = new CustomEvent('redrawPlots', {
     }
  });
 
-function T(text) {
-   if (!(text in translations)) {
-       console.error('Unknown translation:', text);
-     return text;
-   }
+// function T(text) {
+//    if (!(text in translations)) {
+//        console.error('Unknown translation:', text);
+//      return text;
+//    }
 
-   return translations[text];
-}
+//    return translations[text];
+// }
 
 const subscriberNumbers = [{id: 'subscribers_100',
                             name: '100 Subscribers',
@@ -31,15 +31,20 @@ const subscriberNumbers = [{id: 'subscribers_100',
                             name: '10000 Subscribers',
                             value: 10000}];
 
-class marginLevels = [
+const marginLevels = [
     {id: 'x1', name: 'x1', value: 1},
     {id: 'x2', name: 'x2', value: 2},
     {id: 'x3', name: 'x3', value: 3},
     {id: 'x5', name: 'x5', value: 5},
-    {id: 'x10', name: 'x10', value: 10}
-    {id: 'x20', name: 'x20', value: 20}
-    {id: 'x50', name: 'x50', value: 50}
+    {id: 'x10', name: 'x10', value: 10},
+    {id: 'x20', name: 'x20', value: 20},
+    {id: 'x50', name: 'x50', value: 50},
 ]
+
+let filterASubMargin = 'x1';
+let filterATokenMargin = 'x10';
+let filterBSubMargin = 'x10';
+let filterBTokenMargin = 'x1';
 
 const daysInMonth = 30;
 const COGS = 0.0007145;
@@ -51,7 +56,7 @@ const audience = [
     {fraction: 0.04, newsPerDay: 1000}
 ]
 
-function modelQuotaSteps(usersNumber, subMarginX, tokenMarginX, extraTokensPurchased) {
+function modelQuotaSteps(modelName, usersNumber, subMarginX, tokenMarginX, extraTokensPurchased) {
 
     const groups = [];
 
@@ -66,11 +71,11 @@ function modelQuotaSteps(usersNumber, subMarginX, tokenMarginX, extraTokensPurch
 
         const newsPerMonth = users.newsPerDay * daysInMonth;
 
-        const qoutaLevel = Math.ceil(Math.newsPerMonth / quotaStep);
-        const purchasedSubTokens = quotLevel * quotaStep;
+        const qoutaLevel = Math.ceil(newsPerMonth / quotaStep);
+        const purchasedSubTokens = qoutaLevel * quotaStep;
 
-        const subMonthPrice = purchaedSubTokens * subTokenPrice;
-        const subMonthSpending = purchaedSubTokens * COGS;
+        const subMonthPrice = purchasedSubTokens * subTokenPrice;
+        const subMonthSpending = purchasedSubTokens * COGS;
         const subMonthMargin = subMonthPrice - subMonthSpending;
 
         const extraMonthPrice = extraTokensPurchased * extraTokenPrice;
@@ -93,13 +98,15 @@ function modelQuotaSteps(usersNumber, subMarginX, tokenMarginX, extraTokensPurch
     }
 
     return {
+        model: modelName,
+
         usersNumber: usersNumber,
         subMarginX: subMarginX,
         tokenMarginX: tokenMarginX,
 
         grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0),
         subMargin: groups.reduce((a, b) => a + b.subMargin, 0),
-        tokenMargin: groups.reduce((a, b) => a + b.tokenMargin, 0)
+        tokenMargin: groups.reduce((a, b) => a + b.tokenMargin, 0),
 
         groups: groups
     };
@@ -107,11 +114,11 @@ function modelQuotaSteps(usersNumber, subMarginX, tokenMarginX, extraTokensPurch
 }
 
 function modelQuotaStepsNoTokens(usersNumber, subMarginX, tokenMarginX) {
-    return modelQuotaSteps(usersNumber, subMarginX, tokenMarginX, 0);
+    return modelQuotaSteps("quota_no_tokens", usersNumber, subMarginX, tokenMarginX, 0);
 }
 
 function modelQuotaStepsHasTokens(usersNumber, subMarginX, tokenMarginX) {
-    return modelQuotaSteps(usersNumber, subMarginX, tokenMarginX, quotaStep * 0.5);
+    return modelQuotaSteps("quota_with_tokens", usersNumber, subMarginX, tokenMarginX, quotaStep * 0.5);
 }
 
 
@@ -156,13 +163,15 @@ function modelBaseSub(usersNumber, subMarginX, tokenMarginX) {
     }
 
     return {
+        model: "base_sub",
+
         usersNumber: usersNumber,
         subMarginX: subMarginX,
         tokenMarginX: tokenMarginX,
 
         grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0),
         subMargin: groups.reduce((a, b) => a + b.subMargin, 0),
-        tokenMargin: groups.reduce((a, b) => a + b.tokenMargin, 0)
+        tokenMargin: groups.reduce((a, b) => a + b.tokenMargin, 0),
 
         groups: groups
     };
@@ -187,41 +196,7 @@ for (subscribers of subscriberNumbers) {
     }
 }
 
-// var filterA = 'all';
-// var filterB = 'adults (30-39)';
-
-function getPlotData(filteredData, map, uniqueValues) {
-    var mappedData = filteredData.map(map);
-
-    // if mappedData contains multiple groups per row, flatten it
-    if (mappedData[0] instanceof Array) {
-        mappedData = mappedData.flat();
-    }
-
-    // print error if mappedData contains item not from uniqueValues
-    mappedData.forEach(function(value) {
-        if (!uniqueValues.includes(value)) {
-          console.log('Value ' + value + ' not in uniqueValues');
-        }
-    });
-
-    const counts = uniqueValues.map(function(value) {
-        return mappedData.filter(function(x) {
-            return x === value;
-        }).length;
-    });
-
-
-    const percents = counts.map(function(count) {
-        return (count / filteredData.length * 100).toFixed(2);
-    });
-
-    return {
-        values: uniqueValues,
-        counts: counts,
-        percents: percents
-    };
-}
+console.log('fullData', fullData);
 
 function createPlotlyConfig(filename) {
     var config = {
@@ -241,48 +216,56 @@ function createPlotlyConfig(filename) {
     }
 }
 
+function filterRows(subMarginId, tokenMarginId) {
+    const subMarginValue = marginLevels.find(level => level.id === subMarginId).value;
+    const tokenMarginValue = marginLevels.find(level => level.id === tokenMarginId).value;
+
+    return fullData.filter(function(row) {
+        return row.subMarginX === subMarginValue &&
+               row.tokenMarginX === tokenMarginValue;
+    });
+}
+
 function barPlot(selector, map, barsOrder) {
 
     document.addEventListener('redrawPlots', (e) => {
 
-        if (fullData === null) {
-            return;
+        // if (!(filterA in filters)) {
+        //     console.log('Unknown filterA:', filterA);
+        //     return;
+        // }
+
+        // if (!(filterB in filters)) {
+        //     console.log('Unknown filterB:', filterA);
+        //     return;
+        // }
+
+        // const dataA = getPlotData(filters[filterA].values, map, barsOrder);
+        // const dataB = getPlotData(filters[filterB].values, map, barsOrder);
+
+        const dataARows = filterRows(filterASubMargin, filterATokenMargin).sort((a, b) => a.usersNumber - b.usersNumber);
+        const dataBRows = filterRows(filterBSubMargin, filterBTokenMargin).sort((a, b) => a.usersNumber - b.usersNumber);
+
+        // function toText(percents, counts) {
+        //     return percents.map((x, i) => x.toString() + ' ' + T('% count:') + ' ' + counts[i].toString());
+        // }
+
+        function barData(name, dataRows) {
+            return {
+                x: dataRows.map(row => `${row.model} ${row.usersNumber}`),
+                y: dataRows.map(row => row.grossMargin.toFixed(2)),
+                text: dataRows.map(row => row.grossMargin.toFixed(2)),
+                'textposition': "none",
+                'hoverinfo': 'text',
+                'name': name,
+                'type': 'bar'
+            };
         }
 
-        if (!(filterA in filters)) {
-            console.log('Unknown filterA:', filterA);
-            return;
-        }
-
-        if (!(filterB in filters)) {
-            console.log('Unknown filterB:', filterA);
-            return;
-        }
-
-        const dataA = getPlotData(filters[filterA].values, map, barsOrder);
-        const dataB = getPlotData(filters[filterB].values, map, barsOrder);
-
-        function toText(percents, counts) {
-            return percents.map((x, i) => x.toString() + ' ' + T('% count:') + ' ' + counts[i].toString());
-        }
-
-        data = [{
-            'x': dataA.values.map(T),
-            'y': dataA.percents,
-            'textposition': "none",
-            'text': toText(dataA.percents, dataA.counts),
-            'hoverinfo': 'text',
-            'name': filters[filterA].name,
-            'type': 'bar'
-        },{
-            'x': dataB.values.map(T),
-            'y': dataB.percents,
-            'textposition': "none",
-            'text': toText(dataB.percents, dataB.counts),
-            'hoverinfo': 'text',
-            'name': filters[filterB].name,
-            'type': 'bar'
-        }];
+        var data = [
+            barData("approach 1", dataARows),
+            barData("approach 2", dataBRows)
+        ];
 
         var layout = {
             barmode: 'group',
@@ -290,7 +273,7 @@ function barPlot(selector, map, barsOrder) {
                 dtick: 1
             },
             yaxis: {
-                title: T('percents')
+                title: 'Gross Margin, $',
             },
             legend: {
                 orientation: 'h',
@@ -301,304 +284,305 @@ function barPlot(selector, map, barsOrder) {
             }
         };
 
-        var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
+        // TODO: better unique name
+        var config = createPlotlyConfig('${filterASubMargin}-${filterATokenMargin}-${filterBSubMargin}-${filterBTokenMargin}');
 
         Plotly.react(selector, data, layout, config);
     });
 }
 
-function scatterpolarPlot(selector, mode) {
-    document.addEventListener('redrawPlots', (e) => {
-
-        if (fullData === null) {
-            return;
-        }
-
-        if (!(filterA in filters)) {
-            console.error('Unknown filterA:', filterA);
-            return;
-        }
-
-        if (!(filterB in filters)) {
-            console.error('Unknown filterB:', filterA);
-            return;
-        }
-
-        const dataA = filters[filterA].values;
-        const dataB = filters[filterB].values;
-
-        const theta = ['q_age',
-                       'q_play_strategy_games',
-                       'q_playing_effort',
-                       'q_playing_effort',
-                       'q_multiple_channels_esential',
-                       'q_realistic_work',
-                       'q_budget_effort',
-                       'q_office_effort',
-                       'q_morale_complexity',
-                       'q_relationships_effort'];
-
-
-        const translatedTheta = theta.map(T);
-
-        function values(data, column) {
-            return data.map(row => row[column]);
-        }
-
-        function fullValues(column) {
-            return fullData.map(row => row[column]);
-        }
-
-        function dimensionMedian(data, column) {
-            // r should containt median for each column from theta
-            const r = [];
-
-            for (let i = 0; i < theta.length; i++) {
-                var thetaValues = values(data, theta[i]);
-
-                // we should nor to the maximum from all data, not from current data
-                const max = Math.max(...fullValues(theta[i]));
-
-                thetaValues = thetaValues.map(x => x / max);
-                thetaValues.sort((a, b) => a - b);
-                r.push(thetaValues[Math.floor(thetaValues.length / 2)]);
-            }
-
-            return {
-              type: 'scatterpolar',
-              r: r,
-              theta: translatedTheta,
-              fill: 'toself',
-              name: column
-            };
-        }
-
-        function dimensionAverage(data, column) {
-            // r should containt average for each column from theta
-            const r = [];
-
-            for (let i = 0; i < theta.length; i++) {
-              var thetaValues = values(data, theta[i]);
-
-              // we should nor to the maximum from all data, not from current data
-              const max = Math.max(...fullValues(theta[i]));
-
-              thetaValues = thetaValues.map(x => x / max);
-              r.push(thetaValues.reduce((a, b) => a + b, 0) / thetaValues.length);
-            }
-
-            return {
-              type: 'scatterpolar',
-              r: r,
-              theta: translatedTheta,
-              fill: 'toself',
-              name: column
-            };
-        }
-
-        var dimension = null;
-
-        if (mode === 'median') {
-            dimension = dimensionMedian;
-        } else {
-            dimension = dimensionAverage;
-        }
-
-        var data = [
-            dimension(dataA, filters[filterA].name),
-            dimension(dataB, filters[filterB].name)
-        ];
-
-        var layout = {
-            barmode: 'group',
-            xaxis: {
-                dtick: 1
-            },
-            yaxis: {
-                dtick: 1
-            },
-            legend: {
-                orientation: 'h',
-                x: 0.5, // Centers the legend horizontally
-                xanchor: 'center', // Uses the center of the legend as the anchor point
-                y: 1.1, // Positions the legend above the chart
-                yanchor: 'bottom' // Uses the bottom of the legend to position it relative to the chart
-            }
-        };
+// function scatterpolarPlot(selector, mode) {
+//     document.addEventListener('redrawPlots', (e) => {
+
+//         if (fullData === null) {
+//             return;
+//         }
+
+//         if (!(filterA in filters)) {
+//             console.error('Unknown filterA:', filterA);
+//             return;
+//         }
+
+//         if (!(filterB in filters)) {
+//             console.error('Unknown filterB:', filterA);
+//             return;
+//         }
+
+//         const dataA = filters[filterA].values;
+//         const dataB = filters[filterB].values;
+
+//         const theta = ['q_age',
+//                        'q_play_strategy_games',
+//                        'q_playing_effort',
+//                        'q_playing_effort',
+//                        'q_multiple_channels_esential',
+//                        'q_realistic_work',
+//                        'q_budget_effort',
+//                        'q_office_effort',
+//                        'q_morale_complexity',
+//                        'q_relationships_effort'];
+
+
+//         const translatedTheta = theta.map(T);
+
+//         function values(data, column) {
+//             return data.map(row => row[column]);
+//         }
+
+//         function fullValues(column) {
+//             return fullData.map(row => row[column]);
+//         }
+
+//         function dimensionMedian(data, column) {
+//             // r should containt median for each column from theta
+//             const r = [];
+
+//             for (let i = 0; i < theta.length; i++) {
+//                 var thetaValues = values(data, theta[i]);
+
+//                 // we should nor to the maximum from all data, not from current data
+//                 const max = Math.max(...fullValues(theta[i]));
+
+//                 thetaValues = thetaValues.map(x => x / max);
+//                 thetaValues.sort((a, b) => a - b);
+//                 r.push(thetaValues[Math.floor(thetaValues.length / 2)]);
+//             }
+
+//             return {
+//               type: 'scatterpolar',
+//               r: r,
+//               theta: translatedTheta,
+//               fill: 'toself',
+//               name: column
+//             };
+//         }
+
+//         function dimensionAverage(data, column) {
+//             // r should containt average for each column from theta
+//             const r = [];
+
+//             for (let i = 0; i < theta.length; i++) {
+//               var thetaValues = values(data, theta[i]);
+
+//               // we should nor to the maximum from all data, not from current data
+//               const max = Math.max(...fullValues(theta[i]));
+
+//               thetaValues = thetaValues.map(x => x / max);
+//               r.push(thetaValues.reduce((a, b) => a + b, 0) / thetaValues.length);
+//             }
+
+//             return {
+//               type: 'scatterpolar',
+//               r: r,
+//               theta: translatedTheta,
+//               fill: 'toself',
+//               name: column
+//             };
+//         }
+
+//         var dimension = null;
+
+//         if (mode === 'median') {
+//             dimension = dimensionMedian;
+//         } else {
+//             dimension = dimensionAverage;
+//         }
+
+//         var data = [
+//             dimension(dataA, filters[filterA].name),
+//             dimension(dataB, filters[filterB].name)
+//         ];
+
+//         var layout = {
+//             barmode: 'group',
+//             xaxis: {
+//                 dtick: 1
+//             },
+//             yaxis: {
+//                 dtick: 1
+//             },
+//             legend: {
+//                 orientation: 'h',
+//                 x: 0.5, // Centers the legend horizontally
+//                 xanchor: 'center', // Uses the center of the legend as the anchor point
+//                 y: 1.1, // Positions the legend above the chart
+//                 yanchor: 'bottom' // Uses the bottom of the legend to position it relative to the chart
+//             }
+//         };
 
-        var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
+//         var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
 
-        Plotly.react(selector, data, layout, config);
-    });
+//         Plotly.react(selector, data, layout, config);
+//     });
 
-}
+// }
 
 
-function heatmapPlot(selector, kind) {
-    document.addEventListener('redrawPlots', (e) => {
+// function heatmapPlot(selector, kind) {
+//     document.addEventListener('redrawPlots', (e) => {
 
-        if (fullData === null) {
-            return;
-        }
+//         if (fullData === null) {
+//             return;
+//         }
 
-        if (!(filterA in filters)) {
-            console.error('Unknown filterA:', filterA);
-            return;
-        }
+//         if (!(filterA in filters)) {
+//             console.error('Unknown filterA:', filterA);
+//             return;
+//         }
 
-        const dataA = filters[filterA].values;
+//         const dataA = filters[filterA].values;
 
-        xDimension = heatmapFilterA;
-        yDimension = heatmapFilterB;
+//         xDimension = heatmapFilterA;
+//         yDimension = heatmapFilterB;
 
-        const questions = heatmapQuestions;
-
-        const z = [];
+//         const questions = heatmapQuestions;
+
+//         const z = [];
 
-        for (let i in questions[yDimension].values) {
-            z.push([]);
+//         for (let i in questions[yDimension].values) {
+//             z.push([]);
 
-            for (let j in questions[xDimension].values) {
-                z[z.length-1].push(0);
-            }
-        }
+//             for (let j in questions[xDimension].values) {
+//                 z[z.length-1].push(0);
+//             }
+//         }
 
-        function extractIndexes(question, row) {
-            const indexes = []
+//         function extractIndexes(question, row) {
+//             const indexes = []
 
-            q = questions[question]
-            if (q.type == 'multichoice') {
-                for (let i in q.values) {
-                    const variant = q.values[i];
+//             q = questions[question]
+//             if (q.type == 'multichoice') {
+//                 for (let i in q.values) {
+//                     const variant = q.values[i];
 
-                    if (row[`${question}#${variant}`] == 1) {
-                        indexes.push(i);
-                    }
-                }
-            }
-
-            if (q.type == 'numeric') {
-                indexes.push(row[question] - 1);
-            }
-
-            if (q.type == 'category') {
-                for (let i in q.values) {
-                    const variant = q.values[i];
-
-                    if (row[question] == variant) {
-                        indexes.push(i);
-                    }
-                }
-            }
-
-            if (q.type == 'age') {
-                for (let i in ageGroups) {
-                    const group = ageGroups[i];
-
-                    if (group.predicate(row)) {
-                        indexes.push(i);
-                    }
-                }
-            }
-
-          if (indexes.length == 0) {
-            /* it is ok for some data */
-              /* console.log('something goes wrong'); */
-            }
-
-            return indexes;
-        }
-
-        const columnSizes = {};
-
-        dataA.forEach(function(row){
-            const xIndexs = extractIndexes(xDimension, row);
-            const yIndexs = extractIndexes(yDimension, row);
-
-            for (let x of xIndexs) {
-                if (!(x in columnSizes)) {
-                    columnSizes[x] = 0;
-                }
-
-                columnSizes[x] += 1;
-
-
-                for (let y of yIndexs) {
-                    z[y][x] += 1
-                }
-            }
-        });
-
-        const minAllowedColumnSize = 10;
-
-        const normZ = [];
-
-        // norm z on column sizes
-        for (let i in questions[yDimension].values) {
-            const row = [];
-            normZ.push(row);
-
-            for (let j in questions[xDimension].values) {
-
-                if (xDimension == yDimension && i == j) {
-                    row.push(0);
-                }
-
-                else if (columnSizes[j] != null && columnSizes[j] >= minAllowedColumnSize ) {
-                    row.push(z[i][j] / columnSizes[j]);
-                }
-                else {
-                    row.push(null);
-                }
-            }
-        }
-
-        const text = [];
-
-        for ( var i = 0; i < questions[yDimension].values.length; i++ ) {
-            text.push([]);
-            for ( var j = 0; j < questions[xDimension].values.length; j++ ) {
-                text[i].push(`${(normZ[i][j]*100).toFixed(2)}% ${T("count")}: ${z[i][j]} / ${columnSizes[j]}`);
-            }
-        }
-
-        var zData = null;
-
-        if (kind === 'norm') {
-            zData = normZ;
-        } else {
-            zData = z;
-        }
-
-
-        var data = [
-            {
-                z: zData,
-                x: questions[xDimension].values.map(T),
-                y: questions[yDimension].values.map(T),
-                text: text,
-                type: 'heatmap'
-            }
-        ];
-
-        var layout = {
-            barmode: 'group',
-            plot_bgcolor: "black",
-            xaxis: {
-                dtick: 1,
-                title: T(xDimension)
-            },
-            yaxis: {
-                dtick: 1,
-                title: T(yDimension)
-            }
-        };
-
-        var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
-
-        Plotly.react(selector, data, layout, config);
-    });
-}
+//                     if (row[`${question}#${variant}`] == 1) {
+//                         indexes.push(i);
+//                     }
+//                 }
+//             }
+
+//             if (q.type == 'numeric') {
+//                 indexes.push(row[question] - 1);
+//             }
+
+//             if (q.type == 'category') {
+//                 for (let i in q.values) {
+//                     const variant = q.values[i];
+
+//                     if (row[question] == variant) {
+//                         indexes.push(i);
+//                     }
+//                 }
+//             }
+
+//             if (q.type == 'age') {
+//                 for (let i in ageGroups) {
+//                     const group = ageGroups[i];
+
+//                     if (group.predicate(row)) {
+//                         indexes.push(i);
+//                     }
+//                 }
+//             }
+
+//           if (indexes.length == 0) {
+//             /* it is ok for some data */
+//               /* console.log('something goes wrong'); */
+//             }
+
+//             return indexes;
+//         }
+
+//         const columnSizes = {};
+
+//         dataA.forEach(function(row){
+//             const xIndexs = extractIndexes(xDimension, row);
+//             const yIndexs = extractIndexes(yDimension, row);
+
+//             for (let x of xIndexs) {
+//                 if (!(x in columnSizes)) {
+//                     columnSizes[x] = 0;
+//                 }
+
+//                 columnSizes[x] += 1;
+
+
+//                 for (let y of yIndexs) {
+//                     z[y][x] += 1
+//                 }
+//             }
+//         });
+
+//         const minAllowedColumnSize = 10;
+
+//         const normZ = [];
+
+//         // norm z on column sizes
+//         for (let i in questions[yDimension].values) {
+//             const row = [];
+//             normZ.push(row);
+
+//             for (let j in questions[xDimension].values) {
+
+//                 if (xDimension == yDimension && i == j) {
+//                     row.push(0);
+//                 }
+
+//                 else if (columnSizes[j] != null && columnSizes[j] >= minAllowedColumnSize ) {
+//                     row.push(z[i][j] / columnSizes[j]);
+//                 }
+//                 else {
+//                     row.push(null);
+//                 }
+//             }
+//         }
+
+//         const text = [];
+
+//         for ( var i = 0; i < questions[yDimension].values.length; i++ ) {
+//             text.push([]);
+//             for ( var j = 0; j < questions[xDimension].values.length; j++ ) {
+//                 text[i].push(`${(normZ[i][j]*100).toFixed(2)}% ${T("count")}: ${z[i][j]} / ${columnSizes[j]}`);
+//             }
+//         }
+
+//         var zData = null;
+
+//         if (kind === 'norm') {
+//             zData = normZ;
+//         } else {
+//             zData = z;
+//         }
+
+
+//         var data = [
+//             {
+//                 z: zData,
+//                 x: questions[xDimension].values.map(T),
+//                 y: questions[yDimension].values.map(T),
+//                 text: text,
+//                 type: 'heatmap'
+//             }
+//         ];
+
+//         var layout = {
+//             barmode: 'group',
+//             plot_bgcolor: "black",
+//             xaxis: {
+//                 dtick: 1,
+//                 title: T(xDimension)
+//             },
+//             yaxis: {
+//                 dtick: 1,
+//                 title: T(yDimension)
+//             }
+//         };
+
+//         var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
+
+//         Plotly.react(selector, data, layout, config);
+//     });
+// }
 
 
 </script>

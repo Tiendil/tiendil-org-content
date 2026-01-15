@@ -521,16 +521,43 @@ GM удобна тем, что её доля довольно стабильна
 
 ---8<--- "./filter_selectors.html"
 
-<div id="plot-gender"></div>
+<!-- rename plot-xxx -->
+
+<div class="plot-filters-group">
+<select
+    class="plot-filter-margin"
+    onchange="selectFilterMargin(this.value, 'filterASubMargin')">
+</select>
+
+<select
+    class="plot-filter-margin"
+    onchange="selectFilterMargin(this.value, 'filterATokenMargin')">
+</select>
+
+<select
+    class="plot-filter-margin"
+    onchange="selectFilterMargin(this.value, 'filterBSubMargin')">
+</select>
+
+<select
+    class="plot-filter-margin"
+    onchange="selectFilterMargin(this.value, 'filterBTokenMargin')">
+</select>
+
+
+</div>
+
+<div id="plot-xxx"></div>
 
 <script type="text/javascript">
-function mapGender(row) {
-  return row['q_gender'];
-}
-
-barPlot('plot-gender', mapGender, ['male', 'female', 'non_binary_other', 'prefer_not_to_say']);
+barPlot('plot-xxx');
 </script>
 
+
+
+<!-- footer -->
+
+---8<--- "./filters_initialization.html"
 
 --------
 

@@ -1,0 +1,40 @@
+<script type="text/javascript">
+
+function fillFilters() {
+    var index = 0;
+
+    var selects = document.querySelectorAll('.plot-filter-margin');
+
+    for (var select of selects) {
+
+        select.id = 'plot-filter-' + index;
+        index++;
+
+        for (var margin of marginLevels) {
+            var option = document.createElement('option');
+            option.value = margin.value;
+            option.text = margin.name;
+            select.appendChild(option);
+        }
+    }
+}
+
+fillFilters();
+
+function selectFilterMargin(value, filterVarNaeme, skipEvent) {
+    window[filterVarNaeme] = value;
+
+    if (skipEvent != 'skip-event') {
+        document.dispatchEvent(redrawPlots);
+    }
+}
+
+
+selectFilterMargin(filterASubMargin, 'filterASubMargin', 'skip-event');
+selectFilterMargin(filterATokenMargin, 'filterATokenMargin', 'skip-event');
+selectFilterMargin(filterBSubMargin, 'filterBSubMargin', 'skip-event');
+selectFilterMargin(filterBTokenMargin, 'filterBTokenMargin', 'skip-event');
+
+document.dispatchEvent(redrawPlots);
+
+</script>
