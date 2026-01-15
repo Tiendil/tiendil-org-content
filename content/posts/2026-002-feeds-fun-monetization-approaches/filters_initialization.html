@@ -12,7 +12,7 @@ function fillFilters() {
 
         for (var margin of marginLevels) {
             var option = document.createElement('option');
-            option.value = margin.value;
+            option.value = margin.id;
             option.text = margin.name;
             select.appendChild(option);
         }
@@ -21,8 +21,14 @@ function fillFilters() {
 
 fillFilters();
 
-function selectFilterMargin(value, filterVarNaeme, skipEvent) {
-    window[filterVarNaeme] = value;
+function selectFilterMargin(value, filterVarName, skipEvent) {
+    window[filterVarName] = value;
+
+    var selects = document.querySelectorAll(`.plot-filter-margin.${filterVarName}`);
+
+    for (var select of selects) {
+        select.value = value;
+    }
 
     if (skipEvent != 'skip-event') {
         document.dispatchEvent(redrawPlots);

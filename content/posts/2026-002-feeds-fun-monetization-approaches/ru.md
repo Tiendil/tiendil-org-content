@@ -525,22 +525,22 @@ GM удобна тем, что её доля довольно стабильна
 
 <div class="plot-filters-group">
 <select
-    class="plot-filter-margin"
+    class="plot-filter-margin filterASubMargin"
     onchange="selectFilterMargin(this.value, 'filterASubMargin')">
 </select>
 
 <select
-    class="plot-filter-margin"
+    class="plot-filter-margin filterATokenMargin"
     onchange="selectFilterMargin(this.value, 'filterATokenMargin')">
 </select>
 
 <select
-    class="plot-filter-margin"
+    class="plot-filter-margin filterBSubMargin"
     onchange="selectFilterMargin(this.value, 'filterBSubMargin')">
 </select>
 
 <select
-    class="plot-filter-margin"
+    class="plot-filter-margin filterBTokenMargin"
     onchange="selectFilterMargin(this.value, 'filterBTokenMargin')">
 </select>
 
