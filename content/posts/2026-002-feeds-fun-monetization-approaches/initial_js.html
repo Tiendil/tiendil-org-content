@@ -53,6 +53,8 @@ const CAC = 50;
 const CR = 0.05;
 const quotaStep = 100;
 const baseSubscriptionTokens = quotaStep;
+const paymentProcessorCommissionPercent = 0.025; // Stripe fee
+const paymentProcessorCommissionFixed = 0.25;  // Stripe fee
 const audience = [
     {fraction: 0.8, newsPerDay: 25},
     {fraction: 0.16, newsPerDay: 100},
@@ -61,6 +63,10 @@ const audience = [
 
 function COGSGlobal() {
     return serverCost + (Math.ceil(subscribersNumber * CR) * CAC);
+}
+
+function PaymentProcessorFee(amount) {
+    return amount * paymentProcessorCommissionPercent + paymentProcessorCommissionFixed * subscribersNumber;
 }
 
 function modelQuotaSteps(modelName, subMarginX, tokenMarginX, extraTokensPurchased) {
@@ -93,6 +99,8 @@ function modelQuotaSteps(modelName, subMarginX, tokenMarginX, extraTokensPurchas
         const extraGrossMargin = extraMonthMargin * users.fraction * subscribersNumber;
         const totalGrossMargin = subGrossMargin + extraGrossMargin;
 
+        const totalPaid = subMonthPrice + extraMonthPrice;
+
         groups.push({
             subStepPrice: quotaStep * subTokenPrice,
             subPrice: subMonthPrice,
@@ -100,9 +108,14 @@ function modelQuotaSteps(modelName, subMarginX, tokenMarginX, extraTokensPurchas
 
             subMargin: subMonthMargin,
             tokenMargin: extraMonthMargin,
-            grossMargin: totalGrossMargin
+            grossMargin: totalGrossMargin,
+
+            totalPaid: totalPaid
         });
     }
+
+    const totalPaid = groups.reduce((a, b) => a + b.totalPaid, 0);
+    const paymentProcessorFee = PaymentProcessorFee(totalPaid);
 
     return {
         model: modelName,
@@ -111,9 +124,12 @@ function modelQuotaSteps(modelName, subMarginX, tokenMarginX, extraTokensPurchas
         subMarginX: subMarginX,
         tokenMarginX: tokenMarginX,
 
-        grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0) - COGSGlobal(),
+        grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0) - COGSGlobal() - paymentProcessorFee,
         subMargin: groups.reduce((a, b) => a + b.subMargin, 0),
         tokenMargin: groups.reduce((a, b) => a + b.tokenMargin, 0),
+
+        totalPaid: totalPaid,
+        paymentProcessorFee: paymentProcessorFee,
 
         groups: groups
     };
@@ -158,6 +174,8 @@ function modelBaseSub(subMarginX, tokenMarginX) {
         const extraGrossMargin = extraMonthMargin * users.fraction * subscribersNumber;
         const totalGrossMargin = subGrossMargin + extraGrossMargin;
 
+        const totalPaid = subMonthPrice + extraMonthPrice;
+
         groups.push({
             subStepPrice: quotaStep * subTokenPrice,
             subPrice: subMonthPrice,
@@ -165,9 +183,14 @@ function modelBaseSub(subMarginX, tokenMarginX) {
 
             subMargin: subMonthMargin,
             tokenMargin: extraMonthMargin,
-            grossMargin: totalGrossMargin
+            grossMargin: totalGrossMargin,
+
+            totalPaid: totalPaid
         });
     }
+
+    const totalPaid = groups.reduce((a, b) => a + b.totalPaid, 0);
+    const paymentProcessorFee = PaymentProcessorFee(totalPaid);
 
     return {
         model: "base_sub",
@@ -176,9 +199,12 @@ function modelBaseSub(subMarginX, tokenMarginX) {
         subMarginX: subMarginX,
         tokenMarginX: tokenMarginX,
 
-        grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0) - COGSGlobal(),
+        grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0) - COGSGlobal() - paymentProcessorFee,
         subMargin: groups.reduce((a, b) => a + b.subMargin, 0),
         tokenMargin: groups.reduce((a, b) => a + b.tokenMargin, 0),
+
+        totalPaid: totalPaid,
+        paymentProcessorFee: paymentProcessorFee,
 
         groups: groups
     };
@@ -266,7 +292,7 @@ function barPlot(selector, map, barsOrder) {
 
         var data = [
             barData("approach 1", dataARows),
-            // barData("approach 2", dataBRows)
+            barData("approach 2", dataBRows)
         ];
 
         var layout = {
