@@ -91,7 +91,7 @@ function modelQuotaSteps(modelName, subMarginX, tokenMarginX, extraTokensPurchas
 
         const subGrossMargin = subMonthMargin * users.fraction * subscribersNumber;
         const extraGrossMargin = extraMonthMargin * users.fraction * subscribersNumber;
-        const totalGrossMargin = subGrossMargin + extraGrossMargin - COGSGlobal();
+        const totalGrossMargin = subGrossMargin + extraGrossMargin;
 
         groups.push({
             subStepPrice: quotaStep * subTokenPrice,
@@ -111,7 +111,7 @@ function modelQuotaSteps(modelName, subMarginX, tokenMarginX, extraTokensPurchas
         subMarginX: subMarginX,
         tokenMarginX: tokenMarginX,
 
-        grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0),
+        grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0) - COGSGlobal(),
         subMargin: groups.reduce((a, b) => a + b.subMargin, 0),
         tokenMargin: groups.reduce((a, b) => a + b.tokenMargin, 0),
 
@@ -156,7 +156,7 @@ function modelBaseSub(subMarginX, tokenMarginX) {
 
         const subGrossMargin = subMonthMargin * users.fraction * subscribersNumber;
         const extraGrossMargin = extraMonthMargin * users.fraction * subscribersNumber;
-        const totalGrossMargin = subGrossMargin + extraGrossMargin - COGSGlobal();
+        const totalGrossMargin = subGrossMargin + extraGrossMargin;
 
         groups.push({
             subStepPrice: quotaStep * subTokenPrice,
@@ -176,7 +176,7 @@ function modelBaseSub(subMarginX, tokenMarginX) {
         subMarginX: subMarginX,
         tokenMarginX: tokenMarginX,
 
-        grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0),
+        grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0) - COGSGlobal(),
         subMargin: groups.reduce((a, b) => a + b.subMargin, 0),
         tokenMargin: groups.reduce((a, b) => a + b.tokenMargin, 0),
 
