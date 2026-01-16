@@ -621,3 +621,11 @@ barPlot('plot-xxx');
 - в таблицах с расчитанными ценами рядом писать подписку innoreader и feedly для сравнения.
 - финальным штрихом пройтить по всем числам и убедиться что они ок.
 - chatgpt должна отвалидировать код модели
+
+-------------
+
+Value-based pricing charges customers a fraction of the incremental value created by the product or a fraction of the costs saved by the product. This is often seen in ad tech or any type of optimization technology. A startup increases conversions by 50% and they take 10% of the gain as their fee. Value based pricing is also employed in slightly less rigorous ways. Salesforce sells CRM seats based on an aggregate ROI of increased sales productivity for example. So does Expensify, which decreases the time to file expenses.
+
+Cost-based pricing is when startups mark up the product they sell by some margin. Many infrastructure as a service companies do this. AWS, Twilio, Heroku, etc. It’s very common in commodity or nearly-commodity industries, where customers know the prices of the components used to provide the service.
+
+Competition based pricing works well in markets where the price and value of a particular type of product are well established. Startups adopt the pricing model well known in the industry.
