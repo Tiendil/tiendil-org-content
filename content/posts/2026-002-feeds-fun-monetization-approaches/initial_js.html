@@ -45,8 +45,12 @@ var filterATokenMargin = 'x10';
 var filterBSubMargin = 'x10';
 var filterBTokenMargin = 'x2';
 
+const subscribersNumber = 1000;
 const daysInMonth = 30;
-const COGS = 0.0007145;
+const COGSPerNews = 0.0007145;
+const serverCost = 75;
+const CAC = 50;
+const CR = 0.05;
 const quotaStep = 100;
 const baseSubscriptionTokens = quotaStep;
 const audience = [
@@ -55,18 +59,22 @@ const audience = [
     {fraction: 0.04, newsPerDay: 1000}
 ]
 
-function modelQuotaSteps(modelName, usersNumber, subMarginX, tokenMarginX, extraTokensPurchased) {
+function COGSGlobal() {
+    return serverCost + (Math.ceil(subscribersNumber * CR) * CAC);
+}
+
+function modelQuotaSteps(modelName, subMarginX, tokenMarginX, extraTokensPurchased) {
 
     const groups = [];
 
     for (let i = 0; i < audience.length; i++) {
         const users = audience[i];
 
-        const subTokenMargin = COGS * subMarginX;
-        const subTokenPrice = COGS + subTokenMargin;
+        const subTokenMargin = COGSPerNews * subMarginX;
+        const subTokenPrice = COGSPerNews + subTokenMargin;
 
-        const extraTokenMargin = COGS * tokenMarginX;
-        const extraTokenPrice = COGS + extraTokenMargin;
+        const extraTokenMargin = COGSPerNews * tokenMarginX;
+        const extraTokenPrice = COGSPerNews + extraTokenMargin;
 
         const newsPerMonth = users.newsPerDay * daysInMonth;
 
@@ -74,16 +82,16 @@ function modelQuotaSteps(modelName, usersNumber, subMarginX, tokenMarginX, extra
         const purchasedSubTokens = qoutaLevel * quotaStep;
 
         const subMonthPrice = purchasedSubTokens * subTokenPrice;
-        const subMonthSpending = purchasedSubTokens * COGS;
+        const subMonthSpending = purchasedSubTokens * COGSPerNews;
         const subMonthMargin = subMonthPrice - subMonthSpending;
 
         const extraMonthPrice = extraTokensPurchased * extraTokenPrice;
-        const extraMonthSpending = extraTokensPurchased * COGS;
+        const extraMonthSpending = extraTokensPurchased * COGSPerNews;
         const extraMonthMargin = extraMonthPrice - extraMonthSpending;
 
-        const subGrossMargin = subMonthMargin * users.fraction * usersNumber;
-        const extraGrossMargin = extraMonthMargin * users.fraction * usersNumber;
-        const totalGrossMargin = subGrossMargin + extraGrossMargin;
+        const subGrossMargin = subMonthMargin * users.fraction * subscribersNumber;
+        const extraGrossMargin = extraMonthMargin * users.fraction * subscribersNumber;
+        const totalGrossMargin = subGrossMargin + extraGrossMargin - COGSGlobal();
 
         groups.push({
             subStepPrice: quotaStep * subTokenPrice,
@@ -99,7 +107,7 @@ function modelQuotaSteps(modelName, usersNumber, subMarginX, tokenMarginX, extra
     return {
         model: modelName,
 
-        usersNumber: usersNumber,
+        subscribersNumber: subscribersNumber,
         subMarginX: subMarginX,
         tokenMarginX: tokenMarginX,
 
@@ -112,43 +120,43 @@ function modelQuotaSteps(modelName, usersNumber, subMarginX, tokenMarginX, extra
 
 }
 
-function modelQuotaStepsNoTokens(usersNumber, subMarginX, tokenMarginX) {
-    return modelQuotaSteps("quota_no_tokens", usersNumber, subMarginX, tokenMarginX, 0);
+function modelQuotaStepsNoTokens(subMarginX, tokenMarginX) {
+    return modelQuotaSteps("quota_no_tokens", subMarginX, tokenMarginX, 0);
 }
 
-function modelQuotaStepsHasTokens(usersNumber, subMarginX, tokenMarginX) {
-    return modelQuotaSteps("quota_with_tokens", usersNumber, subMarginX, tokenMarginX, quotaStep * 0.5);
+function modelQuotaStepsHasTokens(subMarginX, tokenMarginX) {
+    return modelQuotaSteps("quota_with_tokens", subMarginX, tokenMarginX, quotaStep * 0.5);
 }
 
 
-function modelBaseSub(usersNumber, subMarginX, tokenMarginX) {
+function modelBaseSub(subMarginX, tokenMarginX) {
 
     const groups = [];
 
     for (let i = 0; i < audience.length; i++) {
         const users = audience[i];
 
-        const subTokenMargin = COGS * subMarginX;
-        const subTokenPrice = COGS + subTokenMargin;
+        const subTokenMargin = COGSPerNews * subMarginX;
+        const subTokenPrice = COGSPerNews + subTokenMargin;
 
-        const extraTokenMargin = COGS * tokenMarginX;
-        const extraTokenPrice = COGS + extraTokenMargin;
+        const extraTokenMargin = COGSPerNews * tokenMarginX;
+        const extraTokenPrice = COGSPerNews + extraTokenMargin;
 
         const newsPerMonth = users.newsPerDay * daysInMonth;
 
         const extraTokensPurchased = newsPerMonth - baseSubscriptionTokens;
 
         const subMonthPrice = baseSubscriptionTokens * subTokenPrice
-        const subMonthSpending = baseSubscriptionTokens * COGS;
+        const subMonthSpending = baseSubscriptionTokens * COGSPerNews;
         const subMonthMargin = subMonthPrice - subMonthSpending;
 
         const extraMonthPrice = extraTokensPurchased * extraTokenPrice;
-        const extraMonthSpending = extraTokensPurchased * COGS;
+        const extraMonthSpending = extraTokensPurchased * COGSPerNews;
         const extraMonthMargin = extraMonthPrice - extraMonthSpending;
 
-        const subGrossMargin = subMonthMargin * users.fraction * usersNumber;
-        const extraGrossMargin = extraMonthMargin * users.fraction * usersNumber;
-        const totalGrossMargin = subGrossMargin + extraGrossMargin;
+        const subGrossMargin = subMonthMargin * users.fraction * subscribersNumber;
+        const extraGrossMargin = extraMonthMargin * users.fraction * subscribersNumber;
+        const totalGrossMargin = subGrossMargin + extraGrossMargin - COGSGlobal();
 
         groups.push({
             subStepPrice: quotaStep * subTokenPrice,
@@ -164,7 +172,7 @@ function modelBaseSub(usersNumber, subMarginX, tokenMarginX) {
     return {
         model: "base_sub",
 
-        usersNumber: usersNumber,
+        subscribersNumber: subscribersNumber,
         subMarginX: subMarginX,
         tokenMarginX: tokenMarginX,
 
@@ -179,19 +187,14 @@ function modelBaseSub(usersNumber, subMarginX, tokenMarginX) {
 
 var fullData = [];
 
-for (subscribers of subscriberNumbers) {
-    for (subMarginLevel of marginLevels) {
-        for (tokenMarginLevel of marginLevels) {
-            fullData.push(modelQuotaStepsNoTokens(subscribers.value,
-                                                  subMarginLevel.value,
-                                                  tokenMarginLevel.value));
-            fullData.push(modelQuotaStepsHasTokens(subscribers.value,
-                                                   subMarginLevel.value,
-                                                   tokenMarginLevel.value));
-            fullData.push(modelBaseSub(subscribers.value,
-                                       subMarginLevel.value,
-                                       tokenMarginLevel.value));
-        }
+for (subMarginLevel of marginLevels) {
+    for (tokenMarginLevel of marginLevels) {
+        fullData.push(modelQuotaStepsNoTokens(subMarginLevel.value,
+                                              tokenMarginLevel.value));
+        fullData.push(modelQuotaStepsHasTokens(subMarginLevel.value,
+                                               tokenMarginLevel.value));
+        fullData.push(modelBaseSub(subMarginLevel.value,
+                                   tokenMarginLevel.value));
     }
 }
 
@@ -242,8 +245,8 @@ function barPlot(selector, map, barsOrder) {
         // const dataA = getPlotData(filters[filterA].values, map, barsOrder);
         // const dataB = getPlotData(filters[filterB].values, map, barsOrder);
 
-        const dataARows = filterRows(filterASubMargin, filterATokenMargin).sort((a, b) => a.usersNumber - b.usersNumber);
-        const dataBRows = filterRows(filterBSubMargin, filterBTokenMargin).sort((a, b) => a.usersNumber - b.usersNumber);
+        const dataARows = filterRows(filterASubMargin, filterATokenMargin).sort((a, b) => a.subscribersNumber - b.subscribersNumber);
+        const dataBRows = filterRows(filterBSubMargin, filterBTokenMargin).sort((a, b) => a.subscribersNumber - b.subscribersNumber);
 
         // function toText(percents, counts) {
         //     return percents.map((x, i) => x.toString() + ' ' + T('% count:') + ' ' + counts[i].toString());
@@ -251,7 +254,7 @@ function barPlot(selector, map, barsOrder) {
 
         function barData(name, dataRows) {
             return {
-                x: dataRows.map(row => `${row.model} ${row.usersNumber}`),
+                x: dataRows.map(row => `${row.model}`),
                 y: dataRows.map(row => row.grossMargin.toFixed(2)),
                 text: dataRows.map(row => row.grossMargin.toFixed(2)),
                 'textposition': "none",
