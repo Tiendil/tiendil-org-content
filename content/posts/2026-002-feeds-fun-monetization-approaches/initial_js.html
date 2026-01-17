@@ -25,14 +25,13 @@ const marginLevels = [
     {id: 'x5', name: 'x5', value: 5},
     {id: 'x10', name: 'x10', value: 10},
     {id: 'x20', name: 'x20', value: 20},
-    // {id: 'x50', name: 'x50', value: 50},  // commented temporary, do not taught
 ];
 
 const discountLevels = [
     {id: 'd05', name: '5%', value: 0.05},
     {id: 'd10', name: '10%', value: 0.10},
     {id: 'd15', name: '15%', value: 0.15},
-    // {id: 'd20', name: '20%', value: 0.20},  // commented temporary, do not taught
+    {id: 'd20', name: '20%', value: 0.20},
 ];
 
 var filterBaseMargin = 'x2';
@@ -68,7 +67,7 @@ function formatMoneyToken(value) {
     if (value == null || Number.isNaN(value)) {
         return 'N/A';
     }
-    return value.toFixed(6);
+    return (value * 100).toFixed(2);
 }
 
 function formatMonthlyDaily(value) {
@@ -297,9 +296,9 @@ function updateSummaryTable() {
     }
 
     setSummaryValue('basicSubscriptionPrice', formatMonthlyOnly(basicSubMonthly));
-    setSummaryValue('basicTokenPrice', `${formatMoneyToken(basicTokenPrice)} $/news`);
+    setSummaryValue('basicTokenPrice', `${formatMoneyToken(basicTokenPrice)} $/100 news`);
     setSummaryValue('professionalSubscriptionPrice', formatMonthlyOnly(profSubMonthly));
-    setSummaryValue('professionalTokenPrice', `${formatMoneyToken(profTokenPrice)} $/news`);
+    setSummaryValue('professionalTokenPrice', `${formatMoneyToken(profTokenPrice)} $/100 news`);
     setSummaryValue('basicRevenue', formatMonthlyOnly(baseRevenue));
     setSummaryValue('professionalRevenue', formatMonthlyOnly(profRevenue));
     setSummaryValue('beginnerProfit', formatMonthlyOnly(groupProfits[0]));
