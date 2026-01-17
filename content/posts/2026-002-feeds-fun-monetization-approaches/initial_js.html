@@ -41,6 +41,7 @@ const modelConfig = window.modelConfig = {
     defaultCollectionsCost: 500,
     customerAcquisitionCost: 50,
     cancellationRate: 0.05,
+    audienceSize: subscribersNumber,
     baseSubscriptionQuota: 250,
     professionalSubscriptionQuota: 1000,
     newsItemChars: 2500,
@@ -189,7 +190,7 @@ function rebuildUsers() {
 
     for (let i = 0; i < audienceConfig.length; i++) {
         const group = audienceConfig[i];
-        const groupSize = Math.ceil(subscribersNumber * group.fraction);
+        const groupSize = Math.ceil(modelConfig.audienceSize * group.fraction);
 
         const {min, max} = {min: group.minNews, max: group.maxNews};
 
@@ -215,11 +216,11 @@ function rebuildUsers() {
 function COGSGlobal() {
     return modelConfig.serverCost +
         modelConfig.defaultCollectionsCost +
-        (Math.ceil(subscribersNumber * modelConfig.cancellationRate) * modelConfig.customerAcquisitionCost);
+        (Math.ceil(modelConfig.audienceSize * modelConfig.cancellationRate) * modelConfig.customerAcquisitionCost);
 }
 
 function PaymentProcessorFee(amount) {
-    return amount * paymentProcessorCommissionPercent + paymentProcessorCommissionFixed * subscribersNumber;
+    return amount * paymentProcessorCommissionPercent + paymentProcessorCommissionFixed * modelConfig.audienceSize;
 }
 
 function model(costMultipler, discountStep) {
@@ -319,7 +320,7 @@ function updateSummaryTable() {
     var groupProfits = new Array(buildAudienceConfig().length).fill(0);
     var summaryModel = model(marginMultiplier, discountValue);
 
-    var globalCostPerUser = COGSGlobal() / subscribersNumber;
+    var globalCostPerUser = COGSGlobal() / modelConfig.audienceSize;
 
     for (let i = 0; i < users.length; i++) {
         var user = users[i];
