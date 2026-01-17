@@ -41,6 +41,7 @@ const CAC = 50;
 const CR = 0.05;
 const baseSubscriptionQuota = 250;
 const profSubscriptionQuota = 1000;
+const discountStep = 0.1;
 
 const paymentProcessorCommissionPercent = 0.025; // Stripe fee
 const paymentProcessorCommissionFixed = 0.25;  // Stripe fee
@@ -54,35 +55,40 @@ function consumptionPrice(tokens, subQuota, subTokenPrice, extraTokenPrice) {
 
     return subPrice + (tokens - subQuota) * extraTokenPrice;
 }
-
-function baseSubTokenPrice() {
-    return "?";
+function baseSubTokenPrice(N) {
+    return COGSPerNews * N;
 }
 
-function baseExtraTokenPrice() {
-    return "?";
+function baseExtraTokenPrice(N) {
+    return Math.floor(COGSPerNews * N * (1 - 1 * discountStep));
 }
 
-function profSubTokenPrice() {
-    return "?";
+function profSubTokenPrice(N) {
+    return Math.floor(COGSPerNews * N * (1 - 2 * discountStep));
 }
 
-function profExtraTokenPrice() {
-    return "?";
+function profExtraTokenPrice(N) {
+    return Math.floor(COGSPerNews * N * (1 - 3 * discountStep));
 }
 
-function basePrice(tokens) {
+function basePricePerDay(tokens, N) {
     return consumptionPrice(tokens,
                             baseSubscriptionQuota,
-                            baseSubTokenPrice(),
-                            baseExtraTokenPrice());
+                            baseSubTokenPrice(N),
+                            baseExtraTokenPrice(N));
 }
 
-function profPrice(tokens) {
+function profPricePerDay(tokens, N) {
     return consumptionPrice(tokens,
                             profSubscriptionQuota,
-                            profSubTokenPrice(),
-                            profExtraTokenPrice());
+                            profSubTokenPrice(N),
+                            profExtraTokenPrice(N));
+}
+
+function paidInMonth(tokensPerDay, N) {
+    const paidInDay = Math.min(basePricePerDay(tokensPerDay, N),
+                               profPricePerDay(tokensPerDay, N));
+    return paidInDay * daysInMonth;
 }
 
 const users = [];
@@ -106,14 +112,9 @@ for (let i = 0; i < audience.length; i++) {
 
         users.push({
             newsPerDay: newsPerDay,
-            paid: Math.min(
-                basePrice(newsPerDay * daysInMonth),
-                profPrice(newsPerDay * daysInMonth)
-            )
         });
     }
 }
-
 
 function COGSGlobal() {
     return serverCost + (Math.ceil(subscribersNumber * CR) * CAC);
