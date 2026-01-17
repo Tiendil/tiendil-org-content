@@ -559,14 +559,16 @@ GM удобна тем, что её доля довольно стабильна
 heatmapPlot('plot-xxx');
 </script>
 
+---8<--- "./plot_summary_table.html"
+
 Для сравнения, вот цены подписок конкурентов:
 
 - **Innoreader** — `~9 eur/month`.
 - **Feedly** — `~9 eur/moth`, `~13 eur/month` (pro+, только годовая подписка).
 
----8<--- "./plot_summary_table.html"
-
-
+<div class="plot-price-matrix">
+    <table></table>
+</div>
 
 <!-- footer -->
 
