@@ -197,80 +197,233 @@ function createPlotlyConfig(filename) {
     }
 }
 
-function filterRows(subMarginId, tokenMarginId) {
-    const subMarginValue = marginLevels.find(level => level.id === subMarginId).value;
-    const tokenMarginValue = marginLevels.find(level => level.id === tokenMarginId).value;
-
-    return fullData.filter(function(row) {
-        return row.subMarginX === subMarginValue &&
-               row.tokenMarginX === tokenMarginValue;
-    });
-}
-
-function barPlot(selector, map, barsOrder) {
-
+function heatmapPlot(selector, kind) {
     document.addEventListener('redrawPlots', (e) => {
 
-        // if (!(filterA in filters)) {
-        //     console.log('Unknown filterA:', filterA);
-        //     return;
-        // }
-
-        // if (!(filterB in filters)) {
-        //     console.log('Unknown filterB:', filterA);
-        //     return;
-        // }
-
-        // const dataA = getPlotData(filters[filterA].values, map, barsOrder);
-        // const dataB = getPlotData(filters[filterB].values, map, barsOrder);
-
-        const dataARows = filterRows(filterASubMargin, filterATokenMargin).sort((a, b) => a.subscribersNumber - b.subscribersNumber);
-        const dataBRows = filterRows(filterBSubMargin, filterBTokenMargin).sort((a, b) => a.subscribersNumber - b.subscribersNumber);
-
-        // function toText(percents, counts) {
-        //     return percents.map((x, i) => x.toString() + ' ' + T('% count:') + ' ' + counts[i].toString());
-        // }
-
-        function barData(name, dataRows) {
-            return {
-                x: dataRows.map(row => `${row.model}`),
-                y: dataRows.map(row => row.grossMargin.toFixed(2)),
-                text: dataRows.map(row => row.grossMargin.toFixed(2)),
-                'textposition': "none",
-                'hoverinfo': 'text',
-                'name': name,
-                'type': 'bar'
-            };
+        if (fullData === null) {
+            return;
         }
 
+        if (!(filterA in filters)) {
+            console.error('Unknown filterA:', filterA);
+            return;
+        }
+
+        const dataA = filters[filterA].values;
+
+        xDimension = heatmapFilterA;
+        yDimension = heatmapFilterB;
+
+        const questions = heatmapQuestions;
+
+        const z = [];
+
+        for (let i in questions[yDimension].values) {
+            z.push([]);
+
+            for (let j in questions[xDimension].values) {
+                z[z.length-1].push(0);
+            }
+        }
+
+        function extractIndexes(question, row) {
+            const indexes = []
+
+            q = questions[question]
+            if (q.type == 'multichoice') {
+                for (let i in q.values) {
+                    const variant = q.values[i];
+
+                    if (row[`${question}#${variant}`] == 1) {
+                        indexes.push(i);
+                    }
+                }
+            }
+
+            if (q.type == 'numeric') {
+                indexes.push(row[question] - 1);
+            }
+
+            if (q.type == 'category') {
+                for (let i in q.values) {
+                    const variant = q.values[i];
+
+                    if (row[question] == variant) {
+                        indexes.push(i);
+                    }
+                }
+            }
+
+            if (q.type == 'age') {
+                for (let i in ageGroups) {
+                    const group = ageGroups[i];
+
+                    if (group.predicate(row)) {
+                        indexes.push(i);
+                    }
+                }
+            }
+
+          if (indexes.length == 0) {
+            /* it is ok for some data */
+              /* console.log('something goes wrong'); */
+            }
+
+            return indexes;
+        }
+
+        const columnSizes = {};
+
+        dataA.forEach(function(row){
+            const xIndexs = extractIndexes(xDimension, row);
+            const yIndexs = extractIndexes(yDimension, row);
+
+            for (let x of xIndexs) {
+                if (!(x in columnSizes)) {
+                    columnSizes[x] = 0;
+                }
+
+                columnSizes[x] += 1;
+
+
+                for (let y of yIndexs) {
+                    z[y][x] += 1
+                }
+            }
+        });
+
+        const minAllowedColumnSize = 10;
+
+        const normZ = [];
+
+        // norm z on column sizes
+        for (let i in questions[yDimension].values) {
+            const row = [];
+            normZ.push(row);
+
+            for (let j in questions[xDimension].values) {
+
+                if (xDimension == yDimension && i == j) {
+                    row.push(0);
+                }
+
+                else if (columnSizes[j] != null && columnSizes[j] >= minAllowedColumnSize ) {
+                    row.push(z[i][j] / columnSizes[j]);
+                }
+                else {
+                    row.push(null);
+                }
+            }
+        }
+
+        const text = [];
+
+        for ( var i = 0; i < questions[yDimension].values.length; i++ ) {
+            text.push([]);
+            for ( var j = 0; j < questions[xDimension].values.length; j++ ) {
+                text[i].push(`${(normZ[i][j]*100).toFixed(2)}% ${T("count")}: ${z[i][j]} / ${columnSizes[j]}`);
+            }
+        }
+
+        var zData = null;
+
+        if (kind === 'norm') {
+            zData = normZ;
+        } else {
+            zData = z;
+        }
+
+
         var data = [
-            barData("approach 1", dataARows),
-            barData("approach 2", dataBRows)
+            {
+                z: zData,
+                x: questions[xDimension].values.map(T),
+                y: questions[yDimension].values.map(T),
+                text: text,
+                type: 'heatmap'
+            }
         ];
 
         var layout = {
             barmode: 'group',
+            plot_bgcolor: "black",
             xaxis: {
-                dtick: 1
+                dtick: 1,
+                title: T(xDimension)
             },
             yaxis: {
-                title: 'Gross Margin, $',
-            },
-            legend: {
-                orientation: 'h',
-                x: 0.5, // Centers the legend horizontally
-                xanchor: 'center', // Uses the center of the legend as the anchor point
-                y: 1.1, // Positions the legend above the chart
-                yanchor: 'bottom' // Uses the bottom of the legend to position it relative to the chart
+                dtick: 1,
+                title: T(yDimension)
             }
         };
 
-        // TODO: better unique name
-        var config = createPlotlyConfig('${filterASubMargin}-${filterATokenMargin}-${filterBSubMargin}-${filterBTokenMargin}');
+        var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
 
         Plotly.react(selector, data, layout, config);
     });
 }
+
+// function filterRows(subMarginId, tokenMarginId) {
+//     const subMarginValue = marginLevels.find(level => level.id === subMarginId).value;
+//     const tokenMarginValue = marginLevels.find(level => level.id === tokenMarginId).value;
+
+//     return fullData.filter(function(row) {
+//         return row.subMarginX === subMarginValue &&
+//                row.tokenMarginX === tokenMarginValue;
+//     });
+// }
+
+// function barPlot(selector, map, barsOrder) {
+
+//     document.addEventListener('redrawPlots', (e) => {
+
+//         const dataARows = filterRows(filterASubMargin, filterATokenMargin).sort((a, b) => a.subscribersNumber - b.subscribersNumber);
+//         const dataBRows = filterRows(filterBSubMargin, filterBTokenMargin).sort((a, b) => a.subscribersNumber - b.subscribersNumber);
+
+//         // function toText(percents, counts) {
+//         //     return percents.map((x, i) => x.toString() + ' ' + T('% count:') + ' ' + counts[i].toString());
+//         // }
+
+//         function barData(name, dataRows) {
+//             return {
+//                 x: dataRows.map(row => `${row.model}`),
+//                 y: dataRows.map(row => row.grossMargin.toFixed(2)),
+//                 text: dataRows.map(row => row.grossMargin.toFixed(2)),
+//                 'textposition': "none",
+//                 'hoverinfo': 'text',
+//                 'name': name,
+//                 'type': 'bar'
+//             };
+//         }
+
+//         var data = [
+//             barData("approach 1", dataARows),
+//             barData("approach 2", dataBRows)
+//         ];
+
+//         var layout = {
+//             barmode: 'group',
+//             xaxis: {
+//                 dtick: 1
+//             },
+//             yaxis: {
+//                 title: 'Gross Margin, $',
+//             },
+//             legend: {
+//                 orientation: 'h',
+//                 x: 0.5, // Centers the legend horizontally
+//                 xanchor: 'center', // Uses the center of the legend as the anchor point
+//                 y: 1.1, // Positions the legend above the chart
+//                 yanchor: 'bottom' // Uses the bottom of the legend to position it relative to the chart
+//             }
+//         };
+
+//         // TODO: better unique name
+//         var config = createPlotlyConfig('${filterASubMargin}-${filterATokenMargin}-${filterBSubMargin}-${filterBTokenMargin}');
+
+//         Plotly.react(selector, data, layout, config);
+//     });
+// }
 
 // function scatterpolarPlot(selector, mode) {
 //     document.addEventListener('redrawPlots', (e) => {
@@ -398,172 +551,6 @@ function barPlot(selector, map, barsOrder) {
 
 // }
 
-
-// function heatmapPlot(selector, kind) {
-//     document.addEventListener('redrawPlots', (e) => {
-
-//         if (fullData === null) {
-//             return;
-//         }
-
-//         if (!(filterA in filters)) {
-//             console.error('Unknown filterA:', filterA);
-//             return;
-//         }
-
-//         const dataA = filters[filterA].values;
-
-//         xDimension = heatmapFilterA;
-//         yDimension = heatmapFilterB;
-
-//         const questions = heatmapQuestions;
-
-//         const z = [];
-
-//         for (let i in questions[yDimension].values) {
-//             z.push([]);
-
-//             for (let j in questions[xDimension].values) {
-//                 z[z.length-1].push(0);
-//             }
-//         }
-
-//         function extractIndexes(question, row) {
-//             const indexes = []
-
-//             q = questions[question]
-//             if (q.type == 'multichoice') {
-//                 for (let i in q.values) {
-//                     const variant = q.values[i];
-
-//                     if (row[`${question}#${variant}`] == 1) {
-//                         indexes.push(i);
-//                     }
-//                 }
-//             }
-
-//             if (q.type == 'numeric') {
-//                 indexes.push(row[question] - 1);
-//             }
-
-//             if (q.type == 'category') {
-//                 for (let i in q.values) {
-//                     const variant = q.values[i];
-
-//                     if (row[question] == variant) {
-//                         indexes.push(i);
-//                     }
-//                 }
-//             }
-
-//             if (q.type == 'age') {
-//                 for (let i in ageGroups) {
-//                     const group = ageGroups[i];
-
-//                     if (group.predicate(row)) {
-//                         indexes.push(i);
-//                     }
-//                 }
-//             }
-
-//           if (indexes.length == 0) {
-//             /* it is ok for some data */
-//               /* console.log('something goes wrong'); */
-//             }
-
-//             return indexes;
-//         }
-
-//         const columnSizes = {};
-
-//         dataA.forEach(function(row){
-//             const xIndexs = extractIndexes(xDimension, row);
-//             const yIndexs = extractIndexes(yDimension, row);
-
-//             for (let x of xIndexs) {
-//                 if (!(x in columnSizes)) {
-//                     columnSizes[x] = 0;
-//                 }
-
-//                 columnSizes[x] += 1;
-
-
-//                 for (let y of yIndexs) {
-//                     z[y][x] += 1
-//                 }
-//             }
-//         });
-
-//         const minAllowedColumnSize = 10;
-
-//         const normZ = [];
-
-//         // norm z on column sizes
-//         for (let i in questions[yDimension].values) {
-//             const row = [];
-//             normZ.push(row);
-
-//             for (let j in questions[xDimension].values) {
-
-//                 if (xDimension == yDimension && i == j) {
-//                     row.push(0);
-//                 }
-
-//                 else if (columnSizes[j] != null && columnSizes[j] >= minAllowedColumnSize ) {
-//                     row.push(z[i][j] / columnSizes[j]);
-//                 }
-//                 else {
-//                     row.push(null);
-//                 }
-//             }
-//         }
-
-//         const text = [];
-
-//         for ( var i = 0; i < questions[yDimension].values.length; i++ ) {
-//             text.push([]);
-//             for ( var j = 0; j < questions[xDimension].values.length; j++ ) {
-//                 text[i].push(`${(normZ[i][j]*100).toFixed(2)}% ${T("count")}: ${z[i][j]} / ${columnSizes[j]}`);
-//             }
-//         }
-
-//         var zData = null;
-
-//         if (kind === 'norm') {
-//             zData = normZ;
-//         } else {
-//             zData = z;
-//         }
-
-
-//         var data = [
-//             {
-//                 z: zData,
-//                 x: questions[xDimension].values.map(T),
-//                 y: questions[yDimension].values.map(T),
-//                 text: text,
-//                 type: 'heatmap'
-//             }
-//         ];
-
-//         var layout = {
-//             barmode: 'group',
-//             plot_bgcolor: "black",
-//             xaxis: {
-//                 dtick: 1,
-//                 title: T(xDimension)
-//             },
-//             yaxis: {
-//                 dtick: 1,
-//                 title: T(yDimension)
-//             }
-//         };
-
-//         var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
-
-//         Plotly.react(selector, data, layout, config);
-//     });
-// }
 
 
 </script>

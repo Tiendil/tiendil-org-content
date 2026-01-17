@@ -583,7 +583,7 @@ GM удобна тем, что её доля довольно стабильна
 <div id="plot-xxx"></div>
 
 <script type="text/javascript">
-barPlot('plot-xxx');
+heatmapPlot('plot-xxx');
 </script>
 
 
