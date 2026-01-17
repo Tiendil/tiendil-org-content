@@ -19,7 +19,27 @@ function fillFilters() {
     }
 }
 
+function fillDiscountFilters() {
+    var index = 0;
+
+    var selects = document.querySelectorAll('.plot-filter-discount');
+
+    for (var select of selects) {
+
+        select.id = 'plot-filter-discount-' + index;
+        index++;
+
+        for (var discount of discountLevels) {
+            var option = document.createElement('option');
+            option.value = discount.id;
+            option.text = discount.name;
+            select.appendChild(option);
+        }
+    }
+}
+
 fillFilters();
+fillDiscountFilters();
 
 function bindConfigInputs() {
     var inputs = document.querySelectorAll('.plot-config-input');
@@ -59,6 +79,37 @@ function bindConfigInputs() {
 }
 
 bindConfigInputs();
+
+function selectFilterMargin(value, filterVarName, skipEvent) {
+    window[filterVarName] = value;
+
+    var selects = document.querySelectorAll(`.plot-filter-margin.${filterVarName}`);
+
+    for (var select of selects) {
+        select.value = value;
+    }
+
+    if (skipEvent != 'skip-event') {
+        document.dispatchEvent(redrawPlots);
+    }
+}
+
+function selectFilterDiscount(value, filterVarName, skipEvent) {
+    window[filterVarName] = value;
+
+    var selects = document.querySelectorAll(`.plot-filter-discount.${filterVarName}`);
+
+    for (var select of selects) {
+        select.value = value;
+    }
+
+    if (skipEvent != 'skip-event') {
+        document.dispatchEvent(redrawPlots);
+    }
+}
+
+selectFilterMargin(filterBaseMargin, 'filterBaseMargin', 'skip-event');
+selectFilterDiscount(filterDiscountStep, 'filterDiscountStep', 'skip-event');
 
 document.dispatchEvent(redrawPlots);
 

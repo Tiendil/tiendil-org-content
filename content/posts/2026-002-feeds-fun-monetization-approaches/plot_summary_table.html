@@ -1,0 +1,94 @@
+<style>
+.plot-summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+    border: 1px solid #c7c7c7;
+}
+.plot-summary-table td {
+    padding: 0.35rem 0.5rem;
+    vertical-align: middle;
+    border-top: 1px solid #e0e0e0;
+}
+.plot-summary-table td.label {
+    white-space: nowrap;
+    font-weight: 600;
+    width: 25%;
+}
+.plot-summary-table td.value {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    width: 25%;
+}
+.plot-summary-table select.plot-filter-margin,
+.plot-summary-table select.plot-filter-discount {
+    width: 100%;
+    min-width: 7rem;
+    padding: 0.25rem 0.4rem;
+    border: 1px solid #9aa0a6;
+    border-radius: 4px;
+    background: #fff;
+    color: #111;
+}
+</style>
+
+<table class="plot-summary-table">
+    <tr>
+        <td class="label">Base margin</td>
+        <td class="value">
+            <select
+                class="plot-filter-margin filterBaseMargin"
+                onchange="selectFilterMargin(this.value, 'filterBaseMargin')">
+            </select>
+        </td>
+        <td class="label">Discount step</td>
+        <td class="value">
+            <select
+                class="plot-filter-discount filterDiscountStep"
+                onchange="selectFilterDiscount(this.value, 'filterDiscountStep')">
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td class="label">Basic subscription</td>
+        <td class="value" data-summary="basicSubscriptionPrice">—</td>
+        <td class="label">Basic token price</td>
+        <td class="value" data-summary="basicTokenPrice">—</td>
+    </tr>
+    <tr>
+        <td class="label">Professional subscription</td>
+        <td class="value" data-summary="professionalSubscriptionPrice">—</td>
+        <td class="label">Professional token price</td>
+        <td class="value" data-summary="professionalTokenPrice">—</td>
+    </tr>
+    <tr>
+        <td class="label">Basic subscribers revenue / month</td>
+        <td class="value" data-summary="basicRevenue">—</td>
+        <td class="label"></td>
+        <td class="value"></td>
+    </tr>
+    <tr>
+        <td class="label">Professional subscribers revenue / month</td>
+        <td class="value" data-summary="professionalRevenue">—</td>
+        <td class="label"></td>
+        <td class="value"></td>
+    </tr>
+    <tr>
+        <td class="label">Begginer users profit / month</td>
+        <td class="value" data-summary="beginnerProfit">—</td>
+        <td class="label"></td>
+        <td class="value"></td>
+    </tr>
+    <tr>
+        <td class="label">Advanced users profit / month</td>
+        <td class="value" data-summary="advancedProfit">—</td>
+        <td class="label"></td>
+        <td class="value"></td>
+    </tr>
+    <tr>
+        <td class="label">Professional users profit / month</td>
+        <td class="value" data-summary="professionalProfit">—</td>
+        <td class="label"></td>
+        <td class="value"></td>
+    </tr>
+</table>

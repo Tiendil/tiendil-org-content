@@ -551,13 +551,15 @@ GM удобна тем, что её доля довольно стабильна
 
 <!-- rename plot-xxx -->
 
----8<--- "./plot_filters_group.html"
+---8<--- "./plot_config_inputs.html"
 
 <div id="plot-xxx"></div>
 
 <script type="text/javascript">
 heatmapPlot('plot-xxx');
 </script>
+
+---8<--- "./plot_summary_table.html"
 
 
 

@@ -14,9 +14,9 @@ const redrawPlots = new CustomEvent('redrawPlots', {
 
 
 const audience = [
-    {fraction: 0.8, minNews: 1, maxNews: 99},
-    {fraction: 0.16, minNews: 100, maxNews: 999},
-    {fraction: 0.04, minNews: 1000, maxNews: 1000}
+    {name: 'beginner', fraction: 0.8, minNews: 1, maxNews: 99},
+    {name: 'advanced', fraction: 0.16, minNews: 100, maxNews: 999},
+    {name: 'professional', fraction: 0.04, minNews: 1000, maxNews: 1000}
 ];
 
 const marginLevels = [
@@ -35,10 +35,8 @@ const discountLevels = [
     // {id: 'd20', name: '20%', value: 0.20},  // commented temporary, do not taught
 ];
 
-var filterASubMargin = 'x2';
-var filterATokenMargin = 'x10';
-var filterBSubMargin = 'x10';
-var filterBTokenMargin = 'x2';
+var filterBaseMargin = 'x2';
+var filterDiscountStep = 'd10';
 
 const subscribersNumber = 1000;
 const daysInMonth = 30;
@@ -55,6 +53,23 @@ const modelConfig = window.modelConfig = {
 
 const paymentProcessorCommissionPercent = 0.025; // Stripe fee
 const paymentProcessorCommissionFixed = 0.25;  // Stripe fee
+
+function formatMoneyK(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    if (Math.abs(value) < 1000) {
+        return value.toFixed(2);
+    }
+    return (value / 1000).toFixed(2) + 'k';
+}
+
+function formatMoneyToken(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    return value.toFixed(6);
+}
 
 function consumptionPrice(tokens, subQuota, subTokenPrice, extraTokenPrice) {
     const subPrice = subQuota * subTokenPrice;
@@ -126,6 +141,7 @@ for (let i = 0; i < audience.length; i++) {
 
         users.push({
             newsPerDay: newsPerDay,
+            groupId: i,
         });
     }
 }
@@ -209,6 +225,73 @@ function createPlotlyConfig(filename) {
     return config;
 }
 
+function updateSummaryTable() {
+    var table = document.querySelector('.plot-summary-table');
+    if (!table) {
+        return;
+    }
+
+    var marginLevel = marginLevels.find(level => level.id === filterBaseMargin) || marginLevels[0];
+    var marginMultiplier = marginLevel ? marginLevel.value : marginLevels[0].value;
+    var discountLevel = discountLevels.find(level => level.id === filterDiscountStep) || discountLevels[0];
+    var discountValue = discountLevel ? discountLevel.value : discountLevels[0].value;
+
+    var basicSubMonthly = modelConfig.baseSubscriptionQuota *
+        baseSubTokenPrice(marginMultiplier) *
+        daysInMonth;
+    var basicTokenPrice = baseExtraTokenPrice(marginMultiplier, discountValue);
+
+    var profSubMonthly = modelConfig.professionalSubscriptionQuota *
+        profSubTokenPrice(marginMultiplier, discountValue) *
+        daysInMonth;
+    var profTokenPrice = profExtraTokenPrice(marginMultiplier, discountValue);
+
+    var baseRevenue = 0;
+    var profRevenue = 0;
+    var groupProfits = new Array(audience.length).fill(0);
+
+    var globalCostPerUser = COGSGlobal() / subscribersNumber;
+
+    for (let i = 0; i < users.length; i++) {
+        var user = users[i];
+        var basePaidMonthly = basePricePerDay(user.newsPerDay, marginMultiplier, discountValue) * daysInMonth;
+        var profPaidMonthly = profPricePerDay(user.newsPerDay, marginMultiplier, discountValue) * daysInMonth;
+        var paidMonthly = Math.min(basePaidMonthly, profPaidMonthly);
+
+        if (basePaidMonthly <= profPaidMonthly) {
+            baseRevenue += paidMonthly;
+        } else {
+            profRevenue += paidMonthly;
+        }
+
+        var spentMonthly = spentInMonth(user.newsPerDay);
+        var paymentFee = paidMonthly * paymentProcessorCommissionPercent + paymentProcessorCommissionFixed;
+        var profitMonthly = paidMonthly - spentMonthly - paymentFee - globalCostPerUser;
+
+        if (user.groupId != null && groupProfits[user.groupId] != null) {
+            groupProfits[user.groupId] += profitMonthly;
+        }
+    }
+
+    function setSummaryValue(key, value) {
+        var cell = table.querySelector(`[data-summary="${key}"]`);
+        if (!cell) {
+            return;
+        }
+        cell.textContent = value;
+    }
+
+    setSummaryValue('basicSubscriptionPrice', formatMoneyK(basicSubMonthly));
+    setSummaryValue('basicTokenPrice', formatMoneyToken(basicTokenPrice));
+    setSummaryValue('professionalSubscriptionPrice', formatMoneyK(profSubMonthly));
+    setSummaryValue('professionalTokenPrice', formatMoneyToken(profTokenPrice));
+    setSummaryValue('basicRevenue', formatMoneyK(baseRevenue));
+    setSummaryValue('professionalRevenue', formatMoneyK(profRevenue));
+    setSummaryValue('beginnerProfit', formatMoneyK(groupProfits[0]));
+    setSummaryValue('advancedProfit', formatMoneyK(groupProfits[1]));
+    setSummaryValue('professionalProfit', formatMoneyK(groupProfits[2]));
+}
+
 function heatmapPlot(selector, kind) {
     document.addEventListener('redrawPlots', (e) => {
 
@@ -234,13 +317,6 @@ function heatmapPlot(selector, kind) {
             dataByKey.set(keyFor(row.costMultipler, row.discountStep), row);
         }
 
-        function formatMoney(value) {
-            if (value == null || Number.isNaN(value)) {
-                return 'N/A';
-            }
-            return (value / 1000).toFixed(2) + 'k';
-        }
-
         const z = [];
         const text = [];
 
@@ -255,10 +331,10 @@ function heatmapPlot(selector, kind) {
                 row.push(metricValue);
                 textRow.push(
                     rowData
-                        ? `Gross Margin: ${formatMoney(rowData.grossMargin)}<br>` +
-                          `Total Paid: ${formatMoney(rowData.totalPaid)}<br>` +
-                          `Spent on News: ${formatMoney(rowData.spentOnNews)}<br>` +
-                          `Payment Fees: ${formatMoney(rowData.paymentProcessorFee)}`
+                        ? `Gross Margin: ${formatMoneyK(rowData.grossMargin)}<br>` +
+                          `Total Paid: ${formatMoneyK(rowData.totalPaid)}<br>` +
+                          `Spent on News: ${formatMoneyK(rowData.spentOnNews)}<br>` +
+                          `Payment Fees: ${formatMoneyK(rowData.paymentProcessorFee)}`
                         : 'N/A'
                 );
             }
@@ -296,6 +372,8 @@ function heatmapPlot(selector, kind) {
         Plotly.react(selector, data, layout, config);
     });
 }
+
+document.addEventListener('redrawPlots', updateSummaryTable);
 
 // function filterRows(subMarginId, tokenMarginId) {
 //     const subMarginValue = marginLevels.find(level => level.id === subMarginId).value;
