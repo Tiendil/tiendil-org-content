@@ -13,15 +13,11 @@ const redrawPlots = new CustomEvent('redrawPlots', {
  });
 
 
-const subscriberNumbers = [{id: 'subscribers_100',
-                            name: '100 Subscribers',
-                            value: 100},
-                           {id: 'subscribers_1000',
-                            name: '1000 Subscribers',
-                            value: 1000},
-                           {id: 'subscribers_10000',
-                            name: '10000 Subscribers',
-                            value: 10000}];
+const audience = [
+    {fraction: 0.8, minNews: 1, maxNews: 99},
+    {fraction: 0.16, minNews: 100, maxNews: 999}
+    {fraction: 0.04, minNews: 1000, maxNews: 1000}
+];
 
 const marginLevels = [
     {id: 'x2', name: 'x2', value: 2},
@@ -47,11 +43,30 @@ const quotaStep = 100;
 const baseSubscriptionTokens = quotaStep;
 const paymentProcessorCommissionPercent = 0.025; // Stripe fee
 const paymentProcessorCommissionFixed = 0.25;  // Stripe fee
-const audience = [
-    {fraction: 0.8, newsPerDay: 25},
-    {fraction: 0.16, newsPerDay: 100},
-    {fraction: 0.04, newsPerDay: 1000}
-]
+
+const users = [];
+
+for (let i = 0; i < audience.length; i++) {
+    const group = audience[i];
+    const groupSize = Math.ceil(subscribersNumber * group.fraction);
+
+    const {min, max} = {min: group.minNews, max: group.maxNews};
+
+    for (let j = 0; j < groupSize; j++) {
+        // deterministic quantile in (0, 1)
+        const v = (j + 0.5) / groupSize;
+
+        // log-uniform quantile: n = min * (max/min)^v
+        const n = (min === max)
+            ? min
+            : Math.round(min * Math.pow(max / min, v));
+
+        users.push({
+            newsPerDay: Math.max(min, Math.min(max, n))
+        });
+    }
+}
+
 
 function COGSGlobal() {
     return serverCost + (Math.ceil(subscribersNumber * CR) * CAC);
