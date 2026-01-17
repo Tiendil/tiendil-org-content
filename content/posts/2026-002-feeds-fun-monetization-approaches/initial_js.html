@@ -26,7 +26,14 @@ const marginLevels = [
     {id: 'x10', name: 'x10', value: 10},
     {id: 'x20', name: 'x20', value: 20},
     {id: 'x50', name: 'x50', value: 50},
-]
+];
+
+const discountLevels = [
+    {id: 'd05', name: '5%', value: 0.05},
+    {id: 'd10', name: '10%', value: 0.10},
+    {id: 'd15', name: '15%', value: 0.15},
+    {id: 'd20', name: '20%', value: 0.20},
+];
 
 var filterASubMargin = 'x2';
 var filterATokenMargin = 'x10';
@@ -59,36 +66,40 @@ function baseSubTokenPrice(N) {
     return COGSPerNews * N;
 }
 
-function baseExtraTokenPrice(N) {
-    return Math.floor(COGSPerNews * N * (1 - 1 * discountStep));
+function baseExtraTokenPrice(N, step) {
+    return Math.floor(COGSPerNews * N * (1 - 1 * step));
 }
 
-function profSubTokenPrice(N) {
-    return Math.floor(COGSPerNews * N * (1 - 2 * discountStep));
+function profSubTokenPrice(N, step) {
+    return Math.floor(COGSPerNews * N * (1 - 2 * step));
 }
 
-function profExtraTokenPrice(N) {
-    return Math.floor(COGSPerNews * N * (1 - 3 * discountStep));
+function profExtraTokenPrice(N, step) {
+    return Math.floor(COGSPerNews * N * (1 - 3 * step));
 }
 
-function basePricePerDay(tokens, N) {
+function basePricePerDay(tokens, N, step) {
     return consumptionPrice(tokens,
                             baseSubscriptionQuota,
                             baseSubTokenPrice(N),
-                            baseExtraTokenPrice(N));
+                            baseExtraTokenPrice(N, step));
 }
 
-function profPricePerDay(tokens, N) {
+function profPricePerDay(tokens, N, step) {
     return consumptionPrice(tokens,
                             profSubscriptionQuota,
-                            profSubTokenPrice(N),
-                            profExtraTokenPrice(N));
+                            profSubTokenPrice(N, step),
+                            profExtraTokenPrice(N, step));
 }
 
-function paidInMonth(tokensPerDay, N) {
-    const paidInDay = Math.min(basePricePerDay(tokensPerDay, N),
-                               profPricePerDay(tokensPerDay, N));
+function paidInMonth(tokensPerDay, N, step) {
+    const paidInDay = Math.min(basePricePerDay(tokensPerDay, N, step),
+                               profPricePerDay(tokensPerDay, N, step));
     return paidInDay * daysInMonth;
+}
+
+function spentInMonth(tokensPerDay) {
+    return tokensPerDay * COGSPerNews * daysInMonth;
 }
 
 const users = [];
@@ -124,158 +135,45 @@ function PaymentProcessorFee(amount) {
     return amount * paymentProcessorCommissionPercent + paymentProcessorCommissionFixed * subscribersNumber;
 }
 
-function modelQuotaSteps(modelName, subMarginX, tokenMarginX, extraTokensPurchased) {
+function model(costMultipler, discountStep) {
 
-    const groups = [];
+    let paidTotal = 0;
+    let spentTotal = 0;
 
-    for (let i = 0; i < audience.length; i++) {
-        const users = audience[i];
+    for (let i = 0; i < users.length; i++) {
+        const user = users[i];
 
-        const subTokenMargin = COGSPerNews * subMarginX;
-        const subTokenPrice = COGSPerNews + subTokenMargin;
+        const paid = paidInMonth(user.newsPerDay,
+                                 costMultipler,
+                                 discountStep);
 
-        const extraTokenMargin = COGSPerNews * tokenMarginX;
-        const extraTokenPrice = COGSPerNews + extraTokenMargin;
+        const spent = spentInMonth(user.newsPerDay);
 
-        const newsPerMonth = users.newsPerDay * daysInMonth;
-
-        const qoutaLevel = Math.ceil(newsPerMonth / quotaStep);
-        const purchasedSubTokens = qoutaLevel * quotaStep;
-
-        const subMonthPrice = purchasedSubTokens * subTokenPrice;
-        const subMonthSpending = purchasedSubTokens * COGSPerNews;
-        const subMonthMargin = subMonthPrice - subMonthSpending;
-
-        const extraMonthPrice = extraTokensPurchased * extraTokenPrice;
-        const extraMonthSpending = extraTokensPurchased * COGSPerNews;
-        const extraMonthMargin = extraMonthPrice - extraMonthSpending;
-
-        const subGrossMargin = subMonthMargin * users.fraction * subscribersNumber;
-        const extraGrossMargin = extraMonthMargin * users.fraction * subscribersNumber;
-        const totalGrossMargin = subGrossMargin + extraGrossMargin;
-
-        const totalPaid = subMonthPrice + extraMonthPrice;
-
-        groups.push({
-            subStepPrice: quotaStep * subTokenPrice,
-            subPrice: subMonthPrice,
-            tokensPrice: extraMonthPrice,
-
-            subMargin: subMonthMargin,
-            tokenMargin: extraMonthMargin,
-            grossMargin: totalGrossMargin,
-
-            totalPaid: totalPaid
-        });
+        paidTotal += paid;
+        spentTotal += spent;
     }
 
-    const totalPaid = groups.reduce((a, b) => a + b.totalPaid, 0);
-    const paymentProcessorFee = PaymentProcessorFee(totalPaid);
+    const paymentProcessorFee = PaymentProcessorFee(paidTotal);
 
     return {
-        model: modelName,
-
-        subscribersNumber: subscribersNumber,
-        subMarginX: subMarginX,
-        tokenMarginX: tokenMarginX,
-
-        grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0) - COGSGlobal() - paymentProcessorFee,
-        subMargin: groups.reduce((a, b) => a + b.subMargin, 0),
-        tokenMargin: groups.reduce((a, b) => a + b.tokenMargin, 0),
+        costMultipler: costMultipler,
+        discountStep: discountStep
 
         totalPaid: totalPaid,
+
+        spentOnNews: spentTotal,
         paymentProcessorFee: paymentProcessorFee,
 
-        groups: groups
+        grossMargin: totalPaid - spentTotal - COGSGlobal() - paymentProcessorFee
     };
 
 }
 
-function modelQuotaStepsNoTokens(subMarginX, tokenMarginX) {
-    return modelQuotaSteps("quota_no_tokens", subMarginX, tokenMarginX, 0);
-}
+const fullData = [];
 
-function modelQuotaStepsHasTokens(subMarginX, tokenMarginX) {
-    return modelQuotaSteps("quota_with_tokens", subMarginX, tokenMarginX, quotaStep * 0.5);
-}
-
-
-function modelBaseSub(subMarginX, tokenMarginX) {
-
-    const groups = [];
-
-    for (let i = 0; i < audience.length; i++) {
-        const users = audience[i];
-
-        const subTokenMargin = COGSPerNews * subMarginX;
-        const subTokenPrice = COGSPerNews + subTokenMargin;
-
-        const extraTokenMargin = COGSPerNews * tokenMarginX;
-        const extraTokenPrice = COGSPerNews + extraTokenMargin;
-
-        const newsPerMonth = users.newsPerDay * daysInMonth;
-
-        const extraTokensPurchased = newsPerMonth - baseSubscriptionTokens;
-
-        const subMonthPrice = baseSubscriptionTokens * subTokenPrice
-        const subMonthSpending = baseSubscriptionTokens * COGSPerNews;
-        const subMonthMargin = subMonthPrice - subMonthSpending;
-
-        const extraMonthPrice = extraTokensPurchased * extraTokenPrice;
-        const extraMonthSpending = extraTokensPurchased * COGSPerNews;
-        const extraMonthMargin = extraMonthPrice - extraMonthSpending;
-
-        const subGrossMargin = subMonthMargin * users.fraction * subscribersNumber;
-        const extraGrossMargin = extraMonthMargin * users.fraction * subscribersNumber;
-        const totalGrossMargin = subGrossMargin + extraGrossMargin;
-
-        const totalPaid = subMonthPrice + extraMonthPrice;
-
-        groups.push({
-            subStepPrice: quotaStep * subTokenPrice,
-            subPrice: subMonthPrice,
-            tokensPrice: extraMonthPrice,
-
-            subMargin: subMonthMargin,
-            tokenMargin: extraMonthMargin,
-            grossMargin: totalGrossMargin,
-
-            totalPaid: totalPaid
-        });
-    }
-
-    const totalPaid = groups.reduce((a, b) => a + b.totalPaid, 0);
-    const paymentProcessorFee = PaymentProcessorFee(totalPaid);
-
-    return {
-        model: "base_sub",
-
-        subscribersNumber: subscribersNumber,
-        subMarginX: subMarginX,
-        tokenMarginX: tokenMarginX,
-
-        grossMargin: groups.reduce((a, b) => a + b.grossMargin, 0) - COGSGlobal() - paymentProcessorFee,
-        subMargin: groups.reduce((a, b) => a + b.subMargin, 0),
-        tokenMargin: groups.reduce((a, b) => a + b.tokenMargin, 0),
-
-        totalPaid: totalPaid,
-        paymentProcessorFee: paymentProcessorFee,
-
-        groups: groups
-    };
-
-}
-
-var fullData = [];
-
-for (subMarginLevel of marginLevels) {
-    for (tokenMarginLevel of marginLevels) {
-        fullData.push(modelQuotaStepsNoTokens(subMarginLevel.value,
-                                              tokenMarginLevel.value));
-        fullData.push(modelQuotaStepsHasTokens(subMarginLevel.value,
-                                               tokenMarginLevel.value));
-        fullData.push(modelBaseSub(subMarginLevel.value,
-                                   tokenMarginLevel.value));
+for (let subMarginLevel of marginLevels) {
+    for (let discountLevel of discountLevels) {
+        fullData.push(model(marginLevel.value, discountLevel.value));
     }
 }
 
