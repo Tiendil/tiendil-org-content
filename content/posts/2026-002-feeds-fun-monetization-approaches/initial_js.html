@@ -25,14 +25,14 @@ const marginLevels = [
     {id: 'x5', name: 'x5', value: 5},
     {id: 'x10', name: 'x10', value: 10},
     {id: 'x20', name: 'x20', value: 20},
-    {id: 'x50', name: 'x50', value: 50},
+    // {id: 'x50', name: 'x50', value: 50},  // commented temporary, do not taught
 ];
 
 const discountLevels = [
     {id: 'd05', name: '5%', value: 0.05},
     {id: 'd10', name: '10%', value: 0.10},
     {id: 'd15', name: '15%', value: 0.15},
-    {id: 'd20', name: '20%', value: 0.20},
+    // {id: 'd20', name: '20%', value: 0.20},  // commented temporary, do not taught
 ];
 
 var filterASubMargin = 'x2';
@@ -227,7 +227,7 @@ function heatmapPlot(selector, kind) {
             if (value == null || Number.isNaN(value)) {
                 return 'N/A';
             }
-            return value.toFixed(2);
+            return (value / 1000).toFixed(2) + 'k';
         }
 
         const z = [];
