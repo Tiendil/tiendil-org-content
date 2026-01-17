@@ -36,6 +36,18 @@
                 type="number"
                 step="0.0000001">
         </td>
+        <td class="label">News size (chars)</td>
+        <td>
+            <input
+                class="plot-config-input"
+                data-config-key="newsItemChars"
+                data-value-type="int"
+                type="number"
+                step="1"
+                min="1">
+        </td>
+    </tr>
+    <tr>
         <td class="label">Server cost</td>
         <td>
             <input
@@ -45,6 +57,30 @@
                 type="number"
                 step="0.01">
         </td>
+        <td class="label">Input price (1M)</td>
+        <td>
+            <input
+                class="plot-config-input"
+                data-config-key="inputPricePer1M"
+                data-value-type="float"
+                type="number"
+                step="0.01"
+                min="0">
+        </td>
+    </tr>
+    <tr>
+        <td class="label">Output price (1M)</td>
+        <td>
+            <input
+                class="plot-config-input"
+                data-config-key="outputPricePer1M"
+                data-value-type="float"
+                type="number"
+                step="0.01"
+                min="0">
+        </td>
+        <td class="label"></td>
+        <td></td>
     </tr>
     <tr>
         <td class="label">Default collections cost</td>

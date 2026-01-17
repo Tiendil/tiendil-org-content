@@ -36,18 +36,38 @@ const daysInMonth = 30;
 const discountStep = 0.1;
 
 const modelConfig = window.modelConfig = {
-    cogsPerNews: 0.0006865,
+    cogsPerNews: 0,
     serverCost: 200,
     defaultCollectionsCost: 500,
     customerAcquisitionCost: 50,
     cancellationRate: 0.05,
     baseSubscriptionQuota: 250,
     professionalSubscriptionQuota: 1000,
+    newsItemChars: 2500,
+    charsPerToken: 4,
+    outputTokens: 825,
+    inputPricePer1M: 0.15,
+    outputPricePer1M: 0.60,
+    proxyCostPerNews: 0.000004,
     audience: {
         beginners: {fraction: 0.8, minNews: 1, maxNews: 99},
         advanced: {fraction: 0.16, minNews: 100, maxNews: 999}
     }
 };
+
+function recalcCogsPerNews() {
+    var inputTokens = modelConfig.newsItemChars / modelConfig.charsPerToken;
+    var inputCost = inputTokens * modelConfig.inputPricePer1M / 1000000;
+    var outputCost = modelConfig.outputTokens * modelConfig.outputPricePer1M / 1000000;
+
+    modelConfig.cogsPerNews = modelConfig.proxyCostPerNews + inputCost + outputCost;
+
+    if (window.cogsPerNewsInput) {
+        window.cogsPerNewsInput.value = modelConfig.cogsPerNews;
+    }
+}
+
+recalcCogsPerNews();
 
 const paymentProcessorCommissionPercent = 0.025; // Stripe fee
 const paymentProcessorCommissionFixed = 0.25;  // Stripe fee

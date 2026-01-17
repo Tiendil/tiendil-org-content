@@ -53,6 +53,9 @@ function bindConfigInputs() {
         }
 
         input.value = modelConfig[key];
+        if (key === 'cogsPerNews') {
+            window.cogsPerNewsInput = input;
+        }
 
         input.addEventListener('input', function(event) {
             var element = event.target;
@@ -73,6 +76,11 @@ function bindConfigInputs() {
             }
 
             modelConfig[elementKey] = parsedValue;
+            if (elementKey === 'newsItemChars' ||
+                elementKey === 'inputPricePer1M' ||
+                elementKey === 'outputPricePer1M') {
+                recalcCogsPerNews();
+            }
             rebuildModelData();
         });
     }
