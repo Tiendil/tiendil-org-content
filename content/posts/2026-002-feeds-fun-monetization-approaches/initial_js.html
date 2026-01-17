@@ -15,7 +15,7 @@ const redrawPlots = new CustomEvent('redrawPlots', {
 
 const audience = [
     {fraction: 0.8, minNews: 1, maxNews: 99},
-    {fraction: 0.16, minNews: 100, maxNews: 999}
+    {fraction: 0.16, minNews: 100, maxNews: 999},
     {fraction: 0.04, minNews: 1000, maxNews: 1000}
 ];
 
@@ -67,15 +67,15 @@ function baseSubTokenPrice(N) {
 }
 
 function baseExtraTokenPrice(N, step) {
-    return Math.floor(COGSPerNews * N * (1 - 1 * step));
+    return COGSPerNews * N * (1 - 1 * step);
 }
 
 function profSubTokenPrice(N, step) {
-    return Math.floor(COGSPerNews * N * (1 - 2 * step));
+    return COGSPerNews * N * (1 - 2 * step);
 }
 
 function profExtraTokenPrice(N, step) {
-    return Math.floor(COGSPerNews * N * (1 - 3 * step));
+    return COGSPerNews * N * (1 - 3 * step);
 }
 
 function basePricePerDay(tokens, N, step) {
@@ -157,14 +157,13 @@ function model(costMultipler, discountStep) {
 
     return {
         costMultipler: costMultipler,
-        discountStep: discountStep
-
-        totalPaid: totalPaid,
+        discountStep: discountStep,
+        totalPaid: paidTotal,
 
         spentOnNews: spentTotal,
         paymentProcessorFee: paymentProcessorFee,
 
-        grossMargin: totalPaid - spentTotal - COGSGlobal() - paymentProcessorFee
+        grossMargin: paidTotal - spentTotal - COGSGlobal() - paymentProcessorFee
     };
 
 }
@@ -173,7 +172,7 @@ const fullData = [];
 
 for (let subMarginLevel of marginLevels) {
     for (let discountLevel of discountLevels) {
-        fullData.push(model(marginLevel.value, discountLevel.value));
+        fullData.push(model(subMarginLevel.value, discountLevel.value));
     }
 }
 
@@ -194,7 +193,9 @@ function createPlotlyConfig(filename) {
             'zoomInGeo', 'zoomOutGeo', 'resetGeo', 'hoverClosestGeo',
             'hoverClosestGl2d', 'hoverClosestPie', 'toggleHover', 'resetViews', 'sendDataToCloud', 'toggleSpikelines', 'resetViewMapbox'
         ]
-    }
+    };
+
+    return config;
 }
 
 function heatmapPlot(selector, kind) {
@@ -204,160 +205,82 @@ function heatmapPlot(selector, kind) {
             return;
         }
 
-        if (!(filterA in filters)) {
-            console.error('Unknown filterA:', filterA);
-            return;
+        const metric = kind || 'grossMargin';
+        const metricLabels = {
+            grossMargin: 'Gross Margin, $',
+            totalPaid: 'Total Paid, $',
+            spentOnNews: 'Spent on News, $',
+            paymentProcessorFee: 'Payment Processor Fee, $'
+        };
+
+        const dataByKey = new Map();
+
+        function keyFor(marginValue, discountValue) {
+            return `${marginValue}|${discountValue.toFixed(4)}`;
         }
 
-        const dataA = filters[filterA].values;
+        for (let row of fullData) {
+            dataByKey.set(keyFor(row.costMultipler, row.discountStep), row);
+        }
 
-        xDimension = heatmapFilterA;
-        yDimension = heatmapFilterB;
-
-        const questions = heatmapQuestions;
+        function formatMoney(value) {
+            if (value == null || Number.isNaN(value)) {
+                return 'N/A';
+            }
+            return value.toFixed(2);
+        }
 
         const z = [];
-
-        for (let i in questions[yDimension].values) {
-            z.push([]);
-
-            for (let j in questions[xDimension].values) {
-                z[z.length-1].push(0);
-            }
-        }
-
-        function extractIndexes(question, row) {
-            const indexes = []
-
-            q = questions[question]
-            if (q.type == 'multichoice') {
-                for (let i in q.values) {
-                    const variant = q.values[i];
-
-                    if (row[`${question}#${variant}`] == 1) {
-                        indexes.push(i);
-                    }
-                }
-            }
-
-            if (q.type == 'numeric') {
-                indexes.push(row[question] - 1);
-            }
-
-            if (q.type == 'category') {
-                for (let i in q.values) {
-                    const variant = q.values[i];
-
-                    if (row[question] == variant) {
-                        indexes.push(i);
-                    }
-                }
-            }
-
-            if (q.type == 'age') {
-                for (let i in ageGroups) {
-                    const group = ageGroups[i];
-
-                    if (group.predicate(row)) {
-                        indexes.push(i);
-                    }
-                }
-            }
-
-          if (indexes.length == 0) {
-            /* it is ok for some data */
-              /* console.log('something goes wrong'); */
-            }
-
-            return indexes;
-        }
-
-        const columnSizes = {};
-
-        dataA.forEach(function(row){
-            const xIndexs = extractIndexes(xDimension, row);
-            const yIndexs = extractIndexes(yDimension, row);
-
-            for (let x of xIndexs) {
-                if (!(x in columnSizes)) {
-                    columnSizes[x] = 0;
-                }
-
-                columnSizes[x] += 1;
-
-
-                for (let y of yIndexs) {
-                    z[y][x] += 1
-                }
-            }
-        });
-
-        const minAllowedColumnSize = 10;
-
-        const normZ = [];
-
-        // norm z on column sizes
-        for (let i in questions[yDimension].values) {
-            const row = [];
-            normZ.push(row);
-
-            for (let j in questions[xDimension].values) {
-
-                if (xDimension == yDimension && i == j) {
-                    row.push(0);
-                }
-
-                else if (columnSizes[j] != null && columnSizes[j] >= minAllowedColumnSize ) {
-                    row.push(z[i][j] / columnSizes[j]);
-                }
-                else {
-                    row.push(null);
-                }
-            }
-        }
-
         const text = [];
 
-        for ( var i = 0; i < questions[yDimension].values.length; i++ ) {
-            text.push([]);
-            for ( var j = 0; j < questions[xDimension].values.length; j++ ) {
-                text[i].push(`${(normZ[i][j]*100).toFixed(2)}% ${T("count")}: ${z[i][j]} / ${columnSizes[j]}`);
+        for (let discount of discountLevels) {
+            const row = [];
+            const textRow = [];
+
+            for (let margin of marginLevels) {
+                const rowData = dataByKey.get(keyFor(margin.value, discount.value));
+                const metricValue = rowData ? rowData[metric] : null;
+
+                row.push(metricValue);
+                textRow.push(
+                    rowData
+                        ? `Gross Margin: ${formatMoney(rowData.grossMargin)}<br>` +
+                          `Total Paid: ${formatMoney(rowData.totalPaid)}<br>` +
+                          `Spent on News: ${formatMoney(rowData.spentOnNews)}<br>` +
+                          `Payment Fees: ${formatMoney(rowData.paymentProcessorFee)}`
+                        : 'N/A'
+                );
             }
+
+            z.push(row);
+            text.push(textRow);
         }
-
-        var zData = null;
-
-        if (kind === 'norm') {
-            zData = normZ;
-        } else {
-            zData = z;
-        }
-
 
         var data = [
             {
-                z: zData,
-                x: questions[xDimension].values.map(T),
-                y: questions[yDimension].values.map(T),
+                z: z,
+                x: marginLevels.map(level => level.name),
+                y: discountLevels.map(level => level.name),
                 text: text,
-                type: 'heatmap'
+                type: 'heatmap',
+                hoverinfo: 'text',
+                colorbar: {
+                    title: metricLabels[metric] || metric
+                }
             }
         ];
 
         var layout = {
             barmode: 'group',
-            plot_bgcolor: "black",
             xaxis: {
-                dtick: 1,
-                title: T(xDimension)
+                title: 'Margin multiplier'
             },
             yaxis: {
-                dtick: 1,
-                title: T(yDimension)
+                title: 'Discount'
             }
         };
 
-        var config = createPlotlyConfig('${selector}-${filterA}-${filterB}');
+        var config = createPlotlyConfig(`${selector}-${metric}`);
 
         Plotly.react(selector, data, layout, config);
     });
