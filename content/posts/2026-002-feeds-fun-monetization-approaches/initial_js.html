@@ -37,7 +37,8 @@ const discountStep = 0.1;
 
 const modelConfig = window.modelConfig = {
     cogsPerNews: 0.0006865,
-    serverCost: 75,
+    serverCost: 200,
+    defaultCollectionsCost: 500,
     customerAcquisitionCost: 50,
     cancellationRate: 0.05,
     baseSubscriptionQuota: 250,
@@ -193,6 +194,7 @@ function rebuildUsers() {
 
 function COGSGlobal() {
     return modelConfig.serverCost +
+        modelConfig.defaultCollectionsCost +
         (Math.ceil(subscribersNumber * modelConfig.cancellationRate) * modelConfig.customerAcquisitionCost);
 }
 
