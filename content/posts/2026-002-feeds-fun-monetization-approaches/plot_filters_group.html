@@ -1,0 +1,91 @@
+<style>
+.plot-filters-group table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0.75rem;
+}
+.plot-filters-group td {
+    padding: 0.25rem 0.5rem;
+    vertical-align: middle;
+}
+.plot-filters-group td.label {
+    white-space: nowrap;
+    font-weight: 600;
+}
+.plot-filters-group input.plot-config-input {
+    width: 100%;
+    min-width: 7rem;
+    padding: 0.25rem 0.4rem;
+    border: 1px solid #9aa0a6;
+    border-radius: 4px;
+    background: #fff;
+    color: #111;
+}
+</style>
+
+<div class="plot-filters-group">
+<table>
+    <tr>
+        <td class="label">COGS/news</td>
+        <td>
+            <input
+                class="plot-config-input"
+                data-config-key="cogsPerNews"
+                data-value-type="float"
+                type="number"
+                step="0.0000001">
+        </td>
+        <td class="label">COGS global</td>
+        <td>
+            <input
+                class="plot-config-input"
+                data-config-key="serverCost"
+                data-value-type="float"
+                type="number"
+                step="0.01">
+        </td>
+    </tr>
+    <tr>
+        <td class="label">CAC</td>
+        <td>
+            <input
+                class="plot-config-input"
+                data-config-key="customerAcquisitionCost"
+                data-value-type="float"
+                type="number"
+                step="0.01">
+        </td>
+        <td class="label">CR</td>
+        <td>
+            <input
+                class="plot-config-input"
+                data-config-key="cancellationRate"
+                data-value-type="float"
+                type="number"
+                step="0.001">
+        </td>
+    </tr>
+    <tr>
+        <td class="label">Base quota</td>
+        <td>
+            <input
+                class="plot-config-input"
+                data-config-key="baseSubscriptionQuota"
+                data-value-type="int"
+                type="number"
+                step="1">
+        </td>
+        <td class="label">Pro quota</td>
+        <td>
+            <input
+                class="plot-config-input"
+                data-config-key="professionalSubscriptionQuota"
+                data-value-type="int"
+                type="number"
+                step="1">
+        </td>
+    </tr>
+</table>
+
+
+</div>

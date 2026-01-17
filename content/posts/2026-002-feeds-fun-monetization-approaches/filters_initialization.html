@@ -21,25 +21,44 @@ function fillFilters() {
 
 fillFilters();
 
-function selectFilterMargin(value, filterVarName, skipEvent) {
-    window[filterVarName] = value;
+function bindConfigInputs() {
+    var inputs = document.querySelectorAll('.plot-config-input');
 
-    var selects = document.querySelectorAll(`.plot-filter-margin.${filterVarName}`);
+    for (var input of inputs) {
+        var key = input.dataset.configKey;
+        var valueType = input.dataset.valueType || 'float';
 
-    for (var select of selects) {
-        select.value = value;
-    }
+        if (!key || !(key in modelConfig)) {
+            continue;
+        }
 
-    if (skipEvent != 'skip-event') {
-        document.dispatchEvent(redrawPlots);
+        input.value = modelConfig[key];
+
+        input.addEventListener('input', function(event) {
+            var element = event.target;
+            var elementKey = element.dataset.configKey;
+            var elementType = element.dataset.valueType || 'float';
+            var rawValue = element.value;
+
+            var parsedValue = null;
+
+            if (elementType === 'int') {
+                parsedValue = parseInt(rawValue, 10);
+            } else {
+                parsedValue = parseFloat(rawValue);
+            }
+
+            if (Number.isNaN(parsedValue)) {
+                return;
+            }
+
+            modelConfig[elementKey] = parsedValue;
+            rebuildModelData();
+        });
     }
 }
 
-
-selectFilterMargin(filterASubMargin, 'filterASubMargin', 'skip-event');
-selectFilterMargin(filterATokenMargin, 'filterATokenMargin', 'skip-event');
-selectFilterMargin(filterBSubMargin, 'filterBSubMargin', 'skip-event');
-selectFilterMargin(filterBTokenMargin, 'filterBTokenMargin', 'skip-event');
+bindConfigInputs();
 
 document.dispatchEvent(redrawPlots);
 

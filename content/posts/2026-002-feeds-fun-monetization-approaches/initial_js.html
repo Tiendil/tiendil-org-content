@@ -42,13 +42,16 @@ var filterBTokenMargin = 'x2';
 
 const subscribersNumber = 1000;
 const daysInMonth = 30;
-const COGSPerNews = 0.0006865;
-const serverCost = 75;
-const CAC = 50;
-const CR = 0.05;
-const baseSubscriptionQuota = 250;
-const profSubscriptionQuota = 1000;
 const discountStep = 0.1;
+
+const modelConfig = window.modelConfig = {
+    cogsPerNews: 0.0006865,
+    serverCost: 75,
+    customerAcquisitionCost: 50,
+    cancellationRate: 0.05,
+    baseSubscriptionQuota: 250,
+    professionalSubscriptionQuota: 1000
+};
 
 const paymentProcessorCommissionPercent = 0.025; // Stripe fee
 const paymentProcessorCommissionFixed = 0.25;  // Stripe fee
@@ -63,31 +66,31 @@ function consumptionPrice(tokens, subQuota, subTokenPrice, extraTokenPrice) {
     return subPrice + (tokens - subQuota) * extraTokenPrice;
 }
 function baseSubTokenPrice(N) {
-    return COGSPerNews * N;
+    return modelConfig.cogsPerNews * N;
 }
 
 function baseExtraTokenPrice(N, step) {
-    return COGSPerNews * N * (1 - 1 * step);
+    return modelConfig.cogsPerNews * N * (1 - 1 * step);
 }
 
 function profSubTokenPrice(N, step) {
-    return COGSPerNews * N * (1 - 2 * step);
+    return modelConfig.cogsPerNews * N * (1 - 2 * step);
 }
 
 function profExtraTokenPrice(N, step) {
-    return COGSPerNews * N * (1 - 3 * step);
+    return modelConfig.cogsPerNews * N * (1 - 3 * step);
 }
 
 function basePricePerDay(tokens, N, step) {
     return consumptionPrice(tokens,
-                            baseSubscriptionQuota,
+                            modelConfig.baseSubscriptionQuota,
                             baseSubTokenPrice(N),
                             baseExtraTokenPrice(N, step));
 }
 
 function profPricePerDay(tokens, N, step) {
     return consumptionPrice(tokens,
-                            profSubscriptionQuota,
+                            modelConfig.professionalSubscriptionQuota,
                             profSubTokenPrice(N, step),
                             profExtraTokenPrice(N, step));
 }
@@ -99,7 +102,7 @@ function paidInMonth(tokensPerDay, N, step) {
 }
 
 function spentInMonth(tokensPerDay) {
-    return tokensPerDay * COGSPerNews * daysInMonth;
+    return tokensPerDay * modelConfig.cogsPerNews * daysInMonth;
 }
 
 const users = [];
@@ -128,7 +131,8 @@ for (let i = 0; i < audience.length; i++) {
 }
 
 function COGSGlobal() {
-    return serverCost + (Math.ceil(subscribersNumber * CR) * CAC);
+    return modelConfig.serverCost +
+        (Math.ceil(subscribersNumber * modelConfig.cancellationRate) * modelConfig.customerAcquisitionCost);
 }
 
 function PaymentProcessorFee(amount) {
@@ -168,15 +172,22 @@ function model(costMultipler, discountStep) {
 
 }
 
-const fullData = [];
+let fullData = [];
 
-for (let subMarginLevel of marginLevels) {
-    for (let discountLevel of discountLevels) {
-        fullData.push(model(subMarginLevel.value, discountLevel.value));
+function rebuildModelData() {
+    fullData = [];
+
+    for (let subMarginLevel of marginLevels) {
+        for (let discountLevel of discountLevels) {
+            fullData.push(model(subMarginLevel.value, discountLevel.value));
+        }
     }
+
+    document.dispatchEvent(redrawPlots);
 }
 
-console.log('fullData', fullData);
+window.rebuildModelData = rebuildModelData;
+rebuildModelData();
 
 function createPlotlyConfig(filename) {
     var config = {

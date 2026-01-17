@@ -549,34 +549,9 @@ GM удобна тем, что её доля довольно стабильна
 
 ---8<--- "./initial_js.html"
 
-
----8<--- "./filter_selectors.html"
-
 <!-- rename plot-xxx -->
 
-<div class="plot-filters-group">
-<select
-    class="plot-filter-margin filterASubMargin"
-    onchange="selectFilterMargin(this.value, 'filterASubMargin')">
-</select>
-
-<select
-    class="plot-filter-margin filterATokenMargin"
-    onchange="selectFilterMargin(this.value, 'filterATokenMargin')">
-</select>
-
-<select
-    class="plot-filter-margin filterBSubMargin"
-    onchange="selectFilterMargin(this.value, 'filterBSubMargin')">
-</select>
-
-<select
-    class="plot-filter-margin filterBTokenMargin"
-    onchange="selectFilterMargin(this.value, 'filterBTokenMargin')">
-</select>
-
-
-</div>
+---8<--- "./plot_filters_group.html"
 
 <div id="plot-xxx"></div>
 
@@ -609,6 +584,7 @@ heatmapPlot('plot-xxx');
 - Модель с постепенным удешевлением токенов? - это оптимизация, отметить в ограничения как «скидки»
 - Воу-воу-воу, а в какой момент пользователь платит за токены?
 - Ошибка! худший сценарий для нас это когда пользователь выбирает все предоплаченные токены.
+- стоимость дефолтных коллекций.
 
 ## TODO
 
