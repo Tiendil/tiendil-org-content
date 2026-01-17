@@ -80,6 +80,47 @@ function bindConfigInputs() {
 
 bindConfigInputs();
 
+function bindAudienceInputs() {
+    var inputs = document.querySelectorAll('.plot-audience-input');
+
+    for (var input of inputs) {
+        var group = input.dataset.audienceGroup;
+        var field = input.dataset.audienceField;
+        var valueType = input.dataset.valueType || 'float';
+
+        if (!group || !field || !modelConfig.audience[group]) {
+            continue;
+        }
+
+        input.value = modelConfig.audience[group][field];
+
+        input.addEventListener('input', function(event) {
+            var element = event.target;
+            var elementGroup = element.dataset.audienceGroup;
+            var elementField = element.dataset.audienceField;
+            var elementType = element.dataset.valueType || 'float';
+            var rawValue = element.value;
+
+            var parsedValue = null;
+
+            if (elementType === 'int') {
+                parsedValue = parseInt(rawValue, 10);
+            } else {
+                parsedValue = parseFloat(rawValue);
+            }
+
+            if (Number.isNaN(parsedValue)) {
+                return;
+            }
+
+            modelConfig.audience[elementGroup][elementField] = parsedValue;
+            rebuildModelData();
+        });
+    }
+}
+
+bindAudienceInputs();
+
 function selectFilterMargin(value, filterVarName, skipEvent) {
     window[filterVarName] = value;
 

@@ -13,12 +13,6 @@ const redrawPlots = new CustomEvent('redrawPlots', {
  });
 
 
-const audience = [
-    {name: 'beginner', fraction: 0.8, minNews: 1, maxNews: 99},
-    {name: 'advanced', fraction: 0.16, minNews: 100, maxNews: 999},
-    {name: 'professional', fraction: 0.04, minNews: 1000, maxNews: 1000}
-];
-
 const marginLevels = [
     {id: 'x2', name: 'x2', value: 2},
     {id: 'x3', name: 'x3', value: 3},
@@ -47,7 +41,11 @@ const modelConfig = window.modelConfig = {
     customerAcquisitionCost: 50,
     cancellationRate: 0.05,
     baseSubscriptionQuota: 250,
-    professionalSubscriptionQuota: 1000
+    professionalSubscriptionQuota: 1000,
+    audience: {
+        beginners: {fraction: 0.8, minNews: 1, maxNews: 99},
+        advanced: {fraction: 0.16, minNews: 100, maxNews: 999}
+    }
 };
 
 const paymentProcessorCommissionPercent = 0.025; // Stripe fee
@@ -134,29 +132,62 @@ function spentInMonth(tokensPerDay) {
     return tokensPerDay * modelConfig.cogsPerNews * daysInMonth;
 }
 
-const users = [];
+let users = [];
 
-for (let i = 0; i < audience.length; i++) {
-    const group = audience[i];
-    const groupSize = Math.ceil(subscribersNumber * group.fraction);
+function buildAudienceConfig() {
+    var beginnerFraction = modelConfig.audience.beginners.fraction;
+    var advancedFraction = modelConfig.audience.advanced.fraction;
+    var professionalFraction = Math.max(0, 1 - beginnerFraction - advancedFraction);
+    var professionalMin = modelConfig.audience.advanced.maxNews + 1;
 
-    const {min, max} = {min: group.minNews, max: group.maxNews};
+    return [
+        {
+            name: 'beginner',
+            fraction: beginnerFraction,
+            minNews: modelConfig.audience.beginners.minNews,
+            maxNews: modelConfig.audience.beginners.maxNews
+        },
+        {
+            name: 'advanced',
+            fraction: advancedFraction,
+            minNews: modelConfig.audience.beginners.maxNews + 1,
+            maxNews: modelConfig.audience.advanced.maxNews
+        },
+        {
+            name: 'professional',
+            fraction: professionalFraction,
+            minNews: professionalMin,
+            maxNews: professionalMin
+        }
+    ];
+}
 
-    for (let j = 0; j < groupSize; j++) {
-        // deterministic quantile in (0, 1)
-        const v = (j + 0.5) / groupSize;
+function rebuildUsers() {
+    users = [];
+    var audienceConfig = buildAudienceConfig();
 
-        // log-uniform quantile: n = min * (max/min)^v
-        const n = (min === max)
-            ? min
-              : Math.round(min * Math.pow(max / min, v));
+    for (let i = 0; i < audienceConfig.length; i++) {
+        const group = audienceConfig[i];
+        const groupSize = Math.ceil(subscribersNumber * group.fraction);
 
-        const newsPerDay = Math.max(min, Math.min(max, n));
+        const {min, max} = {min: group.minNews, max: group.maxNews};
 
-        users.push({
-            newsPerDay: newsPerDay,
-            groupId: i,
-        });
+        for (let j = 0; j < groupSize; j++) {
+            // deterministic quantile in (0, 1)
+            const v = (j + 0.5) / groupSize;
+
+            // log-uniform quantile: n = min * (max/min)^v
+            const n = (min === max)
+                ? min
+                  : Math.round(min * Math.pow(max / min, v));
+
+            const newsPerDay = Math.max(min, Math.min(max, n));
+
+            users.push({
+                newsPerDay: newsPerDay,
+                groupId: i,
+            });
+        }
     }
 }
 
@@ -205,6 +236,7 @@ function model(costMultipler, discountStep) {
 let fullData = [];
 
 function rebuildModelData() {
+    rebuildUsers();
     fullData = [];
 
     for (let subMarginLevel of marginLevels) {
@@ -262,7 +294,7 @@ function updateSummaryTable() {
 
     var baseRevenue = 0;
     var profRevenue = 0;
-    var groupProfits = new Array(audience.length).fill(0);
+    var groupProfits = new Array(buildAudienceConfig().length).fill(0);
     var summaryModel = model(marginMultiplier, discountValue);
 
     var globalCostPerUser = COGSGlobal() / subscribersNumber;
@@ -407,6 +439,31 @@ function heatmapPlot(selector, kind) {
 }
 
 document.addEventListener('redrawPlots', updateSummaryTable);
+
+function updateAudienceSummary() {
+    var beginnerFraction = modelConfig.audience.beginners.fraction;
+    var advancedFraction = modelConfig.audience.advanced.fraction;
+    var professionalFraction = Math.max(0, 1 - beginnerFraction - advancedFraction);
+
+    var advancedMin = modelConfig.audience.beginners.maxNews + 1;
+    var professionalMin = modelConfig.audience.advanced.maxNews + 1;
+    var professionalMax = 'inf';
+
+    function setSummary(key, value) {
+        var cell = document.querySelector(`[data-audience-summary="${key}"]`);
+        if (!cell) {
+            return;
+        }
+        cell.textContent = value;
+    }
+
+    setSummary('professionalFraction', professionalFraction.toFixed(2));
+    setSummary('advancedMin', advancedMin);
+    setSummary('professionalMin', professionalMin);
+    setSummary('professionalMax', professionalMax);
+}
+
+document.addEventListener('redrawPlots', updateAudienceSummary);
 
 // function filterRows(subMarginId, tokenMarginId) {
 //     const subMarginValue = marginLevels.find(level => level.id === subMarginId).value;

@@ -12,7 +12,8 @@
     white-space: nowrap;
     font-weight: 600;
 }
-.plot-filters-group input.plot-config-input {
+.plot-filters-group input.plot-config-input,
+.plot-filters-group input.plot-audience-input {
     width: 100%;
     min-width: 7rem;
     padding: 0.25rem 0.4rem;
@@ -84,6 +85,62 @@
                 type="number"
                 step="1">
         </td>
+    </tr>
+    <tr>
+        <td class="label">Begginers</td>
+        <td>
+            <input
+                class="plot-audience-input"
+                data-audience-group="beginners"
+                data-audience-field="fraction"
+                data-value-type="float"
+                type="number"
+                step="0.01"
+                min="0"
+                max="1">
+        </td>
+        <td class="label">1</td>
+        <td>
+            <input
+                class="plot-audience-input"
+                data-audience-group="beginners"
+                data-audience-field="maxNews"
+                data-value-type="int"
+                type="number"
+                step="1"
+                min="1">
+        </td>
+    </tr>
+    <tr>
+        <td class="label">Advanced</td>
+        <td>
+            <input
+                class="plot-audience-input"
+                data-audience-group="advanced"
+                data-audience-field="fraction"
+                data-value-type="float"
+                type="number"
+                step="0.01"
+                min="0"
+                max="1">
+        </td>
+        <td data-audience-summary="advancedMin">—</td>
+        <td>
+            <input
+                class="plot-audience-input"
+                data-audience-group="advanced"
+                data-audience-field="maxNews"
+                data-value-type="int"
+                type="number"
+                step="1"
+                min="1">
+        </td>
+    </tr>
+    <tr>
+        <td class="label">Professionals</td>
+        <td data-audience-summary="professionalFraction">—</td>
+        <td data-audience-summary="professionalMin">—</td>
+        <td data-audience-summary="professionalMax">—</td>
     </tr>
 </table>
 </div>
