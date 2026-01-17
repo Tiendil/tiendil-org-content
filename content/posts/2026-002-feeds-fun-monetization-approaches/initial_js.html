@@ -71,6 +71,21 @@ function formatMoneyToken(value) {
     return value.toFixed(6);
 }
 
+function formatMonthlyDaily(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    var perDay = value / daysInMonth;
+    return `${formatMoneyK(value)} $/m / ${formatMoneyK(perDay)} $/d`;
+}
+
+function formatMonthlyOnly(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    return `${formatMoneyK(value)} $/m`;
+}
+
 function consumptionPrice(tokens, subQuota, subTokenPrice, extraTokenPrice) {
     const subPrice = subQuota * subTokenPrice;
 
@@ -281,15 +296,15 @@ function updateSummaryTable() {
         cell.textContent = value;
     }
 
-    setSummaryValue('basicSubscriptionPrice', formatMoneyK(basicSubMonthly));
-    setSummaryValue('basicTokenPrice', formatMoneyToken(basicTokenPrice));
-    setSummaryValue('professionalSubscriptionPrice', formatMoneyK(profSubMonthly));
-    setSummaryValue('professionalTokenPrice', formatMoneyToken(profTokenPrice));
-    setSummaryValue('basicRevenue', formatMoneyK(baseRevenue));
-    setSummaryValue('professionalRevenue', formatMoneyK(profRevenue));
-    setSummaryValue('beginnerProfit', formatMoneyK(groupProfits[0]));
-    setSummaryValue('advancedProfit', formatMoneyK(groupProfits[1]));
-    setSummaryValue('professionalProfit', formatMoneyK(groupProfits[2]));
+    setSummaryValue('basicSubscriptionPrice', formatMonthlyOnly(basicSubMonthly));
+    setSummaryValue('basicTokenPrice', `${formatMoneyToken(basicTokenPrice)} $/news`);
+    setSummaryValue('professionalSubscriptionPrice', formatMonthlyOnly(profSubMonthly));
+    setSummaryValue('professionalTokenPrice', `${formatMoneyToken(profTokenPrice)} $/news`);
+    setSummaryValue('basicRevenue', formatMonthlyOnly(baseRevenue));
+    setSummaryValue('professionalRevenue', formatMonthlyOnly(profRevenue));
+    setSummaryValue('beginnerProfit', formatMonthlyOnly(groupProfits[0]));
+    setSummaryValue('advancedProfit', formatMonthlyOnly(groupProfits[1]));
+    setSummaryValue('professionalProfit', formatMonthlyOnly(groupProfits[2]));
 }
 
 function heatmapPlot(selector, kind) {
@@ -331,10 +346,10 @@ function heatmapPlot(selector, kind) {
                 row.push(metricValue);
                 textRow.push(
                     rowData
-                        ? `Gross Margin: ${formatMoneyK(rowData.grossMargin)}<br>` +
-                          `Total Paid: ${formatMoneyK(rowData.totalPaid)}<br>` +
-                          `Spent on News: ${formatMoneyK(rowData.spentOnNews)}<br>` +
-                          `Payment Fees: ${formatMoneyK(rowData.paymentProcessorFee)}`
+                        ? `Gross Margin: ${formatMonthlyDaily(rowData.grossMargin)}<br>` +
+                          `Total Paid: ${formatMonthlyDaily(rowData.totalPaid)}<br>` +
+                          `Spent on News: ${formatMonthlyDaily(rowData.spentOnNews)}<br>` +
+                          `Payment Fees: ${formatMonthlyDaily(rowData.paymentProcessorFee)}`
                         : 'N/A'
                 );
             }
