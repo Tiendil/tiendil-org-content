@@ -263,6 +263,7 @@ function updateSummaryTable() {
     var baseRevenue = 0;
     var profRevenue = 0;
     var groupProfits = new Array(audience.length).fill(0);
+    var summaryModel = model(marginMultiplier, discountValue);
 
     var globalCostPerUser = COGSGlobal() / subscribersNumber;
 
@@ -287,23 +288,41 @@ function updateSummaryTable() {
         }
     }
 
-    function setSummaryValue(key, value) {
+    function applyValueClass(cell, numericValue) {
+        cell.classList.remove('value-negative', 'value-warn', 'value-good');
+
+        if (numericValue == null || Number.isNaN(numericValue)) {
+            return;
+        }
+
+        if (numericValue < 0) {
+            cell.classList.add('value-negative');
+        } else if (numericValue > 20000) {
+            cell.classList.add('value-good');
+        } else if (numericValue > 10000) {
+            cell.classList.add('value-warn');
+        }
+    }
+
+    function setSummaryValue(key, value, numericValue) {
         var cell = table.querySelector(`[data-summary="${key}"]`);
         if (!cell) {
             return;
         }
         cell.textContent = value;
+        applyValueClass(cell, numericValue);
     }
 
-    setSummaryValue('basicSubscriptionPrice', formatMonthlyOnly(basicSubMonthly));
-    setSummaryValue('basicTokenPrice', `${formatMoneyToken(basicTokenPrice)} $/100 news`);
-    setSummaryValue('professionalSubscriptionPrice', formatMonthlyOnly(profSubMonthly));
-    setSummaryValue('professionalTokenPrice', `${formatMoneyToken(profTokenPrice)} $/100 news`);
-    setSummaryValue('basicRevenue', formatMonthlyOnly(baseRevenue));
-    setSummaryValue('professionalRevenue', formatMonthlyOnly(profRevenue));
-    setSummaryValue('beginnerProfit', formatMonthlyOnly(groupProfits[0]));
-    setSummaryValue('advancedProfit', formatMonthlyOnly(groupProfits[1]));
-    setSummaryValue('professionalProfit', formatMonthlyOnly(groupProfits[2]));
+    setSummaryValue('basicSubscriptionPrice', formatMonthlyOnly(basicSubMonthly), basicSubMonthly);
+    setSummaryValue('basicTokenPrice', `${formatMoneyToken(basicTokenPrice)} $/100 news`, null);
+    setSummaryValue('professionalSubscriptionPrice', formatMonthlyOnly(profSubMonthly), profSubMonthly);
+    setSummaryValue('professionalTokenPrice', `${formatMoneyToken(profTokenPrice)} $/100 news`, null);
+    setSummaryValue('basicRevenue', formatMonthlyOnly(baseRevenue), baseRevenue);
+    setSummaryValue('professionalRevenue', formatMonthlyOnly(profRevenue), profRevenue);
+    setSummaryValue('beginnerProfit', formatMonthlyOnly(groupProfits[0]), groupProfits[0]);
+    setSummaryValue('advancedProfit', formatMonthlyOnly(groupProfits[1]), groupProfits[1]);
+    setSummaryValue('professionalProfit', formatMonthlyOnly(groupProfits[2]), groupProfits[2]);
+    setSummaryValue('grossMargin', formatMonthlyOnly(summaryModel.grossMargin), summaryModel.grossMargin);
 }
 
 function heatmapPlot(selector, kind) {
