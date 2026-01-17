@@ -45,6 +45,39 @@
     background: #fff;
     color: #111;
 }
+.plot-price-matrix {
+    margin-top: 0.75rem;
+}
+.plot-price-matrix table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #c7c7c7;
+}
+.plot-price-matrix th,
+.plot-price-matrix td {
+    padding: 0.35rem 0.5rem;
+    border-top: 1px solid #e0e0e0;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+.plot-price-matrix td.discount-sep,
+.plot-price-matrix th.discount-sep {
+    border-right: 2px solid #d2d6dc;
+}
+.plot-price-matrix td.base-sep,
+.plot-price-matrix th.base-sep {
+    border-right: 2px solid #d2d6dc;
+}
+.plot-price-matrix th {
+    background: #f7f8fa;
+    font-weight: 600;
+}
+.plot-price-matrix th.label,
+.plot-price-matrix td.label {
+    text-align: left;
+}
 </style>
 
 <table class="plot-summary-table">
@@ -113,3 +146,7 @@
         <td class="value"></td>
     </tr>
 </table>
+
+<div class="plot-price-matrix">
+    <table></table>
+</div>

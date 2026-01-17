@@ -418,10 +418,10 @@ function heatmapPlot(selector, kind) {
                 row.push(metricValue);
                 textRow.push(
                     rowData
-                        ? `Gross Margin: ${formatMonthlyDaily(rowData.grossMargin)}<br>` +
-                          `Total Paid: ${formatMonthlyDaily(rowData.totalPaid)}<br>` +
-                          `Spent on News: ${formatMonthlyDaily(rowData.spentOnNews)}<br>` +
-                          `Payment Fees: ${formatMonthlyDaily(rowData.paymentProcessorFee)}`
+                        ? `Gross Margin: ${formatMonthlyOnly(rowData.grossMargin)}<br>` +
+                          `Total Paid: ${formatMonthlyOnly(rowData.totalPaid)}<br>` +
+                          `Spent on News: ${formatMonthlyOnly(rowData.spentOnNews)}<br>` +
+                          `Payment Fees: ${formatMonthlyOnly(rowData.paymentProcessorFee)}`
                         : 'N/A'
                 );
             }
@@ -486,6 +486,47 @@ function updateAudienceSummary() {
 }
 
 document.addEventListener('redrawPlots', updateAudienceSummary);
+
+function updatePriceMatrix() {
+    var container = document.querySelector('.plot-price-matrix table');
+    if (!container) {
+        return;
+    }
+
+    var headerRow1 = '<tr><th class="label base-sep" rowspan="2">Base margin</th>';
+    for (var discount of discountLevels) {
+        headerRow1 += `<th colspan="2" class="discount-sep">${discount.name}</th>`;
+    }
+    headerRow1 += '</tr>';
+
+    var headerRow2 = '<tr>';
+    for (var _ of discountLevels) {
+        headerRow2 += '<th>Basic</th><th class="discount-sep">Pro</th>';
+    }
+    headerRow2 += '</tr>';
+
+    var bodyRows = '';
+    for (var margin of marginLevels) {
+        var row = `<tr><td class="label base-sep">${margin.name}</td>`;
+        for (var discount of discountLevels) {
+            var basicMonthly = modelConfig.baseSubscriptionQuota *
+                baseSubTokenPrice(margin.value) *
+                daysInMonth;
+            var profMonthly = modelConfig.professionalSubscriptionQuota *
+                profSubTokenPrice(margin.value, discount.value) *
+                daysInMonth;
+
+            row += `<td>${formatMonthlyOnly(basicMonthly)}</td>`;
+            row += `<td class="discount-sep">${formatMonthlyOnly(profMonthly)}</td>`;
+        }
+        row += '</tr>';
+        bodyRows += row;
+    }
+
+    container.innerHTML = `<thead>${headerRow1}${headerRow2}</thead><tbody>${bodyRows}</tbody>`;
+}
+
+document.addEventListener('redrawPlots', updatePriceMatrix);
 
 // function filterRows(subMarginId, tokenMarginId) {
 //     const subMarginValue = marginLevels.find(level => level.id === subMarginId).value;
