@@ -561,10 +561,14 @@ heatmapPlot('plot-xxx');
 
 ---8<--- "./plot_summary_table.html"
 
-Для сравнения, вот цены подписок конкурентов:
+### Цены подписок
+
+/// note | Конкуренты
 
 - **Innoreader** — `~9 eur/month`.
 - **Feedly** — `~9 eur/moth`, `~13 eur/month` (pro+, только годовая подписка).
+
+///
 
 <div class="plot-price-matrix">
     <table></table>
