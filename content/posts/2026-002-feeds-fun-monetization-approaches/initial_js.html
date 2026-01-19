@@ -453,6 +453,7 @@ function updateSummaryTable() {
     setSummaryValue('beginnerProfit', formatMonthlyOnly(groupProfits[0]), groupProfits[0]);
     setSummaryValue('advancedProfit', formatMonthlyOnly(groupProfits[1]), groupProfits[1]);
     setSummaryValue('professionalProfit', formatMonthlyOnly(groupProfits[2]), groupProfits[2]);
+    setSummaryValue('totalLlmCosts', formatMonthlyOnly(-summaryModel.spentOnNews), -summaryModel.spentOnNews);
     setSummaryValue('grossMargin', formatMonthlyOnly(summaryModel.grossMargin), summaryModel.grossMargin);
     setSummaryValue('modifiedMargin', formatMonthlyOnly(summaryModel.modifiedMargin), summaryModel.modifiedMargin);
     setSummaryValue('totalCAC', formatMonthlyOnly(-summaryModel.totalCAC), -summaryModel.totalCAC);
