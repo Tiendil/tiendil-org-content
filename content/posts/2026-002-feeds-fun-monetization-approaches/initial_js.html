@@ -106,6 +106,20 @@ function formatMonthlyOnly(value) {
     return `${formatMoneyK(value)} $/m`;
 }
 
+function formatNewsPerDay(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    return value.toFixed(0);
+}
+
+function formatPercent(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    return `${(value * 100).toFixed(1)}%`;
+}
+
 function consumptionPrice(tokens, subQuota, subTokenPrice, extraTokenPrice) {
     const subPrice = subQuota * subTokenPrice;
 
@@ -143,6 +157,44 @@ function profPricePerDay(tokens, N, step) {
                             modelConfig.professionalSubscriptionQuota,
                             profSubTokenPrice(N, step),
                             profExtraTokenPrice(N, step));
+}
+
+function breakEvenNewsPerDayForPro(step) {
+    const baseQuota = modelConfig.baseSubscriptionQuota;
+    const proQuota = modelConfig.professionalSubscriptionQuota;
+    const denom = 1 - step;
+
+    if (denom === 0) {
+        return null;
+    }
+
+    const breakEven = (proQuota * (1 - 2 * step) - step * baseQuota) / denom;
+
+    if (!Number.isFinite(breakEven)) {
+        return null;
+    }
+
+    if (breakEven < baseQuota || breakEven > proQuota) {
+        return null;
+    }
+
+    return breakEven;
+}
+
+function breakEvenPercentForPro(breakEvenNewsPerDay) {
+    if (breakEvenNewsPerDay == null || Number.isNaN(breakEvenNewsPerDay)) {
+        return null;
+    }
+
+    const baseQuota = modelConfig.baseSubscriptionQuota;
+    const proQuota = modelConfig.professionalSubscriptionQuota;
+    const quotaRange = proQuota - baseQuota;
+
+    if (quotaRange <= 0) {
+        return null;
+    }
+
+    return (breakEvenNewsPerDay - baseQuota) / quotaRange;
 }
 
 function paidInMonth(tokensPerDay, N, step) {
@@ -329,6 +381,8 @@ function updateSummaryTable() {
     var summaryModel = model(marginMultiplier, discountValue);
 
     var globalCostPerUser = COGSGlobal() / modelConfig.audienceSize;
+    var proBreakEvenNewsPerDay = breakEvenNewsPerDayForPro(discountValue);
+    var proBreakEvenPercent = breakEvenPercentForPro(proBreakEvenNewsPerDay);
 
     for (let i = 0; i < users.length; i++) {
         var user = users[i];
@@ -381,6 +435,8 @@ function updateSummaryTable() {
     setSummaryValue('professionalSubscriptionPrice', formatMonthlyOnly(profSubMonthly), profSubMonthly);
     setSummaryValue('professionalTokenPrice', `${formatMoneyToken(profTokenPrice)} $/100 news`, null);
     setSummaryValue('basicRevenue', formatMonthlyOnly(baseRevenue), baseRevenue);
+    setSummaryValue('proBreakEvenNewsPerDay', formatNewsPerDay(proBreakEvenNewsPerDay), null);
+    setSummaryValue('proBreakEvenPercent', formatPercent(proBreakEvenPercent), null);
     setSummaryValue('professionalRevenue', formatMonthlyOnly(profRevenue), profRevenue);
     setSummaryValue('beginnerProfit', formatMonthlyOnly(groupProfits[0]), groupProfits[0]);
     setSummaryValue('advancedProfit', formatMonthlyOnly(groupProfits[1]), groupProfits[1]);
