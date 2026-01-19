@@ -42,6 +42,7 @@ const modelConfig = window.modelConfig = {
     defaultCollectionsCost: 500,
     customerAcquisitionCost: 50,
     cancellationRate: 0.05,
+    vatRate: 0.25,
     audienceSize: subscribersNumber,
     baseSubscriptionQuota: 250,
     professionalSubscriptionQuota: 500,
@@ -297,9 +298,10 @@ function model(costMultipler, discountStep) {
     }
 
     const paymentProcessorFee = PaymentProcessorFee(paidTotal);
+    const totalVat = paidTotal * modelConfig.vatRate;
     const totalCACValue = totalCAC();
     const grossMargin = paidTotal - spentTotal - COGSGlobal() - paymentProcessorFee;
-    const modifiedMargin = grossMargin - totalCACValue;
+    const modifiedMargin = grossMargin - totalCACValue - totalVat;
 
     return {
         costMultipler: costMultipler,
@@ -311,7 +313,8 @@ function model(costMultipler, discountStep) {
 
         grossMargin: grossMargin,
         modifiedMargin: modifiedMargin,
-        totalCAC: totalCACValue
+        totalCAC: totalCACValue,
+        totalVat: totalVat
     };
 
 }
@@ -444,6 +447,7 @@ function updateSummaryTable() {
     setSummaryValue('grossMargin', formatMonthlyOnly(summaryModel.grossMargin), summaryModel.grossMargin);
     setSummaryValue('modifiedMargin', formatMonthlyOnly(summaryModel.modifiedMargin), summaryModel.modifiedMargin);
     setSummaryValue('totalCAC', formatMonthlyOnly(-summaryModel.totalCAC), -summaryModel.totalCAC);
+    setSummaryValue('totalVat', formatMonthlyOnly(-summaryModel.totalVat), -summaryModel.totalVat);
 }
 
 function heatmapPlot(selector, kind) {
