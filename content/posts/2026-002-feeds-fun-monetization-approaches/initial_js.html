@@ -25,7 +25,8 @@ const discountLevels = [
     {id: 'd05', name: '5%', value: 0.05},
     {id: 'd10', name: '10%', value: 0.10},
     {id: 'd15', name: '15%', value: 0.15},
-    {id: 'd20', name: '20%', value: 0.20},
+    // 20% discount makes negative profit on extra pro tokens on x2 margin
+    // => we just remove it to had consistent model behavior
 ];
 
 var filterBaseMargin = 'x2';
