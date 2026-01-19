@@ -280,6 +280,14 @@ function PaymentProcessorFee(amount) {
     return amount * paymentProcessorCommissionPercent + paymentProcessorCommissionFixed * modelConfig.audienceSize;
 }
 
+function vatFromGross(grossAmount) {
+    var vatRate = modelConfig.vatRate;
+    if (vatRate == null || Number.isNaN(vatRate) || vatRate <= 0) {
+        return 0;
+    }
+    return grossAmount * vatRate / (1 + vatRate);
+}
+
 function model(costMultipler, discountStep) {
 
     let paidTotal = 0;
@@ -299,7 +307,7 @@ function model(costMultipler, discountStep) {
     }
 
     const paymentProcessorFee = PaymentProcessorFee(paidTotal);
-    const totalVat = paidTotal * modelConfig.vatRate;
+    const totalVat = vatFromGross(paidTotal);
     const totalCACValue = totalCAC();
     const grossMargin = paidTotal - spentTotal - COGSGlobal() - paymentProcessorFee;
     const modifiedMargin = grossMargin - totalCACValue - totalVat;
