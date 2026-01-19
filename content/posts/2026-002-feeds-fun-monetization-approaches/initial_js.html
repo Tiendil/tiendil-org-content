@@ -44,6 +44,7 @@ const modelConfig = window.modelConfig = {
     cancellationRate: 0.05,
     vatRate: 0.25,
     audienceSize: subscribersNumber,
+    minBegginerConsumption: 50,
     baseSubscriptionQuota: 250,
     professionalSubscriptionQuota: 500,
     newsItemChars: 5000,
@@ -220,7 +221,7 @@ function buildAudienceConfig() {
         {
             name: 'beginner',
             fraction: beginnerFraction,
-            minNews: 1,
+            minNews: modelConfig.minBegginerConsumption,
             maxNews: modelConfig.audience.beginners.maxNews
         },
         {
