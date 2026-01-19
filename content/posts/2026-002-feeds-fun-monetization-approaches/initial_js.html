@@ -52,8 +52,8 @@ const modelConfig = window.modelConfig = {
     outputPricePer1M: 0.60,
     proxyCostPerNews: 0.000004,
     audience: {
-        beginners: {fraction: 0.8, minNews: 1, maxNews: 99},
-        advanced: {fraction: 0.16, minNews: 100, maxNews: 999}
+        beginners: {fraction: 0.8, maxNews: 99},
+        advanced: {fraction: 0.16, maxNews: 999}
     }
 };
 
@@ -219,7 +219,7 @@ function buildAudienceConfig() {
         {
             name: 'beginner',
             fraction: beginnerFraction,
-            minNews: modelConfig.audience.beginners.minNews,
+            minNews: 1,
             maxNews: modelConfig.audience.beginners.maxNews
         },
         {
