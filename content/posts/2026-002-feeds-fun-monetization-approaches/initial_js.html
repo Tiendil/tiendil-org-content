@@ -563,7 +563,7 @@ function updatePriceMatrix() {
 
     var headerRow1 = '<tr><th class="label base-sep" rowspan="2">Base margin</th>';
     for (var discount of discountLevels) {
-        headerRow1 += `<th colspan="2" class="discount-sep">${discount.name}</th>`;
+        headerRow1 += `<th colspan="2" class="discount-sep">Discount ${discount.name}</th>`;
     }
     headerRow1 += '</tr>';
 
