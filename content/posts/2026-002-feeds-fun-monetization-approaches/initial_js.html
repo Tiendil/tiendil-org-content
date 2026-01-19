@@ -214,9 +214,11 @@ function rebuildUsers() {
 }
 
 function COGSGlobal() {
-    return modelConfig.serverCost +
-        modelConfig.defaultCollectionsCost +
-        (Math.ceil(modelConfig.audienceSize * modelConfig.cancellationRate) * modelConfig.customerAcquisitionCost);
+    return modelConfig.serverCost + modelConfig.defaultCollectionsCost;
+}
+
+function totalCAC() {
+    return modelConfig.audienceSize * modelConfig.cancellationRate * modelConfig.customerAcquisitionCost;
 }
 
 function PaymentProcessorFee(amount) {
@@ -242,6 +244,9 @@ function model(costMultipler, discountStep) {
     }
 
     const paymentProcessorFee = PaymentProcessorFee(paidTotal);
+    const totalCACValue = totalCAC();
+    const grossMargin = paidTotal - spentTotal - COGSGlobal() - paymentProcessorFee;
+    const modifiedMargin = grossMargin - totalCACValue;
 
     return {
         costMultipler: costMultipler,
@@ -251,7 +256,9 @@ function model(costMultipler, discountStep) {
         spentOnNews: spentTotal,
         paymentProcessorFee: paymentProcessorFee,
 
-        grossMargin: paidTotal - spentTotal - COGSGlobal() - paymentProcessorFee
+        grossMargin: grossMargin,
+        modifiedMargin: modifiedMargin,
+        totalCAC: totalCACValue
     };
 
 }
@@ -378,6 +385,8 @@ function updateSummaryTable() {
     setSummaryValue('advancedProfit', formatMonthlyOnly(groupProfits[1]), groupProfits[1]);
     setSummaryValue('professionalProfit', formatMonthlyOnly(groupProfits[2]), groupProfits[2]);
     setSummaryValue('grossMargin', formatMonthlyOnly(summaryModel.grossMargin), summaryModel.grossMargin);
+    setSummaryValue('modifiedMargin', formatMonthlyOnly(summaryModel.modifiedMargin), summaryModel.modifiedMargin);
+    setSummaryValue('totalCAC', formatMonthlyOnly(-summaryModel.totalCAC), -summaryModel.totalCAC);
 }
 
 function heatmapPlot(selector, kind) {
@@ -387,9 +396,10 @@ function heatmapPlot(selector, kind) {
             return;
         }
 
-        const metric = kind || 'grossMargin';
+        const metric = kind || 'modifiedMargin';
         const metricLabels = {
             grossMargin: 'Gross Margin, $',
+            modifiedMargin: 'Modified Margin, $',
             totalPaid: 'Total Paid, $',
             spentOnNews: 'Spent on News, $',
             paymentProcessorFee: 'Payment Processor Fee, $'
@@ -419,7 +429,7 @@ function heatmapPlot(selector, kind) {
                 row.push(metricValue);
                 textRow.push(
                     rowData
-                        ? `Gross Margin: ${formatMonthlyOnly(rowData.grossMargin)}<br>` +
+                        ? `Modified Margin: ${formatMonthlyOnly(rowData.modifiedMargin)}<br>` +
                           `Total Paid: ${formatMonthlyOnly(rowData.totalPaid)}<br>` +
                           `Spent on News: ${formatMonthlyOnly(rowData.spentOnNews)}<br>` +
                           `Payment Fees: ${formatMonthlyOnly(rowData.paymentProcessorFee)}`

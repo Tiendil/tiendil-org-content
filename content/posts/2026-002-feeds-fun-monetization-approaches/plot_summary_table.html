@@ -32,7 +32,13 @@
     color: #0b6b2b;
     font-weight: 700;
 }
-.plot-summary-table tr.summary-gross-margin {
+.plot-summary-table tr.summary-gross-margin td.value,
+.plot-summary-table tr.summary-modified-margin td.value {
+    font-weight: 700;
+}
+.plot-summary-table tr.summary-gross-margin,
+.plot-summary-table tr.summary-total-cac,
+.plot-summary-table tr.summary-modified-margin {
     background: #f2f4f7;
 }
 .plot-summary-table select.plot-filter-margin,
@@ -142,6 +148,18 @@
     <tr class="summary-gross-margin">
         <td class="label">Gross margin</td>
         <td class="value" data-summary="grossMargin">—</td>
+        <td class="label"></td>
+        <td class="value"></td>
+    </tr>
+    <tr class="summary-total-cac">
+        <td class="label">Total CAC</td>
+        <td class="value value-negative" data-summary="totalCAC">—</td>
+        <td class="label"></td>
+        <td class="value"></td>
+    </tr>
+    <tr class="summary-modified-margin">
+        <td class="label">Modified margin</td>
+        <td class="value" data-summary="modifiedMargin">—</td>
         <td class="label"></td>
         <td class="value"></td>
     </tr>
