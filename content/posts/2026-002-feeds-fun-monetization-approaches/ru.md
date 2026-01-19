@@ -2,15 +2,14 @@
 title = "Ценообразование на старте монетизации Feeds Fun"
 tags = [ "theory", "practice", "monetization", "neural-networks", "business", "feeds-fun", "interesting", "best"]
 published_at = "2026-01-24T12:00:00+00:00"
-seo_description = "Моё исследования возможных подходов к монетизации проекта Feeds Fun."
-seo_image = ""
+seo_description = "Исследуем модель ценообразования Feeds Fun — SaaS читалки новостей с тегами на основе LLM."
+seo_image = "./cover.jpg"
 ---
 
-<!-- TODO: seo image -->
-<!-- TODO: cover image -->
-<!-- TODO: better seo description -->
-
-<!-- TODO: пост про монетизацию или про ценообразование или про обе штуки? -->
+/// brigid-images
+src = "cover.jpg"
+alt = "Обложка поста (c) ChatGPT"
+///
 
 Начал расчитывать цены для пользователей [Feeds Fun](https://feeds.fun) и понял, что надо это делать в блоге: работы почти столько же, идеалогически верно и, что важно, должно быть интересно. Всё равно бы писал [RFC}{post:two-years-writing-rfc-statistics} — вопрос сугубо в публичности. Заодно проведу для себя некоторую ретроспективу по проекту.
 
