@@ -458,6 +458,9 @@ function updateSummaryTable() {
     setSummaryValue('basicTokenPrice', `${formatMoneyToken(basicTokenPrice)} $/100 news`, null);
     setSummaryValue('professionalSubscriptionPrice', formatMonthlyOnly(profSubMonthly), profSubMonthly);
     setSummaryValue('professionalTokenPrice', `${formatMoneyToken(profTokenPrice)} $/100 news`, null);
+    setSummaryValue('cost100NewsPerDay', formatMonthlyOnly(paidInMonth(100, marginMultiplier, discountValue)), null);
+    setSummaryValue('cost500NewsPerDay', formatMonthlyOnly(paidInMonth(500, marginMultiplier, discountValue)), null);
+    setSummaryValue('cost1000NewsPerDay', formatMonthlyOnly(paidInMonth(1000, marginMultiplier, discountValue)), null);
     setSummaryValue('basicRevenue', formatMonthlyOnly(baseRevenue), baseRevenue);
     setSummaryValue('proBreakEvenNewsPerDay', formatNewsPerDay(proBreakEvenNewsPerDay), null);
     setSummaryValue('proBreakEvenPercent', formatPercent(proBreakEvenPercent), null);
