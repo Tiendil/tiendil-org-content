@@ -34,8 +34,8 @@ const discountLevels = [
     // Pay attention: 20% discount makes negative profit on extra pro tokens on x2 margin
 ];
 
-var filterBaseMargin = 'x2';
-var filterDiscountStep = 'd10';
+var filterBaseMargin = 'x9';
+var filterDiscountStep = 'd20';
 
 const subscribersNumber = 1000;
 const daysInMonth = 30;
@@ -50,7 +50,7 @@ const modelConfig = window.modelConfig = {
     vatRate: 0.25,
     audienceSize: subscribersNumber,
     minBegginerConsumption: 50,
-    baseSubscriptionQuota: 250,
+    baseSubscriptionQuota: 100,
     professionalSubscriptionQuota: 500,
     newsItemChars: 5000,
     charsPerToken: 4,
