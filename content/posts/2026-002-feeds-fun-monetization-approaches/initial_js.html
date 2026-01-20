@@ -120,6 +120,13 @@ function formatNewsPerDay(value) {
     return value.toFixed(0);
 }
 
+function formatNewsPerMonth(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    return value.toFixed(0);
+}
+
 function formatPercent(value) {
     if (value == null || Number.isNaN(value)) {
         return 'N/A';
@@ -614,5 +621,35 @@ function updatePriceMatrix() {
 }
 
 document.addEventListener('redrawPlots', updatePriceMatrix);
+
+function updateNewsCostMatrix() {
+    var container = document.querySelector('.plot-news-cost-matrix table');
+    if (!container) {
+        return;
+    }
+
+    var marginLevel = marginLevels.find(level => level.id === filterBaseMargin) || marginLevels[0];
+    var marginMultiplier = marginLevel ? marginLevel.value : marginLevels[0].value;
+    var discountLevel = discountLevels.find(level => level.id === filterDiscountStep) || discountLevels[0];
+    var discountValue = discountLevel ? discountLevel.value : discountLevels[0].value;
+
+    var headerRow = '<tr><th>News/day</th><th>News/month</th><th>Optimal cost/month</th></tr>';
+    var bodyRows = '';
+
+    for (var daily = 100; daily <= 1000; daily += 100) {
+        var monthlyNews = daily * daysInMonth;
+        var optimalMonthlyCost = paidInMonth(daily, marginMultiplier, discountValue);
+
+        bodyRows += `<tr>` +
+            `<td>${formatNewsPerDay(daily)}</td>` +
+            `<td>${formatNewsPerMonth(monthlyNews)}</td>` +
+            `<td>${formatMonthlyOnly(optimalMonthlyCost)}</td>` +
+            `</tr>`;
+    }
+
+    container.innerHTML = `<thead>${headerRow}</thead><tbody>${bodyRows}</tbody>`;
+}
+
+document.addEventListener('redrawPlots', updateNewsCostMatrix);
 
 </script>
