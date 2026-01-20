@@ -1,0 +1,179 @@
+<style>
+.plot-summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+    border: 1px solid #c7c7c7;
+}
+.plot-summary-table td {
+    padding: 0.35rem 0.5rem;
+    vertical-align: middle;
+    border-top: 1px solid #e0e0e0;
+    white-space: nowrap;
+}
+.plot-summary-table td.label {
+    font-weight: 600;
+    width: 25%;
+}
+.plot-summary-table td.value {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    width: 25%;
+}
+.plot-summary-table td.value.value-negative {
+    color: #b00020;
+    font-weight: 700;
+}
+.plot-summary-table td.value.value-warn {
+    color: #8a6d00;
+    font-weight: 700;
+}
+.plot-summary-table td.value.value-good {
+    color: #0b6b2b;
+    font-weight: 700;
+}
+.plot-summary-table tr.summary-gross-margin td.value,
+.plot-summary-table tr.summary-modified-margin td.value {
+    font-weight: 700;
+}
+.plot-summary-table tr.summary-gross-margin,
+.plot-summary-table tr.summary-total-cac,
+.plot-summary-table tr.summary-total-vat,
+.plot-summary-table tr.summary-modified-margin {
+    background: #f2f4f7;
+}
+.plot-summary-table select.plot-filter-margin,
+.plot-summary-table select.plot-filter-discount {
+    width: 100%;
+    min-width: 7rem;
+    padding: 0.25rem 0.4rem;
+    border: 1px solid #9aa0a6;
+    border-radius: 4px;
+    background: #fff;
+    color: #111;
+}
+.plot-price-matrix {
+    margin-top: 0.75rem;
+}
+.plot-price-matrix table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #c7c7c7;
+}
+.plot-price-matrix th,
+.plot-price-matrix td {
+    padding: 0.35rem 0.5rem;
+    border-top: 1px solid #e0e0e0;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+.plot-price-matrix td.discount-sep,
+.plot-price-matrix th.discount-sep {
+    border-right: 2px solid #d2d6dc;
+}
+.plot-price-matrix td.base-sep,
+.plot-price-matrix th.base-sep {
+    border-right: 2px solid #d2d6dc;
+}
+.plot-price-matrix th {
+    background: #f7f8fa;
+    font-weight: 600;
+}
+.plot-price-matrix th.label,
+.plot-price-matrix td.label {
+    text-align: left;
+}
+</style>
+
+<table class="plot-summary-table">
+    <tr>
+        <td class="label">Base margin</td>
+        <td class="value">
+            <select
+                class="plot-filter-margin filterBaseMargin"
+                onchange="selectFilterMargin(this.value, 'filterBaseMargin')">
+            </select>
+        </td>
+        <td class="label">Discount step</td>
+        <td class="value">
+            <select
+                class="plot-filter-discount filterDiscountStep"
+                onchange="selectFilterDiscount(this.value, 'filterDiscountStep')">
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td class="label">Basic subscription</td>
+        <td class="value" data-summary="basicSubscriptionPrice">—</td>
+        <td class="label">Basic token price</td>
+        <td class="value" data-summary="basicTokenPrice">—</td>
+    </tr>
+    <tr>
+        <td class="label">Professional subscription</td>
+        <td class="value" data-summary="professionalSubscriptionPrice">—</td>
+        <td class="label">Professional token price</td>
+        <td class="value" data-summary="professionalTokenPrice">—</td>
+    </tr>
+    <tr>
+        <td class="label">Basic subscribers revenue</td>
+        <td class="value" data-summary="basicRevenue">—</td>
+        <td class="label">Break-even News/day for Pro</td>
+        <td class="value" data-summary="proBreakEvenNewsPerDay">—</td>
+    </tr>
+    <tr>
+        <td class="label">Professional subscribers revenue</td>
+        <td class="value" data-summary="professionalRevenue">—</td>
+        <td class="label">Break-even % for Pro</td>
+        <td class="value" data-summary="proBreakEvenPercent">—</td>
+    </tr>
+    <tr>
+        <td class="label">Begginer users profit</td>
+        <td class="value" data-summary="beginnerProfit">—</td>
+        <td class="label">100 news/day cost</td>
+        <td class="value" data-summary="cost100NewsPerDay">—</td>
+    </tr>
+    <tr>
+        <td class="label">Advanced users profit</td>
+        <td class="value" data-summary="advancedProfit">—</td>
+        <td class="label">500 news/day cost</td>
+        <td class="value" data-summary="cost500NewsPerDay">—</td>
+    </tr>
+    <tr>
+        <td class="label">Professional users profit</td>
+        <td class="value" data-summary="professionalProfit">—</td>
+        <td class="label">1000 news/day cost</td>
+        <td class="value" data-summary="cost1000NewsPerDay">—</td>
+    </tr>
+    <tr class="summary-total-llm-costs">
+        <td class="label">Total LLM costs</td>
+        <td class="value value-negative" data-summary="totalLlmCosts">—</td>
+        <td class="label"></td>
+        <td class="value"></td>
+    </tr>
+    <tr class="summary-gross-margin">
+        <td class="label">Gross margin</td>
+        <td class="value" data-summary="grossMargin">—</td>
+        <td class="label"></td>
+        <td class="value"></td>
+    </tr>
+    <tr class="summary-total-cac">
+        <td class="label">Total CAC</td>
+        <td class="value value-negative" data-summary="totalCAC">—</td>
+        <td class="label"></td>
+        <td class="value"></td>
+    </tr>
+    <tr class="summary-total-vat">
+        <td class="label">Total VAT</td>
+        <td class="value value-negative" data-summary="totalVat">—</td>
+        <td class="label"></td>
+        <td class="value"></td>
+    </tr>
+    <tr class="summary-modified-margin">
+        <td class="label">Modified margin</td>
+        <td class="value" data-summary="modifiedMargin">—</td>
+        <td class="label"></td>
+        <td class="value"></td>
+    </tr>
+</table>

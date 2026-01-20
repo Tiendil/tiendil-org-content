@@ -1,0 +1,658 @@
+<!-- TODO: move to brigid config? -->
+<!-- TODO: if moved, how to turn on optionally? -->
+
+<script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
+
+
+<script type="text/javascript">
+
+const redrawPlots = new CustomEvent('redrawPlots', {
+    detail: {
+        message: "redraw plots",
+    }
+ });
+
+
+const marginLevels = [
+    {id: 'x2', name: 'x2', value: 2},
+    {id: 'x3', name: 'x3', value: 3},
+    {id: 'x4', name: 'x4', value: 4},
+    {id: 'x5', name: 'x5', value: 5},
+    {id: 'x6', name: 'x6', value: 6},
+    {id: 'x7', name: 'x7', value: 7},
+    {id: 'x8', name: 'x8', value: 8},
+    {id: 'x9', name: 'x9', value: 9},
+    {id: 'x10', name: 'x10', value: 10},
+    {id: 'x20', name: 'x20', value: 20},
+];
+
+const discountLevels = [
+    {id: 'd05', name: '5%', value: 0.05},
+    {id: 'd10', name: '10%', value: 0.10},
+    {id: 'd15', name: '15%', value: 0.15},
+    {id: 'd20', name: '20%', value: 0.2},
+    // Pay attention: 20% discount makes negative profit on extra pro tokens on x2 margin
+];
+
+var filterBaseMargin = 'x9';
+var filterDiscountStep = 'd20';
+
+const subscribersNumber = 1000;
+const daysInMonth = 30;
+const discountStep = 0.1;
+
+const modelConfig = window.modelConfig = {
+    cogsPerNews: 0,
+    serverCost: 200,
+    defaultCollectionsCost: 500,
+    customerAcquisitionCost: 100,
+    cancellationRate: 0.05,
+    vatRate: 0.25,
+    audienceSize: subscribersNumber,
+    minBegginerConsumption: 50,
+    baseSubscriptionQuota: 100,
+    professionalSubscriptionQuota: 500,
+    newsItemChars: 5000,
+    charsPerToken: 4,
+    outputTokens: 825,
+    inputPricePer1M: 0.15,
+    outputPricePer1M: 0.60,
+    proxyCostPerNews: 0.000004,
+    audience: {
+        beginners: {fraction: 0.8, maxNews: 99},
+        advanced: {fraction: 0.16, maxNews: 999}
+    }
+};
+
+function recalcCogsPerNews() {
+    var inputTokens = modelConfig.newsItemChars / modelConfig.charsPerToken;
+    var inputCost = inputTokens * modelConfig.inputPricePer1M / 1000000;
+    var outputCost = modelConfig.outputTokens * modelConfig.outputPricePer1M / 1000000;
+
+    modelConfig.cogsPerNews = modelConfig.proxyCostPerNews + inputCost + outputCost;
+
+    if (window.cogsPerNewsInput) {
+        window.cogsPerNewsInput.value = modelConfig.cogsPerNews;
+    }
+}
+
+recalcCogsPerNews();
+
+const paymentProcessorCommissionPercent = 0.025; // Stripe fee
+const paymentProcessorCommissionFixed = 0.30;  // Stripe fee
+
+function formatMoneyK(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    if (Math.abs(value) < 1000) {
+        return value.toFixed(2);
+    }
+    return (value / 1000).toFixed(2) + 'k';
+}
+
+function formatMoneyToken(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    return (value * 100).toFixed(2);
+}
+
+function formatMonthlyDaily(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    var perDay = value / daysInMonth;
+    return `${formatMoneyK(value)} $/m / ${formatMoneyK(perDay)} $/d`;
+}
+
+function formatMonthlyOnly(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    return `${formatMoneyK(value)} $/m`;
+}
+
+function formatNewsPerDay(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    return value.toFixed(0);
+}
+
+function formatNewsPerMonth(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    return value.toFixed(0);
+}
+
+function formatPercent(value) {
+    if (value == null || Number.isNaN(value)) {
+        return 'N/A';
+    }
+    return `${(value * 100).toFixed(1)}%`;
+}
+
+function consumptionPrice(tokens, subQuota, subTokenPrice, extraTokenPrice) {
+    const subPrice = subQuota * subTokenPrice;
+
+    if (tokens <= subQuota) {
+        return subPrice;
+    }
+
+    return subPrice + (tokens - subQuota) * extraTokenPrice;
+}
+function baseSubTokenPrice(N) {
+    return modelConfig.cogsPerNews * N;
+}
+
+function baseExtraTokenPrice(N, step) {
+    return modelConfig.cogsPerNews * N * (1 - 1 * step);
+}
+
+function profSubTokenPrice(N, step) {
+    return modelConfig.cogsPerNews * N * (1 - 2 * step);
+}
+
+function profExtraTokenPrice(N, step) {
+    return modelConfig.cogsPerNews * N * (1 - 3 * step);
+}
+
+function basePricePerDay(tokens, N, step) {
+    return consumptionPrice(tokens,
+                            modelConfig.baseSubscriptionQuota,
+                            baseSubTokenPrice(N),
+                            baseExtraTokenPrice(N, step));
+}
+
+function profPricePerDay(tokens, N, step) {
+    return consumptionPrice(tokens,
+                            modelConfig.professionalSubscriptionQuota,
+                            profSubTokenPrice(N, step),
+                            profExtraTokenPrice(N, step));
+}
+
+function breakEvenNewsPerDayForPro(step) {
+    const baseQuota = modelConfig.baseSubscriptionQuota;
+    const proQuota = modelConfig.professionalSubscriptionQuota;
+    const denom = 1 - step;
+
+    if (denom === 0) {
+        return null;
+    }
+
+    const breakEven = (proQuota * (1 - 2 * step) - step * baseQuota) / denom;
+
+    if (!Number.isFinite(breakEven)) {
+        return null;
+    }
+
+    if (breakEven < baseQuota || breakEven > proQuota) {
+        return null;
+    }
+
+    return breakEven;
+}
+
+function breakEvenPercentForPro(breakEvenNewsPerDay) {
+    if (breakEvenNewsPerDay == null || Number.isNaN(breakEvenNewsPerDay)) {
+        return null;
+    }
+
+    const baseQuota = modelConfig.baseSubscriptionQuota;
+    const proQuota = modelConfig.professionalSubscriptionQuota;
+    const quotaRange = proQuota - baseQuota;
+
+    if (quotaRange <= 0) {
+        return null;
+    }
+
+    return (breakEvenNewsPerDay - baseQuota) / quotaRange;
+}
+
+function paidInMonth(tokensPerDay, N, step) {
+    const paidInDay = Math.min(basePricePerDay(tokensPerDay, N, step),
+                               profPricePerDay(tokensPerDay, N, step));
+    return paidInDay * daysInMonth;
+}
+
+function spentInMonth(tokensPerDay) {
+    return tokensPerDay * modelConfig.cogsPerNews * daysInMonth;
+}
+
+let users = [];
+
+function buildAudienceConfig() {
+    var beginnerFraction = modelConfig.audience.beginners.fraction;
+    var advancedFraction = modelConfig.audience.advanced.fraction;
+    var professionalFraction = Math.max(0, 1 - beginnerFraction - advancedFraction);
+    var professionalMin = modelConfig.audience.advanced.maxNews + 1;
+
+    return [
+        {
+            name: 'beginner',
+            fraction: beginnerFraction,
+            minNews: modelConfig.minBegginerConsumption,
+            maxNews: modelConfig.audience.beginners.maxNews
+        },
+        {
+            name: 'advanced',
+            fraction: advancedFraction,
+            minNews: modelConfig.audience.beginners.maxNews + 1,
+            maxNews: modelConfig.audience.advanced.maxNews
+        },
+        {
+            name: 'professional',
+            fraction: professionalFraction,
+            minNews: professionalMin,
+            maxNews: professionalMin
+        }
+    ];
+}
+
+function rebuildUsers() {
+    users = [];
+    var audienceConfig = buildAudienceConfig();
+
+    for (let i = 0; i < audienceConfig.length; i++) {
+        const group = audienceConfig[i];
+        const groupSize = Math.ceil(modelConfig.audienceSize * group.fraction);
+
+        const {min, max} = {min: group.minNews, max: group.maxNews};
+
+        for (let j = 0; j < groupSize; j++) {
+            // deterministic quantile in (0, 1)
+            const v = (j + 0.5) / groupSize;
+
+            // log-uniform quantile: n = min * (max/min)^v
+            const n = (min === max)
+                ? min
+                  : Math.round(min * Math.pow(max / min, v));
+
+            const newsPerDay = Math.max(min, Math.min(max, n));
+
+            users.push({
+                newsPerDay: newsPerDay,
+                groupId: i,
+            });
+        }
+    }
+}
+
+function COGSGlobal() {
+    return modelConfig.serverCost + modelConfig.defaultCollectionsCost;
+}
+
+function totalCAC() {
+    return modelConfig.audienceSize * modelConfig.cancellationRate * modelConfig.customerAcquisitionCost;
+}
+
+function PaymentProcessorFee(amount) {
+    return amount * paymentProcessorCommissionPercent + paymentProcessorCommissionFixed * modelConfig.audienceSize;
+}
+
+function vatFromGross(grossAmount) {
+    var vatRate = modelConfig.vatRate;
+    if (vatRate == null || Number.isNaN(vatRate) || vatRate <= 0) {
+        return 0;
+    }
+    return grossAmount * vatRate / (1 + vatRate);
+}
+
+function model(costMultipler, discountStep) {
+
+    let paidTotal = 0;
+    let spentTotal = 0;
+
+    for (let i = 0; i < users.length; i++) {
+        const user = users[i];
+
+        const paid = paidInMonth(user.newsPerDay,
+                                 costMultipler,
+                                 discountStep);
+
+        const spent = spentInMonth(user.newsPerDay);
+
+        paidTotal += paid;
+        spentTotal += spent;
+    }
+
+    const paymentProcessorFee = PaymentProcessorFee(paidTotal);
+    const totalVat = vatFromGross(paidTotal);
+    const totalCACValue = totalCAC();
+    const grossMargin = paidTotal - spentTotal - COGSGlobal() - paymentProcessorFee;
+    const modifiedMargin = grossMargin - totalCACValue - totalVat;
+
+    return {
+        costMultipler: costMultipler,
+        discountStep: discountStep,
+        totalPaid: paidTotal,
+
+        spentOnNews: spentTotal,
+        paymentProcessorFee: paymentProcessorFee,
+
+        grossMargin: grossMargin,
+        modifiedMargin: modifiedMargin,
+        totalCAC: totalCACValue,
+        totalVat: totalVat
+    };
+
+}
+
+let fullData = [];
+
+function rebuildModelData() {
+    rebuildUsers();
+    fullData = [];
+
+    for (let subMarginLevel of marginLevels) {
+        for (let discountLevel of discountLevels) {
+            fullData.push(model(subMarginLevel.value, discountLevel.value));
+        }
+    }
+
+    document.dispatchEvent(redrawPlots);
+}
+
+window.rebuildModelData = rebuildModelData;
+rebuildModelData();
+
+function createPlotlyConfig(filename) {
+    var config = {
+        toImageButtonOptions: {
+            format: 'png', // one of png, svg, jpeg, webp
+            filename: filename,
+            scale: 1
+        },
+        modeBarButtonsToRemove: [
+            'zoom2d', 'pan2d', 'select2d', 'lasso2d', 'zoomIn2d', 'zoomOut2d', 'autoScale2d',
+            'zoom3d', 'pan3d', 'orbitRotation', 'tableRotation', 'handleDrag3d',
+            'resetCameraDefault3d', 'resetCameraLastSave3d', 'hoverClosest3d',
+            'hoverClosestCartesian', 'hoverCompareCartesian',
+            'zoomInGeo', 'zoomOutGeo', 'resetGeo', 'hoverClosestGeo',
+            'hoverClosestGl2d', 'hoverClosestPie', 'toggleHover', 'resetViews', 'sendDataToCloud', 'toggleSpikelines', 'resetViewMapbox'
+        ]
+    };
+
+    return config;
+}
+
+function updateSummaryTable() {
+    var table = document.querySelector('.plot-summary-table');
+    if (!table) {
+        return;
+    }
+
+    var marginLevel = marginLevels.find(level => level.id === filterBaseMargin) || marginLevels[0];
+    var marginMultiplier = marginLevel ? marginLevel.value : marginLevels[0].value;
+    var discountLevel = discountLevels.find(level => level.id === filterDiscountStep) || discountLevels[0];
+    var discountValue = discountLevel ? discountLevel.value : discountLevels[0].value;
+
+    var basicSubMonthly = modelConfig.baseSubscriptionQuota *
+        baseSubTokenPrice(marginMultiplier) *
+        daysInMonth;
+    var basicTokenPrice = baseExtraTokenPrice(marginMultiplier, discountValue);
+
+    var profSubMonthly = modelConfig.professionalSubscriptionQuota *
+        profSubTokenPrice(marginMultiplier, discountValue) *
+        daysInMonth;
+    var profTokenPrice = profExtraTokenPrice(marginMultiplier, discountValue);
+
+    var baseRevenue = 0;
+    var profRevenue = 0;
+    var groupProfits = new Array(buildAudienceConfig().length).fill(0);
+    var summaryModel = model(marginMultiplier, discountValue);
+
+    var globalCostPerUser = COGSGlobal() / modelConfig.audienceSize;
+    var proBreakEvenNewsPerDay = breakEvenNewsPerDayForPro(discountValue);
+    var proBreakEvenPercent = breakEvenPercentForPro(proBreakEvenNewsPerDay);
+
+    for (let i = 0; i < users.length; i++) {
+        var user = users[i];
+        var basePaidMonthly = basePricePerDay(user.newsPerDay, marginMultiplier, discountValue) * daysInMonth;
+        var profPaidMonthly = profPricePerDay(user.newsPerDay, marginMultiplier, discountValue) * daysInMonth;
+        var paidMonthly = Math.min(basePaidMonthly, profPaidMonthly);
+
+        if (basePaidMonthly <= profPaidMonthly) {
+            baseRevenue += paidMonthly;
+        } else {
+            profRevenue += paidMonthly;
+        }
+
+        var spentMonthly = spentInMonth(user.newsPerDay);
+        var paymentFee = paidMonthly * paymentProcessorCommissionPercent + paymentProcessorCommissionFixed;
+        var profitMonthly = paidMonthly - spentMonthly - paymentFee - globalCostPerUser;
+
+        if (user.groupId != null && groupProfits[user.groupId] != null) {
+            groupProfits[user.groupId] += profitMonthly;
+        }
+    }
+
+    function applyValueClass(cell, numericValue) {
+        cell.classList.remove('value-negative', 'value-warn', 'value-good');
+
+        if (numericValue == null || Number.isNaN(numericValue)) {
+            return;
+        }
+
+        if (numericValue < 0) {
+            cell.classList.add('value-negative');
+        } else if (numericValue > 20000) {
+            cell.classList.add('value-good');
+        } else if (numericValue > 10000) {
+            cell.classList.add('value-warn');
+        }
+    }
+
+    function setSummaryValue(key, value, numericValue) {
+        var cell = table.querySelector(`[data-summary="${key}"]`);
+        if (!cell) {
+            return;
+        }
+        cell.textContent = value;
+        applyValueClass(cell, numericValue);
+    }
+
+    setSummaryValue('basicSubscriptionPrice', formatMonthlyOnly(basicSubMonthly), basicSubMonthly);
+    setSummaryValue('basicTokenPrice', `${formatMoneyToken(basicTokenPrice)} $/100 news`, null);
+    setSummaryValue('professionalSubscriptionPrice', formatMonthlyOnly(profSubMonthly), profSubMonthly);
+    setSummaryValue('professionalTokenPrice', `${formatMoneyToken(profTokenPrice)} $/100 news`, null);
+    setSummaryValue('cost100NewsPerDay', formatMonthlyOnly(paidInMonth(100, marginMultiplier, discountValue)), null);
+    setSummaryValue('cost500NewsPerDay', formatMonthlyOnly(paidInMonth(500, marginMultiplier, discountValue)), null);
+    setSummaryValue('cost1000NewsPerDay', formatMonthlyOnly(paidInMonth(1000, marginMultiplier, discountValue)), null);
+    setSummaryValue('basicRevenue', formatMonthlyOnly(baseRevenue), baseRevenue);
+    setSummaryValue('proBreakEvenNewsPerDay', formatNewsPerDay(proBreakEvenNewsPerDay), null);
+    setSummaryValue('proBreakEvenPercent', formatPercent(proBreakEvenPercent), null);
+    setSummaryValue('professionalRevenue', formatMonthlyOnly(profRevenue), profRevenue);
+    setSummaryValue('beginnerProfit', formatMonthlyOnly(groupProfits[0]), groupProfits[0]);
+    setSummaryValue('advancedProfit', formatMonthlyOnly(groupProfits[1]), groupProfits[1]);
+    setSummaryValue('professionalProfit', formatMonthlyOnly(groupProfits[2]), groupProfits[2]);
+    setSummaryValue('totalLlmCosts', formatMonthlyOnly(-summaryModel.spentOnNews), -summaryModel.spentOnNews);
+    setSummaryValue('grossMargin', formatMonthlyOnly(summaryModel.grossMargin), summaryModel.grossMargin);
+    setSummaryValue('modifiedMargin', formatMonthlyOnly(summaryModel.modifiedMargin), summaryModel.modifiedMargin);
+    setSummaryValue('totalCAC', formatMonthlyOnly(-summaryModel.totalCAC), -summaryModel.totalCAC);
+    setSummaryValue('totalVat', formatMonthlyOnly(-summaryModel.totalVat), -summaryModel.totalVat);
+}
+
+function heatmapPlot(selector, kind) {
+    document.addEventListener('redrawPlots', (e) => {
+
+        if (fullData === null) {
+            return;
+        }
+
+        const metric = kind || 'modifiedMargin';
+        const metricLabels = {
+            grossMargin: 'Gross Margin, $',
+            modifiedMargin: 'Modified Margin, $',
+            totalPaid: 'Total Paid, $',
+            spentOnNews: 'Spent on News, $',
+            paymentProcessorFee: 'Payment Processor Fee, $'
+        };
+
+        const dataByKey = new Map();
+
+        function keyFor(marginValue, discountValue) {
+            return `${marginValue}|${discountValue.toFixed(4)}`;
+        }
+
+        for (let row of fullData) {
+            dataByKey.set(keyFor(row.costMultipler, row.discountStep), row);
+        }
+
+        const z = [];
+        const text = [];
+
+        for (let discount of discountLevels) {
+            const row = [];
+            const textRow = [];
+
+            for (let margin of marginLevels) {
+                const rowData = dataByKey.get(keyFor(margin.value, discount.value));
+                const metricValue = rowData ? rowData[metric] : null;
+
+                row.push(metricValue);
+                textRow.push(
+                    rowData
+                        ? `Modified Margin: ${formatMonthlyOnly(rowData.modifiedMargin)}<br>` +
+                          `Total Paid: ${formatMonthlyOnly(rowData.totalPaid)}<br>` +
+                          `Spent on News: ${formatMonthlyOnly(rowData.spentOnNews)}<br>` +
+                          `Payment Fees: ${formatMonthlyOnly(rowData.paymentProcessorFee)}`
+                        : 'N/A'
+                );
+            }
+
+            z.push(row);
+            text.push(textRow);
+        }
+
+        var data = [
+            {
+                z: z,
+                x: marginLevels.map(level => level.name),
+                y: discountLevels.map(level => level.name),
+                text: text,
+                type: 'heatmap',
+                hoverinfo: 'text',
+                colorbar: {
+                    title: metricLabels[metric] || metric
+                }
+            }
+        ];
+
+        var layout = {
+            barmode: 'group',
+            xaxis: {
+                title: 'Margin multiplier'
+            },
+            yaxis: {
+                title: 'Discount'
+            }
+        };
+
+        var config = createPlotlyConfig(`${selector}-${metric}`);
+
+        Plotly.react(selector, data, layout, config);
+    });
+}
+
+document.addEventListener('redrawPlots', updateSummaryTable);
+
+function updateAudienceSummary() {
+    var beginnerFraction = modelConfig.audience.beginners.fraction;
+    var advancedFraction = modelConfig.audience.advanced.fraction;
+    var professionalFraction = Math.max(0, 1 - beginnerFraction - advancedFraction);
+
+    var advancedMin = modelConfig.audience.beginners.maxNews + 1;
+    var professionalMin = modelConfig.audience.advanced.maxNews + 1;
+    var professionalMax = 'inf';
+
+    function setSummary(key, value) {
+        var cell = document.querySelector(`[data-audience-summary="${key}"]`);
+        if (!cell) {
+            return;
+        }
+        cell.textContent = value;
+    }
+
+    setSummary('professionalFraction', professionalFraction.toFixed(2));
+    setSummary('advancedMin', advancedMin);
+    setSummary('professionalMin', professionalMin);
+    setSummary('professionalMax', professionalMax);
+}
+
+document.addEventListener('redrawPlots', updateAudienceSummary);
+
+function updatePriceMatrix() {
+    var container = document.querySelector('.plot-price-matrix table');
+    if (!container) {
+        return;
+    }
+
+    var headerRow1 = '<tr><th class="label base-sep" rowspan="2">Base margin</th>';
+    for (var discount of discountLevels) {
+        headerRow1 += `<th colspan="2" class="discount-sep">Discount ${discount.name}</th>`;
+    }
+    headerRow1 += '</tr>';
+
+    var headerRow2 = '<tr>';
+    for (var _ of discountLevels) {
+        headerRow2 += '<th>Basic</th><th class="discount-sep">Pro</th>';
+    }
+    headerRow2 += '</tr>';
+
+    var bodyRows = '';
+    for (var margin of marginLevels) {
+        var row = `<tr><td class="label base-sep">${margin.name}</td>`;
+        for (var discount of discountLevels) {
+            var basicMonthly = modelConfig.baseSubscriptionQuota *
+                baseSubTokenPrice(margin.value) *
+                daysInMonth;
+            var profMonthly = modelConfig.professionalSubscriptionQuota *
+                profSubTokenPrice(margin.value, discount.value) *
+                daysInMonth;
+
+            row += `<td>${formatMonthlyOnly(basicMonthly)}</td>`;
+            row += `<td class="discount-sep">${formatMonthlyOnly(profMonthly)}</td>`;
+        }
+        row += '</tr>';
+        bodyRows += row;
+    }
+
+    container.innerHTML = `<thead>${headerRow1}${headerRow2}</thead><tbody>${bodyRows}</tbody>`;
+}
+
+document.addEventListener('redrawPlots', updatePriceMatrix);
+
+function updateNewsCostMatrix() {
+    var container = document.querySelector('.plot-news-cost-matrix table');
+    if (!container) {
+        return;
+    }
+
+    var marginLevel = marginLevels.find(level => level.id === filterBaseMargin) || marginLevels[0];
+    var marginMultiplier = marginLevel ? marginLevel.value : marginLevels[0].value;
+    var discountLevel = discountLevels.find(level => level.id === filterDiscountStep) || discountLevels[0];
+    var discountValue = discountLevel ? discountLevel.value : discountLevels[0].value;
+
+    var headerRow = '<tr><th>News/day</th><th>News/month</th><th>Optimal cost/month</th></tr>';
+    var bodyRows = '';
+
+    for (var daily = 100; daily <= 1000; daily += 100) {
+        var monthlyNews = daily * daysInMonth;
+        var optimalMonthlyCost = paidInMonth(daily, marginMultiplier, discountValue);
+
+        bodyRows += `<tr>` +
+            `<td>${formatNewsPerDay(daily)}</td>` +
+            `<td>${formatNewsPerMonth(monthlyNews)}</td>` +
+            `<td>${formatMonthlyOnly(optimalMonthlyCost)}</td>` +
+            `</tr>`;
+    }
+
+    container.innerHTML = `<thead>${headerRow}</thead><tbody>${bodyRows}</tbody>`;
+}
+
+document.addEventListener('redrawPlots', updateNewsCostMatrix);
+
+</script>

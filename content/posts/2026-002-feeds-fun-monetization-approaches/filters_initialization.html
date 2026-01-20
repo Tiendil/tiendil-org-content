@@ -1,0 +1,165 @@
+<script type="text/javascript">
+
+function fillFilters() {
+    var index = 0;
+
+    var selects = document.querySelectorAll('.plot-filter-margin');
+
+    for (var select of selects) {
+
+        select.id = 'plot-filter-' + index;
+        index++;
+
+        for (var margin of marginLevels) {
+            var option = document.createElement('option');
+            option.value = margin.id;
+            option.text = margin.name;
+            select.appendChild(option);
+        }
+    }
+}
+
+function fillDiscountFilters() {
+    var index = 0;
+
+    var selects = document.querySelectorAll('.plot-filter-discount');
+
+    for (var select of selects) {
+
+        select.id = 'plot-filter-discount-' + index;
+        index++;
+
+        for (var discount of discountLevels) {
+            var option = document.createElement('option');
+            option.value = discount.id;
+            option.text = discount.name;
+            select.appendChild(option);
+        }
+    }
+}
+
+fillFilters();
+fillDiscountFilters();
+
+function bindConfigInputs() {
+    var inputs = document.querySelectorAll('.plot-config-input');
+
+    for (var input of inputs) {
+        var key = input.dataset.configKey;
+        var valueType = input.dataset.valueType || 'float';
+
+        if (!key || !(key in modelConfig)) {
+            continue;
+        }
+
+        input.value = modelConfig[key];
+        if (key === 'cogsPerNews') {
+            window.cogsPerNewsInput = input;
+        }
+
+        input.addEventListener('input', function(event) {
+            var element = event.target;
+            var elementKey = element.dataset.configKey;
+            var elementType = element.dataset.valueType || 'float';
+            var rawValue = element.value;
+
+            var parsedValue = null;
+
+            if (elementType === 'int') {
+                parsedValue = parseInt(rawValue, 10);
+            } else {
+                parsedValue = parseFloat(rawValue);
+            }
+
+            if (Number.isNaN(parsedValue)) {
+                return;
+            }
+
+            modelConfig[elementKey] = parsedValue;
+            if (elementKey === 'newsItemChars' ||
+                elementKey === 'inputPricePer1M' ||
+                elementKey === 'outputPricePer1M') {
+                recalcCogsPerNews();
+            }
+            rebuildModelData();
+        });
+    }
+}
+
+bindConfigInputs();
+
+function bindAudienceInputs() {
+    var inputs = document.querySelectorAll('.plot-audience-input');
+
+    for (var input of inputs) {
+        var group = input.dataset.audienceGroup;
+        var field = input.dataset.audienceField;
+        var valueType = input.dataset.valueType || 'float';
+
+        if (!group || !field || !modelConfig.audience[group]) {
+            continue;
+        }
+
+        input.value = modelConfig.audience[group][field];
+
+        input.addEventListener('input', function(event) {
+            var element = event.target;
+            var elementGroup = element.dataset.audienceGroup;
+            var elementField = element.dataset.audienceField;
+            var elementType = element.dataset.valueType || 'float';
+            var rawValue = element.value;
+
+            var parsedValue = null;
+
+            if (elementType === 'int') {
+                parsedValue = parseInt(rawValue, 10);
+            } else {
+                parsedValue = parseFloat(rawValue);
+            }
+
+            if (Number.isNaN(parsedValue)) {
+                return;
+            }
+
+            modelConfig.audience[elementGroup][elementField] = parsedValue;
+            rebuildModelData();
+        });
+    }
+}
+
+bindAudienceInputs();
+
+function selectFilterMargin(value, filterVarName, skipEvent) {
+    window[filterVarName] = value;
+
+    var selects = document.querySelectorAll(`.plot-filter-margin.${filterVarName}`);
+
+    for (var select of selects) {
+        select.value = value;
+    }
+
+    if (skipEvent != 'skip-event') {
+        document.dispatchEvent(redrawPlots);
+    }
+}
+
+function selectFilterDiscount(value, filterVarName, skipEvent) {
+    window[filterVarName] = value;
+
+    var selects = document.querySelectorAll(`.plot-filter-discount.${filterVarName}`);
+
+    for (var select of selects) {
+        select.value = value;
+    }
+
+    if (skipEvent != 'skip-event') {
+        document.dispatchEvent(redrawPlots);
+    }
+}
+
+selectFilterMargin(filterBaseMargin, 'filterBaseMargin', 'skip-event');
+selectFilterDiscount(filterDiscountStep, 'filterDiscountStep', 'skip-event');
+
+document.dispatchEvent(redrawPlots);
+
+</script>
