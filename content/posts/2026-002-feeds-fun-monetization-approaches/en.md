@@ -39,39 +39,39 @@ As a result, this text sets all-time records for this blog for the number of com
 
 ///
 
-## Специфика продукта
+## Product specifics
 
-Feeds Fun выглядит как «классическая» онлайн читалка новостей — пользователь подписывается на потоки новостей, сервис скачивает новости себе на сервер и показывает их пользователю. Сейчас поддерживаются только [RSS](https://ru.wikipedia.org/wiki/RSS) и [Atom](https://ru.wikipedia.org/wiki/Atom), но в будущем будут и другие источники: соцсети, email-рассылки, автоматический парсинг сайтов, etc.
+Feeds Fun looks like a "classic" online news reader — the user subscribes to news feeds, the service downloads the news to its server and shows it to the user. Currently, only [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom) are supported, but in the future, there will be other sources: social networks, email newsletters, automatic site parsing, etc.
 
-Самые известные аналоги: [Google Reader](https://ru.wikipedia.org/wiki/Google_Reader) (ныне почивший), [Feedly](https://feedly.com/), [Inoreader](https://www.inoreader.com/).
+The closest analogs are [Google Reader](https://en.wikipedia.org/wiki/Google_Reader) (now shut down), [Feedly](https://feedly.com/), [Inoreader](https://www.inoreader.com/).
 
-Общая черта всех SaaS читалок — относительно дешёвая серверная инфраструктура:
+The common trait of all SaaS news readers is relatively cheap server infrastructure:
 
-- Если 100500 пользователей подписано на одну ленту новостей, то вам достаточно одного запроса к этой ленте, чтобы скачать новости для всех пользователей.
-- Вам достаточно хранить только одну копию новости.
-- Ваш трафик — это текстовые данные небольшого размера без медиа-контента. Медиа обычно хранится на стороне источника новостей или в вашем [CDN](https://ru.wikipedia.org/wiki/Content_delivery_network), если вы боретесь за скорость загрузки.
+- There is enough to make a single request to a news feed to download news for 100500 users subscribed to that feed.
+- There is enough to store only one copy of the news item.
+- Your traffic is small-sized text data without media content. Media is usually stored on the news source side or in your [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) if you are striving for loading speed.
 
-Конкуренция идёт в основном вокруг удобства использования и широты поддерживаемых источников новостей.
+Services compete mainly in the user experience and the breadth of supported news sources.
 
-Монетизация проста: делаем подписку (может быть несколько), не забываем бесплатный тир с простыми ограничениями для простого входа пользователей в продукт.
+The monetization is simple: add subscriptions (there can be several), do not forget the free tier with simple limitations for easier user onboarding.
 
-Поддержка инфраструктуры дёшева, поэтому большая часть суммы подписки идёт в компанию (разработка, маркетинг, вывод в прибыль). У Feedly, возможно, чуть более сложная ситуация, но эта сложность, скорее всего, проистекает из ориентированности на [B2B](https://ru.wikipedia.org/wiki/B2B) — не наш случай, позже объясню, почему.
+The infrastructure is cheap enough, so most part of the subscription fee goes to the company (development, marketing, profit). Feedly may have a slightly more complex situation, but this complexity most likely stems from its focus on [B2B](https://en.wikipedia.org/wiki/B2B) — not our case, I'll explain later why.
 
-Feeds Fun плохо вписывается в подобную картину. Ключевая функциональность — теги и правила — без них продукт вщент проигрывает более зрелым конкурентам и с одним разработчиком никогда их не догонит.
+Feeds Fun doesn't fit well into this picture. Its key features are tags and rules — without them, the product loses badly to more mature competitors and with a single developer will never catch up.
 
-**Каждая новость стоит денег** — чтобы были теги, каждая новость должна быть пропущена через LLM, поэтому:
+**Every news item costs money** — to have tags, each news item must be processed through an LLM, therefore:
 
-- расходы значительно растут с ростом количества новостей;
-- onboarding пользователя через бесплатный тариф стоит денег.
+- spendings grow significantly with the number of news;
+- user onboarding via the free tier costs money.
 
 /// brigid-images
 src = "boromir.jpg"
-caption = "Нельзя просто так взять и скопировать подход конкурентов."
+caption = "One does not simply copy competitors' approach."
 ///
 
-Соответственно, нельзя просто так взять и скопировать подход конкурентов — нужно убедиться, что сервис не обанкротится на первом же пользователе, который подпишется на 100000 новостей в день с какого-нибудь китайского портала. Кстати, это реальный пример из первого года жизни Feeds Fun.
+Therefore, one does not simply copy the competitors' approach — you need to make sure that the service won't go bankrupt on the first user who subscribes to 100000 news items a day from some Chinese portal. By the way, this is a real example from Feeds Fun's first year of life.
 
-Одна из задач этого поста — вывернуться из этой ситуации самым хитрым образом.
+One of the goals of this post is to wriggle out of this situation in the most cunning way possible.
 
 ## Ограничения
 
