@@ -73,21 +73,21 @@ Therefore, one does not simply copy the competitors' approach — you need to ma
 
 One of the goals of this post is to wriggle out of this situation in the most cunning way possible.
 
-## Ограничения
+## Constraints
 
-Давайте явно проговорим ещё несколько нюансов, помимо необходимости платить за каждую новость.
+Let's explicitly list a few more nuances besides the need to pay for each news item.
 
-**Во-первых**, мы прорабатываем монетизацию для B2C. Монетизировать ту же функциональность в B2B можно совершенно по-другому.
+**Firstly**, we are working out monetization for B2C. Monetizing the same functionality for B2B can be done completely differently.
 
-Путь B2C я выбрал по следующим причинам:
+I chose the B2C path for the following reasons:
 
-- Я понимаю потоки денег в B2C, а как они ходят в B2B вообще не представляю.
-- B2C и B2B предполагают очень разные «вторичные» наборы функциональности. Feeds Fun изначально разрабатывался под мои конкретные нужды и они B2C-ориентированы.
-- В перспективе я хочу поэкспериментировать с некоторыми интересными социальными фичами, что предполагает B2C-модель. [Google Reader пытался в социализацию](https://blog.persistent.info/2011/10/google-reader-social-retrospective.html), но с ним случился Google.
+- I understand the money flows in B2C and have no idea how money flows in B2B.
+- B2C and B2B require very different "secondary" feature sets. Feeds Fun was originally developed for my specific needs, and they are B2C-oriented.
+- I want to experiment with some interesting social features in the future, which implies a B2C model. [Google Reader tried in socialization](https://blog.persistent.info/2011/10/google-reader-social-retrospective.html), but was Googled.
 
-Это не значит, что я не рассматриваю B2B в будущем, просто надо выбирать приоритеты.
+That does not mean I am not considering B2B in the future, just need to choose priorities.
 
-/// note | Я открыт для контактов на тему B2B
+/// note | I open to B2B contacts
 
 Представьте, что у вас есть поток протеганных обновлений со всего вашего бизнеса: чатов, коммитов, документации, таск-трекеров, email-рассылок, etc. И вы хотите приоритетно видеть длинные сообщения от лида Васи, но не хотите видеть ничего от маркетолога Пети, но только если Петя не пишет про планирование кампаний в LinkedIn на тему [Fusion energy](https://en.wikipedia.org/wiki/Fusion_power).
 
