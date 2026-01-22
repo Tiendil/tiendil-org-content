@@ -89,20 +89,20 @@ That does not mean I am not considering B2B in the future, just need to choose p
 
 /// note | I open to B2B contacts
 
-Представьте, что у вас есть поток протеганных обновлений со всего вашего бизнеса: чатов, коммитов, документации, таск-трекеров, email-рассылок, etc. И вы хотите приоритетно видеть длинные сообщения от лида Васи, но не хотите видеть ничего от маркетолога Пети, но только если Петя не пишет про планирование кампаний в LinkedIn на тему [Fusion energy](https://en.wikipedia.org/wiki/Fusion_power).
+Imagine you have a flow of tagged updates from all your business: chats, commits, documentation, task trackers, emails, etc. And you want to see long messages from tech lead Bob as a priority, but don't want to see anything from marketer John, unless John is writing about planning LinkedIn campaigns on [Fusion energy](https://en.wikipedia.org/wiki/Fusion_power).
 
-Выглядеть правила для такой приоритезации будут примерно так:
+The rules for such prioritization may look like this:
 
-- `lead-vasya + long-text => +1000`
-- `marketer-petya  => -100`
-- `marketer-petya + notion-docs + linked.in + fusion => +1100`
+- `tech-lead-bob + long-text => +1000`
+- `marketer-john => -100`
+- `marketer-john + notion-docs + linked.in + fusion => +1100`
 
-Пощупать, как работают теги, можно на готовых стендах:
+You can get a feel for how tags work on the available demo setups:
 
-- [Последние статьи с ArXiv.org](https://feeds.fun/show/scientific-papers)
-- [Новости на тему стартапов](https://feeds.fun/show/entrepreneurship)
+- [Last scientific papers from ArXiv.org](https://feeds.fun/show/scientific-papers)
+- [News on entrepreneurship](https://feeds.fun/show/entrepreneurship)
 
-Пишите в личку, покажу что-как прямо на своих новостях.
+DM me, I'll show you how it works directly on my news.
 
 ///
 
