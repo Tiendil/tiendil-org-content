@@ -11,9 +11,9 @@ src = "cover.jpg"
 alt = "Cover of the post (c) ChatGPT"
 ///
 
-Начал рассчитывать цены для пользователей [Feeds Fun](https://feeds.fun) и понял, что надо это делать в блоге: работы почти столько же, идеологически верно и, что важно, должно быть интересно. Всё равно бы писал [RFC]{post:two-years-writing-rfc-statistics} — вопрос сугубо в публичности. Заодно проведу для себя некоторую ретроспективу по проекту.
+Right after I started working out the pricing for [Feeds Fun](https://feeds.fun) users, I realized that I should do it in a blog post: it's almost the same amount of work, ideologically the right thing to do, and importantly, it should be interesting. Anyway, I was going to write an [RFC]{post:two-years-writing-rfc-statistics} — the question is purely about publicity. I also take an opportunity to conduct some retrospective on the project for myself.
 
-/// note | Что такое Feeds Fun
+/// note | What is Feeds Fun
 
 [Feeds Fun](https://feeds.fun) — это моя читалка новостей, которая с помощью LLM прикрепляет теги к каждой новости, а пользователи могут создавать правила в духе `elon-musk + mars => -100`, `nasa + mars => +100`. Это позволяет очень эффективно фильтровать поток новостей, сокращая его процентов на 80-90% (мой личный опыт) и при этом никаких секретных алгоритмов Google или Facebook — всё прозрачно и под вашим контролем.
 
