@@ -23,19 +23,19 @@ So, meet a free-form essay on monetization of a [B2C](https://en.wikipedia.org/w
 
 <!-- more -->
 
-Пост задумывался как аналитический стенд в духе [анализа предпочтений игроков в стратегии]{post:making-a-fictional-universe-quantity-survey-processing}, но где-то к третьей редакции стал больше походить на философский трактат. Оно и понятно — когда реальных данных мало, а вариантов решения много, то приходится опираться больше на логику и интуицию, чем на числа. Но стенд тоже есть, где-то там, далеко внизу.
+This post was originally conceived as an analytical test bench in the spirit of [analysis of player preferences in strategy games]{post:making-a-fictional-universe-quantity-survey-processing}, but by the third draft, it became looking more like a philosophical treatise. Which is natural — when you have a little real data and too many possible solutions, you have to rely more on logic and intuition than on numbers. But the bench is there, just somewhere down below.
 
-В целом, по здравому рассуждению, выбор подхода к монетизации на старте проекта — это больше про пользовательский опыт, чем про конкретные суммы. Конкретные числа (включая цены для пользователей) куда проще оптимизировать итерационно, когда есть реальная статистика поведения пользователей. А вот изменить базовое предложение ценности и пользовательский опыт — гораздо сложнее. Разница примерно как между «поменять пару чисел в конфигах» vs «переписать здоровый кусок бизнес-логики и UI».
+Generally, choosing the monetization approach at the start of a project is more about user experience than specific amounts. Concrete numbers (including prices for users) are far easier to optimize iteratively when you have real user behavior statistics. Changin the value proposition and the user experience, on the other hand, is much harder. The difference is roughly the same as between "tweaking a couple of numbers in the configs" vs "rewriting a sizable chunk of business logic and UI".
 
-В итоге модель ценообразования мы выберем, опираясь на рассуждения, а её параметры будем выбирать численно.
+As a result, we'll choose the pricing model based on reasoning, while its parameters will be tuned numerically.
 
-/// warning | Текст может быть сложен для восприятия
+/// warning | Text may be challenging to perceive
 
-Этот текст — хороший пример [мышления письмом]{post:thinking-through-writing}, которое я практикую. К сожалению, именно поэтому он может быть плохим примером структурированного изложения мыслей для сторонней аудитории.
+This text is a good example of [thinking through writing]{post:thinking-through-writing} — a practice I actively use. Unfortunately, that’s precisely why it may be a poor example of structured exposition for an external audience.
 
-Я старался добавить максимум пояснений и контекста, но не уверен, что добавил всё и что весь этот контекст не сделал хуже.
+I tried to add as much explanations and context as possible, but I'm not sure I added everything that was needed and that all this context didn't make things worse.
 
-В итоге текст бьёт все рекорды этого блога по блокам комментариев и отступлений.
+As a result, this text sets all-time records for this blog for the number of comment blocks and digressions.
 
 ///
 
