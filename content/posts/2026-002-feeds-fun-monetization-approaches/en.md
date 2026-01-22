@@ -77,7 +77,7 @@ One of the goals of this post is to wriggle out of this situation in the most cu
 
 Let's explicitly list a few more nuances besides the need to pay for each news item.
 
-**Firstly**, we are working out monetization for B2C. Monetizing the same functionality for B2B can be done completely differently.
+**First**, we are working out monetization for B2C. Monetizing the same functionality for B2B can be done completely differently.
 
 I chose the B2C path for the following reasons:
 
@@ -106,7 +106,7 @@ DM me, I'll show you how it works directly on my news.
 
 ///
 
-**Secondly**, there is no way to compete in user experience with mature competitors. ~~No desire either.~~
+**Second**, there is no way to compete in user experience with mature competitors. ~~No desire either.~~
 
 Tags and rules are complex logic that requires complex interfaces.
 
@@ -123,22 +123,22 @@ This leads to the following conclusions:
 
 Also, the rules for tagging news are relatively cheap for Feeds Fun, so the question is purely in the cost of tags.
 
-**В-третьих**, проект развивается без инвестиций, ориентирован на узкую нишу и на постепенный рост. Если бы это был продукт для массмаркета с бюджетом на разработку, то он выглядел бы иначе, работал бы иначе и монетизировался бы иначе.
+**Third**, the project is growing without investments, it focuses on a narrow niche and gradual growth. If it was a mass-market product with a development budget, it would look differently, work differently, and be monetized differently.
 
-Был бы условный Tinder для новостей: свайп влево, свайп вправо, подарок контент-мейкеру. Кстати, берите идею в работу, думаю она вполне годная.
+It would look more like a Tinder for news: swipe left, swipe right, tip the content creator. By the way, take this idea into work, I think it's quite good.
 
-**В-четвёртых**, мы будем использовать критерий «минимизации путаницы для пользователя», чтобы отбрасывать часть вариантов ценообразования.
+**Fourth**, we'll use the "minimizing user confusion" criterion to discard some pricing options.
 
-Этот пункт я добавил, чтобы упростить и сократить текст — убрать из него лишние детали. Если даже я не могу кратко и чётко выразить идею, то для пользователя она будет совсем сложной — пользу такие решения не наносят.
+I've added this criterion to simplify and shorten the text, remove unnecessary details. If even I can't express an idea briefly and clearly, then for the user it will be really confusing — such solutions will not bring any benefit.
 
-Критерий будет использоваться в следующем виде: «мы отбрасываем вариант по «критерию путаницы», так как …».
+The criterion will be used in the following way: "we discard the option by the 'confusion criterion' because …".
 
-**В-пятых**, мы будем считать пессимистичные сценарии, так как по ним проще делать оценки, а если пессимистичный сценарий проходит, то оптимистичный пройдёт тем более.
+**Fiveth**, we will consider pessimistic scenarios, as they are easier to estimate, and if the pessimistic scenario works, the optimistic one will work even better.
 
-Это значит, что:
+That means:
 
-- Траты мы будем предполагать максимально возможные по сценарию.
-- Доходы мы будем предполагать минимально возможные по сценарию.
+- We'll assume maximum possible expenses for the scenario.
+- We'll assume minimum possible income for the scenario.
 
 ## Как будем оценивать монетизацию
 
