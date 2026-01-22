@@ -15,11 +15,11 @@ Right after I started working out the pricing for [Feeds Fun](https://feeds.fun)
 
 /// note | What is Feeds Fun
 
-[Feeds Fun](https://feeds.fun) — это моя читалка новостей, которая с помощью LLM прикрепляет теги к каждой новости, а пользователи могут создавать правила в духе `elon-musk + mars => -100`, `nasa + mars => +100`. Это позволяет очень эффективно фильтровать поток новостей, сокращая его процентов на 80-90% (мой личный опыт) и при этом никаких секретных алгоритмов Google или Facebook — всё прозрачно и под вашим контролем.
+[Feeds Fun](https://feeds.fun) is my news reader that uses LLM to tag each news item so users can create rules like `elon-musk + mars => -100`, `nasa + mars => +100`. That allows effectively filtering the news stream, cutting it down by 80-90% (my personal experience) — no dark-box "personalization" algorithms like in Google or Facebook, everything is transparent and under your control.
 
 ///
 
-Поэтому встречайте вольное сочинение на тему монетизации [B2C](https://ru.wikipedia.org/wiki/B2C) [SaaS](https://ru.wikipedia.org/wiki/Программное_обеспечение_как_услуга), зависимого от [LLM](https://ru.wikipedia.org/wiki/Большая_языковая_модель), — актуальнее некуда :-D
+So, meet a free-form essay on monetization of a [B2C](https://en.wikipedia.org/wiki/B2C) [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) dependent on [LLM](https://en.wikipedia.org/wiki/Large_language_model) — couldn't be more relevant :-D
 
 <!-- more -->
 
