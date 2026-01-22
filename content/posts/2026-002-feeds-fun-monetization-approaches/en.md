@@ -106,22 +106,22 @@ DM me, I'll show you how it works directly on my news.
 
 ///
 
-**Во-вторых**, нет возможности конкурировать по удобству использования со зрелыми конкурентами. ~~Желания тоже нет.~~
+**Secondly**, there is no way to compete in user experience with mature competitors. ~~No desire either.~~
 
-Теги и правила — это сложная логика, которая требует сложных интерфейсов.
+Tags and rules are complex logic that requires complex interfaces.
 
-Тут нет сюрприза. Feeds Fun — это софт для профессионалов, которые хотят **осознанно и прозрачно** управлять потоком новостей; не хотят доверять ИИ лентам; не хотят читать тонны мусора и [AI slop](https://ru.wikipedia.org/wiki/Слоп).
+That is not a surprise. Feeds Fun is software for professionals who want to manage their news flow **consciously and transparently**; do not want to trust black-boxed algorithmes; do not want to read tons of garbage and [AI slop](https://en.wikipedia.org/wiki/AI_slop).
 
-Поэтому нет смысла фокусироваться на удобстве использования и широте поддерживаемых источников новостей как на заманухе для подписчиков — это автоматически поставит продукт в проигрышную позицию.
+That's why there is no point in focusing on ease of use and breadth of supported news sources as a lure for subscribers — such an approach will automatically put the product in a losing position.
 
-Единственный путь — это максимально пушить ценность тегов и правил — делать софт для профи. Текущим лидерам будет сложно завернуть в эту нишу, так как для них это полная смена концепции.
+The only way is to push the value of tags and rules as much as possible — make software for pros. Current leaders will find it hard to pivot to this niche, as it would be a complete change of concept for them.
 
-Из этого следует, что:
+This leads to the following conclusions:
 
-- Мы продаём именно теги и правила — это ключевая ценность продукта, за которую пользователи ~~должны быть~~ готовы платить.
-- Всё остальное, по возможности, должно быть бесплатным и достаточно удобным, чтобы сильно не проигрывать конкурентам в глазах пользователей.
+- We sell tags and rules — this is the key value of the product that users ~~should be~~ are ready to pay for.
+- All other features should be free as possible and good enough to not lose significantly to competitors in users' eyes.
 
-Отдельно замечу, что правила для Feeds Fun обходятся дёшево, поэтому вопрос сугубо в стоимости тегов.
+Also, the rules for tagging news are relatively cheap for Feeds Fun, so the question is purely in the cost of tags.
 
 **В-третьих**, проект развивается без инвестиций, ориентирован на узкую нишу и на постепенный рост. Если бы это был продукт для массмаркета с бюджетом на разработку, то он выглядел бы иначе, работал бы иначе и монетизировался бы иначе.
 
