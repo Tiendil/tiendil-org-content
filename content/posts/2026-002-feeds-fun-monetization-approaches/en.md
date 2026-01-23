@@ -140,67 +140,67 @@ That means:
 - We'll assume maximum possible expenses for the scenario.
 - We'll assume minimum possible income for the scenario.
 
-## Как будем оценивать монетизацию
+## How we'll evaluate monetization
 
-Прежде чем начать что-то считать, давайте определимся, что мы будем делать с результатами.
+Before we start, let's agree on what we're going to do with the results.
 
-/// note | А, собственно, зачем монетизировать?
+/// note | Why monetize at all?
 
-Без ответа на этот вопрос не получится определить успешность монетизации.
+Without answering that question it's impossible to define what successful monetization even means.
 
-Как у меня часто бывает, одного конкретного ответа нет — не то чтобы все судьбы сошлись на острие читалки и либо успех, либо нищета и забвение. Скорее есть набор возможностей, которые можно закрыть одним махом.
+As often happens with me, there's no single definitive answer — not as if all possible futures converge on the tip of a feed reader, with a success on one side and poverty and oblivion on the other. It's more a set of possibilities that can be addressed in one go.
 
-Включение монетизации в данном случае — это:
+In Feed Fun's case, turning monetization on is:
 
-1. отличный milestone зрелости продукта;
-2. возможность организовать небольшой сторонний доход;
-3. возможность наконец стать независимым от найма, организовать свой свечной заводик;
-4. крутой пункт в резюме;
-5. всё равно нужно разбираться с бухгалтерией в Германии, почему бы не начать с монетизации пет-проекта;
-6. интересный и полезный опыт.
+1. a great milestone of a product's maturity;
+2. an opportunity to organize a small side income;
+3. a chance to finally become independent of salaried work;
+4. a strong line on a resume;
+5. a way to finally deal with German accounting anyway — might as well start by monetizing a pet project;
+6. an interesting and genuinely useful experience.
 
-В мире розовых пони, конечно, цель всегда одна — «построить свою компанию, где-то уровня Google». Но давайте будет реалистами — большинство стартапов проваливается и кто декларирует подобные максималистские утверждения — лукавит.
+The world of pink ponies, of course, there is always single goal — "to build my own Google-level company". But let's be realistic — most startups fail, and those who declare such maximalist claims is being disingenuous.
 
-Иметь множество целей полезно, но не всегда удобно. В частности, критерии успешности хобби проекта и растущего бизнеса сильно различаются.
+Having multiple goals is useful, but not always convenient. In particular, the criteria for success of a hobby project and of a growing business differ significantly.
 
-Поскольку монетизация всё-таки нужна для бизнеса, то будем оценивать её с точки зрения устойчивого свечного заводика.
-
-///
-
-Свойства **устойчивого свечного заводика**:
-
-- **Устойчивость** — поток новых пользователей равен потоку уходящих.
-- **1000 подписчиков** — хороший стабильно работающий инди SaaS. Большинство до этого уровня не доживает.
-- **20000 $/месяц Modified Margin** — уровень дохода, при котором можно как комфортно работать в одиночку, так и искать напарников за долю и деньги. См. термины ниже.
-
-Иными словами: мы будем искать логику монетизации и цены, при которых сервис приносил бы 20000$ modified margin при 1000 подписчиках.
-
-**SaaS с такими свойствами можно считать очень успешным — большинство инди не доживает до этого уровня.** Поэтому это хорошая цель для оценки монетизации, но не стоит ждать подобных свойств сразу после запуска монетизации. Это именно цель, к которой можно стремиться. Соответственно, выбранные в итоге цены будут начальной точкой для экспериментов, а не чем-то выбитым в камне.
-
-/// hint | Важные термины
-
-[Cost of Goods Sold](https://www.cloudzero.com/blog/saas-cogs/)  (COGS) — себестоимость проданных товаров/услуг — в нашем случае это стоимость LLM запросов, инфраструктуры, комиссия платёжных провайдеров, etc.
-
-[Gross Margin](https://www.cloudzero.com/blog/saas-gross-margin/) (GM) — валовая маржа — разница между доходами и COGS.
-
-Gross Margin не включает в себя такие вещи, как налоги, аренду офиса и прочие штуки, которые не нужны для прямого нанесения пользы клиентам.
-
-GM удобна тем, что её доля довольно стабильна для SaaS продуктов и позволяет грубо прикидывать цены в юнит-экономике.
-
-**Классическая Gross Margin не включает в себя маркетинг и Налог на Добавленную Стоимость (НДС), поэтому для целей поста мы будем использовать собственный термин — Modified Margin.**
-
-[Customer Acquisition Cost](https://en.wikipedia.org/wiki/Customer_acquisition_cost) (CAC) — стоимость привлечения клиента — сколько денег в среднем уходит на маркетинг, чтобы получить одного платящего клиента.
-
-`Cancellation Rate` (CR) — процент оттока клиентов — сколько процентов платящих клиентов отваливается за определённый период времени, обычно за месяц.
-
-`Modified Margin (MM)` — маржа модифицированная на маркетинг и [налог на добавленную стоимость](https://ru.wikipedia.org/wiki/Налог_на_добавленную_стоимость) (НДС). В этом посте `MM = GM - CAC * число новых клиентов в месяц - VAT`, даже более точно `MM = GM - N * CR * CAC - VAT`, где `N` — текущее число подписчиков, `VAT` — налог на добавленную стоимость. `N * CR * CAC` говорит о том, что мы докупаем столько подписчиков, сколько отваливается.
+Therefore, since monetization is mostly about business, we'll evaluate it from the point of view of a small sustainable business.
 
 ///
 
-Суть идеи стабильности в том, что если подобная стабильность возможна по грубым пессимистическим расчётам, то в реальности будет простор для оптимизации.
+The propertis of a **sustainable bussiness**:
 
-- Если проект недобирает по метрикам, то рассчитанная модель будет ориентиром для оптимизации.
-- Если проект перебирает по метрикам, то у него будет очень хорошая динамика для роста.
+- **Sustainability** — the flow of new users equals the flow of leaving users.
+- **1000 subscribers** — a good, steadily working indie SaaS. Most don't survive to this level.
+- **20000 $/month Modified Margin** — the income level at which one can as comfortably work alone, as well as look for partners for a share and money. See terms block below.
+
+In other words: we will look for monetization logic and prices at which the service would bring 20000$ modified margin with 1000 subscribers.
+
+**We can consider a SaaS with such properties very successful — most indies don't survive to this level.** Therefore, it's a good goal for monetization evaluation, but we shouldn't expect such properties right after launching monetization. It's precisely a goal to strive for. Accordingly, the prices chosen in the end will be a starting point for experiments, not something set in stone.
+
+/// hint | Important terms
+
+[Cost of Goods Sold](https://www.cloudzero.com/blog/saas-cogs/)  (COGS) — the direct cost of the goods/services one sells — in our case, it is the cost of LLM requests, infrastructure, payment processor fees, etc.
+
+[Gross Margin](https://www.cloudzero.com/blog/saas-gross-margin/) (GM) — the difference between revenue and COGS.
+
+Group Margin does not include things like taxes, office rent, and other stuff that is not needed for bringing direct value to customers.
+
+GM is convenient because its share is quite stable for SaaS products and allows roughly estimating prices in unit economics.
+
+**The classic Gross Margin does not include marketing and Value Added Tax (VAT), so for the purposes of this post we will use our own term — Modified Margin.**
+
+[Customer Acquisition Cost](https://en.wikipedia.org/wiki/Customer_acquisition_cost) (CAC) — how much money on average is spent on marketing to get one paying customer.
+
+`Cancellation Rate` (CR) — churn rate — what percentage of paying customers leave over a certain period of time, usually a month.
+
+`Modified Margin` (MM) — gross margin modified for marketing and [Value Added Tax](https://en.wikipedia.org/wiki/Value-added_tax) (VAT). In this post, `MM = GM - CAC * number of new customers per month - VAT`, more precisely `MM = GM - N * CR * CAC - VAT`, where `N` is the current number of subscribers, `VAT` is the value added tax. `N * CR * CAC` indicates that we are buying as many subscribers as are leaving.
+
+///
+
+The core idea of stability is that if such stability is possible by rough pessimistic calculations, then in reality there will be room for optimization.
+
+- If the project underperforms on the metrics, the calculated model will serve as a reference point for optimization.
+- If the project overperforms on the metrics, it will have very strong momentum for growth.
 
 ## Пространство вариантов монетизации
 
