@@ -31,7 +31,7 @@ As a result, we'll choose the pricing model based on reasoning, while its parame
 
 /// warning | Text may be challenging to perceive
 
-This text is a good example of [thinking through writing]{post:thinking-through-writing} — a practice I actively use. Unfortunately, that’s precisely why it may be a poor example of structured exposition for an external audience.
+This text is a good example of [thinking through writing]{post:thinking-through-writing} — a practice I actively use. Unfortunately, that's precisely why it may be a poor example of structured exposition for an external audience.
 
 I tried to add as much explanations and context as possible, but I'm not sure I added everything that was needed and that all this context didn't make things worse.
 
@@ -202,24 +202,24 @@ The core idea of stability is that if such stability is possible by rough pessim
 - If the project underperforms on the metrics, the calculated model will serve as a reference point for optimization.
 - If the project overperforms on the metrics, it will have very strong momentum for growth.
 
-## Пространство вариантов монетизации
+## Monetization Design Space
 
-Давайте сделаем небольшой [морфологический анализ](https://ru.wikipedia.org/wiki/Морфологический_анализ_(изобретательство)) и разложим пространство монетизации на оси, чтобы каждую возможную её реализацию можно было представить как точку в этом пространстве.
+Let's do a little [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) and break down the monetization design space into axes so that each possible implementation can be represented as a point in this space.
 
-/// note | Оставим за скобками процесс анализа
-Не буду описывать, как я пришёл к этим осям — это результат размышлений над проектом во время разработки, гугления, чтения, общения с ИИ, etc. То есть это скорее концентрация накопленного опыта, чем проделанная единоразовая работа.
+/// note | Let's set aside the analysis process
+I won't go into how I arrived at these axes — it's the result of thinking about the project throughout development, googling, reading, talking to AI, etc. So, it's more a concentration of accumulated experience than a single, one-off effort.
 ///
 
-Что должен включать в себя наш подход к монетизации:
+What our monetization approach should include:
 
-1. Тип бесплатного тарифа — как мы убедим пользователя заплатить.
-2. Наличие классической подписки — будем ли мы продавать доступ к сервису за фиксированную плату.
-3. Наличие токенов — будем ли мы продавать токены на обработку новостей.
-4. Политика учёта квот — как мы будем считать потребление квот подписки и токенов.
-5. Место маржи в ценообразовании — куда мы заложим маржу и в каком объёме.
-6. Доля Gross Margin в ценах — какую долю от цены будем отдавать на обслуживание (COGS), какую оставлять себе (GM).
+1. The type of free tier — how we will convince the user to pay.
+2. The presence of a classic subscription — whether we will sell access to the service for a fixed fee.
+3. The presence of tokens — whether we will sell tokens for news processing.
+4. The quota accounting policy — how we will count the consumption of subscription quotas and tokens.
+5. The place of margin in pricing — where we will lay the margin and in what volume.
+6. The share of Gross Margin in pricing — what portion of the price goes toward servicing costs (COGS) and what portion we keep as GM.
 
-Давайте посмотрим какие координаты есть на каждой оси. Сразу попробуем убрать явно нерабочие варианты, чтобы не тратить на них время.
+Let's look at the coordinates on each axis. We will immediately try to eliminate obviously non-working options to not waste time on them.
 
 ### Бесплатный тариф
 
