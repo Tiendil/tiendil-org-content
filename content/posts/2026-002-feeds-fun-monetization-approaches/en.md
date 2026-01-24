@@ -221,36 +221,36 @@ What our monetization approach should include:
 
 Let's look at the coordinates on each axis. We will immediately try to eliminate obviously non-working options to not waste time on them.
 
-### Бесплатный тариф
+### Free tier
 
-Варианты:
+Possible approaches:
 
-**Без бесплатного тарифа** — никакого freemium, только платная подписка. Как бы это странно ни звучало, но [есть много аргументов «за»](https://www.getmonetizely.com/blogs/the-free-tier-trap-why-free-isnt-always-a-winning-strategy-for-startups): от мощной экономии на инфраструктуре, до подчёркивания профессиональности/ценности продукта.
+**No free tier** — no freemium, only paid access. As strange as it may sound, there are [many arguments "for it"](https://www.getmonetizely.com/blogs/the-free-tier-trap-why-free-isnt-always-a-winning-strategy-for-startups): from significant infrastructure savings to emphasizing the professionalism/value of the product.
 
-**Доступ к ограниченной коллекции протеганых новостей** — Пользователь может подписываться на любые потоки новостей, но без подписки нельзя добавить свои источники. В Feeds Fun сейчас есть две коллекции: [статьи с ArXiv.org](https://feeds.fun/show/scientific-papers) и [новости на тему стартапов](https://feeds.fun/show/entrepreneurship).
+**Access to a limited collection of tagged news** — the user can subscribe to a limited set of news streams that always have tags. Without a subscription, one cannot add their own sources. Feeds Fun currently has two news collections: [articles from ArXiv.org](https://feeds.fun/show/scientific-papers) and [news on startups](https://feeds.fun/show/entrepreneurship).
 
-**Доступ к ограниченной коллекции протеганых новостей И все остальные новости без тегов** — как и предыдущий пункт, только разрешаем пользователю подписываться на все новости. Feeds Fun сейчас работает именно так.
+**Access to a limited collection of tagged news + all other news without tags** — like the previous option, but we allow the user to subscribe to any news source, just without tags. Feeds Fun currently works this way.
 
-**Бесплатная разметка любых новостей, но с лимитом для одного пользователя и глобальным лимитом для всех** — условно, 100 протеганных новостей в день для одного пользователя и 10000 максимум в день для всех.
+**Free tagging of all news, but with a limit per user and a global limit for all users** — for example, 100 tagged news items per day for one user and a maximum of 10000 per day for all users.
 
-**Разрешить подписчикам открывать доступ к коллекциям протеганных новостей** — подписчики собирают свои коллекции новостей, делятся ими, зарабатывают репутацию; люди без подписки читают эти коллекции и говорят спасибо.
+**Sharing collections of tagged news** — subscribers create their own collections of news, share them, earn reputation; non-subscribers read these collections and say thanks.
 
-/// note | Комментарии
+/// note | Comments
 
-«Без бесплатного тарифа» проигрывает «ограниченным коллекциям». Коллекции позволяют пользователям пощупать всю функциональность читалки без фрустрации.
+"No free tier" loses to "limited collections", because collections allow users to try the full functionality of the reader without frustration.
 
-«Ограниченные коллекции» выигрывают у «ограниченных коллекций + новости без тегов» по кажущейся простоте реализации и понятности, но начинают проигрывать, если вдаваться в детали:
+"Limited collections" wins over "limited collections + news without tags" by apparent implementation simplicity and clarity, but starts to lose when we go into details:
 
-1. Возможность добавлять свои источники — это ключевая функциональность любой читалки новостей. Не иметь её — значит сильно фрустрировать пользователей.
-2. Появляется много вопросов о поведении в частных случаях. Например, что делать, если подписчик отменил подписку, — должны ли его новости «пропасть»?
+1. The ability to add one's own sources is a key functionality of any news reader. Not having it will greatly frustrate users.
+2. "Limited collections" leads to a lot of questions about behavior in edge cases. For example, what to do if a subscriber cancels their subscription — should their news "disappear"?
 
-Мы отбрасываем «бесплатную разметку с квотами» по «критерию путаницы», так как либо квоты будут слишком маленькие и пользователи не смогут пощупать продукт, либо слишком большие и мы будем нести убытки на старте.
+We discard "free tagging" by the "confusion criterion" because either the quotas will be too small and users won't be able to try the product, or too large and we will incur losses from the start.
 
-«Шаринг коллекций» — это как раз одна из социальных фич, которую мне было бы интересно реализовать. Однако она выглядит скорее логическим продолжением, чем базовым элементом монетизации.
+"Sharing collections" is exactly one of the social features that I would be interested in implementing. However, it looks more like a logical continuation than a basic element of monetization.
 
 ///
 
-Получается, тут у нас остаётся один вариант — доступ к ограниченной коллекции протеганых новостей с кастомными новостями без тегов. В будущем можно подумать о шаринге коллекций пользователями.
+It looks like we have a single option left — access to a limited collection of tagged news + all other news without tags. In the future, we can think about implementing sharing of collections by users.
 
 ### Подписка и токены
 
