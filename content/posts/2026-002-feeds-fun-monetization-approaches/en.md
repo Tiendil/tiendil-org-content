@@ -252,50 +252,50 @@ We discard "free tagging" by the "confusion criterion" because either the quotas
 
 It looks like we have a single option left — access to a limited collection of tagged news + all other news without tags. In the future, we can think about implementing sharing of collections by users.
 
-### Подписка и токены
+### Subscription and tokens
 
-Объединим эти две оси в одну, так как они тесно связаны между собой.
+Let's merge these two axes into a single one, since they are closely coupled.
 
-/// note | Примечания
+/// note | Note
 
-Говоря о подписке, я всегда буду иметь в виду одновременно месячную и годовую подписку со скидкой за годовую. Так как [годовая подписка рулит](https://longform.asmartbear.com/annual-prepay/). Однако считать будем только месячную подписку — так проще, я рассчитываю, что скидка от годовой подписки должна отыгрываться за счёт большей оборачиваемости денег.
+When I refer to a subscription, I always mean both monthly and yearly subscriptions with a discount for the yearly one. Since [annual subscription rocks](https://longform.asmartbear.com/annual-prepay/). However, in our calculations, we will use only the monthly subscription — it's simpler, and I expect that the discount from the annual subscription should be offset by a higher capital turnover.
 
-Подписка в любом случае будет предполагать квоты на обработку новостей, что также есть завуалированная продажа токенов.
+The subscription in any case will imply quotas for news processing, so it is also a veiled sale of tokens.
 
-Логика подписки в этом посте предполагает квоты на день (для удобства расчётов). В реальности, скорее всего, будет что-то более сложное в виде разных квот и на день, и на месяц, чтобы получить плавный пользовательский опыт.
+The subscription logic in this post assumes daily quotas (for ease of calculation). In reality, it will likely be something more complex, with different quotas for both day and month, to provide a smooth user experience.
 
-Логика токенов предполагает простую конверсию: 1 токен = 1 обработанная новость. БОльшая детализация слишком сложна для восприятия, непрозрачна и затрудняет модификацию алгоритмов разметки в будущем, так как любая модификация изменяет траты ресурсов на обработку новости.
+The token logic assumes a simple conversion: 1 token = 1 processed news item. More detailed logic is too complex for perception, non-transparent, and complicates the evolution of tagging algorithms, as any modification changes the resource consumption for processing a news item.
 
-Говоря о докупке токенов, я имею в виду автоматическую докупку с лимитами на количество докупаемых токенов в день/месяц, так как ручная докупка слишком неудобна.
-
-///
-
-Варианты:
-
-- **Только продажа токенов** — пользователь платит только за обработанные новости, без дополнительной подписки.
-- **Подписки без токенов** — пользователь платит фиксированную сумму в месяц/год за фиксированное количество протеганных новостей. Может быть несколько тиров подписки с разными квотами.
-- **Подписки + докупка токенов** — пользователь покупает подписку на ожидаемое количество новостей, а сверх этой квоты докупает токены.
-
-/// note | Комментарии
-
-«Подписка без токенов» — самый простой вариант. Может быть в разных видах от «несколько радикально отличающихся по квотам» до «сотня подписок с шагом квот в 100 новостей/день».
-
-«Только токены» мы отбрасываем по «критерию путаницы» — считать токены никто не любит. Чистая токенная модель больше подходит для сервисов с непериодическим использованием или меняющейся нагрузкой, например, для продажи API.
-
-«Подписка + докупка токенов» позволяет пользователю быть более гибким. Например, некоторые источники новостей проявляют цикличность с пиками нагрузки (по рабочим дням, по выходным, в последний день квартала и etc.). В такие периоды докупить токены пользователю будет удобнее, чем потерять новости.
-
-Современные платёжные провайдеры предоставляют логику «подписка + токены» из коробки, поэтому технологически большой разницы между чистой подпиской и подпиской с токенами быть не должно.
-
-Есть ещё немного семантически отличающийся вариант «единственная базовая подписка + токены», когда мы подчёркиваем, что пользователь платит фиксированную сумму за доступ к сервису и отдельно платит за обработанные новости. Этот вариант мы рассматривать не будем, так как сервис не предоставляет большой ценности без тегов и правил, а значит базовая подписка будет выглядеть странно.
+When I talk about purchasing tokens, I mean automatic purchasing with limits on the number of tokens that can be purchased per day/month, as manual purchasing is too inconvenient.
 
 ///
 
-Я остановился на варианте «подписка + докупка токенов» с двумя вариантами подписок:
+Possible approaches:
 
-1. Подписка для начинающих пользователей.
-2. Подписка для продвинутых пользователей.
+- **Tokens only** — the user pays only for processed news, without an additional subscription.
+- **Subscription only** — the user pays a fixed amount per month/year for a fixed number of processed news. There can be several subscription tiers with different quotas.
+- **Subscription + tokens** — the user buys a subscription for an expected number of news, and purchases tokens beyond that quota.
 
-Вкупе с бесплатным тиром, это три варианта использования сервиса, что должно быть привычно и понятно. В то же время, два варианта подписки позволят нам быть гибкими в ценообразовании.
+/// note | Comments
+
+"Subscription only" is the simplest option. It can come in various forms from "several radically different quotas" to "a hundred subscriptions with a 100 news/day step".
+
+"Tokens only" we discard by the "confusion criterion" — nobody likes counting tokens. A pure token model is more suitable for services with non-periodic usage or dynamic load, such as selling an API.
+
+"Subscription + tokens" lets the user be more flexible. For example, some news sources show cyclicality with load peaks (on weekdays, on weekends, at the end of the quarter, etc.). During such periods, it will be more convenient for the user to buy additional tokens than to miss news.
+
+Contemporary payment providers offer "subscription + tokens" logic out of the box, so there shouldn't be a big technological difference between pure subscription and subscription with tokens.
+
+There exists another slightly semantically different option of "single base subscription + tokens", where we emphasize that the user pays a fixed price for access to the service and separately pays for processed news. We won't consider this option, as the service provides little value without tags and rules, so a base subscription would look strange.
+
+///
+
+I stopped at the "subscription + tokens" option with two subscription tiers:
+
+1. Subscription for beginner users.
+2. Subscription for advanced users.
+
+In pair with the free tier, this gives us three ways to use the service, which should be familiar and understandable. At the same time, two subscription options will allow us to be flexible in pricing.
 
 ### Учёт квот
 
