@@ -297,47 +297,48 @@ I stopped at the "subscription + tokens" option with two subscription tiers:
 
 In pair with the free tier, this gives us three ways to use the service, which should be familiar and understandable. At the same time, two subscription options will allow us to be flexible in pricing.
 
-### Учёт квот
+### Quota accounting
 
-Мы не обрабатываем новость отдельно для каждого пользователя. Достаточно проставить теги один раз и они будут доступны всем.
+We do not process news items separately for each user. It is enough to tag the news item once, and the tags will be available to all.
 
-Более того, Feeds Fun сейчас эту фичу использует. Пользователи могут ввести OpenAI/Gemini API ключ, чтобы размечать свои новости. Если два пользователя подписаны на один и тот же источник новостей, то их ключи будут использоваться по очереди, а значит, каждый потратит в два раза меньше денег.
+Moreover, Feeds Fun currently uses this feature. Users can enter their OpenAI/Gemini API key to tag their news. If two users are subscribed to the same news source, their keys will be used alternately, meaning each person will spend half as much money.
 
-Поэтому, в теории возможны два подхода к квотам:
+Therefore, in theory, to approaches are possible:
 
-- **От реально потреблённых ресурсов** — одна новость засчитывается как один токен для одного из подписчиков на её источник.
-- **От принесённой ценности пользователю** — одна новость засчитывается как один токен для каждого подписчика на её источник.
+- **Quota from actually consumed resources** — one news item counts as one token for one of the subscribers to its source.
+- **Quota from provided value** — one news item counts as one token for each subscriber to its source.
 
-Подавляющее большинство SaaS продают именно ценность для пользователя.
+The vast majority of SaaS sell the value.
 
-/// note | Комментарии
+/// note | Comments
 
-Организация оплаты от реально потреблённых ресурсов выглядит привлекательной и «справедливой», но у неё есть ряд серьёзных минусов.
+Pricing based on actual resource consumption looks attractive and "fair", but it comes with a number of serious drawbacks.
 
-**Во-первых**, всплывает неимоверное количество вопросов о том «как честно и справедливо учитывать вклад каждого пользователя». Если вам кажется, что это очевидно и просто, то это не так. В первой редакции поста в этом месте было огромное полотно с разбором только части возникающих проблем. Потом я его удалил, так как оно даже для меня выглядит сложно и запутано.
+**First**, an enormous number of questions immediately arise around how to "honestly and fairly account for each user's contribution". If you think it's obvious and simple, it's not. In the first draft of this post, there was a massive wall of text analyzing just subset of the problems that come up. I deleted it, as even for me it looks complex and confusing.
 
-Люди разные, не все люди морально готовы по умолчанию делиться профитом, который они получили за собственные деньги. Особенно, если правила разделения профита не кристально чёткие и прозрачные.
+People are different, not all are morally ready (by default) to share the profit they received for their own money. Especially if the rules for profit sharing are not crystal clear and transparent.
 
-Для примера, представьте ситуацию, что один подписчик оплачивает разметку 900 новостей, а другой только 100 новостей из одного и того же источника. Как в таком случае обеспечить справедливое распределение затрат?
+For example, imagine a situation where one subscriber pays for tagging 900 news items, and another pays for only 100 news items from the same source. How to ensure fair cost distribution in such a case?
 
 //// brigid-images
 src = "equality_equity.png"
-caption = "Классическое изображение одного из аспектов вопроса."
+caption = "Classic illustration of one aspect of the problem."
 ////
 
-Поэтому мы отбрасываем этот вариант по «критерию путаницы».
+That's why we discard this option by the "confusion criterion".
 
-**Во-вторых**, если мы считаем квоты от реально потреблённых ресурсов, то наши доходы начинают расти не с ростом числа пользователей, а с ростом числа уникальных новостей, которые пользователи хотят читать. Это плохо, так как интернет новостей относительно конечен, а значит в какой-то момент рост доходов остановится, в то время как число пользователей может продолжать расти.
+**Second**, when we calculate quotas based on actually consumed resources, our income starts to grow not with the number of users, but with the number of unique news items that users want to read. This is bad, as the internet of news is relatively finite, and at some point, income growth will stop, while the number of users may continue to grow.
+
 ///
 
-Квоты от потреблённых ресурсов были бы интересным вариантом для общественного сервиса вроде Wikipedia, но я не того масштаба деятель :-D
+Quota based on consumed resources would be interesting for a public service like Wikipedia, but I'm not operating at that scale :-D
 
-В то же время, хочется наносить общественное благо и помогать пользователям делать это. Для этого я вижу следующие инструменты:
+At the same time, I want to bring public good and help users do the same. For this, I see the following tools:
 
-1. Инвестирование в официальные доступные для всех коллекции новостей. Например, я бы хотел предоставлять бесплатный доступ ко всем научным новостям на планете. Было бы круто.
-2. Функциональность для шаринга коллекций через **осознанный выбор подписчика**. Хочешь — шаришь для друзей, хочешь — для всех, не хочешь — не шаришь.
+1. Investment in publicly available collections of news. For example, I would like to provide free access to all scientific news on the planet. That would be cool.
+2. Functionality for sharing collections through **conscious subscriber choice**. So, the user could decide whether to share with friends, with everyone, or not share at all.
 
-Соответственно, наш вариант — это отдельно рассчитывать квоты для каждого пользователя.
+Therefore, our options is to base quotas on provided value.
 
 ### Маржа
 
