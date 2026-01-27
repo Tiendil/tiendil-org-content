@@ -292,8 +292,8 @@ There exists another slightly semantically different option of "single base subs
 
 I stopped at the "subscription + tokens" option with two subscription tiers:
 
-1. Subscription for beginner users.
-2. Subscription for advanced users.
+1. Subscription for beginner users (basic subscription).
+2. Subscription for advanced users (advanced subscription).
 
 In pair with the free tier, this gives us three ways to use the service, which should be familiar and understandable. At the same time, two subscription options will allow us to be flexible in pricing.
 
@@ -340,21 +340,21 @@ At the same time, I want to bring public good and help users do the same. For th
 
 Therefore, our options is to base quotas on provided value.
 
-### Маржа
+### Margin
 
-Маржа может быть:
+Our margin can be:
 
-- **в подписке**;
-- **в токенах**;
-- **и в подписке и в токенах**.
+- **in subscription**;
+- **in tokens**;
+- **in subscription and tokens**.
 
-Поскольку и подписка и токены в нашем случае — это активные инструменты пользователя (а не мелкие бонусы), то нам нужна маржа и там и там.
+Since both subscription and tokens, in our case, are active customer's tools (not small bonuses), we need margin in both of them.
 
-Мы хотим поощрять пользователей увеличивать использование сервиса, поэтому докупка токенов должна выглядеть выгодной, так же как и апгрейд подписки.
+We want to encourage users to use the service more, so buying tokens should look profitable, upgrading the subscription should feel the same as well.
 
-Получается что-то вроде `цена токена базовой подписки > цена докупки токена на базовой подписке > цена токена продвинутой подписки > цена докупки токена на продвинутой подписке`.
+So, the pricing logic looks like this `the price of token on basic subscription < the price of extra token on basic subscription < the price of token on advanced subscription < the price of extra token on advanced subscription`.
 
-Поэтому цены мы будем задавать через маржу токена базовой подписки и стандартную скидку на каждый следующий уровень. На мой взгляд, одного значения скидки будет достаточно для нужд этого анализа. Три независимых значения усложнят модель без особой пользы.
+Therefore, we'll define the prices using the margin of the base subscription token and a standard discount step for each subsequent level. In my opinion, one discount value will be sufficient for the needs of this analysis. Three independent values would complicate the model without much benefit for our goal.
 
 ### Доля Gross Margin в ценах
 
