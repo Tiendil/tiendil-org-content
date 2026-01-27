@@ -356,31 +356,30 @@ So, the pricing logic looks like this `the price of token on basic subscription 
 
 Therefore, we'll define the prices using the margin of the base subscription token and a standard discount step for each subsequent level. In my opinion, one discount value will be sufficient for the needs of this analysis. Three independent values would complicate the model without much benefit for our goal.
 
-### Доля Gross Margin в ценах
+### Gross margin portion of the price
 
-/// note | Повторяем материал
-Тут вы можете захотеть вернуться в начало поста и перечитать блок «Важные термины», содержащий определения для Gross Margin (GM) и Cost of Goods Sold (COGS).
+/// note | Repeat the material
+Here you may want to return to the begining of the post and reread the "Important terms" block containing definitions for Gross Margin (GM) and Cost of Goods Sold (COGS).
 ///
 
-Формировать цены мы будем исходя из возможной доли GM по отношению к COGS на одного пользователя. Соответственно, цену можно задавать напрямую как `COGS * N`, где `N = 1 / (1 - GM%)`.
+We will set prices based on the achievable GM share relative to COGS per user. Accordingly, the price can be defined directly as `COGS * N`, where `N = 1 / (1 - GM%)`.
 
-Будем рассматривать следующие варианты для `N`:
+We'll consider the following options for `N`:
 
-- **x2** — `GM = 50%` — высокие траты на обслуживание, низкие доходы, любая ошибка и ты ошибся.
-- **x3** — `GM = 66%` — пациент скорее жив.
-- **x4** — `GM = 75%` — пациент жив и даже может ходить, этот уровень добавлен постфактум, так как на него интересно смотреть на стенде внизу поста.
-- **x5** — `GM = 80%` — нижняя планка стандартной SaaS маржи. Да, интернеты говорят, что самая распространённая наценка для SaaS — это x5-x10 к затратам.
-- **x6-x9** — здоровые промежуточные значения, добавлены постфактум, так как на них интересно смотреть на стенде внизу поста.
-- **x10** — `GM = 90%` — верхняя планка стандартной SaaS маржи.
-- **x20** — `GM = 95%` — очень хорошая маржа. Если мы тут и у нас есть пользователи, то всё в шоколаде.
+- **x2** — `GM = 50%` — high servicing costs, low income, one mistake and you're screwed.
+- **x3** — `GM = 66%` — the patient is breathing.
+- **x4** — `GM = 75%` — the patient is alive and may even walk, this level was added post factum, as it's interesting to look at it on the stand at the bottom of the post.
+- **x5** — `GM = 80%` — the lower bound of a typical SaaS margin. Yes, the internet says that the most common markup for SaaS is x5-x10 over costs.
+- **x10** — `GM = 90%` — the upper bound of a typical SaaS margin.
+- **x20** — `GM = 95%` — very good margin. If we are here and we have customers, then everything is great.
 
-Выбирать на старте маржи `x2-x3`, на мой взгляд, выглядит очень опасным решением для проекта вроде Feeds Fun, так как любая ошибка в расчётах или в коде может моментально обнулить проект.
+In my opinion, starting with the `x2-x3` margin is not a gdoo idea, it looks too risky for the project like Feeds Fun, because any mistake in calculations or code can instantly wipe out the project.
 
-/// note | Комментарии
+/// note | Comments
 
-Это очень грубый расчёт, есть множество нюансов, которые он упускает. Например, 1000500 пользователей с маржей в 1$ и 10 пользователей с маржей в 100000$ — это совершенно разные ситуации.
+This is a raugh estimate, there are many nuances that it misses. For example, 1000500 users with a margin of $1 and 10 users with a margin of $100000 are completely different scenarios.
 
-Вот интересный практический разбор [влияния цены на продажи и доходы](https://blog.asmartbear.com/higher-pricing/).
+Here is an interesting practical analysis of [the impact of price on sales and revenue](https://blog.asmartbear.com/higher-pricing/).
 
 ///
 
