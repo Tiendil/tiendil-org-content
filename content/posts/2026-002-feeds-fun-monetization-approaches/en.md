@@ -383,30 +383,30 @@ Here is an interesting practical analysis of [the impact of price on sales and r
 
 ///
 
-## Стоимость привлечения пользователя и доля отмены подписок
+## Customer Acquisition Cost and Cancellation Rate
 
-/// note | Повторяем материал
-Тут вы можете захотеть вернуться в начало поста и перечитать блок «Важные термины», содержащий определения для Customer Acquisition Cost (CAC) и Cancellation Rate (CR).
+/// note | Repeat the material
+Here you may want to return to the begining of the post and reread the "Important terms" block containing definitions for Customer Acquisition Cost (CAC) and Cancellation Rate (CR).
 ///
 
-Кроме осей, в которых мы будем искать наш самый правильный вариант монетизации, у нас есть две важные константы:
+Besides the space where we will search for our most correct monetization option, we have two important constants:
 
-- **Стоимость привлечения пользователя (Customer Acquisition Cost — CAC)**.
-- **Доля отмены подписок (Cancellation Rate — CR)**.
+- **Customer Acquisition Cost (CAC)**.
+- **Cancellation Rate (CR)**
 
-Я не выделил их в оси, так как:
+I haven't included them in the axes because:
 
-1. Это внешние параметры — мы можем их оптимизировать, но не можем задавать напрямую.
-2. Их значение сейчас неизвестно. [Тестовая закупка пользователей]{post:feeds-fun-marketing-test} показала хорошую цену клика, но очень плохую конверсию в регистрации. Я это связываю с неудобным интерфейсом (который надо дорабатывать) и сложностью получить пользу от читалки (надо было вводить API ключи).
+1. They are external parameters — we can optimize them, but cannot set them directly.
+2. We don't know them yet. [Test user acquisition]{post:feeds-fun-marketing-test} showed a good click price, but a very poor conversion to registrations. I associate this with an inconvenient interface (which needs to be improved) and the complexity of getting benefit from the reader (it was necessary to enter API keys).
 
-Поэтому будем использовать пессимистично-средние значения (выбраны на глаз после гугления и общения с ChatGPT):
+That's why we will use pessimistic-average values (picked by eye after googling and talking to ChatGPT):
 
-- `CAC = 100$` (пессимистичное значение для среднего SaaS — `50$`, но поскольку у нас сложный продукт, то я решил взять x2).
+- `CAC = 100$` (pessimistic value for average SaaS is `50$`, but since we have a complex product, I decided to take x2).
 - `CR = 5%`
 
-В части поста с графиками и таблицами будут поля для ввода своих значений.
+In the model below we'll be able to change these values to see how they affect the final result.
 
-Я решил ориентироваться на средний `CAC`, а не на конверсию из кликов (хотя цена клика у меня есть), так как сторонней статистики по конверсиям из кликов значительно меньше, поэтому выглядит более разумным ориентировать на статистику по `CAC`.
+I decided to use `CAC` instead of conversion from clicks (although I have the click price) because there is significantly less reliable third-party statistics on conversions from clicks, so it seems more reasonable to use `CAC` statistics.
 
 ## Модель свечного заводика
 
