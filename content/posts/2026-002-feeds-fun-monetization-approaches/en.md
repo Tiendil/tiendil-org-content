@@ -408,13 +408,13 @@ In the model below we'll be able to change these values to see how they affect t
 
 I decided to use `CAC` instead of conversion from clicks (although I have the click price) because there is significantly less reliable third-party statistics on conversions from clicks, so it seems more reasonable to use `CAC` statistics.
 
-## Модель свечного заводика
+## The model of a small sustainable business
 
-Чтобы рассчитать экономику, нам нужно:
+To work out the economics, we need to:
 
-- Знать часть Cost of Goods Sold, которая уходит на обработку одной новости.
-- Знать часть Cost of Goods Sold, которая уходит на поддержание всего сервиса (сервера, привлечение новых пользователей, НДС, etc.).
-- Оценить целевую аудиторию — какое потребление новостей мы можем ожидать от пользователей.
+- Know the fraction of COGS that goes to processing one news item.
+- Know the fraction of COGS that goes to supporting the entire service (servers, marketing, VAT, etc.).
+- Estimate the target audience — what level of news consumption we can expect from users.
 
 ### Оценка количества новостей
 
