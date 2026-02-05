@@ -517,18 +517,18 @@ Adding up all the costs, we get the cost of processing one news item:
 
 ///
 
-### Стоимость поддержки сервиса
+### Cost of service support
 
-Стоимость поддержки сервиса состоит из:
+The cost of supporting the service consists of:
 
-1. Стоимости аренды сервера. Сейчас `75$ / month`, пусть будет `200$ / month` с запасом на рост.
-2. Суммарной стоимости возмещения убывших пользователей — `1000 (subscribers) * 0.05 (CR) * 100$ (CAC) = 5000$ / month`.
-3. Комиссии платёжных провайдеров. Мы будем ориентироваться на самую большую комиссию Stripe: `2.5% + 0.30$ per transaction`, без учёта меньших комиссий в некоторых локациях. Stripe умеет агрегировать все платежи в один инвойс за период, поэтому нам не нужно моделировать несколько транзакций на одного пользователя.
-4. Стоимости дефолтных коллекций новостей. Сейчас это `50$ / month`, пусть будет `500$ / month` с запасом на рост.
+1. The cost of hosting. Currently, it is `75$ / month`, let's make it `200$ / month` for a feature growth.
+2. The cost of new users acquisition — `1000 (subscribers) * 0.05 (CR) * 100$ (CAC) = 5000$ / month`.
+3. Fees of payment providers. We will assume the worst case of Stripe, which is `2.5% + 0.30$ per transaction`, without taking into account smaller fees in some locations. Stripe can aggregate all payments into one invoice for the period, so we don't need to model multiple transactions for one user.
+4. The cost of maintaining default news collections. Currently, it is `50$ / month`, let's make it `500$ / month` to leave room for growth.
 
-### Прочие затраты
+### Other spendings
 
-1. [Налог на добавленную стоимость](https://ru.wikipedia.org/wiki/Налог_на_добавленную_стоимость) (НДС) — величина зависит от страны пользователя, но пессимистично его можно оценить в `25%` от доходов.
+1. [Value Added Tax](https://en.wikipedia.org/wiki/Value-added_tax) (VAT) — the tax rate depends on the country of the user, but pessimistically it can be estimated at `25%` of revenues.
 
 ## Сценарий монетизации
 
