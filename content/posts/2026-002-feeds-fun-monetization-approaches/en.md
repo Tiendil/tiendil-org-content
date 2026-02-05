@@ -564,28 +564,28 @@ As a result of the analysis above, we have the following scenario for monetizati
 - `Base token price margin` — margin for the token of the basic subscription.
 - `Token price discount` — discount step on every next subscription level.
 
-### Распределение пользователей по подпискам и потреблению новостей
+### Users distibution by subscription tiers and news consumption
 
-Внимательный читатель мог заметить, что групп пользователей по потреблению новостей у нас три, а подписок только две. Чтобы посчитать модель нам нужно как-то распределить пользователей по подпискам и определить сколько новостей они будут потреблять.
+An attentive reader may have noticed that we have three user groups by news consumption, but only two subscription tiers. To model this, we need to map users to tiers somehow and define how many news items each group will consume.
 
-Мы будем использовать следующие допущения:
+We'll use the following assumptions:
 
-**Во-первых**, мы будем считать, что пользователь всегда выбирает самую оптимальную подписку для себя с точки зрения цены.
+**First**, users will always choose the most optimal subscription for themselves in terms of price.
 
-**Во-вторых**, чтобы не заморачиваться, мы просто зададим конкретное потребление для каждого пользователя.
+**Second**, to simplify the model, we set specific news consumption for each user.
 
-**В-третьих**, чтобы исключить совсем халявные сценарии (вроде 1 новость в день), мы зададим минимальное потребление новостей для «начинающих» пользователей.
+**Third**, we'll exclude non-usage scenarios (like 1 news item per day) by setting a minimum news consumption for "beginner" users.
 
-Определение количества новостей для пользователя:
+We'll calculate the number of news for a user by following the next logic:
 
-1. Распределим пользователей по группам (начинающие, продвинутые, хардкорные).
-2. Для каждой группы зададим минимальное и максимальное потребление новостей в день.
-3. Для каждого пользователя в группах «начинающие» и «продвинутые» зададим конкретное потребление новостей в день с помощью лог-равномерного распределения между минимальным и максимальным потреблением.
-4. Для всех пользователей группы «хардкорные» зададим конкретное потребление новостей в 1000 новостей в день. Предполагая, что сверх этого они докупать токены не будут (мы считаем пессимистичную оценку).
+1. Distribute users into groups (beginners, advanced, hardcore).
+2. For each group set a minimum and maximum news consumption per day.
+3. For each user in the "beginner" and "advanced" groups, set specific news consumption per day using a [log-uniform distribution](https://en.wikipedia.org/wiki/Reciprocal_distribution) between the minimum and maximum consumption.
+4. For every user in the "hardcore" group, set news consumption to 1000 news per day. Assuming that they won't buy tokens beyond that (we are taking a pessimistic scenario).
 
-Мы используем лог-равномерное распределение, так как пользователей с низким потреблением обычно больше, чем с высоким.
+We use log-uniform distribution because there are usually more users with low consumption than with high consumption.
 
-Имея конкретное потребление новостей в день, мы можем определить какую подписку выберет пользователь (с учётом базовой стоимости и стоимости докупки токенов сверх квоты).
+Having a news consumption for each user, we can determine which subscription tier they will choose (taking into account the base subscription price and the price of purchasing tokens beyond the quota).
 
 ## Моделируем
 
