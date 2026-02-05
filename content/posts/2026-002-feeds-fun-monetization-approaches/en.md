@@ -416,50 +416,49 @@ To work out the economics, we need to:
 - Know the fraction of COGS that goes to supporting the entire service (servers, marketing, VAT, etc.).
 - Estimate the target audience — what level of news consumption we can expect from users.
 
-### Оценка количества новостей
+### Estimating number of news items
 
-Поскольку для Feeds Fun критически важно количество новостей, а для всех прочих читалок — количество источников, то найти объективную релевантную статистику практически невозможно. Есть ряд научных и около научных публикаций, но они все старые и современному дню не релевантны.
+Since the volume of news flow is critical for Feeds Fun, and the number of sources is critical for all other readers, finding objective relevant metrics is almost impossible. There are a number of scientific and near-scientific publications, but they are all old and not relevant to the modern day.
 
-Единственный достоверный источник статистики — это сам Feeds Fun. К сожалению, пользовательская база у него небольшая и нет гарантии, что пользователи, которые готовы вводить API ключи, — это те же пользователи, которые готовы платить деньги.
+The one and only reliable source of metrics is Feeds Fun itself. Unfortunately, it has a small user base and there is no guarantee that users who are ready to enter API keys are the same users who are ready to pay money.
 
-Вот статистика по каналам и новостям (за 30 дней) для активных пользователей с API ключами. Из статистики исключены официальные коллекции, так как они доступны всем. Всего таких пользователей 11 человек, включая меня и жену :-D
-
-| Каналы | Новостей за 30 дней | Новостей в день |
-|--------|---------------------|-----------------|
-|    276 |               32954 |            1098 |
-|    611 |               19032 |             634 |
-|     14 |                7501 |             250 |
-|      4 |                4217 |             140 |
-|     23 |                2514 |              84 |
-|      1 |                1705 |              57 |
-|      3 |                 937 |              31 |
-|     12 |                 931 |              31 |
-|      2 |                 601 |              20 |
-|     62 |                 533 |              18 |
-|      1 |                  50 |               2 |
+Here are numbers of feeds and news items for active users with API keys for the last 30 days. Official collections are excluded from the statistics, as they are available to everyone. There are 11 such users in total, including me and my wife :-D
 
 
-Обратите внимание, количество новостей не коррелирует с количеством каналов.
+| Feeds  | News items per 30 days | News items per day |
+|--------|------------------------|--------------------|
+|    276 |                  32954 |               1098 |
+|    611 |                  19032 |                634 |
+|     14 |                   7501 |                250 |
+|      4 |                   4217 |                140 |
+|     23 |                   2514 |                 84 |
+|      1 |                   1705 |                 57 |
+|      3 |                    937 |                 31 |
+|     12 |                    931 |                 31 |
+|      2 |                    601 |                 20 |
+|     62 |                    533 |                 18 |
+|      1 |                     50 |                  2 |
 
-Если включать активных пользователей без API ключей, то людей становится больше, но картина остаётся примерно такой же.
+Note that the number of news items does not correlate with the number of feeds.
 
-Соответственно, мы можем выделить три группы пользователей:
+If we add active users without API keys, the picture will be approximately the same, just with more people.
 
-1. **Начинающие** — до 100 новостей в день.
-2. **Продвинутые** — от 100 до 1000 новостей в день.
-3. **Хардкорные** — от 1000 новостей в день и больше.
+Correspondingly, we can identify three groups of users:
 
-/// note | 100 новостей в день?
+1. **Beginners** — up to 100 news items per day.
+2. **Advanced** — from 100 to 1000 news items per day.
+3. **Hardcore** — from 1000 news items per day and more.
 
-Если ориентироваться только на это количество, то необходимость специализированной читалки для такого количества новостей вызывает сомнения. Но:
+/// note | 100 news per day?
 
-1. Не забываем про дефолтные коллекции новостей, которые доступны всем пользователям. Тут мы считаем только новости, обрабатываемые за средства пользователя.
-2. Некоторым людям может быть сложно читать и по 100 в день.
-3. Некоторые люди могут читать новости раз в неделю.
-4. В перспективе, теги даже для небольшого количества новостей могут быть полезны, если эти новости интегрированы в другие сервисы, например, шлют вебхуки в автоматизацию. Это есть в планах, хотя и в отдалённой перспективе.
+It looks strange to have a specialized news reader just for 100 news items per day. However:
 
-На мой взгляд, думать что-то сложное тут не имеет смысла, правильнее смотреть на практике и корректировать модель по мере появления новых данных.
+1. We should not forget about default news collections that are available to all users. Here we count only news users directly pay for.
+2. Some people may have difficulty reading even 100 news items per day.
+3. Some people may read news once a week.
+4. In perspective, tags for even a small number of news items can be useful if these news are integrated into other services, for example, by sending webhooks to automation. This feature is in the plans, although in the distant perspective.
 
+In my opinion, there is no point in inventing something complicated here, it's better to look how it works in practice and adjust the model as new data comes in.
 ///
 
 Понятно, что пользовательская база будет как-то распределяться по этим группам. Поскольку данных откровенно недостаточно, мы разобьём пользователей вдохновившись [принципом Парето 80/20](https://ru.wikipedia.org/wiki/Закон_Парето), так как он встречается абсолютно везде.
