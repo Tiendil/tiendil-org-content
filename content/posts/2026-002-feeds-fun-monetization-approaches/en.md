@@ -461,15 +461,15 @@ It looks strange to have a specialized news reader just for 100 news items per d
 In my opinion, there is no point in inventing something complicated here, it's better to look how it works in practice and adjust the model as new data comes in.
 ///
 
-Понятно, что пользовательская база будет как-то распределяться по этим группам. Поскольку данных откровенно недостаточно, мы разобьём пользователей вдохновившись [принципом Парето 80/20](https://ru.wikipedia.org/wiki/Закон_Парето), так как он встречается абсолютно везде.
+Obviously, users will be distributed among these groups in some way. Since the data is frankly insufficient, we will divide users inspired by the [Pareto principle 80/20](https://en.wikipedia.org/wiki/Pareto_principle), as it can be found absolutely everywhere.
 
-Поэтому в наших сценариях мы будем использовать следующую разбивку, помним:
+Therefore, in our scenarios, we will assume the next users breakdown:
 
-1. **80% начинающих** — 0-99 новостей в день.
-2. **16% продвинутых** — 100-1000 новостей в день.
-3. **4% хардкорных** — 1000-… новостей в день.
+1. **80% beginners** — 0-99 news items per day.
+2. **16% advanced** — 100-1000 news items per day.
+3. **4% hardcore** — 1000-… news items per day.
 
-Это довольно сильное допущение, но лучших альтернатив у нас нет.
+This is a very strong assumption, but we have no better alternatives.
 
 ### Стоимость обработки новости
 
