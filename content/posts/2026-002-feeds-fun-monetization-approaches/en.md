@@ -587,21 +587,21 @@ We use log-uniform distribution because there are usually more users with low co
 
 Having a news consumption for each user, we can determine which subscription tier they will choose (taking into account the base subscription price and the price of purchasing tokens beyond the quota).
 
-## Моделируем
+## Building the model
 
-/// danger | Некоторые сценарии могут работать в убыток
+/// danger | Some scenarios may run at a loss
 
-При большом шаге скидок и малой марже, мы можем начать продавать токены дешевле, чем они нам обходятся.
+Setting a large discount step and a small margin can lead to a situation where we start selling tokens cheaper than they cost us.
 
-Например, при шаге скидки 20% и марже x2, токены на продвинутой подписке будут продаваться дешевле их COGS.
+For example, having discount step of 20% and margin of x2, tokens on the advanced subscription will be sold cheaper than their COGS.
 
 ///
 
-/// warning | Значения по умолчанию изменены
+/// warning | Default parameter values
 
-В тексте выше было задано много значений по умолчанию для входных параметров модели.
+In the text above a lot of values were specified for the model's input parameters.
 
-В модели ниже они изменены на значения, на которых я остановился для выбранного ценообразования.
+In the model below I set parameters to the final values that I stopped at for the chosen prices.
 
 ///
 
@@ -609,7 +609,7 @@ Having a news consumption for each user, we can determine which subscription tie
 
 ---8<--- "./plot_config_inputs.html"
 
-### Тепловая карта Modified Margin
+### Heatmap of Modified Margin
 
 <div id="plot-xxx"></div>
 
@@ -619,14 +619,14 @@ heatmapPlot('plot-xxx');
 
 ---8<--- "./plot_summary_table.html"
 
-### Цены подписок
+### Subscription costs
 
-Таблица для быстрой оценки стоимости подписок в зависимости от маржи и шага скидки.
+Here is a table for quick access to the cost of subscriptions depending on the margin and discount step.
 
-/// note | Конкуренты
+/// note | Competitors
 
-- **Inoreader** — `~9 eur/месяц`.
-- **Feedly** — `~9 eur/месяц`, `~13 eur/месяц` (pro+, только годовая подписка).
+- **Inoreader** — `~9 eur/month`
+- **Feedly** — `~9 eur/month`, `~13 eur/month` (pro+, only yearly subscription)
 
 ///
 
