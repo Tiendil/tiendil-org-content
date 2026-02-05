@@ -530,39 +530,39 @@ The cost of supporting the service consists of:
 
 1. [Value Added Tax](https://en.wikipedia.org/wiki/Value-added_tax) (VAT) — the tax rate depends on the country of the user, but pessimistically it can be estimated at `25%` of revenues.
 
-## Сценарий монетизации
+## Monetization scenario
 
-В итоге мы можем сформулировать конкретный сценарий ценообразования.
+As a result of the analysis above, we have the following scenario for monetization:
 
-1. Пользователи могут использовать Feeds Fun без подписки, но теги будут только у дефолтных коллекций новостей.
-2. Два тира платной подписки с докупкой токенов сверх квот подписки.
-3. Мы строим оплату сервиса на основе принесённой ценности пользователю, поэтому квоты рассчитываются отдельно для каждого пользователя.
-4. Наша аудитория — это 80% начинающих пользователей (до 100 новостей в день), 16% продвинутых (100-1000 новостей в день) и 4% хардкорных (больше 1000 новостей в день).
-5. Плюс все параметры, которые мы определили ранее.
+1. Users can use Feeds Fun without a subscription, but tags will only be available for default news collections.
+2. There will be two subscription tiers with tokens purchase if the user exceeds the subscription quota.
+3. We base the price on the value provided to the user, so usage are tracked separately for each user.
+4. Our audience is 80% beginners (up to 100 news per day), 16% advanced (100-1000 news per day) and 4% hardcore (more than 1000 news per day).
+5. Plus all the parameters we defined earlier.
 
-## Модель ценообразования
+## Pricing model
 
-### Параметры
+### Parameters
 
-- `Cost of Goods Sold per news` — цена обработки одной новости.
-- `Server cost` — стоимость аренды сервера.
-- `Default collections cost` — стоимость дефолтных коллекций.
-- `News size (chars)` — размер одной новости в символах.
-- `Input price (1M)` — цена входных токенов за 1 млн.
-- `Output price (1M)` — цена выходных токенов за 1 млн.
-- `Customer Acquisition Cost` — стоимость привлечения одного пользователя.
-- `Cancellation Rate` — доля отмены подписок в месяц.
-- `VAT` — налог на добавленную стоимость.
-- `Audience size` — размер аудитории.
-- `Beginner min consumption` — минимальное потребление новостей новичками (в день).
-- `Beginners (fraction)` — доля новичков.
-- `Beginners (max news)` — максимальное потребление новостей новичками (в день).
-- `Advanced (fraction)` — доля продвинутых пользователей.
-- `Advanced (max news)` — максимальное потребление новостей продвинутыми (в день).
-- `Base subscription quota` — квота базовой подписки в новостях в день.
-- `Professional subscription quota` — квота продвинутой подписки в новостях в день.
-- `Base token price margin` — маржа на токен базовой подписки.
-- `Token price discount` — шаг скидки на каждый следующий уровень подписки.
+- `Cost of Goods Sold per news` — cost of processing one news item.
+- `Server cost`
+- `Default collections cost`
+- `News size (chars)`
+- `Input price (1M)` — cost of input tokens for 1 million tokens.
+- `Output price (1M)` — cost of output tokens for 1 million tokens.
+- `Customer Acquisition Cost`
+- `Cancellation Rate`
+- `VAT` — Value Added Tax.
+- `Audience size`
+- `Beginner min consumption` — minimum news consumption for beginners (per day).
+- `Beginners (fraction)`
+- `Beginners (max news)` — maximum news consumption for beginners (per day).
+- `Advanced (fraction)`
+- `Advanced (max news)` — maximum news consumption for advanced users (per day).
+- `Base subscription quota` — quota for the basic subscription in news items per day.
+- `Professional subscription quota` — quota for the professional subscription in news items per day.
+- `Base token price margin` — margin for the token of the basic subscription.
+- `Token price discount` — discount step on every next subscription level.
 
 ### Распределение пользователей по подпискам и потреблению новостей
 
