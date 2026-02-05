@@ -471,32 +471,32 @@ Therefore, in our scenarios, we will assume the next users breakdown:
 
 This is a very strong assumption, but we have no better alternatives.
 
-### Стоимость обработки новости
+### Cost of news processing
 
-Стоимость обработки новости состоит из:
+The cost of processing a news item consists of:
 
-1. Стоимость скачивания новости — часть потоков можно нормально получать только через прокси.
-2. Стоимость исходящих токенов для LLM (размер тела новости).
-3. Стоимость входящих токенов для LLM (размер ответа с тегами).
+1. The cost of downloading the news item — some feeds can only be accessed through a proxy.
+2. The cost of input tokens for LLM (the size of the news body).
+3. The cost of output tokens for LLM (the size of the response with tags).
 
-Прокси очень дешёвые. Сейчас они выходят где-то `$0.000004` за новость.
+Proxies are cheap. Currently, they cost about `$0.000004` per news item.
 
-Размер новостей сильно варьируется. Более того, полное тело новости не всегда попадает в RSS поток. Однако, поскольку мы следуем пессимистичному сценарию, то давайте считать новостями половину большого эссе (10000 символов) — 5000 символов. Брать целое эссе рука не поднимается — это слишком много даже для моих подписок. 5000 английских символов — это примерно 1250 токенов.
+News item sizes vary greatly. Moreover, the full body of the news item does not always placed in the RSS feed. However, since we are following a pessimistic scenario, let's consider news items as half of a large essay (10000 characters) — 5000 characters. Taking a whole essay is too much even for my subscriptions. 5000 English characters is about 1250 tokens.
 
-/// note | Текущие метрики
+/// note | Current metrics
 
-По новостям за последние 30 дней, которые обрабатывались Feeds Fun, 95 перцентиль по размеру тела новости — это примерно 2500 символов. Однако текущее множество всех новостей довольно специфично: содержит большое количество абстрактов научных статей и коротких постов из Reddit.
+According to the news processed by Feeds Fun for the last 30 days, the 95th percentile for the size of the news body is about 2500 characters. However, the current set of all news is quite specific: it contains a large number of abstracts of scientific articles and short posts from Reddit.
 
 ///
 
-На текущий момент на одну новость в среднем приходится 50 тегов. Большинство тегов меньше 33 символов (95% из них) — значит в «чистом» ответе будет примерно 1650 символов. Проблема в том, что текущий промпт предполагает дополнительный текст в ответе, поэтому умножим это число на 2. Получается 3300 символов, что примерно равно 825 токенам.
+Currently, one news item has about 50 tags on average. Most tags are less than 33 characters (95% of them) — so in an ideal response, there will be about 1650 characters. The problem is that the current prompt implies additional text in it, so let's multiply this number by 2. We get 3300 characters, which is about 825 tokens.
 
-По ценам на `gpt-4o-mini-2024-07-18` (используется сейчас):
+Costs for the `gpt-4o-mini-2024-07-18` (used now) are":
 
-- Входящие токены: `1250 tokens * $0.15 / 1M = $0.0001875` за новость.
-- Исходящие токены: `825 tokens * $0.60 / 1M = $0.000495` за новость.
+- Input tokens: `1250 tokens * $0.15 / 1M = $0.0001875` per news item.
+- Output tokens: `825 tokens * $0.60 / 1M = $0.000495` per news item.
 
-Итого, стоимость обработки одной новости составляет
+Adding up all the costs, we get the cost of processing one news item:
 
 ```
 + $0.0000040
@@ -506,13 +506,13 @@ This is a very strong assumption, but we have no better alternatives.
   $0.0006865
 ```
 
-/// note | Есть огромный запас по оптимизации
+/// note | There's plenty of room for optimization
 
-1. Даже 5000 символов на новость — это очень много.
-2. Тела новостей сейчас не чистятся должным образом. Даже конвертация в Markdown может дать значительную экономию.
-3. Модель пора менять, надо сделать ещё один заход на `GPT 5.2` или съехать от OpenAI.
-4. При росте количества пользователей можно начинать делать finetuning для уменьшения размера ответов и увеличения его качества.
-5. Можно ещё раз поэкспериментировать с заданием грамматики ответа.
+1. Event 5000 characters per news item is a lot.
+2. The news bodies aren't being cleaned properly at the moment. Even converting them to Markdown can save a lot of tokens.
+3. It is time to replace LLM model. I want to give one more try to `GPT 5.2` or go away from OpenAI.
+4. With increasing number of users, we can start finetune models to reduce the size of responses and increase their quality.
+5. I need to experiment more with restricting LLM response by setting grammar.
 6. …
 
 ///
