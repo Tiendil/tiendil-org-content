@@ -121,7 +121,7 @@ This leads to the following conclusions:
 - We sell tags and rules — this is the key value of the product that users ~~should be~~ are ready to pay for.
 - All other features should be as free as possible and good enough not to lose significantly to competitors in users' eyes.
 
-Also, the rules for tagging news are relatively cheap for Feeds Fun, so the question is purely in the cost of tags.
+Also, evaluating users' rules is cheap for Feeds Fun, so the question is purely in the cost of tags.
 
 **Third**, the project is growing without investments, it focuses on a narrow niche and gradual growth. If it were a mass-market product with a development budget, it would look differently, work differently, and be monetized differently.
 
