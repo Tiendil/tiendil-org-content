@@ -47,8 +47,8 @@ The closest analogs are [Google Reader](https://en.wikipedia.org/wiki/Google_Rea
 
 The common trait of all SaaS news readers is relatively cheap server infrastructure:
 
-- There is enough to make a single request to a news feed to download news for 100500 users subscribed to that feed.
-- There is enough to store only one copy of the news item.
+- If 100500 users subscribe to the same feed, you only need a single request to fetch updates for everyone.
+- You only need to store one copy of each news item.
 - Your traffic is small-sized text data without media content. Media is usually stored on the news source side or in your [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) if you are striving for faster load times.
 
 Services compete mainly in the user experience and the breadth of supported news sources.
