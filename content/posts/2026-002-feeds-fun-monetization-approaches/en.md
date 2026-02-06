@@ -634,56 +634,57 @@ Here is a table for quick access to the cost of subscriptions depending on the m
     <table></table>
 </div>
 
-### Стоимость новостей
+### News items cost
 
-Таблица для быстрой оценки стоимости обработки новостей для пользователей с разным потреблением.
+Here is a table for quick access to the cost of processing news items for users with different consumption levels.
 
 <div class="plot-news-cost-matrix">
     <table></table>
 </div>
 
-## Выводы
+## Conclusions
 
-Есть стойкое ощущение, что я перестарался с пессимизмом в модели, но не вижу, как его открутить без потери уверенности в ней :-D
+I have a strong feeling that I go too pessimistic with the model, but I don't see how to turn it down without losing confidence in it :-D
 
-### VAT и CAC доминируют в потерях
+### VAT and CAC dominate losses
 
-`VAT` и `CAC` больше, чем стоимость токенов. Для меня это главное открытие.
+`VAT` and `CAC` are bigger than the cost of tokens. It is a primary discovery for me.
 
-Из этого следует, что при прочих равных, оптимизировать стоимость новых пользователей (CAC) и процент отмены подписок (CR) более важно, чем оптимизировать генерацию тегов. По крайней мере в первое время, пока они не станут удовлетворительными.
+Therefore, keeping everything else ceteris paribus, reducing `CAC` and `CR` is much more important than optimizing the cost of news processing.
 
-Отсюда следует, что удобство использования (интерфейс, поддерживаемые источники новостей, поддерживаемые платформы) может быть более важным, чем теги — теги уже есть и как-то работают, а по удобству есть огромное количество вопросов.
+Therefore, user experience (interface, supported news sources, supported platforms) may be more important than tags — tags are already there and somehow work, but there are a lot of questions about usability.
 
-Также отсюда следует, что крайне важно искать правильную аудиторию для целевого маркетинга.
+Also, the importance of searching for the right audience can not be overstated.
 
-### Доминируют доходы от начинающих пользователей
+### Beginner users dominate revenues
 
-И это сказывается на оценке суммарного дохода.
+And this affects the estimated total income.
 
-В том числе и потому, что чем выше дефолтная квота базовой подписки, тем больше разница между заложенной квотой и предполагаемым потреблением пользователя => больше доходов от пользователя.
+In part because the higher the default quota of the base subscription, the larger the gap between the included quota and the user's assumed consumption — and therefore the higher the revenue per user.
 
-Не уверен, что это правильная логика, но без конкретных экспериментальных данных нет повода менять распределение пользователей по группам.
+I'm not sure if that is the right logic, but without concrete experimental data there is no reason to change the distribution of users by groups.
 
-### Большая неопределённость
+### Huge uncertainty
 
-Полученная модель имеет огромное количество свободных параметров — 19!
+The resulted model has a huge number of free parameters — 19!
 
-Поэтому:
+Thus:
 
-1. Уточнить её без реальных данных от реальных пользователей Feeds Fun не получится.
-2. Оптимизация монетизации (после включения до приемлемого состояния) может занять очень большое время и потребовать существенное количество денег.
+1. There is no way to improve it without real data from the Feeds Fun users.
+2. Monetization tuning (after launching to an acceptable state) may take a very long time and require a significant amount of money.
 
-Кроме размера трат, проблема также и в том, что оптимизация конверсий не всегда коррелирует с развитием функциональности проекта. Утрируя, сбор метрик и дашборды пользовательский опыт напрямую не улучшают. То есть есть риск потрать год на проект и не принести пользы реальным пользователям
+Besides the size of expenses, the problem is also that conversion optimization does not always correlate with the development of the project's functionality. To put it bluntly, collecting metrics and creating dashboards does not directly improve user experience. Therefore, there is a risk of spending a year on the project without bringing any benefit to real users.
 
-Пойти, что ли, инвесторов поискать.
+Searching for investors now looks like a more reasonable idea than before.
 
-### 20000$/месяц не достижим при разумных параметрах
+### 20000$/month is not achievable with reasonable parameters
 
-Зато достижим 10000$/месяц — тоже неплохо и всё ещё оптимистичная цель.
+However, 10000$/month looks achievable — not so bad and still an optimistic goal.
 
-20000$ можно получить выкручивая маржу, но одновременно это выкручивает стоимость подписок до VIP уровня, качество сервиса для которого в одиночку у меня вряд ли получится обеспечить.
+20000$ can be achieved by significantly increasing the margin, but this approaches simultaneously increases the subscription cost to VIP levels, the quality of service for which I probably won't be able to provide alone.
 
-### Выбираем цены
+### Choosing prices
+
 
 Для выбора ориентировочных цен я сформировал ряд эвристик:
 
