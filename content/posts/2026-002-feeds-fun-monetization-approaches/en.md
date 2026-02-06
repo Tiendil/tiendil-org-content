@@ -227,7 +227,7 @@ Possible approaches:
 
 **No free tier** — no freemium, only paid access. As strange as it may sound, there are [many arguments "for it"](https://www.getmonetizely.com/blogs/the-free-tier-trap-why-free-isnt-always-a-winning-strategy-for-startups): from significant infrastructure savings to emphasizing the professionalism/value of the product.
 
-**Access to a limited collection of tagged news** — the user can subscribe to a limited set of news streams that always have tags. Without a subscription, one cannot add their own sources. Feeds Fun currently has two news collections: [articles from ArXiv.org](https://feeds.fun/show/scientific-papers) and [news on startups](https://feeds.fun/show/entrepreneurship).
+**Access to a limited collection of tagged news** — the user can subscribe to a limited set of news feeds that always have tags. Without a subscription, one cannot add their own sources. Feeds Fun currently has two news collections: [articles from ArXiv.org](https://feeds.fun/show/scientific-papers) and [news on startups](https://feeds.fun/show/entrepreneurship).
 
 **Access to a limited collection of tagged news + all other news without tags** — like the previous option, but we allow the user to subscribe to any news source, just without tags. Feeds Fun currently works this way.
 
