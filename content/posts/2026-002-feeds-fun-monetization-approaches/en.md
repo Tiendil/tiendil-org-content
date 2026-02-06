@@ -15,7 +15,7 @@ Right after I started working on the pricing for [Feeds Fun](https://feeds.fun) 
 
 /// note | What is Feeds Fun
 
-[Feeds Fun](https://feeds.fun) is my news reader that uses LLM to tag each news item so users can create rules like `elon-musk + mars => -100`, `nasa + mars => +100`. That effectively allows filtering the news stream, cutting it down by 80-90% (my personal experience) — no dark-box "personalization" algorithms like in Google or Facebook; everything is transparent and under your control.
+[Feeds Fun](https://feeds.fun) is my news reader that uses LLM to tag each news item so users can create rules like `elon-musk + mars => -100`, `nasa + mars => +100`. That effectively allows filtering the news stream, cutting it down by 80-90% (my personal experience) — no black-box "personalization" algorithms like in Google or Facebook; everything is transparent and under your control.
 
 ///
 
@@ -87,7 +87,7 @@ I chose the B2C path for the following reasons:
 
 That does not mean I am not considering B2B in the future, just need to choose priorities.
 
-/// note | I open to B2B contacts
+/// note | I am open to B2B contacts
 
 Imagine you have a flow of tagged updates from all your business: chats, commits, documentation, task trackers, emails, etc. And you want to see long messages from tech lead Bob as a priority, but don't want to see anything from marketer John, unless John is writing about planning LinkedIn campaigns on [Fusion energy](https://en.wikipedia.org/wiki/Fusion_power).
 
@@ -183,7 +183,7 @@ In other words, we will look for monetization logic and the prices at which the 
 
 [Gross Margin](https://www.cloudzero.com/blog/saas-gross-margin/) (GM) — the difference between revenue and COGS.
 
-Group Margin does not include items like taxes, office rent, and other costs that do not directly add value to customers.
+Gross Margin does not include items like taxes, office rent, and other costs that do not directly add value to customers.
 
 GM is convenient because its share is quite stable for SaaS products and allows for rough price estimates in unit economics.
 
@@ -454,7 +454,7 @@ Correspondingly, we can identify three groups of users:
 
 It's strange to have a specialized news reader for just 100 news items per day. However:
 
-1. We should not forget about default news collections that are available to all users. Here, we count only news users who directly pay for their news.
+1. We should not forget about default news collections that are available to all users. Here, we count only news items processed at the user's expense.
 2. Some people may have difficulty reading even 100 news items per day.
 3. Some people may read their news once a week.
 4. In perspective, tags for even a small number of news items can be useful if this news is integrated into other services, for example, by sending webhooks to automation. This feature is in the plans, although in the distant future.
