@@ -685,27 +685,26 @@ However, 10000$/month looks achievable — not so bad and still an optimistic g
 
 ### Choosing prices
 
+To determine prices, I defined a set of heuristics:
 
-Для выбора ориентировочных цен я сформировал ряд эвристик:
+1. Reducing prices is significantly easier than increasing them. Therefore, it's better to choose overestimated prices than underestimated ones.
+2. Margin levels x2-x3 look very risky for a project like Feeds Fun.
+3. Having the basic subscription cost x2-x4 of competitors' prices looks normal for our case. Having a larger difference seems risky.
+4. I am, personally, in a category of hardcore users and I'm comfortable paying 50$-100$ / month for my 500-1000 news items per day. More comfortable is, of course, 50$.
 
-1. Понижать цены значительно проще, чем повышать. Поэтому лучше выбрать завышенные цены, чем заниженные.
-2. Маржа x2-x3 выглядит очень рискованно для проекта типа Feeds Fun.
-3. Иметь цену базовой подписки x2-x4 от цены конкурентов нормально для нашего случая. Иметь бОльшую разницу выглядит рисковано.
-4. Я попадаю в категорию «хардкорных пользователей» и мне комфортно платить 50$-100$ / месяц за свои 500-1000 новостей в день. Комфортнее, конечно, 50$.
+Final parameters:
 
-Итоговые параметры:
+- Basic subscription quota — `100 news / day`.
+- Professional subscription quota — `500 news / day`.
+- Margin — `x9`.
+- Discount step — `20%`.
 
-- Квота базовой подписки — `100 новостей / день`.
-- Квота профессиональной подписки — `500 новостей / день`.
-- Маржа — `x9`.
-- Скидка шага — `20%`.
+That gives us:
 
-Это даёт нам:
-
-- Цена базовой подписки — `~18.5$/месяц`, можно устанавливать в `20$/месяц`.
-- Цена профессиональной подписки — `~55.5$/месяц`, можно устанавливать в `50$/месяц`.
-- Мои траты как хардкорного пользователя будут в пределах `50$-100$/месяц`, скорее около `70$/месяц`, что ок.
-- Modified Margin — `~11000$/месяц` — не 20000, но жить можно.
+- The basic subscription price — `~18.5$ / month`, can be set to `20$ / month`.
+- The professional subscription price — `~55.5$ / month`, can be set to `50$ / month`.
+- My spendings as a hardcore user are in the range of `50$-100$ / month`, more likely around `70$ / month`, which is ok.
+- Modified Margin — `~11000$/month` — not 20000$, but still ok for a start.
 
 <!-- footer -->
 
