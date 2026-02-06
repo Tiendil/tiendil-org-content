@@ -61,7 +61,7 @@ Feeds Fun doesn't fit well into this picture. Its key features are tags and rule
 
 **Every news item costs money** — to have tags, each news item must be processed through an LLM, therefore:
 
-- spendings grow significantly with the number of news;
+- spendings grow significantly with the number of news items;
 - user onboarding via the free tier costs money.
 
 /// brigid-images
@@ -274,7 +274,7 @@ Possible approaches:
 
 - **Tokens only** — the user pays only for processed news, without an additional subscription.
 - **Subscription only** — the user pays a fixed amount per month/year for a fixed number of processed news. There can be several subscription tiers with different quotas.
-- **Subscription + tokens** — the user buys a subscription for an expected number of news, and purchases tokens beyond that quota.
+- **Subscription + tokens** — the user buys a subscription for an expected number of news items, and purchases tokens beyond that quota.
 
 /// note | Comments
 
@@ -449,7 +449,7 @@ Correspondingly, we can identify three groups of users:
 2. **Advanced** — from 100 to 1000 news items per day.
 3. **Hardcore** — from 1000 news items per day and more.
 
-/// note | 100 news per day?
+/// note | 100 news items per day?
 
 It's strange to have a specialized news reader for just 100 news items per day. However:
 
@@ -537,7 +537,7 @@ As a result of the analysis above, we have the following scenario for monetizati
 1. Users can use Feeds Fun without a subscription, but tags will only be available for default news collections.
 2. There will be two subscription tiers with token purchases if the user exceeds the subscription quota.
 3. We base the price on the value provided to the user, so usage is tracked separately for each user.
-4. Our audience is 80% beginners (up to 100 news per day), 16% advanced (100-1000 news per day), and 4% hardcore (more than 1000 news per day).
+4. Our audience is 80% beginners (up to 100 news items per day), 16% advanced (100-1000 news items per day), and 4% hardcore (more than 1000 news items per day).
 5. Plus all the parameters we defined earlier.
 
 ## Pricing model
@@ -576,7 +576,7 @@ We'll use the following assumptions:
 
 **Third**, we'll exclude non-usage scenarios (like 1 news item per day) by setting a minimum news consumption for "beginner" users.
 
-We'll calculate the number of news for a user by following the next logic:
+We'll calculate the number of news items for a user by following the next logic:
 
 1. Distribute users into groups (beginners, advanced, hardcore).
 2. For each group, set a minimum and maximum news consumption per day.
