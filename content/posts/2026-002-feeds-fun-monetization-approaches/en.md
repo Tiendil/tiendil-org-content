@@ -561,7 +561,7 @@ As a result of the analysis above, we have the following scenario for monetizati
 - `Advanced (fraction)`
 - `Advanced (max news)` — maximum news consumption for advanced users (per day).
 - `Base subscription quota` — quota for the basic subscription in news items per day.
-- `Professional subscription quota` — quota for the professional subscription in news items per day.
+- `Professional subscription quota` — quota for the advanced subscription in news items per day.
 - `Base token price margin` — margin for the token of the basic subscription.
 - `Token price discount` — discount step on every next subscription level.
 
