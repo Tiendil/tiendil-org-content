@@ -352,7 +352,7 @@ Since both subscription and tokens, in our case, are active tools for customers 
 
 We want to encourage users to use the service more, so buying tokens should look profitable, and upgrading the subscription should feel the same.
 
-So, the pricing logic looks like this: `the price of token on basic subscription < the price of extra token on basic subscription < the price of token on advanced subscription < the price of extra token on advanced subscription`.
+So, the pricing logic looks like this: `the price of token on basic subscription > the price of extra token on basic subscription > the price of token on advanced subscription > the price of extra token on advanced subscription`.
 
 Therefore, we'll define prices using the base subscription token's margin and a standard discount step for each subsequent level. In my opinion, one discount value will be sufficient for this analysis. Three independent values would complicate the model without much benefit for our goal.
 
