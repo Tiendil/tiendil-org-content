@@ -11,7 +11,7 @@ src = "cover.jpg"
 alt = "Cover of the post (c) ChatGPT"
 ///
 
-Right after I started working on the pricing for [Feeds Fun](https://feeds.fun) users, I realized I should do it in a blog post: it's almost the same amount of work, it's the ideologically right thing to do, and it should be interesting. Anyway, I was going to write an [RFC]{post:two-years-writing-rfc-statistics} — the question is purely about publicity. I also take an opportunity to conduct a retrospective on the project for myself.
+Right after I started working on the pricing for [Feeds Fun](https://feeds.fun) users, I realized I should do it in a blog post: it's almost the same amount of work, it's the ideologically right thing to do, and it should be interesting. Anyway, I was going to write an [RFC]{post:two-years-writing-rfc-statistics} — the question is purely about publicity. I'm also taking the opportunity to conduct a retrospective on the project for myself.
 
 /// note | What is Feeds Fun
 
@@ -23,7 +23,7 @@ So, meet a free-form essay on monetization of a [B2C](https://en.wikipedia.org/w
 
 <!-- more -->
 
-This post was originally conceived as an analytical test bench in the spirit of [analysis of player preferences in strategy games]{post:making-a-fictional-universe-quantity-survey-processing}, but by the third draft, it became looking more like a philosophical treatise. Which is natural — when you have a little real data and too many possible solutions, you have to rely more on logic and intuition than on numbers. But the bench is there, just somewhere down below.
+This post was originally conceived as an analytical test bench in the spirit of [analysis of player preferences in strategy games]{post:making-a-fictional-universe-quantity-survey-processing}, but by the third draft, it started to look more like a philosophical treatise. Which is natural — when you have a little real data and too many possible solutions, you have to rely more on logic and intuition than on numbers. But the bench is there, just somewhere down below.
 
 Generally, choosing the monetization approach at the start of a project is more about user experience than specific amounts. Concrete numbers (including prices for users) are far easier to optimize iteratively when you have real user behavior statistics. Changing the value proposition and the user experience, on the other hand, is much harder. The difference is roughly the same as between "tweaking a couple of numbers in the configs" vs "rewriting a sizable chunk of business logic and UI".
 
@@ -61,7 +61,7 @@ Feeds Fun doesn't fit well into this picture. Its key features are tags and rule
 
 **Every news item costs money** — to have tags, each news item must be processed through an LLM, therefore:
 
-- spendings grow significantly with the number of news items;
+- costs grow significantly with the number of news items;
 - user onboarding via the free tier costs money.
 
 /// brigid-images
@@ -110,7 +110,7 @@ DM me, I'll show you how it works directly on my news.
 
 Tags and rules are complex logic that requires complex interfaces.
 
-That is not a surprise. Feeds Fun is software for professionals who want to manage their news flow **consciously and transparently**; do not want to trust black-boxed algorithmes; do not want to read tons of garbage and [AI slop](https://en.wikipedia.org/wiki/AI_slop).
+That is not a surprise. Feeds Fun is software for professionals who want to manage their news flow **consciously and transparently**; do not want to trust black-boxed algorithms; do not want to read tons of garbage and [AI slop](https://en.wikipedia.org/wiki/AI_slop).
 
 That's why there is no point in focusing on ease of use and breadth of supported news sources as a lure for subscribers — such an approach will automatically put the product in a losing position.
 
@@ -133,7 +133,7 @@ I've added this criterion to simplify and shorten the text, and remove unnecessa
 
 The criterion will be used in the following way: "we discard the option by the 'confusion criterion' because …".
 
-**Fiveth**, we will consider pessimistic scenarios, as they are easier to estimate, and if the pessimistic scenario works, the optimistic one will work even better.
+**Fifth**, we will consider pessimistic scenarios, as they are easier to estimate, and if the pessimistic scenario works, the optimistic one will work even better.
 
 That means:
 
@@ -150,7 +150,7 @@ Without answering that question, it's impossible to define what successful monet
 
 As often happens with me, there's no single definitive answer — not as if all possible futures converge on the tip of a feed reader, with a success on one side and poverty and oblivion on the other. It's more of a set of possibilities that can be addressed in one go.
 
-In Feed Fun's case, turning monetization on is:
+In Feeds Fun's case, turning monetization on is:
 
 1. a great milestone of a product's maturity;
 2. an opportunity to organize a small side income;
@@ -167,7 +167,7 @@ Therefore, since monetization is primarily about business, we'll evaluate it fro
 
 ///
 
-The propertis of a **sustainable bussiness**:
+The properties of a **sustainable business**:
 
 - **Sustainability** — the flow of new users equals the flow of leaving users.
 - **1000 subscribers** — a good, steadily working indie SaaS. Most don't survive to this level.
@@ -219,7 +219,7 @@ What our monetization approach should include:
 5. The place of margin in pricing — where we will lay the margin and in what volume.
 6. The share of Gross Margin in pricing — what portion of the price goes toward servicing costs (COGS) and what portion we keep as GM.
 
-Let's look at the coordinates on each axis. We will immediately try to eliminate obviously non-working options so as not waste time on them.
+Let's look at the coordinates on each axis. We will immediately try to eliminate obviously non-working options so as not to waste time on them.
 
 ### Free tier
 
@@ -295,7 +295,7 @@ I stopped at the "subscription + tokens" option with two subscription tiers:
 1. Subscription for beginner users (basic subscription).
 2. Subscription for advanced users (advanced subscription).
 
-In pair with the free tier, this gives us three ways to use the service, which should be familiar and understandable. At the same time, two subscription options will allow us to be flexible in pricing.
+Together with the free tier, this gives us three ways to use the service, which should be familiar and understandable. At the same time, two subscription options will allow us to be flexible in pricing.
 
 ### Quota accounting
 
@@ -316,7 +316,7 @@ Pricing based on actual resource consumption looks attractive and "fair", but it
 
 **First**, an enormous number of questions immediately arise around how to "honestly and fairly account for each user's contribution". If you think it's obvious and simple, it's not. In the first draft of this post, there was a massive wall of text analyzing only a subset of the problems that arise. I deleted it because, even for me, it looks complex and confusing.
 
-People are different; not all are morally ready (by default) to share the profit they received for their own money. Especially if the rules for profit sharing are not crystal clear and opaque.
+People are different; not all are morally ready (by default) to share the profit they received for their own money. Especially if the rules for profit sharing are not crystal clear and transparent.
 
 For example, imagine a situation in which one subscriber pays for tagging 900 news items, while another pays for tagging only 100 news items from the same source. How to ensure fair cost distribution in such a case?
 
@@ -368,8 +368,9 @@ We'll consider the following options for `N`:
 
 - **x2** — `GM = 50%` — high servicing costs, low income, one mistake and you're screwed.
 - **x3** — `GM = 66%` — the patient is breathing.
-- **x4** — `GM = 75%` — the patient is alive and may even walk, this level was added post factum, as it's interesting to look at it on the stand at the bottom of the post.
+- **x4** — `GM = 75%` — the patient is alive and may even walk, this level was added post facto, as it's interesting to look at it on the stand at the bottom of the post.
 - **x5** — `GM = 80%` — the lower bound of a typical SaaS margin. Yes, the internet says that the most common markup for SaaS is x5-x10 over costs.
+- **x6–x9** — healthy intermediate values (added post facto; interesting to explore in the sandbox below).
 - **x10** — `GM = 90%` — the upper bound of a typical SaaS margin.
 - **x20** — `GM = 95%` — very good margin. If we are here and we have customers, then everything is great.
 
@@ -491,7 +492,7 @@ According to the news processed by Feeds Fun over the last 30 days, the 95th per
 
 Currently, one news item has about 50 tags on average. Most tags are less than 33 characters (95% of them) — so in an ideal response, there will be about 1650 characters. The problem is that the current prompt implies additional text in a response, so let's multiply this number by 2. We get 3300 characters, which is about 825 tokens.
 
-Costs for the `gpt-4o-mini-2024-07-18` (used now) are":
+Costs for the `gpt-4o-mini-2024-07-18` (used now) are:
 
 - Input tokens: `1250 tokens * $0.15 / 1M = $0.0001875` per news item.
 - Output tokens: `825 tokens * $0.60 / 1M = $0.000495` per news item.
@@ -508,7 +509,7 @@ Adding up all the costs, we get the cost of processing one news item:
 
 /// note | There's plenty of room for optimization
 
-1. Event 5000 characters per news item is a lot.
+1. Even 5000 characters per news item is a lot.
 2. The news bodies aren't being cleaned properly at the moment. Even converting them to Markdown can save a lot of tokens.
 3. It is time to replace the LLM model. I want to give one more try to `GPT 5.2` or go away from OpenAI.
 4. With an increasing number of users, we can start finetuning models to reduce the size of responses and increase their quality.
@@ -526,7 +527,7 @@ The cost of supporting the service consists of:
 3. Fees of payment providers. We will assume the worst-case scenario from Stripe, which is `2.5% + 0.30$ per transaction`, without accounting for lower fees in some locations. Stripe can aggregate all payments into a single invoice for the period, so we don't need to model multiple transactions for a single user.
 4. The cost of maintaining default news collections. Currently, it is `50$ / month`, let's make it `500$ / month` to leave room for growth.
 
-### Other spendings
+### Other costs
 
 1. [Value Added Tax](https://en.wikipedia.org/wiki/Value-added_tax) (VAT) — the tax rate depends on the country of the user, but pessimistically it can be estimated at `25%` of revenues.
 
@@ -644,7 +645,7 @@ Here is a table for quick access to the processing costs for news items for user
 
 ## Conclusions
 
-I have a strong feeling that I go too pessimistic with the model, but I don't see how to turn it down without losing confidence in it :-D
+I have a strong feeling that I went too pessimistic with the model, but I don't see how to turn it down without losing confidence in it :-D
 
 ### VAT and CAC dominate losses
 
