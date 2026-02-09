@@ -8,7 +8,7 @@ seo_image = ""
 
 **Looking for early adopters for my agent utility.**
 
-I named the tool Donna — https://github.com/Tiendil/donna
+I named the tool Donna — [https://github.com/Tiendil/donna](https://github.com/Tiendil/donna)
 
 **With it, your agents will generate state machines while executing state machines created by other state machines.**
 
@@ -54,7 +54,7 @@ For example, Donna comes with a workflow that:
 
 Of course, everything is extensible with your Python code: you can add your own operations for workflows, your own artifact types, your own artifact sources, etc.
 
-You can find more info on the project's page: https://github.com/Tiendil/donna
+You can find more info on the project's page: [https://github.com/Tiendil/donna](https://github.com/Tiendil/donna)
 
 **I'm greatly interested in feedback:** how you use or would like to use Donna, what issues you faced, what functionality is missing — everything. Create issues on GitHub, write in the comments to this post, or message me directly.
 
