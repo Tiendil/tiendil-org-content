@@ -14,7 +14,7 @@ I named the tool Donna — https://github.com/Tiendil/donna
 
 Donna allows agents to perform hundreds of sequential operations without deviating from the specified execution flow. Branching, loops, nested calls, recursion — all possible.
 
-Most other tools just send meta-instructions to agents and hope they won't make mistakes. Of course, agents make mistakes: they mix up steps, skip operations, misinterpret instructions. Donna truly executes state machines: it maintains state, call stack, controls execution flow. Agents only execute specific commands from Donna.
+Most other tools just send meta-instructions to agents and hope they won't make mistakes. Of course, agents make mistakes: they mix up steps, skip operations, misinterpret instructions. Donna truly executes state machines: it maintains state and a call stack, controls an execution flow. Agents only execute specific commands from Donna.
 
 However, Donna is not an orchestrator, but just a utility, so it can be used anywhere, no API keys, passwords, etc. needed.
 
@@ -50,7 +50,7 @@ For example, Donna comes with a workflow that:
 4. Chooses the most appropriate workflow for polishing the code and runs it.
 5. Chooses the most appropriate workflow for updating the CHANGELOG and runs it.
 
-**In addition to state machines, Donna implements abstractions for managing artifacts (documentation, workflows)**. This allows it to validate them, navigate through them (without fuzzy searching), install collections of artifacts as Python packages. For example, you can provide instructions for interacting with your project right along with its library.
+**In addition to state machines, Donna implements abstractions for managing artifacts (documentation, workflows).** This allows it to validate them, navigate through them (without fuzzy searching), install collections of artifacts as Python packages. For example, you can provide instructions for interacting with your project right along with its library.
 
 Of course, everything is extensible with your Python code: you can add your own operations for workflows, your own artifact types, your own artifact sources, etc.
 
