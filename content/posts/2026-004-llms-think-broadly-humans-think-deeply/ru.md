@@ -3,8 +3,13 @@ title = "LLM мыслят вширь, люди мыслят вглубь"
 tags = ["theory", "development", "thinking", "neural-networks"]
 published_at = "2026-02-11T12:00:00+00:00"
 seo_description = "Почему LLM мыслят вширь, а люди мыслят вглубь и какие проблемы это создаёт при работе с LLM."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
+
+/// brigid-images
+src = "cover.jpg"
+alt = "Обложка поста (c) ChatGPT"
+///
 
 **LLM мыслят вширь, люди мыслят вглубь**
 
