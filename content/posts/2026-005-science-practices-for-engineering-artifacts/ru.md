@@ -1,5 +1,5 @@
 ---
-title = "Научные практики для инженерии"
+title = "Научные практики для инженерии — публичные артефакты"
 tags = [ "theory", "development", "interesting", "management", "vantage-on-management"]
 series = "vantage-on-management"
 published_at = "2025-09-17T12:00:00+00:00"
