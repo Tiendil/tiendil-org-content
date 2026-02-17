@@ -1,6 +1,6 @@
 ---
 title = "Инженерия — это наука — это инженерия"
-tags = [ "theory", "development", "interesting", "management", "vantage-on-management", "science"]
+tags = [ "theory", "development", "interesting", "best", "management", "vantage-on-management", "science"]
 series = "vantage-on-management"
 published_at = "2025-10-21T12:00:00+00:00"
 seo_description = "Покажем, что инженерия и наука концептуально близки и в современном мире всё больше сближаются, а значит, могут заимствовать практики друг у друга."
