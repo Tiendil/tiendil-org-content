@@ -3,14 +3,12 @@ title = "Научные практики для инженерии — публ�
 tags = [ "theory", "development", "open-source", "interesting", "best", "management", "vantage-on-management", "science"]
 series = "vantage-on-management"
 published_at = "2025-09-17T12:00:00+00:00"
-seo_description = ""
+seo_description = "Публичные артефакты, такие как рецензируемые статьи, — одно из самых крутых достижений науки. В этом эссе мы поговорим об их адаптации в инженерии."
 seo_image = ""
 exclude = true
 ---
 
 <!-- TODO: cover -->
-<!-- TODO: description -->
-<!-- TODO: update tags -->
 
 /// brigid-series
 tag = "vantage-on-management"
