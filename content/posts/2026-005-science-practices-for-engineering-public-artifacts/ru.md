@@ -8,7 +8,10 @@ seo_image = ""
 exclude = true
 ---
 
-<!-- TODO: cover -->
+/// brigid-images
+src = "./cover.jpg"
+caption = "Инженер демонстрирует свою работу сообществу (с) ChatGPT, Leonardo da Vinci"
+///
 
 /// brigid-series
 tag = "vantage-on-management"
