@@ -300,29 +300,29 @@ If an employee, to demonstrate their qualification, describes the architecture o
 
 As a result, a person comes to their review not with a set of dubious statements that can be correctly perceived by one and a half people, but with a set of specific public artifacts that will be understandable to professionals both inside and outside the company, and **will have value for the person after the review is over**. Thus, preparation for the review ceases to be a formality.
 
-/// warning | Злоупотребления метриками и как с ними бороться
+/// warning | Gaming metrics and how to fight it
 
-В любом случае, люди будут пытаться читить и с этим потребуется что-то делать.
+In any case, people will try to cheat, and something should be done about it.
 
-Варианты злоупотреблений:
+There are many ways to cheat:
 
-- Перекос распределения времени сотрудника на подготовку публичных артефактов в ущерб работе над продуктом.
-- Фарм социального подтверждения через создание красивых-но-бессмысленных или хайповых артефактов.
-- Фарминг количества артефактов в ущерб их качеству.
+- Skewing time allocation toward producing public artifacts, at the expense of working on the product features.
+- Farming social proof by creating pretty-but-meaningless or hype-driven artifacts.
+- Grinding out artifact count while sacrificing their quality.
 
-Как с этим можно бороться:
+Howevere, there are also ways to fight cheating:
 
-- Ориентироваться на качественные показатели вместо количественных. Например на разнообразие типов артефактов, а не на их количество.
-- Отслеживать производственную ценность артефактов. Артефакт должен быть результатом труда по продукту или использоваться в процессе работы над продуктом.
-- Оценивать уровень повторного использования артефактов. Например, как часто используется утилита, как часто ссылаются на архитектурный документ.
+- Focus on the quality indicators rather than quantity. For example, on the diversity of artifact types, rather than artifacts quantity.
+- Track the production value of artifacts. An artifact should be the result of work on the product or be used in the process of working on the product.
+- Evaluate the level of artifact reuse. For example, how often an utility is used, how often an architectural document is referenced.
 
 ///
 
-/// note | Компания как выпускающая кафедра
+/// note | A company as the graduating department
 
-Институализация публичных артефактов как критерия квалификации и KPI сотрудников, превращает компании в своего рода выпускающие кафедры, что структурирует и регулирует конкурентную борьбу за молодые таланты. Это пойдёт на пользу всем: людям, отрасли и конкретным компаниям.
+Institualization of public artifacts as a criterion of qualification and employee effectiveness turns companies into a kind of graduating departments. That structures and regulates the competition for young talents. Such a change will benefit everyone: people, the industry, and specific companies.
 
-В свою очередь, институализация открывает дорогу к созданию экспертных советов (внутри компаний и между ними), которые смогут оценивать профессианальный прогресс человека значительно эффективнее, чем это происходит сейчас. Не идеально, не полностью объективно, но гораздо лучше.
+In turn, institutionalization paves the way for the creation of expert councils (within companies and across them) that can evaluate a person's professional progress far more effectively than what we have today. Not perfectly, not fully objectively, but much better.
 
 ///
 
