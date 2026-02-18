@@ -229,29 +229,29 @@ My highly biased take: **the worldwide overpayment on hiring outweighs potential
 
 Sadly, this opinion sounds more or less confident in the case of global change (when everyone simultaneously changes the policy), but looks much weaker when a single company wants to make the change. If we discard all other bonuses (which we will discuss below), from the point of view of a "single company in a vacuum", such a policy change would look like charity, which is definitely not a business priority.
 
-## Публичные артефакты как критерий квалификации
+## Public artifacts as a criterion of qualification
 
-Старт карьеры учёного довольно близок к старту карьеры инженера-программиста.
+The start of a scientist's career is fairly similar to the start of a software engineer's career.
 
-Грубая аналогия между научной степенью и квалификацией в IT по уровню самостоятельности:
+Here is a very rough analogy between scientific degrees and IT qualifications in terms of the level of independence:
 
-Учёная степень | Примерная квалификация в IT
----------------|----------------------
-Бакалавр (BSc) | Junior, иногда Mid-level
-Магистр (MSc)  | Mid-level, иногда Senior
-PhD            | Senior, иногда Staff
+Scientific degree          | Approximate IT qualification
+---------------------------|-----------------------------
+Bachelor of Science (BSc)  | Junior, sometimes Mid-level
+Master of Science (MSc)    | Mid-level, sometimes Senior
+Doctor of Philosophy (PhD) | Senior, sometimes Staff
 
-Переход на каждый следующий уровень квалификации в науке требует создания довольно стандартного набора публичных артефактов, которые проходят формальную верификацию в сообществе.
+In science, the transition to each next level of qualification requires a creation of a fairly standard set of public artifacts that undergo formal verification in the community.
 
-Да, требования варьируются от страны к стране и от университета к университету, но в целом они довольно близки. Имея не только артефакты, но и контекст, в котором они создавались (конкретный университет/лаботория), можно с высокой степенью уверенности дать оценку квалификации учёного.
+Yes, the requirements vary from country to country and from university to university, but overall they are quite similar. Having artifacts and context in which they were created (specific university/lab) we may with a high degree of confidence give an assessment of a scientist's qualification.
 
-Представьте, что при найме Senior разработчика (и любого меньшей квалификации) вы видите не только страницу его резюме с запутанными формулировками о непроверяемых достижениях, но следы реальной его работы. Кроме того, вы автоматически видите его профессиональный фокус и уровень компетенции в этих областях.
+Imagine that when hiring a Senior developer (and any lower qualification) you see not only the page of their resume with confusing statements about unverifiable achievements, but traces of their real work. Moreover, you automatically see their professional focus and level of competence in those areas.
 
-На мой взгляд, это бы на порядок сократило сложность найма как для работодателя, так и для соискателя.
+In my opinion, this would significantly reduce the complexity of hiring for both employers and job seekers.
 
-Кроме того, это позволило бы людям более осознанно развивать свою карьеру и легче соотносить свою квалификацию с квалификацией других специалистов. Сейчас же рост до Senior разработчика происходит совершенно случайно и сеньоры из двух компаний могут отличаться друг от друга как небо и земля.
+On top of that, it would let people develop their careers more deliberately, and make it easier to relate their own level of qualification to that of other specialists. As it is now, reaching Senior-level happens completely randomly, and seniors from two companies can differ from each other like night and day.
 
-Оценка высококвалифицированных специалистов, конечно, сложнее. В науке она, в основом, происходит через оценку последних опубликованных статей, а также через оценку их цитируемости. В IT она никак не происходит: мы собеседуем человека и отправляем его на испытательный срок в надежде, что мы не ошиблись. Поэтому даже для топовых специалистов возможность оценки их квалификации через публичные артефакты была бы крайне полезной.
+Of caurse, the evaluation of highly qualified specialists is more complicated. In science, it mainly happens through the evaluation of their latest published papers, as well as through the assessment of their citation count. In IT, it doesn't happen at all: we interview a person and send them on a probation period in the hope that we didn't make a mistake. Therefore, even for top specialists, the possibility of assessing their qualifications through public artifacts would be extremely useful.
 
 ## Публичные артефакты как ось оценки сотрудников
 
