@@ -267,21 +267,21 @@ By adding this axis, **we reshape the evaluation space**, making it more express
 
 ///
 
-На мой взгляд, в IT нет ничего печальнее, чем попытки HR и менеджмента оценить эффективность работы конкретных сотрудников. Хотя нет, ещё печальнее выглядят попытки направлять рост сотрудников, например, через годовые цели.
+In my view, there's nothing sadder in IT than watching HR and management try to measure the effectiveness of individual employees. Actually, no, what's even sadder is watching them try to steer people's growth, for example through annual goals.
 
-**Во-первых**, [работу инженера сложно измерить на индивидуальном уровне]{post:no-instructions-for-engineering}. Сделать это более-менее объективно можно только через статистическую экспертную оценку, что практически невозможно внутри замкнутого окружения компании из-за чрезмерной стоимости подобной работы.
+**First**, [the work of an engineer is hard to measure on an individual level]{post:no-instructions-for-engineering}. The only way to do it more or less objectively is through statistical expert evaluation, which is practically impossible within the closed environment of a company due to the excessive cost of such work.
 
-**Во-вторых**, если ваша компания каким-то образом может знать чем большинство сотрудников будет заниматься целый год или даже полгода (а как иначе долгосроочные цели для них ставить?), то вы уже проиграли конкурентную гонку. В современном мире невозмоно делать настолько длительное и одновременно детальное планирование. Либо вы упрётесь рогом и будете делать уже неактуальную работу (и ваш продукт станет хуже), либо ваши сотрудники будут массово проваливать поставленные цели (и ваша команда демотивируется).
+**Second**, if your company can somehow know what most employees will be working on for an entire year, or even six months (how else do you set long-term goals for them?), then you've already lost the competitive race. In today's world, it's impossible to plan simultaneously for such a long time and at such a level of detail. Either you'll dig in your heels and keep doing work that's already outdated (and your product will suffer), or your employees will miss their targets en masse (and your team will get demoralized).
 
-Мало что может демотивировать инженера больше, чем бессмысленные годовые цели и нерелевантная оценка его работы.
+Few things demotivate an engineer more than meaningless annual goals and irrelevant evaluation of their work.
 
-Публичные артефакты позволяют бороться с этими проблемами и даже больше.
+Public artefacts allow us to partially solve both of these problems and even more.
 
-Традиционные цели мы выносим на уровень команды, потому что именно команда, как статистически значимая единица, может быть объективно (более-менее) оценена и управляема. В конце концов, с точки зрения продукта не важно кто конкретно что сделает и за что будет отвечать, важно чтобы это было сделано. Конкретное распределение работы между сотрудниками должно быть результатом саморегуляции команды, а не внешнего воздействия.
+We move traditional goals to the team level, because it is the team, as a statistically significant unit, that can be objectively (more or less) evaluated and managed. After all, from the product's point of view, it doesn't matter who does what and who is responsible for what, it's important that it gets done. The specific distribution of work among employees should be the result of the team's self-regulation, not of the external influence.
 
-Личными целями сотрудника и показателями его компетенции/прогресса мы делаем создание публичных артефактов. Так как у артефакта всегда есть конкретный автор и публичный артефакт — это чаще производная от продукта, а не его ядро, тем самым мы отдаём сотруднику контроль над его профессиональным ростом и позицией в компании, забирая его у команды, продукта и вселенной.
+We make creation of public artifacts the personal goals of an employee and the indicators of their competence/progress. Since an artifact always has a specific author and a public artifact is more often a derivative of the product rather than its core, we give the employee control over their professional growth and position in the company, taking it away from the team, product, and universe.
 
-Подобное разделение несёт ряд преимуществ.
+Such a split comes with a number of advantages.
 
 **Во-первых**, вы переключаете оценку сотрудника со статистически недостоверной оценки его работы парой человек, на более достоверную оценку коллегами (публичная работа видна всей компании, а не только команде; люди значительно активнее реагируют на неё) и профессиональным сообществом.
 
