@@ -355,25 +355,25 @@ However, in my view, the main difficulty lies not in the economics of the proces
 
 There are several difficulties.
 
-### Страшно
+### It is scary
 
-Большинство людей не понимают где находится реальная ценность конкретного продукта и, одновременно, боятся брать на себя ответственность за случайное раскрытие секретных секретов (которых обычно нет).
+Most people don't understand where the real value of a given product actually lies and, at the same time, are afraid to take responsibility for accidentally revealing secret secrets (which usually don't exist).
 
-Согласно моему опыту, большая часть кода продукта и знаний о нём даже близко не являются каким-то секретным преимуществом, ноухау и чем-либо ещё — это просто штуки, которые миллионы людей повторяют из продукта в продукт из компании в компанию. Остальные код и знания не являются преимуществом с большой долей вероятности. Особенно это справедливо, если считать только «невидимые» пользователям артефакты.
+In my experience, most of a product's code and the knowledge around it even remotely isn't some kind of secret advantage, know-how, or anything like that — it's just stuff that millions of people repeat from product to product, from company to company. And the remaining code and knowledge is, with high probablity, not an advantage either. This is especially true if we only count artifacts that are "invisible" to users.
 
-За свою карьеру я могу вспомнить всего пару случаев которые с большой натяжкой можно было бы отнести к «секретной» технологии или «тайному» знанию, которые являлись реальным конкурентным преимуществом.
+Over my career, I can recall only a couple of cases that, with a lot of stretching, could be called "secret" technology or "hidden" knowledge that provided a real competitive advantage.
 
-Зато таким преимуществом неизменно были конкретные люди, команды и инфраструктура в целом. Ведь продукт — это не код и прочие артефакты, а 4D система, которая включает в себя не только код, но и его конкретные запущенные экземпляры, инфраструктуру разработки и поддержки, процессы, культуру и, конечно же, людей.
+However, such an advantage consistently were specific people, teams, and infrastructure as a whole. After all, a product is not code and other artifacts, but a 4D system that includes not only code, but also its specific running instances, development and support infrastructure, processes, culture, and of course people.
 
-Продукт имеет временное изменение за которое отвечают именно люди и именно эти люди являются реальным конкурентным преимуществом.
+A product has a time dimension, for which people are responsible, and these people are the real competitive advantage.
 
-Утрируя, на примере игр:
+Simplifying, on an example of game development:
 
-- Ценны не секретные формулы баланса, которые пушат монетизацию, а люди, которые поддерживают пайплайн сбора метрик, их анализа и, на основе этого анализа, направляют развитие этих формул.
-- Ценны не конкретные шейдеры, а люди, которые поддерживают целостность визуального стиля игры и направляют его развитие, что выражается в создании новых шейдеров.
-- Ценны не конкретные алгоритмы шардирования бэкенда, а люди, которые поддерживают непрерывное функционирование и развитие инфраструктуры, что выражается в развитии того же шардирования.
+- Value is not in secret balance formulas that drive monetization, but in the people who keep the metrics collection and analizis pipeline alive, and use that pipeline to steer evolution of those formulas.
+- Value is not in particular shaders, but in the people who maintain the coherence of the game's visual style and guide its development, which, among other things, results in new shaders.
+- Value is not in specific backend sharding algorithms, but in the people who keep the infrastructure running and evolving continuously, which manifests, among other things, as ongoing work on a sharding.
 
-**Поскольку открытие артефактов идёт на пользу сотрудникам, то продвигая его, мы усиливаем компанию.**
+**Since opening up artifacts benefits employees, promoting it makes the company stronger.**
 
 ### Дорого
 
