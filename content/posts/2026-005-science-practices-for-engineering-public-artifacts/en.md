@@ -31,16 +31,13 @@ We'll discuss the following topics:
 - What is a public artifact.
 - Artifact verifiability.
 - Public artifacts as evidence of competence.
-- Что такое публичный артефакт
-- Верифицируемость артефактов.
-- Публичные артефакты как свидетельство квалификации.
-- Публичные артефакты как критерий квалификации.
-- Публичные артефакты как ось оценки сотрудников.
-- Публичные артефакты как метрика здоровья.
-- Сложности перевода разработки на публичные артефакты.
-- С чего начать.
+- Public artifacts as a criterion of qualification.
+- Public artifacts as an axis of employee evaluation.
+- Public artifacts as a health metric.
+- Problems of moving development to public artifacts.
+- How to start.
 
-Этот текст не рекомендация, а приглашение к дискуссии. Он полон идеализма и спорных утверждений. Надеюсь на ваше понимание и комментарии.
+This text is not a recommendation, but an invitation to discussion. It is full of idealism and controversial statements. I hope for your understanding and comments.
 
 <!-- more -->
 
