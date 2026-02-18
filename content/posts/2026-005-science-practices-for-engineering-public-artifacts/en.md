@@ -34,7 +34,7 @@ We'll discuss the following topics:
 - Public artifacts as a criterion of qualification.
 - Public artifacts as an axis of employee evaluation.
 - Public artifacts as a health metric.
-- Difficulties of shifting development toward public artifacts
+- Difficulties of shifting development toward public artifacts.
 - How to start.
 
 This text is not a recommendation, but an invitation to discussion. It is full of idealism and controversial statements. I hope for your understanding and comments.
@@ -400,7 +400,7 @@ So, if you take a random company and postulate "Starting today, we work through 
 
 So you have to gradually teach employees the missing skills and persuase them, best of all by personal example. For that, you need knowledgeable leaders and free resources, both usually aren't available.
 
-## С чего начать
+## How to start
 
 Внедрение такой комплексной реформы будет очень специфичным для каждой компании. Но если бы меня прямо сейчас спросили с чего начать внедрение публичных артефактов, я бы посоветовал:
 
