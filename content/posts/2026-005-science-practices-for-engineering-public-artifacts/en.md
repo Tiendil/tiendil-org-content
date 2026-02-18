@@ -143,30 +143,30 @@ Science has reached this point much earlier, IT is rapidly catching up, and even
 
 ///
 
-## Верифицируемость артефактов
+## Artifact Verifiability
 
-Важная черта научных артефактов — это их формальная верифицируемость. Такие ключевые артефакты, как научные публикации, проходят формальный процесс рецензирования, который призван обеспечить определённый уровень качества и достоверности. Чем в более пафосном журнале опубликована статья, тем выше требования к её качеству, но тем и больше доверия к ней.
+One important feature of scientific artifacts is their formal verifiability. Key artifacts such as scientific publications go through a formal peer-review process, which is designed to ensure a certain level of quality and reliability. The more prestigious the journal you want to publish your article in, the higher the requirements for the paper's quality, but the more trust it will have in the community.
 
-Представить полностью аналогичный глобальный социальный механизм в инженерии, на текущий момент, довольно сложно. Но инженерии полное подобие и не нужно. Всё-таки инженерия — это отдельная деятельность со своими нюансами. Там, где наука верифицирует артефакты через контроль цепочек причинности, протоколов и теории, инженерия верифицирует артефакты через практику, опыт и контроль зависимостей.
+Currently, it is difficult to imagine a fully analogous global social mechanism in engineering. However, engineering does not require a perfect replica. It is, after all, a distinct activity with its own nuances. Where science verifies artifacts through the control of causal chains, protocols, and theory, engineering verifies them through practice, experience, and control of dependencies.
 
-/// note | Возможные подходы к верификации артефактов в инженерии
+/// note | Possible approaches to artifact verification in engineering
 
-Чтобы иметь якорь для обсуждения, я предлагаю следующую очень грубую и наивную шкалу уровня верификации артефактов.
+To have an anchor for discussion, I propose the following very rough and naive scale of artifact verification levels.
 
-**L0 — нет верификации** — незаметный артефакт, на который не реагирует сообщество, который не используется вне компании.
+**L0 — no verification** — an unnoticed artifact that does not receive any reaction from the community, and is not used by anyone beyond its authors.
 
-**L1 — социальное подтверждение** — артефакт собирает положительную реакцию сообщества в виде комментариев, репостов, лайков, звёзд на гитхабе, etc.
+**L1 — social validation** — an artifact gathers positive reaction from the community in the form of comments, reposts, likes, stars on GitHub, etc.
 
-**L2 — авторитетное подтверждение** — артефакт получает положительную реакцию от признанных экспертов в области: лидеров мнений, известных разработчиков, etc.
+**L2 — authoritative validation** — an artifact receives a positive reaction from recognized experts in the field: opinion leaders, well-known developers, etc.
 
-**L3 — практическое применение** — артефакт используется в реальных заметных сторонних проектах, либо они ссылаются на него.
+**L3 — practical adoption** — an artifact is used in real, notable third-party projects, or they refer to it.
 
-**L4 — принятие «гейтом» сообщества** — артефакт проходит формальный процесс принятия/рецензирования в одном из признанных сообществ. Примеры: принятие патча в ядро Linux, публикация в рецензируемом журнале, одобрение PEP в Python, etc.
+**L4 — community "gate" acceptance** — an artifact goes through a formal acceptance/review process in one of the recognized communities. Examples: acceptance of a patch into the Linux kernel, publication in a peer-reviewed journal, approval of a PEP in Python, etc.
 
-Предложенный подход можно развивать в нескольких направлениях:
+The proposed approach can be developed in several directions:
 
-- Разделить верифицируемость внутри компании и в глобальном сообществе. Тогда уровень верификации может выглядеть как `L3/L1`.
-- Отдельно оценивать уровни валидации, верификации и внедрения.
+- Distinguish between verifiability within a company and within the broader community. In that case, a verification level might be expressed as `L3/L1`.
+- Assess validation, verification, and adoption levels separately.
 
 ///
 
