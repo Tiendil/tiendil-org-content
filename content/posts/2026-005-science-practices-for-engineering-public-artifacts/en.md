@@ -210,36 +210,24 @@ Since this concept is already lives inside software developement and is a more l
 
 ///
 
-Как и в науке, у инженеров есть возможность публиковать артефакты в пафосных местах, например, в виде отправки патча в крупный open source проект, выступления на значимой конференции, создания «предложения по улучшению» в виде RFC, PEP или аналогов. Даже простой пост в блоге может набрать достаточно социального капитала в виде лайков, репостов и комментариев, чтобы стать весомым артефактом.
+As in science, engineers have the option to publish artifacts in high-status places, for example, by submitting a patch to a major open-source project, speaking at a notable conference, or drafting an "improvement proposal" in the form of an RFC, a PEP, or their analogous. Even a simple blog post can accumulate enough social capital — likes, reposts, and comments — to become a substantial artifact.
 
-Без наличия публичных артефактов, оценить компетенцию зрелого IT специалиста сейчас очень сложно за разумное время и ресурсы. В лучшем случае можно отсеять явно некомпетентных кандидатов.
+Without public artifacts, it is very difficult to assess the competence of a mature IT specialist within a reasonable time and resources. At best, you can weed out clearly incompetent candidates.
 
-- По резюме можно только создать список поверхностных вопросов к обсуждению.
-- Тестовые задания оторваны от реальности, оттого бессмысленны, особенно с развитием LLM.
-- После нескольких часов разговора можно составить только первое представление о человеке, проверить его на самые красные флаги.
-- Программирование на собеседовании не показывает ни одного реального рабочего навыка.
+- A resume only lets you compile a list of superficial discussion prompts.
+- Take-home tests are detached from reality and therefore meaningless—especially as LLMs (Large Language Models) mature.
+- Even after a few hours of conversation, you can only form a first impression of someone and screen for the biggest red flags.
+- Coding during interviews doesn't demonstrate any real on-the-job skill.
 
-/// note | Почему кодинг на собеседовании не работает
+On top of that, it's hard to control the quality of work of top specialists — their work cannot be validated. If we exaggerate a bit, if you're the only tech lead on the backend, your word is an unbreakable law — no one in the company has the competence to check whether you're bringing value and how much of it you're bringing.
 
-**Во-первых**, уже давно (даже до ИИ!) никто не пишет небольшие сложные штуки в реальном времени. Вам очень редко надо с нуля писать какие-нибудь деревья или динамическое программирование. Даже я, со своими странными пет-проектами, сталкиваюсь с подобными задачами всего несколько раз в год.
+Public artifacts help to partially solve both of these problems through community verification. For example, if your patch to the Linux kernel is accepted, then you probably understand something about Linux.
 
-На практике вы либо ищете и используете готовую библиотеку, либо, если нужно совсем что-то особенное, проводите исследование существующих алгоритмов (их не счесть!), чтобы выбрать подходящий конкретно под вашу задачу. Когда вы его нашли, то реализация — это вопрос вдумчивого чтения документации, а не вашей способности писать на лету олимпиадные алгоритмы.
+The problem is that businesses, to put it mildly, don't encourage spending work time on producing public artifacts. As a result, only a small fraction of developers have a portfolio. And as a result, businesses are forced to spend money on expensive hiring processes, and on fixing the mistakes those processes inevitably make.
 
-**Во-вторых**, таким способом на собеседовании вы можете проверить одно очень частное знание среди сотен вариантов — это не показательно.
+My highly biased take: **the worldwide overpayment on hiring outweighs potential losses from allocating a share of work time to producing public artifacts.**
 
-Если вы крутой собеседовальщик, то по поведению человека во время кодинга вы можете вывести что-то полезное о нём, но для извлечения такой информации не нужно заставлять человека писать код — достаточно заинтересованно разговаривать с ним. И вы должны быть крутым собеседовальщиком.
-
-///
-
-Кроме того, сложно контролировать качество работы топовых специалистов — их работу не провалидировать. Утрируя, если вы единственный тех-лид на бэкенде, то ваше слово — нерушимый закон — ни у кого в компании нет компетенции проверить наносите ли вы пользу своими решениями и как много её наносите.
-
-Публичные артефакты позволяют частично решить обе эти проблемы за счёт верификации сообществом. Утрируя, если ваш патч в ядро Linux приняли, то что-то в Linux вы наверняка понимаете.
-
-Проблема в том, что бизнес, мягко говоря, не поощряет трату рабочего времени на подготовку публичных артефактов. Из-за чего подобное портфолио есть только у малого числа разработчиков. Из-за чего бизнес вынужден тратить деньги на дорогие процессы найма и исправление его ошибок.
-
-Моё крайне предвзятое мнение: **глобальная переплата за найм больше возможных потерь от выделения доли рабочего времени на подготовку публичных артефактов.**
-
-К сожалению, это мнение звучит более-менее уверенно для случая глобального изменения (когда все единовременно меняют политику), но выглядит куда слабее, когда изменение хочет произвести единственная компания. Если отбросить все прочие бонусы (о которых поговорим ниже), с точки зрения «одной компании в вакууме», подобное изменение политики будет выглядеть как благотворительность, что, однозначно, не является приоритетом бизнеса.
+Sadly, this opinion sounds more or less confident in the case of global change (when everyone simultaneously changes the policy), but looks much weaker when a single company wants to make the change. If we discard all other bonuses (which we will discuss below), from the point of view of a "single company in a vacuum", such a policy change would look like charity, which is definitely not a business priority.
 
 ## Публичные артефакты как критерий квалификации
 
