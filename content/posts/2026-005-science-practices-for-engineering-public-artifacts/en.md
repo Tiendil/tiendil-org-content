@@ -283,9 +283,9 @@ We make creation of public artifacts the personal goals of an employee and the i
 
 Such a split comes with a number of advantages.
 
-**Во-первых**, вы переключаете оценку сотрудника со статистически недостоверной оценки его работы парой человек, на более достоверную оценку коллегами (публичная работа видна всей компании, а не только команде; люди значительно активнее реагируют на неё) и профессиональным сообществом.
+**First**, you switch the evaluation of an employee from a statistically unreliable assessment of their work by a couple of people, to a more reliable assessment by colleagues (public work is visible to the whole company, not just the team; people react to it much more actively) and by the professional community.
 
-При этом, оригинальный процесс оценки закрытой групой ответственных человек (менеджером, лидом, hr, etc.) не исчезает, но переключает фокус с оценки нечётких сигналов от человека, на оценку реакции на его публичные артефакты и оценку самих артефактов.
+At the same time, the original evaluation process, handled by a closed group of responsible people (a manager, a lead, HR, etc.), doesn't go away. It shifts focus away from judging vague signals from the person, toward judging the reaction to their public artifacts, and the artifacts themselves.
 
 **Во-вторых**, ваши сотрудники получают возможность одновременно работать и над своим ростом в компании, и над своим профессиональным ростом и репутацией в сообществе. В традиционной схема, это практически невозможно.
 
