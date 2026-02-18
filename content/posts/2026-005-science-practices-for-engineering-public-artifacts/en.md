@@ -16,18 +16,21 @@ caption = "An engineer demonstrates their work to the community (c) ChatGPT, Leo
 tag = "vantage-on-management"
 ///
 
-В [прошлом эссе]{post:engineering-is-science-is-engineering} мы обсудили, что инженерия и наука близки, а значит могут заимствовать практики друг у друга.
+In the [previous essay]{post:engineering-is-science-is-engineering}, we discussed how engineering and science are closely related, and therefore can borrow practices from each other.
 
-Давайте поговорим об этих практиках. Поскольку я заинтересован в инженерной стороне вопроса, то будем обсуждать практики, которые инженерия может заимствовать у науки.
+Let's talk about those practices. Since I'm interested in the engineering side of things, we'll discuss practices that engineering can borrow from science.
 
-Здесь и далее под инженерией имеется в виду инженерия в IT / разработке ПО. Я уверен, что идеи из поста применимы и к инженерии в целом, но это эпически разнообразная и обширная область. Формат блога ~~и врождённая скромность~~ не позволяет мне высказывать столь смелые утверждения.
+Here and throughout this essay, by engineering I mean engineering in IT / software development. I'm confident that the ideas discussed here apply to engineering as a whole, but that field is vast and extraordinarily diverse. The blog format ~~and my innate modesty~~ does not permit me to make such ambitious claims.
 
-Это эссе первое из нескольких запланированных и посвящено практике создания публичных артефактов (например, научных статей); силе, которую эта практика даёт науке; и потенциальным выигрышам инженерии при её переходе на схожую модель.
+This essay is the first of several planned about practices. It focuses on the practice of creating public artifacts (such as scientific papers), the strength this practice gives to science, and the potential gains engineering might aquire by moving to a similar model.
 
-Под публичностью в данном тексте я имею в виду глобальную публичность, то есть доступность артефакта для всех, кто может быть заинтересован в нём.
+By publicity in this text, I mean global publicity — the availability of an artifact to everyone who might be interested in it.
 
-Мы обсудим следующие темы:
+We'll discuss the following topics:
 
+- What is a public artifact.
+- Artifact verifiability.
+- Public artifacts as evidence of competence.
 - Что такое публичный артефакт
 - Верифицируемость артефактов.
 - Публичные артефакты как свидетельство квалификации.
