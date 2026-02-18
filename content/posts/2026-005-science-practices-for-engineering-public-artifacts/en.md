@@ -109,35 +109,37 @@ Speaking of public artifacts in engineering, we can keep in mind the following n
 
 ///
 
-Не вся наука строится на публичности. Корпорации, армия, может быть спецслужбы, держат часть разработок в секрете. Но:
+Not the entire science is built on publicity. Corporations, the military, and perhaps intelligence agencies keep some developments classified. But:
 
-- Это меньшая доля научной активности.
-- Со временем все ключевые работы становятся открытыми или дублируются в открытом виде.
+- This is a smaller share of scientific activity.
+- Over time, all key works become public or replicated in public form.
 
-Более корректно будет рассматривать два типа публичности:
+### Two types of publicity
 
-1. Внутренняя публичность — открытие артефактов внутри компании, между командами, отделами, etc.
-2. Глобальная публичность — открытие артефактов для всего мира — для всех, кто может быть заинтересован в них.
+It would be more сorrect to consider two types of publicity:
 
-Это эссе построено с фокусом на глобальной публичности, так как удержание фокуса позволяет сократить и без того длинный текст, а глобальная публичность мне более интересна.
+1. Internal publicity — opening artifacts within the company, between teams, departments, etc.
+2. Global publicity — opening artifacts to the whole world — to everyone who might be interested in them.
 
-Однако, в контексте идей этого текста, разница между ними не так существенна:
+This essay is built with a focus on global publicity, as keeping the focus allows to shorten an already long text, and global publicity is more interesting to me.
 
-- Для малых компаний внутренняя публичность отсутствует как явление — слишком мало людей в сообществе компании.
-- Для крупных компаний внутренняя публичность может быть концептуально близка к глобальной, так как разница между размерами сообществ как между «много людей» и «очень много людей».
-- Существенные отличия в эффектах могут проявиться только в компаниях среднего размера.
+However, in the context of this text's ideas, the difference between them is not so significant:
 
-/// note | Практика говорит в пользу глобальной публичности
+- For small companies, internal publicity is absent as a phenomenon — there are too few people in the company's community.
+- For large companies, internal publicity can be conceptually close to global, as the difference between community sizes is like "many people" and "very many people".
+- Significant differences in effects may only manifest in medium-sized companies.
 
-Давайте посмотрим на недавний взрывной рост Deep Learning и LLM.
+/// note | Practice speaks in favor of global publicity
 
-В самом начале был период в несколько лет, когда корпорации стремились держать все наработки в секрете. В 2021 году я даже пост написал про опасения насчёт [монополизации машинного обучения]{post:@choose-nearest-language:monopolization-of-machine-learning}. Но сейчас крупные игроки пытаются найти баланс между открытием и закрытием своих наработок. Кто-то открывает больше, кто-то меньше, но открывают разработки почти все.
+Let's look at the recent explosive growth of Deep Learning and LLM.
 
-Это не разовый случай, не прихоть пары человек — это следствие эволюционного давления в сторону открытости разработки.
+At the beginning, there was a period of several years when corporations were trying to keep all developments secret. In 2021, I even wrote a post about concerns regarding [monopolization of machine learning]{post:@choose-nearest-language:monopolization-of-machine-learning}. But now the big players are trying to find a balance between opening and closing their developments. Some open more, some less, but almost everyone opens their developments.
 
-**Наша цивилизация пришла в точку, когда закрытая разработка становится экономически невыгодной из-за возрастающей сложности задач и бесконечной области возможных решений.** По крайней мере в ряде инженерных областей.
+This is not a one-time case, not the whim of a couple of people — this is the consequence of evolutionary pressure towards open development.
 
-Наука пришла в эту точку значительно раньше, IT её стремительно догоняет, со временем подтянутся и все остальные.
+**Our civilization has reached a point where closed development is becoming economically inefficient due to the growing complexity of problems and the endless space of possible solutions.** At least in a number of engineering fields.
+
+Science has reached this point much earlier, IT is rapidly catching up, and eventually all other fields will catch up as well.
 
 ///
 
