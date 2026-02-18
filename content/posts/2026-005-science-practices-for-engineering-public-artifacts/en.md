@@ -83,29 +83,29 @@ In my view, this is not evidence of the failure of scientific practices, but rat
 
 Some of the mentioned practices are already adopted in some form in certain areas of engineering. I will not dwell on digressions like "yes, this exists in some places, but…". It is safe to assume that if I mention an existing practice, I mean that it should be used more widely, more often, and more consistently.
 
-## Публичные артефакты
+## Public artifacts
 
-На мой взгляд, практика создания публичных артефактов — это одно из самых крутых достижений науки — то, что во многом сделало нашу цивилизацию такой, какая она есть.
+In my view, the practice of creating public artifacts is one of the greatest achievements of science — one that has, to a large extent, made our civilization what it is today.
 
-Под артефактом я имею в виду любой «физически зафиксированный» результат труда. Наука формализовала часть подобных артефактов: публикации в журналах, открытые наборы данных, постеры и презентации на конференциях, etc. Но таким артефактом может считаться и пост в блоге, open source код, видео на YouTube, зарегистрированное сообщение об ошибке, [RFC]{post:two-years-writing-rfc-statistics}, документация и многое другое.
+By artifact, I mean any "physically recorded" result of work. Science has formalized some types of such artifacts: journal publications, open datasets, posters and conference presentations, and so on. However, artifact can also be: a blog post, open-source code, a YouTube video, a formally filed bug report, an [RFC]{post:two-years-writing-rfc-statistics}, documentation, and many other things.
 
-/// note | Варианты публичных артефактов для инженерии
+/// note | Forms of public artifacts in engineering
 
-Говоря о публичных артефактах в инженерии, можно держать в голове этот неполный перечень:
+Speaking of public artifacts in engineering, we can keep in mind the following non-exhaustive list:
 
-- Патчи в open source проекты.
-- Сообщения о багах в open source проектах.
-- Качественные предложение новых фич в open source проекты.
-- Код внутренних библиотек, инструментов, бенчмарков, расширений к IDE, etc.
-- Контейнеры и образы.
-- Дизайн экспериментов и их результаты: от маркетинговых до технических.
-- [RFC]{post:two-years-writing-rfc-statistics}, архитектурные предложения, прочие высокоуровневые спецификации и стандарты.
-- Учебные материалы: гайды, уроки, FAQ, наборы рецептов, etc.
-- Разборы инцидентов.
-- Разборы кейсов и проблем.
-- Доклады на конференциях.
-- Записи участия в подкастах, круглых столах и прочих публичных мероприятиях.
-- Демо новых фич (например, рендера в играх), прототипы, результаты участия в хакатонах.
+- Patches to open source projects.
+- Bug reports to open source projects.
+- Qualitative proposals of new features to open source projects.
+- Code of internal libraries, tools, benchmarks, IDE extensions, etc.
+- Images of containers and virtual machines.
+- Design of experiments and their results: from marketing to technical ones.
+- [RFC]{post:two-years-writing-rfc-statistics}, architectural proposals, other high-level specifications and standards.
+- Educational materials: guides, tutorials, FAQs, recipe books, etc.
+- Incident analyses.
+- Analyses of cases and problems.
+- Conference talks.
+- Records of participation in podcasts, round tables and other public events.
+- Demos of new features (for example, rendering in games), prototypes, results of participation in hackathons.
 
 ///
 
