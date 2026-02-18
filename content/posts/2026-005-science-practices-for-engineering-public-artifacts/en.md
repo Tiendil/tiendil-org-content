@@ -328,24 +328,24 @@ In turn, institutionalization paves the way for the creation of expert councils 
 
 ## Public artifacts as a health metrics
 
-Поскольку создание публичных артефактов предполагается постоянной активностью, эту активность можно всячески измерять и использовать её флуктуации как сигнал об изменении «здоровья» компании, продукта, команды и отдельных сотрудников. Но всё ещё не забываем о [законе Гудхарта](https://ru.wikipedia.org/wiki/Закон_Гудхарта).
+Since the creation of public artifacts is supposed to be a persistent activity, this activity can be measured in various ways and its fluctuations can be used as a signal of changes in the "health" of the company, product, team, and individual employees. Just don't forget about [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law).
 
-Что может быть сигналом:
+What can be a signal:
 
-- Изменение скорость создания артефактов может свидетельствовать об изменении загруженности сотрудников.
-- Изменение типов создаваемых артефактов может свидетельствовать об изменении фокуса разработки или свойств продукта.
-- Изменение качества создаваемых артефактов может свидетельствовать об изменении квалификации сотрудников, а также об изменении качества продукта.
-- Распределение создаваемых артефактов по типам может указывать на качество проработки различных аспектов продукта, а также на качество процессов разработки, связанных с этими аспектами.
-- Среднее количество авторов на артефакт может быть показателем уровня коллаборации и коммуникации в компании.
-- Сила внешней реакции (лайки, репосты, комментарии, форки, etc.) на артефакты может быть показателем соответствия ваших процессов разработки лучшим практикам и уровня репутации компании в профессиональном сообществе.
+- Changes in the artifact creation rate may indicate changes in employees' workload.
+- Changes in the types of artifacts being produced may indicate a shift in development focus or in properties of the product.
+- Changes in artifact quality may indicate employee burnout or deterioration of development processes.
+- The distribution of artifacts across types can point to the quality of related development processes.
+- The average number of authors per artifact can correlate with the level of collaboration and communication inside the company.
+- The strength of external response (likes, reposts, comments, forks, etc.) to artifacts can indicate how closely your development processes match best practices, and how good the company's reputation is in the professional community.
 
-Примеры:
+Here are some examples:
 
-- Команда стала создавать значительно меньше артефактов — возможно она перегружена работой.
-- Скачёк в количестве патчей в open source может свидетельствовать о том, что продукт упирается в архитектурные ограничения, которые приводят к использованию сторонних библиотек «на максимуме их возможностей».
-- Реакция на демо новых фич может быть критерием правильности выбранного направления развития продукта.
-- Частое участие в подкастах и круглых столах может свидетельствовать о том, что продукт и компания становятся более заметными в профессиональном сообществе.
-- Популярность утилит, которые вы открываете, может свидетельствовать о том, что ваши процессы разработки близки к best practices.
+- The team've started producing significantly fewer artifacts — maybe people are overloaded with work.
+- A spike in the number of patches to open-source projects can suggest the product is hitting architectural constraints, forcing you to push third-party libraries to their limits.
+- The response to demos of new features may indicate whether the chosen direction of product development is correct.
+- Frequent participation in podcasts and roundtables may indicate that the product and the company are becoming more visible in the professional community.
+- The popularity of the utilities you open-source may indicate that your development processes are close to best practices.
 
 ## Сложности перевода разработки на публичные артефакты
 
