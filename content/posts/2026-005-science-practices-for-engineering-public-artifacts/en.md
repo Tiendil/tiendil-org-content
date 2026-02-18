@@ -190,23 +190,23 @@ All of this has emerged over the span of just 20-30 years, which indicates stron
 
 ///
 
-## Публичные артефакты, как свидетельства компетенции
+## Public artifacts as evidence of competence
 
-Благодаря публичности и верифицируемости артефакт становится идеальным свидетельством компетенции его создателей.
+Because of their publicity and verifiability, artifacts become ideal evidence of the competence of their creators.
 
-В науке, публикация в рецензируемом журнале — это не просто способ поделиться результатами, это запись в распределённой базе ~~данных~~ знаний о факте компетенции учёного. Хочешь оценить профессионализм учёного, узнать как интерпретировать его утверждения — посмотри динамику и темы его публикаций.
+In science, publishing in a peer-reviewed journal is not just a way to share results, it's a record in the distributed knowledge base of the fact of a scientist's competence. If you want to assess a scientist's professionalism, understand how to interpret their statements — look at the dynamics and topics of their publications.
 
-В IT с этим сложнее, так как [фабричная культура]{post:no-instructions-for-engineering} не позволяет людям открывать результаты своего труда. Однако это не значит, что этот подход не работает — множество разработчиков создают публичные артефакты, некоторым даже везёт делать это в рабочее время.
+In IT, the situation is more complicated, as the [factory floors culture]{post:no-instructions-for-engineering} does not encourage people to open the results of their work. However, this does not mean that openness does not work — many developers create public artifacts, some are even lucky enough to do it during work hours.
 
-Например, мою компетенцию вполне возможно оценить по блогу и [GitHub](https://github.com/Tiendil). Некоторые мои знакомые ещё в университете начали писать патчи в open source проекты и, тем самым, создавать свой публичный портфель артефактов. В целом, программистов с публичными артефактами хватает и становится всё больше, несмотря на откровенно некомфортные условия для их создания.
+For example, it's perfectly possible to judge my competence by my blog and my [GitHub](https://github.com/Tiendil). Some people I know started contributing to open-source projects back in university, and since then have built their public portfolio of artifacts that way. Overall, there are plenty of developers with public artifacts, and their number keeps growing, despite the frankly uncomfortable conditions for creating them.
 
-/// note | Артефакты как свидетельства выполненной работы
+/// note | Artifacts as evidence of work done
 
-Артефакты свидетельствуют не только о компетенции, но и о самом факте выполнения работы.
+Artifacts evedence not only about competence, but also about the very fact of work being done.
 
-«Артефакт как свидетельсво проделанной работы» — это базовый элемент организации, планирования и контроля труда. С адаптацией этой концепции у IT тоже есть проблемы, хотя она уже постепенно распространяется по коллективам. В частности, я периодически высказываюсь за то, что вся работа должна быть организована вокруг создания артефактов.
+"An artifact as evidence of work done" is a fundamental element of organizing, planning, and controlling work. IT has problems with adapting this concept as well, although it is steadily spreading from team to team. In particular, I keep arguing from time to time that all work should be organized around producing artifacts.
 
-Поскольку эта концепция уже живёт внутри разработки и более низкоуровневая, я не буду заострять на ней внимание.
+Since this concept is already lives inside software developement and is a more low-level, I won't dwell on it.
 
 ///
 
