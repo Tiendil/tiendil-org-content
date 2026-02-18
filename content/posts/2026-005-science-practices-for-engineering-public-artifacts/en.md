@@ -386,7 +386,7 @@ Opening up artifacts is an investment in:
 - **Company reputation and hiring** — all else equal, reputation is what determines job choice for many specialists, especially top-tier ones.
 - **Infrastructure, its reliability and security**. For example, a patch to an open-source project you use will definitely return to you.
 
-Of course, there are contraindications to such a reform. If your employees aren't motivated to develop themselves and their careers; or, worse, your strategy is built around churn and squeezing people dry, then publishing artifacts is not your path.
+Of course, there are contraindications to such a reform. If your employees aren't motivated to develop themselves and their careers; or, worse, your strategy is built around churn and squeezing people dry, then opening up artifacts is not your path.
 
 ### Непонятно
 
