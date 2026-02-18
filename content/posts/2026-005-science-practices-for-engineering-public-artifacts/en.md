@@ -180,13 +180,14 @@ Thus, a feedback loop is formed — one that enables the evolution of the field.
 
 /// note | Open source
 
-В этом контексте стоит упомянуть [open source](https://en.wikipedia.org/wiki/Open-source_software), как явление наиболее близкое по свойствам артефактов к науке, включая верифицируемость артефактов.
+In this context, it is worth mentioning [open source](https://en.wikipedia.org/wiki/Open-source_software) as a phenomenon whose artifacts are, in many respects, closest to those of science — including in terms of verifiability.
 
-Начавшись в виде разрозненных инициатив по открытию кода, open source превратился в глобальный социальный механизм, который пораждает свою социальную сеть, имеет формальные и неформальные механизмы регулирования, культуру и институты.
+Started as scattered initiatives to open up source code, open source has evolved into a global social mechanism that generates its own social network, has formal and informal governance mechanisms, culture, and institutions.
 
-Если у вас есть сомнения по поводу формальных механизмов регулирования и институтов, посмотрите на [процесс отправки патчей в ядро Linux](https://docs.kernel.org/process/submitting-patches.html), на механизм [PEP](https://www.python.org/dev/peps/) в Python, или даже на [RFC](https://www.rfc-editor.org/).
+If you have doubts about the existence of formal regulatory mechanisms and institutions, take a look at the [patch submission process for the Linux kernel](https://docs.kernel.org/process/submitting-patches.html), the [PEP process in Python](https://www.python.org/dev/peps/), or even the [RFC system](https://www.rfc-editor.org/).
 
-Весь этот путь был пройден за каких-то 20-30 лет, что свидетельствует о сильном эволюционном давлении в сторону открытости разработки и больших её перспективах. На текущий момент open source — это уже не просто «открытие кода программ», постепенно открываются исходники «железных» проектов — от электронники до [домов](https://www.wikihouse.cc/).
+All of this has emerged over the span of just 20-30 years, which indicates strong evolutionary pressure toward openness in development — and it's substantial long-term potential. At this point, open source is no longer merely about "opening software code", developers are increasingly opening the designs of hardware projects as well — from electronics to [houses](https://www.wikihouse.cc/).
+
 ///
 
 ## Публичные артефакты, как свидетельства компетенции
