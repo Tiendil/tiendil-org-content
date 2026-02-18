@@ -388,17 +388,17 @@ Opening up artifacts is an investment in:
 
 Of course, there are contraindications to such a reform. If your employees aren't motivated to develop themselves and their careers; or, worse, your strategy is built around churn and squeezing people dry, then opening up artifacts is not your path.
 
-### Непонятно
+### It is unclear
 
-На мой взгляд, это самая сложная проблема и самый большой вызов.
+In my view, this is the hardest problem and the biggest challenge.
 
-Если посадить среднего мидла или даже сеньора писать пост о вашей архитектуре, то он напишет лютую фигню; в лучшем случае — беззубый и бесполезные текст. Это особенно актуально для пост-СССР пространства, где в образовании нет системной подготовки людей к выражению собственных мыслей. На западе с этим лучше, но, судя по публичным площадкам, не то чтобы на порядки.
+If you get an average mid-level or even senior-level developer and ask them to write a post about the project architecture, they'll write some utterly awful nonsense; at best, you'll get a toothless, useless text. This is especially true in the post-Soviet space, where education doesn't systematically teach people to express their own thoughts. In the West the situation is better, but judging by public platforms, not by an order of magnitude.
 
-Схожие соображения касаются прочих направлений.
+Similar considerations apply to other forms of artifacts as well.
 
-То есть, если взять случайную компанию и сказать «с этого дня мы работаем через открытые артефакты», то люди растеряются и начнут делать ерунду. Бонусом будет тихое сопротивление из-за непонимания зачем это нужно — людям значително сложнее понимить длинные цепочки причинно-следственных связей, чем короткие.
+So, if you take a random company and postulate "Starting today, we work through open artifacts", people will get lost and start doing pointless things. As a bonus, you'll get a quiet resistance, because people will not understand why this is needed — uprehand long chains of cause and effect is  significantly harder to grasp than short ones.
 
-Поэтому сотрудников надо постепенно обучать недостающим навыкам и вести агитацию — лучше всего личным примером. Для этого нужны понимающие лидеры и свободные ресурсы, которых обычно нет.
+So you have to gradually teach employees the missing skills and persuase them, best of all by personal example. For that, you need knowledgeable leaders and free resources, both usually aren't available.
 
 ## С чего начать
 
