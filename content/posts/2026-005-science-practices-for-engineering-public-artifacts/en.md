@@ -253,17 +253,17 @@ On top of that, it would let people develop their careers more deliberately, and
 
 Of caurse, the evaluation of highly qualified specialists is more complicated. In science, it mainly happens through the evaluation of their latest published papers, as well as through the assessment of their citation count. In IT, it doesn't happen at all: we interview a person and send them on a probation period in the hope that we didn't make a mistake. Therefore, even for top specialists, the possibility of assessing their qualifications through public artifacts would be extremely useful.
 
-## Публичные артефакты как ось оценки сотрудников
+## Public artifacts as an axis of employee evaluation
 
-/// note | Делаем KPI более объективным
+/// note | Making KPIs more objective
 
-Мы все помним, что [как только метрика становится целью, она перестаёт быть хорошей метрикой](https://ru.wikipedia.org/wiki/Закон_Гудхарта).
+We all remember, that [as soon as a metric becomes a target, it ceases to be a good metric](https://en.wikipedia.org/wiki/Goodhart%27s_law).
 
-Поэтому я ни в коем случае не призываю использовать публичные артефакты как жёсктий и единственный критерий оценки сотрудников. Оценивать работу людей следует по комплексному набору параметров, не скатываясь в абсолют и защищаясь от манипуляций ими.
+So I'm not, under any circumstances, arguing that public artifacts should be used as a rigid, single criterion for evaluating employees. People's work should be assessed through a comprehensive set of parameters—without turning any one of them into an absolute, and with safeguards against gaming the system.
 
-**Смотреть на публичные артефакты следует как на ещё одну равноправную ось, по которой можно оценивать сотрудников.**
+**Public artifacts should be treated as just one more equal axis along which employees can be evaluated.**
 
-Добавляя эту ось **мы перестраиваем пространство оценки**, делая его более выразительным и, следовательно, более объективным.
+By adding this axis, **we reshape the evaluation space**, making it more expressive, and therefore more objective.
 
 ///
 
