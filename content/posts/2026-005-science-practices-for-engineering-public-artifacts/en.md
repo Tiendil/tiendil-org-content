@@ -287,18 +287,18 @@ Such a split comes with a number of advantages.
 
 At the same time, the original evaluation process, handled by a closed group of responsible people (a manager, a lead, HR, etc.), doesn't go away. It shifts focus away from judging vague signals from the person, toward judging the reaction to their public artifacts, and the artifacts themselves.
 
-**Во-вторых**, ваши сотрудники получают возможность одновременно работать и над своим ростом в компании, и над своим профессиональным ростом и репутацией в сообществе. В традиционной схема, это практически невозможно.
+**Second**, you give your employees the opportunity to work simultaneously on their growth within the company, and on their professional growth and reputation in the community. In the traditional scheme, this is practically impossible.
 
-- Это может значительно разгрузить людей, особенно абмициозных и талантливых. Здоровые таланты лучше перформят.
-- Часть усилий, которые раньше уходили во вне компании, будут оставаться в ней.
+- This can significantly reduce the load on people, especially the ambitious and talented. Healthy talent performs better.
+- Some of the effort that used to be spent outside the company will stay within it.
 
-**В-третьих**, вы получаете гибкие и устойчивые KPI, которые легко адаптируются к изменениям в вашей стратегии.
+**Third**, you get flexible and resilient KPIs that easily adapt to changes in your strategy.
 
-Если человек, для демонстрации квалификации, описывает архитектуру вашего продукта, то куда бы её развитие не завернуло, он всё также сможет её описывать, просто темы постов или их фокус сместится. Если вы решили открыть внутреннюю утилиту, то вы легко её выпустите независимо (почти) от того, в какое направление её разработка завернёт.
+If an employee, to demonstrate their qualification, describes the architecture of your product, then no matter how its development turns out, they will still be able to describe it, only the topics of posts or their focus will shift. If you decide to open an internal utility, then you can easily release it regardless (almost) of the direction its development takes.
 
-**В-четвёртых**, открытые артефакты обычно предельно конкретны (даже атомарны), имеют чёткие границы и, следовательно, чёткий scope работ. Это делает их понятными для всех участников процесса, что, в свою очередь, упрощает встраивание работы над ними в рабочий процесс. В отличии от личных целей по проекту, которые, по-моему опыту, вообще не встраиваемы.
+**Fourth**, public artifacts are usually extremely specific (even atomic), have clear boundaries, and therefore a clear scope of work. This makes them understandable to all participants of the process, which in turn makes it easier to embed work on them into the primary workflow. Unlike personal goals for a project, which, in my experience, are generally not embeddable at all.
 
-В итоге к своему ревью человек приходит не с набором сомнительных утверждений, которые могут корректно воспринять полтора человека, а с набором конкретных общедоступных артефактов, которые будут понятны профессионалу в компании и вне её и будут иметь ценность для человека после завершения ревью. Тем самым, подготовка к ревью перестаёт быть формальностью.
+As a result, a person comes to their review not with a set of dubious statements that can be correctly perceived by one and a half people, but with a set of specific public artifacts that will be understandable to professionals both inside and outside the company, and **will have value for the person after the review is over**. Thus, preparation for the review ceases to be a formality.
 
 /// warning | Злоупотребления метриками и как с ними бороться
 
