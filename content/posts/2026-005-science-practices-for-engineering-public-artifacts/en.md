@@ -73,11 +73,11 @@ That's why I believe that the mentioned questions are now slightly less "deadly"
 
 ///
 
-### Проблемы науки
+### Problems of Science
 
-Современная наука поражена множеством болезней (а когда было иначе?). Не всегда и не везде всё работает как должно.
+Modern science is afflicted with many ailments (though when was it ever otherwise?). Things do not always work as they should.
 
-На мой взгляд, это не свидетельство неэффективности её практик, а свидетельство продолжающегося её развития. И природы человечества, конечно.
+In my view, this is not evidence of the failure of scientific practices, but rather evidence that science continues to develop. And, of course, it is a reflection of human nature.
 
 ### Часть практик уже используется
 
