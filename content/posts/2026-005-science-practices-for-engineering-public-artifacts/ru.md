@@ -2,7 +2,7 @@
 title = "Научные практики для инженерии — публичные артефакты"
 tags = [ "theory", "development", "open-source", "interesting", "best", "management", "vantage-on-management", "science"]
 series = "vantage-on-management"
-published_at = "2025-09-17T12:00:00+00:00"
+published_at = "2026-02-18T12:00:00+00:00"
 seo_description = "Публичные артефакты, такие как рецензируемые статьи, — одно из самых крутых достижений науки. В этом эссе мы поговорим об их адаптации в инженерии."
 seo_image = ""
 ---
