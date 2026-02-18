@@ -375,18 +375,18 @@ Simplifying, on an example of game development:
 
 **Since opening up artifacts benefits employees, promoting it makes the company stronger.**
 
-### Дорого
+### It is expensive
 
-Открытие артефактов требует дополнительных ресурсов. Но эти ресурсы не уходят во внешнее никуда, они меняют свойства продукта, а значит, при грамотном управлении, могут косвенно снижать затраты.
+Opening up artifacts requires additional resources. But those resources don't disappear into some external void; they change the properties of the product, and therefore, with competent management, they can indirectly reduce costs.
 
-Открытие артефактов — это инвестиция в:
+Opening up artifacts is an investment in:
 
-- Качество продукта — люди более ответственно относятся к качеству публичной работы, особенно если она явно связана с ними.
-- Обмен знаниями — публичные разборы кейсов, выступления на конференции будут с большей вероятностью изучены коллегами и в любой случае станут референсом для решения конкретных задач.
-- Репутацию компании и найм — при прочих равных именно репутация определяет выбор работы для многих специалистов, особенно для топовых.
-- Инфраструктуру, её надёжность и безопасность. Например, патч в используемый вами open source проект однозначно вернётся к вам.
+- **Product quality** — people pay more attention to the quality of public work, especially when it's clearly associated with them.
+- **Knowledge sharing** — public case studies and conference talks are more likely to be studied by colleagues, and in any case become a reference for solving specific problems.
+- **Company reputation and hiring** — all else equal, reputation is what determines job choice for many specialists, especially top-tier ones.
+- **Infrastructure, its reliability and security**. For example, a patch to an open-source project you use will definitely return to you.
 
-Конечно, есть и противопоказания к такой реформе. Если ваши сотрудники не мотивированы развивать себя и свою карьеру, или, что ужасно, ваша стратегия строится на текучке и выжиманию соков из людей, то открытие артефактов — не ваш путь.
+Of course, there are contraindications to such a reform. If your employees aren't motivated to develop themselves and their careers; or, worse, your strategy is built around churn and squeezing people dry, then publishing artifacts is not your path.
 
 ### Непонятно
 
