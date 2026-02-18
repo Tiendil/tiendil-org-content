@@ -34,7 +34,7 @@ We'll discuss the following topics:
 - Public artifacts as a criterion of qualification.
 - Public artifacts as an axis of employee evaluation.
 - Public artifacts as a health metric.
-- Problems of moving development to public artifacts.
+- Difficulties of shifting development toward public artifacts
 - How to start.
 
 This text is not a recommendation, but an invitation to discussion. It is full of idealism and controversial statements. I hope for your understanding and comments.
@@ -346,6 +346,14 @@ Here are some examples:
 - The response to demos of new features may indicate whether the chosen direction of product development is correct.
 - Frequent participation in podcasts and roundtables may indicate that the product and the company are becoming more visible in the professional community.
 - The popularity of the utilities you open-source may indicate that your development processes are close to best practices.
+
+## Difficulties of shifting development toward public artifacts
+
+Switching a company to producing public artifacts is tantamount to a paradigm shift. It's not merely a process change; it's a change in culture, mindset, and values. Accordingly, it's a long, complex, painful process, and therefore a difficult one.
+
+However, in my view, the main difficulty lies not in the economics of the process or its structure, but in people's minds. That's why, to me, this transition looks more painful than economically risky.
+
+There are several difficulties.
 
 ## Сложности перевода разработки на публичные артефакты
 
