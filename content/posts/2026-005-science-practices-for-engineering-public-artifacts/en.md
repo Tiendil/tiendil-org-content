@@ -170,13 +170,13 @@ The proposed approach can be developed in several directions:
 
 ///
 
-Оба подхода имеют одинаковые следствия:
+Both approaches have the same consequences:
 
-- Новые артефакты строятся на основе уже существующих верифицированных артефактов.
-- Сеть верифицированных артефактов порождает сеть доверия между их создателями.
-- Сеть доверия порождает социальные механизмы регулирования, которые поддерживают качество и достоверность артефактов.
+- New artifacts are built on top of already existing verified artifacts.
+- A network of verified artifacts gives rise to a network of trust among their creators.
+- The network of trust generates social regulation mechanisms that sustain the quality and reliability of artifacts.
 
-Тем самым замыкается обратная связь, которая обеспечивает эволюцию области.
+Thus, a feedback loop is formed — one that enables the evolution of the field.
 
 /// note | Open source
 
