@@ -79,9 +79,9 @@ Modern science is afflicted with many ailments (though when was it ever otherwis
 
 In my view, this is not evidence of the failure of scientific practices, but rather evidence that science continues to develop. And, of course, it is a reflection of human nature.
 
-### Часть практик уже используется
+### Some of mentioned practices are already in use
 
-Часть упомянутых практик существует в некотором виде в некоторой части инженерии. Я не буду отвлекаться на отступления в духе «да, местами это есть, но …». С большой уверенностью можно предполагать, что если я упоминаю существующую практику, то я имею в виду, что использовать её нужно шире, чаще и более последовательно.
+Some of the mentioned practices are already adopted in some form in certain areas of engineering. I will not dwell on digressions like "yes, this exists in some places, but…". It is safe to assume that if I mention an existing practice, I mean that it should be used more widely, more often, and more consistently.
 
 ## Публичные артефакты
 
