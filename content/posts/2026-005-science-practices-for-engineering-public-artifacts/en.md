@@ -41,35 +41,35 @@ This text is not a recommendation, but an invitation to discussion. It is full o
 
 <!-- more -->
 
-## Оговорки
+## Disclaimer
 
-### Уровень абстракции
+### Level of abstraction
 
-Рассматриваемые практики я считаю сложными. За каждой из них стоит не только врождённая «техническая» сложность, но и сложность культурного сдвига, который потребовался для её формирования и внедрения в науке — за каждой практикой стоит долгий исторический путь.
+I consider the practices under discussion to be complex. Each of them involves not only an inherent "technical" complexity, but also the complexity of the cultural shift that was required for practice formation and adoption in science — behind each practice lies a long historical path.
 
-Мой основной интерес сейчас — это получить видение культуры разработки, к которой я хочу двигаться. Поэтому я сосредоточусь на идеалистическом описании практик с фокусом на их ценности и потенциале.
+My primary interest right now is to develop a vision of the development culture I want to move towards. Therefore, I will focus on an idealized description of practices, emphasizing their value and potential.
 
-Я буду опускать такие вопросы как:
+I'll skip such questions as:
 
-- Экономические аспекты внедрения практик для бизнеса.
-- Минимальный уровень компетенции и зрелости сотрудников, необходимый для внедрения практик.
-- Социальное сопротивление к внедрению практик.
-- Проблемы с приватностью и безопасностью, которые могут возникать при внедрении практик.
+- The business economics of adopting these practices.
+- The minimal level of competence and maturity of employees required to adopt these practices.
+- Social resistance to adopting these practices.
+- Privacy and security issues that may arise when adopting these practices.
 - etc.
 
-Делать я это буду с полным пониманием того, что для внедрения каждой конкретной практики потребуется эти вопросы разобрать и решить. Но куда проще разбирать и решать их в контексте конкретной компании и конкретных людей, чем «в общем».
+I do it with the full awareness that implementing each specific practice will require to exame and resolve these questions. But it's much easier to examine and resolve them in the context of a specific company and specific people, than "in general".
 
-Иными словами, обсуждать будем «идеальные практики в вакууме», а не «конкретные практики в конкретной компании».
+In other words, we will discuss "ideal practices in a vacuum", not "specific practices in a specific company".
 
-/// note | Сдвиг в приоритетах бизнеса
+/// note | A shift in business priorities
 
-Сейчас медленно происходит культурный сдвиг в бизнесе, в сторону того, что целями компаний, наряду с получением прибыли, люди начинают признавать принесение общественного блага.
+Nowadays, we can see a cultural shift in business: people are starting to recognize that alongside profit generation, companies may, can and should bring public good.
 
-Появляются новые формы организации компаний, например, [Benefit Corporation](https://en.wikipedia.org/wiki/Benefit_corporation).
+New organizational forms of companies are arising, such as [Benefit Corporation](https://en.wikipedia.org/wiki/Benefit_corporation).
 
-Из недавнего, [OpenAI реорганизовала свою коммерческую часть в нечто похожее](https://openai.com/our-structure/).
+As a recent example, [OpenAI has reorganized its commercial part into something like that](https://openai.com/our-structure/).
 
-Поэтому я считаю, что опущенные вопросы сейчас чуть менее «смертельные», чем они были бы лет 10 назад.
+That's why I believe that the mentioned questions are now slightly less "deadly" than they would have been 10 years ago.
 
 ///
 
