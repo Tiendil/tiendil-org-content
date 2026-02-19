@@ -1,6 +1,6 @@
 ---
 title = "Нет инструкций для инженерии"
-tags = [ "theory", "development", "interesting", "management", "vantage-on-management"]
+tags = [ "theory", "development", "interesting", "best", "management", "vantage-on-management"]
 series = "vantage-on-management"
 published_at = "2025-09-25T12:00:00+00:00"
 seo_description = "Инженеры создают новое, а значит их работу нельзя регламентировать детальными инструкциями. Что из этого следует для менеджмента инженерных коллективов?"
