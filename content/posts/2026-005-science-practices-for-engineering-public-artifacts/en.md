@@ -24,7 +24,7 @@ Here and throughout this essay, by engineering I mean software engineering (IT).
 
 This essay is the first of several planned texts about practices. It focuses on the practice of creating publicly accessible artifacts (such as scientific papers), the strength this practice gives science, and the potential gains engineering could make by adopting a similar model.
 
-By "public" in this text, I mean global access — the artifact is world-readable to anyone who might be interested. This does not necessarily imply an open license (e.g., open-source).
+By "public" in this text, I mean global access — the artifact is world-readable to anyone who might be interested. This does not necessarily imply an open license (e.g., open-source), however, open-sourcing is often a natural choice for public artifacts, it is simplifying things a lot.
 
 We'll discuss the following topics:
 
