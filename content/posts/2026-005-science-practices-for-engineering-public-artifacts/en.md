@@ -101,7 +101,7 @@ Speaking of public artifacts in engineering, we can keep in mind the following n
 - Design of experiments and their results: from marketing to technical ones.
 - [RFC]{post:two-years-writing-rfc-statistics}, architectural proposals, other high-level specifications and standards.
 - Educational materials: guides, tutorials, FAQs, recipe books, etc.
-- Incident analyses.
+- Incident postmortems.
 - Analyses of cases and problems.
 - Conference talks.
 - Records of participation in podcasts, round tables, and other public events.
@@ -147,7 +147,7 @@ Science has reached this point much earlier, IT is rapidly catching up, and even
 
 One important feature of scientific artifacts is their formal verifiability. Key artifacts, such as scientific publications, undergo a formal peer-review process designed to ensure a certain level of quality and reliability. The more prestigious the journal you want to publish your article in, the higher the requirements for the paper's quality, but the more trust it will have in the community.
 
-Currently, it is difficult to imagine a fully analogous global social mechanism in engineering. However, engineering does not require a perfect replica. It is, after all, a distinct activity with its own nuances. Where science verifies artifacts through the control of causal chains, protocols, and theory, engineering verifies them through practice, experience, and control of dependencies.
+Currently, it is difficult to imagine a fully analogous global social mechanism in engineering. However, engineering does not require a perfect replica. It is, after all, a distinct activity with its own nuances. Where science verifies artifacts through the control of causal chains, protocols, and theory, engineering verifies them through practice, experience, and dependencies network.
 
 /// note | Possible approaches to artifact verification in engineering
 
