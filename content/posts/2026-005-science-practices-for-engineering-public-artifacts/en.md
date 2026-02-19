@@ -20,22 +20,22 @@ In the [previous essay]{post:engineering-is-science-is-engineering}, we discusse
 
 Let's talk about those practices. Since I'm interested in the engineering side of things, we'll discuss practices that engineering can borrow from science.
 
-Here and throughout this essay, by engineering I mean engineering in IT / software development. I'm confident that the ideas discussed here apply to engineering as a whole, but that field is vast and extraordinarily diverse. The blog format ~~and my innate modesty~~ do not permit me to make such ambitious claims.
+Here and throughout this essay, by engineering I mean software engineering (IT). I'm confident that the ideas discussed here apply to engineering as a whole, but that field is vast and extraordinarily diverse. The blog format ~~and my innate modesty~~ doesn't really allow me to make such ambitious claims.
 
-This essay is the first of several planned about practices. It focuses on the practice of creating publicly accessible artifacts (such as scientific papers), the strength this practice gives science, and the potential gains engineering could make by adopting a similar model.
+This essay is the first of several planned texts about practices. It focuses on the practice of creating publicly accessible artifacts (such as scientific papers), the strength this practice gives science, and the potential gains engineering could make by adopting a similar model.
 
 By "public" or "open" in this text, I mean global openness — the availability of an artifact to everyone who might be interested in it.
 
 We'll discuss the following topics:
 
-- What is a public artifact.
-- Artifact verifiability.
-- Public artifacts as evidence of competence.
-- Public artifacts as a criterion of qualification.
-- Public artifacts as an axis of employee evaluation.
-- Public artifacts as a health metric.
-- Difficulties of shifting development toward public artifacts.
-- How to start.
+- what is a public artifact;
+- artifact verifiability;
+- public artifacts as evidence of competence;
+- public artifacts as a criterion of qualification;
+- public artifacts as an axis of employee evaluation;
+- public artifacts as a health metric;
+- difficulties of shifting development toward public artifacts;
+- how to start.
 
 This text is not a recommendation, but an invitation to discussion. It is full of idealism and controversial statements. I hope for your understanding and comments.
 
