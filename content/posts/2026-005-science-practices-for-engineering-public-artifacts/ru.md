@@ -4,7 +4,7 @@ tags = [ "theory", "development", "open-source", "interesting", "best", "managem
 series = "vantage-on-management"
 published_at = "2026-02-19T12:00:00+00:00"
 seo_description = "Публичные артефакты, такие как рецензируемые статьи, — одно из самых крутых достижений науки. В этом эссе мы поговорим об их адаптации в инженерии."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
 
 /// brigid-images

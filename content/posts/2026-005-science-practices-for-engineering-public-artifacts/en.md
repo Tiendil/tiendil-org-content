@@ -4,7 +4,7 @@ tags = [ "theory", "development", "open-source", "interesting", "best", "managem
 series = "vantage-on-management"
 published_at = "2026-02-19T12:00:00+00:00"
 seo_description = "Public artifacts (peer-reviewed papers, open code) power science. This essay shows how engineering can adapt the same public-artifact model."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
 
 /// brigid-images
