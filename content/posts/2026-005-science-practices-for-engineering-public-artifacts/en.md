@@ -196,7 +196,7 @@ Because of their openness and verifiability, artifacts become ideal evidence of 
 
 In science, publishing in a peer-reviewed journal is not just a way to share results — it's a record in the distributed knowledge base of the fact of a scientist's competence. If you want to assess a scientist's professionalism, understand how to interpret their statements — look at the dynamics and topics of their publications.
 
-In IT, the situation is more complicated, as the [factory floors culture]{post:no-instructions-for-engineering} does not encourage people to share the results of their work. However, this does not mean that openness does not work — many developers create public artifacts, and some are even lucky enough to do it during work hours.
+In IT, the situation is more complicated, as the [assembly-line mindset]{post:no-instructions-for-engineering} does not encourage people to share the results of their work. However, this does not mean that openness does not work — many developers create public artifacts, and some are even lucky enough to do it during work hours.
 
 For example, it's perfectly possible to judge my competence based on my blog and [GitHub](https://github.com/Tiendil). Some people I know started contributing to open-source projects back in university and, since then, have built their public portfolio of artifacts that way. Overall, there are plenty of developers with public artifacts, and their number keeps growing, despite the frankly uncomfortable conditions for creating them.
 
