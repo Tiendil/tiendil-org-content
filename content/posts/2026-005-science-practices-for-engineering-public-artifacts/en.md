@@ -24,7 +24,7 @@ Here and throughout this essay, by engineering I mean software engineering (IT).
 
 This essay is the first of several planned texts about practices. It focuses on the practice of creating publicly accessible artifacts (such as scientific papers), the strength this practice gives science, and the potential gains engineering could make by adopting a similar model.
 
-By "public" or "open" in this text, I mean global openness — the availability of an artifact to everyone who might be interested in it.
+By "public" in this text, I mean global public access — the availability of an artifact to everyone who might be interested in it.
 
 We'll discuss the following topics:
 
@@ -41,7 +41,7 @@ This text is not a recommendation, but an invitation to discussion. It is full o
 
 <!-- more -->
 
-## Disclaimer
+## Caveats
 
 ### Level of abstraction
 
@@ -118,8 +118,8 @@ Not all science is built on openness. Corporations, the military, and perhaps in
 
 It would be more correct to consider two types of openness:
 
-1. Internal openness — opening artifacts within the company, between teams, departments, etc.
-2. Global openness — opening artifacts to the whole world — to everyone who might be interested in them.
+1. Internal openness — publishing artifacts within the company, between teams, departments, etc.
+2. Global openness — publishing artifacts to the whole world — to everyone who might be interested in them.
 
 This essay is written with a focus on global openness, as this helps keep the text shorter and is more interesting to me.
 
