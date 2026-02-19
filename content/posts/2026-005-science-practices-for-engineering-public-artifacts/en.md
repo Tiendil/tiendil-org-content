@@ -114,14 +114,14 @@ Not all science is built on openness. Corporations, the military, and perhaps in
 - This is a smaller share of scientific activity.
 - Over time, all key works become public or replicated in public form.
 
-### Two access scopes of artifacts
+### Two publication scopes of artifacts
 
-It would be more correct to consider two access scopes of artifacts:
+It would be more correct to consider two publication scopes of artifacts:
 
-1. Internal visiblity — publishing artifacts within the company, between teams, departments, etc.
-2. External or global visiblity  — publishing artifacts to the whole world — to everyone who might be interested in them.
+1. Internal publication — publishing artifacts within the company, between teams, departments, etc.
+2. Public (global) publication — publishing artifacts to the whole world — to everyone who might be interested in them.
 
-This essay is written with a focus on global visiblity, as this helps keep the text shorter and is more interesting to me.
+This essay focuses on global publication, as this helps keep the text shorter and is more interesting to me.
 
 However, in the context of this text's ideas, the difference between them is not so significant:
 
