@@ -114,9 +114,9 @@ Not all science is built on openness. Corporations, the military, and perhaps in
 - This is a smaller share of scientific activity.
 - Over time, all key works become public or replicated in public form.
 
-### Two scopes of visibility of public artifacts
+### Two scopes of visibility of artifacts
 
-It would be more correct to consider two types of visibility of public artifacts:
+It would be more correct to consider two types of visibility of artifacts:
 
 1. Internal visiblity — publishing artifacts within the company, between teams, departments, etc.
 2. External or global visiblity  — publishing artifacts to the whole world — to everyone who might be interested in them.
