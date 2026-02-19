@@ -411,7 +411,7 @@ Implementing a reform this broad will look very different from company to compan
 
 Here are some artifacts you can start with, from simple to complex:
 
-1. Records of talks at meetups and conferences. There are always active people who are happy to participate in such activities, even without motivation from the company. It won't be hard to identify them and support them in this.
+1. Recordings of talks at meetups and conferences. There are always active people who are happy to participate in such activities, even without motivation from the company. It won't be hard to identify them and support them in this.
 2. Contribution to open source projects, especially through patches. From the outside, this may sound like a complex activity — you need to find something to fix and then fix it. But in my experience, if you're actively working on a moderately complex project, you'll encounter 5–10 open-source issues of varying size every year. Most teams work around them instead of fixing them, purely because that kind of work isn't part of the standard workflow, and people worry they'll get "scolded" for getting distracted from "product-related" work.
 3. Publishing architectural-level documents. These can be formal specifications or detailed blog posts. There's always a shortage of such information in the public sphere, and it's gratefully received by the professional community. Moreover, it's an opportunity for your leads/architects to finally digest and make sense of what they do.
 4. Demos of features. Demos don't work for all products, but in some cases they are very useful. For example, in game development.
