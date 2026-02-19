@@ -28,12 +28,12 @@ By "public" in this text, I mean global public access — the availability of an
 
 We'll discuss the following topics:
 
-- what is a public artifact;
+- what a public artifact is;
 - artifact verifiability;
 - public artifacts as evidence of competence;
 - public artifacts as a criterion of qualification;
 - public artifacts as an axis of employee evaluation;
-- public artifacts as a health metric;
+- public artifacts as a health metrics;
 - difficulties of shifting development toward public artifacts;
 - how to start.
 
@@ -73,7 +73,7 @@ That's why I believe that the mentioned questions are now slightly less "fatal" 
 
 ///
 
-### Problems of Science
+### Problems in science
 
 Modern science is afflicted with many ailments (though when was it ever otherwise?). Things do not always work as they should.
 
@@ -131,7 +131,7 @@ However, in the context of this text's ideas, the difference between them is not
 
 /// note | Practice speaks in favor of global openness
 
-Let's look at the recent explosive growth of deep learning and LLM.
+Let's look at the recent explosive growth of deep learning and LLMs.
 
 At the beginning, there was a period of several years during which corporations tried to keep all developments secret. In 2021, I even wrote a post about concerns regarding [monopolization of machine learning]{post:@choose-nearest-language:monopolization-of-machine-learning}. But now the big players are trying to find a balance between opening and closing their developments. Some open more, some less, but almost everyone opens their developments.
 
@@ -147,7 +147,7 @@ Science has reached this point much earlier, IT is rapidly catching up, and even
 
 One important feature of scientific artifacts is their formal verifiability. Key artifacts, such as scientific publications, undergo a formal peer-review process designed to ensure a certain level of quality and reliability. The more prestigious the journal you want to publish your article in, the higher the requirements for the paper's quality, but the more trust it will have in the community.
 
-Currently, it is difficult to imagine a fully analogous global social mechanism in engineering. However, engineering does not require a perfect replica. It is, after all, a distinct activity with its own nuances. Where science verifies artifacts through the control of causal chains, protocols, and theory, engineering verifies them through practice, experience, and dependencies network.
+Currently, it is difficult to imagine a fully analogous global social mechanism in engineering. However, engineering does not require a perfect replica. It is, after all, a distinct activity with its own nuances. Where science verifies artifacts through the control of causal chains, protocols, and theory, engineering verifies them through practice, experience, and a network of dependencies.
 
 /// note | Possible approaches to artifact verification in engineering
 
@@ -215,7 +215,7 @@ As in science, engineers have an option to publish artifacts in high-status plac
 Without public artifacts, it is very difficult to assess the competence of a mature IT specialist within a reasonable time and resources. At best, you can weed out clearly incompetent candidates.
 
 - A resume only lets you compile a list of superficial discussion prompts.
-- Take-home tests are detached from reality and therefore meaningless—especially as LLMs (Large Language Models) mature.
+- Take-home tests are detached from reality and therefore meaningless — especially as LLMs mature.
 - Even after a few hours of conversation, you can only form a first impression of someone and screen for the biggest red flags.
 - Coding during interviews doesn't demonstrate any real on-the-job skill.
 
@@ -326,7 +326,7 @@ In turn, institutionalization paves the way for the creation of expert councils 
 
 ///
 
-## Public artifacts as a health metric
+## Public artifacts as a health metrics
 
 Since the creation of public artifacts is supposed to be a persistent activity, it can be measured in various ways, and its fluctuations can indicate changes in the "health" of the company, product, team, and individual employees. Just don't forget about [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law).
 
