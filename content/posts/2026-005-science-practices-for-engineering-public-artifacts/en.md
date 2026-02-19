@@ -95,9 +95,9 @@ Speaking of public artifacts in engineering, we can keep in mind the following n
 
 - Patches to open source projects.
 - Bug reports to open source projects.
-- Qualitative proposals of new features to open source projects.
+- Conceptual feature proposals to open source projects.
 - Code of internal libraries, tools, benchmarks, IDE extensions, etc.
-- Images of containers and virtual machines.
+- Container and virtual machine images.
 - Design of experiments and their results: from marketing to technical ones.
 - [RFC]{post:two-years-writing-rfc-statistics}, architectural proposals, other high-level specifications and standards.
 - Educational materials: guides, tutorials, FAQs, recipe books, etc.
