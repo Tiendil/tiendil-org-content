@@ -159,9 +159,9 @@ To have an anchor for discussion, I propose the following very rough and naive s
 
 **L2 — authoritative validation** — an artifact receives a positive reaction from recognized experts in the field: opinion leaders, well-known developers, etc.
 
-**L3 — practical adoption** — an artifact is used in real, notable third-party projects, or they refer to it.
+**L3 — practical adoption** — an artifact is used in real, notable third-party projects, or they reference it.
 
-**L4 — community "gate" acceptance** — an artifact goes through a formal acceptance/review process in one of the recognized communities. Examples: acceptance of a patch into the Linux kernel, publication in a peer-reviewed journal, approval of a PEP in Python, etc.
+**L4 — formal community acceptance** — an artifact goes through a formal acceptance/review process in one of the recognized communities. Examples: acceptance of a patch into the Linux kernel, publication in a peer-reviewed journal, approval of a PEP in Python, etc.
 
 The proposed approach can be developed in several directions:
 
@@ -174,7 +174,7 @@ Both approaches have the same consequences:
 
 - New artifacts are built on top of already verified ones.
 - Over time, those verified artifacts form a network of trust among their creators.
-- That trust, in turn, enables social governance mechanisms that sustain artifact quality and reliability
+- That trust, in turn, enables social governance mechanisms that sustain artifact quality and reliability.
 
 Thus, a feedback loop is formed — one that enables the field's evolution.
 
@@ -182,7 +182,7 @@ Thus, a feedback loop is formed — one that enables the field's evolution.
 
 In this context, it is worth mentioning [open source](https://en.wikipedia.org/wiki/Open-source_software) as a phenomenon whose artifacts are, in many respects, closest to those of science — including in terms of verifiability.
 
-Started as scattered initiatives to open source code, open source has evolved into a global social mechanism that generates its own social network, has formal and informal governance mechanisms, culture, and institutions.
+Started as scattered initiatives to open-source code, open source has evolved into a global social mechanism that generates its own social network, has formal and informal governance mechanisms, culture, and institutions.
 
 If you have doubts about the existence of formal regulatory mechanisms and institutions, take a look at the [patch submission process for the Linux kernel](https://docs.kernel.org/process/submitting-patches.html), the [PEP process in Python](https://www.python.org/dev/peps/), or even the [RFC system](https://www.rfc-editor.org/).
 
