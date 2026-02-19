@@ -318,9 +318,9 @@ However, there are also ways to fight cheating:
 
 ///
 
-/// note | A company as the graduating department
+/// note | A company as the training-and-graduation department
 
-Institutionalization of public artifacts as a criterion of qualification and employee effectiveness turns companies into a kind of graduation department. That approach will structure and regulate the competition for young talent. Such a change will benefit everyone: people, the industry, and specific companies.
+Institutionalization of public artifacts as a criterion of qualification and employee effectiveness turns companies into a kind of graduation department. That approach will structure and regulate the competition for young talents. Such a change will benefit everyone: people, the industry, and specific companies.
 
 In turn, institutionalization paves the way for the creation of expert councils (within companies and across them) that can evaluate a person's professional progress far more effectively than what we have today. Not perfectly, not fully objectively, but much better.
 
