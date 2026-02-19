@@ -33,7 +33,7 @@ We'll discuss the following topics:
 - public artifacts as evidence of competence;
 - public artifacts as a criterion for qualification;
 - public artifacts as an axis of employee evaluation;
-- public artifacts as a health metrics;
+- public artifacts as health metrics;
 - difficulties of shifting development toward public artifacts;
 - how to start.
 
@@ -67,7 +67,7 @@ Nowadays, we can see a cultural shift in business: people are starting to recogn
 
 New organizational forms of companies are arising, such as [Benefit Corporation](https://en.wikipedia.org/wiki/Benefit_corporation).
 
-As a recent example, [OpenAI has reorganized its commercial part into something like that](https://openai.com/our-structure/).
+As a recent example, [OpenAI has reorganized its for-profit part into something similar](https://openai.com/our-structure/).
 
 That's why I believe that the mentioned questions are now slightly less "fatal" than they would have been 10 years ago.
 
@@ -93,18 +93,18 @@ By artifact, I mean any "physically recorded" result of work. Science has formal
 
 Speaking of public artifacts in engineering, we can keep in mind the following non-exhaustive list:
 
-- Patches to open source projects.
-- Bug reports to open source projects.
-- Conceptual feature proposals to open source projects.
+- Patches to open-source projects.
+- Bug reports to open-source projects.
+- Conceptual feature proposals to open-source projects.
 - Code of internal libraries, tools, benchmarks, IDE extensions, etc.
 - Container and virtual machine images.
 - Design of experiments and their results: from marketing to technical ones.
 - [RFC]{post:two-years-writing-rfc-statistics}, architectural proposals, other high-level specifications and standards.
-- Educational materials: guides, tutorials, FAQs, recipe books, etc.
+- Educational materials: guides, tutorials, FAQs, cookbooks, etc.
 - Incident postmortems.
 - Analyses of cases and problems.
 - Conference talks.
-- Records of participation in podcasts, round tables, and other public events.
+- Recordings of participation in podcasts, roundtables, and other public events.
 - Demos of new features (for example, rendering in games), prototypes, and results of participation in hackathons.
 
 ///
@@ -155,13 +155,13 @@ To have an anchor for discussion, I propose the following very rough and naive s
 
 **L0 — no verification** — an unnoticed artifact that does not receive any reaction from the community, and is not used by anyone beyond its authors.
 
-**L1 — social validation** — an artifact gathers positive reaction from the community in the form of comments, reposts, likes, stars on GitHub, etc.
+**L1 — social validation** — an artifact receives positive reactions from the community in the form of comments, reposts, likes, stars on GitHub, etc.
 
 **L2 — authoritative validation** — an artifact receives a positive reaction from recognized experts in the field: opinion leaders, well-known developers, etc.
 
 **L3 — practical adoption** — an artifact is used in real, notable third-party projects, or they reference it.
 
-**L4 — formal community acceptance** — an artifact goes through a formal acceptance/review process in one of the recognized communities. Examples: acceptance of a patch into the Linux kernel, publication in a peer-reviewed journal, approval of a PEP in Python, etc.
+**L4 — formal community acceptance** — an artifact goes through a formal acceptance/review process in one of the recognized communities. Examples: acceptance of a patch into the Linux kernel, publication in a peer-reviewed journal, acceptance of a PEP in Python, etc.
 
 The proposed approach can be developed in several directions:
 
@@ -178,15 +178,15 @@ Both approaches have the same consequences:
 
 Thus, a feedback loop is formed — one that enables the field's evolution.
 
-/// note | Open source
+/// note | Open-source
 
-In this context, it is worth mentioning [open source](https://en.wikipedia.org/wiki/Open-source_software) as a phenomenon whose artifacts are, in many respects, closest to those of science — including in terms of verifiability.
+In this context, it is worth mentioning [open-source](https://en.wikipedia.org/wiki/Open-source_software) as a phenomenon whose artifacts are, in many respects, closest to those of science — including in terms of verifiability.
 
-Started as scattered initiatives to open-source code, open source has evolved into a global social mechanism that generates its own social network, has formal and informal governance mechanisms, culture, and institutions.
+Started as scattered initiatives to open-source code, open-source has evolved into a global social mechanism that generates its own social network, has formal and informal governance mechanisms, culture, and institutions.
 
 If you have doubts about the existence of formal regulatory mechanisms and institutions, take a look at the [patch submission process for the Linux kernel](https://docs.kernel.org/process/submitting-patches.html), the [PEP process in Python](https://www.python.org/dev/peps/), or even the [RFC system](https://www.rfc-editor.org/).
 
-All of this has emerged over the span of just 20-30 years, indicating strong evolutionary pressure toward openness in development — and its substantial long-term potential. At this point, open source is no longer merely about "opening software code"; developers are increasingly opening the designs of hardware projects as well — from electronics to [houses](https://www.wikihouse.cc/).
+All of this has emerged over the span of just 20-30 years, indicating strong evolutionary pressure toward openness in development — and its substantial long-term potential. At this point, open-source is no longer merely about "opening software code"; developers are increasingly opening the designs of hardware projects as well — from electronics to [houses](https://www.wikihouse.cc/).
 
 ///
 
@@ -212,7 +212,7 @@ Since this concept already lives inside software development and is a lower-leve
 
 As in science, engineers have an option to publish artifacts in high-status places, for example, by submitting a patch to a major open-source project, speaking at a notable conference, or drafting an "improvement proposal" in the form of an RFC, PEP, or equivalent. Even a simple blog post can accumulate enough social capital — likes, reposts, and comments — to become a substantial artifact.
 
-Without public artifacts, it is very difficult to assess the competence of a mature IT specialist within a reasonable time and resources. At best, you can filter out clearly incompetent candidates.
+Without public artifacts, it is very difficult to assess the competence of a seasoned IT specialist within a reasonable time and resources. At best, you can filter out clearly incompetent candidates.
 
 - A resume only lets you compile a list of superficial discussion prompts.
 - Take-home tests are detached from reality and therefore meaningless — especially as LLMs mature.
@@ -269,7 +269,7 @@ By adding this axis, **we reshape the evaluation space**, making it more express
 
 In my view, there's nothing sadder in IT than watching HR and management try to measure the effectiveness of individual employees. Actually, no, what's even sadder is watching them try to steer people's growth, for example, through annual goals.
 
-**First**, [the work of an engineer is hard to measure on an individual level]{post:no-instructions-for-engineering}. The only way to do it more or less objectively is through statistical expert evaluation, which is practically impossible within the closed environment of a company due to the excessive cost of such work.
+**First**, [the work of an engineer is hard to measure on an individual level]{post:no-instructions-for-engineering}. The only way to do it more or less objectively is through statistical expert evaluation, which is practically impossible within a closed organizational environment due to the excessive cost of such work.
 
 **Second**, if your company can somehow know what most employees will be working on for an entire year, or even six months (how else do you set long-term goals for them?), then you've already lost the competitive race. In today's world, it's impossible to plan simultaneously for such a long time and at such a level of detail. Either you'll dig in your heels and keep doing work that's already outdated (and your product will suffer), or your employees will miss their targets en masse (and your team will get demoralized).
 
@@ -326,7 +326,7 @@ In turn, institutionalization paves the way for the creation of expert councils 
 
 ///
 
-## Public artifacts as a health metrics
+## Public artifacts as health metrics
 
 Since the creation of public artifacts is supposed to be a persistent activity, it can be measured in various ways, and its fluctuations can indicate changes in the "health" of the company, product, team, and individual employees. Just don't forget about [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law).
 
@@ -337,7 +337,7 @@ What can be a signal:
 - Changes in artifact quality may indicate employee burnout or deterioration of development processes.
 - The distribution of artifacts across types can point to the quality of related development processes.
 - The average number of authors per artifact can correlate with the level of collaboration and communication inside the company.
-- The strength of external response (likes, reposts, comments, forks, etc.) to artifacts can indicate how closely your development processes match best practices, and how good the company's reputation is in the professional community.
+- The strength of external response (likes, reposts, comments, forks, etc.) to artifacts can indicate how closely your development processes match best practices, and how strong the company's reputation is in the professional community.
 
 Here are some examples:
 
@@ -412,7 +412,7 @@ Implementing a reform this broad will look very different from company to compan
 Here are some artifacts you can start with, from simple to complex:
 
 1. Recordings of talks at meetups and conferences. There are always active people who are happy to participate in such activities, even without motivation from the company. It won't be hard to identify them and support them in this.
-2. Contribution to open source projects, especially through patches. From the outside, this may sound like a complex activity — you need to find something to fix and then fix it. But in my experience, if you're actively working on a moderately complex project, you'll encounter 5–10 open-source issues of varying size every year. Most teams work around them instead of fixing them, purely because that kind of work isn't part of the standard workflow, and people worry they'll get "scolded" for getting distracted from "product-related" work.
-3. Publishing architectural-level documents. These can be formal specifications or detailed blog posts. There's always a shortage of such information in the public sphere, and it's gratefully received by the professional community. Moreover, it's an opportunity for your leads/architects to finally digest and make sense of what they do.
+2. Contribution to open-source projects, especially through patches. From the outside, this may sound like a complex activity — you need to find something to fix and then fix it. But in my experience, if you're actively working on a moderately complex project, you'll encounter 5–10 open-source issues of varying size every year. Most teams work around them instead of fixing them, purely because that kind of work isn't part of the standard workflow, and people worry they'll get "scolded" for getting distracted from "product-related" work.
+3. Publishing architecture-level documents. These can be formal specifications or detailed blog posts. There's always a shortage of such information in the public sphere, and it's gratefully received by the professional community. Moreover, it's an opportunity for your leads/architects to finally digest and make sense of what they do.
 4. Demos of features. Demos don't work for all products, but in some cases they are very useful. For example, in game development.
-5. Open-sourcing internal developments: libraries, utilities. The difficulty with this is not the danger of revealing "secrets", which usually don't exist, but that few people know how to quickly "package" open source projects and maintain them. This is a separate skill that needs to be developed.
+5. Open-sourcing internal developments: libraries, utilities. The difficulty with this is not the danger of revealing "secrets", which usually don't exist, but that few people know how to quickly "package" open-source projects and maintain them. This is a separate skill that needs to be developed.
