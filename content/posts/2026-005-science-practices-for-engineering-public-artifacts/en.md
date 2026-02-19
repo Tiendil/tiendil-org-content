@@ -249,7 +249,7 @@ Imagine that, when hiring a Senior developer (and anyone with a lower qualificat
 
 In my opinion, this would significantly reduce the complexity of hiring for both employers and job seekers.
 
-On top of that, it would let people develop their careers more deliberately and make it easier to relate their own level of qualification to those of other specialists. As it is now, reaching Senior-level happens completely randomly, and seniors from two companies can differ like night and day.
+On top of that, it would let people develop their careers more deliberately and make it easier to relate their own level of qualification to those of other specialists. As it is now, reaching Senior-level happens completely randomly, and Seniors from two companies can differ like night and day.
 
 Of course, the evaluation of highly qualified specialists is more complicated. In science, it mainly occurs through the evaluation of their most recent published papers and the assessment of their citation count. In IT, it doesn't happen at all: we interview a person and send them on a probation period in the hope that we didn't make a mistake. Therefore, even for top specialists, the possibility of assessing their qualifications through public artifacts would be extremely useful.
 
@@ -392,7 +392,7 @@ Of course, there are contraindications to such a reform. If your employees aren'
 
 In my view, this is the hardest problem and the biggest challenge.
 
-If you get an average mid-level or even senior-level developer and ask them to write a post about the project architecture, they'll write some utterly awful nonsense; at best, you'll get a toothless, useless text. This is especially true in the post-Soviet space, where education doesn't systematically teach people to express their own thoughts. In the West, the situation is better, but judging by public platforms, not by an order of magnitude.
+If you get an average mid-level or even Senior-level developer and ask them to write a post about the project architecture, they'll write some utterly awful nonsense; at best, you'll get a toothless, useless text. This is especially true in the post-Soviet space, where education doesn't systematically teach people to express their own thoughts. In the West, the situation is better, but judging by public platforms, not by an order of magnitude.
 
 Similar considerations apply to other forms of artifacts as well.
 
