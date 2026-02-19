@@ -69,7 +69,7 @@ New organizational forms of companies are arising, such as [Benefit Corporation]
 
 As a recent example, [OpenAI has reorganized its commercial part into something like that](https://openai.com/our-structure/).
 
-That's why I believe that the mentioned questions are now slightly less "deadly" than they would have been 10 years ago.
+That's why I believe that the mentioned questions are now slightly less "fatal" than they would have been 10 years ago.
 
 ///
 
