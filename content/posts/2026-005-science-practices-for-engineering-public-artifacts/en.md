@@ -24,7 +24,7 @@ Here and throughout this essay, by engineering I mean engineering in IT / softwa
 
 This essay is the first of several planned about practices. It focuses on the practice of creating public artifacts (such as scientific papers), the strength this practice gives science, and the potential gains engineering could make by adopting a similar model.
 
-By publicity in this text, I mean global publicity — the availability of an artifact to everyone who might be interested in it.
+By "public" or "open" in this text, I mean global openness — the availability of an artifact to everyone who might be interested in it.
 
 We'll discuss the following topics:
 
@@ -109,27 +109,27 @@ Speaking of public artifacts in engineering, we can keep in mind the following n
 
 ///
 
-Not the entire science is built on publicity. Corporations, the military, and perhaps intelligence agencies keep some developments classified. But:
+Not the entire science is built on openness. Corporations, the military, and perhaps intelligence agencies keep some developments classified. But:
 
 - This is a smaller share of scientific activity.
 - Over time, all key works become public or replicated in public form.
 
-### Two types of publicity
+### Two types of openness
 
-It would be more сorrect to consider two types of publicity:
+It would be more сorrect to consider two types of openness:
 
-1. Internal publicity — opening artifacts within the company, between teams, departments, etc.
-2. Global publicity — opening artifacts to the whole world — to everyone who might be interested in them.
+1. Internal openness — opening artifacts within the company, between teams, departments, etc.
+2. Global openness — opening artifacts to the whole world — to everyone who might be interested in them.
 
-This essay is written with a focus on global publicity, as this helps keep the text shorter and is more interesting to me.
+This essay is written with a focus on global openness, as this helps keep the text shorter and is more interesting to me.
 
 However, in the context of this text's ideas, the difference between them is not so significant:
 
-- For small companies, internal publicity is absent as a phenomenon — there are too few people in the company's community.
-- For large companies, internal publicity can be conceptually close to global, as the difference between community sizes is like "many people" and "very many people".
+- For small companies, internal openness is absent as a phenomenon — there are too few people in the company's community.
+- For large companies, internal openness can be conceptually close to global, as the difference between community sizes is like "many people" and "very many people".
 - Significant differences in effects may only manifest in medium-sized companies.
 
-/// note | Practice speaks in favor of global publicity
+/// note | Practice speaks in favor of global openness
 
 Let's look at the recent explosive growth of Deep Learning and LLM.
 
@@ -192,7 +192,7 @@ All of this has emerged over the span of just 20-30 years, indicating strong evo
 
 ## Public artifacts as evidence of competence
 
-Because of their publicity and verifiability, artifacts become ideal evidence of their creator's competence.
+Because of their openness and verifiability, artifacts become ideal evidence of their creator's competence.
 
 In science, publishing in a peer-reviewed journal is not just a way to share results — it's a record in the distributed knowledge base of the fact of a scientist's competence. If you want to assess a scientist's professionalism, understand how to interpret their statements — look at the dynamics and topics of their publications.
 
