@@ -194,7 +194,7 @@ All of this has emerged over the span of just 20-30 years, indicating strong evo
 
 Because of their openness and verifiability, artifacts become ideal evidence of their creator's competence.
 
-In science, publishing in a peer-reviewed journal is not just a way to share results — it's a record in the distributed knowledge base of the fact of a scientist's competence. If you want to assess a scientist's professionalism, understand how to interpret their statements — look at the dynamics and topics of their publications.
+In science, publishing in a peer-reviewed journal is not just a way to share results — it's a record in a distributed knowledge base of the fact of a scientist's competence. If you want to assess a scientist's professionalism, understand how to interpret their statements — look at the dynamics and topics of their publications.
 
 In IT, the situation is more complicated, as the [assembly-line mindset]{post:no-instructions-for-engineering} does not encourage people to share the results of their work. However, this does not mean that openness does not work — many developers create public artifacts, and some are even lucky enough to do it during work hours.
 
