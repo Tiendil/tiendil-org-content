@@ -3,7 +3,7 @@ title = "Scientific practices for engineering — public artifacts"
 tags = [ "theory", "development", "open-source", "interesting", "best", "management", "vantage-on-management", "science"]
 series = "vantage-on-management"
 published_at = "2026-02-18T12:00:00+00:00"
-seo_description = "Public artifacts — such as peer-reviewed papers — are among science's most powerful achievements. In this essay, we'll look at how they can be adapted for engineering."
+seo_description = "Public artifacts (peer-reviewed papers, open code) power science. This essay shows how engineering can adapt the same public-artifact model."
 seo_image = ""
 ---
 
