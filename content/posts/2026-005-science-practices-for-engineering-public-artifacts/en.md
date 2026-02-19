@@ -402,17 +402,17 @@ So you have to gradually teach employees the missing skills and persuase them, b
 
 ## How to start
 
-Внедрение такой комплексной реформы будет очень специфичным для каждой компании. Но если бы меня прямо сейчас спросили с чего начать внедрение публичных артефактов, я бы посоветовал:
+Implementing a such broad reform will look very different from company to company. But if you asked me right now where to start with introducing public artifacts, I'd suggest:
 
-1. Определить перечень типов артефактов, которые устраивают вашу компанию.
-2. Выбрать группу людей, согласных переключить своё годовое ревью на оценку публичных артефактов и начать с них.
-3. После первого ревью провести ретроспективу: изучить созданные артефакты, их влияние на компанию, впечатления создателей артефактов и их коллег.
-4. На основе ретроспективы расширять и корректировать практику.
+1. Deside on the list of artifact forms that suit your company.
+2. Choose a group of people who are willing to switch their annual review to the evaluation of public artifacts and start with them.
+3. After the first review, conduct a retrospective: study the created artifacts, their impact on the company, the experience of the artifact creators and their colleagues.
+4. Based on the retrospective, expand and adjust the practice.
 
-С каких типов артефактов может быть удобно начать, от простого к сложному:
+Here are some artifact you can start with, from simple to complex:
 
-1. Записи выступлений на митапах и конференциях — всегда есть активные люди, которые с удовольствием в этом участвуют, даже без мотивации со стороны компании. Не составит большого труда определить их и поддержать их в этом.
-2. Патчи в open source проекты. Со стороны это может звучать сложным занятием — надо ещё найти что исправлять. Но по моему опыту, в процессе активной работы над более-менее сложным проектом в год вы будете находить 5-10 проблем разного масштаба в open source. Их обычно обходят, а не исправляют, сугубо из-за того, что эта активность не вписана в рабочий процесс и люди боятся, что их «наругают» за отвлечение от работы над продуктом.
-3. Публикация документов архитектурного уровня. Это могут быть как формальные спецификации, так и детальные посты в блоге. В публичном поле всегда не хватает подобной информации и она с благодатью воспринимается профессиональным сообществом. Кроме того, это повод для ваших лидов/архитекторов наконец-то переварить и осознать чего же они такое делают.
-4. Демо фич. Демки работают не для всех продуктов, но в некоторых случаях очень полезны. Например, в разработке игр.
-5. Открытие внутренних наработок: библиотек, утилит. Сложность с этим не в опасности раскрыть «секреты», которых обычно нет, а в том, что мало людей умеют быстро оформлять open source проекты и поддерживать их. Это отдельный навык, который нужно развивать.
+1. Records of talks at meetups and conferences. There are always active people who are happy to participate in such activities, even without motivation from the company. It won't be hard to identify them and support them in this.
+2. Contribution to open source projects, especially through patches. From the outside, this may sound like a complex activity — you need to find something to fix and then fix it. But in my experience, if you're actively working on a moderately complex project, you'll encounter 5–10 open-source issues of varying size every year. Most teams work around them instead of fixing them, purely because that kind of work isn't part of the standard workflow and people worry they'll get "scolded" for getting distracted from "product-related" work.
+3. Publishing architectural-level documents. These can be formal specifications or detailed blog posts. There's always a shortage of such information in the public field, and it's gratefully received by the professional community. Moreover, it's an opportunity for your leads/architects to finally digest and make sense of what they do.
+4. Demos of features. Demos don't work for all products, but in some cases they are very useful. For example, in game development.
+5. Opening up internal developments: libraries, utilities. The difficulty with this is not the danger of revealing "secrets", which usually don't exist, but that few people know how to quickly "package" open source projects and maintain them. This is a separate skill that needs to be developed.
