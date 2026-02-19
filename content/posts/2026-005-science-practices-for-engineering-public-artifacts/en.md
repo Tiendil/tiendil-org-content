@@ -31,7 +31,7 @@ We'll discuss the following topics:
 - what a public artifact is;
 - artifact verifiability;
 - public artifacts as evidence of competence;
-- public artifacts as a criterion of qualification;
+- public artifacts as a criterion for qualification;
 - public artifacts as an axis of employee evaluation;
 - public artifacts as a health metrics;
 - difficulties of shifting development toward public artifacts;
@@ -225,11 +225,11 @@ Public artifacts partially solve both problems through community verification. F
 
 The problem is that businesses, to put it mildly, don't encourage spending work time on producing public artifacts. As a result, only a small fraction of developers have a portfolio. As a result, businesses are forced to spend money on expensive hiring processes and on fixing the mistakes those processes inevitably make.
 
-My highly biased take: **the worldwide overpayment on hiring outweighs potential losses from allocating a share of work time to producing public artifacts.**
+My highly biased take: **the worldwide overspending on hiring outweighs potential losses from allocating a share of work time to producing public artifacts.**
 
 Sadly, this opinion sounds more or less confident in the case of global change (when everyone simultaneously changes the policy), but looks much weaker when a single company wants to make the change. If we discard all other bonuses (which we will discuss below), from the point of view of a "single company in a vacuum", such a policy change would look like charity, which is definitely not a business priority.
 
-## Public artifacts as a criterion of qualification
+## Public artifacts as a criterion for qualification
 
 The start of a scientist's career is fairly similar to that of a software engineer's career.
 
@@ -320,7 +320,7 @@ However, there are also ways to fight cheating:
 
 /// note | A company as the training-and-graduation department
 
-Institutionalization of public artifacts as a criterion of qualification and employee effectiveness turns companies into a kind of graduation department. That approach will structure and regulate the competition for young talents. Such a change will benefit everyone: people, the industry, and specific companies.
+Institutionalization of public artifacts as a criterion for qualification and employee effectiveness turns companies into a kind of graduation department. That approach will structure and regulate the competition for young talents. Such a change will benefit everyone: people, the industry, and specific companies.
 
 In turn, institutionalization paves the way for the creation of expert councils (within companies and across them) that can evaluate a person's professional progress far more effectively than what we have today. Not perfectly, not fully objectively, but much better.
 
