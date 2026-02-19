@@ -20,9 +20,9 @@ In the [previous essay]{post:engineering-is-science-is-engineering}, we discusse
 
 Let's talk about those practices. Since I'm interested in the engineering side of things, we'll discuss practices that engineering can borrow from science.
 
-Here and throughout this essay, by engineering I mean engineering in IT / software development. I'm confident that the ideas discussed here apply to engineering as a whole, but that field is vast and extraordinarily diverse. The blog format ~~and my innate modesty~~ does not permit me to make such ambitious claims.
+Here and throughout this essay, by engineering I mean engineering in IT / software development. I'm confident that the ideas discussed here apply to engineering as a whole, but that field is vast and extraordinarily diverse. The blog format ~~and my innate modesty~~ do not permit me to make such ambitious claims.
 
-This essay is the first of several planned about practices. It focuses on the practice of creating public artifacts (such as scientific papers), the strength this practice gives to science, and the potential gains engineering might aquire by moving to a similar model.
+This essay is the first of several planned about practices. It focuses on the practice of creating public artifacts (such as scientific papers), the strength this practice gives science, and the potential gains engineering could make by adopting a similar model.
 
 By publicity in this text, I mean global publicity — the availability of an artifact to everyone who might be interested in it.
 
@@ -45,9 +45,9 @@ This text is not a recommendation, but an invitation to discussion. It is full o
 
 ### Level of abstraction
 
-I consider the practices under discussion to be complex. Each of them involves not only an inherent "technical" complexity, but also the complexity of the cultural shift that was required for practice formation and adoption in science — behind each practice lies a long historical path.
+I consider the practices under discussion to be complex. Each of them involves not only inherent "technical" complexity but also the complexity of the cultural shift required for practice formation and adoption in science — behind each practice lies a long historical path.
 
-My primary interest right now is to develop a vision of the development culture I want to move towards. Therefore, I will focus on an idealized description of practices, emphasizing their value and potential.
+My primary interest right now is developing a vision for the development culture I want to move towards. Therefore, I will focus on an idealized description of practices, emphasizing their value and potential.
 
 I'll skip such questions as:
 
@@ -57,13 +57,13 @@ I'll skip such questions as:
 - Privacy and security issues that may arise when adopting these practices.
 - etc.
 
-I do it with the full awareness that implementing each specific practice will require to exame and resolve these questions. But it's much easier to examine and resolve them in the context of a specific company and specific people, than "in general".
+I do it with the full awareness that implementing each specific practice will require examining and resolving these questions. But it's much easier to examine and resolve them in the context of a specific company and specific people than "in general".
 
 In other words, we will discuss "ideal practices in a vacuum", not "specific practices in a specific company".
 
 /// note | A shift in business priorities
 
-Nowadays, we can see a cultural shift in business: people are starting to recognize that alongside profit generation, companies may, can and should bring public good.
+Nowadays, we can see a cultural shift in business: people are starting to recognize that, alongside profit generation, companies may, can, and should bring public good.
 
 New organizational forms of companies are arising, such as [Benefit Corporation](https://en.wikipedia.org/wiki/Benefit_corporation).
 
@@ -79,7 +79,7 @@ Modern science is afflicted with many ailments (though when was it ever otherwis
 
 In my view, this is not evidence of the failure of scientific practices, but rather evidence that science continues to develop. And, of course, it is a reflection of human nature.
 
-### Some of mentioned practices are already in use
+### Some of the mentioned practices are already in use
 
 Some of the mentioned practices are already adopted in some form in certain areas of engineering. I will not dwell on digressions like "yes, this exists in some places, but…". It is safe to assume that if I mention an existing practice, I mean that it should be used more widely, more often, and more consistently.
 
@@ -87,7 +87,7 @@ Some of the mentioned practices are already adopted in some form in certain area
 
 In my view, the practice of creating public artifacts is one of the greatest achievements of science — one that has, to a large extent, made our civilization what it is today.
 
-By artifact, I mean any "physically recorded" result of work. Science has formalized some types of such artifacts: journal publications, open datasets, posters and conference presentations, and so on. However, artifact can also be: a blog post, open-source code, a YouTube video, a formally filed bug report, an [RFC]{post:two-years-writing-rfc-statistics}, documentation, and many other things.
+By artifact, I mean any "physically recorded" result of work. Science has formalized some types of such artifacts: journal publications, open datasets, posters, conference presentations, and so on. However, an artifact can also be: a blog post, open-source code, a YouTube video, a formally filed bug report, an [RFC]{post:two-years-writing-rfc-statistics}, documentation, and many other things.
 
 /// note | Forms of public artifacts in engineering
 
@@ -104,8 +104,8 @@ Speaking of public artifacts in engineering, we can keep in mind the following n
 - Incident analyses.
 - Analyses of cases and problems.
 - Conference talks.
-- Records of participation in podcasts, round tables and other public events.
-- Demos of new features (for example, rendering in games), prototypes, results of participation in hackathons.
+- Records of participation in podcasts, round tables, and other public events.
+- Demos of new features (for example, rendering in games), prototypes, and results of participation in hackathons.
 
 ///
 
@@ -121,7 +121,7 @@ It would be more сorrect to consider two types of publicity:
 1. Internal publicity — opening artifacts within the company, between teams, departments, etc.
 2. Global publicity — opening artifacts to the whole world — to everyone who might be interested in them.
 
-This essay is built with a focus on global publicity, as keeping the focus allows to shorten an already long text, and global publicity is more interesting to me.
+This essay is written with a focus on global publicity, as this helps keep the text shorter and is more interesting to me.
 
 However, in the context of this text's ideas, the difference between them is not so significant:
 
@@ -133,7 +133,7 @@ However, in the context of this text's ideas, the difference between them is not
 
 Let's look at the recent explosive growth of Deep Learning and LLM.
 
-At the beginning, there was a period of several years when corporations were trying to keep all developments secret. In 2021, I even wrote a post about concerns regarding [monopolization of machine learning]{post:@choose-nearest-language:monopolization-of-machine-learning}. But now the big players are trying to find a balance between opening and closing their developments. Some open more, some less, but almost everyone opens their developments.
+At the beginning, there was a period of several years during which corporations tried to keep all developments secret. In 2021, I even wrote a post about concerns regarding [monopolization of machine learning]{post:@choose-nearest-language:monopolization-of-machine-learning}. But now the big players are trying to find a balance between opening and closing their developments. Some open more, some less, but almost everyone opens their developments.
 
 This is not a one-time case, not the whim of a couple of people — this is the consequence of evolutionary pressure towards open development.
 
@@ -145,7 +145,7 @@ Science has reached this point much earlier, IT is rapidly catching up, and even
 
 ## Artifact Verifiability
 
-One important feature of scientific artifacts is their formal verifiability. Key artifacts such as scientific publications go through a formal peer-review process, which is designed to ensure a certain level of quality and reliability. The more prestigious the journal you want to publish your article in, the higher the requirements for the paper's quality, but the more trust it will have in the community.
+One important feature of scientific artifacts is their formal verifiability. Key artifacts, such as scientific publications, undergo a formal peer-review process designed to ensure a certain level of quality and reliability. The more prestigious the journal you want to publish your article in, the higher the requirements for the paper's quality, but the more trust it will have in the community.
 
 Currently, it is difficult to imagine a fully analogous global social mechanism in engineering. However, engineering does not require a perfect replica. It is, after all, a distinct activity with its own nuances. Where science verifies artifacts through the control of causal chains, protocols, and theory, engineering verifies them through practice, experience, and control of dependencies.
 
@@ -176,41 +176,41 @@ Both approaches have the same consequences:
 - A network of verified artifacts gives rise to a network of trust among their creators.
 - The network of trust generates social regulation mechanisms that sustain the quality and reliability of artifacts.
 
-Thus, a feedback loop is formed — one that enables the evolution of the field.
+Thus, a feedback loop is formed — one that enables the field's evolution.
 
 /// note | Open source
 
 In this context, it is worth mentioning [open source](https://en.wikipedia.org/wiki/Open-source_software) as a phenomenon whose artifacts are, in many respects, closest to those of science — including in terms of verifiability.
 
-Started as scattered initiatives to open up source code, open source has evolved into a global social mechanism that generates its own social network, has formal and informal governance mechanisms, culture, and institutions.
+Started as scattered initiatives to open source code, open source has evolved into a global social mechanism that generates its own social network, has formal and informal governance mechanisms, culture, and institutions.
 
 If you have doubts about the existence of formal regulatory mechanisms and institutions, take a look at the [patch submission process for the Linux kernel](https://docs.kernel.org/process/submitting-patches.html), the [PEP process in Python](https://www.python.org/dev/peps/), or even the [RFC system](https://www.rfc-editor.org/).
 
-All of this has emerged over the span of just 20-30 years, which indicates strong evolutionary pressure toward openness in development — and it's substantial long-term potential. At this point, open source is no longer merely about "opening software code", developers are increasingly opening the designs of hardware projects as well — from electronics to [houses](https://www.wikihouse.cc/).
+All of this has emerged over the span of just 20-30 years, indicating strong evolutionary pressure toward openness in development — and its substantial long-term potential. At this point, open source is no longer merely about "opening software code"; developers are increasingly opening the designs of hardware projects as well — from electronics to [houses](https://www.wikihouse.cc/).
 
 ///
 
 ## Public artifacts as evidence of competence
 
-Because of their publicity and verifiability, artifacts become ideal evidence of the competence of their creators.
+Because of their publicity and verifiability, artifacts become ideal evidence of their creator's competence.
 
-In science, publishing in a peer-reviewed journal is not just a way to share results, it's a record in the distributed knowledge base of the fact of a scientist's competence. If you want to assess a scientist's professionalism, understand how to interpret their statements — look at the dynamics and topics of their publications.
+In science, publishing in a peer-reviewed journal is not just a way to share results — it's a record in the distributed knowledge base of the fact of a scientist's competence. If you want to assess a scientist's professionalism, understand how to interpret their statements — look at the dynamics and topics of their publications.
 
-In IT, the situation is more complicated, as the [factory floors culture]{post:no-instructions-for-engineering} does not encourage people to open the results of their work. However, this does not mean that openness does not work — many developers create public artifacts, some are even lucky enough to do it during work hours.
+In IT, the situation is more complicated, as the [factory floors culture]{post:no-instructions-for-engineering} does not encourage people to share the results of their work. However, this does not mean that openness does not work — many developers create public artifacts, and some are even lucky enough to do it during work hours.
 
-For example, it's perfectly possible to judge my competence by my blog and my [GitHub](https://github.com/Tiendil). Some people I know started contributing to open-source projects back in university, and since then have built their public portfolio of artifacts that way. Overall, there are plenty of developers with public artifacts, and their number keeps growing, despite the frankly uncomfortable conditions for creating them.
+For example, it's perfectly possible to judge my competence based on my blog and [GitHub](https://github.com/Tiendil). Some people I know started contributing to open-source projects back in university and, since then, have built their public portfolio of artifacts that way. Overall, there are plenty of developers with public artifacts, and their number keeps growing, despite the frankly uncomfortable conditions for creating them.
 
 /// note | Artifacts as evidence of work done
 
-Artifacts evedence not only about competence, but also about the very fact of work being done.
+Artifacts provide evidence not only of competence but also of the very fact that work is being done.
 
-"An artifact as evidence of work done" is a fundamental element of organizing, planning, and controlling work. IT has problems with adapting this concept as well, although it is steadily spreading from team to team. In particular, I keep arguing from time to time that all work should be organized around producing artifacts.
+"An artifact as evidence of work done" is a fundamental element of organizing, planning, and controlling work. IT has problems with adapting this concept as well, although it is steadily spreading from team to team. In particular, I keep arguing that all work should be organized around producing artifacts.
 
-Since this concept is already lives inside software developement and is a more low-level, I won't dwell on it.
+Since this concept already lives inside software development and is a lower-level thing, I won't dwell on it.
 
 ///
 
-As in science, engineers have the option to publish artifacts in high-status places, for example, by submitting a patch to a major open-source project, speaking at a notable conference, or drafting an "improvement proposal" in the form of an RFC, a PEP, or their analogous. Even a simple blog post can accumulate enough social capital — likes, reposts, and comments — to become a substantial artifact.
+As in science, engineers have an option to publish artifacts in high-status places, for example, by submitting a patch to a major open-source project, speaking at a notable conference, or drafting an "improvement proposal" in the form of an RFC, PEP, or equivalent. Even a simple blog post can accumulate enough social capital — likes, reposts, and comments — to become a substantial artifact.
 
 Without public artifacts, it is very difficult to assess the competence of a mature IT specialist within a reasonable time and resources. At best, you can weed out clearly incompetent candidates.
 
@@ -219,11 +219,11 @@ Without public artifacts, it is very difficult to assess the competence of a mat
 - Even after a few hours of conversation, you can only form a first impression of someone and screen for the biggest red flags.
 - Coding during interviews doesn't demonstrate any real on-the-job skill.
 
-On top of that, it's hard to control the quality of work of top specialists — their work cannot be validated. If we exaggerate a bit, if you're the only tech lead on the backend, your word is an unbreakable law — no one in the company has the competence to check whether you're bringing value and how much of it you're bringing.
+On top of that, it's hard to control the quality of top specialists' work — it cannot be validated. If we exaggerate a bit, if you're the only tech lead on the backend, your word is an unbreakable law — no one in the company has the competence to check whether you're bringing value and how much.
 
-Public artifacts help to partially solve both of these problems through community verification. For example, if your patch to the Linux kernel is accepted, then you probably understand something about Linux.
+Public artifacts partially solve both problems through community verification. For example, if your patch to the Linux kernel is accepted, then you probably understand something about Linux.
 
-The problem is that businesses, to put it mildly, don't encourage spending work time on producing public artifacts. As a result, only a small fraction of developers have a portfolio. And as a result, businesses are forced to spend money on expensive hiring processes, and on fixing the mistakes those processes inevitably make.
+The problem is that businesses, to put it mildly, don't encourage spending work time on producing public artifacts. As a result, only a small fraction of developers have a portfolio. As a result, businesses are forced to spend money on expensive hiring processes and on fixing the mistakes those processes inevitably make.
 
 My highly biased take: **the worldwide overpayment on hiring outweighs potential losses from allocating a share of work time to producing public artifacts.**
 
@@ -231,7 +231,7 @@ Sadly, this opinion sounds more or less confident in the case of global change (
 
 ## Public artifacts as a criterion of qualification
 
-The start of a scientist's career is fairly similar to the start of a software engineer's career.
+The start of a scientist's career is fairly similar to that of a software engineer's career.
 
 Here is a very rough analogy between scientific degrees and IT qualifications in terms of the level of independence:
 
@@ -241,25 +241,25 @@ Bachelor of Science (BSc)  | Junior, sometimes Mid-level
 Master of Science (MSc)    | Mid-level, sometimes Senior
 Doctor of Philosophy (PhD) | Senior, sometimes Staff
 
-In science, the transition to each next level of qualification requires a creation of a fairly standard set of public artifacts that undergo formal verification in the community.
+In science, the transition to each subsequent level of qualification requires the creation of a fairly standard set of public artifacts that undergo formal verification within the community.
 
-Yes, the requirements vary from country to country and from university to university, but overall they are quite similar. Having artifacts and context in which they were created (specific university/lab) we may with a high degree of confidence give an assessment of a scientist's qualification.
+Yes, the requirements vary from country to country and from university to university, but overall they are quite similar. Having artifacts and the context in which they were created (specific university/lab), we may, with a high degree of confidence, assess a scientist's qualifications.
 
-Imagine that when hiring a Senior developer (and any lower qualification) you see not only the page of their resume with confusing statements about unverifiable achievements, but traces of their real work. Moreover, you automatically see their professional focus and level of competence in those areas.
+Imagine that, when hiring a Senior developer (and anyone with a lower qualification), you see not only the page of their resume with confusing statements about unverifiable achievements, but also traces of their real work. Moreover, you automatically see their professional focus and level of competence in those areas.
 
 In my opinion, this would significantly reduce the complexity of hiring for both employers and job seekers.
 
-On top of that, it would let people develop their careers more deliberately, and make it easier to relate their own level of qualification to that of other specialists. As it is now, reaching Senior-level happens completely randomly, and seniors from two companies can differ from each other like night and day.
+On top of that, it would let people develop their careers more deliberately and make it easier to relate their own level of qualification to those of other specialists. As it is now, reaching Senior-level happens completely randomly, and seniors from two companies can differ like night and day.
 
-Of caurse, the evaluation of highly qualified specialists is more complicated. In science, it mainly happens through the evaluation of their latest published papers, as well as through the assessment of their citation count. In IT, it doesn't happen at all: we interview a person and send them on a probation period in the hope that we didn't make a mistake. Therefore, even for top specialists, the possibility of assessing their qualifications through public artifacts would be extremely useful.
+Of course, the evaluation of highly qualified specialists is more complicated. In science, it mainly occurs through the evaluation of their most recent published papers and the assessment of their citation count. In IT, it doesn't happen at all: we interview a person and send them on a probation period in the hope that we didn't make a mistake. Therefore, even for top specialists, the possibility of assessing their qualifications through public artifacts would be extremely useful.
 
 ## Public artifacts as an axis of employee evaluation
 
 /// note | Making KPIs more objective
 
-We all remember, that [as soon as a metric becomes a target, it ceases to be a good metric](https://en.wikipedia.org/wiki/Goodhart%27s_law).
+We all remember that [as soon as a metric becomes a target, it ceases to be a good metric](https://en.wikipedia.org/wiki/Goodhart%27s_law).
 
-So I'm not, under any circumstances, arguing that public artifacts should be used as a rigid, single criterion for evaluating employees. People's work should be assessed through a comprehensive set of parameters—without turning any one of them into an absolute, and with safeguards against gaming the system.
+So I'm not, under any circumstances, arguing that public artifacts should be used as a rigid, single criterion for evaluating employees. People's work should be assessed through a comprehensive set of parameters — without turning any one of them into an absolute — and with safeguards against gaming the system.
 
 **Public artifacts should be treated as just one more equal axis along which employees can be evaluated.**
 
@@ -267,7 +267,7 @@ By adding this axis, **we reshape the evaluation space**, making it more express
 
 ///
 
-In my view, there's nothing sadder in IT than watching HR and management try to measure the effectiveness of individual employees. Actually, no, what's even sadder is watching them try to steer people's growth, for example through annual goals.
+In my view, there's nothing sadder in IT than watching HR and management try to measure the effectiveness of individual employees. Actually, no, what's even sadder is watching them try to steer people's growth, for example, through annual goals.
 
 **First**, [the work of an engineer is hard to measure on an individual level]{post:no-instructions-for-engineering}. The only way to do it more or less objectively is through statistical expert evaluation, which is practically impossible within the closed environment of a company due to the excessive cost of such work.
 
@@ -275,13 +275,13 @@ In my view, there's nothing sadder in IT than watching HR and management try to 
 
 Few things demotivate an engineer more than meaningless annual goals and irrelevant evaluation of their work.
 
-Public artefacts allow us to partially solve both of these problems and even more.
+Public artefacts help us partially solve both of these problems and even more.
 
-We move traditional goals to the team level, because it is the team, as a statistically significant unit, that can be objectively (more or less) evaluated and managed. After all, from the product's point of view, it doesn't matter who does what and who is responsible for what, it's important that it gets done. The specific distribution of work among employees should be the result of the team's self-regulation, not of the external influence.
+We move traditional goals to the team level because it is the team, as a statistically significant unit, that can be objectively (more or less) evaluated and managed. After all, from the product's point of view, it doesn't matter who does what and who is responsible for what — it's important that it gets done. The specific distribution of work among employees should come from the team's self-regulation, not from external influence.
 
-We make creation of public artifacts the personal goals of an employee and the indicators of their competence/progress. Since an artifact always has a specific author and a public artifact is more often a derivative of the product rather than its core, we give the employee control over their professional growth and position in the company, taking it away from the team, product, and universe.
+We make the creation of public artifacts the personal goals of employees and indicators of their competence/progress. Since an artifact always has a specific author and a public artifact is more often a derivative of the product rather than its core, we give employees control over their professional growth and position in the company, taking it away from the team, the product, and the universe.
 
-Such a split comes with a number of advantages.
+Such a split offers several advantages.
 
 **First**, you switch the evaluation of an employee from a statistically unreliable assessment of their work by a couple of people, to a more reliable assessment by colleagues (public work is visible to the whole company, not just the team; people react to it much more actively) and by the professional community.
 
@@ -294,7 +294,7 @@ At the same time, the original evaluation process, handled by a closed group of 
 
 **Third**, you get flexible and resilient KPIs that easily adapt to changes in your strategy.
 
-If an employee, to demonstrate their qualification, describes the architecture of your product, then no matter how its development turns out, they will still be able to describe it, only the topics of posts or their focus will shift. If you decide to open an internal utility, then you can easily release it regardless (almost) of the direction its development takes.
+If an employee, to demonstrate their qualification, describes the architecture of your product, then no matter how its development turns out, they will still be able to describe it; only the topics of posts or their focus will shift. If you decide to open an internal utility, then you can easily release it regardless (almost) of the direction its development takes.
 
 **Fourth**, public artifacts are usually extremely specific (even atomic), have clear boundaries, and therefore a clear scope of work. This makes them understandable to all participants of the process, which in turn makes it easier to embed work on them into the primary workflow. Unlike personal goals for a project, which, in my experience, are generally not embeddable at all.
 
@@ -310,25 +310,25 @@ There are many ways to cheat:
 - Farming social proof by creating pretty-but-meaningless or hype-driven artifacts.
 - Grinding out artifact count while sacrificing their quality.
 
-Howevere, there are also ways to fight cheating:
+However, there are also ways to fight cheating:
 
-- Focus on the quality indicators rather than quantity. For example, on the diversity of artifact types, rather than artifacts quantity.
+- Focus on the quality indicators rather than quantity. For example, on the diversity of artifact types, rather than the quantity.
 - Track the production value of artifacts. An artifact should be the result of work on the product or be used in the process of working on the product.
-- Evaluate the level of artifact reuse. For example, how often an utility is used, how often an architectural document is referenced.
+- Evaluate the level of artifact reuse. For example, how often a utility is used, how often an architectural document is referenced.
 
 ///
 
 /// note | A company as the graduating department
 
-Institualization of public artifacts as a criterion of qualification and employee effectiveness turns companies into a kind of graduating departments. That structures and regulates the competition for young talents. Such a change will benefit everyone: people, the industry, and specific companies.
+Institutionalization of public artifacts as a criterion of qualification and employee effectiveness turns companies into a kind of graduation department. That approach will structure and regulate the competition for young talent. Such a change will benefit everyone: people, the industry, and specific companies.
 
 In turn, institutionalization paves the way for the creation of expert councils (within companies and across them) that can evaluate a person's professional progress far more effectively than what we have today. Not perfectly, not fully objectively, but much better.
 
 ///
 
-## Public artifacts as a health metrics
+## Public artifacts as a health metric
 
-Since the creation of public artifacts is supposed to be a persistent activity, this activity can be measured in various ways and its fluctuations can be used as a signal of changes in the "health" of the company, product, team, and individual employees. Just don't forget about [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law).
+Since the creation of public artifacts is supposed to be a persistent activity, it can be measured in various ways, and its fluctuations can indicate changes in the "health" of the company, product, team, and individual employees. Just don't forget about [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law).
 
 What can be a signal:
 
@@ -341,7 +341,7 @@ What can be a signal:
 
 Here are some examples:
 
-- The team've started producing significantly fewer artifacts — maybe people are overloaded with work.
+- The team has started producing significantly fewer artifacts — maybe people are overloaded with work.
 - A spike in the number of patches to open-source projects can suggest the product is hitting architectural constraints, forcing you to push third-party libraries to their limits.
 - The response to demos of new features may indicate whether the chosen direction of product development is correct.
 - Frequent participation in podcasts and roundtables may indicate that the product and the company are becoming more visible in the professional community.
@@ -357,21 +357,21 @@ There are several difficulties.
 
 ### It is scary
 
-Most people don't understand where the real value of a given product actually lies and, at the same time, are afraid to take responsibility for accidentally revealing secret secrets (which usually don't exist).
+Most people don't understand where the real value of a given product actually lies and, at the same time, are afraid to take responsibility for accidentally revealing secrets (which usually don't exist).
 
-In my experience, most of a product's code and the knowledge around it even remotely isn't some kind of secret advantage, know-how, or anything like that — it's just stuff that millions of people repeat from product to product, from company to company. And the remaining code and knowledge is, with high probablity, not an advantage either. This is especially true if we only count artifacts that are "invisible" to users.
+In my experience, most of a product's code and the knowledge around it, even remotely, isn't some kind of secret advantage, know-how, or anything like that — it's just stuff that millions of people repeat from product to product, from company to company. And the remaining code and knowledge are, with high probability, not an advantage either. This is especially true if we only count artifacts that are "invisible" to users.
 
-Over my career, I can recall only a couple of cases that, with a lot of stretching, could be called "secret" technology or "hidden" knowledge that provided a real competitive advantage.
+Over my career, I can recall only a couple of cases in which, with a lot of stretching, something could be called "secret" technology or "hidden" knowledge that provided a real competitive advantage.
 
-However, such an advantage consistently were specific people, teams, and infrastructure as a whole. After all, a product is not code and other artifacts, but a 4D system that includes not only code, but also its specific running instances, development and support infrastructure, processes, culture, and of course people.
+However, such an advantage is consistently attributable to specific people, teams, and the infrastructure as a whole. After all, a product is not code and other artifacts, but a 4D system that includes not only code, but also its specific running instances, development and support infrastructure, processes, culture, and, of course, people.
 
 A product has a time dimension, for which people are responsible, and these people are the real competitive advantage.
 
-Simplifying, on an example of game development:
+Simplifying, on the example of game development:
 
-- Value is not in secret balance formulas that drive monetization, but in the people who keep the metrics collection and analizis pipeline alive, and use that pipeline to steer evolution of those formulas.
+- Value is not in secret balance formulas that drive monetization, but in the people who keep the metrics collection and analysis pipeline alive, and use that pipeline to steer the evolution of those formulas.
 - Value is not in particular shaders, but in the people who maintain the coherence of the game's visual style and guide its development, which, among other things, results in new shaders.
-- Value is not in specific backend sharding algorithms, but in the people who keep the infrastructure running and evolving continuously, which manifests, among other things, as ongoing work on a sharding.
+- Value is not in specific backend sharding algorithms, but in the people who keep the infrastructure running and evolving continuously, which manifests, among other things, as ongoing work on sharding.
 
 **Since opening up artifacts benefits employees, promoting it makes the company stronger.**
 
@@ -386,33 +386,33 @@ Opening up artifacts is an investment in:
 - **Company reputation and hiring** — all else equal, reputation is what determines job choice for many specialists, especially top-tier ones.
 - **Infrastructure, its reliability and security**. For example, a patch to an open-source project you use will definitely return to you.
 
-Of course, there are contraindications to such a reform. If your employees aren't motivated to develop themselves and their careers; or, worse, your strategy is built around churn and squeezing people dry, then opening up artifacts is not your path.
+Of course, there are contraindications to such a reform. If your employees aren't motivated to develop themselves and their careers, or, worse, your strategy is built around churn and squeezing people dry, then opening up artifacts is not your path.
 
 ### It is unclear
 
 In my view, this is the hardest problem and the biggest challenge.
 
-If you get an average mid-level or even senior-level developer and ask them to write a post about the project architecture, they'll write some utterly awful nonsense; at best, you'll get a toothless, useless text. This is especially true in the post-Soviet space, where education doesn't systematically teach people to express their own thoughts. In the West the situation is better, but judging by public platforms, not by an order of magnitude.
+If you get an average mid-level or even senior-level developer and ask them to write a post about the project architecture, they'll write some utterly awful nonsense; at best, you'll get a toothless, useless text. This is especially true in the post-Soviet space, where education doesn't systematically teach people to express their own thoughts. In the West, the situation is better, but judging by public platforms, not by an order of magnitude.
 
 Similar considerations apply to other forms of artifacts as well.
 
-So, if you take a random company and postulate "Starting today, we work through open artifacts", people will get lost and start doing pointless things. As a bonus, you'll get a quiet resistance, because people will not understand why this is needed — uprehand long chains of cause and effect is  significantly harder to grasp than short ones.
+So, if you take a random company and postulate "Starting today, we work through open artifacts", people will get lost and start doing pointless things. As a bonus, you'll get quite a resistance, because people will not understand why this is needed — a long chain of cause and effect is significantly harder to grasp than a short one.
 
-So you have to gradually teach employees the missing skills and persuase them, best of all by personal example. For that, you need knowledgeable leaders and free resources, both usually aren't available.
+So you have to gradually teach employees the missing skills and persuade them, best of all, by personal example. For that, you need knowledgeable leaders and free resources — both are usually unavailable.
 
 ## How to start
 
-Implementing a such broad reform will look very different from company to company. But if you asked me right now where to start with introducing public artifacts, I'd suggest:
+Implementing such broad reform will look very different from company to company. But if you asked me right now where to start with introducing public artifacts, I'd suggest:
 
-1. Deside on the list of artifact forms that suit your company.
+1. Decide on the list of artifact forms that suit your company.
 2. Choose a group of people who are willing to switch their annual review to the evaluation of public artifacts and start with them.
 3. After the first review, conduct a retrospective: study the created artifacts, their impact on the company, the experience of the artifact creators and their colleagues.
 4. Based on the retrospective, expand and adjust the practice.
 
-Here are some artifact you can start with, from simple to complex:
+Here are some artifacts you can start with, from simple to complex:
 
 1. Records of talks at meetups and conferences. There are always active people who are happy to participate in such activities, even without motivation from the company. It won't be hard to identify them and support them in this.
-2. Contribution to open source projects, especially through patches. From the outside, this may sound like a complex activity — you need to find something to fix and then fix it. But in my experience, if you're actively working on a moderately complex project, you'll encounter 5–10 open-source issues of varying size every year. Most teams work around them instead of fixing them, purely because that kind of work isn't part of the standard workflow and people worry they'll get "scolded" for getting distracted from "product-related" work.
+2. Contribution to open source projects, especially through patches. From the outside, this may sound like a complex activity — you need to find something to fix and then fix it. But in my experience, if you're actively working on a moderately complex project, you'll encounter 5–10 open-source issues of varying size every year. Most teams work around them instead of fixing them, purely because that kind of work isn't part of the standard workflow, and people worry they'll get "scolded" for getting distracted from "product-related" work.
 3. Publishing architectural-level documents. These can be formal specifications or detailed blog posts. There's always a shortage of such information in the public field, and it's gratefully received by the professional community. Moreover, it's an opportunity for your leads/architects to finally digest and make sense of what they do.
 4. Demos of features. Demos don't work for all products, but in some cases they are very useful. For example, in game development.
 5. Opening up internal developments: libraries, utilities. The difficulty with this is not the danger of revealing "secrets", which usually don't exist, but that few people know how to quickly "package" open source projects and maintain them. This is a separate skill that needs to be developed.
