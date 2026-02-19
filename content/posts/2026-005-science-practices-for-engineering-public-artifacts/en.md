@@ -373,7 +373,7 @@ Simplifying, on the example of game development:
 - Value is not in particular shaders, but in the people who maintain the coherence of the game's visual style and guide its development, which, among other things, results in new shaders.
 - Value is not in specific backend sharding algorithms, but in the people who keep the infrastructure running and evolving continuously, which manifests, among other things, as ongoing work on sharding.
 
-**Since opening up artifacts benefits employees, promoting it makes the company stronger.**
+**Since opening up artifacts benefits employees, encouraging it makes the company stronger.**
 
 ### It is expensive
 
@@ -392,7 +392,7 @@ Of course, there are contraindications to such a reform. If your employees aren'
 
 In my view, this is the hardest problem and the biggest challenge.
 
-If you get an average mid-level or even Senior-level developer and ask them to write a post about the project architecture, they'll write some utterly awful nonsense; at best, you'll get a toothless, useless text. This is especially true in the post-Soviet space, where education doesn't systematically teach people to express their own thoughts. In the West, the situation is better, but judging by public platforms, not by an order of magnitude.
+If you get an average mid-level or even Senior-level developer and ask them to write a post about the project architecture, they'll write some utterly awful nonsense; at best, you'll get a toothless, useless text. This is especially true in the post-Soviet space, where education doesn't systematically teach people to express their own thoughts. In the West, the situation is better, but, judging by public platforms, not by an order of magnitude.
 
 Similar considerations apply to other forms of artifacts as well.
 
