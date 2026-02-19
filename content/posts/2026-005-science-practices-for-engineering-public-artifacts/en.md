@@ -114,22 +114,22 @@ Not all science is built on openness. Corporations, the military, and perhaps in
 - This is a smaller share of scientific activity.
 - Over time, all key works become public or replicated in public form.
 
-### Two types of openness
+### Two scopes of publication
 
-It would be more correct to consider two types of openness:
+It would be more correct to consider two types of publication:
 
-1. Internal openness — publishing artifacts within the company, between teams, departments, etc.
-2. Global openness — publishing artifacts to the whole world — to everyone who might be interested in them.
+1. Internal publication — publishing artifacts within the company, between teams, departments, etc.
+2. External/global publication — publishing artifacts to the whole world — to everyone who might be interested in them.
 
-This essay is written with a focus on global openness, as this helps keep the text shorter and is more interesting to me.
+This essay is written with a focus on global publication, as this helps keep the text shorter and is more interesting to me.
 
 However, in the context of this text's ideas, the difference between them is not so significant:
 
-- For small companies, internal openness is absent as a phenomenon — there are too few people in the company's community.
-- For large companies, internal openness can be conceptually close to global, as the difference between community sizes is like "many people" and "very many people".
+- For small companies, internal publication is absent as a phenomenon — there are too few people in the company's community.
+- For large companies, internal publication can be conceptually close to global, as the difference between community sizes is like "many people" and "very many people".
 - Significant differences in effects may only manifest in medium-sized companies.
 
-/// note | Practice speaks in favor of global openness
+/// note | Practice speaks in favor of global publication
 
 Let's look at the recent explosive growth of deep learning and LLMs.
 
@@ -182,7 +182,7 @@ Thus, a feedback loop is formed — one that enables the field's evolution.
 
 In this context, it is worth mentioning [open-source](https://en.wikipedia.org/wiki/Open-source_software) as a phenomenon whose artifacts are, in many respects, closest to those of science — including in terms of verifiability.
 
-Started as scattered initiatives to open-source code, open-source has evolved into a global social mechanism that generates its own social network, has formal and informal governance mechanisms, culture, and institutions.
+Started as scattered initiatives to open-source code, open-source ecosystem has evolved into a global social mechanism that generates its own social network, has formal and informal governance mechanisms, culture, and institutions.
 
 If you have doubts about the existence of formal regulatory mechanisms and institutions, take a look at the [patch submission process for the Linux kernel](https://docs.kernel.org/process/submitting-patches.html), the [PEP process in Python](https://www.python.org/dev/peps/), or even the [RFC system](https://www.rfc-editor.org/).
 
