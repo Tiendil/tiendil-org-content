@@ -143,7 +143,7 @@ Science has reached this point much earlier, IT is rapidly catching up, and even
 
 ///
 
-## Artifact Verifiability
+## Artifact verifiability
 
 One important feature of scientific artifacts is their formal verifiability. Key artifacts, such as scientific publications, undergo a formal peer-review process designed to ensure a certain level of quality and reliability. The more prestigious the journal you want to publish your article in, the higher the requirements for the paper's quality, but the more trust it will have in the community.
 
@@ -151,7 +151,7 @@ Currently, it is difficult to imagine a fully analogous global social mechanism 
 
 /// note | Possible approaches to artifact verification in engineering
 
-To have an anchor for discussion, I propose the following very rough and naive scale of artifact verification levels.
+To have an anchor for discussion, I propose the following very rough and naive scale of artifact verification levels, with verification being understood in a broad sense.
 
 **L0 — no verification** — an unnoticed artifact that does not receive any reaction from the community, and is not used by anyone beyond its authors.
 
