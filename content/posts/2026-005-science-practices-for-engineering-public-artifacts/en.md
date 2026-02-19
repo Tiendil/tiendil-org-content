@@ -57,7 +57,7 @@ I'll skip such questions as:
 - Privacy and security issues that may arise when adopting these practices.
 - etc.
 
-I do it with the full awareness that implementing each specific practice will require examining and resolving these questions. But it's much easier to examine and resolve them in the context of a specific company and specific people than "in general".
+I'm doing this fully aware that implementing each specific practice will require examining and resolving these questions. But it's much easier to examine and resolve them in the context of a specific company and specific people than "in general".
 
 In other words, we will discuss "ideal practices in a vacuum", not "specific practices in a specific company".
 
@@ -109,14 +109,14 @@ Speaking of public artifacts in engineering, we can keep in mind the following n
 
 ///
 
-Not the entire science is built on openness. Corporations, the military, and perhaps intelligence agencies keep some developments classified. But:
+Not all science is built on openness. Corporations, the military, and perhaps intelligence agencies keep some developments classified. But:
 
 - This is a smaller share of scientific activity.
 - Over time, all key works become public or replicated in public form.
 
 ### Two types of openness
 
-It would be more сorrect to consider two types of openness:
+It would be more correct to consider two types of openness:
 
 1. Internal openness — opening artifacts within the company, between teams, departments, etc.
 2. Global openness — opening artifacts to the whole world — to everyone who might be interested in them.
@@ -131,7 +131,7 @@ However, in the context of this text's ideas, the difference between them is not
 
 /// note | Practice speaks in favor of global openness
 
-Let's look at the recent explosive growth of Deep Learning and LLM.
+Let's look at the recent explosive growth of deep learning and LLM.
 
 At the beginning, there was a period of several years during which corporations tried to keep all developments secret. In 2021, I even wrote a post about concerns regarding [monopolization of machine learning]{post:@choose-nearest-language:monopolization-of-machine-learning}. But now the big players are trying to find a balance between opening and closing their developments. Some open more, some less, but almost everyone opens their developments.
 
@@ -172,9 +172,9 @@ The proposed approach can be developed in several directions:
 
 Both approaches have the same consequences:
 
-- New artifacts are built on top of already existing verified artifacts.
-- A network of verified artifacts gives rise to a network of trust among their creators.
-- The network of trust generates social regulation mechanisms that sustain the quality and reliability of artifacts.
+- New artifacts are built on top of already verified ones.
+- Over time, those verified artifacts form a network of trust among their creators.
+- That trust, in turn, enables social governance mechanisms that sustain artifact quality and reliability
 
 Thus, a feedback loop is formed — one that enables the field's evolution.
 
