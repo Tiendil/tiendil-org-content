@@ -22,7 +22,7 @@ Let's talk about those practices. Since I'm interested in the engineering side o
 
 Here and throughout this essay, by engineering I mean software engineering (IT). I'm confident that the ideas discussed here apply to engineering as a whole, but that field is vast and extraordinarily diverse. The blog format ~~and my innate modesty~~ doesn't really allow me to make such ambitious claims.
 
-This essay is the first of several planned texts about practices. It focuses on the practice of creating publicly accessible artifacts (such as scientific papers), the strength this practice gives science, and the potential gains engineering could make by adopting a similar model.
+This essay is the first of several planned texts about practices. It focuses on the practice of creating publicly accessible artifacts (such as scientific papers and open-source software), the strength this practice gives science, and the potential gains engineering could make by adopting a similar model.
 
 By "public" in this text, I mean global access — the artifact is world-readable to anyone who might be interested. This does not necessarily imply an open license (e.g., open-source), however, open-sourcing is often a natural choice for public artifacts, it is simplifying things a lot.
 
@@ -114,22 +114,22 @@ Not all science is built on openness. Corporations, the military, and perhaps in
 - This is a smaller share of scientific activity.
 - Over time, all key works become public or replicated in public form.
 
-### Two scopes of publication
+### Two scopes of visibility of public artifacts
 
-It would be more correct to consider two types of publication:
+It would be more correct to consider two types of visibility of public artifacts:
 
-1. Internal publication — publishing artifacts within the company, between teams, departments, etc.
-2. External/global publication — publishing artifacts to the whole world — to everyone who might be interested in them.
+1. Internal visiblity — publishing artifacts within the company, between teams, departments, etc.
+2. External or global visiblity  — publishing artifacts to the whole world — to everyone who might be interested in them.
 
-This essay is written with a focus on global publication, as this helps keep the text shorter and is more interesting to me.
+This essay is written with a focus on global visiblity, as this helps keep the text shorter and is more interesting to me.
 
 However, in the context of this text's ideas, the difference between them is not so significant:
 
-- For small companies, internal publication is absent as a phenomenon — there are too few people in the company's community.
-- For large companies, internal publication can be conceptually close to global, as the difference between community sizes is like "many people" and "very many people".
+- For small companies, internal publishing is absent as a phenomenon — there are too few people in the company's community.
+- For large companies, internal publishing can be conceptually close to global, as the difference between community sizes is like "many people" and "very many people".
 - Significant differences in effects may only manifest in medium-sized companies.
 
-/// note | Practice speaks in favor of global publication
+/// note | Practice speaks in favor of global visiblity / publishing / openness
 
 Let's look at the recent explosive growth of deep learning and LLMs.
 
