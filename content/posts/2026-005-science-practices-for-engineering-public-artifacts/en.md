@@ -275,7 +275,7 @@ In my view, there's nothing sadder in IT than watching HR and management try to 
 
 Few things demotivate an engineer more than meaningless annual goals and irrelevant evaluation of their work.
 
-Public artefacts help us partially solve both of these problems and even more.
+Public artifacts help us partially solve both of these problems and even more.
 
 We move traditional goals to the team level because it is the team, as a statistically significant unit, that can be objectively (more or less) evaluated and managed. After all, from the product's point of view, it doesn't matter who does what and who is responsible for what — it's important that it gets done. The specific distribution of work among employees should come from the team's self-regulation, not from external influence.
 
@@ -402,7 +402,7 @@ So you have to gradually teach employees the missing skills and persuade them, b
 
 ## How to start
 
-Implementing such broad reform will look very different from company to company. But if you asked me right now where to start with introducing public artifacts, I'd suggest:
+Implementing a reform this broad will look very different from company to company. But if you asked me right now where to start with introducing public artifacts, I'd suggest:
 
 1. Decide on the list of artifact forms that suit your company.
 2. Choose a group of people who are willing to switch their annual review to the evaluation of public artifacts and start with them.
@@ -413,6 +413,6 @@ Here are some artifacts you can start with, from simple to complex:
 
 1. Records of talks at meetups and conferences. There are always active people who are happy to participate in such activities, even without motivation from the company. It won't be hard to identify them and support them in this.
 2. Contribution to open source projects, especially through patches. From the outside, this may sound like a complex activity — you need to find something to fix and then fix it. But in my experience, if you're actively working on a moderately complex project, you'll encounter 5–10 open-source issues of varying size every year. Most teams work around them instead of fixing them, purely because that kind of work isn't part of the standard workflow, and people worry they'll get "scolded" for getting distracted from "product-related" work.
-3. Publishing architectural-level documents. These can be formal specifications or detailed blog posts. There's always a shortage of such information in the public field, and it's gratefully received by the professional community. Moreover, it's an opportunity for your leads/architects to finally digest and make sense of what they do.
+3. Publishing architectural-level documents. These can be formal specifications or detailed blog posts. There's always a shortage of such information in the public sphere, and it's gratefully received by the professional community. Moreover, it's an opportunity for your leads/architects to finally digest and make sense of what they do.
 4. Demos of features. Demos don't work for all products, but in some cases they are very useful. For example, in game development.
-5. Opening up internal developments: libraries, utilities. The difficulty with this is not the danger of revealing "secrets", which usually don't exist, but that few people know how to quickly "package" open source projects and maintain them. This is a separate skill that needs to be developed.
+5. Open-soursing internal developments: libraries, utilities. The difficulty with this is not the danger of revealing "secrets", which usually don't exist, but that few people know how to quickly "package" open source projects and maintain them. This is a separate skill that needs to be developed.
