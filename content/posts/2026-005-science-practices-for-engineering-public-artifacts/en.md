@@ -22,7 +22,7 @@ Let's talk about those practices. Since I'm interested in the engineering side o
 
 Here and throughout this essay, by engineering I mean engineering in IT / software development. I'm confident that the ideas discussed here apply to engineering as a whole, but that field is vast and extraordinarily diverse. The blog format ~~and my innate modesty~~ do not permit me to make such ambitious claims.
 
-This essay is the first of several planned about practices. It focuses on the practice of creating public artifacts (such as scientific papers), the strength this practice gives science, and the potential gains engineering could make by adopting a similar model.
+This essay is the first of several planned about practices. It focuses on the practice of creating publicly accessible artifacts (such as scientific papers), the strength this practice gives science, and the potential gains engineering could make by adopting a similar model.
 
 By "public" or "open" in this text, I mean global openness — the availability of an artifact to everyone who might be interested in it.
 
