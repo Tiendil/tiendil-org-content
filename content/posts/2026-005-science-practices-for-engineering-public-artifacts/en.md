@@ -24,7 +24,7 @@ Here and throughout this essay, by engineering I mean software engineering (IT).
 
 This essay is the first of several planned texts about practices. It focuses on the practice of creating publicly accessible artifacts (such as scientific papers and open-source software), the strength this practice gives science, and the potential gains engineering could make by adopting a similar model.
 
-By "public" in this text, I mean global access — the artifact is world-readable to anyone who might be interested. This does not necessarily imply an open license (e.g., open-source), however, open-sourcing is often a natural choice for public artifacts, it is simplifying things a lot.
+By "public" in this text, I mean global access — the artifact is world-readable to anyone who might be interested. This does not necessarily imply an open license (e.g., open-source licensing), however, open-sourcing is often a natural choice for public artifacts, it is simplifying things a lot.
 
 We'll discuss the following topics:
 
@@ -186,7 +186,7 @@ Started as scattered initiatives to open-source code, open-source ecosystem has 
 
 If you have doubts about the existence of formal regulatory mechanisms and institutions, take a look at the [patch submission process for the Linux kernel](https://docs.kernel.org/process/submitting-patches.html), the [PEP process in Python](https://www.python.org/dev/peps/), or even the [RFC system](https://www.rfc-editor.org/).
 
-All of this has emerged over the span of just 20-30 years, indicating strong evolutionary pressure toward openness in development — and its substantial long-term potential. At this point, open-source is no longer merely about "opening software code"; developers are increasingly opening the designs of hardware projects as well — from electronics to [houses](https://www.wikihouse.cc/).
+All of this has emerged over the span of just 20-30 years, indicating strong evolutionary pressure toward openness in development — and its substantial long-term potential. At this point, open source is no longer merely about "opening software code"; developers are increasingly opening the designs of hardware projects as well — from electronics to [houses](https://www.wikihouse.cc/).
 
 ///
 
