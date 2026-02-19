@@ -212,7 +212,7 @@ Since this concept already lives inside software development and is a lower-leve
 
 As in science, engineers have an option to publish artifacts in high-status places, for example, by submitting a patch to a major open-source project, speaking at a notable conference, or drafting an "improvement proposal" in the form of an RFC, PEP, or equivalent. Even a simple blog post can accumulate enough social capital — likes, reposts, and comments — to become a substantial artifact.
 
-Without public artifacts, it is very difficult to assess the competence of a mature IT specialist within a reasonable time and resources. At best, you can weed out clearly incompetent candidates.
+Without public artifacts, it is very difficult to assess the competence of a mature IT specialist within a reasonable time and resources. At best, you can filter out clearly incompetent candidates.
 
 - A resume only lets you compile a list of superficial discussion prompts.
 - Take-home tests are detached from reality and therefore meaningless — especially as LLMs mature.
