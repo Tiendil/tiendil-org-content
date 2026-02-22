@@ -1,6 +1,6 @@
 ---
 title = "Мигрируем с GPT-3.5-turbo на GPT-4o-mini"
-tags = ["practice", "development", "neural-networks", "feeds-fun", "prompt-engineering"]
+tags = ["practice", "development", "neural-networks", "feeds-fun", "prompt-engineering", "large-language-models"]
 published_at = "2024-07-22T12:00:00+00:00"
 seo_description = "Заметки о том как я переводил feeds.fun с GPT-3.5-turbo на GPT-4o-mini."
 seo_image = "./cover.jpg"

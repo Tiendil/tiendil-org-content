@@ -1,6 +1,6 @@
 ---
 title = "LLM агенты всё ещё не подходят для реальных задач"
-tags = [ "practice", "development", "backend", "neural-networks", "scientific-papers"]
+tags = [ "practice", "development", "backend", "neural-networks", "scientific-papers", "large-language-models"]
 published_at = "2025-11-08T12:00:00+00:00"
 seo_description = "В очередной раз попробовал LLM агенты на реальных рутинных задачах программирования, в очередной раз не помогли."
 seo_image = "./cover.jpg"

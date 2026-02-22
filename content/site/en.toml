@@ -124,6 +124,7 @@ scientific-papers = "scientific papers"
 management = "management"
 vantage-on-management = "vantage on management"
 science = "science"
+large-language-models = "large language models"
 
 [theme_translations]
 tags_filter_header = 'Found essays:'

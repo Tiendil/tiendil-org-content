@@ -1,6 +1,6 @@
 ---
 title = "Генеративная база знаний"
-tags = ["theory", "neural-networks", "ai-notes-2024", "interesting"]
+tags = ["theory", "neural-networks", "ai-notes-2024", "interesting", "large-language-models"]
 series = "ai-notes-2024"
 published_at = "2024-11-13T17:00:00+00:00"
 seo_description = "Мои заметки об актуальном состоянии ИИ в конце 2024. Эта часть о базовой технологии ИИ — генеративной базе знаний."

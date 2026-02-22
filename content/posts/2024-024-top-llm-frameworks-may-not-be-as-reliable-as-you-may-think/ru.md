@@ -1,6 +1,6 @@
 ---
 title = "Топовые LLM фреймворки могут быть не так надёжны, как вы думаете"
-tags = ["practice", "development", "open-source", "python", "neural-networks", "backend"]
+tags = ["practice", "development", "open-source", "python", "neural-networks", "backend", "large-language-models"]
 published_at = "2024-09-19T12:00:00+00:00"
 seo_description = "Качество кода топовых LLM фреймворков может быть хуже, чем вы ожидаете от ммм... топовых фреймворков."
 seo_image = ""

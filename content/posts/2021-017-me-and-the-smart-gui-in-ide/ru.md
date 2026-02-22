@@ -11,7 +11,9 @@ src = "images/me-and-the-smart-gui-in-ide-cover.jpg"
 caption = "[Машина Голдберга](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%B0_%D0%93%D0%BE%D0%BB%D0%B4%D0%B1%D0%B5%D1%80%D0%B3%D0%B0)"
 ///
 
-**Updated**: Этот пост написан до появления Copilot. Моё [мнение о Copilot]{post:few-words-about-github-copilot} в отдельном посте.
+/// warning | **Обновлено**
+Этот пост написан до появления Copilot. Моё [мнение о Copilot]{post:few-words-about-github-copilot} в отдельном посте.
+///
 
 В комментарии к [модной типизации в Python]{post:trendy-typing-in-python} мне обоснованно указали, что я не рассмотрел использование типов для помощи IDE. В частности, для автодополнения и подсказок.
 

@@ -1,6 +1,6 @@
 ---
 title = "Экспромпт о влиянии ИИ на профессиональную среду"
-tags = [ "practice", "theory", "futurology", "development", "society", "thinking", "reflection", "education", "neural-networks"]
+tags = [ "practice", "theory", "futurology", "development", "society", "thinking", "reflection", "education", "neural-networks", "large-language-models"]
 published_at = "2026-01-12T12:00:00+00:00"
 seo_description = "Моё личное видение влияния ИИ на профессиональную среду и специалистов."
 seo_image = ""

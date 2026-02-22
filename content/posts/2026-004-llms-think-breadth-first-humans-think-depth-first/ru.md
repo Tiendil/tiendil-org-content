@@ -1,6 +1,6 @@
 ---
 title = "LLM мыслят вширь, люди мыслят вглубь"
-tags = ["theory", "development", "thinking", "neural-networks"]
+tags = ["theory", "development", "thinking", "neural-networks", "large-language-models"]
 published_at = "2026-02-11T12:00:00+00:00"
 seo_description = "Почему LLM мыслят вширь, а люди мыслят вглубь и какие проблемы это создаёт при работе с LLM."
 seo_image = "./cover.jpg"
