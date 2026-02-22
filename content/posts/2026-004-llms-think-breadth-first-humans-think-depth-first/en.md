@@ -1,6 +1,6 @@
 ---
 title = "LLMs think breadth-first, humans think depth-first"
-tags = ["theory", "development", "thinking", "neural-networks"]
+tags = ["theory", "development", "thinking", "neural-networks", "large-language-models"]
 published_at = "2026-02-11T12:00:00+00:00"
 seo_description = "Why LLMs think breadth-first, humans think depth-first, and what problems this creates when working with LLMs."
 seo_image = "./cover.jpg"

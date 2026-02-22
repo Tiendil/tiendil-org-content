@@ -1,6 +1,6 @@
 ---
 title = "The current state"
-tags = ["practice", "neural-networks", "ai-notes-2024", "futurology", "business", "economics"]
+tags = ["practice", "neural-networks", "ai-notes-2024", "futurology", "business", "economics", "large-language-models"]
 series = "ai-notes-2024"
 published_at = "2024-11-23T17:00:00+00:00"
 seo_description = "My notes on the current state of AI at the end of 2024, this part is about the current state of the industry."

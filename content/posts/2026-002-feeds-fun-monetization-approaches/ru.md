@@ -1,6 +1,6 @@
 ---
 title = "Ценообразование на старте монетизации Feeds Fun"
-tags = [ "theory", "practice", "monetization", "neural-networks", "business", "feeds-fun", "interesting", "best"]
+tags = [ "theory", "practice", "monetization", "neural-networks", "business", "feeds-fun", "interesting", "best", "large-language-models"]
 published_at = "2026-01-20T12:00:00+00:00"
 seo_description = "Исследуем модель ценообразования Feeds Fun — SaaS читалки новостей с тегами на основе LLM."
 seo_image = "./cover.jpg"

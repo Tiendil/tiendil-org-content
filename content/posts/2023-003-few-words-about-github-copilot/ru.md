@@ -1,6 +1,6 @@
 ---
 title = "Пара слов о GitHub Сopilot"
-tags = [ "neural-networks", "practice", "development", "reflection", "futurology", "exocortex",]
+tags = [ "neural-networks", "practice", "development", "reflection", "futurology", "exocortex", "large-language-models"]
 published_at = "2023-03-12T12:00:00+00:00"
 seo_description = "Впечатления от GitHub Сopilot."
 seo_image = "images/few-words-about-github-copilot-cover.jpg"

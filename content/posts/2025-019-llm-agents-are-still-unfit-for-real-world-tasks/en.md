@@ -1,6 +1,6 @@
 ---
 title = "LLM agents are still unfit for real-world tasks"
-tags = [ "practice", "development", "backend", "neural-networks", "scientific-papers"]
+tags = [ "practice", "development", "backend", "neural-networks", "scientific-papers", "large-language-models"]
 published_at = "2025-11-08T12:00:00+00:00"
 seo_description = "Once again, I tried LLM agents on real, routine programming tasks — once again, they didn't help."
 seo_image = "./cover.jpg"

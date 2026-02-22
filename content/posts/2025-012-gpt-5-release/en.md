@@ -1,6 +1,6 @@
 ---
 title = "Summary of GPT-5 presentation without marketing pixie dust"
-tags = [ "practice", "theory", "futurology", "neural-networks"]
+tags = [ "practice", "theory", "futurology", "neural-networks", "large-language-models"]
 published_at = "2025-08-08T12:00:00+00:00"
 seo_description = "Summary of GPT-5 presentation without marketing pixie dust — progress is slowing down."
 seo_image = "./lie-1.jpg"

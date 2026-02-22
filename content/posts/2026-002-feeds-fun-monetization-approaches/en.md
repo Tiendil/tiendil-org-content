@@ -1,6 +1,6 @@
 ---
 title = "Pricing model at the start of Feeds Fun monetization"
-tags = [ "theory", "practice", "monetization", "neural-networks", "business", "feeds-fun", "interesting", "best"]
+tags = [ "theory", "practice", "monetization", "neural-networks", "business", "feeds-fun", "interesting", "best", "large-language-models"]
 published_at = "2026-01-24T12:00:00+00:00"
 seo_description = "Exploring the pricing model of Feeds Fun — a SaaS news reader with tags based on LLM."
 seo_image = "./cover.jpg"
