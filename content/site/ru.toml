@@ -2,6 +2,10 @@ title = "Эмерджентный Блог"
 subtitle = "Эссе о разработке игр, мышлении и книгах"
 author = "Елецкий Алексей (Tiendil)"
 
+footer_extra = [
+  "<a href='/ru/posts/impressum' target='_blank' rel='nofollow'>Impressum</a>",
+]
+
 [[menu]]
   type = "article"
   name = "Обо мне"

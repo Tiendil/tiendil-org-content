@@ -2,6 +2,10 @@ title = "Emergent Blog"
 subtitle = "Essays about game development, thinking and books"
 author = "Aliaksei Yaletski (Tiendil)"
 
+footer_extra = [
+  "<a href='/en/posts/impressum' target='_blank' rel='nofollow'>Impressum</a>",
+]
+
 [[menu]]
   type = "article"
   name = "About"
