@@ -1,6 +1,6 @@
 ---
 title = "Очередная битва творцов и продавцов"
-tags = ["theory", "development", "thinking", "neural-networks", "large-language-models"]
+tags = ["theory", "practice", "gamedev", "game-design", "monetization", "business"]
 published_at = "2026-02-24T12:00:00+00:00"
 seo_description = "Моё мнение на тему синергии между творческой и коммерческой составляющими геймдева."
 seo_image = ""
