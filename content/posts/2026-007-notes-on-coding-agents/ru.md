@@ -1,6 +1,6 @@
 ---
 title = "Заметки о coding agents"
-tags = []
+tags = ["theory", "practice", "development", "neural-networks", "reflection", "exocortex", "tests", "interesting", "best", "large-language-models", "ai-agents", "coding-agents"]
 published_at = "2026-03-21T12:00:00+00:00"
 seo_description = ""
 seo_image = ""
@@ -516,3 +516,5 @@ LLM не придерживаются уровня детализации/кач
 
 - отсутствие элемента обучения, когда используешь новые технологии
 - дыры в нахождении/определении контекста
+- https://pablo.rauzy.name/dev/naur1985programming.pdf
+- https://pi.dev/

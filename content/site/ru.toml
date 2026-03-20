@@ -132,6 +132,8 @@ management = "управление"
 vantage-on-management = "взгляд на управление"
 science = "наука"
 large-language-models = "большие языковые модели"
+ai-agents = "ИИ-агенты"
+coding-agents = "кодирующие агенты"
 
 # TODO: Maybe we need tag "engineering" in pair to "science" tag?
 # But it will intersect significantly with "development" tag.
