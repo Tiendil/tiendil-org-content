@@ -2,15 +2,14 @@
 title = "Заметки о coding agents"
 tags = ["theory", "practice", "development", "neural-networks", "reflection", "exocortex", "tests", "interesting", "best", "large-language-models", "ai-agents", "coding-agents"]
 published_at = "2026-03-21T12:00:00+00:00"
-seo_description = ""
-seo_image = ""
+seo_description = "Заметки об использовании ИИ агентов для разработки ПО: плюсы, минусы, проблемы, инсайты и практические советы."
+seo_image = "./cover.jpg"
 ---
 
-<!-- TODO: tags -->
-<!-- TODO: add tag coding-agents? -->
-<!-- TODO: seo_description -->
-<!-- TODO: seo_image -->
-<!-- TODO: cover image -->
+/// brigid-images
+src = "./cover.jpg"
+caption = "Агенты чегой-то кодят (с) ChatGPT"
+///
 
 [Подводя итоги прошлого года]{post:results-of-2025-for-me-and-the-blog} я говорил, что агенты станут главной темой 2026. Последние месяца три я постепенно разбираюсь с использованием их для разработки ПО — можно обсудить промежуточный результат.
 
