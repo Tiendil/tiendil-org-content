@@ -1,5 +1,5 @@
 ---
-title = "Заметки о coding agents"
+title = "Заметки про coding agents"
 tags = ["theory", "practice", "development", "neural-networks", "reflection", "exocortex", "tests", "interesting", "best", "large-language-models", "ai-agents", "coding-agents"]
 published_at = "2026-03-21T12:00:00+00:00"
 seo_description = "Заметки об использовании ИИ агентов для разработки ПО: плюсы, минусы, проблемы, инсайты и практические советы."
