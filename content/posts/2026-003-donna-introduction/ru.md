@@ -1,6 +1,6 @@
 ---
 title = "Donna — предсказуемость и управляемость для ваших агентов"
-tags = ["practice", "development", "open-source", "neural-networks", "prompt-engineering", "large-language-models"]
+tags = ["practice", "development", "open-source", "neural-networks", "prompt-engineering", "large-language-models", "exocortex", "ai-agents", "coding-agents"]
 published_at = "2026-02-09T12:00:00+00:00"
 seo_description = "Рассказываю о Donna — утилите для обеспечения предсказуемости и управляемости работы ваших агентов с помощью генерации и выполнения стейт-машин."
 seo_image = ""
