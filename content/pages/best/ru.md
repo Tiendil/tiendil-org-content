@@ -73,7 +73,8 @@ id = "interesting-about-books"
 
 ## Интервью
 
-- [Подкаст «Две Столицы — Уютный подкаст IT панков»](https://www.youtube.com/watch?v=5KODCBqhDu0)
+- [Подкаст «Две Столицы — Уютный IT подкаст» — про ИИ, LLM и агентов](https://www.youtube.com/watch?v=kUvmhGsUTo4)
+- [Подкаст «Две Столицы — Уютный IT подкаст» — про Сказку](https://www.youtube.com/watch?v=5KODCBqhDu0)
 - [Подкаст портала mmozg.net](https://www.youtube.com/watch?v=vBYNsLh3jf0)
 - [Подкаст у Сергея Галёнкина: браузерные игры](https://kdicast.com/e/105-brauzernyie-igryi/)
 - [Интервью в блоге XSolla](http://blog.xsolla.ru/2015/01/26/the-tale-interview/)

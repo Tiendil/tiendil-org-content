@@ -1,6 +1,6 @@
 ---
 title = "Donna — predictability and controllability for your agents"
-tags = ["practice", "development", "open-source", "neural-networks", "prompt-engineering", "large-language-models"]
+tags = ["practice", "development", "open-source", "neural-networks", "prompt-engineering", "large-language-models", "exocortex", "ai-agents", "coding-agents"]
 published_at = "2026-02-09T12:00:00+00:00"
 seo_description = "Donna is a utility for ensuring predictability and controllability of your agents' work by generating and executing state machines."
 seo_image = ""
