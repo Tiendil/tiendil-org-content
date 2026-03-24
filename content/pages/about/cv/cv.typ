@@ -180,6 +180,7 @@
 // - team maturity management
 //
 // TODO: "Tech Skills" -> "Hands-on Experience" / "Hands-on Tech Experience"
+// TODO: mention somewhere that I also ok and can work by hands.
 
 #section[Tech Skills]
 
