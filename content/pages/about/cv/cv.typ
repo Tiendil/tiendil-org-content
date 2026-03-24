@@ -182,13 +182,6 @@
 #key_value("Other", "algorithmic base, business analysis, technical writing, devops")
 #key_value("Languages", "English, Russian")
 
-#section[Code examples]
-
-#key_value("Feeds Fun", [#link("https://github.com/Tiendil/feeds.fun")[github.com/Tiendil/feeds.fun]])
-A news aggregation service with tags and ChatGPT.
-#key_value("Smart Imports", [#link("https://github.com/tiendil/smart-imports")[github.com/tiendil/smart-imports]])
-Automatically discovers & imports entities used in the currently imported Python module.
-
 #section[Work]
 
 #project_entry(
@@ -337,6 +330,11 @@ Automatically discovers & imports entities used in the currently imported Python
 *2004-2009 --- Specialist (equivalent to an MSc), Systems Engineering* \
 Belarusian State University of Informatics and Radioelectronics \
 Department of Artificial Intelligence, Faculty of Information Technologies and Control
+
+#section[Code examples]
+
+#key_value("Feeds Fun", [#link("https://github.com/Tiendil/feeds.fun")[github.com/Tiendil/feeds.fun]])
+Web-based news reader with tags, scoring, and AI.
 
 #section[Achievements]
 
