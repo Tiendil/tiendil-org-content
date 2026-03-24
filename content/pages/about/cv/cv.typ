@@ -164,11 +164,11 @@
 
 #section[Summary]
 
-- 19 years in software development: played most of the roles, delivered a wide variety of projects.
-- Focused on work culture: adaptability, ownership, quality, health.
-- Lead by example: play the roles that the project needs the most, help others to do the same, and grow.
-- Wide tech expertise: from specialized game logic on C++ to cloud-based payment systems on Python, from procedural content generation to AI and code analysis.
-- Delivered 4 payment systems in production, 0 critical incidents ever.
+- 19 years in software development: took on most roles, delivered a wide variety of projects.
+- Focused on engineering culture: adaptability, ownership, quality, and sustainable pace.
+- Lead by example: take on the roles a project needs most, help others do the same, and grow.
+- Broad technical expertise: from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
+- Delivered 4 payment systems to production with zero critical incidents on my watch.
 
 #section[Management/Leadership Skills]
 
