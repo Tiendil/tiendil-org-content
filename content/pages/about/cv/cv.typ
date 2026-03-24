@@ -164,11 +164,15 @@
 
 #section[Summary]
 
-- 19 years in software development: took on most roles, delivered a wide variety of projects.
+- 19 years in software development: took on many roles, delivered a wide variety of projects.
 - Focused on engineering culture: adaptability, ownership, quality, and sustainable pace.
-- Lead by example: take on the roles a project needs most, help others do the same, and grow.
+- Lead by example: step into the roles a project needs most, help colleagues grow into them.
 - Broad technical expertise: from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
 - Delivered 4 payment systems to production with 0 critical incidents on my watch.
+
+////
+
+- mutual respect / healthy communication / healthy culture
 
 #section[Management/Leadership Skills]
 
