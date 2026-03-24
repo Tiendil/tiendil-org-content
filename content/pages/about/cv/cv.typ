@@ -176,7 +176,7 @@
 
 // #section[Management/Leadership Skills]
 
-// - team growth, mentored engineers
+// - team growth, mentored engineers, hiring/firing
 // - team maturity management
 //
 // TODO: "Tech Skills" -> "Hands-on Experience"
