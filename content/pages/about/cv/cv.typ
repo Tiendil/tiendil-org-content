@@ -164,15 +164,18 @@
 
 #section[Summary]
 
-- 19 years in software development, 13 in gamedev, 9 in top gamedev companies.
-- Specialize in solving atypical tasks, bringing order, backend development.
-- Fast learner. Not tied to specific technologies. Could easily switch to the most suitable for a project.
-- I am familiar with most roles and always play several, selecting them based on the project's needs.
-- I actively develop experimental pet projects, see GitHub.
-- Write essays about books, technologies, and thinking techniques in the #link("https://tiendil.org/en")[blog].
-- Interest in systems engineering, AI, code analysis, procedural content generation, game design.
+- 19 years in software development: played most of the roles, delivered a wide variety of projects.
+- Focused on work culture: adaptability, ownership, quality, health.
+- Lead by example: play the roles that the project needs the most, help others to do the same, and grow.
+- Wide tech expertise: from specialized game logic on C++ to cloud-based payment systems on Python, from procedural content generation to AI and code analysis.
+- Delivered 4 payment systems in production, 0 critical incidents ever.
 
-#section[Skills]
+#section[Management/Leadership Skills]
+
+- team growth, mentored engineers
+- team maturity management
+
+#section[Tech Skills]
 
 #key_value("Programming languages", "Python, JavaScript, TypeScript, C++, C")
 #key_value("Clouds", "AWS")
