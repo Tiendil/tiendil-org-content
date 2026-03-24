@@ -128,10 +128,10 @@
   [
     #stack(
       dir: ttb,
-      spacing: 2pt,
+      spacing: 6pt,
       icon_value("icons/email.svg", "a.eletsky@gmail.com"),
       icon_value("icons/telephone.svg", "+49-1512-61-33-460"),
-      icon_value("icons/blog.svg", [#link("https://tiendil.org/en")[tiendil.org/en]]),
+      icon_value("icons/blog.svg", [#link("https://tiendil.org")[tiendil.org]]),
     )
   ],
   [
@@ -139,9 +139,9 @@
       #stack(
         dir: ttb,
         spacing: 6pt,
-        text(..text_style_header_name)[Aliaksei Yaletski (Alex)],
-        [Expected positions: CTO, Engineering Manager, Lead, R&D],
-        [Actual version: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]],
+        text(..text_style_header_name)[Aliaksei Yaletski],
+        [CTO | Board Advisor | Eng. Manager | R&D Lead],
+        [CV Link: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]],
       )
     ]
   ],
@@ -149,7 +149,7 @@
     #align(left)[
       #stack(
         dir: ttb,
-        spacing: 2pt,
+        spacing: 6pt,
         icon_value("icons/github.svg", [#link("https://github.com/tiendil")[github.com/tiendil]]),
         icon_value("icons/linkedin.svg", [#link("https://linkedin.com/in/tiendil")[linkedin.com/in/tiendil]]),
         icon_value("icons/telegram.svg", [#link("https://t.me/tiendil")[t.me/tiendil]]),
