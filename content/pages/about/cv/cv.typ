@@ -164,7 +164,7 @@
 
 #section[Summary]
 
-- Seventeen years in software development, 13 in gamedev, 9 in top gamedev companies.
+- 19 years in software development, 13 in gamedev, 9 in top gamedev companies.
 - Specialize in solving atypical tasks, bringing order, backend development.
 - Fast learner. Not tied to specific technologies. Could easily switch to the most suitable for a project.
 - I am familiar with most roles and always play several, selecting them based on the project's needs.
