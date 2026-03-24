@@ -178,6 +178,8 @@
 
 // - team growth, mentored engineers
 // - team maturity management
+//
+// TODO: "Tech Skills" -> "Hands-on Experience"
 
 #section[Tech Skills]
 
