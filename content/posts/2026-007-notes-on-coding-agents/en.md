@@ -57,41 +57,42 @@ However, LLMs have breathed new life into the concept.
 
 These two things made agents approach more practical and more relevant.
 
-## Мой контекст использования агентов
+## My context for using agents
 
-Я использую агентов не ради использования агентов, а чтобы эффективнее делать свою работу. Поэтому у меня не было цели попробовать все возможные подходы, или весь возможный софт.
+I don't use agents for the sake of using agents, but to do my work more effectively. Therefore, I've never had the goal of trying all possible approaches or all possible software.
 
-Более того, сейчас, когда я встречаю что-то новое, связанное с агентами, обычно происходит следующая цепочка событий:
+Moreover, when I encounter a new thing related to agents, the following chain of events usually happens:
 
-1. «о, интересно»;
-2. читаю документацию;
-3. не понимаю, как оно может улучшить мою жизнь;
-4. откладываю в сторону и двигаюсь дальше.
+1. "Oh, interesting";
+2. "Let's read the documentation";
+3. "I don't see how it can improve my life";
+4. "Not my case, skipping";
 
-Поэтому у меня сейчас довольно аскетичный сетап плюс небольшая табличка в Notion со списком инструментов/софта, которые я бы хотел попробовать когда-нибудь в будущем.
+That's why I have a rather ascetic setup right now, plus a small table in Notion with a list of tools/software that I would like to try sometime in the future.
 
-Мой сетап:
+My setup:
 
-- [Codex CLI](https://developers.openai.com/codex/cli) как, собственно, агент.
-- [Donna](https://github.com/Tiendil/donna) — CLI для высокоуровневого планирования.
-- [ast-grep](https://github.com/ast-grep/ast-grep) — CLI для навигации по коду и его трансформации.
-- Специфичные для проекта [большие спецификации](https://github.com/Tiendil/donna/blob/c1e3f3e1354f60263c220fef5e7b2754deb09190/.donna/project/core/error_handling.md) (частично в формате Donna) вместо skills.
+- [Codex CLI](https://developers.openai.com/codex/cli) as the agent itself.
+- [Donna](https://github.com/Tiendil/donna) — CLI for the high-level planning.
+- [ast-grep](https://github.com/ast-grep/ast-grep) — CLI for code navigation and transformation.
+- [Huge specs](https://github.com/Tiendil/donna/blob/c1e3f3e1354f60263c220fef5e7b2754deb09190/.donna/project/core/error_handling.md) that are specific to the project (partially in Donna format) instead of skills.
 
-Это не значит, что я не смотрю на новые вещи и не пробую их — это значит, что они не прописываются в моём рабочем процессе.
+This does not mean I never look at new things or try them out — it means they do not germinate in my workflow.
 
-Моё текущее взаимодействие с агентами происходит по двум сценариям:
+Currently, I use agents in two scenarios:
 
-1. Прошу править какую-то очень конкретную штуку с очень чётким описанием изменений.
-2. Прошу сделать большое изменение по примерной спеке. После ревью:
-    - либо откатываю изменение полностью, правлю спеку и прошу заново;
-    - либо начинаю итеративно править код мелкими запросами;
-    - либо доделываю работу руками.
+1. Ask an agent to make a very specific thing with a very clear description of the changes.
+2. Ask an agent to make a big change with a vague description of the changes. After review:
+    - either I roll back the change completely, fix the spec and ask again;
+    - or I start iteratively fixing the code with small requests;
+    - or I finish the work manually.
 
-Теперь, наконец, давайте перейдём к самим заметкам.
 
-/// note | Структура заметок
+Now, finally, let us move on to the notes themselves.
 
-Поначалу я планировал что-то простое, вроде списков плюсов, минусов, трендов, etc. Но подобный стиль родил [спагетти-пост](https://ru.wikipedia.org/wiki/Спагетти-код) с кучей кросс-ссылок и оговорок. Поэтому я его переписал — будем смотреть на агентов через разные призмы.
+/// note | Format of notes
+
+At first, I planned something simple, like lists of pros, cons, trends, etc. But such a style gave birth to a [spaghetti-post](https://en.wikipedia.org/wiki/Spaghetti_code) with a bunch of cross-references and caveats. So I rewrote it — we will look at agents through different prisms.
 
 ///
 
