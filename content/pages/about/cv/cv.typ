@@ -179,7 +179,7 @@
 // - team growth, mentored engineers, hiring/firing
 // - team maturity management
 //
-// TODO: "Tech Skills" -> "Hands-on Experience" / "Hands-on Tech Experience"
+// TODO: "Tech Skills" -> "Hands-on Experience" / "Hands-on Tech Experience" (maybe move below the work)
 // TODO: mention somewhere that I also ok and can work by hands.
 
 #section[Tech Skills]
