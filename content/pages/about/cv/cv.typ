@@ -140,7 +140,7 @@
         dir: ttb,
         spacing: 6pt,
         text(..text_style_header_name)[Aliaksei Yaletski],
-        [CTO | Board Advisor | Eng. Manager | R&D Lead],
+        [CTO | Board Advisor | Eng. Manager | Head of R&D],
         [CV Link: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]],
       )
     ]
