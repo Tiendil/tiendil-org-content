@@ -107,17 +107,17 @@ Agent architecture is an [old idea](https://en.wikipedia.org/wiki/Agent-oriented
 
 Now, when we have LLM glue, we can enjoy the work of agents, but only as long as LLM is used precisely as glue or as a specific tool. The moment we put LLM in the center, we get results that are loud in voice but sad in practice, like [the creepy $20000 toy compiler](https://www.linkedin.com/posts/alrikvidstrom_the-most-expensive-crappy-toy-compiler-ever-activity-7425963356924047360-V_rY/).
 
-## Все агенты ошибаются
+## All agents make mistakes
 
-Я давно продвигаю идею, что [все люди ошибаются]{post:life-and-work-with-mistakes} — как в работе, так и в жизни. Поэтому надо принимать решения и действовать с учётом возможности ошибок со стороны себя и других людей.
+I have long argued that [everyone makes mistakes]{post:@choose-nearest-language:life-and-work-with-mistakes} — in work as well as in life. So we should make decisions and act with the possibility of mistakes in mind, both on our side and on the side of other people.
 
-Эта концепция поразительно не очевидна для людей, поэтому их сложно убедить делать довольно очевидные вещи, например, писать тесты в качестве постоянной практики, а не когда сердце пожелает.
+This idea is surprisingly non-obvious to many people, which makes it hard to persuade them to do fairly obvious things — for example, to write tests as a regular practice rather than only when they "feel like it".
 
-Утверждение про ошибки также справедливо для агентов. Оно ещё и более заметно, так как [LLM имеют вероятностную природу]{post:ai-notes-2024-generative-knowledge-base} и ошибаются значительно чаще.
+The same statement about mistakes is also true for agents. It's even more noticeable because [LLMs have a probabilistic nature]{post:ai-notes-2024-generative-knowledge-base} and make mistakes significantly more often.
 
-Суть та же, необходимые практики те же, но, возможно, явление более очевидно.
+The essence is the same, the necessary practices are the same, but perhaps the phenomenon is more obvious.
 
-Я надеюсь, что благодаря агентам практики обеспечения качества работы будут внедряться легче, а использоваться корректнее.
+I hope that, thanks to agents, quality assurance practices will be easier to introduce and will be used more correctly.
 
 ## Проблемы с качеством из-за несовершенства LLM
 
