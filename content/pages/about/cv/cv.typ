@@ -118,6 +118,10 @@
   #v(0.45em)
 ]
 
+/////////
+// Header
+/////////
+
 #grid(
   columns: (0.88fr, 2.22fr, 0.9fr),
   column-gutter: 10pt,
@@ -153,6 +157,10 @@
     ]
   ],
 )
+
+///////
+// Body
+///////
 
 #section[Summary]
 
@@ -334,6 +342,10 @@ Department of Artificial Intelligence, Faculty of Information Technologies and C
 
 - #link("https://archiveprogram.github.com/")[Arctic Code Vault Contributor] on Github.
 - Second diploma (3rd place) in the ¼ final of ACM Western Subregion 2006.
+
+/////////
+// Footer
+/////////
 
 #v(0.35em)
 #line(length: 100%, stroke: 0.5pt + color_footer_line)
