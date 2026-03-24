@@ -1,6 +1,6 @@
 ---
 title = "Обновил конфиги Emacs"
-tags = [ "open-source", "practice", "development", "interesting"]
+tags = [ "open-source", "practice", "development", "interesting", "exocortex"]
 published_at = "2020-12-21T12:00:00+00:00"
 seo_description = "Как я обновлял конфиги Emacs, из каких пакетов собирал окружение и что в итоге получилось."
 seo_image = "images/update-emacs-config-cover.png"
