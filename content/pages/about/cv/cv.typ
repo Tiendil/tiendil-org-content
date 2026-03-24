@@ -168,7 +168,7 @@
 - Focused on engineering culture: adaptability, ownership, quality, and sustainable pace.
 - Lead by example: take on the roles a project needs most, help others do the same, and grow.
 - Broad technical expertise: from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
-- Delivered 4 payment systems to production with zero critical incidents on my watch.
+- Delivered 4 payment systems to production with 0 critical incidents on my watch.
 
 #section[Management/Leadership Skills]
 
