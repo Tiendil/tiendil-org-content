@@ -170,10 +170,14 @@
 - *Broad technical expertise:* from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
 - Delivered 4 payment systems to production with 0 critical incidents on my watch.
 
-#section[Management/Leadership Skills]
+/////////////////////////////////////////////////
+// New text is above this line, old text is below
+/////////////////////////////////////////////////
 
-- team growth, mentored engineers
-- team maturity management
+// #section[Management/Leadership Skills]
+
+// - team growth, mentored engineers
+// - team maturity management
 
 #section[Tech Skills]
 
