@@ -30,32 +30,32 @@ Thus, this post will be in the form of subjective notes-theses.
 
 <!-- more -->
 
-## Что такое агенты
+## What are agents
 
-Для начала, чем агенты не являются:
+For starters, what agents are not:
 
-- Это не «просто [LLM](https://ru.wikipedia.org/wiki/Большая_языковая_модель)», которая всё делает сама каким-то магическим образом.
-- Это не [сильный/слабый ИИ](https://ru.wikipedia.org/wiki/Сильный_искусственный_интеллект), который действует как человек.
+- They are not "just a [LLM](https://en.wikipedia.org/wiki/Large_language_model)" that does everything by itself in some magical way.
+- They are not [strong/weak AI](https://en.wikipedia.org/wiki/Artificial_general_intelligence) that acts like a human.
 
-Агент — это классическое не-ИИ ПО — программная обвеска-оркестратор над внутренними и внешними инструментами, которая организует их совместную работу для достижения какой-то цели. Инструменты могут быть разными: внутренний код, консольные утилиты, сайты, [MCP-сервисы](https://modelcontextprotocol.io/docs/getting-started/intro), LLM, etc.
+(AI) Agent is a classic non-AI software — a wrapper-orchestrator over internal and external tools that organizes their joint work to achieve some goal. Tools can be different: internal code, command-line utilities, websites, [MCP services](https://modelcontextprotocol.io/docs/getting-started/intro), LLMs, etc.
 
-Это хорошо заметно даже по фокусу функциональности агентов, changelog-ам — их разработчики решают вопросы безопасного запуска инструментов, коммуникации между ними, оркестрации, взаимодействия с пользователем, etc. Вопросам, связанным непосредственно с ИИ/LLM, уделяется не так уж много времени.
+You can see this even in the features these agents focus on and in their changelogs: their developers are dealing with safe tool execution, inter-tool communication, orchestration, user interaction, and so on. Questions directly related to AI and LLMs receive comparatively little attention.
 
-Концептуально, агент может даже не содержать ИИ-компонентов:
+Conceptually, an agent may not even contain AI components:
 
-- [Linter](https://en.wikipedia.org/wiki/Lint_(software)) с автоматическими исправлениями, например [isort](https://pycqa.github.io/isort/), вполне может считаться узкоспециализированным агентом.
-- [GitHub Actions](https://docs.github.com/en/actions) — это вот прямо агенты-агенты, они ещё и реактивные — реагируют на события в репозитории и автоматически что-то делают.
-- С помощью [Make](https://ru.wikipedia.org/wiki/Make) стопудово можно создать простого агента, где обращение к LLM будет одним из этапов выполнения задачи.
+- [Linter](https://en.wikipedia.org/wiki/Lint_(software)) with capabilities for automatic fixes, such as [isort](https://pycqa.github.io/isort/), can reasonably be considered a narrowly specialized agent.
+- [GitHub Actions](https://docs.github.com/en/actions) are agents in the most literal sense — they are even reactive — they respond to events in the repository and automatically do things.
+- It should be entirely possible to use [Make](https://en.wikipedia.org/wiki/Make) to create a simple agent with an invocation of an LLM as one of the steps in task execution.
 
-Никто не называл эти штуки агентами по одной причине — «можно, а зачем?» (с).
+No one called these things agents only because there were no reason in using too specialized term.
 
-Появление LLM вдохнуло новую жизнь в концепцию.
+However, LLMs have breathed new life into the concept.
 
-**Во-первых**, LLM позволили связывать инструменты на более высоком уровне абстракции. Если раньше программист должен был чётко прописывать [трансформацию схем данных]{post:infinity-of-data-schemas} между каждой парой инструментов для конкретной задачи, то теперь это делает LLM для любых задач и любых инструментов.
+**First**, LLMs made it possible to connect tools at a higher level of abstraction. Previously, a programmer had to explicitly define [data schema transformations]{post:@choose-nearest-language:infinity-of-data-schemas} between each pair of tools for each specific task; now LLMs can handle this for arbitrary tasks and tools.
 
-**Во-вторых**, LLM могут «понимать» код на приемлемом уровне, что позволяет не только связывать ими инструменты, но и вносить изменения в код, делать минимальное планирование.
+**Second**, LLMs can "understand" code at an acceptable level, which allows not only to connect tools but also to introduce changes to the code, do minimal planning.
 
-Эти две вещи сделали агентную архитектуру более употребимой и актуальной.
+These two things made agents approach more practical and more relevant.
 
 ## Мой контекст использования агентов
 
