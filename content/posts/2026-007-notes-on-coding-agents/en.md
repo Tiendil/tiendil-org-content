@@ -96,16 +96,16 @@ At first, I planned something simple, like lists of pros, cons, trends, etc. But
 
 ///
 
-## Положительное от агентной архитектуры, отрицательное — от LLM
+## The upside comes from agent architecture, the downside — from LLMs
 
-Это, пожалуй, главный инсайт после обработки заметок:
+This is probably the main insight from processing the notes:
 
-- Штуки, которые автоматически работают над вашими задачами — хорошо.
-- Штуки, которые пытаются делать то, на что (пока?) не способны — плохо.
+- Things that automatically work on your tasks — good.
+- Things that try to do what they are not capable of doing (yet?) — bad.
 
-Агентная архитектура — это [древняя вещь](https://ru.wikipedia.org/wiki/Агентно-ориентированный_подход) — ей уже за 30 лет. Разработчики от ИИ всегда с ней заигрывали, однако сделать хорошую реализацию без LLM-клея не получалось.
+Agent architecture is an [old idea](https://en.wikipedia.org/wiki/Agent-oriented_programming) — it's already over 30 years old. AI developers have always flirted with it, but it was impossible to make a good implementation without LLM glue.
 
-Теперь, когда у нас есть LLM-клей, мы можем наслаждаться работой агентов, но только до тех пор, пока LLM используется именно как клей или как конкретный инструмент. Как только мы ставим LLM в центр, то получаем пафосные, но печальные результаты, вроде [крипового игрушечного компилятора за 20000$](https://www.linkedin.com/posts/alrikvidstrom_the-most-expensive-crappy-toy-compiler-ever-activity-7425963356924047360-V_rY/)
+Now, when we have LLM glue, we can enjoy the work of agents, but only as long as LLM is used precisely as glue or as a specific tool. The moment we put LLM in the center, we get results that are loud in voice but sad in practice, like [the creepy $20000 toy compiler](https://www.linkedin.com/posts/alrikvidstrom_the-most-expensive-crappy-toy-compiler-ever-activity-7425963356924047360-V_rY/).
 
 ## Все агенты ошибаются
 
