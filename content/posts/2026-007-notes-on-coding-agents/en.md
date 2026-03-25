@@ -206,18 +206,18 @@ The nuance is that **coding speed has not been a problem for about twenty years*
 
 Thanks to modern IDEs (even before [Copilot](https://github.com/features/copilot)), the delay in transferring the software model from the programmer's head to code is minimal.
 
-### Скорость кодинга увеличилась
+### The speed of coding has increased
 
-В ситуациях, когда точно известно что надо написать и осталось только выстроить слова в правильном порядке, скорость кодинга увеличилась на порядок.
+In the cases where it is precisely known what needs to be written and it left only to arrange the words in the correct order, the speed of coding has increased by an order of magnitude.
 
-Как выглядят подобные ситуации:
+How such situations look like:
 
-- У вас есть новая функциональность, есть автоматические тесты старой функциональности и вам надо добавить тесты новой функциональности.
-- Вы накидали черновик кода, но в нём есть ряд случайных расхождений: ошибки и/или пропуски типов, нестыковки между возвращаемыми значениями, нестыковки между кодом и тестами, etc. — и вам надо это всё исправить.
-- У вас есть один падающий тест и вам надо исправить ошибку в коде, который вы плохо помните.
-- Вы точно знаете (и можете описать) что конкретно надо сделать, но не хотите прокидывать изменения по всем зависимостям.
+- You've implemented a new feature, there are a lot of automatic tests for the old functionality, and you need to add tests for the new functionality.
+- You've sketched out a draft of the code, but it contains a number of artbitrary inconsistencies: type errors and/or missing type annotations, mismatches in return values, discrepancies between the code and the tests, and so on — and you need to fix all of this.
+- You have a single failing test and you need to fix a bug in the code that you barely remember.
+- You know (and can describe) what exactly needs to be done, but you don't want to propagate changes through all the dependencies.
 
-То есть агенты очень полезны, когда контекст полностью определяет, что должно быть сделано. Это немного похоже на [коллапс волновой функции](https://ru.wikipedia.org/wiki/Редукция_фон_Неймана) при измерении или, что то же самое, на [процедурную генерацию через коллапс волновой функции](https://blog.ptidej.net/procedural-generation-using-wave-function-collapse/).
+Thus, agents are very useful when the context completely defines what needs to be done. It's a bit like [wave function collapse](https://en.wikipedia.org/wiki/Wave_function_collapse) during measurement or, equivalently, [procedural generation through wave function collapse](https://blog.ptidej.net/procedural-generation-using-wave-function-collapse/).
 
 ### Скорость разработки увеличилась в некоторых случаях
 
