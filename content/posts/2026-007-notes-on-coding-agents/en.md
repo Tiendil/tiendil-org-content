@@ -163,15 +163,15 @@ Inconsistency increases the load on the developer, as they constantly have to be
 
 Again, in the case of working with a person, the situation is the same as with task-setting — you learn the colleague's thinking style and can predict where in their work there may be problems and of what kind — it's much easier.
 
-### Отсутствие чувства направления
+### Lack of direction
 
-Очень абстрактная штука, но уже не раз замечал, поэтому у меня про это есть отдельный пост: [LLM мыслят вширь, люди мыслят вглубь]{post:llms-think-breadth-first-humans-think-depth-first}.
+That is a somewhat abstract thing, but I've noticed it a few times already, so I have a separate post dedicated to it: [LLMs think breadth-first, humans think depth-first]{post:llms-think-breadth-first-humans-think-depth-first}.
 
-В контексте программирования это значит, что агентам сложно вносить ортогональные правки. Например, агент может по ходу дела впилить совершенно левый рефакторинг, который к задаче не относится.
+In the software development context, this means that agents struggle to make orthogonal changes. For example, an agent can easily implement a completely unrelated refactoring that has nothing to do with the task at hand.
 
-Такое отклонение легко пропустить в зародыше, а когда оно прорастёт и станет заметен нелинейный рост сложности, может быть уже поздно (дорого) что-то откатывать.
+Such deviation is easy to miss in the bud, and it will be too late (expensive) to roll back changes after it has sprouted and the nonlinear growth of complexity becomes noticeable.
 
-Когда человек планирует изменения, он обычно выбирает одну ось и следует ей, поэтому множество подобных проблем обходится естественным путём. Агент же просто фигачит правки, которые ему кажутся статистически вероятными.
+When a person plans changes, they usually choose one axis and follow it — that helps to naturally mitigate numerous problems with complexity. An agent, on the other hand, just makes changes that seem statistically likely to it.
 
 ### Ограничения контекста
 
