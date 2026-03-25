@@ -147,21 +147,21 @@ Most of people's mistakes have obvious signs/patterns and are well noticeable, e
 
 I've already encountered such behavior of LLMs several times, and it's very unpleasant.
 
-### Неконсистентность ответов
+### Inconsistant answers
 
-LLM не держат стиль кода/архитектуры, особенно неформальный.
+LLMs can not maintain a style of code/architecture, especially an informal one.
 
-С кодом ещё куда ни шло — стиль наследуется от контекста (когда тот есть), контролируется линтерами и настраивается автоматическим форматированием.
+It is a bit easy for the code — its style is inherited from the context (when there is one), is restricted by linters, and is built by automatic formatting.
 
-А вот с архитектурой сложнее — не всю архитектуру можно формализовать простым способом. Об этом я ещё скажу пару слов.
+It is much complicated for architecture — not all parts of architecture can be easily formalized. I'll say a few more words about this below.
 
-Из-за проблем с формированием контекста агенты легко упускают решения, которые были приняты ранее (и отражены в коде). Например, одинаковые по духу тесты в разных частях проекта будут писаться совершенно по-разному.
+Due to problem with gathering context, agents easily lose track of decisions that were made earlier (and reflected in the code). For example, similar in spirit tests in far parts of the project can be written completely differently.
 
-LLM не придерживаются уровня детализации/качества — иногда переусложняют, иногда переупрощают.
+LLMs do not adhere to the level of detail/quality — sometimes they overcomplicate, sometimes they oversimplify.
 
-Неконсистентность увеличивает нагрузку на разработчика, так как постоянно приходится гнуть мозг в случайных направлениях — код-ревью становятся сложнее.
+Inconsistency increases the load on the developer, as they constantly have to bend their brain in random directions — code reviews become more difficult.
 
-В случае работы с человеком ситуация та же, что и с постановкой задач — вы выучиваете стиль мышления коллеги и можете предсказать в какой части его работы могут быть проблемы и какого рода — это намного проще.
+Again, in the case of working with a person, the situation is the same as with task-setting — you learn the colleague's thinking style and can predict where in their work there may be problems and of what kind — it's much easier.
 
 ### Отсутствие чувства направления
 
