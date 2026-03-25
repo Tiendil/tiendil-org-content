@@ -134,7 +134,8 @@
       icon_value("icons/telegram.svg", [#link("https://t.me/tiendil")[t.me/tiendil]]),
     )
   ],
-// TODO: CTO -> CT(P)O, because I also do product management (?)
+    // TODO: CTO -> CT(P)O, because I also do product management (?)
+    // TODO: add location + relocation
   [
     #align(center)[
       #stack(
@@ -180,7 +181,7 @@
 // - team growth, mentored engineers, hiring/firing
 // - team maturity management
 //
-// TODO: "Tech Skills" -> "Hands-on Experience" / "Hands-on Tech Experience" (maybe move below the work)
+// TODO: "Tech Skills" -> "Hands-on Experience" / "Hands-on Tech Experience" (maybe move below the work) / Tech stack
 //       Or, tech skills as one of capabilities
 // TODO: mention somewhere that I also ok and can work by hands.
 // TODO: team as a part of the product
@@ -188,7 +189,26 @@
 // TODO: communicating with third-parties / plain structure
 // TODO: add languages English, Russian block.
 // TODO: architecture strategy
+// TODO: capabilities / scopes / core competences
+// TODO: Hands-on technical leader who still writes code
+// TODO: core competences as tag blocks?
+// TODO: release cadence/pace
+// TODO: was responsible for backend of >1$M MMR projects
+// TODO: Talent Development & Team Scaling (0 → 25+)
+// TODO: building of solutions from the ground up
+// TODO: pivot
+// TODO: communicate with top management and hands-on workers (?)
+// TODO: analytical skills
+// TODO: open source (?)
+/*
+- Author of a technical blog with 17k annual unique visitors
+- Maintain a technical blog read by 17k unique visitors per year
+- Publish technical essays on software engineering, game design, and R&D; blog reached 17k unique visitors in the last 12 months
+- Technical writer with a public blog reaching 17k unique visitors annually
+*/
 
+
+// TODO: lines under section headers?
 #section[Tech Skills]
 
 #key_value("Programming languages", "Python, JavaScript, TypeScript, C++, C")
@@ -212,6 +232,7 @@
 // TODO: distributed team / remote work
 // TODO: not child startups, but startups in the portfolio of the company
 // TODO: communicating with third-parties / plain structure
+// TODO: release cadence/on-demand-updates
 #project_entry(
   "2022-2023",
   "Vertical payment solution for child startups",
