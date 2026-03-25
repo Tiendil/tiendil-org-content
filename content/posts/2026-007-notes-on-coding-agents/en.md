@@ -135,17 +135,17 @@ Because of this, you have to formulate tasks as clearly and in as much detail as
 
 When working with a person for a long time, you learn their strengths and weaknesses, remember what to emphasize in communication with them specifically — which makes communication, including task-setting, much faster and easier.
 
-### Мимикрия ответов под корректные решения
+### Answers that mimic correct solutions
 
-По своему дизайну LLM выдают ответы, которые выглядят достоверно, даже если являются некорректными. Насколько я понимаю, это фундаментальная проблема и с ней то ли не могут ничего сделать, то ли не хотят.
+By design, LLMs produce answers that look credible, even if they are incorrect. As I understand it, this is a fundamental problem, and either nothing can be done about it, or no one wants to do anything about it.
 
-Более того, есть теория, что рассуждающие LLM не рассуждают, а генерируют цепочку рассуждений (которая выглядит достоверной) под их же выводы (которые выглядят достоверными).
+There is even a strong view that reasoning LLMs do not actually reason at all. Instead, they generate a sequence of statements that resembles a chain of reasoning, but is in fact only a statistical extension of the final answer — which itself may be completely wrong, while still sounding credible.
 
-Из-за этого определить ошибку агента бывает значительно сложнее, чем ошибку человека.
+Because of this, it is often much harder to identify an agent's mistake than a human's one.
 
-Большинство ошибок людей имеют явные признаки/паттерны и хорошо заметны, особенно профессионалам. Плюс, люди обычно не прилагают больших усилий, чтобы скрыть свои ошибки.
+Most of people's mistakes have obvious signs/patterns and are well noticeable, especially for professionals. Plus, people usually don't put much effort into hiding their mistakes.
 
-Я уже несколько раз попал на подобное поведение LLM и это очень неприятно.
+I've already encountered such behavior of LLMs several times, and it's very unpleasant.
 
 ### Неконсистентность ответов
 
