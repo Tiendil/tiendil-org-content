@@ -119,21 +119,21 @@ The essence is the same, the necessary practices are the same, but perhaps the p
 
 I hope that, thanks to agents, quality assurance practices will be easier to introduce and will be used more correctly.
 
-## Проблемы с качеством из-за несовершенства LLM
+## Issues with quality due to the imperfection of LLMs
 
-[Вероятностная природа LLM]{post:ai-notes-2024-generative-knowledge-base} приводит к проблемам, которые значительно реже встречаются у людей, по крайней мере у профессионалов.
+The [probabilistic nature of LLMs]{post:ai-notes-2024-generative-knowledge-base} results in issues that are significantly less common for humans, at least for professionals.
 
-Здесь я укажу наиболее заметные из них, чтобы не повторяться в описании следующих призм и не переусложнять их.
+Here I'll point out the most noticeable of them, so as not to repeat myself when describing the next prisms, not to overcomplicate them.
 
-### Слабое абстрактное/критическое мышление
+### Weak abstract/ctiical thinking
 
-Любая опечатка или оговорка воспринимается как руководство к действию. Причём предсказать в какую сторону отклонится LLM невозможно, так как эта сторона абсолютно случайна. Мне кажется LLM, специализированные для агентов, сильно переобучены на следование инструкциям.
+Any typo or misphrasing is perceived as a guide to action. Moreover, it's impossible to predict in which direction the LLM will deviate, as this direction is completely random. It seems to me that LLMs specialized for agents are heavily overfitted to follow instructions.
 
-Малейшая неверная или неполная формулировка — и твой агент впилил совершенно противоположную фичу. Например, добавляя альтернативную опцию к интерфейсу командной строки, агент легко может удалить оригинальную вместо того, чтобы поддерживать две.
+The smallest incorrect or incomplete phrasing — and your agent has implemented a completely opposite feature. For example, when adding an alternative option to the command-line interface, the agent can easily delete the original instead of supporting both.
 
-Из-за этого приходится формулировать задачи максимально чётко и детально — это полностью отличается от взаимодействия с людьми.
+Because of this, you have to formulate tasks as clearly and in as much detail as possible — this is completely different from interacting with people.
 
-Работая долгое время с человеком, вы узнаёте его сильные и слабые стороны, запоминаете, на что необходимо делать акцент в общении именно с ним, — это значительно ускоряет и упрощает коммуникацию, включая постановку задач.
+When working with a person for a long time, you learn their strengths and weaknesses, remember what to emphasize in communication with them specifically — which makes communication, including task-setting, much faster and easier.
 
 ### Мимикрия ответов под корректные решения
 
