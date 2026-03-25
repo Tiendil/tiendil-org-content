@@ -191,20 +191,20 @@ If we assume that each level on average breaks down a feature into 10 sub-featur
 
 ///
 
-## Скорость кодинга vs скорость разработки
+## Coding speed vs development speed
 
-Важно различать эти две вещи:
+It is important to distinguish between these two things:
 
-- Скорость кодинга — как быстро вы создаёте рабочий код для полностью разобранной задачи.
-- Скорость разработки — как быстро вы доводите фичи от идеи до релиза (до пользователей).
+- The speed of coding — how quickly you create working code for a completely defined task.
+- The speed of development — how quickly you deliver features from idea to release (to users).
 
-Многие, особенно не программисты, путают эти вещи. Частично в этом есть и наша вина, так как опытный программист часто, например, проектирует и кодит напроектированное одновременно — так значительно быстрее. Часто в это же время мы ещё GUI проектируем, тестируем, анализируем и дополняем бизнес-требования, etc.
+Many people — especially non-programmers — conflate these things. Part of the blame is ours as well, because an experienced programmer will often, for example, design and implement something at the same time — it is simply much faster that way. And quite often, in the process, we are also designing GUI, testing, analyzing, refining the business requirements, etc.
 
-Агенты значительно увеличивают скорость кодинга, но далеко не всегда увеличивают скорость разработки, так как большую часть разработки они взять на себя (пока что?) не могут, а если пытаются, то создают больше проблем, чем решают.
+Agents greatly increase the speed of coding, but they do not always increase the speed of development, as they cannot (yet?) take on most of the related work, and if they try to, they create more problems than solve.
 
-Нюанс в том, что **скорость кодинга не является проблемой уже лет двадцать**.
+The nuance is that **coding speed has not been a problem for about twenty years**.
 
-Благодаря современным IDE (даже до [Copilot](https://github.com/features/copilot)) задержка при трансляции модели софта из головы программиста в код минимальна.
+Thanks to modern IDEs (even before [Copilot](https://github.com/features/copilot)), the delay in transferring the software model from the programmer's head to code is minimal.
 
 ### Скорость кодинга увеличилась
 
