@@ -131,16 +131,17 @@
       spacing: 6pt,
       icon_value("icons/email.svg", "a.eletsky@gmail.com"),
       icon_value("icons/telephone.svg", "+49-1512-61-33-460"),
-      icon_value("icons/blog.svg", [#link("https://tiendil.org")[tiendil.org]]),
+      icon_value("icons/telegram.svg", [#link("https://t.me/tiendil")[t.me/tiendil]]),
     )
   ],
+// TODO: CTO -> CT(P)O, because I also do product management (?)
   [
     #align(center)[
       #stack(
         dir: ttb,
         spacing: 6pt,
         text(..text_style_header_name)[Aliaksei Yaletski],
-        [CTO | Board Advisor | Eng. Manager | Head of R&D],
+        [CTO | Board Advisor | Head of R&D | Eng. Manager],
         [CV Link: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]],
       )
     ]
@@ -150,9 +151,9 @@
       #stack(
         dir: ttb,
         spacing: 6pt,
+        icon_value("icons/blog.svg", [#link("https://tiendil.org")[tiendil.org]]),
         icon_value("icons/github.svg", [#link("https://github.com/tiendil")[github.com/tiendil]]),
         icon_value("icons/linkedin.svg", [#link("https://linkedin.com/in/tiendil")[linkedin.com/in/tiendil]]),
-        icon_value("icons/telegram.svg", [#link("https://t.me/tiendil")[t.me/tiendil]]),
       )
     ]
   ],
@@ -182,6 +183,11 @@
 // TODO: "Tech Skills" -> "Hands-on Experience" / "Hands-on Tech Experience" (maybe move below the work)
 //       Or, tech skills as one of capabilities
 // TODO: mention somewhere that I also ok and can work by hands.
+// TODO: team as a part of the product
+// TODO: distributed teams / remote work
+// TODO: communicating with third-parties / plain structure
+// TODO: add languages English, Russian block.
+// TODO: architecture strategy
 
 #section[Tech Skills]
 
@@ -203,6 +209,9 @@
   facts: ("A detailed report will appear after the vacation is over",),
 )
 
+// TODO: distributed team / remote work
+// TODO: not child startups, but startups in the portfolio of the company
+// TODO: communicating with third-parties / plain structure
 #project_entry(
   "2022-2023",
   "Vertical payment solution for child startups",
@@ -271,6 +280,9 @@
   ),
 )
 
+// TODO: do I need listing roles besides "co-founder"
+// TODO: 90k players, 30k (registered?) players, ??? paid players
+// TODO: mention that now the game is resurrected by the community?
 #project_entry(
   "2012-2015",
   "Text-based MMO \"The Tale\"",
@@ -351,6 +363,8 @@ Web-based news reader with tags, scoring, and AI.
 
 - #link("https://archiveprogram.github.com/")[Arctic Code Vault Contributor] on Github.
 - Second diploma (3rd place) in the ¼ final of ACM Western Subregion 2006.
+
+// TODO: add an "interests" block
 
 /////////
 // Footer
