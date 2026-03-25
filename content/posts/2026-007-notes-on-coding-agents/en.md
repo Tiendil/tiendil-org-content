@@ -173,21 +173,22 @@ Such deviation is easy to miss in the bud, and it will be too late (expensive) t
 
 When a person plans changes, they usually choose one axis and follow it — that helps to naturally mitigate numerous problems with complexity. An agent, on the other hand, just makes changes that seem statistically likely to it.
 
-### Ограничения контекста
+### Context constraints
 
-Текущий «стандартный» контекст в 1 миллион токенов недостаточен, чтобы вместить в себя все знания о проекте (не говоря уже о всех знаниях разработчика), а методы формирования контекста не позволяют надёжно собирать и компоновать выборку необходимой информации. Это логичным образом приводит к искажению данных на входе LLM и, как следствие, к ошибкам в выводе.
+The current "standard" context of 1 million tokens is insufficient to include all the knowledge about the project (not to mention all the knowledge of a developer); the methods of building context do not allow to reliably collect and compose the necessary information. This logically leads to distortion of the data at the input of LLM and, consequently, to errors in the output.
 
-/// note | Почему миллиона токенов недостаточно?
+/// note | Why is one million tokens not enough?
 
-Объём информации растёт экспоненциально с уровнем детализации.
+The volume of information grows exponentially with the level of detail.
 
-Допустим, на первом уровне детализации какой-то штуки вы указали, что у неё есть признаки A, B, C.
+Let's say that at the first level of detail of some thing we found out that it has features A, B, C.
 
-На втором уровне детализации каждый признак разобьётся на несколько: A1, A2, A3, B1, B2, C1, C2, C3.
+At the second level of detail, each feature will be broken down into several smaller ones: A1, A2, A3, B1, B2, C1, C2, C3.
 
-На третьем уровне дерево признаков продолжит расти, и так далее.
+At the third level of detail, the tree of features will continue to grow, and so on.
 
-Если предположить, что каждый уровень в среднем разбивает признак на 10 подпризнаков/нюансов/уточнений, то мы увидим, что 1000000 токенов — это всего лишь 5 уровней детализации (с учётом хранения высокоуровневых признаков), при условии, что один токен — это один признак. Само собой, это большое преувеличение для ёмкости токенов и, скорее, приуменьшение для уровней детализации. Если вы сталкивались с формализованными требованиями к чему-либо, то понимаете, о чём я.
+If we assume that each level on average breaks down a feature into 10 sub-features/nuances, then we will see that 1 million tokens corresponds to only 5 levels of detail (taking into account that we should also store high-level features). Assuming that one token is one feature. Of course, this is a big exaggeration for the capacity of tokens and, rather, an understatement for the levels of detail. If you have ever worked with formalized requirements for anything, you understand what I mean.
+
 ///
 
 ## Скорость кодинга vs скорость разработки
