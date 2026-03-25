@@ -182,7 +182,7 @@
 // - team maturity management
 //
 // TODO: "Tech Skills" -> "Hands-on Experience" / "Hands-on Tech Experience" (maybe move below the work) / Tech stack
-//       Or, tech skills as one of capabilities
+//       Or, tech skills as one of capabilities / primary experitese / strongest expertise
 // TODO: mention somewhere that I also ok and can work by hands.
 // TODO: team as a part of the product
 // TODO: distributed teams / remote work
@@ -205,6 +205,22 @@
 - Maintain a technical blog read by 17k unique visitors per year
 - Publish technical essays on software engineering, game design, and R&D; blog reached 17k unique visitors in the last 12 months
 - Technical writer with a public blog reaching 17k unique visitors annually
+  */
+
+/*
+
+Areas of strongest expertise:
+
+# Product & Team Bootstrapping
+
+# Strategic Planning & Execution (alt. Technical Strategy & Execution)
+
+# Hands-on Technical Leadership
+
+# High-Autonomy Engineering Teams
+
+# Research & Development
+
 */
 
 
@@ -302,7 +318,7 @@
 )
 
 // TODO: do I need listing roles besides "co-founder"
-// TODO: 90k players, 30k (registered?) players, ??? paid players
+// TODO: 90k players (tried the game), 30k (registered?) players, ??? paid players
 // TODO: mention that now the game is resurrected by the community?
 #project_entry(
   "2012-2015",
@@ -386,6 +402,7 @@ Web-based news reader with tags, scoring, and AI.
 - Second diploma (3rd place) in the ¼ final of ACM Western Subregion 2006.
 
 // TODO: add an "interests" block
+// TODO: add link to posts about management?
 
 /////////
 // Footer
