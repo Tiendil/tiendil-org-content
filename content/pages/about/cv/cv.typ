@@ -186,6 +186,8 @@
 
 #section[Summary]
 
+// TODO: team as a part of the product
+
 - *19 years in software development:* took on many roles, delivered a wide variety of projects.
 - *Focused on engineering culture:* adaptability, ownership, quality, sustainable pace, transparency, and mutual respect.
 - *Lead by example:* step into the roles a project needs most and help colleagues grow beyond their current ones.
@@ -201,25 +203,28 @@
   expertise_block(
     "Product & Team Bootstrapping",
     (
-      "a",
-      "b",
-      "c",
+        "a",
+        "Knowledgable pivoting",
+        "Balancing scope of work with team capabilities",
+        "Team / Product / Processes maturity",
     ),
   ),
   expertise_block(
     "Strategic Planning & Execution",
     (
-      "a",
-      "b",
-      "c",
+        "a",
+        "b",
+        "Work transparency advocate",
+        "Tech-debt optimization",
+        "Release cadence & pace"
     ),
   ),
   expertise_block(
     "High-Autonomy Engineering Teams",
     (
-      "a",
-      "b",
-      "c",
+        "Team self-governance",
+        "Team self-regulation",
+        "Distributed / Remote work",
     ),
   ),
   expertise_block(
@@ -239,11 +244,12 @@
     ),
   ),
   expertise_block(
-    "Core Management",
+    "Core Management",  // People management / Talent management
     (
-      "a",
-      "b",
-      "c",
+        "a",
+        "b",
+        "Onboarding",
+        "Hiring/firing"
     ),
   ),
 )
@@ -252,23 +258,16 @@
 // New text is above this line, old text is below
 /////////////////////////////////////////////////
 
-// #section[Management/Leadership Skills]
-
 // - team growth, mentored engineers, hiring/firing
 // - team maturity management
 //
 // TODO: "Tech Skills" -> "Hands-on Experience" / "Hands-on Tech Experience" (maybe move below the work) / Tech stack
 //       Or, tech skills as one of capabilities / primary experitese / strongest expertise
 // TODO: mention somewhere that I also ok and can work by hands.
-// TODO: team as a part of the product
-// TODO: distributed teams / remote work
 // TODO: communicating with third-parties / plain structure
-// TODO: add languages English, Russian block.
 // TODO: architecture strategy
-// TODO: capabilities / scopes / core competences
 // TODO: Hands-on technical leader who still writes code
 // TODO: core competences as tag blocks?
-// TODO: release cadence/pace
 // TODO: was responsible for backend of >1$M MMR projects
 // TODO: Talent Development & Team Scaling (0 → 25+)
 // TODO: building of solutions from the ground up
@@ -276,12 +275,8 @@
 // TODO: communicate with top management and hands-on workers (?)
 // TODO: analytical skills
 // TODO: open source (?)
-/*
-- Author of a technical blog with 17k annual unique visitors
-- Maintain a technical blog read by 17k unique visitors per year
-- Publish technical essays on software engineering, game design, and R&D; blog reached 17k unique visitors in the last 12 months
-- Technical writer with a public blog reaching 17k unique visitors annually
-  */
+// TODO: team/processes maturity
+// TODO: AI
 
 // TODO: lines under section headers?
 #section[Tech Skills]
