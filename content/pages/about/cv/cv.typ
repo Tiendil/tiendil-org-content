@@ -18,6 +18,11 @@
   size: 16.5pt,
   weight: 400,
 )
+#let text_style_subsection_title = (
+  ..text_style_base,
+  size: 12.2pt,
+  weight: 600,
+)
 #let text_style_header_name = (
   ..text_style_base,
   size: 22pt,
@@ -60,6 +65,8 @@
   #v(0.2em)
 ]
 
+#let expertise_columns = 2
+
 #let key_value(key, value) = [
   #block(width: 100%)[*#key:* #value]
 ]
@@ -72,6 +79,19 @@
     image(icon, width: 0.8em),
     value,
   )
+]
+
+#let expertise_block(title, items) = [
+  #block(
+    width: 100%,
+    breakable: false,
+  )[
+    #text(..text_style_subsection_title)[#title]
+    #v(0.15em)
+    #for item in items [
+      - #item
+    ]
+  ]
 ]
 
 #let project_entry(
@@ -172,6 +192,54 @@
 - *Broad technical expertise:* from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
 - Delivered 4 payment systems to production with 0 critical incidents on my watch.
 
+#section[Areas of Expertise]
+
+#grid(
+  columns: expertise_columns,
+  column-gutter: 12pt,
+  row-gutter: 8pt,
+  expertise_block(
+    "Product & Team Bootstrapping",
+    (
+      "a",
+      "b",
+      "c",
+    ),
+  ),
+  expertise_block(
+    "Strategic Planning & Execution",
+    (
+      "a",
+      "b",
+      "c",
+    ),
+  ),
+  expertise_block(
+    "Hands-on Technical Leadership",
+    (
+      "a",
+      "b",
+      "c",
+    ),
+  ),
+  expertise_block(
+    "High-Autonomy Engineering Teams",
+    (
+      "a",
+      "b",
+      "c",
+    ),
+  ),
+  expertise_block(
+    "Research & Development",
+    (
+      "a",
+      "b",
+      "c",
+    ),
+  ),
+)
+
 /////////////////////////////////////////////////
 // New text is above this line, old text is below
 /////////////////////////////////////////////////
@@ -206,23 +274,6 @@
 - Publish technical essays on software engineering, game design, and R&D; blog reached 17k unique visitors in the last 12 months
 - Technical writer with a public blog reaching 17k unique visitors annually
   */
-
-/*
-
-Areas of strongest expertise:
-
-# Product & Team Bootstrapping
-
-# Strategic Planning & Execution (alt. Technical Strategy & Execution)
-
-# Hands-on Technical Leadership
-
-# High-Autonomy Engineering Teams
-
-# Research & Development
-
-*/
-
 
 // TODO: lines under section headers?
 #section[Tech Skills]
