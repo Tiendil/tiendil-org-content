@@ -260,21 +260,21 @@ That's why, when I work on a project that I know well, and I have a clear pictur
 
 I have been getting similar feedback from colleagues — none of my acquaintances has switched to development solely through agents.
 
-## Изменение нагрузки на разработчика
+## The shift in the developer's workload
 
-Сложно сказать стало лучше или хуже.
+It is difficult to say whether it has become better or worse.
 
-**С одной стороны**, производить новую информацию (писать код) значительно сложнее, чем верифицировать уже существующую (делать код-ревью). Поэтому, при должном использовании агентов, нагрузка на мозг снижается за счёт большей доли код-ревью.
+**From the one hand**, producing new information (writing code) is significantly more difficult than verifying existing information (reviewing code). Therefore, with proper use of agents, the load on the brain is reduced due to increased share of code review.
 
-Также в работе программиста есть этап, когда ты подгружаешь в мозг информацию о задаче и её контексте (архитектуру, требования, код, доки). Это тяжёлый и долгий процесс. Именно он является основной причиной нелюбви программистов к прерыванию работы, так как его приходится проходить заново. Если работа происходит только через агентов, то этот этап значительно сокращается и упрощается. Но только в случае, если не приходится детально разбираться с правками от агентов.
+Also, there is a stage in the programmer's work when you load information about the task and its context (architecture, requirements, code, docs) into your brain. This is a heavy and long process. It is the main reason for why developers dislike interruptions to their work, as they have to go through it again. If the work is done only through agents, this stage is significantly reduced and simplified. But only if you don't have to dive into the details of introduced changes.
 
-Оба этих изменения довольно приятны.
+Both of these changes are quite pleasant.
 
-**С другой стороны**, увеличивается поток высокоуровневой информации через человека. Больше информации в единицу времени — больше нагрузка.
+**From the other hand**, the flow of high-level information through a person increases dramatically. More information per unit of time — more load.
 
-Кроме того, появился тренд на параллельную разработку фич или даже проектов. Я несколько раз пробовал — это очень тяжело. Переключаться между несколькими разнородными задачами сложнее, чем между разными уровнями одной задачи (например, между проектированием и кодингом).
+There is also a growing trend toward developing features or even entire projects in parallel. I have tried it a few times, and it is very taxing. Switching between several unrelated tasks is harder than switching between different levels of the same task, such as design and coding.
 
-Однако, на мой взгляд, это временный тренд — до тех пор, пока агенты не станут достаточно быстрыми, чтобы в переключении между задачами не было смысла. Или до тех пор, пока не подтвердится, что агенты не могут в долгую самостоятельную работу.
+However, I believe that this is a temporary trend — it will last until agents become fast enough that switching between tasks does not make sense. Or until it is confirmed that agents cannot work independently in the long run.
 
 ## Знания организации и контекст агентов
 
