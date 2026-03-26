@@ -247,18 +247,18 @@ So, the development process has been accelerated as well, but it's still unclear
 
 ### Assistant driven development vs agent driven development
 
-Любопытно сравнить влияние на разработку умного автодополнения/inline редактирования кода (например, Copilot) и разработку через агентов.
+It is interesting to compare the impact on development of smart code completion and inline editing tools such as Copilot, on the one hand, and agent-based development, on the other.
 
-На моём опыте:
+In my experience:
 
-- Copilot позволяет достичь той же скорости кодинга, что и агенты. А на малых задачах даже большей.
-- Copilot не вырывает программиста из [потока]{post:flow-psychology-of-optimal-experience}.
+- Copilot allows you to achieve the same coding speed as agents, and even higher on small tasks.
+- Copilot does not break the programmer out of the [flow]{post:flow-psychology-of-optimal-experience}.
 
-За счёт фокуса на локальности изменений Copilot часто предлагает более корректный с точки зрения контекста код.
+Because of the focus on the locality of changes, Copilot often suggests code that is more correct for its context.
 
-Поэтому, когда я работаю над проектом, который хорошо знаю, и чётко представляю что должно быть сделано, я предпочитаю вносить правки руками — это и быстрее, и надёжнее.
+That's why, when I work on a project that I know well, and I have a clear picture of what needs to be done, I prefer to make the changes by hand — it is both faster and more reliable.
 
-Похожие отзывы я получаю и от коллег — никто из моих знакомых не перешёл на разработку только агентами.
+I have been getting similar feedback from colleagues — none of my acquaintances has switched to development solely through agents.
 
 ## Изменение нагрузки на разработчика
 
