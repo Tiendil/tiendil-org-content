@@ -301,6 +301,7 @@
 // TODO: open source (?)
 // TODO: AI
 // TODO: CI/CD
+// TODO: incidents and metrics
 
 /////////////////////////////////////////////////
 // New draft text is above this line, old text is below
