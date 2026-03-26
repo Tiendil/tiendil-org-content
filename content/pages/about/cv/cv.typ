@@ -186,6 +186,7 @@
 
 #section[Summary]
 
+// TODO: Hands-on technical leader who still writes code
 // TODO: team as a part of the product
 
 - *19 years in software development:* took on many roles, delivered a wide variety of projects.
@@ -203,20 +204,22 @@
   expertise_block(
     "Product & Team Bootstrapping",
     (
-        "a",
-        "Knowledgable pivoting",
+        "Architecture bootstrapping",
+        "Team scaling (0 → ∞)",
+        "Knowledgable pivoting",  // Lean-based pivoting / Lean pivoting
         "Balancing scope of work with team capabilities",
-        "Team / Product / Processes maturity",
+        "Team / Product / Processes maturity",  // managing
     ),
   ),
   expertise_block(
     "Strategic Planning & Execution",
     (
         "a",
-        "b",
-        "Work transparency advocate",
+        "Change management",
+        "Work / processes transparency advocating",
         "Tech-debt optimization",
         "Release cadence & pace"
+        // TODO: something about planing
     ),
   ),
   expertise_block(
@@ -225,6 +228,7 @@
         "Team self-governance",
         "Team self-regulation",
         "Distributed / Remote work",
+        // TODO: something about ownership
     ),
   ),
   expertise_block(
@@ -232,51 +236,50 @@
     (
       "a",
       "b",
-      "c",
+        "Mentoring",
+        "Code review", // Deep code review?
+        // TODO: something aboyt
     ),
   ),
   expertise_block(
     "Research & Development",
     (
-      "a",
-      "b",
-      "c",
+        "a",
+        "b",
+        "c",
+        "Prototyping",
+        // TODO: feedback collections (polls, interviews, etc.)
+        // TODO: graphs, algorithms, logic programming, gamedev, ai, etc.
     ),
   ),
   expertise_block(
-    "Core Management",  // People management / Talent management
+    "Core Management",  // People management / Talent management | Extra / A Bit Extra
     (
         "a",
-        "b",
+        "Delegation",
         "Onboarding",
         "Hiring/firing"
     ),
   ),
 )
 
-/////////////////////////////////////////////////
-// New text is above this line, old text is below
-/////////////////////////////////////////////////
 
 // - team growth, mentored engineers, hiring/firing
 // - team maturity management
 //
 // TODO: "Tech Skills" -> "Hands-on Experience" / "Hands-on Tech Experience" (maybe move below the work) / Tech stack
 //       Or, tech skills as one of capabilities / primary experitese / strongest expertise
-// TODO: mention somewhere that I also ok and can work by hands.
-// TODO: communicating with third-parties / plain structure
-// TODO: architecture strategy
-// TODO: Hands-on technical leader who still writes code
-// TODO: core competences as tag blocks?
 // TODO: was responsible for backend of >1$M MMR projects
 // TODO: Talent Development & Team Scaling (0 → 25+)
-// TODO: building of solutions from the ground up
-// TODO: pivot
 // TODO: communicate with top management and hands-on workers (?)
 // TODO: analytical skills
 // TODO: open source (?)
-// TODO: team/processes maturity
 // TODO: AI
+// TODO: CI/CD
+
+/////////////////////////////////////////////////
+// New draft text is above this line, old text is below
+/////////////////////////////////////////////////
 
 // TODO: lines under section headers?
 #section[Tech Skills]
