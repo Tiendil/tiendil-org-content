@@ -276,44 +276,44 @@ There is also a growing trend toward developing features or even entire projects
 
 However, I believe that this is a temporary trend — it will last until agents become fast enough that switching between tasks does not make sense. Or until it is confirmed that agents cannot work independently in the long run.
 
-## Знания организации и контекст агентов
+## Organizational knowledge and agent context
 
-За весь период существования человечества было осуществлено бесчисленное количество попыток формализовать знания организации так, чтобы они были отделены от сотрудников. Особенно много подобных попыток было за последние лет 30, что понятным образом связано с развитием информационных технологий.
+Over the entire course of human history, humanity has made countless attempts to formalize organizational knowledge in such a way that separates it from employees. There have been especially many such attempts over the past thirty years or so, which is naturally connected to the development of information technology.
 
-Все эти попытки закончились крахом.
+All these attempts ended in failure.
 
-Насколько я представляю ситуацию, текущий консенсус заключается в том, что знания компании находятся в головах сотрудников и управляем мы этими знаниями через управление сотрудниками. Вынос информации на внешние носители — это вспомогательный инструмент, который дорог в использовании и не может нивелировать важность сотрудников как носителей знаний.
+As I see the situation, the current consensus is that company knowledge resides in the heads of employees, and we manage this knowledge through managing employees. Moving information to external carriers is an important auxiliary tool, but it is expensive in use and cannot negate the importance of employees as carriers of knowledge.
 
-/// note | Язык как инструмент коммуникации
+/// note | Language as a communication tool
 
-Есть разные взгляды на природу нашего мышления и место языка в нём. Однако справедливым будет сказать, что «стандартные» языки (русский, английский, etc.) — это скорее инструмент общения, а не [инструмент мышления]{post:talking-man}. Мы используем их для передачи информации друг другу.
+There are different views on the nature of thought and the place of language in it. Still, it is fair to say that "ordinary" languages — English, Russian, and so on — are primarily tools of communication rather than [tools of thought]{post:@choose-nearest-language:talking-man}. We use them to convey information to one another.
 
-То есть один человек сжимает свои мысли в формальную форму конкретного языка, а другой человек распаковывает эту формальную форму обратно в свои мысли.
+In other words, one person compresses their thoughts into the formal structure of a particular language, while another unpacks that structure back into thoughts of their own.
 
-Понятное дело, нет чётких правил перевода из мыслей в язык и обратно — мы изучаем их на практике на протяжении всей жизни. Например, часто одно и то же слово для разных людей значит разное, имеет разные оттенки.
+Obviously, there are no clear rules for translating from thoughts to language and back — we learn them in practice throughout our lives. For example, the same word often means different things to different people — has different shades of meaning.
 
-Поэтому справедливо утверждать, что при передаче информации человек-текст-человек часть информации теряется, часть искажается.
+Thus, it is fair to say that when information is transmitted along the chain person → text → person, some of it is lost and some of it gets distorted.
 
-Соответственно, какую бы документацию мы не написали, она будет неполной и искажённой.
+Accordingly, no matter which documentation we write, it will always be incomplete and distorted.
 
-Также справедливо утверждать, что язык, как формальная система, не позволяет точно описывать реальность во всём её многообразии и сложности.
+Also, it is fair to say that language, as a formal system, does not allow us to accurately describe reality in all its diversity and complexity.
 
-Это порождает вопрос: **До какого предела агенты, использующие LLM, способны эффективно работать в реальном мире, учитывая несовершенность их основного инструмента (языка)?**
+That leads to the question: **To what extent are agents based on LLMs capable of effectively working in the real world, given the imperfection of their main tool (language)?**
 
 ///
 
-Это справедливо и для чисто программистской части знаний, например, информации об архитектуре вашего продукта. При всём желании и старании вы не сможете формализовать в документах всю архитектуру более-менее сложного продукта за какие-то разумные ресурсы.
+That is true for purely programming-related knowledge as well, for example, information about your product's architecture. With all the desire and effort, you cannot formalize the entire architecture of a more or less complex product in text documents within reasonable resources.
 
-Соответственно.
+So.
 
-**Мы физически не можем предоставить агентам весь контекст, необходимый для полностью самостоятельной работы.** Так как текущие агенты работают именно с текстовыми артефактами.
+**We are physically incapable of providing agents with the entire context required for fully autonomous work**, since current agents operate specifically on textual artifacts.
 
-Раз мы не можем формализовать все знания компании, чтобы агенты эффективно справлялись с любой задачей, нам необходимо проводить границу: «вот с этим работают агенты, поэтому мы формализуем знания для этого, а вот это остаётся людям».
+Since we cannot formalize all of a company's knowledge in a way that would let agents handle any task effectively, we need to draw a boundary: "agents work on this, so we formalize the knowledge needed for it, while all the rest remains to humans."
 
-Следовательно:
+Consequently:
 
-1. Ответственность за работу остаётся на человеке.
-2. Роль документации возрастает, но не любой, см. далее.
+1. The responsibility for the work remains with the human.
+2. The role of documentation grows, though not just of any kind of documentation — more on that below.
 
 ## Спецификации
 
