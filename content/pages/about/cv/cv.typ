@@ -215,14 +215,6 @@
     ),
   ),
   expertise_block(
-    "Hands-on Technical Leadership",
-    (
-      "a",
-      "b",
-      "c",
-    ),
-  ),
-  expertise_block(
     "High-Autonomy Engineering Teams",
     (
       "a",
@@ -231,7 +223,23 @@
     ),
   ),
   expertise_block(
+    "Hands-on Tech Leadership",
+    (
+      "a",
+      "b",
+      "c",
+    ),
+  ),
+  expertise_block(
     "Research & Development",
+    (
+      "a",
+      "b",
+      "c",
+    ),
+  ),
+  expertise_block(
+    "Core Management",
     (
       "a",
       "b",
