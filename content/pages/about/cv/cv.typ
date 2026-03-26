@@ -4,6 +4,7 @@
 #let color_link = rgb("#0000EE")
 #let color_footer_line = rgb("#CFD7E2")
 #let color_footer_text = rgb("#566171")
+#let color_intro_fill = rgb("#F7F9FC")
 
 #let text_style_base = (
   font: "Liberation Serif",
@@ -91,6 +92,19 @@
     #for item in items [
       - #item
     ]
+  ]
+]
+
+#let intro(body) = [
+  #block(
+    width: 100%,
+    inset: 9pt,
+    radius: 4pt,
+    fill: color_intro_fill,
+    stroke: 0.6pt + color_footer_line,
+  )[
+    #set par(justify: true)
+    #body
   ]
 ]
 
@@ -187,7 +201,9 @@
 // TODO: introduce #intro block with a formatting for the summary.
 // TODO: delivered projects or products?
 
-Seasoned hands-on technical leader with 19 years of experience. Have a deep understanding of various roles and have delivered a wide variety of projects. Lead by example. Focus on a strong engineering culture based on self-governed, self-regulated teams that own their product. Look at the team as a part of the product and grow them in sync. Have broad technical expertise: from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
+#intro[
+  Seasoned hands-on technical leader with 19 years of experience. Have a deep understanding of various roles and have delivered a wide variety of projects. Lead by example. Focus on a strong engineering culture based on self-governed, self-regulated teams that own their product. Look at the team as a part of the product and grow them in sync. Have broad technical expertise: from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
+]
 
 // TODO: move to fun facts? "Delivered 4 payment systems to production with 0 critical incidents on my watch."
 
