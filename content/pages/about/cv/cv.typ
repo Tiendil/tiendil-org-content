@@ -184,6 +184,14 @@
 // Body
 ///////
 
+// TODO: introduce #intro block with a formatting for the summary.
+// TODO: delivered projects or products?
+
+Seasoned hands-on technical leader with 19 years of experience. Have a deep understanding of various roles and have delivered a wide variety of projects. Lead by example. Focus on a strong engineering culture based on self-governed, self-regulated teams that own their product. Look at the team as a part of the product and grow them in sync. Have broad technical expertise: from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
+
+// TODO: move to fun facts? "Delivered 4 payment systems to production with 0 critical incidents on my watch."
+
+/* old summary as a list
 #section[Summary]
 
 // TODO: Hands-on technical leader who still writes code
@@ -194,6 +202,7 @@
 - *Lead by example:* step into the roles a project needs most and help colleagues grow beyond their current ones.
 - *Broad technical expertise:* from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
 - Delivered 4 payment systems to production with 0 critical incidents on my watch.
+*/
 
 #section[Areas of Expertise]
 
