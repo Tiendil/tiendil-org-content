@@ -315,38 +315,40 @@ Consequently:
 1. The responsibility for the work remains with the human.
 2. The role of documentation grows, though not just of any kind of documentation — more on that below.
 
-## Спецификации
+## Specifications
 
-**Становится важна документация, которая превращает задачи на разработку в задачи на кодинг**, а роль LLM сводит к решению локальных вопросов. Примеры:
+**Documentation, which turns development tasks into coding tasks and reduces the role of LLMs to solving local issues, becomes much more important.**
 
-- стандартный способ обработки ошибок в коде;
-- стандартный способ организации кода на файловой системе;
-- стандартный способ оформления тестов;
-- библиотека цветов, разрешённых для использования в UI с правилами их использования;
-- библиотека стандартных компонентов интерфейса;
-- алгоритмы разрешения стандартных ситуаций, вопросов, etc.
+Examples:
 
-Создание подобных спецификаций помогает не только агентам, но и людям, так как запускает [мышление письмом]{post:thinking-through-writing}.
+- a standard way of handling errors in code;
+- a standard way of structuring code in the file system;
+- a standard way of organizing tests;
+- a library of colors allowed for use in the UI with rules for their application;
+- a library of standard UI components;
+- algorithms for resolving standard issues, questions, etc.
 
-К сожалению, появляется риск превращения спецификаций в код, что создаёт лишнюю работу: сначала мы разрабатываем спецификацию-как-код, потом переносим её один в одни в код.
+Creation of such specifications helps not only agents but also people, as it activates [thinking through writing]{post:thinking-through-writing}.
 
-Отчасти поэтому программисты часто проектируют и кодят одновременно — часто разница между детальной спецификацией и кодом отсутствует.
+Sadly, the risk arises of turning specifications into code, which leads to extra work: first, we develop a specification-as-code, then we transfer it one-to-one into code.
 
-На тему спецификаций-как-кода как раз на днях появилось интересное эссе [A sufficiently detailed spec is code](https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code), вот отличная цитата из него:
+Partly because of this, programmers often design and code simultaneously — often there is no difference between a detailed specification and code.
+
+There is an interesting essay appeared recently on this topic: [A sufficiently detailed spec is code](https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code), here is a great quote from it:
 
 > Specification work is supposed to be harder than coding. Typically the reason we write specification documents before doing the work is to encourage viewing the project through a contemplative and critical lens, because once coding begins we switch gears and become driven with a bias to action.
 
-То есть создание спецификации-как-кода может замедлять разработку.
+So, creating a specification-as-code can definitely slow down development.
 
-Пример подобной спецификации есть в статье по ссылке. По сути, это может быть любая спека фичи, проработанная до мельчайших деталей (модель данных, алгоритмы).
+An example of such a specification can be found in the mentioned article. In essence, it can be any feature specification worked out in great detail (data model, algorithms).
 
-/// note | Кода становится больше
+/// note | The amount of code increases
 
-Поскольку LLM работают только с текстом, то ваш проект так или иначе всё ещё определяется кодом, который вы пишете.
+Since LLMs work only with text, your project is still defined by the code you write in one way or another.
 
-Раньше это был очень формальный код и немного менее формального в виде документации.
+Before it was mostly a very formal code and a bit less "less formal" code as documentation.
 
-Сейчас это больше очень формального кода (он же генерится!) и больше менее формального, который вы пишете (он же нужен агентам!).
+Currently, it is much more of a very formal code (the code is generated!) and more of a "less formal" code that you write (which is needed for agents!).
 
 ///
 
