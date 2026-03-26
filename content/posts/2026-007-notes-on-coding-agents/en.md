@@ -219,31 +219,31 @@ How such situations look like:
 
 Thus, agents are very useful when the context completely defines what needs to be done. It's a bit like [wave function collapse](https://en.wikipedia.org/wiki/Wave_function_collapse) during measurement or, equivalently, [procedural generation through wave function collapse](https://blog.ptidej.net/procedural-generation-using-wave-function-collapse/).
 
-### Скорость разработки увеличилась в некоторых случаях
+### The speed of development has increased — in some cases
 
-Первым делом надо отметить концептуальные причины того, что скорость разработки не может увеличиться в той же степени, что и скорость кодинга.
+Let's start by noting that there are conceptual reasons why the speed of development cannot increase to the same extent as the speed of coding.
 
-**Во-первых**, скорость разработки ограничена скоростью проверки гипотез, а значит — прямо или косвенно — скоростью реакции пользователей на изменения. Пользователи — это люди — скорость их жизни не поменялась. Они всё ещё существуют в дневных, недельных, месячных и годичных циклах. Даже если ваш продукт чисто виртуальный, для получения реакции от вселенной на фичу нужно хотя бы неделю подождать.
+**First**, the speed of development is limited by the speed of hypothesis testing, which means — directly or indirectly — by the speed of users' reaction to changes. Users are people — their life speed has not changed. They still exist in daily, weekly, monthly, and yearly cycles. Even if your product is purely virtual, you need to wait at least a week to get a reaction from the universe on a new feature.
 
-**Во-вторых**, текущие агенты плохи в планировании и сложном анализе. Отчасти из-за [вероятностной природы LLM]{post:ai-notes-2024-generative-knowledge-base} отчасти из-за молодости технологии. Все «эксперименты с долгосрочным планированием», которые я видел, в итоге либо проваливались (спасибо организаторам за честность), либо превращались в торжество победившего маркетинга, за которым скрывался провал.
+**Second**, the current agents are bad at planning and complex analysis. Partly due to the [probabilistic nature of LLMs]{post:ai-notes-2024-generative-knowledge-base}, partly due to the youth of the technology. All "long-term planning experiments" I've seen either ended up failing (let's thank the organizers for their honesty) or turned into a marketing victory parade hiding a failure.
 
-Поскольку проектирование и анализ у программистов начинают занимать большую часть рабочего времени уже где-то с уровня сеньора, можно утверждать, что радикальные улучшения затрагивают меньшую долю рабочего времени.
+Since design and analysis take up a larger part of the working time for programmers starting somewhere from the senior level, it can be argued that radical improvements affect a smaller share of working time.
 
-**В-третьих**, параллелизация разработки не увеличивает её скорость линейно — всегда есть сопутствующие затраты на синхронизацию. Чем больше параллельных треков разработки, тем медленнее движется каждый трек.
+**Third**, parallelization of development does not increase its speed linearly — there are always associated costs for synchronization. The more parallel development tracks you have, the slower each track moves.
 
-В то же время, агенты позволяют (или смогут позволить) ускорять некоторые аспекты разработки:
+Meanwhile, agents allow (or will allow) to speed up some aspects of development:
 
-- Мы не можем ускорить финальную [проверку гипотез]{post:hypothesis-testing-loop}, но, гипотетически, можем симулировать поведение пользователей как ещё один этап планирования. Это не ускорит разработку конкретной фичи, но может уменьшить долю ошибок и увеличить качество, тем самым снизив среднее время доставки фичи до пользователей.
-- Мы не можем полностью доверить планирование агентам, но можем отдать им существенную часть сбора данных и их предварительного анализа.
+- We cannot speed up the final [hypothesis testing]{post:hypothesis-testing-loop}, but hypothetically, we can simulate user behavior as another stage of planning. This will not speed up the development of a specific feature, but it can reduce the share of mistakes and increase overall quality, thus reducing the average time to deliver a feature to users.
+- We cannot fully entrust planning to agents, but we can delegate a significant part of data collection and preliminary analysis to them.
 
-В чём агенты хороши, так это в прототипировании:
+What agents are genuinely good at is prototyping:
 
-- как в создании отдельных прототипов;
-- так и в прототипировании изменений в существующем коде, что позволяет уточнять требования и итерационно доводить изменения до нужного уровня качества.
+- both building standalone prototypes;
+- and prototyping changes to existing code, which helps refine requirements and iteratively bring those changes up to the required level of quality.
 
-То есть разработка в целом тоже ускоряется, но пока непонятно насколько и в каких местах именно.
+So, the development process has been accelerated as well, but it's still unclear to what extent and in which areas exactly.
 
-**Под давлением новых инструментов разработка может сильнее сдвинуться в сторону прототипирования, когда софт будет рассматриваться как множество прототипов функциональности, которые итерационно доводятся до нужного уровня качества в режиме перманентного экспериментирования.**
+**Under pressure from new tools, development may shift further toward prototyping, with software increasingly treated as a collection of functional prototypes that are iteratively refined to the required level of quality through continuous experimentation.**
 
 ### Assistant driven development vs agent driven development
 
