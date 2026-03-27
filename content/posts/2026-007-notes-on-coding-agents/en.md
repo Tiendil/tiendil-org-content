@@ -473,16 +473,16 @@ Instead, there will be pair documenting. The essence is the same, but it's about
 
 By the way, I have an excellent essay analyzing [two years of writing specs as a team]{post:two-years-writing-rfc-statistics}.
 
-### Время глобальных рефакторингов
+### The era of large-scale refactorings
 
-Агенты способны за разумное время делать глобальные рефакторинги, на которые раньше не было времени из-за необходимости длительного вычитывания логики в куче файлов.
+Agents can carry out large-scale refactorings in a reasonable time, which previously was not possible due to the need for painfully long tracing of logic across a pile of files.
 
-Они их делают не идеально, но:
+Agents do that not perfectly, but:
 
-- Ревью поверх правок значительно быстрее, удобнее и менее напряжно, чем вдумчивое изменение кода.
-- Правильные спеки могут делать некоторые рефакторинги тривиальными.
+- Code review of such changes is much faster, more convenient, and less stressful than thoughtful change of the same amount of code.
+- The right specs can make some refactorings trivial.
 
-В теории, это может улучшить среднюю температуру по больнице в области качества архитектуры и актуальности кода, что позитивно скажется на жизни разработчиков.
+In theory, this can improve the average architecture quality and code relevance, which will positively affect life of developers.
 
 ## Потеря контроля
 
