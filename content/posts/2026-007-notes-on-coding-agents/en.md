@@ -386,7 +386,7 @@ On top of that, you stop learning as well! Before agents, developers had to lear
 
 It is an open question whether it is possible to reliably delegate long-term code management to agents.
 
-## Изменения в стратегии разработки
+## Changes in the development strategy
 
 ### Агенты меняют скорость, но не качество
 
