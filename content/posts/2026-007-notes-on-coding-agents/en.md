@@ -457,13 +457,13 @@ The situation is further complicated by the fact that there is more knowledge in
 
 This is something we simply have to accept and live with. Ideally, the team should discuss it openly and agree on a few heuristics to avoid conflicts.
 
-### Ускорение обмена информацией
+### Faster information exchange
 
-Ускорение работы ведёт к ускорению потока информации и ускорению изменений. В зрелой команде теперь намного сложнее одному человеку быть в курсе всех событий, мониторить и направлять изменения.
+Faster work leads to a faster flow of information and faster changes introduction. In a mature team, it becomes much harder for a single person to stay informed about all events, monitor and steer changes.
 
-Ещё больше возрастает (куда уж больше-то) важность самостоятельности сотрудников, владения проектом, здоровой коммуникации.
+That leads to even greater (can it be greater?) importance of employee autonomy, ownership of the project, and healthy communication.
 
-Никакие утренние стендапы догнать мир не помогут. Только асинхронная проактивная коммуникация — каждый должен пушить свой прогресс в какой-нибудь Slack и делать это так, чтобы поток событий не превращался в спам. Иначе будут разрабатываться N (по количеству разработчиков) параллельных слабо связанных проектов вместо одного.
+No morning stand-up will help you catch up with the world. Only asynchronous, proactive communication will: everyone has to push their progress into some Slack channel, and do so in a way that keeps the stream of events from turning into spam. Otherwise, instead of one project, you will end up with N loosely connected parallel ones — where N is the number of developers.
 
 ### Парное документирование
 
