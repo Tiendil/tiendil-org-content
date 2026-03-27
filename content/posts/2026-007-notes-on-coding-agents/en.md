@@ -396,11 +396,11 @@ Accordingly, the role of decision-making processes and quality control processes
 
 If you make a mistake, the consequences will catch up with you much faster than before — there is far less time left to stop a bad idea from being implemented.
 
-### Возрастает роль автоматизации
+### The role of automation increases
 
-Или нет, зависит от того как конкретная команда на эту штуку смотрела.
+Or not — it depends on how a particular team approached this thing before.
 
-В моей картине мира автоматизация — это основной способ контроля качества, поэтому у меня мало что меняется. Но для многих это всё ещё скорее способ ускорения доставки фич в прод ([CI/CD](https://ru.wikipedia.org/wiki/CI/CD)) и только вспомогательный способ контроля качества. В последнем случае переход на разработку через агентов потребует пересмотреть взгляды на мир.
+In my world view, automation is the primary way of ensuring quality, so not much changes for me. But for many, it's still more of a way to speed up features delivery to production — [CI/CD](https://en.wikipedia.org/wiki/CI/CD) — and only secondarily a tool for quality control. In the latter case, switching to agent-driven development will require a serious revision of how people think about the world.
 
 ### «Достаточное качество» как новый стандарт
 
