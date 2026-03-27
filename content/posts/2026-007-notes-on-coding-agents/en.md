@@ -410,15 +410,15 @@ In the case of agent-driven development, achieving perfect code is rather imposs
 
 This will almost certainly cause developers a lot of pain, at least at first. But overall, it is probably for the better.
 
-### Инкрементальная разработка становится более важной практикой
+### Incremental development grows in importance
 
-Суть инкрементальной разработки на прикладном уровне в том, что вы не фигачите все правки за раз, а делаете их поэтапно, убеждаясь, что между этапами проект остаётся рабочим. Это позволяет значительно снизить вероятность внесения ошибок.
+The core idea of the incremental development is that you don't make all the changes at once, but break them down into stages, making sure that the project remains in consistent and working state between stages. This approach significantly reduces the likelihood of introducing bugs.
 
-Неудобно называть это практикой для ответственных продвинутых разработчиков, но де факто это так. Многие ей пренебрегают, на мой взгляд, из-за лени и некоторой болезненности циклического рефакторинга одного и того же места.
+It feels awkward to call this a practice for responsible, seasoned developers, but de facto that is what it is. In my view, many people neglect it out of laziness and because a repeated refactoring of the same code is, to some extent, a painful activity.
 
-Поскольку у агентов сложности с консистентным внесением крупных изменений, это естественным образом вынуждает производить их поэтапно — то есть разрабатывать инкрементально.
+However, since agents have troubles with introducing large consistent changes, it should naturally force us to introduce changes in stages — that is, to develop incrementally.
 
-Причина внедрения практики выглядит не очень позитивно, но сама практика однозначно пойдёт на пользу.
+The reason for adopting this practice looks not very positive, but the practice itself will definitely be beneficial.
 
 ### Формальная верификация становится проще и полезнее
 
