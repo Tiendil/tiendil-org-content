@@ -352,17 +352,17 @@ Currently, it is much more of a very formal code (the code is generated!) and mo
 
 ///
 
-## Workflows и linters как идеальные спецификации
+## Workflows and linters as ideal specifications
 
-Если наши спеки начинают стремиться к уменьшению сложного планирования, то логичным следствием этого стремления будет их автоматизация — превращение в полностью автоматические процессы и инструменты:
+**If your specs are focused on reducing complex planning, then a logical consequence of this focus will be their automation** — turning specs into fully automated processes and tools:
 
-- «Утилита» для исправления имён переменных, согласно стандартам.
-- «Утилита» для исправления иерархии ошибок и кода их обработки.
-- «Утилита» для написания пропущенных тестов.
+- A "tool" for fixing variable names according to standards.
+- A "tool" for fixing the hierarchy of errors and the code that handles them.
+- A "tool" for writing missing tests.
 
-То есть агент превращается в машину состояний, и это сейчас стандартный способ описания специализированных агентов. Об этом же и мой пет-проект [Donna](https://github.com/Tiendil/donna).
+In other words, the agent becomes an executable specification — a state machine — and that is currently the standard way to describe specialized agents. My pet project [Donna](https://github.com/Tiendil/donna) is about the same idea.
 
-**Этот подход может привести к появлению отдельного реактивного слоя, схожего с [CI](https://ru.wikipedia.org/wiki/Непрерывная_интеграция), но находящегося ближе к разработчику.**
+**Such an approach can lead to the emergence of a separate reactive layer, similar to [CI](https://en.wikipedia.org/wiki/Continuous_integration), but closer to the developer.**
 
 ## Изменения в мышлении
 
