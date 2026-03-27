@@ -447,15 +447,15 @@ Taking into account the growing role of automation and formal verification, I wo
 
 Correspondingly, at the company level, this should result in the discipline of HarnessOps, analogous to DevOps.
 
-### Разделение полномочий между агентами и людьми
+### Separation of responsibilities between agents and humans
 
-Появляется деление задач на те, которые «правильно» делать агентами, и те, которые «правильно» делать людьми.
+Development tasks become divided into those that are "right" to delegate to agents, and those that are "right" to delegate to humans.
 
-Само собой, никто сейчас не знает где эта граница проходит и, учитывая природу людей, ещё долго будут споры и холивары на эту тему.
+Obviously, currently no one knows where this boundary lies, and keeping in mind the nature of people, there will be debates and holy wars on this topic for a long time.
 
-Ситуацию усложняет то, что знаний у человека в голове больше, чем можно за разумное время записать в контекст, поэтому иногда проще по-старинке вручную писать код, чем пытаться написать инструкцию что и как менять.
+The situation is further complicated by the fact that there is more knowledge in a person's head than can be transferred to the context in a reasonable time. So, sometimes it's easier to write code manually in the old-fashioned way than to try writing down instructions on what to change and how.
 
-Это надо просто принять и жить с этим. В идеале — обсудить в команде и выработать пару эвристик, чтобы избежать конфликтов.
+This is something we simply have to accept and live with. Ideally, the team should discuss it openly and agree on a few heuristics to avoid conflicts.
 
 ### Ускорение обмена информацией
 
