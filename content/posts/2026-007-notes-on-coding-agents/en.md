@@ -388,13 +388,13 @@ It is an open question whether it is possible to reliably delegate long-term cod
 
 ## Changes in the development strategy
 
-### Агенты меняют скорость, но не качество
+### Agents change speed, but not quality
 
-Кто делал плохую работу, тот сейчас делает её в разы быстрее (и больше), а может и в худшем качестве.
+Who've done a bad job before, now does it much faster (in greater quantity), and maybe in worse quality.
 
-Соответственно, значительно возрастает роль процессов принятия решений и процессов контроля качества.
+Accordingly, the role of decision-making processes and quality control processes increases significantly.
 
-Если вы ошиблись, то последствия вас догонят куда быстрее, чем раньше — времени остановить реализацию плохой идеи остаётся гораздо меньше.
+If you make a mistake, the consequences will catch up with you much faster than before — there is far less time left to stop a bad idea from being implemented.
 
 ### Возрастает роль автоматизации
 
