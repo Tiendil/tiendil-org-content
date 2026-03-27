@@ -402,13 +402,13 @@ Or not — it depends on how a particular team approached this thing before.
 
 In my world view, automation is the primary way of ensuring quality, so not much changes for me. But for many, it's still more of a way to speed up features delivery to production — [CI/CD](https://en.wikipedia.org/wiki/CI/CD) — and only secondarily a tool for quality control. In the latter case, switching to agent-driven development will require a serious revision of how people think about the world.
 
-### «Достаточное качество» как новый стандарт
+### "Sufficient quality" as the new standard
 
-Стремление добиваться максимально возможного качества (в ущерб экономической целесообразности) — это довольно распространённая проблема в разработке. Она особенно заметна у программистов, так как формальная природа и математичность кода провоцируют стремление к его (субъективной) идеальности.
+The pursuit of the highest possible quality, even at the expense of economic viability, is a fairly common problem in software development. It is especially noticeable among programmers, because the formal and mathematical nature of code encourages the pursuit of its (subjective) perfection.
 
-При разработке через агентов добиваться идеального кода скорее невозможно из-за вероятностной природы LLM. По крайней мере на текущем этапе развития технологии. Поэтому «достаточное качество» становится единственным возможным уровнем качества, к которому можно стремиться.
+In the case of agent-driven development, achieving perfect code is rather impossible due to the probabilistic nature of LLMs. At least at the current stage of technology development. Therefore, "sufficient quality" becomes the only possible level of quality to strive for.
 
-Это наверняка будет приносить много боли разработчикам, по крайней мере поначалу. Но, в целом, скорее благо.
+This will almost certainly cause developers a lot of pain, at least at first. But overall, it is probably for the better.
 
 ### Инкрементальная разработка становится более важной практикой
 
