@@ -437,15 +437,15 @@ In addition, thanks to modern introspection tools, developers should be able to 
 
 That's why I expect the growth of popularity of complex tools for formal code verification.
 
-### Harness Engineer — новая роль
+### Harness Engineer is a new role
 
-В последние месяцы родился такой термин, как harness — программная обвязка вокруг агентов, которая обеспечивает их нужными инструментами, данными, контекстом и, в том числе, проверяет их работу с помощью линтеров и прочих формальных проверок.
+A new term has emerged in recent months — harness — a software around agents that provides them with the necessary tools, data, context, and, among other things, checks their work through linters and other forms of formal verification.
 
-Агенты без хорошего Harness — это как проект без CI/CD — ничего хорошего из этого не выйдет.
+Agents without a strong harness are like a project without CI/CD — nothing good will come of it.
 
-Учитывая возрастающую роль автоматизации и формальных проверок, я рискну предположить, что появится как минимум отдельная роль — Harness Engineer, который будет отвечать за разработку и поддержку harness для агентов.
+Taking into account the growing role of automation and formal verification, I would venture to suggest that there will emerge at least a separate role — Harness Engineer, who will be responsible for developing and maintaining the harness for agents within a company/product/team.
 
-Соответственно, на уровне компаний это должно породить дисциплину HarnessOps по аналогии с DevOps.
+Correspondingly, at the company level, this should result in the discipline of HarnessOps, analogous to DevOps.
 
 ### Разделение полномочий между агентами и людьми
 
