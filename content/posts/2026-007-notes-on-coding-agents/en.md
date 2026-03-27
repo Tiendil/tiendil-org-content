@@ -364,27 +364,27 @@ In other words, the agent becomes an executable specification — a state machin
 
 **Such an approach can lead to the emergence of a separate reactive layer, similar to [CI](https://en.wikipedia.org/wiki/Continuous_integration), but closer to the developer.**
 
-## Изменения в мышлении
+## Changes in the mindset
 
-При использовании агентов программист вынужден менять свой образ мышления.
+To successfully use agents, a programmer need to change their mindset.
 
-**Во-первых**, первым делом надо думать «как это сделать агентом», а не сразу делать руками.
+**First**, before anything else, you need to think "how to do this with an agent" rather than immediately go hands-on.
 
-**Во-вторых**,  выполнение задачи агентом отличается от выполнения задачи человеком, из-за вероятностной природы LLM. Поэтому формулировки задач, этапы их выполнения и порядок этих этапов могут отличаться от того, что было бы оптимально для человека. Это надо держать в голове.
+**Second,** an agent does not execute a task the same way a human does, because of the probabilistic nature of LLMs. As a result, the way tasks are described, the stages of their execution, and the order of those stages may differ from what would be optimal for a human. That is something to keep in mind.
 
-В частности, LLM очень чувствительны к точности формулировок — там, где человек «сам догадается», агент гарантированно поймёт задачу неправильно.
+In particular, LLMs are highly sensitive to the wording. Where a human would "figure it out themselves," an agent will misunderstand the task for sure.
 
-**В-третьих**, если вы разрабатываете преимущественно через агентов, то вы больше не держите в голове весь ваш код, только его высокоуровневую картину.
+**Third**, when you develop primary through agents, you no longer keep the entire code in your head, only its high-level view.
 
-Это радикально меняет динамику разработки, изменяет что вы можете сделать руками, а что не можете.
+This radically changes the dynamics of developmen: what you can do by hand and what you cannot.
 
-Вы перестаёте быть источником правды о проекте. Соответственно, вы теряете возможность валидировать вносимые агентом изменения — это могут делать только другие агенты и ваша автоматизация.
+You stop being the source of truth about the project. As a result, you lose the ability to validate the changes made by the agent — only other agents and your automation can do that now.
 
-Кроме того, вы также не учитесь! До агентов, разработчик был вынужден изучать каждую новую штуку, которую он использовал — это органичным образом расширяло его знания и понимание области. Если написание кода полностью переходит к агентам, этот важный аспект развития программиста пропадает.
+On top of that, you stop learning as well! Before agents, developers had to learn every new thing they used, and that naturally expanded both their knowledge and their understanding of the domain. If writing code is handed over entirely to agents, that important part of a programmer's self-development disappears.
 
-**Третий пункт я считаю источником большого риска и проблем, которые пока непонятно, как решать.**
+**I consider the third point to be a source of great risk and problems that are currently unclear how to solve.**
 
-Возможно ли надёжно делегировать агентам долгосрочное управление кодом — это открытый вопрос.
+It is an open question whether it is possible to reliably delegate long-term code management to agents.
 
 ## Изменения в стратегии разработки
 
