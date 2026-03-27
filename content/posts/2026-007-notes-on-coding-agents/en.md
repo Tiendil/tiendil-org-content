@@ -420,22 +420,22 @@ However, since agents have troubles with introducing large consistent changes, i
 
 The reason for adopting this practice looks not very positive, but the practice itself will definitely be beneficial.
 
-### Формальная верификация становится проще и полезнее
+### Formal verification becomes easier and more useful
 
-До появления агентов было, ммм… два множества инструментов для формальной верификации:
+Before AI agents, there were, let's say, two sets of tools for formal verification:
 
-- простые инструменты, которые реально использовались: контроль типов, отслеживание типичных ошибок с помощью линтеров, etc.
-- сложные инструменты, которые практически нереально использовать из-за сложности и требуемого времени.
+- Easy-to-use tools that are practical and widely adopted: type checking, linters for tracking typical errors, etc.
+- Overcomplicated hardcore tools that are impractical to use due to their complexity and the time required to support them.
 
-К последним можно отнести, например, контроль выполнимости кода, формальные спецификации, контроль связанности модулей, etc.
+The latter include, for example, termination guarantees, formal specifications for concurrent code, and control over module coupling, among other things.
 
-Агенты позволяют убрать большую часть проблем от использования сложных инструментов, так как забирают на себя большую часть работы по интерпретации ошибок и их исправлению.
+Agents eliminate most of the problems that come with using complex tools, because they take over most of the work of interpreting errors and fixing them.
 
-Одновременно эти инструменты особенно нужны для агентов, чтобы ограничивать их полёт фантазии. Например, контроль доменных зон через контроль импортов (какие модули может использовать каждая часть проекта) должен значительно сокращать случаи помещения кода не в то место.
+Simultaneously, these tools are especially needed for agents to limit their probabilistic freedom. For example, control over domain areas through control of imports (which modules can be used by each part of the project) should significantly reduce cases of putting code in the wrong place.
 
-Плюс, благодаря современным инструментам интроспекции разработчики должны быть в состоянии писать собственные тесты на специфические для их проекта правила и стандарты.
+In addition, thanks to modern introspection tools, developers should be able to write their own tests for rules and standards specific to their project.
 
-Поэтому я ожидаю рост популярности сложных инструментов формальной верификации кода.
+That's why I expect the growth of popularity of complex tools for formal code verification.
 
 ### Harness Engineer — новая роль
 
