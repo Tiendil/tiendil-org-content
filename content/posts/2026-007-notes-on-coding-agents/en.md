@@ -465,13 +465,13 @@ That leads to even greater (can it be greater?) importance of employee autonomy,
 
 No morning stand-up will help you catch up with the world. Only asynchronous, proactive communication will: everyone has to push their progress into some Slack channel, and do so in a way that keeps the stream of events from turning into spam. Otherwise, instead of one project, you will end up with N loosely connected parallel ones — where N is the number of developers.
 
-### Парное документирование
+### Pair documenting
 
-Поскольку кодинг уходит на сторону агентов, от нас уходит и (довольно эффективная) практика [парного программирования](https://ru.wikipedia.org/wiki/Парное_программирование).
+Since agents are taking over coding, we are also losing (a rather effective) practice of [pair programming](https://en.wikipedia.org/wiki/Pair_programming).
 
-Вместо неё теперь будет парное документирование — суть та же, только про разработку спецификаций и значительно легче в применении, так как личные предпочтения в кодинге перестают быть проблемой.
+Instead, there will be pair documenting. The essence is the same, but it's about developing specifications and much easier to apply, as personal coding preferences cease to be a problem.
 
-Кстати, у меня есть отличное эссе с анализом [двух лет практики командного написания спек]{post:two-years-writing-rfc-statistics}.
+By the way, I have an excellent essay analyzing [two years of writing specs as a team]{post:two-years-writing-rfc-statistics}.
 
 ### Время глобальных рефакторингов
 
