@@ -239,15 +239,12 @@
   expertise_block(
     "Strategic Planning & Execution",
       (
-        "Risks assessment and mitigation",
-        "Atchitecture & team evolution design",  // it is kind of repeating the first block
-        "Data-driven planning", // or decision-making?
-        "RFC-driven decision-making and knowledge management",  // or only "RFC-driven knowledge management"
-        "Release cadence design",  // design is not the right term, it is more about "establishing" or "supporting"
-        "Technical-debt optimization",
-        // TODO: metrics/incidents-based planning and execution / tracebility?
-        // TODO: evidence-based/data-driven planning and execution — with focus on using not only old data but prognoses and projections into the future
-        // TODO: reaction to changes in the environment
+          "Risk assessment and mitigation",
+          "Architecture & team evolution design",  // it is kind of repeating the first block
+          "Data-driven planning",
+          "Cross-system knowledge management",  // in the sence "manage and link knowledge between different systems, such as jira, notion, tests, etc. including people themselves"
+          "Sustainable high-frequency delivery",
+          "Technical-debt control and optimization",
     ),
   ),
   expertise_block(
