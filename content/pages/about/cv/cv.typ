@@ -244,7 +244,7 @@
             "Long-range change orchestration",
             "Risk assessment and mitigation",
             "Data-informed planning",
-            "Cross-system knowledge architecture",
+            "Knowledge architecture across tools and teams",
             "Sustainable high-frequency delivery",
             "Technical-debt containment",
         ),
@@ -272,7 +272,8 @@
         "Mentoring",
         "Code review", // Deep code review?
         // TODO: something aboyt
-        // tools for devs?
+        // TODO: tools for devs?
+        // TODO: competency grows / personal career growth
     ),
   ),
   expertise_block(
