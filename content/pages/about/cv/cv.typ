@@ -223,30 +223,30 @@
 #section[Areas of Expertise]
 
 #grid(
-  columns: expertise_columns,
-  column-gutter: 12pt,
-  row-gutter: 8pt,
+    columns: expertise_columns,
+    column-gutter: 12pt,
+    row-gutter: 8pt,
     expertise_block(
-    "Product & Team Bootstrapping",
-      (
-          "Team formation and scaling",
-          "Architecture bootstrapping",
-          "Evidence-based pivoting",
-          "Early hypothesis-testing loops",
-          "Maturity-aware evolution of team, product, and architecture",
+        "Product & Team Bootstrapping",
+        (
+            "Team formation and scaling",
+            "Architecture bootstrapping",
+            "Evidence-based pivoting",
+            "Early hypothesis-testing loops",
+            "Maturity-aware evolution of team, product, and architecture",
+        ),
     ),
-  ),
-  expertise_block(
-    "Strategic Planning & Execution",
-      (
-          "Risk assessment and mitigation",
-          "Architecture & team evolution design",  // it is kind of repeating the first block
-          "Data-driven planning",
-          "Cross-system knowledge management",  // in the sence "manage and link knowledge between different systems, such as jira, notion, tests, etc. including people themselves"
-          "Sustainable high-frequency delivery",
-          "Technical-debt control and optimization",
+    expertise_block(
+        "Strategic Planning & Execution",
+        (
+            "Risk assessment and mitigation",
+            "Architecture & team evolution design",  // it is kind of repeating the first block
+            "Data-driven planning",
+            "Cross-system knowledge orchestration",
+            "Sustainable high-frequency delivery",
+            "Technical-debt containment",
+        ),
     ),
-  ),
   expertise_block(
     "High-Autonomy Engineering Teams",
     (
