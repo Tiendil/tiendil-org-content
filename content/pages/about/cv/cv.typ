@@ -241,15 +241,15 @@
     expertise_block(
         "Strategic Planning & Execution",
         (
-            "Long-range change orchestration",
+            "Long-term change orchestration",
             "Risk assessment and mitigation",
-            "Data-informed planning",
-            "Knowledge architecture across tools and teams",
+            "Data-based planning",
             "Sustainable high-frequency delivery",
             "Technical-debt containment",
+            "Knowledge flow design across people and tools",
         ),
     ),
-  expertise_block(
+    expertise_block(
     "High-Autonomy Engineering Teams",
     (
         "Team self-governance",
@@ -288,7 +288,7 @@
     ),
   ),
   expertise_block(
-    "Core Management",  // People management / Talent management | Extra / A Bit Extra
+    "People Management",
     (
         "a",
         "Delegation",
