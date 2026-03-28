@@ -256,11 +256,7 @@
             "Ownership-driven engineering culture",
             "Remote-first work organization",
             "Asynchronous processes design",
-            "Operation transparency advocating",
-            // "Operational transparency",
-            // "Transparent execution practices",
-            // Shared accountability through transparency
-            // Transparency-first team processes
+            "Business–engineering transparency"
         ),
     ),
   expertise_block(
