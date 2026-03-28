@@ -222,6 +222,8 @@
 
 #section[Areas of Expertise]
 
+// TODO: "I would gladly discuss any of these topics in detail."
+
 #grid(
     columns: expertise_columns,
     column-gutter: 12pt,
@@ -239,10 +241,10 @@
     expertise_block(
         "Strategic Planning & Execution",
         (
+            "Long-range change orchestration",
             "Risk assessment and mitigation",
-            "Architecture & team evolution design",  // it is kind of repeating the first block
-            "Data-driven planning",
-            "Cross-system knowledge orchestration",
+            "Data-informed planning",
+            "Cross-system knowledge architecture",
             "Sustainable high-frequency delivery",
             "Technical-debt containment",
         ),
