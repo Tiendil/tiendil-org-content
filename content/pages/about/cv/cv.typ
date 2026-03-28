@@ -241,10 +241,21 @@
     (
         "a",
         "Change management",
-        "Work / processes transparency advocating",
-        "Tech-debt optimization",
+        "Technical-debt optimization",
         "Release cadence & pace"
         // TODO: something about planing
+
+      // Long-term technical strategy design
+      // "Technical strategy development",
+      // "Execution planning under uncertainty",
+      // "Change management",
+      // "Technical-debt prioritization",
+      // "Release cadence design",
+      // "Operational transparency",
+        // "Transparent execution practices",
+        // tools for devs?
+        // Roadmap
+
     ),
   ),
   expertise_block(
@@ -253,7 +264,10 @@
         "Team self-governance",
         "Team self-regulation",
         "Distributed / Remote work",
+        "Work / processes transparency advocating",
         // TODO: something about ownership
+        // Cross-team dependency management
+        // TODO: cross-team communication
     ),
   ),
   expertise_block(
