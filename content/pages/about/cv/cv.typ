@@ -250,20 +250,19 @@
         ),
     ),
     expertise_block(
-    "High-Autonomy Engineering Teams",
-    (
-        "Team self-governance",
-        "Team self-regulation",
-        "Distributed / Remote work",
-        "Work / processes transparency advocating",
-        // "Operational transparency",
-        // "Transparent execution practices",
-        // TODO: something about ownership
-        // Cross-team dependency management
-        // TODO: cross-team communication
-        // TODO: learn on mistakes?
+        "High-Autonomy Engineering Teams",
+        (
+            "Team self-governance and self-regulation",
+            "Ownership-driven engineering culture",
+            "Remote-first work organization",
+            "Asynchronous processes design",
+            "Operation transparency advocating",
+            // "Operational transparency",
+            // "Transparent execution practices",
+            // Shared accountability through transparency
+            // Transparency-first team processes
+        ),
     ),
-  ),
   expertise_block(
     "Hands-on Tech Leadership",
     (
