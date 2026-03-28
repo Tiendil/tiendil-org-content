@@ -255,8 +255,8 @@
             "Team self-governance and self-regulation",
             "Ownership-driven engineering culture",
             "Remote-first work organization",
-            "Asynchronous processes design",
-            "Business–engineering transparency"
+            "Asynchronous process design",
+            "Transparent decision-making and work allocation",
         ),
     ),
   expertise_block(
