@@ -202,7 +202,7 @@
 // TODO: delivered projects or products?
 
 #intro[
-  Seasoned hands-on technical leader with 19 years of experience. Have a deep understanding of various roles; delivered a wide variety of projects. Focused on a strong engineering culture based on self-governed, self-regulated teams that own their product. Look at the team as a part of the product and grow them in sync. Have broad technical expertise: from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
+  Seasoned hands-on technical leader with 19 years of experience. Have a deep understanding of various roles; delivered a wide variety of projects. Focused on a strong engineering culture based on self-governed, self-regulated teams that own their product. Look at the team, processes and technologies as parts of the product and grow them in sync. Have broad technical expertise: from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
 ]
 
 // TODO: move to fun facts? "Delivered 4 payment systems to production with 0 critical incidents on my watch."
@@ -226,14 +226,14 @@
   columns: expertise_columns,
   column-gutter: 12pt,
   row-gutter: 8pt,
-  expertise_block(
+    expertise_block(
     "Product & Team Bootstrapping",
-    (
-        "Architecture bootstrapping",
-        "Team scaling (0 → ∞)",
-        "Knowledgable pivoting",  // Lean-based pivoting / Lean pivoting
-        "Balancing scope of work with team capabilities",
-        "Team / Product / Processes maturity",  // managing
+      (
+          "Team formation and scaling",
+          "Architecture bootstrapping",
+          "Evidence-based pivoting",
+          "Early hypothesis-testing loops",
+          "Maturity-aware evolution of team, product, and architecture",
     ),
   ),
   expertise_block(
