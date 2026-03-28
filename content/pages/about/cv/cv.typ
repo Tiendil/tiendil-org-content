@@ -238,24 +238,16 @@
   ),
   expertise_block(
     "Strategic Planning & Execution",
-    (
-        "a",
-        "Change management",
+      (
+        "Risks assessment and mitigation",
+        "Atchitecture & team evolution design",  // it is kind of repeating the first block
+        "Data-driven planning", // or decision-making?
+        "RFC-driven decision-making and knowledge management",  // or only "RFC-driven knowledge management"
+        "Release cadence design",  // design is not the right term, it is more about "establishing" or "supporting"
         "Technical-debt optimization",
-        "Release cadence & pace"
-        // TODO: something about planing
-
-      // Long-term technical strategy design
-      // "Technical strategy development",
-      // "Execution planning under uncertainty",
-      // "Change management",
-      // "Technical-debt prioritization",
-      // "Release cadence design",
-      // "Operational transparency",
-        // "Transparent execution practices",
-        // tools for devs?
-        // Roadmap
-
+        // TODO: metrics/incidents-based planning and execution / tracebility?
+        // TODO: evidence-based/data-driven planning and execution — with focus on using not only old data but prognoses and projections into the future
+        // TODO: reaction to changes in the environment
     ),
   ),
   expertise_block(
@@ -265,9 +257,12 @@
         "Team self-regulation",
         "Distributed / Remote work",
         "Work / processes transparency advocating",
+        // "Operational transparency",
+        // "Transparent execution practices",
         // TODO: something about ownership
         // Cross-team dependency management
         // TODO: cross-team communication
+        // TODO: learn on mistakes?
     ),
   ),
   expertise_block(
@@ -278,6 +273,7 @@
         "Mentoring",
         "Code review", // Deep code review?
         // TODO: something aboyt
+        // tools for devs?
     ),
   ),
   expertise_block(
