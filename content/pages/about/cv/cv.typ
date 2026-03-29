@@ -202,21 +202,6 @@
   Seasoned hands-on technical leader with 19 years of experience. Have a deep understanding of various roles; delivered a wide variety of products. Focused on a strong engineering culture based on self-governed, self-regulated teams that own their product. Look at the team, processes and technologies as parts of the product and grow them in sync. Have broad technical expertise: from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis. Can comfortably switch between hands-on engineering work and managerial duties — believe that a proper leader must be able to do both.
 ]
 
-// TODO: move to fun facts? "Delivered 4 payment systems to production with 0 critical incidents on my watch."
-
-/* old summary as a list
-#section[Summary]
-
-// TODO: Hands-on technical leader who still writes code
-// TODO: team as a part of the product
-
-- *19 years in software development:* took on many roles, delivered a wide variety of projects.
-- *Focused on engineering culture:* adaptability, ownership, quality, sustainable pace, transparency, and mutual respect.
-- *Lead by example:* step into the roles a project needs most and help colleagues grow beyond their current ones.
-- *Broad technical expertise:* from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
-- Delivered 4 payment systems to production with 0 critical incidents on my watch.
-*/
-
 #section[Areas of Expertise]
 
 // TODO: "I would gladly discuss any of these topics in detail."
@@ -290,20 +275,16 @@
   ),
 )
 
-// TODO: was responsible for backend of >1$M MMR projects
+
 // TODO: Talent Development & Team Scaling (0 → 25+)
 // TODO: communicate with top management and hands-on workers (?)
-// TODO: analytical skills
 // TODO: open source (?)
 // TODO: AI
-// TODO: CI/CD
-// TODO: incidents and metrics
 
 /////////////////////////////////////////////////
 // New draft text is above this line, old text is below
 /////////////////////////////////////////////////
 
-// TODO: lines under section headers?
 #section[Technical Scope]
 
 #key_value("Domains", "reliable backend systems, payment systems, game backends, game logic, API design, third-party API integrations, internal tooling, web frontends")
@@ -485,6 +466,8 @@ Web-based news reader with tags, scoring, and AI.
 // TODO: add donna somewhere?
 // TODO: Spoken languages: English, Russian
 // TODO: notes: relocation is possible, but with nuances and I prefer remote work.
+// TODO: move to fun facts? "Delivered 4 payment systems to production with 0 critical incidents on my watch."
+// TODO: was responsible for backend of >1$M MMR projects
 
 /////////
 // Footer
