@@ -177,7 +177,8 @@
         spacing: 6pt,
         text(..text_style_header_name)[Aliaksei Yaletski],
         [CTO | Board Advisor | Head of R&D | Eng. Manager],
-        [CV Link: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]],
+          [CV Link: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]],
+          // TODO: "get the last CV version here"
       )
     ]
   ],
@@ -225,50 +226,54 @@
 // TODO: "I would gladly discuss any of these topics in detail."
 
 #grid(
-    columns: expertise_columns,
-    column-gutter: 12pt,
-    row-gutter: 8pt,
-    expertise_block(
-        "Product & Team Bootstrapping",
-        (
-            "Team formation and scaling",
-            "Architecture bootstrapping",
-            "Evidence-based pivoting",
-            "Early hypothesis-testing loops",
-            "Maturity-aware evolution of team, product, and architecture",
-        ),
+  columns: expertise_columns,
+  column-gutter: 12pt,
+  row-gutter: 8pt,
+  expertise_block(
+    "Product & Team Bootstrapping",
+    (
+      "Team formation and scaling",
+      "Architecture bootstrapping",
+      "Evidence-based pivoting",
+      "Early hypothesis-testing loops",
+      "Maturity-aware evolution of team, product, and architecture",
     ),
-    expertise_block(
-        "Strategic Planning & Execution",
-        (
-            "Long-term change orchestration",
-            "Risk assessment and mitigation",
-            "Data-based planning",
-            "Sustainable high-frequency delivery",
-            "Technical-debt containment",
-            "Knowledge flow design across people and tools",
-        ),
+  ),
+  expertise_block(
+    "Strategic Planning & Execution",
+    (
+      "Long-term change orchestration",
+      "Risk assessment and mitigation",
+      "Data-based planning",
+      "Sustainable high-frequency delivery",
+      "Technical-debt containment",
+      "Knowledge flow design across people and tools",
     ),
-    expertise_block(
-        "High-Autonomy Engineering Teams",
-        (
-            "Team self-governance and self-regulation",
-            "Ownership-driven engineering culture",
-            "Remote-first work organization",
-            "Asynchronous process design",
-            "Transparent decision-making and work allocation",
-        ),
+  ),
+  expertise_block(
+    "High-Autonomy Engineering Teams",
+    (
+      "Team self-governance and self-regulation",
+      "Ownership-driven engineering culture",
+      "Remote-first work organization",
+      "Asynchronous process design",
+      "Transparent decision-making and work allocation",
     ),
+  ),
   expertise_block(
     "Hands-on Tech Leadership",
     (
-      "a",
-      "b",
-        "Mentoring",
-        "Code review", // Deep code review?
-        // TODO: something aboyt
-        // TODO: tools for devs?
-        // TODO: competency grows / personal career growth
+      "Owning the architecture",
+      "Owning core systems implementation",
+      "Writing production code",
+      "Establishing CI/CD pipelines",
+      "Thorough code review",
+      "Technical and career mentoring",
+      // something about making/pushing to make tools for devs
+      // Delivery code as must have for a leader
+      // Production incident reaction, postmortems, initiating changes based on them
+      // Team growth/education as part of the process/work
+      // can shift from zero coding to 100% coding
     ),
   ),
   expertise_block(
@@ -288,7 +293,8 @@
         "a",
         "Delegation",
         "Onboarding",
-        "Hiring/firing"
+        "Hiring/firing",
+        "Mentoring",
     ),
   ),
 )
