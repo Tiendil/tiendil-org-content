@@ -311,14 +311,12 @@
 // TODO: lines under section headers?
 #section[Technical Scope]
 
-#key_value("Domains", "reliable backend systems, payment systems, game backends, game logic, API design and integrations, internal tooling and middleware, web frontends")
+#key_value("Domains", "reliable backend systems, payment systems, game backends, game logic, API design, third-party API integrations, internal tooling, web frontends")
 #key_value("Primary languages", "Python, TypeScript, JavaScript")
-#key_value("Other languages", "Rust, C++, C, Julia, Perl")
-#key_value("Storage & messaging", "PostgreSQL, MySQL, Redis, RabbitMQ, BigQuery")
-#key_value("Cloud & operations", "Linux, Docker, AWS, GitHub Actions, Ansible, Graphite, Prometheus, Grafana")
-#key_value("Most familiar frameworks", "FastAPI, Vue.js, Django")
-
-
+#key_value("Additional languages", "Rust, C++, C, Julia, Perl")
+#key_value("Storage & messaging", "PostgreSQL, MySQL, Redis, RabbitMQ")
+#key_value("Cloud & operations", "Linux, Docker, AWS, Ansible, GitHub Actions, Graphite, Prometheus, Grafana")
+#key_value("Core frameworks", "FastAPI, Vue.js, Django")
 
 #section[Work]
 
