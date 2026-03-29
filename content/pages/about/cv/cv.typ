@@ -166,10 +166,9 @@
       icon_value("icons/email.svg", "a.eletsky@gmail.com"),
       icon_value("icons/telephone.svg", "+49-1512-61-33-460"),
       icon_value("icons/telegram.svg", [#link("https://t.me/tiendil")[t.me/tiendil]]),
+      icon_value("icons/location.svg", "Hamburg, Germany"),
     )
   ],
-    // TODO: CTO -> CT(P)O, because I also do product management (?)
-    // TODO: add location + relocation
   [
     #align(center)[
       #stack(
@@ -489,6 +488,7 @@ Web-based news reader with tags, scoring, and AI.
 // TODO: add link to posts about management?
 // TODO: add donna somewhere?
 // TODO: Spoken languages: English, Russian
+// TODO: notes: relocation is possible, but with nuances and I prefer remote work.
 
 /////////
 // Footer
