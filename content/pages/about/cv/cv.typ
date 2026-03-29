@@ -275,16 +275,6 @@
   ),
 )
 
-
-// TODO: Talent Development & Team Scaling (0 → 25+)
-// TODO: communicate with top management and hands-on workers (?)
-// TODO: open source (?)
-// TODO: AI
-
-/////////////////////////////////////////////////
-// New draft text is above this line, old text is below
-/////////////////////////////////////////////////
-
 #section[Technical Scope]
 
 #key_value("Domains", "reliable backend systems, payment systems, game backends, game logic, API design, third-party API integrations, internal tooling, web frontends")
@@ -293,6 +283,14 @@
 #key_value("Storage & messaging", "PostgreSQL, MySQL, Redis, RabbitMQ")
 #key_value("Cloud & operations", "Linux, Docker, AWS, Ansible, GitHub Actions, Graphite, Prometheus, Grafana")
 #key_value("Core frameworks", "FastAPI, Vue.js, Django")
+
+// TODO: communicate with top management and hands-on workers (?)
+// TODO: open source (?)
+// TODO: AI
+
+/////////////////////////////////////////////////
+// New draft text is above this line, old text is below
+/////////////////////////////////////////////////
 
 #section[Work]
 
