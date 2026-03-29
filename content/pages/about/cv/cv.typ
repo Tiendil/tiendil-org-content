@@ -203,7 +203,7 @@
 // TODO: delivered projects or products?
 
 #intro[
-  Seasoned hands-on technical leader with 19 years of experience. Have a deep understanding of various roles; delivered a wide variety of projects. Focused on a strong engineering culture based on self-governed, self-regulated teams that own their product. Look at the team, processes and technologies as parts of the product and grow them in sync. Have broad technical expertise: from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis.
+  Seasoned hands-on technical leader with 19 years of experience. Have a deep understanding of various roles; delivered a wide variety of projects. Focused on a strong engineering culture based on self-governed, self-regulated teams that own their product. Look at the team, processes and technologies as parts of the product and grow them in sync. Have broad technical expertise: from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis. Can comfortably switch between coding and managerial duties, and believe that a proper leader must be able to do both.
 ]
 
 // TODO: move to fun facts? "Delivered 4 payment systems to production with 0 critical incidents on my watch."
@@ -263,17 +263,13 @@
   expertise_block(
     "Hands-on Tech Leadership",
     (
-      "Owning the architecture",
-      "Owning core systems implementation",
-      "Writing production code",
-      "Establishing CI/CD pipelines",
-      "Thorough code review",
-      "Technical and career mentoring",
-      // something about making/pushing to make tools for devs
-      // Delivery code as must have for a leader
-      // Production incident reaction, postmortems, initiating changes based on them
-      // Team growth/education as part of the process/work
-      // can shift from zero coding to 100% coding
+      "Architecture ownership",
+      "Critical-path systems implementation",
+      "Direct contribution to production code",
+      "Developer tooling and CI/CD automation",
+      "Incident response and postmortem-driven improvement",
+      "Deep code review",
+      "Technical mentoring",
     ),
   ),
   expertise_block(
@@ -294,7 +290,7 @@
         "Delegation",
         "Onboarding",
         "Hiring/firing",
-        "Mentoring",
+        "Career Mentoring",
     ),
   ),
 )
