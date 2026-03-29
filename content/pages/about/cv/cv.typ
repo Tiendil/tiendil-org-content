@@ -224,6 +224,7 @@
 #section[Areas of Expertise]
 
 // TODO: "I would gladly discuss any of these topics in detail."
+// TODO: add links to items to posts in my blog to use as an example
 
 #grid(
   columns: expertise_columns,
@@ -274,12 +275,11 @@
   expertise_block(
     "Research & Development",
     (
-        "a",
-        "b",
-        "c",
-        "Prototyping",
-        // TODO: feedback collections (polls, interviews, etc.)
-        // TODO: graphs, algorithms, logic programming, gamedev, ai, etc.
+      "Incremental prototyping",
+      "Technical feasibility assessment",
+      "Metrics design and implementation",
+      "Feedback collection and analysis",
+      "Algorithm and systems research",
     ),
   ),
   expertise_block(
