@@ -261,13 +261,12 @@
     ),
   ),
   expertise_block(
-    "Hands-on Tech Leadership",
+    "Hands-on Technical Leadership",
     (
-      "Architecture ownership",
-      "Critical-path systems implementation",
-      "Direct contribution to production code",
-      "Developer tooling and CI/CD automation",
-      "Incident response and postmortem-driven improvement",
+      "End-to-end architecture ownership",
+      "Implementation of critical-path systems",
+      "Team tooling and workflow automation",
+      "Incident response and systemic improvement",
       "Deep code review",
       "Technical mentoring",
     ),
