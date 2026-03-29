@@ -1,14 +1,64 @@
-////////////
-// Constants
-////////////
-#let color_link = rgb("#0000EE")
-#let color_footer_line = rgb("#CFD7E2")
-#let color_footer_text = rgb("#566171")
-#let color_intro_fill = rgb("#F7F9FC")
+/////////////////////////
+// Visual Style Approach
+/////////////////////////
+// Direction:
+// - A modern executive-tech CV built around a calm blue palette.
+// - Minimalist and professional first, but more approachable than a plain corporate document.
+// - Depth is subtle: rounded cards, layered surfaces, and restrained contrast instead of heavy decoration.
+//
+// Elements:
+// - Page canvas: plain white, so the document feels clean and print-friendly.
+// - Header panel: a restrained near-white surface with spacing and hierarchy doing more work than color.
+// - Contact items: compact icon-led rows with calm spacing and muted supporting text.
+// - Section headers: title text followed by a full-width accent rule instead of a filled banner.
+// - Intro summary: a lightly tinted lead panel with a very soft outline.
+// - Expertise cards: compact white blocks with subtle heading capsules and clear internal spacing.
+// - Scope rows: labeled information rows with quiet tags on the left and clean values on the right.
+// - Project entries: soft card-based timeline items with a lightly tinted metadata rail and minimal framing.
+// - Technology and role tags: quiet neutral-blue chips for short terms to improve scanning without visual noise.
+// - Supporting panels: education and achievements sit in simple white cards to keep the lower sections visually consistent.
+// - Links: saturated blue for affordance, without aggressive contrast.
+// - Footer: thin separators and muted text so it stays useful but unobtrusive.
+//
+// Semantic color system:
+// - page background
+// - section rule accent
+// - primary card surface
+// - secondary panel surface
+// - tag surface
+// - expertise subheader surface
+// - stronger border
+// - primary text
+// - secondary text
+// - muted text
+// - link accent
+// - footer rule
+// - footer text
 
+////////////
+// Colors
+////////////
+#let color_page_background = rgb("#FFFFFF")
+#let color_section_rule = rgb("#90A9C2")
+#let color_surface_card = rgb("#FFFFFF")
+#let color_surface_panel = rgb("#F8FAFC")
+#let color_surface_tag = rgb("#EEF3F8")
+#let color_surface_expertise_subheader = rgb("#E7F1FF")
+#let color_border_strong = rgb("#D6DEE8")
+#let color_text_primary = rgb("#1D2A38")
+#let color_text_secondary = rgb("#46576B")
+#let color_text_muted = rgb("#718295")
+#let color_link = rgb("#1B5FB2")
+#let color_footer_line = rgb("#D9E0E8")
+#let color_footer_text = rgb("#7A8796")
+
+///////////////
+// Typography
+///////////////
 #let text_style_base = (
-  font: "Liberation Serif",
-  size: 11.2pt,
+  font: "Liberation Sans",
+  size: 10.35pt,
+  fill: color_text_primary,
 )
 #let text_style_link = (
   ..text_style_base,
@@ -16,22 +66,28 @@
 )
 #let text_style_section_title = (
   ..text_style_base,
-  size: 16.5pt,
-  weight: 400,
+  size: 12.8pt,
+  weight: 700,
 )
 #let text_style_subsection_title = (
   ..text_style_base,
-  size: 12.2pt,
-  weight: 600,
+  size: 10.4pt,
+  weight: 700,
 )
 #let text_style_header_name = (
   ..text_style_base,
-  size: 22pt,
-  weight: 400,
+  size: 24pt,
+  weight: 700,
+)
+#let text_style_header_role = (
+  ..text_style_base,
+  size: 9.7pt,
+  weight: 600,
+  fill: color_text_secondary,
 )
 #let text_style_footer = (
   ..text_style_base,
-  size: 7.8pt,
+  size: 7.6pt,
   fill: color_footer_text,
 )
 #let updated_on = datetime.today().display("[month repr:long] [day], [year]")
@@ -41,7 +97,8 @@
 ///////////
 #set page(
   paper: "a4",
-  margin: (top: 10mm, right: 12mm, bottom: 10mm, left: 12mm),
+  margin: (top: 9mm, right: 11mm, bottom: 9mm, left: 11mm),
+  fill: color_page_background,
 )
 
 #set text(..text_style_base)
@@ -50,8 +107,8 @@
 
 #set par(
   justify: false,
-  leading: 0.7em,
-  spacing: 0.48em,
+  leading: 0.62em,
+  spacing: 0.4em,
 )
 
 #set list(
@@ -61,34 +118,101 @@
 #show link: set text(..text_style_link)
 
 #let section(title) = [
+  #v(0.8em)
+  #grid(
+    columns: (auto, 1fr),
+    column-gutter: 9pt,
+    align: (left, horizon),
+    [#text(..text_style_section_title)[#title]],
+    [#line(length: 100%, stroke: 1.25pt + color_section_rule)],
+  )
   #v(0.35em)
-  #text(..text_style_section_title)[#title]
-  #v(0.2em)
 ]
 
 #let expertise_columns = 2
 
+#let panel(
+  fill: color_surface_card,
+  stroke: none,
+  inset: 10pt,
+  radius: 10pt,
+  body,
+) = [
+  #block(
+    width: 100%,
+    inset: inset,
+    radius: radius,
+    fill: fill,
+    stroke: stroke,
+  )[
+    #body
+  ]
+]
+
+#let chip(
+  label,
+  fill: color_surface_tag,
+  text_fill: color_text_primary,
+) = box(
+  inset: (x: 7pt, y: 2.7pt),
+  radius: 999pt,
+  fill: fill,
+  stroke: none,
+)[
+  #text(size: 8.2pt, weight: 600, fill: text_fill)[#label]
+]
+
+#let chips(items) = [
+  #for item in items [
+    #chip(item)
+    #h(3.5pt)
+  ]
+]
+
 #let key_value(key, value) = [
-  #block(width: 100%)[*#key:* #value]
+  #panel(fill: color_surface_card, inset: 8pt, radius: 9pt)[
+    #grid(
+      columns: (27%, 73%),
+      column-gutter: 10pt,
+      align: (left, horizon),
+      [
+        #text(size: 9.4pt, weight: 700, fill: color_text_secondary)[#key]
+      ],
+      [#value],
+    )
+  ]
+  #v(0.18em)
+]
+
+#let icon_badge(icon) = box(
+  inset: 3pt,
+  radius: 999pt,
+  fill: color_surface_card,
+  stroke: none,
+)[
+  #image(icon, width: 0.72em)
 ]
 
 #let icon_value(icon, value) = [
   #grid(
-    columns: (0.8em, 1fr),
-    column-gutter: 0.25em,
+    columns: (1.25em, 1fr),
+    column-gutter: 0.45em,
     align: (left, horizon),
-    image(icon, width: 0.8em),
+    icon_badge(icon),
     value,
   )
 ]
 
 #let expertise_block(title, items) = [
-  #block(
-    width: 100%,
-    breakable: false,
-  )[
-    #text(..text_style_subsection_title)[#title]
-    #v(0.15em)
+  #panel(fill: color_surface_card, inset: 10pt, radius: 10pt)[
+    #block(
+      width: 100%,
+      inset: (x: 8pt, y: 4pt),
+      fill: color_surface_expertise_subheader,
+    )[
+      #text(..text_style_subsection_title)[#title]
+    ]
+    #v(0.35em)
     #for item in items [
       - #item
     ]
@@ -96,12 +220,11 @@
 ]
 
 #let intro(body) = [
-  #block(
-    width: 100%,
-    inset: 9pt,
-    radius: 4pt,
-    fill: color_intro_fill,
-    stroke: 0.6pt + color_footer_line,
+  #panel(
+    fill: none,
+    stroke: none,
+    inset: 11pt,
+    radius: 6pt,
   )[
     #set par(justify: true)
     #body
@@ -117,31 +240,42 @@
   description: none,
   facts: (),
 ) = [
-  #block[
+  #panel(fill: color_surface_card, inset: 10pt, radius: 11pt)[
     #grid(
-      columns: (19%, 81%),
-      column-gutter: 8pt,
+      columns: (21%, 79%),
+      column-gutter: 10pt,
+      align: (left, top),
       [
-        *#years*
-        #linebreak()
-        #if company != none [
-          #company
-          #linebreak()
-        ]
-        #for role in roles [
-          #role
-          #linebreak()
+        #panel(
+          fill: none,
+          stroke: none,
+          inset: 8pt,
+          radius: 6pt,
+        )[
+          #set text(size: 9.4pt)
+          #text(size: 9.4pt, weight: 700, fill: color_text_primary)[#years]
+          #if company != none [
+            #v(0.35em)
+            #company
+          ]
+          #if roles.len() > 0 [
+            #v(0.45em)
+            #chips(roles)
+          ]
         ]
       ],
       [
-        *#title*
-        #linebreak()
+        #text(size: 11.6pt, weight: 700, fill: color_text_primary)[#title]
         #if description != none [
-          #description
-          #linebreak()
+          #v(0.22em)
+          #text(fill: color_text_secondary)[#description]
         ]
-        *Technologies:* #technologies.join(", ")
+        #v(0.45em)
+        #text(size: 8.7pt, weight: 700, fill: color_text_muted)[Technologies:]
+        #h(0.35em)
+        #chips(technologies)
         #if facts.len() > 0 [
+          #v(0.35em)
           #for fact in facts [
             - #fact
           ]
@@ -149,50 +283,58 @@
       ],
     )
   ]
-  #v(0.45em)
+  #v(0.55em)
 ]
 
 /////////
 // Header
 /////////
 
-#grid(
-  columns: (0.88fr, 2.22fr, 0.9fr),
-  column-gutter: 10pt,
-  [
-    #stack(
-      dir: ttb,
-      spacing: 6pt,
-      icon_value("icons/email.svg", "a.eletsky@gmail.com"),
-      icon_value("icons/telephone.svg", "+49-1512-61-33-460"),
-      icon_value("icons/telegram.svg", [#link("https://t.me/tiendil")[t.me/tiendil]]),
-      icon_value("icons/location.svg", "Hamburg, Germany"),
-    )
-  ],
-  [
-    // TODO: update CV link to the correct one
-    #align(center)[
+#panel(
+  fill: none,
+  stroke: none,
+  inset: 12pt,
+  radius: 6pt,
+)[
+  #grid(
+    columns: (0.9fr, 2.1fr, 0.9fr),
+    column-gutter: 12pt,
+    align: (left, horizon),
+    [
       #stack(
         dir: ttb,
-        spacing: 6pt,
-        text(..text_style_header_name)[Aliaksei Yaletski],
-        [CTO | Board Advisor | Head of R&D | Eng. Manager],
-        [Get the latest CV here: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]],
+        spacing: 7pt,
+        icon_value("icons/email.svg", "a.eletsky@gmail.com"),
+        icon_value("icons/telephone.svg", "+49-1512-61-33-460"),
+        icon_value("icons/telegram.svg", [#link("https://t.me/tiendil")[t.me/tiendil]]),
+        icon_value("icons/location.svg", "Hamburg, Germany"),
       )
-    ]
-  ],
-  [
-    #align(left)[
-      #stack(
-        dir: ttb,
-        spacing: 6pt,
-        icon_value("icons/blog.svg", [#link("https://tiendil.org")[tiendil.org]]),
-        icon_value("icons/github.svg", [#link("https://github.com/tiendil")[github.com/tiendil]]),
-        icon_value("icons/linkedin.svg", [#link("https://linkedin.com/in/tiendil")[linkedin.com/in/tiendil]]),
-      )
-    ]
-  ],
-)
+    ],
+    [
+      // TODO: update CV link to the correct one
+      #align(center + top)[
+        #stack(
+          dir: ttb,
+          spacing: 5pt,
+          text(..text_style_header_name)[Aliaksei Yaletski],
+          text(..text_style_header_role)[CTO | Board Advisor | Head of R&D | Eng. Manager],
+          text(size: 9.1pt, fill: color_text_secondary)[Get the latest CV here: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]] ,
+        )
+      ]
+    ],
+    [
+      #align(left + top)[
+        #stack(
+          dir: ttb,
+          spacing: 7pt,
+          icon_value("icons/blog.svg", [#link("https://tiendil.org")[tiendil.org]]),
+          icon_value("icons/github.svg", [#link("https://github.com/tiendil")[github.com/tiendil]]),
+          icon_value("icons/linkedin.svg", [#link("https://linkedin.com/in/tiendil")[linkedin.com/in/tiendil]]),
+        )
+      ]
+    ],
+  )
+]
 
 ///////
 // Body
@@ -450,9 +592,11 @@
 
 #section[Education]
 
-*2004-2009 --- Specialist (equivalent to an MSc), Systems Engineering* \
-Belarusian State University of Informatics and Radioelectronics \
-Department of Artificial Intelligence, Faculty of Information Technologies and Control
+#panel[
+  *2004-2009 --- Specialist (equivalent to an MSc), Systems Engineering* \
+  Belarusian State University of Informatics and Radioelectronics \
+  Department of Artificial Intelligence, Faculty of Information Technologies and Control
+]
 
 #section[Code examples]
 
@@ -461,8 +605,10 @@ Web-based news reader with tags, scoring, and AI.
 
 #section[Achievements]
 
-- #link("https://archiveprogram.github.com/")[Arctic Code Vault Contributor] on Github.
-- Second diploma (3rd place) in the ¼ final of ACM Western Subregion 2006.
+#panel[
+  - #link("https://archiveprogram.github.com/")[Arctic Code Vault Contributor] on Github.
+  - Second diploma (3rd place) in the ¼ final of ACM Western Subregion 2006.
+]
 
 // TODO: add an "interests" block
 // TODO: add link to posts about management?
