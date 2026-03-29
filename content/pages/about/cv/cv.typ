@@ -353,7 +353,7 @@
 #grid(
   columns: expertise_columns,
   column-gutter: 12pt,
-  row-gutter: 8pt,
+  row-gutter: 0pt,
   expertise_block(
     "Product & Team Bootstrapping",
     (
