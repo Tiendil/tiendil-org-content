@@ -285,11 +285,11 @@
   expertise_block(
     "People Management",
     (
-        "a",
-        "Delegation",
-        "Onboarding",
-        "Hiring/firing",
-        "Career Mentoring",
+      "Hiring and onboarding",
+      "Delegation for growth and ownership",
+      "Performance management",
+      "Career mentoring and development",
+      "Firing and offboarding",
     ),
   ),
 )
