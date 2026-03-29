@@ -185,18 +185,18 @@
 ]
 
 #let icon_badge(icon) = box(
-  inset: 3pt,
+  inset: 4pt,
   radius: 999pt,
   fill: color_surface_card,
   stroke: none,
 )[
-  #image(icon, width: 0.72em)
+  #image(icon, width: 0.9em)
 ]
 
 #let icon_value(icon, value) = [
   #grid(
-    columns: (1.25em, 1fr),
-    column-gutter: 0.45em,
+    columns: (1.6em, 1fr),
+    column-gutter: 0.5em,
     align: (left, horizon),
     icon_badge(icon),
     value,
@@ -223,7 +223,7 @@
   #panel(
     fill: none,
     stroke: none,
-    inset: 11pt,
+    inset: (top: 14pt, right: 11pt, bottom: 11pt, left: 11pt),
     radius: 6pt,
   )[
     #set par(justify: true)
@@ -293,11 +293,11 @@
 #panel(
   fill: none,
   stroke: none,
-  inset: 12pt,
+  inset: (top: 2pt, right: 12pt, bottom: 0pt, left: 12pt),
   radius: 6pt,
 )[
   #grid(
-    columns: (0.9fr, 2.1fr, 0.9fr),
+    columns: (0.95fr, 1.95fr, 1fr),
     column-gutter: 12pt,
     align: (left, horizon),
     [
