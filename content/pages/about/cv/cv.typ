@@ -264,11 +264,11 @@
     "Hands-on Technical Leadership",
     (
       "End-to-end architecture ownership",
-      "Implementation of critical-path systems",
+      "Implementation of critical systems",
       "Team tooling and workflow automation",
       "Incident response and systemic improvement",
       "Deep code review",
-      "Technical mentoring",
+      "Mentoring through shared technical ownership",
     ),
   ),
   expertise_block(
