@@ -295,12 +295,6 @@
   ),
 )
 
-
-// - team growth, mentored engineers, hiring/firing
-// - team maturity management
-//
-// TODO: "Tech Skills" -> "Hands-on Experience" / "Hands-on Tech Experience" (maybe move below the work) / Tech stack
-//       Or, tech skills as one of capabilities / primary experitese / strongest expertise
 // TODO: was responsible for backend of >1$M MMR projects
 // TODO: Talent Development & Team Scaling (0 → 25+)
 // TODO: communicate with top management and hands-on workers (?)
@@ -315,15 +309,16 @@
 /////////////////////////////////////////////////
 
 // TODO: lines under section headers?
-#section[Tech Skills]
+#section[Technical Scope]
 
-#key_value("Programming languages", "Python, JavaScript, TypeScript, C++, C")
-#key_value("Clouds", "AWS")
-#key_value("Databases and similar soft", "PostgreSQL, MySQL, Redis, Graphite, Prometheus, BigQuery, RabbitMQ")
-#key_value("Libraries, frameworks", "FastAPI, Django, Twisted, AIOHTTP, jQuery, Vue.js, Ansible")
-#key_value("Infrastructure", "Linux, Docker, Git, Jira, Confluence, GitHub, GitLab")
-#key_value("Other", "algorithmic base, business analysis, technical writing, devops")
-#key_value("Languages", "English, Russian")
+#key_value("Domains", "highload backends, payments, game backends, game logic, external API contracts, browser-based frontend")
+#key_value("Primary languages", "Python, JavaScript, TypeScript")
+#key_value("Secondary languages", "Rust, C++, C, Julia, Perl")
+#key_value("Backend", "PostgreSQL, MySQL, AWS Aurora Serverless, Redis, RabbitMQ, BigQuery")
+#key_value("Cloud & operations", "Linux, Docker, AWS, GitHub Actions, Ansible, Graphite, Prometheus, Grafana")
+#key_value("Most familiar frameworks", "FastAPI, Vue.js, Django")
+
+
 
 #section[Work]
 
@@ -493,6 +488,8 @@ Web-based news reader with tags, scoring, and AI.
 
 // TODO: add an "interests" block
 // TODO: add link to posts about management?
+// TODO: add donna somewhere?
+// TODO: Spoken languages: English, Russian
 
 /////////
 // Footer
