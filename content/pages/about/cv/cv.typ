@@ -207,6 +207,7 @@
 // TODO: "I would gladly discuss any of these topics in detail."
 // TODO: add links to items to posts in my blog to use as an example
 
+// TODO: make more readable — ground for normal people
 #grid(
   columns: expertise_columns,
   column-gutter: 12pt,
@@ -284,14 +285,10 @@
 #key_value("Cloud & operations", "Linux, Docker, AWS, Ansible, GitHub Actions, Graphite, Prometheus, Grafana")
 #key_value("Core frameworks", "FastAPI, Vue.js, Django")
 
-// ????
-#key_value("AI-assisted development", "AI-assisted workflows, quality-control harness, spec-driven development")
-#key_value("AI & developer tooling", "LLM-assisted engineering workflows, applied AI prototyping, code analysis, automation")
-#key_value("AI & analysis", "LLM application development, code analysis, AI-assisted workflows, evaluation and prototyping")
-#key_value("Open source", "Open-source product development, public codebases, contribution-oriented engineering mindset")
+// TODO: should it be in the "areas of expertise" section instead?
+#key_value("AI-assisted development", "agent-assisted workflows, quality-control harness, spec-driven development")
 
-// TODO: open source (?)
-// TODO: AI
+// TOOD: what with QA & metrics? should I mention them somwere?
 
 /////////////////////////////////////////////////
 // New draft text is above this line, old text is below
