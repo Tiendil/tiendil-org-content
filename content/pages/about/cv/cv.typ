@@ -170,14 +170,14 @@
     )
   ],
   [
+    // TODO: update CV link to the correct one
     #align(center)[
       #stack(
         dir: ttb,
         spacing: 6pt,
         text(..text_style_header_name)[Aliaksei Yaletski],
         [CTO | Board Advisor | Head of R&D | Eng. Manager],
-          [CV Link: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]],
-          // TODO: "get the last CV version here"
+        [Get the latest CV here: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]],
       )
     ]
   ],
