@@ -275,11 +275,11 @@
   expertise_block(
     "Research & Development",
     (
-      "Incremental prototyping",
+      "Iterative exploratory prototyping",
       "Technical feasibility assessment",
-      "Metrics design and implementation",
-      "Feedback collection and analysis",
-      "Algorithm and systems research",
+      "Algorithmic and systems research",
+      "Experiment design, instrumentation, and execution",
+      "Analysis and synthesis of experimental results",
     ),
   ),
   expertise_block(
