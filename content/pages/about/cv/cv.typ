@@ -551,14 +551,14 @@
   "Browser text-based MMO \"The Tale\"",
   company: link("https://the-tale.org")[The Tale],
   roles: ("Founder",),
-  description: "Assembled a team. Developed own product from scratch. Went all the way from prototyping to release and operation. Played all roles from backend and frontend development to game design, community management and marketing.",
+  description: "Developed own product from scratch. Went all the way from prototyping to release, operation and shuting down. Played all roles from backend and frontend development to game design, community management and marketing.",
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django", "jQuery"),
   facts: (
-    [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text] (probably, best), quests, world map.],
-    "Implemented quality control through full automatic testing.",
-    "Organized a team of volunteers who helped in the development and support of the game.",
-    [Project is open source: #link("https://github.com/the-tale")[github.com/the-tale]],
-    [Game statistics are open too: #link("https://the-tale.org/statistics")[the-tale.org/statistics]],
+    "Having only Russian localizaton, the game reached >90k trial players, >30k registered players, ~2.5k paid players; had up to 5k MAU and 2K DAU.",
+    "Assembled a core team and organized volunteers who helped in the development of the game.",
+    [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text] (probably the best before LLMs), #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], world map.],
+    "Implemented quality control through full automatic testing that allowed development without dedicated QA.",
+    [Open sourced #link("https://github.com/the-tale")[the code] and #link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[the game lore].]
   ),
 )
 
