@@ -483,7 +483,7 @@
   company: link("https://palta.com/")[Palta],
   roles: ("Engineering Manager", "Tech Lead"),
   description: "Led the design and development of a multi-provider payments platform with subscriptions, entitlement management, unified analytics, discounts, admin panels, SDKs, and resilient payment processing covering disputes, refunds, fallbacks, and error recovery.",
-  technologies: ("AWS", "Lambdas", "Python", "FastAPI", "PostgreSQL", "Redis", "Docker"),
+  technologies: ("AWS", "Lambdas", "Python", "TypeScript", "FastAPI", "React", "PostgreSQL", "Redis", "Docker"),
   facts: (
     "Solution has been successfully integrated into 3 startups.",
     "Led the project from scratch to production, delivering the full feature set and ensuring stable operation throughout the holiday season.",
@@ -548,11 +548,11 @@
 // TODO: mention that now the game is resurrected by the community?
 #project_entry(
   "2012-2015",
-  "Text-based MMO \"The Tale\"",
+  "Browser text-based MMO \"The Tale\"",
   company: link("https://the-tale.org")[The Tale],
-  roles: ("Co-Founder", "Product Manager", "Developer", "Game Designer", "Community Manager"),
-  description: "Assembled a team. Developed own product from scratch. Went all the way from prototyping to release and maintenance.",
-  technologies: ("Linux (Ubuntu)", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django", "jQuery"),
+  roles: ("Founder",),
+  description: "Assembled a team. Developed own product from scratch. Went all the way from prototyping to release and operation. Played all roles from backend and frontend development to game design, community management and marketing.",
+  technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django", "jQuery"),
   facts: (
     [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text] (probably, best), quests, world map.],
     "Implemented quality control through full automatic testing.",
