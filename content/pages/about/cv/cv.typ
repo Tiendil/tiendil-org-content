@@ -170,7 +170,7 @@
 ]
 
 #let key_value(key, value) = [
-  #panel(fill: color_surface_card, inset: 8pt, radius: 9pt)[
+  #panel(fill: color_surface_card, inset: (x: 8pt, y: 4pt), radius: 9pt)[
     #grid(
       columns: (27%, 73%),
       column-gutter: 10pt,
@@ -181,7 +181,6 @@
       [#value],
     )
   ]
-  #v(0.18em)
 ]
 
 #let icon_badge(icon) = box(
@@ -473,8 +472,6 @@
   ),
 )
 
-#pagebreak()
-
 #project_entry(
   "2019-2021",
   "Self-employed / sabbatical",
@@ -540,8 +537,6 @@
     [Game statistics are open too: #link("https://the-tale.org/statistics")[the-tale.org/statistics]],
   ),
 )
-
-#pagebreak()
 
 #project_entry(
   "2010-2012",
