@@ -248,6 +248,7 @@
   facts: (),
 ) = [
   #panel(fill: color_surface_card, inset: 10pt, radius: 11pt)[
+    #let has_description = description != none and description != ""
     #grid(
       columns: (project_meta_column_width, 1fr),
       column-gutter: 10pt,
@@ -281,12 +282,16 @@
         ]
       ],
     )
-    #if description != none [
+    #if has_description [
       #v(0.3em)
       #text(fill: color_text_primary)[#description]
     ]
     #if facts.len() > 0 [
-      #v(0.7em)
+      #if has_description [
+        #v(0.7em)
+      ] else [
+        #v(0.3em)
+      ]
       #for fact in facts [
         - #fact
       ]
@@ -445,17 +450,23 @@
 // New draft text is above this line, old text is below
 /////////////////////////////////////////////////
 
+// TODO: need to translate a lot of posts from Ru
+//       - missed world builders posts
+//       - https://tiendil.org/ru/posts/the-tale-lore-cc-by
+
 #section[Work]
 
-// TODO: feeds fun as a project
-// TODO: worldbuilders as a project
-// TODO: management as a project
 #project_entry(
-  "2024-…",
-  "Self-employed / sabbatical",
-  description: "Formalize experience, learn, prototype, work on hobby projects.",
-  technologies: ("Python", "TypeScript", "LLM", "gamedev"),
-  facts: ("A detailed report will appear after the vacation is over",),
+  "2024-2026",
+  "Professional sabbatical",
+  description: "",
+  technologies: ("Python", "TypeScript", "LLM", "Rust"),
+  facts: (
+    [Refined my management worldview through reflection on practical experience and management literature; documented the result in a #link("https://tiendil.org/en/tags/vantage-on-management")[public essay series].],
+    [Created #link("https://feeds.fun/")[Feeds Fun] — news reader with LLM-based tags and news ranking by tag-based rules (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
+    [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] program for entertainment IP developers; published #link("https://tiendil.org/en/tags/world-builders-2023")[related blog posts] and continued game development as a pet project.],
+    [#link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[Open-sourced the lore of the "The Tale" game].]
+  ),
 )
 
 // TODO: distributed team / remote work
