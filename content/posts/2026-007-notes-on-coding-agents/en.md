@@ -37,7 +37,7 @@ For starters, what agents are not:
 - They are not "just a [LLM](https://en.wikipedia.org/wiki/Large_language_model)" that does everything by itself in some magical way.
 - They are not [strong/weak AI](https://en.wikipedia.org/wiki/Artificial_general_intelligence) that acts like a human.
 
-(AI) Agent is a classic non-AI software — a wrapper-orchestrator over internal and external tools that organizes their joint work to achieve some goal. Tools can be different: internal code, command-line utilities, websites, [MCP services](https://modelcontextprotocol.io/docs/getting-started/intro), LLMs, etc.
+An (AI) agent is classic non-AI software: an orchestrating wrapper around internal and external tools that organizes their joint work to achieve some goal. Tools can be different: internal code, command-line utilities, websites, [MCP services](https://modelcontextprotocol.io/docs/getting-started/intro), LLMs, etc.
 
 You can see this even in the features these agents focus on and in their changelogs: their developers are dealing with safe tool execution, inter-tool communication, orchestration, user interaction, and so on. Questions directly related to AI and LLMs receive comparatively little attention.
 
