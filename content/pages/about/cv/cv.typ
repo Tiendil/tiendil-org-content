@@ -303,7 +303,7 @@
     [
       #stack(
         dir: ttb,
-        spacing: 7pt,
+        spacing: 0pt,
         icon_value("icons/email.svg", "a.eletsky@gmail.com"),
         icon_value("icons/telephone.svg", "+49-1512-61-33-460"),
         icon_value("icons/telegram.svg", [#link("https://t.me/tiendil")[t.me/tiendil]]),
@@ -326,7 +326,7 @@
       #align(left + top)[
         #stack(
           dir: ttb,
-          spacing: 7pt,
+          spacing: 0pt,
           icon_value("icons/blog.svg", [#link("https://tiendil.org")[tiendil.org]]),
           icon_value("icons/github.svg", [#link("https://github.com/tiendil")[github.com/tiendil]]),
           icon_value("icons/linkedin.svg", [#link("https://linkedin.com/in/tiendil")[linkedin.com/in/tiendil]]),
