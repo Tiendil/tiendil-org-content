@@ -515,7 +515,7 @@
   company: link("https://melsoft-games.com/")[Melsoft Games],
   roles: ("Tech Lead",),
   description: "Owned backend architecture and core service development, modernized legacy systems for scale, and served as a key technical advisor on architecture and algorithm design.",
-  technologies: ("Python", "Twisted", "Django", "PostgreSQL", "Redis", "Graphite", "Prometheus", "Grafana", "Ansible", "Docker"),
+  technologies: ("Linux", "Python", "Twisted", "Django", "PostgreSQL", "Redis", "Graphite", "Prometheus", "Grafana", "Ansible", "Docker"),
   facts: (
     "Optimized game backend to handle 1.5M RPM (25k RPS) at peak with stable latency and low error rates.",
     "Stabilized server-side payments logic from percents of failed transactions to 0 payment-related errors.",
@@ -531,16 +531,15 @@
   "2015-2017",
   "Mobile game Toy Defense 1, 2, 3",
   company: link("https://melsoft-games.com/")[Melsoft Games],
-  roles: ("Team/Tech Lead",),
-  description: "Was responsible for all server-side of product. Was consulting colleagues on infrastructure, architecture, and algorithms questions.",
-  technologies: ("Linux (Ubuntu)", "Python", "Twisted", "Django", "MySQL", "Redis", "Fabric", "Graphite", "Grafana"),
+  roles: ("Tech Lead",),
+  description: "Fully owned united backend of 3 games. As an expert, consulte colleagues on infrastructure, architecture, and algorithms questions.",
+  technologies: ("Linux", "Python", "Twisted", "Django", "MySQL", "Redis", "Fabric", "Graphite", "Grafana"),
   facts: (
-    "Returned server in a state suited to operation.",
-    "Developed the payment service, which was also integrated into another product.",
-    "Implemented automated testing, provisioning, deployment, continuous delivery.",
-    "Actualized technologies, implemented metrics collection, switched the project to git & git-flow.",
-    "Together with the analyst, we developed statistics collections and the marketing campaigns system.",
-    "Prepared the project for decommissioning.",
+    "Resurected legacy game backend to the operational state.",
+    "Developed a payment service, which was also cloned into another company game.",
+    "Introduce practices of automated testing, CI/CD, metrics collection",
+    "Migrated project from svn to git.",
+    "Together with an analyst, developed game metrics collection system and the marketing campaigns system.",
   ),
 )
 
