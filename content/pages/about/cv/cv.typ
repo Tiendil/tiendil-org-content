@@ -24,14 +24,11 @@
 // - page background
 // - section rule accent
 // - primary card surface
-// - secondary panel surface
 // - tag surface
 // - role tag surface
 // - expertise subheader surface
-// - stronger border
 // - primary text
 // - secondary text
-// - muted text
 // - link accent
 // - footer rule
 // - footer text
@@ -42,14 +39,11 @@
 #let color_page_background = rgb("#FFFFFF")
 #let color_section_rule = rgb("#90A9C2")
 #let color_surface_card = rgb("#FFFFFF")
-#let color_surface_panel = rgb("#F8FAFC")
 #let color_surface_tag = rgb("#EEF3F8")
 #let color_surface_role_tag = rgb("#EAF4EA")
 #let color_surface_expertise_subheader = rgb("#E7F1FF")
-#let color_border_strong = rgb("#D6DEE8")
 #let color_text_primary = rgb("#1D2A38")
 #let color_text_secondary = rgb("#46576B")
-#let color_text_muted = rgb("#718295")
 #let color_link = rgb("#1B5FB2")
 #let color_footer_line = rgb("#D9E0E8")
 #let color_footer_text = rgb("#7A8796")
