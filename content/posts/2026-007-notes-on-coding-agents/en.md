@@ -484,13 +484,13 @@ Agents do that not perfectly, but:
 
 In theory, this can improve the average architecture quality and code relevance, which will positively affect life of developers.
 
-## Потеря контроля
+## Loss of control
 
-Скорее всего это временная проблема и она решится по мере развития интерфейсов.
+Most likely it is a temporary problem and it will be solved as GUI/CLI tools develop.
 
-Однако сейчас довольно сложно встроиться в процесс работы агента, а значит сложно его направлять и замечать проблемы на ранних этапах работы.
+However, right now, it is quite difficult to integrate ourselves into the agent's work process, which means it's difficult to steer it and notice problems at early stages of work.
 
-Это особенно заметно, если сравнивать с собственным процессом мышления, когда вы в любой момент можете остановиться и осмотреться.
+That is especially noticeable in comparison with person's own thinking process, when you can stop at any moment and look around.
 
 ## Какие задачи лучше всего решают агенты
 
