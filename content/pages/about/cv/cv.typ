@@ -449,6 +449,8 @@
 //       - https://tiendil.org/ru/posts/the-tale-lore-cc-by
 //       - https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021
 
+#pagebreak()
+
 #section[Work]
 
 #project_entry(
