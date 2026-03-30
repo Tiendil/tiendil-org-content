@@ -563,4 +563,4 @@ If you look closely, blockchain and agents have a few things in common:
 - both technologies are technically complex;
 - the hype around both makes it much harder to assess them objectively and to understand their real capabilities and limitations.
 
-What the blockchain story shows is that instead of a hype-fueled revolution we got the quiet evolution of a small corner of our civilization. I think agents will follow much the same path — only with a more noticeable impact.
+The blockchain story suggests that instead of a hype-driven revolution, what we got was the quiet evolution of a small part of our civilization. I think agents will follow much the same path — only with a more noticeable impact.
