@@ -524,22 +524,24 @@ If you are in search of particular tools, I can recommend you to look in the dir
 
 However, I still want to recommend a particular base agent — [pi.dev](https://pi.dev/) — it designed with a focus on extensibility by third-party tools, which is in the spirit of the next section of this post. But I haven't had a chance to try it out yet.
 
-## Будущее инструментария
+## The future of toolling
 
-Изобретая новую крутую штуку, человечество обычно строит комбайн вокруг неё и пытается применить этот комбайн ко всему, до чего дотянется. По мере накопления опыта, комбайн начинает разбираться на куски, каждый из которых затачивается под конкретные задачи.
+When humanity invents some shiny new thing, it usually builds a big all-purpose machine around it and tries to apply that machine to everything it can reach. As experience accumulates, we start breaking it down into pieces, each of which is sharpened for specific tasks.
 
-Сейчас мы находимся в фазе сборки комбайнов. Скоро мы начнём разбирать их на составляющие, которые можно будет комбинировать, следуя [Unix way](https://ru.wikipedia.org/wiki/Философия_Unix) — тогда можно будет обсуждать персональные сборки агентов.
+Right now, we’re in the phase of building those all-purpose machines. Soon, we’ll start breaking them down into modular parts that can be recombined in the [Unix-way](https://en.wikipedia.org/wiki/Unix_philosophy) — and that's when it will make sence to talk about custom personal agent stacks.
 
-Косвенно это мнение подтверждает обилие нишевых agent-related стандартов, которые постепенно появляются в явном и неявном виде.
+This view is indirectly reinforced by the sheer number of niche standards around agents that are gradually emerging, both explicitly and implicitly.
 
-Навскидку, декомпозиция может быть следующей:
+At a glance, the decomposition might look something like this:
 
-- Оркестратор задач.
-- Интерфейс для взаимодействия с пользователем.
-- Песочница для выполнения деструктивных операций.
-- Инструмент для взаимодействия с LLM.
-- Инструмент для навигации по коду и прочим артефактам.
-- База данных/знаний для памяти (возможно).
+- A task orchestrator.
+- An interface for interacting with the user.
+- A sandbox for carrying out destructive operations.
+- A tool for interacting with the LLM (large language model).
+- A tool for navigating code and other artifacts.
+- A database or knowledge base for memory, possibly.
+
+There are already some of them, but not all and not in perfect quality.
 
 ## Хайп, хайп, хайп
 
