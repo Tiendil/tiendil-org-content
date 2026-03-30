@@ -82,7 +82,7 @@ This does not mean I never look at new things or try them out — it means they 
 Currently, I use agents in two scenarios:
 
 1. Ask an agent to make a very specific thing with a very clear description of the changes.
-2. Ask an agent to make a big change with a vague description of the changes. After review:
+2. Ask an agent to make a large change from a rough description of the changes. After review:
     - either I roll back the change completely, fix the spec and ask again;
     - or I start iteratively fixing the code with small requests;
     - or I finish the work manually.
