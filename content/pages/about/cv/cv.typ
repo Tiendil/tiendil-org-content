@@ -543,9 +543,6 @@
   ),
 )
 
-// TODO: do I need listing roles besides "co-founder"
-// TODO: 90k players (tried the game), 30k (registered?) players, ??? paid players
-// TODO: mention that now the game is resurrected by the community?
 #project_entry(
   "2012-2015",
   "Browser text-based MMO \"The Tale\"",
