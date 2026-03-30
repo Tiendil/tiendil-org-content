@@ -482,7 +482,7 @@
   "Vertical payment solution for startups in Palta's portfolio",
   company: link("https://palta.com/")[Palta],
   roles: ("Engineering Manager", "Tech Lead"),
-  description: "Developed a multi-provider payments platform with subscriptions, entitlement management, unified analytics, discounts, admin panels, SDKs, and resilient payment processing covering disputes, refunds, fallbacks, and error recovery.",
+  description: "Led the design and development of a multi-provider payments platform with subscriptions, entitlement management, unified analytics, discounts, admin panels, SDKs, and resilient payment processing covering disputes, refunds, fallbacks, and error recovery.",
   technologies: ("AWS", "Lambdas", "Python", "FastAPI", "PostgreSQL", "Redis", "Docker"),
   facts: (
     "Solution has been successfully integrated into 3 startups.",
@@ -511,20 +511,19 @@
 
 #project_entry(
   "2017-2019",
-  [Mobile game #link("https://play.google.com/store/apps/details?id=com.melesta.coffeeshop")[My Cafe]. More than 50M installs in Google Play as of September 2021.],
+  [Mobile game #link("https://play.google.com/store/apps/details?id=com.melesta.coffeeshop")[My Cafe]. More than 50M installs as of September 2021.],
   company: link("https://melsoft-games.com/")[Melsoft Games],
   roles: ("Tech Lead",),
-  description: "Was responsible for the code and architecture of services. Adapted old code for the growing load. Was consulting colleagues on architecture and algorithm design questions.",
-  technologies: ("Linux (Ubuntu)", "Python", "Twisted", "Django", "PostgreSQL", "Redis", "Graphite", "Prometheus", "Grafana", "Ansible", "Docker"),
+  description: "Owned backend architecture and core service development, modernized legacy systems for scale, and served as a key technical advisor on architecture and algorithm design.",
+  technologies: ("Python", "Twisted", "Django", "PostgreSQL", "Redis", "Graphite", "Prometheus", "Grafana", "Ansible", "Docker"),
   facts: (
-    "In 2019 servers were holding 1.5M RPM.",
-    "Developed scalable profiles sharding, which by an order of magnitude reduced the load on the database.",
-    "Stabilized server-side payments logic.",
-    "ASAP developed the GDPR law support service.",
-    "Adapted server-side logic to China requirements.",
-    "Introduced the practice of writing unit tests.",
-    "Together with the analyst, we set up the marketing campaigns system and developed the A/B tests system.",
-    "QAs were grateful for the quality of my comments on the tasks.",
+    "Optimized game backend to handle 1.5M RPM (25k RPS) at peak with stable latency and low error rates.",
+    "Stabilized server-side payments logic from percents of failed transactions to 0 payment-related errors.",
+    "Implemented scalable profiles sharding, which by an order of magnitude reduced the load on the database.",
+    "ASAP developed support for the GDPR law.",
+    "Adapted server-side logic for China requirements.",
+    "Introduced the practice of writing automated tests.",
+    "Together with an analyst, developed a marketing campaigns system and A/B tests system.",
   ),
 )
 
