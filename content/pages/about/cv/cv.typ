@@ -579,11 +579,11 @@
   [Real-time strategy game #link("https://en.wikipedia.org/wiki/Order_of_War")[Order of War]],
   company: link("https://wargaming.com/")[Wargaming],
   roles: ("Middle Developer",),
-  description: "Optimized code, developed game logic, GUI.",
+  description: "Optimized code, developed game logic, implemented critical GUI elements.",
   technologies: ("Windows", "C++", "internal game engine"),
   facts: (
-    "During the trial period, accelerated the processing cycle of commands for changing the state of the graphics subsystem by two times.",
-    "Developed a friendly and stable GUI for managing unit formations. The game was released on CDs, and stability was essential.",
+    "During my trial period, accelerated integration of the game engine with the graphics engine two times.",
+    "Designed and implemented the core GUI interface for organizing and preserving unit formations, which were critical for the gameplay and the whole user experience.",
   ),
 )
 
