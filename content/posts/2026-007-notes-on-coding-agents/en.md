@@ -469,7 +469,7 @@ No morning stand-up will help you catch up with the world. Only asynchronous, pr
 
 Since agents are taking over coding, we are also losing (a rather effective) practice of [pair programming](https://en.wikipedia.org/wiki/Pair_programming).
 
-Instead, there will be pair documenting. The essence is the same, but it's about developing specifications and much easier to apply, as personal coding preferences cease to be a problem.
+Instead, we will get pair documentating. The essence is the same, but it's about developing specifications and much easier to apply, as personal coding preferences cease to be a problem.
 
 By the way, I have an excellent essay analyzing [two years of writing specs as a team]{post:two-years-writing-rfc-statistics}.
 
