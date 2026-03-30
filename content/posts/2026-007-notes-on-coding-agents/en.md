@@ -390,7 +390,7 @@ It is an open question whether it is possible to reliably delegate long-term cod
 
 ### Agents change speed, but not quality
 
-Who've done a bad job before, now does it much faster (in greater quantity), and maybe in worse quality.
+Those who used to do poor work now do much more of it, much faster — and perhaps at even worse quality.
 
 Accordingly, the role of decision-making processes and quality control processes increases significantly.
 
