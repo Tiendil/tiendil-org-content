@@ -545,7 +545,7 @@ There are already some of them, but not all and not in perfect quality.
 
 ## Hype, hype, hype
 
-A short complaining break.
+A brief moment of grumbling.
 
 ### This GitHub is broken — bring a fresh one
 
