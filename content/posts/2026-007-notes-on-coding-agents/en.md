@@ -492,23 +492,23 @@ However, right now, it is quite difficult to integrate ourselves into the agent'
 
 That is especially noticeable in comparison with person's own thinking process, when you can stop at any moment and look around.
 
-## Какие задачи лучше всего решают агенты
+## What kinds of tasks are agents best suited for
 
-Рутинные/монотонные задачи с чётко определёнными границами, критериями успеха и качества:
+Routine, repetitive tasks with clearly defined boundaries and clear success and quality criteria:
 
-- Анализ кода.
-- Массовый рефакторинг «под спеку» или «под linter».
-- Завершение изменений начатых человеком «чтобы код компилировался и тесты проходили».
-- Выполнение чётких инструкций по внесению изменений: пойди туда, сделай это, потом это, потом туда, etc.
-- Создание прототипов, которые будут выкинуты.
-- Экспериментальное прототипирование изменений, чтобы посмотреть что и как будет затронуто.
-- Быстрое внесение крупных изменений без чёткой инструкции, чтобы потом их итерационно доводить до ума.
-- Редактирование кода, который хорошо покрыт тестами, комментариями и спеками.
-- Приведение кода к единому стилю на основе чётких спецификаций.
+- Code analysis.
+- Large-scale refactoring to match a spec or satisfy a linter.
+- Finishing changes started by a human "to make the code compile and tests pass".
+- Following clear instructions for making changes: go there, do this, then this, then there, etc.
+- Creating prototypes that will be thrown away.
+- Experimental prototyping of changes to see what and how will be affected.
+- Quick introduction of large changes without clear instructions, to iteratively refine them later.
+- Editing code that is well covered by tests, comments, and specs.
+- Bringing code to a single style based on clear specifications.
 
-Во всех остальных случаях я бы сказал, что агенты демонстрируют не очень хорошие результаты.
+In all other cases, I would say that agents demonstrate not very good results.
 
-В частности, по моим личным ощущениям, большие куски нового кода я всё ещё пишу быстрее и качественнее, чем агенты. Но признаю, что подобная работа отнимает больше сил, чем использование роботов.
+In particular, according to my personal feelings, I prefer to write large pieces of new code myself, as I still do it faster and with better quality than agents. But I admit that such work takes more effort than using "robots".
 
 ## Инструментарий
 
