@@ -528,7 +528,7 @@ However, I still want to recommend a particular base agent — [pi.dev](https://
 
 When humanity invents some shiny new thing, it usually builds a big all-purpose machine around it and tries to apply that machine to everything it can reach. As experience accumulates, we start breaking it down into pieces, each of which is sharpened for specific tasks.
 
-Right now, we’re in the phase of building those all-purpose machines. Soon, we’ll start breaking them down into modular parts that can be recombined in the [Unix-way](https://en.wikipedia.org/wiki/Unix_philosophy) — and that's when it will make sence to talk about custom personal agent stacks.
+Right now, we're in the phase of building those all-purpose machines. Soon, we'll start breaking them down into modular parts that can be recombined in the [Unix-way](https://en.wikipedia.org/wiki/Unix_philosophy) — and that's when it will make sence to talk about custom personal agent stacks.
 
 This view is indirectly reinforced by the sheer number of niche standards around agents that are gradually emerging, both explicitly and implicitly.
 
@@ -543,24 +543,24 @@ At a glance, the decomposition might look something like this:
 
 There are already some of them, but not all and not in perfect quality.
 
-## Хайп, хайп, хайп
+## Hype, hype, hype
 
-Минутка ворчания.
+A short complaining break.
 
-### Этот GitHub сломался — несите новый
+### This GitHub is broken — bring a fresh one
 
-Такого массового нерелевантного роста количества звёзд у проектов не было никогда. Люди вообще не проверяют кого и за что они отмечают — ставят звёзды сугубо по ключевым словам и красивым картинкам.
+We've never seen this kind of massive growth in project star counts before. People barely check what they're starring or why — they hand out stars based purely on keywords and pretty pictures.
 
-Не то чтобы звёзды раньше были достоверным показателем чего-нибудь, но хоть каким-то ориентиром зрелости и качества проекта их можно было считать — это было удобно.
+It's not as if stars were ever a truly reliable metric for anything, but at least they could be treated as a rough signal of a project's maturity and quality — and that was convenient.
 
-Сейчас разница между 1000, 10000 и 100000 звёзд говорит только о хайпе и маркетинговой стратегии проекта.
+Now the difference between 1k, 10k, and 100k stars tells you only about a project's hype level and marketing strategy.
 
-### Как блокчейн, только громче
+### Like blockchain, only louder
 
-Если присмотреться, то у блокчейна и агентов есть общие черты:
+If you look closely, blockchain and agents have a few things in common:
 
-- обе технологии хорошо выглядят в полностью цифровом пространстве, но испытывают проблемы при маппинге на реальный мир;
-- обе технологии технологически сложны;
-- хайп вокруг обеих технологий сильно затрудняет их объективную оценку, понимание их реальных возможностей и ограничений.
+- both technologies look good in a fully digital environment, but run into problems when mapped onto the real world;
+- both technologies are technically complex;
+- the hype around both makes it much harder to assess them objectively and to understand their real capabilities and limitations.
 
-Из истории с блокчейном можно увидеть, что вместо хайповой революции получилась тихая эволюция небольшого кусочка нашей цивилизации. Я думаю с агентами будет примерно так же, только импакт будет заметнее.
+What the blockchain story shows is that instead of a hype-fueled revolution we got the quiet evolution of a small corner of our civilization. I think agents will follow much the same path — only with a more noticeable impact.
