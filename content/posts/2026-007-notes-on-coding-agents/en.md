@@ -282,7 +282,7 @@ Over the entire course of human history, humanity has made countless attempts to
 
 All these attempts ended in failure.
 
-As I see the situation, the current consensus is that company knowledge resides in the heads of employees, and we manage this knowledge through managing employees. Moving information to external carriers is an important auxiliary tool, but it is expensive in use and cannot negate the importance of employees as carriers of knowledge.
+As I see the situation, the current consensus is that company knowledge resides in the heads of employees, and we manage this knowledge through managing employees. Externalizing information into documents and other artifacts is only a supporting tool, but it is expensive in use and cannot negate the importance of employees as carriers of knowledge.
 
 /// note | Language as a communication tool
 
