@@ -26,6 +26,7 @@
 // - primary card surface
 // - secondary panel surface
 // - tag surface
+// - role tag surface
 // - expertise subheader surface
 // - stronger border
 // - primary text
@@ -43,6 +44,7 @@
 #let color_surface_card = rgb("#FFFFFF")
 #let color_surface_panel = rgb("#F8FAFC")
 #let color_surface_tag = rgb("#EEF3F8")
+#let color_surface_role_tag = rgb("#EAF4EA")
 #let color_surface_expertise_subheader = rgb("#E7F1FF")
 #let color_border_strong = rgb("#D6DEE8")
 #let color_text_primary = rgb("#1D2A38")
@@ -162,9 +164,13 @@
   #text(size: 8.2pt, weight: 600, fill: text_fill)[#label]
 ]
 
-#let chips(items) = [
+#let chips(
+  items,
+  fill: color_surface_tag,
+  text_fill: color_text_primary,
+) = [
   #for item in items [
-    #chip(item)
+    #chip(item, fill: fill, text_fill: text_fill)
     #h(3.5pt)
   ]
 ]
@@ -259,7 +265,7 @@
           ]
           #if roles.len() > 0 [
             #v(0.45em)
-            #chips(roles)
+            #chips(roles, fill: color_surface_role_tag)
           ]
         ]
       ],
@@ -270,8 +276,6 @@
           #text(fill: color_text_secondary)[#description]
         ]
         #v(0.45em)
-        #text(size: 8.7pt, weight: 700, fill: color_text_muted)[Technologies:]
-        #h(0.35em)
         #chips(technologies)
         #if facts.len() > 0 [
           #v(0.35em)
