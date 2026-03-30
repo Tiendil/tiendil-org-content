@@ -512,7 +512,7 @@ In particular, according to my personal feelings, I prefer to write large pieces
 
 ## Toolling
 
-What can I recommend to use with agents?
+What would I recommend using alongside agents?
 
 Not much, my main advice is to experiment. But here are a couple of ideas.
 
