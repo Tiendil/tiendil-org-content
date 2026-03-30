@@ -475,7 +475,7 @@ By the way, I have an excellent essay analyzing [two years of writing specs as a
 
 ### The era of large-scale refactorings
 
-Agents can carry out large-scale refactorings in a reasonable time, which previously was not possible due to the need for painfully long tracing of logic across a pile of files.
+Agents can carry out large-scale refactorings in a reasonable time, which previously never got done because there simply wasn't time for tracing of logic across a pile of files.
 
 Agents do that not perfectly, but:
 
