@@ -346,9 +346,9 @@ An example of such a specification can be found in the mentioned article. In ess
 
 Since LLMs work only with text, your project is still defined by the code you write in one way or another.
 
-Before it was mostly a very formal code and a bit less "less formal" code as documentation.
+Before it was mostly a formal code and a bit less "less formal" code as documentation.
 
-Currently, it is much more of a very formal code (the code is generated!) and more of a "less formal" code that you write (which is needed for agents!).
+Now there is much more formal code (it is generated!), and also more of the less-formal specs (that humans produce for agents!).
 
 ///
 
