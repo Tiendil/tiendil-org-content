@@ -132,6 +132,7 @@
 ]
 
 #let expertise_columns = 2
+#let project_meta_column_width = 26mm
 
 #let panel(
   fill: color_surface_card,
@@ -156,12 +157,12 @@
   fill: color_surface_tag,
   text_fill: color_text_primary,
 ) = box(
-  inset: (x: 7pt, y: 2.7pt),
-  radius: 999pt,
+  inset: (x: 7pt, y: 3pt),
+  radius: 0pt,
   fill: fill,
   stroke: none,
 )[
-  #text(size: 8.2pt, weight: 600, fill: text_fill)[#label]
+  #text(size: 9.4pt, weight: 600, fill: text_fill)[#label]
 ]
 
 #let chips(
@@ -247,44 +248,48 @@
 ) = [
   #panel(fill: color_surface_card, inset: 10pt, radius: 11pt)[
     #grid(
-      columns: (21%, 79%),
+      columns: (project_meta_column_width, 1fr),
       column-gutter: 10pt,
+      row-gutter: 0pt,
       align: (left, top),
       [
-        #panel(
-          fill: none,
-          stroke: none,
-          inset: 8pt,
-          radius: 6pt,
-        )[
-          #set text(size: 9.4pt)
-          #text(size: 9.4pt, weight: 700, fill: color_text_primary)[#years]
-          #if company != none [
-            #v(0.35em)
-            #company
-          ]
-          #if roles.len() > 0 [
-            #v(0.45em)
-            #chips(roles, fill: color_surface_role_tag)
-          ]
+        #block(inset: (bottom: 8pt))[
+          #text(size: 11.6pt, weight: 700, fill: color_text_primary)[#years]
         ]
       ],
       [
-        #text(size: 11.6pt, weight: 700, fill: color_text_primary)[#title]
-        #if description != none [
-          #v(0.22em)
-          #text(fill: color_text_secondary)[#description]
+        #block(inset: (bottom: 8pt))[
+          #text(size: 11.6pt, weight: 700, fill: color_text_primary)[#title]
         ]
-        #v(0.45em)
-        #chips(technologies)
-        #if facts.len() > 0 [
-          #v(0.35em)
-          #for fact in facts [
-            - #fact
+      ],
+      [
+        #if company != none [
+          #set text(size: 9.4pt, fill: color_text_secondary)
+          #company
+        ]
+      ],
+      [
+        #if roles.len() > 0 [
+          #chips(roles, fill: color_surface_role_tag)
+        ]
+          #if roles.len() > 0 and technologies.len() > 0 [
+            #h(2pt)
           ]
+        #if technologies.len() > 0 [
+          #chips(technologies)
         ]
       ],
     )
+    #if description != none [
+      #v(0.3em)
+      #text(fill: color_text_secondary)[#description]
+    ]
+    #if facts.len() > 0 [
+      #v(0.35em)
+      #for fact in facts [
+        - #fact
+      ]
+    ]
   ]
   #v(0.55em)
 ]
