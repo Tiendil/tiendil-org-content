@@ -553,7 +553,7 @@ We've never seen this kind of massive growth in project star counts before. Peop
 
 It's not as if stars were ever a truly reliable metric for anything, but at least they could be treated as a rough signal of a project's maturity and quality — and that was convenient.
 
-Now the difference between 1k, 10k, and 100k stars tells you only about a project's hype level and marketing strategy.
+Now the difference between 1k, 10k, and 100k stars tells you only about hype and the project’s marketing strategy.
 
 ### Like blockchain, only louder
 
