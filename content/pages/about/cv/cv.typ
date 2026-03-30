@@ -133,6 +133,7 @@
 
 #let expertise_columns = 2
 #let project_meta_column_width = 26mm
+#let key_value_key_column_width = 42mm
 
 #let panel(
   fill: color_surface_card,
@@ -179,11 +180,11 @@
 #let key_value(key, value) = [
   #panel(fill: color_surface_card, inset: (x: 8pt, y: 4pt), radius: 9pt)[
     #grid(
-      columns: (27%, 73%),
+      columns: (key_value_key_column_width, 1fr),
       column-gutter: 10pt,
       align: (left, horizon),
       [
-        #text(size: 9.4pt, weight: 700, fill: color_text_secondary)[#key]
+        #text(size: 9.4pt, weight: 700, fill: color_text_primary)[#key]
       ],
       [#value],
     )
@@ -282,7 +283,7 @@
     )
     #if description != none [
       #v(0.3em)
-      #text(fill: color_text_secondary)[#description]
+      #text(fill: color_text_primary)[#description]
     ]
     #if facts.len() > 0 [
       #v(0.35em)
