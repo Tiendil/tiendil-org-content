@@ -286,7 +286,7 @@
       #text(fill: color_text_primary)[#description]
     ]
     #if facts.len() > 0 [
-      #v(0.35em)
+      #v(0.7em)
       #for fact in facts [
         - #fact
       ]
