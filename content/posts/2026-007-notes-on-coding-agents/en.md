@@ -510,19 +510,19 @@ In all other cases, I would say that agents demonstrate not very good results.
 
 In particular, according to my personal feelings, I prefer to write large pieces of new code myself, as I still do it faster and with better quality than agents. But I admit that such work takes more effort than using "robots".
 
-## Инструментарий
+## Toolling
 
-Что я могу посоветовать использовать с агентами?
+What can I recommend to use with agents?
 
-Немного, главный совет — экспериментируйте. Но вот пара идей.
+Not much, my main advice is to experiment. But here are a couple of ideas.
 
-Конкретного базового агента порекомендовать не могу — пробуйте разные, выбирайте тот, который вам больше нравится. Я использую Codex CLI, но сугубо потому, что нахожусь в инфраструктуре OpenAI и люблю консоль.
+I can not recommend a specific base agent — try different ones, choose the one you like best. I use Codex CLI, but purely because I am in OpenAI's infrastructure and I love the console.
 
-[Rust](https://rust-lang.org/) — главный язык программирования для агентов из-за своей параноидальной безопасности и строгой типизации — выполнять эти требования — боль для людей, но не такая сложная задача для агентов. Rust заставляет использовать правильные паттерны, которые сами по себе помогают создавать хороший софт.
+[Rust](https://rust-lang.org/) is definitely the primary programming language for agents due to its paranoid safety and strict typing — meeting these requirements is a pain for people, but not such a difficult task for agents. Rust forces you to use the right patterns, which in themselves help creating good software.
 
-Если очень хочется специализированных инструментов, то можно посмотреть в сторону [OpenSpec](https://github.com/Fission-AI/OpenSpec) и [Ralph](https://github.com/snarktank/ralph), но скорее как концепций, чем конкретного софта — у них много аналогов.
+If you are in search of particular tools, I can recommend you to look in the direction of [OpenSpec](https://github.com/Fission-AI/OpenSpec) and [Ralph](https://github.com/snarktank/ralph), but more as concepts of right approaches than specific software — they have many analogs.
 
-Всё-таки порекомендую посмотреть в сторону базового агента [pi.dev](https://pi.dev/) — он спроектирован с фокусом на расширяемости сторонними инструментами, что в духе следующего раздела этого поста. Но руками я его пока не успел потрогать.
+However, I still want to recommend a particular base agent — [pi.dev](https://pi.dev/) — it designed with a focus on extensibility by third-party tools, which is in the spirit of the next section of this post. But I haven't had a chance to try it out yet.
 
 ## Будущее инструментария
 
