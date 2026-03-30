@@ -105,7 +105,7 @@ This is probably the main insight from processing the notes:
 
 Agent architecture is an [old idea](https://en.wikipedia.org/wiki/Agent-oriented_programming) — it's already over 30 years old. AI developers have always flirted with it, but it was impossible to make a good implementation without LLM glue.
 
-Now, when we have LLM glue, we can enjoy the work of agents, but only as long as LLM is used precisely as glue or as a specific tool. The moment we put LLM in the center, we get results that are loud in voice but sad in practice, like [the creepy $20000 toy compiler](https://www.linkedin.com/posts/alrikvidstrom_the-most-expensive-crappy-toy-compiler-ever-activity-7425963356924047360-V_rY/).
+Now, when we have LLM glue, we can enjoy the work of agents, but only as long as LLM is used precisely as glue or as a specific tool. The moment we put LLM in the center, we get flashy but ultimately sad results, like [the creepy $20000 toy compiler](https://www.linkedin.com/posts/alrikvidstrom_the-most-expensive-crappy-toy-compiler-ever-activity-7425963356924047360-V_rY/).
 
 ## All agents make mistakes
 
