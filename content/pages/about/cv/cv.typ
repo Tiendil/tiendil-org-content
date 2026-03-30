@@ -434,7 +434,7 @@
 
 #section[Technical Scope]
 
-#key_value("Domains", "reliable backend systems, payment systems, LLM-based systems, game backends, game logic, API design, third-party API integrations, internal tooling, web frontends")
+#key_value("Domains", "Reliable backend systems, payment systems, LLM-based systems, game backends, game logic, API design, third-party API integrations, internal tooling, web frontends")
 #key_value("Primary languages", "Python, TypeScript, JavaScript")
 #key_value("Additional languages", "Rust, C++, C, Julia, Perl")
 #key_value("Storage & messaging", "PostgreSQL, MySQL, Redis, RabbitMQ")
@@ -442,7 +442,7 @@
 #key_value("Core frameworks", "FastAPI, Vue.js, Django")
 
 // TODO: should it be in the "areas of expertise" section instead?
-#key_value("AI-assisted development", "agent-assisted workflows, quality-control harness, spec-driven development")
+#key_value("AI-assisted development", "Agent-assisted workflows, quality-control harness, spec-driven development")
 
 // TOOD: what with QA & metrics? should I mention them somwere?
 
@@ -476,7 +476,7 @@
 // TODO: AWS Aurora serverless
 #project_entry(
   "2022-2023",
-  "Vertical payment solution for child startups",
+  "Vertical payment solution for startups in Palta's portfolio",
   company: link("https://palta.com/")[Palta],
   roles: ("Engineering Manager", "Tech Lead"),
   description: "Accepting payments from a multitude of payment services, subscriptions, management of purchased entities, unified analytics, discounts, admin panels, SDKs, smart payment processing: disputes, refunds, fallbacks, error recovery, etc.",
