@@ -77,7 +77,7 @@ My setup:
 - [ast-grep](https://github.com/ast-grep/ast-grep) — CLI for code navigation and transformation.
 - [Huge specs](https://github.com/Tiendil/donna/blob/c1e3f3e1354f60263c220fef5e7b2754deb09190/.donna/project/core/error_handling.md) that are specific to the project (partially in Donna format) instead of skills.
 
-This does not mean I never look at new things or try them out — it means they do not germinate in my workflow.
+This does not mean I never look at new things or try them out — it means they usually do not take root in my workflow.
 
 Currently, I use agents in two scenarios:
 
