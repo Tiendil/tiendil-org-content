@@ -241,7 +241,7 @@ What agents are genuinely good at is prototyping:
 - both building standalone prototypes;
 - and prototyping changes to existing code, which helps refine requirements and iteratively bring those changes up to the required level of quality.
 
-So, the development process has been accelerated as well, but it's still unclear to what extent and in which areas exactly.
+So, the development as a whole is accelerating as well, but it's still unclear to what extent and in which areas exactly.
 
 **Under pressure from new tools, development may shift further toward prototyping, with software increasingly treated as a collection of functional prototypes that are iteratively refined to the required level of quality through continuous experimentation.**
 
