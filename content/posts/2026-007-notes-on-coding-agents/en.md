@@ -1,7 +1,7 @@
 ---
 title = "Notes on coding agents"
 tags = ["theory", "practice", "development", "neural-networks", "reflection", "exocortex", "tests", "large-language-models", "ai-agents", "coding-agents"]
-published_at = "2026-03-21T12:00:00+00:00"
+published_at = "2026-03-31T12:00:00+00:00"
 seo_description = "Notes on using AI agents for software development: pros, cons, issues, insights, and practical advice."
 seo_image = "./cover.jpg"
 ---
