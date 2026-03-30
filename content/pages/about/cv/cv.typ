@@ -613,10 +613,14 @@
   Department of Artificial Intelligence, Faculty of Information Technologies and Control
 ]
 
+#section[Languages]
+
+#key_value("Russian", "native")
+#key_value("English", "fluent")
+
 #section[Code examples]
 
-#key_value("Feeds Fun", [#link("https://github.com/Tiendil/feeds.fun")[github.com/Tiendil/feeds.fun]])
-Web-based news reader with tags, scoring, and AI.
+#key_value([#link("https://github.com/Tiendil/feeds.fun")[tiendil/feeds.fun]], "News reader with LLM-based tags and news ranking by tag-based rules.")
 
 #section[Achievements]
 
@@ -624,14 +628,6 @@ Web-based news reader with tags, scoring, and AI.
   - #link("https://archiveprogram.github.com/")[Arctic Code Vault Contributor] on Github.
   - Second diploma (3rd place) in the ¼ final of ACM Western Subregion 2006.
 ]
-
-// TODO: add an "interests" block
-// TODO: add link to posts about management?
-// TODO: add donna somewhere?
-// TODO: Spoken languages: English, Russian
-// TODO: notes: relocation is possible, but with nuances and I prefer remote work.
-// TODO: move to fun facts? "Delivered 4 payment systems to production with 0 critical incidents on my watch."
-// TODO: was responsible for backend of >1$M MMR projects
 
 /////////
 // Footer
