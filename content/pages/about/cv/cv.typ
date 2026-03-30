@@ -594,12 +594,12 @@
   roles: ("Middle Developer",),
   description: "Implemented automatic configuration of the virtual hardware according to the specs of the physical hardware.",
   technologies: ("Linux", "Perl", "C", "Xen", "VMWare"),
-  facts: ("Introduced the test automation practices.",),
+  facts: ("Introduce practices of automated testing.",),
 )
 
 #project_entry(
   "2007-2008",
-  "GUI of VoIP telephone",
+  "GUI for VoIP telephone",
   company: link("https://www.itransition.com/")[Itransition],
   roles: ("Junior Developer",),
   technologies: ("Windows", "C++", "wxWidgets"),
