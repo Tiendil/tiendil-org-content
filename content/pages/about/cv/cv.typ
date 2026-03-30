@@ -453,6 +453,7 @@
 // TODO: need to translate a lot of posts from Ru
 //       - missed world builders posts
 //       - https://tiendil.org/ru/posts/the-tale-lore-cc-by
+//       - https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021
 
 #section[Work]
 
@@ -465,7 +466,9 @@
     [Refined my management worldview through reflection on practical experience and management literature; documented the result in a #link("https://tiendil.org/en/tags/vantage-on-management")[public essay series].],
     [Created #link("https://feeds.fun/")[Feeds Fun] — news reader with LLM-based tags and news ranking by tag-based rules (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
     [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] program for entertainment IP developers; published #link("https://tiendil.org/en/tags/world-builders-2023")[related blog posts] and continued game development as a pet project.],
-    [#link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[Open-sourced the lore of the "The Tale" game].]
+    [#link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[Open-sourced the lore of the "The Tale" game].],
+    "Researched Rust and explored its ecosystem, with a focus on game logic programming and reliability",
+    "Published more than 50 essays about technologies, management and trends in software development."
   ),
 )
 
@@ -495,12 +498,14 @@
 
 #project_entry(
   "2019-2021",
-  "Self-employed / sabbatical",
-  description: "Knowledge formalization. Studied, prototyped, worked on hobby projects.",
-  technologies: ("Python", "Julia", "web development", "gamedev", "deep learning"),
+  "Professional sabbatical",
+  description: [Check the full #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[report] in the blog.],
+  technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
-    [You can find the full report in the blog: #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021] (Russian).],
-    "Publish more than 100 essays about technologies, game design, thinking. Total size greater than first Harry Potter novel.",
+    "Researched advanced approached to code analysis and backend architecture.",
+    "Refined my game design knowledge through reflection on practical experience and game design literature.",
+    "Researched Julia and explored its ecosystem.",
+    "Published more than 100 essays about technologies, game design, thinking. Total size greater than first Harry Potter novel.",
   ),
 )
 
