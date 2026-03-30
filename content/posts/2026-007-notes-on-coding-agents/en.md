@@ -459,7 +459,7 @@ This is something we simply have to accept and live with. Ideally, the team shou
 
 ### Faster information exchange
 
-Faster work leads to a faster flow of information and faster changes introduction. In a mature team, it becomes much harder for a single person to stay informed about all events, monitor and steer changes.
+Faster work leads to a faster flow of information and a faster pace of change. In a mature team, it becomes much harder for a single person to stay informed about all events, monitor and steer changes.
 
 That leads to even greater (can it be greater?) importance of employee autonomy, ownership of the project, and healthy communication.
 
