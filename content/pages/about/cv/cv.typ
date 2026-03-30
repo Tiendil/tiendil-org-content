@@ -564,14 +564,13 @@
   [Web portal #link("https://worldoftanks.com/")[World of Tanks], meta-game "Clan Wars"],
   company: link("https://wargaming.com/")[Wargaming],
   roles: ("Senior Developer",),
-  description: "With the team, completely switched the technology stack and developed the portal for one of the most successful online games: registration, players & clans profiles, clans management, statistics, ratings, tournaments, the meta-game for clans, news, i18n, etc.",
-  technologies: ("Linux (CentOS)", "Python", "JavaScript", "PostgreSQL", "Memcached", "RabbitMQ", "Django", "jQuery"),
+  description: "Owned the code of the whole web portal: registration, players & clans profiles, clans management, statistics, ratings, tournaments, the meta-game for clans, news, i18n, etc.",
+  technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Memcached", "RabbitMQ", "Django", "jQuery"),
   facts: (
-    "Switched from client-side C++ to web development on Python in 2 months.",
-    "Implemented players & clans profiles, clans management, ratings, etc.",
-    "Together with the colleague, we designed and implemented GUI for \"Clan Wars\".",
+    "Together with the team completely switched the technology stack from client-side C++ to Python backend and developed the portal for one of the most successful online games.",
+    "Growned ownership from several subsystems (2010) to the entier portal (2012).",
+    "Together with the colleague designed and implemented GUI for web-based clans meta-game.",
     "Designed requirements for captcha and passwords quality checks and implemented them.",
-    "In 2012 was responsible for the code of the entire portal.",
   ),
 )
 
