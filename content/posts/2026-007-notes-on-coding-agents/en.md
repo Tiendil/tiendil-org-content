@@ -26,7 +26,7 @@ Since agents are a new thing:
 - No one knows how to use them — we are in the process of gaining experience and gathering use cases.
 - No one has broad experience using them — either you choose one or two approaches and use them to do your work, or you endlessly experiment without creating value.
 
-Thus, this post will be in the form of subjective notes-theses.
+Thus, this post will be in the form of subjective notes and theses.
 
 <!-- more -->
 
