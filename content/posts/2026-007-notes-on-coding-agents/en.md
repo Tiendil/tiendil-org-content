@@ -512,7 +512,7 @@ In all other cases, I would say agents demonstrate not very good results.
 
 In particular, based on my personal experience, I prefer to write large pieces of new code myself, as I still do so faster and with better quality than agents. But I admit that such work takes more effort than using "robots".
 
-## Toolling
+## Tooling
 
 What would I recommend using alongside agents?
 
@@ -526,7 +526,7 @@ If you are in search of particular tools, I can recommend looking toward [OpenSp
 
 However, I still want to recommend a particular base agent — [pi.dev](https://pi.dev/). It is designed with a focus on extensibility by third-party tools, which is in the spirit of the next section of this post. But I haven't had a chance to try it out yet.
 
-## The future of toolling
+## The future of tooling
 
 When humanity invents some shiny new thing, it usually builds a big, all-purpose machine around it and tries to apply that machine to everything it can reach. As experience accumulates, we start breaking it down into pieces, each sharpened for specific tasks.
 
