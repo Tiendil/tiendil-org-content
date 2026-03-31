@@ -314,7 +314,7 @@ Since we cannot formalize all of a company's knowledge in a way that would let a
 
 Consequently:
 
-1. The responsibility for the work remains with the human.
+1. Responsibility for the work remains with humans.
 2. The role of documentation grows, though not just of any kind of documentation — more on that below.
 
 ## Specifications
