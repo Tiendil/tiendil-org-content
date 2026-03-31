@@ -254,7 +254,7 @@ It is interesting to compare the impact on development of smart code completion 
 In my experience:
 
 - Copilot allows you to achieve the same coding speed as agents, and even higher on small tasks.
-- Copilot does not break the programmer out of the [flow]{post:flow-psychology-of-optimal-experience}.
+- Copilot does not break the programmer out of the [flow]{post:@choose-nearest-language:flow-psychology-of-optimal-experience}.
 
 Because of the focus on the locality of changes, Copilot often suggests code that is more correct for its context.
 
