@@ -266,13 +266,13 @@ I have been getting similar feedback from colleagues — none of my acquaintance
 
 It is difficult to say whether it has become better or worse.
 
-**From the one hand**, producing new information (writing code) is significantly more difficult than verifying existing information (reviewing code). Therefore, with proper use of agents, the load on the brain is reduced due to an increased share of code review.
+**On the one hand**, producing new information (writing code) is significantly more difficult than verifying existing information (reviewing code). Therefore, with proper use of agents, the load on the brain is reduced due to an increased share of code review.
 
 Also, there is a stage in the programmer's work when you load information about the task and its context (architecture, requirements, code, docs) into your brain. This is a heavy and long process. It is the main reason developers dislike interruptions to their work, as they have to go through it again. If the work is done only through agents, this stage is significantly reduced and simplified. But only if you don't have to dive into the details of the introduced changes.
 
 Both of these changes are quite pleasant.
 
-**From the other hand**, the flow of high-level information through a person increases dramatically. More information per unit of time — more load.
+**On the other hand**, the flow of high-level information through a person increases dramatically. More information per unit of time — more load.
 
 There is also a growing trend toward developing features or even entire projects in parallel. I have tried it a few times, and it is very taxing. Switching between several unrelated tasks is harder than switching between different levels of the same task, such as design and coding.
 
