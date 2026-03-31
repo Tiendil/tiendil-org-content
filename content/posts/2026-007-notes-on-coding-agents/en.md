@@ -151,7 +151,7 @@ I've already encountered such behavior of LLMs several times, and it's very unpl
 
 LLMs cannot maintain a style of code or architecture, especially an informal one.
 
-It is a bit easy for the code — its style is inherited from the context (when there is one), restricted by linters, and built by automatic formatting.
+This is a bit easier for code — its style is inherited from the context (when there is one), restricted by linters, and built by automatic formatting.
 
 It is much more complicated for architecture — not all parts of architecture can be easily formalized. I'll say a few more words about this below.
 
