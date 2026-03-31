@@ -19,7 +19,7 @@ How I used agents:
 
 - I refactored and wrote some code in Rust for an experimental game logic engine.
 - I used agents for the standard development tasks while working on [Feeds Fun](https://github.com/Tiendil/feeds.fun) (Python/TypeScript).
-- Like a true hacker, I decided that if I wanted to understand agents, I had to build something for them. So over the course of a month, I vibecoded [Donna](https://github.com/Tiendil/donna) — a planner for agents (Python).
+- Like a true hacker, I decided that if I wanted to understand agents, I had to code something related to them. So over the course of a month, I vibecoded [Donna](https://github.com/Tiendil/donna) — a planner for agents (Python).
 
 Since agents are a new thing:
 
