@@ -376,7 +376,7 @@ To successfully use agents, a programmer needs to change their mindset.
 
 In particular, LLMs are highly sensitive to the wording. Where a human would "figure it out themselves," an agent will surely misunderstand the task.
 
-**Third**, when you develop primary through agents, you no longer keep the entire code in your head, only its high-level view.
+**Third**, when you develop primarily through agents, you no longer keep the entire code in your head, only its high-level view.
 
 This radically changes the dynamics of development: what you can do by hand and what you cannot.
 
