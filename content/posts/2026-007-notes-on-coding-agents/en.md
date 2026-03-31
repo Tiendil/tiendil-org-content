@@ -225,7 +225,7 @@ Thus, agents are very useful when the context completely defines what needs to b
 
 Let's start by noting that there are conceptual reasons why the speed of development cannot increase to the same extent as the speed of coding.
 
-**First**, the speed of development is limited by the speed of hypothesis testing, which means — directly or indirectly — by the speed of users' reaction to changes. Users are people — their life speed has not changed. They still exist in daily, weekly, monthly, and yearly cycles. Even if your product is purely virtual, you need to wait at least a week to get a reaction from the universe on a new feature.
+**First**, the speed of development is limited by the speed of hypothesis testing, which means — directly or indirectly — by the speed of users' reaction to changes. Users are people — the pace of their lives has not changed. They still exist in daily, weekly, monthly, and yearly cycles. Even if your product is purely virtual, you need to wait at least a week to get a reaction from the universe on a new feature.
 
 **Second**, the current agents are bad at planning and complex analysis. Partly due to the [probabilistic nature of LLMs]{post:ai-notes-2024-generative-knowledge-base}, partly due to the youth of the technology. All the "long-term planning experiments" I've seen either failed (let's thank the organizers for their honesty) or turned into a marketing victory parade hiding a failure.
 
