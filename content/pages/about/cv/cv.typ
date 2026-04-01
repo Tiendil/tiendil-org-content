@@ -86,6 +86,31 @@
   size: 7.6pt,
   fill: color_footer_text,
 )
+#let text_style_chip = (
+  ..text_style_base,
+  size: 9.4pt,
+  weight: 600,
+)
+#let text_style_key = (
+  ..text_style_base,
+  size: 9.4pt,
+  weight: 700,
+)
+#let text_style_project_heading = (
+  ..text_style_base,
+  size: 11.6pt,
+  weight: 700,
+)
+#let text_style_project_meta = (
+  ..text_style_base,
+  size: 9.4pt,
+  fill: color_text_secondary,
+)
+#let text_style_header_note = (
+  ..text_style_base,
+  size: 9.1pt,
+  fill: color_text_secondary,
+)
 #let updated_on = datetime.today().display("[month repr:long] [day], [year]")
 
 ///////////
@@ -150,23 +175,21 @@
 #let chip(
   label,
   fill: color_surface_tag,
-  text_fill: color_text_primary,
 ) = box(
   inset: (x: 7pt, y: 3pt),
   radius: 0pt,
   fill: fill,
   stroke: none,
 )[
-  #text(size: 9.4pt, weight: 600, fill: text_fill)[#label]
+  #text(..text_style_chip)[#label]
 ]
 
 #let chips(
   items,
   fill: color_surface_tag,
-  text_fill: color_text_primary,
 ) = [
   #for item in items [
-    #chip(item, fill: fill, text_fill: text_fill)
+    #chip(item, fill: fill)
     #h(3.5pt)
   ]
 ]
@@ -178,7 +201,7 @@
       column-gutter: 10pt,
       align: (left, horizon),
       [
-        #text(size: 9.4pt, weight: 700, fill: color_text_primary)[#key]
+        #text(..text_style_key)[#key]
       ],
       [#value],
     )
@@ -250,18 +273,17 @@
       align: (left, top),
       [
         #block(inset: (bottom: 8pt))[
-          #text(size: 11.6pt, weight: 700, fill: color_text_primary)[#years]
+          #text(..text_style_project_heading)[#years]
         ]
       ],
       [
         #block(inset: (bottom: 8pt))[
-          #text(size: 11.6pt, weight: 700, fill: color_text_primary)[#title]
+          #text(..text_style_project_heading)[#title]
         ]
       ],
       [
         #if company != none [
-          #set text(size: 9.4pt, fill: color_text_secondary)
-          #company
+          #text(..text_style_project_meta)[#company]
         ]
       ],
       [
@@ -278,7 +300,7 @@
     )
     #if has_description [
       #v(0.3em)
-      #text(fill: color_text_primary)[#description]
+      #description
     ]
     #if facts.len() > 0 [
       #if has_description [
@@ -326,7 +348,7 @@
           spacing: 5pt,
           text(..text_style_header_name)[Aliaksei Yaletski],
           text(..text_style_header_role)[CTO | Head of R&D | Eng. Manager],
-          text(size: 9.1pt, fill: color_text_secondary)[Get the latest CV here: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]] ,
+          text(..text_style_header_note)[Get the latest CV here: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]] ,
         )
       ]
     ],
