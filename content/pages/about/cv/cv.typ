@@ -334,7 +334,7 @@
   radius: 6pt,
 )[
   #grid(
-    columns: (0.95fr, 1.95fr, 1fr),
+    columns: (1.05fr, 1.8fr, 1.05fr),
     column-gutter: 12pt,
     align: (left, horizon),
     [
