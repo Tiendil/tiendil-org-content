@@ -385,6 +385,7 @@
 
 // TODO: "I would gladly discuss any of these topics in detail."
 // TODO: add links to items to posts in my blog to use as an example
+// TODO: gamedev and gamedesign
 
 // TODO: make more readable — ground for normal people
 #grid(
