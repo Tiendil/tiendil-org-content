@@ -378,7 +378,7 @@
 ///////
 
 #intro[
-  Seasoned hands-on technical leader with 19 years of experience. Have a deep understanding of various roles; delivered a wide variety of products. Focused on a strong engineering culture based on self-governed, self-regulated teams that own their product. Look at the team, processes and technologies as parts of the product and grow them in sync. Have broad technical expertise: from specialized game logic in C++ to cloud-based payment systems in Python, from procedural content generation to AI and code analysis. Can comfortably switch between hands-on engineering work and managerial duties — believe that a proper leader must be able to do both.
+  Hands-on engineering leader with 19 years of experience. My work centers on building high-autonomy teams with strong engineering culture and product ownership. I see team structure, processes, and architecture as parts of the product and evolve them together. My technical expertise ranges from deterministic game logic in C++ to cloud-based payment systems in Python, and from code analysis to AI-based systems.
 ]
 
 #section[Areas of Expertise]
