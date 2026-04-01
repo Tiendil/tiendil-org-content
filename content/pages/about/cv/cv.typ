@@ -77,7 +77,7 @@
 )
 #let text_style_header_role = (
   ..text_style_base,
-  size: 9.7pt,
+  size: 10.4pt,
   weight: 600,
   fill: color_text_secondary,
 )
@@ -325,7 +325,7 @@
           dir: ttb,
           spacing: 5pt,
           text(..text_style_header_name)[Aliaksei Yaletski],
-          text(..text_style_header_role)[CTO | Board Advisor | Head of R&D | Eng. Manager],
+          text(..text_style_header_role)[CTO | Head of R&D | Eng. Manager],
           text(size: 9.1pt, fill: color_text_secondary)[Get the latest CV here: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]] ,
         )
       ]
