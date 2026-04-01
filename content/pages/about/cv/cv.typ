@@ -51,66 +51,73 @@
 ///////////////
 // Typography
 ///////////////
+#let text_weight_medium = 600
+#let text_weight_bold = 700
+
+#let text_size_xs = 9pt
+#let text_size_sm = 10pt
+#let text_size_md = 11pt
+#let text_size_lg = 12pt
+#let text_size_xl = 13pt
+#let text_size_2xl = 16pt
+#let text_size_display = 28pt
+
 #let text_style_base = (
   font: "Liberation Sans",
-  size: 10.35pt,
+  size: text_size_md,
   fill: color_text_primary,
 )
 #let text_style_link = (
   ..text_style_base,
   fill: color_link,
 )
+#let text_style_supporting = (
+  ..text_style_base,
+  size: text_size_sm,
+  fill: color_text_secondary,
+)
 #let text_style_section_title = (
   ..text_style_base,
-  size: 12.8pt,
-  weight: 700,
+  size: text_size_2xl,
+  weight: text_weight_bold,
 )
 #let text_style_subsection_title = (
   ..text_style_base,
-  size: 10.4pt,
-  weight: 700,
+  size: text_size_lg,
+  weight: text_weight_bold,
 )
 #let text_style_header_name = (
   ..text_style_base,
-  size: 24pt,
-  weight: 700,
+  size: text_size_display,
+  weight: text_weight_bold,
 )
 #let text_style_header_role = (
-  ..text_style_base,
-  size: 10.4pt,
-  weight: 600,
-  fill: color_text_secondary,
+  ..text_style_supporting,
+  size: text_size_lg,
+  weight: text_weight_medium,
 )
 #let text_style_footer = (
   ..text_style_base,
-  size: 7.6pt,
+  size: text_size_xs,
   fill: color_footer_text,
 )
 #let text_style_chip = (
   ..text_style_base,
-  size: 9.4pt,
-  weight: 600,
+  size: text_size_sm,
+  weight: text_weight_medium,
 )
 #let text_style_key = (
   ..text_style_base,
-  size: 9.4pt,
-  weight: 700,
+  size: text_size_sm,
+  weight: text_weight_bold,
 )
 #let text_style_project_heading = (
   ..text_style_base,
-  size: 11.6pt,
-  weight: 700,
+  size: text_size_xl,
+  weight: text_weight_bold,
 )
-#let text_style_project_meta = (
-  ..text_style_base,
-  size: 9.4pt,
-  fill: color_text_secondary,
-)
-#let text_style_header_note = (
-  ..text_style_base,
-  size: 9.1pt,
-  fill: color_text_secondary,
-)
+#let text_style_project_meta = text_style_supporting
+#let text_style_header_note = text_style_supporting
 #let updated_on = datetime.today().display("[month repr:long] [day], [year]")
 
 ///////////
@@ -128,7 +135,7 @@
 
 #set par(
   justify: false,
-  leading: 0.62em,
+  leading: 0.7em,
   spacing: 0.4em,
 )
 
@@ -470,8 +477,6 @@
 //       - missed world builders posts
 //       - https://tiendil.org/ru/posts/the-tale-lore-cc-by
 //       - https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021
-
-#pagebreak()
 
 #section[Work]
 
