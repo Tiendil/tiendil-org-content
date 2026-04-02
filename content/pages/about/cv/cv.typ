@@ -374,6 +374,7 @@
       )
     ],
     [
+      // TODO: should I mention Co-founder position explicitly?
       // TODO: update CV link to the correct one
       #align(center + top)[
         #stack(
