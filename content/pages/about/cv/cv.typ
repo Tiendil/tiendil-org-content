@@ -456,6 +456,7 @@
   ),
 )
 
+// TODO: domains as separate section, or do we need domains at all?
 #section[Technical Scope]
 
 #key_value("Domains", "Reliable backend systems, payment systems, LLM-based systems, game backends, game logic, API design, third-party API integrations, internal tooling, web frontends")
