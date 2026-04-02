@@ -656,6 +656,8 @@
   - Second diploma (3rd place) in the ¼ final of ACM Western Subregion 2006.
 ]
 
+// TODO: spelling
+
 /////////
 // Footer
 /////////
