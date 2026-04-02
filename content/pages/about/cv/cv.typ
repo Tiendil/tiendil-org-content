@@ -409,21 +409,21 @@
 
 #section[Hire Me When]
 
-// TODO we need "help you" here, maybe just "I'll bootstrap the team..."
 #grid(
   columns: expertise_columns,
-  column-gutter: 8pt,
+  column-gutter: 4pt,
   row-gutter: 0pt,
   narrative_block(
-    "You start a new product from zero",
-    [I'll help you bootstrap the team, architecture, and processes to start hypothesis-testing loops as early as possible. I'll guide the team through the early stages of growth and evolution, ensuring successful scaling and pivoting when needed.],
+    "You start a product from zero",
+    [I'll bootstrap the team, architecture, and processes so we can validate hypotheses early and scale or pivot with less rework.]
+
+    // TODO: add a bit about R&D
   ),
+
   narrative_block(
-    //    "You need to secure a critical producs's future",
-    // "You look for long-term success",
-    // "You need a product to succeed long-term",
-    "You need long-term success",
-    [I'll assess the risks, design and orchestrate the evolution of architecture and team, based on data and metrics grounded in reality. I'll establish knowledge flow across people and tools, ensure sustainable high-frequency delivery, and restrain technical debt.],
+    "You need a product to succeed long-term",
+    [I'll evolve the team, architecture, and processes in line with long-term goals and risks. I'll establish knowledge flow, quality automation, and high-frequency delivery required for sustained growth.],
+
   ),
 )
 
