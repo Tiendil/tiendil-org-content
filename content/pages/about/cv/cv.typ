@@ -439,7 +439,9 @@
   row-gutter: 0pt,
   narrative_block(
     "As a manager",
-    [I strongly focused on building autonomous teams with self-governance and self-regulation with remote-first and asynchronous work organization. I strongly value transparent decision-making, push for it in my work and expect it from my colleagues.],
+    [
+      I foster self-governed, self-regulated, remote-first teams with transparent decision-making and asynchronous workflows.
+    ],
   ),
   narrative_block(
     "As a technical leader",
