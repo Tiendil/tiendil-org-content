@@ -514,7 +514,7 @@
   facts: (
     "Solution has been successfully integrated into 3 startups.",
     "Led the project from scratch to production, delivering the full feature set and ensuring stable operation throughout the holiday season.",
-    "Grow the core team from 3 to 7 people.",
+    "Grow the core team to 7 people.",
     "Hired and mentored colleagues — transferred systems ownership as they became ready.",
     [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[RFC-driven architecture and process changes].],
     "Engineered a fault-tolerant payment architecture that tracked every processing step and enabled recovery from failures at any stage.",
