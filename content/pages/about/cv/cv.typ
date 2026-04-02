@@ -276,6 +276,18 @@
   ]
 ]
 
+#let section_intro(body) = [
+  #panel(
+    fill: none,
+    stroke: none,
+    inset: (top: 8pt, right: 11pt, bottom: 6pt, left: 11pt),
+    radius: 6pt,
+  )[
+    #set par(justify: true)
+    #body
+  ]
+]
+
 #let project_entry(
   years,
   title,
@@ -400,7 +412,7 @@
 // TODO we need "help you" here, maybe just "I'll bootstrap the team..."
 #grid(
   columns: expertise_columns,
-  column-gutter: 2pt,
+  column-gutter: 8pt,
   row-gutter: 0pt,
   narrative_block(
     "You start a new product from zero",
@@ -409,18 +421,21 @@
   narrative_block(
     //    "You need to secure a critical producs's future",
     // "You look for long-term success",
-    "You need a product to succeed long-term",
+    // "You need a product to succeed long-term",
+    "You need long-term success",
     [I'll assess the risks, design and orchestrate the evolution of architecture and team, based on data and metrics grounded in reality. I'll establish knowledge flow across people and tools, ensure sustainable high-frequency delivery, and restrain technical debt.],
   ),
 )
 
 #section[Style of Work]
 
-In my work I switch between the managerial and technical leadership modes, depending on where I bring the most value at the moment.
+#section_intro[
+  I switch between the managerial and technical leadership modes, depending on where I bring the most value at the moment.
+]
 
 #grid(
   columns: expertise_columns,
-  column-gutter: 2pt,
+  column-gutter: 8pt,
   row-gutter: 0pt,
   narrative_block(
     "As a manager",
