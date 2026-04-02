@@ -430,12 +430,12 @@
 #section[Style of Work]
 
 #section_intro[
-  I switch between the managerial and technical leadership modes, depending on where I bring the most value at the moment.
+  I move between management and technical leadership, depending on where I create the most leverage.
 ]
 
 #grid(
   columns: expertise_columns,
-  column-gutter: 8pt,
+  column-gutter: 4pt,
   row-gutter: 0pt,
   narrative_block(
     "As a manager",
