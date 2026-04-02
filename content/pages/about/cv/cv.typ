@@ -381,6 +381,24 @@
   Hands-on engineering leader with 19 years of experience. My work centers on building high-autonomy teams with strong engineering culture and product ownership. I see team structure, processes, and architecture as parts of the product and evolve them together. My technical expertise ranges from deterministic game logic in C++ to cloud-based payment systems in Python, and from code analysis to AI-based systems.
 ]
 
+#section[Hire Me When]
+
+*You start a new product from zero*
+
+// TODO we need "help you" here, maybe just "I'll bootstrap the team..."
+I'll help you bootstrap the team, architecture, and processes to start hypothesis-testing loops as early as possible. I'll guide the team through the early stages of growth and evolution, ensuring successful scaling and pivoting when needed.
+
+*You need to ensure the long-term success of a critical project*
+
+I'll assess the risks, design and orchestrate the evolution of architecture and team, based on data and metrics grounded in reality. I'll establish knowledge flow across people and tools, ensure sustainable high-frequency delivery, and restrain technical debt.
+
+#section[Style of Work]
+
+In my work I switch between the managerial and technical leadership modes, depending on where I bring the most value at the moment.
+
+1. As a manager I strongly focused on building autonomous teams with self-governance and self-regulation with remote-first and asynchronous work organization. I strongly value transparent decision-making, push for it in my work and expect it from my colleagues.
+2. As a technical leader, I work hands-on, owning the architecture and implementing critical systems together with the team. I am mentoring through shared technical ownership and deep code review.
+
 #section[Areas of Expertise]
 
 // TODO: platform development
@@ -463,11 +481,11 @@
 #section[Technical Scope]
 
 #key_value("Languages", "Python, TypeScript, JavaScript, Rust, C++, C, Julia, Perl")
-#key_value("Storage & messaging", "PostgreSQL, MySQL, Redis, RabbitMQ")
-#key_value("Cloud & operations", "Linux, Docker, AWS, Ansible, GitHub Actions, Graphite, Prometheus, Grafana")
+#key_value("Systems", "PostgreSQL, MySQL, Redis, RabbitMQ, AWS, Docker")
+#key_value("Cloud & operations", "Linux, Ansible, GitHub Actions, Graphite, Prometheus, Grafana")
 
 // TODO: should it be in the "areas of expertise" section instead?
-#key_value("AI-assisted development", "Agent-assisted workflows, quality-control harness, spec-driven development")
+//#key_value("AI-assisted development", "Agent-assisted workflows, quality-control harness, spec-driven development")
 
 // TOOD: what with QA & metrics? should I mention them somwere?
 
