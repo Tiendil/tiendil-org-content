@@ -386,6 +386,7 @@
 // TODO: platform development
 // TODO: add links to items to posts in my blog to use as an example
 // TODO: gamedev and gamedesign
+// TODO: platform modernization
 
 // TODO: make more readable — ground for normal people
 #grid(
@@ -457,6 +458,7 @@
 )
 
 // TODO: domains as separate section, or do we need domains at all?
+// TODO: do we need frameworks as scope?
 #section[Technical Scope]
 
 #key_value("Domains", "Reliable backend systems, payment systems, LLM-based systems, game backends, game logic, API design, third-party API integrations, internal tooling, web frontends")
