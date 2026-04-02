@@ -250,6 +250,20 @@
   ]
 ]
 
+#let narrative_block(title, body) = [
+  #panel(fill: color_surface_card, inset: 10pt, radius: 10pt)[
+    #block(
+      width: 100%,
+      inset: (x: 4pt, y: 4pt),
+      fill: color_surface_expertise_subheader,
+    )[
+      #text(..text_style_subsection_title)[#title]
+    ]
+    #v(0.35em)
+    #body
+  ]
+]
+
 #let intro(body) = [
   #panel(
     fill: none,
@@ -383,97 +397,45 @@
 
 #section[Hire Me When]
 
-*You start a new product from zero*
-
 // TODO we need "help you" here, maybe just "I'll bootstrap the team..."
-I'll help you bootstrap the team, architecture, and processes to start hypothesis-testing loops as early as possible. I'll guide the team through the early stages of growth and evolution, ensuring successful scaling and pivoting when needed.
-
-*You need to ensure the long-term success of a critical project*
-
-I'll assess the risks, design and orchestrate the evolution of architecture and team, based on data and metrics grounded in reality. I'll establish knowledge flow across people and tools, ensure sustainable high-frequency delivery, and restrain technical debt.
+#grid(
+  columns: expertise_columns,
+  column-gutter: 2pt,
+  row-gutter: 0pt,
+  narrative_block(
+    "You start a new product from zero",
+    [I'll help you bootstrap the team, architecture, and processes to start hypothesis-testing loops as early as possible. I'll guide the team through the early stages of growth and evolution, ensuring successful scaling and pivoting when needed.],
+  ),
+  narrative_block(
+    //    "You need to secure a critical producs's future",
+    // "You look for long-term success",
+    "You need a product to succeed long-term",
+    [I'll assess the risks, design and orchestrate the evolution of architecture and team, based on data and metrics grounded in reality. I'll establish knowledge flow across people and tools, ensure sustainable high-frequency delivery, and restrain technical debt.],
+  ),
+)
 
 #section[Style of Work]
 
 In my work I switch between the managerial and technical leadership modes, depending on where I bring the most value at the moment.
 
-1. As a manager I strongly focused on building autonomous teams with self-governance and self-regulation with remote-first and asynchronous work organization. I strongly value transparent decision-making, push for it in my work and expect it from my colleagues.
-2. As a technical leader, I work hands-on, owning the architecture and implementing critical systems together with the team. I am mentoring through shared technical ownership and deep code review.
-
-#section[Areas of Expertise]
+#grid(
+  columns: expertise_columns,
+  column-gutter: 2pt,
+  row-gutter: 0pt,
+  narrative_block(
+    "As a manager",
+    [I strongly focused on building autonomous teams with self-governance and self-regulation with remote-first and asynchronous work organization. I strongly value transparent decision-making, push for it in my work and expect it from my colleagues.],
+  ),
+  narrative_block(
+    "As a technical leader",
+    [I work hands-on, owning the architecture and implementing critical systems together with the team. I am mentoring through shared technical ownership and deep code review.],
+  ),
+)
 
 // TODO: platform development
 // TODO: add links to items to posts in my blog to use as an example
 // TODO: gamedev and gamedesign
 // TODO: platform modernization
-
-// TODO: make more readable — ground for normal people
-#grid(
-  columns: expertise_columns,
-  column-gutter: 12pt,
-  row-gutter: 0pt,
-  expertise_block(
-    "Product & Team Bootstrapping",
-    (
-      "Team formation and scaling",
-      "Architecture bootstrapping",
-      "Evidence-based pivoting",
-      "Early hypothesis-testing loops",
-      "Maturity-aware evolution of team, product, and architecture",
-    ),
-  ),
-  expertise_block(
-    "Strategic Planning & Execution",
-    (
-      "Long-term change orchestration",
-      "Risk assessment and mitigation",
-      "Data-based planning",
-      "Sustainable high-frequency delivery",
-      "Technical-debt containment",
-      "Knowledge flow design across people and tools",
-    ),
-  ),
-  expertise_block(
-    "High-Autonomy Engineering Teams",
-    (
-      "Team self-governance and self-regulation",
-      "Ownership-driven engineering culture",
-      "Remote-first work organization",
-      "Asynchronous process design",
-      "Transparent decision-making and work allocation",
-    ),
-  ),
-  expertise_block(
-    "Hands-on Technical Leadership",
-    (
-      "End-to-end architecture ownership",
-      "Implementation of critical systems",
-      "Team tooling and workflow automation",
-      "Incident response and systemic improvement",
-      "Deep code review",
-      "Mentoring through shared technical ownership",
-    ),
-  ),
-  expertise_block(
-    "Research & Development",
-    (
-      "Iterative exploratory prototyping",
-      "Technical feasibility assessment",
-      "Algorithmic and systems research",
-      "Experiment design, instrumentation, and execution",
-      "Analysis and synthesis of experimental results",
-    ),
-  ),
-  expertise_block(
-    "People Management",
-    (
-      "Hiring and onboarding",
-      "Delegation for growth and ownership",
-      "Performance assessment and feedback",
-      "Career mentoring and development",
-      "Firing and offboarding",
-    ),
-  ),
-)
 
 // TODO: those keyworlds may be helpfull
 // Reliable backend systems, payment systems, LLM-based systems, game backends, game logic, API design, third-party API integrations, internal tooling, web frontends.
