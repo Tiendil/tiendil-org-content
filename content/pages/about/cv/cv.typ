@@ -383,6 +383,7 @@
 
 #section[Areas of Expertise]
 
+// TODO: platform development
 // TODO: add links to items to posts in my blog to use as an example
 // TODO: gamedev and gamedesign
 
