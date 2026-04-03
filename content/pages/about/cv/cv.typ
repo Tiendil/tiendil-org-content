@@ -452,8 +452,6 @@
   ),
 )
 
-// TODO: add links to items to posts in my blog to use as an example
-
 #section[Domains]
 
 #section_intro[
