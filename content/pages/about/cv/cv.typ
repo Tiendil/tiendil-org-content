@@ -68,7 +68,6 @@
   fill: color_text_primary,
 )
 #let text_style_link = (
-  ..text_style_base,
   fill: color_link,
 )
 #let text_style_supporting = (
@@ -526,7 +525,7 @@
 
 #project_entry(
   "2017-2019",
-  [Mobile game #link("https://play.google.com/store/apps/details?id=com.melesta.coffeeshop")[My Cafe] — 50M+ installs as of September 2021.],
+  [Mobile game #link("https://play.google.com/store/apps/details?id=com.melesta.coffeeshop")[My Cafe] — 50M+ installs as of September 2021],
   company: link("https://melsoft-games.com/")[Melsoft Games],
   roles: ("Tech Lead",),
   description: "Owned backend architecture and core service development, modernized legacy systems for scale, and served as a key technical advisor on architecture and algorithm design.",
