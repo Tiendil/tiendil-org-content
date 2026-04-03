@@ -561,13 +561,13 @@
 
 #project_entry(
   "2012-2015",
-  "Browser text-based MMO \"The Tale\"",
+  "Browser text-based MMO game \"The Tale\"",
   company: link("https://the-tale.org")[The Tale],
   roles: ("Founder",),
   description: "Developed own product from scratch. Went all the way from prototyping to release, operation and shuting down. Played all roles from backend and frontend development to game design, community management and marketing.",
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django", "jQuery"),
   facts: (
-    "Having only Russian localizaton, the game reached >90k trial players, >30k registered players, ~2.5k paid players; had up to 5k MAU and 2K DAU.",
+    "Having only Russian localizaton, the game reached 90k+ trial players, 30k+ registered players, 2k+ paid players; had up to 5k MAU and 2K DAU.",
     "Assembled a core team and organized volunteers who helped in the development of the game.",
     [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text] (probably the best before LLMs), #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], world map.],
     "Implemented quality control through full automatic testing that allowed development without dedicated QA.",
