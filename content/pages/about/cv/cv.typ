@@ -446,7 +446,9 @@
   ),
   narrative_block(
     "As a technical leader",
-    [I work hands-on, owning the architecture and implementing critical systems together with the team. I am mentoring through shared technical ownership and deep code review.],
+    [
+      I stay directly involved in architecture and critical systems, and mentor through shared ownership, design work, and deep code review.
+    ],
   ),
 )
 
