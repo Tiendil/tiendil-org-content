@@ -461,24 +461,17 @@
 ]
 
 #chips((
-  "Platform development",
-  "Reliable backends",
-  "Payment systems",
-  "Game backends",
-  "Game logic",
-  "Internal tooling",
-  "Legacy/platform modernization",
-  "AI-based products",
-  "Engineering culture",
-  "Quality improvements",
-  "MMO game design",
+  "Platform engineering",
+  "Resilient backends",
+  "Payments & subscriptions",
+  "Research & Development",
+  "Live-service game backends",
+  "Game logic systems",
+  "Legacy modernization",
+  "MMO systems design",
   "Technical game design",
+  "Procedural content generation"
 ))
-
-// TODO: should it be in the "areas of expertise" section instead?
-//#key_value("AI-assisted development", "Agent-assisted workflows, quality-control harness, spec-driven development")
-
-// TOOD: what with QA & metrics? should I mention them somwere?
 
 /////////////////////////////////////////////////
 // New draft text is above this line, old text is below
