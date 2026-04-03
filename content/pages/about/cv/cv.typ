@@ -460,18 +460,20 @@
   My background is best visible from the work history below. Here are the domains where I am strongest.
 ]
 
-#chips((
-  "Platform engineering",
-  "Resilient backends",
-  "Payments & subscriptions",
-  "Research & Development",
-  "Live-service game backends",
-  "Game logic systems",
-  "Legacy modernization",
-  "MMO systems design",
-  "Technical game design",
-  "Procedural content generation"
-))
+#block(inset: (left: 11pt, right: 11pt))[
+  #chips((
+    "Platform engineering",
+    "Resilient backends",
+    "Payments & subscriptions",
+    "Research & Development",
+    "Live-service game backends",
+    "Game logic systems",
+    "Legacy modernization",
+    "MMO systems design",
+    "Technical game design",
+    "Procedural content generation"
+  ))
+]
 
 /////////////////////////////////////////////////
 // New draft text is above this line, old text is below
