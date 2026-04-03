@@ -492,11 +492,6 @@
 
 #pagebreak()
 
-// TODO: distributed team / remote work
-// TODO: not child startups, but startups in the portfolio of the company
-// TODO: communicating with third-parties / plain structure
-// TODO: release cadence/on-demand-updates
-// TODO: AWS Aurora serverless
 #project_entry(
   "2022-2023",
   "Vertical payment solution for startups in Palta's portfolio",
@@ -507,10 +502,11 @@
   facts: (
     "Solution has been successfully integrated into 3 startups.",
     "Led the project from scratch to production, delivering the full feature set and ensuring stable operation throughout the holiday season.",
-    "Grow the core team to 7 people.",
-    "Hired and mentored colleagues — transferred systems ownership as they became ready.",
+    "Grow the core remote-first team to 7 people.",
+    "Hired, onboarded and mentored colleagues — transferred systems ownership as they became ready.",
     [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[RFC-driven architecture and process changes].],
-    "Engineered a fault-tolerant payment architecture that tracked every processing step and enabled recovery from failures at any stage.",
+    "Engineered a fault-tolerant payment architecture that orchestrated all processing steps and enabled recovery from failures at any stage.",
+    "Established delivery cadence with multiple releases per week and on-demand updates on feature readiness.",
     "Achieved excellent service quality with only single QA specialist.",
     [Found bugs in top Python libraries, including #link("https://openai.com/blog/march-20-chatgpt-outage")[a bug that broke OpenAI], but did not break us.],
   ),
