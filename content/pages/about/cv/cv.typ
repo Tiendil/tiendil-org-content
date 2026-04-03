@@ -494,28 +494,27 @@
 
 #project_entry(
   "2022-2023",
-  "Vertical payment solution for startups in Palta's portfolio",
+  "Multi-provider payments platform for Palta portfolio startups.",
   company: link("https://palta.com/")[Palta],
   roles: ("Engineering Manager", "Tech Lead"),
-  description: "Led the design and development of a multi-provider payments platform with subscriptions, entitlement management, unified analytics, discounts, admin panels, SDKs, and resilient payment processing covering disputes, refunds, fallbacks, and error recovery.",
+  description: "Led the design and delivery of a payments platform from concept to production, covering subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows, including disputes, refunds, provider fallbacks, and failure recovery.",
   technologies: ("AWS", "Lambdas", "Python", "TypeScript", "FastAPI", "React", "PostgreSQL", "Redis", "Docker"),
   facts: (
-    "Solution has been successfully integrated into 3 startups.",
-    "Led the project from scratch to production, delivering the full feature set and ensuring stable operation throughout the holiday season.",
-    "Grow the core remote-first team to 7 people.",
-    "Hired, onboarded and mentored colleagues — transferred systems ownership as they became ready.",
-    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[RFC-driven architecture and process changes].],
-    "Engineered a fault-tolerant payment architecture that orchestrated all processing steps and enabled recovery from failures at any stage.",
-    "Established delivery cadence with multiple releases per week and on-demand updates on feature readiness.",
-    "Achieved excellent service quality with only single QA specialist.",
-    [Found bugs in top Python libraries, including #link("https://openai.com/blog/march-20-chatgpt-outage")[a bug that broke OpenAI], but did not break us.],
+    "Solution has been successfully integrated into 3 portfolio companies.",
+    "Led the platform from zero to production, ensuring its stable operation during the holiday season.",
+    "Built and led a remote-first core team of 7 engineers.",
+    "Hired, onboarded, mentored, and gradually transferred system ownership to new team members.",
+    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach] to evolving architecture and engineering processes.],
+    "Designed resilient payment-processing architecture with idempotent workflows, safe retries, provider fallback, and recovery from intermediate states.",
+    "Established a delivery process with multiple production releases per week, and ability to ship features immediately on readiness.",
+    [Identified bugs in major Python libraries (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]), including #link("https://openai.com/blog/march-20-chatgpt-outage")[one that caused an OpenAI outage], and prevented them from affecting our systems.],
   ),
 )
 
 #project_entry(
   "2019-2021",
   "Professional sabbatical",
-  description: [Check the full #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[report] in the blog.],
+  description: [Check #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] in the blog.],
   technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
     "Researched advanced approached to code analysis and backend architecture.",
