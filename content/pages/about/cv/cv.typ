@@ -494,19 +494,19 @@
 
 #project_entry(
   "2022-2023",
-  "Multi-provider payments platform for Palta portfolio startups.",
+  "Multi-provider payments platform for Palta portfolio startups",
   company: link("https://palta.com/")[Palta],
   roles: ("Engineering Manager", "Tech Lead"),
-  description: "Led the design and delivery of a payments platform from concept to production, covering subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows, including disputes, refunds, provider fallbacks, and failure recovery.",
-  technologies: ("AWS", "Lambdas", "Python", "TypeScript", "FastAPI", "React", "PostgreSQL", "Redis", "Docker"),
+  description: "Led the design and delivery of a payments platform from concept to production, covering subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows with support for disputes, refunds, provider fallback, and failure recovery.",
+  technologies: ("AWS", "AWS Lambda", "Python", "TypeScript", "FastAPI", "React", "PostgreSQL", "Redis", "Docker"),
   facts: (
     "Solution has been successfully integrated into 3 portfolio companies.",
-    "Led the platform from zero to production, ensuring its stable operation during the holiday season.",
+    "Led platform development from concept to production, ensuring its stable operation during the holiday season.",
     "Built and led a remote-first core team of 7 engineers.",
     "Hired, onboarded, mentored, and gradually transferred system ownership to new team members.",
     [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach] to evolving architecture and engineering processes.],
     "Designed resilient payment-processing architecture with idempotent workflows, safe retries, provider fallback, and recovery from intermediate states.",
-    "Established a delivery process with multiple production releases per week, and ability to ship features immediately on readiness.",
+    "Established a delivery process with multiple production releases per week and on-demand shipping of completed features.",
     [Identified bugs in major Python libraries (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]), including #link("https://openai.com/blog/march-20-chatgpt-outage")[one that caused an OpenAI outage], and prevented them from affecting our systems.],
   ),
 )
