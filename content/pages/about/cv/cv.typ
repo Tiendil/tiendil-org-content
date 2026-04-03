@@ -415,9 +415,7 @@
   row-gutter: 0pt,
   narrative_block(
     "You start a product from zero",
-    [I'll bootstrap the team, architecture, and processes so we can validate hypotheses early and scale or pivot with less rework.]
-
-    // TODO: add a bit about R&D
+    [I'll bootstrap the team, architecture, and processes so we can validate hypotheses early and scale or pivot with less rework. I'll prototype where needed to inform design decisions.]
   ),
 
   narrative_block(
