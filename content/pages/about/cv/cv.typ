@@ -580,7 +580,7 @@
   [Web portal #link("https://worldoftanks.com/")[World of Tanks], meta-game "Clan Wars"],
   company: link("https://wargaming.com/")[Wargaming],
   roles: ("Senior Developer",),
-  description: "Owned the code of the whole web portal: registration, players & clans profiles, clans management, statistics, ratings, tournaments, the meta-game for clans, news, i18n, etc.",
+  description: "Owned the code of the whole web portal: registration, player & clan profiles, clans management, player statistics, ratings, tournaments, the meta-game for clans, news, i18n, etc.",
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Memcached", "RabbitMQ", "Django", "jQuery"),
   facts: (
     "Together with the team completely switched the technology stack from client-side C++ to Python backend and developed the portal for one of the most successful online games.",
@@ -598,8 +598,8 @@
   description: "Optimized code, developed game logic, implemented critical GUI elements.",
   technologies: ("Windows", "C++", "internal game engine"),
   facts: (
-    "During my trial period, accelerated integration of the game engine with the graphics engine two times.",
-    "Designed and implemented the core GUI interface for organizing and preserving unit formations, which were critical for the gameplay and the whole user experience.",
+    "During my probation period, I doubled the throughput of the command queue between the game logic and graphics engine.",
+    "Designed and implemented the core UI for creating and maintaining unit formations, a feature central to gameplay and user experience.",
   ),
 )
 
