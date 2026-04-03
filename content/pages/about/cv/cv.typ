@@ -481,12 +481,12 @@
   description: "",
   technologies: ("Python", "TypeScript", "Rust", "LLMs"),
   facts: (
-    [Refined my management worldview through reflection on practical experience and management literature; documented the result in a #link("https://tiendil.org/en/tags/vantage-on-management")[essay series].],
-    [Created #link("https://feeds.fun/")[Feeds Fun] — news reader with LLM-based tags and news ranking by tag-based rules (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
-    [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] (now #link("https://voidforge.ai/")[Void Forge]) program for entertainment IP developers. Documented part of the journey in a #link("https://tiendil.org/en/tags/world-builders-2023")[essay series].],
-    "Researched Rust and explored its ecosystem, with a focus on game logic programming and sysem reliability.",
-    [#link("https://tiendil.org/en/posts/notes-on-coding-agents")[Researched AI coding agents] and their applications to software development."],
-    "Published more than 50 essays on technologies, management and trends in software development."
+    [Refined my management worldview through reflection on practical experience and management literature; documented the result in a #link("https://tiendil.org/en/tags/vantage-on-management")[series of essays on management].],
+    [Created #link("https://feeds.fun/")[Feeds Fun] — news reader with LLM-based tagging and rule-based ranking (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
+    [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] (now #link("https://voidforge.ai/")[Void Forge]) program for entertainment IP developers; documented part of the journey in a #link("https://tiendil.org/en/tags/world-builders-2023")[series of essays].],
+    "Explored Rust with an emphasis on game-logic programming and system reliability.",
+    [#link("https://tiendil.org/en/posts/notes-on-coding-agents")[Studied AI coding agents] and their applications to software development. Developed an experimental #link("https://github.com/Tiendil/donna")[planing and orchestration tool].],
+    "Published 50+ essays on technology, engineering management, and software-development trends."
   ),
 )
 
