@@ -374,14 +374,13 @@
       )
     ],
     [
-      // TODO: should I mention Co-founder position explicitly?
       // TODO: update CV link to the correct one
       #align(center + top)[
         #stack(
           dir: ttb,
           spacing: 7pt,
           text(..text_style_header_name)[Aliaksei Yaletski],
-          text(..text_style_header_role)[CTO | Head of R&D | Eng. Manager],
+          text(..text_style_header_role)[CTO | Engineering Leader | Founder],
           text(..text_style_header_note)[Get the latest CV here: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]] ,
         )
       ]
