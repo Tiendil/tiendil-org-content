@@ -469,13 +469,8 @@
   ))
 ]
 
-/////////////////////////////////////////////////
-// New draft text is above this line, old text is below
-/////////////////////////////////////////////////
-
 // TODO: need to translate a lot of posts from Ru
 //       - missed world builders posts
-//       - https://tiendil.org/ru/posts/the-tale-lore-cc-by
 //       - https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021
 
 #section[Work]
@@ -484,16 +479,18 @@
   "2024-2026",
   "Professional sabbatical",
   description: "",
-  technologies: ("Python", "TypeScript", "LLM", "Rust"),
+  technologies: ("Python", "TypeScript", "Rust", "LLMs"),
   facts: (
-    [Refined my management worldview through reflection on practical experience and management literature; documented the result in a #link("https://tiendil.org/en/tags/vantage-on-management")[public essay series].],
+    [Refined my management worldview through reflection on practical experience and management literature; documented the result in a #link("https://tiendil.org/en/tags/vantage-on-management")[essay series].],
     [Created #link("https://feeds.fun/")[Feeds Fun] — news reader with LLM-based tags and news ranking by tag-based rules (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
-    [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] (now #link("https://voidforge.ai/")[Void Forge]) program for entertainment IP developers; published #link("https://tiendil.org/en/tags/world-builders-2023")[related blog posts] and continued game development as a pet project.],
-    [#link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[Open-sourced the lore of the "The Tale" game].],
-    "Researched Rust and explored its ecosystem, with a focus on game logic programming and reliability",
-    "Published more than 50 essays about technologies, management and trends in software development."
+    [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] (now #link("https://voidforge.ai/")[Void Forge]) program for entertainment IP developers. Documented part of the journey in a #link("https://tiendil.org/en/tags/world-builders-2023")[essay series].],
+    "Researched Rust and explored its ecosystem, with a focus on game logic programming and sysem reliability.",
+    [#link("https://tiendil.org/en/posts/notes-on-coding-agents")[Researched AI coding agents] and their applications to software development."],
+    "Published more than 50 essays on technologies, management and trends in software development."
   ),
 )
+
+#pagebreak()
 
 // TODO: distributed team / remote work
 // TODO: not child startups, but startups in the portfolio of the company
