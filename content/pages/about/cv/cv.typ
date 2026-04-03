@@ -517,10 +517,10 @@
   description: [Check #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] in the blog.],
   technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
-    "Researched advanced approached to code analysis and backend architecture.",
+    "Improved my knowlege on backend architecture, advanced code analysis and quality control.",
     "Refined my game design knowledge through reflection on practical experience and game design literature.",
-    "Researched Julia and explored its ecosystem.",
-    "Published more than 100 essays about technologies, game design, thinking. Total size greater than first Harry Potter novel.",
+    "Explored Julia programming language.",
+    "Published 100+ essays on technology, game design, thinking. Total size greater than first Harry Potter novel.",
   ),
 )
 
@@ -541,6 +541,8 @@
     "Together with an analyst, developed a marketing campaigns system and A/B tests system.",
   ),
 )
+
+#pagebreak()
 
 #project_entry(
   "2015-2017",
