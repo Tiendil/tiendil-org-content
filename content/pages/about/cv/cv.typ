@@ -457,7 +457,7 @@
 #section[Domains]
 
 #section_intro[
-  My stack is best visible from the work history. Here are the domains where I am strongest.
+  My background is best visible from the work history below. Here are the domains where I am strongest.
 ]
 
 #chips((
