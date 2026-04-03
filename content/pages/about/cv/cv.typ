@@ -428,7 +428,7 @@
   ),
 )
 
-#section[Style of Work]
+#section[Work Style]
 
 #section_intro[
   I move between management and technical leadership, depending on where I create the most leverage.
@@ -460,11 +460,11 @@
 // TODO: those keyworlds may be helpfull
 // Reliable backend systems, payment systems, LLM-based systems, game backends, game logic, API design, third-party API integrations, internal tooling, web frontends.
 
-#section[Technical Scope]
+#section[Domains]
 
-#key_value("Languages", "Python, TypeScript, JavaScript, Rust, C++, C, Julia, Perl")
-#key_value("Systems", "PostgreSQL, MySQL, Redis, RabbitMQ, AWS, Docker")
-#key_value("Cloud & operations", "Linux, Ansible, GitHub Actions, Graphite, Prometheus, Grafana")
+#section_intro[
+  My stack is best visible from the work history. Here are the domains where I am strongest.
+]
 
 // TODO: should it be in the "areas of expertise" section instead?
 //#key_value("AI-assisted development", "Agent-assisted workflows, quality-control harness, spec-driven development")
