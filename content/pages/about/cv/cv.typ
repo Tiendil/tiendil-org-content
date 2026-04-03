@@ -457,7 +457,7 @@
 #section[Domains]
 
 #section_intro[
-  My background is best visible from the work history below. Here are the domains where I am strongest.
+  Here are the domains where I am strongest. The work history section provides more context.
 ]
 
 #block(inset: (left: 11pt, right: 11pt))[
@@ -465,7 +465,6 @@
     "Platform engineering",
     "Resilient backends",
     "Payments & subscriptions",
-    "Research & Development",
     "Live-service game backends",
     "Game logic systems",
     "Legacy modernization",
