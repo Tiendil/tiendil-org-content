@@ -636,7 +636,7 @@
 
 #section[Code examples]
 
-#key_value([#link("https://github.com/Tiendil/feeds.fun")[tiendil/feeds.fun]], "News reader with LLM-based tags and news ranking by tag-based rules.")
+#key_value([#link("https://github.com/Tiendil/feeds.fun")[tiendil/feeds.fun]], "News reader with LLM-based tagging and rule-based ranking.")
 
 #section[Achievements]
 
