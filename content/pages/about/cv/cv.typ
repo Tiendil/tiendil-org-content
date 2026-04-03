@@ -452,19 +452,15 @@
   ),
 )
 
-// TODO: platform development
 // TODO: add links to items to posts in my blog to use as an example
-// TODO: gamedev and gamedesign
-// TODO: platform modernization
-
-// TODO: those keyworlds may be helpfull
-// Reliable backend systems, payment systems, LLM-based systems, game backends, game logic, API design, third-party API integrations, internal tooling, web frontends.
 
 #section[Domains]
 
 #section_intro[
   My stack is best visible from the work history. Here are the domains where I am strongest.
 ]
+
+Platform development, Reliable backends, Payment systems, Game backends, Game logic, Internal tooling, Legacy/platform modernization, AI-based products, Engineering culture, Quality improvements, MMO game design, Technical game design,
 
 // TODO: should it be in the "areas of expertise" section instead?
 //#key_value("AI-assisted development", "Agent-assisted workflows, quality-control harness, spec-driven development")
