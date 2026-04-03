@@ -460,7 +460,20 @@
   My stack is best visible from the work history. Here are the domains where I am strongest.
 ]
 
-Platform development, Reliable backends, Payment systems, Game backends, Game logic, Internal tooling, Legacy/platform modernization, AI-based products, Engineering culture, Quality improvements, MMO game design, Technical game design,
+#chips((
+  "Platform development",
+  "Reliable backends",
+  "Payment systems",
+  "Game backends",
+  "Game logic",
+  "Internal tooling",
+  "Legacy/platform modernization",
+  "AI-based products",
+  "Engineering culture",
+  "Quality improvements",
+  "MMO game design",
+  "Technical game design",
+))
 
 // TODO: should it be in the "areas of expertise" section instead?
 //#key_value("AI-assisted development", "Agent-assisted workflows, quality-control harness, spec-driven development")
