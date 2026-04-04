@@ -519,7 +519,7 @@
     "Improved my knowledge of backend architecture, advanced code analysis, and quality control.",
     "Refined my game design knowledge through reflection on practical experience and game design literature.",
     "Explored Julia programming language.",
-    "Published 100+ essays on technology, game design, and thinking. The total size is greater than the first Harry Potter novel.",
+    "Published 100+ essays on technology, game design, and thinking. The total size is greater than that of the first Harry Potter novel.",
   ),
 )
 
@@ -564,7 +564,7 @@
   "Browser text-based MMO game \"The Tale\"",
   company: link("https://the-tale.org")[The Tale],
   roles: ("Founder",),
-  description: "Developed my own product from scratch. Went all the way from prototyping to release, operation, and shutting down. Played all roles, from backend and frontend development to game design, community management, and marketing.",
+  description: "Developed my own product from scratch. Went all the way from prototyping through release, operation, and shutdown. Played all roles, from backend and frontend development to game design, community management, and marketing.",
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django", "jQuery"),
   facts: (
     "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paid players; with up to 5k MAU and 2k DAU at peak.",
@@ -580,7 +580,7 @@
   [Web portal #link("https://worldoftanks.com/")[World of Tanks], meta-game "Clan Wars"],
   company: link("https://wargaming.com/")[Wargaming],
   roles: ("Senior Developer",),
-  description: "Owned the code of the whole web portal: registration, player & clan profiles, clans management, player statistics, ratings, tournaments, the meta-game for clans, news, i18n, etc.",
+  description: "Owned the code of the whole web portal: registration, player & clan profiles, clan management, player statistics, ratings, tournaments, the meta-game for clans, news, i18n, etc.",
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Memcached", "RabbitMQ", "Django", "jQuery"),
   facts: (
     "Together with the team, completely switched the technology stack from client-side C++ to a Python backend and developed the portal for one of the most successful online games.",
