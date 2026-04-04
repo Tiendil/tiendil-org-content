@@ -270,7 +270,6 @@
     inset: (top: 14pt, right: 11pt, bottom: 11pt, left: 11pt),
     radius: 6pt,
   )[
-    #set par(justify: true)
     #body
   ]
 ]
@@ -282,7 +281,6 @@
     inset: (top: 8pt, right: 11pt, bottom: 6pt, left: 11pt),
     radius: 6pt,
   )[
-    #set par(justify: true)
     #body
   ]
 ]
