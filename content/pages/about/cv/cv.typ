@@ -418,7 +418,7 @@
   ),
 
   narrative_block(
-    "You need a product to succeed long-term",
+    "You need long-term product success",
     [I'll evolve the team, architecture, and processes in line with long-term goals and risks. I'll establish knowledge flow, quality automation, and high-frequency delivery required for sustained growth.],
 
   ),
