@@ -484,7 +484,7 @@
     [Created #link("https://feeds.fun/")[Feeds Fun] — news reader with LLM-based tagging and rule-based ranking (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
     [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] (now #link("https://voidforge.ai/")[Void Forge]) program for entertainment IP developers; documented part of the journey in a #link("https://tiendil.org/en/tags/world-builders-2023")[series of essays].],
     "Explored Rust with an emphasis on game-logic programming and system reliability.",
-    [#link("https://tiendil.org/en/posts/notes-on-coding-agents")[Studied AI coding agents] and their applications to software development. Developed an experimental #link("https://github.com/Tiendil/donna")[planing and orchestration tool].],
+    [#link("https://tiendil.org/en/posts/notes-on-coding-agents")[Studied AI coding agents] and their applications to software development. Developed an experimental #link("https://github.com/Tiendil/donna")[planning and orchestration tool].],
     "Published 50+ essays on technology, engineering management, and software-development trends."
   ),
 )
@@ -516,10 +516,10 @@
   description: [Check #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] in the blog.],
   technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
-    "Improved my knowlege on backend architecture, advanced code analysis and quality control.",
+    "Improved my knowledge of backend architecture, advanced code analysis, and quality control.",
     "Refined my game design knowledge through reflection on practical experience and game design literature.",
     "Explored Julia programming language.",
-    "Published 100+ essays on technology, game design, thinking. Total size greater than first Harry Potter novel.",
+    "Published 100+ essays on technology, game design, and thinking. Total size greater than the first Harry Potter novel.",
   ),
 )
 
@@ -533,11 +533,11 @@
   facts: (
     "Optimized game backend to handle 1.5M RPM (25k RPS) at peak with stable latency and low error rates.",
     "Stabilized server-side payments-processing and payments-analytics logic to have 0 payment-related errors.",
-    "Implemented scalable profiles sharding, which by an order of magnitude reduced the load on the database.",
-    "ASAP developed support for the GDPR law.",
+    "Implemented scalable profile sharding, which reduced the load on the database by an order of magnitude.",
+    "Developed support for GDPR on short notice.",
     "Adapted server-side logic for China requirements.",
     "Introduced the practice of writing automated tests.",
-    "Together with an analyst, developed a marketing campaigns system and A/B tests system.",
+    "Together with an analyst, developed a marketing campaign system and an A/B testing system.",
   ),
 )
 
@@ -548,14 +548,14 @@
   "Mobile game Toy Defense 1, 2, 3",
   company: link("https://melsoft-games.com/")[Melsoft Games],
   roles: ("Tech Lead",),
-  description: "Fully owned united backend of 3 games. As an expert, consulte colleagues on infrastructure, architecture, and algorithms questions.",
+  description: "Fully owned the unified backend of 3 games. As an expert, consulted colleagues on infrastructure, architecture, and algorithmic questions.",
   technologies: ("Linux", "Python", "Twisted", "Django", "MySQL", "Redis", "Fabric", "Graphite", "Grafana"),
   facts: (
-    "Resurected legacy game backend to the operational state.",
+    "Resurrected the legacy game backend to an operational state.",
     "Developed a payment service, which was also cloned and reused by the neighboring team.",
     "Introduced practices of automated testing, CI/CD, metrics collection.",
     "Migrated project from svn to git.",
-    "Together with an analyst, developed game metrics collection system and the marketing campaigns system.",
+    "Together with an analyst, developed a game metrics collection system and a marketing campaign system.",
   ),
 )
 
@@ -564,13 +564,13 @@
   "Browser text-based MMO game \"The Tale\"",
   company: link("https://the-tale.org")[The Tale],
   roles: ("Founder",),
-  description: "Developed own product from scratch. Went all the way from prototyping to release, operation and shuting down. Played all roles from backend and frontend development to game design, community management and marketing.",
+  description: "Developed my own product from scratch. Went all the way from prototyping to release, operation, and shutting down. Played all roles from backend and frontend development to game design, community management and marketing.",
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django", "jQuery"),
   facts: (
-    "Having only Russian localizaton, the game reached 90k+ trial players, 30k+ registered players, 2k+ paid players; had up to 5k MAU and 2K DAU.",
+    "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paid players; had up to 5k MAU and 2K DAU.",
     "Assembled a core team and organized volunteers who helped in the development of the game.",
-    [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text] (probably the best before LLMs), #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], world map.],
-    "Implemented quality control through full automatic testing that allowed development without dedicated QA.",
+    [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text] (probably the best before LLMs), #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
+    "Implemented quality control through fully automated testing, which allowed development without dedicated QA.",
     [Open sourced #link("https://github.com/the-tale")[the code] and #link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[the game lore].]
   ),
 )
@@ -583,10 +583,10 @@
   description: "Owned the code of the whole web portal: registration, player & clan profiles, clans management, player statistics, ratings, tournaments, the meta-game for clans, news, i18n, etc.",
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Memcached", "RabbitMQ", "Django", "jQuery"),
   facts: (
-    "Together with the team completely switched the technology stack from client-side C++ to Python backend and developed the portal for one of the most successful online games.",
-    "Growned ownership from several subsystems (2010) to the entier portal (2012).",
-    "Together with the colleague designed and implemented GUI for web-based clans meta-game.",
-    "Designed requirements for captcha and passwords quality checks and implemented them.",
+    "Together with the team, completely switched the technology stack from client-side C++ to a Python backend and developed the portal for one of the most successful online games.",
+    "Grew ownership from several subsystems (2010) to the entire portal (2012).",
+    "Together with a colleague, designed and implemented the GUI for a web-based clan meta-game.",
+    "Designed requirements for CAPTCHA and password quality checks and implemented them.",
   ),
 )
 
@@ -610,7 +610,7 @@
   roles: ("Middle Developer",),
   description: "Implemented automatic configuration of the virtual hardware according to the specs of the physical hardware.",
   technologies: ("Linux", "Perl", "C", "Xen", "VMWare"),
-  facts: ("Introduce practices of automated testing.",),
+  facts: ("Introduced practices of automated testing.",),
 )
 
 #project_entry(
@@ -637,13 +637,6 @@
 #section[Code examples]
 
 #key_value([#link("https://github.com/Tiendil/feeds.fun")[tiendil/feeds.fun]], "News reader with LLM-based tagging and rule-based ranking.")
-
-#section[Achievements]
-
-#panel[
-  - #link("https://archiveprogram.github.com/")[Arctic Code Vault Contributor] on Github.
-  - Second diploma (3rd place) in the ¼ final of ACM Western Subregion 2006.
-]
 
 /////////
 // Footer
