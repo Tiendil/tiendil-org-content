@@ -481,7 +481,7 @@
   technologies: ("Python", "TypeScript", "Rust", "LLMs"),
   facts: (
     [Refined my management worldview through reflection on practical experience and management literature; documented the result in a #link("https://tiendil.org/en/tags/vantage-on-management")[series of essays on management].],
-    [Created #link("https://feeds.fun/")[Feeds Fun] — news reader with LLM-based tagging and rule-based ranking (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
+    [Created #link("https://feeds.fun/")[Feeds Fun] — a news reader with LLM-based tagging and rule-based ranking (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
     [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] (now #link("https://voidforge.ai/")[Void Forge]) program for entertainment IP developers; documented part of the journey in a #link("https://tiendil.org/en/tags/world-builders-2023")[series of essays].],
     "Explored Rust with an emphasis on game-logic programming and system reliability.",
     [#link("https://tiendil.org/en/posts/notes-on-coding-agents")[Studied AI coding agents] and their applications to software development. Developed an experimental #link("https://github.com/Tiendil/donna")[planning and orchestration tool].],
@@ -499,7 +499,7 @@
   description: "Led the design and delivery of a payments platform from concept to production, covering subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows with support for disputes, refunds, provider fallback, and failure recovery.",
   technologies: ("AWS", "AWS Lambda", "Python", "TypeScript", "FastAPI", "React", "PostgreSQL", "Redis", "Docker"),
   facts: (
-    "Solution has been successfully integrated into 3 portfolio companies.",
+    "The solution has been successfully integrated into 3 portfolio companies.",
     "Led platform development from concept to production, ensuring its stable operation during the holiday season.",
     "Built and led a remote-first core team of 7 engineers.",
     "Hired, onboarded, mentored, and gradually transferred system ownership to new team members.",
@@ -513,13 +513,13 @@
 #project_entry(
   "2019-2021",
   "Professional sabbatical",
-  description: [Check #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] in the blog.],
+  description: [Check #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] on the blog.],
   technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
     "Improved my knowledge of backend architecture, advanced code analysis, and quality control.",
     "Refined my game design knowledge through reflection on practical experience and game design literature.",
     "Explored Julia programming language.",
-    "Published 100+ essays on technology, game design, and thinking. Total size greater than the first Harry Potter novel.",
+    "Published 100+ essays on technology, game design, and thinking. The total size is greater than the first Harry Potter novel.",
   ),
 )
 
@@ -535,7 +535,7 @@
     "Stabilized server-side payment-processing and payment-analytics logic, reducing payment-related errors to zero.",
     "Implemented scalable profile sharding, which reduced the load on the database by an order of magnitude.",
     "Developed support for GDPR on short notice.",
-    "Adapted server-side logic for China requirements.",
+    "Adapted server-side logic for Chinese requirements.",
     "Introduced the practice of writing automated tests.",
     "Together with an analyst, developed a marketing campaign system and an A/B testing system.",
   ),
@@ -545,7 +545,7 @@
 
 #project_entry(
   "2015-2017",
-  "Mobile game Toy Defense 1, 2, 3",
+  "Mobile games Toy Defense 1, 2, and 3",
   company: link("https://melsoft-games.com/")[Melsoft Games],
   roles: ("Tech Lead",),
   description: "Fully owned the unified backend of 3 games. As an expert, consulted colleagues on infrastructure, architecture, and algorithmic questions.",
@@ -554,7 +554,7 @@
     "Resurrected the legacy game backend to an operational state.",
     "Developed a payment service, which was also cloned and reused by the neighboring team.",
     "Introduced practices for automated testing, CI/CD, and metrics collection.",
-    "Migrated project from svn to git.",
+    "Migrated the project from SVN to Git.",
     "Together with an analyst, developed a game metrics collection system and a marketing campaign system.",
   ),
 )
@@ -567,11 +567,11 @@
   description: "Developed my own product from scratch. Went all the way from prototyping to release, operation, and shutting down. Played all roles, from backend and frontend development to game design, community management, and marketing.",
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django", "jQuery"),
   facts: (
-    "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paid players; had up to 5k MAU and 2K DAU.",
+    "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paid players; with up to 5k MAU and 2k DAU at peak.",
     "Assembled a core team and organized volunteers who helped in the development of the game.",
     [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text] (probably the best before LLMs), #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
     "Implemented quality control through fully automated testing, which allowed development without dedicated QA.",
-    [Open sourced #link("https://github.com/the-tale")[the code] and #link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[the game lore].]
+    [Open-sourced #link("https://github.com/the-tale")[the code] and #link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[the game lore].]
   ),
 )
 
