@@ -92,7 +92,7 @@
 )
 #let text_style_header_role = (
   ..text_style_supporting,
-  size: text_size_lg,
+  size: text_size_md,
   weight: text_weight_medium,
 )
 #let text_style_footer = (
@@ -157,7 +157,7 @@
 ]
 
 #let expertise_columns = 2
-#let project_meta_column_width = 26mm
+#let project_meta_column_width = 22mm
 #let key_value_key_column_width = 42mm
 
 #let panel(
@@ -204,7 +204,7 @@
   #panel(fill: color_surface_card, inset: (x: 8pt, y: 4pt), radius: 9pt)[
     #grid(
       columns: (key_width, 1fr),
-      column-gutter: 10pt,
+      column-gutter: 8pt,
       align: (left, horizon),
       [
         #text(..text_style_key)[#key]
@@ -300,7 +300,7 @@
     #let has_description = description != none and description != ""
     #grid(
       columns: (project_meta_column_width, 1fr),
-      column-gutter: 10pt,
+      column-gutter: 8pt,
       row-gutter: 0pt,
       align: (left, top),
       [
@@ -379,7 +379,7 @@
           dir: ttb,
           spacing: 7pt,
           text(..text_style_header_name)[Aliaksei Yaletski],
-          text(..text_style_header_role)[CTO | Engineering Leader | Founder],
+          text(..text_style_header_role)[CTO | Engineering Leader | Co-Founder],
           text(..text_style_header_note)[Get the latest CV here: #link("https://tiendil.org/en/cv")[tiendil.org/en/cv]] ,
         )
       ]
