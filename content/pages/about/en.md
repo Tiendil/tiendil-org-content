@@ -15,22 +15,19 @@ src = "images/new_avatar_very_small.jpg"
 alt = "Aliaksei Yaletski photo (blog author)"
 ///
 
-I have been involved in various activities besides programming, so I position myself not as a programmer, but as a software developer.
+I like to think about myself as an old-school indie game developer & hacker. At least, I work in Emacs and single-handedly developed a text-based MMO game — that should say something. However, the definitions of these terms are wide, so you may disagree with me — it is ok.
 
-With a good quality I can write code, develop architecture, design user interfaces, handle deployment, testing, documentation writing, lead, gather/write/discuss requirements, write technical specifications, etc.
+Due to my hobby being software development as well as my occupation, I have a wide range of expertise, from deterministic game logic in C++ to cloud-based payment systems in Python, and from code analysis to AI-based systems.
 
-I believe that a developer should do whatever is most necessary for the project at the moment, regardless of the type of activity.
+If you want to learn more about my interests, just check the most used tags in my blog — I write mostly about complex things I learned or questions I have a strong opinion on.
 
-I possess a rare and epic skill of programming without external QA. I instill corresponding practices around me.
-
-I enjoy answering well-posed questions.
+I enjoy answering well-posed questions. Please feel welcome to ask me anything.
 
 ## Contacts
 
 - GitHub: [github.com/Tiendil](https://github.com/Tiendil)
 - Telegram: [t.me/Tiendil](https://t.me/Tiendil)
 - LinkedIn: [linkedin.com/in/tiendil](https://linkedin.com/in/tiendil)
-- Facebook: [facebook.com/tiendil](https://www.facebook.com/tiendil)
 - Email: a.eletsky@gmail.com
 
 </div>
@@ -43,6 +40,7 @@ I enjoy answering well-posed questions.
 
 ## Interests
 
+- Engineering management.
 - Systems engineering.
 - Thinking practices.
 - Game development.
@@ -51,6 +49,7 @@ I enjoy answering well-posed questions.
 - Code analysis.
 - Cartoons.
 - Books.
+
 
 ## Career
 
