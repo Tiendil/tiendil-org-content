@@ -1,0 +1,640 @@
+/////////////////////////
+// Visual Style Approach
+/////////////////////////
+// Direction:
+// - A modern executive-tech CV built around a calm blue palette.
+// - Minimalist and professional first, but more approachable than a plain corporate document.
+// - Depth is subtle: rounded cards, layered surfaces, and restrained contrast instead of heavy decoration.
+//
+// Elements:
+// - Page canvas: plain white, so the document feels clean and print-friendly.
+// - Header panel: a restrained near-white surface with spacing and hierarchy doing more work than color.
+// - Contact items: compact icon-led rows with calm spacing and muted supporting text.
+// - Section headers: title text followed by a full-width accent rule instead of a filled banner.
+// - Intro summary: a lightly tinted lead panel with a very soft outline.
+// - Expertise cards: compact white blocks with subtle heading capsules and clear internal spacing.
+// - Scope rows: labeled information rows with quiet tags on the left and clean values on the right.
+// - Project entries: soft card-based timeline items with a lightly tinted metadata rail and minimal framing.
+// - Technology and role tags: quiet neutral-blue chips for short terms to improve scanning without visual noise.
+// - Supporting panels: education and achievements sit in simple white cards to keep the lower sections visually consistent.
+// - Links: saturated blue for affordance, without aggressive contrast.
+// - Footer: thin separators and muted text so it stays useful but unobtrusive.
+//
+// Semantic color system:
+// - page background
+// - section rule accent
+// - primary card surface
+// - tag surface
+// - role tag surface
+// - expertise subheader surface
+// - primary text
+// - secondary text
+// - link accent
+// - footer rule
+// - footer text
+
+////////////
+// Colors
+////////////
+#let color_page_background = rgb("#FFFFFF")
+#let color_section_rule = rgb("#90A9C2")
+#let color_surface_card = rgb("#FFFFFF")
+#let color_surface_tag = rgb("#EEF3F8")
+#let color_surface_role_tag = rgb("#EAF4EA")
+#let color_surface_expertise_subheader = rgb("#E7F1FF")
+#let color_text_primary = rgb("#1D2A38")
+#let color_text_secondary = rgb("#46576B")
+#let color_link = rgb("#1B5FB2")
+#let color_footer_line = rgb("#D9E0E8")
+#let color_footer_text = rgb("#7A8796")
+
+///////////////
+// Typography
+///////////////
+#let text_weight_medium = 600
+#let text_weight_bold = 700
+
+#let text_size_xs = 9pt
+#let text_size_sm = 10pt
+#let text_size_md = 11pt
+#let text_size_lg = 12pt
+#let text_size_xl = 13pt
+#let text_size_2xl = 16pt
+#let text_size_display = 28pt
+
+#let text_style_base = (
+  font: "Liberation Sans",
+  size: text_size_md,
+  fill: color_text_primary,
+)
+#let text_style_link = (
+  fill: color_link,
+)
+#let text_style_supporting = (
+  ..text_style_base,
+  size: text_size_sm,
+  fill: color_text_secondary,
+)
+#let text_style_section_title = (
+  ..text_style_base,
+  size: text_size_2xl,
+  weight: text_weight_bold,
+)
+#let text_style_subsection_title = (
+  ..text_style_base,
+  size: text_size_lg,
+  weight: text_weight_bold,
+)
+#let text_style_header_name = (
+  ..text_style_base,
+  size: text_size_display,
+  weight: text_weight_bold,
+)
+#let text_style_header_role = (
+  ..text_style_supporting,
+  size: text_size_md,
+  weight: text_weight_medium,
+)
+#let text_style_footer = (
+  ..text_style_base,
+  size: text_size_xs,
+  fill: color_footer_text,
+)
+#let text_style_chip = (
+  ..text_style_base,
+  size: text_size_sm,
+  weight: text_weight_medium,
+)
+#let text_style_key = (
+  ..text_style_base,
+  size: text_size_sm,
+  weight: text_weight_bold,
+)
+#let text_style_project_heading = (
+  ..text_style_base,
+  size: text_size_xl,
+  weight: text_weight_bold,
+)
+#let text_style_project_meta = text_style_supporting
+#let text_style_header_note = text_style_supporting
+#let updated_on = datetime.today().display("[month repr:long] [day], [year]")
+
+///////////
+// Document
+///////////
+#set page(
+  paper: "a4",
+  margin: (top: 9mm, right: 11mm, bottom: 9mm, left: 11mm),
+  fill: color_page_background,
+)
+
+#set text(..text_style_base)
+
+#set smartquote(enabled: false)
+
+#set par(
+  justify: false,
+  leading: 0.7em,
+  spacing: 0.4em,
+)
+
+#set list(
+  tight: true,
+)
+
+#show link: set text(..text_style_link)
+
+#let section(title) = [
+  #v(0.8em)
+  #grid(
+    columns: (auto, 1fr),
+    column-gutter: 9pt,
+    align: (left, horizon),
+    [#text(..text_style_section_title)[#title]],
+    [#line(length: 100%, stroke: 1.25pt + color_section_rule)],
+  )
+  #v(0.35em)
+]
+
+#let expertise_columns = 2
+#let project_meta_column_width = 22mm
+#let key_value_key_column_width = 42mm
+
+#let panel(
+  fill: color_surface_card,
+  stroke: none,
+  inset: 10pt,
+  radius: 10pt,
+  body,
+) = [
+  #block(
+    width: 100%,
+    inset: inset,
+    radius: radius,
+    fill: fill,
+    stroke: stroke,
+  )[
+    #body
+  ]
+]
+
+#let chip(
+  label,
+  fill: color_surface_tag,
+) = box(
+  inset: (x: 7pt, y: 3pt),
+  radius: 0pt,
+  fill: fill,
+  stroke: none,
+)[
+  #text(..text_style_chip)[#label]
+]
+
+#let chips(
+  items,
+  fill: color_surface_tag,
+) = [
+  #for item in items [
+    #chip(item, fill: fill)
+    #h(3.5pt)
+  ]
+]
+
+#let key_value(key, value, key_width: key_value_key_column_width) = [
+  #panel(fill: color_surface_card, inset: (x: 8pt, y: 4pt), radius: 9pt)[
+    #grid(
+      columns: (key_width, 1fr),
+      column-gutter: 8pt,
+      align: (left, horizon),
+      [
+        #text(..text_style_key)[#key]
+      ],
+      [#value],
+    )
+  ]
+]
+
+#let icon_badge(icon) = box(
+  inset: 4pt,
+  radius: 999pt,
+  fill: color_surface_card,
+  stroke: none,
+)[
+  #image(icon, width: 0.9em)
+]
+
+#let icon_value(icon, value) = [
+  #grid(
+    columns: (1.6em, 1fr),
+    column-gutter: 0.5em,
+    align: (left, horizon),
+    icon_badge(icon),
+    value,
+  )
+]
+
+#let expertise_block(title, items) = [
+  #panel(fill: color_surface_card, inset: 10pt, radius: 10pt)[
+    #block(
+      width: 100%,
+      inset: (x: 8pt, y: 4pt),
+      fill: color_surface_expertise_subheader,
+    )[
+      #text(..text_style_subsection_title)[#title]
+    ]
+    #v(0.35em)
+    #for item in items [
+      - #item
+    ]
+  ]
+]
+
+#let narrative_block(title, body) = [
+  #panel(fill: color_surface_card, inset: 10pt, radius: 10pt)[
+    #block(
+      width: 100%,
+      inset: (x: 4pt, y: 4pt),
+      fill: color_surface_expertise_subheader,
+    )[
+      #text(..text_style_subsection_title)[#title]
+    ]
+    #v(0.35em)
+    #body
+  ]
+]
+
+#let intro(body) = [
+  #panel(
+    fill: none,
+    stroke: none,
+    inset: (top: 14pt, right: 11pt, bottom: 11pt, left: 11pt),
+    radius: 6pt,
+  )[
+    #body
+  ]
+]
+
+#let section_intro(body) = [
+  #panel(
+    fill: none,
+    stroke: none,
+    inset: (top: 8pt, right: 11pt, bottom: 6pt, left: 11pt),
+    radius: 6pt,
+  )[
+    #body
+  ]
+]
+
+#let project_entry(
+  years,
+  title,
+  technologies: (),
+  company: none,
+  roles: (),
+  description: none,
+  facts: (),
+) = [
+  #panel(fill: color_surface_card, inset: 10pt, radius: 11pt)[
+    #let has_description = description != none and description != ""
+    #grid(
+      columns: (project_meta_column_width, 1fr),
+      column-gutter: 8pt,
+      row-gutter: 0pt,
+      align: (left, top),
+      [
+        #block(inset: (bottom: 8pt))[
+          #text(..text_style_project_heading)[#years]
+        ]
+      ],
+      [
+        #block(inset: (bottom: 8pt))[
+          #text(..text_style_project_heading)[#title]
+        ]
+      ],
+      [
+        #if company != none [
+          #text(..text_style_project_meta)[#company]
+        ]
+      ],
+      [
+        #if roles.len() > 0 [
+          #chips(roles, fill: color_surface_role_tag)
+        ]
+          #if roles.len() > 0 and technologies.len() > 0 [
+            #h(2pt)
+          ]
+        #if technologies.len() > 0 [
+          #chips(technologies)
+        ]
+      ],
+    )
+    #if has_description [
+      #v(0.3em)
+      #description
+    ]
+    #if facts.len() > 0 [
+      #if has_description [
+        #v(0.7em)
+      ] else [
+        #v(0.3em)
+      ]
+      #for fact in facts [
+        - #fact
+      ]
+    ]
+  ]
+  #v(0.55em)
+]
+
+/////////
+// Header
+/////////
+
+#panel(
+  fill: none,
+  stroke: none,
+  inset: (top: 2pt, right: 12pt, bottom: 0pt, left: 12pt),
+  radius: 6pt,
+)[
+  #grid(
+    columns: (1.05fr, 1.8fr, 1.05fr),
+    column-gutter: 12pt,
+    align: (left, horizon),
+    [
+      #stack(
+        dir: ttb,
+        spacing: 0pt,
+        icon_value("icons/email.svg", "a.eletsky@gmail.com"),
+        icon_value("icons/telephone.svg", "+49-1512-61-33-460"),
+        icon_value("icons/telegram.svg", [#link("https://t.me/tiendil")[t.me/tiendil]]),
+        icon_value("icons/location.svg", "Hamburg, Germany"),
+      )
+    ],
+    [
+      #align(center + top)[
+        #stack(
+          dir: ttb,
+          spacing: 7pt,
+          text(..text_style_header_name)[Aliaksei Yaletski],
+          text(..text_style_header_role)[CTO | Engineering Leader | Co-Founder],
+          text(..text_style_header_note)[Get the latest CV here: #link("https://tiendil.org/cv")[tiendil.org/cv]] ,
+        )
+      ]
+    ],
+    [
+      #align(left + top)[
+        #stack(
+          dir: ttb,
+          spacing: 0pt,
+          icon_value("icons/blog.svg", [#link("https://tiendil.org")[tiendil.org]]),
+          icon_value("icons/github.svg", [#link("https://github.com/tiendil")[github.com/tiendil]]),
+          icon_value("icons/linkedin.svg", [#link("https://linkedin.com/in/tiendil")[linkedin.com/in/tiendil]]),
+        )
+      ]
+    ],
+  )
+]
+
+///////
+// Body
+///////
+
+#intro[
+  Hands-on engineering leader with 19 years of experience. My work centers on building high-autonomy teams with strong engineering culture and product ownership. I see team structure, processes, and architecture as parts of the product and evolve them together. My technical expertise ranges from deterministic game logic in C++ to cloud-based payment systems in Python, and from code analysis to AI-based systems.
+]
+
+#section[Hire Me When]
+
+#grid(
+  columns: expertise_columns,
+  column-gutter: 4pt,
+  row-gutter: 0pt,
+  narrative_block(
+    "You start a product from zero",
+    [I'll bootstrap the team, architecture, and processes so we can validate hypotheses early and scale or pivot with less rework. I'll prototype where needed to inform design decisions.]
+  ),
+
+  narrative_block(
+    "You need long-term product success",
+    [I'll evolve the team, architecture, and processes in line with long-term goals and risks. I'll establish knowledge flow, quality automation, and high-frequency delivery required for sustained growth.],
+
+  ),
+)
+
+#section[Work Style]
+
+#section_intro[
+  I move between management and technical leadership, depending on where I create the most leverage.
+]
+
+#grid(
+  columns: expertise_columns,
+  column-gutter: 4pt,
+  row-gutter: 0pt,
+  narrative_block(
+    "As a manager",
+    [
+      I foster self-governed, self-regulated, remote-first teams with transparent decision-making and asynchronous workflows.
+    ],
+  ),
+  narrative_block(
+    "As a technical leader",
+    [
+      I stay directly involved in architecture and critical systems, and mentor through shared ownership, design work, and deep code review.
+    ],
+  ),
+)
+
+#section[Domains]
+
+#section_intro[
+  Here are the domains where I am strongest. The work history section provides more context.
+]
+
+#block(inset: (left: 11pt, right: 11pt))[
+  #chips((
+    "Platform engineering",
+    "Resilient backends",
+    "Payments & subscriptions",
+    "Live-service game backends",
+    "Game logic systems",
+    "Legacy modernization",
+    "MMO systems design",
+    "Technical game design",
+    "Procedural content generation"
+  ))
+]
+
+#section[Work]
+
+#project_entry(
+  "2024-2026",
+  "Professional sabbatical",
+  description: "",
+  technologies: ("Python", "TypeScript", "Rust", "LLMs"),
+  facts: (
+    [Refined my management worldview through reflection on practical experience and management literature; documented the result in a #link("https://tiendil.org/en/tags/vantage-on-management")[series of essays on management].],
+    [Created #link("https://feeds.fun/")[Feeds Fun] — a news reader with LLM-based tagging and rule-based ranking (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
+    [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] (now #link("https://voidforge.ai/")[Void Forge]) program for entertainment IP developers; documented part of the journey in a #link("https://tiendil.org/en/tags/world-builders-2023")[series of essays].],
+    "Explored Rust with an emphasis on game-logic programming and system reliability.",
+    [#link("https://tiendil.org/en/posts/notes-on-coding-agents")[Studied AI coding agents] and their applications to software development. Developed an experimental #link("https://github.com/Tiendil/donna")[planning and orchestration tool].],
+    "Published 50+ essays on technology, engineering management, and software-development trends."
+  ),
+)
+
+#pagebreak()
+
+#project_entry(
+  "2022-2023",
+  "Multi-provider payments platform for Palta portfolio startups",
+  company: link("https://palta.com/")[Palta],
+  roles: ("Engineering Manager", "Tech Lead"),
+  description: "Led the design and delivery of a payments platform from concept to production, covering subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows with support for disputes, refunds, provider fallback, and failure recovery.",
+  technologies: ("AWS", "AWS Lambda", "Python", "TypeScript", "FastAPI", "React", "PostgreSQL", "Redis", "Docker"),
+  facts: (
+    "The solution has been successfully integrated into 3 portfolio companies.",
+    "Led platform development from concept to production, ensuring its stable operation during the holiday season.",
+    "Built and led a remote-first core team of 7 engineers.",
+    "Hired, onboarded, mentored, and gradually transferred system ownership to new team members.",
+    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach] to evolving architecture and engineering processes.],
+    "Designed resilient payment-processing architecture with idempotent workflows, safe retries, provider fallback, and recovery from intermediate states.",
+    "Established a delivery process with multiple production releases per week and on-demand shipping of completed features.",
+    [Identified bugs in major Python libraries (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]), including #link("https://openai.com/blog/march-20-chatgpt-outage")[one that caused an OpenAI outage], and prevented them from affecting our systems.],
+  ),
+)
+
+#project_entry(
+  "2019-2021",
+  "Professional sabbatical",
+  description: [Check #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] on the blog.],
+  technologies: ("Python", "Julia", "Deep Neural Networks"),
+  facts: (
+    "Improved my knowledge of backend architecture, advanced code analysis, and quality control.",
+    "Refined my game design knowledge through reflection on practical experience and game design literature.",
+    "Explored Julia programming language.",
+    "Published 100+ essays on technology, game design, and thinking. The total size is greater than that of the first Harry Potter novel.",
+  ),
+)
+
+#project_entry(
+  "2017-2019",
+  [Mobile game #link("https://play.google.com/store/apps/details?id=com.melesta.coffeeshop")[My Cafe] — 50M+ installs as of September 2021],
+  company: link("https://melsoft-games.com/")[Melsoft Games],
+  roles: ("Tech Lead",),
+  description: "Owned backend architecture and core service development, modernized legacy systems for scale and stability, served as a key technical advisor on architecture and algorithm design.",
+  technologies: ("Linux", "Python", "Twisted", "Django", "PostgreSQL", "Redis", "Graphite", "Prometheus", "Grafana", "Ansible", "Docker"),
+  facts: (
+    "Optimized game backend to handle 1.5M RPM (25k RPS) at peak with stable latency and low error rates.",
+    "Stabilized server-side payment-processing and payment-analytics logic, reducing payment-related errors to zero.",
+    "Implemented scalable profile sharding, which reduced the load on the database by an order of magnitude.",
+    "Developed support for GDPR on short notice.",
+    "Adapted server-side logic for Chinese requirements.",
+    "Introduced the practice of writing automated tests.",
+    "Together with an analyst, developed a marketing campaign system and an A/B testing system.",
+  ),
+)
+
+#pagebreak()
+
+#project_entry(
+  "2015-2017",
+  "Mobile games Toy Defense 1, 2, and 3",
+  company: link("https://melsoft-games.com/")[Melsoft Games],
+  roles: ("Tech Lead",),
+  description: "Fully owned the unified backend of 3 games. As an expert, consulted colleagues on infrastructure, architecture, and algorithmic questions.",
+  technologies: ("Linux", "Python", "Twisted", "Django", "MySQL", "Redis", "Fabric", "Graphite", "Grafana"),
+  facts: (
+    "Resurrected the legacy game backend to an operational state.",
+    "Developed a payment service, which was also cloned and reused by the neighboring team.",
+    "Introduced practices for automated testing, CI/CD, and metrics collection.",
+    "Migrated the project from SVN to Git.",
+    "Together with an analyst, developed a game metrics collection system and a marketing campaign system.",
+  ),
+)
+
+#project_entry(
+  "2012-2015",
+  "Browser text-based MMO game \"The Tale\"",
+  company: link("https://the-tale.org")[The Tale],
+  roles: ("Founder",),
+  description: "Developed my own product from scratch. Went all the way from prototyping through release, operation, and shutdown. Played all roles, from backend and frontend development to game design, community management, and marketing.",
+  technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django", "jQuery"),
+  facts: (
+    "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paid players; with up to 5k MAU and 2k DAU at peak.",
+    "Assembled a core team and organized volunteers who helped in the development of the game.",
+    [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text] (probably the best before LLMs), #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
+    "Implemented quality control through fully automated testing, which allowed development without dedicated QA.",
+    [Open-sourced #link("https://github.com/the-tale")[the code] and #link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[the game lore].]
+  ),
+)
+
+#project_entry(
+  "2010-2012",
+  [Web portal #link("https://worldoftanks.com/")[World of Tanks], meta-game "Clan Wars"],
+  company: link("https://wargaming.com/")[Wargaming],
+  roles: ("Senior Developer",),
+  description: "Owned the code of the whole web portal: registration, player & clan profiles, clan management, player statistics, ratings, tournaments, the meta-game for clans, news, i18n, etc.",
+  technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Memcached", "RabbitMQ", "Django", "jQuery"),
+  facts: (
+    "Together with the team, completely switched the technology stack from client-side C++ to a Python backend and developed the portal for one of the most successful online games.",
+    "Grew ownership from several subsystems (2010) to the entire portal (2012).",
+    "Together with a colleague, designed and implemented the GUI for a web-based clan meta-game.",
+    "Designed requirements for CAPTCHA and password quality checks and implemented them.",
+  ),
+)
+
+#project_entry(
+  "2009-2010",
+  [Real-time strategy game #link("https://en.wikipedia.org/wiki/Order_of_War")[Order of War]],
+  company: link("https://wargaming.com/")[Wargaming],
+  roles: ("Middle Developer",),
+  description: "Optimized code, developed game logic, implemented critical GUI elements.",
+  technologies: ("Windows", "C++", "internal game engine"),
+  facts: (
+    "During my probation period, I doubled the throughput of the command queue between the game logic and graphics engine.",
+    "Designed and implemented the core UI for creating and maintaining unit formations, a feature central to gameplay and user experience.",
+  ),
+)
+
+#project_entry(
+  "2008-2009",
+  "Automated migration of Linux systems from physical machines to VMs",
+  company: link("https://www.itransition.com/")[Itransition],
+  roles: ("Middle Developer",),
+  description: "Implemented automatic configuration of the virtual hardware according to the specs of the physical hardware.",
+  technologies: ("Linux", "Perl", "C", "Xen", "VMWare"),
+  facts: ("Introduced practices of automated testing.",),
+)
+
+#project_entry(
+  "2007-2008",
+  "GUI for VoIP telephone",
+  company: link("https://www.itransition.com/")[Itransition],
+  roles: ("Junior Developer",),
+  technologies: ("Windows", "C++", "wxWidgets"),
+)
+
+#section[Education]
+
+#panel[
+  *2004-2009 --- Specialist (equivalent to an MSc), Systems Engineering* \
+  Belarusian State University of Informatics and Radioelectronics \
+  Department of Artificial Intelligence, Faculty of Information Technologies and Control
+]
+
+#section[Languages]
+
+#key_value("Russian", "native", key_width: 40pt)
+#key_value("English", "fluent", key_width: 40pt)
+
+#section[Code examples]
+
+#key_value([#link("https://github.com/Tiendil/feeds.fun")[tiendil/feeds.fun]], "News reader with LLM-based tagging and rule-based ranking.")
+
+/////////
+// Footer
+/////////
+
+#v(0.35em)
+#line(length: 100%, stroke: 0.5pt + color_footer_line)
+#align(left)[#text(..text_style_footer)[Updated on #updated_on]]

@@ -15,22 +15,19 @@ src = "images/new_avatar_very_small.jpg"
 alt = "Aliaksei Yaletski photo (blog author)"
 ///
 
-I have been involved in various activities besides programming, so I position myself not as a programmer, but as a software developer.
+I like to think about myself as an old-school indie game developer & hacker. At least, I work in Emacs and single-handedly developed a text-based MMO game — that should say something. However, the definitions of these terms are wide, so you may disagree with me — it is ok.
 
-With a good quality I can write code, develop architecture, design user interfaces, handle deployment, testing, documentation writing, lead, gather/write/discuss requirements, write technical specifications, etc.
+Since my hobby is the same as my occupation — software development — I have a wide range of expertise, from deterministic game logic in C++ to cloud-based payment systems in Python, and from code analysis to AI-based systems.
 
-I believe that a developer should do whatever is most necessary for the project at the moment, regardless of the type of activity.
+If you want to learn more about my interests, just check the most popular tags in my blog — I write mostly about complex things I learned and questions I have a strong opinion on.
 
-I possess a rare and epic skill of programming without external QA. I instill corresponding practices around me.
-
-I enjoy answering well-posed questions.
+I enjoy answering well-posed questions. Please feel welcome to ask me anything.
 
 ## Contacts
 
 - GitHub: [github.com/Tiendil](https://github.com/Tiendil)
 - Telegram: [t.me/Tiendil](https://t.me/Tiendil)
 - LinkedIn: [linkedin.com/in/tiendil](https://linkedin.com/in/tiendil)
-- Facebook: [facebook.com/tiendil](https://www.facebook.com/tiendil)
 - Email: a.eletsky@gmail.com
 
 </div>
@@ -43,6 +40,7 @@ I enjoy answering well-posed questions.
 
 ## Interests
 
+- Engineering management.
 - Systems engineering.
 - Thinking practices.
 - Game development.
@@ -52,30 +50,10 @@ I enjoy answering well-posed questions.
 - Cartoons.
 - Books.
 
-## Work
 
-Resume: [ru]{absolute:/ru/cv}, [en]{absolute:/en/cv}.
+## Career
 
-- 2024-… — Sabbatical
-- 2022-2023 — [Palta](https://palta.com/) (Python, TypeScript)
-    - Roles: Tech/Team Lead, Engineering Manager
-    - Payment solution for "child" startups: receiving money, accounting, controlling purchased assets, subscriptions, refunds, analytics, etc.
-- 2019-2021 — [Sabbatical]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}
-- 2015-2019 — [Melsoft Games](http://www.melesta-games.com/) (Python)
-    - Roles: Tech Lead
-    - [My Cafe](https://play.google.com/store/apps/details?id=com.melesta.coffeeshop) — stabilization and optimization of code and architecture, ~1,500,000 rpm at peak.
-    - Toy Defense [1](https://play.google.com/store/apps/details?id=com.melesta.toydefense&hl=en), [2](https://play.google.com/store/apps/details?id=com.melesta.toydefense2), [3](https://play.google.com/store/apps/details?id=com.melesta.toydefense3) — everything related to servers.
-- 2012-… — Personal project: [open source](https://github.com/the-tale/the-tale) [MMOZPG "The Tale"](http://the-tale.org/) (Python)
-    - Managed everything with the support of a small team and community.
-    - More than 32,000 registered users (as of early 2024).
-- 2009-2012 — [Wargaming](https://eu.wargaming.net/en) (C++, Python, JS)
-    - [worldoftanks.ru](http://worldoftanks.ru/) — web-portal (almost all of it), clan wars.
-    - [Order of War](http://ru.wikipedia.org/wiki/Order_of_War) — C++, GUI, logic — a bit of everything;
-- 2007-2009 — Itransition (C++, C, Perl)
-    - Migration automation of real machines under Linux to virtual machines (Xen, VMWare).
-    - VoIP phone GUI for Windows;
-- 2005-2007 — Department of IIT FITM BSUIR (C++, internal programming language).
-    - Departmental product related to semantic networks.
+Find my CV at the [tiendil.org/cv]{absolute:/cv}
 
 </div>
 
