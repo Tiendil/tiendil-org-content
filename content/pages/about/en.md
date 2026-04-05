@@ -17,9 +17,9 @@ alt = "Aliaksei Yaletski photo (blog author)"
 
 I like to think about myself as an old-school indie game developer & hacker. At least, I work in Emacs and single-handedly developed a text-based MMO game — that should say something. However, the definitions of these terms are wide, so you may disagree with me — it is ok.
 
-Due to my hobby being software development as well as my occupation, I have a wide range of expertise, from deterministic game logic in C++ to cloud-based payment systems in Python, and from code analysis to AI-based systems.
+Since my hobby is the same as my occupation — software development — I have a wide range of expertise, from deterministic game logic in C++ to cloud-based payment systems in Python, and from code analysis to AI-based systems.
 
-If you want to learn more about my interests, just check the most used tags in my blog — I write mostly about complex things I learned or questions I have a strong opinion on.
+If you want to learn more about my interests, just check the most popular tags in my blog — I write mostly about complex things I learned and questions I have a strong opinion on.
 
 I enjoy answering well-posed questions. Please feel welcome to ask me anything.
 
