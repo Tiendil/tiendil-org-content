@@ -465,10 +465,6 @@
   ))
 ]
 
-// TODO: need to translate a lot of posts from Ru
-//       - missed world builders posts
-//       - https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021
-
 #section[Work]
 
 #project_entry(
