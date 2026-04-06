@@ -1,14 +1,13 @@
 ---
-title = "Ищу партнёров и проекты"
+title = "Организуем стартап? Впишусь в проект."
 tags = ["practice", "gamedev", "business", "management", "large-language-models", "ai-agents", "coding-agents"]
 published_at = "2026-04-06T12:00:00+00:00"
-seo_description = ""
+seo_description = "Собираете стартап или новый продукт? Готов обсуждать роль CTO / co-founder в проектах на стыке LLM, gamedev и AI."
 seo_image = "./cover.jpg"
 ---
 
 <!-- TODO: seo image -->
 <!-- TODO: cover image -->
-<!-- TODO: seo description -->
 
 С большой вероятностью, **месяца через 3** я буду искать работу. Два прошлых раза я делал это через нетворкинг и оба раза результаты были отличные — друзья приглашали меня к себе и все стороны оставались довольны.
 
