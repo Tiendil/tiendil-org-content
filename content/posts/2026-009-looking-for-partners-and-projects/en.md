@@ -11,7 +11,7 @@ src = "./cover.jpg"
 caption = "Life is like a hurricane here in Ham - burg…"
 ///
 
-As you may know, I'm finishing up my creative sabbatical. What I'll be doing next is still unclear, but I've accumulated a list of possible projects that are very interesting to me. I'm ready to discuss partnership around those projects right now.
+As you may know, I'm finishing my professional sabbatical. It is still unclear what I'll be doing next, however I've gathered a list of potential projects that are very interesting to me. I'm ready to discuss partnership around those projects right now.
 
 If you're a young startup or are only just about to create one, I would fit well into the role of CTO / technical Co-Founder (I can also take on management and product work). If you're a more mature company starting a new project, I can lead it under whatever title you find appropriate.
 
