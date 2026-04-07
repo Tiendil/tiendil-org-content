@@ -20,14 +20,14 @@ If you follow my blog, you probably already have some idea of who I am. But just
 For convenience, I've split the kinds of projects that interest me into several groups:
 
 - LLM shovels, and shovels for LLMs.
-- Virtual persons, virtual influencers.
+- Virtual characters, virtual influencers.
 - Gamedev.
 
 <!-- more -->
 
 ## LLM shovels, and shovels for LLMs
 
-Like in the well-known historical anecdote about how, during the gold rush, the people who made the most money were the ones selling shovels.
+Like in the well-known historical anecdote about how, during the gold rush, the people who made the most money were the ones selling picks and shovels.
 
 In our case, a shovel is a niche professional SaaS product that provides unique functionality built on top of LLMs.
 
@@ -42,21 +42,21 @@ Examples of what may be interesting to me:
 
 I'm ready to join something more ambitious if you have confirmed sufficient resources and a clear vision (or if you're ready to place a great deal of trust in mine):
 
-- A "more correct" coding agent.
+- A "better-designed and more efficient" coding agent.
 - 100% agent-driven software development / company.
 - A harness for agents, maybe even HaaS — Harness as a Service ;-)
 
 I'm not ready to participate in projects in highly competitive niches: marketing automation, AI support, OpenClaw-like products, etc.
 
-## Virtual persons, virtual influencers
+## Virtual characters, virtual influencers
 
 For me, this topic sits somewhere between gamedev and AI, so I'm marking it out separately.
 
-By virtual persons, I do not mean building them for clients. I mean a company that owns and operates them, independently runs their social media accounts, automates content creation, interacts with the audience, and makes money from it.
+By virtual characters, I do not mean building them for clients. I mean a company that owns and operates them, independently runs their social media accounts, automates content creation, interacts with the audience, and makes money from it.
 
 **Not to be confused with bot farms.** By VP, I mean unique characters that are interesting to an audience because of their traits, distinctive reactions to events, story, style, etc. In other words, I'm talking about something like an AI-driven "TV-series" unfolding on social media.
 
-These can be virtual influencers grounded in our reality, or characters from fictional worlds with their own news background that may be interesting to an audience. Imagine Batman advertising Coca-Cola on Twitter, and our company receiving all the money Batman would get for it.
+These can be virtual influencers grounded in our reality, or characters from fictional worlds with their own fictional news ecosystem that may be interesting to an audience. Imagine Batman advertising Coca-Cola on Twitter, and our company receiving all the money Batman would get for it.
 
 Since this area is ethically gray, before starting we would need to discuss all the ethical nuances in a very concrete way.
 
@@ -84,9 +84,9 @@ The projects that interest me:
 
 Of course, there are some.
 
-This is not an offer to work for free. We may be able to agree on a substantial discount in exchange for a larger share in the company / bonuses / etc., but some payment for my work in money will be necessary.
+This is not an offer to work for free. We may be able to agree on a substantial discount in exchange for a larger share in the company / bonuses / etc., but some cash compensation would still be required.
 
-Since I'm more of a technical person, in an ideal situation, I would expect you to bring product skills (though I can handle that too), funding, and legal support.
+Since I'm more of a technical person, in an ideal situation, I would expect you to bring product expertise (though I can handle that too), funding, and handling legal matters.
 
 Remote only. At present, relocation would be very expensive for my family. It is possible — never say never — but genuinely expensive. But if you happen to be in Hamburg, then a hybrid format would also work.
 
@@ -100,7 +100,7 @@ Feel free to send me a brief message with the following information:
 - Which project interests you.
 - What you expect from me.
 - What you can offer.
-- Are there any deadlines, budget constraints, etc.
+- What deadlines, time constraints, budget constraints, etc. are in play.
 - Confirm that you have read and understood the "Nuances" section.
 
 After that, we'll arrange a call, and then we'll see.
