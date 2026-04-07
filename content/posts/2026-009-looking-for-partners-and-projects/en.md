@@ -33,20 +33,20 @@ In our case, a shovel is a niche professional SaaS product that provides unique 
 
 Examples of what may be interesting to me:
 
-- A news aggregator with a strong focus on personalization. Something like my [Feeds Fun](https://feeds.fun/), but for B2B or casual B2C on mobile. I've already built up experience here; I have groundwork and know-how.
+- A news aggregator with a strong focus on personalization. Something like my [Feeds Fun](https://feeds.fun/), but B2B or casual B2C on mobile. I've already acquired experience here and have some practical results.
 - Professional software for writers / screenwriters for generating, editing, and validating stories, with a focus on validation and collaborative editing with AI. One possible direction would be our own AI publishing house.
-- An AI assistant (IDE?) for scientists, accompanying them from preparing a literature review all the way to publishing a paper.
-- Something niche for the OpenAI Application Store, to stake out a place there as an early mover.
-- Something niche for programmers.
+- An AI assistant (IDE?) for scientists, that accompanies them from preparing a literature review all the way to publishing a paper.
+- Something niche for the OpenAI Application Store, to secure a place there as an early mover.
+- Something niche for software developers.
 - Your idea.
 
 I'm ready to join something more ambitious if you have confirmed sufficient resources and a clear vision (or if you're ready to place a great deal of trust in mine):
 
-- A “more correct” coding agent.
-- 100% agent-driven development / company.
+- A "more correct" coding agent.
+- 100% agent-driven software development / company.
 - A harness for agents, maybe even HaaS — Harness as a Service ;-)
 
-I'm not ready to participate in projects in niches with elevated competition: marketing automation, AI support, OpenClaw-like products, etc.
+I'm not ready to participate in projects in highly competitive niches: marketing automation, AI support, OpenClaw-like products, etc.
 
 ## Virtual persons, virtual influencers
 
@@ -54,9 +54,9 @@ For me, this topic sits somewhere between gamedev and AI, so I'm marking it out 
 
 By virtual persons, I do not mean building them for clients. I mean a company that owns and operates them, independently runs their social media accounts, automates content creation, interacts with the audience, and makes money from it.
 
-**Not to be confused with bot farms.** By VP, I mean unique characters that are interesting to an audience because of their traits, their distinctive reactions to events, their story, their style, etc. In other words, I'm talking about something like an AI series unfolding on social media.
+**Not to be confused with bot farms.** By VP, I mean unique characters that are interesting to an audience because of their traits, distinctive reactions to events, story, style, etc. In other words, I'm talking about something like an AI-driven "TV-series" unfolding on social media.
 
-These can be virtual influencers grounded in our reality, or characters from fictional worlds with their own news background that may be interesting to an audience. Imagine Batman advertising Coca-Cola on Twitter, and our company receiving all the money that would be due to Batman.
+These can be virtual influencers grounded in our reality, or characters from fictional worlds with their own news background that may be interesting to an audience. Imagine Batman advertising Coca-Cola on Twitter, and our company receiving all the money Batman would get for it.
 
 Since this area is ethically gray, before starting we would need to discuss all the ethical nuances in a very concrete way.
 
@@ -64,44 +64,44 @@ Since this area is ethically gray, before starting we would need to discuss all 
 
 /// note | A few words about companies
 
-Ideally, I would like to build a technology-driven indie studio focused on simulation games for PC (Paradox-like games, Civilization, Majesty, etc.) or on “specific” MMOs (see the projects below), grow it from simpler games to extremely complex ones, while in parallel developing our own game-logic engine. By technology-driven, I mean technological sophistication in game design and logic, not graphics.
+Ideally, I would like to build a technology-driven indie studio focused on simulation games for PC (Paradox-like games, Civilization, Majesty, etc.) or on niche MMOs (see the projects below), grow it from simple games to extremely complex ones, while in parallel developing our own game-logic engine. By technology-driven, I mean technological sophistication in game design and logic, not graphics.
 
 Obviously, this is a very specific kind of thing that has to be discussed upfront.
 
-At the same time, in theory I could assemble something like 50–80% of a mobile gamedev team out of people I know already (I ran a poll last summer), and it would be a very strong team with real experience. What's missing is game design and an artist.
+At the same time, in theory I could assemble something like 50–80% of a mobile gamedev team out of my former collegues (I ran a survey last summer), and it would be a top-grade team with real experience. What's missing is a game designer and an artist.
 
 ///
 
 The projects that interest me:
 
-- Tools for procedural generation of content (characters, stories, quests, map topology).
-- Simulation games for PC. For example, I'm strongly convinced I could make a better successor to [Majesty](https://ru.wikipedia.org/wiki/Majesty:_The_Fantasy_Kingdom_Sim) than the ones released over the last year. At the very least because I already once made a Majesty-like MMO for 30k players.
-- I already have two ideas for niche mobile MMOs with **next-gen gameplay** and AI integration that look promising, but require R&D.
-- A casual mobile game for making money.
+- Tools for procedural content generation: characters, stories, quests, map topology.
+- Simulation games for PC. For example, I'm strongly convinced I could make a better successor to [Majesty](https://en.wikipedia.org/wiki/Majesty:_The_Fantasy_Kingdom_Sim) than the ones released over the last year. At least in part because I once made a Majesty-like MMO for 30k players.
+- I have not one but two ideas for niche mobile MMOs with  **next-gen gameplay** and AI integration that look promising, but require R&D.
+- A casual mobile game just for making money.
 - A game for the OpenAI Application Store.
 
 ## Nuances
 
-What would this be without them.
+Of course, there are some.
 
 This is not an offer to work for free. We may be able to agree on a substantial discount in exchange for a larger share in the company / bonuses / etc., but some payment for my work in money will be necessary.
 
-Since I'm more of a technical person, in the ideal situation I expect product skills from you (though I can take that on), as well as finance and handling legal matters.
+Since I'm more of a technical person, in an ideal situation, I would expect you to bring product skills (though I can handle that too), funding, and legal support.
 
 Remote only. At present, relocation would be very expensive for my family. It is possible — never say never — but genuinely expensive. But if you happen to be in Hamburg, then a hybrid format would also work.
 
 You must not be affiliated with sanctioned countries: you do not live in North Korea, you do not have business interests in North Korea. I do not want a bureaucratic Sword of Damocles hanging over my head.
 
-## If something from the above is of interest to you
+## If any of the above interests you
 
-Send me a short message in any way convenient for you:
+Feel free to send me a brief message with the following information:
 
 - Who you are.
 - Which project interests you.
 - What you expect from me.
 - What you can offer.
-- What deadlines, time constraints, budget constraints, etc. there are.
-- Confirm that you have read and understood the “Nuances” section.
+- Are there any deadlines, budget constraints, etc.
+- Confirm that you have read and understood the "Nuances" section.
 
 After that, we'll arrange a call, and then we'll see.
 
