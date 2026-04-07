@@ -1,8 +1,8 @@
 ---
-title = "Организуем стартап? Впишусь в проект."
+title = "Shall we launch a startup? I'm ready to join."
 tags = ["practice", "gamedev", "business", "management", "large-language-models", "ai-agents", "coding-agents"]
 published_at = "2026-04-08T12:00:00+00:00"
-seo_description = "Создаёте стартап или новый продукт? Готов обсуждать роль CTO / Co-Founder в проектах из областей LLM и gamedev."
+seo_description = "Building a startup or a new product? I'm open to discussing a CTO / Co-Founder role in projects in LLM and gamedev."
 seo_image = "./cover.jpg"
 ---
 
@@ -11,101 +11,101 @@ src = "./cover.jpg"
 caption = "Life is like a hurricane here in Ham - burg…"
 ///
 
-Как вы можете знать, я заканчиваю творческий отпуск. Чем буду заниматься дальше, пока неизвестно, но у меня накопился список возможных проектов, которые мне очень интересны. По этим проектам я готов обсуждать партнёрство прямо сейчас.
+As you may know, I'm finishing up my creative sabbatical. What I'll be doing next is still unclear, but I've accumulated a list of possible projects that are very interesting to me. I'm ready to discuss partnership around those projects right now.
 
-Если вы молодой стартап или только собираетесь его создавать, то я хорошо впишусь в роль CTO / технического Co-Founder (менеджерство и продуктовую часть тоже могу взять на себя). Если вы более зрелая компания, начинающая новый проект, то могу его вести под ролью с любым названием, которое вам будет по душе.
+If you're a young startup or are only just about to create one, I would fit well into the role of CTO / technical Co-Founder (I can also take on management and product work). If you're a more mature company starting a new project, I can lead it under whatever title you find appropriate.
 
-Если вы следите за моим блогом, то уже имеете представление обо мне. Но на всякий случай вот [моё CV]{absolute:/cv}. У меня 19 лет опыта в разработке софта: от геймдева на C++ до платёжных бэкендов на Python, от гаражной независимой разработки до крупных проектов.
+If you follow my blog, you probably already have some idea of who I am. But just in case, here is [my CV]{absolute:/cv}. I have 19 years of experience in software development: from gamedev in C++ to payment backends in Python, from garage-style indie development to large projects.
 
-Для удобства я разбил интересные мне проекты на несколько групп:
+For convenience, I've split the kinds of projects that interest me into several groups:
 
-- LLM-лопаты и лопаты для LLM.
+- LLM shovels, and shovels for LLMs.
 - Virtual persons, virtual influencers.
 - Gamedev.
 
 <!-- more -->
 
-## LLM-лопаты и лопаты для LLM
+## LLM shovels, and shovels for LLMs
 
-Как в известном историческом анекдоте о том, что во время золотой лихорадки больше всех заработали продавцы лопат.
+Like in the well-known historical anecdote about how, during the gold rush, the people who made the most money were the ones selling shovels.
 
-В нашем случае лопата — это нишевый профессиональный SaaS, который предоставляет уникальную функциональность на базе LLM.
+In our case, a shovel is a niche professional SaaS product that provides unique functionality built on top of LLMs.
 
-Примеры того, что мне может быть интересно:
+Examples of what may be interesting to me:
 
-- Новостной агрегатор с сильным фокусом на персонализацию. Вроде моего [Feeds Fun](https://feeds.fun/), но B2B или казуальный B2C для мобилок. Я уже набил руку, есть наработки и опыт.
-- Профессиональный софт для писателей/сценаристов для генерации/редактирования/валидации историй, с фокусом на валидацию и совместное с ИИ редактирование. Как вариант — собственное ИИ издательство.
-- ИИ-ассистент (IDE?) для учёных, сопровождающий их от подготовки литературного обзора до публикации статьи.
-- Что-нибудь нишевое для OpenAI Application Store, чтобы застолбить место по праву первопроходца.
-- Что-нибудь нишевое для программистов.
-- Ваш вариант.
+- A news aggregator with a strong focus on personalization. Something like my [Feeds Fun](https://feeds.fun/), but for B2B or casual B2C on mobile. I've already built up experience here; I have groundwork and know-how.
+- Professional software for writers / screenwriters for generating, editing, and validating stories, with a focus on validation and collaborative editing with AI. One possible direction would be our own AI publishing house.
+- An AI assistant (IDE?) for scientists, accompanying them from preparing a literature review all the way to publishing a paper.
+- Something niche for the OpenAI Application Store, to stake out a place there as an early mover.
+- Something niche for programmers.
+- Your idea.
 
-Я готов вписаться во что-то более глобальное, если у вас есть подтверждённые достаточные ресурсы и чёткое видение (или вы готовы сильно довериться моему видению):
+I'm ready to join something more ambitious if you have confirmed sufficient resources and a clear vision (or if you're ready to place a great deal of trust in mine):
 
-- «Более правильный» кодинг агент.
-- 100% agent-driven разработка/компания.
-- Harness для агентов, может быть даже HaaS — Harness as a Service ;-)
+- A “more correct” coding agent.
+- 100% agent-driven development / company.
+- A harness for agents, maybe even HaaS — Harness as a Service ;-)
 
-Я не готов участвовать в проектах в нишах с повышенной конкуренцией: автоматизация маркетинга, AI-саппорт, аналоги OpenClaw, etc.
+I'm not ready to participate in projects in niches with elevated competition: marketing automation, AI support, OpenClaw-like products, etc.
 
 ## Virtual persons, virtual influencers
 
-Для меня эта тема находится между геймдевом и ИИ, поэтому отмечу её отдельно.
+For me, this topic sits somewhere between gamedev and AI, so I'm marking it out separately.
 
-Говоря о виртуальных личностях, я имею в виду не их разработку под заказ, а компанию, которая ими владеет и оперирует, самостоятельно управляет аккаунтами в соцсетях, автоматизирует создание контента, взаимодействует с аудиторией и зарабатывает на этом деньги.
+By virtual persons, I do not mean building them for clients. I mean a company that owns and operates them, independently runs their social media accounts, automates content creation, interacts with the audience, and makes money from it.
 
-**Не путать с фермами ботов**. Под VP я подразумеваю уникальных персонажей, которые интересны аудитории из-за своих свойств, уникальных реакций на события, истории, стиля, etc. То есть я говорю про что-то вроде ИИ-сериала в социальных сетях.
+**Not to be confused with bot farms.** By VP, I mean unique characters that are interesting to an audience because of their traits, their distinctive reactions to events, their story, their style, etc. In other words, I'm talking about something like an AI series unfolding on social media.
 
-Это могут быть как виртуальные инфлюенсеры, заземлённые на нашу реальность, так и персонажи из вымышленных миров со своим новостным фоном, который может быть интересен аудитории — представьте, если бы Бэтмен в Twitter прорекламировал Coca-Cola, а наша компания получила бы все деньги, причитающиеся Бэтмену.
+These can be virtual influencers grounded in our reality, or characters from fictional worlds with their own news background that may be interesting to an audience. Imagine Batman advertising Coca-Cola on Twitter, and our company receiving all the money that would be due to Batman.
 
-Поскольку эта тема этически серая, перед началом нам потребуется очень предметно обсудить все этические нюансы.
+Since this area is ethically gray, before starting we would need to discuss all the ethical nuances in a very concrete way.
 
 ## Gamedev
 
-/// note | Пара слов о компаниях
+/// note | A few words about companies
 
-В идеале, я бы хотел создать технологичную инди студию с фокусом на игры-симуляции для PC (Paradox-like игры, Civilization, Majesty, etc.) или на «специфические» MMO (см. в проектах), вырастить её от простых игр до мега сложных, параллельно развивая свой движок игровой логики. Под технологичностью я понимаю технологичность геймдизайна и логики, а не графики.
+Ideally, I would like to build a technology-driven indie studio focused on simulation games for PC (Paradox-like games, Civilization, Majesty, etc.) or on “specific” MMOs (see the projects below), grow it from simpler games to extremely complex ones, while in parallel developing our own game-logic engine. By technology-driven, I mean technological sophistication in game design and logic, not graphics.
 
-Понятно, что это очень специфическая штука, которую надо на берегу обсуждать.
+Obviously, this is a very specific kind of thing that has to be discussed upfront.
 
-В то же время в теории я могу собрать из знакомых где-то 50-80% команды для мобильного геймдева (делал опрос прошлым летом) и это будет очень крутая команда с опытом. Из необходимого нет геймдиза и художника.
+At the same time, in theory I could assemble something like 50–80% of a mobile gamedev team out of people I know already (I ran a poll last summer), and it would be a very strong team with real experience. What's missing is game design and an artist.
 
 ///
 
-Какие проекты мне интересны:
+The projects that interest me:
 
-- Инструменты для процедурной генерации контента (персонажей, историй, квестов, топологии карт).
-- Игры-симуляции для PC. Я, например, сильно уверен, что могу сделать более крутого наследника [Majesty](https://ru.wikipedia.org/wiki/Majesty:_The_Fantasy_Kingdom_Sim), чем те, что вышли за последний год. Хотя бы потому, что я уже один раз сделал Majesty-like ММО на 30k игроков.
-- Есть сразу две идеи нишевых мобильных MMO с **next-gen-геймплеем** и интеграцией ИИ, которые выглядят перспективными, но требуют R&D.
-- Казуальная мобильная игра для зарабатывания денег.
-- Игра для OpenAI Application Store.
+- Tools for procedural generation of content (characters, stories, quests, map topology).
+- Simulation games for PC. For example, I'm strongly convinced I could make a better successor to [Majesty](https://ru.wikipedia.org/wiki/Majesty:_The_Fantasy_Kingdom_Sim) than the ones released over the last year. At the very least because I already once made a Majesty-like MMO for 30k players.
+- I already have two ideas for niche mobile MMOs with **next-gen gameplay** and AI integration that look promising, but require R&D.
+- A casual mobile game for making money.
+- A game for the OpenAI Application Store.
 
-## Нюансы
+## Nuances
 
-Куда же без них.
+What would this be without them.
 
-Это не предложение поработать бесплатно. Мы можем договориться о существенной скидке в обмен на бОльшую долю в компании/бонусах/etc., но какая-то оплата моего труда деньгами потребуется.
+This is not an offer to work for free. We may be able to agree on a substantial discount in exchange for a larger share in the company / bonuses / etc., but some payment for my work in money will be necessary.
 
-Поскольку я в бОльшей степени технарь, в идеальной ситуации от вас я жду продуктовые скилы (могу на себя взять), финансы и решение юридических вопросов.
+Since I'm more of a technical person, in the ideal situation I expect product skills from you (though I can take that on), as well as finance and handling legal matters.
 
-Только удалённо. В настоящее время релокация будет очень дорогой для моей семьи. Это возможно — никогда не говори никогда — но действительно дорого. Но если вы вдруг находитесь в Гамбурге, то гибридный формат тоже подойдёт.
+Remote only. At present, relocation would be very expensive for my family. It is possible — never say never — but genuinely expensive. But if you happen to be in Hamburg, then a hybrid format would also work.
 
-Вы не должны быть аффилированы с подсанкционными странами: не живёте в Северной Корее, не имеете бизнес-интересов в Северной Корее. Не хочу бюрократический дамоклов меч над своей головой.
+You must not be affiliated with sanctioned countries: you do not live in North Korea, you do not have business interests in North Korea. I do not want a bureaucratic Sword of Damocles hanging over my head.
 
-## Если вам интересно что-то из перечисленного
+## If something from the above is of interest to you
 
-Кратко напишите мне любым удобным вам способом:
+Send me a short message in any way convenient for you:
 
-- Кто вы.
-- Какой проект вас интересует.
-- Что вы ожидаете от меня.
-- Что вы можете предложить.
-- Какие есть дедлайны, ограничения по времени, бюджету, etc.
-- Подтвердите, что прочитали и осмыслили раздел «нюансы».
+- Who you are.
+- Which project interests you.
+- What you expect from me.
+- What you can offer.
+- What deadlines, time constraints, budget constraints, etc. there are.
+- Confirm that you have read and understood the “Nuances” section.
 
-После этого мы договоримся о созвоне, а дальше будет видно.
+After that, we'll arrange a call, and then we'll see.
 
-Мои контакты:
+My contacts:
 
 - Telegram: [t.me/Tiendil](https://t.me/Tiendil)
 - Email: `a.eletsky@gmail.com`
