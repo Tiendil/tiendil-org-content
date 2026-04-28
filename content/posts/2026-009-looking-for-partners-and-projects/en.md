@@ -8,7 +8,7 @@ seo_image = "./cover.jpg"
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "Life is like a hurricane here in Ham - burg…"
+caption = "Life is like a hurricane here in Ham-burg…"
 ///
 
 As you may know, I'm finishing my professional sabbatical. It is still unclear what I'll be doing next, however I've gathered a list of potential projects that are very interesting to me. I'm ready to discuss partnership around those projects right now.

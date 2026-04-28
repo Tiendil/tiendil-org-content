@@ -8,7 +8,7 @@ seo_image = "./cover.jpg"
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "Life is like a hurricane here in Ham - burg…"
+caption = "Life is like a hurricane here in Ham-burg…"
 ///
 
 Как вы можете знать, я заканчиваю творческий отпуск. Чем буду заниматься дальше, пока неизвестно, но у меня накопился список возможных проектов, которые мне очень интересны. По этим проектам я готов обсуждать партнёрство прямо сейчас.
@@ -20,7 +20,7 @@ caption = "Life is like a hurricane here in Ham - burg…"
 Для удобства я разбил интересные мне проекты на несколько групп:
 
 - LLM-лопаты и лопаты для LLM.
-- Virtual persons, virtual influencers.
+- Virtual characters, virtual influencers.
 - Gamedev.
 
 <!-- more -->
