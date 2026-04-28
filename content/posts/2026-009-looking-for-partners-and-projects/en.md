@@ -1,5 +1,5 @@
 ---
-title = "Want to build a startup together? I could be the right fit."
+title = "Want to build a startup together? I could be the right fit"
 tags = ["practice", "gamedev", "business", "management", "large-language-models", "ai-agents", "coding-agents"]
 published_at = "2026-04-08T12:00:00+00:00"
 seo_description = "Building a startup or a new product? I'm open to discussing a CTO / Co-Founder role in projects in LLM and gamedev."

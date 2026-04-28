@@ -1,5 +1,5 @@
 ---
-title = "Организуем стартап? Впишусь в проект."
+title = "Организуем стартап? Впишусь в проект"
 tags = ["practice", "gamedev", "business", "management", "large-language-models", "ai-agents", "coding-agents"]
 published_at = "2026-04-08T12:00:00+00:00"
 seo_description = "Создаёте стартап или новый продукт? Готов обсуждать роль CTO / Co-Founder в проектах из областей LLM и gamedev."
