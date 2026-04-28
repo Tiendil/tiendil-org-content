@@ -40,7 +40,7 @@ Examples of what may be interesting to me:
 - Something niche for software developers.
 - Your idea.
 
-I'm ready to join something more ambitious if you have confirmed sufficient resources and a clear vision (or if you're ready to place a great deal of trust in mine):
+I'm ready to join a more ambitious project if you have confirmed sufficient resources and a clear vision (or if you're ready to place a great deal of trust in mine):
 
 - A "better-designed and more efficient" coding agent.
 - 100% agent-driven software development / company.
@@ -54,7 +54,7 @@ For me, this topic sits somewhere between gamedev and AI, so I'm calling it out 
 
 By virtual characters, I do not mean building them for clients. I mean a company that owns and operates them, independently runs their social media accounts, automates content creation, interacts with the audience, and makes money from it.
 
-**Not to be confused with bot farms.** By VP, I mean unique characters that are interesting to an audience because of their traits, distinctive reactions to events, story, style, etc. In other words, I'm talking about something like an AI-driven "TV-series" unfolding on social media.
+**Not to be confused with bot farms.** By VC, I mean unique characters that are interesting to an audience because of their traits, distinctive reactions to events, story, style, etc. In other words, I'm talking about something like an AI-driven "TV-series" unfolding on social media.
 
 These can be virtual influencers grounded in our reality, or characters from fictional worlds with their own fictional news ecosystem that may be interesting to an audience. Imagine Batman advertising Coca-Cola on Twitter, and our company receiving all the money Batman would get for it.
 
