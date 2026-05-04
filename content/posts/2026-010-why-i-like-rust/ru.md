@@ -11,6 +11,7 @@ seo_image = ""
 <!-- TODO: seo description -->
 <!-- TODO: seo image -->
 <!-- TODO: cover image -->
+<!-- TODO: rename to «Rust — язык на который переписывают» -->
 
 Лет 5 назад я изучал документацию Rust и решил, что [Rust мне не нравится]{post:why-i-dont-like-rust}.
 
