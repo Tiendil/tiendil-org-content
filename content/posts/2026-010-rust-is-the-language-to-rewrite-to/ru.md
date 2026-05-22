@@ -3,11 +3,13 @@ title = "Rust — язык, на который переписывают"
 tags = ["theory", "practice", "development", "rust"]
 published_at = "2026-05-25T12:00:00+00:00"
 seo_description = "Субъективный взгляд на Rust, его преимущества и недостатки, а также почему на него переписывают всё подряд."
-seo_image = ""
+seo_image = "cover.jpg"
 ---
 
-<!-- TODO: seo image -->
-<!-- TODO: cover image -->
+/// brigid-images
+src = "./cover.jpg"
+caption = "Rust медленно, но неотвратимо, перерабатывает кодовую базу человечества."
+///
 
 Лет 5 назад я изучал документацию Rust и решил, что [Rust мне не нравится]{post:why-i-dont-like-rust}.
 
