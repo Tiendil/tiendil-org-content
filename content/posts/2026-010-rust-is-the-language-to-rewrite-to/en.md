@@ -177,17 +177,17 @@ Simplifying a bit, your decision on data lifetime will affect all the places whe
 
 Some degree of variation is possible, for example in how paranoid you are about handling errors, but overall, it is harder to write garbage code in one part of the system and keep beautiful architecture in another.
 
-### Rust подталкивает к overengineering
+### Rust pushes you to overengineer
 
-Поскольку Rust мешает писать ~~простой~~ плохой код и, одновременно, даёт инструменты для написания ~~сложного~~ хорошего кода, получается, что он сдвигает баланс в сторону более сложного кода.
+Because Rust gets in the way of writing ~~simple~~ bad code and, at the same time, provides tools for writing ~~complicated~~ good code, it ends up shifting the balance toward more complicated code.
 
-А как известно, нет предела совершенству. Играть трейтами, организовать абстракции удобно и увлекательно — это как решать олимпиадные задачки.
+And, as we all know, there is no limit to perfection. It is very convinient and fun to play with traits and build abstraction levels — it feels like solving programming-contest problems.
 
-Вот цитата от разработчика, который 4 года писал на Rust, из поста [Everybody's so Creative!](https://daymare.net/blogs/everbody-so-creative/):
+Here is a quote from a developer with 4 years of experience with Rust, from the post [Everybody's so Creative!](https://daymare.net/blogs/everbody-so-creative/):
 
 > I love the language – but I'm starting to think the ecosystem has an abstraction addiction. Or: why every Rust crate feels like a research paper on abstraction.
 
-У меня ровно такие же впечатления.
+I have exactly the same impression.
 
 ### Возможные проблемы в будущем
 
