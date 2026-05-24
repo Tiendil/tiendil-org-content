@@ -48,22 +48,22 @@ At the same time, I have enough development experience to extrapolate from that 
 
 That's why most programming languages are organized around orthogonal rules/mechanisms/components that developers can combine and use at their discretion.
 
-### Вы не платите за то, что не используете
+### You don't pay for what you don't use
 
-С древних времён так повелось, что подход к композиции этих фич предполагает принцип «вы платите только за то, что используете». Например, в C++ это даже в ключевые принципы дизайна языка вынесено: [What you don't use, you don't pay for](https://isocpp.org/std/standing-documents/sd-10-language-evolution-principles) — это часто трактуют как требование к производительности, но, на мой взгляд, это касается и ментальной нагрузки на программиста.
+Since ancient times, the default convention has been that language features should compose according to the principle: "you only pay for what you use". For example, in C++, this is even one of key design principles: "What you don't use, you don't pay for". This is often interpreted as a performance requirement, but in my view, it also applies to the mental load on the programmer.
 
-Например:
+For example:
 
-- В C++, если вы не используете исключения, то вам не надо думать о том, как они работают, не надо использовать их синтаксис в коде, не надо предусматривать специальные оптимизации для них и так далее.
-- В Python, если вы не хотите использовать классы, то вы просто не используете классы.
+- In C++, if you don't use exceptions, you have no need to think about how they work, you don't need to use their syntax in your code, you don't need to provide special optimizations for them, and so on.
+- In Python, if you don't want to use classes, you simply don't use classes.
 
-Некоторые языки частично отходят от этого принципа. Например, исторически ([в 2025 году требование ослабили](https://openjdk.org/jeps/512)), Java требовала от вас использовать классы, даже если вам не нужны их возможности, но это скорее доведение одной из фич до абсолюта, чем отказ от самого принципа.
+Some languages partially deviate from this principle. For example, historically ([until the requirement was relaxed in 2025](https://openjdk.org/jeps/512)), Java required you to use classes even if you didn't need their capabilities, but this is more a case of pushing one of the features to the extreme rather than a rejection of the principle itself.
 
-Следствием этого подхода является то, что фичи языка не ограничивают применение друг друга. Например, в C++ вы можете использовать классы, исключения, шаблоны, лямбды и так далее в любом сочетании, которое вам нужно.
+As a consequence of this approach, language features do not restrict the use of each other. For example, in C++, you can use classes, exceptions, templates, lambdas, and so on in any combination you need.
 
-**Компонуя фичи языка без ограничений, программист может создавать очень эффективные, мощные и гибкие системы — если он профессионал. Или создавать забагованные системы с миллионом дыр в безопасности, если с профессионализмом не задалось.**
+**By composing language features without restrictions, a programmer can create very efficient, powerful, and flexible systems — if they are a professional. Or create buggy systems with a million security holes if they lack professionalism.**
 
-Более того, и это важно, при отсутствии ограничений на композицию фич становится намного проще экспериментировать: пробовать разные архитектурные решения, паттерны, стили программирования, etc.
+Moreover, and this is important, without restrictions on feature composition, it becomes much easier to experiment — trying different architectural solutions, patterns, programming styles, etc.
 
 ### Вы будете платить за всё
 
