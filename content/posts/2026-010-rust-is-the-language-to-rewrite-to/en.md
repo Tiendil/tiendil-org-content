@@ -121,21 +121,23 @@ Rust itself is moving in roughly the same direction. For example, here is a quot
 
 Foundationa software is a wide and vague term, however, in essense, it is software on the levels below what a common user sees; a software that provides the basic expected/standard capabilities for everything that we are building on top of it.
 
-## Преимущества Rust
+## Advantages of Rust
 
-Во-первых, Rust позволяет вам надёжно создавать стандартный софт следуя подмножеству лучших практик.
+**First**, Rust pushes you to create reliable standard software by following a subset of best practices.
 
-В теории, под это попадает большая часть коммерческого софта и существенная часть софта с открытым исходным кодом.
+In theory, this applies to most commercial software and a substantial share of open-source software.
 
-Я, например, задумываюсь не переключить ли мне свою веб-специализацию с Python на Rust, так как стандартнее современного веба сложно что-то придумать.
+I'm, for example, considering switching from Python to Rust for web development, because it is hard to imagine anything more formulaic than modern web development.
 
-Во-вторых, из-за ограничений на вариативность Rust должен хорошо подходить для разработки через coding agents — значительно сужается пространство для ошибки (если вы запретите `unsafe`).
+**Second**, because Rust constrains architecutre variability, it should be well suited to development with coding agents — the space for error becomes much smaller (assuming you ban `unsafe` ).
 
-В-третьих, как следствие вынужденного следования лучшим практикам, стандартная библиотека Rust и ядро его экосистемы довольно хороши.
+**Third**, as the consequences of following best practices, Rust's standard library and the core of its ecosystem are quite good.
 
-На этом эту секцию можно закончить. Получается, что Rust — это этакая рабочая лошадка чтобы делать рутинную инженерную работу.
+We can leave this section there. It turns out that Rust is something of a workhorse for routine engineering work.
 
-## Недостатки Rust
+Let's better speak about Rust's drawbacks.
+
+## Rust’s downsides
 
 Проблемы Rust происходят оттуда же, откуда и его преимущества — от ограничений на композицию фич.
 
