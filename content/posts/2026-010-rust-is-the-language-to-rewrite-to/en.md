@@ -36,6 +36,8 @@ I used Rust for only a year; for prototyping and experimentation; in game develo
 
 Consequently, I'm not in a position to claim expertise in Rust, or an unbiased view of it.
 
+For example, some complexities I experienced could be caused by the fact that I was simultaneously prototyping and learning the language. I.e., a consequence of my choice, rather than properties of the language.
+
 At the same time, I have enough development experience to extrapolate from that year to more general cases and form my own subjective opinion on the matter. That is what I will do in this essay.
 
 ///
@@ -151,7 +153,8 @@ This is hard for experienced programmers, because many of them (including myself
 
 By the way, based on my observations, Rust became the last language that LLMs struggled with.
 
-### Дорого прототипировать и экспериментировать
+### High cost of prototyping and experimentation
+
 
 Классическое прототипирование предполагает, что весь прототип или его часть выкидывается после проверки гипотезы.
 
