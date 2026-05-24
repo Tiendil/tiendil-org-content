@@ -155,20 +155,19 @@ By the way, based on my observations, Rust became the last language that LLMs st
 
 ### High cost of prototyping and experimentation
 
+The classic approach to prototyping assumes, once the hypothesis has been tested, we through away the whole prototype or a part of it.
 
-Классическое прототипирование предполагает, что весь прототип или его часть выкидывается после проверки гипотезы.
+The speed of getting a visible result is orders of magnitude more important than quality, reliability, or anything else. That is why, when prototyping, we always cut as many corners as possible, using our knowledge of how the prototype will be used and our understanding of the whole system being prototyped.
 
-Скорость получения видимого результата на порядки важнее качества, надёжности — чего угодно. Поэтому при прототипировании мы всегда максимально срезаем углы, пользуясь знаниями о том, как прототип будет использоваться и видением всей прототипируемой системы.
+For example, if I am writing a library that only I will use, and only in a single-threaded mode, I do not want to think at all about synchronization, multi-threaded invariants violations, and so on. I do not want to know how Rust handles multithreading, I do not want to learn how it does it, and I do not want to add anything to my code to account for it — this code will be thrown away in a month. I just want to write code that works in a few particular cases? and test the hypothesis. Regardless of the fact that the third-party libraries or standard-library containers I use may be designed for multithreaded scenarios.
 
-Например, если я делаю библиотеку, которую буду использовать только я и только в однопоточном режиме, я вообще не хочу задумываться о синхронизации, нарушении инвариантов, etc. Я не хочу знать как Rust делает многопоточность, я не хочу учить как он это делает и я не хочу прописывать что-то для этого в моём коде — этот код будет выброшен через месяц. Я просто хочу написать код, который работает и проверить гипотезу. Независимо от того, что используемые мной сторонние библиотеки или стандартные контейнеры рассчитаны на использование во многопоточных сценариях.
+Or say I do not want to think about who or what owns the data, because I am absolutely sure that in this particular part of the system it is completely irrelevant — and even if it is not, it will not affect the usefulness of the prototype.
 
-Или вот я не хочу думать кто/что владеет данными, потому что абсолютно уверен, что вот конкретно в этом куске системы это абсолютно не важно, а, если даже важно, то не повлияет на полезность прототипа.
+In Rust it is hard to cut corners even using `usafe`. For example, `unsafe` does not remove restrictions on data lifetime control.
 
-В Rust срезать углы сложно, даже с `unsafe`. Например, `unsafe` не снимает ограничения на контроль времени жизни данных.
+In my view, this is exactly why game development in Rust still has not become widespread. Gamedev is one of the few remaining fields where prototyping and experimentation are still important — and may well remain important for the foreseeable future.
 
-На мой взгляд, именно поэтому разработка игр на Rust всё ещё не получила широкого распространения. Gamedev — это одна из немногих оставшихся областей, где прототипирование и экспериментирование всё ещё важны и, возможно, останутся важными в обозримом будущем.
-
-Поэтому рекомендую прототипировать не на Rust, а потом переписывать результат на Rust, когда уже понятно как этот результат должен работать. Вот, например, человек [спрототипировал файловую систему на Python, а потом переписал её на Rust](https://www.reddit.com/r/programming/comments/1mgr7tv/posted_a_couple_of_weeks_ago_about_progress_i_had/).
+That's why I recomend to prototype not in Rust and rewrite the result to Rust when you are adlready sure how the result must work. For example, the developer [prototyped a filesystem in Python and later rewrote it to Rust](https://www.reddit.com/r/programming/comments/1mgr7tv/posted_a_couple_of_weeks_ago_about_progress_i_had/).
 
 ### Сложно варьировать качество кода
 
