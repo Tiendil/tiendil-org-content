@@ -75,17 +75,17 @@ As an example, you can not "just not use lifetime" (place there borrow checker, 
 
 This sharply reduces variability — limits the ability to experiment, but at the same time, limits the ability to make mistakes.
 
-Наличие глобальных инвариантов навязывает определённые архитектурные решения, которые во многих случаях можно считать best practices. **Rust заставляет писать более ~~хорошую~~, ~~правильную~~, надёжную архитектуру независимо от вашей потребности в ней.**
+The present of global invariants imposes certain architecture decissions, which in many cases can be considered best practices. **Rust forces you to implement a more ~~good~~, ~~right~~, reliable architecture whether you need it or not.**
 
-Для продуктивной работы, программист на Rust должен одновременно держать в голове все механизмы языка: стандартные traits, правила lifetime, правила borrow checker, etc. Причём держать в голове их надо не по отдельности, а с учётом всех их взаимодействий и ограничений на композицию.
+To be productive, a Rust programmer has to keep all of the language’s mechanisms in mind at once: standard traits, lifetime rules, borrow-checker rules, and so on. Moreover, they have to keep them in mind not in isolation, but together with all possible interactions and constraints on composition.
 
-/// note | Вход в язык для профессионалов и новичков
+/// note | Learning Rust as a professional or a beginner
 
-Необходимость держать в памяти весь язык со всеми нюансами создаёт большой порог входа в него.
+The need to keep the entire language, with all its nuances, in your head creates a high barrier to entry.
 
-На мой взгляд, этим объясняется и распространённое мнение, что новичку войти в язык проще чем профессионалу перейти с другого языка.
+In my opinion, that explains a popular opinion, that it is easier for a begginer to enter into the language than to a professional to switch to it.
 
-Новичок сразу учится думать в рамках ограничений. Профессионал уже имеет опыт композиции кода без ограничений и он начинает спотыкаться о запреты Rust на каждой строке кода.
+A beginner learns from the start to think within the constraints. A professional already has experience composing code without those constraints, and starts bumping into Rust's ~~restrictions~~ invariants on every line of code.
 
 ///
 
