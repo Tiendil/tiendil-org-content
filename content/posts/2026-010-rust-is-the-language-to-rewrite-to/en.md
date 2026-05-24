@@ -89,11 +89,11 @@ A beginner learns from the start to think within the constraints. A professional
 
 ///
 
-Удобство и полезность языка, созданного на таких принципах, в первую очередь будет определяться качеством выбранных абстракций и качеством реализации стандартной библиотеки. «Одна ошибка и ты ошибся» — люди не смогут использовать твой язык для реальных задач.
+The convenience and usefulness of a language built on such principles will be determined primarily by the quality of chosen abstractions and the quality of standard-library implementation. "One mistake and you're mistaken" — people won't be able to use your language for real-world tasks.
 
-У Rust это каким-то образом получилось.
+Somehow, Rust managed to do it.
 
-Я не до конца понимаю как. На мой взгляд, кроме крутости его создателей, это однозначно свидетельствует о зрелости индустрии разработки софта — большая часть софта стала максимально шаблонной и под эти шаблоны удалось создать решётку правил, которая позволяет их надёжно реализовать.
+I don't fully understand how. In my opinion, besides the exceptional competence of its creators, this phenomenon is clear evidence of the maturity of the software development industry — most software has become highly formulaic and Rust's designers managed to create a set of invariants that that allows those patterns to be implemented reliably.
 
 ## Почему всё переписывают на Rust
 
