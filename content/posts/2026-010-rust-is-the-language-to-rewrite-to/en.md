@@ -139,7 +139,7 @@ Let's better speak about Rust's drawbacks.
 
 ## Rust’s downsides
 
-Проблемы Rust происходят оттуда же, откуда и его преимущества — от ограничений на композицию фич.
+Rust's problems come from the same place as its advantages — the lattice of rigid invariants.
 
 ### Высокий порог входа
 
