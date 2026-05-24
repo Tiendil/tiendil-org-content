@@ -21,22 +21,22 @@ However, I still stick to my opinion from the previous post:
 
 > A good tool shouldn't constrain its user, because the tool's developer can never anticipate every possible use case.
 
-Согласно моим представлениям ~~о прекрасном~~ о том, как работают технологии, вероятность успеха языка программирования, построенного на принципах Rust, стремится к нулю. Однако de facto ситуация совершенно противоположная — Rust стремительно набирает популярность и поработав с ним, я признаю, что это хороший и мощный инструмент. ~~Но, блин, неправильный, ну кто ж так делает-то.~~
+According to my understanding ~~of beauty~~ of how technology works, a programming language built on Rust's principles should have a near-zero chance of success. However, the de facto situation is exactly the opposite: Rust is rapidly gaining popularity, and after working with it, I have to admit that it's a good and powerful tool. ~~But good grief, it's just wrong. Who does things this way?~~
 
-На мой взгляд, успех Rust — это следствие двух факторов:
+From my point of view, Rust's success is caused by two factors:
 
-- Огромного профессионализма и опыта его создателей и core-команды.
-- Зрелости индустрии разработки софта.
+- The tremendous professionalism and experience of its creators and core team.
+- The maturity of the software development industry.
 
-Далее я попробую кратко описать главное концептуальное отличие Rust от других языков, почему оно одновременно является его силой и слабостью и почему уже несколько лет идёт волна переписывания всего на Rust.
+I'll try to concisely describe the primary conceptual difference between Rust and other languages; why that difference is both its strength and its weakness; and why, for several years now, there has been an ongoing trend of rewriting everything in Rust.
 
-/// note | Этот пост основан на строго субъективном опыте
+/// note | This post is based on strictly subjective experience
 
-Я использовал Rust только год; для прототипирования и экспериментирования; в геймдеве.
+I used Rust for only a year; for prototyping and experimentation; in game development.
 
-Соответственно, я никаким образом не могу претендовать на экспертность в языке и иметь сколь-нибудь объективное мнение на его счёт.
+Consequently, I'm not in a position to claim expertise in Rust, or an unbiased view of it.
 
-В то же время у меня достаточно опыта разработки, чтобы экстраполировать этот год на более общие случаи и сформировать своё субъективное мнение о Rust. Этим я в этом эссе и займусь.
+At the same time, I have enough development experience to extrapolate from that year to more general cases and form my own subjective opinion on the matter. That is what I will do in this essay.
 
 ///
 
