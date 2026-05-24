@@ -1,25 +1,25 @@
 ---
-title = "Rust — язык, на который переписывают"
+title = "Rust is the language to rewrite to"
 tags = ["theory", "practice", "development", "rust"]
 published_at = "2026-05-25T12:00:00+00:00"
-seo_description = "Субъективный взгляд на Rust, его преимущества и недостатки, а также почему на него переписывают всё подряд."
+seo_description = "An opionated view on Rust, its advantages and disadvantages, and why people keep rewriting everything in it."
 seo_image = "cover.jpg"
 ---
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "Rust медленно, но неотвратимо, перерабатывает кодовую базу человечества."
+caption = "Rust is steadily refactoring humanity's codebase."
 ///
 
-Лет 5 назад я изучал документацию Rust и решил, что [Rust мне не нравится]{post:why-i-dont-like-rust}.
+About 5 years ago, I was going through Rust documentation and decided that [I didn't like Rust]{post:@choose-nearest-language:why-i-dont-like-rust}.
 
-В прошлом году мне потребовалось прототипировать игровую логику и я выбрал для этого Rust, так как ничего лучше не нашёл: [Zig](https://ziglang.org/) выглядел сырым, а [C++](https://ru.wikipedia.org/wiki/C++) с каждым стандартом становится всё ~~мертвее~~ сложнее и сложнее.
+The last year, I decided to prototype some game logic and chose Rust for that task, as I couldn't find anything better: [Zig](https://ziglang.org/) looked too young, and [C++](https://en.wikipedia.org/wiki/C%2B%2B) is getting more and more ~~dead~~ complex and complicated with every standard.
 
-В итоге у меня накопилось 10 страниц заметок, которые неожиданным образом ужались в очень компактное утверждение в заголовке. И если вам лень читать дальше, то это похвала, а не критика.
+As a result, I wrote 10 pages of notes on my experience, which unexpectedly boiled down to a compact statement in the title. And if you are too lazy to read further, then this is a praise, not a criticism.
 
-Однако, я всё ещё придерживаюсь своего мнения из предыдущего поста:
+However, I still stick to my opinion from the previous post:
 
-> Хороший инструмент не ограничивает своего пользователя, поскольку разработчик инструмента никогда не предугадает все варианты использования.
+> A good tool shouldn't constrain its user, because the tool's developer can never anticipate every possible use case.
 
 Согласно моим представлениям ~~о прекрасном~~ о том, как работают технологии, вероятность успеха языка программирования, построенного на принципах Rust, стремится к нулю. Однако de facto ситуация совершенно противоположная — Rust стремительно набирает популярность и поработав с ним, я признаю, что это хороший и мощный инструмент. ~~Но, блин, неправильный, ну кто ж так делает-то.~~
 
