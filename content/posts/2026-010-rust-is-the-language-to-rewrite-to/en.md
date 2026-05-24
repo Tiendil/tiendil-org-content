@@ -107,16 +107,19 @@ The more we need reliably, security and predictability — the more the pressur
 
 Rust, in its turn, gives not only reliability, but a convinient semantics to describe standard/correct/secure architectures.
 
-Это выливается сразу в два «движения»:
+This leads directly to two "movements":
 
-- Снизу — классическое «я могу сделать лучше», [я построю свой велосипед с блэкджеком и повышенной надёжностью](https://www.youtube.com/watch?v=Dk2Vyh5PRcQ) приводит к тому, что энтузиасты выбирают Rust для ~~переписывания~~ создания аналогов софта, так как Rust не мешает «сделать правильно» и защищает от попыток сделать неправильно.
-- Сверху — корпорации начинают переводить инфраструктуру на Rust, так как ценность экспериментирования с кодом снижается, а издержки от багов и уязвимостей растут. Зачем экспериментировать, если всё уже стандартизировано и понятно, примерно, как оно должно работать согласно лучшим практикам?
+- Bottom-up — the classic "I can do it better", [I'll build my own <place-your-tool-here>, with blackjack, and improved reliability](https://www.youtube.com/watch?v=ubPWaDWcOLU) aproaches push enthusiasts to chose Rust for ~~rewriting~~ creating alternatives to existing software, because Rust doesn't get in the way of «doing it right» and protects you from attempts to "do it wrong".
+- Top-down — corporations start moving their infrastructure to Rust because the value of experimenting with code is decreasing, while the costs of bugs and vulnerabilities are increasing. Why experiment if everything is already standardized and it is roughly clear how it should work according to best practices?
 
-Например, вот цитата одного из core-разработчиков Rust из его [обзора Rust в 2025 году](https://smallcultfollowing.com/babysteps/blog/2025/03/10/rust-2025-intro/):
+As an example, here is the quote of one of Rust core team members, from the [Rust in 2025: Targeting foundational software](
+from the
+
+Rust itself is moving in roughly the same direction. For example, here is a quote from one of Rust's core developers, from his post [Rust in 2025: Targeting foundational software](https://smallcultfollowing.com/babysteps/blog/2025/03/10/rust-2025-intro/):
 
 > I see Rust's mission as making it dramatically more accessible to author and maintain foundational software. By foundational I mean the software that underlies everything else.
 
-Foundational software — это, по сути, софт на нижних уровнях стека, который предоставляет базовую ожидаемую/стандартную функциональность для всего, что мы строим поверх него.
+Foundationa software is a wide and vague term, however, in essense, it is software on the levels below what a common user sees; a software that provides the basic expected/standard capabilities for everything that we are building on top of it.
 
 ## Преимущества Rust
 
