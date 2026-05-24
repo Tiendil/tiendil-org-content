@@ -95,17 +95,17 @@ Somehow, Rust managed to do it.
 
 I don't fully understand how. In my opinion, besides the exceptional competence of its creators, this phenomenon is clear evidence of the maturity of the software development industry — most software has become highly formulaic and Rust's designers managed to create a set of invariants that that allows those patterns to be implemented reliably.
 
-## Почему всё переписывают на Rust
+## Why everything is being rewritten in Rust
 
-Человечество закончило фазу экспериментирования с программной инфраструктурой и переходит в фазу её стабилизации.
+My hypothesis is that humanity finished the phase of experimentation with "foundational" software infrastructure and is moving into the phase of stabilizing it.
 
-Мы «знаем» на каких принципах должны работать sudo, coreutils, web-серверы, базы данных, пользовательские интерфейсы, etc.
+~~We think that~~ We "know" the principles on which sudo, coreutils, web servers, databases, user interfaces, and so on should operate.
 
-Меньше необходимости экспериментировать с архитектурой и стилем программирования — меньше давление на выбор языков со свободной композицией фич.
+The less we need to experiment with an architecture and programming style — the less the pressure toward choosing languages with unrestricted features composition.
 
-Больше необходимости в надёжности, безопасности и предсказуемости — больше давление на выбор языков с ограничениями на композицию фич.
+The more we need reliably, security and predictability — the more the pressure toward choosing languages with restricted features composition.
 
-Rust же даёт не только надёжность, но и удобную семантику для описания стандартных/правильных/надёжных архитектур.
+Rust, in its turn, gives not only reliability, but a convinient semantics to describe standard/correct/secure architectures.
 
 Это выливается сразу в два «движения»:
 
