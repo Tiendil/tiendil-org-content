@@ -207,16 +207,16 @@ Moreover, the current trait rules already partially constrain the ~~potential~~ 
 Here is the great post on the matter and approach to fix the problem: [An incoherent Rust](ht
 tps://www.boxyuwu.blog/posts/an-incoherent-rust/).
 
-### Влияние Rust на надёжность софта может быть преувеличено
+### Rust's impact on software reliability may be overstated
 
-В посте [In Defense of C++](https://dayvster.com/blog/in-defense-of-cpp/) Dayvi Schuster приводит сильный аргумент:
+In the post [in defense of C++](https://dayvster.com/blog/in-defense-of-cpp/) Dayvi Schuster makes a strong argument:
 
 > …any rewrite of an existing codebase is going to yield better results than the original codebase.
 
-То есть надёжность и безопасность софта, который пишут на Rust, может быть не только следствием его семантики, но и того, что:
+In other words, the reliability and security of software written in Rust may be a consequence not only of Rust's semantics, but also of the fact that:
 
-1. Мы в целом начали писать софт более качественно, выбирать более правильную архитектуру.
-2. В случае переписывания на Rust, все существенные ошибки уже сделаны разработчиками оригинального софта, а архитектура уже проверена временем, поэтому переписывающим разработчикам достаётся изначально менее сложная и рисковая задача.
+1. We have generally started writing better software and choosing better architectures.
+2. In case of rewriting software in Rust, all the major mistakes have already been made by the developers of the original software, and the architecture has already stood the test of time. As a result, the developers doing the rewrite start with a task that is inherently less complex and less risky.
 
 ### Rust выдвигает высокие требования к способностям программиста
 
