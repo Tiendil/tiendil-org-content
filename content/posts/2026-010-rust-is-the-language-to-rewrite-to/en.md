@@ -189,22 +189,23 @@ Here is a quote from a developer with 4 years of experience with Rust, from the 
 
 I have exactly the same impression.
 
-### Возможные проблемы в будущем
+### Possible troubles in the future
 
-C++ упёрся в требование тотальной обратной совместимости и закостенелость комитета.
+C++ got stuck because of the requirement for total backward compatibility and the rigidity of the committee.
 
-Rust может стать жертвой своей же жёсткости, так как она ограничивает не только ваш код, но и дизайн языка. Чем больше жёстких связей между его механизмами, тем сложнее вносить изменения в язык и тем сложнее добавлять новые механизмы, так как они должны быть согласованы с уже существующими и не нарушать их.
+Rust may become a victim of its own rigidity, because that rigidity constrains not only our code, but also the design of the language itself. The more hard connections there are between its mechanisms, the harder it becomes to change the language and to add new mechanisms, because they have to be consistent with the existing ones and must not break them.
 
-Добавление механизма, который жёстко связан со всеми остальными, будет автоматически приводить к квадратичному росту когнитивной сложности языка.
+Adding a mechanism that is tightly coupled to all the others will automatically lead to quadratic growth in the language's cognitive complexity.
 
-Это же приводит к огромным задержкам при добавлении новых важных механизмов:
+That already leads to huge delays in adding new features:
 
-- [Добавление Generic associated types потребовало больше 6 лет](https://blog.rust-lang.org/2022/10/28/gats-stabilization/).
-- [Задаче на специализацию генериков уже 10 лет](https://github.com/rust-lang/rust/issues/31844).
+- [Adding generic associated types took more then 6 years](https://blog.rust-lang.org/2022/10/28/gats-stabilization/).
+- [The task about generics specialization has already 10 yers old](https://github.com/rust-lang/rust/issues/31844).
 
-Более того, текущие правила traits уже частично ограничивают ~~потенциальное~~ развитие экосистемы библиотек. Из-за того, как работают traits, происходит очень сильная привязка экосистемы к набору ключевых third-party библиотек, например, к [serde](https://serde.rs/) — фреймворку сериализации. Если в будущем кто-то создаст более удобный фреймворк, перейти на него будет очень сложно, так как потребуется прописывать его поддержку во всех библиотеках экосистемы (как это сейчас сделано для serde). Само собой, такая библиотека не одна и получается, что жёсткость Rust приводит к такой же жёсткости экосистемы. Если ничего не поменять, то в будущем это может привести к стагнации языка.
+Moreover, the current trait rules already partially constrain the ~~potential~~ development of the library ecosystem. Because of the way traits work, the ecosystem becomes strongly tied to a set of key third-party libraries — for example, [serde](https://serde.rs/) — a serialization framework. If someone creates a more convenient framework in the future, migrating to it will be complicated, because someone will need to add support for it in all the libraries of the ecosystem (as it is currently done for serde). Of course, there are more than one such library, and it turns out that Rust's rigidity leads to the same rigidity in the ecosystem. If nothing changes, this rigidity may lead to the stagnation of the language in the future.
 
-Вот отличный пост про проблему и как её пытаются решать: [An Incoherent Rust](https://www.boxyuwu.blog/posts/an-incoherent-rust/).
+Here is the great post on the matter and approach to fix the problem: [An incoherent Rust](ht
+tps://www.boxyuwu.blog/posts/an-incoherent-rust/).
 
 ### Влияние Rust на надёжность софта может быть преувеличено
 
