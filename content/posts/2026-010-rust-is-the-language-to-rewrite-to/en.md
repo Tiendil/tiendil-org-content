@@ -169,11 +169,13 @@ In my view, this is exactly why game development in Rust still has not become wi
 
 That's why I recomend to prototype not in Rust and rewrite the result to Rust when you are adlready sure how the result must work. For example, the developer [prototyped a filesystem in Python and later rewrote it to Rust](https://www.reddit.com/r/programming/comments/1mgr7tv/posted_a_couple_of_weeks_ago_about_progress_i_had/).
 
-### Сложно варьировать качество кода
+### It is hard to variate the code quality
 
-Логика примерно та же, что и с прототипированием, но в данном случае речь о том, что разные части одного проекта могут иметь разные требования к качеству.
+The logic is pretty the same as with prototyping, but in this case it is about when different parts of the project may have different requirements to quality.
 
-Определённое варьирование возможно, например, в том насколько параноидально обрабатывать ошибки, но в целом, говнокодить в одной части и писать красивую архитектуру в другой будет сложнее.
+Simplifying a bit, your decision on data lifetime will affect all the places where you use that data.
+
+Some degree of variation is possible, for example in how paranoid you are about handling errors, but overall, it is harder to write garbage code in one part of the system and keep beautiful architecture in another.
 
 ### Rust подталкивает к overengineering
 
