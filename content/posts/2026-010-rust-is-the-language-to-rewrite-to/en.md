@@ -141,15 +141,15 @@ Let's better speak about Rust's drawbacks.
 
 Rust's problems come from the same place as its advantages — the lattice of rigid invariants.
 
-### Высокий порог входа
+### The steep learning curve
 
-Вы не можете выбрать подмножество языка и начать на нём делать более-менее сложный проект — вам нужно держать в голове весь язык.
+You cannot choose a subset of the language and start building a moderately complex project with it — you need to keep the whole language in your head.
 
-В противном случае вы будете методично упираться в стену, изучать что-то новое и переделывать свою работу, пока опять не упрётесь в стену.
+Otherwise, you will keep methodically running into a wall, learning something new, and reworking your code, only to run into another wall.
 
-Это тяжело для опытных программистов, потому что многие из них (включая меня) привыкли изучать вещи методом научного тыка. Особенно, когда на кону нет человеческих жизней, финансовых потерь и прочих страшных вещей.
+This is hard for experienced programmers, because many of them (including myself), are used to learning things by trial and error — especially when no human lives, financial losses, or other terrible things are at stake.
 
-К слову, по моим наблюдениям, Rust стал последним языком, с которым были трудности у LLM.
+By the way, based on my observations, Rust became the last language that LLMs struggled with.
 
 ### Дорого прототипировать и экспериментировать
 
