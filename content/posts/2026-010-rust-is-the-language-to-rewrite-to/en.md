@@ -218,11 +218,11 @@ In other words, the reliability and security of software written in Rust may be 
 1. We have generally started writing better software and choosing better architectures.
 2. In case of rewriting software in Rust, all the major mistakes have already been made by the developers of the original software, and the architecture has already stood the test of time. As a result, the developers doing the rewrite start with a task that is inherently less complex and less risky.
 
-### Rust выдвигает высокие требования к способностям программиста
+### Rust sets a high bar for programmers
 
-Команда разработчиков на Rust будет крутой и дорогой — этот вариант подходит не всем компаниям и не всем проектам. Ошибки в архитектуре софта на Rust будут происходить реже, но могут стоить существенно дороже из-за потенциальной «фундаментальности» на уровне проекта.
+A team of Rust developers will be skilled and expensive — an option that is not suitable for every company or every project. Architectural mistakes in Rust software may happen less often, but they may cost significantly more because of a more "fundamental" level of them.
 
-ИИ, в теории, может снизить требования к уровню разработчиков, но пока что это, скорее, теория. [Мой личный опыт с coding agents]{post:notes-on-coding-agents} говорит, что агенты отлично справляются с кодом, но очень плохо с архитектурой и долгосрочным планированием. Большинство проблем в вашем проекте на Rust будет как раз из-за ошибок в архитектуре.
+AI could, in theory, lower skill requirements, but for now it is more a theory. [My personal experience with coding agents]{post:notes-on-coding-agents} suggests that agetns handle code very well, but architecture and long-term planning very poorly. Most of the issues in a Rust project will come precisely from architectural mistakes.
 
 ## Мои личные планы на Rust
 
