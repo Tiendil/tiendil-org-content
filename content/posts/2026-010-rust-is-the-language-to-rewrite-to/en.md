@@ -224,21 +224,21 @@ A team of Rust developers will be skilled and expensive — an option that is no
 
 AI could, in theory, lower skill requirements, but for now it is more a theory. [My personal experience with coding agents]{post:notes-on-coding-agents} suggests that agetns handle code very well, but architecture and long-term planning very poorly. Most of the issues in a Rust project will come precisely from architectural mistakes.
 
-## Мои личные планы на Rust
+## My personal impressions of Rust and plans for it
 
-- Как человеку склонному к перфекционизму, мне Rust нравится, потому что он заставляет писать правильный код.
-- Как бывшему олимпиаднику, мне Rust нравится, потому что он даёт решать прикольные задачки. Примерно уровня задач на шаблоны в C++ — по ощущениям одно и то же. Только в C++ ты решаешь такие задачи, только когда работаешь с шаблонами, а в Rust — всегда.
-- Идеологически мне Rust не нравится, так как он ограничивает свободу программиста.
-- В краткосрочной и среднесрочной перспективе Rust, скорее всего, будет отъедать весь рынок «стандартного» и «foundational» софта, что бы «стандартный» и «foundational» в этом случае ни значили.
-- В долгосрочной перспективе я вижу риск для Rust закопать себя точно так же, как себя закапывает C++ последние 20 лет.
+- As someone prone to perfectionism, I like Rust because it forces you to write correct code.
+- As a programming-contest participant, I like Rust because it gives me fun problems to solve. They feel roughly like C++ template problems — the experience is about the same. The difference is that in C++, you solve such problems only when working with templates; in Rust, you solve them all the time.
+- Ideologically, I dislike Rust because it limits the programmer's freedom.
+- In the short and medium term, Rust will most likely keep eating into the entire market for "standard", "foundational", "formulaic" software, whatever it means in this context.
+- In the long term, I see a risk that Rust will bury itself in exactly the same way C++ has been burying itself for the last 20 years.
 
-Поэтому сейчас я настроен переключиться на Rust, если появится такая возможность/необходимость. Но в то же время я в любой момент буду готов с него соскочить на что-то более гибкое.
+So for now, I'm inclined to switch to Rust if the opportunity or need arises. At the same time, I'll be ready to jump ship at any moment and move to something more flexible.
 
-## Полезные ссылки
+## Useful links
 
-Если вы хотите копнуть немного глубже, то вот несколько интересных ссылок:
+If you want to dig a little deeper, here are a few interesting links:
 
-- [Собрание реальных фактов, когда компании решали переходить на Rust или отказывались от него](https://sxlijin.github.io/2025-06-25-rust-case-studies).
-- [Примеры реальных проблем Rust](https://databento.com/blog/why-we-didnt-rewrite-our-feed-handler-in-rust).
-- [Визуализация сложности borrow-checker](https://nadrieril.github.io/blog/2025/12/21/the-algebra-of-loans-in-rust.html).
-- [Крутейшее объяснение работы traits с картинками](https://contextgeneric.dev/blog/rustlab-2025-coherence/)
+- [A collection of real-world cases where companies decided either to adopt Rust or not to](https://sxlijin.github.io/2025-06-25-rust-case-studies).
+- [Examples of real-world Rust problems](https://databento.com/blog/why-we-didnt-rewrite-our-feed-handler-in-rust).
+- [A visualization of borrow-checker complexity](https://nadrieril.github.io/blog/2025/12/21/the-algebra-of-loans-in-rust.html).
+- [An excellent explanation of how traits work, with pictures](https://contextgeneric.dev/blog/rustlab-2025-coherence/).
