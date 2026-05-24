@@ -65,15 +65,15 @@ As a consequence of this approach, language features do not restrict the use of 
 
 Moreover, and this is important, without restrictions on feature composition, it becomes much easier to experiment — trying different architectural solutions, patterns, programming styles, etc.
 
-### Вы будете платить за всё
+### You'll pay for everything
 
-Rust пошёл другим путём.
+Rust chose a different path.
 
-Его механизмы всё ещё ортогональны друг другу, но только в плане ответственности за что-то, а не в возможности включать/выключать их использование или комбинировать их любыми способами. Вместо этого они требуют от вас использовать их в связке с другими механизмами языка в конкретно определённых случаях. Вместо кирпичиков лего вы получаете намертво сваренную железную решётку, в которую необходимо вписать архитектуру и код. Узлы такой решётки становятся глобальными инвариантами, которые невозможно нарушить или подвинуть.
+Its features are still orthogonal to each other, but only in terms of responsibility for something, not in the ability to turn their use on/off or compose them in any way. Instead, they require you to use them in conjunction with other language features in very particular cases. Instead of Lego bricks, you get a welded rigid grid in which you must somehow fit your architecture and code. Nodes of such a grid become global invariants that you must follow and can not break or bypass.
 
-Например, вы не можете «просто не использовать lifetime» (подставьте сюда borrow checker, traits, etc.) — вы должны либо использовать его, либо строить свою архитектуру очень специфическим образом вокруг него (что может и не получиться).
+As an example, you can not "just not use lifetime" (place there borrow checker, traits, etc.) — you must either use it or build your aritecture in a highly specific way around it (if that is even possible).
 
-Это разительно снижает вариативность — ограничивает возможность экспериментировать, но, одновременно, ограничивает возможность ошибаться.
+This sharply reduces variability — limits the ability to experiment, but at the same time, limits the ability to make mistakes.
 
 Наличие глобальных инвариантов навязывает определённые архитектурные решения, которые во многих случаях можно считать best practices. **Rust заставляет писать более ~~хорошую~~, ~~правильную~~, надёжную архитектуру независимо от вашей потребности в ней.**
 
