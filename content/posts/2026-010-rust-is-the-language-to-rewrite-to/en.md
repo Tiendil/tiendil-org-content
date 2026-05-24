@@ -42,11 +42,11 @@ At the same time, I have enough development experience to extrapolate from that 
 
 <!-- more -->
 
-## Цена композиции
+## The cost of composition
 
-[Композиция выигрывает у наследования]{post:composition-vs-classification} в большинстве общих случаев за счёт лучшей гибкости, большей вариативности, меньшей связанности и, как следствие, лучшей поддерживаемости.
+[Composition wins over inheritance]{post:@chose-nearest-language:composition-vs-inheritance} in most general cases due to better flexibility, more variability, less coupling, and, consequently, better maintainability of the result.
 
-Поэтому большинство языков программирования организованы вокруг ортогональных правил/механизмов/компонентов, которые разработчики могут комбинировать и использовать по своему усмотрению.
+That's why most programming languages are organized around orthogonal rules/mechanisms/components that developers can combine and use at their discretion.
 
 ### Вы не платите за то, что не используете
 
