@@ -120,7 +120,7 @@ Rust itself is moving in roughly the same direction. For example, here is a quot
 
 > I see Rust's mission as making it dramatically more accessible to author and maintain foundational software. By foundational I mean the software that underlies everything else.
 
-"Foundational software" is a broad and vague term; however, in essence, it is software at the levels below what a common user sees, a software that provides the basic expected/standard capabilities for everything we build on top of it.
+"Foundational software" is a broad and vague term; however, in essence, it is software at the levels below what an ordinary user sees, software that provides the basic expected/standard capabilities for everything we build on top of it.
 
 ## Advantages of Rust
 
