@@ -105,7 +105,7 @@ My hypothesis is that humanity has completed the phase of experimentation with "
 
 ~~We think that~~ We "know" the principles on which sudo, coreutils, web servers, databases, user interfaces, and so on should operate.
 
-The less we need to experiment with an architecture and programming style, the less the pressure toward choosing languages with unrestricted feature composition.
+The less we need to experiment with architecture and programming style, the less the pressure toward choosing languages with unrestricted feature composition.
 
 The more we need reliability, security, and predictability, the greater the pressure toward languages with restricted feature composition.
 
