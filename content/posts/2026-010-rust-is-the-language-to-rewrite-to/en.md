@@ -10,7 +10,7 @@ seo_image = "cover.jpg"
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "Rust is steadily refactoring humanity's codebase."
+caption = "Rust is slowly but inexorably refactoring humanity's codebase."
 ///
 
 About 5 years ago, I was going through Rust documentation and decided that [I didn't like Rust]{post:@choose-nearest-language:why-i-dont-like-rust}.
