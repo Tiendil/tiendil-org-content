@@ -199,7 +199,7 @@ Adding a mechanism that is tightly coupled to all the others will automatically 
 That already leads to huge delays in adding new features:
 
 - [Adding generic associated types took more than 6 years](https://blog.rust-lang.org/2022/10/28/gats-stabilization/).
-- [The task about generics specialization is already 10 years old](https://github.com/rust-lang/rust/issues/31844).
+- [The generic specialization issue has already been open for 10 years](https://github.com/rust-lang/rust/issues/31844).
 
 Moreover, the current trait rules already partially constrain the ~~potential~~ development of the library ecosystem. Because of how traits work, the ecosystem becomes tightly tied to a set of key third-party libraries — for example, [serde](https://serde.rs/) — a serialization framework. If someone creates a more convenient framework in the future, migrating to it will be complicated because someone will need to add support for it in all the libraries of the ecosystem (as is currently done for serde). Of course, there is more than one such library, and it turns out that Rust's rigidity leads to the same rigidity in the ecosystem. If nothing changes, this rigidity may lead to the stagnation of the language in the future.
 
