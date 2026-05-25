@@ -46,7 +46,7 @@ At the same time, I have enough development experience to extrapolate from that 
 
 ## The cost of composition
 
-[Composition wins over inheritance]{post:@choose-nearest-language:composition-vs-inheritance} in most general cases due to better flexibility, more variability, less coupling, and, consequently, better maintainability of the result.
+[Composition wins over inheritance]{post:@choose-nearest-language:composition-vs-classification} in most general cases due to better flexibility, more variability, less coupling, and, consequently, better maintainability of the result.
 
 That's why most programming languages are organized around orthogonal rules/mechanisms/components that developers can combine and use at their discretion.
 
