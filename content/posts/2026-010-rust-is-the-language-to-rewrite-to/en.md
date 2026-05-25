@@ -166,7 +166,7 @@ In Rust, it is hard to cut corners even using `unsafe`. For example, `unsafe` do
 
 In my view, this is exactly why game development in Rust still has not become widespread. Gamedev is one of the few remaining fields where prototyping and experimentation are still important — and may well remain important for the foreseeable future.
 
-That's why I recommend prototyping in a language other than Rust and rewriting the result in Rust once you're sure how it must work. For example, here the developer [prototyped a filesystem in Python and later rewrote it in Rust](https://www.reddit.com/r/programming/comments/1mgr7tv/posted_a_couple_of_weeks_ago_about_progress_i_had/).
+That's why I recommend prototyping in a language other than Rust and rewriting the result in Rust once it is clear how the result should work. For example, here the developer [prototyped a filesystem in Python and later rewrote it in Rust](https://www.reddit.com/r/programming/comments/1mgr7tv/posted_a_couple_of_weeks_ago_about_progress_i_had/).
 
 ### It is hard to vary the code quality
 
