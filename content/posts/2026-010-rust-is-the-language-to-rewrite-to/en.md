@@ -87,7 +87,7 @@ To be productive, a Rust programmer has to keep all of the language’s mechanis
 
 The need to keep the entire language, with all its nuances, in your head creates a high barrier to entry.
 
-In my opinion, that explains a popular view: "it is easier for a beginner to enter the language than for a professional to switch to it".
+In my opinion, that explains a popular view: "it is easier for a beginner to get into the language than for a professional to switch to it".
 
 A beginner learns from the start to think within constraints. A professional already has experience composing code without those constraints, and starts bumping into Rust's ~~restrictions~~ invariants on every line of code.
 
