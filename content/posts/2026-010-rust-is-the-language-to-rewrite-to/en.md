@@ -136,7 +136,7 @@ For example, I'm considering switching my web specialization from Python to Rust
 
 We can leave this section there. It turns out that Rust is something of a workhorse for routine engineering work.
 
-Let's better speak about Rust's drawbacks.
+Better yet, let's talk about Rust's drawbacks.
 
 ## Rust’s downsides
 
