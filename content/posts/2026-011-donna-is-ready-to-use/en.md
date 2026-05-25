@@ -120,4 +120,22 @@ The workflow is complete. You are a good butler.
 
 This workflow is taken from Donna's [README.md](https://github.com/Tiendil/donna), you can find the detailed explanation of how it works there.
 
-##
+## Real usage cases
+
+**My primary use case for Donna** is creating code polishing workflows for my projects, like that one: [polish.donna.md](https://github.com/Tiendil/donna/blob/main/workflows/polish.donna.md).
+
+Such workflow do formatting, run tests, linters, spellcheckers, and quality-related tools, and if they find any issues, they ask the agent to fix them. It does them in the loop in the fixed order until all the issues are fixed.
+
+Agent is instructed to run polish workflow on the end of the current work scope and at the end of each significant part of work, when the project is expected to be in consistent state.
+
+Such workflow saves a lot of manual work for me, especially after I introduced [tach](https://github.com/tach-org/tach/) to my projects to lint/restrict code dependencies.
+
+**The second use case** is asking agents to generate workflows for themselves when they need to do something complex. For example, when I want to ensure that a complex refactoring will be done in correct sequence, or when I want to ensure that every file will be processed in the same way.
+
+**My wife resently started using Donna for translating some korean manhwa** for personal use. I help her generate a near 5 workflows, after that she iteratively tuned them for expected behavior and quality.
+
+## Looking for early adopters
+
+I use Donna every day and think it may bring a lot of value to other people. So, if you are interesting — try it out, and let me know what you think. I'm always ready to help you with it, and your feedback is very important for me.
+
+Don't worry about support or long-term maintenance — I use Donna in all my projects every day, so I will maintain it in any case. And I'm fast at introducing new features and fixing bugs on demand.
