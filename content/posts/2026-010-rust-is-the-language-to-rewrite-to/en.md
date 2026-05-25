@@ -228,7 +228,7 @@ AI could, in theory, lower skill requirements, but for now, it is more of a theo
 - As a former competitive programmer, I like Rust because it gives me fun problems to solve. They feel roughly like C++ template problems — the experience is about the same. The difference is that in C++, you solve such problems only when working with templates; in Rust, you solve them all the time.
 - Ideologically, I dislike Rust because it limits the programmer's freedom.
 - In the short and medium term, Rust will most likely keep eating into the market for standard/foundational/formulaic software, whatever those terms mean in this context.
-- In the long term, I see a risk that Rust will bury itself in exactly the same way C++ has been burying itself for the last 20 years.
+- In the long term, I see a risk that Rust may dig itself into the same hole C++ has been digging itself into for the last 20 years.
 
 So for now, I'm inclined to switch to Rust if the opportunity or need arises. At the same time, I'll be ready to jump ship at any moment and move to something more flexible.
 
