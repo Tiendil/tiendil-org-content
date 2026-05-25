@@ -196,7 +196,7 @@ Rust may become a victim of its own rigidity, because that rigidity constrains n
 
 Adding a mechanism that is tightly coupled to all the others will automatically lead to quadratic growth in the language's cognitive complexity.
 
-That already leads to huge delays in adding new features:
+That already leads to huge delays in adding new mechanisms:
 
 - [Adding generic associated types took more than 6 years](https://blog.rust-lang.org/2022/10/28/gats-stabilization/).
 - [The generic specialization issue has already been open for 10 years](https://github.com/rust-lang/rust/issues/31844).
