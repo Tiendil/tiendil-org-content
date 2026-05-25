@@ -54,7 +54,7 @@ That's why most programming languages are organized around orthogonal rules/mech
 
 ### You don't pay for what you don't use
 
-Since ancient times, the default convention has been that language features should compose according to the principle: "you only pay for what you use". For example, in C++, this is even one of the key design principles: "What you don't use, you don't pay for". This is often interpreted as a performance requirement, but in my view, it also applies to the mental load on the programmer.
+Since ancient times, the default convention has been that language features should compose according to the principle: "you only pay for what you use". For example, in C++, this is even one of the key design principles: [What you don't use, you don't pay for](https://isocpp.org/std/standing-documents/sd-10-language-evolution-principles). This is often interpreted as a performance requirement, but in my view, it also applies to the mental load on the programmer.
 
 For example:
 
