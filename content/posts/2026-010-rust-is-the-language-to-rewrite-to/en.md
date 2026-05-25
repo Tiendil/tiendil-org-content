@@ -170,7 +170,7 @@ That's why I recommend prototyping in a language other than Rust and rewriting t
 
 ### It is hard to vary the code quality
 
-The logic is pretty much the same as with prototyping, but in this case, it is about when different parts of the project may have different quality requirements.
+The logic is pretty much the same as with prototyping, but in this case, it is about when different parts of a single project may have different quality requirements.
 
 For example, simplifying a bit, your decision on data lifetime will shape all the places where you use that data.
 
