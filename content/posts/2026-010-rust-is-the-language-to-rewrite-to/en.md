@@ -168,7 +168,7 @@ In my view, this is exactly why game development in Rust still has not become wi
 
 That's why I recommend prototyping in a language other than Rust and rewriting the result in Rust once it is clear how the result should work. For example, here is a developer [prototyped a filesystem in Python and later rewrote it in Rust](https://www.reddit.com/r/programming/comments/1mgr7tv/posted_a_couple_of_weeks_ago_about_progress_i_had/).
 
-### It is hard to vary the code quality
+### It is hard to vary code quality
 
 The logic is pretty much the same as with prototyping, but in this case, it is about when different parts of a single project may have different quality requirements.
 
