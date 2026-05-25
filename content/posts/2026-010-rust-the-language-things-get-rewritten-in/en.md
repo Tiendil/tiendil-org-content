@@ -6,8 +6,6 @@ seo_description = "An opinionated view on Rust, its advantages and disadvantages
 seo_image = "cover.jpg"
 ---
 
-<!-- todo: update slug -->
-
 /// brigid-images
 src = "./cover.jpg"
 caption = "Rust is slowly but inexorably refactoring humanity's codebase."
