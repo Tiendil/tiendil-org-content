@@ -1,21 +1,22 @@
 ---
-title = "Donna is ready to use"
+title = "Donna готова к использованию"
 tags = ["practice", "development", "open-source", "neural-networks", "prompt-engineering", "large-language-models", "exocortex", "ai-agents", "coding-agents"]
 published_at = "2026-05-28T12:00:00+00:00"
-seo_description = "I finished the prototyping phase of Donna development. Now it is polished, has single responsibility area and, generally, is suitable for use."
+seo_description = "Я закончил прототипирование Donna. Теперь утилита отлажена, имеет чёткую специализацию и, в целом, готова к использованию."
 seo_image = "cover.jpg"
 ---
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "How Donna works."
+caption = "Как работает Donna."
 ///
 
-In February, I released [Donna](https://github.com/Tiendil/donna) ([the original post]{post:donna-introduction}) — a CLI tool to run agent workflows as state machines and describe them in Markdown files.
+В феврале я выпустил [Donna](https://github.com/Tiendil/donna)([оригинальный пост]{post:donna-introduction}) — CLI утилиту для выполнения сценариев агентами и представления этих сценариев в виде файлов Markdown.
 
-Since I was developing it simultaneously with learning [how to work with agents]{post:notes-on-coding-agents}, Donna came out as an overcomplicated, versatile monster. It had many features, all of which were useful, but in total, they restricted the developers' environment too much and required too much time to learn.
+Поскольку я разрабатывал её одновременно разбираясь [как работать с агентами]{post:notes-on-coding-agents}, у меня получился переусложнённый, универсальный монстр. Donna имела много полезных функций, но совместно они слишком сильно ограничивали среду разработчика и требовали слишком много времени на изучение.
 
-So, after I gained some experience, I decided to follow the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) and refactor a single monolithic tool into a set of smaller tools with single responsibility. New Donna is the first one of them (and the second is [depmesh](https://github.com/Tiendil/depmesh) — I'll tell about it in a separate post).
+Поэтому, получив некоторый опыт, я решил следовать [философии Unixъ(
+So, after I gained some experience, I decided to follow the [Unix philosophy](https://ru.wikipedia.org/wiki/Философия_Unix) и отрефакторить монолит в набор меньших утилит, каждая с отдельной чёткой зоной ответственности. Новая Donna — это первая из них (вторая — это [depmesh](https://github.com/Tiendil/depmesh) — я расскажу о ней в отдельном посте).
 
 New Donna exists to solve control flow problems of agents in the long run:
 
