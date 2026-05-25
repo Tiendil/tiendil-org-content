@@ -220,7 +220,7 @@ In other words, the reliability and security of software written in Rust may be 
 
 A team of Rust developers will be skilled and expensive — an option that is not suitable for every company or every project. Architectural mistakes in Rust software may occur less often, but they can cost significantly more because they will be at a more "fundamental" level.
 
-AI could, in theory, lower skill requirements, but for now, it is more of a theory. [My personal experience with coding agents]{post:notes-on-coding-agents} suggests that agents handle code very well, but architecture and long-term planning very poorly. Most of the issues in a Rust project will come precisely from architectural mistakes.
+AI could, in theory, lower skill requirements, but for now, it is more of a theory. [My personal experience with coding agents]{post:notes-on-coding-agents} suggests that agents handle code very well, but handle architecture and long-term planning very poorly. Most of the issues in a Rust project will come precisely from architectural mistakes.
 
 ## My personal impressions of Rust and plans for it
 
