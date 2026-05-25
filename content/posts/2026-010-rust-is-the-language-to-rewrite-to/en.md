@@ -150,7 +150,7 @@ Otherwise, you will keep methodically running into a wall, learning something ne
 
 This is hard for experienced programmers because many of them (including me) are used to learning by trial and error — especially when no human lives, financial losses, or other terrible things are at stake.
 
-By the way, based on my observations, Rust was the last language that LLMs still struggled with.
+By the way, Rust was the last language, in my observations, that LLMs had trouble with.
 
 ### High cost of prototyping and experimentation
 
