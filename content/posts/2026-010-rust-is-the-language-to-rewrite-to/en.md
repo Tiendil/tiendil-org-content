@@ -109,7 +109,7 @@ The less we need to experiment with architecture and programming style, the less
 
 The more we need reliability, security, and predictability, the greater the pressure toward languages with restricted feature composition.
 
-Rust, in turn, provides not only reliability but also a convenient semantics for describing standard/correct/secure architectures.
+Rust, in turn, provides not only reliability but also convenient semantics for describing standard/correct/secure architectures.
 
 This leads directly to two "movements":
 
