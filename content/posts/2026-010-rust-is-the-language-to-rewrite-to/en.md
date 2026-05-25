@@ -236,7 +236,7 @@ So for now, I'm inclined to switch to Rust if the opportunity or need arises. At
 
 If you want to dig a little deeper, here are a few interesting links:
 
-- [A collection of real-world cases where companies decided either to adopt Rust or not to](https://sxlijin.github.io/2025-06-25-rust-case-studies).
+- [A collection of real-world cases where companies decided to adopt Rust or reject it](https://sxlijin.github.io/2025-06-25-rust-case-studies).
 - [Examples of real-world Rust problems](https://databento.com/blog/why-we-didnt-rewrite-our-feed-handler-in-rust).
 - [A visualization of borrow-checker complexity](https://nadrieril.github.io/blog/2025/12/21/the-algebra-of-loans-in-rust.html).
 - [An excellent explanation of how traits work, with pictures](https://contextgeneric.dev/blog/rustlab-2025-coherence/).
