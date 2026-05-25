@@ -142,7 +142,7 @@ Better yet, let's talk about Rust's drawbacks.
 
 Rust's problems come from the same place as its advantages — the lattice of rigid invariants.
 
-### The steep learning curve
+### High barrier to entry
 
 You cannot choose a subset of the language and start building a moderately complex project with it — you need to keep the whole language in your head.
 
