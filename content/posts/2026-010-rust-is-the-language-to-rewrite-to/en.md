@@ -1,5 +1,5 @@
 ---
-title = "Rust: the language everyone rewrites things in"
+title = "Rust: the language things get rewritten in"
 tags = ["theory", "practice", "development", "rust"]
 published_at = "2026-05-25T12:00:00+00:00"
 seo_description = "An opinionated view on Rust, its advantages and disadvantages, and why people keep rewriting everything in it."
