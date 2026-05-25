@@ -128,7 +128,7 @@ Rust itself is moving in roughly the same direction. For example, here is a quot
 
 In theory, this applies to most commercial software and a substantial share of open-source software.
 
-I'm, for example, considering switching from Python to Rust for web development, because it is hard to imagine anything more formulaic than modern web development.
+For example, I'm considering switching my web specialization from Python to Rust, because it is hard to imagine anything more formulaic than modern web development.
 
 **Second**, because Rust constrains architecutre variability, it should be well suited to development with coding agents — the space for error becomes much smaller (assuming you ban `unsafe` ).
 
