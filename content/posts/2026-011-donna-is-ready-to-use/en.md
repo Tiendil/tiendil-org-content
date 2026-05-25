@@ -3,8 +3,13 @@ title = "Donna is ready to use"
 tags = ["practice", "development", "open-source", "neural-networks", "prompt-engineering", "large-language-models", "exocortex", "ai-agents", "coding-agents"]
 published_at = "2026-05-28T12:00:00+00:00"
 seo_description = "I finished the prototyping phase of Donna development. Now it is polished, have single responsibility and, generally, suitable for use."
-seo_image = ""
+seo_image = "cover.jpg"
 ---
+
+/// brigid-images
+src = "./cover.jpg"
+caption = "How Donna works."
+///
 
 In the February I released [Donna](https://github.com/Tiendil/donna) ([the original post]{post:donna-introduction}) — a CLI tool to represent agent workflows as state machines and describe them in Markdown files.
 
