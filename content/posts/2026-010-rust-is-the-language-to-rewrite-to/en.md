@@ -81,7 +81,7 @@ This sharply reduces variability — limits the ability to experiment, but, at t
 
 The presence of global invariants imposes certain architectural decisions, which in many cases can be considered best practices. **Rust forces you to implement a more ~~good~~, ~~right~~, reliable architecture whether you need it or not.**
 
-To be productive, a Rust programmer has to keep all of the language’s mechanisms in mind at once: standard traits, lifetime rules, borrow-checker rules, and so on. Moreover, they have to keep them in mind, not in isolation, but together with all possible interactions and constraints on composition.
+To be productive, a Rust programmer has to keep all of the language's mechanisms in mind at once: standard traits, lifetime rules, borrow-checker rules, and so on. Moreover, they have to keep them in mind, not in isolation, but together with all possible interactions and constraints on composition.
 
 /// note | Learning Rust as a professional or a beginner
 
@@ -138,7 +138,7 @@ We can leave this section there. It turns out that Rust is something of a workho
 
 Better yet, let's talk about Rust's drawbacks.
 
-## Rust’s downsides
+## Rust's downsides
 
 Rust's problems come from the same place as its advantages — the lattice of rigid invariants.
 
