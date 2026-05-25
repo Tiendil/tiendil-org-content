@@ -113,7 +113,7 @@ Rust, in turn, provides not only reliability but also convenient semantics for d
 
 This leads directly to two "movements":
 
-- Bottom-up — the classic "I can do it better", [I'll build my own <place-your-tool-here>, with blackjack, and improved reliability](https://www.youtube.com/watch?v=ubPWaDWcOLU) approaches push enthusiasts to choose Rust for ~~rewriting~~ creating alternatives to existing software, because Rust doesn't get in the way of «doing it right» and protects you from attempts to "do it wrong".
+- Bottom-up — the classic "I can do it better", [I'll invent my own wheel, with blackjack, and improved reliability](https://www.youtube.com/watch?v=ubPWaDWcOLU) approaches push enthusiasts to choose Rust for ~~rewriting~~ creating alternatives to existing software, because Rust doesn't get in the way of «doing it right» and protects you from attempts to "do it wrong".
 - Top-down — corporations start moving their infrastructure to Rust because the value of experimenting with code is decreasing, while the costs of bugs and vulnerabilities are increasing. Why experiment if everything is already standardized and it is roughly clear how it should work according to best practices?
 
 Rust itself is moving in roughly the same direction. For example, here is a quote from one of Rust's core developers, from his post [Rust in 2025: Targeting foundational software](https://smallcultfollowing.com/babysteps/blog/2025/03/10/rust-2025-intro/):
