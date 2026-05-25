@@ -1,10 +1,12 @@
 ---
-title = "Rust is the language to rewrite to"
+title = "Rust: the language everyone rewrites things in"
 tags = ["theory", "practice", "development", "rust"]
 published_at = "2026-05-25T12:00:00+00:00"
 seo_description = "An opinionated view on Rust, its advantages and disadvantages, and why people keep rewriting everything in it."
 seo_image = "cover.jpg"
 ---
+
+<!-- todo: update slug -->
 
 /// brigid-images
 src = "./cover.jpg"
