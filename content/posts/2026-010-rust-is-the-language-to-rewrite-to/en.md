@@ -188,7 +188,7 @@ Here is a quote from a developer with 4 years of experience with Rust, from the 
 
 I have exactly the same impression.
 
-### Possible troubles in the future
+### Potential future problems
 
 C++ got stuck due to the requirement for full backward compatibility and the committee's rigidity.
 
