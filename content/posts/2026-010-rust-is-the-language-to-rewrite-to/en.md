@@ -79,7 +79,7 @@ For example, you cannot "just not use lifetimes" (substitute borrow checker, tra
 
 This sharply reduces variability — limits the ability to experiment, but, at the same time, limits the ability to make mistakes.
 
-The presence of global invariants imposes certain architecture decissions, which in many cases can be considered best practices. **Rust forces you to implement a more ~~good~~, ~~right~~, reliable architecture whether you need it or not.**
+The presence of global invariants imposes certain architectural decisions, which in many cases can be considered best practices. **Rust forces you to implement a more ~~good~~, ~~right~~, reliable architecture whether you need it or not.**
 
 To be productive, a Rust programmer has to keep all of the language’s mechanisms in mind at once: standard traits, lifetime rules, borrow-checker rules, and so on. Moreover, they have to keep them in mind, not in isolation, but together with all possible interactions and constraints on composition.
 
