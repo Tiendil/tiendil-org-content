@@ -203,8 +203,7 @@ That already leads to huge delays in adding new features:
 
 Moreover, the current trait rules already partially constrain the ~~potential~~ development of the library ecosystem. Because of how traits work, the ecosystem becomes tightly tied to a set of key third-party libraries — for example, [serde](https://serde.rs/) — a serialization framework. If someone creates a more convenient framework in the future, migrating to it will be complicated because someone will need to add support for it in all the libraries of the ecosystem (as is currently done for serde). Of course, there is more than one such library, and it turns out that Rust's rigidity leads to the same rigidity in the ecosystem. If nothing changes, this rigidity may lead to the stagnation of the language in the future.
 
-Here is an excellent post about the problem and how people are trying to solve it: [An incoherent Rust](ht
-tps://www.boxyuwu.blog/posts/an-incoherent-rust/).
+Here is an excellent post about the problem and how people are trying to solve it: [An incoherent Rust](https://www.boxyuwu.blog/posts/an-incoherent-rust/).
 
 ### Rust's impact on software reliability may be overstated
 
