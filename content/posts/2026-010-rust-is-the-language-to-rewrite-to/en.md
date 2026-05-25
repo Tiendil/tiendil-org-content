@@ -15,7 +15,7 @@ caption = "Rust is steadily refactoring humanity's codebase."
 
 About 5 years ago, I was going through Rust documentation and decided that [I didn't like Rust]{post:@choose-nearest-language:why-i-dont-like-rust}.
 
-Last year, I needed to prototype some game logic and chose Rust for that task, as I couldn't find anything better: [Zig](https://ziglang.org/) looked too young, and [C++](https://en.wikipedia.org/wiki/C%2B%2B) is getting more and more ~~dead~~ complex and complicated with every standard.
+Last year, I needed to prototype some game logic and chose Rust for that task, as I couldn't find anything better: [Zig](https://ziglang.org/) looked too immature, and [C++](https://en.wikipedia.org/wiki/C%2B%2B) is getting more and more ~~dead~~ complex and complicated with every standard.
 
 As a result, I wrote 10 pages of notes on my experience, which unexpectedly boiled down to a compact statement in the title. And if you are too lazy to read further, then this is a praise, not a criticism.
 
