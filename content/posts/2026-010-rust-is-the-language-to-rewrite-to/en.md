@@ -93,7 +93,7 @@ A beginner learns from the start to think within constraints. A professional alr
 
 ///
 
-The convenience and usefulness of a language built on such principles will be determined primarily by the quality of chosen abstractions and the quality of standard-library implementation. "One mistake and you're mistaken" — people won't be able to use your language for real-world tasks.
+The convenience and usefulness of a language built on such principles will be determined primarily by the quality of chosen abstractions and the quality of standard-library implementation. "One wrong move, and you're done" — people won't be able to use your language for real-world tasks.
 
 Somehow, Rust managed to do it.
 
