@@ -192,7 +192,7 @@ I have exactly the same impression.
 
 C++ got stuck due to the requirement for full backward compatibility and the committee's rigidity.
 
-Rust may become a victim of its own rigidity, because that rigidity constrains not only our code, but also the design of the language itself. The more hard connections there are between its mechanisms, the harder it becomes to change the language and add new mechanisms, because they must be consistent with the existing ones and must not break them.
+Rust may become a victim of its own rigidity, because that rigidity constrains not only our code, but also the design of the language itself. The more tightly coupled its mechanisms are, the harder it becomes to change the language and add new mechanisms, because they must be consistent with the existing ones and must not break them.
 
 Adding a mechanism that is tightly coupled to all the others will automatically lead to quadratic growth in the language's cognitive complexity.
 
