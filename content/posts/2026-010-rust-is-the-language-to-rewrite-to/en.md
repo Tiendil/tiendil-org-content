@@ -130,7 +130,7 @@ In theory, this applies to most commercial software and a substantial share of o
 
 For example, I'm considering switching my web specialization from Python to Rust, because it is hard to imagine anything more formulaic than modern web development.
 
-**Second**, because Rust constrains architecture variability, it should be well suited to development with coding agents — the space for error becomes much smaller (assuming you ban `unsafe` ).
+**Second**, because Rust constrains architecture variability, it should be well suited to development with coding agents — the space for error becomes much smaller (assuming you ban `unsafe`).
 
 **Third**, as the consequences of following best practices, Rust's standard library and the core of its ecosystem are quite good.
 
