@@ -73,7 +73,7 @@ Moreover, and this is important, without restrictions on feature composition, it
 
 Rust chose a different path.
 
-Its features are still orthogonal to each other, but only in terms of responsibility for something, not in the ability to turn their use on/off or compose them in any way. Instead, they require you to use them in conjunction with other language features in very particular cases. Instead of Lego bricks, you get a welded rigid grid in which you must somehow fit your architecture and code. Nodes of such a grid become global invariants that you must follow and can not break or bypass.
+Its mechanisms are still orthogonal to each other, but only in terms of responsibility for something, not in the ability to turn their use on/off or compose them in any way. Instead, they require you to use them in conjunction with other language features in very particular cases. Instead of Lego bricks, you get a welded rigid grid in which you must somehow fit your architecture and code. Nodes of such a grid become global invariants that you must follow and can not break or bypass.
 
 For example, you cannot "just not use lifetime" (place there borrow checker, traits, etc.) — you must either use it or build your architecture in a highly specific way around it (if that is even possible).
 
