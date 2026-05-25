@@ -17,7 +17,7 @@ About 5 years ago, I was going through Rust documentation and decided that [I di
 
 Last year, I needed to prototype some game logic and chose Rust for that task, as I couldn't find anything better: [Zig](https://ziglang.org/) looked too immature, and [C++](https://en.wikipedia.org/wiki/C%2B%2B) is getting more and more ~~dead~~ complicated with every standard.
 
-As a result, I wrote 10 pages of notes on my experience, which unexpectedly boiled down to a compact statement in the title. And if you are too lazy to read further, then this is a praise, not a criticism.
+As a result, I wrote 10 pages of notes on my experience, which unexpectedly boiled down to a compact statement in the title. And if you are too lazy to read further, then this is praise, not criticism.
 
 However, I still stick to my opinion from the previous post:
 
