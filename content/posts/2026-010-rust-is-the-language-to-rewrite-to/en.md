@@ -38,7 +38,7 @@ I used Rust for only a year; for prototyping and experimentation; in game develo
 
 Consequently, I'm not in a position to claim expertise in Rust or an unbiased view of it.
 
-For example, some of the complexities I experienced may have been due to the fact that I was simultaneously prototyping and learning the language. I.e., a consequence of my choice, rather than properties of the language.
+For example, some of the difficulties I experienced may have been due to the fact that I was simultaneously prototyping and learning the language. I.e., a consequence of my choice, rather than properties of the language.
 
 At the same time, I have enough development experience to extrapolate from that year to more general cases and form my own subjective opinion on the matter. That is what I will do in this essay.
 
