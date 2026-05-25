@@ -162,7 +162,7 @@ For example, if I am writing a library that will be used only by me and only in 
 
 Or say I do not want to think about who or what owns the data, because I am absolutely sure that in this particular part of the system, it is completely irrelevant — and even if it is not, it will not affect the usefulness of the prototype.
 
-In Rust, it is hard to cut corners even using `unsafe`. For example, `unsafe` does not remove restrictions on data lifetime control.
+In Rust, it is hard to cut corners even using `unsafe`. For example, `unsafe` does not remove restrictions on data lifetimes.
 
 In my view, this is exactly why game development in Rust still has not become widespread. Gamedev is one of the few remaining fields where prototyping and experimentation are still important — and may well remain important for the foreseeable future.
 
