@@ -30,7 +30,7 @@ Donna runs predefined workflows as deterministic state machines, so the agent ca
 
 ## How Donna works
 
-You define a workflow in a single readable Markdown file. The agent asks Donna to guide it through the workflow; Donna maintains the session state, selects the next operation, and tells the agent what to do or report next.
+You define a workflow in a single readable Markdown file. The agent asks Donna to guide it through the workflow; Donna maintains the execution state, selects the next operation, and tells the agent what to do or report next.
 
 Workflows can start child workflows, be generated on the fly, or be modified while executing. For example, you can have a workflow that guides the agent through the planning process, and at the final step, the agent can generate a new workflow with a detailed plan to execute and run it immediately.
 
