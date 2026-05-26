@@ -126,15 +126,15 @@ The workflow is complete. You are a good butler.
 
 Сценарий взят из [README.md](https://github.com/Tiendil/donna) проекта, по ссылке вы можете найти подробное объяснение, как он работает.
 
-## Real usage cases
+## Реальное использование
 
-**My primary use case for Donna** is creating code polishing workflows for my projects, like that one: [polish.donna.md](https://github.com/Tiendil/donna/blob/main/workflows/polish.donna.md).
+**Мой основной вариант использования Donna** — это создание сценариев «полировки» кода, например, как этот: [polish.donna.md](https://github.com/Tiendil/donna/blob/main/workflows/polish.donna.md).
 
-Such a workflow performs formatting, runs tests, linters, spellcheckers, and other quality-related tools, and if any issues are found, it asks the agent to fix them. It does that in a loop, in the fixed order, until all the issues are fixed.
+Такой сценарий форматирует код, запускает тесты, линтеры, проверяет орфографию и так далее, а если он находит какие-то проблемы, то просит агента их исправить. Сценарий работает пока все проблемы не будут исправлены. выполняя проверки в фиксированном порядке после каждого изменения.
 
-My agent is instructed to run the Polish workflow at the end of the current work scope and at the end of each significant part of work, when the project is expected to be in a consistent state.
+Мой агент проинструктирован запускать полировку кода как последний шаг выполнения задачи и после каждого значительного этапа работы, когда проект должен быть в согласованном состоянии.
 
-Such a workflow saves me a lot of manual work and code-review time, especially after I introduced [tach](https://github.com/tach-org/tach/) to my projects to lint/restrict code dependencies.
+Подобный подход избавляет меня от большого количества ручной работы и сокращает время на код ревью, особенно после того как я добавил [tach](https://github.com/tach-org/tach/) в свои проекты для контроля зависимостей кода.
 
 **The second use case** is asking agents to generate workflows for themselves when they need to do something complex. For example, when I want to ensure that a complex refactoring is done in the correct sequence, or that every file is processed in the same way.
 

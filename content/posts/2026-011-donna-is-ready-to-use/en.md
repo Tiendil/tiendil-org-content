@@ -129,7 +129,7 @@ This workflow is taken from Donna's [README.md](https://github.com/Tiendil/donna
 
 **My primary use case for Donna** is creating code polishing workflows for my projects, like that one: [polish.donna.md](https://github.com/Tiendil/donna/blob/main/workflows/polish.donna.md).
 
-Such a workflow performs formatting, runs tests, linters, spellcheckers, and other quality-related tools, and if any issues are found, it asks the agent to fix them. It does that in a loop, in the fixed order, until all the issues are fixed.
+Such a workflow performs formatting, runs tests, linters, spellcheckers, and other quality-related tools, and if any issues are found, it asks the agent to fix them. It does that in a loop, until all the issues are fixed, by executing operations in the fixed order after each change.
 
 My agent is instructed to run the Polish workflow at the end of the current work scope and at the end of each significant part of work, when the project is expected to be in a consistent state.
 
