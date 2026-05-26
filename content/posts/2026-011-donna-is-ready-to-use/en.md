@@ -2,7 +2,7 @@
 title = "Donna is ready to use"
 tags = ["practice", "development", "open-source", "neural-networks", "prompt-engineering", "large-language-models", "exocortex", "ai-agents", "coding-agents"]
 published_at = "2026-05-28T12:00:00+00:00"
-seo_description = "I finished the prototyping phase of Donna development. Now it is polished, has single responsibility area and, generally, is suitable for use."
+seo_description = "I finished the prototyping phase of Donna development. Now it is polished, has a single responsibility area, and, generally, is suitable for use."
 seo_image = "cover.jpg"
 ---
 
@@ -17,7 +17,7 @@ Since I was developing it simultaneously with learning [how to work with agents]
 
 So, after I gained some experience, I decided to follow the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) and refactor a single monolithic tool into a set of smaller tools with single responsibility. New Donna is the first one of them (and the second is [depmesh](https://github.com/Tiendil/depmesh) — I'll tell about it in a separate post).
 
-New Donna exists to solve control flow problems of agents in the long run. The logic is as follows:
+New Donna exists to solve the control flow problems of agents in the long run. The logic is as follows:
 
 - Most development work is repetitive on the meta level: "run this tool, do something with the output, run another tool" or "implement function A, implement tests for function A, implement function B, …".
 - Some parts of that work require advanced reasoning, others do not.
