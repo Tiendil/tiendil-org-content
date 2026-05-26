@@ -135,7 +135,7 @@ My agent is instructed to run the Polish workflow at the end of the current work
 
 Such a workflow saves me a lot of manual work and code-review time, especially after I introduced [tach](https://github.com/tach-org/tach/) to my projects to lint/restrict code dependencies.
 
-**The second use case** is asking agents to generate workflows for themselves when they need to do something complex. For example, when I want to ensure that a complex refactoring is done in the correct sequence, or that every file is processed in the same way.
+**The second use case** is asking an agent to generate workflows for themselves when they need to do something complex. For example, when I want to ensure that a complex refactoring is done in the correct sequence, or that every file is processed in the same way.
 
 **My wife resently started using Donna for translating some chines novels** for personal use. I helped her generate nearly 5 workflows; she iteratively tuned them to achieve expected behavior and quality, and now they are translating something in the background. No coding was required.
 

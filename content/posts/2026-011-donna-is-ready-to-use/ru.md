@@ -136,12 +136,12 @@ The workflow is complete. You are a good butler.
 
 Подобный подход избавляет меня от большого количества ручной работы и сокращает время на код ревью, особенно после того как я добавил [tach](https://github.com/tach-org/tach/) в свои проекты для контроля зависимостей кода.
 
-**The second use case** is asking agents to generate workflows for themselves when they need to do something complex. For example, when I want to ensure that a complex refactoring is done in the correct sequence, or that every file is processed in the same way.
+**Другой вариант использования** — это попросить агента создать сценарий для себя, когда ему нужно сделать что-то сложное. Например, когда я хочу убедиться, что многоэтапный рефакторинг выполняется в правильной последовательности, или что каждый файл обрабатывается одинаково.
 
-**My wife resently started using Donna for translating some chines novels** for personal use. I helped her generate nearly 5 workflows; she iteratively tuned them to achieve expected behavior and quality, and now they are translating something in the background. No coding was required.
+**Моя жена недавно начала использовать Donna для перевода китайских романов** для личного пользования. Я помог ей создать около 5 сценариев; она итеративно настроила их для получения ожидаемого поведения и качества, и теперь они переводят что-то в фоновом режиме. Написание кода не требовалось.
 
-## Looking for early adopters
+## Ищу первых пользователей
 
-I use Donna every day and think it could bring a lot of value to others. So, if you are interested, try it out, and let me know what you think. I'm always ready to help you with it, and your feedback is very important to me.
+Я использую Donna каждый день и думаю, что она может принести много пользы другим. Поэтому, если вам интересно, попробуйте её и дайте мне знать, что вы думаете. Я всегда готов помочь, а ваш отзыв будет для меня очень важен.
 
-Don't worry about support or long-term maintenance — I use Donna in all my projects every day, so I will maintain it in any case. And I'm fast at introducing new features and fixing bugs on demand.
+Не беспокойтесь о долгосрочной поддержке — я использую Donna во всех своих проектах каждый день, так что я буду поддерживать её в любом случае. И я быстро внедряю новые функции и исправляю ошибки по запросу.
