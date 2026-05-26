@@ -18,14 +18,14 @@ caption = "Как работает Donna."
 Поэтому, получив некоторый опыт, я решил следовать [философии Unixъ(
 So, after I gained some experience, I decided to follow the [Unix philosophy](https://ru.wikipedia.org/wiki/Философия_Unix) и отрефакторить монолит в набор меньших утилит, каждая с отдельной чёткой зоной ответственности. Новая Donna — это первая из них (вторая — это [depmesh](https://github.com/Tiendil/depmesh) — я расскажу о ней в отдельном посте).
 
-New Donna exists to solve control flow problems of agents in the long run:
+Новая Donna существует, чтобы решать проблемы агентов с контролем потока упавления при длительной работе. Логика следующая:
 
-- Most development work is repetitive on the meta level: "run this tool, do something with the output, run another tool" or "implement function A, implement tests for function A, implement function B, …".
-- Some parts of that work require advanced reasoning, others do not.
-- Agents are ~~almost~~ good at reasoning, but not so good at keeping the whole process in mind, remembering what they did, etc.
-- Therefore, we should separate the reasoning part from the control flow part — let agents focus on what they are good at, and keep the control flow to traditional automation tools.
+- Большинство работы разработчиков ПО на мета-уровне является повторяющейся активностью: «запусти этот инструмент, сделай что-то с результатом, запусти другой инструмент» или «реализуй функцию A, реализуй тесты для функции A, реализуй функцию B, …».
+- Некоторые части этой работы требуют глубокого рассуждения, другие — нет.
+- Агенты ~~почти~~ хороши в рассуждении, но не очень хороши в том, чтобы держать весь процесс в голове, помнить, что они уже сделали, что им нужно сделать и в каком порядке, etc.
+- Поэтому логично отделить рассуждение от контроля потока управления — пусть агенты сосредоточатся на том, в чем они хороши, а контроль потока можно отдать традиционным инструментам автоматизации.
 
-Donna runs predefined workflows as deterministic state machines, so the agent can focus on reasoning, code generation, and other agentic work.
+Donna как раз исполняет определённые заранее сценарии как детерминированные конечные автоматы, поэтому агент может сосредоточиться на рассуждении, генерации кода и другой агентной работе.
 
 <!-- more -->
 

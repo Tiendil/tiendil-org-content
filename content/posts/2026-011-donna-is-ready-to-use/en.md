@@ -17,11 +17,11 @@ Since I was developing it simultaneously with learning [how to work with agents]
 
 So, after I gained some experience, I decided to follow the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) and refactor a single monolithic tool into a set of smaller tools with single responsibility. New Donna is the first one of them (and the second is [depmesh](https://github.com/Tiendil/depmesh) — I'll tell about it in a separate post).
 
-New Donna exists to solve control flow problems of agents in the long run:
+New Donna exists to solve control flow problems of agents in the long run. The logic is as follows:
 
 - Most development work is repetitive on the meta level: "run this tool, do something with the output, run another tool" or "implement function A, implement tests for function A, implement function B, …".
 - Some parts of that work require advanced reasoning, others do not.
-- Agents are ~~almost~~ good at reasoning, but not so good at keeping the whole process in mind, remembering what they did, etc.
+- Agents are ~~almost~~ good at reasoning, but not so good at keeping the whole process in mind, remembering what they did, what they should do and in which order, etc.
 - Therefore, we should separate the reasoning part from the control flow part — let agents focus on what they are good at, and keep the control flow to traditional automation tools.
 
 Donna runs predefined workflows as deterministic state machines, so the agent can focus on reasoning, code generation, and other agentic work.
