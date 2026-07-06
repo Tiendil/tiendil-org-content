@@ -10,7 +10,7 @@ Coding agents often need to answer practical questions before making changes, su
 
 - Which tests should be read before modifying this file?
 - Which specifications govern this module?
-- Which modules import this code?
+- Which modules does this code import?
 - Which artifacts are affected by this specification change?
 - etc.
 
@@ -18,13 +18,13 @@ In other words, the agent must discover all dependencies between files and add t
 
 To answer such questions, the agent must think, form a plan of action, execute it, and analyze the results. All of this consumes tokens, context, and time, without guaranteeing completeness and correctness of the result.
 
-For example, the agent must decide how to search for each specific type of dependency. Sometimes, as in the case of import chains, the agent must read and parse the source code to understand which modules it imports, then generate paths to the corresponding files and read them — this is token-consuming and inefficient.
+For example, the agent must decide how to search for each specific type of dependency. Sometimes, as in the case of import chains, the agent must read and parse the source code to understand which modules it imports, then generate paths to the corresponding files and read them — this is resource-intensive and inefficient.
 
 The result of such "agentic search" is not guaranteed, the agent may forget to grep by function name and lose an important dependency, or miss a niche spec because it decided it is not needed in this particular case.
 
 Moreover, for searching, the agent uses a bunch of tools, every one of which, by its very use, increases token consumption and eats up context. For the same task, the agent may choose different tools or call them with different parameters from time to time, which kills predictability and reproducibility of the result.
 
-“The standard ways to improve the situation are to integrate [LSP](https://microsoft.github.io/language-server-protocol/) or something similar as an agent tool, or to deploy one of the countless [RAG systems](https://en.wikipedia.org/wiki/Retrieval-augmented_generation). This helps, but does not solve all problems. For example, it does not guarantee completeness, minimality, and determinism of the result.
+The standard ways to improve the situation are to integrate [LSP](https://microsoft.github.io/language-server-protocol/) or something similar as an agent tool, or to deploy one of the countless [RAG systems](https://en.wikipedia.org/wiki/Retrieval-augmented_generation). This helps, but does not solve all problems. For example, it does not guarantee completeness, minimality, and determinism of the result.
 
 Meanwhile, since ancient times we have had a huge pool of utilities and libraries for file searching and source code analysis that can do the same work quickly and efficiently, without any LLMs. Each of them works much better than a [probabilistic model]{post:ai-notes-2024-generative-knowledge-base} in its specific area.
 
@@ -117,8 +117,8 @@ You can find examples of real configs in the tool's own repository [depmesh/depm
 
 In my projects, I define the following relationships:
 
-- `tested_by` — tests that verify the artifact.
-- `tests` — artifacts that are verified by the tests.
+- `tested_by` — tests that verify the source file.
+- `tests` — source files that are verified by the tests.
 - `imports`/`uses` — source files that are imported/used by this source file.
 - `imported_by`/`used_by` — source files that import/use this source file.
 - `governed_by` — specifications that govern the artifact.
@@ -157,7 +157,7 @@ I strive to define relationships at the file path level — standard names, stan
 
 However, with imports, of course, this trick does not work.
 
-For Python, I use [tach](https://github.com/tach-org/tach) — a linter for dependencies between modules. Besides being able to return them in a script-friendly format, it is actually a linter. You can describe the import rules in the project, and it will check that they are followed.
+For Python, I use [tach](https://github.com/tach-org/tach) — a linter for dependencies between modules. Besides being able to return them in a script-friendly format, it is actually a linter. You can describe the import rules in the project, and it will check that they are followed, which is very convenient.
 
 For Rust, I use a vibe-coded wrapper around `cargo modules dependencies`. Unfortunately, there are no established utilities for dependency analysis in Rust (which is strange). If you want to contribute to the community — this is a great opportunity — there is no conceptual complexity, you just need to spend some time.
 
@@ -167,4 +167,4 @@ For Rust, I use a vibe-coded wrapper around `cargo modules dependencies`. Unfort
 - The agent does not miss dependencies, which means it makes fewer mistakes and behaves more predictably.
 - You can use DepMesh as a base component for more complex automation, as a universal interface to dependencies is needed not only by agents.
 
-In the context of the last point, I am currently experimenting with a system that automatically controls the synchronization of all project files with each other, using [DepMesh](https://github.com/Tiendil/depmesh) to identify dependencies and [Donna](https://github.com/Tiendil/donna) to resolve desynchronization.
+In the context of the last point, I am currently experimenting with a system that automatically monitors whether all project files are synchronized with each other, using [DepMesh](https://github.com/Tiendil/depmesh) to identify dependencies and [Donna](https://github.com/Tiendil/donna) to resolve desynchronization.
