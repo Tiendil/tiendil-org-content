@@ -151,20 +151,20 @@ output = { type = "files", pattern = "./specs/**/*.md" }
 ```
 ///
 
-### Определение зависимостей
+### Discovering relationships
 
-Я стараюсь определять зависимости на уровне файловых путей — стандартные имена, стандартные пути, как в случае с тестами: `./src/module.py` всегда имеет парный `./src/tests/test_module.py`. Начал это делать задолго до взлёта ИИ — это удобно для человека, а glob-паттерны работают очень быстро. Например, вот агентская спека по лэйауту модулей бэкенда Feeds Fun [./specs/backend_architecture/modules_layout.md](https://github.com/Tiendil/feeds.fun/blob/main/specs/backend_architecture/modules_layout.md)
+I strive to define relationships at the file path level — standard names, standard paths, as in the case of tests: `./src/module.py` always has a paired `./src/tests/test_module.py`. I started doing this long before the rise of AI — it's convenient for humans; also glob patterns work very quickly. For example, here is the agent spec for the layout of the Feeds Fun backend modules [./specs/backend_architecture/modules_layout.md](https://github.com/Tiendil/feeds.fun/blob/main/specs/backend_architecture/modules_layout.md).
 
-Но с импортами, конечно, такая фишка не прокатывает.
+However, with imports, of course, this trick does not work.
 
-Для Python я использую [tach](https://github.com/tach-org/tach) — линтер зависимостей между модулями. Кроме того, что он может их возвращать в удобном для скриптов виде, он, собственно, линтер. Вы можете описать правила импортов в проекте и он будет проверять их соблюдение — очень удобно.
+For Python, I use [tach](https://github.com/tach-org/tach) — a linter for dependencies between modules. Besides being able to return them in a convenient for scripts format, it is actually a linter. You can describe the import rules in the project and it will check their compliance — very convenient.
 
-Для Rust я использую навайбкодженную обёртку вокруг `cargo modules dependencies`. К сожалению, устоявшихся утилит для анализа зависимостей в Rust нет (что странно). Если хотите сделать вклад в сообщество — это отличная возможность — концептуальной сложности нет, нужно просто потратить время.
+For Rust, I use a custom wrapper around `cargo modules dependencies`. Unfortunately, there are no established utilities for dependency analysis in Rust (which is strange). If you want to contribute to the community — this is a great opportunity — there is no conceptual complexity, you just need to spend some time.
 
-## Профит
+## Profit
 
-- Агент не думает где не должен. Значит тратит меньше токенов, не забивает контекст и работает быстрее.
-- Агент не пропускает зависимости, значит меньше ошибается и ведёт себя предсказуемее.
-- Вы можете использовать DepMesh как базовый компонент более сложной автоматизации, так как универсальный интерфейс к зависимостям нужен не только агентам.
+- The agent does not need to think where it should not. This means it spends fewer tokens, does not pollute the context, and works faster.
+- The agent does not miss dependencies, which means it makes fewer mistakes and behaves more predictably.
+- You can use DepMesh as a base component for more complex automation, as a universal interface to dependencies is needed not only by agents.
 
-В контексте последнего пункта, я сейчас экспериментирую с системой, которая автоматически контролирует синхронизированность всех файлов проекта друг с другом, используя DepMesh для поиска зависимостей и Donna для исправления рассинхронизации.
+In the context of the last point, I am currently experimenting with a system that automatically controls the synchronization of all project files with each other, using [DepMesh](https://github.com/Tiendil/depmesh) to find dependencies and [Donna](https://github.com/Tiendil/donna) to fix desynchronization.
