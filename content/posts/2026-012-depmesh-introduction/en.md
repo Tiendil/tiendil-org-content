@@ -1,36 +1,36 @@
 ---
-title = "DepMesh — делаем зависимости между файлами частью архитектуры проекта"
+title = "DepMesh — making file dependencies part of project architecture"
 tags = ["practice", "development", "open-source", "neural-networks", "prompt-engineering", "large-language-models", "exocortex", "ai-agents", "coding-agents"]
 published_at = "2026-06-06T12:00:00+00:00"
-seo_description = "DepMesh предоставляет агентам универсальный интерфейс к извлечению зависимостей между файлами."
+seo_description = "DepMesh provides agents with a universal interface for extracting dependencies between files."
 seo_image = ""
 ---
 
-Перед внесением изменений, например в код, агенты часто должны ответить на прикладные вопросы:
+Coding agents often need to answer practical questions before making changes, such as:
 
-- Какие тесты следует прочитать перед изменением этого файла?
-- Какие спецификации регулируют этот модуль?
-- Какие модули импортирует этот код?
-- Какие артефакты затронуты этим изменением спецификации?
+- Which tests should be read before modifying this file?
+- Which specifications govern this module?
+- Which modules import this code?
+- Which artifacts are affected by this specification change?
 - etc.
 
-Иными словами, агент должен обнаружить все зависимости между файлами и добавить их в контекст, чтобы корректно выполнить задачу.
+In other words, the agent must discover all dependencies between files and add them to the context to correctly complete the task.
 
-Получение ответов на подобные вопросы требует от агента подумать, сформировать план действий, выполнить его и проанализировать результаты. Всё это съедает токены, контекст и время, без гарантии полноты и корректности результата.
+To answer such questions, the agent must think, form a plan of action, execute it, and analyze the results. All of this consumes tokens, context, and time, without guaranteeing completeness and correctness of the result.
 
-Например, агент должен решить каким способом искать каждый конкретный тип зависимостей. Иногда, как в случае с цепочками импортов, агент должен прочитать и распарсить исходник, чтобы понять какие модули он импортирует, а затем сгенерировать пути к этим модулям и прочитать их — трудоёмко и неэффективно.
+For example, the agent must decide how to search for each specific type of dependency. Sometimes, as in the case of import chains, the agent must read and parse the source code to understand which modules it imports, then generate paths to the corresponding files and read them — it is token-consuming and inefficient.
 
-Результат такого «агентного поиска» не гарантирован, агент может забыть погрепать по имени функции и потерять важную зависимость, или пропустить нишевую спеку, потому что решил, что именно в данном случае она не нужна.
+The result of such "agentic search" is not guaranteed, the agent may forget to grep by function name and lose an important dependency, or miss a niche spec because it decided it is not needed in this particular case.
 
-Более того, для поиска агент задействует кучу инструментов, каждый из которых самим своим использованием увеличивает потребление токенов и отъедает контекст. Для одной и той же задачи агент может раз от раза выбирать разные инструменты или вызывать их с разными параметрами, что убивает предсказуемость и воспроизводимость результата.
+Even more, for searching, the agent uses a bunch of tools, every one of which, by its very use, increases token consumption and eats up context. For the same task, the agent may choose different tools or call them with different parameters from time to time, which kills predictability and reproducibility of the result.
 
-Общепринятые способы улучшить ситуацию, это интеграция [LSP](https://microsoft.github.io/language-server-protocol/) или чего-то подобного в качестве инструмента агента или разворачивание одной из миллиона [RAG-систем](https://ru.wikipedia.org/wiki/Генерация_с_дополненной_выборкой). Это помогает делу, но не снимает все проблемы. Например, не гарантирует полноту, минимальность и детерминированность результата.
+The common practice to improve the situation is to integrate [LSP](https://microsoft.github.io/language-server-protocol/) or something similar as an agent tool, or to deploy one of the million [RAG systems](https://en.wikipedia.org/wiki/Retrieval-augmented_generation). This helps, but does not solve all problems. For example, it does not guarantee completeness, conciseness, and determinism of the result.
 
-В то же время, с древних времён у нас есть огромный пул утилит и библиотек для поиска файлов и анализа исходного кода, которые умеют делать это быстро и эффективно, без всяких там LLM. Каждая из них в своей конкретной области работает намного лучше [вероятностной модели]{post:ai-notes-2024-generative-knowledge-base}.
+Meanwhile, since ancient times we have had a huge pool of utilities and libraries for file searching and source code analysis that can do the same work quickly and efficiently, without any LLM. Each of them works much better than a [probabilistic model]{post:ai-notes-2024-generative-knowledge-base} in its specific area.
 
-Было бы здорово, подумал я, иметь одну абстракцию над всеми этими инструментами, которая предоставляет агенту универсальный интерфейс для извлечения любых зависимостей между файлами (какие настроите) и не требует от него думать что и каким образом искать.
+It would be great, I thought, to have a single abstraction over all these tools that provides the agent with a universal interface for extracting all dependencies between files (that were configured) and does not require it to think about what and how to search.
 
-Чтобы её можно было использовать, например, вот так:
+So, it could be used, for example, like this:
 
 ```bash
 > depmesh dependencies -r governed_by -r tested_by ./depmesh/cli/application.py
@@ -55,7 +55,7 @@ Tests that verify the artifact.
 - @/depmesh/cli/tests/test_application.py
 ```
 
-Так и появился [DepMesh](https://github.com/Tiendil/depmesh).
+As the result, [DepMesh](https://github.com/Tiendil/depmesh) was born.
 
 <!-- more -->
 
