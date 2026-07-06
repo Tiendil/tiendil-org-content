@@ -59,16 +59,16 @@ As the result, [DepMesh](https://github.com/Tiendil/depmesh) was born.
 
 <!-- more -->
 
-## Как работает DepMesh
+## How DepMesh works
 
-DepMesh — это CLI утилита с конфигурационным файлом `depmesh.toml` в корне вашего проекта.
+DepMesh is a CLI tool with a configuration file (`depmesh.toml`) in the root of your project.
 
-В конфиге вы указываете две вещи:
+In the config, you specify two things:
 
-1. Типы зависимостей между файлами.
-2. Правила поиска связанных файлов.
+1. Kinds of relationships between files.
+2. Rules for searching related files.
 
-Простейший конфиг может выглядеть так:
+The simplest config can look like this:
 
 ```toml
 version = 1
@@ -83,29 +83,29 @@ input = { type = "glob", pattern = "./src/{**package_path}/{*module}.py" }
 output = { type = "files", pattern = "./src/{package_path}/tests/test_{module}.py" }
 ```
 
-В нём мы определяем один тип зависимости `tested_by` и правило «Каждый исходный файл `.../module.py`  связан отношением `tested_by` с файлом `.../tests/test_module.py`».
+In it, we define one type of dependency `tested_by` and a rule "Every source file `.../module.py` is connected by the `tested_by` relationship to the file `.../tests/test_module.py`".
 
-Каждое правило определяется через три параметра:
+Each rule is defined by three parameters:
 
-- `relation` — тип зависимости, который мы определяем.
-- `input` — условие, которое определяет можем ли мы применить правило к переданному файлу.
-- `output` — генератор файлов, которые связаны с входным файлом через указанную зависимость.
+ - `relation` — the type of relationship we are defining.
+- `input` — a condition that determines whether we can apply the rule to the given file.
+- `output` — a generator of file paths that are related to the input file through the specified relationship.
 
-Кроме glob-паттернов из примера выше, DepMesh поддерживает вызов сторонних утилит, поэтому вы можете анализировать файлы как душе угодно: использовать линтеры, LSP-серверы, парсить исходники регулярными выражениями, ходить в базу данных, вызывать HTTP API и так далее. И всё это без необходимости тратить токены и загрязнять контекст агента.
+Besides the glob patterns from the example above, DepMesh supports calling third-party utilities, so you can analyze files however you want: use linters, LSP servers, parse source code with regular expressions, query a database, call an HTTP API, and so on. And all this without the need to spend tokens and pollute the agent's context.
 
-Синтаксис правил довольно мощный и гибкий, например, в одном правиле можно задавать несколько шаблонов файлов и объединять несколько генераторов.
+The syntax of the rules is quite powerful and flexible; for example, in one rule you can specify multiple file patterns and combine several generators.
 
-Подробную документацию по работе с утилитой и её настройке можно найти в [depmesh/README.md](https://github.com/Tiendil/depmesh/tree/main).
+You can find detailed documentation on how to work with the utility and its configuration in [depmesh/README.md](https://github.com/Tiendil/depmesh/tree/main).
 
-/// note | DepMesh не осуществляет вывод обратных связей
+/// note | DepMesh does not infer reverse relationships
 
-Для зависимости вида `file --tested_by--> test_file` DepMesh не сможет автоматически найти обратную зависимость `test_file --tests--> file`.
+For a dependency like `file --tested_by--> test_file`, DepMesh could not automatically find the reverse dependency `test_file --tests--> file`.
 
-Это осознанное решение, так как из-за асимметрии в том, как мы организуем информацию, поиск прямой и обратной зависимости может занимать на порядок разное время и ресурсы. Например, прямая зависимость `imports` может быть обработана очень быстро (надо лишь прочитать один файл и проанализировать его импорты), а обратная зависимость `imported_by` может потребовать обхода всего проекта.
+This is a conscious decision, as due to the asymmetry in how we organize information, searching for direct and reverse dependencies can take an order of magnitude different time and resources. For example, the direct dependency `imports` can be processed very quickly (you just need to read one file and analyze its imports), while the reverse dependency `imported_by` may require traversing the entire project.
 
-Поэтому решение о поддерживаемых отношениях полностью отдаётся пользователю.
+That's why the decision on which relationships to support is entirely up to the user.
 
-Со временем я улучшу этот аспект, но пока будем следовать принципу «явное лучше неявного» и определять все зависимости явно в конфиге.
+With time I'll improve this aspect, but for now we will follow the principle of "explicit is better than implicit" and define all dependencies explicitly in the config.
 
 ///
 
