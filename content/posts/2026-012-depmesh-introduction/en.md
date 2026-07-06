@@ -14,21 +14,21 @@ Coding agents often need to answer practical questions before making changes, su
 - Which artifacts are affected by this specification change?
 - etc.
 
-In other words, the agent must discover all dependencies between files and add them to the context to correctly complete the task.
+In other words, the agent must discover all dependencies between files and add them to the context to complete the task correctly.
 
 To answer such questions, the agent must think, form a plan of action, execute it, and analyze the results. All of this consumes tokens, context, and time, without guaranteeing completeness and correctness of the result.
 
-For example, the agent must decide how to search for each specific type of dependency. Sometimes, as in the case of import chains, the agent must read and parse the source code to understand which modules it imports, then generate paths to the corresponding files and read them — it is token-consuming and inefficient.
+For example, the agent must decide how to search for each specific type of dependency. Sometimes, as in the case of import chains, the agent must read and parse the source code to understand which modules it imports, then generate paths to the corresponding files and read them — this is token-consuming and inefficient.
 
 The result of such "agentic search" is not guaranteed, the agent may forget to grep by function name and lose an important dependency, or miss a niche spec because it decided it is not needed in this particular case.
 
-Even more, for searching, the agent uses a bunch of tools, every one of which, by its very use, increases token consumption and eats up context. For the same task, the agent may choose different tools or call them with different parameters from time to time, which kills predictability and reproducibility of the result.
+Moreover, for searching, the agent uses a bunch of tools, every one of which, by its very use, increases token consumption and eats up context. For the same task, the agent may choose different tools or call them with different parameters from time to time, which kills predictability and reproducibility of the result.
 
-The common practice to improve the situation is to integrate [LSP](https://microsoft.github.io/language-server-protocol/) or something similar as an agent tool, or to deploy one of the million [RAG systems](https://en.wikipedia.org/wiki/Retrieval-augmented_generation). This helps, but does not solve all problems. For example, it does not guarantee completeness, conciseness, and determinism of the result.
+“The standard ways to improve the situation are to integrate [LSP](https://microsoft.github.io/language-server-protocol/) or something similar as an agent tool, or to deploy one of the countless [RAG systems](https://en.wikipedia.org/wiki/Retrieval-augmented_generation). This helps, but does not solve all problems. For example, it does not guarantee completeness, minimality, and determinism of the result.
 
-Meanwhile, since ancient times we have had a huge pool of utilities and libraries for file searching and source code analysis that can do the same work quickly and efficiently, without any LLM. Each of them works much better than a [probabilistic model]{post:ai-notes-2024-generative-knowledge-base} in its specific area.
+Meanwhile, since ancient times we have had a huge pool of utilities and libraries for file searching and source code analysis that can do the same work quickly and efficiently, without any LLMs. Each of them works much better than a [probabilistic model]{post:ai-notes-2024-generative-knowledge-base} in its specific area.
 
-It would be great, I thought, to have a single abstraction over all these tools that provides the agent with a universal interface for extracting all dependencies between files (that were configured) and does not require it to think about what and how to search.
+It would be great, I thought, to have a single abstraction over all these tools that provides the agent with a universal interface for extracting all dependencies between files (whatever you configure) and does not require it to think about what to search for or how to search for it.
 
 So, it could be used, for example, like this:
 
@@ -101,11 +101,11 @@ You can find detailed documentation on how to work with the utility and its conf
 
 For a dependency like `file --tested_by--> test_file`, DepMesh cannot automatically infer the reverse dependency `test_file --tests--> file`.
 
-This is a conscious decision, as the asymmetry in how we organize information means searching for direct and reverse dependencies can take orders of magnitude more time and resources. For example, the direct dependency `imports` can be processed very quickly (you just need to read one file and analyze its imports), while the reverse dependency `imported_by` may require traversing the entire project.
+This is a conscious decision, as the asymmetry in how we organize information means direct and reverse dependency searches can differ by orders of magnitude in time and resource cost. For example, the direct dependency `imports` can be processed very quickly (you just need to read one file and analyze its imports), while the reverse dependency `imported_by` may require traversing the entire project.
 
 That's why the decision on which relationships to support is entirely up to the user.
 
-With time I'll improve this aspect, but for now we will follow the principle of "explicit is better than implicit" and define all dependencies explicitly in the config.
+Over time I'll improve this aspect, but for now we will follow the principle of "explicit is better than implicit" and define all dependencies explicitly in the config.
 
 ///
 
@@ -132,7 +132,7 @@ In my projects, I define the following relationships:
 
 DepMesh is "blind" to the type and content of files — their semantics are up to you.
 
-As an example, I have specifications that `govern` other specifications: [meta/general.md](https://github.com/Tiendil/depmesh/blob/main/specs/meta/general.md) and here are some configs for it:
+As an example, I have specifications that `govern` other specifications: [meta/general.md](https://github.com/Tiendil/depmesh/blob/main/specs/meta/general.md) and here is part of the config for it:
 
 ```toml
 # Every specification document is governed by the general specification rules.
@@ -157,13 +157,13 @@ I strive to define relationships at the file path level — standard names, stan
 
 However, with imports, of course, this trick does not work.
 
-For Python, I use [tach](https://github.com/tach-org/tach) — a linter for dependencies between modules. Besides being able to return them in a convenient for scripts format, it is actually a linter. You can describe the import rules in the project, and it will check their compliance — very convenient.
+For Python, I use [tach](https://github.com/tach-org/tach) — a linter for dependencies between modules. Besides being able to return them in a script-friendly format, it is actually a linter. You can describe the import rules in the project, and it will check that they are followed.
 
-For Rust, I use a custom wrapper around `cargo modules dependencies`. Unfortunately, there are no established utilities for dependency analysis in Rust (which is strange). If you want to contribute to the community — this is a great opportunity — there is no conceptual complexity, you just need to spend some time.
+For Rust, I use a vibe-coded wrapper around `cargo modules dependencies`. Unfortunately, there are no established utilities for dependency analysis in Rust (which is strange). If you want to contribute to the community — this is a great opportunity — there is no conceptual complexity, you just need to spend some time.
 
 ## Profit
 
-- The agent does not need to think where it should not. This means it spends fewer tokens, does not pollute the context, and works faster.
+- The agent does not need to think where it shouldn't have to. This means it spends fewer tokens, does not pollute the context, and works faster.
 - The agent does not miss dependencies, which means it makes fewer mistakes and behaves more predictably.
 - You can use DepMesh as a base component for more complex automation, as a universal interface to dependencies is needed not only by agents.
 
