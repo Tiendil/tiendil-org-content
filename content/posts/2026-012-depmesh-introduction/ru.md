@@ -121,8 +121,8 @@ output = { type = "files", pattern = "./src/{package_path}/tests/test_{module}.p
 - `tests` — исходники, которые проверяются тестами.
 - `imports`/`uses` — исходники, которые импортируются/используются данным исходником.
 - `imported_by`/`used_by` — исходники, которые импортируют/используют данный исходник.
-- `governed_by` — спецификации, которые относятся к файлу.
-- `governs` — файлы, которыми управляют спецификации.
+- `governed_by` — спецификации, которые регулируют данный артефакт.
+- `governs` — артефакты, которые регулируются данной спецификацией.
 - `terms_defined_by` — словари, которые содержат определения терминов, используемых в файле.
 - `defines_terms_for` — файлы, для которых словарь содержит определения терминов.
 - `indexed_by` — индексные файлы (индекс — отдельный тип спецификации), которые содержат ссылки на данный файл.
@@ -132,7 +132,7 @@ output = { type = "files", pattern = "./src/{package_path}/tests/test_{module}.p
 
 DepMesh «слеп» к типу и содержимому файлов, их семантика остаётся на вашей совести.
 
-У меня есть спецификации, которые `govern` другие спецификации. Для примера, вот мета спека [meta/general.md](https://github.com/Tiendil/depmesh/blob/main/specs/meta/general.md) и часть конфигов для неё:
+Для примера, у меня есть спецификации, которые `govern` другие спецификации: [meta/general.md](https://github.com/Tiendil/depmesh/blob/main/specs/meta/general.md) и часть конфигов для неё:
 
 ```toml
 # Every specification document is governed by the general specification rules.

@@ -109,30 +109,30 @@ With time I'll improve this aspect, but for now we will follow the principle of 
 
 ///
 
-## Как я использую DepMesh
+## How I use DepMesh
 
-Примеры реальных конфигов можно найти в репозитории самой утилиты  [depmesh/depmesh.toml](https://github.com/Tiendil/depmesh/blob/main/depmesh.toml), или в репозитории моей читалки новостей [feeds.fun/depmesh.toml](https://github.com/Tiendil/feeds.fun/blob/main/depmesh.toml).
+You can find examples of real configs in the tool's own repository [depmesh/depmesh.toml](https://github.com/Tiendil/depmesh/blob/main/depmesh.toml), as well as in the repository of my news reader [feeds.fun/depmesh.toml](https://github.com/Tiendil/feeds.fun/blob/main/depmesh.toml).
 
-### Типы зависимостей
+### Kinds of relationships
 
-Мои типичные отношения между файлами:
+In my projects I define following relationships:
 
-- `tested_by` — тесты, которые проверяют исходник.
-- `tests` — исходники, которые проверяются тестами.
-- `imports`/`uses` — исходники, которые импортируются/используются данным исходником.
-- `imported_by`/`used_by` — исходники, которые импортируют/используют данный исходник.
-- `governed_by` — спецификации, которые относятся к файлу.
-- `governs` — файлы, которыми управляют спецификации.
-- `terms_defined_by` — словари, которые содержат определения терминов, используемых в файле.
-- `defines_terms_for` — файлы, для которых словарь содержит определения терминов.
-- `indexed_by` — индексные файлы (индекс — отдельный тип спецификации), которые содержат ссылки на данный файл.
-- `indexes` — файлы, которые находятся в данном индексе.
+- `tested_by` — tests that verify the artifact.
+- `tests` — artifacts that are verified by the tests.
+- `imports`/`uses` — source files that are imported/used by this source file.
+- `imported_by`/`used_by` — source files that import/use this source file.
+- `governed_by` — specifications that govern the artifact.
+- `governs` — artifacts that are governed by this specification.
+- `terms_defined_by` — dictionaries that contain definitions of terms used in the file.
+- `defines_terms_for` — files for which the dictionary contains definitions of terms.
+- `indexed_by` — index files (index is a particular type of specification) that contain references to this file.
+- `indexes` — files that are contained in this index.
 
-/// note | Зависимости можно определять между любыми файлами
+/// note | You can define relationships between any files
 
-DepMesh «слеп» к типу и содержимому файлов, их семантика остаётся на вашей совести.
+DepMesh is "blind" to the type and content of files, their semantics are up to you.
 
-У меня есть спецификации, которые `govern` другие спецификации. Для примера, вот мета спека [meta/general.md](https://github.com/Tiendil/depmesh/blob/main/specs/meta/general.md) и часть конфигов для неё:
+As an example, I have specifications that `govern` other specifications: [meta/general.md](https://github.com/Tiendil/depmesh/blob/main/specs/meta/general.md) and here are some configs for it:
 
 ```toml
 # Every specification document is governed by the general specification rules.
