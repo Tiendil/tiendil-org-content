@@ -400,7 +400,7 @@
 ///////
 
 #intro[
-  *Hands-on engineering leader* with 19 years of experience. My work centers on building *high‑autonomy teams* with *strong engineering culture* and *product ownership*. I see team structure, processes, and architecture as parts of the product and evolve them together. My technical expertise ranges from deterministic game logic in C++ to cloud-based payment systems in Python, and from code analysis to AI-based systems.
+  *Hands-on engineering leader* with two decades of experience. My work centers on building *high‑autonomy teams* with *strong engineering culture* and *product ownership*. I see team structure, processes, and architecture as parts of the product and evolve them together. My technical expertise ranges from deterministic game logic in C++ to cloud-based payment systems in Python, and from code analysis to AI-based systems.
 ]
 
 #section[Hire Me When]
