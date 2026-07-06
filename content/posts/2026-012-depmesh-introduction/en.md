@@ -87,7 +87,7 @@ In it, we define one type of dependency `tested_by` and a rule "Every source fil
 
 Each rule is defined by three parameters:
 
- - `relation` — the type of relationship we are defining.
+- `relation` — the type of relationship we are defining.
 - `input` — a condition that determines whether we can apply the rule to the given file.
 - `output` — a generator of file paths that are related to the input file through the specified relationship.
 
