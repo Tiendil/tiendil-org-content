@@ -60,7 +60,7 @@
 #let text_size_lg = 12pt
 #let text_size_xl = 13pt
 #let text_size_2xl = 16pt
-#let text_size_display = 28pt
+#let text_size_header_name = 28pt
 
 #let text_style_base = (
   font: "Liberation Sans",
@@ -87,7 +87,7 @@
 )
 #let text_style_header_name = (
   ..text_style_base,
-  size: text_size_display,
+  size: text_size_header_name,
   weight: text_weight_bold,
 )
 #let text_style_header_role = (
@@ -145,7 +145,7 @@
 #show link: set text(..text_style_link)
 
 #let section(title) = [
-  #v(0.8em)
+  #v(0.55em)
   #grid(
     columns: (auto, 1fr),
     column-gutter: 9pt,
@@ -153,7 +153,7 @@
     [#text(..text_style_section_title)[#title]],
     [#line(length: 100%, stroke: 1.25pt + color_section_rule)],
   )
-  #v(0.35em)
+  #v(0.25em)
 ]
 
 #let expertise_columns = 2
@@ -196,7 +196,7 @@
 ) = [
   #for item in items [
     #chip(item, fill: fill)
-    #h(3.5pt)
+    #h(3pt)
   ]
 ]
 
@@ -214,7 +214,7 @@
   ]
 ]
 
-#let icon_badge(icon) = box(
+#let header_icon_badge(icon) = box(
   inset: 4pt,
   radius: 999pt,
   fill: color_surface_card,
@@ -223,12 +223,12 @@
   #image(icon, width: 0.9em)
 ]
 
-#let icon_value(icon, value) = [
+#let header_icon_value(icon, value) = [
   #grid(
     columns: (1.6em, 1fr),
     column-gutter: 0.5em,
     align: (left, horizon),
-    icon_badge(icon),
+    header_icon_badge(icon),
     value,
   )
 ]
@@ -250,7 +250,7 @@
 ]
 
 #let narrative_block(title, body) = [
-  #panel(fill: color_surface_card, inset: 10pt, radius: 10pt)[
+  #panel(fill: color_surface_card, inset: 8pt, radius: 10pt)[
     #block(
       width: 100%,
       inset: (x: 4pt, y: 4pt),
@@ -258,7 +258,7 @@
     )[
       #text(..text_style_subsection_title)[#title]
     ]
-    #v(0.35em)
+    #v(0.25em)
     #body
   ]
 ]
@@ -294,7 +294,7 @@
   description: none,
   facts: (),
 ) = [
-  #panel(fill: color_surface_card, inset: 10pt, radius: 11pt)[
+  #panel(fill: color_surface_card, inset: 8pt, radius: 11pt)[
     #let has_description = description != none and description != ""
     #grid(
       columns: (project_meta_column_width, 1fr),
@@ -302,12 +302,12 @@
       row-gutter: 0pt,
       align: (left, top),
       [
-        #block(inset: (bottom: 8pt))[
+        #block(inset: (bottom: 5pt))[
           #text(..text_style_project_heading)[#years]
         ]
       ],
       [
-        #block(inset: (bottom: 8pt))[
+        #block(inset: (bottom: 5pt))[
           #text(..text_style_project_heading)[#title]
         ]
       ],
@@ -329,21 +329,21 @@
       ],
     )
     #if has_description [
-      #v(0.3em)
+      #v(0.25em)
       #description
     ]
     #if facts.len() > 0 [
       #if has_description [
-        #v(0.7em)
+        #v(0.5em)
       ] else [
-        #v(0.3em)
+        #v(0.25em)
       ]
       #for fact in facts [
         - #fact
       ]
     ]
   ]
-  #v(0.55em)
+  #v(0.4em)
 ]
 
 /////////
@@ -364,10 +364,10 @@
       #stack(
         dir: ttb,
         spacing: 0pt,
-        icon_value("icons/email.svg", "a.eletsky@gmail.com"),
-        icon_value("icons/telephone.svg", "+49-1512-61-33-460"),
-        icon_value("icons/telegram.svg", [#link("https://t.me/tiendil")[t.me/tiendil]]),
-        icon_value("icons/location.svg", "Hamburg, Germany"),
+        header_icon_value("icons/email.svg", "a.eletsky@gmail.com"),
+        header_icon_value("icons/telephone.svg", "+49-1512-61-33-460"),
+        header_icon_value("icons/telegram.svg", [#link("https://t.me/tiendil")[t.me/tiendil]]),
+        header_icon_value("icons/location.svg", "Hamburg, Germany"),
       )
     ],
     [
@@ -386,9 +386,9 @@
         #stack(
           dir: ttb,
           spacing: 0pt,
-          icon_value("icons/blog.svg", [#link("https://tiendil.org")[tiendil.org]]),
-          icon_value("icons/github.svg", [#link("https://github.com/tiendil")[github.com/tiendil]]),
-          icon_value("icons/linkedin.svg", [#link("https://linkedin.com/in/tiendil")[linkedin.com/in/tiendil]]),
+          header_icon_value("icons/blog.svg", [#link("https://tiendil.org")[tiendil.org]]),
+          header_icon_value("icons/github.svg", [#link("https://github.com/tiendil")[github.com/tiendil]]),
+          header_icon_value("icons/linkedin.svg", [#link("https://linkedin.com/in/tiendil")[linkedin.com/in/tiendil]]),
         )
       ]
     ],
