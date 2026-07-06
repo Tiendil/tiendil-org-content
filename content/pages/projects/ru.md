@@ -18,7 +18,7 @@ seo_image = ""
 - Сайт: [feeds.fun](https://feeds.fun/)
 - GitHub: [github.com/tiendil/feeds.fun](https://github.com/tiendil/feeds.fun)
 - PyPI: [pypi.org/project/ffun](https://pypi.org/project/ffun/)
-- [Описание]{post:feeds-fun-news-reader-with-tags-and-chatgpt}
+- [Вводный пост]{post:feeds-fun-news-reader-with-tags-and-chatgpt}
 - Подробнее в постах по тегу [feeds.fun]{tags:feeds-fun}
 
 Читалка новостей с тегами и нейросетями. Доступна онлайн, self-hosted по желанию.
@@ -26,6 +26,24 @@ seo_image = ""
 - Автоматически определяет теги для каждой новости.
 - Вы создаёте правила в духе `elon-musk & twitter => score -100500`, `procedural-content-generation & hentai => score +13`.
 - В интерфейсе сортируете новости по интересности и читаете только самые-самые именно для вас.
+
+### Donna
+
+- GitHub: [github.com/tiendil/donna](https://github.com/tiendil/donna)
+- PyPI: [pypi.org/project/donna](https://pypi.org/project/donna/)
+- [Вводный пост]{post:donna-is-ready-to-use}
+
+CLI утилита, которая помогает агентам выполнять длительные задачи без отклонений от заранее определённого пути.
+
+Donna выполняет сценарии как детерминированные конечные автоматы, поэтому агент может сосредоточиться на рассуждении, генерации кода и другой агентной работе, а не на вопросах «что делать дальше» или «как запустить эту команду CLI».
+
+### DepMesh
+
+- GitHub: [github.com/tiendil/depmesh](https://github.com/tiendil/depmesh)
+- PyPI: [pypi.org/project/depmesh](https://pypi.org/project/depmesh/)
+- [Вводный пост]{post:depmesh-introduction}
+
+Сделайте зависимости между файлами частью архитектуры: определяйте их явно, чтобы агенты могли обнаруживать связанные артефакты единообразным, детерминированным образом.
 
 ### Brigid
 

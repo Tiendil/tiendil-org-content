@@ -18,15 +18,31 @@ I am happy to discuss any of them, as well as welcome any help in development.
 - Site: [feeds.fun](https://feeds.fun/)
 - GitHub: [github.com/tiendil/feeds.fun](https://github.com/tiendil/feeds.fun)
 - PyPI: [pypi.org/project/ffun](https://pypi.org/project/ffun/)
-<!-- TODO: uncomment -->
-<!-- - [Description](https://tiendil.org/feeds-fun-news-reader-with-tags-and-chatgpt/) -->
-<!-- - More in posts tagged [feeds.fun](/en/tags/feeds-fun) -->
+- More in posts tagged [feeds.fun]{tags:feeds-fun}
 
 A news reader with tags and neural networks. Available online, self-hosted if desired.
 
 - Automatically identifies tags for each news item.
 - You create rules like `elon-musk & twitter => score -100500`, `procedural-content-generation & hentai => score +13`.
 - In the interface, you sort news by interest and read only the most interesting for you.
+
+### Donna
+
+- GitHub: [github.com/tiendil/donna](https://github.com/tiendil/donna)
+- PyPI: [pypi.org/project/donna](https://pypi.org/project/donna/)
+- [Intro post]{post:donna-is-ready-to-use}
+
+A CLI tool that helps agents keep long-running work on a predefined path.
+
+Donna runs predefined workflows as deterministic state machines, so the agent can focus on reasoning, code generation, and other agentic work, not on "what to do next" or "how to run this CLI command" questions.
+
+### DepMesh
+
+- GitHub: [github.com/tiendil/depmesh](https://github.com/tiendil/depmesh)
+- PyPI: [pypi.org/project/depmesh](https://pypi.org/project/depmesh/)
+- [Intro post]{post:depmesh-introduction}
+
+Make file relationships part of your architecture: define them explicitly so coding agents can discover related artifacts in a unified, deterministic way.
 
 ### Brigid
 
@@ -55,7 +71,7 @@ A character name generator. Supports English and Russian. Generates all cases in
 - [Abstractor](https://chatgpt.com/g/g-sN3k8IPLq-abstractor) — You give a long text, a link, or a PDF to the network and receive a summary (abstract) plus a set of important facts and statements from the text.
 - [Ontology Master](https://chatgpt.com/g/g-T1xz0gAMI-ontology-master) — input a term, get a tree of its ontological neighborhood/classification. Convenient when studying a new area and wanting to understand its structure.
 
-## Not Supported
+## Not maintained
 
 My projects that I have discontinued support for various reasons.
 
