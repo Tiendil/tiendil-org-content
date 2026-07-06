@@ -445,26 +445,6 @@
   ),
 )
 
-#section[Domains]
-
-#section_intro[
-  Here are the domains where I am strongest. The work history section provides more context.
-]
-
-#block(inset: (left: 11pt, right: 11pt))[
-  #chips((
-    "Platform engineering",
-    "Resilient backends",
-    "Payments & subscriptions",
-    "Live-service game backends",
-    "Game logic systems",
-    "Legacy modernization",
-    "MMO systems design",
-    "Technical game design",
-    "Procedural content generation"
-  ))
-]
-
 #section[Work]
 
 #project_entry(
@@ -481,8 +461,6 @@
     "Published 50+ essays on technology, engineering management, and software-development trends."
   ),
 )
-
-#pagebreak()
 
 #project_entry(
   "2022-2023",
@@ -533,8 +511,6 @@
     "Together with an analyst, developed a marketing campaign system and an A/B testing system.",
   ),
 )
-
-#pagebreak()
 
 #project_entry(
   "2015-2017",
@@ -614,6 +590,26 @@
   technologies: ("Windows", "C++", "wxWidgets"),
 )
 
+#section[Domains]
+
+#section_intro[
+  Here are the domains where I am strongest. The work history section provides more context.
+]
+
+#block(inset: (left: 11pt, right: 11pt))[
+  #chips((
+    "Platform engineering",
+    "Resilient backends",
+    "Payments & subscriptions",
+    "Live-service game backends",
+    "Game logic systems",
+    "Legacy modernization",
+    "MMO systems design",
+    "Technical game design",
+    "Procedural content generation"
+  ))
+]
+
 #section[Education]
 
 #panel[
@@ -630,6 +626,14 @@
 #section[Code examples]
 
 #key_value([#link("https://github.com/Tiendil/feeds.fun")[tiendil/feeds.fun]], "News reader with LLM-based tagging and rule-based ranking.")
+
+#section[Interesting facts]
+
+#panel[
+  - Won a second diploma (3rd place) in the quarter-final of ACM ICPC Western Subregion 2006.
+  - All em dashes in this CV are human-made; ask me how.
+  - I regularly publish long-form essays about complex topics I have studied and questions where I have a strong opinion. #link("https://tiendil.org")[Read them]#text[;] they are interesting.
+]
 
 /////////
 // Footer
