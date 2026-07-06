@@ -250,15 +250,9 @@
 ]
 
 #let narrative_block(title, body) = [
-  #panel(fill: color_surface_card, inset: 8pt, radius: 10pt)[
-    #block(
-      width: 100%,
-      inset: (x: 4pt, y: 4pt),
-      fill: color_surface_expertise_subheader,
-    )[
-      #text(..text_style_subsection_title)[#title]
-    ]
-    #v(0.25em)
+  #panel(fill: color_surface_card, inset: (x: 8pt, y: 6pt), radius: 10pt)[
+    #text(..text_style_subsection_title)[#title]
+    #v(0.2em)
     #body
   ]
 ]
