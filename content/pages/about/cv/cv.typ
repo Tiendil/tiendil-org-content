@@ -423,10 +423,6 @@
 
 #section[Work Style]
 
-#section_intro[
-  I move between management and technical leadership, depending on where I create the most leverage.
-]
-
 #grid(
   columns: expertise_columns,
   column-gutter: 4pt,
