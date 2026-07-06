@@ -55,7 +55,7 @@ Tests that verify the artifact.
 - @/depmesh/cli/tests/test_application.py
 ```
 
-As the result, [DepMesh](https://github.com/Tiendil/depmesh) was born.
+As a result, [DepMesh](https://github.com/Tiendil/depmesh) was born.
 
 <!-- more -->
 
@@ -91,7 +91,7 @@ Each rule is defined by three parameters:
 - `input` — a condition that determines whether we can apply the rule to the given file.
 - `output` — a generator of file paths that are related to the input file through the specified relationship.
 
-Besides the glob patterns from the example above, DepMesh supports calling third-party utilities, so you can analyze files however you want: use linters, LSP servers, parse source code with regular expressions, query a database, call an HTTP API, and so on. And all this without the need to spend tokens and pollute the agent's context.
+Besides the glob patterns from the example above, DepMesh supports calling third-party utilities, so you can analyze files however you want: use linters, LSP servers, parse source code with regular expressions, query a database, call an HTTP API, and so on. And all this without spending tokens or polluting the agent's context.
 
 The syntax of the rules is quite powerful and flexible; for example, in one rule you can specify multiple file patterns and combine several generators.
 
@@ -99,9 +99,9 @@ You can find detailed documentation on how to work with the utility and its conf
 
 /// note | DepMesh does not infer reverse relationships
 
-For a dependency like `file --tested_by--> test_file`, DepMesh could not automatically find the reverse dependency `test_file --tests--> file`.
+For a dependency like `file --tested_by--> test_file`, DepMesh cannot automatically infer the reverse dependency `test_file --tests--> file`.
 
-This is a conscious decision, as due to the asymmetry in how we organize information, searching for direct and reverse dependencies can take an order of magnitude different time and resources. For example, the direct dependency `imports` can be processed very quickly (you just need to read one file and analyze its imports), while the reverse dependency `imported_by` may require traversing the entire project.
+This is a conscious decision, as the asymmetry in how we organize information means searching for direct and reverse dependencies can take orders of magnitude more time and resources. For example, the direct dependency `imports` can be processed very quickly (you just need to read one file and analyze its imports), while the reverse dependency `imported_by` may require traversing the entire project.
 
 That's why the decision on which relationships to support is entirely up to the user.
 
@@ -115,7 +115,7 @@ You can find examples of real configs in the tool's own repository [depmesh/depm
 
 ### Kinds of relationships
 
-In my projects I define following relationships:
+In my projects, I define the following relationships:
 
 - `tested_by` — tests that verify the artifact.
 - `tests` — artifacts that are verified by the tests.
@@ -130,7 +130,7 @@ In my projects I define following relationships:
 
 /// note | You can define relationships between any files
 
-DepMesh is "blind" to the type and content of files, their semantics are up to you.
+DepMesh is "blind" to the type and content of files — their semantics are up to you.
 
 As an example, I have specifications that `govern` other specifications: [meta/general.md](https://github.com/Tiendil/depmesh/blob/main/specs/meta/general.md) and here are some configs for it:
 
@@ -153,11 +153,11 @@ output = { type = "files", pattern = "./specs/**/*.md" }
 
 ### Discovering relationships
 
-I strive to define relationships at the file path level — standard names, standard paths, as in the case of tests: `./src/module.py` always has a paired `./src/tests/test_module.py`. I started doing this long before the rise of AI — it's convenient for humans; also glob patterns work very quickly. For example, here is the agent spec for the layout of the Feeds Fun backend modules [./specs/backend_architecture/modules_layout.md](https://github.com/Tiendil/feeds.fun/blob/main/specs/backend_architecture/modules_layout.md).
+I strive to define relationships at the file path level — standard names, standard paths, as in the case of tests: `./src/module.py` always has a paired `./src/tests/test_module.py`. I started doing this long before the rise of AI — it's convenient for humans; also, glob patterns work very quickly. For example, here is the agent spec for the layout of the Feeds Fun backend modules [./specs/backend_architecture/modules_layout.md](https://github.com/Tiendil/feeds.fun/blob/main/specs/backend_architecture/modules_layout.md).
 
 However, with imports, of course, this trick does not work.
 
-For Python, I use [tach](https://github.com/tach-org/tach) — a linter for dependencies between modules. Besides being able to return them in a convenient for scripts format, it is actually a linter. You can describe the import rules in the project and it will check their compliance — very convenient.
+For Python, I use [tach](https://github.com/tach-org/tach) — a linter for dependencies between modules. Besides being able to return them in a convenient for scripts format, it is actually a linter. You can describe the import rules in the project, and it will check their compliance — very convenient.
 
 For Rust, I use a custom wrapper around `cargo modules dependencies`. Unfortunately, there are no established utilities for dependency analysis in Rust (which is strange). If you want to contribute to the community — this is a great opportunity — there is no conceptual complexity, you just need to spend some time.
 
@@ -167,4 +167,4 @@ For Rust, I use a custom wrapper around `cargo modules dependencies`. Unfortunat
 - The agent does not miss dependencies, which means it makes fewer mistakes and behaves more predictably.
 - You can use DepMesh as a base component for more complex automation, as a universal interface to dependencies is needed not only by agents.
 
-In the context of the last point, I am currently experimenting with a system that automatically controls the synchronization of all project files with each other, using [DepMesh](https://github.com/Tiendil/depmesh) to find dependencies and [Donna](https://github.com/Tiendil/donna) to fix desynchronization.
+In the context of the last point, I am currently experimenting with a system that automatically controls the synchronization of all project files with each other, using [DepMesh](https://github.com/Tiendil/depmesh) to identify dependencies and [Donna](https://github.com/Tiendil/donna) to resolve desynchronization.
