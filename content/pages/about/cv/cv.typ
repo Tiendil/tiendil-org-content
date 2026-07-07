@@ -511,10 +511,10 @@
   technologies: ("Linux", "Python", "Twisted", "Django", "MySQL", "Redis", "Fabric", "Graphite", "Grafana"),
   facts: (
     "Resurrected the legacy game backend to an operational state.",
-    "Developed a payment service, which was also cloned and reused by the neighboring team.",
+    "Developed a payment service, which was also reused by the neighboring team.",
     "Introduced practices for automated testing, CI/CD, and metrics collection.",
     "Migrated the project from SVN to Git.",
-    "Together with an analyst, developed a game metrics collection system and a marketing campaign system.",
+    "Together with an analyst, developed game metrics collection and marketing campaign systems.",
   ),
 )
 
