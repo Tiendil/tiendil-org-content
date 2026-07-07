@@ -372,7 +372,7 @@
           spacing: 7pt,
           text(..text_style_header_name)[Aliaksei Yaletski],
           text(..text_style_header_role)[Founding~CTO~·~Engineering~Manager~·~Tech~Lead],
-          text(..text_style_header_note)[Get the latest CV here: #link("https://tiendil.org/cv")[tiendil.org/cv]] ,
+          text(..text_style_header_note)[Get the latest CV here: #link("https://tiendil.org/cv")[tiendil.org/cv]],
         )
       ]
     ],
@@ -600,7 +600,7 @@
 
 #key_value([#link("https://github.com/Tiendil/feeds.fun")[tiendil/feeds.fun]], "News reader with LLM-based tagging and rule-based ranking.")
 
-#section[Interesting facts]
+#section[Interesting Facts]
 
 #panel[
   - All em dashes in this CV are human-made.
