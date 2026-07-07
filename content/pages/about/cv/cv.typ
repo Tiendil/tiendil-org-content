@@ -466,20 +466,21 @@
     [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach for evolving architecture and engineering processes].],
     "Designed resilient payment flows with idempotency, safe retries, provider fallback, and state recovery.",
     "Established a delivery process with multiple releases per week and on-demand feature shipping.",
-    [Identified concurency bugs in major Python libraries (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]), including #link("https://openai.com/blog/march-20-chatgpt-outage")[one that caused an OpenAI outage], and prevented them from affecting our systems.],
+    [Identified concurrency bugs in major Python libraries (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]), including #link("https://openai.com/blog/march-20-chatgpt-outage")[one that caused an OpenAI outage], and prevented them from affecting our systems.],
   ),
 )
 
 #project_entry(
   "2019-2021",
   "Professional sabbatical",
-  description: [Check #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] on the blog.],
+  description: [Read #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] in my blog.],
   technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
-    "Improved my knowledge of backend architecture, advanced code analysis, and quality control.",
-    "Refined my game design knowledge through reflection on practical experience and game design literature.",
+    "Strengthened my understanding of advanced backend architecture, code analysis, and quality control.",
+    "Refined my game-design approach through reflection on practical experience and literature.",
     "Explored Julia programming language.",
-    "Published 100+ essays on technology, game design, and thinking. The total size is greater than that of the first Harry Potter novel.",
+    "Refreshed mathematical analysis and deep neural network fundamentals.",
+    "Published 100+ essays on technology, gamedev, and thinking — longer than the first Harry Potter novel.",
   ),
 )
 
