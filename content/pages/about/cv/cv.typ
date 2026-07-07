@@ -441,7 +441,7 @@
   "2024-2026",
   "Professional sabbatical",
   description: "",
-  technologies: ("Python", "TypeScript", "Rust", "LLMs"),
+  technologies: ("Python", "TypeScript", "Rust", "LLMs", "FastAPI", "Vue", "PostgreSQL", "Docker"),
   facts: (
     [Created #link("https://feeds.fun/")[Feeds Fun] — a news reader with LLM-based tagging and rule-based ranking (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
     [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] program for entertainment IP developers; published #link("https://tiendil.org/en/tags/world-builders-2023")[a series of essays].],
@@ -460,12 +460,12 @@
   technologies: ("AWS", "AWS Lambda", "Python", "TypeScript", "FastAPI", "React", "PostgreSQL", "Redis", "Docker"),
   facts: (
     "The solution has been successfully integrated into 3 portfolio companies.",
-    "Led platform development from concept to production, ensuring its stable operation during the holiday season.",
+    "Led development from concept to production, ensuring stable operations during the holiday season.",
     "Built and led a remote-first core team of 7 engineers.",
     "Hired, onboarded, mentored, and gradually transferred system ownership to new team members.",
-    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach] to evolving architecture and engineering processes.],
-    "Designed resilient payment-processing architecture with idempotent workflows, safe retries, provider fallback, and recovery from intermediate states.",
-    "Established a delivery process with multiple production releases per week and on-demand shipping of completed features.",
+    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach for evolving architecture and engineering processes].],
+      "Designed resilient payment-processing architecture with idempotent workflows, safe retries, provider fallback, and recovery from intermediate states.",
+    "Established a delivery process with multiple weekly releases and on-demand feature shipping.",
     [Identified bugs in major Python libraries (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]), including #link("https://openai.com/blog/march-20-chatgpt-outage")[one that caused an OpenAI outage], and prevented them from affecting our systems.],
   ),
 )
