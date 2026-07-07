@@ -492,8 +492,8 @@
   description: "Owned backend architecture and core service development, modernized legacy systems for scale and stability, served as a key technical advisor on architecture and algorithm design.",
   technologies: ("Linux", "Python", "Twisted", "Django", "PostgreSQL", "Redis", "Graphite", "Prometheus", "Grafana", "Ansible", "Docker"),
   facts: (
-    "Optimized game backend to handle 1.5M RPM (25k RPS) at peak with stable latency and low error rates.",
-    "Stabilized server-side payment-processing and payment-analytics logic, reducing payment-related errors to zero.",
+    "Optimized game backend to handle 1.5M RPM (25k RPS) with stable latency and low error rates.",
+    "Stabilized server-side payment-processing and analytics logic, reducing payment-related errors to zero.",
     "Implemented scalable profile sharding, which reduced the load on the database by an order of magnitude.",
     "Developed support for GDPR on short notice.",
     "Adapted server-side logic for Chinese requirements.",
