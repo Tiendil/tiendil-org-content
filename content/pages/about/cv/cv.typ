@@ -580,26 +580,6 @@
   technologies: ("Windows", "C++", "wxWidgets"),
 )
 
-#section[Domains]
-
-#section_intro[
-  Here are the domains where I am strongest. The work history section provides more context.
-]
-
-#block(inset: (left: 11pt, right: 11pt))[
-  #chips((
-    "Platform engineering",
-    "Resilient backends",
-    "Payments & subscriptions",
-    "Live-service game backends",
-    "Game logic systems",
-    "Legacy modernization",
-    "MMO systems design",
-    "Technical game design",
-    "Procedural content generation"
-  ))
-]
-
 #section[Education]
 
 #panel[
@@ -620,8 +600,8 @@
 #section[Interesting facts]
 
 #panel[
-  - Won a second diploma (3rd place) in the quarter-final of ACM ICPC Western Subregion 2006.
   - All em dashes in this CV are human-made; ask me how.
+  - Won a second diploma (3rd place) in the quarter-final of ACM ICPC Western Subregion 2006.
   - I regularly publish long-form essays about complex topics I have studied and questions where I have a strong opinion. #link("https://tiendil.org")[Read them]#text[;] they are interesting.
 ]
 
