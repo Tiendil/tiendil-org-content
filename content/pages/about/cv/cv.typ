@@ -61,6 +61,7 @@
 #let text_size_xl = 13pt
 #let text_size_2xl = 16pt
 #let text_size_header_name = 28pt
+#let text_size_header_role = 10pt
 
 #let text_style_base = (
   font: "Liberation Sans",
@@ -92,7 +93,7 @@
 )
 #let text_style_header_role = (
   ..text_style_supporting,
-  size: text_size_md,
+  size: text_size_header_role,
   weight: text_weight_medium,
 )
 #let text_style_footer = (
@@ -370,7 +371,7 @@
           dir: ttb,
           spacing: 7pt,
           text(..text_style_header_name)[Aliaksei Yaletski],
-          text(..text_style_header_role)[CTO | Engineering Leader | Co-Founder],
+          text(..text_style_header_role)[Founding~CTO~·~Engineering~Manager~·~Tech~Lead],
           text(..text_style_header_note)[Get the latest CV here: #link("https://tiendil.org/cv")[tiendil.org/cv]] ,
         )
       ]
