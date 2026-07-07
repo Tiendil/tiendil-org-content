@@ -494,7 +494,7 @@
   facts: (
     "Optimized game backend to handle 1.5M RPM (25k RPS) with stable latency and low error rates.",
     "Stabilized server-side payment-processing and analytics logic, reducing payment-related errors to zero.",
-    "Implemented scalable profile sharding, which reduced the load on the database by an order of magnitude.",
+    "Implemented scalable profile sharding, reducing database load by an order of magnitude.",
     "Developed support for GDPR on short notice.",
     "Adapted server-side logic for Chinese requirements.",
     "Introduced the practice of writing automated tests.",
