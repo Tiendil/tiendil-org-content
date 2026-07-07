@@ -557,8 +557,8 @@
   description: [*Optimized code and developed game logic*, including critical GUI elements.],
   technologies: ("Windows", "C++", "internal game engine"),
   facts: (
-    "During my probation period, I doubled the throughput of the command queue between the game logic and graphics engine.",
-    "Designed and implemented the core UI for creating and maintaining unit formations, a feature central to gameplay and user experience.",
+    "During probation, doubled command-queue throughput between the game logic and graphics engine.",
+    "Designed and implemented core unit-formation UI, central to gameplay and UX.",
   ),
 )
 
