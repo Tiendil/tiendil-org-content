@@ -456,7 +456,7 @@
   "Multi-provider payments platform for Palta portfolio startups",
   company: link("https://palta.com/")[Palta],
   roles: ("Engineering Manager", "Tech Lead"),
-  description: "Led the design and delivery of a payments platform from concept to production, covering subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows with support for disputes, refunds, provider fallback, and failure recovery.",
+  description: [*Led the design and delivery of a payments platform from concept to production*, covering subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows with support for disputes, refunds, provider fallback, and failure recovery.],
   technologies: ("AWS", "AWS Lambda", "Python", "TypeScript", "FastAPI", "React", "PostgreSQL", "Redis", "Docker"),
   facts: (
     "The solution has been successfully integrated into 3 portfolio companies.",
@@ -489,7 +489,7 @@
   [Mobile game #link("https://play.google.com/store/apps/details?id=com.melesta.coffeeshop")[My Cafe] — 50M+ installs as of September 2021],
   company: link("https://melsoft-games.com/")[Melsoft Games],
   roles: ("Tech Lead",),
-  description: "Owned backend architecture and core service development, modernized legacy systems for scale and stability, served as a key technical advisor on architecture and algorithm design.",
+  description: [*Owned backend architecture and core service development*, modernized legacy systems for scale and stability, served as a key technical advisor on architecture and algorithm design.],
   technologies: ("Linux", "Python", "Twisted", "Django", "PostgreSQL", "Redis", "Graphite", "Prometheus", "Grafana", "Ansible", "Docker"),
   facts: (
     "Optimized game backend to handle 1.5M RPM (25k RPS) with stable latency and low error rates.",
@@ -507,7 +507,7 @@
   "Mobile games Toy Defense 1, 2, and 3",
   company: link("https://melsoft-games.com/")[Melsoft Games],
   roles: ("Tech Lead",),
-  description: "Fully owned the unified backend of 3 games. As an expert, consulted colleagues on infrastructure, architecture, and algorithmic questions.",
+  description: [*Fully owned the unified backend of 3 games.* As an expert, consulted colleagues on infrastructure, architecture, and algorithmic questions.],
   technologies: ("Linux", "Python", "Twisted", "Django", "MySQL", "Redis", "Fabric", "Graphite", "Grafana"),
   facts: (
     "Resurrected the legacy game backend to an operational state.",
@@ -523,7 +523,7 @@
   "Browser text-based MMO game \"The Tale\"",
   company: link("https://the-tale.org")[The Tale],
   roles: ("Founder",),
-  description: "Developed my own product from scratch. Went all the way from prototyping through release, operation, and shutdown. Played all roles, from backend and frontend development to game design, community management, and marketing.",
+  description: [*Developed my own product from scratch*, from prototyping through release, operation, and shutdown. Played all roles, from backend and frontend development to game design, community management, and marketing.],
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django", "jQuery"),
   facts: (
     "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paid players; with up to 5k MAU and 2k DAU at peak.",
