@@ -443,9 +443,9 @@
   description: "",
   technologies: ("Python", "TypeScript", "Rust", "LLMs"),
   facts: (
-    [Refined my management worldview through reflection on practical experience and management literature; documented the result in a #link("https://tiendil.org/en/tags/vantage-on-management")[series of essays on management].],
     [Created #link("https://feeds.fun/")[Feeds Fun] — a news reader with LLM-based tagging and rule-based ranking (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
-    [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] (now #link("https://voidforge.ai/")[Void Forge]) program for entertainment IP developers; documented part of the journey in a #link("https://tiendil.org/en/tags/world-builders-2023")[series of essays].],
+    [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] program for entertainment IP developers; published #link("https://tiendil.org/en/tags/world-builders-2023")[a series of essays].],
+    [Refined my management worldview through reflection on practical experience and management literature; documented the result in a #link("https://tiendil.org/en/tags/vantage-on-management")[series of essays on management].],
     "Explored Rust with an emphasis on game-logic programming and system reliability.",
     [#link("https://tiendil.org/en/posts/notes-on-coding-agents")[Studied AI coding agents] and their applications to software development. Developed an experimental #link("https://github.com/Tiendil/donna")[planning and orchestration tool].],
     "Published 50+ essays on technology, engineering management, and software-development trends."
