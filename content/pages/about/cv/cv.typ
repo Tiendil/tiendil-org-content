@@ -539,11 +539,11 @@
   [Web portal #link("https://worldoftanks.com/")[World of Tanks], meta-game "Clan Wars"],
   company: link("https://wargaming.com/")[Wargaming],
   roles: ("Senior Developer",),
-  description: "Owned the code of the whole web portal: registration, player & clan profiles, clan management, player statistics, ratings, tournaments, the meta-game for clans, news, i18n, etc.",
+  description: [*Owned the code of the whole web portal*: registration, player & clan profiles, clan management, player statistics, ratings, tournaments, the meta-game for clans, news, i18n, etc.],
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Memcached", "RabbitMQ", "Django", "jQuery"),
   facts: (
     "Together with the team, completely switched the technology stack from client-side C++ to a Python backend and developed the portal for one of the most successful online games.",
-    "Grew ownership from several subsystems (2010) to the entire portal (2012).",
+    "In 2 years, grew ownership from several subsystems to the entire portal.",
     "Together with a colleague, designed and implemented the GUI for a web-based clan meta-game.",
     "Designed requirements for CAPTCHA and password quality checks and implemented them.",
   ),
@@ -554,7 +554,7 @@
   [Real-time strategy game #link("https://en.wikipedia.org/wiki/Order_of_War")[Order of War]],
   company: link("https://wargaming.com/")[Wargaming],
   roles: ("Middle Developer",),
-  description: "Optimized code, developed game logic, implemented critical GUI elements.",
+  description: [*Optimized code and developed game logic*, including critical GUI elements.],
   technologies: ("Windows", "C++", "internal game engine"),
   facts: (
     "During my probation period, I doubled the throughput of the command queue between the game logic and graphics engine.",
@@ -567,7 +567,7 @@
   "Automated migration of Linux systems from physical machines to VMs",
   company: link("https://www.itransition.com/")[Itransition],
   roles: ("Middle Developer",),
-  description: "Implemented automatic configuration of the virtual hardware according to the specs of the physical hardware.",
+  description: [*Implemented automatic virtual-hardware configuration* according to physical-machine specs.],
   technologies: ("Linux", "Perl", "C", "Xen", "VMWare"),
   facts: ("Introduced practices of automated testing.",),
 )
