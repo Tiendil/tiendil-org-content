@@ -530,10 +530,12 @@
     "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paid players; with up to 5k MAU and 2k DAU at peak.",
     "Assembled a core team and organized volunteers who helped in the development of the game.",
     "Implemented automated quality control, which allowed development without dedicated QA.",
-    [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text] (probably the best before LLMs), #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
+    [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text], #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
     [Open-sourced #link("https://github.com/the-tale")[the code] and #link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[the game lore].]
   ),
 )
+
+#pagebreak()
 
 #project_entry(
   "2010-2012",
@@ -601,9 +603,9 @@
 #section[Interesting facts]
 
 #panel[
-  - All em dashes in this CV are human-made; ask me how.
+  - All em dashes in this CV are human-made.
   - Won a second diploma (3rd place) in the quarter-final of ACM ICPC Western Subregion 2006.
-  - I regularly publish long-form essays about complex topics I have studied and questions where I have a strong opinion. #link("https://tiendil.org")[Read them]#text[;] they are interesting.
+  - I regularly publish #link("https://tiendil.org")[long-form essays] about complex topics I have studied and questions where I have a strong opinion.
 ]
 
 /////////
