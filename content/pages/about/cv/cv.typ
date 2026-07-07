@@ -446,9 +446,8 @@
     [Created #link("https://feeds.fun/")[Feeds Fun] — a news reader with LLM-based tagging and rule-based ranking (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
     [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] program for entertainment IP developers; published #link("https://tiendil.org/en/tags/world-builders-2023")[a series of essays].],
     [Refined my management approach through reflection and literature; published #link("https://tiendil.org/en/tags/vantage-on-management")[essays on management].],
-    "Explored Rust with an emphasis on game-logic programming and system reliability.",
-    [#link("https://tiendil.org/en/posts/notes-on-coding-agents")[Studied AI coding agents] and their applications to software development. Developed an experimental #link("https://github.com/Tiendil/donna")[planning and orchestration tool].],
-    "Published 50+ essays on technology, engineering management, and software-development trends."
+    [#link("https://tiendil.org/en/posts/notes-on-coding-agents")[Explored AI coding agents]#text[;] built coding-agent harness tooling: #link("https://github.com/Tiendil/donna")[Donna], #link("https://github.com/Tiendil/depmesh")[DepMesh].],
+    [#link("https://tiendil.org/en/posts/rust-the-language-things-get-rewritten-in")[Explored Rust] with an emphasis on game-logic programming and system reliability.],
   ),
 )
 
