@@ -473,12 +473,12 @@
 #project_entry(
   "2019-2021",
   "Professional sabbatical",
-  description: [Read #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] in my blog.],
+  description: [Read #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] on my blog.],
   technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
-    "Strengthened my understanding of advanced backend architecture, code analysis, and quality control.",
+    "Strengthened expertise in advanced backend architecture, code analysis, and quality control.",
     "Refined my game-design approach through reflection on practical experience and literature.",
-    "Explored Julia programming language.",
+    "Explored the Julia programming language.",
     "Refreshed mathematical analysis and deep neural network fundamentals.",
     "Published 100+ essays on technology, gamedev, and thinking — longer than the first Harry Potter novel.",
   ),
