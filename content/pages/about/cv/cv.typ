@@ -460,13 +460,13 @@
   technologies: ("AWS", "AWS Lambda", "Python", "TypeScript", "FastAPI", "React", "PostgreSQL", "Redis", "Docker"),
   facts: (
     "The solution has been successfully integrated into 3 portfolio companies.",
-    "Led development from concept to production, ensuring stable operations during the holiday season.",
     "Built and led a remote-first core team of 7 engineers.",
     "Hired, onboarded, mentored, and gradually transferred system ownership to new team members.",
+    "Led development from concept to production, ensuring stable operations during the holiday season.",
     [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach for evolving architecture and engineering processes].],
-      "Designed resilient payment-processing architecture with idempotent workflows, safe retries, provider fallback, and recovery from intermediate states.",
-    "Established a delivery process with multiple weekly releases and on-demand feature shipping.",
-    [Identified bugs in major Python libraries (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]), including #link("https://openai.com/blog/march-20-chatgpt-outage")[one that caused an OpenAI outage], and prevented them from affecting our systems.],
+    "Designed resilient payment flows with idempotency, safe retries, provider fallback, and state recovery.",
+    "Established a delivery process with multiple releases per week and on-demand feature shipping.",
+    [Identified concurency bugs in major Python libraries (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]), including #link("https://openai.com/blog/march-20-chatgpt-outage")[one that caused an OpenAI outage], and prevented them from affecting our systems.],
   ),
 )
 
