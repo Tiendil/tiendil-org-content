@@ -541,7 +541,7 @@
   description: [*Developed my own product from scratch*, from prototyping through release, operation, and shutdown. Played all roles, from backend and frontend development to game design, community management, and marketing.],
   roles: ("Founder",),
   practices: ("Engineering Processes", "Team Formation", "R&D", "Game Design", "Marketing", "Monetization", "Community Management", "Volunteer Coordination"),
-  // "jQuery" remove to save a line
+  // "jQuery" removed to save a line
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django"),
   facts: (
     "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paying players; with up to 5k MAU and 2k DAU at peak.",
