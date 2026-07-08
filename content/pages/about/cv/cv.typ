@@ -26,6 +26,7 @@
 // - primary card surface
 // - tag surface
 // - role tag surface
+// - practice tag surface
 // - expertise subheader surface
 // - primary text
 // - secondary text
@@ -41,6 +42,7 @@
 #let color_surface_card = rgb("#FFFFFF")
 #let color_surface_tag = rgb("#EEF3F8")
 #let color_surface_role_tag = rgb("#EAF4EA")
+#let color_surface_practice_tag = rgb("#FFF1D6")
 #let color_surface_expertise_subheader = rgb("#E7F1FF")
 #let color_text_primary = rgb("#1D2A38")
 #let color_text_secondary = rgb("#46576B")
@@ -286,6 +288,7 @@
   technologies: (),
   company: none,
   roles: (),
+  practices: (),
   description: none,
   facts: (),
 ) = [
@@ -315,9 +318,15 @@
         #if roles.len() > 0 [
           #chips(roles, fill: color_surface_role_tag)
         ]
-          #if roles.len() > 0 and technologies.len() > 0 [
-            #h(2pt)
-          ]
+        #if roles.len() > 0 and (practices.len() > 0 or technologies.len() > 0) [
+          #h(2pt)
+        ]
+        #if practices.len() > 0 [
+          #chips(practices, fill: color_surface_practice_tag)
+        ]
+        #if practices.len() > 0 and technologies.len() > 0 [
+          #h(2pt)
+        ]
         #if technologies.len() > 0 [
           #chips(technologies)
         ]
@@ -442,7 +451,9 @@
   "2024-2026",
   "Professional sabbatical",
   description: "",
-  technologies: ("Python", "TypeScript", "Rust", "LLMs", "FastAPI", "Vue", "PostgreSQL", "Docker"),
+  practices: ("R&D", "Technical Writing"),
+  // "FastAPI", "Vue" removed to save a line
+  technologies: ("Python", "TypeScript", "Rust", "PostgreSQL", "LLMs"),
   facts: (
     [Created #link("https://feeds.fun/")[Feeds Fun] — a news reader with LLM-based tagging and rule-based ranking (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
     [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] program for entertainment IP developers; published #link("https://tiendil.org/en/tags/world-builders-2023")[a series of essays].],
@@ -456,9 +467,11 @@
   "2022-2023",
   "Multi-provider payments platform for Palta portfolio startups",
   company: link("https://palta.com/")[Palta],
-  roles: ("Engineering Manager", "Tech Lead"),
   description: [*Led the design and delivery of a payments platform from concept to production*, covering subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows with support for disputes, refunds, provider fallback, and failure recovery.],
-  technologies: ("AWS", "AWS Lambda", "Python", "TypeScript", "FastAPI", "React", "PostgreSQL", "Redis", "Docker"),
+  roles: ("Engineering Manager", "Tech Lead"),
+  practices: ("Engineering Processes", "Hiring", "Onboarding", "Mentoring"),
+  // "React" removed to save a line
+  technologies: ("AWS", "Python", "TypeScript", "PostgreSQL", "Redis", "FastAPI"),
   facts: (
     "The solution has been successfully integrated into 3 portfolio companies.",
     "Built and led a remote-first core team of 7 engineers.",
@@ -475,6 +488,7 @@
   "2019-2021",
   "Professional sabbatical",
   description: [Read #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] on my blog.],
+  practices: ("Technical Writing", "Game Design"),
   technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
     "Strengthened expertise in advanced backend architecture, code analysis, and quality control.",
@@ -489,9 +503,9 @@
   "2017-2019",
   [Mobile game #link("https://play.google.com/store/apps/details?id=com.melesta.coffeeshop")[My Cafe] — 50M+ installs as of September 2021],
   company: link("https://melsoft-games.com/")[Melsoft Games],
-  roles: ("Tech Lead",),
   description: [*Owned backend architecture and core service development*, modernized legacy systems for scale and stability, served as a key technical advisor on architecture and algorithm design.],
-  technologies: ("Linux", "Python", "Twisted", "Django", "PostgreSQL", "Redis", "Graphite", "Prometheus", "Grafana", "Ansible", "Docker"),
+  roles: ("Tech Lead",),
+  technologies: ("Linux", "Python", "PostgreSQL", "Redis", "Twisted", "Django", "Graphite", "Prometheus", "Grafana", "Ansible"),
   facts: (
     "Optimized game backend to handle 1.5M RPM (25k RPS) with stable latency and low error rates.",
     "Stabilized server-side payment-processing and analytics logic, reducing payment-related errors to zero.",
@@ -508,8 +522,9 @@
   "Mobile games Toy Defense 1, 2, and 3",
   company: link("https://melsoft-games.com/")[Melsoft Games],
   roles: ("Tech Lead",),
+  practices: ("Hiring", "Onboarding", "Mentoring"),
   description: [*Fully owned the unified backend of 3 games.* As an expert, consulted colleagues on infrastructure, architecture, and algorithmic questions.],
-  technologies: ("Linux", "Python", "Twisted", "Django", "MySQL", "Redis", "Fabric", "Graphite", "Grafana"),
+  technologies: ("Linux", "Python", "MySQL", "Redis", "Twisted", "Django", "Fabric", "Graphite", "Grafana"),
   facts: (
     "Resurrected the legacy game backend to an operational state.",
     "Developed a payment service, which was also reused by the neighboring team.",
@@ -523,11 +538,13 @@
   "2012-2015",
   "Browser text-based MMO game \"The Tale\"",
   company: link("https://the-tale.org")[The Tale],
-  roles: ("Founder",),
   description: [*Developed my own product from scratch*, from prototyping through release, operation, and shutdown. Played all roles, from backend and frontend development to game design, community management, and marketing.],
-  technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django", "jQuery"),
+  roles: ("Founder",),
+  practices: ("Engineering Processes", "Team Formation", "R&D", "Game Design", "Marketing", "Monetization", "Community Management", "Volunteer Coordination"),
+  // "jQuery" removed to save a line
+  technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django"),
   facts: (
-    "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paid players; with up to 5k MAU and 2k DAU at peak.",
+    "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paying players; with up to 5k MAU and 2k DAU at peak.",
     "Assembled a core team and organized volunteers who helped in the development of the game.",
     "Implemented automated quality control, which allowed development without dedicated QA.",
     [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text], #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
@@ -541,8 +558,9 @@
   "2010-2012",
   [Web portal #link("https://worldoftanks.com/")[World of Tanks], meta-game "Clan Wars"],
   company: link("https://wargaming.com/")[Wargaming],
-  roles: ("Senior Developer",),
   description: [*Owned the code of the whole web portal*: registration, player & clan profiles, clan management, player statistics, ratings, tournaments, the meta-game for clans, news, i18n, etc.],
+  roles: ("Senior Developer",),
+  practices: ("Mentoring",),
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Memcached", "RabbitMQ", "Django", "jQuery"),
   facts: (
     "Together with the team, completely switched the technology stack from client-side C++ to a Python backend and developed the portal for one of the most successful online games.",
@@ -556,8 +574,8 @@
   "2009-2010",
   [Real-time strategy game #link("https://en.wikipedia.org/wiki/Order_of_War")[Order of War]],
   company: link("https://wargaming.com/")[Wargaming],
-  roles: ("Middle Developer",),
   description: [*Optimized code and developed game logic*, including critical GUI elements.],
+  roles: ("Middle Developer",),
   technologies: ("Windows", "C++", "internal game engine"),
   facts: (
     "During probation, doubled command-queue throughput between the game logic and graphics engine.",
@@ -569,9 +587,9 @@
   "2008-2009",
   "Automated migration of Linux systems from physical machines to VMs",
   company: link("https://www.itransition.com/")[Itransition],
-  roles: ("Middle Developer",),
   description: [*Implemented automatic virtual-hardware configuration* according to physical-machine specs.],
-  technologies: ("Linux", "Perl", "C", "Xen", "VMWare"),
+  roles: ("Middle Developer",),
+  technologies: ("Linux", "Perl", "C", "Xen", "VMware"),
   facts: ("Introduced practices of automated testing.",),
 )
 
