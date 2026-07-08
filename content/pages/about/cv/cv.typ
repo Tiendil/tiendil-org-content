@@ -544,7 +544,7 @@
   // "jQuery" remove to save a line
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django"),
   facts: (
-    "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paid players; with up to 5k MAU and 2k DAU at peak.",
+    "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paying players; with up to 5k MAU and 2k DAU at peak.",
     "Assembled a core team and organized volunteers who helped in the development of the game.",
     "Implemented automated quality control, which allowed development without dedicated QA.",
     [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text], #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
@@ -589,7 +589,7 @@
   company: link("https://www.itransition.com/")[Itransition],
   description: [*Implemented automatic virtual-hardware configuration* according to physical-machine specs.],
   roles: ("Middle Developer",),
-  technologies: ("Linux", "Perl", "C", "Xen", "VMWare"),
+  technologies: ("Linux", "Perl", "C", "Xen", "VMware"),
   facts: ("Introduced practices of automated testing.",),
 )
 
