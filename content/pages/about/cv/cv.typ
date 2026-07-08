@@ -452,7 +452,7 @@
   "Professional sabbatical",
   description: "",
   practices: ("R&D", "Technical Writing"),
-  // "FastAPI", "Vue" remove to save a line
+  // "FastAPI", "Vue" removed to save a line
   technologies: ("Python", "TypeScript", "Rust", "PostgreSQL", "LLMs"),
   facts: (
     [Created #link("https://feeds.fun/")[Feeds Fun] — a news reader with LLM-based tagging and rule-based ranking (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
