@@ -470,7 +470,7 @@
   description: [*Led the design and delivery of a payments platform from concept to production*, covering subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows with support for disputes, refunds, provider fallback, and failure recovery.],
   roles: ("Engineering Manager", "Tech Lead"),
   practices: ("Engineering Processes", "Hiring", "Onboarding", "Mentoring"),
-  // "React" remove to save a line
+  // "React" removed to save a line
   technologies: ("AWS", "Python", "TypeScript", "PostgreSQL", "Redis", "FastAPI"),
   facts: (
     "The solution has been successfully integrated into 3 portfolio companies.",
