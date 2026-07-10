@@ -546,6 +546,7 @@
   facts: (
     "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paying players; with up to 5k MAU and 2k DAU at peak.",
     "Assembled a core team and organized volunteers who helped in the development of the game.",
+    "Designed advanced game systems: player-shaped persistent world, player-driven economy and governance, autonomous NPCs with dynamic personalities, player-authored entity lore.",
     "Implemented automated quality control, which allowed development without dedicated QA.",
     [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text], #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
     [Open-sourced #link("https://github.com/the-tale")[the code] and #link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[the game lore].]
