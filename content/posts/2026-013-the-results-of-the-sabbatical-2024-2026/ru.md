@@ -58,17 +58,21 @@ seo_image = ""
 2. Blog:
    - 2024-004-blog-moved-to-brigid-engine
    - 2024-005-hello-en-world
+   - statistics
 3. Open source:
    - 2024-004-blog-moved-to-brigid-engine
    - 2026-003-donna-introduction
    - 2026-012-depmesh-introduction
    - more tools (installer, consistency, harness are not published yet)
+   - https://github.com/Tiendil/changy
+   - 2024-033-the-tale-lore-cc-by
 4. Books:
    - 2024-008-about-book-economics-the-users-guide
    - 2024-011-about-book-the-net-and-the-butterfly
    - 2024-016-about-book-piranesi
    - 2024-018-review-of-the-signal-and-the-noise
    - 2024-034-about-book-harry-potter
+   - 2025-013-vantage-on-management-books
 5. AI:
    - 2024-013-my-gpts
    - 2024-024-top-llm-frameworks-may-not-be-as-reliable-as-you-may-think
@@ -88,6 +92,7 @@ seo_image = ""
    - 2024-025-notes-on-backend-metrics-in-2024
    - (researched modern auth approaches) 2025-017-crazy-ory-infrastructure
    - 2026-010-rust-the-language-things-get-rewritten-in
+   - coding agents
 7. Podcasts:
    - 2024-026-two-capitals-podcast-about-the-tale
    - 2026-008-two-capitals-podcast-about-ai-agents
@@ -104,11 +109,19 @@ seo_image = ""
    - 2025-014-no-instructions-for-engineering
    - 2025-015-engineering-is-science-is-engineering
    - 2026-005-science-practices-for-engineering-public-artifacts
+11. Gamedev
+   - Godot
+   - Rust
+   - clio
+12. English:
+   - blog
+   - duocards
+   - tutor
 
-2025-001-results-of-2024-for-me-and-the-blog
-2025-020-results-of-2025-for-me-and-the-blog
+За подробностями смотри отчёты по годам:
 
-<!-- TODO: сначала пройдись руками по постам, потом просмотри итоговые посты по годам. -->
+- 2025-001-results-of-2024-for-me-and-the-blog
+- 2025-020-results-of-2025-for-me-and-the-blog
 
 <!-- TODO: intro: moved to germany -->
 <!-- TODO: primary directions -->
@@ -129,3 +142,4 @@ seo_image = ""
 <!-- TODO: что пошло хорошо, что пошло плохо -->
 <!-- TODO: total posts number: 68 -->
 <!-- TODO: link to 2026-009-looking-for-partners-and-projects -->
+<!--  -->
