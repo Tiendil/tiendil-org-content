@@ -43,8 +43,72 @@ seo_image = ""
 - World Builders
 - ИИ & agents
 
+<!-- TODO: draft -->
 
+## Итоги
 
+1. World buiders:
+   - 2024-003-making-a-fictional-universe-quantity-survey
+   - 2024-006-making-a-fictional-universe-quantity-survey-cleaning
+   - 2024-007-making-a-fictional-universe-quantity-survey-processing
+   - 2024-010-simulation-of-public-opinion-in-a-game
+   - 2024-014-world-builders-2023-final-presentation
+   - 2024-021-world-builders-2023-business-plan-example
+   - 2026-010-rust-the-language-things-get-rewritten-in
+2. Blog:
+   - 2024-004-blog-moved-to-brigid-engine
+   - 2024-005-hello-en-world
+3. Open source:
+   - 2024-004-blog-moved-to-brigid-engine
+   - 2026-003-donna-introduction
+   - 2026-012-depmesh-introduction
+   - more tools (installer, consistency, harness are not published yet)
+4. Books:
+   - 2024-008-about-book-economics-the-users-guide
+   - 2024-011-about-book-the-net-and-the-butterfly
+   - 2024-016-about-book-piranesi
+   - 2024-018-review-of-the-signal-and-the-noise
+   - 2024-034-about-book-harry-potter
+5. AI:
+   - 2024-013-my-gpts
+   - 2024-024-top-llm-frameworks-may-not-be-as-reliable-as-you-may-think
+   - 2024-028-ai-notes-2024-industry-transparency
+   - 2024-029-ai-notes-2024-generative-knowledge-base
+   - 2024-032-ai-notes-2024-the-current-state
+   - 2024-035-ai-notes-2024-prognosis
+   - 2024-030-prompt-engineering-building-prompts-from-business-cases
+   - 2025-016-reasoning-llms-are-wandering-solution-explorers
+   - 2026-003-donna-introduction
+   - 2026-004-llms-think-breadth-first-humans-think-depth-first
+   - 2026-007-notes-on-coding-agents
+   - 2026-008-two-capitals-podcast-about-ai-agents
+   - 2026-011-donna-is-ready-to-use
+   - 2026-012-depmesh-introduction
+6. Software development:
+   - 2024-025-notes-on-backend-metrics-in-2024
+   - (researched modern auth approaches) 2025-017-crazy-ory-infrastructure
+   - 2026-010-rust-the-language-things-get-rewritten-in
+7. Podcasts:
+   - 2024-026-two-capitals-podcast-about-the-tale
+   - 2026-008-two-capitals-podcast-about-ai-agents
+8. The Tale:
+   - 2024-026-two-capitals-podcast-about-the-tale
+   - 2024-033-the-tale-lore-cc-by
+9. Feeds Fun:
+   - 2025-005-feeds-fun-marketing-test
+   - 2026-002-feeds-fun-monetization-approaches
+10. Management:
+   - 2025-009-implicit-properties-of-your-product
+   - 2025-010-hypothesis-testing-loop
+   - 2025-013-vantage-on-management-books
+   - 2025-014-no-instructions-for-engineering
+   - 2025-015-engineering-is-science-is-engineering
+   - 2026-005-science-practices-for-engineering-public-artifacts
+
+2025-001-results-of-2024-for-me-and-the-blog
+2025-020-results-of-2025-for-me-and-the-blog
+
+<!-- TODO: сначала пройдись руками по постам, потом просмотри итоговые посты по годам. -->
 
 <!-- TODO: intro: moved to germany -->
 <!-- TODO: primary directions -->
@@ -62,3 +126,6 @@ seo_image = ""
 <!-- TODO: translate previos sabbsatical post? -->
 <!-- TODO: translate the post about the blog? -->
 <!-- TODO: обновить post:sabbaticals ссылкой на этот отчёт-->
+<!-- TODO: что пошло хорошо, что пошло плохо -->
+<!-- TODO: total posts number: 68 -->
+<!-- TODO: link to 2026-009-looking-for-partners-and-projects -->
