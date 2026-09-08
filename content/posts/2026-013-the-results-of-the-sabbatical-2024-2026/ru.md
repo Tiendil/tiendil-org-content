@@ -178,4 +178,5 @@ seo_image = ""
 <!-- TODO: что пошло хорошо, что пошло плохо -->
 <!-- TODO: total posts number: 68 -->
 <!-- TODO: link to 2026-009-looking-for-partners-and-projects -->
-<!--  -->
+<!-- TODO: о фичах clio -->
+<!-- TODO: о будущих тулах для ИИ -->
