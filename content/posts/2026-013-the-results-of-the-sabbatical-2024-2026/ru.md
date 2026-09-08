@@ -24,6 +24,27 @@ seo_image = ""
 
 <!-- more -->
 
+<!-- TODO: that is a draft -->
+## Оригинальный план
+
+Праймари:
+
+- Подтянуть теоретические знания по менеджменту.
+- Попробовать запустить минимум один свой проект.
+
+Секондари:
+
+- Завершить переезд семьи в Германию, порешать бытовые вопросы.
+- Улучшить английский.
+- Отдохнуть.
+
+Внезапные/дополнительные цели:
+
+- World Builders
+- ИИ & agents
+
+
+
 
 <!-- TODO: intro: moved to germany -->
 <!-- TODO: primary directions -->
@@ -40,3 +61,4 @@ seo_image = ""
 <!-- TODO: troubles -->
 <!-- TODO: translate previos sabbsatical post? -->
 <!-- TODO: translate the post about the blog? -->
+<!-- TODO: обновить post:sabbaticals ссылкой на этот отчёт-->
