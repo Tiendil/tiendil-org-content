@@ -68,12 +68,41 @@ seo_image = ""
 
 Теперь можно рассказать подробнее чем именно я занимался. Мелкие и личные вещи опущу, пройдёмся по основным направлениям.
 
+## Open source
+
+Эти проекты должны быть раскиданы по нижележащим главам, но я решил дополнительно собрать их тут, чтобы иметь перечень моей open source активности.
+
+<!-- TODO: не открыл, исправить формулировку -->
+За саббатикал я открыл исходники следующих штук:
+
+- [feeds.fun](https://github.com/Tiendil/feeds.fun) — web-based self-hosted читалка новостей с тегами и правилами приоритезации новостей.
+- [brigid](https://github.com/Tiendil/brigid) — движок этого блога.
+- [changy](https://github.com/Tiendil/changy) — CLI менеджер/генератор changelog для людей.
+- [donna](https://github.com/Tiendil/donna) — CLI для контроля потока исполнения вашего агента, чтобы агент шёл строго по workflow.
+- [depmesh](https://github.com/tiendil/depmesh) — CLI для фиксации зависимостей между файлами вашего проекта, чтобы агенты могли быстрее и экономнее формировать контекст.
+- [Лор Сказки](https://the-tale.notion.site/) тоже открыт под лицензей `CC BY 4.0`. На всякий случай, вот [сайт игры](https://the-tale.org) и [исходники](https://github.com/the-tale).
+
+Большинство штук приносит пользу не только мне, но и другим людям — это радует.
+
+Всё, кроме Feeds Fun и лора Сказки реализовано во время саббатикла.
+
 ## Feeds Fun
+
+/// brigid-images
+src = "./feeds-fun-stars.png"
+caption = "Динамика звёзд репозитория [feeds.fun](https://github.com/Tiendil/feeds.fun)."
+///
 
    - 2024-025-notes-on-backend-metrics-in-2024
    - (researched modern auth approaches) 2025-017-crazy-ory-infrastructure
    - 2025-005-feeds-fun-marketing-test
    - 2026-002-feeds-fun-monetization-approaches
+   - project plan
+   - llm quality
+   - дашборды
+   - пост про psycopg
+   - docker images
+   - two user modes
 
 ## Менеджмент
 
@@ -101,6 +130,7 @@ seo_image = ""
    - 2026-011-donna-is-ready-to-use
    - 2026-012-depmesh-introduction
    - coding agents
+   - coding agents are used for feeds fun
 
 
 ## World Builders
