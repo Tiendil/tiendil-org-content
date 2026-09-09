@@ -276,3 +276,4 @@ caption = "Игра опередившая время"
 <!-- TODO: link to 2026-009-looking-for-partners-and-projects -->
 <!-- TODO: о фичах clio -->
 <!-- TODO: о будущих тулах для ИИ -->
+<!-- TODO: краткие итоги как последняя секция? -->
