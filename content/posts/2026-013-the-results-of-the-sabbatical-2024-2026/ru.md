@@ -142,22 +142,31 @@ tag = "vantage-on-management"
 
 ## Искусственный интеллект
 
-   - 2024-013-my-gpts
-   - 2024-024-top-llm-frameworks-may-not-be-as-reliable-as-you-may-think
-   - 2024-028-ai-notes-2024-industry-transparency
-   - 2024-029-ai-notes-2024-generative-knowledge-base
-   - 2024-032-ai-notes-2024-the-current-state
-   - 2024-035-ai-notes-2024-prognosis
-   - 2024-030-prompt-engineering-building-prompts-from-business-cases
-   - 2025-016-reasoning-llms-are-wandering-solution-explorers
-   - 2026-003-donna-introduction
-   - 2026-004-llms-think-breadth-first-humans-think-depth-first
-   - 2026-007-notes-on-coding-agents
-   - 2026-008-two-capitals-podcast-about-ai-agents
-   - 2026-011-donna-is-ready-to-use
-   - 2026-012-depmesh-introduction
-   - coding agents
-   - coding agents are used for feeds fun
+Благодаря саббатикалу я смог в спокойной абстановке без спешки разобраться как оно примерно работает, что может, что не может и что сможет в ближайшем будущем.
+
+На эту тему у меня вышло много постов, вы можете найти их по тегу [large-language-models]{tags:large language models}. Далее упомяну только самое интересное.
+
+Разобрался что такое LLM и сделал прогноз их развития на ближайшее будущее, пока сбывается (2 года уже):
+
+/// brigid-series
+tag = "ai-notes-2024"
+///
+
+Наработал опыт разработки с coding agents, выпустил [большой пост с заметками по этой теме]{post:notes-on-coding-agents}.
+
+Выпустил две CLI утилиты для работы с coding agents:
+
+- [donna](https://github.com/Tiendil/donna) — CLI для контроля потока исполнения вашего агента, чтобы агент шёл строго по workflow.
+- [depmesh](https://github.com/tiendil/depmesh) — CLI для фиксации зависимостей между файлами вашего проекта, чтобы агенты могли быстрее и экономнее формировать контекст.
+
+На подходе ещё несколько — следите за моими постами.
+
+И даже поучаствовал в подскасте:
+
+/// brigid-youtube
+id = "kUvmhGsUTo4"
+caption = "Что на самом деле меняют ИИ-агенты в разработке"
+///
 
 
 ## World Builders
@@ -173,15 +182,6 @@ tag = "vantage-on-management"
    - Godot
    - Rust
    - clio
-
-## Open source
-
-   - 2024-004-blog-moved-to-brigid-engine
-   - 2026-003-donna-introduction
-   - 2026-012-depmesh-introduction
-   - more tools (installer, consistency, harness are not published yet)
-   - https://github.com/Tiendil/changy
-   - 2024-033-the-tale-lore-cc-by
 
 ## Книги
 
