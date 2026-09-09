@@ -211,12 +211,16 @@ caption = "Скриншот полностью навибкоженной игр
 
 ## Книги
 
-   - 2024-008-about-book-economics-the-users-guide
-   - 2024-011-about-book-the-net-and-the-butterfly
-   - 2024-016-about-book-piranesi
-   - 2024-018-review-of-the-signal-and-the-noise
-   - 2024-034-about-book-harry-potter
-   - 2025-013-vantage-on-management-books
+С книгами получилось как всегда: пока разгребал накопившуюся очередь, купил новых — очередь не уменьшилась.
+
+Всего прочитал 20 книг:
+
+- [Как устроена экономика]{post:about-book-economics-the-users-guide}
+- [Сеть и бабочка]{post:about-book-the-net-and-the-butterfly}
+- [Piranesi]{post:about-book-piranesi} — рекомендую, Сюзанна Кларк, как всегда, бесподобна.
+- [Сигнал и Шум]{post:review-of-the-signal-and-the-noise}
+- [7 книг про Гарри Поттера]{post:about-book-harry-potter} — читал в рамках знакомства с английской культурой, так как все англоговорящие young adult на них выросли. Крайне недоволен мизерным вниманием автора к Гермионе: книга про спортика-мажора, а должна была быть про сильную и независимую рыжуху.
+- [9 книг про менеджмент]{post:vantage-on-management-books}.
 
 ## Прочее
 
