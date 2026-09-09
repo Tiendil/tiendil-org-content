@@ -77,7 +77,7 @@ seo_image = ""
 
 - [feeds.fun](https://github.com/Tiendil/feeds.fun) — web-based self-hosted читалка новостей с тегами и правилами приоритезации новостей.
 - [brigid](https://github.com/Tiendil/brigid) — движок этого блога.
-- [changy](https://github.com/Tiendil/changy) — CLI менеджер/генератор changelog для людей.
+- [changy](https://github.com/Tiendil/changy) — CLI менеджер/генератор changelog для людей — его используют все моим проекты.
 - [donna](https://github.com/Tiendil/donna) — CLI для контроля потока исполнения вашего агента, чтобы агент шёл строго по workflow.
 - [depmesh](https://github.com/tiendil/depmesh) — CLI для фиксации зависимостей между файлами вашего проекта, чтобы агенты могли быстрее и экономнее формировать контекст.
 - [Лор Сказки](https://the-tale.notion.site/) тоже открыт под лицензей `CC BY 4.0`. На всякий случай, вот [сайт игры](https://the-tale.org) и [исходники](https://github.com/the-tale).
@@ -93,16 +93,37 @@ src = "./feeds-fun-stars.png"
 caption = "Динамика звёзд репозитория [feeds.fun](https://github.com/Tiendil/feeds.fun)."
 ///
 
-   - 2024-025-notes-on-backend-metrics-in-2024
-   - (researched modern auth approaches) 2025-017-crazy-ory-infrastructure
-   - 2025-005-feeds-fun-marketing-test
-   - 2026-002-feeds-fun-monetization-approaches
-   - project plan
-   - llm quality
-   - дашборды
-   - пост про psycopg
-   - docker images
-   - two user modes
+Сначала я как-то вгрустнул по поводу прогресса проекта, но потом посмотрел, что количество звёзд у репозитория выросло ~~с 10 до 400~~ с 11 до 394, и пошёл смотреть [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
+
+На самом деле было сделано много чего, особенно в плане «невидимой» работы.
+
+Подготовлено много штук для сообщества: [roadmap](https://github.com/users/Tiendil/projects/1), docker images, [примеры испольования](https://github.com/Tiendil/feeds.fun/tree/main/docs/examples), [блог](https://feeds.fun/blog/en), [Discord](https://discord.gg/C5RVusHQXy), [Reddit](https://www.reddit.com/r/feedsfun/).
+
+Кроме собственных задач, периодически реализовывал фичи по запросу пользователей. Это радует, так как говорит о том, что читалкой пользуются.
+
+Для self-hosted пользователей сделал отдельный режим с одним пользователем, чтобы не надо было настраивать аутентификацию.
+
+Доработал интерфейс до уровня «не стыдно показать людям».
+
+/// brigid-images
+src = "./feeds-fun-screenshot.png"
+caption = "Текущий вид интерфейса"
+///
+
+Наконец закрыл гештальт по идеалогически верной организации аутентификации. Это было больше двух месяцев непрерывных [фейспалмов]{post:crazy-ory-infrastructure}, но оно того стоило.
+
+В очередной раз [актуализировал знания о сборе метрик]{post:notes-on-backend-metrics-in-2024}, сделал крутые дашборды для метрик бизнеса и производительнсоти.
+
+Разобрался как контролировать качество работы LLM и сделал небольшую систему контроля качества выставляемых тегов. После этого, опираясь на метрики, реализовал нормализицию тегов, что уменьшило количество уникальных тегов примерно в 5 раз.
+
+/// brigid-images
+src = "./feeds-fun-tags-dynamic.png"
+caption = "Количество уникальных тегов в месяц до и после включения нормализации."
+///
+
+Оптимизировал производительность, параллельно наткнулся на довольно [показательную проблему Python при работе со внешними библиотеками]{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}.
+
+[Сделал маркетинговый тест]{posts:feeds-fun-marketing-test}, который показал довольно слабые метрики; я предположил, что это из-за необходимости пользователю вводить свой OpenAI/Gemini API key и решил довести проект до монетизации и повторить тест. [Расчёт необходимых цен уже произведён]{post:feeds-fun-monetization-approaches}, код для начисления и траты «новостных токенов» готов, осталось оформиться юридически и подключить реальные платежи.
 
 ## Менеджмент
 
