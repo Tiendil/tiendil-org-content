@@ -256,17 +256,7 @@ caption = "Игра опередившая время"
 - [Отчёт за 2025 год]{post:2025-020-results-of-2025-for-me-and-the-blog}
 
 <!-- TODO: intro: moved to germany -->
-<!-- TODO: primary directions -->
-<!-- TODO: reference initial plan -->
-<!-- TODO: reference post about sabbaticals -->
-<!-- TODO: reference previos sabbatical -->
-<!-- TODO: open source projects -->
-<!-- TODO: posts -->
-<!-- TODO: management -->
-<!-- TODO: what else? -->
-<!-- TODO: auth -->
-<!-- TODO: books -->
-<!-- TODO: the tale was stopped before sabbatical or on it? -->
+<!-- TODO: the tale was ON sabbatical -->
 <!-- TODO: troubles -->
 <!-- TODO: translate previos sabbsatical post? -->
 <!-- TODO: translate the post about the blog? -->
@@ -274,6 +264,5 @@ caption = "Игра опередившая время"
 <!-- TODO: что пошло хорошо, что пошло плохо -->
 <!-- TODO: total posts number: 68 -->
 <!-- TODO: link to 2026-009-looking-for-partners-and-projects -->
-<!-- TODO: о фичах clio -->
 <!-- TODO: о будущих тулах для ИИ -->
 <!-- TODO: краткие итоги как последняя секция? -->
