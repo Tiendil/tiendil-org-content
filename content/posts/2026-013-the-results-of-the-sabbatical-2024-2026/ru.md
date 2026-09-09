@@ -66,50 +66,26 @@ seo_image = ""
 - До завершения курса World Builders было не ясно, что это будет: игра или [feeds.fun](https://feeds.fun/).
 - Моя боязнь немецкой бюрократии и нежелание тратить лишние деньги. В итоге в Feeds Fun для подключения платежей готово всё, кроме юридического лица и обработчика веб-хуков от сервиса платежей. Поэтому этой цели поставлен прогресс в 90%. Подключу платежи как только определюсь, что буду делать после саббатикала.
 
-Теперь можно рассказать подробнее чем именно я занимался. Для удобства, я разбил все активности на 12 <!-- TODO: перепроверить --> треков:
+Теперь можно рассказать подробнее чем именно я занимался. Мелкие и личные вещи опущу, пройдёмся по основным направлениям.
 
-1. World Builders
-2. Блог
-3. Open source
-4. Книги
-5. ИИ
-6. Разработка софта
-7. Подкасты
-8. The Tale
-9. Feeds Fun
-10. Менеджмент
-11. Геймдев
-12. Английский
+## Feeds Fun
 
-## Итоги
+   - 2024-025-notes-on-backend-metrics-in-2024
+   - (researched modern auth approaches) 2025-017-crazy-ory-infrastructure
+   - 2025-005-feeds-fun-marketing-test
+   - 2026-002-feeds-fun-monetization-approaches
 
-1. [World buiders]{tags:world-builders-2023}:
-   - 2024-003-making-a-fictional-universe-quantity-survey
-   - 2024-006-making-a-fictional-universe-quantity-survey-cleaning
-   - 2024-007-making-a-fictional-universe-quantity-survey-processing
-   - 2024-010-simulation-of-public-opinion-in-a-game
-   - 2024-014-world-builders-2023-final-presentation
-   - 2024-021-world-builders-2023-business-plan-example
-   - 2026-010-rust-the-language-things-get-rewritten-in
-2. Blog:
-   - 2024-004-blog-moved-to-brigid-engine
-   - 2024-005-hello-en-world
-   - statistics
-3. Open source:
-   - 2024-004-blog-moved-to-brigid-engine
-   - 2026-003-donna-introduction
-   - 2026-012-depmesh-introduction
-   - more tools (installer, consistency, harness are not published yet)
-   - https://github.com/Tiendil/changy
-   - 2024-033-the-tale-lore-cc-by
-4. Books:
-   - 2024-008-about-book-economics-the-users-guide
-   - 2024-011-about-book-the-net-and-the-butterfly
-   - 2024-016-about-book-piranesi
-   - 2024-018-review-of-the-signal-and-the-noise
-   - 2024-034-about-book-harry-potter
+## Менеджмент
+
+   - 2025-009-implicit-properties-of-your-product
+   - 2025-010-hypothesis-testing-loop
    - 2025-013-vantage-on-management-books
-5. AI:
+   - 2025-014-no-instructions-for-engineering
+   - 2025-015-engineering-is-science-is-engineering
+   - 2026-005-science-practices-for-engineering-public-artifacts
+
+## Искусственный интеллект
+
    - 2024-013-my-gpts
    - 2024-024-top-llm-frameworks-may-not-be-as-reliable-as-you-may-think
    - 2024-028-ai-notes-2024-industry-transparency
@@ -124,35 +100,61 @@ seo_image = ""
    - 2026-008-two-capitals-podcast-about-ai-agents
    - 2026-011-donna-is-ready-to-use
    - 2026-012-depmesh-introduction
-6. Software development:
-   - 2024-025-notes-on-backend-metrics-in-2024
-   - (researched modern auth approaches) 2025-017-crazy-ory-infrastructure
-   - 2026-010-rust-the-language-things-get-rewritten-in
    - coding agents
-7. Podcasts:
-   - 2024-026-two-capitals-podcast-about-the-tale
-   - 2026-008-two-capitals-podcast-about-ai-agents
-8. The Tale:
-   - 2024-026-two-capitals-podcast-about-the-tale
-   - 2024-033-the-tale-lore-cc-by
-9. Feeds Fun:
-   - 2025-005-feeds-fun-marketing-test
-   - 2026-002-feeds-fun-monetization-approaches
-10. Management:
-   - 2025-009-implicit-properties-of-your-product
-   - 2025-010-hypothesis-testing-loop
-   - 2025-013-vantage-on-management-books
-   - 2025-014-no-instructions-for-engineering
-   - 2025-015-engineering-is-science-is-engineering
-   - 2026-005-science-practices-for-engineering-public-artifacts
-11. Gamedev
+
+
+## World Builders
+
+   - 2024-003-making-a-fictional-universe-quantity-survey
+   - 2024-006-making-a-fictional-universe-quantity-survey-cleaning
+   - 2024-007-making-a-fictional-universe-quantity-survey-processing
+   - 2024-010-simulation-of-public-opinion-in-a-game
+   - 2024-014-world-builders-2023-final-presentation
+   - 2024-021-world-builders-2023-business-plan-example
+   - 2026-010-rust-the-language-things-get-rewritten-in
+   - 2026-010-rust-the-language-things-get-rewritten-in
    - Godot
    - Rust
    - clio
-12. English:
+
+## Open source
+
+   - 2024-004-blog-moved-to-brigid-engine
+   - 2026-003-donna-introduction
+   - 2026-012-depmesh-introduction
+   - more tools (installer, consistency, harness are not published yet)
+   - https://github.com/Tiendil/changy
+   - 2024-033-the-tale-lore-cc-by
+
+## Книги
+
+   - 2024-008-about-book-economics-the-users-guide
+   - 2024-011-about-book-the-net-and-the-butterfly
+   - 2024-016-about-book-piranesi
+   - 2024-018-review-of-the-signal-and-the-noise
+   - 2024-034-about-book-harry-potter
+   - 2025-013-vantage-on-management-books
+
+## Прочее
+
+8. The Tale
+   - 2024-026-two-capitals-podcast-about-the-tale
+   - 2024-033-the-tale-lore-cc-by
+7. Подкасты
+   - 2024-026-two-capitals-podcast-about-the-tale
+   - 2026-008-two-capitals-podcast-about-ai-agents
+2. Блог
+   - 2024-004-blog-moved-to-brigid-engine
+   - 2024-005-hello-en-world
+   - statistics
+1. Английский
    - blog
    - duocards
    - tutor
+2. Германия.
+
+<!-- TODO -->
+## TODO
 
 За подробностями смотри отчёты по годам:
 
