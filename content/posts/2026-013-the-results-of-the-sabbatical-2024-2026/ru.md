@@ -10,6 +10,10 @@ seo_image = ""
 <!-- TODO: description -->
 <!-- TODO: seo image -->
 <!-- TODO: cover image as a tag cloud(?) -->
+<!-- TODO: translate previos sabbsatical post? -->
+<!-- TODO: translate the post about the blog? -->
+<!-- TODO: обновить post:sabbaticals ссылкой на этот отчёт-->
+<!-- TODO: link to 2026-009-looking-for-partners-and-projects -->
 
 В 2023 году [Юля](https://www.linkedin.com/in/burankova/) сделала таблицу из 1000 лаб (!), выбрала из них одну, переехала в Геманию и начала делать PhD в ней. Мы год полетали друг к другу между Польшей и Германией, поняли что это жуть как неудобно и дорого, поэтому в я уволился из [Palta](https://palta.com/) и в начале 2024 года перехал прицепом жены в Германию.
 
@@ -53,7 +57,7 @@ seo_image = ""
 
 ## Результаты с высокой колокольни
 
-Результатами я доволен, но лишние 9 месяцев, конечно, раздражают и портят картину.
+Результатами я удовлетворён, но лишние полгода, конечно, раздражают и портят картину.
 
 Идея была в том, чтобы в лёгком темпе закрыть накопившиеся вопросы и двигаться дальше. Вместо этого пришлось довольно сильно напрягаться, чтобы совсем не вылететь из графика. В итоге с отдыхом, например, не задалось.
 
@@ -249,14 +253,5 @@ caption = "Игра опередившая время"
 - [Отчёт за 2024 год]{post:2025-001-results-of-2024-for-me-and-the-blog}
 - [Отчёт за 2025 год]{post:2025-020-results-of-2025-for-me-and-the-blog}
 
-<!-- TODO: intro: moved to germany -->
-<!-- TODO: the tale was ON sabbatical -->
-<!-- TODO: troubles -->
-<!-- TODO: translate previos sabbsatical post? -->
-<!-- TODO: translate the post about the blog? -->
-<!-- TODO: обновить post:sabbaticals ссылкой на этот отчёт-->
 <!-- TODO: что пошло хорошо, что пошло плохо -->
-<!-- TODO: total posts number: 68 -->
-<!-- TODO: link to 2026-009-looking-for-partners-and-projects -->
-<!-- TODO: о будущих тулах для ИИ -->
 <!-- TODO: краткие итоги как последняя секция? -->
