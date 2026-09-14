@@ -29,30 +29,30 @@ A few links to better understand the post:
 
 <!-- more -->
 
-## План
+## Plan
 
-Отпуск планировался зарнее и включал следующие направления.
+The sabbatical was planned in advance and covered the following areas.
 
-Главные цели:
+Primary goals:
 
-- `[done]` Завершить переезд семьи в Германию, решить бытовые вопросы.
-- `[done]` Подтянуть теоретические знания по менеджменту.
-- `[90%]` Попробовать запустить минимум один свой проект.
+- `[done]` Finish family relocation to Germany, solve household issues.
+- `[done]` Improve management theory knowledge.
+- `[90%]` Try to launch at least one own project.
 
-Второстепенные цели:
+Secondary goals:
 
-- `[50%]`Отдохнуть.
-- `[in progress]`Улучшить английский.
-- `[50%]`Разгрести накопившуюся очередь из книг.
-- `[done]`Обновить блог.
+- `[50%]` Have some rest.
+- `[in progress]` Improve my English.
+- `[50%]` Clear my book backlog.
+- `[done]` Update my blog.
 
-На всё это удовольствие я выделил себе 2 года, но потом добавились новые цели и в итоге получилось 2.5 года.
+On all those pleasures I gave myself 2 years, but new goals cropped up and in the end it grew to 2.5 years.
 
-Внезапные цели:
+Unexpected goals:
 
-- `[done]` закончить курс World Builders про разработку интеллектуальной собственности и создание вымышленных миров.
-- `[done]` разобраться с ИИ хайпом: что есть что и куда всё движется.
-- `[in progress]` разобраться с coding agents, научиться эффективно их использовать.
+- `[done]` Finish the World Builders course on intellectual property development and fictional world creation.
+- `[done]` Break AI hype down: what is what and where everything is going.
+- `[in progress]` Understand coding agents, learn to use them effectively.
 
 ## Результаты с высокой колокольни
 
