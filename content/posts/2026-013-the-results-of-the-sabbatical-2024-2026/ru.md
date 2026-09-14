@@ -3,15 +3,18 @@ title = "Итоги творческого отпуска 2024-2026 годов"
 tags = [ "open-source", "blog", "practice", "reflection",]
 published_at = "2026-09-01T12:00:00+00:00"
 seo_description = "Итоги моего творческого отпуска 2024-2026 годов: что удалось сделать, а что нет."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
 
-<!-- TODO: seo image -->
-<!-- TODO: cover image as a tag cloud(?) -->
 <!-- TODO: translate previos sabbsatical post? -->
 <!-- TODO: translate the post about the blog? -->
 <!-- TODO: обновить post:sabbaticals ссылкой на этот отчёт-->
 <!-- TODO: link to 2026-009-looking-for-partners-and-projects -->
+
+/// brigid-images
+src = "./cover.jpg"
+caption = "Идиоматически проводим творческий отпуск."
+///
 
 В 2023 году [Юля](https://www.linkedin.com/in/burankova/) сделала таблицу из 1000 лаб (!), выбрала из них одну, переехала в Геманию и начала делать PhD в ней. Мы год полетали друг к другу между Польшей и Германией, поняли что это жуть как неудобно и дорого, поэтому в я уволился из [Palta](https://palta.com/) и в начале 2024 года перехал прицепом жены в Германию.
 
