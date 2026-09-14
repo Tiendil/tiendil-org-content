@@ -8,7 +8,6 @@ seo_image = "./cover.jpg"
 
 <!-- TODO: translate previos sabbsatical post? -->
 <!-- TODO: translate the post about the blog? -->
-<!-- TODO: обновить post:sabbaticals ссылкой на этот отчёт-->
 <!-- TODO: link to 2026-009-looking-for-partners-and-projects -->
 
 /// brigid-images
