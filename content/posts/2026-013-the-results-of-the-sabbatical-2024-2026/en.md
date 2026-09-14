@@ -2,7 +2,7 @@
 title = "The results of the sabbatical 2024-2026"
 tags = [ "blog", "practice", "reflection",]
 published_at = "2026-09-01T12:00:00+00:00"
-seo_description = "Итоги моего творческого отпуска 2024-2026 годов: что удалось сделать, а что нет."
+seo_description = "The results of my sabbatical 2024-2026: what was achieved and what was not."
 seo_image = "./cover.jpg"
 ---
 
@@ -11,7 +11,7 @@ seo_image = "./cover.jpg"
 
 /// brigid-images
 src = "./cover.jpg"
-caption = "Идиоматически проводим творческий отпуск."
+caption = "Idiomatically spending a sabbatical."
 ///
 
 В 2023 году [Юля](https://www.linkedin.com/in/burankova/) сделала таблицу из 1000 лаб (!), выбрала из них одну, переехала в Геманию и начала делать PhD в ней. Мы год полетали друг к другу между Польшей и Германией, поняли что это жуть как неудобно и дорого, поэтому в я уволился из [Palta](https://palta.com/) и в начале 2024 года перехал прицепом жены в Германию.
