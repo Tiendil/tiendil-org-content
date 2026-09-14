@@ -54,7 +54,7 @@ Unexpected goals:
 - `[done]` Break AI hype down: what is what and where everything is going.
 - `[in progress]` Understand coding agents, learn to use them effectively.
 
-## Результаты с высокой колокольни
+## Results from 30000 feet
 
 Результатами я удовлетворён, но лишние полгода, конечно, раздражают и портят картину.
 
