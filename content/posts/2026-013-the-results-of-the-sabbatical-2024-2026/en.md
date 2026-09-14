@@ -14,18 +14,18 @@ src = "./cover.jpg"
 caption = "Idiomatically spending a sabbatical."
 ///
 
-В 2023 году [Юля](https://www.linkedin.com/in/burankova/) сделала таблицу из 1000 лаб (!), выбрала из них одну, переехала в Геманию и начала делать PhD в ней. Мы год полетали друг к другу между Польшей и Германией, поняли что это жуть как неудобно и дорого, поэтому в я уволился из [Palta](https://palta.com/) и в начале 2024 года перехал прицепом жены в Германию.
+In 2023, [Yuliya](https://www.linkedin.com/in/burankova/) made a table of 1000 labs (!), chose one of them, moved to Germany, and started doing a PhD in it. For a year we flew back and forth between Poland and Germany, realized that it was terribly inconvenient and expensive, so I quit [Palta](https://palta.com/) and at the beginning of 2024 moved to Germany as a trailing spouse.
 
-«Отличный повод уйти в очередной творческий отпуск» — подумал я, после чего так и сделал. Два с половиной года спустя пришло время ~~[искать работу]{post:looking-for-partners-and-projects}~~ подводить итоги.
+"What a great opportunity to start another sabbatical" — I thought, and so I did. Two and a half years later, it's time to ~~[look for a job]{post:looking-for-partners-and-projects}~~ take stock.
 
-В этом посте вы найдёте полный отчёт о проделанном отдыхе: что было запланировано, как изменились планы, что удалось сделать, а что нет.
+In that text, you will find a complete report on how the sabbatical was spent: what was planned, how the plans changed, what was achieved and what was not.
 
-Краткие итоги: блог обновлён, 68 постов написано, 20 книг прочитано, 4 новых open source проекта реализовано, больше 400 звёзд на GitHub заработано, [feeds.fun](https://feeds.fun) стал удобным в использовании и готов к монетизации, собственный подход к менеджменту сформулирован, странные но интересные курсы разработки интеллектуальной собственности пройдены, с ИИ разобрался, coding agents кодят, глаз у жены дёргается.
+In short: blog updated, 68 posts written, 20 books read, 4 new open-source projects built, more than 400 GitHub stars earned, [feeds.fun](https://feeds.fun) made genuinely usable and ready for monetization, my own approach to management formulated, some weird but interesting courses on intellectual property development completed, AI figured out, coding agents coding, my wife's eye twitching.
 
-Ссылки для лучшего понимания поста:
+A few links to better understand the post:
 
-- [Что такое творческие отпуска и почему я в них хожу]{post:sabbaticals}.
-- Это мой второй полноценный саббатикал, вот [отчёт по первому]{post:the-results-of-the-sabbatical-2019-2021}.
+- [What are sabbaticals and why I take them]{post:sabbaticals}.
+- That is my second full sabbatical, here is [the report on the first one]{post:the-results-of-the-sabbatical-2019-2021}.
 
 <!-- more -->
 
