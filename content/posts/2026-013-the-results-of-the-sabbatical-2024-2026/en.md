@@ -90,40 +90,40 @@ Most of the projects are bringing value not only to me but also to other people 
 
 /// brigid-images
 src = "./feeds-fun-stars.png"
-caption = "Динамика звёзд репозитория [feeds.fun](https://github.com/Tiendil/feeds.fun)."
+caption = "The stars dynamics of the [feeds.fun](https://github.com/Tiendil/feeds.fun) repository."
 ///
 
-Сначала я как-то всгрустнул по поводу прогресса проекта, но потом посмотрел, что количество звёзд у репозитория выросло ~~с 10 до 400~~ с 11 до 394, и пошёл читать [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
+At first, I felt a bit down about the project's progress, but then I noticed that the repository had gone from ~~10 to 400~~ 11 to 394 stars, and went off to read the [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
 
-На самом деле было сделано много чего, особенно в плане «невидимой» работы.
+A lot has been done in two years, especially in the area of hidden work.
 
-Подготовлено много штук для сообщества: [roadmap](https://github.com/users/Tiendil/projects/1), docker images, [примеры испольования](https://github.com/Tiendil/feeds.fun/tree/main/docs/examples), [блог](https://feeds.fun/blog/en), [Discord](https://discord.gg/C5RVusHQXy), [Reddit](https://www.reddit.com/r/feedsfun/).
+A bunch of things were set up for the community: a [roadmap](https://github.com/users/Tiendil/projects/1), Docker images, [usage examples](https://github.com/Tiendil/feeds.fun/tree/main/docs/examples), a [blog](https://feeds.fun/blog/en), [Discord](https://discord.gg/C5RVusHQXy), and [Reddit](https://www.reddit.com/r/feedsfun/).
 
-Кроме запланированных задач, периодически делал фичи по запросу пользователей. Это говорит о том, что читалкой пользуются.
+Besides the planned work, I periodically implemented features at the request of users. This indicates people are using the reader.
 
-Для self-hosted пользователей сделал отдельный режим с одним пользователем, чтобы не надо было настраивать аутентификацию.
+For self-hosted users, I created a separate single-user mode so that they don't need to set up authentication.
 
-Доработал интерфейс до уровня «не стыдно показать людям».
+I got the interface to the "not embarrassing to show people anymore" stage.
 
 /// brigid-images
 src = "./feeds-fun-screenshot.png"
-caption = "Текущий вид интерфейса"
+caption = "Current interface view."
 ///
 
-Закрыл гештальт по идеалогически верной организации аутентификации. Это заняло больше двух месяцев непрерывных [фейспалмов]{post:crazy-ory-infrastructure}, но оно того стоило.
+Finally I closed my gestalt on ideologically correct authentication approach. It took more than two months of continuous [facepalms]{post:crazy-ory-infrastructure}, but it was worth it.
 
-В очередной раз [актуализировал знания о сборе метрик]{post:notes-on-backend-metrics-in-2024}, сделал крутые дашборды для метрик бизнеса и производительности.
+One more time, I [refreshed my knowledge on backend metrics collection]{post:notes-on-backend-metrics-in-2024}, made cool dashboards for business and performance metrics.
 
-Разобрался как контролировать качество работы LLM и сделал систему контроля качества выставляемых тегов. После этого, опираясь на метрики, реализовал нормализицию тегов, что уменьшило количество уникальных тегов примерно в 5 раз.
+Got the hang of monitoring the quality of LLM output and built a quality-control system for the tags Feeds Fun assigns to news. Using the resulting metrics, I implemented tag normalization, which reduced the number of unique tags by roughly a factor of five.
 
 /// brigid-images
 src = "./feeds-fun-tags-dynamic.png"
-caption = "Количество уникальных тегов в месяц до и после включения нормализации."
+caption = "The number of unique tags per month before and after normalization."
 ///
 
-Оптимизировал производительность, параллельно наткнулся на довольно [показательную проблему Python при работе со внешними библиотеками]{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}.
+Optimized performance, while doing so, I ran into a rather [illustrative Python problem related to working with external libraries]{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}.
 
-[Сделал маркетинговый тест]{post:feeds-fun-marketing-test}, который показал довольно слабые метрики; я предположил, что это из-за требования к пользователям вводить свой OpenAI/Gemini API key, поэтому решил довести проект до монетизации и повторить тест. [Расчёт необходимых цен произведён]{post:feeds-fun-monetization-approaches}, код для начисления и траты «новостных токенов» готов, осталось оформиться юридически и подключить реальные платежи.
+[Made a marketing test]{post:feeds-fun-marketing-test}, which showed not-so-good metrics; I assumed it was because users were required to enter their OpenAI/Gemini API key, so I decided to push the project to monetization and repeat the test. [The estimation of necessary prices was made]{post:feeds-fun-monetization-approaches}, the code for earning and spending "news tokens" is ready, what remains is to register a legal entity and connect real payments.
 
 ## Менеджмент
 

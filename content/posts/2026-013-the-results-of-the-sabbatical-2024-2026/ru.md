@@ -93,11 +93,11 @@ src = "./feeds-fun-stars.png"
 caption = "Динамика звёзд репозитория [feeds.fun](https://github.com/Tiendil/feeds.fun)."
 ///
 
-Сначала я как-то всгрустнул по поводу прогресса проекта, но потом посмотрел, что количество звёзд у репозитория выросло ~~с 10 до 400~~ с 11 до 394, и пошёл читать [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
+Сначала я как-то всгрустнул по поводу прогресса проекта, но потом посмотрел, что количество звёзд у репозитория выросло с ~~10 до 400~~ 11 до 394, и пошёл читать [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
 
-На самом деле было сделано много чего, особенно в плане «невидимой» работы.
+За два года было сделано много чего, особенно в плане скрытой работы.
 
-Подготовлено много штук для сообщества: [roadmap](https://github.com/users/Tiendil/projects/1), docker images, [примеры испольования](https://github.com/Tiendil/feeds.fun/tree/main/docs/examples), [блог](https://feeds.fun/blog/en), [Discord](https://discord.gg/C5RVusHQXy), [Reddit](https://www.reddit.com/r/feedsfun/).
+Подготовлено много штук для сообщества: [roadmap](https://github.com/users/Tiendil/projects/1), Docker images, [примеры испольования](https://github.com/Tiendil/feeds.fun/tree/main/docs/examples), [блог](https://feeds.fun/blog/en), [Discord](https://discord.gg/C5RVusHQXy), [Reddit](https://www.reddit.com/r/feedsfun/).
 
 Кроме запланированных задач, периодически делал фичи по запросу пользователей. Это говорит о том, что читалкой пользуются.
 
