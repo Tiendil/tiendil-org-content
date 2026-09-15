@@ -13,7 +13,7 @@ caption = "Idiomatically spending a sabbatical."
 
 In 2023, [Yuliya](https://www.linkedin.com/in/burankova/) made a table of 1000 labs (!), chose one, moved to Germany, and started doing a PhD there. For a year, we flew back and forth between Poland and Germany, realized it was terribly inconvenient and expensive, so I quit [Palta](https://palta.com/) and, at the beginning of 2024, moved to Germany as a trailing spouse.
 
-"What a great excuse to take another sabbatica" — I thought, and so I did. Two and a half years later, it's time to ~~[look for a job]{post:looking-for-partners-and-projects}~~ take stock.
+"What a great excuse to take another sabbatical" — I thought, and so I did. Two and a half years later, it's time to ~~[look for a job]{post:looking-for-partners-and-projects}~~ take stock.
 
 In this post, you'll find a full report on all the resting I managed to get done: what was planned, how the plans changed, what was achieved, and what was not.
 
@@ -53,24 +53,24 @@ Unexpected goals:
 
 ## Results from 30000 feet
 
-I'm satisfied with the results, but the extra 6 months, of course, is annoying and spoils the picture.
+I'm satisfied with the results, but the extra 6 months, of course, is annoying and spoil the picture.
 
-The idea was to work through the accumulated issues at an easy pace and move on. Instead, I ended up having to push pretty hard just to avoid falling completely behind schedule. As a result, the resting part, for example, didn't really work out.
+The idea was to work through the accumulated issues at an easy pace and move on. Instead, I ended up having to push pretty hard just to avoid falling completely behind schedule. As a result, the resting part, for example, didn't really work out. I did manage to get some rest, though.
 
-The delay, obviously, was caused by additional goals — each of them ate away 3-6 months. On the other hand, even if World Builders may have been a conscious choice that turned out to be wrong, AI got into the plans without asking, and there is nothing to be done about it. I'm glad the rise of LLMs and coding agents happened during the sabbatical — I can't imagine figuring all of this out without stress while also working.
+The delay, obviously, was caused by additional goals — each of them ate away 3-6 months. On the other hand, even if choosing to do World Builders may have been a mistake, it was at least a deliberate choice; AI got into the plans without asking, and there is nothing to be done about it. I'm glad the rise of LLMs and coding agents happened during the sabbatical — I can't imagine figuring all of this out without stress while also working.
 
 There will be a section about World Builders, but the situation is roughly as follows: this activity didn't exactly inflict much direct benefit on me, but it did produce a lot of small, useful outcomes.
 
 The most noticeable failure, in my opinion, is the "non-launching" of my own project. There are two primary reasons:
 
 - Before the end of the World Builders course, it was unclear what it would be: a game or [feeds.fun](https://feeds.fun/).
-- I'm afraid of the German bureaucracy and don't want to spend extra money. So, Feeds Fun is theoretically ready for payment integration — it requires only a legal entity and a handler for webhooks from the payment service. Therefore, this goal is marked as 90% complete. I will integrate payments as soon as I decide what to do after the sabbatical.
+- I'm afraid of the German bureaucracy and don't want to spend extra money. So, everything needed to integrate payments into Feeds Fun is ready except for a legal entity and a handler for webhooks from the payment service. Therefore, this goal is marked as 90% complete. I will integrate payments as soon as I decide what to do after the sabbatical.
 
 Now I can go into more detail about what exactly I was doing. I'll skip the minor and personal stuff and go over the main areas.
 
 ## Open source
 
-These projects are covered in the following chapters, but I collected them here as well to give them a bit more weight.
+These projects are scattered across the following chapters, but I collected them here as well to give bit more weight to the whole open-source thing.
 
 During the sabbatical, I implemented 4 new projects from scratch and actively worked on two more (Feeds Fun and The Tale).
 
@@ -107,9 +107,9 @@ src = "./feeds-fun-screenshot.png"
 caption = "What the interface looks like now."
 ///
 
-Finally, I closed my gestalt on an ideologically correct authentication approach. It took more than two months of continuous [facepalms]{post:crazy-ory-infrastructure}, but it was worth it.
+I finally got closure on my quest for an ideologically correct authentication setup. It took more than two months of continuous [facepalms]{post:crazy-ory-infrastructure}, but it was worth it.
 
-nce again, I [refreshed my knowledge on backend metrics collection]{post:notes-on-backend-metrics-in-2024} and built cool dashboards for business and performance metrics.
+Once again, I [refreshed my knowledge of backend metrics collection]{post:notes-on-backend-metrics-in-2024} and built cool dashboards for business and performance metrics.
 
 Got the hang of monitoring LLM output quality and built a quality-control system for the tags Feeds Fun assigns to news. Using the resulting metrics, I implemented tag normalization, which reduced the number of unique tags by roughly a factor of five.
 
@@ -120,7 +120,7 @@ caption = "The number of unique tags per month before and after normalization."
 
 While optimizing performance, I ran into a rather [illustrative Python problem related to working with external libraries]{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}.
 
-[Ran a marketing test]{post:feeds-fun-marketing-test}, which produced rather weak numbers; I assumed it was because users had to enter their OpenAI/Gemini API key; so I decided to push the project to the monetization stage and repeat the test. [The required pricing has been calculated]{post:feeds-fun-monetization-approaches}, the code for crediting and spending "news tokens" is ready, what remains is to register a legal entity and connect real payments.
+[Ran a marketing test]{post:feeds-fun-marketing-test}, which produced rather weak numbers; I assumed it was because users had to enter their OpenAI/Gemini API key, so I decided to push the project to the monetization stage and repeat the test. [The required pricing has been calculated]{post:feeds-fun-monetization-approaches}, the code for crediting and spending "news tokens" is ready, what remains is to register a legal entity and connect real payments.
 
 ## Management
 
@@ -128,8 +128,8 @@ While working at Palta, I noticed that during discussions of managerial issues, 
 
 To achieve this, I picked a selection of [top books on management]{post:vantage-on-management-books} and read them. It took more time than I planned:
 
-1. Most of the books turned out to be quite good, they fit well with my experience and consequently spawned tons of notes and ideas that I needed to digest.
-2. It turned out I had way more ideas than I thought, especially about the nature of engineering, its connection with science, and what follows from that. That's why the final posts took significantly longer to write. But it was worth it.
+1. Most of the books did indeed turn out to be quite good, they fit well with my experience and consequently spawned tons of notes and ideas that I needed to digest.
+2. It turned out I had way more ideas than I thought, especially about the nature of engineering, its connection with science, and what follows from that. That's why the resulting posts took significantly longer to write. But it was worth it.
 
 As a result, I constructed my own approach to management — a bit radical compared to generally accepted practices — and published a series of essays, which I recommend everyone read, especially the part about the similarity between engineering and science.
 
@@ -198,7 +198,7 @@ While prototyping games, I started developing an experimental game engine — so
 - GUI is implemented as a full-fledged web interface: HTML + CSS + JS/TS/WebAssembly.
 - The engine is focused on building games through vibe coding => no visual editors, only code and configs under version control.
 
-So, it's pretty bizarre. Right now, the code looks extremely dirty and ugly, but there is one honestly vibe-coded game.
+So, it's pretty bizarre. Right now, the code looks extremely dirty and ugly, but at least there's a one genuinely vibe-coded game.
 
 /// brigid-images
 src = "./game-screenshot.png"
@@ -261,7 +261,7 @@ Want to make GAMES? Make them as a hobby and earn your living doing something el
 
 Gamedev is becoming a mass market (well, it became one a long time ago), which means it's starting to play by mass-market rules.
 
-Yes, there are exceptions — there always will be — but I would venture to suggest that if you dig into them, you'll find very rough personal stories, years of expertise, and some serendipitous circumstances.
+Yes, there are exceptions — there always will be — but I would venture to suggest that if you dig into them, you'll find some very difficult personal stories, years of expertise, and a very lucky set of circumstances.
 
 As you may have noticed, I still have some unresolved issues around separating hobbies from making money :-D
 
