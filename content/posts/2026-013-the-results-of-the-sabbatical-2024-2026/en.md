@@ -56,20 +56,20 @@ Unexpected goals:
 
 ## Results from 30000 feet
 
-Результатами я удовлетворён, но лишние полгода, конечно, раздражают и портят картину.
+I'm satisfied with the results, but the extra half a year, of course, is annoying and spoils the picture.
 
-Идея была в том, чтобы в лёгком темпе закрыть накопившиеся вопросы и двигаться дальше. Вместо этого пришлось довольно сильно напрягаться, чтобы совсем не вылететь из графика. В итоге с отдыхом, например, не задалось.
+The idea was to solve accumulated questions in a light pace and move on. Instead, a significant effort was required to keep myself on schedule. Consequently, for example, I didn't rest as much as I planned. However, I still rest a bit.
 
-Задержка, конечно, свяазана с дополнительными целями, каждая из которых отъела по 3-6 месяцев. С другой стороны, если участие в World Builders и было потенциально неверным осознаным выбором, то ИИ влез в планы без спроса и ничего с этим не поделать. Я рад, что взлёт LLM и coding agents пришёлся на саббатикал — совершенно не представляю как без стресса с этим можно было разобраться в рабочих условиях.
+The delay, obviously, was caused by additional goals — each of them ate away 3-6 months. On the other hand, even if we count participation in World Builders as a potentially wrong choice, AI got into the plans without asking and there is nothing to be done about it. I'm glad that the rise of LLMs and coding agents fell on the sabbatical — it would be much harder to deal with it while you are under obligations at work.
 
-Про World Builders я ещё скажу отдельно, но ситуация примерно следующая: большой прямой пользы эта активность не нанесла, но зато создала много небольших полезных моментов.
+There will be a section about World Builders, but the situation is roughly as follows: this activity did not bring much direct benefit, but it did create a lot of small useful outcomes.
 
-Самой заметной неудачей я считаю «не запуск» свеого проекта. Главных причин две:
+The most noticeable failure, in my opinion, is the "non-launching" of my own project. There are two primary reasons:
 
-- До завершения курса World Builders было не ясно, что это будет: игра или [feeds.fun](https://feeds.fun/).
-- Моя боязнь немецкой бюрократии и нежелание тратить лишние деньги. В итоге в Feeds Fun для подключения платежей готово всё, кроме юридического лица и обработчика веб-хуков от сервиса платежей. Поэтому этой цели поставлен прогресс в 90%. Подключу платежи как только определюсь, что буду делать после саббатикала.
+- Before the end of the World Builders course, it was unclear what it would be: a game or [feeds.fun](https://feeds.fun/).
+- I'm afraid of the German bureaucracy and don't want to spend extra money. So, Feeds Fun is theoretically ready for payment integration — it requires only a legal entity and a webhook handler from the payment service. Therefore, this goal is marked as 90% complete. I will integrate payments as soon as I decide what to do after the sabbatical.
 
-Теперь можно рассказать подробнее чем именно я занимался. Мелкие и личные вещи опущу, пройдёмся по основным направлениям.
+Now I could tell you in detail what I was doing. I will skip minor and personal things and go over the primary tracks.
 
 ## Open source
 
