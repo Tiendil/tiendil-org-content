@@ -57,16 +57,16 @@ I'm satisfied with the results, but the extra 6 months, of course, is annoying a
 
 The idea was to work through the accumulated issues at an easy pace and move on. Instead, I ended up having to push pretty hard just to avoid falling completely behind schedule. As a result, the resting part, for example, didn't really work out.
 
-The delay, obviously, was caused by additional goals — each of them ate away 3-6 months. On the other hand, even if World Builders may have been a conscious choice that turned out to be wrong, AI got into the plans without asking, and there is nothing to be done about it. I'm glad the rise of LLMs and coding agents fell on the sabbatical — it would be much harder to deal with it while you are under obligations at work.
+The delay, obviously, was caused by additional goals — each of them ate away 3-6 months. On the other hand, even if World Builders may have been a conscious choice that turned out to be wrong, AI got into the plans without asking, and there is nothing to be done about it. I'm glad the rise of LLMs and coding agents happened during the sabbatical — I can't imagine figuring all of this out without stress while also working.
 
-There will be a section about World Builders, but the situation is roughly as follows: this activity didn't bring much direct benefit, but it did produce a lot of small, useful outcomes.
+There will be a section about World Builders, but the situation is roughly as follows: this activity didn't exactly inflict much direct benefit on me, but it did produce a lot of small, useful outcomes.
 
 The most noticeable failure, in my opinion, is the "non-launching" of my own project. There are two primary reasons:
 
 - Before the end of the World Builders course, it was unclear what it would be: a game or [feeds.fun](https://feeds.fun/).
-- I'm afraid of the German bureaucracy and don't want to spend extra money. So, Feeds Fun is theoretically ready for payment integration — it requires only a legal entity and a webhook handler from the payment service. Therefore, this goal is marked as 90% complete. I will integrate payments as soon as I decide what to do after the sabbatical.
+- I'm afraid of the German bureaucracy and don't want to spend extra money. So, Feeds Fun is theoretically ready for payment integration — it requires only a legal entity and a handler for webhooks from the payment service. Therefore, this goal is marked as 90% complete. I will integrate payments as soon as I decide what to do after the sabbatical.
 
-Now I could tell you in detail what I was doing. I will skip minor and personal things and go over the primary tracks.
+Now I can go into more detail about what exactly I was doing. I'll skip the minor and personal stuff and go over the main areas.
 
 ## Open source
 
