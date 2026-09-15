@@ -32,18 +32,18 @@ The sabbatical was planned in advance and covered the following areas.
 
 Primary goals:
 
-- `[done]` Finish family relocation to Germany, solve household issues.
-- `[done]` Improve management theory knowledge.
-- `[90%]` Try to launch at least one own project.
+- `[done]` Finish moving the family to Germany, solve household issues.
+- `[done]` Brush up on management theory.
+- `[90%]` Try to launch at least one project of my own.
 
 Secondary goals:
 
-- `[50%]` Have some rest.
+- `[50%]` Get some rest.
 - `[in progress]` Improve my English.
 - `[50%]` Clear my book backlog.
 - `[done]` Update my blog.
 
-I gave myself 2 years for all those pleasures, but new goals cropped up and, in the end, it grew to 2.5 years.
+I gave myself 2 years for all this fun, but then new goals cropped up, and in the end it took 2.5 years.
 
 Unexpected goals:
 
