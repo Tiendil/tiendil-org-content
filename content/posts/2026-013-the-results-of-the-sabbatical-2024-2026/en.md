@@ -15,7 +15,7 @@ In 2023, [Yuliya](https://www.linkedin.com/in/burankova/) made a table of 1000 l
 
 "What a great excuse to take another sabbatica" — I thought, and so I did. Two and a half years later, it's time to ~~[look for a job]{post:looking-for-partners-and-projects}~~ take stock.
 
-In this post, you'll find a complete report on how the sabbatical was spent: what was planned, how the plans changed, what was achieved, and what was not.
+In this post, you'll find a full report on all the resting I managed to get done: what was planned, how the plans changed, what was achieved, and what was not.
 
 In short: blog updated, 68 posts written, 20 books read, 4 new open-source projects built, more than 400 GitHub stars earned, [feeds.fun](https://feeds.fun) made genuinely usable and ready for monetization, my own approach to management formulated, some weird but interesting courses on intellectual property development completed, AI figured out, coding agents coding, my wife's eye twitching.
 
