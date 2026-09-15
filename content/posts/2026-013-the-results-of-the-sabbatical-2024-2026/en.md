@@ -221,36 +221,36 @@ I totally read 20 books:
 - [7 books about Harry Potter]{post:about-book-harry-potter} — I read them as part of exploring English culture, since pretty much every English-speaking young adult grew up on them. I'm extremely unhappy with how little attention the author gives Hermione: the books are about a privileged jock, when they should have been about a strong, independent redhead from the lower classes.
 - [9 books about management]{post:vantage-on-management-books}.
 
-## Прочее
+## Other things
 
-Стоит упомянуть ещё несколько активностей.
+A few other activities are worth mentioning.
 
-Кроме того, что я [открыл лор Сказки под лицензией CC BY 4.0]{post:the-tale-lore-cc-by}, я ещё поучаствовал в подкасте про игру, где рассказал о её истории и особенностях.
+Besides [opening the lore of The Tale under the CC BY 4.0 license]{post:the-tale-lore-cc-by}, I also participated in a podcast about the game, where I talked about its history and features.
 
 /// brigid-youtube
 id = "5KODCBqhDu0"
-caption = "Игра опередившая время"
+caption = "The game that was ahead of its time."
 ///
 
-Блог претерпел огромные изменения:
+The blog has undergone major changes:
 
-- Перерехал с WordPress на собственный движок [Brigid](https://github.com/Tiendil/brigid).
-- Новые посты теперь выходят сразу на двух языках: русском и английском.
+- Moved from WordPress to a custom engine [Brigid](https://github.com/Tiendil/brigid).
+- All new posts are now published in both Russian and English.
 
-Английский активно доучивается сразу по нескольким направлениям:
+I've been actively working on my English in several areas at once:
 
-- Пишу англоязычные посты в блоге.
-- Все книги читаю на английском.
-- Добиваю словарный запас с помощью [Duocards](https://duocards.com/).
-- Фармлю карму на Reddit.
-- Наконец-то нашёл репетитора, с которым занимаюсь два раза в неделю.
+- Write posts in English on the blog.
+- Read books in English.
+- Round out my vocabulary with the help of [Duocards](https://duocards.com/).
+- Farm karma on Reddit.
+- At least I found a tutor with whom I study twice a week.
 
-Бытовые вопросы в Германии, само собой, решены.
+All the practical matters of settling in Germany are, of course, sorted out. Not only by me, of course, but by Yuliya as well.
 
-Если вам интересны подробности, то их можно найти в годовых отчётах:
+If you need more details, you can find them in the annual reports:
 
-- [Отчёт за 2024 год]{post:2025-001-results-of-2024-for-me-and-the-blog}
-- [Отчёт за 2025 год]{post:2025-020-results-of-2025-for-me-and-the-blog}
+- [Report for the 2024]{post:2025-001-results-of-2024-for-me-and-the-blog}
+- [Report for the 2025]{post:2025-020-results-of-2025-for-me-and-the-blog}
 
 ## Выводы для себя
 
