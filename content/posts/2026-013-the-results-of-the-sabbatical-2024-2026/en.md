@@ -120,15 +120,15 @@ caption = "The number of unique tags per month before and after normalization."
 
 While optimizing performance, I ran into a rather [illustrative Python problem related to working with external libraries]{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}.
 
-[Made a marketing test]{post:feeds-fun-marketing-test}, which showed not-so-good metrics; I assumed it was because users had to enter their OpenAI/Gemini API key, so I decided to push the project to monetization and repeat the test. [The estimation of necessary prices was made]{post:feeds-fun-monetization-approaches}, the code for earning and spending "news tokens" is ready, what remains is to register a legal entity and connect real payments.
+[Ran a marketing test]{post:feeds-fun-marketing-test}, which produced rather weak numbers; I assumed it was because users had to enter their OpenAI/Gemini API key; so I decided to push the project to the monetization stage and repeat the test. [The required pricing has been calculated]{post:feeds-fun-monetization-approaches}, the code for crediting and spending "news tokens" is ready, what remains is to register a legal entity and connect real payments.
 
-# Management
+## Management
 
-While working at Palta, I noticed that during discussions of managerial issues, I don't always speak in a language people understand — as a result, it is difficult to convey my undoubtedly wise managerial ideas to colleagues quickly and easily. Over the years, I've developed my own conceptual framework, which isn't always convenient for other people — and isn't always necessary for them either. Plus, some of my ideas turned out to be ~~too brilliant~~ raw and unpolished. Therefore, it was decided to sync with reality — ground myself a bit.
+While working at Palta, I noticed that during discussions of managerial issues, I don't always speak in a language people understand — as a result, it is difficult to convey my undoubtedly wise managerial ideas to colleagues quickly and easily. Over the years, I've developed my own conceptual framework, which isn't always convenient for other people — and isn't always necessary for them either. Plus, some of my ideas turned out to be ~~too brilliant~~ raw and unpolished. So it was decided: time to sync with reality and get a little more grounded.
 
-To achieve this, I chose [top management books]{post:vantage-on-management-books} and read them. It took more time than I planned:
+To achieve this, I picked a selection of [top books on management]{post:vantage-on-management-books} and read them. It took more time than I planned:
 
-1. Most of the books turned out to be quite good, they fit well with my experience and consequently spawned tons of notes and ideas that needed to be boiled down.
+1. Most of the books turned out to be quite good, they fit well with my experience and consequently spawned tons of notes and ideas that I needed to digest.
 2. It turned out I had way more ideas than I thought, especially about the nature of engineering, its connection with science, and what follows from that. That's why the final posts took significantly longer to write. But it was worth it.
 
 As a result, I constructed my own approach to management — a bit radical compared to generally accepted practices — and published a series of essays, which I recommend everyone read, especially the part about the similarity between engineering and science.
