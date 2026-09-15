@@ -140,32 +140,32 @@ As a result, I constructed my own approach to management — a bit radical if co
 tag = "vantage-on-management"
 ///
 
-## Искусственный интеллект
+## Artificial Intelligence
 
-Благодаря саббатикалу я смог в спокойной абстановке без спешки разобраться как оно примерно работает, что может, что не может и что сможет в ближайшем будущем.
+Thanks to the sabbatical, I was able to take my time and figure out, in a calm environment, roughly how it works, what it can and can't do, and what it's likely to be capable of in the near future.
 
-На эту тему у меня вышло много постов, вы можете найти их по тегу [large-language-models]{tags:large language models}. Далее упомяну только самое интересное.
+I published numerous posts on this topic, all of them can be found under the tag [large-language-models]{tags:large language models}. Here I'll mention only the most interesting ones.
 
-Разобрался что такое LLM и сделал прогноз их развития на ближайшее будущее, пока сбывается (2 года уже):
+I got a good handle on what LLMs are and made a forecast for how they would develop in the near future. So far, it's holding up — two years and counting:
 
 /// brigid-series
 tag = "ai-notes-2024"
 ///
 
-Наработал [опыт разработки с coding agents]{post:notes-on-coding-agents}.
+Gained hands-on [experience developing with coding agents]{post:notes-on-coding-agents}.
 
-Выпустил две CLI утилиты для работы с coding agents:
+Released two CLI utilities for coding agents:
 
-- [donna](https://github.com/Tiendil/donna) — CLI для контроля потока исполнения вашего агента, чтобы агент шёл строго по workflow.
-- [depmesh](https://github.com/tiendil/depmesh) — CLI для определения зависимостей между файлами вашего проекта, чтобы агенты могли быстрее и экономнее формировать контекст.
+- [donna](https://github.com/Tiendil/donna) — A CLI tool that helps agents keep long-running work on a predefined path..
+- [depmesh](https://github.com/tiendil/depmesh) — CLI for discovering dependencies between files in your project, so agents can form context faster and more economically.
 
-На подходе ещё несколько — следите за моими постами.
+More CLI utilities are coming — follow my posts.
 
-И даже поучаствовал в подскасте:
+I even participated in a podcast:
 
 /// brigid-youtube
 id = "kUvmhGsUTo4"
-caption = "Что на самом деле меняют ИИ-агенты в разработке"
+caption = "What AI agents really change in development (Russian language)."
 ///
 
 ## Курсы World Builders
