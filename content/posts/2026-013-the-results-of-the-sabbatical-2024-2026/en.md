@@ -252,16 +252,20 @@ If you need more details, you can find them in the annual reports:
 - [Report for the 2024]{post:2025-001-results-of-2024-for-me-and-the-blog}
 - [Report for the 2025]{post:2025-020-results-of-2025-for-me-and-the-blog}
 
-## Выводы для себя
+## Takeaways
 
-Кроме перечисленного выше и упомянутого в годовых отчётах, для себя я сделал ещё несколько заметок.
+Besides everything listed above and mentioned in the annual reports, I came away with a few more notes for myself.
 
-**Первое.** Разработка продукта «для себя» и «для зарабатывания денег» — это разные вещи. Каждое направление предполагает фичи и архитектуру, которые не нужны в другом. Поэтому, если двигаться сразу в обе стороны, двигаться будешь медленнее. Как этого можно было избежать в случае с Feeds Fun я слабо представляю, но в будущем попробую эти цели разделять именно на уровне продуктов.
+**First.** Building a product "for yourself" and building one "to make money" are two different things. Each direction calls for features and architecture that the other doesn't need. So if you try to move in both directions at once, you'll move more slowly. I'm not sure how I could have avoided this with Feeds Fun, but in the future I'll try to separate these goals at the product level.
 
-**Второе.** Из своего опыта и из того, что я вижу на рынке, я сделал вывод, что надо жёстко разделять «геймдев для создания игр» и «геймдев для зарабатывания денег» и не пытаться одним выстрелом двух зайцев убить — не получится — требования совершенно противоположные. Причём, хочу обратить внимание, самореализоваться можно в любом из них, даже в двух, но по очереди.
+**Second.** Based on my own experience and what I see in the market, I've concluded that "gamedev for making games" and "gamedev for making money" need to be kept strictly separate. Don't try to kill two birds with one stone — it won't work. The requirements are fundamentally opposed. And, importantly, you can find self-fulfillment in either one, even in both — just not at the same time. It's a kind of continuation of the previous point.
 
-Хотите делать ИГРЫ — делайте их как хобби, а на еду зарабатывайте другим. Хотите зарабатывать ДЕНЬГИ — забудьте о том, что вы делаете что-то уникальное — всё равно не сделаете, ваши лучше друзья — маркетинг, бесконечные A/B тесты, хайп, усреднение, [симулякры геймплея]{post:one-form-two-products}, etc.
+Want to make GAMES? Make them as a hobby and earn your living doing something else. Want to make MONEY — forget about making something unique — your best friends are marketing, endless A/B tests, hype, averaging things out, [gameplay simulacra]{post:one-form-two-products}, etc.
 
-Как можно заметить, у меня есть нерешённые вопросы с разделеним хобби и зарабатывания денег :-D
+Gamedev is becoming a mass market (it has already for some time), which means it starts to work according to its laws.
 
-**Третье.** В следующий раз надо явно разделить исследовательский трек и трек разработки продукта(ов). Трек разработки должен иметь фиксированные сроки и оптимизироваться через урезание объёма работа (всё неопределённое перемещается в исследовательский трек), а трек исследования должен оптимизироваться через приоритизацию — с самым важным разбираемся в первую очередь, что не успели — то не успели.
+Yes, there are exceptions — there always will be — but I would venture to suggest that if you dig under them, you'll find very heavy personal stories, years of expertise, and some serendipitous circumstances.
+
+As you may have noticed, I still have some unresolved issues around separating hobbies from making money :-D
+
+**Third.** Next time, I need to explicitly separate the research track from the product development track. Development should have fixed deadlines and be optimized by cutting scope by moving uncertain things to research track. Research, on the other hand, should be optimized through prioritization: tackle the most important things first, and whatever doesn't get done simply doesn't get done.
