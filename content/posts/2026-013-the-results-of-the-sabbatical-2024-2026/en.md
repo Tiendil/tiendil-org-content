@@ -73,18 +73,18 @@ Now I could tell you in detail what I was doing. I will skip minor and personal 
 
 ## Open source
 
-Эти проекты должны быть раскиданы по нижележащим главам, но я решил для пущей важности дополнительно собрать их тут.
+These projects are covered in the following chapters, but I decided to collect them here as well, just to give them a bit more weight.
 
-За саббатикал я с нуля реализовал 4 новых проекта и активно работал над ещё двумя (Feeds Fun и Сказка).
+During the sabbatical, I implemented 4 new projects from scratch and actively worked on two more (Feeds Fun and The Tale).
 
-- [feeds.fun](https://github.com/Tiendil/feeds.fun) — web-based self-hosted читалка новостей с тегами и правилами приоритезации новостей.
-- [brigid](https://github.com/Tiendil/brigid) — движок этого блога.
-- [changy](https://github.com/Tiendil/changy) — CLI менеджер/генератор changelog для людей — его используют все моим проекты.
-- [donna](https://github.com/Tiendil/donna) — CLI для контроля потока исполнения вашего агента, чтобы агент работал строго по workflow.
-- [depmesh](https://github.com/tiendil/depmesh) — CLI для определения зависимостей между файлами вашего проекта, чтобы агенты могли быстрее и экономнее формировать контекст.
-- [Лор Сказки](https://the-tale.notion.site/) открыт под лицензей `CC BY 4.0`, игра остановлена после 13 лет работы. На всякий случай, вот [сайт игры](https://the-tale.org) и [исходники](https://github.com/the-tale).
+- [feeds.fun](https://github.com/Tiendil/feeds.fun) — web-based self-hosted news reader with tags and rules for ranking news.
+- [brigid](https://github.com/Tiendil/brigid) — the engine of this blog.
+- [changy](https://github.com/Tiendil/changy) — CLI changelog manager/generator for humans — used in all my projects.
+- [donna](https://github.com/Tiendil/donna) — A CLI tool that helps agents keep long-running work on a predefined path..
+- [depmesh](https://github.com/tiendil/depmesh) — CLI for discovering dependencies between files in your project, so agents can form context faster and more economically.
+- [The lore of The Tale](https://the-tale.notion.site/) was released under the `CC BY 4.0` license, the game was stopped after 13 years of operation. Just in case, here is [the game website](https://the-tale.org) and [the source code](https://github.com/the-tale).
 
-Большинство проектов приносит пользу не только мне, но и другим людям — это радует.
+Most of the projects are bringing value not only to me but also to other people — that's nice.
 
 ## Feeds Fun
 
