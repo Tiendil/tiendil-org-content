@@ -189,23 +189,23 @@ I didn't like Godot, although I admit that for small indie developers it may be 
 
 [I changed my opinion about Rust]{post:rust-the-language-things-get-rewritten-in} from negative to positive. Now I believe that Rust is the best language for developing with coding agents. If possible, I will do the next commercial project in Rust, instead of Python.
 
-### «Секретный» проект
+### "Secret" project
 
-Пока прототипировал игры, я начал разработку собственного экспериментального игрового движка — как-то само получилось :-D Началась разработка в ручном режиме ещё до взлёта coding agents, но сейчас это ещё и эксперимент по вайбкодингу сложных систем. Делаю я это сугубо в свободное время и без конечной цели, поэтому не советую ждать релизов в ближайшее время. Но если интересно, вот некоторые его фичи:
+During the game prototyping, I started developing an experimental game engine — somehow it just happened :-D The development started in manual mode before the rise of coding agents, but now it's also an experiment in vibe-coding complex systems. I do this purely in my free time and without a final goal, so there will be no releases in the near future. But if you're interested, here are some of its features:
 
-- Полностью детерминистическая игровая логика.
-- Все параметры игровых сущностей организованы в общий вычислительный граф.
-- Жёское разделение бэкенда (логика) и фронтенда (рендеринг, UI, звук, ввод, etc) игры. Вплоть до возможности запуска нескольких фронтендов на разных машинах (при одном бэкенде).
-- Интеграция элементов логического программирования.
-- В перспективе хочу, чтобы бэкенд для внешних утилит выглядел как реляционная база данных.
-- GUI реализован как полноценный веб интерфейс: HTML + CSS + JS/TS/WebAssembly.
-- Фокус на создание игр через вайбкодинг => никаких визуальных редакторов, только код и конфиги под системой контроля версий.
+- Fullly deterministic game logic.
+- All parameters of the game entities are organized into a single computational graph.
+- Strict separation between the game's backend (logic) and frontend (rendering, UI, audio, input, etc.), to the point where multiple frontends can run on different machines against a single backend.
+- Built-in logic programming elements.
+- Eventually, I want the backend to look like a relational database to external tools.
+- GUI is implemented as a full-fledged web interface: HTML + CSS + JS/TS/WebAssembly.
+- The focus of the engine is on the vibe-coding games => no visual editors, only code and configs under version control.
 
-Вот такая жуть. Сейчас это выглядит крайне грязно и некрасиво, зато есть целая честно навайбкоженая игра.
+So, it's quait a bizarre thing. Currently the code looks extremely dirty and ugly, but there is a one whole honestly vibe-coded game.
 
 /// brigid-images
 src = "./game-screenshot.png"
-caption = "Скриншот полностью навибкоженной игры."
+caption = "Screenshot of the fully vibe-coded game."
 ///
 
 ## Книги
