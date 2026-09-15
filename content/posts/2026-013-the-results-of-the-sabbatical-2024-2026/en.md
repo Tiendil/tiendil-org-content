@@ -79,7 +79,7 @@ During the sabbatical, I implemented 4 new projects from scratch and actively wo
 - [changy](https://github.com/Tiendil/changy) — CLI changelog manager/generator for humans — used in all my projects.
 - [donna](https://github.com/Tiendil/donna) — A CLI tool that helps agents keep long-running work on a predefined path.
 - [depmesh](https://github.com/tiendil/depmesh) — CLI for discovering dependencies between files in your project, so agents can form context faster and more economically.
-- [The lore of The Tale](https://the-tale.notion.site/) was released under the `CC BY 4.0` license; the game was stopped after 13 years of operation. Just in case, here is [the game website](https://the-tale.org) and [the source code](https://github.com/the-tale).
+- [The lore of The Tale](https://the-tale.notion.site/) was released under the `CC BY 4.0` license; the game was shut down after 13 years of operation. Just in case, here is [the game website](https://the-tale.org) and [the source code](https://github.com/the-tale).
 
 Most projects bring value not only to me but also to others — that's nice.
 
@@ -87,7 +87,7 @@ Most projects bring value not only to me but also to others — that's nice.
 
 /// brigid-images
 src = "./feeds-fun-stars.png"
-caption = "The stars dynamics of the [feeds.fun](https://github.com/Tiendil/feeds.fun) repository."
+caption = "GitHub stars over time for the [feeds.fun](https://github.com/Tiendil/feeds.fun) repository."
 ///
 
 At first, I felt a bit down about the project's progress, but then I noticed that the repository had gone from ~~10 to 400~~ 11 to 394 stars, and went off to read the [CHANGELOG](https://github.com/Tiendil/feeds.fun/blob/main/CHANGELOG.md).
@@ -104,12 +104,12 @@ I got the interface to the "not embarrassing to show people anymore" stage.
 
 /// brigid-images
 src = "./feeds-fun-screenshot.png"
-caption = "Current interface view."
+caption = "What the interface looks like now."
 ///
 
 Finally, I closed my gestalt on an ideologically correct authentication approach. It took more than two months of continuous [facepalms]{post:crazy-ory-infrastructure}, but it was worth it.
 
-One more time, I [refreshed my knowledge on backend metrics collection]{post:notes-on-backend-metrics-in-2024} and built cool dashboards for business and performance metrics.
+nce again, I [refreshed my knowledge on backend metrics collection]{post:notes-on-backend-metrics-in-2024} and built cool dashboards for business and performance metrics.
 
 Got the hang of monitoring LLM output quality and built a quality-control system for the tags Feeds Fun assigns to news. Using the resulting metrics, I implemented tag normalization, which reduced the number of unique tags by roughly a factor of five.
 
