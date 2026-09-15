@@ -168,26 +168,26 @@ id = "kUvmhGsUTo4"
 caption = "What AI agents really change in development (Russian language)."
 ///
 
-## Курсы World Builders
+## World Builders course
 
-Самая спорная активность, которая прямой пользы скорее мне не принесла, но породила несколько активностей, которые я считаю достаточно полезными, чтобы оправдать трату времени.
+The most controversial activity, which probably didn't bring me much direct value, but spawned several activities that I consider quite useful to justify the time spent.
 
-По задумке авторов ([Ярополк Раш](https://www.linkedin.com/in/yarrrash/) и [Алекс Поляков](https://www.linkedin.com/in/alex-pollackov-347395a8/)) курсы должны были перерасти во что-то вроде [MBA](https://ru.wikipedia.org/wiki/Магистр_делового_администрирования) для креативных директоров, но в итоге получился только один набор. Жаль, материал был интересный.
+The idea, according to the authors ([Yaropolk Rash](https://www.linkedin.com/in/yarrrash/) and [Alex Polyakov](https://www.linkedin.com/in/alex-pollackov-347395a8/)), was to grow the course into something like an [MBA](https://en.wikipedia.org/wiki/Master_of_Business_Administration) for creative directors, but in the end there was only one cohort. A shame — the material was interesting.
 
-Непосредственно курсами мне была нанесена следующая польза:
+The courses inflicted the following benefits on me:
 
-- Я синхронизировал с реальностью свою модель мира в области планирования разработки и проектирования виртуальных миров. Часть про планирование была полезна и сама по себе.
-- Сделал [исследование предпочтений игроков в стратегические игры]{post:making-a-fictional-universe-quantity-survey-processing}.
-- [Обкатал некоторые игровые механики на прототипе игры]{post:simulation-of-public-opinion-in-a-game}.
-- Потренировался в [питче игр]{post:world-builders-2023-final-presentation} и расчёте [бизнес-плана]{post:world-builders-2023-business-plan-example}.
+- I synced with reality my [world model]{post:life-and-work-with-models} in the area of development planning and virtual world design.
+- Conducted [research into the preferences of strategy game players]{post:making-a-fictional-universe-quantity-survey-processing}.
+- [Played around with some game mechanics on a game prototype]{post:simulation-of-public-opinion-in-a-game}.
+- Got some practice [pitching games]{post:world-builders-2023-final-presentation} and [business planing]{post:world-builders-2023-business-plan-example}.
 
-Предполагаю, что всё это мне со временем пригодится, к сожалению, не прямо сейчас.
+All of this is likely to be useful to me over time, unfortunately not right now.
 
-Куда более важно, что по итогам курсов у меня зачесались руки на создание более глубокого игрового прототипа и я пошёл разбираться с [Rust](https://rust-lang.org/) и [Godot](https://godotengine.org/).
+Much more importantly, the courses left me itching to build a more substantial game prototype, so I started looking into [Rust](https://rust-lang.org/) and [Godot](https://godotengine.org/).
 
-Godot мне не понравился, хотя я и признаю, что для indie разработчиков он может быть лучшим вариантом.
+I didn't like Godot, although I admit that for small indie developers it may be the best option.
 
-[Я поменял своё мнение о Rust]{post:rust-the-language-things-get-rewritten-in} с негативного на позитивное. Теперь я считаю, что Rust — это лучший язык для разработки с помощью coding agents. Если будет возможность, следующий коммерческий проект буду делать на Rust, а не на Python.
+[I changed my opinion about Rust]{post:rust-the-language-things-get-rewritten-in} from negative to positive. Now I believe that Rust is the best language for developing with coding agents. If possible, I will do the next commercial project in Rust, instead of Python.
 
 ### «Секретный» проект
 
