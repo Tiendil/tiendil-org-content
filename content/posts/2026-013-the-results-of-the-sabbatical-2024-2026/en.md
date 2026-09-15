@@ -237,10 +237,10 @@ The blog has undergone major changes:
 I've been actively working on my English in several areas at once:
 
 - Write posts in English on the blog.
-- Read books in English.
+- Read all my books in English.
 - Round out my vocabulary with the help of [Duocards](https://duocards.com/).
 - Farm karma on Reddit.
-- At least I found a tutor with whom I study twice a week.
+- Finally found a tutor I study with twice a week.
 
 All the practical matters of settling in Germany are, of course, sorted out — not only by me, but by Yuliya as well.
 
@@ -257,12 +257,12 @@ Besides everything listed above and mentioned in the annual reports, I came away
 
 **Second.** Based on my own experience and what I see in the market, I've concluded that "gamedev for making games" and "gamedev for making money" need to be kept strictly separate. Don't try to kill two birds with one stone — it won't work. The requirements are fundamentally opposed. And, importantly, you can find self-fulfillment in either one, even in both — just not at the same time. It's a kind of continuation of the previous point.
 
-Want to make GAMES? Make them as a hobby and earn your living doing something else. Want to make MONEY — forget about making something unique — your best friends are marketing, endless A/B tests, hype, averaging things out, [gameplay simulacra]{post:one-form-two-products}, etc.
+Want to make GAMES? Make them as a hobby and earn your living doing something else. Want to make MONEY — forget about making something unique — your best friends are marketing, endless A/B tests, hype, designing for the average, [gameplay simulacra]{post:one-form-two-products}, etc.
 
-Gamedev is becoming a mass market (it has already been for some time), which means it starts to work according to its laws.
+Gamedev is becoming a mass market (well, it became one a long time ago), which means it's starting to play by mass-market rules.
 
-Yes, there are exceptions — there always will be — but I would venture to suggest that if you dig under them, you'll find very heavy personal stories, years of expertise, and some serendipitous circumstances.
+Yes, there are exceptions — there always will be — but I would venture to suggest that if you dig into them, you'll find very rough personal stories, years of expertise, and some serendipitous circumstances.
 
 As you may have noticed, I still have some unresolved issues around separating hobbies from making money :-D
 
-**Third.** Next time, I need to explicitly separate the research track from the product development track. Development should have fixed deadlines and be optimized by cutting scope by moving uncertain things to the research track. Research, on the other hand, should be optimized through prioritization: tackle the most important things first, and whatever doesn't get done simply doesn't get done.
+**Third.** Next time, I need to explicitly separate the research track from the product development track. Development should have fixed deadlines and be optimized by cutting scope: anything uncertain gets moved to the research track. Research, on the other hand, should be optimized through prioritization: tackle the most important things first, and whatever doesn't get done simply doesn't get done.
