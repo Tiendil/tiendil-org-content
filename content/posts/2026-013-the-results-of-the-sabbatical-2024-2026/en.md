@@ -13,7 +13,7 @@ caption = "Idiomatically spending a sabbatical."
 
 In 2023, [Yuliya](https://www.linkedin.com/in/burankova/) made a table of 1000 labs (!), chose one, moved to Germany, and started doing a PhD there. For a year, we flew back and forth between Poland and Germany, realized it was terribly inconvenient and expensive, so I quit [Palta](https://palta.com/) and, at the beginning of 2024, moved to Germany as a trailing spouse.
 
-"What a great opportunity to start another sabbatical" — I thought, and so I did. Two and a half years later, it's time to ~~[look for a job]{post:looking-for-partners-and-projects}~~ take stock.
+"What a great excuse to take another sabbatica" — I thought, and so I did. Two and a half years later, it's time to ~~[look for a job]{post:looking-for-partners-and-projects}~~ take stock.
 
 In that text, you will find a complete report on how the sabbatical was spent: what was planned, how the plans changed, what was achieved, and what was not.
 
