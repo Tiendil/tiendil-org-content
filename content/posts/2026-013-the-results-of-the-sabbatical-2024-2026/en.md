@@ -22,7 +22,7 @@ In short: blog updated, 68 posts written, 20 books read, 4 new open-source proje
 A few links to better understand the post:
 
 - [What are sabbaticals and why I take them]{post:sabbaticals}.
-- That is my second full sabbatical; here is [the report on the first one]{post:the-results-of-the-sabbatical-2019-2021}.
+- This is my second full sabbatical; here is [the report on the first one]{post:the-results-of-the-sabbatical-2019-2021}.
 
 <!-- more -->
 
