@@ -125,16 +125,16 @@ Optimized performance, while doing so, I ran into a rather [illustrative Python 
 
 [Made a marketing test]{post:feeds-fun-marketing-test}, which showed not-so-good metrics; I assumed it was because users were required to enter their OpenAI/Gemini API key, so I decided to push the project to monetization and repeat the test. [The estimation of necessary prices was made]{post:feeds-fun-monetization-approaches}, the code for earning and spending "news tokens" is ready, what remains is to register a legal entity and connect real payments.
 
-## Менеджмент
+# Management
 
-Пока я работал в Palta, обратил внимание, что далеко не всегда разговариваю с людьми на их языке, из-за этого сложно легко и быстро доносить свои безусловно мудрые менеджерские идеи до коллег. За годы у меня в голове сформировался свой понятийный аппарат, который не всегда удобен людям, да и не всегда нужен. Плюс, некоторые мои идеи на поверку оказались ~~слишком гениальными~~ сыроваты, недостаточно продуманны. Поэтому было решено синхронизироваться с реальностью, заземляться.
+While working at Palta, I noticed that during discussions of managerial issues, I do not always speak to people in a language they understand — as a result, it is difficult to easily and quickly convey my undoubtedly wise managerial ideas to colleagues. Over the years, I've developed my own conceptual framework, which isn't always convenient for other people — and isn't always necessary to them either. Plus, some my ideas turned out to be ~~too brilliant~~ raw and unpolished. Therefore, it was decided to sync with reality — ground myself a bit.
 
-Для этого я выбрал [топ книг по менеджменту]{post:vantage-on-management-books} и прочитал их. Заняло это больше времени, чем я планировал, так как:
+To achieve this, I chose [top management books]{post:vantage-on-management-books} and read them. It took more time than I planned:
 
-1. Книги таки оказались топовыми, хорошо ложились на мой опыт, а значит пораждали кучу заметок и идей, которые необходимо было переварить.
-2. Оказалось у меня куда больше идей, чем я думал, особенно о природе инженерии, её связи с наукой и о том, что из этого следует. Поэтому итоговые посты писались значительно дольше. Но оно того стоило.
+1. Most of the books turned out to be quite good, they fit well with my experience and consequently spawned tons of notes and ideas that needed to boiled down.
+2. It turned out I had way more ideas than I thought, especially about the nature of engineering, its connection with science, and what follows from that. That's why the final posts took significantly longer to write. But it was worth it.
 
-В итоге я сформулировал свой подход к менеджменту, местами немного радикальный (если сравнивать с общепринятыми практиками) и написал серию постов, которую всем рекомендую почитать, особенно часть про сходство инженерии и науки.
+As a result, I constructed my own approach to management — a bit radical if compared to generally accepted practices — and published a series of essays, which I recommend everyone to read, especially the part about the similarity between engineering and science.
 
 /// brigid-series
 tag = "vantage-on-management"
