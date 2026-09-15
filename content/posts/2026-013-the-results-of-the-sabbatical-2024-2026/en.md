@@ -208,18 +208,18 @@ src = "./game-screenshot.png"
 caption = "Screenshot of the fully vibe-coded game."
 ///
 
-## Книги
+## Books
 
-С книгами получилось как всегда: пока разгребал накопившуюся очередь, купил новых — очередь не уменьшилась.
+Books went the way they always do: while I was working through the backlog, I bought more, so the backlog didn't get any smaller.
 
-Всего прочитал 20 книг:
+I totally read 20 books:
 
-- [Как устроена экономика]{post:about-book-economics-the-users-guide}
-- [Сеть и бабочка]{post:about-book-the-net-and-the-butterfly}
-- [Piranesi]{post:about-book-piranesi} — рекомендую, Сюзанна Кларк, как всегда, бесподобна.
-- [Сигнал и Шум]{post:review-of-the-signal-and-the-noise}
-- [7 книг про Гарри Поттера]{post:about-book-harry-potter} — читал в рамках знакомства с английской культурой, так как все англоговорящие young adult на них выросли. Крайне недоволен мизерным вниманием автора к Гермионе: книга про спортика-мажора, а должна была быть про сильную и независимую рыжуху из низов.
-- [9 книг про менеджмент]{post:vantage-on-management-books}.
+- [Economics: The User's Guide]{post:about-book-economics-the-users-guide}
+- [The Net And The Butterfly]{post:about-book-the-net-and-the-butterfly}
+- [Piranesi]{post:about-book-piranesi} — highly recommended, Susanna Clarke is brilliant, as always.
+- [The Signal and the Noise]{post:review-of-the-signal-and-the-noise}
+- [7 books about Harry Potter]{post:about-book-harry-potter} — I read them as part of exploring English culture, since pretty much every English-speaking young adult grew up on them. I'm extremely unhappy with how little attention the author gives Hermione: the books are about a privileged jock, when they should have been about a strong, independent redhead from the lower classes.
+- [9 books about management]{post:vantage-on-management-books}.
 
 ## Прочее
 
