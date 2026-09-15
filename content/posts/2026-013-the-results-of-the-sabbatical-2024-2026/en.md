@@ -48,16 +48,16 @@ I gave myself 2 years for all this fun, but then new goals cropped up, and in th
 Unexpected goals:
 
 - `[done]` Finish the World Builders course on intellectual property development and fictional world creation.
-- `[done]` Break AI hype down: what is what and where everything is going.
+- `[done]` Make sense of the AI hype: what's what and where it's all going.
 - `[in progress]` Understand coding agents, learn to use them effectively.
 
 ## Results from 30000 feet
 
-I'm satisfied with the results, but the extra half a year, of course, is annoying and spoils the picture.
+I'm satisfied with the results, but the extra 6 months, of course, is annoying and spoils the picture.
 
-The idea was to solve accumulated questions at a light pace and move on. Instead, I had to put in significant effort to stay on schedule. Consequently, for example, I didn't rest as much as I planned. However, I still rested a bit.
+The idea was to work through the accumulated issues at an easy pace and move on. Instead, I ended up having to push pretty hard just to avoid falling completely behind schedule. As a result, the resting part, for example, didn't really work out.
 
-The delay, obviously, was caused by additional goals — each of them ate away 3-6 months. On the other hand, even if we count participation in World Builders as a potentially wrong choice, AI got into the plans without asking, and there is nothing to be done about it. I'm glad the rise of LLMs and coding agents fell on the sabbatical — it would be much harder to deal with it while you are under obligations at work.
+The delay, obviously, was caused by additional goals — each of them ate away 3-6 months. On the other hand, even if World Builders may have been a conscious choice that turned out to be wrong, AI got into the plans without asking, and there is nothing to be done about it. I'm glad the rise of LLMs and coding agents fell on the sabbatical — it would be much harder to deal with it while you are under obligations at work.
 
 There will be a section about World Builders, but the situation is roughly as follows: this activity didn't bring much direct benefit, but it did produce a lot of small, useful outcomes.
 
