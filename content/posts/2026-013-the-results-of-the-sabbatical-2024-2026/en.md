@@ -176,9 +176,9 @@ The courses inflicted the following benefits on me:
 - I synced my [world model]{post:life-and-work-with-models} with reality in the area of development planning and virtual world design.
 - Conducted [research into the preferences of strategy game players]{post:making-a-fictional-universe-quantity-survey-processing}.
 - [Played around with some game mechanics on a game prototype]{post:simulation-of-public-opinion-in-a-game}.
-- Got some practice [pitching games]{post:world-builders-2023-final-presentation} and [business planing]{post:world-builders-2023-business-plan-example}.
+- Got some practice [pitching games]{post:world-builders-2023-final-presentation} and [business planning]{post:world-builders-2023-business-plan-example}.
 
-All of this will likely be useful to me over time, but not right now.
+All of this will likely be useful to me over time — unfortunately, just not right now.
 
 Much more importantly, the courses left me itching to build a more substantial game prototype, so I started looking into [Rust](https://rust-lang.org/) and [Godot](https://godotengine.org/).
 
@@ -188,15 +188,15 @@ I didn't like Godot, though I admit it may be the best option for small indie de
 
 ### "Secret" project
 
-During the game prototyping, I started developing an experimental game engine — somehow it just happened :-D The development started in manual mode before the rise of coding agents, but now it's also an experiment in vibe-coding complex systems. I do this purely in my free time and without a final goal, so there will be no releases in the near future. But if you're interested, here are some of its features:
+While prototyping games, I started developing an experimental game engine — somehow it just happened :-D The development started in manual mode before the rise of coding agents, but now it's also an experiment in vibe-coding complex systems. I do this purely in my free time and without a final goal, so there will be no releases in the near future. But if you're interested, here are some of its features:
 
 - Fully deterministic game logic.
 - All parameters of the game entities are organized into a single computational graph.
 - Strict separation between the game's backend (logic) and frontend (rendering, UI, audio, input, etc.), to the point where multiple frontends can run on different machines against a single backend.
 - Built-in logic programming elements.
-- Eventually, I want the backend to look like a relational database to external tools.
+- Eventually, I want the backend to present itself to external tools as a relational database.
 - GUI is implemented as a full-fledged web interface: HTML + CSS + JS/TS/WebAssembly.
-- The focus of the engine is on the vibe-coding games => no visual editors, only code and configs under version control.
+- The engine is focused on building games through vibe coding => no visual editors, only code and configs under version control.
 
 So, it's pretty bizarre. Right now, the code looks extremely dirty and ugly, but there is one honestly vibe-coded game.
 
@@ -209,7 +209,7 @@ caption = "Screenshot of the fully vibe-coded game."
 
 Books went the way they always do: while I was working through the backlog, I bought more, so the backlog didn't get any smaller.
 
-I totally read 20 books:
+I read 20 books in total:
 
 - [Economics: The User's Guide]{post:about-book-economics-the-users-guide}
 - [The Net And The Butterfly]{post:about-book-the-net-and-the-butterfly}
@@ -222,7 +222,7 @@ I totally read 20 books:
 
 A few other activities are worth mentioning.
 
-Besides [opening the lore of The Tale under the CC BY 4.0 license]{post:the-tale-lore-cc-by}, I also participated in a podcast about the game, where I talked about its history and features.
+Besides [releasing the lore of The Tale under the CC BY 4.0 license]{post:the-tale-lore-cc-by}, I also participated in a podcast about the game, where I talked about its history and features.
 
 /// brigid-youtube
 id = "5KODCBqhDu0"
