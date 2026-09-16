@@ -165,7 +165,7 @@ It turned out I really had gained a lot of experience, and had plenty to talk ab
 - [about the world building]{post:@choose-nearest-language:about-worlds-building} and [dungeon design]{post:@choose-nearest-language:how-to-design-a-dungeon}
 - [about game mechanics as resource converters]{post:@choose-nearest-language:resource-model-of-the-game-resources} and [how to work with them]{post:@choose-nearest-language:about-resource-gathering-mechanics}
 - about MMO design:
-  - [gamedesing frontier]{post:@choose-nearest-language:next-gamedesign-frontier}
+  - [game design frontier]{post:@choose-nearest-language:next-gamedesign-frontier}
   - [mechanics design]{post:@choose-nearest-language:space-of-mmo-mechanics}
   - [the dynamics of fun]{post:@choose-nearest-language:about-the-degradation-of-fun} and [how players perceive the game]{post:@choose-nearest-language:the-significance-of-the-event-in-the-mmo}
   - [problems of multiplayer worlds]{post:@choose-nearest-language:bots-and-twinks-in-games}
@@ -188,7 +188,7 @@ I described:
 - the effect of [opening the source code of The Tale]{post:@choose-nearest-language:what-happens-if-you-open-the-code-of-your-game};
 - [complicated nature of data transformations]{post:@choose-nearest-language:infinity-of-data-schemas};
 - [some nuances of software verification]{post:@choose-nearest-language:verification-with-special-cases};
-- [approaches to db migrations]{post:@choose-nearest-language:about-db-migrations};
+- [approaches to backend migrations]{post:@choose-nearest-language:about-db-migrations};
 
 ### Thinking techniques
 
@@ -198,7 +198,7 @@ These cases started to annoy me so much that I decided to write a book about the
 
 So, I started gathering material for it. Some essays I write according to my own plan, some — spontaneously, as a reaction to events around me.
 
-The progress is slow, but inevitable. The bolded ones I consider mandatory to read:
+Progress is slow but inevitable. The ones in bold I consider a mandatory reading:
 
 - [Intelligence, competence, and decision-making]{post:@choose-nearest-language:intelligence-competency-and-decision-making}
 - [Formalism-induced trauma]{post:@choose-nearest-language:formalism-injury}
@@ -217,7 +217,7 @@ The progress is slow, but inevitable. The bolded ones I consider mandatory to re
 
 ### Books
 
-I read 26 independent works (volumes/books are slightly more — 31). Not all of them are worth attention, but I take a responsible approach to literature selection, as I read slowly and value my time. All reviews can be found under the [books]{tags:books} tag.
+I read 26 distinct works — 31 books or volumes in total. Not all of them are worth attention, but I take a responsible approach to literature selection, as I read slowly and value my time. All reviews can be found under the [books]{tags:books} tag.
 
 Every book essay contains a review and, if it makes sense, an excerpt of the most interesting part.
 
@@ -226,16 +226,16 @@ I especially recommend the following books:
 - [Susanna Clarke's books]{post:@choose-nearest-language:susanna-clarke-books} — the best depiction of magic I've come across;
 - [The knowledge illusion]{post:@choose-nearest-language:illusion-of-knowledge} — about the evolution and spread of information;
 - [Scale]{post:@choose-nearest-language:scale} — about the fundamental physical laws of self-organizing systems;
-- [The invention of science]{post:@choose-nearest-language:about-book-invention-of-science} — how science became what it is now;
+- [The invention of science]{post:@choose-nearest-language:about-book-invention-of-science} — how what we now call science came into being;
 - [WTF?]{post:@choose-nearest-language:about-book-wtf} — about the concept of platforms and disruptive technologies;
 - [Powerful]{post:@choose-nearest-language:about-book-powerful} — about Netflix's culture;
 - [Cook's first voyage around the world]{post:@choose-nearest-language:cooks-first-around-the-world-context} — notes on Cook's journal in six posts.
 
 ### The biggest failure
 
-Given the problems of the country and the planet, I don't consider some unfinished plans a failure — the world was shaking, and I was shaking with it.
+Given the problems of the country and the planet, I don't consider leaving some of my sabbatical plans unfulfilled a failure — the world was shaking, and I was shaking with it.
 
-For example, I wanted to finish my vacation by releasing a small game on Steam in six months, but I had to spend that time on other things.
+For example, I wanted to spend six months making a small game and finish my sabbatical with its release on Steam, but I had to spend that time on other things.
 
 Still, there was one failure — I didn't manage to build a personal automated knowledge base. Posts about its development can be found under the [Tarantoga]{tags:tarantoga} tag.
 
