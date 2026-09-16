@@ -79,27 +79,27 @@ The political problems, of course, broke all plans for the subbatical. But I was
 
 This summer I got married :-)
 
-## Технические итоги
+## Technical results
 
-Я практикую [мышление письмом]{post:thinking-through-writing} — отмечаю каждое законченное интеллектуальное усилие качественным текстом. Блог ведётся как база отчётов о проделанной работе. Поэтому дальше будет много ссылок на эссе-отчёты. Переходите по ним, если хотите узнать подробнее о конкретной активности.
+I practice [thinking through writing]{post:thinking-through-writing} — fix every finished intellectual effort with a qualitative text. The blog works as a base of reports on the work done. Therefore, there will be many links to report-essays below. Follow them if you want to know more about a specific activity.
 
-### Блог
+### Blog
 
-Продуктивность как писателя стала для меня главным открытием этих лет.
+The main discovery of these years for me was my productivity as a writer.
 
-За два года я написал 141 эссе — больше, чем по тексту в неделю. Учитывая размер и содержание эссе, для меня это выглядит большим достижением.
+During two years, I wrote 141 essays — more than one text per week. Considering the size and content of the essays, this seems like a significant achievement to me.
 
-Общий объём текста превысил 130 000 слов. В полтора раза больше, чем в первом романе о Гарри Поттере. Примерно как в томе «Войны и Мира».
+The total volume of text exceeded 130,000 words. One and a half times more than in the first Harry Potter novel. About the same as in the volume of "War and Peace".
 
-Не могу сказать, что до ухода в отпуск у меня получалось писать полезно, быстро и много. Было несколько удачных постов на Хабре, но на этом всё. Даже по первым месяцам отпуска видно, что эссе были в основном о прочитанных книгах, а не об уникальных темах.
+Couldn't say that before going on sabbatical I was able to write a lot of useful texts in a fast way. There were several successful posts on Habr, but that was all. Looking at the first months of the sabbatical, it is clear that the essays were mainly about the books I read, rather than unique topics.
 
-Практика позволила набить руку. В начале отпуска я мог тратить на проработку материала и подготовку поста больше недели, сейчас сложное эссе занимает около трёх дней, некоторые пишутся за часы. Поэтому я рассчитываю, что продолжу писать в сравнимых объёмах и после возвращения на работу.
+Practice gave me a lot of experience. At the beginning of the vacation, I could spend more than a week working through the material and preparing a post; now a complex essay takes about three days, some are written in hours. Therefore, I expect to continue writing in comparable volumes after returning to work.
 
-Результаты мышления письмом превзошли самые смелые ожидания. Я разгрузил голову, реорганизовал информацию в ней, освободил ресурсы для обдумывания сложных штук. Сложно передать эти ощущения, это надо пробовать.
+The outcome of thinking through writing exceeded my wildest expectations. I unloaded my head, reorganized the information in it, freed up resources for thinking about complex stuff. It's hard to convey these feelings, you have to try it.
 
-А, и в дискуссиях больше не надо вспоминать чего я там надумал годы назад. Под рукой тексты с чёткой аргументацией. Очень удобно.
+And now I don't need to remember what I thought years ago to argue in discussions. I have texts with clear arguments at hand. Very convenient.
 
-[Подробнее о блоге]{post:about-blog} я рассказывал в отдельном посте.
+[More about the blog]{post:@choose-nearest-language:about-blog} I spoke in a separate post.
 
 ### Направления деятельности
 
