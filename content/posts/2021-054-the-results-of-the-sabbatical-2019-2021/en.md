@@ -31,7 +31,7 @@ In short: I recommend it to everyone.
 
 I thought I'd write something inspiring, like "why everyone should take a sabbatical right now", but maybe some other time. I have exceeded my quota for long posts this week.
 
-Here is a short description of my case.
+Here's my situation in a nutshell.
 
 Historically, my time has been split into three parts:
 
@@ -45,7 +45,7 @@ To exaggerate a little, my interests are concentrated in areas other people aren
 
 My hobbies improve my skills and make me more valuable to an employer, but they do so in the long run with no clear KPIs.
 
-In theory, I could make a living from them, but so far it hasn't worked out. Indie gamedev didn't work out on the first try, and when it comes to consulting, I'm not particularly good at networking — yet, perhaps.
+In theory, I could make a living from them, but so far it hasn't worked out. Indie gamedev didn't work out on the first try, and when it comes to consulting, I’m not particularly good at networking (yet?).
 
 As a result, I do not have enough time for:
 
@@ -93,7 +93,7 @@ The total volume of text exceeded 130,000 words. That's one and a half times the
 
 I couldn't say that before going on sabbatical, I could write a lot of useful texts quickly. I had several successful posts on Habr, but that was it. Looking at the first months of the sabbatical, you'll find that the essays were mainly about the books I read, rather than unique topics.
 
-Practice gave me a lot of experience. At the beginning of the vacation, I could spend more than a week working through the material and preparing a post; now a complex essay takes about three days, and some take hours. Therefore, I expect to continue writing in comparable volumes after returning to work.
+With practice, I got the hang of it. At the beginning of the vacation, I could spend more than a week working through the material and preparing a post; now a complex essay takes about three days, and some take hours. Therefore, I expect to continue writing in comparable volumes after returning to work.
 
 The outcome of thinking through writing exceeded my wildest expectations. I lightened my mental load, reorganized the information in my head, and freed up resources for thinking about complex stuff. It's hard to convey these feelings — you have to try it.
 
@@ -124,7 +124,7 @@ These activities took most of my time, and I find their results the most interes
 I prototyped some cool stuff; all the source code is publicly available:
 
 - [Smart Imports](https://github.com/Tiendil/smart-imports) — library for automatic dependency discovery and importing at the time of Python module import.
-- [Morphologic](https://tiendil.github.io/morphologic/#/) — software for [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) of solution spaces. Simultaneously, I refreshed my frontend knowledge and looked at Vue.
+- [Morphologic](https://tiendil.github.io/morphologic/#/) — software for [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) of solution spaces. Along the way, I refreshed my frontend knowledge and took a look at Vue.
 - [Pydicates](https://github.com/Tiendil/pydicates) — predicates for Python. The package was born as a by-product of other experiments.
 - [Coulson](https://github.com/Tiendil/coulson) — an attempt to analyze types during the execution of a Python program. It works, but I postponed its development until better times.
 - [Tutorial on procedural dungeon generation]{post:dungeon-generation-from-simple-to-complex}
@@ -169,7 +169,7 @@ It turned out I really had gained a lot of experience, and had plenty to talk ab
   - [mechanics design]{post:@choose-nearest-language:space-of-mmo-mechanics}
   - [the dynamics of fun]{post:@choose-nearest-language:about-the-degradation-of-fun} and [how players perceive the game]{post:@choose-nearest-language:the-significance-of-the-event-in-the-mmo}
   - [problems of multiplayer worlds]{post:@choose-nearest-language:bots-and-twinks-in-games}
-- [about the impact of the mass market on a concept of a game]{post:@choose-nearest-language:one-form-two-products}
+- [about the impact of the mass market on the concept of a game]{post:@choose-nearest-language:one-form-two-products}
 
 So, if you are planning to develop a game with social interactions, especially an MMO, I will definitely be useful to you.
 
@@ -196,7 +196,7 @@ During my career, I often encountered mistakes made by people, including myself,
 
 These cases started to annoy me so much that I decided to write a book about the subject. But I quickly hit a wall — I'd bitten off more than I could chew, and it wasn't something I could tackle in one go.
 
-So, I started gathering material for it. Some essays I write according to my own plan, some — spontaneously, as a reaction to events around me.
+So, I started building up material for it. Some essays I write according to my own plan, some — spontaneously, as a reaction to events around me.
 
 Progress is slow but inevitable. The ones in bold I consider a mandatory reading:
 
