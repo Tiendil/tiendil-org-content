@@ -101,21 +101,21 @@ And now I don't need to remember what I thought years ago to argue in discussion
 
 [More about the blog]{post:@choose-nearest-language:about-blog} I spoke in a separate post.
 
-### Направления деятельности
+### Areas of focus
 
-Время в отпуске разделилось между следующими активностями:
+I split my time between the following activities:
 
-- Прототипирование, изучение новых технологий.
-- Формализация опыта в геймдеве.
-- Формализация опыта в разработке ПО.
-- Рефлексия и проработка приёмов мышления.
-- Книги.
-- Обновления [Сказки](https://the-tale.org/) — выпустил 5 штук.
-- Рефлексия на события вокруг меня, как технические, так и не очень.
+- Prototyping and studying new technologies.
+- Formalizing my gamedev experience.
+- Formalizing my software development experience.
+- Reflecting and working through thinking techniques.
+- Books.
+- Updates for [The Tale](https://the-tale.org/) — released 5 updates.
+- Reflecting on the events around me, both technical and not so much.
 
-Со Сказкой и рефлексией на события всё ясно. Про остальное расскажу подробнее.
+Everything is pretty clear with "The Tale" and reflection on events. Let me tell you more about the rest.
 
-Ещё раз обращу внимание: каждый пост — отчёт о проделанной работе.
+Once more, I want to emphasize that each post is a report on the work done.
 
 ### Прототипирование и учёба
 
