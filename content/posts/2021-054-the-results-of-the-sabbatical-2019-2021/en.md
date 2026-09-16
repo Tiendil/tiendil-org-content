@@ -27,7 +27,7 @@ In short: I recommend it to everyone.
 
 ## Motivation
 
-**Updated:** I wrote a separate post about [my approach to sabbaticals]{post:about-sabbatical}.
+**Updated:** I wrote a separate post about [my approach to sabbaticals]{post:sabbaticals}.
 
 I thought I'd write something inspiring, like "why everyone should take a sabbatical right now", but maybe some other time. I have exceeded my quota for long posts this week.
 
@@ -142,7 +142,7 @@ Studied fundamental technologies in depth:
 Over the last few months, I've been digging into machine learning and neural networks:
 
 - [Refreshed my knowledge of calculus]{post:@choose-nearest-language:how-to-teach-and-not-teach-math}.
-- [Completed MIT's introductory course on deep learning]{post:@choose-nearest-language:6-s191-introduction-to-deep-learning}.
+- [Completed MIT's introductory course on deep learning]{post:@choose-nearest-language:6-s191-introduction-to-deep-learnin}.
 - Implemented a few learning projects, [published them on GitHub](https://github.com/Tiendil/public-jupyter-notebooks):
   - [setting up infrastructure for DL]{post:@choose-nearest-language:you-cant-just-take-and-run-dl};
   - [digit recognition]{post:@choose-nearest-language:kaggle-digit-recognizer-solution}, with a look at Kaggle;

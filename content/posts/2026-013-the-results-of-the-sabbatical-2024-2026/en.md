@@ -141,7 +141,7 @@ tag = "vantage-on-management"
 
 Thanks to the sabbatical, I was able to take my time and figure out, in a calm environment, roughly how it works, what it can and can't do, and what it's likely to be capable of in the near future.
 
-I published numerous posts on this topic — all of them can be found under the tag [large-language-models]{tags:large language models}. Here I'll mention only the most interesting ones.
+I published numerous posts on this topic — all of them can be found under the tag [large-language-models]{tags:large-language-models}. Here I'll mention only the most interesting ones.
 
 I got a good handle on what LLMs are and forecast how they would develop in the near future. So far, it's holding up — two years and counting:
 
@@ -173,10 +173,10 @@ The idea, according to the authors ([Yaropolk Rash](https://www.linkedin.com/in/
 
 The courses inflicted the following benefits on me:
 
-- I synced my [world model]{post:life-and-work-with-models} with reality in the area of development planning and virtual world design.
+- I synced my [world model]{post:@choose-nearest-language:life-and-work-with-models} with reality in the area of development planning and virtual world design.
 - Conducted [research into the preferences of strategy game players]{post:making-a-fictional-universe-quantity-survey-processing}.
 - [Played around with some game mechanics on a game prototype]{post:simulation-of-public-opinion-in-a-game}.
-- Got some practice [pitching games]{post:world-builders-2023-final-presentation} and [business planning]{post:world-builders-2023-business-plan-example}.
+- Got some practice [pitching games]{post:@choose-nearest-language:world-builders-2023-final-presentation} and [business planning]{post:world-builders-2023-business-plan-example}.
 
 All of this will likely be useful to me over time — unfortunately, just not right now.
 
@@ -222,7 +222,7 @@ I read 20 books in total:
 
 A few other activities are worth mentioning.
 
-Besides [releasing the lore of The Tale under the CC BY 4.0 license]{post:the-tale-lore-cc-by}, I also participated in a podcast about the game, where I talked about its history and features.
+Besides [releasing the lore of The Tale under the CC BY 4.0 license]{post:@choose-nearest-language:the-tale-lore-cc-by}, I also participated in a podcast about the game, where I talked about its history and features.
 
 /// brigid-youtube
 id = "5KODCBqhDu0"
@@ -246,8 +246,8 @@ All the practical matters of settling in Germany are, of course, sorted out — 
 
 If you need more details, you can find them in the annual reports:
 
-- [Report for 2024]{post:2025-001-results-of-2024-for-me-and-the-blog}
-- [Report for 2025]{post:2025-020-results-of-2025-for-me-and-the-blog}
+- [Report for 2024]{post:results-of-2024-for-me-and-the-blog}
+- [Report for 2025]{post:results-of-2025-for-me-and-the-blog}
 
 ## Takeaways
 
@@ -257,7 +257,7 @@ Besides everything listed above and mentioned in the annual reports, I came away
 
 **Second.** Based on my own experience and what I see in the market, I've concluded that "gamedev for making games" and "gamedev for making money" need to be kept strictly separate. Don't try to kill two birds with one stone — it won't work. The requirements are fundamentally opposed. And, importantly, you can find self-fulfillment in either one, even in both — just not at the same time. It's a kind of continuation of the previous point.
 
-Want to make GAMES? Make them as a hobby and earn your living doing something else. Want to make MONEY — forget about making something unique — your best friends are marketing, endless A/B tests, hype, designing for the average, [gameplay simulacra]{post:one-form-two-products}, etc.
+Want to make GAMES? Make them as a hobby and earn your living doing something else. Want to make MONEY — forget about making something unique — your best friends are marketing, endless A/B tests, hype, designing for the average, [gameplay simulacra]{post:@choose-nearest-language:one-form-two-products}, etc.
 
 Gamedev is becoming a mass market (well, it became one a long time ago), which means it's starting to play by mass-market rules.
 
