@@ -41,7 +41,7 @@ Historically, my time has been split into three parts:
 
 My hobbies and work overlap only partially.
 
-To exaggerate a little, my interests are concentrated in areas other people aren't going to pay me for: experimental gamedev, exploring the state-of-the-art in programming languages, experimenting with code analysis, and studying evolution and cognition.
+To exaggerate a little, my interests are concentrated in areas other people aren't going to pay me for: experimental gamedev, exploring the state of the art in programming languages, experimenting with code analysis, and studying evolution and cognition.
 
 My hobbies improve my skills and make me more valuable to an employer, but they do so in the long run with no clear KPIs.
 
@@ -196,7 +196,7 @@ During my career, I often encountered mistakes made by people, including myself,
 
 These cases started to annoy me so much that I decided to write a book about the subject. But I quickly hit a wall — I'd bitten off more than I could chew, and it wasn't something I could tackle in one go.
 
-So, I started building up material for it. Some essays I write according to my own plan, some — spontaneously, as a reaction to events around me.
+So, I started building up material for it. I write some essays according to my own plan; others come spontaneously, in response to events around me.
 
 Progress is slow but inevitable. The ones in bold I consider a mandatory reading:
 
@@ -217,7 +217,7 @@ Progress is slow but inevitable. The ones in bold I consider a mandatory reading
 
 ### Books
 
-I read 26 distinct works — 31 books or volumes in total. Not all of them are worth attention, but I take a responsible approach to literature selection, as I read slowly and value my time. All reviews can be found under the [books]{tags:books} tag.
+I read 26 distinct works — 31 books or volumes in total. Not all of them are worth attention, but I generally choose my books carefully, since I read slowly and value my time. All reviews can be found under the [books]{tags:books} tag.
 
 Every book essay contains a review and, if it makes sense, an excerpt of the most interesting part.
 
@@ -233,7 +233,7 @@ I especially recommend the following books:
 
 ### The biggest failure
 
-Given the problems of the country and the planet, I don't consider leaving some of my sabbatical plans unfulfilled a failure — the world was shaking, and I was shaking with it.
+Given the problems facing the country and the planet, I don’t consider leaving some of my sabbatical plans unfulfilled a failure — the world was reeling, and so was I.
 
 For example, I wanted to spend six months making a small game and finish my sabbatical with its release on Steam, but I had to spend that time on other things.
 
