@@ -190,30 +190,30 @@ I described:
 - [some nuances of software verification]{post:@choose-nearest-language:verification-with-special-cases};
 - [approaches to db migrations]{post:@choose-nearest-language:about-db-migrations};
 
-### Приёмы мышления
+### Thinking techniques
 
-За карьеру я часто сталкивался с ошибками людей, включая меня, из-за пробелов в базовых навыках мышления. Точнее в том, что я считаю базовыми навыками :-)
+During my career, I often encountered mistakes made by people, including myself, caused by gaps in basic thinking skills. More precisely, in what I consider to be basic skills :-)
 
-Эти случаи начали настолько меня раздражать, что я решил написать книгу на эту тему. Но быстро обломался — кусок был не по зубам, с наскока не взять.
+These cases started to annoy me so much that I decided to write a book about the subject. But I quickly hit a wall — I'd bitten off more than I could chew, and it wasn't something I could tackle in one go.
 
-Поэтому я начал нарабатывать материал для неё. Часть эссе пишу по собственному плану, часть — по наитию, как реакцию на события вокруг меня.
+So, I started gathering material for it. Some essays I write according to my own plan, some — spontaneously, as a reaction to events around me.
 
-Прогресс идёт медленно, но неотвратимо. Жирным выделено обязательное к прочтению:
+The progress is slow, but inevitable. The bolded ones I consider mandatory to read:
 
-- [Интеллект, компетентность и принятие решений]{post:intelligence-competency-and-decision-making}
-- [Травмирование формализмом]{post:formalism-injury}
-- [**Жизнь и работа с ошибками**]{post:life-and-work-with-mistakes}
-- [**Гены, мемы и мемплексы**]{post:genes-memes-memeplexes}
-- [Этика передачи знаний]{post:ethics-of-knowledge-transfer}
-- [**Учитесь правильно**]{post:learn-right}
-- [Ремонт сложных систем]{post:repair-of-complex-systems}
-- [Про символы]{post:about-symbols}
-- [Организация информации]{post:organization-of-information}
-- [**Композиция vs классификация**]{post:composition-vs-classification}
-- [**Экзокортекс 3.5**]{post:exocortex-3-5}
-- [Как я знакомлюсь с историей]{post:how-do-i-learn-history}
-- [Системное мышление на практике]{post:systems-thinking-in-practice}
-- [**Жизнь и работа с моделями**]{post:life-and-work-with-models}
+* [Intelligence, competence, and decision-making]{post:@choose-nearest-language:intelligence-competency-and-decision-making}
+* [Formalism-induced trauma]{post:@choose-nearest-language:formalism-injury}
+* [**Living and working with mistakes**]{post:@choose-nearest-language:life-and-work-with-mistakes}
+* [**Genes, memes, and memeplexes**]{post:@choose-nearest-language:genes-memes-memeplexes}
+* [The ethics of knowledge transfer]{post:@choose-nearest-language:ethics-of-knowledge-transfer}
+* [**Learn the right way**]{post:@choose-nearest-language:learn-right}
+* [Repairing complex systems]{post:@choose-nearest-language:repair-of-complex-systems}
+* [On symbols]{post:@choose-nearest-language:about-symbols}
+* [Organizing of information]{post:@choose-nearest-language:organization-of-information}
+* [**Composition vs. classification**]{post:@choose-nearest-language:composition-vs-classification}
+* [**Exocortex 3.5**]{post:@choose-nearest-language:exocortex-3-5}
+* [How i learn history]{post:@choose-nearest-language:how-do-i-learn-history}
+* [Systems thinking in practice]{post:@choose-nearest-language:systems-thinking-in-practice}
+* [**Living and working with models**]{post:@choose-nearest-language:life-and-work-with-models}
 
 ### Книги
 
