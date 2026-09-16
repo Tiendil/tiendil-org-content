@@ -99,7 +99,7 @@ The outcome of thinking through writing exceeded my wildest expectations. I ligh
 
 And now I don't need to remember what I thought years ago to argue in discussions. I have texts with clear arguments at hand. Very convenient.
 
-[More about the blog]{post:@choose-nearest-language:about-blog} I spoke in a separate post.
+I wrote more about the blog in a [separate post]{post:@choose-nearest-language:about-blog}.
 
 ### Areas of focus
 
@@ -121,7 +121,7 @@ Once more, I want to emphasize that each post is a report on the work done.
 
 These activities took most of my time, and I find their results the most interesting.
 
-I prototyped some cool stuff; all sources are open:
+I prototyped some cool stuff; all the source code is publicly available:
 
 - [Smart Imports](https://github.com/Tiendil/smart-imports) — library for automatic dependency discovery and importing at the time of Python module import.
 - [Morphologic](https://tiendil.github.io/morphologic/#/) — software for [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) of solution spaces. Simultaneously, I refreshed my frontend knowledge and looked at Vue.
@@ -134,12 +134,12 @@ A handful of projects never made it to release for various reasons. In particula
 Studied fundamental technologies in depth:
 
 - Type analysis in Python: [static and dynamic]{post:@choose-nearest-language:trendy-typing-in-python}, made my own [runtime type analyzer]{post:@choose-nearest-language:python-types-are-not-great}.
-- Julia: [in theory]{post:@choose-nearest-language:julia-is-next-python} and [on practice]{post:@choose-nearest-language:julia-experience}. I chose a [DSL for procedural generation](https://github.com/Tiendil/pcg-julia) as a learning project.
+- Julia: [in theory]{post:@choose-nearest-language:julia-is-next-python} and [in practice]{post:@choose-nearest-language:julia-experience}. I chose a [DSL for procedural generation](https://github.com/Tiendil/pcg-julia) as a learning project.
 - API standards: [GraphQL]{post:@choose-nearest-language:graphql-and-python}, [OpenAPI]{post:@choose-nearest-language:python-and-openapi}.
 - [Database migration libraries and utilities]{post:@choose-nearest-language:backend-migrations-in-practice}.
 - State-of-the-art approaches to testing. Experimented with [hypothesis]{post:@choose-nearest-language:python-hypothesis}, finally switched to pytest.
 
-The last months I was digging into machine learning and neural networks:
+Over the last few months, I've been digging into machine learning and neural networks:
 
 - [Refreshed my knowledge of calculus]{post:@choose-nearest-language:math-refresher}.
 - [Completed MIT's introductory course on deep learning]{post:@choose-nearest-language:6-s191-introduction-to-deep-learning}.
@@ -162,7 +162,7 @@ I went on my break with a clear sense that I needed to properly reflect on the r
 
 It turned out I really had gained a lot of experience, and had plenty to talk about:
 
-- [about the worlds building]{post:@choose-nearest-language:about-worlds-building} and [dungeons design]{post:@choose-nearest-language:how-to-design-a-dungeon}
+- [about the world building]{post:@choose-nearest-language:about-worlds-building} and [dungeon design]{post:@choose-nearest-language:how-to-design-a-dungeon}
 - [about game mechanics as resource converters]{post:@choose-nearest-language:resource-model-of-the-game-resources} and [how to work with them]{post:@choose-nearest-language:about-resource-gathering-mechanics}
 - about MMO design:
   - [gamedesing frontier]{post:@choose-nearest-language:next-gamedesign-frontier}
