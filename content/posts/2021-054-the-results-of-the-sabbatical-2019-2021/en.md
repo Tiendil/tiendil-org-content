@@ -231,12 +231,14 @@ I especially recommend the following books:
 - [Powerful]{post:@choose-nearest-language:about-book-powerful} — about Netflix's culture;
 - [Cook's first voyage around the world]{post:@choose-nearest-language:cooks-first-around-the-world-context} — notes on Cook's journal in six posts.
 
-### Главная неудача
+### The biggest failure
 
-Учитывая проблемы у страны и планеты, невыполнение части планов на отпуск я не считаю неудачей — мир шатало и меня с ним.
+Taking into account the problems of the country and the planet, I do not consider some unfinished plans to be a failure — the world was shaking and I was shaking with it.
 
-Например, хотел завершить отпуск выпуском небольшой игры в steam за полгода, но пришлось потратить это время на другие дела.
+For example, I wanted to finish my vacation by releasing a small game on Steam in six months, but I had to spend that time on other things.
 
-Но неудача всё-таки есть — не получилось реализовать личную автоматизированную базу знаний. Посты о разработке можно найти по тегу [Тарантога]{tags:tarantoga}.
+Still, there was one failure — I didn't manage to build a personal automated knowledge base. Posts about its development can be found under the [Tarantoga]{tags:tarantoga} tag.
 
-Проделал много работы, реализовал два прототипа, но желаемый результат так и не получил, хотя и приблизился к нему. Буду делать третий прототип, но уже в более спокойном темпе.
+I put a lot of effort into it and built two prototypes, but still didn't get the result I was aiming for, though I did get closer. I'll make a third prototype, but at a more relaxed pace.
+
+**Updated:** after a few more prototypes the knowledge base evolved into a news reader [Feeds Fun](https://feeds.fun/) ([repo](https://github.com/Tiendil/feeds.fun)).
