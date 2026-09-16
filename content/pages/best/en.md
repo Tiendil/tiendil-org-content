@@ -55,3 +55,15 @@ Essays with detailed book reviews or about books that I recommend reading. Unfor
 /// brigid-collection
 id = "interesting-about-books"
 ///
+
+## Sabbatical reports
+
+/// brigid-collection
+id = "sabbatical-reports"
+///
+
+## Annual reports
+
+/// brigid-collection
+id = "annual-reports"
+///

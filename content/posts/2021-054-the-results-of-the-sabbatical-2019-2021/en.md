@@ -1,6 +1,6 @@
 ---
 title = "Results of the 2019–2021 sabbatical"
-tags = [ "blog", "practice", "reflection"]
+tags = [ "blog", "practice", "reflection", "sabbatical-report"]
 published_at = "2021-09-01T12:00:00+00:00"
 seo_description = "The results of my two-year sabbatical or 'How I wrote a volume of War and Peace'."
 seo_image = ""

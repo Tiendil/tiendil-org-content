@@ -1,6 +1,6 @@
 ---
 title = "Итоги творческого отпуска 2024-2026 годов"
-tags = [ "blog", "practice", "reflection",]
+tags = [ "blog", "practice", "reflection", "sabbatical-report"]
 published_at = "2026-09-17T12:00:00+00:00"
 seo_description = "Итоги моего творческого отпуска 2024-2026 годов: что удалось сделать, а что нет."
 seo_image = "./cover.jpg"

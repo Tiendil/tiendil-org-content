@@ -65,7 +65,7 @@ There is no sense in listing all my sabbatical activities — you can read about
 2. **2019-2021** — [report]{post:the-results-of-the-sabbatical-2019-2021} — working on thinking practices and worldview.
 3. **2024-2026** — [report]{post:the-results-of-the-sabbatical-2024-2026} — forming my own approach to management, dealing with AI and coding agents, working on [feeds.fun](https://feeds.fun), open-source.
 
-Besides, I practice [annual report posts]{tags:results-of-the-year}, so you can track everything I did in any year since 2020.
+Besides, I practice [annual report posts]{tags:annual-report}, so you can track everything I did in any year since 2020.
 
 My first sabbatical was not a conscious decision (in the sense "I'm taking a sabbatical now"), but a particular endeavor to develop a particular game. However, even then, there was some additional motivation in the spirit of "I need to test myself" and "I need to experiment with ideas that I can't try at work".
 

@@ -1,0 +1,3 @@
+id = "annual-reports"
+required_tags = ["annual-report"]
+order = "desc"
