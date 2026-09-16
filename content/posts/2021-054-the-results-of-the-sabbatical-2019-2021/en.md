@@ -175,14 +175,20 @@ So, if you are planning to develop a game with social interactions, especially a
 
 I also started publishing game concept documents that had been piling up in storage: [The Tale]{post:@choose-nearest-language:the-tale-concept-document}, [News Makers]{post:@choose-nearest-language:concept-document-news-makers}, [NoCraft]{post:@choose-nearest-language:concept-document-nocraft}, [Tales]{post:@choose-nearest-language:concept-document-for-the-game-tales}.
 
-### Разработка ПО
+### Software development
 
-Эссе сугубо об опыте разработки вышло не много, по двум причинам:
+There were not so much essays about software development specifically, because of two reasons:
 
-- эти моменты я обдумывал и до отпуска;
-- многие штуки были затронуты в рамках более абстрактных эссе.
+- those aspects I worked out even before the sabbatical;
+- numerous topics were covered in more abstract essays.
 
-В итоге я описал [реализацию GDPR]{post:how-i-did-and-would-do-gdpr-support}, результат [открытия исходников Сказки]{post:what-happens-if-you-open-the-code-of-your-game}, [сложности преобразований данных]{post:infinity-of-data-schemas}, [нюансы верификации ПО]{post:verification-with-special-cases}, [подходы к миграциям backend]{post:about-backend-migrations}.
+I described:
+
+- [GDPR implementation]{post:@choose-nearest-language:how-i-did-and-would-do-gdpr-support};
+- the effect from [opening the source code of The Tale]{post:@choose-nearest-language:what-happens-if-you-open-the-code-of-your-game};
+- [complicated nature of data transformations]{post:@choose-nearest-language:infinity-of-data-schemas};
+- [some nuances of software verification]{post:@choose-nearest-language:verification-with-special-cases};
+- [approaches to db migrations]{post:@choose-nearest-language:about-db-migrations};
 
 ### Приёмы мышления
 

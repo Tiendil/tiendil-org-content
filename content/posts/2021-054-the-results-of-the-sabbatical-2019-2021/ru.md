@@ -182,7 +182,13 @@ If you don't like your life, then you should go and change it
 - эти моменты я обдумывал и до отпуска;
 - многие штуки были затронуты в рамках более абстрактных эссе.
 
-В итоге я описал [реализацию GDPR]{post:how-i-did-and-would-do-gdpr-support}, результат [открытия исходников Сказки]{post:what-happens-if-you-open-the-code-of-your-game}, [сложности преобразований данных]{post:infinity-of-data-schemas}, [нюансы верификации ПО]{post:verification-with-special-cases}, [подходы к миграциям backend]{post:about-backend-migrations}.
+В итоге я описал:
+
+- [реализацию GDPR]{post:how-i-did-and-would-do-gdpr-support};
+- результат [открытия исходников Сказки]{post:what-happens-if-you-open-the-code-of-your-game};
+- [сложности преобразований данных]{post:infinity-of-data-schemas};
+- [нюансы верификации ПО]{post:verification-with-special-cases};
+- [подходы к миграциям backend]{post:about-backend-migrations}.
 
 ### Приёмы мышления
 
