@@ -1,5 +1,5 @@
 ---
-title = "The results of the sabbatical 2024-2026"
+title = "Results of the 2024–2026 sabbatical"
 tags = [ "blog", "practice", "reflection"]
 published_at = "2026-09-17T12:00:00+00:00"
 seo_description = "The results of my sabbatical 2024-2026: what was achieved and what was not."

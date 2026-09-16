@@ -1,5 +1,5 @@
 ---
-title = "The results of the sabbatical 2019-2021"
+title = "Results of the 2019–2021 sabbatical"
 tags = [ "blog", "practice", "reflection"]
 published_at = "2021-09-01T12:00:00+00:00"
 seo_description = "The results of my two-year sabbatical or 'How I wrote a volume of War and Peace'."
@@ -17,11 +17,11 @@ If you don't like your life, then you should go and change it.
 
 Or how to write a volume of "War and Peace" in 2 years.
 
-In June 2019, I resigned from [Melsoft](https://melsoft-games.com/) and went on a sabbatical that has lasted 2 years and 2 months. It's time to assess the results.
+In June 2019, I resigned from [Melsoft](https://melsoft-games.com/) and went on a sabbatical that has lasted 2 years and 2 months. It's time to sum things up.
 
-I'll tell you why I did that, what I was doing, what worked out, what didn't, and what I think about that experience.
+I'll tell you why I did it, what I was doing, what worked, what didn't, and how I feel about the experience.
 
-Shortly: I recommend it to everyone.
+In short: I recommend it to everyone.
 
 <!-- more -->
 
@@ -29,7 +29,7 @@ Shortly: I recommend it to everyone.
 
 **Updated:** I wrote a separate post about [my approach to sabbaticals]{post:about-sabbatical}.
 
-I wanted to write something inspiring, like "why everyone should go on a sabbatical right now", but maybe some other time. I have exceeded my quota for long posts this week.
+I thought I'd write something inspiring, like "why everyone should take a sabbatical right now", but maybe some other time. I have exceeded my quota for long posts this week.
 
 Here is a short description of my case.
 
