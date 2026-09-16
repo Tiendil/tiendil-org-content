@@ -75,13 +75,13 @@ I had no trouble self-isolating when the COVID hit.
 
 During the well-known events in Belarus, I was able to focus on reflection; there was no need to force myself to work. As a result, I revised my personal worldview and reflected on events.
 
-The political problems, of course, broke all my sabbatical plans. But I was able to revise them successfully, in my opinion.
+The political problems, of course, derailed all my plans for the sabbatical. But I was able to revise them successfully, in my opinion.
 
 This summer I got married :-)
 
 ## Technical results
 
-I practice [thinking through writing]{post:thinking-through-writing} — fix every finished intellectual effort with a qualitative text. The blog works as a base of reports on the work done. Therefore, there will be many links to report-essays below. Follow them if you want to know more about a specific activity.
+I practice [thinking through writing]{post:thinking-through-writing} — finish every finished intellectual effort with a qualitative text. The blog works as a database of reports on the work done. Therefore, there will be many links to essays below. Follow them if you want to know more about a specific activity.
 
 ### Blog
 
@@ -89,13 +89,13 @@ The main discovery of these years for me was my productivity as a writer.
 
 Over two years, I wrote 141 essays — more than one text per week. Considering the size and content of the essays, this seems like a significant achievement to me.
 
-The total volume of text exceeded 130,000 words. One and a half times more than in the first Harry Potter novel. About the same as one volume of "War and Peace".
+The total volume of text exceeded 130,000 words. That's one and a half times the word count of the first Harry Potter novel. About the same as one volume of "War and Peace".
 
 I couldn't say that before going on sabbatical, I could write a lot of useful texts quickly. I had several successful posts on Habr, but that was it. Looking at the first months of the sabbatical, you'll find that the essays were mainly about the books I read, rather than unique topics.
 
 Practice gave me a lot of experience. At the beginning of the vacation, I could spend more than a week working through the material and preparing a post; now a complex essay takes about three days, and some take hours. Therefore, I expect to continue writing in comparable volumes after returning to work.
 
-The outcome of thinking through writing exceeded my wildest expectations. I unloaded my head, reorganized the information in it, and freed up resources for thinking about complex stuff. It's hard to convey these feelings — you have to try it.
+The outcome of thinking through writing exceeded my wildest expectations. I lightened my mental load, reorganized the information in my head, and freed up resources for thinking about complex stuff. It's hard to convey these feelings — you have to try it.
 
 And now I don't need to remember what I thought years ago to argue in discussions. I have texts with clear arguments at hand. Very convenient.
 
