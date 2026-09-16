@@ -162,7 +162,7 @@ I went on my break with a clear sense that I needed to properly reflect on the r
 
 It turned out I really had gained a lot of experience, and had plenty to talk about:
 
-- [about the worldbuilding]{post:@choose-nearest-language:about-worlds-building} and [dungeon design]{post:@choose-nearest-language:how-to-design-a-dungeon}
+- [about worldbuilding]{post:@choose-nearest-language:about-worlds-building} and [dungeon design]{post:@choose-nearest-language:how-to-design-a-dungeon}
 - [about game mechanics as resource converters]{post:@choose-nearest-language:resource-model-of-the-game-resources} and [how to work with them]{post:@choose-nearest-language:about-resource-gathering-mechanics}
 - about MMO design:
   - [the next frontier in game design]{post:@choose-nearest-language:next-gamedesign-frontier}
@@ -186,7 +186,7 @@ I described:
 
 - [GDPR implementation]{post:@choose-nearest-language:how-i-did-and-would-do-gdpr-support};
 - the effect of [opening the source code of The Tale]{post:@choose-nearest-language:what-happens-if-you-open-the-code-of-your-game};
-- [complicated nature of data transformations]{post:@choose-nearest-language:infinity-of-data-schemas};
+- [the complicated nature of data transformations]{post:@choose-nearest-language:infinity-of-data-schemas};
 - [some nuances of software verification]{post:@choose-nearest-language:verification-with-special-cases};
 - [approaches to backend migrations]{post:@choose-nearest-language:about-backend-migrations};
 
