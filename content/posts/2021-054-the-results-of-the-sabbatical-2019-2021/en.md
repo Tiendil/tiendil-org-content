@@ -41,11 +41,11 @@ Historically, my time has been split into three parts:
 
 My hobbies and work overlap only partially.
 
-Simply put, my interests are concentrated in areas other people aren't going to pay me for: experimental gamedev, exploring the state of the art in programming languages, experimenting with code analysis, and studying evolution and cognition.
+To exaggerate a little, my interests are concentrated in areas other people aren't going to pay me for: experimental gamedev, exploring the state-of-the-art in programming languages, experimenting with code analysis, and studying evolution and cognition.
 
 My hobbies improve my skills and make me more valuable to an employer, but they do so in the long run with no clear KPIs.
 
-In theory, I could make a self-sufficient income from them, but so far it hasn't worked out. Indie gamedev didn't work out on the first try, and when it comes to consulting, I'm not particularly good at networking — yet, perhaps.
+In theory, I could make a living from them, but so far it hasn't worked out. Indie gamedev didn't work out on the first try, and when it comes to consulting, I'm not particularly good at networking — yet, perhaps.
 
 As a result, I do not have enough time for:
 
@@ -53,7 +53,7 @@ As a result, I do not have enough time for:
 - reading and studying — the most interesting books are hard to read before bed or on public transport;
 - properly working through my hobby projects — they're complex.
 
-Also, I advocate for honest, open relationships between employee and employer. Therefore, I don't solve personal issues at the expense of work time.
+I also believe, as a matter of principle, in honest, open relationships between employees and employers. So I don't take care of personal matters on company time.
 
 So, that leaves a single way to find time — going on a long vacation.
 
@@ -67,11 +67,11 @@ Of course, I'm working on combining my hobbies and my job better, as well as usi
 
 The timing of my sabbatical turned out to be extremely fortunate.
 
-Around three months after my resignation, I was treated for one thing or another — I burned out at work more than I expected. It will be a lesson for me.
+For about three months after my resignation, I was treated for one thing or another — I was more burned out from work than I'd realized. It will be a lesson for me.
 
 For the first six months, my girlfriend and I studied the real estate market without rushing and, without stress, found a good apartment at a good price.
 
-Easily went into self-isolation with the arrival of COVID.
+I had no trouble self-isolating when the COVID hit.
 
 During the well-known events in Belarus, I was able to focus on reflection; there was no need to force myself to work. As a result, I revised my personal worldview and reflected on events.
 
