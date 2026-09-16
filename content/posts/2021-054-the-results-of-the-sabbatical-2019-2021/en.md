@@ -117,46 +117,46 @@ Everything is pretty clear with "The Tale" and reflection on events. Let me tell
 
 Once more, I want to emphasize that each post is a report on the work done.
 
-### Прототипирование и учёба
+### Prototyping and studying
 
-Основное время ушло на эти занятия. Одновременно их результаты я считаю самыми интересными.
+These activities took most of the time, and their results I consider the most interesting.
 
-Прототипировал прикольные штуки, все исходники открыты:
+I prototyped some cool stuff, all sources are open:
 
-- [Smart Imports](https://github.com/Tiendil/smart-imports) — библиотека для автоматического импорта зависимостей во время импорта модулей Python.
-- [Morphologic](https://tiendil.github.io/morphologic/#/) — софт для [морфологического анализа](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D1%84%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_(%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B5%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE)) пространства решений. Заодно освежил знания фронтенда, посмотрел на Vue.
-- [Pydicates](https://github.com/Tiendil/pydicates) — предикаты для Python. Пакет родился как побочный продукт других экспериментов.
-- [Coulson](https://github.com/Tiendil/coulson) — попытка анализа типов во время выполнения Python программы. Работает, но развитие отложил до лучших времён.
-- [Урок по процедурной генерации подземелий.]{post:dungeon-generation-from-simple-to-complex}
+- [Smart Imports](https://github.com/Tiendil/smart-imports) — library for automatic dependency discovery and importing on the time of Python module import.
+- [Morphologic](https://tiendil.github.io/morphologic/#/) — software for [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) of solution spaces. Simultaniosly, I refreshed my frontend knowledge and looked at Vue.
+- [Pydicates](https://github.com/Tiendil/pydicates) — predicates for Python. The package was born as a by-product of other experiments.
+- [Coulson](https://github.com/Tiendil/coulson) — an attempt to analyze types during the execution of a Python program. It works, but I postponed its development until better times.
+- [Tutorial on procedural dungeons generation]{post:dungeon-generation-from-simple-to-complex}
 
-Пяток проектов по разным причинам не дошло до релиза. В частности, были эксперименты с процедурной генерацией.
+A handful of projects never made it to release for various reasons. In particular, there were some experiments with procedural generation.
 
-Глубоко изучал базисные технологии:
+Studied fundamental technologies in depth:
 
-- Анализ типов Python: [статической и динамический]{post:trendy-typing-in-python}, делал свой [анализатор типов во время исполнения]{post:python-types-are-not-great}.
-- Julia: [в теории]{post:julia-is-next-python} и [на практике]{post:julia-experience}. Учебным проектом выбрал [DSL для процедурной генерации](https://github.com/Tiendil/pcg-julia).
-- Стандартах API: [GraphQL]{post:graphql-and-python}, [OpenAPI]{post:python-and-openapi}.
-- [Библиотеках, утилитах для миграции баз данных]{post:backend-migrations-in-practice}.
-- State of the art подходах к тестированию. Посмотрел [hypothesis]{post:python-hypothesis}, наконец перешёл на pytest.
+- Type analysis in Python: [static and dynamic]{post:@choose-nearest-language:trendy-typing-in-python}, made my own [runtime type analyzer]{post:@choose-nearest-language:python-types-are-not-great}.
+- Julia: [in theory]{post:@choose-nearest-language:julia-is-next-python} and [on practice]{post:@choose-nearest-language:julia-experience}. I choose a [DSL for procedural generation](https://github.com/Tiendil/pcg-julia) as a learning project.
+- API standards: [GraphQL]{post:@choose-nearest-language:graphql-and-python}, [OpenAPI]{post:@choose-nearest-language:python-and-openapi}.
+- [Database migration libraries and utilities]{post:@choose-nearest-language:backend-migrations-in-practice}.
+- State of the art approaches to testing. Experimented with [hypothesis]{post:@choose-nearest-language:python-hypothesis}, finally switched to pytest.
 
-В последние месяцы разбирался с машинным обучением и нейронными сетями:
+The last months I was digging into machine learning and neural networks:
 
-- [Вспомнил матанализ]{post:how-to-teach-and-not-teach-math}.
-- [Прошёл вводный курс MIT по Deep Learning]{post:6-s191-introduction-to-deep-learnin}.
-- Сделал ряд учебных проектов, [опубликовал на github](https://github.com/Tiendil/public-jupyter-notebooks):
-    - [подготовка инфраструктуры для DL]{post:you-cant-just-take-and-run-dl};
-    - [распознавание символов]{post:kaggle-digit-recognizer-solution}, глянул на Kaggle;
-    - [реализация Generative Adversarial Network]{post:generative-adversarial-network-implementation}.
-- Сделал прогнозы о перспективах ML:
-    - [в технических областях]{post:feature-programming};
-    - [в социальных областях]{post:ai-will-not-or-will-replace-us-all}.
+- [Refreshed my knowledge of calculus]{post:@choose-nearest-language:math-refresher}.
+- [Completed MIT’s introductory course on deep learning]{post:@choose-nearest-language:6-s191-introduction-to-deep-learning}.
+- Implemented a few learning projects, [published them on github](https://github.com/Tiendil/public-jupyter-notebooks):
+  - [setting up infrastructure for DL]{post:@choose-nearest-language:you-cant-just-take-and-run-dl};
+  - [digit recognition]{post:@choose-nearest-language:kaggle-digit-recognizer-solution}, with a look at Kaggle;
+  - [implementing a Generative Adversarial Network]{post:@choose-nearest-language:generative-adversarial-network-implementation}.
+- Made forecasts about the prospects of ML:
+  - [in technical fields]{post:@choose-nearest-language:feature-programming};
+  - [in social fields]{post:@choose-nearest-language:ai-will-not-or-will-replace-us-all}.
 
-Также:
+Additoonally:
 
-- [Посмотрел на топовые ЯП в целом.]{post:thoughts-on-programming-languages}
-- Пересмотрел рабочее окружение, [обновил конфиги Emacs]{post:update-emacs-configs}.
+- [Took a broad look at the leading programming languages]{post:@choose-nearest-language:thoughts-on-programming-languages}
+- Revamped my development environment and [updated Emacs configs]{post:@choose-nearest-language:update-emacs-configs}.
 
-### Геймдев
+### Gamedev
 
 Я уходил в отпуск с чётким ощущением, что необходимо хорошо обдумать итоги работы над Сказкой, чего мне никак не удавалось сделать ни при работе над ней, ни во время работы в Melsoft.
 
