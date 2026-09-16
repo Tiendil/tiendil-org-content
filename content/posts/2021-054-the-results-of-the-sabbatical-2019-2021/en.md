@@ -142,7 +142,7 @@ Studied fundamental technologies in depth:
 The last months I was digging into machine learning and neural networks:
 
 - [Refreshed my knowledge of calculus]{post:@choose-nearest-language:math-refresher}.
-- [Completed MIT’s introductory course on deep learning]{post:@choose-nearest-language:6-s191-introduction-to-deep-learning}.
+- [Completed MIT's introductory course on deep learning]{post:@choose-nearest-language:6-s191-introduction-to-deep-learning}.
 - Implemented a few learning projects, [published them on github](https://github.com/Tiendil/public-jupyter-notebooks):
   - [setting up infrastructure for DL]{post:@choose-nearest-language:you-cant-just-take-and-run-dl};
   - [digit recognition]{post:@choose-nearest-language:kaggle-digit-recognizer-solution}, with a look at Kaggle;
@@ -200,36 +200,36 @@ So, I started gathering material for it. Some essays I write according to my own
 
 The progress is slow, but inevitable. The bolded ones I consider mandatory to read:
 
-* [Intelligence, competence, and decision-making]{post:@choose-nearest-language:intelligence-competency-and-decision-making}
-* [Formalism-induced trauma]{post:@choose-nearest-language:formalism-injury}
-* [**Living and working with mistakes**]{post:@choose-nearest-language:life-and-work-with-mistakes}
-* [**Genes, memes, and memeplexes**]{post:@choose-nearest-language:genes-memes-memeplexes}
-* [The ethics of knowledge transfer]{post:@choose-nearest-language:ethics-of-knowledge-transfer}
-* [**Learn the right way**]{post:@choose-nearest-language:learn-right}
-* [Repairing complex systems]{post:@choose-nearest-language:repair-of-complex-systems}
-* [On symbols]{post:@choose-nearest-language:about-symbols}
-* [Organizing of information]{post:@choose-nearest-language:organization-of-information}
-* [**Composition vs. classification**]{post:@choose-nearest-language:composition-vs-classification}
-* [**Exocortex 3.5**]{post:@choose-nearest-language:exocortex-3-5}
-* [How i learn history]{post:@choose-nearest-language:how-do-i-learn-history}
-* [Systems thinking in practice]{post:@choose-nearest-language:systems-thinking-in-practice}
-* [**Living and working with models**]{post:@choose-nearest-language:life-and-work-with-models}
+- [Intelligence, competence, and decision-making]{post:@choose-nearest-language:intelligence-competency-and-decision-making}
+- [Formalism-induced trauma]{post:@choose-nearest-language:formalism-injury}
+- [**Living and working with mistakes**]{post:@choose-nearest-language:life-and-work-with-mistakes}
+- [**Genes, memes, and memeplexes**]{post:@choose-nearest-language:genes-memes-memeplexes}
+- [The ethics of knowledge transfer]{post:@choose-nearest-language:ethics-of-knowledge-transfer}
+- [**Learn the right way**]{post:@choose-nearest-language:learn-right}
+- [Repairing complex systems]{post:@choose-nearest-language:repair-of-complex-systems}
+- [On symbols]{post:@choose-nearest-language:about-symbols}
+- [Organizing of information]{post:@choose-nearest-language:organization-of-information}
+- [**Composition vs. classification**]{post:@choose-nearest-language:composition-vs-classification}
+- [**Exocortex 3.5**]{post:@choose-nearest-language:exocortex-3-5}
+- [How i learn history]{post:@choose-nearest-language:how-do-i-learn-history}
+- [Systems thinking in practice]{post:@choose-nearest-language:systems-thinking-in-practice}
+- [**Living and working with models**]{post:@choose-nearest-language:life-and-work-with-models}
 
-### Книги
+### Books
 
-Прочёл 26 независимых произведений, томов/книг чуть больше — 31. Не все из них достойны внимания, но в целом я ответственно подхожу к выбору литературы, так как читаю долго и своё время ценю. Все рецензии можно найти по тегу [книги]{tags:books}.
+I read 26 independent works (volumes/books are slightly more — 31). Not all of them are worth attention, but in general I take a responsible approach to the literature selection, as I read slowly and value my time. All reviews can be found under the [books]{tags:books} tag.
 
-Каждое эссе о книге сопровождается отзывом и, если есть смысл, выдержкой самого интересного.
+Every book essay contains a review and, if it makes sense, an excerpt of the most interesting part.
 
-Особенно рекомендую эти:
+I especially recommend the following books:
 
-- [книги Сюзанны Кларк]{post:susanna-clarke-books} — лучшее описание магии, которое встречал;
-- [Иллюзия знания]{post:illusion-of-knowledge} — об эволюции и распространении информации;
-- [Масштаб]{post:scale} — о базовых физических законах самоорганизующихся систем;
-- [Изобретение науки]{post:about-book-invention-of-science} — как появилось то, что мы сейчас зовём наукой;
-- [WTF?]{post:about-book-wtf} — о концепции платформы и подрывных технологиях;
-- [Сильнейшие]{post:about-book-powerful} — о культуре Netflix.
-- [Первая кругосветка Кука]{post:cooks-first-around-the-world-context} — заметки по дневнику Кука в 6 постах.
+- [Susanna Clarke's books]{post:@choose-nearest-language:susanna-clarke-books} — the best depiction of magic I've come across;
+- [The knowledge illusion]{post:@choose-nearest-language:illusion-of-knowledge} — about the evolution and spread of information;
+- [Scale]{post:@choose-nearest-language:scale} — about the fundamental physical laws of self-organizing systems;
+- [The invention of science]{post:@choose-nearest-language:about-book-invention-of-science} — how science became what it is now;
+- [WTF?]{post:@choose-nearest-language:about-book-wtf} — about the concept of platforms and disruptive technologies;
+- [Powerful]{post:@choose-nearest-language:about-book-powerful} — about Netflix's culture;
+- [Cook's first voyage around the world]{post:@choose-nearest-language:cooks-first-around-the-world-context} — notes on Cook's journal in six posts.
 
 ### Главная неудача
 
