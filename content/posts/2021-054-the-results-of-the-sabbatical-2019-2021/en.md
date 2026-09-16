@@ -25,41 +25,43 @@ Shortly: I recommend it to everyone.
 
 <!-- more -->
 
-## Мотивация
+## Motivation
 
-Думал написать что-нибудь воодушевляющее, а-ля «почему все должны завтра уйти в творческий отпуск», но как-нибудь в другой раз. У меня за последнюю неделю план по длинным постам перевыполнен.
+**Updated:** I wrote a separate post about [my approach to sabbaticals]{post:about-sabbatical}.
 
-Расскажу тезисно о своём случае.
+I wanted to write something inspiring, like "why everyone should go on a sabbatical right now", but maybe some other time. I have exceeded my quota for long posts in this week.
 
-Исторически, моё время делится на 3 части:
+Here is a short description of my case.
 
-- сон;
-- основная работа днём;
-- хобби / отдых вечером;
+Historically, my time has been split into three parts:
 
-При этом работа и хобби совпадают только частично.
+- sleep;
+- primary job during the day;
+- hobbies / rest in the evening.
 
-Утрируя, мои интересы сосредоточены в областях за которые сторонние люди платить не будут: экспериментальный геймдев, исследование state of the art возможностей языков программирования, эксперименты с анализом кода, изучение эволюции, мышления.
+My hobbies and work overlap only partially.
 
-Увлечения улучшают мои навыки и полезность для работодателя, но делают это долгим путём с отсутствием внятных KPI.
+Simplifying a bit, my interests are concentrated in areas other people aren't going to pay me for: experimental gamedev, exploring the state of the art in programming languages, experimenting with code analysis, studying evolution and cognition.
 
-В теории у меня есть шансы выйти на самообеспечение, но пока не срослось. В инди геймдеве с первого раза не получилось, для консалтинга у меня с нетворкингом (пока?) не очень.
+My hobbies improve my skills and make me more valuable to an employer, but they do so in the long run with no clear KPIs.
 
-В итоге у меня не хватает времени на:
+In theory, I have a chance of making an self-sufficient income from them, but so far it hasn't worked out. Indie gamedev didn't work out on the first try, and when it comes to consulting, I'm not particularly good at networking — yet, perhaps.
 
-- анализ своей деятельности, ретроспективу;
-- чтение и учёбу — самые интересные книги тяжело читать перед сном или в транспорте;
-- проработку хобби проектов — они сложные.
+As a result, I have no enough time for:
 
-К тому же я принципиально выступаю за честные, открытые отношения между работником и нанимателем. Поэтому не решаю личные вопросы за счёт рабочего времени.
+- analysis of my activities, retrospection;
+- reading and studying — the most interesting books are hard to read before bed or on public transport;
+- properly working through my hobby projects — they're complex.
 
-Остаётся единственный способ найти время — уходить в долгий отпуск.
+Also, I advocate for honest, open relationships between employee and employer. Therefore, I don't solve personal issues at the expense of work time.
 
-С такой мотивацией я уходил из Wargaming в 2012, с ней же из Melsoft в 2019.
+So, that leaves a single way to find time — going on a long vacation.
 
-Об обоих решениях не жалею.
+That was my motivation when I left Wargaming in 2012, and again when I left Melsoft in 2019.
 
-Конечно, я работаю над тем, чтобы эффективнее совмещать хобби и работу, равно как и эффективнее тратить время. Но это долгий и сложный процесс.
+I don't regret either decision.
+
+Of course, I'm working on how to combine my hobbies and my job better, as well as on using my time more efficiently. But that's a long and difficult process.
 
 ## Нетехнические итоги
 
