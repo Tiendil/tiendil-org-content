@@ -67,11 +67,11 @@ Of course, I'm working on combining my hobbies and my job better, as well as usi
 
 The timing of my sabbatical turned out to be extremely fortunate.
 
-For about three months after my resignation, I was treated for one thing or another — I was more burned out from work than I'd realized. It will be a lesson for me.
+For about three months after my resignation, I was treated for one thing or another — I was more burned out from work than I'd realized. That'll be a lesson to me.
 
 For the first six months, my girlfriend and I studied the real estate market without rushing and, without stress, found a good apartment at a good price.
 
-I had no trouble self-isolating when the COVID hit.
+I had no trouble self-isolating when COVID hit.
 
 During the well-known events in Belarus, I was able to focus on reflection; there was no need to force myself to work. As a result, I revised my personal worldview and reflected on events.
 
@@ -91,7 +91,7 @@ Over two years, I wrote 141 essays — more than one text per week. Considering 
 
 The total volume of text exceeded 130,000 words. That's one and a half times the word count of the first Harry Potter novel. About the same as one volume of "War and Peace".
 
-I couldn't say that before going on sabbatical, I could write a lot of useful texts quickly. I had several successful posts on Habr, but that was it. Looking at the first months of the sabbatical, you'll find that the essays were mainly about the books I read, rather than unique topics.
+I can't say I was able to write a lot of useful texts quickly before going on sabbatical. I had several successful posts on Habr, but that was it. Looking at the first months of the sabbatical, you'll find that the essays were mainly about the books I read, rather than unique topics.
 
 With practice, I got the hang of it. At the beginning of the vacation, I could spend more than a week working through the material and preparing a post; now a complex essay takes about three days, and some take hours. Therefore, I expect to continue writing in comparable volumes after returning to work.
 
@@ -113,7 +113,7 @@ I split my time between the following activities:
 - Updates for [The Tale](https://the-tale.org/) — released 5 updates.
 - Reflecting on the events around me, both technical and not so much.
 
-Everything is pretty clear with "The Tale" and reflection on events. Let me tell you more about the rest.
+"The Tale" updates and reflection on events don't need much explanation. Let me tell you more about the rest.
 
 Once more, I want to emphasize that each post is a report on the work done.
 
@@ -177,7 +177,7 @@ I also started publishing game concept documents that had been piling up in stor
 
 ### Software development
 
-There were not so many essays about software development specifically, for two reasons:
+There weren't many essays specifically about my software development experience, for two reasons:
 
 - I'd already thought these aspects through before the sabbatical;
 - numerous topics were covered in more abstract essays.
@@ -188,7 +188,7 @@ I described:
 - the effect of [opening the source code of The Tale]{post:@choose-nearest-language:what-happens-if-you-open-the-code-of-your-game};
 - [complicated nature of data transformations]{post:@choose-nearest-language:infinity-of-data-schemas};
 - [some nuances of software verification]{post:@choose-nearest-language:verification-with-special-cases};
-- [approaches to backend migrations]{post:@choose-nearest-language:about-db-migrations};
+- [approaches to backend migrations]{post:@choose-nearest-language:about-backend-migrations};
 
 ### Thinking techniques
 
@@ -198,7 +198,7 @@ These cases started to annoy me so much that I decided to write a book about the
 
 So, I started building up material for it. I write some essays according to my own plan; others come spontaneously, in response to events around me.
 
-Progress is slow but inevitable. The ones in bold I consider a mandatory reading:
+Progress is slow but inevitable. The ones in bold I consider mandatory reading:
 
 - [Intelligence, competence, and decision-making]{post:@choose-nearest-language:intelligence-competency-and-decision-making}
 - [Formalism-induced trauma]{post:@choose-nearest-language:formalism-injury}
@@ -219,7 +219,7 @@ Progress is slow but inevitable. The ones in bold I consider a mandatory reading
 
 I read 26 distinct works — 31 books or volumes in total. Not all of them are worth attention, but I generally choose my books carefully, since I read slowly and value my time. All reviews can be found under the [books]{tags:books} tag.
 
-Every book essay contains a review and, if it makes sense, an excerpt of the most interesting part.
+Every book essay contains a review and, if it makes sense, a summary of the most interesting points.
 
 I especially recommend the following books:
 
