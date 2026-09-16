@@ -141,7 +141,7 @@ Studied fundamental technologies in depth:
 
 Over the last few months, I've been digging into machine learning and neural networks:
 
-- [Refreshed my knowledge of calculus]{post:@choose-nearest-language:math-refresher}.
+- [Refreshed my knowledge of calculus]{post:@choose-nearest-language:how-to-teach-and-not-teach-math}.
 - [Completed MIT's introductory course on deep learning]{post:@choose-nearest-language:6-s191-introduction-to-deep-learning}.
 - Implemented a few learning projects, [published them on GitHub](https://github.com/Tiendil/public-jupyter-notebooks):
   - [setting up infrastructure for DL]{post:@choose-nearest-language:you-cant-just-take-and-run-dl};
@@ -241,4 +241,4 @@ Still, there was one failure — I didn't manage to build a personal automated k
 
 I put a lot of effort into it and built two prototypes, but still didn't get the result I was aiming for, though I did get closer. I'll make a third prototype, but at a more relaxed pace.
 
-**Updated:** after a few more prototypes the knowledge base evolved into a news reader [Feeds Fun](https://feeds.fun/) ([repo](https://github.com/Tiendil/feeds.fun)).
+**Updated:** after a few more prototypes, the knowledge base evolved into a news reader — [Feeds Fun](https://feeds.fun/) ([repo](https://github.com/Tiendil/feeds.fun)).
