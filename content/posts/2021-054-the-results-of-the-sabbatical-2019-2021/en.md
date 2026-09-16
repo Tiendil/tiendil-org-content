@@ -158,22 +158,22 @@ Additoonally:
 
 ### Gamedev
 
-Я уходил в отпуск с чётким ощущением, что необходимо хорошо обдумать итоги работы над Сказкой, чего мне никак не удавалось сделать ни при работе над ней, ни во время работы в Melsoft.
+I went on my break with a clear sense that I needed to properly reflect on the results of my work on The Tale — something I had never managed to do either while working on it or during my time at Melsoft.
 
-Оказалось я действительно получил много опыта, есть что рассказать:
+It turned out I really had gained a lot of experience, and had plenty to talk about:
 
-- о проектировании [миров]{post:about-worlds-building} и [подземелий]{post:how-to-design-a-dungeon}
-- [о механиках игры, как преобразователях ресурсов]{post:resource-model-of-the-game-resources} и [работе с ними]{post:about-resource-gathering-mechanics}
-- о ММО:
-    - [направлениях развития]{post:next-gamedesign-frontier}
-    - [дизайне механик]{post:space-of-mmo-mechanics}
-    - [динамике фана]{post:about-the-degradation-of-fun} и [восприятии игры игроками]{post:the-significance-of-the-event-in-the-mmo}
-    - [проблемах многопользовательских миров]{post:bots-and-twinks-in-games}
-- [о влиянии массового рынка на концепцию игры]{post:one-form-two-products}
+- [about the worlds building]{post:@choose-nearest-language:about-worlds-building} and [dungeons design]{post:@choose-nearest-language:how-to-design-a-dungeon}
+- [about game mechanics as resource converters]{post:@choose-nearest-language:resource-model-of-the-game-resources} and [how to work with them]{post:@choose-nearest-language:about-resource-gathering-mechanics}
+- about MMO design:
+  - [gamedesing frontier]{post:@choose-nearest-language:next-gamedesign-frontier}
+  - [mechanics design]{post:@choose-nearest-language:space-of-mmo-mechanics}
+  - [the dynamics of fun]{post:@choose-nearest-language:about-the-degradation-of-fun} and [how players perceive the game]{post:@choose-nearest-language:the-significance-of-the-event-in-the-mmo}
+  - [problems of multiplayer worlds]{post:@choose-nearest-language:bots-and-twinks-in-games}
+- [about the impact of the mass market on a concept of a game]{post:@choose-nearest-language:one-form-two-products}
 
-Если вы планируете делать игру с социальными взаимодействиями, тем более ММО, я определённо вам пригожусь.
+So, if you are planning to develop a game with social interactions, especially an MMO, I will definitely be useful to you.
 
-Плюс, начал публиковать копившиеся на складе концепты игр: [Сказка]{post:the-tale-concept-document}, [News Makers]{post:concept-document-news-makers}, [NoCraft]{post:concept-document-nocraft}, [Сказания]{post:concept-document-for-the-game-tales}.
+I also started publishing game concept documents that had been piling up in storage: [The Tale]{post:@choose-nearest-language:the-tale-concept-document}, [News Makers]{post:@choose-nearest-language:concept-document-news-makers}, [NoCraft]{post:@choose-nearest-language:concept-document-nocraft}, [Tales]{post:@choose-nearest-language:concept-document-for-the-game-tales}.
 
 ### Разработка ПО
 

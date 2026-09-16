@@ -164,7 +164,7 @@ If you don't like your life, then you should go and change it
 
 - о проектировании [миров]{post:about-worlds-building} и [подземелий]{post:how-to-design-a-dungeon}
 - [о механиках игры, как преобразователях ресурсов]{post:resource-model-of-the-game-resources} и [работе с ними]{post:about-resource-gathering-mechanics}
-- о ММО:
+- о дизайне ММО:
     - [направлениях развития]{post:next-gamedesign-frontier}
     - [дизайне механик]{post:space-of-mmo-mechanics}
     - [динамике фана]{post:about-the-degradation-of-fun} и [восприятии игры игроками]{post:the-significance-of-the-event-in-the-mmo}
