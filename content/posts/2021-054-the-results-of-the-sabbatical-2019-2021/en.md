@@ -81,7 +81,7 @@ This summer I got married :-)
 
 ## Technical results
 
-I practice [thinking through writing]{post:thinking-through-writing} — finish every finished intellectual effort with a qualitative text. The blog works as a database of reports on the work done. Therefore, there will be many links to essays below. Follow them if you want to know more about a specific activity.
+I practice [thinking through writing]{post:thinking-through-writing} — mark each completed intellectual effort with a qualitative text. The blog works as a database of reports on the work done. Therefore, there will be many links to essays below. Follow them if you want to know more about a specific activity.
 
 ### Blog
 
@@ -162,10 +162,10 @@ I went on my break with a clear sense that I needed to properly reflect on the r
 
 It turned out I really had gained a lot of experience, and had plenty to talk about:
 
-- [about the world building]{post:@choose-nearest-language:about-worlds-building} and [dungeon design]{post:@choose-nearest-language:how-to-design-a-dungeon}
+- [about the worldbuilding]{post:@choose-nearest-language:about-worlds-building} and [dungeon design]{post:@choose-nearest-language:how-to-design-a-dungeon}
 - [about game mechanics as resource converters]{post:@choose-nearest-language:resource-model-of-the-game-resources} and [how to work with them]{post:@choose-nearest-language:about-resource-gathering-mechanics}
 - about MMO design:
-  - [game design frontier]{post:@choose-nearest-language:next-gamedesign-frontier}
+  - [the next frontier in game design]{post:@choose-nearest-language:next-gamedesign-frontier}
   - [mechanics design]{post:@choose-nearest-language:space-of-mmo-mechanics}
   - [the dynamics of fun]{post:@choose-nearest-language:about-the-degradation-of-fun} and [how players perceive the game]{post:@choose-nearest-language:the-significance-of-the-event-in-the-mmo}
   - [problems of multiplayer worlds]{post:@choose-nearest-language:bots-and-twinks-in-games}
@@ -179,7 +179,7 @@ I also started publishing game concept documents that had been piling up in stor
 
 There were not so many essays about software development specifically, for two reasons:
 
-- those aspects I worked out even before the sabbatical;
+- I'd already thought these aspects through before the sabbatical;
 - numerous topics were covered in more abstract essays.
 
 I described:
