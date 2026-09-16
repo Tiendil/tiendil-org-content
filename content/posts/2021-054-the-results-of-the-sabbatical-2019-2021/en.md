@@ -1,6 +1,6 @@
 ---
 title = "The results of the sabbatical 2019-2021"
-tags = [ "blog", "practice", "reflection",]
+tags = [ "blog", "practice", "reflection"]
 published_at = "2021-09-01T12:00:00+00:00"
 seo_description = "The results of my two-year sabbatical or 'How I wrote a volume of War and Peace'."
 seo_image = ""
@@ -11,13 +11,13 @@ id = "7zok9co_8E4"
 caption = """
 Every single day 'cause I love my occupation<br/>
 A-a-ay, I'm on vacation<br/>
-If you don't like your life, then you should go and change it
+If you don't like your life, then you should go and change it.
 """
 ///
 
 Or how to write a volume of "War and Peace" in 2 years.
 
-In June 2019 I resigned from [Melsoft](https://melsoft-games.com/) and went on a sabbatical, which has lasted for 2 years and 2 months. It's time to assess the results.
+In June 2019, I resigned from [Melsoft](https://melsoft-games.com/) and went on a sabbatical that has lasted 2 years and 2 months. It's time to assess the results.
 
 I'll tell you why I did that, what I was doing, what worked out, what didn't, and what I think about that experience.
 
@@ -29,7 +29,7 @@ Shortly: I recommend it to everyone.
 
 **Updated:** I wrote a separate post about [my approach to sabbaticals]{post:about-sabbatical}.
 
-I wanted to write something inspiring, like "why everyone should go on a sabbatical right now", but maybe some other time. I have exceeded my quota for long posts in this week.
+I wanted to write something inspiring, like "why everyone should go on a sabbatical right now", but maybe some other time. I have exceeded my quota for long posts this week.
 
 Here is a short description of my case.
 
@@ -41,13 +41,13 @@ Historically, my time has been split into three parts:
 
 My hobbies and work overlap only partially.
 
-Simplifying a bit, my interests are concentrated in areas other people aren't going to pay me for: experimental gamedev, exploring the state of the art in programming languages, experimenting with code analysis, studying evolution and cognition.
+Simply put, my interests are concentrated in areas other people aren't going to pay me for: experimental gamedev, exploring the state of the art in programming languages, experimenting with code analysis, and studying evolution and cognition.
 
 My hobbies improve my skills and make me more valuable to an employer, but they do so in the long run with no clear KPIs.
 
-In theory, I have a chance of making an self-sufficient income from them, but so far it hasn't worked out. Indie gamedev didn't work out on the first try, and when it comes to consulting, I'm not particularly good at networking — yet, perhaps.
+In theory, I could make a self-sufficient income from them, but so far it hasn't worked out. Indie gamedev didn't work out on the first try, and when it comes to consulting, I'm not particularly good at networking — yet, perhaps.
 
-As a result, I have no enough time for:
+As a result, I do not have enough time for:
 
 - analysis of my activities, retrospection;
 - reading and studying — the most interesting books are hard to read before bed or on public transport;
@@ -61,21 +61,21 @@ That was my motivation when I left Wargaming in 2012, and again when I left Mels
 
 I don't regret either decision.
 
-Of course, I'm working on how to combine my hobbies and my job better, as well as on using my time more efficiently. But that's a long and difficult process.
+Of course, I'm working on combining my hobbies and my job better, as well as using my time more efficiently. But that's a long and difficult process.
 
 ## Non-technical results
 
-The timing of my subbatical turned out to be extremely fortunate.
+The timing of my sabbatical turned out to be extremely fortunate.
 
 Around three months after my resignation, I was treated for one thing or another — I burned out at work more than I expected. It will be a lesson for me.
 
-The first six months my girlfriend and I without rushing studied the real estate market, and without stress found a good apartment at a good price.
+For the first six months, my girlfriend and I studied the real estate market without rushing and, without stress, found a good apartment at a good price.
 
 Easily went into self-isolation with the arrival of COVID.
 
-At the time of the well-known events in Belarus, I was able to focus on reflection; there were no need to force myself working. As a result, I revised my personal worldview and reflected events.
+During the well-known events in Belarus, I was able to focus on reflection; there was no need to force myself to work. As a result, I revised my personal worldview and reflected on events.
 
-The political problems, of course, broke all plans for the subbatical. But I was able to revise them, in my opinion, successfully.
+The political problems, of course, broke all my sabbatical plans. But I was able to revise them successfully, in my opinion.
 
 This summer I got married :-)
 
@@ -87,15 +87,15 @@ I practice [thinking through writing]{post:thinking-through-writing} — fix eve
 
 The main discovery of these years for me was my productivity as a writer.
 
-During two years, I wrote 141 essays — more than one text per week. Considering the size and content of the essays, this seems like a significant achievement to me.
+Over two years, I wrote 141 essays — more than one text per week. Considering the size and content of the essays, this seems like a significant achievement to me.
 
-The total volume of text exceeded 130,000 words. One and a half times more than in the first Harry Potter novel. About the same as in the volume of "War and Peace".
+The total volume of text exceeded 130,000 words. One and a half times more than in the first Harry Potter novel. About the same as one volume of "War and Peace".
 
-Couldn't say that before going on sabbatical I was able to write a lot of useful texts in a fast way. There were several successful posts on Habr, but that was all. Looking at the first months of the sabbatical, it is clear that the essays were mainly about the books I read, rather than unique topics.
+I couldn't say that before going on sabbatical, I could write a lot of useful texts quickly. I had several successful posts on Habr, but that was it. Looking at the first months of the sabbatical, you'll find that the essays were mainly about the books I read, rather than unique topics.
 
-Practice gave me a lot of experience. At the beginning of the vacation, I could spend more than a week working through the material and preparing a post; now a complex essay takes about three days, some are written in hours. Therefore, I expect to continue writing in comparable volumes after returning to work.
+Practice gave me a lot of experience. At the beginning of the vacation, I could spend more than a week working through the material and preparing a post; now a complex essay takes about three days, and some take hours. Therefore, I expect to continue writing in comparable volumes after returning to work.
 
-The outcome of thinking through writing exceeded my wildest expectations. I unloaded my head, reorganized the information in it, freed up resources for thinking about complex stuff. It's hard to convey these feelings, you have to try it.
+The outcome of thinking through writing exceeded my wildest expectations. I unloaded my head, reorganized the information in it, and freed up resources for thinking about complex stuff. It's hard to convey these feelings — you have to try it.
 
 And now I don't need to remember what I thought years ago to argue in discussions. I have texts with clear arguments at hand. Very convenient.
 
@@ -119,31 +119,31 @@ Once more, I want to emphasize that each post is a report on the work done.
 
 ### Prototyping and studying
 
-These activities took most of the time, and their results I consider the most interesting.
+These activities took most of my time, and I find their results the most interesting.
 
-I prototyped some cool stuff, all sources are open:
+I prototyped some cool stuff; all sources are open:
 
-- [Smart Imports](https://github.com/Tiendil/smart-imports) — library for automatic dependency discovery and importing on the time of Python module import.
-- [Morphologic](https://tiendil.github.io/morphologic/#/) — software for [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) of solution spaces. Simultaniosly, I refreshed my frontend knowledge and looked at Vue.
+- [Smart Imports](https://github.com/Tiendil/smart-imports) — library for automatic dependency discovery and importing at the time of Python module import.
+- [Morphologic](https://tiendil.github.io/morphologic/#/) — software for [morphological analysis](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving)) of solution spaces. Simultaneously, I refreshed my frontend knowledge and looked at Vue.
 - [Pydicates](https://github.com/Tiendil/pydicates) — predicates for Python. The package was born as a by-product of other experiments.
 - [Coulson](https://github.com/Tiendil/coulson) — an attempt to analyze types during the execution of a Python program. It works, but I postponed its development until better times.
-- [Tutorial on procedural dungeons generation]{post:dungeon-generation-from-simple-to-complex}
+- [Tutorial on procedural dungeon generation]{post:dungeon-generation-from-simple-to-complex}
 
 A handful of projects never made it to release for various reasons. In particular, there were some experiments with procedural generation.
 
 Studied fundamental technologies in depth:
 
 - Type analysis in Python: [static and dynamic]{post:@choose-nearest-language:trendy-typing-in-python}, made my own [runtime type analyzer]{post:@choose-nearest-language:python-types-are-not-great}.
-- Julia: [in theory]{post:@choose-nearest-language:julia-is-next-python} and [on practice]{post:@choose-nearest-language:julia-experience}. I choose a [DSL for procedural generation](https://github.com/Tiendil/pcg-julia) as a learning project.
+- Julia: [in theory]{post:@choose-nearest-language:julia-is-next-python} and [on practice]{post:@choose-nearest-language:julia-experience}. I chose a [DSL for procedural generation](https://github.com/Tiendil/pcg-julia) as a learning project.
 - API standards: [GraphQL]{post:@choose-nearest-language:graphql-and-python}, [OpenAPI]{post:@choose-nearest-language:python-and-openapi}.
 - [Database migration libraries and utilities]{post:@choose-nearest-language:backend-migrations-in-practice}.
-- State of the art approaches to testing. Experimented with [hypothesis]{post:@choose-nearest-language:python-hypothesis}, finally switched to pytest.
+- State-of-the-art approaches to testing. Experimented with [hypothesis]{post:@choose-nearest-language:python-hypothesis}, finally switched to pytest.
 
 The last months I was digging into machine learning and neural networks:
 
 - [Refreshed my knowledge of calculus]{post:@choose-nearest-language:math-refresher}.
 - [Completed MIT's introductory course on deep learning]{post:@choose-nearest-language:6-s191-introduction-to-deep-learning}.
-- Implemented a few learning projects, [published them on github](https://github.com/Tiendil/public-jupyter-notebooks):
+- Implemented a few learning projects, [published them on GitHub](https://github.com/Tiendil/public-jupyter-notebooks):
   - [setting up infrastructure for DL]{post:@choose-nearest-language:you-cant-just-take-and-run-dl};
   - [digit recognition]{post:@choose-nearest-language:kaggle-digit-recognizer-solution}, with a look at Kaggle;
   - [implementing a Generative Adversarial Network]{post:@choose-nearest-language:generative-adversarial-network-implementation}.
@@ -151,7 +151,7 @@ The last months I was digging into machine learning and neural networks:
   - [in technical fields]{post:@choose-nearest-language:feature-programming};
   - [in social fields]{post:@choose-nearest-language:ai-will-not-or-will-replace-us-all}.
 
-Additoonally:
+Additionally:
 
 - [Took a broad look at the leading programming languages]{post:@choose-nearest-language:thoughts-on-programming-languages}
 - Revamped my development environment and [updated Emacs configs]{post:@choose-nearest-language:update-emacs-configs}.
@@ -177,7 +177,7 @@ I also started publishing game concept documents that had been piling up in stor
 
 ### Software development
 
-There were not so much essays about software development specifically, because of two reasons:
+There were not so many essays about software development specifically, for two reasons:
 
 - those aspects I worked out even before the sabbatical;
 - numerous topics were covered in more abstract essays.
@@ -185,7 +185,7 @@ There were not so much essays about software development specifically, because o
 I described:
 
 - [GDPR implementation]{post:@choose-nearest-language:how-i-did-and-would-do-gdpr-support};
-- the effect from [opening the source code of The Tale]{post:@choose-nearest-language:what-happens-if-you-open-the-code-of-your-game};
+- the effect of [opening the source code of The Tale]{post:@choose-nearest-language:what-happens-if-you-open-the-code-of-your-game};
 - [complicated nature of data transformations]{post:@choose-nearest-language:infinity-of-data-schemas};
 - [some nuances of software verification]{post:@choose-nearest-language:verification-with-special-cases};
 - [approaches to db migrations]{post:@choose-nearest-language:about-db-migrations};
@@ -208,16 +208,16 @@ The progress is slow, but inevitable. The bolded ones I consider mandatory to re
 - [**Learn the right way**]{post:@choose-nearest-language:learn-right}
 - [Repairing complex systems]{post:@choose-nearest-language:repair-of-complex-systems}
 - [On symbols]{post:@choose-nearest-language:about-symbols}
-- [Organizing of information]{post:@choose-nearest-language:organization-of-information}
+- [Organizing information]{post:@choose-nearest-language:organization-of-information}
 - [**Composition vs. classification**]{post:@choose-nearest-language:composition-vs-classification}
 - [**Exocortex 3.5**]{post:@choose-nearest-language:exocortex-3-5}
-- [How i learn history]{post:@choose-nearest-language:how-do-i-learn-history}
+- [How I learn history]{post:@choose-nearest-language:how-do-i-learn-history}
 - [Systems thinking in practice]{post:@choose-nearest-language:systems-thinking-in-practice}
 - [**Living and working with models**]{post:@choose-nearest-language:life-and-work-with-models}
 
 ### Books
 
-I read 26 independent works (volumes/books are slightly more — 31). Not all of them are worth attention, but in general I take a responsible approach to the literature selection, as I read slowly and value my time. All reviews can be found under the [books]{tags:books} tag.
+I read 26 independent works (volumes/books are slightly more — 31). Not all of them are worth attention, but I take a responsible approach to literature selection, as I read slowly and value my time. All reviews can be found under the [books]{tags:books} tag.
 
 Every book essay contains a review and, if it makes sense, an excerpt of the most interesting part.
 
@@ -233,7 +233,7 @@ I especially recommend the following books:
 
 ### The biggest failure
 
-Taking into account the problems of the country and the planet, I do not consider some unfinished plans to be a failure — the world was shaking and I was shaking with it.
+Given the problems of the country and the planet, I don't consider some unfinished plans a failure — the world was shaking, and I was shaking with it.
 
 For example, I wanted to finish my vacation by releasing a small game on Steam in six months, but I had to spend that time on other things.
 
