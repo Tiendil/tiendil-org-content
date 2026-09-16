@@ -63,21 +63,21 @@ I don't regret either decision.
 
 Of course, I'm working on how to combine my hobbies and my job better, as well as on using my time more efficiently. But that's a long and difficult process.
 
-## Нетехнические итоги
+## Non-technical results
 
-Время для отпуска я выбрал крайне удачно.
+The timing of my subbatical turned out to be extremely fortunate.
 
-Месяца три после увольнения лечился то от одного, то от другого — перегорел на работе больше, чем оценивал. Будет мне уроком.
+Around three months after my resignation, I was treated for one thing or another — I burned out at work more than I expected. It will be a lesson for me.
 
-Первые полгода с девушкой без спешки изучали рынок недвижимости, без стресса нашли хорошее жильё по хорошей цене.
+The first six months my girlfriend and I without rushing studied the real estate market, and without stress found a good apartment at a good price.
 
-Легко ушёл на самоизоляцию с приходом ковида.
+Easily went into self-isolation with the arrival of COVID.
 
-Во время известных событий в Беларуси смог сосредоточиться на рефлексии, не надо было насиловать себя и работать работу. В итоге пересмотрел личную картину мира, отрефлексировал.
+At the time of the well-known events in Belarus, I was able to focus on reflection; there were no need to force myself working. As a result, I revised my personal worldview and reflected events.
 
-Политические проблемы, конечно, поломали все планы на отпуск. Но я смог их пересмотреть, на мой взгляд, успешно.
+The political problems, of course, broke all plans for the subbatical. But I was able to revise them, in my opinion, successfully.
 
-Этим летом женился :-)
+This summer I got married :-)
 
 ## Технические итоги
 
