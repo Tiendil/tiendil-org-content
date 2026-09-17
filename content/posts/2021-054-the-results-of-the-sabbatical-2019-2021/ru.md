@@ -1,6 +1,6 @@
 ---
-title = "Итоги творческого отпуска  2019-2021 годов"
-tags = [ "open-source", "blog", "practice", "reflection",]
+title = "Итоги творческого отпуска 2019-2021 годов"
+tags = [ "blog", "practice", "reflection", "sabbatical-report"]
 published_at = "2021-09-01T12:00:00+00:00"
 seo_description = "Итоги моего двухлетнего творческого отпуска или «Как я написал том Войны и Мира»."
 seo_image = ""
@@ -26,6 +26,8 @@ If you don't like your life, then you should go and change it
 <!-- more -->
 
 ## Мотивация
+
+**Updated:** Я написал отдельный пост [о моём подходе к саббатикалам]{post:sabbaticals}.
 
 Думал написать что-нибудь воодушевляющее, а-ля «почему все должны завтра уйти в творческий отпуск», но как-нибудь в другой раз. У меня за последнюю неделю план по длинным постам перевыполнен.
 
@@ -162,7 +164,7 @@ If you don't like your life, then you should go and change it
 
 - о проектировании [миров]{post:about-worlds-building} и [подземелий]{post:how-to-design-a-dungeon}
 - [о механиках игры, как преобразователях ресурсов]{post:resource-model-of-the-game-resources} и [работе с ними]{post:about-resource-gathering-mechanics}
-- о ММО:
+- о дизайне ММО:
     - [направлениях развития]{post:next-gamedesign-frontier}
     - [дизайне механик]{post:space-of-mmo-mechanics}
     - [динамике фана]{post:about-the-degradation-of-fun} и [восприятии игры игроками]{post:the-significance-of-the-event-in-the-mmo}
@@ -180,7 +182,13 @@ If you don't like your life, then you should go and change it
 - эти моменты я обдумывал и до отпуска;
 - многие штуки были затронуты в рамках более абстрактных эссе.
 
-В итоге я описал [реализацию GDPR]{post:how-i-did-and-would-do-gdpr-support}, результат [открытия исходников Сказки]{post:what-happens-if-you-open-the-code-of-your-game}, [сложности преобразований данных]{post:infinity-of-data-schemas}, [нюансы верификации ПО]{post:verification-with-special-cases}, [подходы к миграциям backend]{post:about-backend-migrations}.
+В итоге я описал:
+
+- [реализацию GDPR]{post:how-i-did-and-would-do-gdpr-support};
+- результат [открытия исходников Сказки]{post:what-happens-if-you-open-the-code-of-your-game};
+- [сложности преобразований данных]{post:infinity-of-data-schemas};
+- [нюансы верификации ПО]{post:verification-with-special-cases};
+- [подходы к миграциям backend]{post:about-backend-migrations}.
 
 ### Приёмы мышления
 
@@ -232,3 +240,5 @@ If you don't like your life, then you should go and change it
 Но неудача всё-таки есть — не получилось реализовать личную автоматизированную базу знаний. Посты о разработке можно найти по тегу [Тарантога]{tags:tarantoga}.
 
 Проделал много работы, реализовал два прототипа, но желаемый результат так и не получил, хотя и приблизился к нему. Буду делать третий прототип, но уже в более спокойном темпе.
+
+**Updated:** после нескольких прототипов база знаний эволюционировала в читалку новостей — [Feeds Fun](https://feeds.fun/) ([repo](https://github.com/Tiendil/feeds.fun)).

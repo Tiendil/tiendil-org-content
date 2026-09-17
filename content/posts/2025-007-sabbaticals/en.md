@@ -62,10 +62,10 @@ That's why I see some startup activities, like developing auteur games or trying
 There is no sense in listing all my sabbatical activities — you can read about them in the blog, but I will still briefly list sabbaticals themselves.
 
 1. **2012-2015** — development of the text MMO [The Tale](https://the-tale.org/). The game is stopped, [the lore is available under an open license](https://the-tale.notion.site/), you can check out the [concept document of the game]{post:@choose-nearest-language:the-tale-concept-document} or listen to the [postmortem podcast](https://www.youtube.com/watch?v=5KODCBqhDu0).
-2. **2019-2021** — the sabbatical was focused on improving my thinking methods and polishing my worldview — [detailed report]{post:@choose-nearest-language:the-results-of-the-sabbatical-2019-2021}.
-3. **2024-…** — the current sabbatical is dedicated to working on pet projects and improving management theory. See the [2024 report]{post:results-of-2024-for-me-and-the-blog} and all my posts for 2024-2025.
+2. **2019-2021** — [report]{post:the-results-of-the-sabbatical-2019-2021} — working on thinking practices and worldview.
+3. **2024-2026** — [report]{post:the-results-of-the-sabbatical-2024-2026} — forming my own approach to management, dealing with AI and coding agents, working on [feeds.fun](https://feeds.fun), open-source.
 
-Besides, I practice [annual report posts]{tags:results-of-the-year}, so you can track everything I did in any year since 2020.
+Besides, I practice [annual report posts]{tags:annual-report}, so you can track everything I did in any year since 2020.
 
 My first sabbatical was not a conscious decision (in the sense "I'm taking a sabbatical now"), but a particular endeavor to develop a particular game. However, even then, there was some additional motivation in the spirit of "I need to test myself" and "I need to experiment with ideas that I can't try at work".
 

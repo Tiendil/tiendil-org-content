@@ -1,6 +1,6 @@
 ---
 title = "Results of 2025 for me and my blog"
-tags = [ "blog", "practice", "reflection", "results-of-the-year"]
+tags = [ "blog", "practice", "reflection", "annual-report"]
 published_at = "2025-12-27T12:00:00+00:00"
 seo_description = "What I was doing in 2025, how my plans for the past year went, and what my plans are for the coming year."
 seo_image = "cover.png"

@@ -1,6 +1,6 @@
 ---
 title = "Rust — язык, на который переписывают"
-tags = ["theory", "practice", "development", "rust"]
+tags = ["theory", "practice", "development", "rust", "interesting", "best"]
 published_at = "2026-05-25T12:00:00+00:00"
 seo_description = "Субъективный взгляд на Rust, его преимущества и недостатки, а также почему на него переписывают всё подряд."
 seo_image = "cover.jpg"

@@ -79,3 +79,15 @@ id = "interesting-about-books"
 - [Подкаст у Сергея Галёнкина: браузерные игры](https://kdicast.com/e/105-brauzernyie-igryi/)
 - [Интервью в блоге XSolla](http://blog.xsolla.ru/2015/01/26/the-tale-interview/)
 - [Интервью для Компьютерных Вестей](http://www.kv.by/content/331643-aleksei-eletskii-vysot-wargaming-vpolne-mozhet-dostich-lyubaya-belorusskaya-it-kompan)
+
+## Отчёты о творческих отпусках
+
+/// brigid-collection
+id = "sabbatical-reports"
+///
+
+## Ежегодные отчёты
+
+/// brigid-collection
+id = "annual-reports"
+///

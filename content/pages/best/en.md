@@ -1,5 +1,5 @@
 ---
-title = "Best Posts"
+title = "Best posts"
 published_at = "2025-01-01T12:00:00+00:00"
 seo_description = "The list of the best blog posts."
 seo_image = ""
@@ -54,4 +54,16 @@ Essays with detailed book reviews or about books that I recommend reading. Unfor
 
 /// brigid-collection
 id = "interesting-about-books"
+///
+
+## Sabbatical reports
+
+/// brigid-collection
+id = "sabbatical-reports"
+///
+
+## Annual reports
+
+/// brigid-collection
+id = "annual-reports"
 ///

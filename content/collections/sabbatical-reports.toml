@@ -1,0 +1,3 @@
+id = "sabbatical-reports"
+required_tags = ["sabbatical-report"]
+order = "desc"
