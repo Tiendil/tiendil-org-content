@@ -255,14 +255,4 @@ Besides everything listed above and mentioned in the annual reports, I came away
 
 **First.** Building a product "for yourself" and building one "to make money" are two different things. Each direction calls for features and architecture that the other doesn't need. So if you try to move in both directions at once, you'll move more slowly. I'm not sure how I could have avoided this with Feeds Fun, but in the future I'll try to separate these goals at the product level.
 
-**Second.** Based on my own experience and what I see in the market, I've concluded that "gamedev for making games" and "gamedev for making money" need to be kept strictly separate. Don't try to kill two birds with one stone — it won't work. The requirements are fundamentally opposed. And, importantly, you can find self-fulfillment in either one, even in both — just not at the same time. It's a kind of continuation of the previous point.
-
-Want to make GAMES? Make them as a hobby and earn your living doing something else. Want to make MONEY — forget about making something unique — your best friends are marketing, endless A/B tests, hype, designing for the average, [gameplay simulacra]{post:@choose-nearest-language:one-form-two-products}, etc.
-
-Gamedev is becoming a mass market (well, it became one a long time ago), which means it's starting to play by mass-market rules.
-
-Yes, there are exceptions — there always will be — but I would venture to suggest that if you dig into them, you'll find some very difficult personal stories, years of expertise, and a very lucky set of circumstances.
-
-As you may have noticed, I still have some unresolved issues around separating hobbies from making money :-D
-
-**Third.** Next time, I need to explicitly separate the research track from the product development track. Development should have fixed deadlines and be optimized by cutting scope: anything uncertain gets moved to the research track. Research, on the other hand, should be optimized through prioritization: tackle the most important things first, and whatever doesn't get done simply doesn't get done.
+**Second.** Next time, I need to explicitly separate the research track from the product development track. Development should have fixed deadlines and be optimized by cutting scope: anything uncertain gets moved to the research track. Research, on the other hand, should be optimized through prioritization: tackle the most important things first, and whatever doesn't get done simply doesn't get done.
