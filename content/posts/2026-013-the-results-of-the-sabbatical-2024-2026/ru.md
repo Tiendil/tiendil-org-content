@@ -6,9 +6,6 @@ seo_description = "Итоги моего творческого отпуска 2
 seo_image = "./cover.jpg"
 ---
 
-<!-- TODO: translate previos sabbsatical post? -->
-<!-- TODO: translate the post about the blog? -->
-
 /// brigid-images
 src = "./cover.jpg"
 caption = "Идиоматически проводим творческий отпуск."
