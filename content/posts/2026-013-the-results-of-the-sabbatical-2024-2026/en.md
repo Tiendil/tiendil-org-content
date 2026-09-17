@@ -2,7 +2,7 @@
 title = "Results of the 2024–2026 sabbatical"
 tags = [ "blog", "practice", "reflection", "sabbatical-report"]
 published_at = "2026-09-17T12:00:00+00:00"
-seo_description = "The results of my sabbatical 2024-2026: what was achieved and what was not."
+seo_description = "The results of my 2024–2026 sabbatical: what was achieved and what was not."
 seo_image = "./cover.jpg"
 ---
 
@@ -13,7 +13,7 @@ caption = "Idiomatically spending a sabbatical."
 
 In 2023, [Yuliya](https://www.linkedin.com/in/burankova/) made a table of 1000 labs (!), chose one, moved to Germany, and started doing a PhD there. For a year, we flew back and forth between Poland and Germany, realized it was terribly inconvenient and expensive, so I quit [Palta](https://palta.com/) and, at the beginning of 2024, moved to Germany as a trailing spouse.
 
-"What a great excuse to take another sabbatical" — I thought, and so I did. Two and a half years later, it's time to ~~[look for a job]{post:looking-for-partners-and-projects}~~ take stock.
+"What a great excuse to take another sabbatical", I thought, and so I did. Two and a half years later, it's time to ~~[look for a job]{post:looking-for-partners-and-projects}~~ take stock.
 
 In this post, you'll find a full report on all the resting I managed to get done: what was planned, how the plans changed, what was achieved, and what was not.
 
@@ -53,7 +53,7 @@ Unexpected goals:
 
 ## Results from 30000 feet
 
-I'm satisfied with the results, but the extra 6 months, of course, is annoying and spoil the picture.
+I'm satisfied with the results, but the extra 6 months, of course, are annoying and spoil the picture.
 
 The idea was to work through the accumulated issues at an easy pace and move on. Instead, I ended up having to push pretty hard just to avoid falling completely behind schedule. As a result, the resting part, for example, didn't really work out. I did manage to get some rest, though.
 
@@ -70,14 +70,14 @@ Now I can go into more detail about what exactly I was doing. I'll skip the mino
 
 ## Open source
 
-These projects are scattered across the following chapters, but I collected them here as well to give bit more weight to the whole open-source thing.
+These projects are scattered across the following chapters, but I collected them here as well to give a bit more weight to the whole open-source thing.
 
 During the sabbatical, I implemented 4 new projects from scratch and actively worked on two more (Feeds Fun and The Tale).
 
 - [feeds.fun](https://github.com/Tiendil/feeds.fun) — web-based self-hosted news reader with tags and rules for ranking news.
 - [brigid](https://github.com/Tiendil/brigid) — the engine of this blog.
 - [changy](https://github.com/Tiendil/changy) — CLI changelog manager/generator for humans — used in all my projects.
-- [donna](https://github.com/Tiendil/donna) — A CLI tool that helps agents keep long-running work on a predefined path.
+- [donna](https://github.com/Tiendil/donna) — a CLI tool that helps agents keep long-running work on a predefined path.
 - [depmesh](https://github.com/tiendil/depmesh) — CLI for discovering dependencies between files in your project, so agents can form context faster and more economically.
 - [The lore of The Tale](https://the-tale.notion.site/) was released under the `CC BY 4.0` license; the game was shut down after 13 years of operation. Just in case, here is [the game website](https://the-tale.org) and [the source code](https://github.com/the-tale).
 
@@ -120,7 +120,7 @@ caption = "The number of unique tags per month before and after normalization."
 
 While optimizing performance, I ran into a rather [illustrative Python problem related to working with external libraries]{post:fun-case-of-speeding-up-data-retrieval-with-psycopg}.
 
-[Ran a marketing test]{post:feeds-fun-marketing-test}, which produced rather weak numbers; I assumed it was because users had to enter their OpenAI/Gemini API key, so I decided to push the project to the monetization stage and repeat the test. [The required pricing has been calculated]{post:feeds-fun-monetization-approaches}, the code for crediting and spending "news tokens" is ready, what remains is to register a legal entity and connect real payments.
+[Ran a marketing test]{post:feeds-fun-marketing-test}, which produced rather weak numbers; I assumed it was because users had to enter their OpenAI/Gemini API key, so I decided to push the project to the monetization stage and repeat the test. [The required pricing has been calculated]{post:feeds-fun-monetization-approaches}; the code for crediting and spending "news tokens" is ready; what remains is to register a legal entity and connect real payments.
 
 ## Management
 
@@ -128,7 +128,7 @@ While working at Palta, I noticed that during discussions of managerial issues, 
 
 To achieve this, I picked a selection of [top books on management]{post:vantage-on-management-books} and read them. It took more time than I planned:
 
-1. Most of the books did indeed turn out to be quite good, they fit well with my experience and consequently spawned tons of notes and ideas that I needed to digest.
+1. Most of the books did indeed turn out to be quite good; they fit well with my experience and consequently spawned tons of notes and ideas that I needed to digest.
 2. It turned out I had way more ideas than I thought, especially about the nature of engineering, its connection with science, and what follows from that. That's why the resulting posts took significantly longer to write. But it was worth it.
 
 As a result, I constructed my own approach to management — a bit radical compared to generally accepted practices — and published a series of essays, which I recommend everyone read, especially the part about the similarity between engineering and science.
@@ -153,7 +153,7 @@ Gained hands-on [experience developing with coding agents]{post:notes-on-coding-
 
 Released two CLI utilities for coding agents:
 
-- [donna](https://github.com/Tiendil/donna) — A CLI tool that helps agents keep long-running work on a predefined path.
+- [donna](https://github.com/Tiendil/donna) — a CLI tool that helps agents keep long-running work on a predefined path.
 - [depmesh](https://github.com/tiendil/depmesh) — CLI for discovering dependencies between files in your project, so agents can form context faster and more economically.
 
 More CLI utilities are coming — follow my posts.
@@ -184,11 +184,11 @@ Much more importantly, the courses left me itching to build a more substantial g
 
 I didn't like Godot, though I admit it may be the best option for small indie developers.
 
-[I changed my opinion about Rust]{post:rust-the-language-things-get-rewritten-in} from negative to positive. Now I believe that Rust is the best language for developing with coding agents. If possible, I will do the next commercial project in Rust, instead of Python.
+[I changed my opinion about Rust]{post:rust-the-language-things-get-rewritten-in} from negative to positive. Now I believe that Rust is the best language for developing with coding agents. If possible, I will do the next commercial project in Rust instead of Python.
 
 ### "Secret" project
 
-While prototyping games, I started developing an experimental game engine — somehow it just happened :-D The development started in manual mode before the rise of coding agents, but now it's also an experiment in vibe-coding complex systems. I do this purely in my free time and without a final goal, so there will be no releases in the near future. But if you're interested, here are some of its features:
+While prototyping games, I started developing an experimental game engine — somehow it just happened :-D. The development started in manual mode before the rise of coding agents, but now it's also an experiment in vibe-coding complex systems. I do this purely in my free time and without a final goal, so there will be no releases in the near future. But if you're interested, here are some of its features:
 
 - Fully deterministic game logic.
 - All parameters of the game entities are organized into a single computational graph.
@@ -198,7 +198,7 @@ While prototyping games, I started developing an experimental game engine — so
 - GUI is implemented as a full-fledged web interface: HTML + CSS + JS/TS/WebAssembly.
 - The engine is focused on building games through vibe coding => no visual editors, only code and configs under version control.
 
-So, it's pretty bizarre. Right now, the code looks extremely dirty and ugly, but at least there's a one genuinely vibe-coded game.
+So, it's pretty bizarre. Right now, the code looks extremely dirty and ugly, but at least there's one genuinely vibe-coded game.
 
 /// brigid-images
 src = "./game-screenshot.png"
