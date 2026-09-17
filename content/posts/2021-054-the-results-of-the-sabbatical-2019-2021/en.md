@@ -49,7 +49,7 @@ In theory, I could make a living from them, but so far it hasn't worked out. Ind
 
 As a result, I do not have enough time for:
 
-- analysis of my activities, retrospection;
+- analysis of my activities and retrospection;
 - reading and studying — the most interesting books are hard to read before bed or on public transport;
 - properly working through my hobby projects — they're complex.
 
@@ -131,13 +131,13 @@ I prototyped some cool stuff; all the source code is publicly available:
 
 A handful of projects never made it to release for various reasons. In particular, there were some experiments with procedural generation.
 
-Studied fundamental technologies in depth:
+I studied fundamental technologies in depth:
 
 - Type analysis in Python: [static and dynamic]{post:@choose-nearest-language:trendy-typing-in-python}, made my own [runtime type analyzer]{post:@choose-nearest-language:python-types-are-not-great}.
 - Julia: [in theory]{post:@choose-nearest-language:julia-is-next-python} and [in practice]{post:@choose-nearest-language:julia-experience}. I chose a [DSL for procedural generation](https://github.com/Tiendil/pcg-julia) as a learning project.
 - API standards: [GraphQL]{post:@choose-nearest-language:graphql-and-python}, [OpenAPI]{post:@choose-nearest-language:python-and-openapi}.
 - [Database migration libraries and utilities]{post:@choose-nearest-language:backend-migrations-in-practice}.
-- State-of-the-art approaches to testing. Experimented with [hypothesis]{post:@choose-nearest-language:python-hypothesis}, finally switched to pytest.
+- State-of-the-art approaches to testing. I experimented with [Hypothesis]{post:@choose-nearest-language:python-hypothesis} and finally switched to pytest.
 
 Over the last few months, I've been digging into machine learning and neural networks:
 
@@ -160,7 +160,7 @@ Additionally:
 
 I went on my break with a clear sense that I needed to properly reflect on the results of my work on The Tale — something I had never managed to do either while working on it or during my time at Melsoft.
 
-It turned out I really had gained a lot of experience, and had plenty to talk about:
+It turned out I really had gained a lot of experience and had plenty to talk about:
 
 - [about worldbuilding]{post:@choose-nearest-language:about-worlds-building} and [dungeon design]{post:@choose-nearest-language:how-to-design-a-dungeon}
 - [about game mechanics as resource converters]{post:@choose-nearest-language:resource-model-of-the-game-resources} and [how to work with them]{post:@choose-nearest-language:about-resource-gathering-mechanics}
