@@ -455,10 +455,10 @@
   // "FastAPI", "Vue" removed to save a line
   technologies: ("Python", "TypeScript", "Rust", "PostgreSQL", "LLMs"),
   facts: (
-      [Created #link("https://feeds.fun/")[Feeds Fun], a news reader with LLM-based tagging — #link("https://github.com/Tiendil/feeds.fun")[*nearly 400 GitHub stars*].],
-      [*Refined engineering management approach* via #link("https://tiendil.org/en/tags/vantage-on-management")[essays on team autonomy and scientific practices].],
-      [*Built AI coding-agent harness tools*: #link("https://github.com/Tiendil/donna")[Donna], #link("https://github.com/Tiendil/depmesh")[DepMesh] — published #link("https://tiendil.org/en/posts/notes-on-coding-agents")[findings].],
-      [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] *program in entertainment IP development* — published #link("https://tiendil.org/en/tags/world-builders-2023")[essays].],
+    [Created #link("https://feeds.fun/")[Feeds Fun], a news reader with LLM-based tagging — #link("https://github.com/Tiendil/feeds.fun")[*nearly 400 GitHub stars*].],
+    [*Refined engineering management approach* via #link("https://tiendil.org/en/tags/vantage-on-management")[essays on team autonomy and scientific practices].],
+    [*Built AI coding-agent harness tools*: #link("https://github.com/Tiendil/donna")[Donna], #link("https://github.com/Tiendil/depmesh")[DepMesh] — published #link("https://tiendil.org/en/posts/notes-on-coding-agents")[findings].],
+    [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] *program in entertainment IP development* — published #link("https://tiendil.org/en/tags/world-builders-2023")[essays].],
   ),
 )
 
@@ -467,22 +467,22 @@
   "Multi-provider payments platform for Palta portfolio startups",
   company: link("https://palta.com/")[Palta],
   description: [
-      *Led the design and delivery of a payments platform from concept to production.*
-      The platform included subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and *resilient payment flows* supporting disputes, refunds, provider fallback, and failure recovery.
+    *Led the design and delivery of a payments platform from concept to production.*
+    The platform included subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and *resilient payment flows* supporting disputes, refunds, provider fallback, and failure recovery.
   ],
   roles: ("Engineering Manager", "Tech Lead"),
   practices: ("Engineering Processes", "Hiring", "Onboarding", "Mentoring"),
   // "React" removed to save a line
   technologies: ("AWS", "Python", "TypeScript", "PostgreSQL", "Redis", "FastAPI"),
   facts: (
-      [The platform was *integrated into 3 portfolio companies*.],
-      [*Built and led a remote-first core team* of 7 engineers.],
-      "Hired, onboarded, and mentored engineers, gradually transferring system ownership to them.",
-      [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach to evolving architecture and engineering processes].],
-      "Designed resilient payment flows with idempotency, safe retries, provider fallback, and state recovery.",
-      [Established a delivery process with *multiple releases per week and on-demand feature shipping*.],
-      [*Identified concurrency bugs in major Python libraries* (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]) and prevented them from affecting our systems; related redis-py issues later caused #link("https://openai.com/blog/march-20-
-chatgpt-outage")[*an OpenAI outage*].]
+    [The platform was *integrated into 3 portfolio companies*.],
+    [*Built and led a remote-first core team* of 7 engineers.],
+    "Hired, onboarded, and mentored engineers, gradually transferring system ownership to them.",
+    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach to evolving architecture and engineering processes].],
+    "Designed resilient payment flows with idempotency, safe retries, provider fallback, and state recovery.",
+    [Established a delivery process with *multiple releases per week and on-demand feature shipping*.],
+    [*Identified concurrency bugs in major Python libraries* (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]) and prevented them from affecting our systems; related redis-py issues later caused #link("https://openai.com/blog/march-20-
+    chatgpt-outage")[*an OpenAI outage*].]
   ),
 )
 
