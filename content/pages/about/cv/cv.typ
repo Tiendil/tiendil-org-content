@@ -493,7 +493,7 @@ chatgpt-outage")[*an OpenAI outage*].]
   practices: ("Technical Writing", "Game Design"),
   technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
-    "Strengthened expertise in advanced backend architecture, code analysis, and quality control.",
+    "Strengthened expertise in backend architecture, code analysis, and quality control.",
     "Refined my game-design approach through reflection on practical experience and literature.",
     "Explored the Julia programming language.",
     "Refreshed mathematical analysis and deep neural network fundamentals.",
