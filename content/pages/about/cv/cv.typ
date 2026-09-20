@@ -494,7 +494,7 @@
   technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
     "Strengthened expertise in backend architecture, code analysis, and quality control.",
-    "Refined my game-design approach through reflection on practical experience and literature.",
+    [*Refined my game-design approach* via essays on worldbuilding, game mechanics, and MMO design.],
     "Explored the Julia programming language.",
     "Refreshed mathematical analysis and deep neural network fundamentals.",
     "Published 100+ essays on technology, gamedev, and thinking — longer than the first Harry Potter novel.",
