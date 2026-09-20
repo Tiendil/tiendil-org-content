@@ -456,7 +456,7 @@
   technologies: ("Python", "TypeScript", "Rust", "PostgreSQL", "LLMs"),
   facts: (
       [Created #link("https://feeds.fun/")[Feeds Fun] — a news reader with LLM-based tagging — #link("https://github.com/Tiendil/feeds.fun")[*almost 400 stars on GitHub*].],
-      [Refined my management approach through reflection and literature; published #link("https://tiendil.org/en/tags/vantage-on-management")[essays on management].],
+      [*Refined engineering management approach* via #link("https://tiendil.org/en/tags/vantage-on-management")[essays on team autonomy and scientific practices].],
       [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] program for entertainment IP developers; published #link("https://tiendil.org/en/tags/world-builders-2023")[a series of essays].],
       [#link("https://tiendil.org/en/posts/notes-on-coding-agents")[Explored AI coding agents]#text[;] built coding-agent harness tooling: #link("https://github.com/Tiendil/donna")[Donna], #link("https://github.com/Tiendil/depmesh")[DepMesh].],
   ),
