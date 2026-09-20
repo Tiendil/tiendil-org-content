@@ -476,7 +476,7 @@
   technologies: ("AWS", "Python", "TypeScript", "PostgreSQL", "Redis", "FastAPI"),
   facts: (
       [The platform was *integrated into 3 portfolio companies*.],
-      "Built and led a remote-first core team of 7 engineers.",
+      [*Built and led a remote-first core team* of 7 engineers.],
       "Hired, onboarded, mentored, and gradually transferred system ownership to new team members.",
       "Led development from concept to production, ensuring stable operations during the holiday season.",
       [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach for evolving architecture and engineering processes].],
