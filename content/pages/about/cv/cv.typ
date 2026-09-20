@@ -459,6 +459,7 @@
     [*Refined engineering management approach* via #link("https://tiendil.org/en/tags/vantage-on-management")[essays on team autonomy and scientific practices].],
     [*Built AI coding-agent harness tools*: #link("https://github.com/Tiendil/donna")[Donna], #link("https://github.com/Tiendil/depmesh")[DepMesh] — published #link("https://tiendil.org/en/posts/notes-on-coding-agents")[findings].],
     [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] *program in entertainment IP development* — published #link("https://tiendil.org/en/tags/world-builders-2023")[essays].],
+    [#link("https://tiendil.org/en/posts/rust-the-language-things-get-rewritten-in")[Explored Rust] with an emphasis on game-logic programming and system reliability.],
   ),
 )
 
@@ -495,7 +496,7 @@
   facts: (
     "Strengthened expertise in backend architecture, code analysis, and quality control.",
     [*Refined my game-design approach* via essays on worldbuilding, game mechanics, and MMO design.],
-    "Explored the Julia programming language.",
+    "Explored Julia by prototyping a DSL for procedural generation.",
     "Refreshed mathematical analysis and deep neural network fundamentals.",
     "Published 100+ essays on technology, gamedev, and thinking — longer than the first Harry Potter novel.",
   ),
