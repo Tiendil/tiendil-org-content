@@ -450,7 +450,7 @@
 #project_entry(
   "2024-2026",
   "Professional sabbatical",
-  description: "",
+  description: [*Read #link("https://tiendil.org/en/posts/the-results-of-the-sabbatical-2024-2026")[the full report]* on my blog.],
   practices: ("R&D", "Technical Writing"),
   // "FastAPI", "Vue" removed to save a line
   technologies: ("Python", "TypeScript", "Rust", "PostgreSQL", "LLMs"),
@@ -487,7 +487,7 @@
 #project_entry(
   "2019-2021",
   "Professional sabbatical",
-  description: [Read #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] on my blog.],
+  description: [*Read #link("https://tiendil.org/en/posts/the-results-of-the-sabbatical-2019-2021")[the full report]* on my blog.],
   practices: ("Technical Writing", "Game Design"),
   technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
