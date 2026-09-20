@@ -466,7 +466,10 @@
   "2022-2023",
   "Multi-provider payments platform for Palta portfolio startups",
   company: link("https://palta.com/")[Palta],
-  description: [*Led the design and delivery of a payments platform from concept to production*, covering subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows with support for disputes, refunds, provider fallback, and failure recovery.],
+  description: [
+      *Led the design and delivery of a payments platform from concept to production.*
+      The platform included subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and *resilient payment flows* supporting disputes, refunds, provider fallback, and failure recovery.
+  ],
   roles: ("Engineering Manager", "Tech Lead"),
   practices: ("Engineering Processes", "Hiring", "Onboarding", "Mentoring"),
   // "React" removed to save a line
