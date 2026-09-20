@@ -481,7 +481,8 @@
       [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach to evolving architecture and engineering processes].],
       "Designed resilient payment flows with idempotency, safe retries, provider fallback, and state recovery.",
       [Established a delivery process with *multiple releases per week and on-demand feature shipping*.],
-      [Identified concurrency bugs in major Python libraries (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]), including #link("https://openai.com/blog/march-20-chatgpt-outage")[one that caused an OpenAI outage], and prevented them from affecting our systems.],
+      [*Identified concurrency bugs in major Python libraries* (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]) and prevented them from affecting our systems; related redis-py issues later caused #link("https://openai.com/blog/march-20-
+chatgpt-outage")[*an OpenAI outage*].]
   ),
 )
 
