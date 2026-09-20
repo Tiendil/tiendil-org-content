@@ -497,8 +497,8 @@
     "Strengthened expertise in backend architecture, code analysis, and quality control.",
     [*Refined my game-design approach* via essays on worldbuilding, game mechanics, and MMO design.],
     "Explored Julia by prototyping a DSL for procedural generation.",
-    "Refreshed mathematical analysis and deep neural network fundamentals.",
-    "Published 100+ essays on technology, gamedev, and thinking — longer than the first Harry Potter novel.",
+    "Refreshed fundamentals of mathematical analysis and deep neural networks.",
+    [*Published 141 essays* on technology, gamedev, and thinking — longer than the first Harry Potter novel.],
   ),
 )
 
