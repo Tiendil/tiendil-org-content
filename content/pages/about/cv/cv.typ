@@ -506,7 +506,7 @@
   "2017-2019",
   [Mobile game #link("https://play.google.com/store/apps/details?id=com.melesta.coffeeshop")[My Cafe] — 50M+ installs as of September 2021],
   company: link("https://melsoft-games.com/")[Melsoft Games],
-  description: [*Owned backend architecture and core service development*, modernized legacy systems for scale and stability, served as a key technical advisor on architecture and algorithm design.],
+  description: [*Owned backend architecture and core service development.* Modernized legacy systems for scale and stability; advised on architecture and algorithm design.],
   roles: ("Tech Lead",),
   technologies: ("Linux", "Python", "PostgreSQL", "Redis", "Twisted", "Django", "Graphite", "Prometheus", "Grafana", "Ansible"),
   facts: (
