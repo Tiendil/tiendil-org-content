@@ -469,7 +469,7 @@
   company: link("https://palta.com/")[Palta],
   description: [
     *Led the design and delivery of a payments platform from concept to production.*
-    The platform included subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and *resilient payment flows* supporting disputes, refunds, provider fallback, and failure recovery.
+    The platform included subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows supporting disputes, refunds, provider fallback, and failure recovery.
   ],
   roles: ("Engineering Manager", "Tech Lead"),
   practices: ("Engineering Processes", "Hiring", "Onboarding", "Mentoring"),
@@ -477,7 +477,7 @@
   technologies: ("AWS", "Python", "TypeScript", "PostgreSQL", "Redis", "FastAPI"),
   facts: (
     [The platform was *integrated into 3 portfolio companies*.],
-    [*Built and led a remote-first core team* of 7 engineers.],
+    [*Built and led a remote-first core team of 7 engineers*.],
     "Hired, onboarded, and mentored engineers, gradually transferring system ownership to them.",
     [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach to evolving architecture and engineering processes].],
     "Designed resilient payment flows with idempotency, safe retries, provider fallback, and state recovery.",
@@ -568,7 +568,7 @@
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Memcached", "RabbitMQ", "Django", "jQuery"),
   facts: (
     [*Transitioned with the team from client-side C++ to Python backend development* and built the portal for one of the most successful online games.],
-    [*Expanded ownership from several subsystems to the entire portal*.],
+    [Expanded ownership from several subsystems to the entire portal.],
     [*Partnered with a colleague to design the clan metagame's UI/UX*.],
     "Defined requirements for CAPTCHA and password quality checks.",
   ),
@@ -594,7 +594,7 @@
   description: [*Automated virtual hardware configuration* based on physical machine specifications.],
   roles: ("Middle Developer",),
   technologies: ("Linux", "Perl", "C", "Xen", "VMware"),
-  facts: ("Introduced automated testing as a development practic.",),
+  facts: ("Introduced automated testing as a development practice.",),
 )
 
 #project_entry(
