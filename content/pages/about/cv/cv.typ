@@ -526,14 +526,14 @@
   company: link("https://melsoft-games.com/")[Melsoft Games],
   roles: ("Tech Lead",),
   practices: ("Hiring", "Onboarding", "Mentoring"),
-  description: [*Fully owned the unified backend of 3 games.* As an expert, consulted colleagues on infrastructure, architecture, and algorithmic questions.],
+  description: [*Fully owned the unified backend of 3 games.* As an expert, advised colleagues on infrastructure, architecture, and algorithms.],
   technologies: ("Linux", "Python", "MySQL", "Redis", "Twisted", "Django", "Fabric", "Graphite", "Grafana"),
   facts: (
-    "Resurrected the legacy game backend to an operational state.",
-    "Developed a payment service, which was also reused by the neighboring team.",
-    "Introduced practices for automated testing, CI/CD, and metrics collection.",
-    "Migrated the project from SVN to Git.",
-    "Together with an analyst, developed game metrics collection and marketing campaign systems.",
+    [*Resurrected the legacy game backend*.],
+    "Developed a payment service reused by another team for a different product.",
+    [*Introduced practices for automated testing, CI/CD, and metrics collection*.],
+    "Migrated the project from SVN to Git.", // can be removed if we need to save a line
+    "Partnered with an analyst to develop systems for game metrics collection and marketing campaigns.",
   ),
 )
 
