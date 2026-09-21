@@ -582,8 +582,8 @@
   roles: ("Middle Developer",),
   technologies: ("Windows", "C++", "internal game engine"),
   facts: (
-    "During probation, doubled command-queue throughput between the game logic and graphics engine.",
-    "Designed and implemented core unit-formation UI, central to gameplay and UX.",
+    [*Doubled command-queue throughput* between the game logic and graphics engine during probation.],
+    [*Designed and implemented the unit-formation UI*, central to gameplay and UX.],
   ),
 )
 
