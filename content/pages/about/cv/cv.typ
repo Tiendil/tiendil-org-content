@@ -591,10 +591,10 @@
   "2008-2009",
   "Automated migration of Linux systems from physical machines to VMs",
   company: link("https://www.itransition.com/")[Itransition],
-  description: [*Implemented automatic virtual-hardware configuration* according to physical-machine specs.],
+  description: [*Automated virtual hardware configuration* based on physical machine specifications.],
   roles: ("Middle Developer",),
   technologies: ("Linux", "Perl", "C", "Xen", "VMware"),
-  facts: ("Introduced practices of automated testing.",),
+  facts: ("Introduced automated testing as a development practic.",),
 )
 
 #project_entry(
