@@ -541,17 +541,17 @@
   "2012-2015",
   "Browser text-based MMO game \"The Tale\"",
   company: link("https://the-tale.org")[The Tale],
-  description: [*Developed my own product from scratch*, from prototyping through release, operation, and shutdown. Played all roles, from backend and frontend development to game design, community management, and marketing.],
+  description: [*Built and operated my own product from scratch*, from prototyping through release to shutdown. Took on all roles, from backend and frontend development to game design, community management, and marketing.],
   roles: ("Founder",),
   practices: ("Engineering Processes", "Team Formation", "R&D", "Game Design", "Marketing", "Monetization", "Community Management", "Volunteer Coordination"),
   // "jQuery" removed to save a line
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django"),
   facts: (
-    "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paying players; with up to 5k MAU and 2k DAU at peak.",
-    "Assembled a core team and organized volunteers who helped in the development of the game.",
-    "Designed advanced game systems: player-shaped persistent world, player-driven economy and governance, autonomous NPCs with dynamic personalities, player-authored entity lore.",
-    "Implemented automated quality control, which allowed development without dedicated QA.",
-    [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text], #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
+    [*Reached 90k+ trial, 30k+ registered, and 2k+ paying players* with localization only in Russian; *activity peaked at 5k MAU and 2k DAU*.],
+    [*Built a core team and coordinated volunteers*.],
+    [*Designed advanced game systems*: a player-shaped persistent world, player-driven economy and governance, autonomous NPCs with dynamic personalities, and player-authored entity lore.],
+    [Implemented automated quality control, *enabling development without dedicated QA*.],
+    [Developed advanced procedural generators for #link("https://github.com/the-tale/utg")[Russian text], #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
     [Open-sourced #link("https://github.com/the-tale")[the code] and #link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[the game lore].]
   ),
 )
