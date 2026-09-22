@@ -538,7 +538,7 @@
 
 #project_entry(
   "2012-2015",
-  "Browser text-based MMO game \"The Tale\"",
+  "Text-based browser MMO game \"The Tale\"",
   company: link("https://the-tale.org")[The Tale],
   description: [*Built and operated my own product from scratch*, from prototyping to shutdown. Took on all roles, from backend and frontend development to game design, community management, and marketing.],
   roles: ("Founder",),
@@ -560,7 +560,7 @@
 
 #project_entry(
   "2010-2012",
-  [Web portal #link("https://worldoftanks.com/")[World of Tanks], meta-game "Clan Wars"],
+  [Web portal #link("https://worldoftanks.com/")[World of Tanks], metagame "Clan Wars"],
   company: link("https://wargaming.com/")[Wargaming],
   description: [*Owned the entire web portal codebase*, including registration, player and clan profiles, clan management, player statistics, ratings, tournaments, the clan metagame, news, and internationalization.],
   roles: ("Senior Developer",),
@@ -579,7 +579,7 @@
   [Real-time strategy game #link("https://en.wikipedia.org/wiki/Order_of_War")[Order of War]],
   company: link("https://wargaming.com/")[Wargaming],
   description: [*Optimized code and developed game logic*, including critical GUI elements.],
-  roles: ("Middle Developer",),
+  roles: ("Mid-level Developer",),
   technologies: ("Windows", "C++", "internal game engine"),
   facts: (
     [*Doubled command-queue throughput* between the game logic and graphics engine during probation.],
@@ -599,7 +599,7 @@
 
 #project_entry(
   "2007-2008",
-  "GUI for VoIP telephone",
+  "GUI for a VoIP telephone",
   company: link("https://www.itransition.com/")[Itransition],
   roles: ("Junior Developer",),
   technologies: ("Windows", "C++", "wxWidgets"),
@@ -618,7 +618,7 @@
 #key_value("Russian", "native", key_width: 40pt)
 #key_value("English", "fluent", key_width: 40pt)
 
-#section[Code examples]
+#section[Code Examples]
 
 #key_value([#link("https://github.com/Tiendil/feeds.fun")[tiendil/feeds.fun]], "News reader with LLM-based tagging and rule-based ranking.")
 
