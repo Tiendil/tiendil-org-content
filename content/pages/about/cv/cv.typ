@@ -156,7 +156,7 @@
     [#text(..text_style_section_title)[#title]],
     [#line(length: 100%, stroke: 1.25pt + color_section_rule)],
   )
-  #v(0.25em)
+  #v(0.05em)
 ]
 
 #let expertise_columns = 2
@@ -363,7 +363,9 @@
   #grid(
     columns: (1.05fr, 1.8fr, 1.05fr),
     column-gutter: 12pt,
-    align: (left, horizon),
+    align: left + top,
+    // Match the first contact lines' inset from their padded icons.
+    inset: (0pt, (top: 6pt), 0pt),
     [
       #stack(
         dir: ttb,
@@ -404,7 +406,7 @@
 ///////
 
 #intro[
-  *Hands-on engineering leader* with two decades of experience. My work centers on building *high‑autonomy teams* with *strong engineering culture* and *product ownership*. I see team structure, processes, and architecture as parts of the product and evolve them together. My technical expertise ranges from deterministic game logic in C++ to cloud-based payment systems in Python, and from code analysis to AI-based systems.
+  *Hands-on engineering leader* with two decades of experience. My work centers on building *high‑autonomy teams* with *strong engineering culture* and *product ownership*. I see team structure, processes, and architecture as parts of the product and evolve them together. My expertise ranges from game logic in C++ to cloud-based payment systems in Python; from code analysis to AI-based systems.
 ]
 
 #section[Hire Me When]
@@ -450,15 +452,15 @@
 #project_entry(
   "2024-2026",
   "Professional sabbatical",
-  description: "",
+  description: [Read #link("https://tiendil.org/en/posts/the-results-of-the-sabbatical-2024-2026")[the full report] on my blog.],
   practices: ("R&D", "Technical Writing"),
   // "FastAPI", "Vue" removed to save a line
   technologies: ("Python", "TypeScript", "Rust", "PostgreSQL", "LLMs"),
   facts: (
-    [Created #link("https://feeds.fun/")[Feeds Fun] — a news reader with LLM-based tagging and rule-based ranking (#link("https://github.com/Tiendil/feeds.fun")[repo]).],
-    [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] program for entertainment IP developers; published #link("https://tiendil.org/en/tags/world-builders-2023")[a series of essays].],
-    [Refined my management approach through reflection and literature; published #link("https://tiendil.org/en/tags/vantage-on-management")[essays on management].],
-    [#link("https://tiendil.org/en/posts/notes-on-coding-agents")[Explored AI coding agents]#text[;] built coding-agent harness tooling: #link("https://github.com/Tiendil/donna")[Donna], #link("https://github.com/Tiendil/depmesh")[DepMesh].],
+    [Created #link("https://feeds.fun/")[Feeds Fun], a news reader with LLM-based tagging — #link("https://github.com/Tiendil/feeds.fun")[*nearly 400 GitHub stars*].],
+    [*Refined engineering management approach* via #link("https://tiendil.org/en/tags/vantage-on-management")[essays on team autonomy and scientific practices].],
+    [*Built AI coding-agent tools* for workflow control and project-context discovery: #link("https://github.com/Tiendil/donna")[Donna], #link("https://github.com/Tiendil/depmesh")[DepMesh].],
+    [Completed an #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[*entertainment IP development program*]\; see #link("https://tiendil.org/en/posts/making-a-fictional-universe-quantity-survey-processing")[audience research] and a #link("https://tiendil.org/en/posts/world-builders-2023-business-plan-example")[business plan].],
     [#link("https://tiendil.org/en/posts/rust-the-language-things-get-rewritten-in")[Explored Rust] with an emphasis on game-logic programming and system reliability.],
   ),
 )
@@ -467,35 +469,37 @@
   "2022-2023",
   "Multi-provider payments platform for Palta portfolio startups",
   company: link("https://palta.com/")[Palta],
-  description: [*Led the design and delivery of a payments platform from concept to production*, covering subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows with support for disputes, refunds, provider fallback, and failure recovery.],
+  description: [
+    *Led the design and delivery of a payments platform from concept to production.*
+    The platform included subscriptions, entitlement management, discounting, unified analytics, admin tooling, SDKs, and resilient payment flows supporting disputes, refunds, provider fallback, and failure recovery.
+  ],
   roles: ("Engineering Manager", "Tech Lead"),
   practices: ("Engineering Processes", "Hiring", "Onboarding", "Mentoring"),
   // "React" removed to save a line
   technologies: ("AWS", "Python", "TypeScript", "PostgreSQL", "Redis", "FastAPI"),
   facts: (
-    "The solution has been successfully integrated into 3 portfolio companies.",
-    "Built and led a remote-first core team of 7 engineers.",
-    "Hired, onboarded, mentored, and gradually transferred system ownership to new team members.",
-    "Led development from concept to production, ensuring stable operations during the holiday season.",
-    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach for evolving architecture and engineering processes].],
+    [The platform was *integrated into 3 portfolio companies*.],
+    [*Built and led a remote-first core team of 7 engineers*.],
+    "Hired, onboarded, and mentored engineers, gradually transferring system ownership to them.",
+    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach to evolving architecture and engineering processes]. Most engineers wrote their first RFC during probation.],
+    [Established a delivery process with *multiple releases per week and on-demand feature shipping*.],
     "Designed resilient payment flows with idempotency, safe retries, provider fallback, and state recovery.",
-    "Established a delivery process with multiple releases per week and on-demand feature shipping.",
-    [Identified concurrency bugs in major Python libraries (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]), including #link("https://openai.com/blog/march-20-chatgpt-outage")[one that caused an OpenAI outage], and prevented them from affecting our systems.],
+    [*Identified concurrency bugs in major Python libraries* (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]) and prevented them from affecting our systems; related redis-py issues later caused #link("https://openai.com/blog/march-20-chatgpt-outage")[*an OpenAI outage*].]
   ),
 )
 
 #project_entry(
   "2019-2021",
   "Professional sabbatical",
-  description: [Read #link("https://tiendil.org/ru/posts/the-results-of-the-sabbatical-2019-2021")[the full report] on my blog.],
+  description: [Read #link("https://tiendil.org/en/posts/the-results-of-the-sabbatical-2019-2021")[the full report] on my blog.],
   practices: ("Technical Writing", "Game Design"),
   technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
-    "Strengthened expertise in advanced backend architecture, code analysis, and quality control.",
-    "Refined my game-design approach through reflection on practical experience and literature.",
-    "Explored the Julia programming language.",
-    "Refreshed mathematical analysis and deep neural network fundamentals.",
-    "Published 100+ essays on technology, gamedev, and thinking — longer than the first Harry Potter novel.",
+    "Strengthened expertise in backend architecture, code analysis, and quality control.",
+    [*Refined my game-design approach* via essays on worldbuilding, game mechanics, and MMO design.],
+    "Explored Julia by prototyping a DSL for procedural generation.",
+    "Refreshed fundamentals of mathematical analysis and deep neural networks.",
+    [*Published 141 essays* on technology, gamedev, and thinking — longer than the first Harry Potter novel.],
   ),
 )
 
@@ -503,17 +507,17 @@
   "2017-2019",
   [Mobile game #link("https://play.google.com/store/apps/details?id=com.melesta.coffeeshop")[My Cafe] — 50M+ installs as of September 2021],
   company: link("https://melsoft-games.com/")[Melsoft Games],
-  description: [*Owned backend architecture and core service development*, modernized legacy systems for scale and stability, served as a key technical advisor on architecture and algorithm design.],
+  description: [*Owned backend architecture and core service development.* Modernized legacy systems for scale and stability; advised on architecture and algorithm design.],
   roles: ("Tech Lead",),
   technologies: ("Linux", "Python", "PostgreSQL", "Redis", "Twisted", "Django", "Graphite", "Prometheus", "Grafana", "Ansible"),
   facts: (
-    "Optimized game backend to handle 1.5M RPM (25k RPS) with stable latency and low error rates.",
-    "Stabilized server-side payment-processing and analytics logic, reducing payment-related errors to zero.",
-    "Implemented scalable profile sharding, reducing database load by an order of magnitude.",
-    "Developed support for GDPR on short notice.",
-    "Adapted server-side logic for Chinese requirements.",
-    "Introduced the practice of writing automated tests.",
-    "Together with an analyst, developed a marketing campaign system and an A/B testing system.",
+    [*Optimized the backend to handle 1.5M RPM (25k RPS)* with stable latency and low error rates.],
+    [Stabilized payment processing and analytics logic, *reducing payment-related errors to zero*.],
+    [Implemented scalable profile sharding, *reducing database load tenfold*.],
+    [Built a GDPR service for data export and deletion across systems on short notice.],
+    [Adapted backend logic to meet Chinese market requirements.],
+    [*Introduced automated testing as a development practice.*],
+    [Partnered with an analyst to develop systems for marketing campaigns and A/B testing.],
   ),
 )
 
@@ -523,32 +527,33 @@
   company: link("https://melsoft-games.com/")[Melsoft Games],
   roles: ("Tech Lead",),
   practices: ("Hiring", "Onboarding", "Mentoring"),
-  description: [*Fully owned the unified backend of 3 games.* As an expert, consulted colleagues on infrastructure, architecture, and algorithmic questions.],
+  description: [*Fully owned the unified backend of 3 games.* As an expert, advised colleagues on infrastructure, architecture, and algorithms.],
   technologies: ("Linux", "Python", "MySQL", "Redis", "Twisted", "Django", "Fabric", "Graphite", "Grafana"),
   facts: (
-    "Resurrected the legacy game backend to an operational state.",
-    "Developed a payment service, which was also reused by the neighboring team.",
-    "Introduced practices for automated testing, CI/CD, and metrics collection.",
-    "Migrated the project from SVN to Git.",
-    "Together with an analyst, developed game metrics collection and marketing campaign systems.",
+    [*Resurrected the legacy game backend*.],
+    "Developed a payment service reused by another team for a different product.",
+    [*Introduced practices for automated testing, CI/CD, and metrics collection*.],
+    "Migrated the project from SVN to Git.", // can be removed if we need to save a line
+    "Partnered with an analyst to develop systems for game metrics collection and marketing campaigns.",
   ),
 )
 
 #project_entry(
   "2012-2015",
-  "Browser text-based MMO game \"The Tale\"",
+  "Text-based browser MMO game \"The Tale\"",
   company: link("https://the-tale.org")[The Tale],
-  description: [*Developed my own product from scratch*, from prototyping through release, operation, and shutdown. Played all roles, from backend and frontend development to game design, community management, and marketing.],
+  description: [*Built and operated my own product from scratch*, from prototyping to shutdown. Took on all roles, from backend and frontend development to game design, community management, and marketing.],
   roles: ("Founder",),
   practices: ("Engineering Processes", "Team Formation", "R&D", "Game Design", "Marketing", "Monetization", "Community Management", "Volunteer Coordination"),
   // "jQuery" removed to save a line
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django"),
   facts: (
-    "With only a Russian localization, the game reached 90k+ trial players, 30k+ registered players, 2k+ paying players; with up to 5k MAU and 2k DAU at peak.",
-    "Assembled a core team and organized volunteers who helped in the development of the game.",
-    "Designed advanced game systems: player-shaped persistent world, player-driven economy and governance, autonomous NPCs with dynamic personalities, player-authored entity lore.",
-    "Implemented automated quality control, which allowed development without dedicated QA.",
-    [Developed advanced procedural generation of #link("https://github.com/the-tale/utg")[Russian text], #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
+    [*Operated the game for 13 years* until its shutdown in 2024.],
+    [*Reached 90k+ trial, 30k+ registered, and 2k+ paying players* with localization only in Russian; *activity peaked at 5k MAU and 2k DAU*.],
+    [*Built a core team and coordinated volunteers*.],
+    [*Designed advanced game systems*: a player-shaped persistent world, player-driven economy and governance, autonomous NPCs with dynamic personalities, and player-authored entity lore.],
+    [Implemented automated quality control, *enabling development without dedicated QA*.],
+    [Developed advanced procedural generators for #link("https://github.com/the-tale/utg")[Russian text], #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
     [Open-sourced #link("https://github.com/the-tale")[the code] and #link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[the game lore].]
   ),
 )
@@ -557,17 +562,17 @@
 
 #project_entry(
   "2010-2012",
-  [Web portal #link("https://worldoftanks.com/")[World of Tanks], meta-game "Clan Wars"],
+  [Web portal #link("https://worldoftanks.com/")[World of Tanks], metagame "Clan Wars"],
   company: link("https://wargaming.com/")[Wargaming],
-  description: [*Owned the code of the whole web portal*: registration, player & clan profiles, clan management, player statistics, ratings, tournaments, the meta-game for clans, news, i18n, etc.],
+  description: [*Owned the entire web portal codebase*, including registration, player and clan profiles, clan management, player statistics, ratings, tournaments, the clan metagame, news, and internationalization.],
   roles: ("Senior Developer",),
   practices: ("Mentoring",),
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Memcached", "RabbitMQ", "Django", "jQuery"),
   facts: (
-    "Together with the team, completely switched the technology stack from client-side C++ to a Python backend and developed the portal for one of the most successful online games.",
-    "In 2 years, grew ownership from several subsystems to the entire portal.",
-    "Together with a colleague, designed and implemented the GUI for a web-based clan meta-game.",
-    "Designed requirements for CAPTCHA and password quality checks and implemented them.",
+    [*Transitioned with the team from client-side C++ to Python backend development* and built the portal for one of the most successful online games.],
+    [Expanded ownership from several subsystems to the entire portal.],
+    [*Partnered with a colleague to design the clan metagame's UI/UX*.],
+    "Defined requirements for CAPTCHA and password quality checks.",
   ),
 )
 
@@ -576,11 +581,11 @@
   [Real-time strategy game #link("https://en.wikipedia.org/wiki/Order_of_War")[Order of War]],
   company: link("https://wargaming.com/")[Wargaming],
   description: [*Optimized code and developed game logic*, including critical GUI elements.],
-  roles: ("Middle Developer",),
+  roles: ("Mid-level Developer",),
   technologies: ("Windows", "C++", "internal game engine"),
   facts: (
-    "During probation, doubled command-queue throughput between the game logic and graphics engine.",
-    "Designed and implemented core unit-formation UI, central to gameplay and UX.",
+    [*Doubled command-queue throughput* between the game logic and graphics engine during probation.],
+    [*Designed and implemented the unit-formation UI*, central to gameplay and UX.],
   ),
 )
 
@@ -588,15 +593,15 @@
   "2008-2009",
   "Automated migration of Linux systems from physical machines to VMs",
   company: link("https://www.itransition.com/")[Itransition],
-  description: [*Implemented automatic virtual-hardware configuration* according to physical-machine specs.],
+  description: [*Automated virtual hardware configuration* based on physical machine specifications.],
   roles: ("Middle Developer",),
   technologies: ("Linux", "Perl", "C", "Xen", "VMware"),
-  facts: ("Introduced practices of automated testing.",),
+  facts: ("Introduced automated testing as a development practice.",),
 )
 
 #project_entry(
   "2007-2008",
-  "GUI for VoIP telephone",
+  "GUI for a VoIP telephone",
   company: link("https://www.itransition.com/")[Itransition],
   roles: ("Junior Developer",),
   technologies: ("Windows", "C++", "wxWidgets"),
@@ -615,7 +620,7 @@
 #key_value("Russian", "native", key_width: 40pt)
 #key_value("English", "fluent", key_width: 40pt)
 
-#section[Code examples]
+#section[Code Examples]
 
 #key_value([#link("https://github.com/Tiendil/feeds.fun")[tiendil/feeds.fun]], "News reader with LLM-based tagging and rule-based ranking.")
 
@@ -623,8 +628,11 @@
 
 #panel[
   - All em dashes in this CV are human-made.
-  - Won a second diploma (3rd place) in the quarter-final of ACM ICPC Western Subregion 2006.
-  - I regularly publish #link("https://tiendil.org")[long-form essays] about complex topics I have studied and questions where I have a strong opinion.
+  - I've been coding in Emacs since around 2008.
+  - My blog runs on an open-source engine I built myself. MCP server included.
+  - Players of my game The Tale wrote 1000+ fanfiction stories set in its world.
+  - Placed 3rd in the 2006 ACM ICPC Western Subregion quarterfinal.
+  - I regularly publish #link("https://tiendil.org")[long-form essays] on complex topics I've studied and questions I have strong opinions on.
 ]
 
 /////////
