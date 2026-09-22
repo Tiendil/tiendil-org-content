@@ -541,12 +541,13 @@
   "2012-2015",
   "Browser text-based MMO game \"The Tale\"",
   company: link("https://the-tale.org")[The Tale],
-  description: [*Built and operated my own product from scratch*, from prototyping through release to shutdown. Took on all roles, from backend and frontend development to game design, community management, and marketing.],
+  description: [*Built and operated my own product from scratch*, from prototyping to shutdown. Took on all roles, from backend and frontend development to game design, community management, and marketing.],
   roles: ("Founder",),
   practices: ("Engineering Processes", "Team Formation", "R&D", "Game Design", "Marketing", "Monetization", "Community Management", "Volunteer Coordination"),
   // "jQuery" removed to save a line
   technologies: ("Linux", "Python", "JavaScript", "PostgreSQL", "Redis", "RabbitMQ", "Django"),
   facts: (
+    [*Operated the game for 13 years* until its shutdown in 2024.],
     [*Reached 90k+ trial, 30k+ registered, and 2k+ paying players* with localization only in Russian; *activity peaked at 5k MAU and 2k DAU*.],
     [*Built a core team and coordinated volunteers*.],
     [*Designed advanced game systems*: a player-shaped persistent world, player-driven economy and governance, autonomous NPCs with dynamic personalities, and player-authored entity lore.],
