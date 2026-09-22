@@ -513,7 +513,7 @@
     [*Optimized the backend to handle 1.5M RPM (25k RPS)* with stable latency and low error rates.],
     [Stabilized payment processing and analytics logic, *reducing payment-related errors to zero*.],
     [Implemented scalable profile sharding, *reducing database load tenfold*.],
-    [Implemented GDPR support on short notice.],
+    [Built a GDPR service for data export and deletion across systems on short notice.],
     [Adapted backend logic to meet Chinese market requirements.],
     [*Introduced automated testing as a development practice.*],
     [Partnered with an analyst to develop systems for marketing campaigns and A/B testing.],
