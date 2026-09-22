@@ -457,7 +457,7 @@
   facts: (
     [Created #link("https://feeds.fun/")[Feeds Fun], a news reader with LLM-based tagging — #link("https://github.com/Tiendil/feeds.fun")[*nearly 400 GitHub stars*].],
     [*Refined engineering management approach* via #link("https://tiendil.org/en/tags/vantage-on-management")[essays on team autonomy and scientific practices].],
-    [*Built AI coding-agent harness tools*: #link("https://github.com/Tiendil/donna")[Donna], #link("https://github.com/Tiendil/depmesh")[DepMesh] — published #link("https://tiendil.org/en/posts/notes-on-coding-agents")[findings].],
+    [*Built AI coding-agent tools* for workflow control and project-context discovery: #link("https://github.com/Tiendil/donna")[Donna], #link("https://github.com/Tiendil/depmesh")[DepMesh].],
     [Completed the #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[World Builders] *program in entertainment IP development* — published #link("https://tiendil.org/en/tags/world-builders-2023")[essays].],
     [#link("https://tiendil.org/en/posts/rust-the-language-things-get-rewritten-in")[Explored Rust] with an emphasis on game-logic programming and system reliability.],
   ),
