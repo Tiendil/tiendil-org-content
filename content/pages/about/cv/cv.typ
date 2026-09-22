@@ -363,7 +363,9 @@
   #grid(
     columns: (1.05fr, 1.8fr, 1.05fr),
     column-gutter: 12pt,
-    align: (left, horizon),
+    align: left + top,
+    // Match the first contact lines' inset from their padded icons.
+    inset: (0pt, (top: 6pt), 0pt),
     [
       #stack(
         dir: ttb,
