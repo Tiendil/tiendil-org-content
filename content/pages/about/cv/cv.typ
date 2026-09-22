@@ -156,7 +156,7 @@
     [#text(..text_style_section_title)[#title]],
     [#line(length: 100%, stroke: 1.25pt + color_section_rule)],
   )
-  #v(0.25em)
+  #v(0.05em)
 ]
 
 #let expertise_columns = 2
