@@ -404,7 +404,7 @@
 ///////
 
 #intro[
-  *Hands-on engineering leader* with two decades of experience. My work centers on building *high‑autonomy teams* with *strong engineering culture* and *product ownership*. I see team structure, processes, and architecture as parts of the product and evolve them together. My technical expertise ranges from deterministic game logic in C++ to cloud-based payment systems in Python, and from code analysis to AI-based systems.
+  *Hands-on engineering leader* with two decades of experience. My work centers on building *high‑autonomy teams* with *strong engineering culture* and *product ownership*. I see team structure, processes, and architecture as parts of the product and evolve them together. My expertise ranges from game logic in C++ to cloud-based payment systems in Python; from code analysis to AI-based systems.
 ]
 
 #section[Hire Me When]
@@ -479,7 +479,7 @@
     [The platform was *integrated into 3 portfolio companies*.],
     [*Built and led a remote-first core team of 7 engineers*.],
     "Hired, onboarded, and mentored engineers, gradually transferring system ownership to them.",
-    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach to evolving architecture and engineering processes].],
+    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach to evolving architecture and engineering processes]. Most engineers wrote their first RFC during probation.],
     [Established a delivery process with *multiple releases per week and on-demand feature shipping*.],
     "Designed resilient payment flows with idempotency, safe retries, provider fallback, and state recovery.",
     [*Identified concurrency bugs in major Python libraries* (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]) and prevented them from affecting our systems; related redis-py issues later caused #link("https://openai.com/blog/march-20-
