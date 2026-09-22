@@ -626,6 +626,9 @@
 
 #panel[
   - All em dashes in this CV are human-made.
+  - I'm a Emacs user since around 2008.
+  - My blog runs on an open-source engine I built myself. MCP server included.
+  - Players of my game The Tale wrote 1000+ fanfiction stories about the game world.
   - Won a second diploma (3rd place) in the quarter-final of ACM ICPC Western Subregion 2006.
   - I regularly publish #link("https://tiendil.org")[long-form essays] about complex topics I have studied and questions where I have a strong opinion.
 ]
