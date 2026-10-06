@@ -30,8 +30,9 @@ alt = "Скриншот дашборда активности игроков Mon
 
 Разработчики [Monsters & Memories](https://monstersandmemories.com/) открыли часть [метрик игры](https://account.monstersandmemories.com/metrics), **включая количество подписчиков**. Это редкость в индустрии и заслуживает всяческого уважения. К сожалению, на официальной странице статистики доступны только актуальные метрики, без истории. Чтобы исправить это, я начал делать почасовые снимки метрик. Одно за другим и за 4 дня я навайбкодил целый дашборд.
 
-Дашборд: https://tiendil.github.io/monsters-and-memories-stats/
-Репозиторий: https://github.com/Tiendil/monsters-and-memories-stats
+Дашборд: [tiendil.github.io/monsters-and-memories-stats](https://tiendil.github.io/monsters-and-memories-stats)
+
+Репозиторий: [github.com/Tiendil/monsters-and-memories-stats](https://github.com/Tiendil/monsters-and-memories-stats)
 
 Что на нём можно найти:
 

@@ -30,8 +30,9 @@ alt = "Screenshot of the Monsters & Memories player activity dashboard"
 
 The [Monsters & Memories](https://monstersandmemories.com/) developers have made some of the [game's metrics](https://account.monstersandmemories.com/metrics) public, **including subscriber counts**. That kind of openness is rare in the industry and deserves a lot of respect. Sadly, the official statistics page shows only the current metrics, not the history. To fix that, I started collecting hourly snapshots of the data. One thing led to another, and four days later I'd vibe-coded a whole dashboard.
 
-Dashboard: https://tiendil.github.io/monsters-and-memories-stats/
-Repository: https://github.com/Tiendil/monsters-and-memories-stats
+Dashboard: [tiendil.github.io/monsters-and-memories-stats](https://tiendil.github.io/monsters-and-memories-stats)
+
+Repository: [github.com/Tiendil/monsters-and-memories-stats](https://github.com/Tiendil/monsters-and-memories-stats)
 
 Here's what you'll find:
 
