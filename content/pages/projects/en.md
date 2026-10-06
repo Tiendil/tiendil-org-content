@@ -65,11 +65,12 @@ Simple changelog manager with the idea that humans write changelogs for humans, 
 
 A character name generator. Supports English and Russian. Generates all cases in Russian. Used in The Tale.
 
-## GPTs
+### Monsters & Memories player activity dashboard
 
-- [Expert](https://chatgpt.com/g/g-c7aWJe3CN-expert) — Give profound professional answers.
-- [Abstractor](https://chatgpt.com/g/g-sN3k8IPLq-abstractor) — You give a long text, a link, or a PDF to the network and receive a summary (abstract) plus a set of important facts and statements from the text.
-- [Ontology Master](https://chatgpt.com/g/g-T1xz0gAMI-ontology-master) — input a term, get a tree of its ontological neighborhood/classification. Convenient when studying a new area and wanting to understand its structure.
+- Site: https://tiendil.github.io/monsters-and-memories-stats/
+- GitHub: [github.com/Tiendil/monsters-and-memories-stats](https://github.com/Tiendil/monsters-and-memories-stats)
+
+The [Monsters & Memories](https://monstersandmemories.com/) developers have made some of the [game's metrics](https://account.monstersandmemories.com/metrics) public, **including subscriber counts**. That kind of openness is rare in the industry and deserves a lot of respect. Sadly, the official statistics page shows only the current metrics, not the history. To fix that, I started collecting hourly snapshots of the data. One thing led to another, and I ended up vibe-coding a whole dashboard.
 
 ## Not maintained
 
@@ -112,3 +113,9 @@ A library for generating Russian text from templates taking into account word de
 <!-- - [More details](/en/automatic-quests-generator) -->
 
 A generator for non-linear quests with conditions. Outputs a quest graph ([examples](https://github.com/the-tale/questgen/tree/master/svgs)). Used in The Tale. I do not plan to develop it further, but it can serve as an example of where to move in procedural quest generation.
+
+## GPTs
+
+- [Expert](https://chatgpt.com/g/g-c7aWJe3CN-expert) — Give profound professional answers.
+- [Abstractor](https://chatgpt.com/g/g-sN3k8IPLq-abstractor) — You give a long text, a link, or a PDF to the network and receive a summary (abstract) plus a set of important facts and statements from the text.
+- [Ontology Master](https://chatgpt.com/g/g-T1xz0gAMI-ontology-master) — input a term, get a tree of its ontological neighborhood/classification. Convenient when studying a new area and wanting to understand its structure.
