@@ -67,7 +67,7 @@ A character name generator. Supports English and Russian. Generates all cases in
 
 ### Monsters & Memories player activity dashboard
 
-- Site: [tiendil.github.io/monsters-and-memories-stats/](https://tiendil.github.io/monsters-and-memories-stats/)
+- Site: [tiendil.github.io/monsters-and-memories-stats](https://tiendil.github.io/monsters-and-memories-stats)
 - GitHub: [github.com/Tiendil/monsters-and-memories-stats](https://github.com/Tiendil/monsters-and-memories-stats)
 
 The [Monsters & Memories](https://monstersandmemories.com/) developers have made some of the [game's metrics](https://account.monstersandmemories.com/metrics) public, **including subscriber counts**. That kind of openness is rare in the industry and deserves a lot of respect. Sadly, the official statistics page shows only the current metrics, not the history. To fix that, I started collecting hourly snapshots of the data. One thing led to another, and I ended up vibe-coding a whole dashboard.
