@@ -68,7 +68,7 @@ Donna выполняет сценарии как детерминированн�
 
 ### Дашборд активности игроков Monsters & Memories
 
-- Сайт: https://tiendil.github.io/monsters-and-memories-stats/
+- Сайт: [tiendil.github.io/monsters-and-memories-stats/](https://tiendil.github.io/monsters-and-memories-stats/)
 - GitHub: [github.com/Tiendil/monsters-and-memories-stats](https://github.com/Tiendil/monsters-and-memories-stats)
 
 Разработчики [Monsters & Memories](https://monstersandmemories.com/) открыли часть [метрик игры](https://account.monstersandmemories.com/metrics), **включая количество подписчиков**. Это редкость в индустрии и заслуживает всяческого уважения. К сожалению, на официальной странице статистики доступны только актуальные метрики, без истории. Чтобы исправить это, я начал делать почасовые снимки метрик. Одно за другим и я навайбкодил целый дашборд.
