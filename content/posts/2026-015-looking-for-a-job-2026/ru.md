@@ -3,10 +3,13 @@ title = "Ищу работу: CTO, Engineering Manager, Tech Lead"
 tags = [ "practice",]
 published_at = "2026-10-14T12:00:00+00:00"
 seo_description = "Ищу работу: CTO, Engineering Manager, Tech Lead. 20 лет в разработке, 13 — в геймдеве."
-seo_image = ""
+seo_image = "./cover.jpg"
 ---
 
-<!-- TODO: cover image -->
+/// brigid-images
+src = "./cover.jpg"
+caption = "One more time."
+///
 
 Недавно я [закончил творческий отпуск]{post:the-results-of-the-sabbatical-2024-2026} — пришло время искать работу.
 
