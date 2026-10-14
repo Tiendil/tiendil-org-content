@@ -49,7 +49,7 @@ What I'm not considering:
 - In-office work.
 - Outsourcing or staff augmentation.
 - Companies operating in sanctioned countries in any capacity.
-- Products in ethical gray areas: crypto, gambling, dating services.
+- Products in ethical gray areas: crypto, gambling, dating services, etc.
 
 If I sound like a good fit, drop me a few lines about your product, team, and the challenge you'd like my help with:
 
