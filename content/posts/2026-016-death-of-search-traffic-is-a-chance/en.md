@@ -2,7 +2,7 @@
 title = "The death of search traffic is a chance for the return of old-school internet"
 tags = [ "theory", "society", "futurology", "monetization", "neural-networks", "large-language-models"]
 published_at = "2026-11-02T12:00:00+00:00"
-seo_description = "The death of search traffic due to AI may push platforms to switch their KPIs from optimizing passive content consumption to optimizing active user interaction."
+seo_description = "The death of search traffic due to AI may push platforms to switch KPIs from optimizing passive content consumption to optimizing active user interaction."
 seo_image = ""
 ---
 
