@@ -6,7 +6,7 @@ seo_description = "The death of search traffic due to AI may push platforms to s
 seo_image = ""
 ---
 
-There is a steadily growing whining (?) about the negative impact of AI answers in Google search (and other AI tools) on website traffic. Stack Overflow seems dead already; Reddit is planning to wall itself off and hide posts behind a login.
+There is a steadily growing whining about the negative impact of AI answers in Google search (and other AI tools) on website traffic. Stack Overflow seems dead already; Reddit is planning to wall itself off and hide posts behind a login.
 
 According to platform owners, death is coming for everyone. Pretty much like it already did when Google started showing snippets from posts directly in search results. Only scarier and more deadly.
 
