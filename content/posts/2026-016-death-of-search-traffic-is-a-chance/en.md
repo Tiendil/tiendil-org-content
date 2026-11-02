@@ -33,3 +33,5 @@ Optimization for views has enshittified the internet, exactly as you'd expect fr
 The death of passive user monetization gives the internet a chance to heal. And, of course, a chance for new major platforms to emerge.
 
 In other words, we need to shift our KPIs from "how much content users consume" to something like "how actively users interact with each other" => make it easier for people to interact/communicate.
+
+P.S. By the way, if a person posts something to the internet, they usually want their opinion to be seen by as many people as possible. Therefore, restricting access to a platform will only lead to a gradual decrease in the number of people who post/respond.
