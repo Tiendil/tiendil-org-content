@@ -382,7 +382,7 @@
           dir: ttb,
           spacing: 7pt,
           text(..text_style_header_name)[Aliaksei Yaletski],
-          text(..text_style_header_role)[Founding~CTO~·~Engineering~Manager~·~Tech~Lead],
+          text(..text_style_header_role)[Founding~CTO~·~Engineering~Manager~·~Lead],
           text(..text_style_header_note)[Get the latest CV here: #link("https://tiendil.org/cv")[tiendil.org/cv]],
         )
       ]
@@ -454,8 +454,7 @@
   "Professional sabbatical",
   description: [Read #link("https://tiendil.org/en/posts/the-results-of-the-sabbatical-2024-2026")[the full report] on my blog.],
   practices: ("R&D", "Technical Writing"),
-  // "FastAPI", "Vue" removed to save a line
-  technologies: ("Python", "TypeScript", "Rust", "PostgreSQL", "LLMs"),
+  technologies: ("Python", "TypeScript", "Rust", "PostgreSQL", "LLMs", "FastAPI", "Vue", "Coding Agents"),
   facts: (
     [Created #link("https://feeds.fun/")[Feeds Fun], a news reader with LLM-based tagging — #link("https://github.com/Tiendil/feeds.fun")[*nearly 400 GitHub stars*].],
     [*Refined engineering management approach* via #link("https://tiendil.org/en/tags/vantage-on-management")[essays on team autonomy and scientific practices].],
