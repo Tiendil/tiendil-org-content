@@ -1,5 +1,6 @@
 title = "Эмерджентный Блог"
 subtitle = "Эссе о разработке софта, мышлении и книгах"
+status = "<a href='/ru/posts/looking-for-a-job-2026' style='text-decoration-line: underline !important; text-underline-offset: 2px !important; text-decoration-color: rgb(234, 88, 12) !important; font-weight: 500 !important;'>Ищу работу</a> — CTO, Engineering Manager, Lead"
 author = "Елецкий Алексей (Tiendil)"
 
 footer_extra = [

@@ -1,5 +1,6 @@
 title = "Emergent Blog"
 subtitle = "Essays about software development, thinking, and books"
+status = "<a href='/en/posts/looking-for-a-job-2026' style='text-decoration-line: underline !important; text-underline-offset: 2px !important; text-decoration-color: rgb(234, 88, 12) !important; font-weight: 500 !important;'>Looking for a job</a> — CTO, Engineering Manager, Lead"
 author = "Aliaksei Yaletski (Tiendil)"
 
 footer_extra = [
