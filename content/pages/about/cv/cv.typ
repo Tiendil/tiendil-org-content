@@ -406,7 +406,7 @@
 ///////
 
 #intro[
-  *Hands-on engineering leader* with two decades of experience. My work centers on building *high‑autonomy teams* with *strong engineering culture* and *product ownership*. I see team structure, processes, and architecture as parts of the product and evolve them together. My expertise ranges from game logic in C++ to cloud-based payment systems in Python; from code analysis to AI-based systems.
+  Engineering leader with *two decades of hands-on experience*. My work centers on building *high‑autonomy teams* with *strong engineering culture* and *product ownership*. I see team structure, processes, and architecture as parts of the product and develop them together. My expertise ranges from game logic in C++ to cloud payment systems in Python; from code analysis to AI-based systems.
 ]
 
 #section[Hire Me When]
@@ -417,12 +417,12 @@
   row-gutter: 0pt,
   narrative_block(
     "You start a product from zero",
-    [I'll bootstrap the team, architecture, and processes so we can validate hypotheses early and scale or pivot with less rework. I'll prototype where needed to inform design decisions.]
+    [I'll bootstrap the team, architecture, and processes so we can validate hypotheses early and scale or pivot the product with less rework. I'll prototype what's needed to inform design decisions.]
   ),
 
   narrative_block(
     "You need long-term product success",
-    [I'll evolve the team, architecture, and processes in line with long-term goals and risks. I'll establish knowledge flow, quality automation, and high-frequency delivery required for sustained growth.],
+    [I'll develop the team, architecture, and processes in line with long-term goals and risks. I'll establish the knowledge flow, quality automation, and high-frequency delivery required for sustained growth.],
 
   ),
 )
@@ -442,7 +442,7 @@
   narrative_block(
     "As a technical leader",
     [
-      I stay directly involved in architecture and critical systems, and mentor through shared ownership, design work, and deep code review.
+      I stay directly involved in architecture and critical systems, and mentor the team through shared ownership, design work, and deep code review.
     ],
   ),
 )
@@ -479,9 +479,9 @@
   technologies: ("AWS", "Python", "TypeScript", "PostgreSQL", "Redis", "FastAPI"),
   facts: (
     [The platform was *integrated into 3 portfolio companies*.],
-    [*Built and led a remote-first core team of 7 engineers*.],
+    [*Assembled and led a remote-first core team of 7 engineers*.],
     "Hired, onboarded, and mentored engineers, gradually transferring system ownership to them.",
-    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach to evolving architecture and engineering processes]. Most engineers wrote their first RFC during probation.],
+    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach to architecture evolution and engineering processes]. The majority of engineers wrote their first RFC during probation.],
     [Established a delivery process with *multiple releases per week and on-demand feature shipping*.],
     "Designed resilient payment flows with idempotency, safe retries, provider fallback, and state recovery.",
     [*Identified concurrency bugs in major Python libraries* (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]) and prevented them from affecting our systems; related redis-py issues later caused #link("https://openai.com/blog/march-20-chatgpt-outage")[*an OpenAI outage*].]
