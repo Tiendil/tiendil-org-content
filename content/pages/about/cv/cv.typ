@@ -383,7 +383,7 @@
           spacing: 7pt,
           text(..text_style_header_name)[Aliaksei Yaletski],
           text(..text_style_header_role)[Founding~CTO~·~Engineering~Manager~·~Lead],
-          text(..text_style_header_note)[Get the latest CV here: #link("https://tiendil.org/cv")[tiendil.org/cv]],
+          text(..text_style_header_note)[Get the latest CV here: #link("https://tiendil.org/cv?utm_source=cv")[tiendil.org/cv]],
         )
       ]
     ],
@@ -392,7 +392,7 @@
         #stack(
           dir: ttb,
           spacing: 0pt,
-          header_icon_value("icons/blog.svg", [#link("https://tiendil.org")[tiendil.org]]),
+          header_icon_value("icons/blog.svg", [#link("https://tiendil.org?utm_source=cv")[tiendil.org]]),
           header_icon_value("icons/github.svg", [#link("https://github.com/tiendil")[github.com/tiendil]]),
           header_icon_value("icons/linkedin.svg", [#link("https://linkedin.com/in/tiendil")[linkedin.com/in/tiendil]]),
         )
@@ -452,16 +452,16 @@
 #project_entry(
   "2024-2026",
   "Professional sabbatical",
-  description: [Read #link("https://tiendil.org/en/posts/the-results-of-the-sabbatical-2024-2026")[the full report] on my blog.],
+  description: [Read #link("https://tiendil.org/en/posts/the-results-of-the-sabbatical-2024-2026?utm_source=cv")[the full report] on my blog.],
   practices: ("R&D", "Technical Writing"),
   // commented to save a line "FastAPI", "Vue", "Coding Agents"
   technologies: ("Python", "TypeScript", "Rust", "PostgreSQL", "LLMs"),
   facts: (
     [Created #link("https://feeds.fun/")[Feeds Fun], a news reader with LLM-based tagging — #link("https://github.com/Tiendil/feeds.fun")[*nearly 400 GitHub stars*].],
-    [*Refined engineering management approach* via #link("https://tiendil.org/en/tags/vantage-on-management")[essays on team autonomy and scientific practices].],
+    [*Refined engineering management approach* via #link("https://tiendil.org/en/tags/vantage-on-management?utm_source=cv")[essays on team autonomy and scientific practices].],
     [*Built AI coding-agent tools* for workflow control and project-context discovery: #link("https://github.com/Tiendil/donna")[Donna], #link("https://github.com/Tiendil/depmesh")[DepMesh].],
-    [Completed an #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[*entertainment IP development program*]\; see #link("https://tiendil.org/en/posts/making-a-fictional-universe-quantity-survey-processing")[audience research] and a #link("https://tiendil.org/en/posts/world-builders-2023-business-plan-example")[business plan].],
-    [#link("https://tiendil.org/en/posts/rust-the-language-things-get-rewritten-in")[Explored Rust] with an emphasis on game-logic programming and system reliability.],
+    [Completed an #link("https://www.linkedin.com/company/madcrusaderacademy/about/")[*entertainment IP development program*]\; see #link("https://tiendil.org/en/posts/making-a-fictional-universe-quantity-survey-processing?utm_source=cv")[audience research] and a #link("https://tiendil.org/en/posts/world-builders-2023-business-plan-example?utm_source=cv")[business plan].],
+    [#link("https://tiendil.org/en/posts/rust-the-language-things-get-rewritten-in?utm_source=cv")[Explored Rust] with an emphasis on game-logic programming and system reliability.],
   ),
 )
 
@@ -481,7 +481,7 @@
     [The platform was *integrated into 3 portfolio companies*.],
     [*Assembled and led a remote-first core team of 7 engineers*.],
     "Hired, onboarded, and mentored engineers, gradually transferring system ownership to them.",
-    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics")[an RFC-driven approach to architecture evolution and engineering processes]. The majority of engineers wrote their first RFC during probation.],
+    [Established #link("https://tiendil.org/en/posts/two-years-writing-rfc-statistics?utm_source=cv")[an RFC-driven approach to architecture evolution and engineering processes]. The majority of engineers wrote their first RFC during probation.],
     [Established a delivery process with *multiple releases per week and on-demand feature shipping*.],
     "Designed resilient payment flows with idempotency, safe retries, provider fallback, and state recovery.",
     [*Identified concurrency bugs in major Python libraries* (#link("https://github.com/redis/redis-py/issues/2540")[redis-py], #link("https://github.com/psycopg/psycopg/issues/509")[psycopg]) and prevented them from affecting our systems; related redis-py issues later caused #link("https://openai.com/blog/march-20-chatgpt-outage")[*an OpenAI outage*].]
@@ -491,7 +491,7 @@
 #project_entry(
   "2019-2021",
   "Professional sabbatical",
-  description: [Read #link("https://tiendil.org/en/posts/the-results-of-the-sabbatical-2019-2021")[the full report] on my blog.],
+  description: [Read #link("https://tiendil.org/en/posts/the-results-of-the-sabbatical-2019-2021?utm_source=cv")[the full report] on my blog.],
   practices: ("Technical Writing", "Game Design"),
   technologies: ("Python", "Julia", "Deep Neural Networks"),
   facts: (
@@ -553,8 +553,8 @@
     [*Built a core team and coordinated volunteers*.],
     [*Designed advanced game systems*: a player-shaped persistent world, player-driven economy and governance, autonomous NPCs with dynamic personalities, and player-authored entity lore.],
     [Implemented automated quality control, *enabling development without dedicated QA*.],
-    [Developed advanced procedural generators for #link("https://github.com/the-tale/utg")[Russian text], #link("https://tiendil.org/en/posts/automatic-quests-generator")[quests], and the world map.],
-    [Open-sourced #link("https://github.com/the-tale")[the code] and #link("https://tiendil.org/ru/posts/the-tale-lore-cc-by")[the game lore].]
+    [Developed advanced procedural generators for #link("https://github.com/the-tale/utg")[Russian text], #link("https://tiendil.org/en/posts/automatic-quests-generator?utm_source=cv")[quests], and the world map.],
+    [Open-sourced #link("https://github.com/the-tale")[the code] and #link("https://tiendil.org/ru/posts/the-tale-lore-cc-by?utm_source=cv")[the game lore].]
   ),
 )
 
@@ -632,7 +632,7 @@
   - My blog runs on an open-source engine I built myself. MCP server included.
   - Players of my game The Tale wrote 1000+ fanfiction stories set in its world.
   - Placed 3rd in the 2006 ACM ICPC Western Subregion quarterfinal.
-  - I regularly publish #link("https://tiendil.org")[long-form essays] on complex topics I've studied and questions I have strong opinions on.
+  - I regularly publish #link("https://tiendil.org?utm_source=cv")[long-form essays] on complex topics I've studied and questions I have strong opinions on.
 ]
 
 /////////
